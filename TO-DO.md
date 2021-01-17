@@ -1,0 +1,3 @@
+#MAGISTRSKA NALOGA - TO-DO
+
+1.
