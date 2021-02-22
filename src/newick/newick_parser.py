@@ -596,7 +596,7 @@ class Queue(object):
     def __len__(self):
         return len(self.queue)
 
-    def next():
+    def next(self):
         """ Python 2.x / 3.x compatibility hack """
         return self.__next__()
 
