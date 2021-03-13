@@ -1,4 +1,4 @@
-import collections
+import collections,sys
 from io import StringIO
 
 # https://github.com/golang/go/blob/master/src/text/template/parse/lex.go
@@ -38,6 +38,8 @@ class Stream(object):
         return self._stream.closed
     def read_next(self):
         return self._next
+    def close(self):
+        return self._stream.close()
 
 
 class Token(object):
@@ -62,7 +64,6 @@ class Lex(object):
 
     def remove_spaces(self):
         while self.stream.read_next().isspace():
-            print("Usao")
             next(self.stream)
 
     def _get_leaf_distance(self):
@@ -77,14 +78,12 @@ class Lex(object):
                 break
         return distance
 
-
-
     def start_tree(self):
+        if self.stream.closed():
+            return sys.exit()
         for token in self.stream:
             if token == '(':
                 break
-        if self.stream.closed():
-            self.token = Token('EOF',-1)
         self.token = Token('TREE','')
         return self.start_subtree
 
@@ -96,7 +95,6 @@ class Lex(object):
             next(self.stream)
         else:
             self.token = Token('LEAF',None)
-            next(self.stream)
         return self.tree_label
 
     def tree_label(self):
@@ -111,6 +109,8 @@ class Lex(object):
         if token == ":":
             next(self.stream)
             dist = float(self._get_leaf_distance())
+        elif token == ";":
+            return self.end_subtree
         else:
             dist = None
         self.token = Token('DISTANCE',dist)
@@ -119,34 +119,27 @@ class Lex(object):
     def end_subtree(self):
         self.remove_spaces()
         token = self.stream.read_next()
-
         if token == ';':
-            self.token = Token('EOF','ENDTREE')
+            self.token = Token('ENDTREE','EOF')
+            self.stream.close()
+            return self.start_tree
+        elif token == ',':
             next(self.stream)
-            return self.start_tree()
+            return self.start_subtree
+        elif token == ')':
+            self.token = Token('ENDSUBTREE')
+            next(self.stream)
+            return self.label_length
 
-
-
-
-
-
-    # def make_tokens(self):
-    #     for token in self.stream:
-    #         if token == '(':
-    #             self.tokens.append()
-
+class Parsers(object):
+    pass
 
 if __name__ == "__main__":
     it = Item("Gojko",3)
-    stream  = StringIO("((2:2.000000,(1:4.000000, 0:1.000000):1.000000):1.000000, (4:2.000000, 3:3.000000):1.000000,5:5.00000);")
+    stream = StringIO("((2:2.000000,(1:4.000000, 0:1.000000):1.000000):1.000000, (4:2.000000, 3:3.000000):1.000000,5:5.00000);")
     s = Stream("((2:2.000000, (1:4.000000, 0:1.000000):1.000000):1.000000, (4:2.000000, 3:3.000000):1.000000,5:5.00000);")
     l = Lex(s)
 
     for i in l:
         if i != None:
-            print(i.type)
-    # print(next(l.stream))
-    # print(next(l.stream))
-    # print(next(l.stream))
-    # print(l.stream.read_next())
-    # print(l.stream.read_next())
+            print(i.type,i.value)
