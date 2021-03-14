@@ -1,7 +1,13 @@
 import collections,sys
 from io import StringIO
-
+from tree import TreeNode
 # https://github.com/golang/go/blob/master/src/text/template/parse/lex.go
+
+class ParseError(Exception):
+    def __init__(self,message):
+        self.message = message
+        super().__init__(message)
+
 
 """ Represents a token or text string returned from the scanner"""
 Item = collections.namedtuple('Item', ['type','value'])
@@ -93,6 +99,7 @@ class Lex(object):
         if token == '(':
             self.token = Token('SUBTREE')
             next(self.stream)
+            return self.start_subtree
         else:
             self.token = Token('LEAF',None)
         return self.tree_label
@@ -131,15 +138,69 @@ class Lex(object):
             next(self.stream)
             return self.label_length
 
-class Parsers(object):
-    pass
+class Parser(object):
+    def __init__(self,lex):
+        self.lex = lex
+        self.stack = list()
+        self.trees = list()
+        self.internal_nodes = list()
+
+
+    @classmethod
+    def parse_newick_tree(cls,tree_string):
+        stream = Stream(tree_string)
+        lex = Lex(stream)
+        parser = cls(lex)
+        return parser.parse()
+
+    def parse(self):
+        seen_tokens = []
+        for token in self.lex:
+            if token != None:
+                seen_tokens.append(token)
+                # Check for tree start
+                # print(token.type)
+                if token.type == 'TREE':
+                    internal_id = 999
+                    self.internal_nodes.append(internal_id)
+                    root = TreeNode(internal_id,0)
+                    self.trees.append(root)
+                    self.stack.append(root)
+                elif token.type == 'SUBTREE':
+                    self._subtree_start()
+                elif token.type == 'LEAF':
+                    self._add_leaf()
+                elif token.type == 'DISTANCE' and seen_tokens[-2].type == 'ENDSUBTREE':
+                    self._subtree_close(token.value)
+                elif token.type == 'ENDTREE':
+                    return self.trees[0]
+
+
+
+    def _subtree_start(self):
+        internal_node = self.internal_nodes[-1] + 1
+        self.internal_nodes.append(internal_node)
+        subtree_root = TreeNode(internal_node,0)
+        self.stack.append(subtree_root)
+        self.trees.append(subtree_root)
+
+    def _add_leaf(self):
+        label = next(self.lex)
+        if label.type != 'LABEL':
+            raise ParseError("Label expected")
+        value = next(self.lex)
+        leaf = TreeNode(int(label.value),value)
+        self.stack[-1].add_node(leaf)
+
+    def _subtree_close(self,distance):
+        subtree = self.stack.pop()
+        subtree.set_distance(distance)
+        self.trees.pop()
+        self.trees[-1].add_node(subtree)
+
 
 if __name__ == "__main__":
-    it = Item("Gojko",3)
-    stream = StringIO("((2:2.000000,(1:4.000000, 0:1.000000):1.000000):1.000000, (4:2.000000, 3:3.000000):1.000000,5:5.00000);")
-    s = Stream("((2:2.000000, (1:4.000000, 0:1.000000):1.000000):1.000000, (4:2.000000, 3:3.000000):1.000000,5:5.00000);")
-    l = Lex(s)
 
-    for i in l:
-        if i != None:
-            print(i.type,i.value)
+    tree_string = "((2:2.000000,(1:4.000000, 0:1.000000, 9:3.5):1.000000):2.000000, (4:2.000000, 3:3.000000):1.000000,5:5.00000);"
+    tree = Parser.parse_newick_tree(tree_string)
+    print(tree.pre_order_internal())
