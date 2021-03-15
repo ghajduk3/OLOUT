@@ -167,9 +167,6 @@ class KOLO(object):
     def optimal_leaf_ordering(self):
         tree = self._parse_newick_tree()
         optimal_ordered_tree = self._get_optimal_ordered_tree(tree)
-        print(tree.pre_order_internal())
-        print(optimal_ordered_tree.pre_order())
-        # return tree, ordered_leaves
         return tree
 
     def _get_optimal_ordered_tree(self, tree):
@@ -271,81 +268,48 @@ class KOLO(object):
                                 print("Result false", self.M[v.id, u, w], v.id, u, w)
                     print(self.M)
                     return self.M[v.id, l, r]
-    # def _reorder_tree(self,v,D):
-    #
-    #
-    #     L = leaves(v.get_left())
-    #     R = leaves(v.get_right())
-    #
-    #     vl = v.get_left()
-    #     vr = v.get_right()
-    #     if len(L) and len(R):
-    #         def getkey(z):  ##added, this is to replace a lambda function
-    #             u, w = z
-    #             return self.M[v.id, u, w]
-    #         print('------',L,R,v.pre_order_internal())
-    #         if len(L) and len(R):
-    #             print(list(itertools.product(L, R)))
-    #             u, w = min(itertools.product(L, R), key=getkey)  ##updated function
-    #         print(v.id,u,w,L,R)
-    #         if w in leaves(v.get_right().get_left()):
-    #             v.children[1].children[1], v.children[1].children[0] = v.get_right().get_left(), v.get_right().get_right()
-    #         if u in leaves(v.get_left().get_right()):
-    #             v.children[0].children[0], v.children[0].children[1] = v.get_left().get_right(), v.get_left().get_left()
-    #         v.children[0] = self._reorder_tree(v.get_left(), D)
-    #         v.children[1] = self._reorder_tree(v.get_right(), D)
-    #     return v
+
     def _reorder_tree(self,v,D):
-        stack = [v]
-        visited = []
         internal_dummy_nodes = [201]
         internal_dummy_holder = []
-        #     L = leaves(v.get_left())
-        #     R = leaves(v.get_right())
-        #
-        #     vl = v.get_left()
-        #     vr = v.get_right()
-        #     if len(L) and len(R):
-        #         def getkey(z):  ##added, this is to replace a lambda function
-        #             u, w = z
-        #             return self.M[v.id, u, w]
-        #         print('------',L,R,v.pre_order_internal())
-        #         if len(L) and len(R):
-        #             print(list(itertools.product(L, R)))
-        #             u, w = min(itertools.product(L, R), key=getkey)  ##updated function
-        #         print(v.id,u,w,L,R)
-        #         if w in leaves(v.get_right().get_left()):
-        #             v.children[1].children[1], v.children[1].children[0] = v.get_right().get_left(), v.get_right().get_right()
-        #         if u in leaves(v.get_left().get_right()):
-        #             v.children[0].children[0], v.children[0].children[1] = v.get_left().get_right(), v.get_left().get_left()
-        # Set current to root of binary tree
-        current = v
-        stack = []  # initialize stack
-        done = 0
-        while True:
+        L = leaves(v.get_left())
+        R = leaves(v.get_right())
 
-            # Reach the left most Node of the current Node
-            if current is not None:
+        vl = v.get_left()
+        vr = v.get_right()
+        if len(L) and len(R):
+            def getkey(z):  ##added, this is to replace a lambda function
+                u, w = z
+                return self.M[v.id, u, w]
+            if len(L) and len(R):
+                print(list(itertools.product(L, R)))
+                u, w = min(itertools.product(L, R), key=getkey)  ##updated function
+            print(v.id,u,w,L,R)
+            if w in leaves(v.get_right().get_left()):
+                v.children[1].children[1], v.children[1].children[0] = v.get_right().get_left(), v.get_right().get_right()
+            if u in leaves(v.get_left().get_right()):
+                v.children[0].children[0], v.children[0].children[1] = v.get_left().get_right(), v.get_left().get_left()
+            v.children[0] = self._reorder_tree(v.get_left(), D)
+            v.children[1] = self._reorder_tree(v.get_right(), D)
+            print('--------------------',v.id,v.pre_order_internal())
+            self._remove_internal_dummy(v,internal_dummy_nodes)
+        return v
 
-                # Place pointer to a tree node on the stack
-                # before traversing the node's left subtree
-                stack.append(current)
+    def _remove_internal_dummy(self,v,internals):
+        print(v.id,'---------------INTERNAL DUMMIES')
+        for index,child in enumerate(v.children):
+            if child.id in internals:
+                print(child.id,v.pre_order_internal())
+                v.children.remove(child)
+                left_great_child,right_great_child = child.children
+                v.children.insert(0,left_great_child)
+                v.children.insert(1,right_great_child)
+                print(child,left_great_child.id,right_great_child.id,v.children)
 
-                current = current.left
 
-                # BackTrack from the empty subtree and visit the Node
-            # at the top of the stack; however, if the stack is
-            # empty you are done
-            elif (stack):
-                current = stack.pop()
-                print(current.data, end=" ")  # Python 3 printing
 
-                # We have visited the node and its left
-                # subtree. Now, it's right subtree's turn
-                current = current.right
 
-            else:
-                break
+
 
 
 
