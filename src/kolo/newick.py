@@ -11,23 +11,23 @@ class ParseError(Exception):
 
 """ Represents a token or text string returned from the scanner"""
 Item = collections.namedtuple('Item', ['type','value'])
-class StreamIterator:
-    def __init__(self,stream):
-        self._stream = stream
-    def __next__(self):
-        char = self._stream.read(1)
-        if self._stream.closed:
-            raise StopIteration
-        if char == '':
-            self._stream.close()
-            raise StopIteration
-        return char
+# class StreamIterator:
+#     def __init__(self,stream):
+#         self._stream = stream
+#     def __next__(self):
+#         char = self._stream.read(1)
+#         if self._stream.closed:
+#             raise StopIteration
+#         if char == '':
+#             self._stream.close()
+#             raise StopIteration
+#         return char
 
 
 class Stream(object):
     def __init__(self,stream):
         self._stream = StringIO(stream)
-        self._next = self._stream.read(1)
+        # self._next = self._stream.read(1)
     def __next__(self):
         char = self._stream.read(1)
         self._next = char
@@ -143,7 +143,7 @@ class Parser(object):
         self.lex = lex
         self.stack = list()
         self.trees = list()
-        self.internal_nodes = list()
+        self.current_internal = 999
 
 
     @classmethod
@@ -159,13 +159,12 @@ class Parser(object):
             if token != None:
                 seen_tokens.append(token)
                 # Check for tree start
-                # print(token.type)
+                # print(token.type,token.value)
                 if token.type == 'TREE':
-                    internal_id = 999
-                    self.internal_nodes.append(internal_id)
-                    root = TreeNode(internal_id,0)
-                    self.trees.append(root)
-                    self.stack.append(root)
+                    pass
+                    # root = TreeNode(self.current_internal,0)
+                    # self.trees.append(root)
+                    # self.stack.append(root)
                 elif token.type == 'SUBTREE':
                     self._subtree_start()
                 elif token.type == 'LEAF':
@@ -178,9 +177,8 @@ class Parser(object):
 
 
     def _subtree_start(self):
-        internal_node = self.internal_nodes[-1] + 1
-        self.internal_nodes.append(internal_node)
-        subtree_root = TreeNode(internal_node,0)
+        self.current_internal +=1
+        subtree_root = TreeNode(self.current_internal,0)
         self.stack.append(subtree_root)
         self.trees.append(subtree_root)
 
@@ -188,7 +186,7 @@ class Parser(object):
         label = next(self.lex)
         if label.type != 'LABEL':
             raise ParseError("Label expected")
-        value = next(self.lex)
+        value = next(self.lex).value
         leaf = TreeNode(int(label.value),value)
         self.stack[-1].add_node(leaf)
 
@@ -201,6 +199,16 @@ class Parser(object):
 
 if __name__ == "__main__":
 
-    tree_string = "((2:2.000000,(1:4.000000, 0:1.000000, 9:3.5):1.000000):2.000000, (4:2.000000, 3:3.000000):1.000000,5:5.00000);"
-    tree = Parser.parse_newick_tree(tree_string)
-    print(tree.pre_order_internal())
+    # tree_string = "((2:2.000000,(1:4.000000, 0:1.000000, 9:3.5):1.000000):2.000000, (4:2.000000, 3:3.000000):1.000000,5:5.00000);"
+    tree_string_1 = '(3:2.000000,(2:4.000000, (1:3.000000, 0:2.000000):3.000000):2.000000, 4:1.000000);'
+    stream = Stream(tree_string_1)
+
+
+    # le = Lex(stream)
+    # for l in le:
+    #     if l != None:
+    #         pass
+    #         print(l.type,l.value)
+    tree = Parser.parse_newick_tree(tree_string_1)
+    print(tree.children[0].id)
+
