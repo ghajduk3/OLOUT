@@ -26,7 +26,7 @@ def postorder_traverse_radial(node, l):
 #         eta += omega[w]
 #         preorder_traverse_radial(tree, w, v, root, x, l, omega, tau)
 
-def preorder_traverse_radial(node, parent, root_id, x, l, omega, tau):
+def preorder_traverse_radial(node, parent, root_id, x, l, omega, tau,distances):
     node_id = node.get_id()
     print("Current node -",node_id)
     if node.get_id() != root_id:
@@ -36,7 +36,7 @@ def preorder_traverse_radial(node, parent, root_id, x, l, omega, tau):
             angle = tau[node_id] + omega[node_id] /10
         else:
             angle = tau[node_id] + omega[node_id] / 5
-        print(angle,tau[node_id] + omega[node_id],omega[node_id])
+        print(angle,tau[node_id] + omega[node_id],omega[node_id],node.get_distance())
         x[node_id] = x[u_id] + node.get_distance() * np.array((cos(angle), sin(angle)))
     eta = tau[node_id]
     print(eta)
@@ -45,11 +45,43 @@ def preorder_traverse_radial(node, parent, root_id, x, l, omega, tau):
         omega[child_id] = 2 * pi * l[child_id] / l[root_id]
         tau[child_id] = eta
         eta += omega[child_id]
-        preorder_traverse_radial(child, node, root_id, x, l, omega, tau)
+        distances[child_id] = [node_id,child.get_distance()]
+        preorder_traverse_radial(child, node, root_id, x, l, omega, tau,distances)
 # def bottom_up_traverse_radial(node,bottom_up):
 #     for child in node.get_children():
 #         bottom_up_traverse_radial(child,bottom_up)
 #     bottom_up.append(node.get_id())
+def calculate_distance_btw_leaves(ancest_mat,levels,v1,v2):
+    """
+    Calculates distances between v1 and v2
+    """
+    v1_lvl = levels[v1] - 1
+    v2_lvl = levels[v2] - 1
+    v1_path = []
+    v2_path = []
+    dis_1 = 0
+    dis_2 = 0
+    meeting_lvl = min(v1_lvl,v2_lvl)
+    print(v1_lvl,v2_lvl,meeting_lvl)
+    for ind in range(v1_lvl):
+        v1,dis = ancest_mat[v1]
+        v1_path.append((v1,dis))
+    print(v1_path)
+    for ind in range(v2_lvl):
+        v2,dis = ancest_mat[v2]
+        v2_path.append((v2, dis))
+    print(v2_path)
+
+#     First case internal node and a leaf
+#     Second case two leaves on the same path to the root
+#   Internal node and
+
+
+
+
+
+def calculate_pairwise_tree_distances(tree,distances):
+    pass
 def reverse_level_order_traversal(tree):
     """
     Returns deque node,lvl
@@ -65,7 +97,7 @@ def reverse_level_order_traversal(tree):
         for child in node.get_children():
             q.append((child,lvl+1))
     return levels
-def apply_corrections():
+def apply_corrections(node,ordering,reverse_order,omega,tau):
     pass
 
 def get_points_radial(tree):
@@ -80,6 +112,7 @@ def get_points_radial(tree):
     x = {}
     omega = {}
     tau = {}
+    distances = {}
     print("-------------------------------- POCETAK RADIJALNE VIZUALIZACIJE-----------------------------")
     postorder_traverse_radial(tree,l)
     root = tree.get_id()
@@ -89,12 +122,15 @@ def get_points_radial(tree):
     bottom_up = []
 
     # print(l)
-    preorder_traverse_radial(tree, None, root, x, l, omega, tau)
+    preorder_traverse_radial(tree, None, root, x, l, omega, tau,distances)
     reverse_level_order = reverse_level_order_traversal(tree)
-    apply_corrections(tree,ordering,reverse_level_order,omega,tau)
+    # apply_corrections(tree,ordering,reverse_level_order,omega,tau,distances)
     print(tau)
     print(omega)
     print(reverse_level_order_traversal(tree))
+    print(distances)
+    print(calculate_distance_btw_leaves(distances,reverse_level_order,0,1001))
+
     return x
 
 def plot_tree(node,points,plot):

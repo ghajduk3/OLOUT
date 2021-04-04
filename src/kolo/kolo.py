@@ -116,12 +116,12 @@ class KOLO(object):
             RR = leaves(v.get_right().get_right(), v.get_right())
             for l in L:
                 for r in R:
-                    print(l, r, v.get_left().id, v.get_right().id)
+                    print("------- LEFT, RIGHT",l, r, v.get_left().id, v.get_right().id)
                     self.M[v.get_left().id, l, r] = self._produce_optimal_scores(v.get_left(), D, fast=False)
                     self.M[v.get_right().id, l, r] = self._produce_optimal_scores(v.get_right(), D, fast=False)
                     for u in L:
                         for w in R:
-                            print("u,w", u, w, v.id)
+                            print("u,w", u, w, v.id,)
                             if fast:
 
                                 m_order = sorted(other(u, LL, LR), key=lambda m: Mfunc(v.get_left(), u, m))
