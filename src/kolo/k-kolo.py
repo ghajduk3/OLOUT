@@ -2,6 +2,8 @@ import numpy as np
 from scipy.cluster import hierarchy
 import itertools
 import itertools
+from itertools import combinations
+
 import numpy as np
 from scipy.cluster import hierarchy
 from newick import Parser
@@ -69,22 +71,23 @@ class KOLO(object):
         v_children = v.get_children()
         print("----------- WRAPPER----------", v.id)
         if len(v_children) > 2:
-            while len(v.children) >2:
-            # for index,child in enumerate(v.get_children()):
-                new_node = TreeNode(self.int_dummy_node,0)
-                self.internal_dummy_nodes.append(self.int_dummy_node)
-                self.int_dummy_node+=1
-                new_node.add_node(v.children[0])
-                new_node.add_node(v.children[1])
-                print(v.id,v.children)
-                v.children = v.children[2:]
-                print(v.id, v.children)
-                v.children.insert(0,new_node)
-                print(v.id, v.children,v.children[0].id)
-                res = self._optimal_scores(new_node,D,fast)
-                print("----------- WRAPPER OPTIMAL ----------", v.id,v.get_children(),v.get_children()[0].id)
-                if len(v.children) == 2:
-                    self._optimal_scores(v,D,fast)
+
+            # while len(v.children) >2:
+            # # for index,child in enumerate(v.get_children()):
+            #     new_node = TreeNode(self.int_dummy_node,0)
+            #     self.internal_dummy_nodes.append(self.int_dummy_node)
+            #     self.int_dummy_node+=1
+            #     new_node.add_node(v.children[0])
+            #     new_node.add_node(v.children[1])
+            #     print(v.id,v.children)
+            #     v.children = v.children[2:]
+            #     print(v.id, v.children)
+            #     v.children.insert(0,new_node)
+            #     print(v.id, v.children,v.children[0].id)
+            #     res = self._optimal_scores(new_node,D,fast)
+            #     print("----------- WRAPPER OPTIMAL ----------", v.id,v.get_children(),v.get_children()[0].id)
+            #     if len(v.children) == 2:
+            #         self._optimal_scores(v,D,fast)
             return res
 
         else:
@@ -191,9 +194,6 @@ class KOLO(object):
         return Parser.parse_newick_tree(self.newick_tree)
 
 
-
-
-
 if __name__ == "__main__":
     dis = np.array([[0, 5, 4, 7, 6, 8],
                     [5, 0, 7, 10, 9, 11],
@@ -208,20 +208,20 @@ if __name__ == "__main__":
                        [8, 9, 7, 3, 0]])
 
     tree_string = "((2:2.000000,(1:4.000000, 0:1.000000):1.000000):2.000000, (4:2.000000, 3:3.000000):1.000000,5:5.00000);"
-    tree_string_1 = '(3:2.000000,4:1.000000,(2:4.000000, (1:3.000000, 0:2.000000):3.000000):2.000000);'
-    kolo_data = KOLO(tree_string,dis)
-    # ordered_tree, ordered_leaves = kolo_data.optimal_leaf_ordering()
+    tree_string_1 = '(4:1.000000, (2:4.000000, (1:3.000000, 0:2.000000):3.000000):2.000000,3:2.000000);'
+    kolo_data = KOLO(tree_string_1,dis1)
+    ordered_tree, ordered_leaves = kolo_data.optimal_leaf_ordering()
+    # print(ordered_tree.pre_order_internal())
     # print(ordered_leaves)
     # raw_newick = Parser.parse_newick_tree(tree_string_1)
     # print(raw_newick.children)
     #
     # radial_points_raw = get_points_radial(raw_newick)
-    fig,(ax1,ax2) = plt.subplots(1,2)
+    # fig,(ax1,ax2) = plt.subplots(1,2)
     # plot_tree(raw_newick,radial_points_raw,ax1)
-    ordered_tree, ordered_leaves = kolo_data.optimal_leaf_ordering()
-    print(ordered_leaves,ordered_tree.pre_order_internal())
-    plot_tree(ordered_tree,get_points_radial(ordered_tree),ax2)
+    # ordered_tree, ordered_leaves = kolo_data.optimal_leaf_ordering()
+    # print(ordered_leaves)
+    # plot_tree(ordered_tree,get_points_radial(ordered_tree),ax2)
 
-    plt.show()
-    fig.show()
-
+    # plt.show()
+    # fig.show()
