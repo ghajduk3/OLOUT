@@ -14,17 +14,55 @@ def postorder_traverse_radial(node, l):
             l[node_id] += l[w_id]
 
 
-# def preorder_traverse_radial(tree, v, parent, root, x, l, omega, tau):
-#     if v != root:
-#         u = parent
-#         angle = tau[v] + omega[v] / 2
-#         x[v] = x[u] + get_distance(tree, u, v) * np.array((cos(angle), sin(angle)))
-#     eta = tau[v]
-#     for w in get_children(tree, v):
-#         omega[w] = 2 * pi * l[w] / l[root]
-#         tau[w] = eta
-#         eta += omega[w]
-#         preorder_traverse_radial(tree, w, v, root, x, l, omega, tau)
+
+
+def LCA(ancestors_matrix, level_matrix, v1 , v2):
+
+    # print("V1,V2", v1,v2)
+    if level_matrix[v1][0] - 1 > level_matrix[v2][0] - 1:
+        v1,v2 = v2, v1
+    # print("Swapped V1,V2",v1,v2)
+    lvl_diff = (level_matrix[v2][0] - 1) - (level_matrix[v1][0] - 1)
+    # print(lvl_diff)
+    travel_dis_1 = 0
+    travel_dis_2 = 0
+    while lvl_diff > 0:
+        v2,dist = ancestors_matrix[v2]
+        lvl_diff-=1
+        travel_dis_2 += dist
+        # print("V2 after leveling", v2)
+
+    # print("V2 after leveling",v2)
+    if v1 == v2:
+        # print(travel_dis_1,travel_dis_2)
+        return travel_dis_1 + travel_dis_2
+    # print(v1,v2)
+    while ancestors_matrix[v1][0] != ancestors_matrix[v2][0]:
+        v1,dis1 = ancestors_matrix[v1]
+        v2,dis2 = ancestors_matrix[v2]
+        travel_dis_1+=dis1
+        travel_dis_2+=dis2
+        # print("Level up", v1, v2)
+    travel_dis_1 += ancestors_matrix[v1][1]
+    travel_dis_2 += ancestors_matrix[v2][1]
+    # print(travel_dis_1,travel_dis_2)
+    return travel_dis_1 + travel_dis_2
+
+def reverse_level_order_traversal(tree):
+    """
+    Returns deque node,lvl
+    """
+    q = deque()
+    q.append((tree,1,None))
+    levels = {}
+    while q:
+        node,lvl,parent = q.popleft()
+        if node is None:
+            continue
+        levels[node.get_id()] = (lvl,parent)
+        for child in node.get_children():
+            q.append((child,lvl+1,node.get_id()))
+    return levels
 
 def preorder_traverse_radial(node, parent, root_id, x, l, omega, tau,distances):
     node_id = node.get_id()
@@ -32,11 +70,11 @@ def preorder_traverse_radial(node, parent, root_id, x, l, omega, tau,distances):
     if node.get_id() != root_id:
         u = parent
         u_id = u.get_id()
-        if node_id == 10000  :
-            angle = tau[node_id] + omega[node_id] /10
-        else:
-            angle = tau[node_id] + omega[node_id] / 5
-        print(angle,tau[node_id] + omega[node_id],omega[node_id],node.get_distance())
+        # if node_id == 5 or node_id == 1003 or node_id == 4 or node_id == 3 or node_id == 1001:
+        #     angle = tau[node_id] + omega[node_id] /5
+        # else:
+        angle = tau[node_id] + omega[node_id] / 2
+        print(angle,tau[node_id],omega[node_id],node.get_distance())
         x[node_id] = x[u_id] + node.get_distance() * np.array((cos(angle), sin(angle)))
     eta = tau[node_id]
     print(eta)
@@ -47,58 +85,34 @@ def preorder_traverse_radial(node, parent, root_id, x, l, omega, tau,distances):
         eta += omega[child_id]
         distances[child_id] = [node_id,child.get_distance()]
         preorder_traverse_radial(child, node, root_id, x, l, omega, tau,distances)
-# def bottom_up_traverse_radial(node,bottom_up):
-#     for child in node.get_children():
-#         bottom_up_traverse_radial(child,bottom_up)
-#     bottom_up.append(node.get_id())
-def calculate_distance_btw_leaves(ancest_mat,levels,v1,v2):
+def apply_corrections(tree,level_matrix,omega,tau,distances):
     """
-    Calculates distances between v1 and v2
+    Applies angle corrections regarding to distance from the first node in ordering and a level
     """
-    v1_lvl = levels[v1] - 1
-    v2_lvl = levels[v2] - 1
-    v1_path = []
-    v2_path = []
-    dis_1 = 0
-    dis_2 = 0
-    meeting_lvl = min(v1_lvl,v2_lvl)
-    print(v1_lvl,v2_lvl,meeting_lvl)
-    for ind in range(v1_lvl):
-        v1,dis = ancest_mat[v1]
-        v1_path.append((v1,dis))
-    print(v1_path)
-    for ind in range(v2_lvl):
-        v2,dis = ancest_mat[v2]
-        v2_path.append((v2, dis))
-    print(v2_path)
+    internal_leaf_ordering = tree.pre_order_internal()
+    pivot_order = tree.pre_order()[0]
+    x = {}
+    root = tree.get_id()
+    dist = LCA(distances, level_matrix, pivot_order, root)
+    # print("Root distace", ,np.array((cos(pi/7), sin(pi/7))))
+    x[root] = np.array((cos(pi/dist), sin(pi/dist)))
+    # Skip root
+    for node in internal_leaf_ordering[1:]:
 
-#     First case internal node and a leaf
-#     Second case two leaves on the same path to the root
-#   Internal node and
+            # Write correction factor and document it as soon as possible
+            dist = LCA(distances,level_matrix,pivot_order,node)
+            level = level_matrix[node][0]
+            if node != pivot_order:
+                correction_factor = dist/(level/2)
 
+            else:
+                correction_factor = 2
 
-
-
-
-def calculate_pairwise_tree_distances(tree,distances):
-    pass
-def reverse_level_order_traversal(tree):
-    """
-    Returns deque node,lvl
-    """
-    q = deque()
-    q.append((tree,1))
-    levels = {}
-    while q:
-        node,lvl = q.popleft()
-        if node is None:
-            continue
-        levels[node.get_id()] = lvl
-        for child in node.get_children():
-            q.append((child,lvl+1))
-    return levels
-def apply_corrections(node,ordering,reverse_order,omega,tau):
-    pass
+            angle = tau[node] + omega[node]/correction_factor
+            parent = level_matrix[node][1]
+            x[node] = x[parent] + distances[node][1] * np.array((cos(angle), sin(angle)))
+            print("Angle corrections",node,angle,tau[node],omega[node],distances[node][1],correction_factor,dist,level,parent,x[parent])
+    return x
 
 def get_points_radial(tree):
     """See Algorithm 1: RADIAL-LAYOUT in:
@@ -124,14 +138,17 @@ def get_points_radial(tree):
     # print(l)
     preorder_traverse_radial(tree, None, root, x, l, omega, tau,distances)
     reverse_level_order = reverse_level_order_traversal(tree)
-    # apply_corrections(tree,ordering,reverse_level_order,omega,tau,distances)
+
     print(tau)
     print(omega)
     print(reverse_level_order_traversal(tree))
-    print(distances)
-    print(calculate_distance_btw_leaves(distances,reverse_level_order,0,1001))
+    print("Distances",distances)
+    print(LCA(distances,reverse_level_order,1002,1000))
+    print(x)
+    x_corrected = apply_corrections(tree,reverse_level_order,omega,tau,distances)
 
-    return x
+
+    return x_corrected
 
 def plot_tree(node,points,plot):
     node_id = node.get_id()
