@@ -2,6 +2,7 @@ import numpy as np
 from math import pi,cos,sin
 from matplotlib import pyplot as plt
 from collections import deque
+from numpy.linalg import norm
 def postorder_traverse_radial(node, l):
     node_id = node.get_id()
     if node.is_leaf():
@@ -115,6 +116,29 @@ def apply_corrections(tree,level_matrix,omega,tau,distances):
             print("Angle corrections",node,angle,tau[node],omega[node],distances[node][1],correction_factor,dist,level,parent,x[parent],x[node])
     return x
 
+def _euclidian_distance(x,y):
+    return norm(x-y)
+
+
+def calculate_stress(tree,level_matrix,coordinates,distances):
+    ordering = tree.pre_order()
+
+    stresses = []
+    local_stress = 0
+
+    for index in range(len(ordering)-1):
+        node_1, node_2 = ordering[index], ordering[index+1]
+        branch_distance = LCA(distances,level_matrix,node_1,node_2)
+        air_distance = _euclidian_distance(coordinates[node_1],coordinates[node_2])
+        local_stress = branch_distance/air_distance
+        print("Stress, node_1 : {} , node_2 : {} , air distance : {} , branch distance : {}, stress : {}".format(node_1,node_2,air_distance,branch_distance,local_stress))
+        stresses.append(local_stress)
+    print("-" * 50)
+
+    return sum(stresses)/len(stresses)
+
+
+
 def get_points_radial(tree):
     """See Algorithm 1: RADIAL-LAYOUT in:
     Bachmaier, Christian, Ulrik Brandes, and Barbara Schlieper.
@@ -147,9 +171,11 @@ def get_points_radial(tree):
     print(LCA(distances,reverse_level_order,1002,1000))
     print(x)
     x_corrected = apply_corrections(tree,reverse_level_order,omega,tau,distances)
+    stress = calculate_stress(tree,reverse_level_order,x,distances)
+    stress_corrected = calculate_stress(tree,reverse_level_order,x_corrected,distances)
+    print(stress,stress_corrected)
 
-
-    return x
+    return x_corrected
 
 def plot_tree(node,points,plot):
     node_id = node.get_id()
