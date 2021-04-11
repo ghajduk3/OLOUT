@@ -105,7 +105,7 @@ def apply_corrections(tree,level_matrix,omega,tau,distances):
             dist = LCA(distances,level_matrix,pivot_order,node)
             level = level_matrix[node][0]
             if node != pivot_order:
-                correction_factor = dist/(level/2)
+                correction_factor = dist/(level/1.5)
 
             else:
                 correction_factor = 2
@@ -132,6 +132,23 @@ def calculate_stress(tree,level_matrix,coordinates,distances):
         air_distance = _euclidian_distance(coordinates[node_1],coordinates[node_2])
         local_stress = branch_distance/air_distance
         print("Stress, node_1 : {} , node_2 : {} , air distance : {} , branch distance : {}, stress : {}".format(node_1,node_2,air_distance,branch_distance,local_stress))
+        stresses.append(local_stress)
+    print("-" * 50)
+
+    return sum(stresses)/len(stresses)
+
+def calculate_stress_pivot(tree,level_matrix,coordinates,distances):
+    ordering = tree.pre_order()
+    pivot = ordering[0]
+    stresses = []
+    local_stress = 0
+
+    for index in range(1,len(ordering)):
+        next_node = ordering[index]
+        branch_distance = LCA(distances,level_matrix,pivot,next_node)
+        air_distance = _euclidian_distance(coordinates[pivot],coordinates[next_node])
+        local_stress = branch_distance/air_distance
+        print("Stress, node_1 : {} , node_2 : {} , air distance : {} , branch distance : {}, stress : {}".format(pivot,next_node,air_distance,branch_distance,local_stress))
         stresses.append(local_stress)
     print("-" * 50)
 
@@ -171,8 +188,8 @@ def get_points_radial(tree):
     print(LCA(distances,reverse_level_order,1002,1000))
     print(x)
     x_corrected = apply_corrections(tree,reverse_level_order,omega,tau,distances)
-    stress = calculate_stress(tree,reverse_level_order,x,distances)
-    stress_corrected = calculate_stress(tree,reverse_level_order,x_corrected,distances)
+    stress = calculate_stress_pivot(tree,reverse_level_order,x,distances)
+    stress_corrected = calculate_stress_pivot(tree,reverse_level_order,x_corrected,distances)
     print(stress,stress_corrected)
 
     return x_corrected
