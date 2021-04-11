@@ -76,6 +76,7 @@ def preorder_traverse_radial(node, parent, root_id, x, l, omega, tau,distances):
         angle = tau[node_id] + omega[node_id] / 2
         print(angle,tau[node_id],omega[node_id],node.get_distance())
         x[node_id] = x[u_id] + node.get_distance() * np.array((cos(angle), sin(angle)))
+        print(angle, tau[node_id], omega[node_id], node.get_distance(),x[u_id],x[node_id])
     eta = tau[node_id]
     print(eta)
     for child in node.get_children():
@@ -94,7 +95,7 @@ def apply_corrections(tree,level_matrix,omega,tau,distances):
     x = {}
     root = tree.get_id()
     dist = LCA(distances, level_matrix, pivot_order, root)
-    # print("Root distace", ,np.array((cos(pi/7), sin(pi/7))))
+    print("Root distace", np.array((cos(pi/dist), sin(pi/dist))))
     x[root] = np.array((cos(pi/dist), sin(pi/dist)))
     # Skip root
     for node in internal_leaf_ordering[1:]:
@@ -111,7 +112,7 @@ def apply_corrections(tree,level_matrix,omega,tau,distances):
             angle = tau[node] + omega[node]/correction_factor
             parent = level_matrix[node][1]
             x[node] = x[parent] + distances[node][1] * np.array((cos(angle), sin(angle)))
-            print("Angle corrections",node,angle,tau[node],omega[node],distances[node][1],correction_factor,dist,level,parent,x[parent])
+            print("Angle corrections",node,angle,tau[node],omega[node],distances[node][1],correction_factor,dist,level,parent,x[parent],x[node])
     return x
 
 def get_points_radial(tree):
@@ -148,7 +149,7 @@ def get_points_radial(tree):
     x_corrected = apply_corrections(tree,reverse_level_order,omega,tau,distances)
 
 
-    return x_corrected
+    return x
 
 def plot_tree(node,points,plot):
     node_id = node.get_id()

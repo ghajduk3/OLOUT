@@ -209,7 +209,7 @@ if __name__ == "__main__":
 
     tree_string = "((2:2.000000,(1:4.000000, 0:1.000000):1.000000):2.000000, (4:2.000000, 3:3.000000):1.000000,5:5.00000);"
     tree_string_1 = '(3:2.000000,4:1.000000,(2:4.000000, (1:3.000000, 0:2.000000):3.000000):2.000000);'
-    kolo_data = KOLO(tree_string,dis)
+    kolo_data = KOLO(tree_string_1,dis1)
     # ordered_tree, ordered_leaves = kolo_data.optimal_leaf_ordering()
     # print(ordered_leaves)
     # raw_newick = Parser.parse_newick_tree(tree_string_1)
