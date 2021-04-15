@@ -87,7 +87,7 @@ def preorder_traverse_radial(node, parent, root_id, x, l, omega, tau,distances):
         eta += omega[child_id]
         distances[child_id] = [node_id,child.get_distance()]
         preorder_traverse_radial(child, node, root_id, x, l, omega, tau,distances)
-def apply_corrections(tree,level_matrix,omega,tau,distances):
+def apply_corrections(tree,level_matrix,omega,tau,distances,coord_orig):
     """
     Applies angle corrections regarding to distance from the first node in ordering and a level
     """
@@ -96,16 +96,21 @@ def apply_corrections(tree,level_matrix,omega,tau,distances):
     x = {}
     root = tree.get_id()
     dist = LCA(distances, level_matrix, pivot_order, root)
-    print("Root distace", np.array((cos(pi/dist), sin(pi/dist))))
-    x[root] = np.array((cos(pi/dist), sin(pi/dist)))
+    print("Root distace", np.array((cos(pi/(dist/2)), sin(pi/(dist/2)))))
+    x[root] = np.array((cos(pi/(dist)), sin(pi/(dist))))
     # Skip root
     for node in internal_leaf_ordering[1:]:
 
             # Write correction factor and document it as soon as possible
             dist = LCA(distances,level_matrix,pivot_order,node)
+            air_dist = _euclidian_distance(coord_orig[pivot_order],coord_orig[node])
+            stress = dist/air_dist
             level = level_matrix[node][0]
             if node != pivot_order:
-                correction_factor = dist/(level/1.5)
+                if node == 5:
+                    correction_factor = 1000000000000
+                else:
+                    correction_factor = dist/(level)
 
             else:
                 correction_factor = 2
@@ -113,7 +118,7 @@ def apply_corrections(tree,level_matrix,omega,tau,distances):
             angle = tau[node] + omega[node]/correction_factor
             parent = level_matrix[node][1]
             x[node] = x[parent] + distances[node][1] * np.array((cos(angle), sin(angle)))
-            print("Angle corrections",node,angle,tau[node],omega[node],distances[node][1],correction_factor,dist,level,parent,x[parent],x[node])
+            print("Angle corrections",node,angle,tau[node],omega[node],distances[node][1],correction_factor,dist,level,parent,x[parent],x[node],stress)
     return x
 
 def _euclidian_distance(x,y):
@@ -187,7 +192,7 @@ def get_points_radial(tree):
     print("Distances",distances)
     print(LCA(distances,reverse_level_order,1002,1000))
     print(x)
-    x_corrected = apply_corrections(tree,reverse_level_order,omega,tau,distances)
+    x_corrected = apply_corrections(tree,reverse_level_order,omega,tau,distances,x)
     stress = calculate_stress_pivot(tree,reverse_level_order,x,distances)
     stress_corrected = calculate_stress_pivot(tree,reverse_level_order,x_corrected,distances)
     print(stress,stress_corrected)
