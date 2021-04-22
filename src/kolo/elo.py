@@ -17,11 +17,10 @@ def _compute_distance_sim_matrix(ordering,similarities):
 
 def _compute_p_matrix(ordering):
     n = len(ordering)
-    return np.apply_along_axis(lambda x : (x - n/2)/ (n/2),0, ordering ).reshape(1,n)
+    return np.apply_along_axis(lambda x : (x - n/2)/ (n/2),0,ordering).reshape(1,n)
 
 def _reweight_similarity_matrix(similarities,siblings):
     alpha = 1
-
     for i in range(len(similarities)):
         for j in range(len(similarities)):
             delta = 1 if siblings[i] == j else 0
@@ -29,12 +28,25 @@ def _reweight_similarity_matrix(similarities,siblings):
     return similarities
 
 def _compute_leaf_ordering(distance_matrix,similarity_matrix):
+
     order_len = len(distance_matrix[0,:])
-    final_matrix = np.identity(order_len) - np.matmul(LA.inv(distance_matrix),weigh_similarity_matrix)
+    final_matrix = np.identity(order_len) - np.matmul(LA.inv(distance_matrix),similarity_matrix)
     eig_values,eig_vectors = LA.eig(final_matrix)
     second_min_ind = np.argsort(eig_values)[1]
     second_min_vector = eig_vectors[:,second_min_ind]
     return np.argsort(second_min_vector)[::-1]
+
+def _calculate_adjacent_pair_sim_ratio(ordering,similarity_matrix):
+
+    """
+
+    """
+    jd = sum([similarity_matrix[ordering[ind], ordering[ind + 1]] for ind in range(len(ordering)-1)])
+    jd_random = (len(ordering)-1) * sum([similarity_matrix[i,j] / len(ordering)**2 for i in range(len(ordering)) for j in range(len(ordering))])
+    return jd / jd_random
+
+def get_optimal_leaf_ordering(initial_ordering, similarity_matrix):
+    pass
 
 """
     1. Make wrapper function to get an ordering from 
@@ -51,11 +63,12 @@ if __name__ == "__main__":
     siblings = {3: 4, 2: None, 1: 0, 4: 3, 0: 1}
 
     # Computes distance matrix
-    weigh_similarity_matrix = _reweight_similarity_matrix(similarity_matrix,siblings)
-    initial_ordering = np.array([0, 1, 2, 3, 4])
-    distance_matrix = _compute_distance_sim_matrix(initial_ordering,weigh_similarity_matrix)
-    ordering = _compute_ordering(distance_matrix,weigh_similarity_matrix)
-    print(ordering)
+    # weigh_similarity_matrix = _reweight_similarity_matrix(similarity_matrix,siblings)
+    # initial_ordering = np.array([0, 1, 2, 3, 4])
+    # distance_matrix = _compute_distance_sim_matrix(initial_ordering,weigh_similarity_matrix)
+    # ordering = _compute_leaf_ordering(distance_matrix,weigh_similarity_matrix)
+    # print(ordering)
+    # _calculate_adjacent_pair_sim_ratio(ordering,weigh_similarity_matrix)
 
     # # print(distance_matrix,distance_matrix.shape)
     # p = _compute_p_matrix(initial_ordering)
@@ -74,4 +87,6 @@ if __name__ == "__main__":
     # print(np.matmul(np.matmul(p,subs),p.T))
 
     # a.reshape(2,1)
+    m,n = similarity_matrix.shape
+    print(n)
 
