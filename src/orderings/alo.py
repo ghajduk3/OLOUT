@@ -40,7 +40,7 @@ class ALO(object):
 
     def _compute_leaf_ordering(self, distance_matrix:np.ndarray, similarity_matrix:np.ndarray)->np.array:
         """
-        Details in Analysis of gene expression profiles: clas discovery and leaf ordering
+        Details in Analysis of gene expression profiles: class discovery and leaf ordering
         """
         order_len = distance_matrix.shape[1]
         final_matrix = np.identity(order_len) - np.matmul(LA.inv(distance_matrix), similarity_matrix)
