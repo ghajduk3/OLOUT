@@ -1,3 +1,5 @@
+import copy
+
 import numpy as np
 from scipy.cluster import hierarchy
 import itertools
@@ -52,7 +54,6 @@ class KOLO(object):
     def optimal_leaf_ordering(self):
         tree = self._parse_newick_tree()
         optimal_ordered_tree = self._get_optimal_ordered_tree(tree)
-        print([child.id for child in optimal_ordered_tree.get_children()])
         return optimal_ordered_tree,optimal_ordered_tree.pre_order()
 
     def _get_optimal_ordered_tree(self, tree):
@@ -95,34 +96,39 @@ class KOLO(object):
             dummy_node = TreeNode(self.int_dummy_node, 0)
             self.internal_dummy_nodes.append(self.int_dummy_node)
             self.int_dummy_node+=1
-        #     node_permut = self._get_permutations(list(range(num_children)),2)
-        #     for permut in node_permut:
-        #         left_part, right_part = permut
-        #         left_indexes = [*left_part]
-        #         right_indexes = right_part[0]
-        #
-        #         right_node = v.children[right_indexes]
-        #         left_nodes = [v.children[ind] for ind in left_indexes]
-        #         print(left_indexes, right_indexes,right_node.id)
-        #         dummy_node.children = left_nodes
-        #         v.children = [right_node]
-        #         v.children.insert(1,dummy_node)
-        #         print([child.id for child in dummy_node.children])
-        #         return self._optimal_scores(v, D, fast)
-        # else:
-        #     return self._optimal_scores(v, D, fast)
+            node_permut = self._get_permutations(list(range(num_children)),2)
+            v_cop = copy.deepcopy(v)
+            for permut in node_permut:
+                v = copy.deepcopy(v_cop)
+                left_part, right_part = permut
+                left_indexes = [*left_part]
+                right_indexes = right_part[0]
+                print("-------------------------PERMUTIACIJA -------------------")
+                print([child.id for child in v.children])
+                right_node = v.children[right_indexes]
+                print(left_indexes, right_indexes, right_node.id)
+                left_nodes = [v.children[ind] for ind in left_indexes]
+
+
+                dummy_node.children = left_nodes
+                v.children = [right_node]
+                v.children.insert(1,dummy_node)
+                print([child.id for child in dummy_node.children])
+                self._optimal_scores(v, D, fast)
+        else:
+            return self._optimal_scores(v, D, fast)
 
             #
             #
             #
-            child_1,child_2,child_3 = v.children
-            dummy_node.add_node(child_2)
-            dummy_node.add_node(child_3)
-            v.children = [child_1]
-            v.children.insert(1,dummy_node)
-            print(v.id)
-            print([child.id for child in dummy_node.children])
-        return self._optimal_scores(v, D, fast)
+        #     child_1,child_2,child_3 = v.children
+        #     dummy_node.add_node(child_2)
+        #     dummy_node.add_node(child_3)
+        #     v.children = [child_1]
+        #     v.children.insert(1,dummy_node)
+        #     print(v.id)
+        #     print([child.id for child in dummy_node.children])
+        # return self._optimal_scores(v, D, fast)
 
         # print("----------- WRAPPER----------", v.id,num_children, [child.id for child in v.get_children()])
 
@@ -217,6 +223,7 @@ class KOLO(object):
                     return self.M[v.id, l, r]
 
     def _reorder_tree(self,v,D):
+        print([child.id for child in v.get_children()])
         L = leaves(v.get_left())
         R = leaves(v.get_right())
 
