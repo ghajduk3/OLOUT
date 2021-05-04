@@ -1,5 +1,6 @@
 import collections,sys
 from io import StringIO
+from typing import Callable, List
 from tree import TreeNode
 # https://github.com/golang/go/blob/master/src/text/template/parse/lex.go
 
@@ -122,18 +123,19 @@ class Token(object):
 
 class Lex(object):
     """
-    Class that represents token.
+    Class that represents lexer.
 
-    Token consists of type and value.
-
+    Lexer behaves like a state machine, lexing string elements.
     ```
 
     Attributes
     ----------
-    type : str
-        type of the token. Each token can be one of the following types : TREE, SUBTREE, LEAF, LABEL, DISTANCE, ENDTREE, ENDSUBTREE.
-    value : any
-        token value.
+    stream : Stream
+        stream object of input string
+    token : Token
+        current token in lexer
+    state : Callable
+        current state of the lexer state machine
 
     """
     def __init__(self,stream):
@@ -220,6 +222,21 @@ class Lex(object):
             return self.label_length
 
 class Parser(object):
+    """
+    Class that represents parsing of Lexer tree into the TreeNode phylogenetic tree hierarchy.
+
+    ```
+    Attributes
+    ----------
+    lex : Lex
+        represents lexed phylogenetic tree to be parsed
+    stack : List
+
+    trees : List
+
+    current_internal : int
+        first id of internal nodes. Each succesive internal node is incremented by one.
+    """
     def __init__(self,lex):
         self.lex = lex
         self.stack = list()
@@ -240,12 +257,8 @@ class Parser(object):
             if token != None:
                 seen_tokens.append(token)
                 # Check for tree start
-                # print(token.type,token.value)
                 if token.type == 'TREE':
                     pass
-                    # root = TreeNode(self.current_internal,0)
-                    # self.trees.append(root)
-                    # self.stack.append(root)
                 elif token.type == 'SUBTREE':
                     self._subtree_start()
                 elif token.type == 'LEAF':
@@ -268,7 +281,7 @@ class Parser(object):
         if label.type != 'LABEL':
             raise ParseError("Label expected")
         value = next(self.lex).value
-        leaf = TreeNode(int(label.value),value)
+        leaf = TreeNode(label.value,value)
         self.stack[-1].add_node(leaf)
 
     def _subtree_close(self,distance):
@@ -279,18 +292,10 @@ class Parser(object):
 
 
 if __name__ == "__main__":
-    token = Token('Gojko')
-    print(token.type)
+    # print(token.type)
     # tree_string = "((2:2.000000,(1:4.000000, 0:1.000000, 9:3.5):1.000000):2.000000, (4:2.000000, 3:3.000000):1.000000,5:5.00000);"
-    # tree_string_1 = '(3:2.000000,(2:4.000000, (1:3.000000, 0:2.000000):3.000000):2.000000, 4:1.000000);'
-    # stream = Stream(tree_string_1)
-    #
-    #
-    # # le = Lex(stream)
-    # # for l in le:
-    # #     if l != None:
-    # #         pass
-    # #         print(l.type,l.value)
-    # tree = Parser.parse_newick_tree(tree_string_1)
-    # print(tree.children[0].id)
+    tree_string_1 = '(3:2.000000,(2:4.000000, (1:3.000000, 0:2.000000):3.000000):2.000000, 4:1.000000);'
+    stream = Stream(tree_string_1)
+    tree = Parser.parse_newick_tree(tree_string_1)
+    print(type(tree.id))
     #
