@@ -210,18 +210,18 @@ if __name__ == "__main__":
     tree_string = "((2:2.000000,(1:4.000000, 0:1.000000):1.000000):2.000000, (4:2.000000, 3:3.000000):1.000000,5:5.00000);"
     tree_string_1 = '(3:2.000000,4:1.000000,(2:4.000000, (1:3.000000, 0:2.000000):3.000000):2.000000);'
     kolo_data = KOLO(tree_string,dis)
-    # ordered_tree, ordered_leaves = kolo_data.optimal_leaf_ordering()
-    # print(ordered_leaves)
+    ordered_tree, ordered_leaves = kolo_data.optimal_leaf_ordering()
+    print(ordered_leaves)
     # raw_newick = Parser.parse_newick_tree(tree_string_1)
     # print(raw_newick.children)
     #
     # radial_points_raw = get_points_radial(raw_newick)
-    fig,(ax1,ax2) = plt.subplots(1,2)
-    # plot_tree(raw_newick,radial_points_raw,ax1)
-    ordered_tree, ordered_leaves = kolo_data.optimal_leaf_ordering()
-    print(ordered_leaves,ordered_tree.pre_order_internal())
-    plot_tree(ordered_tree,get_points_radial(ordered_tree),ax2)
-
-    plt.show()
-    fig.show()
-
+    # fig,(ax1,ax2) = plt.subplots(1,2)
+    # # plot_tree(raw_newick,radial_points_raw,ax1)
+    # ordered_tree, ordered_leaves = kolo_data.optimal_leaf_ordering()
+    # print(ordered_leaves,ordered_tree.pre_order_internal())
+    # plot_tree(ordered_tree,get_points_radial(ordered_tree),ax2)
+    #
+    # plt.show()
+    # fig.show()
+    #
