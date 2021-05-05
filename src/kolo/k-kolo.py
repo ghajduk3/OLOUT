@@ -85,36 +85,61 @@ class KOLO(object):
         return outs
 
     def _produce_optimal_scores(self, v, D, fast=True):
+        print("--------------- PRODUCE OPTIMAL SCORES----------------" , v.id)
         """
             Wrapper for recursive function. Produces new nodes according to k-ary ordering problem.
         """
         # Check if there are more then two children of
         v_children = v.get_children()
         num_children = len(v_children)
+
         #### Partition 1.case - 3 children
         if num_children == 3:
+            best_permut = (10000000000,0,0)
             dummy_node = TreeNode(self.int_dummy_node, 0)
             self.internal_dummy_nodes.append(self.int_dummy_node)
             self.int_dummy_node+=1
             node_permut = self._get_permutations(list(range(num_children)),2)
             v_cop = copy.deepcopy(v)
             for permut in node_permut:
-                v = copy.deepcopy(v_cop)
+                v1 = copy.deepcopy(v_cop)
                 left_part, right_part = permut
                 left_indexes = [*left_part]
                 right_indexes = right_part[0]
                 print("-------------------------PERMUTIACIJA -------------------")
-                print([child.id for child in v.children])
-                right_node = v.children[right_indexes]
+                print([child.id for child in v1.children])
+                right_node = v1.children[right_indexes]
                 print(left_indexes, right_indexes, right_node.id)
-                left_nodes = [v.children[ind] for ind in left_indexes]
+                left_nodes = [v1.children[ind] for ind in left_indexes]
 
 
                 dummy_node.children = left_nodes
-                v.children = [right_node]
-                v.children.insert(1,dummy_node)
+                v1.children = [right_node]
+                v1.children.insert(1,dummy_node)
                 print([child.id for child in dummy_node.children])
-                self._optimal_scores(v, D, fast)
+                self._optimal_scores(v1, D, fast)
+
+                L = leaves(v1.get_left())
+                R = leaves(v1.get_right())
+                if len(L) and len(R):
+                    def getkey(z):  ##added, this is to replace a lambda function
+                        u, w = z
+                        return self.M[v1.id, u, w]
+
+                    if len(L) and len(R):
+                        print(list(itertools.product(L, R)))
+                        u, w = min(itertools.product(L, R), key=getkey)  ##updated function
+                    print("permut scores",v1.id, u, w, L, R, self.M[v1.id,u,w])
+                    if self.M[v1.id,u,w] < best_permut[0]:
+                        best_permut = (self.M[v1.id,u,w],left_nodes,right_node)
+                print("------------------ KONEC PERMUTACIJE----------------------------")
+
+            score,left,right = best_permut
+            dummy_node.children = left
+            v.children = [right]
+            v.children.insert(1,dummy_node)
+            print(v.id, [child.id for child in v.children])
+            print("CHANGED V ---------------------",right.id)
         else:
             return self._optimal_scores(v, D, fast)
 
@@ -279,8 +304,8 @@ if __name__ == "__main__":
                        [8, 9, 7, 3, 0]])
 
     tree_string = "(5:5.00000,(2:2.000000,(1:4.000000, 0:1.000000):1.000000):2.000000,(4:2.000000, 3:3.000000):1.000000);"
-    tree_string_1 = '(4:1.000000,3:2.000000,(2:4.000000, (1:3.000000, 0:2.000000):3.000000):2.000000);'
-    kolo_data = KOLO(tree_string,dis)
+    tree_string_1 = '(4:1.000000,(2:4.000000, (1:3.000000, 0:2.000000):3.000000):2.000000,3:2.000000);'
+    kolo_data = KOLO(tree_string_1,dis1)
     ordered_tree, ordered_leaves = kolo_data.optimal_leaf_ordering()
     print(ordered_leaves)
     # raw_newick = Parser.parse_newick_tree(tree_string_1)
