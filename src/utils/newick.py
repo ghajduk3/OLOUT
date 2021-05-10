@@ -1,7 +1,7 @@
 import collections,sys
 from io import StringIO
 from typing import Callable, List
-from tree import TreeNode
+from .tree import TreeNode
 # https://github.com/golang/go/blob/master/src/text/template/parse/lex.go
 
 class InvalidTokenType(Exception):

@@ -212,16 +212,22 @@ if __name__ == "__main__":
     kolo_data = KOLO(tree_string,dis)
     ordered_tree, ordered_leaves = kolo_data.optimal_leaf_ordering()
     print(ordered_leaves)
-    # raw_newick = Parser.parse_newick_tree(tree_string_1)
+    raw_newick = Parser.parse_newick_tree(tree_string)
     # print(raw_newick.children)
     #
-    # radial_points_raw = get_points_radial(raw_newick)
-    # fig,(ax1,ax2) = plt.subplots(1,2)
-    # # plot_tree(raw_newick,radial_points_raw,ax1)
+    radial_points_raw = get_points_radial(raw_newick)
+    fig,(ax1,ax2, ax3) = plt.subplots(1,3)
+    plot_tree(raw_newick,radial_points_raw,ax1)
     # ordered_tree, ordered_leaves = kolo_data.optimal_leaf_ordering()
     # print(ordered_leaves,ordered_tree.pre_order_internal())
-    # plot_tree(ordered_tree,get_points_radial(ordered_tree),ax2)
+    ax1.set_title("Unordered tree")
+    ax2.set_title("Ordered tree")
+    ax3.set_title("Ordered tree with angle corrections")
+    plot_tree(ordered_tree, get_points_radial(ordered_tree, correct=False), ax2)
+    plot_tree(ordered_tree,get_points_radial(ordered_tree,correct=True),ax3)
+
+
     #
-    # plt.show()
+    plt.show()
     # fig.show()
     #

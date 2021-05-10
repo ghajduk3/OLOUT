@@ -143,47 +143,6 @@ class KOLO(object):
         else:
             return self._optimal_scores(v, D, fast)
 
-            #
-            #
-            #
-        #     child_1,child_2,child_3 = v.children
-        #     dummy_node.add_node(child_2)
-        #     dummy_node.add_node(child_3)
-        #     v.children = [child_1]
-        #     v.children.insert(1,dummy_node)
-        #     print(v.id)
-        #     print([child.id for child in dummy_node.children])
-        # return self._optimal_scores(v, D, fast)
-
-        # print("----------- WRAPPER----------", v.id,num_children, [child.id for child in v.get_children()])
-
-
-        # if len(v_children) > 2:
-
-
-        # print("----------- WRAPPER----------", v.id)
-        # if len(v_children) > 2:
-        #     while len(v.children) >2:
-        #     # for index,child in enumerate(v.get_children()):
-        #         new_node = TreeNode(self.int_dummy_node,0)
-        #         self.internal_dummy_nodes.append(self.int_dummy_node)
-        #         self.int_dummy_node+=1
-        #         new_node.add_node(v.children[0])
-        #         new_node.add_node(v.children[1])
-        #         print(v.id,v.children)
-        #         v.children = v.children[2:]
-        #         print(v.id, v.children)
-        #         v.children.insert(0,new_node)
-        #         print(v.id, v.children,v.children[0].id)
-        #         res = self._optimal_scores(new_node,D,fast)
-        #         print("----------- WRAPPER OPTIMAL ----------", v.id,v.get_children(),v.get_children()[0].id)
-        #         if len(v.children) == 2:
-        #             self._optimal_scores(v,D,fast)
-        #     return res
-        #
-        # else:
-        #     return self._optimal_scores(v, D, fast)
-
     def _optimal_scores(self, v, D, fast=True):
 
         print(leaves(v), leaves(v.get_left()), leaves(v.get_right()))
