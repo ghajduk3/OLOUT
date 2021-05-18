@@ -197,8 +197,9 @@ def get_points_radial(tree,correct=False):
         stress = calculate_stress_pivot(tree,reverse_level_order,x,distances)
         stress_corrected = calculate_stress_pivot(tree,reverse_level_order,x_corrected,distances)
         print(stress,stress_corrected)
-        return x_corrected
-    return x
+        return x_corrected, stress_corrected
+    stress = calculate_stress_pivot(tree,reverse_level_order,x,distances)
+    return x, stress
 
 def plot_tree(node,points,plot):
     node_id = node.get_id()
