@@ -27,7 +27,7 @@ class ALO(object):
         n = len(ordering)
         return np.apply_along_axis(lambda x: (x - n / 2) / (n / 2), 0, ordering).reshape(1, n)
 
-    def _reweight_similarity_matrix(self, similarity_matrix:np.ndarray, siblings:Dict, alpha=1)->np.ndarray:
+    def _reweight_similarity_matrix(self, similarity_matrix:np.ndarray, siblings:Dict, alpha=5)->np.ndarray:
         """
         Re-weights similarity matrix in order to preserve tree structure.
         """
@@ -35,7 +35,7 @@ class ALO(object):
         m,n = similarity_matrix.shape
         for i in range(n):
             for j in range(n):
-                delta = 1 if j in siblings[i] else 0
+                delta = 0 if j in siblings[i] else 1
                 similarity_matrix[i, j] = similarity_matrix[i, j] * (1 + alpha * delta)
         return similarity_matrix
 
@@ -81,9 +81,6 @@ class ALO(object):
         siblings_temporary = ALO._generate_sibling_pairs(root)
         siblings = {}
         for parent,children in siblings_temporary.items():
-            # if len(children) == 1:
-            #     siblings[children[0]] = None
-            # else:
             for index, child in enumerate(children):
                 siblings[child] = children[:index] + children[index+1:]
         return siblings
