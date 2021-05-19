@@ -1,3 +1,5 @@
+import math
+
 import numpy as np
 from math import pi,cos,sin
 from matplotlib import pyplot as plt
@@ -107,10 +109,8 @@ def apply_corrections(tree,level_matrix,omega,tau,distances,coord_orig):
             stress = dist/air_dist
             level = level_matrix[node][0]
             if node != pivot_order:
-                if node == 5:
-                    correction_factor = 1000000000000
-                else:
-                    correction_factor = dist/(level)
+                # correction_factor = 1000000000000
+                correction_factor = dist/(level)
 
             else:
                 correction_factor = 2
@@ -152,7 +152,7 @@ def calculate_stress_pivot(tree,level_matrix,coordinates,distances):
         next_node = ordering[index]
         branch_distance = LCA(distances,level_matrix,pivot,next_node)
         air_distance = _euclidian_distance(coordinates[pivot],coordinates[next_node])
-        local_stress = branch_distance/air_distance
+        local_stress = math.log2(air_distance/branch_distance)
         print("Stress, node_1 : {} , node_2 : {} , air distance : {} , branch distance : {}, stress : {}".format(pivot,next_node,air_distance,branch_distance,local_stress))
         stresses.append(local_stress)
     print("-" * 50)
@@ -161,7 +161,7 @@ def calculate_stress_pivot(tree,level_matrix,coordinates,distances):
 
 
 
-def get_points_radial(tree):
+def get_points_radial(tree,correct=False):
     """See Algorithm 1: RADIAL-LAYOUT in:
     Bachmaier, Christian, Ulrik Brandes, and Barbara Schlieper.
     "Drawing phylogenetic trees." Algorithms and Computation (2005): 1110-1121.
@@ -192,12 +192,14 @@ def get_points_radial(tree):
     print("Distances",distances)
     print(LCA(distances,reverse_level_order,1002,1000))
     print(x)
-    x_corrected = apply_corrections(tree,reverse_level_order,omega,tau,distances,x)
+    if correct:
+        x_corrected = apply_corrections(tree,reverse_level_order,omega,tau,distances,x)
+        stress = calculate_stress_pivot(tree,reverse_level_order,x,distances)
+        stress_corrected = calculate_stress_pivot(tree,reverse_level_order,x_corrected,distances)
+        print(stress,stress_corrected)
+        return x_corrected, stress_corrected
     stress = calculate_stress_pivot(tree,reverse_level_order,x,distances)
-    stress_corrected = calculate_stress_pivot(tree,reverse_level_order,x_corrected,distances)
-    print(stress,stress_corrected)
-
-    return x_corrected
+    return x, stress
 
 def plot_tree(node,points,plot):
     node_id = node.get_id()

@@ -212,16 +212,36 @@ if __name__ == "__main__":
     kolo_data = KOLO(tree_string,dis)
     ordered_tree, ordered_leaves = kolo_data.optimal_leaf_ordering()
     print(ordered_leaves)
-    # raw_newick = Parser.parse_newick_tree(tree_string_1)
+    raw_newick = Parser.parse_newick_tree(tree_string)
     # print(raw_newick.children)
     #
-    # radial_points_raw = get_points_radial(raw_newick)
-    # fig,(ax1,ax2) = plt.subplots(1,2)
-    # # plot_tree(raw_newick,radial_points_raw,ax1)
+    radial_points_raw, stress = get_points_radial(raw_newick)
+
+    matplotlib.rc('text')
+    # fig,(ax1,ax2, ax3) = plt.subplots(1,3)
+    fig = plt.figure()
+    fig.suptitle("Leaf ordering for phylogenetic tree with Bar-Joseph intial leaf order")
+    ax1 = fig.add_subplot(1,3,1)
+    ax2 = fig.add_subplot(1, 3, 2, sharex=ax1, sharey=ax1)
+    ax3 = fig.add_subplot(1, 3, 3, sharex=ax1, sharey=ax1)
+    plot_tree(raw_newick,radial_points_raw,ax1)
     # ordered_tree, ordered_leaves = kolo_data.optimal_leaf_ordering()
     # print(ordered_leaves,ordered_tree.pre_order_internal())
-    # plot_tree(ordered_tree,get_points_radial(ordered_tree),ax2)
+    ax1.set_title(f"Unordered tree, stress = {stress:.2f}")
+    ax1.set_aspect('auto')
+
+    # ax3.set_aspect('equal')
+    points_ordered, stress_ordered = get_points_radial(ordered_tree, correct=False)
+    ax2.set_title(f"Ordered tree, stress = {stress_ordered:.2f}")
+    # ax2.set_aspect('equal')
+
+    plot_tree(ordered_tree, points_ordered, ax2)
+    points_corrected_ordered, stress_ordered_corrected = get_points_radial(ordered_tree,correct=True)
+    ax3.set_title(f"Ordered tree with angle corrections, stress = {stress_ordered_corrected:.2f}")
+    plot_tree(ordered_tree,points_corrected_ordered,ax3)
+
+
     #
-    # plt.show()
+    plt.show()
     # fig.show()
     #

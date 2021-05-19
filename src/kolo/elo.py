@@ -87,6 +87,6 @@ if __name__ == "__main__":
     # print(np.matmul(np.matmul(p,subs),p.T))
 
     # a.reshape(2,1)
-    m,n = similarity_matrix.shape
-    print(n)
+    # m,n = similarity_matrix.shape
+    # print(n)
 

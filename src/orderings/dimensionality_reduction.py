@@ -1,9 +1,12 @@
 import numpy as np
 from sklearn.decomposition import PCA
+
+
 """
 PCA
 Peform dimensionality reduction with PCA(1 component) on similarity matrix and infer leaf ordering
 """
+
 
 def get_first_component_pca(similarity_matrix: np.ndarray):
     """
