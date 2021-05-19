@@ -1,6 +1,7 @@
 import numpy as np
 from numpy import linalg as LA
 from typing import List, Dict
+from src.utils.newick import Parser
 
 
 class ALO(object):
@@ -34,7 +35,7 @@ class ALO(object):
         m,n = similarity_matrix.shape
         for i in range(n):
             for j in range(n):
-                delta = 1 if siblings[i] == j else 0
+                delta = 1 if j in siblings[i] else 0
                 similarity_matrix[i, j] = similarity_matrix[i, j] * (1 + alpha * delta)
         return similarity_matrix
 
@@ -56,5 +57,42 @@ class ALO(object):
             [similarity_matrix[i, j] / n ** 2 for i in range(n) for j in range(n)])
         return jd / jd_random
 
+    def _parse_newick_tree(self):
+        return Parser.parse_newick_tree(self.newick)
+
+    @staticmethod
+    def _generate_sibling_pairs(root, siblings ={}):
+
+
+        for child in root.get_children():
+            if child.is_leaf():
+                if root.get_id() not in siblings:
+                    siblings[root.get_id()] = [child.get_id()]
+                else:
+                    siblings[root.get_id()].append(child.get_id())
+
+            else:
+                ALO._generate_sibling_pairs(child,siblings)
+
+        return siblings
+
+    @staticmethod
+    def _get_siblings(root):
+        siblings_temporary = ALO._generate_sibling_pairs(root)
+        siblings = {}
+        for parent,children in siblings_temporary.items():
+            # if len(children) == 1:
+            #     siblings[children[0]] = None
+            # else:
+            for index, child in enumerate(children):
+                siblings[child] = children[:index] + children[index+1:]
+        return siblings
+
+
     def get_optimal_leaf_ordering(self):
-        pass
+        newick_tree = self._parse_newick_tree()
+        siblings = ALO._get_siblings(newick_tree)
+        similarity_matrix = self._reweight_similarity_matrix(self.similarity_matrix, siblings)
+        distance_matrix = self._compute_distance_matrix(self.similarity_matrix)
+        ordering = self._compute_leaf_ordering(distance_matrix,similarity_matrix)
+        return ordering
