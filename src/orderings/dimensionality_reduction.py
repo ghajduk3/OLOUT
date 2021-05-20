@@ -54,7 +54,6 @@ class DroTSNE(Dro):
         tsne = TSNE(n_components=2)
         # two_components = tsne.fit_transform(self.similarity_matrix)
         two_components = get_tsne_embedding(self.similarity_matrix)
-        print(two_components)
         pca = PCA(n_components=1)
         return pca.fit_transform(two_components)
     def get_leaf_ordering(self):

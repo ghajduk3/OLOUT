@@ -25,20 +25,20 @@ if __name__ == "__main__":
     # KOLO  - TREE 1
     tree_kolo = KOLO(tree_string_1, dis_1)
     tree_1, tree_ordering_1 = np.array(tree_kolo.optimal_leaf_ordering())
-    similarity_ratio_1 = adjacent_pair_similarity_ratio(tree_ordering_1, dis_1)
+    ratio_kolo = adjacent_pair_similarity_ratio(tree_ordering_1, dis_1)
     # Adjacent pair similarity ratio
     print("*"*30)
-    print(similarity_ratio_1)
+    print(f"KOLO - ordering : {tree_ordering_1} with ratio {ratio_kolo}")
     print("*"*30)
 
     # ALO - TREE 1
     tree = Parser.parse_newick_tree(tree_string_1)
     tree_alo = ALO(tree_string_1,dis_1)
     ordering = tree_alo.get_optimal_leaf_ordering()
-    similarity_ratio = adjacent_pair_similarity_ratio(ordering, dis_1)
+    ratio_alo = adjacent_pair_similarity_ratio(ordering, dis_1)
     # Adjacent pair similarity ratio
     print("*"*30)
-    print(similarity_ratio, ordering)
+    print(f"ALO - ordering : {ordering} with ratio {ratio_alo}")
     print("*"*30)
 
 
