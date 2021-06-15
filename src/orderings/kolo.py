@@ -112,7 +112,6 @@ class KOLO(object):
                 print(left_indexes, right_indexes, right_node.id)
                 left_nodes = [v1.children[ind] for ind in left_indexes]
 
-
                 dummy_node.children = left_nodes
                 v1.children = [right_node]
                 v1.children.insert(1,dummy_node)

@@ -3,7 +3,6 @@ from numpy import linalg as LA
 from typing import List, Dict
 from src.utils.newick import Parser
 
-
 class ALO(object):
 
     def __init__(self, newick_tree, similarity_matrix):
@@ -31,11 +30,10 @@ class ALO(object):
         """
         Re-weights similarity matrix in order to preserve tree structure.
         """
-
         m,n = similarity_matrix.shape
         for i in range(n):
             for j in range(n):
-                delta = 0 if j in siblings[i] else 1
+                delta = 1 if j in siblings[i] else 0
                 similarity_matrix[i, j] = similarity_matrix[i, j] * (1 + alpha * delta)
         return similarity_matrix
 
@@ -62,18 +60,14 @@ class ALO(object):
 
     @staticmethod
     def _generate_sibling_pairs(root, siblings ={}):
-
-
         for child in root.get_children():
             if child.is_leaf():
                 if root.get_id() not in siblings:
                     siblings[root.get_id()] = [child.get_id()]
                 else:
                     siblings[root.get_id()].append(child.get_id())
-
             else:
                 ALO._generate_sibling_pairs(child,siblings)
-
         return siblings
 
     @staticmethod
@@ -85,7 +79,6 @@ class ALO(object):
                 siblings[child] = children[:index] + children[index+1:]
         return siblings
 
-
     def get_optimal_leaf_ordering(self):
         newick_tree = self._parse_newick_tree()
         siblings = ALO._get_siblings(newick_tree)
@@ -93,3 +86,23 @@ class ALO(object):
         distance_matrix = self._compute_distance_matrix(self.similarity_matrix)
         ordering = self._compute_leaf_ordering(distance_matrix,similarity_matrix)
         return ordering
+
+if __name__ == "__main__":
+    dis_1 = np.array([[0, 5, 4, 7, 6, 8],
+                    [5, 0, 7, 10, 9, 11],
+                    [4, 7, 0, 7, 6, 8],
+                    [7, 10, 7, 0, 5, 9],
+                    [6, 9, 6, 5, 0, 8],
+                    [8, 11, 8, 9, 8, 0]])
+
+    tree_string_1 = "(5:5.00000,(2:2.000000,(1:4.000000, 0:1.000000):1.000000):2.000000,(4:2.000000, 3:3.000000):1.000000);"
+
+    dis_2 = np.array([[0, 5, 9, 9, 8],
+                       [5, 0, 10, 10, 9],
+                       [9, 10, 0, 8, 7],
+                       [9, 10, 8, 0, 3],
+                       [8, 9, 7, 3, 0]])
+    tree_string_2 = '(4:1.000000,(2:4.000000, (1:3.000000, 0:2.000000):3.000000):2.000000,3:2.000000);'
+
+    al = ALO(tree_string_2, dis_2)
+    print(al.get_optimal_leaf_ordering())

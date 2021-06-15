@@ -219,7 +219,8 @@ if __name__ == "__main__":
 
     matplotlib.rc('text')
     # fig,(ax1,ax2, ax3) = plt.subplots(1,3)
-    fig = plt.figure()
+    fig = plt.figure(figsize=(15,5))
+    # ax1.xlim((-3.5, 5.5))
     fig.suptitle("Leaf ordering for phylogenetic tree with Bar-Joseph intial leaf order")
     ax1 = fig.add_subplot(1,3,1)
     ax2 = fig.add_subplot(1, 3, 2, sharex=ax1, sharey=ax1)
@@ -228,16 +229,20 @@ if __name__ == "__main__":
     # ordered_tree, ordered_leaves = kolo_data.optimal_leaf_ordering()
     # print(ordered_leaves,ordered_tree.pre_order_internal())
     ax1.set_title(f"Unordered tree, stress = {stress:.2f}")
-    ax1.set_aspect('auto')
-
+    ax1.set_xlim((-4, 7.5))
+    ax1.set_ylim((-4, 7.5))
     # ax3.set_aspect('equal')
     points_ordered, stress_ordered = get_points_radial(ordered_tree, correct=False)
     ax2.set_title(f"Ordered tree, stress = {stress_ordered:.2f}")
     # ax2.set_aspect('equal')
-
+    ax2.set_xlim((-4, 7.5))
+    ax2.set_ylim((-4, 7.5))
     plot_tree(ordered_tree, points_ordered, ax2)
     points_corrected_ordered, stress_ordered_corrected = get_points_radial(ordered_tree,correct=True)
     ax3.set_title(f"Ordered tree with angle corrections, stress = {stress_ordered_corrected:.2f}")
+    # ax3.set_aspect('equal')
+    ax3.set_xlim((-4, 7.5))
+    ax3.set_ylim((-4, 7.5))
     plot_tree(ordered_tree,points_corrected_ordered,ax3)
 
 

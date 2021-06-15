@@ -44,20 +44,20 @@ if __name__ == "__main__":
 
     # DIMENSIONALITY REDUCTION - TREE 1
     pca = DroPca(similarity_matrix=dis_1)
-    tsne = DroTSNE(similarity_matrix=dis_1)
+    # tsne = DroTSNE(similarity_matrix=dis_1)
     mds = DroMDS(similarity_matrix=dis_1)
 
     ordering_pca = pca.get_leaf_ordering()
     ordering_mds = mds.get_leaf_ordering()
-    ordering_tsne = tsne.get_leaf_ordering()
+    # ordering_tsne = tsne.get_leaf_ordering()
     # similarity_ratio = adjacent_pair_similarity_ratio(ordering, dis_1)
     ratio_pca = adjacent_pair_similarity_ratio(ordering_pca, dis_1)
     ratio_mds = adjacent_pair_similarity_ratio(ordering_mds, dis_1)
-    ratio_tsne = adjacent_pair_similarity_ratio(ordering_tsne, dis_1)
+    # ratio_tsne = adjacent_pair_similarity_ratio(ordering_tsne, dis_1)
     print("*"*30)
     print(f"PCA - ordering : {ordering_pca} with ratio {ratio_pca}")
     print(f"MDS - ordering : {ordering_mds} with ratio {ratio_mds}")
-    print(f"TSNE - ordering : {ordering_tsne} with ratio {ratio_tsne}")
+    # print(f"TSNE - ordering : {ordering_tsne} with ratio {ratio_tsne}")
     print("*"*30)
 
 

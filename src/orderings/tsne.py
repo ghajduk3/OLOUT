@@ -4,10 +4,7 @@ import numpy as np
 from typing import List
 import matplotlib.pyplot
 matplotlib.use("Qt5Agg")
-from openTSNE import utils
-from src.utils import tsne_plot
-from sklearn.model_selection import train_test_split
-from Orange.projection import TSNE
+
 
 
 """
