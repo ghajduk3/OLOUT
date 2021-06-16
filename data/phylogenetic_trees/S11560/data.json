@@ -1,8 +1,8 @@
 [
     {
-        "TREE_URL": "http://purl.org/phylo/treebase/phylows/study/TB2:S11560"
+        "NEXUS_FILE_URL": "http://purl.org/phylo/treebase/phylows/study/TB2:S11560"
     },
     {
-        "TREE_URL": "http://purl.org/phylo/treebase/phylows/study/TB2:S11560"
+        "NEXUS_FILE_URL": "http://purl.org/phylo/treebase/phylows/study/TB2:S11560"
     }
 ]

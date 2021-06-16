@@ -38,7 +38,8 @@ class TreeNode(object):
         children : list
             represents a list of children nodes of o node
         """
-        self.id = int(id)
+        # self.id = int(id)
+        self.id = id
         self.distance = distance
         self.children = []
 

@@ -159,7 +159,7 @@ class Lex(object):
         distance = ''
         token = self.stream.read_next()
         while True:
-            if str.isdigit(token) or token == '.':
+            if str.isdigit(token) or token == '.' or token == 'E' or token == '-':
                 distance += token
                 next(self.stream)
                 token = self.stream.read_next()
@@ -252,10 +252,14 @@ class Parser(object):
     current_internal : int
         first id of internal nodes. Each succesive internal node is incremented by one.
     """
+
+
     def __init__(self,lex):
         self.lex = lex
         self.stack = list()
         self.trees = list()
+        self.mapping = {}
+        self.node_id = 0
         self.current_internal = 999
 
 
@@ -271,7 +275,7 @@ class Parser(object):
         for token in self.lex:
             if token != None:
                 seen_tokens.append(token)
-                # print(token.type, token.value)
+                print(token.type, token.value)
                 # Check for tree start
                 if token.type == 'TREE':
                     pass
@@ -281,8 +285,13 @@ class Parser(object):
                     self._add_leaf()
                 elif token.type == 'DISTANCE' and seen_tokens[-2].type == 'ENDSUBTREE':
                     self._subtree_close(token.value)
+                    print(self.trees)
                 elif token.type == 'ENDTREE':
-                    return self.trees[0]
+                    if len(self.trees) > 1:
+                        tree = self.trees[0]
+                        tree.add_node(self.trees[1])
+                        return tree
+                    return self.trees[0], self.mapping
 
 
 
@@ -297,7 +306,9 @@ class Parser(object):
         if label.type != 'LABEL':
             raise ParseError("Label expected")
         value = next(self.lex).value
-        leaf = TreeNode(label.value,value)
+        self.mapping[self.node_id] = label.value
+        leaf = TreeNode(self.node_id,value)
+        self.node_id += 1
         self.stack[-1].add_node(leaf)
 
     def _subtree_close(self,distance):

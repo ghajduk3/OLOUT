@@ -75,6 +75,12 @@ def preorder_traverse_radial(node, parent, root_id, x, l, omega, tau,distances):
         distances[child_id] = [node_id,child.get_distance()]
         preorder_traverse_radial(child, node, root_id, x, l, omega, tau,distances)
 
+def construct_distances(node,distances):
+    for child in node.get_children():
+        distances[child.get_id()] = [node.get_id(),child.get_distance()]
+        construct_distances(child,distances)
+
+
 
 def apply_corrections(tree,level_matrix,omega,tau,distances,coord_orig):
     """
