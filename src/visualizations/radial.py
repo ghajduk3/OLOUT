@@ -65,7 +65,7 @@ def preorder_traverse_radial(node, parent, root_id, x, l, omega, tau,distances):
         angle = tau[node_id] + omega[node_id] / 2
         # print(angle,tau[node_id],omega[node_id],node.get_distance())
         x[node_id] = x[u_id] + node.get_distance() * np.array((cos(angle), sin(angle)))
-        print(angle, tau[node_id], omega[node_id], node.get_distance(),x[u_id],x[node_id])
+        # print(angle, tau[node_id], omega[node_id], node.get_distance(),x[u_id],x[node_id])
     eta = tau[node_id]
     for child in node.get_children():
         child_id = child.get_id()

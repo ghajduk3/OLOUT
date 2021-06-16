@@ -10,10 +10,10 @@ from src.utils.newick import Parser
 from src.utils.tree import TreeNode
 from random import *
 # from visualization import get_points_radial,plot_tree
-import matplotlib
+# import matplotlib
 from itertools import permutations
 from matplotlib import pyplot as plt
-matplotlib.use("Qt5Agg")
+# matplotlib.use("Qt5Agg")
 def leaves(t, t2=None):
     try:
         return t.pre_order()
@@ -161,6 +161,8 @@ class KOLO(object):
             return 0
         else:
             print("Leaf id",v.id)
+            print([child.id for child in v.get_children()])
+            print(v.get_right().children)
             L = leaves(v.get_left())
             R = leaves(v.get_right())
             LL = leaves(v.get_left().get_left(), v.get_left())

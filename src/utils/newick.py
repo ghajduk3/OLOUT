@@ -196,7 +196,7 @@ class Lex(object):
             next(self.stream)
             return self.start_subtree
         else:
-            print("USAO U LEAF", token)
+            # print("USAO U LEAF", token)
             self.token = Token('LEAF',None)
         return self.tree_label
 
@@ -271,7 +271,7 @@ class Parser(object):
         for token in self.lex:
             if token != None:
                 seen_tokens.append(token)
-                print(token.type, token.value)
+                # print(token.type, token.value)
                 # Check for tree start
                 if token.type == 'TREE':
                     pass
