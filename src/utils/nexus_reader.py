@@ -4,6 +4,7 @@ Tools for reading a nexus file
 import io
 import gzip
 import pathlib
+import re
 import warnings
 
 from nexus.handlers import GenericHandler
@@ -32,6 +33,7 @@ class NexusReader(object):
         self.characters = None
         self.trees = None
         self.taxa = None
+        self.site_url = None
 
         if blocks:
             self._set_blocks(blocks)
@@ -39,7 +41,7 @@ class NexusReader(object):
         if filename:
             self.filename = filename
             self.short_filename = pathlib.Path(filename).name
-            self._set_blocks(NexusReader._blocks_from_file(filename))
+            self._set_blocks(NexusReader._blocks_from_file(filename)[0])
 
     @classmethod
     def from_file(cls, filename, encoding='utf-8-sig'):
@@ -50,10 +52,13 @@ class NexusReader(object):
         :return: `NexusReader` object.
         """
         res = cls()
-        res._set_blocks(NexusReader._blocks_from_file(filename, encoding=encoding))
+        blocks, site_url = NexusReader._blocks_from_file(filename, encoding=encoding)
+        res._set_blocks(blocks)
+        res.site_url = site_url
+
         res.filename = filename
         res.short_filename = pathlib.Path(filename).name
-        return res
+        return res, site_url
 
     @classmethod
     def from_string(cls, string):
@@ -89,7 +94,7 @@ class NexusReader(object):
             category=DeprecationWarning,
             stacklevel=1)
         warnings.simplefilter('default', DeprecationWarning)  # reset filter
-        self._set_blocks(NexusReader._blocks_from_file(filename, encoding=encoding))
+        self._set_blocks(NexusReader._blocks_from_file(filename, encoding=encoding)[0])
         self.filename = filename
         self.short_filename = pathlib.Path(filename).name
 
@@ -117,6 +122,10 @@ class NexusReader(object):
                 continue
             elif line.startswith('[') and line.endswith(']'):
                 continue
+            # if re.match(r'^TreeBASE Study URI',line):
+            #     print("Found site url")
+            #     site_url = re.search(r'http[A-Za-z.:/0-9]*',line).group()
+            #     print(site_url)
 
             start = BEGIN_PATTERN.findall(line)
             if start:
@@ -148,10 +157,24 @@ class NexusReader(object):
             handle = gzip.open(str(filename), 'rt', encoding=encoding)
         else:
             handle = filename.open('r', encoding=encoding)
-        res = NexusReader._iter_blocks(handle.readlines())
-        handle.close()
-        return res
+        lines = handle.readlines()
+        res = NexusReader._iter_blocks(lines)
+        site_url = NexusReader._get_site_url(lines)
 
+        handle.close()
+        return res, site_url
+
+    @staticmethod
+    def _get_site_url(iterlines):
+        for line in iterlines:
+            line = line.strip()
+            if not line:
+                continue
+            elif line.startswith('[') and line.endswith(']'):
+                continue
+            if re.match(r'^TreeBASE Study URI',line):
+                site_url = re.search(r'http[A-Za-z.:/0-9]*',line).group()
+                return site_url
     def write(self, **kw):
         """
         Generates a string containing a complete nexus from

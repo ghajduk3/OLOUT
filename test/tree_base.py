@@ -7,7 +7,6 @@ def read_json_trees(input_path):
 
 
 if __name__ == "__main__":
-
-    data = read_json_trees("../data/phylogenetic_trees/S10589/data.json")
+    data = read_json_trees("../data/phylogenetic_trees/S10942/data.json")
     # for tree in data:
     print(data[0]['NEWICK_TREE'])

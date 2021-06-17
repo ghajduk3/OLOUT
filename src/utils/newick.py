@@ -275,7 +275,7 @@ class Parser(object):
         for token in self.lex:
             if token != None:
                 seen_tokens.append(token)
-                print(token.type, token.value)
+                # print(token.type, token.value)
                 # Check for tree start
                 if token.type == 'TREE':
                     pass
@@ -285,7 +285,7 @@ class Parser(object):
                     self._add_leaf()
                 elif token.type == 'DISTANCE' and seen_tokens[-2].type == 'ENDSUBTREE':
                     self._subtree_close(token.value)
-                    print(self.trees)
+                    # print(self.trees)
                 elif token.type == 'ENDTREE':
                     if len(self.trees) > 1:
                         tree = self.trees[0]
