@@ -52,7 +52,7 @@ class KOLO(object):
         self.internal_dummy_nodes = list()
 
     def optimal_leaf_ordering(self):
-        tree = self._parse_newick_tree()
+        tree, mapping  = self._parse_newick_tree()
         optimal_ordered_tree = self._get_optimal_ordered_tree(tree)
         return optimal_ordered_tree,optimal_ordered_tree.pre_order()
 
@@ -85,7 +85,7 @@ class KOLO(object):
         return outs
 
     def _produce_optimal_scores(self, v, D, fast=True):
-        print("--------------- PRODUCE OPTIMAL SCORES----------------" , v.id)
+        print("--------------- PRODUCE OPTIMAL SCORES----------------" ,v.id)
         """
             Wrapper for recursive function. Produces new nodes according to k-ary ordering problem.
         """
@@ -147,7 +147,7 @@ class KOLO(object):
         print(leaves(v), leaves(v.get_left()), leaves(v.get_right()))
 
         def score_func(left, right, u, m, w, k):
-            print("SCORE FUNC ------------ U,M,W,K",type(u), type(m), type(w), type(k))
+            print("SCORE FUNC ------------ U,M,W,K",type(u), type(m), type(w), type(k),m,k)
             return Mfunc(left, u, m) + Mfunc(right, w, k) + D[m, k]
 
         def Mfunc(v, a, b):
