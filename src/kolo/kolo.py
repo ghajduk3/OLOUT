@@ -4,13 +4,13 @@ import itertools
 import itertools
 import numpy as np
 from scipy.cluster import hierarchy
-from newick import Parser
-from tree import TreeNode
+from src.utils.newick import Parser
+from src.utils.tree import TreeNode
 from random import *
-from visualization import get_points_radial,plot_tree
+# from visualization import get_points_radial,plot_tree
 import matplotlib
 from matplotlib import pyplot as plt
-matplotlib.use("Qt5Agg")
+# matplotlib.use("Qt5Agg")
 def leaves(t, t2=None):
     try:
         return t.pre_order()
@@ -49,9 +49,10 @@ class KOLO(object):
         self.internal_dummy_nodes = list()
 
     def optimal_leaf_ordering(self):
-        tree = self._parse_newick_tree()
+        tree, mapping = self._parse_newick_tree()
         optimal_ordered_tree = self._get_optimal_ordered_tree(tree)
-        return optimal_ordered_tree,optimal_ordered_tree.pre_order()
+        optimal_ordering = [mapping[node] for node in optimal_ordered_tree.pre_order()]
+        return optimal_ordered_tree,optimal_ordering
 
     def _get_optimal_ordered_tree(self, tree):
         """

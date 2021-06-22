@@ -1,10 +1,10 @@
 import os
 import json
 import rootpath
-from nexus_reader import NexusReader
+from src.utils.nexus_reader import NexusReader
 import re
 import numpy as np
-from newick import Parser
+from src.utils.newick import Parser
 from math import pi
 from src.utils.tree import TreeNode
 from src.visualizations import radial
@@ -56,8 +56,10 @@ def get_distance_matrix(tree):
     distances = {}
     radial.construct_distances(tree,distances)
     level_order = radial.reverse_level_order_traversal(tree)
-    print(level_order)
-    print(tree.pre_order())
+    # print(level_order)
+    # print(tree.pre_order())
+    # print(distances)
+    # print(radial.LCA(distances,level_order, 0 , 5))
     return [[radial.LCA(distances, level_order,i,j) for j in range(number_children)] for i in range(number_children)]
 
 if __name__ == "__main__":

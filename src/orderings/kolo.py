@@ -53,8 +53,10 @@ class KOLO(object):
 
     def optimal_leaf_ordering(self):
         tree, mapping  = self._parse_newick_tree()
+        print("mappinb", mapping)
         optimal_ordered_tree = self._get_optimal_ordered_tree(tree)
-        return optimal_ordered_tree,optimal_ordered_tree.pre_order()
+        optimal_ordering = [mapping[node] for node in optimal_ordered_tree.pre_order()]
+        return optimal_ordered_tree, optimal_ordering
 
     def _get_optimal_ordered_tree(self, tree):
         """
@@ -94,8 +96,12 @@ class KOLO(object):
         num_children = len(v_children)
 
         #### Partition 1.case - 3 children
-        if num_children == 3:
-            best_permut = (10000000000,0,0)
+        if num_children > 2:
+            best_permut = (100000000,0,0)
+            if num_children > 3:
+                dummy_node_right = TreeNode(self.int_dummy_node, 0)
+                self.internal_dummy_nodes.append(self.int_dummy_node)
+                self.int_dummy_node += 1
             dummy_node = TreeNode(self.int_dummy_node, 0)
             self.internal_dummy_nodes.append(self.int_dummy_node)
             self.int_dummy_node+=1
@@ -105,17 +111,23 @@ class KOLO(object):
                 v1 = copy.deepcopy(v_cop)
                 left_part, right_part = permut
                 left_indexes = [*left_part]
-                right_indexes = right_part[0]
+                right_indexes = [*right_part]
+                left_nodes = [v1.children[ind] for ind in left_indexes]
+                dummy_node.children = left_nodes
+                if len(right_indexes) == 1:
+                    right_node = v1.children[right_indexes[0]]
+                    v1.children = [right_node]
+                else:
+                    right_nodes = [v1.children[ind] for ind in right_indexes]
+                    dummy_node_right.children = right_nodes
+                    v1.children.insert(0,dummy_node_right)
+                v1.children.insert(0,dummy_node)
+
                 print("-------------------------PERMUTIACIJA -------------------")
                 print([child.id for child in v1.children])
-                right_node = v1.children[right_indexes]
-                print(left_indexes, right_indexes, right_node.id)
-                left_nodes = [v1.children[ind] for ind in left_indexes]
+                print(left_indexes, right_indexes,left_part,*right_part, right_node.id)
 
-                dummy_node.children = left_nodes
-                v1.children = [right_node]
-                v1.children.insert(1,dummy_node)
-                print([child.id for child in dummy_node.children])
+                print("Node childs",[child.id for child in v1.children])
                 self._optimal_scores(v1, D, fast)
 
                 L = leaves(v1.get_left())
@@ -129,16 +141,16 @@ class KOLO(object):
                         print(list(itertools.product(L, R)))
                         u, w = min(itertools.product(L, R), key=getkey)  ##updated function
                     print("permut scores",v1.id, u, w, L, R, self.M[v1.id,u,w])
-                    if self.M[v1.id,u,w] < best_permut[0]:
+                    if self.M[v1.id,u,w] <= best_permut[0]:
                         best_permut = (self.M[v1.id,u,w],left_nodes,right_node)
                 print("------------------ KONEC PERMUTACIJE----------------------------")
 
             score,left,right = best_permut
             dummy_node.children = left
             v.children = [right]
-            v.children.insert(1,dummy_node)
+            v.children.insert(0,dummy_node)
             print(v.id, [child.id for child in v.children])
-            print("CHANGED V ---------------------",right.id)
+            print("CHANGED V ---------------------",right.id,[node.id for node in best_permut[1]], best_permut)
         else:
             return self._optimal_scores(v, D, fast)
 
@@ -147,7 +159,7 @@ class KOLO(object):
         print(leaves(v), leaves(v.get_left()), leaves(v.get_right()))
 
         def score_func(left, right, u, m, w, k):
-            print("SCORE FUNC ------------ U,M,W,K",type(u), type(m), type(w), type(k),m,k)
+            print("SCORE FUNC ------------ U,M,W,K",u, m,w,k)
             return Mfunc(left, u, m) + Mfunc(right, w, k) + D[m, k]
 
         def Mfunc(v, a, b):
@@ -162,7 +174,7 @@ class KOLO(object):
         else:
             print("Leaf id",v.id)
             print([child.id for child in v.get_children()])
-            print(v.get_right().children)
+            # print(v.get_right().children)
             L = leaves(v.get_left())
             R = leaves(v.get_right())
             LL = leaves(v.get_left().get_left(), v.get_left())
@@ -176,9 +188,8 @@ class KOLO(object):
                     self.M[v.get_right().id, l, r] = self._produce_optimal_scores(v.get_right(), D, fast=False)
                     for u in L:
                         for w in R:
-                            print("u,w", u, w, v.id,)
+                            print("u,w", u, w, v.id)
                             if fast:
-
                                 m_order = sorted(other(u, LL, LR), key=lambda m: Mfunc(v.get_left(), u, m))
                                 k_order = sorted(other(w, RL, RR), key=lambda k: Mfunc(v.get_right(), w, k))
                                 print(m_order, k_order)
@@ -206,9 +217,10 @@ class KOLO(object):
                                                      for k in other(w, RL, RR)])
                                 print("Result false", self.M[v.id, u, w], v.id, u, w)
                     print(self.M)
-                    return self.M[v.id, l, r]
+            return self.M[v.id, l, r]
 
     def _reorder_tree(self,v,D):
+        
         print([child.id for child in v.get_children()])
         L = leaves(v.get_left())
         R = leaves(v.get_right())
