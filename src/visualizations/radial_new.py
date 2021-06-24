@@ -78,29 +78,28 @@ class RadialLayout:
         """
         leaf_ordering_internal = self.tree.pre_order_internal()
         leaf_ordering_pivot = self.tree.pre_order()[0]
-        x = {}
+        corrected_coordinates = {}
         root = self.tree.get_id()
-        dist = self.__get_pair_distance(self.distances, level_matrix, leaf_ordering_pivot, root)
-        print("Root distace", np.array((cos(pi / (dist / 2)), sin(pi / (dist / 2)))))
-        x[root] = np.array((cos(pi / (dist)), sin(pi / (dist))))
+        pivot_root_distance = self.__get_pair_distance(self.distances, level_matrix, leaf_ordering_pivot, root)
+        corrected_coordinates[root] = np.array((cos(pi / (pivot_root_distance)), sin(pi / (pivot_root_distance))))
         # Skip root
         for node in leaf_ordering_internal[1:]:
             # Write correction factor and document it as soon as possible
             dist = self.__get_pair_distance(self.distances, level_matrix, leaf_ordering_pivot, node)
-            air_dist = self.__get_euclidian_distance(self.x[leaf_ordering_pivot], self.x[node])
+            air_dist = self.__get_euclidian_distance(self.coordinates[leaf_ordering_pivot], self.coordinates[node])
             stress = dist / air_dist
             level = level_matrix[node][0]
             if node != leaf_ordering_pivot:
-                correction_factor = dist / (level)
+                correction_factor = dist / level
             else:
                 correction_factor = 2
 
             angle = self.tau[node] + self.omega[node] / correction_factor
             parent = level_matrix[node][1]
-            x[node] = x[parent] + self.distances[node][1] * np.array((cos(angle), sin(angle)))
+            corrected_coordinates[node] = corrected_coordinates[parent] + self.distances[node][1] * np.array((cos(angle), sin(angle)))
             print("Angle corrections", node, angle, self.tau[node], self.omega[node], self.distances[node][1], correction_factor, dist,
-                  level, parent, x[parent], x[node], stress)
-        return x
+                  level, parent, corrected_coordinates[parent], corrected_coordinates[node], stress)
+        return corrected_coordinates
 
     def calculate_stress_pivot(self, tree, level_matrix, coordinates, distances):
         print(level_matrix, distances)
