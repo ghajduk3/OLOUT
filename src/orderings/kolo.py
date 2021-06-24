@@ -12,22 +12,6 @@ def leaves(t, t2=None):
             return []
 
 
-def other(x, V, W):
-    # For an element x, returns the set that x isn't in
-    if x in V:
-        return W
-    else:
-        return V
-
-
-def get_leaves(t, t2=None):
-    try:
-        return t.pre_order()
-    except AttributeError:
-        if t2 is not None:
-            return t2.pre_order()
-        else:
-            return []
 def get_permutations(lst, siz):
 
     def validate(parts, siz):
@@ -37,7 +21,6 @@ def get_permutations(lst, siz):
                     if p[i] > p[i + 1]:
                         return False
         return True
-
     outs = []
     for c in list(itertools.permutations(lst)):
         parts = [c[:siz], c[siz:]]
@@ -69,7 +52,7 @@ class KOLO:
     def get_optimal_leaf_ordering(self):
         self.__get_optimal_ordered_tree(self.newick_tree, self.distance_matrix)
         ordered_tree = self.__tree_reorder(self.newick_tree)
-        return ordered_tree.pre_order()
+        return ordered_tree, ordered_tree.pre_order()
 
     def __get_optimal_ordered_tree(self,v, distance_matrix):
         print(f"----------- Permuration wrapper, root node is {v.get_id()} with children {[child.get_id() for child in v.get_children()]} ------------")

@@ -5,6 +5,7 @@ from src.utils.newick import Parser
 import numpy as np
 from src.utils.preprocess import get_distance_matrix
 import itertools
+from src.visualizations import radial
 
 
 if __name__ == "__main__":
@@ -35,7 +36,13 @@ if __name__ == "__main__":
     distance_matrix_2 = get_distance_matrix(tree_2)
 
     kolo = KOLO(tree_string_2, np.array(distance_matrix_2))
-    print("Tree 2 --------------------", kolo.get_optimal_leaf_ordering())
+    ordered_tree, optimal_ordering = kolo.get_optimal_leaf_ordering()
+    print("Tree 2 --------------------",optimal_ordering)
+
+    radial_layout = radial.RadialLayout(ordered_tree)
+    print(radial_layout.get_points_radial())
+
+
 
 
 

@@ -8,8 +8,8 @@ class RadialLayout:
 
     def __init__(self, tree):
         self.tree = tree
-        self.l = {}
-        self.x = {}
+        self.levels = {}
+        self.coordinates = {}
         self.omega = {}
         self.tau = {}
         self.distances = {}
@@ -22,9 +22,9 @@ class RadialLayout:
         :param root:
         :return:
         """
-        self.postorder_traverse_radial(self.tree)
+        self.postorder_traverse_radial(self.tree, None, 1)
         root = self.tree.get_id()
-        self.x[root] = np.array((0, 0))
+        self.coordinates[root] = np.array((0, 0))
         self.omega[root] = 2 * pi
         self.tau[root] = 0
         self.preorder_traverse_radial(self.tree, None, root)
@@ -33,53 +33,44 @@ class RadialLayout:
         if apply_corrections:
             x = self.apply_angle_corrections(levels)
             stress = self.calculate_stress_pivot(self.tree,levels,x, self.distances)
-            stress_global = self.calculate_stress(self.tree, levels, x, self.distances)
-            return x, stress, stress_global
+            return x, stress
 
-        stress = self.calculate_stress_pivot(self.tree, levels, self.x, self.distances)
-        stress_global = self.calculate_stress(self.tree, levels, self.x, self.distances)
-
-        return self.x, stress, stress_global
+        stress = self.calculate_stress_pivot(self.tree, levels, self.coordinates, self.distances)
+        return self.coordinates, stress
 
 
-    def postorder_traverse_radial(self, tree_node):
+    def postorder_traverse_radial(self, tree_node, parent_id, level):
         """
-        Traverses the tree recursively in a postorder manner and calculates the number of leaves in each node's subtree.
+        Traverses the tree recursively in a postorder manner, calculates the number of leaves in each node's subtree and calculates each node's level.
         """
+
         node_id = tree_node.get_id()
+        self.levels[node_id] = (0,level, parent_id)
         if tree_node.is_leaf():
-            self.l[node_id] = 1
+            self.levels[node_id][0] = 1
         else:
-            self.l[node_id] = 0
             for child in tree_node.get_children():
                 child_id = child.get_id()
-                self.postorder_traverse_radial(child)
-                self.l[node_id] += self.l[child_id]
+                self.postorder_traverse_radial(child, node_id, level+1)
+                self.levels[node_id][0] += self.levels[child_id][0]
 
-    def preorder_traverse_radial(self, node, parent, root_id):
-        node_id = node.get_id()
-        if node.get_id() != root_id:
+    def preorder_traverse_radial(self, tree_node, parent, root_id):
+        tree_node_id = tree_node.get_id()
+        if tree_node_id != root_id:
             u = parent
             u_id = u.get_id()
-            angle = self.tau[node_id] + self.omega[node_id] / 2
-            print(f"Node with id {node_id} befor assigning coordinates, angle {angle}, omega {self.omega[node_id]}, tau {self.tau[node_id]}")
+            angle = self.tau[tree_node_id] + self.omega[tree_node_id] / 2
             # print(angle,tau[node_id],omega[node_id],node.get_distance())
-            self.x[node_id] = self.x[u_id] + node.get_distance() * np.array((cos(angle), sin(angle)))
-            print(
-                f"Node with id {node_id} after assigning coordinates, angle {angle}, omega {self.omega[node_id]}, tau {self.tau[node_id]}, parent coordinates {self.x[u_id]}, node coordinates {self.x[node_id]}")
+            self.coordinates[tree_node_id] = self.coordinates[u_id] + tree_node.get_distance() * np.array((cos(angle), sin(angle)))
             # print(angle, tau[node_id], omega[node_id], node.get_distance(),x[u_id],x[node_id])
-        print(
-            f"Node with id {node_id} , number of leaves {self.l[node_id]} , omega {self.omega[node_id]}, tau {self.tau[node_id]}, parent coordinates , node coordinates {self.x[node_id]} ")
-
-
-        eta = self.tau[node_id]
-        for child in node.get_children():
+        eta = self.tau[tree_node_id]
+        for child in tree_node.get_children():
             child_id = child.get_id()
-            self.omega[child_id] = 2 * pi * self.l[child_id] / self.l[root_id]
+            self.omega[child_id] = 2 * pi * self.levels[child_id][0] / self.levels[root_id][0]
             self.tau[child_id] = eta
             eta += self.omega[child_id]
-            self.distances[child_id] = [node_id, child.get_distance()]
-            self.preorder_traverse_radial(child, node, root_id)
+            self.distances[child_id] = [tree_node_id, child.get_distance()]
+            self.preorder_traverse_radial(child, tree_node, root_id)
 
     def apply_angle_corrections(self, level_matrix):
         """
@@ -100,20 +91,15 @@ class RadialLayout:
             stress = dist / air_dist
             level = level_matrix[node][0]
             if node != leaf_ordering_pivot:
-                correction_factor = (dist) / (level)
-                # if node == 1:
-                    # correction_factor = 15000
-                # correction_factor = dist / 2
-
+                correction_factor = dist / (level)
             else:
                 correction_factor = 2
 
             angle = self.tau[node] + self.omega[node] / correction_factor
             parent = level_matrix[node][1]
             x[node] = x[parent] + self.distances[node][1] * np.array((cos(angle), sin(angle)))
-            print(f"Angle corrections for node {node}, angle {angle}, tau {self.tau[node]}, omega {self.omega[node]}, distance { self.distances[node][1], dist}, correct factor {correction_factor}, parent {x[parent]}, coord {x[node]}")
-
-        print(f"Internal leaf ordering {leaf_ordering_internal}, leaf ordering {self.tree.pre_order()}",)
+            print("Angle corrections", node, angle, self.tau[node], self.omega[node], self.distances[node][1], correction_factor, dist,
+                  level, parent, x[parent], x[node], stress)
         return x
 
     def calculate_stress_pivot(self, tree, level_matrix, coordinates, distances):
@@ -132,24 +118,6 @@ class RadialLayout:
                 pivot, next_node, air_distance, branch_distance, local_stress))
             stresses.append(local_stress)
         print("-" * 50)
-        return sum(stresses) / len(stresses)
-
-    def calculate_stress(self, tree, level_matrix, coordinates, distances):
-        ordering = tree.pre_order()
-
-        stresses = []
-        local_stress = 0
-
-        for index in range(len(ordering) - 1):
-            node_1, node_2 = ordering[index], ordering[index + 1]
-            branch_distance = self.__get_pair_distance(distances, level_matrix, node_1, node_2)
-            air_distance = self.__get_euclidian_distance(coordinates[node_1], coordinates[node_2])
-            local_stress = math.log2(air_distance / branch_distance)
-            print("Stress, node_1 : {} , node_2 : {} , air distance : {} , branch distance : {}, stress : {}".format(
-                node_1, node_2, air_distance, branch_distance, local_stress))
-            stresses.append(local_stress)
-        print("-" * 50, sum(stresses) / len(stresses))
-
         return sum(stresses) / len(stresses)
 
     def __get_node_levels(self, node,parent, level, levels):
