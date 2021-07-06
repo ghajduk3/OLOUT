@@ -3,9 +3,11 @@ from src.orderings.kolo import KOLO
 from src.orderings.kolo import KOLO
 from src.utils.newick import Parser
 import numpy as np
-from src.utils.preprocess import get_distance_matrix
+# from src.utils.preprocess import get_distance_matrix
+from src.utils.distance_matrix import ReconstructDistanceMatrix
 import itertools
 from src.visualizations import radial
+from src.utils.pipeline import leaf_ordering_kolo
 
 
 if __name__ == "__main__":
@@ -32,15 +34,19 @@ if __name__ == "__main__":
     # kolo = KOLO(tree_string_1, np.array(distance_matrix_1))
     # print("Tree 1 --------------------", kolo.get_optimal_leaf_ordering())
 
-    tree_2, mapping_2 = Parser.parse_newick_tree(tree_string_2)
-    distance_matrix_2 = get_distance_matrix(tree_2)
-
-    kolo = KOLO(tree_string_2, np.array(distance_matrix_2))
-    ordered_tree, optimal_ordering = kolo.get_optimal_leaf_ordering()
-    print("Tree 2 --------------------",optimal_ordering)
-
+    # tree_2, mapping_2 = Parser.parse_newick_tree(tree_string_2)
+    # distance_matrix_2 = ReconstructDistanceMatrix(tree_2).get_reconstructed_distance_matrix()
+    # print(distance_matrix_2)
+    # # distance_matrix_2 = get_distance_matrix(tree_2)
+    #
+    # kolo = KOLO(tree_string_2, np.array(distance_matrix_2))
+    # ordered_tree, optimal_ordering = kolo.get_optimal_leaf_ordering()
+    # print("Tree 2 --------------------",optimal_ordering)
+    ordered_tree, leaf_ordering, node_mapping = leaf_ordering_kolo(tree_string_2)
     radial_layout = radial.RadialLayout(ordered_tree)
     print(radial_layout.get_points_radial())
+    print(leaf_ordering)
+    print(node_mapping)
 
 
 

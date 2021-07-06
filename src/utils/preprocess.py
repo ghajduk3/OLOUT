@@ -7,9 +7,9 @@ import numpy as np
 from src.utils.newick import Parser
 from math import pi
 from src.utils.tree import TreeNode
-from src.visualizations import radial_old
+# from src.visualizations import radial_old
 from src.orderings.kolo import KOLO
-
+from src.utils.distance_matrix import ReconstructDistanceMatrix
 BASE_URL = "http://purl.org/phylo/treebase/phylows/study/TB2:"
 BASE_PATH = os.path.join(rootpath.detect(), "data","phylogenetic_trees")
 
@@ -26,16 +26,16 @@ def parseNexusFile(nexus, study_url)->dict:
         try:
             newick_tree_string = parseTree(nexus_tree[0])
             parsed_tree, parsed_mapping = Parser.parse_newick_tree(newick_tree_string)
+            reconstructed_distance_matrix = ReconstructDistanceMatrix(parsed_tree).get_reconstructed_distance_matrix()
         except:
             raise Exception
 
         return {
                 'NEXUS_FILE_URL': study_url,
                 'NEWICK_TREE' : newick_tree_string,
-                'DISTANCE_MATRIX' : get_distance_matrix(parsed_tree),
+                'DISTANCE_MATRIX' : reconstructed_distance_matrix,
                 'NODE_MAPPING' : parsed_mapping
                 }
-
 
 def parseTree(newickTree):
     REGEX_PATTERN = r"\(+.+$"
@@ -51,16 +51,6 @@ def writeToJson(data,directory_name):
             print("dumping json", output_path)
             json.dump(data, out_file, indent=4)
 
-def get_distance_matrix(tree):
-    number_children = TreeNode.get_children_number(tree)
-    distances = {}
-    radial_old.construct_distances(tree,distances)
-    level_order = radial_old.reverse_level_order_traversal(tree)
-    # print(level_order)
-    # print(tree.pre_order())
-    # print(distances)
-    # print(radial.LCA(distances,level_order, 0 , 5))
-    return [[radial_old.LCA(distances, level_order,i,j) for j in range(number_children)] for i in range(number_children)]
 
 if __name__ == "__main__":
     for index, file in enumerate(os.listdir(os.path.join(rootpath.detect(), "data","nexus"))):

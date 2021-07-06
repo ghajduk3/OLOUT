@@ -31,28 +31,30 @@ def get_permutations(lst, siz):
 
 class KOLO:
 
-    def __init__(self, newick_tree_string:str, distance_matrix):
-        self.newick_tree = newick_tree_string
+    def __init__(self, newick_tree, distance_matrix, mapping):
+        self.newick_tree = newick_tree
         self.distance_matrix = distance_matrix
+        self._mapping = mapping
         self.M = {}
         self.temp = {}
         self.int_dummy_node = 2000
         self.internal_dummy_nodes = list()
 
-    @property
-    def newick_tree(self):
-        return self._newick_tree
-
-    @newick_tree.setter
-    def newick_tree(self, newick_tree_string):
-        tree, mapping = Parser.parse_newick_tree(newick_tree_string)
-        self._newick_tree = tree
-        self._mapping = mapping
+    # @property
+    # def newick_tree(self):
+    #     return self._newick_tree
+    #
+    # @newick_tree.setter
+    # def newick_tree(self, newick_tree_string):
+    #     tree, mapping = Parser.parse_newick_tree(newick_tree_string)
+    #     self._newick_tree = tree
+    #     self._mapping = mapping
 
     def get_optimal_leaf_ordering(self):
         self.__get_optimal_ordered_tree(self.newick_tree, self.distance_matrix)
         ordered_tree = self.__tree_reorder(self.newick_tree)
-        return ordered_tree, ordered_tree.pre_order()
+        optimal_ordering = [self._mapping[node] for node in ordered_tree.pre_order()]
+        return ordered_tree, optimal_ordering
 
     def __get_optimal_ordered_tree(self,v, distance_matrix):
         print(f"----------- Permuration wrapper, root node is {v.get_id()} with children {[child.get_id() for child in v.get_children()]} ------------")

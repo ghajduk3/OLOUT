@@ -182,8 +182,3 @@ class RadialLayout:
             plot.annotate(child_id, xy=(points[child_id][0] + 0.05, points[child_id][1] + 0.05))
             RadialLayout.plot_tree(child, points, plot)
 
-    @staticmethod
-    def construct_distances(node, distances):
-        for child in node.get_children():
-            distances[child.get_id()] = [node.get_id(), child.get_distance()]
-            RadialLayout.construct_distances(child, distances)
