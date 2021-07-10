@@ -1,7 +1,7 @@
 import collections,sys
 from io import StringIO
 from typing import Callable, List
-from .tree import TreeNode
+from src.utils.tree import TreeNode
 # https://github.com/golang/go/blob/master/src/text/template/parse/lex.go
 
 class InvalidTokenType(Exception):
@@ -159,13 +159,25 @@ class Lex(object):
         distance = ''
         token = self.stream.read_next()
         while True:
-            if str.isdigit(token) or token == '.':
+            if str.isdigit(token) or token == '.' or token == 'E' or token == '-':
                 distance += token
                 next(self.stream)
                 token = self.stream.read_next()
             else:
                 break
         return distance
+
+    def __get_leaf_label(self):
+        label = ''
+        token = self.stream.read_next()
+        while True:
+            if token != ":":
+                label += token
+                next(self.stream)
+                token = self.stream.read_next()
+            else:
+                break
+        return label
 
     def start_tree(self):
         if self.stream.closed():
@@ -184,14 +196,17 @@ class Lex(object):
             next(self.stream)
             return self.start_subtree
         else:
+            # print("USAO U LEAF", token)
             self.token = Token('LEAF',None)
         return self.tree_label
 
     def tree_label(self):
         self.remove_spaces()
         token = self.stream.read_next()
-        self.token = Token('LABEL',token)
-        next(self.stream)
+
+        label = self.__get_leaf_label()
+        self.token = Token('LABEL',label)
+        # next(self.stream)
         return self.label_length
 
     def label_length(self):
@@ -237,10 +252,14 @@ class Parser(object):
     current_internal : int
         first id of internal nodes. Each succesive internal node is incremented by one.
     """
+
+
     def __init__(self,lex):
         self.lex = lex
         self.stack = list()
         self.trees = list()
+        self.mapping = {}
+        self.node_id = 0
         self.current_internal = 999
 
 
@@ -256,6 +275,7 @@ class Parser(object):
         for token in self.lex:
             if token != None:
                 seen_tokens.append(token)
+                # print(token.type, token.value)
                 # Check for tree start
                 if token.type == 'TREE':
                     pass
@@ -265,8 +285,13 @@ class Parser(object):
                     self._add_leaf()
                 elif token.type == 'DISTANCE' and seen_tokens[-2].type == 'ENDSUBTREE':
                     self._subtree_close(token.value)
+                    # print(self.trees)
                 elif token.type == 'ENDTREE':
-                    return self.trees[0]
+                    if len(self.trees) > 1:
+                        tree = self.trees[0]
+                        tree.add_node(self.trees[1])
+                        return tree
+                    return self.trees[0], self.mapping
 
 
 
@@ -281,7 +306,9 @@ class Parser(object):
         if label.type != 'LABEL':
             raise ParseError("Label expected")
         value = next(self.lex).value
-        leaf = TreeNode(label.value,value)
+        self.mapping[self.node_id] = label.value
+        leaf = TreeNode(self.node_id,value)
+        self.node_id += 1
         self.stack[-1].add_node(leaf)
 
     def _subtree_close(self,distance):
@@ -295,7 +322,11 @@ if __name__ == "__main__":
     # print(token.type)
     # tree_string = "((2:2.000000,(1:4.000000, 0:1.000000, 9:3.5):1.000000):2.000000, (4:2.000000, 3:3.000000):1.000000,5:5.00000);"
     tree_string_1 = '(3:2.000000,(2:4.000000, (1:3.000000, 0:2.000000):3.000000):2.000000, 4:1.000000);'
-    stream = Stream(tree_string_1)
-    tree = Parser.parse_newick_tree(tree_string_1)
-    print(type(tree.id))
-    #
+    tree_big = '((((((((((((((((1:7.0,2:2.0):1.0,(3:5.0,4:13.0):3.0):0.0,26:2.0):0.0,8:0.0):0.0,59:1.0):0.0,58:1.0):0.0,36:0.0):0.0,38:0.0):0.0,(29:0.0,30:4.0):0.0):0.0,25:4.0):2.0,6:0.0):1.0,(((65:1.0,67:0.0):1.0,77:1.0):2.0,110:5.0):2.0):1.0,(((((((((40:0.0,((44:3.0,(49:3.0,52:1.0):0.0):0.0,55:1.0):0.0):0.0,102:0.0):0.0,53:1.0):0.0,46:6.0):1.0,(43:2.0,56:4.0):0.0):2.0,47:9.0):3.0,(((((((41:2.0,48:3.0):0.0,51:1.0):0.0,57:1.0):0.0,54:1.0):0.0,50:8.0):0.0,45:2.0):0.0,105:1.0):4.0):0.0,42:4.0):1.0,66:6.0):0.0):4.0,(9:6.0,(62:0.0,63:9.0):5.0):2.0):0.0,(((((5:2.0,23:0.0):0.0,((((7:0.0,(100:2.0,101:0.0):0.0):0.0,60:0.0):0.0,(28:3.0,86:6.0):0.0):1.0,(((((((10:4.0,109:0.0):1.0,((12:0.0,(((((((69:0.0,94:7.0):0.0,73:0.0):0.0,79:0.0):0.0,((70:1.0,(82:1.0,87:2.0):0.0):0.0,76:0.0):0.0):0.0,81:0.0):0.0,75:0.0):0.0,72:0.0):0.0):1.0,78:4.0):0.0):0.0,(((33:0.0,61:1.0):0.0,84:2.0):1.0,85:3.0):0.0):0.0,(80:1.0,83:0.0):2.0):1.0,(((((11:1.0,(13:1.0,14:0.0):0.0):0.0,15:0.0):1.0,(98:1.0,104:0.0):1.0):2.0,103:0.0):1.0,(95:3.0,96:2.0):2.0):0.0):1.0,27:0.0):0.0,(16:0.0,((((((18:2.0,(74:0.0,99:3.0):1.0):0.0,106:1.0):0.0,89:0.0):0.0,90:0.0):0.0,93:0.0):1.0,((((((24:3.0,35:6.0):0.0,37:0.0):0.0,97:0.0):0.0,88:0.0):2.0,91:4.0):1.0,(((68:1.0,71:0.0):0.0,107:4.0):3.0,92:1.0):1.0):0.0):0.0):0.0):0.0):0.0):2.0,108:5.0):2.0,(22:10.0,(34:3.0,64:4.0):0.0):0.0):0.0,((17:6.0,(19:0.0,31:1.0):3.0):0.0,21:23.0):1.0):2.0):0.0,((20:2.0,39:3.0):21.0,32:17.0):2.0);'
+    stream = Stream(tree_big)
+
+    lexer = Lex(stream)
+    parser = Parser(lexer)
+    tree = parser.parse()
+
+

@@ -4,15 +4,13 @@ import numpy as np
 from typing import List
 import matplotlib.pyplot
 matplotlib.use("Qt5Agg")
-from openTSNE import utils
-from src.utils import tsne_plot
-from sklearn.model_selection import train_test_split
-from Orange.projection import TSNE
+
 
 
 """
 Idea is to use t-sne on input similarity matrix to infer leaf ordering and then visualize it.
 """
+
 def set_tsne(perplexity=30):
     return TSNE(
         perplexity=perplexity,
@@ -50,15 +48,17 @@ def get_tsne_embedding(similarity_matrix:np.ndarray):
 
     return embedding
 
-def get_leaf_ordering(similarity_matrix:np.ndarray)->List:
-    embedding = get_tsne_embedding(similarity_matrix)
-    pos_neg = embedding[:,1] > 0
-    neg_indices = np.where(pos_neg == False)[0]
-    pos_indices = np.where(pos_neg == True)[0]
-    negative_ind = embedding[neg_indices][:,0].argsort()
-    positive_ind = embedding[pos_indices][:,0].argsort()[::-1]
-
-    return np.concatenate((pos_indices[positive_ind],neg_indices[negative_ind]),axis=0)
+# def get_leaf_ordering(similarity_matrix:np.ndarray)->List:
+#
+#     embedding = get_tsne_embedding(similarity_matrix)
+#     print(embedding)
+#     pos_neg = embedding[:,1] > 0
+#     neg_indices = np.where(pos_neg == False)[0]
+#     pos_indices = np.where(pos_neg == True)[0]
+#     negative_ind = embedding[neg_indices][:,0].argsort()
+#     positive_ind = embedding[pos_indices][:,0].argsort()[::-1]
+#
+#     return np.concatenate((pos_indices[positive_ind],neg_indices[negative_ind]),axis=0)
 
 
 if __name__ == '__main__':
@@ -69,8 +69,9 @@ if __name__ == '__main__':
                     [6, 9, 6, 5, 0, 8],
                     [8, 11, 8, 9, 8, 0]])
     embedding = get_global_structure_tsne_embedding(dis)
-    tsne_plot.plot(embedding, [0, 1, 2, 3, 4, 5])
-    matplotlib.pyplot.show()
+    print(embedding)
+    # tsne_plot.plot(embedding, [0, 1, 2, 3, 4, 5])
+    # matplotlib.pyplot.show()
 
 
 

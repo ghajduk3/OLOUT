@@ -38,7 +38,8 @@ class TreeNode(object):
         children : list
             represents a list of children nodes of o node
         """
-        self.id = int(id)
+        # self.id = int(id)
+        self.id = id
         self.distance = distance
         self.children = []
 
@@ -119,6 +120,14 @@ class TreeNode(object):
             if flag == 0:
                 stack.pop()
         return preorder
+    @staticmethod
+    def get_children_number(tree):
+        if tree.is_leaf():
+            return 1
+        tree_counter = 0
+        for child in tree.get_children():
+            tree_counter += TreeNode.get_children_number(child)
+        return tree_counter
 
 
 
