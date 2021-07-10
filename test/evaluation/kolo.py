@@ -7,7 +7,7 @@ import numpy as np
 from src.utils.distance_matrix import ReconstructDistanceMatrix
 import itertools
 from src.visualizations import radial
-from src.utils.pipeline import leaf_ordering_kolo
+from src.utils.pipeline import leaf_ordering_kolo, radial_visualization
 
 
 if __name__ == "__main__":
@@ -42,11 +42,8 @@ if __name__ == "__main__":
     # kolo = KOLO(tree_string_2, np.array(distance_matrix_2))
     # ordered_tree, optimal_ordering = kolo.get_optimal_leaf_ordering()
     # print("Tree 2 --------------------",optimal_ordering)
-    ordered_tree, leaf_ordering, node_mapping = leaf_ordering_kolo(tree_string_2)
-    radial_layout = radial.RadialLayout(ordered_tree)
-    print(radial_layout.get_points_radial())
-    print(leaf_ordering)
-    print(node_mapping)
+    ordered_tree, leaf_ordering, node_mapping = leaf_ordering_kolo(tree_string_1)
+    radial_visualization(ordered_tree, node_mapping)
 
 
 

@@ -1,6 +1,8 @@
 import numpy as np
 import math
 from math import pi, cos, sin
+
+from bokeh.models import ColumnDataSource, LabelSet
 from numpy.linalg import norm
 
 
@@ -33,7 +35,8 @@ class RadialLayout:
         if apply_corrections:
             corrected_coordinates = self.__apply_angle_corrections()
             stress = self.__calculate_stress_pivot()
-            return corrected_coordinates, stress
+            stress_global = self.__calculate_stress(corrected=True)
+            return corrected_coordinates, stress, stress_global
 
         stress = self.__calculate_stress_pivot()
         stress_global = self.__calculate_stress()
@@ -94,7 +97,7 @@ class RadialLayout:
                 correction_factor = 2
 
             angle = self.tau[node] + self.omega[node] / correction_factor
-            parent = self.levels[node][1]
+            parent = self.levels[node][2]
             self.corrected_coordinates[node] = self.corrected_coordinates[parent] + self.distances[node][1] * np.array((cos(angle), sin(angle)))
             print("Angle corrections", node, angle, self.tau[node], self.omega[node], self.distances[node][1], correction_factor, dist,
                   level, parent, self.corrected_coordinates[parent], self.corrected_coordinates[node], stress)
@@ -173,12 +176,35 @@ class RadialLayout:
         travel_dis_2 += self.distances[v2][1]
         return travel_dis_1 + travel_dis_2
 
+
+
     @staticmethod
-    def plot_tree(node, points, plot):
+    def get_plotted_tree(tree, points, tree_node_mapping, figure):
+        tree_data = []
+        RadialLayout.plot_tree_bokeh(tree, points, figure, tree_data, root_id = tree.get_id())
+        x_coordinates, y_coordinates, node_labels = list(zip(*tree_data))
+        node_labels = [tree_node_mapping.get(node, node) for node in node_labels]
+        source = ColumnDataSource(data=dict(x=x_coordinates,
+                                            y=y_coordinates,
+                                            labels=node_labels))
+        labels = LabelSet(x='x', y='y', text='labels',
+                          x_offset=0, y_offset=0, source=source, render_mode='canvas')
+        figure.add_layout(labels)
+
+    @staticmethod
+    def plot_tree_bokeh(node, points, figure, tree_data, root_id = None):
         node_id = node.get_id()
+        node_x_coordinate, node_y_coordinate = points[node_id]
+        if root_id and root_id == node_id:
+            tree_data.append((node_x_coordinate, node_y_coordinate, node_id))
         for child in node.get_children():
             child_id = child.get_id()
-            plot.plot((points[node_id][0], points[child_id][0]), (points[node_id][1], points[child_id][1]), 'k')
-            plot.annotate(child_id, xy=(points[child_id][0] + 0.05, points[child_id][1] + 0.05))
-            RadialLayout.plot_tree(child, points, plot)
+            child_x_coordinate, child_y_coordinate = points[child_id]
+            tree_data.append((child_x_coordinate, child_y_coordinate, child_id))
+            figure.line(x=[node_x_coordinate, child_x_coordinate], y=[node_y_coordinate, child_y_coordinate])
+            RadialLayout.plot_tree_bokeh(child, points, figure, tree_data)
+
+
+
+
 
