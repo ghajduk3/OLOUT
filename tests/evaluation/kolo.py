@@ -8,7 +8,6 @@ from src.utils.distance_matrix import ReconstructDistanceMatrix
 import itertools
 from src.visualizations import radial
 from src.utils.pipeline import leaf_ordering_kolo, radial_visualization
-from tests.testing_pipeline import run_test_suites
 
 
 if __name__ == "__main__":
@@ -40,12 +39,12 @@ if __name__ == "__main__":
     # print(distance_matrix_2)
     # # distance_matrix_2 = get_distance_matrix(tree_2)
     #
-    # kolo = KOLO(tree_string_2, np.array(distance_matrix_2))
+    # kolo = KOLO(tree_string_2, distance_matrix_2, mapping_2)
     # ordered_tree, optimal_ordering = kolo.get_optimal_leaf_ordering()
     # print("Tree 2 --------------------",optimal_ordering)
-    # ordered_tree, leaf_ordering, node_mapping = leaf_ordering_kolo(tree_string_1)
-    # radial_visualization(ordered_tree, node_mapping)
-    run_test_suites(recreate_data=True)
+    ordered_tree, leaf_ordering, node_mapping = leaf_ordering_kolo(tree_string_2)
+    radial_visualization(ordered_tree, node_mapping)
+    # run_test_suites(recreate_data=True)
 
 
 
