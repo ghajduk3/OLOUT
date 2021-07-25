@@ -13,8 +13,7 @@ class ReconstructDistanceMatrix:
         tree_children_number = TreeNode.get_children_number(self.tree)
         self.__construct_distances_levels(self.tree, 1)
         return np.array([[self.__get_pair_distance(i, j) for j in range(tree_children_number)] for i in range(tree_children_number)])
-
-    def __construct_distances_levels(self, tree_node  , level):
+    def __construct_distances_levels(self, tree_node, level):
         node_id = tree_node.get_id()
         self.levels[node_id] = level
         for child in tree_node.get_children():
