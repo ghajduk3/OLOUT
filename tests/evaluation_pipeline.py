@@ -43,6 +43,7 @@ def evaluation_suite(phylogenetic_tree, distance_matrix):
 
     radial_points_angle_correction, stress_angle_correction, global_stress_angle_correction = radial_layout.get_radial_layout_coordinates_angle_corrections()
 
+    figure_arguments.update({'title': f"Phylogenetic tree leaf ordering, stress : {stress_angle_correction:.5f}"})
     p1 = figure(**figure_arguments)
     radial_layout.get_plotted_tree(tree, radial_points_angle_correction, node_mapping, p1)
     show(row(p,p1))
