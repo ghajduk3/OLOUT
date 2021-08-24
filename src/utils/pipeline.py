@@ -39,11 +39,15 @@ def leaf_ordering_dimensionality_reduction(phylogenetic_tree : str, reduction_me
     pass
 
 
-def radial_visualization(ordered_tree, tree_node_mapping, apply_corrections = True):
-    radial_layout = radial.RadialLayout(ordered_tree)
-    radial_points, stress, global_stress = radial_layout.get_points_radial(apply_corrections)
+def radial_visualization(ordered_tree, tree_node_mapping, apply_corrections=True):
+    radial_layout = radial.RadialLayoutTreeLength(ordered_tree)
+    if apply_corrections:
+        radial_points, stress, global_stress = radial_layout.get_radial_layout_coordinates_angle_corrections()
+    else:
+        radial_points, stress, global_stress = radial_layout.get_radial_layout_coordinates()
+
     figure_arguments = {
-        'title' : f"Phylogenetic tree leaf ordering, stress : {global_stress:.5f}",
+        'title' : f"Phylogenetic tree leaf ordering, stress : {global_stress:.5f}, ordering_stress : {stress:.3f}",
         'x_axis_label' : 'x',
         'y_axis_label' : 'y',
         'plot_width' : 1700,
