@@ -591,7 +591,6 @@ class RadialLayoutTreeLength(RadialLayoutBase):
     #         print("Angle corrections", node, angle, self.tau[node], self.omega[node], self.distances[node][1], correction_factor, dist,
     #               level, parent, self.corrected_coordinates[parent], self.corrected_coordinates[node], stress)
     #     return self.corrected_coordinates
-    # #
 
 
 
