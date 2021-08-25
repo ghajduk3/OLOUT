@@ -223,7 +223,7 @@ def get_permutations(lst, siz):
 class KOLO:
 
     def __init__(self, newick_tree, distance_matrix, mapping):
-        self.newick_tree = newick_tree
+        self.newick_tree = copy.deepcopy(newick_tree)
         self.distance_matrix = distance_matrix
         self._mapping = mapping
         self.M = {}

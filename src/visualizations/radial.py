@@ -239,9 +239,8 @@ from math import pi, cos, sin
 
 from bokeh.models import ColumnDataSource, LabelSet
 from numpy.linalg import norm
-from abc import ABC
 
-class RadialLayoutBase(ABC):
+class RadialLayoutLeafCount:
     def __init__(self, tree):
         """
         Class that represents RadialLayoutAlgorithm
@@ -282,6 +281,21 @@ class RadialLayoutBase(ABC):
         self.tau[root] = 0
         self._preorder_traversal(self.tree, None, root)
 
+    def get_radial_layout_coordinates(self):
+        stress_pivot_based = self._calculate_stress_pivot_based()
+        stress_adjacent_node_based = self._calculate_stress_adjacent_nodes_based()
+        return self.coordinates, stress_pivot_based, stress_adjacent_node_based
+
+    def get_radial_layout_coordinates_pivot_based_angle_corrections(self):
+        self._apply_angle_corrections_pivot_based()
+        stress_pivot_based = self._calculate_stress_pivot_based(corrected=True)
+        return self.corrected_coordinates, stress_pivot_based
+
+    def get_radial_layout_coordinates_adj_nodes_based_angle_corrections(self):
+        self._apply_angle_corrections_adjacent_node_based()
+        stress_adjacent_node_based = self._calculate_stress_adjacent_nodes_based(corrected=True)
+        return self.corrected_coordinates, stress_adjacent_node_based
+
     def _postorder_traversal(self, tree_node, parent_node_id, level):
         """
         Traverses the tree recursively in a postorder manner, calculates the number of leaves in each node's subtree and calculates each node's level.
@@ -293,14 +307,17 @@ class RadialLayoutBase(ABC):
         """
 
         node_id = tree_node.get_id()
-        self.levels[node_id] = [0, level, parent_node_id]
+        self.levels[node_id] = [0, level, parent_node_id, 0]
         if tree_node.is_leaf():
             self.levels[node_id][0] = 1
+            self.levels[node_id][3] = tree_node.get_distance()
         else:
             for child in tree_node.get_children():
                 child_id = child.get_id()
                 self._postorder_traversal(child, node_id, level + 1)
                 self.levels[node_id][0] += self.levels[child_id][0]
+                self.levels[node_id][3] += self.levels[child_id][3]
+                self.distances[child_id] = [node_id, child.get_distance()]
 
     def _preorder_traversal(self, tree_node, parent, root_id):
         tree_node_id = tree_node.get_id()
@@ -315,13 +332,14 @@ class RadialLayoutBase(ABC):
             self.omega[child_id] = 2 * pi * self.levels[child_id][0] / self.levels[root_id][0]
             self.tau[child_id] = eta
             eta += self.omega[child_id]
-            self.distances[child_id] = [tree_node_id, child.get_distance()]
+            # self.distances[child_id] = [tree_node_id, child.get_distance()]
             self._preorder_traversal(child, tree_node, root_id)
 
     def _apply_angle_corrections_pivot_based(self):
         """
         Applies angle corrections to each adjacent members
         """
+        self.corrected_coordinates = self.coordinates
         leaf_ordering_internal = self.tree.pre_order_internal()
         leaf_ordering_pivot = self.tree.pre_order()[0]
         root = self.tree.get_id()
@@ -331,8 +349,7 @@ class RadialLayoutBase(ABC):
         # Skip root
         for node in leaf_ordering_internal[1:]:
             dist = self._get_pair_distance(leaf_ordering_pivot, node)
-            print(f"Distance between {leaf_ordering_pivot} and {node} is {dist}")
-            air_dist = RadialLayout._get_euclidian_distance(self.coordinates[leaf_ordering_pivot], self.coordinates[node])
+            air_dist = RadialLayoutLeafCount._get_euclidian_distance(self.corrected_coordinates[leaf_ordering_pivot], self.corrected_coordinates[node])
             stress = dist / air_dist
             level = self.levels[node][1]
             if node != leaf_ordering_pivot:
@@ -343,9 +360,33 @@ class RadialLayoutBase(ABC):
             angle = self.tau[node] + self.omega[node] / correction_factor
             parent = self.levels[node][2]
             self.corrected_coordinates[node] = self.corrected_coordinates[parent] + self.distances[node][1] * np.array((cos(angle), sin(angle)))
-            print("Angle corrections", node, angle, self.tau[node], self.omega[node], self.distances[node][1], correction_factor, dist,
-                  level, parent, self.corrected_coordinates[parent], self.corrected_coordinates[node], stress)
-        print(f"------------------------- INTERNAL LEAF ORDERING -------------------------------", leaf_ordering_internal)
+        print(self.levels)
+        print("Interlan leaf ordering ------------------------", leaf_ordering_internal)
+        return self.corrected_coordinates
+
+    def _apply_angle_corrections_adjacent_node_based(self):
+        leaf_ordering = self.tree.pre_order()
+        self.corrected_coordinates = self.coordinates
+
+        for index, node in enumerate(leaf_ordering[1:]):
+            previous_node = leaf_ordering[index-1]
+            dist = self._get_pair_distance(node, previous_node)
+            correction_factors = np.arange(1, 10, 0.2)
+            stresses = []
+            for correction_factor in correction_factors:
+                angle = self.tau[node] + self.omega[node] / correction_factor
+                parent = self.levels[node][2]
+                self.corrected_coordinates[node] = self.corrected_coordinates[parent] + self.distances[node][
+                    1] * np.array((cos(angle), sin(angle)))
+                air_dist = RadialLayoutLeafCount._get_euclidian_distance(self.coordinates[previous_node],
+                                                                self.coordinates[node])
+                stresses.append(dist / air_dist)
+            minimum_stress_factor = correction_factors[stresses.index(min(stresses))]
+            angle = self.tau[node] + self.omega[node] / minimum_stress_factor
+            parent = self.levels[node][2]
+            self.corrected_coordinates[node] = self.corrected_coordinates[parent] + self.distances[node][
+                1] * np.array(
+                (cos(angle), sin(angle)))
         return self.corrected_coordinates
 
     def _get_pair_distance(self, v1 , v2):
@@ -376,7 +417,7 @@ class RadialLayoutBase(ABC):
     def _get_euclidian_distance(x, y):
         return norm(x - y)
 
-    def _calculate_stress_pivot(self, corrected = False):
+    def _calculate_stress_pivot_based(self, corrected = False):
         coordinates = self.coordinates if not corrected else self.corrected_coordinates
         print(self.coordinates)
         print(self.corrected_coordinates)
@@ -388,7 +429,7 @@ class RadialLayoutBase(ABC):
         for index in range(1, len(ordering)):
             next_node = ordering[index]
             branch_distance = self._get_pair_distance( pivot, next_node)
-            air_distance = RadialLayout._get_euclidian_distance(coordinates[pivot], coordinates[next_node])
+            air_distance = RadialLayoutLeafCount._get_euclidian_distance(coordinates[pivot], coordinates[next_node])
             local_stress = math.log2(air_distance / branch_distance)
             print("Stress, node_1 : {} , node_2 : {} , air distance : {} , branch distance : {}, stress : {}".format(
                 pivot, next_node, air_distance, branch_distance, local_stress))
@@ -396,7 +437,7 @@ class RadialLayoutBase(ABC):
         print("-" * 50, sum(stresses)/len(stresses))
         return sum(stresses) / len(stresses)
 
-    def _calculate_stress(self, corrected = False):
+    def _calculate_stress_adjacent_nodes_based(self, corrected = False):
         coordinates = self.coordinates if not corrected else self.corrected_coordinates
 
         ordering = self.tree.pre_order()
@@ -406,7 +447,7 @@ class RadialLayoutBase(ABC):
         for index in range(len(ordering) - 1):
             node_1, node_2 = ordering[index], ordering[index + 1]
             branch_distance = self._get_pair_distance(node_1, node_2)
-            air_distance = RadialLayout._get_euclidian_distance(coordinates[node_1], coordinates[node_2])
+            air_distance = RadialLayoutLeafCount._get_euclidian_distance(coordinates[node_1], coordinates[node_2])
             local_stress = math.log2(air_distance / branch_distance)
             print("Stress, node_1 : {} , node_2 : {} , air distance : {} , branch distance : {}, stress : {}".format(
                 node_1, node_2, air_distance, branch_distance, local_stress))
@@ -418,7 +459,7 @@ class RadialLayoutBase(ABC):
     @staticmethod
     def get_plotted_tree(tree, points, tree_node_mapping, figure):
         tree_data = []
-        RadialLayout.plot_tree_bokeh(tree, points, figure, tree_data, root_id = tree.get_id())
+        RadialLayoutLeafCount.plot_tree_bokeh(tree, points, figure, tree_data, root_id = tree.get_id())
         x_coordinates, y_coordinates, node_labels = list(zip(*tree_data))
         node_labels = [tree_node_mapping.get(node, node) for node in node_labels]
         source = ColumnDataSource(data=dict(x=x_coordinates,
@@ -439,73 +480,14 @@ class RadialLayoutBase(ABC):
             child_x_coordinate, child_y_coordinate = points[child_id]
             tree_data.append((child_x_coordinate, child_y_coordinate, child_id))
             figure.line(x=[node_x_coordinate, child_x_coordinate], y=[node_y_coordinate, child_y_coordinate])
-            RadialLayout.plot_tree_bokeh(child, points, figure, tree_data)
+            RadialLayoutLeafCount.plot_tree_bokeh(child, points, figure, tree_data)
 
 
-
-class RadialLayout(RadialLayoutBase):
-
-    def __init__(self, tree):
-        super().__init__(tree)
-        self.calculate_radial_layout_coordinates()
-
-    def get_radial_layout_coordinates(self):
-        stress = self._calculate_stress_pivot()
-        stress_global = self._calculate_stress()
-        return self.coordinates, stress, stress_global
-
-    def get_radial_layout_coordinates_angle_corrections(self):
-        self._apply_angle_corrections_pivot_based()
-        stress = self._calculate_stress_pivot(corrected=True)
-        stress_global = self._calculate_stress(corrected=True)
-        return self.corrected_coordinates, stress, stress_global
-
-class RadialLayoutTreeLength(RadialLayoutBase):
+class RadialLayoutBranchLength(RadialLayoutLeafCount):
 
     def __init__(self, tree):
         super().__init__(tree)
         self.calculate_radial_layout_coordinates()
-
-    def get_radial_layout_coordinates(self):
-        stress = self._calculate_stress_pivot()
-        stress_global = self._calculate_stress()
-        return self.coordinates, stress, stress_global
-
-    def get_radial_layout_coordinates_angle_corrections(self):
-        self._apply_angle_corrections_adjacent_node_based()
-        stress = self._calculate_stress_pivot(corrected=True)
-        stress_global = self._calculate_stress(corrected=True)
-        return self.corrected_coordinates, stress, stress_global
-
-    def calculate_radial_layout_coordinates(self):
-        self._postorder_traversal(self.tree, None, 1)
-        root = self.tree.get_id()
-        self.coordinates[root] = np.array((0, 0))
-        self.omega[root] = 2 * pi
-        self.tau[root] = 0
-        self._preorder_traversal(self.tree, None, root)
-
-    def _postorder_traversal(self, tree_node, parent_node_id, level):
-        """
-        Traverses the tree recursively in a postorder manner, calculates the number of leaves in each node's subtree and calculates each node's level.
-
-        Arguments:
-            tree_node
-            parent_node_id
-            current_level
-        """
-
-        node_id = tree_node.get_id()
-        self.levels[node_id] = [0, level, parent_node_id, 0]
-        if tree_node.is_leaf():
-            self.levels[node_id][0] = 1
-            self.levels[node_id][3] = tree_node.get_distance()
-        else:
-            for child in tree_node.get_children():
-                child_id = child.get_id()
-                self._postorder_traversal(child, node_id, level + 1)
-                self.levels[node_id][0] += self.levels[child_id][0]
-                self.levels[node_id][3] += self.levels[child_id][3]
 
     def _preorder_traversal(self, tree_node, parent, root_id):
         tree_node_id = tree_node.get_id()
@@ -528,6 +510,7 @@ class RadialLayoutTreeLength(RadialLayoutBase):
         """
         Applies angle corrections to each adjacent members
         """
+        self.corrected_coordinates = self.coordinates
         leaf_ordering_internal = self.tree.pre_order_internal()
         leaf_ordering_pivot = self.tree.pre_order()[0]
         root = self.tree.get_id()
@@ -537,7 +520,7 @@ class RadialLayoutTreeLength(RadialLayoutBase):
         # Skip root
         for node in leaf_ordering_internal[1:]:
             dist = self._get_pair_distance(leaf_ordering_pivot, node)
-            air_dist = RadialLayout._get_euclidian_distance(self.coordinates[leaf_ordering_pivot], self.coordinates[node])
+            air_dist = RadialLayoutLeafCount._get_euclidian_distance(self.corrected_coordinates[leaf_ordering_pivot], self.corrected_coordinates[node])
             stress = dist / air_dist
             level = self.levels[node][1]
             if node != leaf_ordering_pivot:
@@ -548,39 +531,9 @@ class RadialLayoutTreeLength(RadialLayoutBase):
             angle = self.tau[node] + self.omega[node] / correction_factor
             parent = self.levels[node][2]
             self.corrected_coordinates[node] = self.corrected_coordinates[parent] + self.distances[node][1] * np.array((cos(angle), sin(angle)))
-            print("Angle corrections", node, angle, self.tau[node], self.omega[node], self.distances[node][1], correction_factor, dist,
-                  level, parent, self.corrected_coordinates[parent], self.corrected_coordinates[node], stress)
         print(self.levels)
+        print("Interlan leaf ordering ------------------------", leaf_ordering_internal)
         return self.corrected_coordinates
-
-    def _apply_angle_corrections_adjacent_node_based(self):
-        leaf_ordering = self.tree.pre_order()
-        # leaf_ordering_pivot = self.tree.pre_order()[0]
-        # pivot_root_distance = self._get_pair_distance(leaf_ordering_pivot, root)
-        # self.corrected_coordinates[root] = np.array((cos(pi / (pivot_root_distance)), sin(pi / (pivot_root_distance))))
-        self.corrected_coordinates = self.coordinates
-
-        for index, node in enumerate(leaf_ordering[1:]):
-            previous_node = leaf_ordering[index-1]
-            dist = self._get_pair_distance(node, previous_node)
-            correction_factors = np.arange(1, 10, 0.2)
-            stresses = []
-            for correction_factor in correction_factors:
-                angle = self.tau[node] + self.omega[node] / correction_factor
-                parent = self.levels[node][2]
-                self.corrected_coordinates[node] = self.corrected_coordinates[parent] + self.distances[node][
-                    1] * np.array((cos(angle), sin(angle)))
-                air_dist = RadialLayout._get_euclidian_distance(self.coordinates[previous_node],
-                                                                self.coordinates[node])
-                stresses.append(dist / air_dist)
-            minimum_stress_factor = correction_factors[stresses.index(min(stresses))]
-            angle = self.tau[node] + self.omega[node] / minimum_stress_factor
-            parent = self.levels[node][2]
-            self.corrected_coordinates[node] = self.corrected_coordinates[parent] + self.distances[node][
-                1] * np.array(
-                (cos(angle), sin(angle)))
-        return self.corrected_coordinates
-
 
 
 
