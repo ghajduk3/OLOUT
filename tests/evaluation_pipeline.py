@@ -53,7 +53,7 @@ def evaluation_suite(phylogenetic_tree:str, distance_matrix, radial_visualizatio
     fig_1 = figure(**figure_arguments)
     radial_layout_unordered.get_plotted_tree(tree, radial_points_unordered_tree, node_mapping, fig_1)
 
-    figure_arguments.update({'title': f"Phylogenetic tree leaf ordering pivot stress : {pivot_stress_ordered_no_correction:.5f}, adj nodes stress {adjacent_nodes_stress_ordered_no_correction:.5f}"})
+    figure_arguments.update({'title': f"Phylogenetic tree pivot stress : {pivot_stress_ordered_no_correction:.5f}, adj nodes stress {adjacent_nodes_stress_ordered_no_correction:.5f}"})
     fig_2 = figure(**figure_arguments)
 
     radial_layout_ordered_tree.get_plotted_tree(optimal_ordered_tree, radial_points_no_correction, node_mapping, fig_2)
@@ -72,7 +72,9 @@ def evaluation_suite(phylogenetic_tree:str, distance_matrix, radial_visualizatio
     radial_layout_ordered_tree.get_plotted_tree(optimal_ordered_tree, radial_points_ordered_adjacent_node_based_angle_correction, node_mapping,
                                                 fig_4)
 
-    show(row(fig_1, fig_2, fig_3, fig_4, sizing_mode='scale_both'))
+    show(row(fig_1, fig_2, fig_4, sizing_mode='scale_both'))
+
+    print('-------------------- POSTORDER', optimal_ordered_tree)
 
     return {
         'nodes_number': number_nodes,

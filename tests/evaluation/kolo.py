@@ -34,7 +34,7 @@ if __name__ == "__main__":
     # radial_visualization(ordered_tree, node_mapping, apply_corrections=True)
     # print(leaf_ordering)
 
-    run_single_evaluation_suite('S10897')
+    run_single_evaluation_suite('S12692')
 
 
 

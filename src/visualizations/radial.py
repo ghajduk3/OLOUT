@@ -510,23 +510,23 @@ class RadialLayoutBranchLength(RadialLayoutLeafCount):
         """
         Applies angle corrections to each adjacent members
         """
-        self.corrected_coordinates = self.coordinates
-        leaf_ordering_internal = self.tree.pre_order_internal()
+        self.corrected_coordinates = copy.deepcopy(self.coordinates)
+        leaf_ordering_internal = self.tree.post_order_internal()
         leaf_ordering_pivot = self.tree.pre_order()[0]
         root = self.tree.get_id()
         pivot_root_distance = self._get_pair_distance(leaf_ordering_pivot, root)
-        self.corrected_coordinates[root] = np.array((cos(pi / (pivot_root_distance)), sin(pi / (pivot_root_distance))))
-        # self.corrected_coordinates[root] = np.array((0,0))
+        # self.corrected_coordinates[root] = np.array((cos(pi / (pivot_root_distance)), sin(pi / (pivot_root_distance))))
+        self.corrected_coordinates[root] = np.array((0,0))
         # Skip root
-        for node in leaf_ordering_internal[1:]:
+        for node in leaf_ordering_internal[:-1]:
             dist = self._get_pair_distance(leaf_ordering_pivot, node)
             air_dist = RadialLayoutLeafCount._get_euclidian_distance(self.corrected_coordinates[leaf_ordering_pivot], self.corrected_coordinates[node])
             stress = dist / air_dist
             level = self.levels[node][1]
             if node != leaf_ordering_pivot:
-                correction_factor = dist / level
+                correction_factor = dist / 10
             else:
-                correction_factor = 2
+                correction_factor = 1000000000
 
             angle = self.tau[node] + self.omega[node] / correction_factor
             parent = self.levels[node][2]

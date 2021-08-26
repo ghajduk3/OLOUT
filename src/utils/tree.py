@@ -120,6 +120,33 @@ class TreeNode(object):
             if flag == 0:
                 stack.pop()
         return preorder
+
+    def post_order_internal(self):
+        """
+            Traverses all tree nodes in a post order manner
+        """
+        stack = [self]
+        postorder = []
+        while len(stack) > 0:
+            flag = 0
+            nd = stack[-1]
+            if nd.is_leaf():
+                pass
+            else:
+                parent = nd
+            children = parent.get_children()
+            for index in range(0,len(children)):
+                child = children[index]
+                if child.id not in postorder:
+                    flag = 1
+                    stack.append(child)
+                    postorder.append(child.id)
+                    break
+            if flag == 0:
+                stack.pop()
+        postorder.append(self.get_id())
+        return postorder
+
     @staticmethod
     def get_children_number(tree):
         if tree.is_leaf():
