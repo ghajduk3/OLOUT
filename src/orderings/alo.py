@@ -67,7 +67,7 @@ class ALO(object):
                 else:
                     siblings[root.get_id()].append(child.get_id())
             else:
-                ALO._generate_sibling_pairs(child,siblings)
+                ALO._generate_sibling_pairs(child, siblings)
         return siblings
 
     @staticmethod

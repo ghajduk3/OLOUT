@@ -1,5 +1,5 @@
 from openTSNE import TSNE, affinity, initialization, TSNEEmbedding
-from openTSNE.callbacks import ErrorLogger
+# from openTSNE.callbacks import
 import numpy as np
 from typing import List
 import matplotlib.pyplot
@@ -16,7 +16,6 @@ def set_tsne(perplexity=30):
         perplexity=perplexity,
         initialization="pca",
         metric="cosine",
-        callbacks=ErrorLogger(),
         n_jobs=2,
         random_state=42,
     )
@@ -47,19 +46,6 @@ def get_tsne_embedding(similarity_matrix:np.ndarray):
     embedding = tsne.fit(similarity_matrix)
 
     return embedding
-
-# def get_leaf_ordering(similarity_matrix:np.ndarray)->List:
-#
-#     embedding = get_tsne_embedding(similarity_matrix)
-#     print(embedding)
-#     pos_neg = embedding[:,1] > 0
-#     neg_indices = np.where(pos_neg == False)[0]
-#     pos_indices = np.where(pos_neg == True)[0]
-#     negative_ind = embedding[neg_indices][:,0].argsort()
-#     positive_ind = embedding[pos_indices][:,0].argsort()[::-1]
-#
-#     return np.concatenate((pos_indices[positive_ind],neg_indices[negative_ind]),axis=0)
-
 
 if __name__ == '__main__':
     dis = np.array([[0, 5, 4, 7, 6, 8],

@@ -118,4 +118,4 @@ def run_single_evaluation_suite(suite_name:str):
 
 
 if __name__ == '__main__':
-    run_evaluation_suites() 
+    run_evaluation_suites()
