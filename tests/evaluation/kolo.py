@@ -29,12 +29,11 @@ if __name__ == "__main__":
                       [8, 9, 7, 3, 0]])
     tree_string_2 = '(4:1.000000, 3:2.000000, (2:4.000000, (1:3.000000, 0:2.000000):3.000000):2.000000);'
 
-    # ordered_tree, leaf_ordering, node_mapping = leaf_ordering_kolo(tree_string_1)
-    # radial_visualization(ordered_tree, node_mapping, apply_corrections=False)
-    # radial_visualization(ordered_tree, node_mapping, apply_corrections=True)
-    # print(leaf_ordering)
+    ordered_tree, leaf_ordering, node_mapping = leaf_ordering_kolo(tree_string_1)
+    # radial_visualization(ordered_tree, node_mapping)
+    # print(node_mapping)
 
-    run_single_evaluation_suite('S12334')
+    run_single_evaluation_suite('S11709')
 
 
 
