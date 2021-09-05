@@ -2,3 +2,4 @@ opentsne
 matplotlib
 python-nexus
 rootpath
+orange3

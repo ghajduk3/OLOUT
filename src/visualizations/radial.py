@@ -54,6 +54,8 @@ class RadialLayoutLeafCount:
         return self.coordinates, stress_all_node_pairs
 
     def get_radial_layout_coordinates_pivot_based_angle_corrections(self):
+        # corrected_coordinates = self._apply_angle_corrections_pivot_based()
+
         corrected_coordinates = self._apply_angle_corrections_fixed_correction_factor()
         stress_all_node_pairs = self._calculate_stress_all_node_pairs(corrected_coordinates)
         return corrected_coordinates, stress_all_node_pairs
@@ -179,7 +181,7 @@ class RadialLayoutLeafCount:
                 (cos(angle), sin(angle)))
         return corrected_coordinates
 
-    def _get_pair_distance(self, v1 , v2):
+    def _get_pair_distance(self, v1, v2):
         """
         Calculates branch distance between two nodes
         """
@@ -217,7 +219,7 @@ class RadialLayoutLeafCount:
                 if node != adj_node:
                     branch_distance = self._get_pair_distance(node, adj_node)
                     air_distance = RadialLayoutLeafCount._get_euclidian_distance(coordinates[node], coordinates[adj_node])
-                    stress = math.log2(air_distance / branch_distance)
+                    stress = abs(math.log2(air_distance / branch_distance))
                     if math.isnan(stress):
                         stress = 0
                     all_stresses.append(stress)
@@ -233,7 +235,7 @@ class RadialLayoutLeafCount:
                 if node != adj_node:
                     branch_distance = self._get_pair_distance(node, adj_node)
                     air_distance = RadialLayoutLeafCount._get_euclidian_distance(coordinates[node], coordinates[adj_node])
-                    all_stresses.append(math.log2(air_distance / branch_distance))
+                    all_stresses.append(abs(math.log2(air_distance / branch_distance)))
 
         return sum(all_stresses) / len(all_stresses)
 

@@ -31,6 +31,6 @@ if __name__ == "__main__":
 
     ordered_tree, leaf_ordering, node_mapping = leaf_ordering_kolo(tree_string_1)
     # radial_visualization(ordered_tree, node_mapping)
-    print(node_mapping)
+    # print(node_mapping)
 
-    # run_single_evaluation_suite('S11709')
+    run_single_evaluation_suite('S13860')

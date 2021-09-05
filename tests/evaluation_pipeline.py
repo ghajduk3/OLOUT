@@ -84,7 +84,7 @@ def evaluation_suite(phylogenetic_tree:str, distance_matrix, radial_visualizatio
         'radial_points_unordered': transform_to_json_serializable(radial_points_unordered_tree),
         'radial_points_ordered_no_correction': transform_to_json_serializable(radial_points_no_correction),
         'radial_points_ordered_pivot_based_angle_correction': transform_to_json_serializable(radial_points_ordered_pivot_based_angle_correction),
-        'radial_points_ordered_adjacent_node_based_angle_correction' : transform_to_json_serializable(radial_points_ordered_adjacent_node_based_angle_correction),
+        'radial_points_ordered_adjacent_node_based_angle_correction': transform_to_json_serializable(radial_points_ordered_adjacent_node_based_angle_correction),
         'unordered_tree_stress': stress_all_node_pairs_unordered,
         'ordered_tree_stress': stress_all_node_pairs_ordered,
         'ordered_tree_fixed_angle_correction_stress': stress_all_node_pairs_ordered_fixed_corrections,
