@@ -53,7 +53,7 @@ class RadialLayoutLeafCount:
         stress_all_node_pairs = self._calculate_stress_all_leaf_node_pairs(self.coordinates)
         return self.coordinates, stress_all_node_pairs
 
-    def get_radial_layout_coordinates_pivot_based_angle_corrections(self):
+    def get_radial_layout_coordinates_fixed_factor_based_angle_corrections(self):
         corrected_coordinates = self._apply_angle_corrections_fixed_correction_factor()
         stress_all_node_pairs = self._calculate_stress_all_leaf_node_pairs(corrected_coordinates)
         return corrected_coordinates, stress_all_node_pairs
