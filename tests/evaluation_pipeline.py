@@ -71,7 +71,7 @@ def evaluation_suite(phylogenetic_tree:str, distance_matrix, radial_visualizatio
     radial_layout_ordered_tree.get_plotted_tree(optimal_ordered_tree, radial_points_ordered_adjacent_node_based_angle_correction, node_mapping, fig_4)
 
 
-    show(row(fig_1, fig_2, fig_3, fig_4, sizing_mode='scale_both'))
+    # show(row(fig_1, fig_2, fig_3, fig_4, sizing_mode='scale_both'))
     print("Node mappings", node_mapping)
     print('-------------------- POSTORDER', optimal_ordered_tree)
 
@@ -96,24 +96,25 @@ def run_evaluation_suites(recreate_data=False):
     if recreate_data:
         NexusDataPreprocess.preprocess()
 
-    final_data_paths = sorted(os.listdir(EVALUATION_DATA_PATH))
+    final_data_paths = sorted(os.listdir(FINAL_DATA_PATH))[90:150]
+    print("Final data paths", final_data_paths)
 
     for index, directory in enumerate(final_data_paths):
         json_file = open(os.path.join(FINAL_DATA_PATH, directory, 'data.json'), 'r')
         data_json = json.load(json_file)
         nexus_file_url, phylogenetic_newick_string, distance_matrix, tree_node_mapping = data_json.values()
         try:
-            evaluated_data = evaluation_suite(phylogenetic_newick_string, distance_matrix, radial_visualization=constants.RADIAL_LAYOUT_BRANCH_LENGTH)
+            evaluated_data = evaluation_suite(phylogenetic_newick_string, distance_matrix, radial_visualization= constants.RADIAL_LAYOUT_BRANCH_LENGTH)
             writeToJson(evaluated_data, os.path.join(EVALUATION_DATA_PATH, directory))
-        except Exception as e:
+        except Exception:
             continue
 
 
-def run_single_evaluation_suite(suite_name:str):
+def run_single_evaluation_suite(suite_name: str):
     json_file = open(os.path.join(FINAL_DATA_PATH, suite_name, 'data.json'), 'r')
     data_json = json.load(json_file)
     nexus_file_url, phylogenetic_newick_string, distance_matrix, tree_node_mapping = data_json.values()
-    evaluation_suite(phylogenetic_newick_string, distance_matrix, radial_visualization=constants.RADIAL_LAYOUT_BRANCH_LENGTH)
+    evaluation_suite(phylogenetic_newick_string, distance_matrix, radial_visualization= constants.RADIAL_LAYOUT_BRANCH_LENGTH)
 
 
 

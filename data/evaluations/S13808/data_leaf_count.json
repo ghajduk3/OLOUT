@@ -113,7 +113,7 @@
         "109",
         "110"
     ],
-    "execution_time_kolo": 0.1904926300048828,
+    "execution_time_kolo": 0.16754841804504395,
     "optimal_leaf_ordering": [
         "107",
         "108",
@@ -3738,8 +3738,8 @@
             -0.5823394257533571
         ]
     },
-    "unordered_tree_stress": -0.5589281871962365,
-    "ordered_tree_stress": -0.5585259841642327,
-    "ordered_tree_fixed_angle_correction_stress": -0.5585259841642327,
-    "ordered_tree_adj_based_corrections_stress": -0.558902709121189
+    "unordered_tree_stress": 0.7977989150839063,
+    "ordered_tree_stress": 0.7954503649505921,
+    "ordered_tree_fixed_angle_correction_stress": 0.7954503649505921,
+    "ordered_tree_adj_based_corrections_stress": 0.7966242872763956
 }

@@ -48,7 +48,7 @@
         "12",
         "20"
     ],
-    "execution_time_kolo": 0.01575779914855957,
+    "execution_time_kolo": 0.013118505477905273,
     "optimal_leaf_ordering": [
         "35",
         "40",
@@ -1528,8 +1528,8 @@
             -1869.1217560720374
         ]
     },
-    "unordered_tree_stress": -0.45626538369818037,
-    "ordered_tree_stress": -0.4499901875293178,
-    "ordered_tree_fixed_angle_correction_stress": -0.4499901875293178,
-    "ordered_tree_adj_based_corrections_stress": -0.4497365459833935
+    "unordered_tree_stress": NaN,
+    "ordered_tree_stress": NaN,
+    "ordered_tree_fixed_angle_correction_stress": NaN,
+    "ordered_tree_adj_based_corrections_stress": NaN
 }

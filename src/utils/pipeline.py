@@ -1,4 +1,5 @@
 from src.orderings.kolo import KOLO
+from src.orderings import dimensionality_reduction as dimensionality_reduction_orderings
 from src.utils.newick import Parser
 from src.utils.distance_matrix import ReconstructDistanceMatrix
 from src.utils import constants
@@ -15,7 +16,7 @@ from matplotlib import pyplot as plt
 matplotlib.use("Qt5Agg")
 
 
-def leaf_ordering_kolo(phylogenetic_tree : str):
+def leaf_ordering_kolo(phylogenetic_tree: str):
     """
 
     """
@@ -26,18 +27,22 @@ def leaf_ordering_kolo(phylogenetic_tree : str):
     return optimal_ordered_tree, optimal_leaf_ordering, node_mapping
 
 
-def leaf_ordering_alo(phylogenetic_tree : str):
+def leaf_ordering_alo(phylogenetic_tree: str):
     """
 
     """
     pass
 
 
-def leaf_ordering_dimensionality_reduction(phylogenetic_tree : str, reduction_method = constants.DIMENSIONALITY_REDUCTION_METHOD_PCA):
+def leaf_ordering_dimensionality_reduction(phylogenetic_tree: str, reduction_method=constants.DIMENSIONALITY_REDUCTION_METHOD_PCA):
     """
 
     """
-    pass
+    tree, node_mapping = Parser.parse_newick_tree(phylogenetic_tree)
+    distance_matrix = ReconstructDistanceMatrix(tree).get_reconstructed_distance_matrix()
+    dimensionality_reduction = constants.DIMENSIONALITY_REDUCTION_METHOD_MAPPINGS[reduction_method]
+    optimal_leaf_ordering = dimensionality_reduction(distance_matrix, node_mapping).get_leaf_ordering()
+    return None, optimal_leaf_ordering, node_mapping
 
 
 def radial_visualization(ordered_tree, tree_node_mapping):

@@ -3,3 +3,6 @@ matplotlib
 python-nexus
 rootpath
 orange3
+bokeh
+python-nexus
+django
