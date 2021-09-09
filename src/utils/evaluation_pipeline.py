@@ -6,6 +6,8 @@ import typing
 import numpy as np
 import rootpath
 
+from concurrent.futures import ProcessPoolExecutor
+from concurrent import futures
 from src.utils import constants
 from src.utils import pipeline
 from src.utils.preprocess import NexusDataPreprocess
@@ -43,7 +45,7 @@ def evaluation_suite(phylogenetic_tree: str, distance_matrix: np.ndarray, radial
     number_nodes = len(unordered_tree.pre_order_internal())
 
     # radial visualization evaluation
-    radial_visualization_data = pipeline.radial_visualization(optimal_ordered_tree, unordered_tree, node_mapping, radial_visualization_method=radial_visualization_method, show_flag=True)
+    radial_visualization_data = pipeline.radial_visualization(optimal_ordered_tree, unordered_tree, node_mapping, radial_visualization_method=radial_visualization_method, show_flag=False)
 
     evaluation_data = {
         'nodes_number': number_nodes,
@@ -57,9 +59,20 @@ def evaluation_suite(phylogenetic_tree: str, distance_matrix: np.ndarray, radial
     return evaluation_data
 
 
+def evaluation_suite_runner(input_data_directory: str, radial_visualization_method: str, file_name: str):
+    json_file = open(os.path.join(FINAL_DATA_PATH, input_data_directory, 'data.json'), 'r')
+    data_json = json.load(json_file)
+    nexus_file_url, phylogenetic_newick_string, distance_matrix, tree_node_mapping = data_json.values()
+    try:
+        evaluated_data = evaluation_suite(phylogenetic_newick_string, distance_matrix, radial_visualization_method=radial_visualization_method)
+        write_to_json(evaluated_data, os.path.join(EVALUATION_DATA_PATH, input_data_directory), file_name=file_name)
+    except Exception:
+        return
+
+
 def run_evaluation_suites(recreate_data=False, radial_visualization_method=constants.RADIAL_LAYOUT_LEAF_COUNT, file_name='data') -> None:
     """
-    Driver method that runs evaluation suite for each phylogenetic tree from dataset.
+    Driver method that runs evaluation suite for each phylogenetic tree from dataset in parallel.
 
     Parameters
     ----------
@@ -71,19 +84,12 @@ def run_evaluation_suites(recreate_data=False, radial_visualization_method=const
     if recreate_data:
         NexusDataPreprocess.preprocess()
 
-    final_data_paths = sorted(os.listdir(EVALUATION_DATA_PATH))
+    final_data_paths = sorted(os.listdir(FINAL_DATA_PATH))
+    with ProcessPoolExecutor(max_workers=2) as executor:
 
-    for index, directory in enumerate(final_data_paths):
-        json_file = open(os.path.join(FINAL_DATA_PATH, directory, 'data.json'), 'r')
-        data_json = json.load(json_file)
-        nexus_file_url, phylogenetic_newick_string, distance_matrix, tree_node_mapping = data_json.values()
-        try:
-            evaluated_data = evaluation_suite(phylogenetic_newick_string, distance_matrix, radial_visualization_method=radial_visualization_method)
-            write_to_json(evaluated_data, os.path.join(EVALUATION_DATA_PATH, directory), file_name=file_name)
-        except Exception:
-            continue
-
-
+        future_to_paths = [executor.submit(evaluation_suite_runner, final_data_path, radial_visualization_method, file_name) for final_data_path in final_data_paths]
+        for future in future_to_paths:
+            future.result()
 def run_single_evaluation_suite(suite_name: str, radial_visualization_method=constants.RADIAL_LAYOUT_LEAF_COUNT) -> None:
     """
     Driver method that runs single evaluation suite.
@@ -101,4 +107,4 @@ def run_single_evaluation_suite(suite_name: str, radial_visualization_method=con
     evaluation_suite(phylogenetic_newick_string, distance_matrix, radial_visualization_method=radial_visualization_method)
 
 if __name__ == '__main__':
-    run_evaluation_suites()
+    run_evaluation_suites(radial_visualization_method=constants.RADIAL_LAYOUT_BRANCH_LENGTH, file_name='data_branch_length')

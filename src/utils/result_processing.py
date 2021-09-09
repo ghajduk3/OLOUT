@@ -95,6 +95,5 @@ def evaluate_all_visualization_methods():
 
 
 if __name__ == '__main__':
-    # get_evaluation_results()
-    # evaluate_single_heuristic_visualization_methods(visualization_heuristic=LEAF_COUNT_PREFIX)
+
     evaluate_all_visualization_methods()

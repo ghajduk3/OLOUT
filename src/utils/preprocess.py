@@ -22,6 +22,7 @@ class NexusDataPreprocess:
       NEXUS_FILE_URL, NEWICK_TREE, DISTANCE_MATRIX, NODE_MAPPING are collected for each data file and are extracted into
       the json shaped final data.
     """
+
     @staticmethod
     def read_nexus_file(nexus_file_path):
         try:
@@ -45,7 +46,8 @@ class NexusDataPreprocess:
                     try:
                         newick_tree_string = parse_tree(nexus_tree[0])
                         parsed_tree, parsed_mapping = Parser.parse_newick_tree(newick_tree_string)
-                        reconstructed_distance_matrix = ReconstructDistanceMatrix(parsed_tree).get_reconstructed_distance_matrix()
+                        reconstructed_distance_matrix = ReconstructDistanceMatrix(
+                            parsed_tree).get_reconstructed_distance_matrix()
                         parsed_data = {
                             'NEXUS_FILE_URL': nexus_study_url,
                             'NEWICK_TREE': newick_tree_string,
@@ -58,7 +60,6 @@ class NexusDataPreprocess:
 
         return parsed_nexus_data
 
-
     @staticmethod
     def preprocess():
         for index, file in enumerate(sorted(os.listdir(NEXUS_SOURCE_DATA_PATH))[1800:]):
@@ -68,15 +69,17 @@ class NexusDataPreprocess:
             try:
                 nexus, site_url = NexusDataPreprocess.read_nexus_file(input_path)
                 directory = site_url.split("/")[-1].split(":")[-1]
-            except:
+            except Exception:
                 continue
 
             parsed_nexus_data = NexusDataPreprocess.parse_nexus_file(nexus, site_url)
 
             if parsed_nexus_data:
                 for index, nexus_data in enumerate(parsed_nexus_data):
-                    write_to_json(nexus_data, os.path.join(NEXUS_FINAL_DATA_PATH, directory+str(index)))
+                    write_to_json(nexus_data, os.path.join(NEXUS_FINAL_DATA_PATH, directory + str(index)))
             else:
                 continue
+
+
 if __name__ == '__main__':
     NexusDataPreprocess.preprocess()
