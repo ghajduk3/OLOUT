@@ -1,27 +1,52 @@
+import typing
 import numpy as np
+
 from src.utils.tree import TreeNode
 
+
 class ReconstructDistanceMatrix:
-    def __init__(self, tree):
+    """
+      Class that reconstructs distance matrix from phylogenetic TreeNode object
+      ```
+      Attributes
+      ----------
+      tree : TreeNode
+          TreeNode object that represents phylogenetic tree
+      levels : typing.Dict
+          dictionary that represents level of each node in a tree
+      distances : typing.Dict
+          dictionary that represents distances between tree nodes.
+      Methods
+      -------
+      get_reconstructed_distance_matrix() -> np.ndarray
+          reconstructs and calculates distance between all pairs of leaf nodes.
+          Composes and returns distance matrix
+      _construct_distances_levels(tree_node: TreeNode, level: int) -> None
+          recursive function that traverses tree and calculates levels and distances.
+      _get_pair_distance(node_1: str, node_2: str) -> typing.Float
+          helper function that calculates the distance between two nodes.
+      """
+    def __init__(self, tree: TreeNode):
         self.tree = tree
         self.levels = {}
         self.distances = {}
 
-    def get_reconstructed_distance_matrix(self):
+    def get_reconstructed_distance_matrix(self) -> np.ndarray:
         root_node_id = self.tree.get_id()
         self.distances[root_node_id] = [None, 0]
         tree_children_number = TreeNode.get_children_number(self.tree)
-        self.__construct_distances_levels(self.tree, 1)
-        return np.array([[self.__get_pair_distance(i, j) for j in range(tree_children_number)] for i in range(tree_children_number)])
-    def __construct_distances_levels(self, tree_node, level):
+        self._construct_distances_levels(self.tree, 1)
+        return np.array([[self._get_pair_distance(i, j) for j in range(tree_children_number)] for i in range(tree_children_number)])
+
+    def _construct_distances_levels(self, tree_node: TreeNode, level: int) -> None:
         node_id = tree_node.get_id()
         self.levels[node_id] = level
         for child in tree_node.get_children():
             child_id = child.get_id()
-            self.__construct_distances_levels(child, level+1)
+            self._construct_distances_levels(child, level+1)
             self.distances[child_id] = [node_id,child.get_distance()]
 
-    def __get_pair_distance(self, node_1, node_2):
+    def _get_pair_distance(self, node_1: typing.AnyStr, node_2: typing.AnyStr) -> float:
         if self.levels[node_1] - 1 > self.levels[node_2] - 1:
             node_1, node_2 = node_2, node_1
         lvl_diff = (self.levels[node_2] - 1) - (self.levels[node_1] - 1)
