@@ -6,3 +6,4 @@ orange3
 bokeh
 python-nexus
 django
+wheel

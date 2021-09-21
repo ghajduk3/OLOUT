@@ -1,14 +1,14 @@
 import json
-from src.orderings.kolo import KOLO
-from src.orderings.kolo import KOLO
-from src.utils.newick import Parser
+from olout.orderings.kolo import KOLO
+from olout.orderings.kolo import KOLO
+from olout.utils.newick import Parser
 import numpy as np
-# from src.utils.preprocess import get_distance_matrix
-from src.utils.distance_matrix import ReconstructDistanceMatrix
+# from olout.utils.preprocess import get_distance_matrix
+from olout.utils.distance_matrix import ReconstructDistanceMatrix
 import itertools
-from src.visualizations import radial
-from src.utils.pipeline import leaf_ordering_kolo, radial_visualization
-from tests.evaluation_pipeline import run_single_evaluation_suite
+from olout.visualizations import radial
+from olout.utils.pipeline import leaf_ordering_kolo, radial_visualization
+from olout.utils.evaluation_pipeline import run_single_evaluation_suite
 
 
 if __name__ == "__main__":
@@ -32,5 +32,4 @@ if __name__ == "__main__":
     # ordered_tree, leaf_ordering, node_mapping = leaf_ordering_kolo(tree_string_1)
     # radial_visualization(ordered_tree, node_mapping)
     # print(node_mapping)
-
-    run_single_evaluation_suite('S13860')
+    run_single_evaluation_suite('S104350')
