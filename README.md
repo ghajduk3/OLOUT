@@ -6,6 +6,7 @@ Table of contents:
 2. [Goals](#goals)
 3. [Data](#data)
 4. [Data transformation pipeline](#datatransform)
+5. [Package setup](#setup)
 
 
 <a name="description"></a>
@@ -41,7 +42,7 @@ therefore they need to reconstruct the distance matrix first.
 To tackle the above described problems, as a first contribution of the thesis we construct a
 data transformation pipeline that extracts, transforms and loads the raw phylogenetic data available from the database, [TreeBase](https://treebase.org/treebase-web/home.html).
 
-The transformation pipeline that constructs the final transformed dataset and is stored in [preprocess](olout/utils/preprocess.py) python module.
+The transformation pipeline that constructs the final transformed dataset is stored in [preprocess](olout/utils/preprocess.py) python module.
 The pipeline consists of several steps:
 - Parses the raw Nexus files.
 - Extracts the phylogenetic tree in the Newick format along with the node-label mapping.
@@ -50,7 +51,7 @@ The pipeline consists of several steps:
 - Stores the extracted and constructed data as `JSON` formatted files in the [final_data](data/final_data) directory.
 
 All the data for the 369 processed phylogenetic trees that follow the standard Newick format notation is available in the [final_data](data/final_data) directory.
-Each processed publication `JSON` file from the `final data` consists from following fields:
+Each processed publication `JSON` file in the `final dataset` consists of the following fields:
   ```
   {
     "NEXUS_FILE_URL": "...",
@@ -59,13 +60,35 @@ Each processed publication `JSON` file from the `final data` consists from follo
     "NODE_MAPPING" : [[]]
   }
 ```
-<a name="solutions"></a>
-## Implemented algorithms 
 
-## Project structure 
 
-## Setup 
+<a name="setup"></a>
+## Setup
+  ### Package installation 
+These instructions assume that the user has cloned the repo and is in repo's root.
+```shell script
+git clone https://github.com/ghajduk3/OLOUT.git && cd OLOUT
+```
+
+In order to set-up virtual environment issue:
+```shell script
+python -m venv venv
+#Activate the environment
+source venv/bin/activate
+```
+To install project related dependencies issue:
+```shell script
+pip install -r requirements.txt
+```
+To install the project, in the root of the project issue:
+```shell script
+python setup.py install 
+```
+## Experiment reproduction  
+
+
 
 ## Usage 
 
 ## Examples
+
