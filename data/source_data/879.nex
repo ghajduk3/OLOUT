@@ -1,0 +1,113 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:41 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Whittemore A., & Schaal B. 1991. Interspecific gene flow in sympatric oaks. Proceedings
+of the National Academy of Sciences of the United States of America, 88:
+2540-2544.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S196]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=23;
+        TAXLABELS
+            Quercus_alba_1A
+            Quercus_alba_1F
+            Quercus_alba_2A
+            Quercus_alba_2E
+            Quercus_alba_3A
+            Quercus_alba_3D
+            Quercus_alba_4A
+            Quercus_alba_5B
+            Quercus_emoryi_6H
+            Quercus_macrocarpa_10B
+            Quercus_macrocarpa_1F
+            Quercus_macrocarpa_2A
+            Quercus_macrocarpa_7A
+            Quercus_macrocarpa_8C
+            Quercus_macrocarpa_9A
+            Quercus_macrocarpa_9B
+            Quercus_michauxii_11A
+            Quercus_michauxii_5B
+            Quercus_stellata_12A
+            Quercus_stellata_13G
+            Quercus_stellata_3A
+            Quercus_stellata_4A
+            Quercus_virginiana_13G
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M418]
+
+	TITLE Table_2_&_Fig._2;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=10;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1" MISSING=? GAP= -;
+
+MATRIX
+Quercus_alba_1A            1001000101
+Quercus_alba_1F            0000010000
+Quercus_alba_2A            1001000101
+Quercus_alba_2E            1001000100
+Quercus_alba_3A            1001000101
+Quercus_alba_3D            1001001100
+Quercus_alba_4A            1001000101
+Quercus_alba_5B            1001000111
+Quercus_emoryi_6H          0000000000
+Quercus_macrocarpa_10B     1001000111
+Quercus_macrocarpa_1F      0000010000
+Quercus_macrocarpa_2A      1001000101
+Quercus_macrocarpa_7A      1001000101
+Quercus_macrocarpa_8C      1001100101
+Quercus_macrocarpa_9A      1001000101
+Quercus_macrocarpa_9B      1001000111
+Quercus_michauxii_11A      1001000101
+Quercus_michauxii_5B       1001000111
+Quercus_stellata_12A       1001000101
+Quercus_stellata_13G       0110000000
+Quercus_stellata_3A        1001000101
+Quercus_stellata_4A        1001000101
+Quercus_virginiana_13G     0110000000
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb4925;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Quercus_alba_1A,
+            2    Quercus_alba_1F,
+            3    Quercus_alba_2A,
+            4    Quercus_alba_2E,
+            5    Quercus_alba_3A,
+            6    Quercus_alba_3D,
+            7    Quercus_alba_4A,
+            8    Quercus_alba_5B,
+            9    Quercus_emoryi_6H,
+            10   Quercus_macrocarpa_7A,
+            11   Quercus_macrocarpa_1F,
+            12   Quercus_macrocarpa_2A,
+            13   Quercus_macrocarpa_8C,
+            14   Quercus_macrocarpa_9A,
+            15   Quercus_macrocarpa_9B,
+            16   Quercus_macrocarpa_10B,
+            17   Quercus_michauxii_11A,
+            18   Quercus_michauxii_5B,
+            19   Quercus_stellata_3A,
+            20   Quercus_stellata_4A,
+            21   Quercus_stellata_12A,
+            22   Quercus_stellata_13G,
+            23   Quercus_virginiana_13G;
+      TREE Fig._1 = [&R] (((((1,3,5,7,12,10,14,17,19,20,21),(8,18,15,16),13),6,4),(11,2),(22,23)),9)Quercus;
+
+
+
+END;

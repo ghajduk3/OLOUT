@@ -1,0 +1,33 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:47 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Downie S., & Palmer J. 1994. A chloroplast DNA phylogeny of the Caryophyllales based
+on structural and inverted repeat restriction site variation. Systematic Botany,
+19: 236-252.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S251]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=0;
+        TAXLABELS
+            ;
+END;
+
+BEGIN TREES;
+      TITLE Tb4975;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+      TREE Fig._5 = [&R] ((Polygonum_persicaria,Rheum_rhaponticum),Limonium_gmelinii,(((((Stegnosperma_halimifolium,Mollugo_verticillata,((Agrostemma_githago,Silene_schafta),Corrigiola_littoralis)),(((Claytonia_caroliniana,Claytonia_perfoliata),Anredera_cordifolia),(Didierea_madagascariensis,Alluaudia_montagnacii))),(Portulaca_oleracea,Pereskia_grandiflora)),((Phytolacca_heteropetala,Rivina_humilis,Mirabilis_nyctaginea,Bougainvillea_glabra),Tetragonia_tetragonioides)),((Beta_vulgaris,(Chenopodium_murale,Spinacia_oleracea)),(Celosia_argentea,Alternanthera_dentata))));
+      TREE Fig._4 = [&R] ((((Stegnosperma_halimifolium,((Claytonia_caroliniana,Claytonia_perfoliata),(Didierea_madagascariensis,Alluaudia_montagnacii),Anredera_cordifolia),Mollugo_verticillata,((Agrostemma_githago,Silene_schafta),Corrigiola_littoralis)),(Pereskia_grandiflora,Portulaca_oleracea),(Bougainvillea_glabra,Mirabilis_nyctaginea,Rivina_humilis,Phytolacca_heteropetala),Tetragonia_tetragonioides),((Beta_vulgaris,(Chenopodium_murale,Spinacia_oleracea)),(Alternanthera_dentata,Celosia_argentea))),(Polygonum_persicaria,Rheum_rhaponticum),Limonium_gmelinii);
+
+
+
+END;

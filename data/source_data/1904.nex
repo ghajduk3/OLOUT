@@ -1,0 +1,543 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:51 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Sundue M.A. 2010. A Morphological Cladistic Analysis of Terpsichore (Polypodiaceae).
+Systematic Botany, 35.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S10667]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=129;
+        TAXLABELS
+            Acrosorus_exaltatus
+            Adenophorus_abietinus
+            Adenophorus_haalilioanus
+            Adenophorus_pinnatifidus
+            Adenophorus_tamariscinus
+            Calymmodon_gracilis
+            Calymmodon_rapensis
+            Campyloneuron_angustifolium
+            Ceradenia_aff._kalberyeri_Vasco_701
+            Ceradenia_aulaeifolia
+            Ceradenia_intonsa_
+            Ceradenia_kalbreyeri_Sundue_1213_Colombia
+            Ceradenia_kalbreyeri_Sundue_1759_Costa_Rica
+            Ceradenia_kookenamae_
+            Ceradenia_pilipes_
+            Ceradenia_spixiana
+            Cochlidium_punctatum
+            Cochlidium_rostratum
+            Cochlidium_serrulatum
+            Ctenopterella_blechnoides
+            Ctenopteris_heterophylla
+            Enterosora_percrassa
+            Enterosora_trichosora_
+            Enterosora_trifurcata
+            Grammitis_bryophila
+            Grammitis_deplanchei
+            Grammitis_paramicola
+            Grammitis_poeppigiana
+            Lellingeria_apiculata
+            Lellingeria_bishopii
+            Lellingeria_hellwigii
+            Lellingeria_humilis_
+            Lellingeria_limula_
+            Lellingeria_major_
+            Lellingeria_militaris
+            Lellingeria_myosuroides
+            Lellingeria_prionodes
+            Lellingeria_schenckii
+            Lellingeria_simacensis
+            Lellingeria_subimpressa
+            Lellingeria_subsessilis_
+            Lellingeria_suprasculpta_
+            Lellingeria_suspensa_
+            Lomaphlebia_linearis
+            Melpomene_anazalea
+            Melpomene_firma
+            Melpomene_flabelliformis
+            Melpomene_michaelium
+            Melpomene_moniliformis
+            Melpomene_occidentalis_
+            Melpomene_pseudonutans
+            Melpomene_vernicosa
+            Microgramma_percussa
+            Microgramma_squamulosa
+            Micropolypodium_achilleifolium
+            Micropolypodium_caucanum
+            Micropolypodium_hyalinum
+            Micropolypodium_taenifolium
+            Micropolypodium_zurquinum
+            Oreogrammitis_baldwinii
+            Oreogrammitis_hookeri
+            Oreogrammitis_knutsfordiana
+            Polypodium_glycyrrhiza
+            Prosaptia_contigua
+            Prosaptia_obliquata
+            Prosaptia_palauensis
+            Prosaptia_pubipes
+            Radiogrammitis_hirtelloides
+            Scleroglossum_sulcatum
+            Terpisichore_costaricense_
+            Terpsichore_aff_alsopteris_
+            Terpsichore_aff._semihirsuta
+            Terpsichore_aff._subtilis_
+            Terpsichore_aff._taxifolia
+            Terpsichore_alansmithii
+            Terpsichore_alsopteris_s.s
+            Terpsichore_amphidasyon_
+            Terpsichore_anfractuosa_Bolivia
+            Terpsichore_anfractuosa_Costa_Rica
+            Terpsichore_anfractuosa_Ecuador
+            Terpsichore_anfractuosa_Ecuador_Choco
+            Terpsichore_anfractuosa_Mexico
+            Terpsichore_anfractuosa_Peru
+            Terpsichore_angustipes_
+            Terpsichore_asplenifolia
+            Terpsichore_athyrioides_
+            Terpsichore_attenuatissima_
+            Terpsichore_basisetosa
+            Terpsichore_chrysleri
+            Terpsichore_clathrata
+            Terpsichore_clavigera_
+            Terpsichore_colombiensis
+            Terpsichore_cretata
+            Terpsichore_cuenca
+            Terpsichore_cultrata
+            'Terpsichore david-smithii'
+            Terpsichore_delicatula
+            Terpsichore_dilatata_
+            Terpsichore_glandulifera
+            Terpsichore_gradata
+            Terpsichore_hanekeana
+            Terpsichore_jenmanii
+            Terpsichore_lanigera
+            Terpsichore_leucolepis
+            Terpsichore_leucosticta
+            Terpsichore_liogieri
+            Terpsichore_longicaulis_
+            Terpsichore_longipilosa
+            Terpsichore_longisetosa
+            Terpsichore_loxensis
+            Terpsichore_mickelii
+            Terpsichore_nana_
+            Terpsichore_oxapampensis
+            Terpsichore_pacifica_
+            Terpsichore_pichinchae_
+            Terpsichore_pichinchensis
+            Terpsichore_praeceps_
+            Terpsichore_semihirsuta_s.s._
+            Terpsichore_senilis
+            Terpsichore_smithii
+            Terpsichore_stella
+            Terpsichore_steyermarkii
+            Terpsichore_subscabra_
+            Terpsichore_subtilis_
+            Terpsichore_taxifolia_s.s
+            Terpsichore_vascoana
+            Terpsichore_zeledoniana_
+            Zygophlebia_mathewsii_
+            Zygophlebia_sectifrons_
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M5965]
+
+	TITLE Character_Matrix;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=109;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2 3 4 5 6 7 8 9" MISSING=? GAP= -;
+	CHARSTATELABELS
+		1  habit / epiphytic epipetric terrestrial,
+		2  habit_2 / erect arching pendant prostrate,
+		3  root_insertion / dorsally_and_ventrally ventral_side_only,
+		4  proliferous_roots / absent present,
+		5  rhizome_symmetry / radial dorsiventral,
+		6  Stele_perforations / absent present,
+		7  rhizome_phytomer_internode_length / short_creeping long_creeping,
+		8  Detached_branch_buds / absent present,
+		9  phyllopodia / absent present,
+		10  rhizome_branching / branched commonly_unbranched,
+		11  Rhizome_setae / absent present,
+		12  hairs_present / absent present,
+		13  rhizome_hairs / white_waxy hyaline reddish,
+		14  rhizome_scales / absent present,
+		15  Rhizome_scale_attachment / basifixed peltate,
+		16  rhizome_scale_cell_shape / flat_or_semiturgid turgid,
+		17  rhizome_scale_cell_lumen_induration / indurate non_indurate,
+		18  scale_base_shape / non_auriculate auriculate,
+		19  scale_shape / ovate lanceolate,
+		20  scales_clathrate_vs_concolorous / concolorous Clathrate,
+		21  scale_color / orange_to_castaneous dark_reddish_to_blackish reddish_brown tan,
+		22  scale_iridescence / no yes,
+		23  rhizome_scale_sheen / dull subglossy glossy,
+		24  scale_margin_indument_present_vs_absent / absent present,
+		25  distribution_of_marginal_indument / even apical_only,
+		26  scale_margin_indument_type / setae_unicelular_simple_eglandular glandular_unicelular_or_multicelluar_and_glandular,
+		27  color_of_marginal_or_apical_setae / orange_to_castaneous whitish_or_clear reddish tan,
+		28  scale_margin_entire_vs_denticulate / entire denticulate,
+		29  scale_surfaces / glabrous ciliate,
+		30  apical_gland_like_cell / absent present,
+		31  number_of_apical_gland_like_cells / singular multiple,
+		32  fronds_determinate_vs_indeterminate / determinate indeteminate,
+		33  Sterile_Fertile_leaf_dimorphy / essentially_monomorphic fertile_portions_less_dissected,
+		34  Fertile_portions_of_fronds_more_setose_than_sterile_portions / equally_setose more_setose,
+		35  leaf_articulation / non_articulate articulate,
+		36  petiole_shape_in_x_section / terrete flattened,
+		37  petiole_sclerenchyma_outermost_layer / outermost_layer_sclerenchymatous outermost_layer_parenchymatous,
+		38  Petiole_stele_number / monostele distele polystele,
+		39  petiole_marginate_terete / marginate_throughout distally_marginate terete,
+		40  blade_base / tapered truncate,
+		41  blade_apex / gradually_reduced_w_confluent_divisions conform_to_the_pinnae,
+		42  blade_dissection_at_least_at_base / simple pinnatifid pinnatisect 1_pinnate pinnate_pinnatifid_or_more_divided,
+		43  pinna_base_shape / even_sided expanded_the_base_dilated_decurrent_and_or_surcurrent,
+		44  pinna_apex_shape / acute rounded,
+		45  Lamina_texture / chartaceous membranaceous carnose Spongiose,
+		46  Leaf_pallisade_parenchyma_layer / present absent,
+		47  Leaf_spongy_parenchyma_layer / short_armed_peg_cells long_armed_cells,
+		48  Leaf_vasculature_position_relative_to_palisade_parenchyma / at_abaxial_surface_of_pallisade_parenchyma below_abaxial_surface_of_pallisade_parenchyma,
+		49  Lamina_margin_black_and_sclerenchymatous / absent present,
+		50  Sclerenchyma_present_on_pinna_costae_or_first_order_axis / absent present,
+		51  Sclerenchyma_present_on_first_order_veins / absent present present_in_proximal_half,
+		52  sclerenchyma_of_midrib_visible_abaxially / no yes,
+		53  sclerenchyma_of_midrib_visible_adaxially / no yes,
+		54  sclerenchyma_of_pinna_costae_visible_abaxially / no yes only_proximally only_in_fertile_segments,
+		55  sclerenchyma_of_pinna_costae_visible_adaxially / no yes,
+		56  sclerenchyma_of_veins_visible_abaxially / no yes,
+		57  sclerenchyma_of_veins_visible_adaxially / no yes,
+		58  vein_order / two three four_or_more one,
+		59  secondary_vein_form / dichotomous anisotomous_non_dichotomous,
+		60  vein_fusion_in_sterile_blades / non_anastomosing anastomosing,
+		61  hydathodes / absent present,
+		62  Hydathodes_cretaceous_vs_glabrous / glabrous cretaceous,
+		63  blade_scales / absent present,
+		64  blade_scale_color_pattern / uniformly_colored clathrate,
+		65  setae_present_absent / absent present,
+		66  Seta_Color / reddish whitish,
+		67  Setaphores / absent present,
+		68  setae_branching_pattern / simple bifurcate stellate,
+		69  petiole_setae / absent present,
+		70  adaxial_midrib_setae / absent present,
+		71  rachis_setae_uniform_vs_long_or_short / uniform long_and_short,
+		72  marginal_setae / absent present,
+		73  marginal_setae_distribution / even confined_to_pinna_apex,
+		74  adaxial_lamina_setae / absent present,
+		75  abaxial_lamina_setae / absent present,
+		76  adaxial_pinna_costa_setae / absent present,
+		77  hairs_ / absent present,
+		78  hair_branching_pattern / simple 1_furcate 2_furcate 3_furcate 4_furcate 5_furcate,
+		79  multicellular_hair_no_of_cells / 2_celled 3_celled more_than_3_celled 1_celled,
+		80  hairs_modification_of_cells / acicular setose capitate_globose_or_glandular unmodified,
+		81  Gland_cell_color_texture / white_opaque translucent reddish,
+		82  Gland_cells_secretory / non_secretory secretory,
+		83  soral_receptacle / flat convex,
+		84  sori_distinct_or_confluent / more_than_2 2_coenosori,
+		85  soral_position / nearest_to_penultimate_axis midway_between_axis_and_margin nearer_to_margin_than_to_penultimate_axis directly_over_first_order_vein,
+		86  distribution_of_sori / distirbuted_evenly_throughout_the_frond confined_to_the_distal_portion_of_the_frond,
+		87  mature_sorus_outline / round elliptic_never_more_than_2x_longer elongtate_2x_longer_than_wide_or_longer,
+		88  sorus_sunken_vs_surficial / surficial_ sunken slightly_sunken,
+		89  Wall_angle_of_sunken_sori / sloping_sides vertical_sides,
+		90  sori_embossed_on_adaxial_side_of_blade / no yes,
+		91  blade_margin_infolded_over_sori / no yes,
+		92  tissue_subtending_receptacle / entirely_from_abaxial_surface in_part_by_blade_margin,
+		93  paraphyses / absent present,
+		94  cells_of_paraphyses_modification / unmodified with_wax_like_glands glandular_glands_hyaline with_setose_branches glandular_glands_reddish,
+		95  receptacular_setae / absent present,
+		96  sporangial_stalk_width / 2_3_cells 1_cell,
+		97  episporangial_indument / absent present,
+		98  position_of_episporangial_indument / from_side_walls_of_capsule from_annulus,
+		99  localization_of_episporangial_indument / scattered aggregated,
+		100  spore_color / yellow green,
+		101  spore_number / 64 32 16,
+		102  spore_laesura / linear triradiate,
+		103  number_of_cells_in_newly_shed_spores / one two three_to_four,
+		104  exospore_surface / smooth_or_plain obviously_patterned_or_sculptured,
+		105  gametophyte_form / cordate_thalloid elongate_thalloid_to_filamentous,
+		106  rhizoid_developed_in_first_cell_division / no yes,
+		107  base_number / 37 35 33 32,
+		108  Acrospermum_ascomes / absent present,
+		109  Aromatic_odor_when_dry / absent present,
+		;
+
+MATRIX
+[                                                       10        20        30        40        50        60        70        80        90        100       110       120  ]
+[                                                        .         .         .         .         .         .         .         .         .         .         .         .  ]
+Acrosorus_exaltatus                             02000?0-0100-10010100000---100-010001?0001100?0?00011----0100-0-0-0---------1{12}20--0001-0-1110--10--101?111?00
+Adenophorus_abietinus                           00-01?100101210111100010---001000000100004000?0?0121100000000-0-0-0---------103220001000-00014-10--101?111?00
+Adenophorus_haalilioanus                        00101?000101210111100010---000-000001000-0--0?0?0111000--3--0-0-0-0---------1023-0001000-00014-10--101?111?00
+Adenophorus_pinnatifidus                        02011?000101210111100010---000-00000100001101?0?0111000001000-0-0-0---------1{01}2220001000-00014-10--101?111?00
+Adenophorus_tamariscinus                        00-01?000101210111100010---001000000100004000?0?0111111000000-0-0-0---------103220001000-00014-10--101?111?00
+Calymmodon_gracilis                             00000?000100?1001{01}100011102001000000100002112?0?0101000--0?0100?1000110101111111--001100-010??010--1010111?00
+Calymmodon_rapensis                             02000?000100-100101000011000010000001000-0--0?0?0101000--3--100-0-0---------1{01}{13}0--001000-0100--10--101?111?00
+Campyloneuron_angustifolium                     021011101100-10011001000---000-00-111210-0--000?00000000021110110-0---------1003--101000-0000?000--0000000000
+Ceradenia_aff._kalberyeri_Vasco_701             02101?0??100-10110100021000-0??00000002102102?0?011110?001100-0-100-1?00-?0?10{01}201002011000011010--101?111?00
+Ceradenia_aulaeifolia                           02101?011100-10110100021010-01010000102003110?0?0111111001100-0-100-110100001223-1001000-00011010--101?111?00
+Ceradenia_intonsa_                              02101?011100-10110100021001-01000000012102102?0?0111000001100-0-100-110101111{01}23-1002000-00012010--101?111?00
+Ceradenia_kalbreyeri_Sundue_1213_Colombia       02101?011100-10110100021000-01000000002112102?0?0111120001100-0-100-010100001{02}21-1001010-00011010--101?111?00
+Ceradenia_kalbreyeri_Sundue_1759_Costa_Rica     02101?011100-10110100021000-01000000012102102?0?0111100001100-0-100-1100-0101{012}23-1001000-00010010--1011111?00
+Ceradenia_kookenamae_                           02101?011100-101101000210{01}1-01100000012103102?0?0111100001100-0-100-11010000122{123}11001010-00011010--101?111?00
+Ceradenia_pilipes_                              02000?010100-001101000210{01}0-01000000102002100?0?0121100001100-0-100-1000-000122{23}01001100-00011010--101?111?00
+Ceradenia_spixiana                              02101?011100-101101000210{01}1-01000000002102102?0?0110?0?0?1100-0-100-1?010?1?1{12}2{13}-1001000-0001{13}010--1011111000
+Cochlidium_punctatum                            0?000?0-0100-1?01{01}10?000---10??01-001000-0--2?0?0000000--0-0100-0-0---------1013--01012100000--10--1111111?00
+Cochlidium_rostratum                            0?000?0-0100-1101{01}10?000---100-01-001000-0--2?0?0?-??????0100-0-0-0---------0-----0101211000?--10--1010111300
+Cochlidium_serrulatum                           00010?010000-11010100000---000-01-0010000010000?0100000--010000-0-0---------1023--010120-0000--10--101?111?00
+Ctenopterella_blechnoides                       01101?0-0100-10110100000---000-00000102002100?0?0101100--0-0100-0-0---------1{123}{12}0--00011100000--10--101?111?00
+Ctenopteris_heterophylla                        {01}?101?0?0100-10010112000---000-00000101004100?0?01{12}000000{01}000-0-0-0---------1{012}20--002110-0000--10--101?111?00
+Enterosora_percrassa                            0210110?1100-10110103011013-110000001120-0--311?0100000001110-0-100-1101011?0-----00101110000-010--1011111000
+Enterosora_trichosora_                          02101?011100-10110103010---10??000001020-0--311?0110000001100-0-10001101011?1-221100102100000-110--101?111?00
+Enterosora_trifurcata                           02101?011100-101101030110100111000000120011{01}311?01100000011{01}0-0-100-1100-0001-23--00102100000-010--101?111000
+Grammitis_bryophila                             00000?0?0100-1011010000{01}100000-000000020-0--000?111110000010000-0-0---------1323--000110-0000-010--1010111?00
+Grammitis_deplanchei                            001011001100-10110100010?0?100-000001000-0--2?0?0110000001000-0-0-0---------0-----002110-0000-011111010111?00
+Grammitis_paramicola                            02000?000100-10010100010---000-000001?00-0--0?0?1101100--3--0-0-0-0---------1003--000110-0000--10--101?111?00
+Grammitis_poeppigiana                           20001?010000-10010100010---000-00000100?-0--200?00000----1000-0-0-0---------1223--000110-0000-0100-1011111000
+Lellingeria_apiculata                           01101?000100-10010111011001-11000-00102103100?0?0101100000-0100-0-0---------11{12}0--00110200000--10--1011111?00
+Lellingeria_bishopii                            02101?0-0100-10010111001001-01-00-00102012100?0?0101110000-0110-0-0---------1110--00110201000--10--101?111?00
+Lellingeria_hellwigii                           00100?010100-11010011111102001001-00102002100?0?000113---3-?100-0-0---------1110--00311201000--10--101?111?00
+Lellingeria_humilis_                            11101?000100-10010011001001-0??00-00102002100?0?0121100000-0100-0-0---------11{12}0--00100201100--10--101?111?00
+Lellingeria_limula_                             00100?010100-10011011110???001001-00101002100?0?0?-1130000-0100-0-0---------1110--01312201000--10--101?111300
+Lellingeria_major_                              01101?010100-10010111001001-01000-00112003100?0?0101100000-0110-0-0---------1110--001100-0000--10--101?111?00
+Lellingeria_militaris                           200011100000-10011011??1001-0??00-00102002112?0?00?110---3--100-0-0---------1110--000100-0000--10--101?111?00
+Lellingeria_myosuroides                         00100?010100-10001011111102101001-00102002100?0?01?1030--3--100-0-0---------1110--00311201000--10--101?111?00
+Lellingeria_prionodes                           00100?010100-11010011111102001001-00102002100?0?01?1030--3--100-0-0---------1110--00311201000--10--101?111?00
+Lellingeria_schenckii                           01000?0?0100-1001011101100?00??00000100002001?0?01?1000000-0100-1100110110101100--000100-00000010--1011111?00
+Lellingeria_simacensis                          01101?010100-10010111001001-01000-0010000111311?010{01}000000-0110-0-0---------1110--00100201000--10--101?111?00
+Lellingeria_subimpressa                         011011000100-10010111001001-01000-00102113100?0?0101111--0-0100-0-0---------1030--001-0200000--10--101?111?00
+Lellingeria_subsessilis_                        02101?000100-10010111001001-01000-001010011000110101000000-0110-0-0---------1110--00100201000--10--101?111?00
+Lellingeria_suprasculpta_                       02001?000100-10010112000---00??00-00101001101?0?0101010000-0100-0-0---------0-----00000101000--10--101?111?00
+Lellingeria_suspensa_                           02001?0?0100-10010111120---001000-00101002100?0?0101100000-0100-0-0---------10{01}3--00100101000--10--101?111?00
+Lomaphlebia_linearis                            00101?001100-10010100000----00-00-101020-0--0?0?0110000000-10-0-0-----------1223--001110-0000-010--101?111?00
+Melpomene_anazalea                              13101?110000-10011112110---001100000101002112?0?0101100000-0100-1000110101111123--001000-0000-110--101?111?01
+Melpomene_firma                                 01101?0-0100-10011112120---001000000101103000?0?0101111000-0100-10001100-01111{012}{13}--000100-0000-110--111?111?01
+Melpomene_flabelliformis                        {02}0101?1-0000-1001{01}112120---001100100100002112?0?0101100000-0100-10000000-0001123--001100-0000-110--1210111001
+Melpomene_michaelium                            021011000100-10001112010---00110010010100210200?0101100--0-0100-10001100-0101{12}23--000110-0000-110--1?1?111?01
+Melpomene_moniliformis                          {12}0101?110000-10011111120---001100000000002112?0?0101100000-0100-10001100-0001{012}23--0011?0-0000-010--111?111001
+Melpomene_occidentalis_                         001011010100-10011112110---001000100110003100?0?0101111--0-0100-10000000-0101123--000110-0000-010--101?111?01
+Melpomene_pseudonutans                          {02}1101?0?0100-10011112120---0011001001000021001000101100000-0100-10000000-0101{12}23--001100-0000-110--1011111001
+Melpomene_vernicosa                             01101?000100-10011112120---001100000102102112?0?0101100000-0100-10001101101011{12}{13}--001100-0000-110--101?111?01
+Microgramma_percussa                            001011101000-100111110000--100-000111220-0??0?0?01100000021110110-0---------0-----101000-1001--00--0000000000
+Microgramma_squamulosa                          001011101000-10011111001001100-000111220-0??0?0?01100000021110110-0---------0-----101000-0001--00--0000000000
+Micropolypodium_achilleifolium                  {01}0000?000100-10010100000--0000-00000101002000?0?011000000010100-10001100-1111{12}23--000000-0000-110--1011111000
+Micropolypodium_caucanum                        01000111011111001{01}000021010-01000000102001100?0?0101000--3-0100-1000110111101{01}{12}310000100-0000-010--101?111?00
+Micropolypodium_hyalinum                        02000?1001111101111000210{01}2-01000000102002100?0?000000---0-0100-1000110101101123--000100-0000-010--1011111000
+Micropolypodium_taenifolium                     02000?000100-10110100021000-01000000102002100?0?000100---0-0100-1000110100101121--000100-0000-010--1012111000
+Micropolypodium_zurquinum                       02000?000100-10110100020---001000000102002100?0?000000---0-0100-1000110101111{12}23--000100-0000-010--101?111000
+Oreogrammitis_baldwinii                         021010000100-10010100010---000-000001020-0--3?0?0110000001100-0-10001001000-0-----002100-0000-0110-101?111?00
+Oreogrammitis_hookeri                           01001?010100-11010100110---000-000001020-0--00110110000001100-0-1000110101101003--000000-0000-011011010111?00
+Oreogrammitis_knutsfordiana                     00001?100100-11010100110---000-000001020-0--0?0?0111100001100-0-100011010110------000110-0000-111011010011?00
+Polypodium_glycyrrhiza                          1110111-1000-10010100000---100-00-11122112100?0?01000100011{01}10100-0---------1003--100000-0000--00--0000000000
+Prosaptia_contigua                              0?10110?1100-10010111011002-01000000101002100?0?0101110--0-00-0-1000110100101110--?0210111010-010--1010111000
+Prosaptia_obliquata                             0100110?1100-10010113011002-00-00010101003100?0?0110000001100-0-1000110100101110--00110111010-010--1010111000
+Prosaptia_palauensis                            0?101?0-1100-10010111001002-01000010101002100?0?0100100001100-0-1000110101101110--00010111010-010--1010111?00
+Prosaptia_pubipes                               {02}?101?001100-10010111111002-00-00000101002100?0?0101111--0-00-0-1000110100111110--?0210111010-010--1010111000
+Radiogrammitis_hirtelloides                     02000?0-0100-10010113110---000-00000-020-0--0?0?0110000001100-0-1000100101100-----000100-0000-011--1010111?00
+Scleroglossum_sulcatum                          10000?0?0100-11010100000---000-00-001-20-0--2?0?00?00----3-?0-0-0-0---------1{01}23--01212100010--10--101?111?00
+Terpisichore_costaricense_                      021011000100-10110100021100001100000102003100?0?0111111100-0110-10001100-0101111--001000-0000-110--101?111?10
+Terpsichore_aff_alsopteris_                     02101?011100-10110100021000-010000001?2003100?0?0101111--0-0110-1000111100101113--002000-0000-010--101?111?10
+Terpsichore_aff._semihirsuta                    021011011100-10110100021000-01000000102003000?0?0111111100-0110-1000111100001113--002000-0000-010--101?111?10
+Terpsichore_aff._subtilis_                      02101?010100-10110100021000-010?0000102002111?0?0111111100-0110-1000111101111113--00??00-0000-?1?--101?111?10
+Terpsichore_aff._taxifolia                      01101?010100-10110100021100001000000102003100?0?0111111100-0100-10001100-0101113--001000-0000-110--101?111?10
+Terpsichore_alansmithii                         00111?0?0100-10010011010---001000100100002100?0?0101100000-0110-1000110101111113--001110-0000-110--101?111?10
+Terpsichore_alsopteris_s.s                      0210110?1100-10110100021000-0100000011200310000?0101111--0-0110-10001110-0101113--002000-0000-010--101?111?10
+Terpsichore_amphidasyon_                        011011001100-10110100121101001000000102003010?0?0111111100-0110-1000110101111113--001000-0000-110--101?111?10
+Terpsichore_anfractuosa_Bolivia                 00111?000100-10011011111002-01000100100002100?0?0101010--0-0110-1000110{01}10101113--000110-0000-110--101?111?10
+Terpsichore_anfractuosa_Costa_Rica              00111?000100-10011011110-0?-01000100100002100?0?0101010--0-0100-1000110100101113--000110-0000-110--101?111?10
+Terpsichore_anfractuosa_Ecuador                 {01}0111?000100-10011011111102001000100100002100?0?0101100--0-0110-10001100-0101113--000110-0000-110--101?111?10
+Terpsichore_anfractuosa_Ecuador_Choco           00111?000100-10011011111002-01000100100002100?0?0101100--0-0100-1000110100101113--000110-0000-110--101?111?10
+Terpsichore_anfractuosa_Mexico                  00111?000100-10011011110-0?-01000100100002100?0?0101010--0-0100-1000110100101113--000110-0000-110--101?111?10
+Terpsichore_anfractuosa_Peru                    00111?000100-10011011110-??001000100100002100?0?0101100--0-0100-1000110100101113--000110-0000-110--101?111?10
+Terpsichore_angustipes_                         02101?0?0100-10001111001002-01000100101002110?0?0101110--0-0110-10001100-{01}111113--000010-0000-010--101?111?10
+Terpsichore_asplenifolia                        021011000100-10010100021000-10-0000011200310000?0101111--0-0100-1000110100001223--100000-0000-01100101?111?00
+Terpsichore_athyrioides_                        021010000100-10001111001002-01000000111004100?0?0101111000-0110-10001100-0001113--001010-0000-010--101?111?10
+Terpsichore_attenuatissima_                     02101?011100-10110100021000-01000000112003100?0?0101111--0-0110-1000111100101113--002000-0000-010--101?111?10
+Terpsichore_basisetosa                          01101?0-0100-101101000211000010000001?2003000?0?0111110100-0110-1000110100101113--001000-0000-110--101?111?10
+Terpsichore_chrysleri                           021011000100-10010100021000-10?0000011200310000?0101111--0-0100-1000110100101323--100000-0000-01100101?111?00
+Terpsichore_clathrata                           02101?010100-10011111111002-010001001?2?03100?0?0101111--0-0100-10001100-0101113--000010-0000-110--101?111?10
+Terpsichore_clavigera_                          011011010100-10001111001002-01000000111002100?0?0101111--0-0100-10001100-0001113--000110-0000-010--101?111?10
+Terpsichore_colombiensis                        011011010100-10001111001002-01000100111003100?0?0101111--0-0100-10001100-0111113--000110-0000-110--101?111?10
+Terpsichore_cretata                             02101?010100-1011010100110000100000010000211110001211{01}0000-0110-1000100101111120--000000-0000-110--101?111?10
+Terpsichore_cuenca                              00101?000100-10001111001002-01000100101002100?0?0101111000-0110-1000110100101113--000110-0000-110--101?111?10
+Terpsichore_cultrata                            02000?000100-10110100021001-00-10000102003111?0?0101111--0-0100-100{012}110101111321--000000-0000-0110010{01}1111000
+'Terpsichore david-smithii'                     00101?000100-1001111100100{12}-01000100101003000?0?0101110000-0110-10001100-0101113--000110-0000-110--101?111?10
+Terpsichore_delicatula                          021010000100-10110100001010-11010000102013001?0?0101110--0-0100-1000110101111{01}3211000000-0000-110--101?111?00
+Terpsichore_dilatata_                           01101?000100-10011111001002-01000100100002100?0?0101111000-0110-10001100-0111113--000110-0000-110--1011111?10
+Terpsichore_glandulifera                        02000?0?0110-0-----------------10000102003101?0?0121111000-0110-100{01}110101111{012}{012}210001100-0000-01110101?111?00
+Terpsichore_gradata                             21101?1?0000-10110100021000-0??000001?2003100?0?0111110100-0110-100010?100001113--002000-0000-010--101?111?10
+Terpsichore_hanekeana                           02101?001110-101101000210{01}0-10-00000102002110?0?0101100--110100-1000110101101123--000000-0000-01100101?111000
+Terpsichore_jenmanii                            02001?0?0100-10110100021000-10-00000112001111?0?0121110000-0100-1000110101011{12}23--000000-0000-01110101?111?00
+Terpsichore_lanigera                            021010000110-10110100021000-1000000011200211100?0101111--0-0100-100{01}110101111323--000000-0000-011001010111000
+Terpsichore_leucolepis                          02101?0?1100-10110100021000-010000001-2003100?0?0111111100-0110-1000111100001003--002000-0000-010--101?111?10
+Terpsichore_leucosticta                         021011011100-10110100021000-01000000112003110?0?0111111100-0110-1000111100101003--002000-0000-010--101?111?10
+Terpsichore_liogieri                            02101?010100-10110100021000-10-00000112102110?0?0121110000-0100-1000110101111003--100000-0000-01110101?111?00
+Terpsichore_longicaulis_                        21101?110000-10111100021000-01000000012003100?0?0111111100-0110-10001100-0001113--002000-0000-010--101?111?10
+Terpsichore_longipilosa                         011011001100-10110100021101001000000102003000?0?0111110100-0110-1000110101111113--001100-0000-010--101?111?10
+Terpsichore_longisetosa                         {01}?0011010100-10010100011010-00-0000010100400000?0111110--0-0100-10001100-1111323--000000-0000-110--1?1?111?00
+Terpsichore_loxensis                            01101?000100-10011111001002-01000100100002100?0?0101111000-0110-1000110000111113--000110-0000-110--1011111?10
+Terpsichore_mickelii                            021011010100-10111100021000-01000000112003110?0?0101111--0-0110-1000111100101{01}{01}3--002000-0000-010--101?111?10
+Terpsichore_nana_                               00101?000100-10001111001002-01000100001003100?0?0101111000-0110-1000110110101{01}{12}3--000110-0000-010--101?111?10
+Terpsichore_oxapampensis                        011011000100-10011111001002-11000100101002100?0?0101111--0-0110-00001100-0101113--000110-0000-110--101?111?10
+Terpsichore_pacifica_                           021011011100-10110100020---000-00000112003000?0?0101111--0-0110-1000100100001{01}{01}3--001010-0000-010--101?111?10
+Terpsichore_pichinchae_                         011011000100-10011111001002-01000000101003100?0?0101111--0-0110-1000110101111113--000010-0000-110--101?111?10
+Terpsichore_pichinchensis                       {01}2101?000100-10011111011002-010001001010031110000101{01}00000-0110-1000110101111-23--000110-0000-110--1011111?10
+Terpsichore_praeceps_                           1?101?010000-10110100021100001010000102003111?0?0101110--0-0110-1000110101111113--002000-0000-010--101?111?00
+Terpsichore_semihirsuta_s.s._                   02101?011100-10110000021000-01000000102003100?0?0111111100-0110-10001110-0001003--002000-0000-010--101?111?10
+Terpsichore_senilis                             02000?000110-10110000001001-10-10000102003111?0?0101100--0-0100-1000110101101321--000000-0000-01100100?111?00
+Terpsichore_smithii                             020000000110-10110100021000-1??1000011200311100?0101111--0-0100-100{01}110101111321--000000-0000-01100101?111?00
+Terpsichore_stella                              02000?0?0110-101101000-1000-10-10000102003101?0?0121111000-0100-100{012}110101111{35}2{02}--000100-0000-01110101?111?00
+Terpsichore_steyermarkii                        01101?0?0100-10110100021100001000000102003010?0?0111111100-0110-1000110100101113--001000-0000-110--101?111?10
+Terpsichore_subscabra_                          021011000100-10110100011010-01010000102003001?0?0101111--0-0100-000---------1{01}{12}211000000-0000--10--101?111?00
+Terpsichore_subtilis_                           02101?0?0100-10110101021001-0??00000102002111?0?0111100000-0110-100010010{01}111111--000000-0000-110--1011111?10
+Terpsichore_taxifolia_s.s                       0110110-0100-10110000021101001000000112003010?0?011-111100-0110-1000110100001113--001000-0000-010--101?111?10
+Terpsichore_vascoana                            021011010100-10110100021000-01000000102003000?0?0111111100-0110-1000111100101003--000000-0000-010--101?111?10
+Terpsichore_zeledoniana_                        011011011100-10110100020---000-00000112003100?0?0111111100-0110-10001110-0101003--001000-0000-110--101?111?10
+Zygophlebia_mathewsii_                          021011011100-10110100020---0010000001121011020000110000001-10-0-100011-10111122211101010-00012010--101?111?00
+Zygophlebia_sectifrons_                         021011011100-10110100020---001000000112111102?0?0100000001-10-0-100010-0-000102211101010-00012010--101?111?00
+;
+END;
+
+BEGIN TREES;
+      TITLE all_data_consensus_TB;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Campyloneuron_angustifolium,
+            2    Acrosorus_exaltatus,
+            3    Adenophorus_abietinus,
+            4    Adenophorus_haalilioanus,
+            5    Adenophorus_pinnatifidus,
+            6    Adenophorus_tamariscinus,
+            7    Calymmodon_gracilis,
+            8    Calymmodon_rapensis,
+            9    Ceradenia_aff._kalberyeri_Vasco_701,
+            10   Ceradenia_aulaeifolia,
+            11   Ceradenia_intonsa_,
+            12   Ceradenia_kalbreyeri_Sundue_1213_Colombia,
+            13   Ceradenia_kalbreyeri_Sundue_1759_Costa_Rica,
+            14   Ceradenia_kookenamae_,
+            15   Ceradenia_pilipes_,
+            16   Ceradenia_spixiana,
+            17   Cochlidium_punctatum,
+            18   Cochlidium_rostratum,
+            19   Cochlidium_serrulatum,
+            20   Ctenopterella_blechnoides,
+            21   Ctenopteris_heterophylla,
+            22   Enterosora_percrassa,
+            23   Enterosora_trichosora_,
+            24   Enterosora_trifurcata,
+            25   Grammitis_bryophila,
+            26   Grammitis_deplanchei,
+            27   Grammitis_paramicola,
+            28   Grammitis_poeppigiana,
+            29   Lellingeria_bishopii,
+            30   Lellingeria_simacensis,
+            31   Lellingeria_apiculata,
+            32   Lellingeria_hellwigii,
+            33   Lellingeria_subimpressa,
+            34   Lellingeria_humilis_,
+            35   Lellingeria_limula_,
+            36   Lellingeria_major_,
+            37   Lellingeria_myosuroides,
+            38   Lellingeria_prionodes,
+            39   Lellingeria_schenckii,
+            40   Lellingeria_subsessilis_,
+            41   Lellingeria_suprasculpta_,
+            42   Lellingeria_suspensa_,
+            43   Melpomene_anazalea,
+            44   Melpomene_firma,
+            45   Melpomene_flabelliformis,
+            46   Melpomene_michaelium,
+            47   Melpomene_moniliformis,
+            48   Melpomene_occidentalis_,
+            49   Melpomene_pseudonutans,
+            50   Melpomene_vernicosa,
+            51   Microgramma_percussa,
+            52   Microgramma_squamulosa,
+            53   Micropolypodium_caucanum,
+            54   Micropolypodium_hyalinum,
+            55   Micropolypodium_taenifolium,
+            56   Micropolypodium_zurquinum,
+            57   Oreogrammitis_baldwinii,
+            58   Oreogrammitis_hookeri,
+            59   Oreogrammitis_knutsfordiana,
+            60   Polypodium_glycyrrhiza,
+            61   Prosaptia_contigua,
+            62   Prosaptia_obliquata,
+            63   Prosaptia_palauensis,
+            64   Prosaptia_pubipes,
+            65   Radiogrammitis_hirtelloides,
+            66   Scleroglossum_sulcatum,
+            67   Micropolypodium_achilleifolium,
+            68   Terpisichore_costaricense_,
+            69   Terpsichore_aff_alsopteris_,
+            70   Terpsichore_aff._semihirsuta,
+            71   Terpsichore_aff._subtilis_,
+            72   Terpsichore_aff._taxifolia,
+            73   Terpsichore_pacifica_,
+            74   Terpsichore_alansmithii,
+            75   Terpsichore_alsopteris_s.s,
+            76   Terpsichore_amphidasyon_,
+            77   Terpsichore_anfractuosa_Bolivia,
+            78   Terpsichore_anfractuosa_Costa_Rica,
+            79   Terpsichore_anfractuosa_Ecuador,
+            80   Terpsichore_anfractuosa_Ecuador_Choco,
+            81   Terpsichore_anfractuosa_Mexico,
+            82   Terpsichore_anfractuosa_Peru,
+            83   Terpsichore_angustipes_,
+            84   Terpsichore_asplenifolia,
+            85   Terpsichore_athyrioides_,
+            86   Terpsichore_attenuatissima_,
+            87   Terpsichore_basisetosa,
+            88   Terpsichore_chrysleri,
+            89   Terpsichore_clathrata,
+            90   Terpsichore_clavigera_,
+            91   Terpsichore_colombiensis,
+            92   Terpsichore_smithii,
+            93   Terpsichore_cretata,
+            94   Terpsichore_cuenca,
+            95   Terpsichore_cultrata,
+            96   'Terpsichore david-smithii',
+            97   Terpsichore_delicatula,
+            98   Terpsichore_dilatata_,
+            99   Terpsichore_gradata,
+            100  Terpsichore_hanekeana,
+            101  Terpsichore_lanigera,
+            102  Terpsichore_leucolepis,
+            103  Terpsichore_leucosticta,
+            104  Terpsichore_longicaulis_,
+            105  Terpsichore_longipilosa,
+            106  Terpsichore_longisetosa,
+            107  Terpsichore_loxensis,
+            108  Terpsichore_mickelii,
+            109  Terpsichore_nana_,
+            110  Terpsichore_oxapampensis,
+            111  Terpsichore_pichinchae_,
+            112  Terpsichore_pichinchensis,
+            113  Terpsichore_praeceps_,
+            114  Terpsichore_semihirsuta_s.s._,
+            115  Terpsichore_senilis,
+            116  Terpsichore_steyermarkii,
+            117  Terpsichore_subscabra_,
+            118  Terpsichore_subtilis_,
+            119  Terpsichore_taxifolia_s.s,
+            120  Terpsichore_vascoana,
+            121  Terpsichore_zeledoniana_,
+            122  Zygophlebia_mathewsii_,
+            123  Zygophlebia_sectifrons_,
+            124  Terpsichore_glandulifera,
+            125  Terpsichore_stella,
+            126  Terpsichore_jenmanii,
+            127  Terpsichore_liogieri,
+            128  Lomaphlebia_linearis,
+            129  Lellingeria_militaris;
+      TREE t1 = [&R] (1,((51,52),(60,(128,(((23,(22,24)),((122,123),(11,(9,12,13,14,16,(10,15))))),((4,(5,(3,6))),(26,(21,(28,(58,59,(57,65)),((19,(66,(17,18))),(27,(2,(25,(20,((((100,((126,127),((101,(92,((124,125),(95,115)))),(84,88)))),(113,((93,118),(71,(68,69,70,72,73,75,86,87,102,103,108,114,116,119,120,121,(99,104),(76,105)))))),((97,117),(67,106))),(53,54,55,56,((7,8),(39,(29,34,36,((62,63),(61,64)),(41,42),(30,40),(31,33),(129,(35,37,(32,38)),(74,77,78,79,80,81,82,(83,85,90,91,94,96,109,110,111,112,(98,107),(89,(44,48,(46,49,(50,(43,45,47)))))))))))))))))))))))))));
+
+
+
+END;

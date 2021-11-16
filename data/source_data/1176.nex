@@ -1,0 +1,118 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:46 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Mcdonald A.T., Wolfe D.G., & Kirkland J.I. 2010. A new basal hadrosauroid (Dinosauria:
+Ornithopoda) from the Turonian of New Mexico. Journal of Vertebrate Paleontology,
+30(3): 799-812.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S13155]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=24;
+        TAXLABELS
+            Altirhinus_kurzanovi
+            Bactrosaurus_johnsoni
+            Brachylophosaurus_canadensis
+            Camptosaurus_dispar
+            Corythosaurus_casuarius
+            Dakotadon_lakotaensis
+            Dollodon_bampingi
+            Dryosaurus_altus
+            Eolambia_caroljonesa
+            Equijubus_normani
+            Fukuisaurus_tetoriensis
+            Hypsilophodon_foxii
+            Iguanodon_bernissartensis
+            Jeyawati_rugoculus
+            Jinzhousaurus_yangi
+            Mantellisaurus_atherfieldensis
+            Ouranosaurus_nigeriensis
+            Penelopognathus_weishampeli
+            Probactrosaurus_gobiensis
+            Probactrosaurus_mazongshanensis
+            Protohadros_byrdi
+            Shuangmiaosaurus_gilmorei
+            Telmatosaurus_transsylvanicus
+            Theiophytalia_kerri
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M13876]
+
+	TITLE Character_Matrix;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=67;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2 3 4" MISSING=? GAP= -;
+
+MATRIX
+[                                           10        20        30        40        50        60       ]
+[                                            .         .         .         .         .         .       ]
+Altirhinus_kurzanovi                ?21111?2111100010000????10011111001?01?101121121001?00?010111011???
+Bactrosaurus_johnsoni               111110121111111100?01112110021111121111111122132112?11011???1111222
+Brachylophosaurus_canadensis        221111?11112111111011112121111211122112222222232214?111111?11111222
+Camptosaurus_dispar                 00?1?0000??0???100?00000????1000?000010000010000000?000000000?00000
+Corythosaurus_casuarius             121121?11112112111111112121111211122112222222232214?111111?11111222
+Dakotadon_lakotaensis               ?1110011???10?0???1?0?1?1??01???????010?0012?111001????????????????
+Dollodon_bampingi                   12111012??11?00100100???10001?0??????1?1?1???1??????0000101111101?1
+Dryosaurus_altus                    001100000?00??0100100?000??01000?000000000010000000?000000000?00000
+Eolambia_caroljonesa                12?1?1??10110101?0??1112100021110011111?02121131113100?0?0111111111
+Equijubus_normani                   ?21111?2??10010100111?1?1??11?1???1?011101121111000?000????????????
+Fukuisaurus_tetoriensis             01?1?1?11011010100???????0001101001001?00112?121001?00??1??????????
+Hypsilophodon_foxii                 000000000?000000?000000000?00000?000000000000000000?000000000?00000
+Iguanodon_bernissartensis           121110121011010100100011100010010010010101120111001?000010111010111
+Jeyawati_rugoculus                  ????????1??1???100????????0?111110111112??12?1311121???????????????
+Jinzhousaurus_yangi                 ?21111?2??1??10???10????1???1?1??????1?????2??21????00?????????????
+Mantellisaurus_atherfieldensis      121110121011010110100011???010010010010101120111001?0000?0111110111
+Ouranosaurus_nigeriensis            121110131011001100000011120120010000010101120111001?000010111111111
+Penelopognathus_weishampeli         ???????????????????????????01111001101?0??1?1???001????????????????
+Probactrosaurus_gobiensis           ?21111??101101?1?0???0??1000111100111111111211311120000010111110111
+Probactrosaurus_mazongshanensis     ???????????????10???0?02??????????????????12?1311120??00????1???11?
+Protohadros_byrdi                   12?1?1?31111010110?1????100121110011111102121131113000?????1???????
+Shuangmiaosaurus_gilmorei           ??1??1?310?2???????????????01101?11111?1?11?2132???????????????????
+Telmatosaurus_transsylvanicus       121111?11111??11101?111????01111112111222212213211311011????????22?
+Theiophytalia_kerri                 0011001???0??1011010?????????000?00??????????1??????00?????????????
+;
+END;
+
+BEGIN TREES;
+      TITLE Analysis_results;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Hypsilophodon_foxii,
+            2    Dryosaurus_altus,
+            3    Camptosaurus_dispar,
+            4    Theiophytalia_kerri,
+            5    Dakotadon_lakotaensis,
+            6    Fukuisaurus_tetoriensis,
+            7    Iguanodon_bernissartensis,
+            8    Mantellisaurus_atherfieldensis,
+            9    Dollodon_bampingi,
+            10   Ouranosaurus_nigeriensis,
+            11   Altirhinus_kurzanovi,
+            12   Jinzhousaurus_yangi,
+            13   Equijubus_normani,
+            14   Penelopognathus_weishampeli,
+            15   Probactrosaurus_gobiensis,
+            16   Probactrosaurus_mazongshanensis,
+            17   Eolambia_caroljonesa,
+            18   Protohadros_byrdi,
+            19   Jeyawati_rugoculus,
+            20   Shuangmiaosaurus_gilmorei,
+            21   Bactrosaurus_johnsoni,
+            22   Telmatosaurus_transsylvanicus,
+            23   Brachylophosaurus_canadensis,
+            24   Corythosaurus_casuarius;
+      TREE Figure_10 = [&R] (1,(2,(3,(4,(5,(6,(7,8,9,(10,(11,12,(13,(14,(15,16,(17,18),(19,(20,(21,(22,(23,24)))))))))))))))));
+
+
+
+END;

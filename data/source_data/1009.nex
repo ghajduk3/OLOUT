@@ -1,0 +1,1298 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:41 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Wagner P.J. 1997. Patterns of morphological diversification among the Rostroconchia.
+Paleobiology, 23: 115-150.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S262]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=154;
+        TAXLABELS
+            Anabarella_argus
+            Anabarella_simesi
+            Anisotechnophorus_nuculitiformi
+            Aphelakardia_alternistriata
+            Apoptopegma_craddocki
+            Apoptopegma_dickinsi
+            Arceodomus_glabrata
+            Arceodomus_langenheimi
+            Arceodomus_prolata
+            Avalanchia_pterocarina
+            Bigalea_clathra
+            Bigalea_ohioensis
+            Bigalea_yangi
+            Bransonia_alabamensis
+            Bransonia_beecheri
+            Bransonia_chapronieri
+            Bransonia_cressmani
+            Bransonia_foxi
+            Bransonia_hydei
+            Bransonia_paquettensis
+            Bransonia_robustum
+            Bransonia_townleyi
+            Bransonia_wilsoni
+            Bransonia?_sibleyensis
+            Cassowarioides_anisomorpha
+            Cassowarioides_perryi_stelcki
+            Cassowarioides_polgari
+            Conocardium_aff._C._elongatum
+            Conocardium_alaeforme
+            Conocardium_attenuatum
+            Conocardium_elongatum
+            Conocardium_inflatum
+            Conocardium_normale
+            Conocardium_pseudobellum
+            Conocardium_ventricosum
+            Cymatopegma_semiplicatum
+            Enigmaconus_parvus
+            Eopteria_cf._E._richardsoni
+            Eopteria_conocardiformis
+            Eopteria_crassa
+            Eopteria_richardsoni
+            Eopteria_struszi
+            Eopteria_ventricosa
+            Eotebenna_arctica
+            Eotebenna_papilio
+            Eotebenna_pontifex
+            Eotebenna_viviannae
+            Euchasma_blumenbachi
+            Euchasma_caseyi
+            Euchasma_jonesi
+            Euchasma_mytiliforme
+            Eurekapegma_cooperi
+            Fordilla_troyensis
+            Heraultipegma_varensalense
+            Hippocardia_?oweni
+            Hippocardia_aff._H._fusiformis
+            Hippocardia_ancora
+            Hippocardia_antiqua
+            Hippocardia_batilia
+            Hippocardia_bella
+            Hippocardia_bohemica
+            Hippocardia_cooperi
+            Hippocardia_costatus
+            Hippocardia_cucullata
+            Hippocardia_cunea
+            Hippocardia_curta
+            Hippocardia_herculeum
+            Hippocardia_herricki
+            Hippocardia_hibernica
+            Hippocardia_limatula
+            Hippocardia_monroica
+            Hippocardia_pala
+            Hippocardia_pygmaea
+            Hippocardia_richmondensis
+            Hippocardia?_zeileri
+            Ischyrinia_norvegica
+            Ischyrinia_winchellia
+            Kemopegma_pinnatum
+            Latouchella_accordionata
+            Latouchella_merino
+            Latouchella_penecyrano
+            Mellopegma_georginensis
+            Mulceodens_eboraceus
+            Mulceodens_jaanussoni
+            Mulceodens_schneideri
+            Mulceodens_wilsoni
+            Mulceodons_johnstoni
+            Nehedia_bainsi
+            Nehedia_bergeraci
+            Nehedia_grovesi
+            Nehedia_restricta
+            Nehedia_tricarina
+            Paramyona_queenslandica
+            Pauropegma_jelli
+            Pinnocaris_americana
+            Pinnocaris_curvata
+            Pinnocaris_lapworthi
+            Pinnocaris_robusta
+            Pinnocaris_wellsi
+            Pinnocaris?_sp._C
+            Pojetia_runnegari
+            Pseudobigalea_crista
+            Pseudoconocardium_?licharewi
+            Pseudoconocardium_cordatum
+            Pseudoconocardium_lanterna
+            Pseudoconocardium_missouriensis
+            Pseudoconocardium_parrishi
+            Pseudoconocardium_polymitarium
+            Pseudoconocardium_snideri?
+            Pseudoeuchasma_typica
+            Pseudomulceodens_cancellatus
+            Pseudotechnophorus_typicalis
+            Ptychopegma_burgeri
+            Redstonia_buskasi
+            Redstonia_tercierae
+            Redstonia_visbyensis
+            Ribeiria_aff._R._apusoides
+            Ribeiria_aff._R._pholadiformis
+            Ribeiria_apusoides
+            Ribeiria_australiensis
+            Ribeiria_calcifera
+            Ribeiria_compressa
+            Ribeiria_hucklitta
+            Ribeiria_jonesi
+            Ribeiria_lucan
+            Ribeiria_manchuria
+            Ribeiria_personata
+            Ribeiria_pholadiformis
+            Ribeiria_runnergari
+            Ribeirina_longiscula
+            Technophorus_bellistriatus
+            Technophorus_cancellatus
+            Technophorus_cincinnatiensis
+            Technophorus_divaricatus
+            Technophorus_faberi
+            Technophorus_filistriatus
+            Technophorus_kempae
+            Technophorus_minutus
+            Technophorus_nicolli
+            Technophorus_sharpei
+            Technophorus_walteri
+            Tolmachovia_belfordi
+            Tolmachovia_concentrica
+            Tolmachovia_landeyranensis
+            Tuaringa_paparua
+            Wanwanella_striata
+            Wanwania_ambonychiformis
+            Wanwania_cambrica
+            Wanwania_drucei
+            Wanwanoidea_trigonalis
+            Watsonella_crosbyi
+            Yochelcionella_daleki
+            Yochelsionella_cyrano
+            Yochelsionella_ostentatia
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M744]
+
+	TITLE Table_1;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=131;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2 3 4 5 6 7 8 9 A B C D E F G H J K L M N P Q" MISSING=? GAP= -;
+	CHARSTATELABELS
+		1  Shells / 0 Univalved Bivalved,
+		2  'Height / Width' / 0 'WH = 1' 'WH = 2' 'WH = 3' 'WH = 4' 'WH = 5',
+		3  Aperture_Shape / 0 Ahead_of_Apex Beneath_Apex Behind_Apex,
+		4  Greatest_Width / 0 At_Aperture Bn_Aperture_and_Apex,
+		5  Anterior_Extension / 0 Absent Present,
+		6  'Ant/Ant+Ventral' / __0% 10% 20% 30% 40% 50% 60% 70% 80% 90%,
+		7  'Dorsum/Ant Angle' / __0¡ 10¡ 20¡ 30¡ 40¡ 50¡ 60¡ 70¡ 80¡ 90¡ 100¡ 110¡ 120¡,
+		8  Ant_Dorsum / 0 Very_Concave Concave Straight Convex Sigmoidal,
+		9  Snout_Dorsum / 0 Concave Straight Convex,
+		10  Projected_Anterior / 0 Absent Present,
+		11  Angle_of_Anterioir_Projection / '-15¡' 'Slight (~15¡)' ~45¡ ~60¡ ~75¡ ~Perpendicular ~120¡,
+		12  Ant_Projection / 0 Concave Flat Curved Strongly_Curved,
+		13  Snorkel / 0 Absent Present,
+		14  Snout_Sulcus / 0 Absent Present,
+		15  Sulcus_Strength / 0 Very_Weak Weak Moderate Strong,
+		16  Flared_Snout / 0 Absent Present,
+		17  Anterior_Gape / 0 Absent Present,
+		18  Gape_Leading_to_Apex / 0 Closed Slit 'Thin V-shape' 'Wide U-shape',
+		19  Gape_at_Anterior / 0 Slightly_Wider Moderately_Wider Much_Wider Very_Much_Wider,
+		20  Ant._Gape_Shape / 0 Slit Teardrop Keyhole Circular,
+		21  Æ_Curvature / 0 Absent '-ÆK',
+		22  Curvature_Decrease / 0 '-ÆK' Loss_of_Curvature Becomes_Exogastric,
+		23  Posterior_Trend / 0 Straight Adapical_Trend,
+		24  Angle_of_Posterior_Projection / 0 'Slight (~15¡)' ~45¡ ~60¡ ~75¡ ~90¡ ~105¡ ~120¡,
+		25  Posterior_Gape / 0 Absent Present,
+		26  Gape_Leading_to_P._Apex / 0 Closed Slit Thin Wide,
+		27  Gape_at_Apex / 0 Slightly_Wider Much_Wider,
+		28  Post_Gape_Shape / 0 Slit Teardrop Circular Bilobed Sigmoidal Elliptical,
+		29  Anterior_Notch / 0 Absent Present,
+		30  Pegma_Type / 0 'Draped around A-D' Projecting_into_Shell Within_Shell,
+		31  Pegma_Depth / 0 Very_Shallow Shallow Moderate Deep Very_Deep,
+		32  'Pegma Width (Base)' / 0 Narrow Moderate Wide Very_Wide,
+		33  Pegma_Apex / 0 Sharp Rounded,
+		34  Pegma_Shape / 0 Narrows ~Same_Width Teardrop,
+		35  Bent_Pegma / 0 Anterior_Bend Straight Posterior_Bend,
+		36  Pegma_Attitude / 0 Anterior_Trend Straight Posterior_Trend,
+		37  Prepegma_Concavity / 0 Absent Present,
+		38  Ant_Dorsal_Cleft / 0 Absent Present,
+		39  ADC_Development / 0 Above_Pegma_Only Restricted Most_of_Anterior Whole_Anterior,
+		40  Posterior_Pegma / 0 Absent Present,
+		41  Pegma_Depth / 0 Shallow Moderate Deep,
+		42  Pegma_Shape / 0 Sharp Rounded,
+		43  'Pegma Width (Base)' / 0 Narrow Moderate Wide Very_Wide,
+		44  Pegma_Attitude / 0 Anterior_Trend Straight Posterior_Trend,
+		45  'Post-Pegma' / 0 Absent Present,
+		46  Broad_PM_Attachment / 0 Absent Present,
+		47  PM_Width / 0 Moderate Wide Very_Wide,
+		48  Mid_Dorsal_Cleft / 0 Absent 'Present (Heart Shape)',
+		49  Dorsal_Cleft_Strength / 0 Depression Both_Beaks_Visible,
+		50  Post._Dorsal_Cleft / 0 Absent Present,
+		51  Post._Dorsal_Shape / 0 Convex Straight Slightly_Concave Concave,
+		52  Dorsal_Carina / 0 Absent Present,
+		53  Growth_Lines / 0 Weak Strong Rugose,
+		54  Ont_Æ_in_GLs / 0 Weaker No_Change Slightly_Stronger Much_Stronger,
+		55  Perioidic_Growth / 0 Absent Present,
+		56  'Vent Sh at Mid/Post' / 0 ~Straight Slightly_Curved Curved ~Circle_Arc Acute Very_Acute,
+		57  Vent_Sh_in_Middle / 0 ~Straight Slightly_Curved Curved ~Circle_Arc Acute,
+		58  Ventral_Opening / 0 Present Closed Fused,
+		59  'Ventral Gape (Aperture)' / 0 Very_Thin Thin 'Wide (Normal)',
+		60  Commisure_Shape / 0 Flat Undulating,
+		61  Degree_of_Undulation / 0 All_Aperture_Undulating Undulating_Rostrum_Only,
+		62  Posterior_Extension / 0 No_Extension Small_Extension Moderate_Extension Great_Extension Extreme_E,
+		63  Discrete_Rostrum / 0 Absent Present,
+		64  Discrete_Rostrum_Type / 0 'Wedge (Bottom Closed)' Tube 'Wedge (Top Closed)',
+		65  Rostrum_Width / 0 Narrow_Tube Half_Posterior_Face All_Posterior_Face,
+		66  Rostrum_Attitude / 0 Abapical_Trend Perpendicular_to_Posterior_Face Adapical_Trend,
+		67  Ventral_Orifice / 0 Absent Present,
+		68  Primary_Carina / 0 Absent Present,
+		69  PC_Type / 0 Ridge_Hood Enlarged_Radial_Rib Extra_Projected_Hood,
+		70  Rib_Strength / 0 Very_Weak Weak Strong,
+		71  EPH_Strength / 0 Moderate Strong,
+		72  Ridge_Hood_Strength / 0 Weak Moderate Strong Very_Strong,
+		73  2ndry_Posterior_Hood / 0 Absent Present,
+		74  2nd_PH_Orifice / 0 Absent Present,
+		75  Angle_bn._Ribs / 0 ~10¡ ~20¡ ~30¡,
+		76  Rel._Rib_Strength / 0 Equal First_Dull,
+		77  Rib_Origin / 0 Protoconch Behind_Protoconch,
+		78  2ndry_Body_Carina / 0 Absent Present,
+		79  2nd_BC_Type / 0 Dull_Weak Sharp_Strong Fine_Pair,
+		80  Angle_between_Hoods / 0 ~10¡ ~20¡ ~30¡ '>40¡',
+		81  Dorsal_Post_BC / 0 Absent Present,
+		82  Dimorph_Brood_Pouches / 0 Absent Present,
+		83  Denticles / 0 Absent Present,
+		84  RIO / 0 Absent Present,
+		85  RIO_Pattern / 0 Symmetric Anterior_Finer Anterior_Duller 'Anterior Sharper, Stronger' Pos,
+		86  Anterior_Denticles / 0 Absent Present,
+		87  AD_Density / 0 'Sparse (~10¡)' 'Dense (~5¡)',
+		88  AD_Type / 0 Fine Rugose,
+		89  AD_Strength / 0 Very_Weak Weak Strong Very_Strong,
+		90  ÆAD_Strength / 0 Gradual_Fading Abrupt_Fading,
+		91  AD_Pattern / 0 Consistent Fewer_at_Front Absent_at_Very_Front,
+		92  Ant_Long_Shelves / 0 Absent Present,
+		93  No._of_Shelves / 0 One Two,
+		94  Ventral_Denticles / 0 Absent Present,
+		95  VD_Type / 0 Fine 'Thick (RIO)',
+		96  Thick_VD_Strength / 0 Very_Weak Weak Strong,
+		97  VD_Number / 0 'Sparse (~10¡)' 'Dense (~5¡)',
+		98  VD_Distribution / 0 Throughout 2_or_3,
+		99  ÆVD_Strength / 0 Gradual_Fading Abrupt_Fading,
+		100  Post_Denticles / 0 Absent Present,
+		101  PD_Density / 0 'Very Sparse (~15¡)' 'Sparse (~10¡)' 'Dense (~5¡)',
+		102  PD_Type / 0 Fine Rugose,
+		103  PD_Strength / 0 Weak Strong Very_Strong,
+		104  PD_Number / 0 Throughout 2_or_3,
+		105  Filled_Ant_RIO / 0 RIO_Visible Filled,
+		106  Filled_Mid_RIO / 0 RIO_Visible Filled Partly_Filled,
+		107  Covered_Post_RIO / 0 Plainly_Visible Partially_Filled Entirely_Filled Entirely_Filled_in_Back_H,
+		108  Exterior_Ornament / 0 Absent Present,
+		109  Divaricate_Rostrum_Ornament / 0 Radial Divaricate,
+		110  EO_Dostribution / 0 Snout_Only Present_Throughout Rostrum_Only,
+		111  EO_Type / 0 Fine_Threads Moderate_Lirae Rugose_Lirae,
+		112  Ornament_Density_in_Middle / 0 Sparse Moderately_Dense Dense Very_Dense,
+		113  Pallial_Line / 0 'Absent-Weak' Prominent,
+		114  Anterior_Bifurcation_of_Pallia / 0 Absent Present,
+		115  Anterior_Median_Muscles / 0 Absent Present,
+		116  AMM_Development / 0 Very_Small Small Long,
+		117  Segmented_SM / 0 Several_Segments One_Break Connected_Segments Continuous,
+		118  Posterior_Median_Musceld / 0 Absent Present,
+		119  PMM_Development / 0 Small Long,
+		120  Pedal_Retractor / 0 Absent Present,
+		121  PPR_Shape / 0 Elliptical Circular,
+		122  PPR_Position / 0 Beneath_Apex At_Apex Behind_Apex,
+		123  Pallial_Protractor_Muscle / 0 Absent Present,
+		124  Secondary_Retractor_Muscles / 0 Absent Present,
+		125  Segmented_SPR / 0 Continuous Segmented,
+		126  Posterior_Retractor / 0 Absent Present,
+		127  Anterior_Retractor / 0 Absent Present,
+		128  Size / 0 '<10 mm' '~10 - 20 mm' '~20 - 30 mm' '>30 mm',
+		129  Family / 0 Helcionellid Pterioid Riberiid Technophorid Ischyriniid Eopteriid Brans,
+		130  FKA / 'Early / Mid Cambrian' 'Dresbachian - Franconian' Trempealeauan E._Tremadoc,
+		131  LKA / 'Early / Mid Cambrian' 'Dresbachian - Franconian' Trempealeauan E._Tremadoc,
+		;
+
+MATRIX
+[                                           10        20        30        40        50        60        70        80        90        100       110       120       130       140 ]
+[                                            .         .         .         .         .         .         .         .         .         .         .         .         .         . ]
+Anabarella_argus                    15211--1-21211--24121-211---222121-111-1-------1--11221--131-1----11------------1-11-------1---------------1----1??????????????1100
+Anabarella_simesi                   15211--1-21211--1---1-1?1---221221-211-1-------1--11221--131-1----11------------1-11-------1---------------1----1??????????????1100
+Anisotechnophorus_nuculitiformi     14322224-26311--23221-25231222531123221?----11-1-132?2122112241---11------------1-21-221-111-21-2111----22-1----1??????????????2424
+Aphelakardia_alternistriata         112226B32223123123321-2621261-------1241-------22121221522-1-12213223---1----1--1122-2223112222321-23221-211----???????????????28JJ
+Apoptopegma_craddocki               14321--?-232121-23321-2423112243231111-1-------1-112121--121-41---11------------1-21-22-4111-21-21-2-1-----1----2??????????????2311
+Apoptopegma_dickinsi                14321--?-22211--23321-252311223223-211-1-----1-1-11212144111-4----11------------1-11-------1---------------1----???????????????2333
+Arceodomus_glabrata                 121228B32203124223441-2321231-------1241-------21131121442-1-1221211------------112242222212222221-232111231----???????????????39KK
+Arceodomus_langenheimi              121228933203124223441-23212-1-------1241-------?--31121442-1-1222211------------112242222212222221-232111231----???????????????39PP
+Arceodomus_prolata                  121229A32203124221441-2221231-------1241-------21141122442-1-1222311------------112242222212222221-232111231----???????211?????39MM
+Avalanchia_pterocarina              122229C32222122124441-27222-1-------1241-------2--?132263121-12--2221--3223--1--1111-------?-------1-------1----???????????????18CC
+Bigalea_clathra                     122227932222122123421-2521231-------1241-------21221221532-1-121222222--1----223112232223-2?-22321-232211111----???????????????28FG
+Bigalea_ohioensis                   122225B33221123124421-2521221-------1241-------222?1321622-1-12212221--2222--1--112212222-11-22221-232111141----???????????????18HH
+Bigalea_yangi                       122226B32221124124421-2621261-------1241-------2224132162111-12212221--2221--1--112212222-11-22221-232111141----???????????????28HH
+Bransonia_alabamensis               122227A22242123123421-2321231-------12{34}1----11-21221121522-1-22223?22---11---1--112232224121-22321-232211111----?????1?22??????1788
+Bransonia_beecheri                  12222793224212312-321-232-23?-------12-1----11-1--31121442-1-2223311------------112232224121-223211232211111----???????????????1777
+Bransonia_chapronieri               122226723252123-23331-242123?-------1241-----1-21-11221442-1-2233311------------1-2232224-11-22321-232211111----???????????????1733
+Bransonia_cressmani                 122226922241123123421-2321231-------124?-------1--31221442-1-12323222---11---1--112222224111-223211232211111----211??1?????????1799
+Bransonia_foxi                      122227A33231123123421-262-2-1-------12-1-------2--21221442-1-1----?1---------1--1122-2122131-22311-------1-1----???????????????27CC
+Bransonia_hydei                     122225A23223123123421-2521231-------1241-------22-21221522-1-12112122-----------1122-2224121-22321-23221111?----???????????????27JJ
+Bransonia_paquettensis              122226922241123123421-232-231-------12-1-----1-?--21221252-1-12313222---212--1--112222224111-223211232212111----21?????????????1799
+Bransonia_robustum                  122226A33222123123321-2521231-------1241-------2222122254121-122122222--1----1--112222124221-22321123211---1----???????????????37QQ
+Bransonia_townleyi                  122225A23252123123421-222123?-------124?-------21231121252-1-12312222---212--1--112212224111-2232112322121121112???????????????1799
+Bransonia_wilsoni                   122229A33223123123321-2521231-------1241-------2222122254121-122122222--1----1--112222124221-222211232111121----???????????????37QQ
+Bransonia?_sibleyensis              122227A32232123123421-2521221-------?241-------22231221442-1-12222?2-2--1----1--112222223131-22321-232212111----221????221?????27FG
+Cassowarioides_anisomorpha          122227922231122-2---1-2521231-------11-1-------?-131221432-1-12221221--11----2141222-2124221-1-----1----2--212232??????????????18DD
+Cassowarioides_perryi_stelcki       122227922231122223421-2521231-------11-1-------21131221532-1-12222221--41----2141222-2121221-1-----1----2--21223???????????????18CC
+Cassowarioides_polgari              122227932231122223421-2521231-------11-1-------21131221532-1-12222221--41----2141222-2121221-1-----1----2--21223???????????????18DD
+Conocardium_aff._C._elongatum       122229A32203123223441-2521231-------1241-------21131122442-1-1221311------------1122422242122223212232211111----???????????????29KL
+Conocardium_alaeforme               122229A32222122123421-2421231-------1231-------212?1122442-1-122131221--1----1--112242224-12-22321-231211111----???????????????29JJ
+Conocardium_attenuatum              11222992222211--22421-2621231-------1221-------21121212512-1-1211-223-2-1----1--1122121241121223211232211111----???????????????39EE
+Conocardium_elongatum               122229A32213123223441-2521231-------1231-------21131121432-1-1221311------------1122422242122223212232211111----221????2132211129JJ
+Conocardium_inflatum                122229A32222122123421-2521231-------1241-------212?1122432-1-122131121--1----1--1122422242121223212232211111----???????????????29JJ
+Conocardium_normale                 122227B32223122123421-2521231-------1231-------21231122532-1-122132221--1----1--1122422242222223212231211111----???????????????29HH
+Conocardium_pseudobellum            122229A32223122123421-2521231-------1231-------21231122432-1-122132221--1----1--1122422242222223212231211111----???????????????39HH
+Conocardium_ventricosum             122227923221123123421-2421221-------124?-------22-31221442-1-1212222322-1----1--112222223-21-22321-232112111----???????????????29HH
+Cymatopegma_semiplicatum            14322254-24411--23121-252311225411132?-?----11-1--??3?142122231---11------------1-21-221-111-21-2111----22-1----???????????????2322
+Enigmaconus_parvus                  15211--1-21211--1---1-1?1---2232---211-1-------1-111121--131-1----11------------1-?1-------1---------------?----1??????????????1100
+Eopteria_cf._E._richardsoni         133225813253122123321-252---?-------12-?-----1-1-21122144121-22-3311------------1-2212224-11-223212232212321----???????????????2666
+Eopteria_conocardiformis            133225812253122123341-2523231-------1221----1121-21122144121-2233211------------1-2212223211-223212232212221----21?????????????2688
+Eopteria_crassa                     123226C2125312212-3-1-242-121-------122?-------1-221221441-1-2233311------------1-2222224211-22321223221---1----???????????????2655
+Eopteria_richardsoni                133224922253122124331-2524121-------1221----1221-21122125121-2233311------------1-2212224111-223211232212321----21?????????????2655
+Eopteria_struszi                    122225623242122-23331-242312222123211221-----1-21-{12}122125111-2233211------------1-2232124211-223212232211111----???????????????2633
+Eopteria_ventricosa                 123226712263122123331-2523121-------1221----1221-21122144121-2233311------------1-2212224211-223212232212231----??1????22??22222655
+Eotebenna_arctica                   15111--1-25321--1---221?1---1-------11-1-------1--11231--121-1----11------------1-11-------1---------------1----1??????????????1100
+Eotebenna_papilio                   15111--1-26321--1---221?1---1-------11-1-------1--11131--121-1----11------------1-11-------1---------------2121-1??????????????1100
+Eotebenna_pontifex                  15111--1-26321--1---221?1---1-------11-1-------1--11131--121-1----11------------1-11-------1---------------2121-1??????????????1100
+Eotebenna_viviannae                 15111--1-26321--1---222?1---1-------11-1-------1--11??1--3-1-1----11------------1-11-------1---------------?----1??????????????1100
+Euchasma_blumenbachi                12221--?-252121122321-262222?-------1121-----1-1-12112115111-1233311------------1-2222224211-223211232211111----21?????????????2655
+Euchasma_caseyi                     12221--?-222121-22321-242314223123121221-----1-1--1111125111-1233-1222--11---1--112222212111-223212231111111----???????????????2633
+Euchasma_jonesi                     12222292-252121122331-262212222223111221-----1-212211?115111-1233311------------1-2222224211-223212232211111----???????????????2666
+Euchasma_mytiliforme                12221--?-252121122331-26231222222---1221-----1-211211?115111-1233311------------1-21-2222211-222212131-1---1----???????????????2666
+Eurekapegma_cooperi                 15321--1-21311--23221-212322234122-211-1-------1-111321--131-1----11------------1-11-------1---------------1----1???1??????????1100
+Fordilla_troyensis                  25322352-25311--1---1-232-121-------11-1-------1--11221-21-1-2----11------------1-11-------1---------------1----2??????2???????1200
+Heraultipegma_varensalense          15322232-25311--24121-222412212111-111-1-------1--11221-2121-2----11------------1-11-------1---------------1----1??????1???????1100
+Hippocardia_?oweni                  122226A32221123123321-2521221-------1241-----1-22221222522-1-12-1222311-11---1--112222223121-22321-232211111----???????????????28CD
+Hippocardia_aff._H._fusiformis      122227B32233121123321-2621261-------12-1-------22-31221522-1-12213223-1-1----1--112212124122122321223211212?----???????????????48JJ
+Hippocardia_ancora                  122227933231121122421-2521221-------122?-------22241121612-1-12232221--31----1--112251-----1-22121-23111-2321213???????????????18MM
+Hippocardia_antiqua                 122226933222123-23421-2221221-------12-?-------1-221221522-1-12323223---11---1--112222224121-22321-232211111----???????????????1899
+Hippocardia_batilia                 122229A33233121122321-2521261-------1241-------22241121612-1-12212221--31----1--112242122-2?-22121-2221122321213???????????????18LL
+Hippocardia_bella                   122227B33222123123421-2621261-------1?{34}?-------222?1221532-1-1212-22331-1----1--11222222312?-223211232112131----???????????????38HH
+Hippocardia_bohemica                122227922221123123421-2421221-------1241-------21231221522-1-1212222322-1----1--11222222412?-223211232111111----???????????????28DE
+Hippocardia_cooperi                 122227933211123223421-2221221-------124?-------1-221221522-1-12233221--311---222112222223111-223211232211311----???????????????1888
+Hippocardia_costatus                122226A23221123123421-2421221-------?241-------2122122?512-1-12122223-2---------1122-21----?-22321-2321--1121213???????????????28EE
+Hippocardia_cucullata               132227933242122123321-2521221-------122?-------22-4122163111-12132221--31----1--112251-----?-22221-23111-2321213???????????????18KK
+Hippocardia_cunea                   112226A22222122122421-2621231-------1241-------21221222512-1-1211222312-1----1--112212224122122321123211213?----22?????22221?1148EH
+Hippocardia_curta                   122227933221123123421-25212-1-------1241-------22231221522-1-121222232--1----1--112212223121-223211232212111----???????????????28FG
+Hippocardia_herculeum               122227B32222121123421-2621231-------1241-------2-231221522-1-1222222321-1----1--1122122222221223212232111111----???????????????48JJ
+Hippocardia_herricki                122227933221123123321-2621261-------1?41-------22231221522-1-12-23223-1-1----1--1122-2223122-22321-232211211----???????????????28JJ
+Hippocardia_hibernica               112229A23201123123--1-2521231-------1241-------22221121532-1-12212223-2-1----1--1122121231222223211232112211----???????????????48JJ
+Hippocardia_limatula                122227933222123223421-242122?-------12-?-------1-221221532-1-12323223-1-11---1--11222222412?-223211232211111----???????????????1888
+Hippocardia_monroica                122227B32221123123421-2521221-------1241-------2-231221522-1-121222232--1----1--1122222232221223212232212111----???????????????38FF
+Hippocardia_pala                    122228933231123222421-2521231-------122?-------22241121612-1-12221221--31----1--112251-----1-22221-2311122321212???????????????18MM
+Hippocardia_pygmaea                 122225A32232123123321-2221221-------1241-----1-2222122{12}522-1-121232231--11---1--112222223121-22321-232211111----???????????????18BB
+Hippocardia_richmondensis           122226A3321?123223421-2521221-------124?-------21221221522-1-12222221--3212--232112122223111-2232112322--311----???????????????18AB
+Hippocardia?_zeileri                122227A32222123123421-2421231-------1241-------2--31?2?522-1-122122223--1----1--112242224222222321223221---?----22?????22121?1128{EFGH}{EFGH}
+Ischyrinia_norvegica                13322663-24311--2112?-24222-225323232?-2323221-1--2112132111-2----12-1-------1--1-21-------1---------------1----1?223211???1?112599
+Ischyrinia_winchellia               13322563-23311--21121-2622242252122321-2322221-1--2112132111-2----1222-------1--1-22-2223211-22221-222112111----1?223211???1?1125BB
+Kemopegma_pinnatum                  14322124-25311--2---1-252---2232112211-1----1211-12?21132111-41---1223--11--1---1-22-1-----1-1-----22231--11----???????????????2422
+Latouchella_accordionata            15211--1-21211--1---1-1?1---1-------11-1-------1--11321--131-1----11------------1-11-------1---------------2121-1??????????????1100
+Latouchella_merino                  15211--1-1??11--1---1-1?1---1-------11-1-------1--11321--131-1----11------------1-11-------1---------------1----1??????????????1100
+Latouchella_penecyrano              15211--1-21311--1---1-1?1---1-------11-1-------1--11321--131-1----11------------1-11-------1---------------2121-1??????????????1100
+Mellopegma_georginensis             15311--1-22311--24121-211---221121-211-1-------1--11221--131-2----11------------1-11-------1---------------1----1??????1???????1100
+Mulceodens_eboraceus                122228A33221124124421-2421261-------124?-------21241321622-1-12---2222--2-2--1--112212222-1?-22221-2321111-1----???????????????27HH
+Mulceodens_jaanussoni               122226A33221121223321-2521221-------1241-------21221221532-1-12222?221--1----1--112222224211-223212232111111----???????????????17DD
+Mulceodens_schneideri               122228932232122124421-2521221-------1241-------22221221522-1-122322223--11---1--112222223131-223111232121121----???????????????27CC
+Mulceodens_wilsoni                  122227A32232122224421-2621221-------1241-------22221221442-1-122222222--1----1--112222223131-223211232112111----???????????????27CC
+Mulceodons_johnstoni                122228A32232122-2-421-24212-1-------1?-1-------2-2?1221442-1-122322222--1----1--112222223131-223111-32121111----???????????????17CC
+Nehedia_bainsi                      122226932221123222421-2421231-------1221-------22121221522-1-12232221--31----224112242124231-2222122321223121223???????????????18CC
+Nehedia_bergeraci                   122225C33252122121421-2321231-------1?-1-------?--31221532-1-12232221--41----2241122-2124221-22122-2321122221223???????????????18CC
+Nehedia_grovesi                     122226932231123222421-2421231-------1241-------22121221512-1-12232221--41----223112242124231-2222222321223221223???????????????18CC
+Nehedia_restricta                   122227933222123122421-242-231-------12-1-------?-121221522-1-12232221--21----2211122-2124111-22212-2321123221223???????????????18DD
+Nehedia_tricarina                   122225A?2232122222421-242-231-------1?-1-------?--31221522-1-12232221--41----224212242124221-22222-1-------21223???????????????18CC
+Paramyona_queenslandica             15122492-25311--23121-23231-221-----11-1-------1--21221-1121-31---11------------1-21-22-3111-21-21-2-1---1-?----???????1???????1100
+Pauropegma_jelli                    14322454-26411--23121-262-22225411231211----11-1-22132142121-21---1221--11--11--1-11-------1-------1-------21212??23322????????2435
+Pinnocaris_americana                14322463-25311--21221-252123223211311211----12-1-131121132-1-51---11---------1--1-11-------1---------------1----???????????????23AA
+Pinnocaris_curvata                  14322473-25311--21221-242123223211331211-----1-1-141221332-1-51---11---------1--1-11-------1---------------1----???????????????23BB
+Pinnocaris_lapworthi                14322583-25311--21221-24212-223211231211-----1-1-121331122-1-51---11------------1-11-------1---------------1----???????????????238A
+Pinnocaris_robusta                  143223-4-24311--2---1-2521--2232112221-1----1211-141121122-1-51---11------------1-11-------1---------------1----???????????????3322
+Pinnocaris_wellsi                   14322234-25311--22321-252123222221222211-------1-12212113111-51---11------------1-11-------1---------------1----1??????????????3322
+Pinnocaris?_sp._C                   14322254-26311--213-1-252-23222211232211-----1-1-121121222-1-51---11------------1-11-------1---------------1----1??????????????23{56}{56}
+Pojetia_runnegari                   25322354-25311--1---1-262-121-------11-1-------1--11121-21-1-2----11------------1-11-------1---------------1----2??????2???????1200
+Pseudobigalea_crista                122227932233123123421-2321261-------1241-------22141211522-1-12223221--31----22221224212212?-22211-2321122321214???????????????18MM
+Pseudoconocardium_?licharewi        122227A33222121124321-2621231-------1241-------2224122262121-122122223--1----1--11222222222?-223112232111111----???????????????37PQ
+Pseudoconocardium_cordatum          122227A33223121124321-2621231-------124?-------2214122225121-121232222--1----1--112222222221-223212132211121----???????????????37LL
+Pseudoconocardium_lanterna          122227A32222121124321-2621231-------1241-------2224122262121-122122223--1----1--112222222221-223112212211111----???????????????37MN
+Pseudoconocardium_missouriensis     122229A32232121122321-22212-1-------12-1-------21141221531-1-12122221--31----22221221212212?-22211-2-21122321223???????????????17MM
+Pseudoconocardium_parrishi          122229A32241121122321-2321261-------1241-------22141121521-1-12132221--31----22221221212212?-2222112321122321214???????????????17MM
+Pseudoconocardium_polymitarium      122227A33232122124321-2521231-------124?-------2214122244111-122132221--1----1--112222222-21-223112232211111----???????????????27KK
+Pseudoconocardium_snideri?          122226A33222123124321-2621231-------1241-------22141221252-1-122132221--1----1--112222222-21-22321-232211111----???????????????37KN
+Pseudoeuchasma_typica               12221--?-222121-22331-2423142-------?22?-------1--111?125111-1233-1223--11---1--1122-2212--1-223212231111111----???????????????2633
+Pseudomulceodens_cancellatus        122226A22222121124321-2521261-------1241-------22221321522-1-1212321------------1122-2224112122321-232211111----22?????2???????28JJ
+Pseudotechnophorus_typicalis        13322233-26311--23321-2523122231223111-1----11-1--2112122111-31---11------------1-2212223111-223211232211111----1?2131121??22212533
+Ptychopegma_burgeri                 14322254-25311--23221-25231222431321121?-------1-12132132122121---11------------1-?1-------1---------------1----???????????????3334
+Redstonia_buskasi                   122228A23221124223421-2421261-------1241-------22231221532-1-12222221--2212--224112212222-11-22321-232111321----???????????????18CC
+Redstonia_tercierae                 122228A33221122223421-2521261-------1241-------21231221532-1-12223221--2212--231112212221111-221211232111312----???????????????18CC
+Redstonia_visbyensis                122227A33221122223421-242122?-------124?-------21221221522-1-12222221--221---2221122-222211?-22321-2311--311----???????????????18CC
+Ribeiria_aff._R._apusoides          14322214-25311--2---?-222---2252113221-1-----231--21??1--121-41---11---------1--1-?1-------1---------------1----???????????????23BB
+Ribeiria_aff._R._pholadiformis      14322223-25311--23321-232---22521132?1-1----1231-13112123121-41---11------------1-11-------1---------------21213???????????????2377
+Ribeiria_apusoides                  14322214-25311--23221-2321222252113221-1----1231-12?12123121-41---11------------1-11-------1---------------1----1?223221???1?11237A
+Ribeiria_australiensis              14322134-26311--23221-2323222223212211-1-------1-13212133121-41---11------------1-21-2213111-21-21-1-------1----???????????????2311
+Ribeiria_calcifera                  14322344-26311--23221-2323222242111221-1----1231-1121?123121-41---11------------1-21-2213111-21-21-2-1-----1----???????????????2344
+Ribeiria_compressa                  15322124-26311--23221-2523122232212321-1-----1-1--22??122121-41---11------------1-11-------1---------------1----???????????????2345
+Ribeiria_hucklitta                  14322114-25311--2---1-25?---2232112211-1----1211-12?22133?-1-41---11------------1-?1-------1---------------1----?????22????????2322
+Ribeiria_jonesi                     14322114-25311--2-121-25?---2233112211-1----1221-12?22133?-1-41---11------------1-?1-------1---------------1----?????22????????2322
+Ribeiria_lucan                      15322224-25311--23221-23232222531{23}1121-1----1231-12?1?133121-31---11------------1-?1-------1---------------1----1?211211???????2333
+Ribeiria_manchuria                  15322104-25311--23221-2423122223212211-1-----1-1--11??133121-41---11------------1-11-------1---------------1----???????????????2333
+Ribeiria_personata                  14322354-24311--23321-232312224211232211----1221-13?12132121-41---11------------1-11-------1---------------1----1????22????????2356
+Ribeiria_pholadiformis              14322333-26311--23321-232-222252113221-1----1231-13212133121-41---11------------1-11-------1---------------1----1?222221???????2357
+Ribeiria_runnergari                 14321--?-24311--2-221-232-222241111111-1-----1-1-11212123121-41---11------------1-?1-------1---------------1----???????????????2333
+Ribeirina_longiscula                14322134-25311--23321-23232222------?21?-------1-112??122121-41---11------------1-21-2213111-21-21-2-1-----1----???????????????2344
+Technophorus_bellistriatus          14322453-24311--22121-2523242231122111-1-------1-13222123111-423321223--222211--1-11-------1---------------22213???????????????2489
+Technophorus_cancellatus            14322344-25311--2---1-25?---223212211211-----1-1-13222122111-423321123--213221--1-11-------1---------------22223???????????????249A
+Technophorus_cincinnatiensis        14322354-24211--23121-262324223312311?-1-------1--212?122111-323331223--213121--1-11-------1---------------?----1?213221???1?1124AB
+Technophorus_divaricatus            14322473-26311--2---1-252---2-------121?-------1-131221221-1-423321123--213121--1-??-------?---------------22323???????????????249B
+Technophorus_faberi                 14322464-24311--23321-2423122232122111-1-----1-1-14212123111-423321223--212211--1-11-------1---------------1----???????????????24AB
+Technophorus_filistriatus           14322554-24311--2-1-1-242---224212211211-----1-1-13222113111-423321223--11--11--1-11-------1---------------1----???????????????2489
+Technophorus_kempae                 14322354-25311--23121-262-24224211222211-----1-1-13222112121-423331222--11--11--1-11-------1---------------1----???????????????3433
+Technophorus_minutus                1{34}2224B3-26411--2---1-242---22431123??-1-----1-1--42221231-1-421321221--11---1--11?1-------?---------------1----???????????????14CC
+Technophorus_nicolli                14322354-2531?--23121-252-122242112221-1-----1-1-13222122111-423321223--11--11--1-11-------1---------------1----???????????????24{56}{56}
+Technophorus_sharpei                14322454-24311--23121-242324225311231211-----1-1-14222123111-423321223--11--11--1-11-------1---------------1----???????????????248B
+Technophorus_walteri                14322362-24211--2-321-242324223311331211-----1-1-12?2?1221-1-423321223--11--11--1-?1-------1---------------1----???????????????24{56}{56}
+Tolmachovia_belfordi                14322454-25411--23221-262-22224311231212213311-1-21131122121-2----1221------11--1-22-2212111-222212232112231----???????????????2433
+Tolmachovia_concentrica             14322564-25411--2-121-252-122253113311-2313311-1--1132132111-2----1221-------1--1-11-------1---------------1----1?234221???1?112488
+Tolmachovia_landeyranensis          143?2554-26311--2-321-242-12225421331212314311-1--21321421-1-21---1221--11--11--1111-------1---------------212121?2131121??2221?466
+Tuaringa_paparua                    25122593-25311--23121-23231-1-------11-1-------1--21221-11-1-31---11------------1-21-22-3111-21-21-2-1---1-1----???????????????1200
+Wanwanella_striata                  13322153-24211--23221-222-12225223111221----1221-21112135111-2233211------------1-2212223111-223211232212231----???????????????2633
+Wanwania_ambonychiformis            13321--?-24211--2-221-252-122221231111-1-----1-1-1111?134121-31---11------------1-2212222111-1-----1-------1----21?????????????2333
+Wanwania_cambrica                   14321--?-25311--2-221-2522122242221111-1-------1-111??134121-31---11------------1-21-2222111-1-------------1----2??????1???1?112322
+Wanwania_drucei                     13321--?-24211--23221-2423112221231111-1-----1-1-1{12}1??135121-31---11------------1-2212222111-222211231-11111----???????????????1333
+Wanwanoidea_trigonalis              1332214?-23211--2-221-252---2243231211-1-----1-1-111??135?-1-21---11------------1-2212223111-22321123221111?----???????????????2633
+Watsonella_crosbyi                  15322332-25311--241-1-232412213111-111-1-------1--11221-2121-2----11------------1-11-------1---------------1----1??????????????1100
+Yochelcionella_daleki               15111--1-22321--1---211?1---1-------11-1-------1--11131-13-1-1----11------------1-11-------1---------------2121-1??????????????1100
+Yochelsionella_cyrano               15111--1-22321--1---211?1---1-------11-1-------1--11141-13-1-1----11------------1-11-------1---------------2121-1??????????????1100
+Yochelsionella_ostentatia           15111--1-22321--1---231?1---1-------11-1-------1--11141-13-1-1----11------------1-11-------1---------------2121-1??????????????1100
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb4992;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Latouchella_merino,
+            2    Latouchella_accordionata,
+            3    Latouchella_penecyrano,
+            4    Eotebenna_pontifex,
+            5    Eotebenna_viviannae,
+            6    Eotebenna_papilio,
+            7    Eotebenna_arctica,
+            8    Yochelcionella_daleki,
+            9    Yochelsionella_cyrano,
+            10   Yochelsionella_ostentatia,
+            11   Eurekapegma_cooperi,
+            12   Enigmaconus_parvus,
+            13   Anabarella_simesi,
+            14   Anabarella_argus,
+            15   Mellopegma_georginensis,
+            16   Paramyona_queenslandica,
+            17   Tuaringa_paparua,
+            18   Heraultipegma_varensalense,
+            19   Watsonella_crosbyi,
+            20   Fordilla_troyensis,
+            21   Pojetia_runnegari,
+            22   Ribeiria_australiensis,
+            23   Apoptopegma_craddocki,
+            24   Wanwania_cambrica,
+            25   Pinnocaris_wellsi,
+            26   Pinnocaris_robusta,
+            27   Ribeiria_hucklitta,
+            28   Ribeiria_jonesi,
+            29   Cymatopegma_semiplicatum,
+            30   Anisotechnophorus_nuculitiformi,
+            31   Kemopegma_pinnatum,
+            32   Bransonia_chapronieri,
+            33   Eopteria_struszi,
+            34   Euchasma_caseyi,
+            35   Pseudoeuchasma_typica,
+            36   Wanwanella_striata,
+            37   Wanwanoidea_trigonalis,
+            38   Pseudotechnophorus_typicalis,
+            39   Pauropegma_jelli,
+            40   Apoptopegma_dickinsi,
+            41   Ptychopegma_burgeri,
+            42   Ribeiria_manchuria,
+            43   Ribeiria_lucan,
+            44   Ribeiria_runnergari,
+            45   Wanwania_ambonychiformis,
+            46   Wanwania_drucei,
+            47   Technophorus_kempae,
+            48   Tolmachovia_belfordi,
+            49   Ribeiria_compressa,
+            50   Ribeiria_calcifera,
+            51   Ribeirina_longiscula,
+            52   Technophorus_nicolli,
+            53   Pinnocaris?_sp._C,
+            54   Technophorus_walteri,
+            55   Ribeiria_pholadiformis,
+            56   Eopteria_richardsoni,
+            57   Eopteria_ventricosa,
+            58   Euchasma_blumenbachi,
+            59   Eopteria_crassa,
+            60   Ribeiria_personata,
+            61   Tolmachovia_landeyranensis,
+            62   Eopteria_cf._E._richardsoni,
+            63   Euchasma_jonesi,
+            64   Euchasma_mytiliforme,
+            65   Bransonia_beecheri,
+            66   Ribeiria_aff._R._pholadiformis,
+            67   Ribeiria_apusoides,
+            68   Hippocardia_antiqua,
+            69   Eopteria_conocardiformis,
+            70   Pinnocaris_lapworthi,
+            71   Technophorus_filistriatus,
+            72   Technophorus_sharpei,
+            73   Bransonia_alabamensis,
+            74   Hippocardia_cooperi,
+            75   Hippocardia_limatula,
+            76   Technophorus_bellistriatus,
+            77   Tolmachovia_concentrica,
+            78   Bransonia_cressmani,
+            79   Bransonia_paquettensis,
+            80   Bransonia_townleyi,
+            81   Technophorus_cancellatus,
+            82   Technophorus_divaricatus,
+            83   Ischyrinia_norvegica,
+            84   Pinnocaris_americana,
+            85   Technophorus_faberi,
+            86   Hippocardia_richmondensis,
+            87   Technophorus_cincinnatiensis,
+            88   Ischyrinia_winchellia,
+            89   Ribeiria_aff._R._apusoides,
+            90   Pinnocaris_curvata,
+            91   Hippocardia_pygmaea,
+            92   Technophorus_minutus,
+            93   Hippocardia_?oweni,
+            94   Redstonia_visbyensis,
+            95   Bransonia_foxi,
+            96   Mulceodens_schneideri,
+            97   Mulceodens_wilsoni,
+            98   Mulceodons_johnstoni,
+            99   Mulceodens_jaanussoni,
+            100  Redstonia_buskasi,
+            101  Redstonia_tercierae,
+            102  Nehedia_grovesi,
+            103  Nehedia_bainsi,
+            104  Nehedia_tricarina,
+            105  Nehedia_bergeraci,
+            106  Nehedia_restricta,
+            107  Avalanchia_pterocarina,
+            108  Cassowarioides_perryi_stelcki,
+            109  Cassowarioides_polgari,
+            110  Cassowarioides_anisomorpha,
+            111  Hippocardia?_zeileri,
+            112  Conocardium_attenuatum,
+            113  Hippocardia_bohemica,
+            114  Hippocardia_cunea,
+            115  Hippocardia_costatus,
+            116  Bransonia?_sibleyensis,
+            117  Bigalea_clathra,
+            118  Hippocardia_curta,
+            119  Hippocardia_monroica,
+            120  Bigalea_ohioensis,
+            121  Bigalea_yangi,
+            122  Hippocardia_bella,
+            123  Mulceodens_eboraceus,
+            124  Conocardium_normale,
+            125  Conocardium_pseudobellum,
+            126  Conocardium_ventricosum,
+            127  Conocardium_alaeforme,
+            128  Conocardium_elongatum,
+            129  Conocardium_inflatum,
+            130  Hippocardia_herculeum,
+            131  Hippocardia_hibernica,
+            132  Hippocardia_aff._H._fusiformis,
+            133  Hippocardia_herricki,
+            134  Aphelakardia_alternistriata,
+            135  Pseudomulceodens_cancellatus,
+            136  Bransonia_hydei,
+            137  Arceodomus_glabrata,
+            138  Conocardium_aff._C._elongatum,
+            139  Hippocardia_cucullata,
+            140  Pseudoconocardium_polymitarium,
+            141  Pseudoconocardium_snideri?,
+            142  Pseudoconocardium_cordatum,
+            143  Hippocardia_batilia,
+            144  Arceodomus_prolata,
+            145  Pseudoconocardium_lanterna,
+            146  Pseudoconocardium_missouriensis,
+            147  Pseudoconocardium_parrishi,
+            148  Hippocardia_ancora,
+            149  Hippocardia_pala,
+            150  Pseudobigalea_crista,
+            151  Arceodomus_langenheimi,
+            152  Bransonia_wilsoni,
+            153  Bransonia_robustum,
+            154  Pseudoconocardium_?licharewi;
+      TREE Fig._5 = [&R] (1,(14,(15,((20,21),((18,19),((16,17),(((22,42),(44,(43,((50,51),((60,(49,(30,(29,(41,((39,61),(48,(77,(83,88))))))))),((55,(66,(67,89))),((25,(26,(53,(70,(84,90))))),((31,(27,28)),(52,(47,((72,(54,92)),(71,(85,(76,(81,(82,87)))))))))))))))),(24,((23,40),((45,46),(38,(37,(36,(((34,35),(58,(63,64))),(33,((62,(56,(69,(57,59)))),32))))))))))))))));
+      TREE Fig._7 = [&R] (32,((65,73),(((68,75,(91,((93,((((((111,((124,125,(127,129)),(128,((137,(144,151)),138)))),119),(118,((122,(((131,134),133),(132,135))),126))),117),(113,115)),(112,114))),(((95,(((96,98),97),116)),(99,(130,((140,(141,142)),(145,((152,153),154)))))),136)))),(74,(86,((94,(100,(101,(107,((120,121),123))))),(((((102,103),(104,((108,109),110))),105),106),(((139,(148,149)),143),((146,147),150))))))),78,(79,80))));
+
+
+
+END;
+BEGIN TREES;
+      TITLE Tb4989;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Latouchella_merino,
+            2    Latouchella_accordionata,
+            3    Latouchella_penecyrano,
+            4    Eotebenna_pontifex,
+            5    Eotebenna_viviannae,
+            6    Eotebenna_papilio,
+            7    Eotebenna_arctica,
+            8    Yochelcionella_daleki,
+            9    Yochelsionella_cyrano,
+            10   Yochelsionella_ostentatia,
+            11   Eurekapegma_cooperi,
+            12   Enigmaconus_parvus,
+            13   Anabarella_simesi,
+            14   Anabarella_argus,
+            15   Mellopegma_georginensis,
+            16   Paramyona_queenslandica,
+            17   Tuaringa_paparua,
+            18   Heraultipegma_varensalense,
+            19   Watsonella_crosbyi,
+            20   Fordilla_troyensis,
+            21   Pojetia_runnegari,
+            22   Ribeiria_australiensis,
+            23   Apoptopegma_craddocki,
+            24   Wanwania_cambrica,
+            25   Pinnocaris_wellsi,
+            26   Pinnocaris_robusta,
+            27   Ribeiria_hucklitta,
+            28   Ribeiria_jonesi,
+            29   Cymatopegma_semiplicatum,
+            30   Anisotechnophorus_nuculitiformi,
+            31   Kemopegma_pinnatum,
+            32   Bransonia_chapronieri,
+            33   Eopteria_struszi,
+            34   Euchasma_caseyi,
+            35   Pseudoeuchasma_typica,
+            36   Wanwanella_striata,
+            37   Wanwanoidea_trigonalis,
+            38   Pseudotechnophorus_typicalis,
+            39   Pauropegma_jelli,
+            40   Apoptopegma_dickinsi,
+            41   Ptychopegma_burgeri,
+            42   Ribeiria_manchuria,
+            43   Ribeiria_lucan,
+            44   Ribeiria_runnergari,
+            45   Wanwania_ambonychiformis,
+            46   Wanwania_drucei,
+            47   Technophorus_kempae,
+            48   Tolmachovia_belfordi,
+            49   Ribeiria_compressa,
+            50   Ribeiria_calcifera,
+            51   Ribeirina_longiscula,
+            52   Technophorus_nicolli,
+            53   Pinnocaris?_sp._C,
+            54   Technophorus_walteri,
+            55   Ribeiria_pholadiformis,
+            56   Eopteria_richardsoni,
+            57   Eopteria_ventricosa,
+            58   Euchasma_blumenbachi,
+            59   Eopteria_crassa,
+            60   Ribeiria_personata,
+            61   Tolmachovia_landeyranensis,
+            62   Eopteria_cf._E._richardsoni,
+            63   Euchasma_jonesi,
+            64   Euchasma_mytiliforme,
+            65   Bransonia_beecheri,
+            66   Ribeiria_aff._R._pholadiformis,
+            67   Ribeiria_apusoides,
+            68   Hippocardia_antiqua,
+            69   Eopteria_conocardiformis,
+            70   Pinnocaris_lapworthi,
+            71   Technophorus_filistriatus,
+            72   Technophorus_sharpei,
+            73   Bransonia_alabamensis,
+            74   Hippocardia_cooperi,
+            75   Hippocardia_limatula,
+            76   Technophorus_bellistriatus,
+            77   Tolmachovia_concentrica,
+            78   Bransonia_cressmani,
+            79   Bransonia_paquettensis,
+            80   Bransonia_townleyi,
+            81   Technophorus_cancellatus,
+            82   Technophorus_divaricatus,
+            83   Ischyrinia_norvegica,
+            84   Pinnocaris_americana,
+            85   Technophorus_faberi,
+            86   Hippocardia_richmondensis,
+            87   Technophorus_cincinnatiensis,
+            88   Ischyrinia_winchellia,
+            89   Ribeiria_aff._R._apusoides,
+            90   Pinnocaris_curvata,
+            91   Hippocardia_pygmaea,
+            92   Technophorus_minutus,
+            93   Hippocardia_?oweni,
+            94   Redstonia_visbyensis,
+            95   Bransonia_foxi,
+            96   Mulceodens_schneideri,
+            97   Mulceodens_wilsoni,
+            98   Mulceodons_johnstoni,
+            99   Mulceodens_jaanussoni,
+            100  Redstonia_buskasi,
+            101  Redstonia_tercierae,
+            102  Nehedia_grovesi,
+            103  Nehedia_bainsi,
+            104  Nehedia_tricarina,
+            105  Nehedia_bergeraci,
+            106  Nehedia_restricta,
+            107  Avalanchia_pterocarina,
+            108  Cassowarioides_perryi_stelcki,
+            109  Cassowarioides_polgari,
+            110  Cassowarioides_anisomorpha,
+            111  Hippocardia?_zeileri,
+            112  Conocardium_attenuatum,
+            113  Hippocardia_bohemica,
+            114  Hippocardia_cunea,
+            115  Hippocardia_costatus,
+            116  Bransonia?_sibleyensis,
+            117  Bigalea_clathra,
+            118  Hippocardia_curta,
+            119  Hippocardia_monroica,
+            120  Bigalea_ohioensis,
+            121  Bigalea_yangi,
+            122  Hippocardia_bella,
+            123  Mulceodens_eboraceus,
+            124  Conocardium_normale,
+            125  Conocardium_pseudobellum,
+            126  Conocardium_ventricosum,
+            127  Conocardium_alaeforme,
+            128  Conocardium_elongatum,
+            129  Conocardium_inflatum,
+            130  Hippocardia_herculeum,
+            131  Hippocardia_hibernica,
+            132  Hippocardia_aff._H._fusiformis,
+            133  Hippocardia_herricki,
+            134  Aphelakardia_alternistriata,
+            135  Pseudomulceodens_cancellatus,
+            136  Bransonia_hydei,
+            137  Arceodomus_glabrata,
+            138  Conocardium_aff._C._elongatum,
+            139  Hippocardia_cucullata,
+            140  Pseudoconocardium_polymitarium,
+            141  Pseudoconocardium_snideri?,
+            142  Pseudoconocardium_cordatum,
+            143  Hippocardia_batilia,
+            144  Arceodomus_prolata,
+            145  Pseudoconocardium_lanterna,
+            146  Pseudoconocardium_missouriensis,
+            147  Pseudoconocardium_parrishi,
+            148  Hippocardia_ancora,
+            149  Hippocardia_pala,
+            150  Pseudobigalea_crista,
+            151  Arceodomus_langenheimi,
+            152  Bransonia_wilsoni,
+            153  Bransonia_robustum,
+            154  Pseudoconocardium_?licharewi;
+      TREE Fig._5 = [&R] (1,(14,(15,((20,21),((18,19),((16,17),((44,(43,(50,51)),(((49,(22,42)),(30,(29,(41,((39,61),(48,(77,(83,88)))))))),(60,((55,(66,(67,89))),((25,(26,(53,(70,(84,90))))),((31,(27,28)),(52,(47,((72,(54,92)),(71,((76,85),(81,(82,87))))))))))))),((24,((23,40),(45,46))),(38,(37,(36,(((34,35),(58,(63,64))),(33,((62,(56,(69,(57,59)))),32))))))))))))));
+      TREE Fig._7 = [&R] (32,((65,73),((78,(79,80)),((74,(86,((94,(100,(101,(107,(123,(120,121)))))),(((150,(146,147)),(143,(139,(148,149)))),(106,(105,((102,103),(104,(110,(108,109)))))))))),(75,(68,(91,((136,((95,(116,(97,(96,98)))),(99,(130,((140,(141,142)),(145,(154,(152,153)))))))),(93,((111,((124,(125,(127,129))),(128,(138,(137,(144,151)))))),((112,114),((113,115),(117,(119,(118,(126,(122,((132,135),(133,(131,134))))))))))))))))))));
+
+
+
+END;
+BEGIN TREES;
+      TITLE Tb4991;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Latouchella_merino,
+            2    Latouchella_accordionata,
+            3    Latouchella_penecyrano,
+            4    Eotebenna_pontifex,
+            5    Eotebenna_viviannae,
+            6    Eotebenna_papilio,
+            7    Eotebenna_arctica,
+            8    Yochelcionella_daleki,
+            9    Yochelsionella_cyrano,
+            10   Yochelsionella_ostentatia,
+            11   Eurekapegma_cooperi,
+            12   Enigmaconus_parvus,
+            13   Anabarella_simesi,
+            14   Anabarella_argus,
+            15   Mellopegma_georginensis,
+            16   Paramyona_queenslandica,
+            17   Tuaringa_paparua,
+            18   Heraultipegma_varensalense,
+            19   Watsonella_crosbyi,
+            20   Fordilla_troyensis,
+            21   Pojetia_runnegari,
+            22   Ribeiria_australiensis,
+            23   Apoptopegma_craddocki,
+            24   Wanwania_cambrica,
+            25   Pinnocaris_wellsi,
+            26   Pinnocaris_robusta,
+            27   Ribeiria_hucklitta,
+            28   Ribeiria_jonesi,
+            29   Cymatopegma_semiplicatum,
+            30   Anisotechnophorus_nuculitiformi,
+            31   Kemopegma_pinnatum,
+            32   Bransonia_chapronieri,
+            33   Eopteria_struszi,
+            34   Euchasma_caseyi,
+            35   Pseudoeuchasma_typica,
+            36   Wanwanella_striata,
+            37   Wanwanoidea_trigonalis,
+            38   Pseudotechnophorus_typicalis,
+            39   Pauropegma_jelli,
+            40   Apoptopegma_dickinsi,
+            41   Ptychopegma_burgeri,
+            42   Ribeiria_manchuria,
+            43   Ribeiria_lucan,
+            44   Ribeiria_runnergari,
+            45   Wanwania_ambonychiformis,
+            46   Wanwania_drucei,
+            47   Technophorus_kempae,
+            48   Tolmachovia_belfordi,
+            49   Ribeiria_compressa,
+            50   Ribeiria_calcifera,
+            51   Ribeirina_longiscula,
+            52   Technophorus_nicolli,
+            53   Pinnocaris?_sp._C,
+            54   Technophorus_walteri,
+            55   Ribeiria_pholadiformis,
+            56   Eopteria_richardsoni,
+            57   Eopteria_ventricosa,
+            58   Euchasma_blumenbachi,
+            59   Eopteria_crassa,
+            60   Ribeiria_personata,
+            61   Tolmachovia_landeyranensis,
+            62   Eopteria_cf._E._richardsoni,
+            63   Euchasma_jonesi,
+            64   Euchasma_mytiliforme,
+            65   Bransonia_beecheri,
+            66   Ribeiria_aff._R._pholadiformis,
+            67   Ribeiria_apusoides,
+            68   Hippocardia_antiqua,
+            69   Eopteria_conocardiformis,
+            70   Pinnocaris_lapworthi,
+            71   Technophorus_filistriatus,
+            72   Technophorus_sharpei,
+            73   Bransonia_alabamensis,
+            74   Hippocardia_cooperi,
+            75   Hippocardia_limatula,
+            76   Technophorus_bellistriatus,
+            77   Tolmachovia_concentrica,
+            78   Bransonia_cressmani,
+            79   Bransonia_paquettensis,
+            80   Bransonia_townleyi,
+            81   Technophorus_cancellatus,
+            82   Technophorus_divaricatus,
+            83   Ischyrinia_norvegica,
+            84   Pinnocaris_americana,
+            85   Technophorus_faberi,
+            86   Hippocardia_richmondensis,
+            87   Technophorus_cincinnatiensis,
+            88   Ischyrinia_winchellia,
+            89   Ribeiria_aff._R._apusoides,
+            90   Pinnocaris_curvata,
+            91   Hippocardia_pygmaea,
+            92   Technophorus_minutus,
+            93   Hippocardia_?oweni,
+            94   Redstonia_visbyensis,
+            95   Bransonia_foxi,
+            96   Mulceodens_schneideri,
+            97   Mulceodens_wilsoni,
+            98   Mulceodons_johnstoni,
+            99   Mulceodens_jaanussoni,
+            100  Redstonia_buskasi,
+            101  Redstonia_tercierae,
+            102  Nehedia_grovesi,
+            103  Nehedia_bainsi,
+            104  Nehedia_tricarina,
+            105  Nehedia_bergeraci,
+            106  Nehedia_restricta,
+            107  Avalanchia_pterocarina,
+            108  Cassowarioides_perryi_stelcki,
+            109  Cassowarioides_polgari,
+            110  Cassowarioides_anisomorpha,
+            111  Hippocardia?_zeileri,
+            112  Conocardium_attenuatum,
+            113  Hippocardia_bohemica,
+            114  Hippocardia_cunea,
+            115  Hippocardia_costatus,
+            116  Bransonia?_sibleyensis,
+            117  Bigalea_clathra,
+            118  Hippocardia_curta,
+            119  Hippocardia_monroica,
+            120  Bigalea_ohioensis,
+            121  Bigalea_yangi,
+            122  Hippocardia_bella,
+            123  Mulceodens_eboraceus,
+            124  Conocardium_normale,
+            125  Conocardium_pseudobellum,
+            126  Conocardium_ventricosum,
+            127  Conocardium_alaeforme,
+            128  Conocardium_elongatum,
+            129  Conocardium_inflatum,
+            130  Hippocardia_herculeum,
+            131  Hippocardia_hibernica,
+            132  Hippocardia_aff._H._fusiformis,
+            133  Hippocardia_herricki,
+            134  Aphelakardia_alternistriata,
+            135  Pseudomulceodens_cancellatus,
+            136  Bransonia_hydei,
+            137  Arceodomus_glabrata,
+            138  Conocardium_aff._C._elongatum,
+            139  Hippocardia_cucullata,
+            140  Pseudoconocardium_polymitarium,
+            141  Pseudoconocardium_snideri?,
+            142  Pseudoconocardium_cordatum,
+            143  Hippocardia_batilia,
+            144  Arceodomus_prolata,
+            145  Pseudoconocardium_lanterna,
+            146  Pseudoconocardium_missouriensis,
+            147  Pseudoconocardium_parrishi,
+            148  Hippocardia_ancora,
+            149  Hippocardia_pala,
+            150  Pseudobigalea_crista,
+            151  Arceodomus_langenheimi,
+            152  Bransonia_wilsoni,
+            153  Bransonia_robustum,
+            154  Pseudoconocardium_?licharewi;
+      TREE Fig._5 = [&R] (1,(14,(15,((20,21),((18,19),((16,17),((44,(50,(43,((66,(67,89)),(55,((60,((49,(22,42)),(30,(29,(41,((39,61),(48,(77,(83,88))))))))),(51,((25,(26,(53,(70,(84,90))))),((31,(27,28)),(52,(47,((72,(54,92)),(71,(85,(76,(81,(82,87))))))))))))))))),(24,((23,40),((45,46),(38,(37,(36,(((34,35),(58,(64,63))),(33,((59,(62,(56,(57,69)))),32))))))))))))))));
+      TREE Fig._7 = [&R] (32,((65,73),((78,(79,80)),((68,75),(74,(86,((94,(100,(101,(107,(123,(120,121)))))),((((150,(146,147)),(143,(139,(148,149)))),(106,(105,((102,103),(104,(110,(108,109))))))),((99,((152,153),(154,(145,(140,(141,142)))))),((95,(116,(97,(96,98)))),(136,((91,93),((122,((135,(130,132)),(133,(131,134)))),(126,(118,(119,(117,((113,115),((112,114),(111,(124,(125,(127,(129,(138,(128,(137,(144,151))))))))))))))))))))))))))));
+
+
+
+END;
+BEGIN TREES;
+      TITLE Tb4988;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Latouchella_merino,
+            2    Latouchella_accordionata,
+            3    Latouchella_penecyrano,
+            4    Eotebenna_pontifex,
+            5    Eotebenna_viviannae,
+            6    Eotebenna_papilio,
+            7    Eotebenna_arctica,
+            8    Yochelcionella_daleki,
+            9    Yochelsionella_cyrano,
+            10   Yochelsionella_ostentatia,
+            11   Eurekapegma_cooperi,
+            12   Enigmaconus_parvus,
+            13   Anabarella_simesi,
+            14   Anabarella_argus,
+            15   Mellopegma_georginensis,
+            16   Paramyona_queenslandica,
+            17   Tuaringa_paparua,
+            18   Heraultipegma_varensalense,
+            19   Watsonella_crosbyi,
+            20   Fordilla_troyensis,
+            21   Pojetia_runnegari,
+            22   Ribeiria_australiensis,
+            23   Apoptopegma_craddocki,
+            24   Wanwania_cambrica,
+            25   Pinnocaris_wellsi,
+            26   Pinnocaris_robusta,
+            27   Ribeiria_hucklitta,
+            28   Ribeiria_jonesi,
+            29   Cymatopegma_semiplicatum,
+            30   Anisotechnophorus_nuculitiformi,
+            31   Kemopegma_pinnatum,
+            32   Bransonia_chapronieri,
+            33   Eopteria_struszi,
+            34   Euchasma_caseyi,
+            35   Pseudoeuchasma_typica,
+            36   Wanwanella_striata,
+            37   Wanwanoidea_trigonalis,
+            38   Pseudotechnophorus_typicalis,
+            39   Pauropegma_jelli,
+            40   Apoptopegma_dickinsi,
+            41   Ptychopegma_burgeri,
+            42   Ribeiria_manchuria,
+            43   Ribeiria_lucan,
+            44   Ribeiria_runnergari,
+            45   Wanwania_ambonychiformis,
+            46   Wanwania_drucei,
+            47   Technophorus_kempae,
+            48   Tolmachovia_belfordi,
+            49   Ribeiria_compressa,
+            50   Ribeiria_calcifera,
+            51   Ribeirina_longiscula,
+            52   Technophorus_nicolli,
+            53   Pinnocaris?_sp._C,
+            54   Technophorus_walteri,
+            55   Ribeiria_pholadiformis,
+            56   Eopteria_richardsoni,
+            57   Eopteria_ventricosa,
+            58   Euchasma_blumenbachi,
+            59   Eopteria_crassa,
+            60   Ribeiria_personata,
+            61   Tolmachovia_landeyranensis,
+            62   Eopteria_cf._E._richardsoni,
+            63   Euchasma_jonesi,
+            64   Euchasma_mytiliforme,
+            65   Bransonia_beecheri,
+            66   Ribeiria_aff._R._pholadiformis,
+            67   Ribeiria_apusoides,
+            68   Hippocardia_antiqua,
+            69   Eopteria_conocardiformis,
+            70   Pinnocaris_lapworthi,
+            71   Technophorus_filistriatus,
+            72   Technophorus_sharpei,
+            73   Bransonia_alabamensis,
+            74   Hippocardia_cooperi,
+            75   Hippocardia_limatula,
+            76   Technophorus_bellistriatus,
+            77   Tolmachovia_concentrica,
+            78   Bransonia_cressmani,
+            79   Bransonia_paquettensis,
+            80   Bransonia_townleyi,
+            81   Technophorus_cancellatus,
+            82   Technophorus_divaricatus,
+            83   Ischyrinia_norvegica,
+            84   Pinnocaris_americana,
+            85   Technophorus_faberi,
+            86   Hippocardia_richmondensis,
+            87   Technophorus_cincinnatiensis,
+            88   Ischyrinia_winchellia,
+            89   Ribeiria_aff._R._apusoides,
+            90   Pinnocaris_curvata,
+            91   Hippocardia_pygmaea,
+            92   Technophorus_minutus,
+            93   Hippocardia_?oweni,
+            94   Redstonia_visbyensis,
+            95   Bransonia_foxi,
+            96   Mulceodens_schneideri,
+            97   Mulceodens_wilsoni,
+            98   Mulceodons_johnstoni,
+            99   Mulceodens_jaanussoni,
+            100  Redstonia_buskasi,
+            101  Redstonia_tercierae,
+            102  Nehedia_grovesi,
+            103  Nehedia_bainsi,
+            104  Nehedia_tricarina,
+            105  Nehedia_bergeraci,
+            106  Nehedia_restricta,
+            107  Avalanchia_pterocarina,
+            108  Cassowarioides_perryi_stelcki,
+            109  Cassowarioides_polgari,
+            110  Cassowarioides_anisomorpha,
+            111  Hippocardia?_zeileri,
+            112  Conocardium_attenuatum,
+            113  Hippocardia_bohemica,
+            114  Hippocardia_cunea,
+            115  Hippocardia_costatus,
+            116  Bransonia?_sibleyensis,
+            117  Bigalea_clathra,
+            118  Hippocardia_curta,
+            119  Hippocardia_monroica,
+            120  Bigalea_ohioensis,
+            121  Bigalea_yangi,
+            122  Hippocardia_bella,
+            123  Mulceodens_eboraceus,
+            124  Conocardium_normale,
+            125  Conocardium_pseudobellum,
+            126  Conocardium_ventricosum,
+            127  Conocardium_alaeforme,
+            128  Conocardium_elongatum,
+            129  Conocardium_inflatum,
+            130  Hippocardia_herculeum,
+            131  Hippocardia_hibernica,
+            132  Hippocardia_aff._H._fusiformis,
+            133  Hippocardia_herricki,
+            134  Aphelakardia_alternistriata,
+            135  Pseudomulceodens_cancellatus,
+            136  Bransonia_hydei,
+            137  Arceodomus_glabrata,
+            138  Conocardium_aff._C._elongatum,
+            139  Hippocardia_cucullata,
+            140  Pseudoconocardium_polymitarium,
+            141  Pseudoconocardium_snideri?,
+            142  Pseudoconocardium_cordatum,
+            143  Hippocardia_batilia,
+            144  Arceodomus_prolata,
+            145  Pseudoconocardium_lanterna,
+            146  Pseudoconocardium_missouriensis,
+            147  Pseudoconocardium_parrishi,
+            148  Hippocardia_ancora,
+            149  Hippocardia_pala,
+            150  Pseudobigalea_crista,
+            151  Arceodomus_langenheimi,
+            152  Bransonia_wilsoni,
+            153  Bransonia_robustum,
+            154  Pseudoconocardium_?licharewi;
+      TREE Fig._3 = [&R] (1,((3,2),((7,(6,4,(5,(8,(10,9))Yochelsionella))),(12,13,(14,(11,(15,(((19,18),(21,20)),((16,17),((22,25),(24,23))Basal_Rostroconchia)))))))));
+      TREE Fig._4 = [&R] (1,(14,(15,(((19,18),(21,20)),((16,17),((44,(43,(50,(51,(((55,(66,(67,89))),(60,((49,(22,42)),(30,(29,(41,((39,61),(48,(77,(83,88)))))))))Ischyrinidae),((25,(26,(53,(70,(84,90))))),((31,(27,28)),(52,(47,((72,(54,92)),(71,(85,(76,(81,(82,87)))))))))Technophoridae))Ribeirioidea)))),(24,((23,40),((45,46),(38,(37,(36,((63,(58,(64,(34,35)))),((59,(62,(56,(57,69)))),(33,32))))))))Conocardioidea))Rostroconchia)))));
+      TREE Fig._6 = [&R] (32,(65,((78,(79,80)),(73,(117,(((68,75),(99,(74,(86,(94,(101,(100,((123,(120,(107,121))),(((150,(146,147)),(143,(149,(139,148)))),(106,(105,((102,103),(104,(110,(108,109))))))))))))))),(((95,(116,(97,(96,98)))),((122,(126,(113,115))),(118,(119,(93,(91,(135,(133,134)))))))),(136,((152,153),(((145,154),(140,(141,142))),((130,(132,(131,(112,114)))),(111,(124,(125,(127,(129,(128,(138,(144,(137,151))))))))))))))))))))Conocardiidae;
+
+
+
+END;
+BEGIN TREES;
+      TITLE Tb4990;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Latouchella_merino,
+            2    Latouchella_accordionata,
+            3    Latouchella_penecyrano,
+            4    Eotebenna_pontifex,
+            5    Eotebenna_viviannae,
+            6    Eotebenna_papilio,
+            7    Eotebenna_arctica,
+            8    Yochelcionella_daleki,
+            9    Yochelsionella_cyrano,
+            10   Yochelsionella_ostentatia,
+            11   Eurekapegma_cooperi,
+            12   Enigmaconus_parvus,
+            13   Anabarella_simesi,
+            14   Anabarella_argus,
+            15   Mellopegma_georginensis,
+            16   Paramyona_queenslandica,
+            17   Tuaringa_paparua,
+            18   Heraultipegma_varensalense,
+            19   Watsonella_crosbyi,
+            20   Fordilla_troyensis,
+            21   Pojetia_runnegari,
+            22   Ribeiria_australiensis,
+            23   Apoptopegma_craddocki,
+            24   Wanwania_cambrica,
+            25   Pinnocaris_wellsi,
+            26   Pinnocaris_robusta,
+            27   Ribeiria_hucklitta,
+            28   Ribeiria_jonesi,
+            29   Cymatopegma_semiplicatum,
+            30   Anisotechnophorus_nuculitiformi,
+            31   Kemopegma_pinnatum,
+            32   Bransonia_chapronieri,
+            33   Eopteria_struszi,
+            34   Euchasma_caseyi,
+            35   Pseudoeuchasma_typica,
+            36   Wanwanella_striata,
+            37   Wanwanoidea_trigonalis,
+            38   Pseudotechnophorus_typicalis,
+            39   Pauropegma_jelli,
+            40   Apoptopegma_dickinsi,
+            41   Ptychopegma_burgeri,
+            42   Ribeiria_manchuria,
+            43   Ribeiria_lucan,
+            44   Ribeiria_runnergari,
+            45   Wanwania_ambonychiformis,
+            46   Wanwania_drucei,
+            47   Technophorus_kempae,
+            48   Tolmachovia_belfordi,
+            49   Ribeiria_compressa,
+            50   Ribeiria_calcifera,
+            51   Ribeirina_longiscula,
+            52   Technophorus_nicolli,
+            53   Pinnocaris?_sp._C,
+            54   Technophorus_walteri,
+            55   Ribeiria_pholadiformis,
+            56   Eopteria_richardsoni,
+            57   Eopteria_ventricosa,
+            58   Euchasma_blumenbachi,
+            59   Eopteria_crassa,
+            60   Ribeiria_personata,
+            61   Tolmachovia_landeyranensis,
+            62   Eopteria_cf._E._richardsoni,
+            63   Euchasma_jonesi,
+            64   Euchasma_mytiliforme,
+            65   Bransonia_beecheri,
+            66   Ribeiria_aff._R._pholadiformis,
+            67   Ribeiria_apusoides,
+            68   Hippocardia_antiqua,
+            69   Eopteria_conocardiformis,
+            70   Pinnocaris_lapworthi,
+            71   Technophorus_filistriatus,
+            72   Technophorus_sharpei,
+            73   Bransonia_alabamensis,
+            74   Hippocardia_cooperi,
+            75   Hippocardia_limatula,
+            76   Technophorus_bellistriatus,
+            77   Tolmachovia_concentrica,
+            78   Bransonia_cressmani,
+            79   Bransonia_paquettensis,
+            80   Bransonia_townleyi,
+            81   Technophorus_cancellatus,
+            82   Technophorus_divaricatus,
+            83   Ischyrinia_norvegica,
+            84   Pinnocaris_americana,
+            85   Technophorus_faberi,
+            86   Hippocardia_richmondensis,
+            87   Technophorus_cincinnatiensis,
+            88   Ischyrinia_winchellia,
+            89   Ribeiria_aff._R._apusoides,
+            90   Pinnocaris_curvata,
+            91   Hippocardia_pygmaea,
+            92   Technophorus_minutus,
+            93   Hippocardia_?oweni,
+            94   Redstonia_visbyensis,
+            95   Bransonia_foxi,
+            96   Mulceodens_schneideri,
+            97   Mulceodens_wilsoni,
+            98   Mulceodons_johnstoni,
+            99   Mulceodens_jaanussoni,
+            100  Redstonia_buskasi,
+            101  Redstonia_tercierae,
+            102  Nehedia_grovesi,
+            103  Nehedia_bainsi,
+            104  Nehedia_tricarina,
+            105  Nehedia_bergeraci,
+            106  Nehedia_restricta,
+            107  Avalanchia_pterocarina,
+            108  Cassowarioides_perryi_stelcki,
+            109  Cassowarioides_polgari,
+            110  Cassowarioides_anisomorpha,
+            111  Hippocardia?_zeileri,
+            112  Conocardium_attenuatum,
+            113  Hippocardia_bohemica,
+            114  Hippocardia_cunea,
+            115  Hippocardia_costatus,
+            116  Bransonia?_sibleyensis,
+            117  Bigalea_clathra,
+            118  Hippocardia_curta,
+            119  Hippocardia_monroica,
+            120  Bigalea_ohioensis,
+            121  Bigalea_yangi,
+            122  Hippocardia_bella,
+            123  Mulceodens_eboraceus,
+            124  Conocardium_normale,
+            125  Conocardium_pseudobellum,
+            126  Conocardium_ventricosum,
+            127  Conocardium_alaeforme,
+            128  Conocardium_elongatum,
+            129  Conocardium_inflatum,
+            130  Hippocardia_herculeum,
+            131  Hippocardia_hibernica,
+            132  Hippocardia_aff._H._fusiformis,
+            133  Hippocardia_herricki,
+            134  Aphelakardia_alternistriata,
+            135  Pseudomulceodens_cancellatus,
+            136  Bransonia_hydei,
+            137  Arceodomus_glabrata,
+            138  Conocardium_aff._C._elongatum,
+            139  Hippocardia_cucullata,
+            140  Pseudoconocardium_polymitarium,
+            141  Pseudoconocardium_snideri?,
+            142  Pseudoconocardium_cordatum,
+            143  Hippocardia_batilia,
+            144  Arceodomus_prolata,
+            145  Pseudoconocardium_lanterna,
+            146  Pseudoconocardium_missouriensis,
+            147  Pseudoconocardium_parrishi,
+            148  Hippocardia_ancora,
+            149  Hippocardia_pala,
+            150  Pseudobigalea_crista,
+            151  Arceodomus_langenheimi,
+            152  Bransonia_wilsoni,
+            153  Bransonia_robustum,
+            154  Pseudoconocardium_?licharewi;
+      TREE Fig._7 = [&R] (32,((65,73),((78,(79,80)),((74,(86,((94,(100,(101,(107,(123,(120,121)))))),(((150,(146,147)),(143,(139,(148,149)))),(106,(105,((102,103),(104,(110,(108,109)))))))))),(75,(68,(91,(93,(((95,(116,(97,(96,98)))),(99,(130,((140,(141,142)),(145,(154,(152,153))))))),(136,((118,(126,(122,((132,135),(133,(131,134)))))),((117,((112,114),(113,115))),(119,(111,((124,(125,(127,129))),(128,(138,(137,(144,151)))))))))))))))))));
+      TREE Fig._5 = [&R] (1,(14,(15,((20,21),((18,19),((16,17),((44,(43,(50,51)),(((49,(22,42)),(30,(29,(41,((39,61),(48,(77,(83,88)))))))),(60,((55,(66,(67,89))),((25,(26,(53,(70,(84,90))))),((31,(27,28)),(52,(47,((72,(54,92)),(71,((76,85),(81,(82,87))))))))))))),(24,((23,40),((45,46),(38,(37,(36,(((34,35),(58,(63,64))),(33,((62,(56,(69,(57,59)))),32))))))))))))))));
+
+
+
+END;

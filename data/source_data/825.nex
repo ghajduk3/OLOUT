@@ -1,0 +1,141 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:40 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Julius M.L., Curtin M., & Tanaka H. 2006. Stephanodiscus kusuensis, sp. nov a new
+Pleistocene diatom. Phycological Research, 54: 294-301.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S11011]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=16;
+        TAXLABELS
+            Stephanodiscus_agassizensis
+            Stephanodiscus_alpinus
+            Stephanodiscus_carconensis
+            Stephanodiscus_galileensis
+            Stephanodiscus_hantzschii
+            Stephanodiscus_kusuensis
+            Stephanodiscus_minutus
+            Stephanodiscus_neoastraea
+            Stephanodiscus_niagarae
+            Stephanodiscus_reimerii
+            Stephanodiscus_rotula
+            Stephanodiscus_subtransilvanicus_African_Fossil
+            Stephanodiscus_subtransilvanicus_Laurentian_Great_Lakes
+            Stephanodiscus_superiorensis
+            Stephanodiscus_vestibulis
+            Stephanodiscus_yellowstonensis
+            ;
+END;
+
+BEGIN TAXA;
+        TITLE  Taxa2;
+        DIMENSIONS NTAX=15;
+        TAXLABELS
+            Stephanodiscus_agassizensis
+            Stephanodiscus_alpinus
+            Stephanodiscus_carconensis
+            Stephanodiscus_galileensis
+            Stephanodiscus_hantzschii
+            Stephanodiscus_minutus
+            Stephanodiscus_neoastraea
+            Stephanodiscus_niagarae
+            Stephanodiscus_reimerii
+            Stephanodiscus_rotula
+            Stephanodiscus_subtransilvanicus_African_Fossil
+            Stephanodiscus_subtransilvanicus_Laurentian_Great_Lakes
+            Stephanodiscus_superiorensis
+            Stephanodiscus_vestibulis
+            Stephanodiscus_yellowstonensis
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M7097]
+
+	TITLE Julius_et_al_2006;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=24;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2 3 4" MISSING=? GAP= -;
+
+MATRIX
+[                                                                   10        20    ]
+[                                                                    .         .    ]
+Stephanodiscus_agassizensis                                 101200001100010001000001
+Stephanodiscus_alpinus                                      101000001100010001000001
+Stephanodiscus_carconensis                                  0000000110011320?1100012
+Stephanodiscus_galileensis                                  102310001000010111100002
+Stephanodiscus_hantzschii                                   0000000011000020?1100000
+Stephanodiscus_kusuensis                                    213310001000111001100002
+Stephanodiscus_minutus                                      000100001100010001100000
+Stephanodiscus_neoastraea                                   1020100010000100?1100002
+Stephanodiscus_niagarae                                     213210001000111001100002
+Stephanodiscus_reimerii                                     213210001000111001110002
+Stephanodiscus_rotula                                       212310001000011001100002
+Stephanodiscus_subtransilvanicus_African_Fossil             0000000111000100?1100012
+Stephanodiscus_subtransilvanicus_Laurentian_Great_Lakes     0000000110000100?0100012
+Stephanodiscus_superiorensis                                213110001010121001100002
+Stephanodiscus_vestibulis                                   000100101100010001001100
+Stephanodiscus_yellowstonensis                              214211101000111001100002
+;
+END;
+
+BEGIN TREES;
+      TITLE Julius_et_al_2006;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Stephanodiscus_hantzschii,
+            2    Stephanodiscus_minutus,
+            3    Stephanodiscus_vestibulis,
+            4    Stephanodiscus_carconensis,
+            5    Stephanodiscus_subtransilvanicus_African_Fossil,
+            6    Stephanodiscus_subtransilvanicus_Laurentian_Great_Lakes,
+            7    Stephanodiscus_agassizensis,
+            8    Stephanodiscus_alpinus,
+            9    Stephanodiscus_neoastraea,
+            10   Stephanodiscus_galileensis,
+            11   Stephanodiscus_rotula,
+            12   Stephanodiscus_niagarae,
+            13   Stephanodiscus_reimerii,
+            14   Stephanodiscus_yellowstonensis,
+            15   Stephanodiscus_superiorensis,
+            16   Stephanodiscus_kusuensis;
+      TREE PAUP_3 = [&R] (1,((2,3),(((4,6),5),((7,8),(9,(10,(11,((12,13,14),15,16))))))));
+      TREE PAUP_2 = [&R] (1,((2,3),(((4,6),5),((7,8),(9,(10,(11,(((12,13,14),15),16))))))));
+      TREE PAUP_1 = [&R] (1,((2,3),(((4,6),5),((7,8),(9,(10,(11,((12,13,14,15),16))))))));
+
+
+
+END;
+BEGIN TREES;
+      TITLE mike_matrix;
+      LINK TAXA = Taxa2;
+         TRANSLATE
+            1    Stephanodiscus_hantzschii,
+            2    Stephanodiscus_minutus,
+            3    Stephanodiscus_vestibulis,
+            4    Stephanodiscus_carconensis,
+            5    Stephanodiscus_subtransilvanicus_African_Fossil,
+            6    Stephanodiscus_subtransilvanicus_Laurentian_Great_Lakes,
+            7    Stephanodiscus_agassizensis,
+            8    Stephanodiscus_alpinus,
+            9    Stephanodiscus_neoastraea,
+            10   Stephanodiscus_galileensis,
+            11   Stephanodiscus_rotula,
+            12   Stephanodiscus_niagarae,
+            13   Stephanodiscus_reimerii,
+            14   Stephanodiscus_yellowstonensis,
+            15   Stephanodiscus_superiorensis;
+      TREE 'UNTITLED+' = [&R] (1,((2,3),(((4,6),5),((7,8),(9,(10,(11,(12,13,15,14))))))));
+
+
+
+END;

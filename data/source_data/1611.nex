@@ -1,0 +1,137 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:49 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Johnson G.D., & Patterson C. 1993. Percomorph phylogeny: a survey of acanthomorphs
+and a new proposal. Bulletin of Marine Science, 52(1): 554-626.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S12905]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=17;
+        TAXLABELS
+            Aulichthys
+            Centroberyx
+            Dinoperca
+            Elassoma
+            Gibberichthys
+            Holocentrus
+            Hoplostethus
+            Melamphaes
+            Myctophum
+            Neoscopelus
+            Parazen
+            Percopsis
+            Polymixia
+            Stephanoberyx
+            Velifer
+            Xenolepidichethys
+            Xenolepidichthys
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M13402]
+
+	TITLE Acanthomorphs;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=39;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2 3" MISSING=? GAP= -;
+	CHARSTATELABELS
+		1  Dorsal_and_anal_fin_spines,
+		2  Rostral_cartilage,
+		3  Median_caudal_cartilages,
+		4  Infracarinalis_muscles,
+		5  Posttemporal,
+		6  Medial_pelvic_process_ends,
+		7  First_centrum,
+		8  First_epineural,
+		9  Posterior_pelvic_process_ends,
+		10  Spina_occipitalis,
+		11  'Anterior (3-6) epineurals',
+		12  Epipleurals,
+		13  Epicentral_ligaments,
+		14  'Distal parts of epineurals 2-5',
+		15  Pelvic_spine,
+		16  Pelvic_radials,
+		17  Anteromedial_process_of_pelvic_bone,
+		18  'Baudelot''s ligament originates',
+		19  Dorsal_fin_originates,
+		20  'Epineurals on vertebrae 3-6',
+		21  Dorsal_fin_spines,
+		22  Supraneurals_end_distally,
+		23  Second_ventral_procurrent_caudal_ray,
+		24  Ligament_from_shaft_of_postcleithrum_to_posterolateral_corner_of_pelvic_girdle,
+		25  Uncinate_process_present_on_E1,
+		26  Second_ural_centrum,
+		27  Hypurals,
+		28  Pelvics,
+		29  Transforming_ctenoid_scales,
+		30  Free_pelvic_radials,
+		31  All_or_some_epineurals,
+		32  Principal_caudal_rays,
+		33  Distal_and_proximal_ceratohyals_separated_by,
+		34  Orbitosphenoid,
+		35  Pelvic_bones,
+		36  First_epineural,
+		37  'Jakubowski''s organ',
+		38  Extrascapular,
+		39  Parahypural,
+		;
+
+MATRIX
+[                             10        20        30         ]
+[                              .         .         .         ]
+Aulichthys            111111111111112103212202211101122121000
+Centroberyx           111111111111112111111111011000000000100
+Dinoperca             111111111111112111111111111111121120000
+Elassoma              111111111111112111311202211101121121000
+Gibberichthys         111110110111111100000000000101100100010
+Holocentrus           111111111111112111111111011000000020100
+Hoplostethus          111111111121112111121111000000200000100
+Melamphaes            111111111111111110000000011000100100010
+Myctophum             000000000000000000000000010000000100000
+Neoscopelus           000000000000000000000000000000000100000
+Parazen               111111111111110102230200211000120100001
+Percopsis             111111111111110000010100000000111100000
+Polymixia             111111111110000000000000000000010000000
+Stephanoberyx         111111121121120100020000000101200100010
+Velifer               111111100001000000100000000000000010000
+Xenolepidichethys     ???????????????????????????????????????
+Xenolepidichthys      111111111111111102130000211001120110001
+;
+END;
+
+BEGIN TREES;
+      TITLE Figure_25;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Neoscopelus,
+            2    Myctophum,
+            3    Velifer,
+            4    Polymixia,
+            5    Percopsis,
+            6    Gibberichthys,
+            7    Stephanoberyx,
+            8    Melamphaes,
+            9    Parazen,
+            10   Xenolepidichethys,
+            11   Holocentrus,
+            12   Centroberyx,
+            13   Hoplostethus,
+            14   Elassoma,
+            15   Aulichthys,
+            16   Dinoperca,
+            17   Xenolepidichthys;
+      TREE Fig._25 = [&R] (1,2,(3,(4,(5,(((7,6),8),((10,9),(((12,11),13),(16,(14,15)))))))));
+
+
+
+END;

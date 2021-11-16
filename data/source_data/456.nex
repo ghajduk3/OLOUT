@@ -1,0 +1,250 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:36 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Cotton T. 2001. The phylogeny and systematics of blind Cambrian ptychoparioid trilobites.
+Palaeontology, 44(1): 167-207.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S860]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=49;
+        TAXLABELS
+            Acontheus_sp._nov.
+            Agraulos_ceticephalus
+            Atopina_antiqua
+            Atops_rupertensis
+            Atops_trilineatus
+            Bailiaspis_bobrovi
+            Bailiaspis_dalmani
+            Bailiaspis_glabrata
+            Bailiaspis_venusta
+            Bailiella_aequalis
+            Bailiella_baileyi
+            Bailiella_emarginata
+            Bailiella_lantenoisi
+            Bailiella_levyi
+            Clavigellus_annulus
+            Conocoryphe_caecigena
+            Conocoryphe_sulzeri
+            Cornucoryphe_schirmi
+            Couloumania_heberti
+            Ctenocephalus_Ctenocephalus_ber
+            Ctenocephalus_Ctenocephalus_cor
+            Ctenocephalus_Hartella_antiquus
+            Ctenocephalus_Hartella_exsulans
+            Ctenocephalus_Hartella_matthewi
+            Ctenocephalus_Hartella_terranov
+            Dasometopus_breviceps
+            Dasometopus_granulatus
+            Dasometopus_maensis
+            Elrathia_kingii
+            Elyx_laticeps
+            Elyx_matthewi
+            Eoredlichia_intermedia
+            Hartshillia_clivosa
+            Hartshillia_inflata
+            Hartshillina_spinata
+            Holocephalina_leve
+            Holocephalina_primordialis
+            Holocephalites_incertus
+            Meneviella_venulosa
+            Meneviella_viatrix
+            Olenellus_thompsoni
+            Olenoides_serratus
+            Parabailiella_languedocensis
+            Protolenidae
+            Pseudatops_reticulatus
+            Ptychoparia_striata
+            Sdzuyella_stremina
+            Tchaiaspis_sdzuyi
+            Tchaiaspis_sp._nov.
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M318]
+
+	TITLE '"Conocoryphidae"';
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=97;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2 3 4 5 6 7" MISSING=? GAP= N;
+
+MATRIX
+[                                           10        20        30        40        50        60        70        80        90        100       110     ]
+[                                            .         .         .         .         .         .         .         .         .         .         .     ]
+Acontheus_sp._nov.                  0N0?1N0000N00000?4000300204??210?000?000000NNNN00NN0NN0NN0N010N0NNN0N01200N110{12}0?20021?01100N?110
+Agraulos_ceticephalus               20001N01111N10000430011200410?10100???1?10{12}100?000?0?010N0N000N11000N12151?0101000???11?0011?0000
+Atopina_antiqua                     0N0000N000N00100??{01}003??10100??0001??????0{12}01102?0?0NN0NN0N0010????0N???????????????????0100N0??0
+Atops_rupertensis                   0N0001N000N011000010030010400?1000011100102011021010NN0NN12101010200N??1621000110101{12}1?00000N0000
+Atops_trilineatus                   0N0001N000N0{01}1000110031010{34}00?100001111010201102?0?0NN0NN0N1010????0N??15200002?0102???00000N0000
+Bailiaspis_bobrovi                  210001N000N0011111{01}0011101300{01}100001101011{12}?????0??01010N121010????0N???????????????????0000N0??0
+Bailiaspis_dalmani                  210000N000N001001221011100300010001110101110001100?01{01}11N?11010????0N???????????????????0000N0??0
+Bailiaspis_glabrata                 1N0001N000N000001220012{12}0131001000011010?110001101?01011N0N000N????0N???????????????????0000N0??0
+Bailiaspis_venusta                  1N0000N000N0{02}100?33102{12}000310010000110?011{01}????{01}00?0101{01}N12101{01}????0N??????000100???????0000N?0?0
+Bailiella_aequalis                  0N0000N000N02100?1{23}00111003000100011101011100??101?00012N1200??????0N???41N?????????????0000N00?0
+Bailiella_baileyi                   1N0000N000N02000?{01}{23}002110031001000011?1011{12}0001{12}0100{01}013N0N1010????0N????1N000??0?1020010000N0?00
+Bailiella_emarginata                0N0000N000N02000123001{23}{12}0031?01000?1?01011{01}?????01?01012N0N101010100N??1???000100???????0000N???0
+Bailiella_lantenoisi                0N0101N000N02000?21001110031?010000110?01110001101000012N0N10101?000N??131N000100?11{12}0010000N0000
+Bailiella_levyi                     1N0101N000N02?00??200???0031001000?????001100??101?0{01}012N0N000N101?0N12131N000100{12}{01}0{23}0?10000N0000
+Clavigellus_annulus                 ??0????100N0000003300310201?0010000???{01}01020001000?0001?N0N000N10000N01??0?11?{12}0??102100?01110110
+Conocoryphe_caecigena               0N000?N000N02000?11001120031101000?11010?10NNNN{01}0NN0{01}011N120010????0N???31N?????????????0010N?0?0
+Conocoryphe_sulzeri                 0N0000N000N020001{01}10011101300010001110101120001101001212N0N101010100N12131N00010021020010000N0000
+Cornucoryphe_schirmi                0N0101N000N00000122001110131101000????1001100??10??00{12}12N111010????0N??????0000?0????0??0000N00?0
+Couloumania_heberti                 0N0000N000N02000??100???00300010001110101120001{01}01?0{01}112N1210111??00N??131N00010021020010000N0000
+Ctenocephalus_Ctenocephalus_ber     0N100?N000N02000??101???02300010000110?0110NNNN{01}0NN12214112101?10200N???41N000100???????0000N?0?0
+Ctenocephalus_Ctenocephalus_cor     0N1001N000N02000?21011120230001000011010110NNNN{01}0NN12214111101210200N12141N0001001?0?0?10000N?000
+Ctenocephalus_Hartella_antiquus     0N{01}00?N000N00000??101???0230001000?110?0110NNNN{01}0NN022131121012????0N???31N?????????????0000N?0?0
+Ctenocephalus_Hartella_exsulans     0N1001N000N0000011100112013000100001101011{12}?10100??022131111011????0N???????????????????0000N0??0
+Ctenocephalus_Hartella_matthewi     0N1000N000N00000?1100111023000100001?01011100011?1?022131121012????0N???????????????????0000N0??0
+Ctenocephalus_Hartella_terranov     0N1????000N00100?210011102300{01}1000?11010110NNNN{01}0NN02213112?01?????0N???????????????????0000N???0
+Dasometopus_breviceps               0N001N1100N0000000{01}0000200300110010100201121001210?01014N10?00N????11???6?????????2101100000N0?00
+Dasometopus_granulatus              0N001N1100N00000?1{01}00{01}0{01}003001100?010020?1210??210?0101{34}N12000N????0N???6???????????????0000N0??0
+Dasometopus_maensis                 0N001N1100N00000?{01}{01}0000{01}003001100100?0201121?01210?01014N10100N????10??162111011102101100000N0000
+Elrathia_kingii                     0N0001N000N0000001310100004100100001??000021001200000013N0N000N10000N12121?010{01}002103101001110000
+Elyx_laticeps                       0N0100N000N0011101{01}0011101300110000110101111001100?021130101010????0N??????0001?0???????0000N00?0
+Elyx_matthewi                       0N0100N000N001001{01}{01}00101013000100001?0101?11101{12}0??022130111011????0N???????????????????0000N00?0
+Eoredlichia_intermedia              0N001N2000N0000?01310311104000100001111001200??10?10001?N0N000N11200N00142011020?10201?0011101001
+Hartshillia_clivosa                 0N0?1N0221?N0000040003??2?0NN20200?????10?0NNNN00NN0NN0NN0N010N0NNN0N????????????????????000N???0
+Hartshillia_inflata                 0N0?1N02211N0000040003??2?0NN20100?????10?0NNNN00NN0NN0NN0N010N11000N01210N1112002010??1?000N?000
+Hartshillina_spinata                0N0?1N0221?N00000{34}0003??2?0NN20200?????01?0NNNN00NN0NN0NN0N010N0NNN0N01210N111300?0201?0?000N?110
+Holocephalina_leve                  ??0?1N02110N1000031001210?31111110?????0000NNNN0?NN0001?N0N010N11000N???{34567}201??000???????0000N?0?0
+Holocephalina_primordialis          20001N0110N11000021001110131111110?????0001100?110?00012N0N100N11110N???{567}{12}0{01}10100???????0000N00?0
+Holocephalites_incertus             ??0?1N02011N000003100010000NN11000?????1000NNNN?1NN000??N0N010N112110???{567}{12}0110000???????0000N?0?0
+Meneviella_venulosa                 20001N1000N10000011000010030011000010010112100121010101{23}N0N100N11200N??072011000102011100000N0000
+Meneviella_viatrix                  {12}?001N{12}000N100000010000100300{01}10000100101021001210?01013N0N000N10000N??07211101?102021100000N0000
+Olenellus_thompsoni                 0N001N2000N00000020?030020300010000111?00020000000000011N0N?00N10000N00242100011?00??0??001101001
+Olenoides_serratus                  0N0000N000N0000001310321222?0?1000011?{01}01020001000?0NN0NN0N100N10100N01102111020021021000011100?0
+Parabailiella_languedocensis        0N0000N000N02000?1200???003{01}001000?110?0?10NNNN{01}0NN0{01}212N12101?10100N??131N0001001{01}0{12}0?10000N?000
+Protolenidae                        0N001N0000N000000131031010{34}00?10000111?0?02000000010001?N0N100N10{12}00N??1{567}20000{12}00?0201?0001101000
+Pseudatops_reticulatus              0N0?1N0100N000000110021010400?10000111101020110210?0NN0NN0N00101???0N???5???????????????1000N0??0
+Ptychoparia_striata                 0N0000N000N020000131011101410010001110101120001210000012N0N?00N10100N12{01}31N0001002104001001110000
+Sdzuyella_stremina                  ??0?1N02110N{01}000?3100230010NN11000????0000?????000?000??N0N00??????0N???????????????????0000N0??0
+Tchaiaspis_sdzuyi                   210?01N000N00101?0{01}0000002300{01}100000?01011{12}1101?0???NN0NN12101?????11???????????????????0000N0??0
+Tchaiaspis_sp._nov.                 210001N000N0010111{01}0010001300{01}100000?0????0NNNN{01}?NN?1011N121012????11???????????????????0000N???0
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb6204;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Protolenidae,
+            2    Clavigellus_annulus,
+            3    Olenoides_serratus,
+            4    Elrathia_kingii,
+            5    Agraulos_ceticephalus,
+            6    Olenellus_thompsoni,
+            7    Acontheus_sp._nov.,
+            8    Eoredlichia_intermedia,
+            9    Ptychoparia_striata,
+            10   Tchaiaspis_sp._nov.,
+            11   Tchaiaspis_sdzuyi,
+            12   Sdzuyella_stremina,
+            13   Pseudatops_reticulatus,
+            14   Parabailiella_languedocensis,
+            15   Meneviella_viatrix,
+            16   Meneviella_venulosa,
+            17   Holocephalites_incertus,
+            18   Holocephalina_primordialis,
+            19   Holocephalina_leve,
+            20   Hartshillina_spinata,
+            21   Hartshillia_inflata,
+            22   Hartshillia_clivosa,
+            23   Elyx_matthewi,
+            24   Elyx_laticeps,
+            25   Dasometopus_maensis,
+            26   Dasometopus_granulatus,
+            27   Dasometopus_breviceps,
+            28   Ctenocephalus_Hartella_terranov,
+            29   Ctenocephalus_Hartella_matthewi,
+            30   Ctenocephalus_Hartella_exsulans,
+            31   Ctenocephalus_Hartella_antiquus,
+            32   Ctenocephalus_Ctenocephalus_cor,
+            33   Ctenocephalus_Ctenocephalus_ber,
+            34   Couloumania_heberti,
+            35   Cornucoryphe_schirmi,
+            36   Conocoryphe_sulzeri,
+            37   Conocoryphe_caecigena,
+            38   Bailiella_levyi,
+            39   Bailiella_lantenoisi,
+            40   Bailiella_emarginata,
+            41   Bailiella_baileyi,
+            42   Bailiella_aequalis,
+            43   Bailiaspis_venusta,
+            44   Bailiaspis_glabrata,
+            45   Bailiaspis_dalmani,
+            46   Bailiaspis_bobrovi,
+            47   Atops_trilineatus,
+            48   Atops_rupertensis,
+            49   Atopina_antiqua;
+      TREE Text_Fig._3 = [&R] ((((((49,(48,47)Atops),13)Atopidae,((((((((((46,(11,10)),(43,45))Bailiaspis,(41,(40,(38,44)))),((((((33,32),31),28),29),30,(24,23)),14,(34,36))),((39,35),37)),42)Conocoryphidae,9),4)Ptychoparioidea,(((((22,21),20)Hartshillini,2),7)Corynexochidae,3)Corynexochida),(5,((((17,12),19),18),((16,15)Meneviella,((27,25),26)Dasometopus))Holocephalinidae))),1),8),6);
+
+
+
+END;
+BEGIN TREES;
+      TITLE Tb6203;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Protolenidae,
+            2    Clavigellus_annulus,
+            3    Olenoides_serratus,
+            4    Elrathia_kingii,
+            5    Agraulos_ceticephalus,
+            6    Olenellus_thompsoni,
+            7    Acontheus_sp._nov.,
+            8    Eoredlichia_intermedia,
+            9    Ptychoparia_striata,
+            10   Tchaiaspis_sp._nov.,
+            11   Tchaiaspis_sdzuyi,
+            12   Sdzuyella_stremina,
+            13   Pseudatops_reticulatus,
+            14   Parabailiella_languedocensis,
+            15   Meneviella_viatrix,
+            16   Meneviella_venulosa,
+            17   Holocephalites_incertus,
+            18   Holocephalina_primordialis,
+            19   Holocephalina_leve,
+            20   Hartshillina_spinata,
+            21   Hartshillia_inflata,
+            22   Hartshillia_clivosa,
+            23   Elyx_matthewi,
+            24   Elyx_laticeps,
+            25   Dasometopus_maensis,
+            26   Dasometopus_granulatus,
+            27   Dasometopus_breviceps,
+            28   Ctenocephalus_Hartella_terranov,
+            29   Ctenocephalus_Hartella_matthewi,
+            30   Ctenocephalus_Hartella_exsulans,
+            31   Ctenocephalus_Hartella_antiquus,
+            32   Ctenocephalus_Ctenocephalus_cor,
+            33   Ctenocephalus_Ctenocephalus_ber,
+            34   Couloumania_heberti,
+            35   Cornucoryphe_schirmi,
+            36   Conocoryphe_sulzeri,
+            37   Conocoryphe_caecigena,
+            38   Bailiella_levyi,
+            39   Bailiella_lantenoisi,
+            40   Bailiella_emarginata,
+            41   Bailiella_baileyi,
+            42   Bailiella_aequalis,
+            43   Bailiaspis_venusta,
+            44   Bailiaspis_glabrata,
+            45   Bailiaspis_dalmani,
+            46   Bailiaspis_bobrovi,
+            47   Atops_trilineatus,
+            48   Atops_rupertensis,
+            49   Atopina_antiqua;
+      TREE Text_Fig._2 = [&R] (((49,(48,47)),13),(((((((46,(11,10)),(43,45)),(41,(40,(38,44)))),((((((33,32),31),28),29),30,(24,23)),14,(34,36))),((39,35),37)),42),((((((22,20),21),17),12),(19,18)),((16,15),((27,25),26)))));
+
+
+
+END;

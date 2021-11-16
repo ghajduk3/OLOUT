@@ -1,0 +1,111 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:36 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Liu X., Ren D., & Yang D. 2014. New transitional fossil snakeflies from China illuminate
+the early evolution of Raphidioptera. BMC Evolutionary Biology, .
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S15494]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=11;
+        TAXLABELS
+            Baissoptera
+            Chrysoraphidia
+            Hondelagia
+            Jurochauliodes
+            Juroraphidia
+            Mesoraphidia
+            Metaraphidia
+            Priscaenigma
+            Sininocellia
+            Sinoneurorthus
+            Turcoraphidia
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M21524]
+
+	TITLE Fossil_snakeflies_from_China;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=32;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2 3" MISSING=? GAP= -;
+	CHARSTATELABELS
+		1  FW_Sc / appriximating_C fused_with_C fused_with_R,
+		2  FW_Rs_branching_point / posterior_to_middle_of_pt beyond_apex_of_pt,
+		3  'FW Rs+MA' / 'branched from R at basal 1/4' 'branched from R at basal 1/3' 'branched from R at basal 1/2',
+		4  FW_MA / apically_forked medially_forked simple,
+		5  FW_MA_base / between_R_and_MP between_Rs_and_MP absent,
+		6  FW_Rs / not_fused_with_M fused_with_M,
+		7  FW_RS / not_strongly_zigzaged strongly_zigzaged,
+		8  FW_MP / not_fused_with_CuA fused_with_CuA,
+		9  FW_MP / with_two_apically_forked_branches with_two_simple_branches,
+		10  FW_MP_branching_point_of_main_branches / 'at basal 1/4' 'at basal 1/3',
+		11  FW_MP_zigzagged / no yes,
+		12  FW_CuP_fused_with_CuA / yes no,
+		13  FW_1A / forked simple,
+		14  FW_2A / forked simple,
+		15  FW_costal_region_wider_than_sc_region / yes no,
+		16  FW_costal_region_ / with_crossveins_on_distal_half without_crossveins_on_distal_half,
+		17  'FW 1sc-r' / present absent,
+		18  'FW 2sc-r' / 'present, within pt' absent 'present, proximal to pt',
+		19  pt / absent present,
+		20  pt / 'shorter than 1/2 FWL' 'as long as 1/2 FWL',
+		21  'FW r-rs number' / 3 2 4_or_more,
+		22  FW_gradate_series / 2 1,
+		23  FW_Rs_crossveins / few many,
+		24  FW_m_cell / 3_or_more 2,
+		25  FW_doi_cell / 2_series 1_serie,
+		26  FW_1st_doi_serie / 2 3 4_or_more 1,
+		27  FW_2nd_doi_serie / 2 1 3_or_more,
+		28  'FW cua-cup' / present absent,
+		29  FW_anal_cell / not_ovoid ovoid,
+		30  HW_MA_base / branching_from_M branching_from_R,
+		32  3rd_tarsomere / not_bilobed bilobed,
+		;
+
+MATRIX
+[                          10        20        30  ]
+[                           .         .         .  ]
+Baissoptera        1111100101111001021020100220110?
+Chrysoraphidia     0002?000001001011010200001000?0?
+Hondelagia         20012110001011001110201001100?0?
+Jurochauliodes     20001000000000000100000100000000
+Juroraphidia       00020000100010110111110103101?00
+Mesoraphidia       11111001011110010210110100101111
+Metaraphidia       1111100101111001021011010011101?
+Priscaenigma       20012?10001001001110201002200?0?
+Sininocellia       11211001011110010210010101101011
+Sinoneurorthus     00000000000000000000000000000010
+Turcoraphidia      11201001011110010210110111-01011
+;
+END;
+
+BEGIN TREES;
+      TITLE Fossil_snakeflies_from_China;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Sinoneurorthus,
+            2    Jurochauliodes,
+            3    Priscaenigma,
+            4    Hondelagia,
+            5    Chrysoraphidia,
+            6    Juroraphidia,
+            7    Baissoptera,
+            8    Mesoraphidia,
+            9    Metaraphidia,
+            10   Turcoraphidia,
+            11   Sininocellia;
+      TREE MPT = [&R] (1,(2,((5,(3,4)),(6,(7,((10,11),(8,9)))))));
+
+
+
+END;

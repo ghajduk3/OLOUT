@@ -1,0 +1,307 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:47 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Boyden G.S., Donoghue M.J., & Howarth D.G. 2012. Duplications and expression of RADIALIS-like
+genes in Dipsacales. International Journal of Plant Sciences, .
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S12770]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=84;
+        TAXLABELS
+            Acanthocalyx_alba_1A
+            Acanthocalyx_alba_1B
+            Acanthocalyx_alba_2A
+            Acanthocalyx_alba_2B
+            Acanthocalyx_alba_3
+            Antirrhinum_majus_AmRL1
+            Antirrhinum_majus_RADIALIS
+            Antirrhinum_majus_RL2
+            Antirrhinum_majus_RL3
+            Antirrhinum_majus_RL4
+            Arabidopsis_thaliana_AtRL1
+            Arabidopsis_thaliana_AtRL2
+            Arabidopsis_thaliana_AtRL3
+            Arabidopsis_thaliana_AtRL4
+            Arabidopsis_thaliana_AtRL5
+            Arabidopsis_thaliana_AtRL6
+            Bournea_leiophylla_RAD
+            Centranthus_ruber_2Ba
+            Centranthus_ruber_2Bb
+            Cryptothladia_chinensis_1A
+            Cryptothladia_chinensis_1Ba
+            Cryptothladia_chinensis_1Bb
+            Cryptothladia_chinensis_2A
+            Cryptothladia_chinensis_2Ba
+            Cryptothladia_chinensis_2Bb
+            Cryptothladia_chinensis_3
+            Diervilla_sessilifolia_1B
+            Diervilla_sessilifolia_2A
+            Diervilla_sessilifolia_2B
+            Dipelta_floribunda_1A
+            Dipelta_floribunda_1B
+            Dipelta_floribunda_2B
+            Dipsacus_pilosus_2Ba
+            Dipsacus_pilosus_2Bb
+            Dipsacus_pilosus_2Bc
+            Fedia_cornucopiae_2Ba
+            Fedia_cornucopiae_2Bb
+            Fedia_cornucopiae_2Bc
+            Gratiola_officinalis_RAD
+            Heptacodium_miconioides_1A
+            Heptacodium_miconioides_1B
+            Heptacodium_miconioides_2A
+            Heptacodium_miconioides_2B
+            Kolkwitzia_amabilis_2A
+            Kolkwitzia_amabilis_2B
+            Lonicera_maackii_1A
+            Lonicera_morrowii_2A
+            Lonicera_x_bella_1A
+            Lonicera_x_bella_1B
+            Lonicera_x_bella_2A
+            Lonicera_x_bella_2B
+            Lonicera_x_bella_3
+            Morina_longifolia_1B
+            Morina_longifolia_2A
+            Morina_longifolia_2Ba
+            Morina_longifolia_2Bb
+            Morina_longifolia_3
+            Populus_trichocarpa_eugene3.00020323
+            Populus_trichocarpa_fgenesh4_pm.C_LG_IV000458
+            Populus_trichocarpa_gw1.57.329.1
+            Populus_trichocarpa_gw1.V.1367.1
+            Sambucus_canadensis_1A
+            Sambucus_canadensis_2A
+            Sixalix_atropurpurea_1A
+            Sixalix_atropurpurea_2Ba
+            Sixalix_atropurpurea_2Bb
+            Symphoricarpos_occidentalis_1A
+            Symphoricarpos_orbiculatus_1B
+            Symphoricarpos_orbiculatus_2A
+            Symphoricarpos_orbiculatus_2B
+            Symphoricarpos_orbiculatus_3
+            Valerianella_eriocarpa_1A
+            Valerianella_eriocarpa_2B
+            Valerianella_locusta_2B
+            Veronica_montana_RAD
+            Viburnum_acerifolium_1B
+            Viburnum_acerifolium_2A
+            Viburnum_acerifolium_2B
+            Vitis_vinifera_GSVIVT01031975001
+            Vitis_vinifera_GSVIVT01031982001
+            Vitis.vinifera_GSVIVT01018944001
+            Weigela_hortensis_1B
+            Weigela_hortensis_2A
+            Weigela_hortensis_2B
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M13174]
+
+	TITLE 'RADIALIS-like genes';
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=291;
+	FORMAT DATATYPE=DNA SYMBOLS= "A C G T" MISSING=? GAP= -;
+
+MATRIX
+[                                                         10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170       180       190       200       210       220       230       240       250       260       270       280       290       300]
+[                                                          .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .]
+Acanthocalyx_alba_1A                              ATGGCTTCGACT---------------CGTGGTTCTGGCCGCCCTTGGTCCGCCAAGGAGAACAAAGCCTTCGAAAGAGCATTGGCGGTTTACGACAAAGACACCCCAGACCGTTGGGCTAACGTGGCTAGGGCCGTG---GAGGGACGAACACCGGAAGAAGTGAAGAAGCACTATGAAATTCTAGTGGAGGATATCAAGTATATTGAGAGTGGGAAAGTGCCCTTCCCCAACTACAGGACC---ACCGGTGGT---AACATGAAA---------------ACTGACGAG
+Acanthocalyx_alba_1B                              ---------------------------------------------------------------------------AGGGCGTTGGCGGTGTTCGACAAGGACACCCCCGACCGTTGGGACAACGTGGCAAGGGCCGTG---GGGGGCCGGACCCCAGAAGAAGTGAAGAGGCATTATGAAATCCTCGTGGAAGACATCAAGTTTATAGAGAGCGGTAGAGTTCCCTTCCCAAACTACAGG---------------------------------------------------
+Acanthocalyx_alba_2A                              ----------------------------------------------------------------------------------------------------------------------ACAACATTGCGAGAGCGGTG---GGTGGAAAATCTGCGGAGGAAGTGAAAAGGCACTATGAAATCCTCATAGAGGACCTTAGGCAC---------------------------------------------------------------------------------------
+Acanthocalyx_alba_2B                              ----------------------------------------------------------------------------------------------------------------------ACAACATTGCGAGGGCGGTG---GGTGGAAAATCAGCAGAGGAAGTGAAAAGGCACTACGAAATCCTCATAGAGGACCTTAGGCAC---------------------------------------------------------------------------------------
+Acanthocalyx_alba_3                               ------------------------------------------------------------------------------------------------------------------TGGCAGAATATCGCGAGGGCTGTG---GGTGGAAAATCGGCAGAAGAAGTGAAAAGGCATTACGAGATTTTAATTGCGGATCTCAAGCGTATTGAGTCCGGCGGTGTGCCTTTCCCCAACTAT------------------------------------------------------
+Antirrhinum_majus_AmRL1                           ---------------------------------------------------------------------------AGGGCATTGGCGGTTTACGATCAAGAAACCCCCGATCGATGGGCCAATGTGGCGAGGGCCGTTGGAGCTGGACGTACCGTGGAAGAAGTGAAGAGGCACTATGAGATACTTTTGGAAGACATTGGATACATAGAAAGTGGCAAAGTGGCATATCCTAACTATAGG---------------------------------------------------
+Antirrhinum_majus_RADIALIS                        ------------------------------------------------------------------------------------------------------------------TGGTACAATGTGGCCAAGGCTGTT---GAAGGCAAAACTGCCGAGGAAGTGGAGAGGCATTATCAACTCCTTGTGAAAGACGTCAAGCATATCGAGAACGGACATGTTCCCTACCCCAACTACAAA---------------------------------------------------
+Antirrhinum_majus_RL2                             ------------------------------------------------------------------------------------------------------------------TGGTACAATGTGGCCAGGGCCGTT---GGTGGCAAAACAGCTGAGGAAGTGAAGAGGCATTACGAAATCCTTGTGCAGGATGTCAAGCATATCGAGAATGGCCGTGTGCCGTTCCCCAACTACAGG---------------------------------------------------
+Antirrhinum_majus_RL3                             ------------------------------------------------------------------------------------------------------------------TGGTACAATGTGGCCAGGGCCATT---GGTGGCAAAACCGCTGAGGAAGTGAAGAGGCATTATGAAATCCTTGCGGAGGATGTCAAGCATATCGAGAATGGCCGTGTGCCGTACCCCAACTACAGG---------------------------------------------------
+Antirrhinum_majus_RL4                             ------------------------------------------------------------------------------------------------------------------TGGTACAATGTGGCCAGGGCCGTT---GGTGGCAAAACCGCTGAGGAAGTGAAGAGGCATTACGAAATCCTTGTGCAGGATGTCAAGCATATCGAGAATGGA---------------------------------------------------------------------------
+Arabidopsis_thaliana_AtRL1                        ------------------------------------------------------------------------------------GCGGTGTATGACAAGGATACCCCTGACCGGTGGTACAATGTAGCCAGGGCCGTT---GGTGGCAAAACGGCTGAGGAGGTGAAGAGGCATTACGAAATCCTTGTGGAGGATGTCAAGCATATC------------------------------------------------------------------------------------
+Arabidopsis_thaliana_AtRL2                        ------------------------------------------------------------------------------------GCGGTATTTGATAAGGACACTCCCGACCGTTGGCAGAATATTGCCAAGGCAGTG---GGAGGAAAATCTGCTGAGGAAGTGAAAAGGCATTATGAAATCCTCATAGAAGACCTTAGGCACATA------------------------------------------------------------------------------------
+Arabidopsis_thaliana_AtRL3                        ATGGCATCCAGCTCAATG---TCCTCCCGCAGCTCTGGCTCATCCTGGACTGCCAAGCAAAACAAAGCCTTTGAAGAGGCGCTTGCAGTGTATGACAAGGACACCCCTGACCGCTGGTACAATGTTGCCAGGGCTGTT---GGTGGGAAAACCGTGGAGGAAGTGAAGAGGCACTATGAGATCCTTGTTGAGGATATCAAGAGCATCGACTCAGACAAAGTGCCCTTCCCCAATTACAAG------ACTACCGGAGCTAGTGGCCGGTCCAAC---ATGAGCGACCAGGAA
+Arabidopsis_thaliana_AtRL4                        ATGGCATCCAATTCTCTCAACTCTTCACGTAACTGTAGTTCCTCTTGGACCCCCAAGCAAAACAAACTATTCGAAAAGGCCCTGGCTTTGTATGACAAGGACACCCCTGACCGCTGGCATAATGTTGCCAAAGCTGTG---GGTGGGAAATCTGCAGAGGAAGTGGAGAGGCACTATGAAATTCTCATCAAGGATGTCAGGGAAATTGAGTCTGGTCGGGTTCCATTCCCTAATTACAGGTCA---AGT---GGA---------AACAGCAAC------------------
+Arabidopsis_thaliana_AtRL5                        ------------------------------------------------------------------------------------------------------------------TGGTACAATGTGGCCAGAGCTGTT---GGCGGCAAAACAGCAGACGAAGTTAAGAGGCATTATGAGCTTCTTGTGGAGGATGTTAAGCATATCGAAAATGGACGCGTACCATACCCTAACTACAGG---------------------------------------------------
+Arabidopsis_thaliana_AtRL6                        ------------------------------------------------------------------------------------GCGGTTTATGACAAAGATACCCCTGACAGGTGGTACAATGTGGCTAGAGCTGTA---GGTGGAAAAACAGCTGAGGAAGTTAAGAGGCATTATGAGCTTCTGGTGGAAGATGTTAAACATATCGAAAATGGACGCGTACCGTACCCTAACTACAGA---------------------------------------------------
+Bournea_leiophylla_RAD                            ------------------------------------------------------------------------------------------------------------------TGGCAGAATATTGCGAGGGCAGTG---GGTGGGAAATCTGCGGAGGAAGTGAAAAGGCATTATGAAATCCTCATAGAAGACCTTAGGCACATTGAGTCTGGCAATGTCCCGTACCCCAACTACAGA---------------------------------------------------
+Centranthus_ruber_2Ba                             ----------------------------------------------------------------------------------------------------------------------ACAATGTGGCCAAGGCTGTT---GACGGCGAAACTGCCGAGGAAGTGCAGAGGCATTATGAACTCCTTGTGAAGGACGTCAAACAT---------------------------------------------------------------------------------------
+Centranthus_ruber_2Bb                             -------------------------------------------------------------------------------------------------------CTCCCGACCGTTGGCAGAATATTGCCAAGGCAGTG---GGTGGAAAATCTGCAGAGGAAGTGAAAAGGCATTATGAAATCCTCATAGAAGACCTTAGGCACATCGAGTCT------------------------------------------------------------------------------
+Cryptothladia_chinensis_1A                        ------------------------------------------------------------------------------------------------------------------------AACATAGCCAGGGCAGTT---AGCGGAAAATCCGCGGAGGAAGTAAGGCGGCATTACGAGGTTCTAGAGAAGGACATTATGCAGATTGAAACTGATCAGGTTCCTATTCCAAATTATGGAGCC---ATTGCCACCAAATCTAGAGGCTACGGC---------AATGAGCAA
+Cryptothladia_chinensis_1Ba                       ATGGCATCAGGCTCAATG---TCTTCTTATGGCTCTGGCTCA---TGGACTGTTAAGCAGAACAAAGCCTTTGAGCGTGCTCTAGCAGTCTATGACCAAGACACTCCGGACCGTTGGCACAATGTTGCTAGAGCTGTT---GGTGGTAAAACACCAGAAGAAGCTAAGAGACAGTATGACCTTCTAGTTCGTGACATCGAAAGCATCGAGAATGGTCACGTGCCATTCCCTGACTACAAGACT---ACTACAGGAAAC---AGCAACAGAGGCAGGCTGCGTGATGAGGAA
+Cryptothladia_chinensis_1Bb                       ----------------------------------------------------------------------------------------------------------------------ACAACATTGCGAGGGCGGTT---GGTGGAAAATCAGTGGAGGAAGTGAAAAGGCACTACGAAATCCTCATCGAGGACCTTAGGCAC---------------------------------------------------------------------------------------
+Cryptothladia_chinensis_2A                        ----------------------------------------------------------------------------------------------------------------------ACAACATTGCGAGAGCGGTG---GGTGGAAAATCTGCGGAGGAAGTGAAAAGGCACTATGAAATCCTCGTAGAGGACCTTAGGCAC---------------------------------------------------------------------------------------
+Cryptothladia_chinensis_2Ba                       ----------------------------------------------------------------------------------------------------------------------ACAACATTGCAAGGGCGGTT---GGTGGAAAATCGGCCGAGGAGGTGAAAAGGCACTATGAAATCCTTGTCGAGGACCTTAGGCAC---------------------------------------------------------------------------------------
+Cryptothladia_chinensis_2Bb                       ----------------------------------------------------------------------------------------------------------------------AGAATATTGCGAGGGCAGTG---GGTGGAAAATCGGCAGAGGAAGTTAGAAGGCATTATGAAATCCTCATTGAAGACCTTAGGCAT---------------------------------------------------------------------------------------
+Cryptothladia_chinensis_3                         ------------------------------------------------------------------------------------------------------------------TGGTACAATGTGGCTAGAGCTGTT---GGAGGCAAAACAGCGGAGGAAGTTAAGAGGCACTATGAGCTTCTGGTGGAGGATGTTAAGCATATCGAACATGGACGCGTACCGTACCCTAACTACAGG---------------------------------------------------
+Diervilla_sessilifolia_1B                         ATGGCATCAAGCTCAATG---TCTTCTCAGAGCTCTGGCTCG---TGGACTGCTAAGCAGAACAAAGCCTTTGAGCAGGCTCTAGCAACCTATGACCAGGACACTCCTAACCGTTGGCAAAATGTTGCCAAAGTCGTG---GGTGGAAAAACAACAGAGGAGGTAAAGAGACACTACGAACTCTTAGTGCAAGACATCAACAGCATAGAGAACGGTCATGTTCCATTCCCAAACTACAGGACT---AGTGGAGGC------TGCACTAATGGCAGGCTTAGTCAGGAGGAA
+Diervilla_sessilifolia_2A                         ----------------------------------------------------------------------------------------------------------------------A{CT}AATGTGGCCAAGGCTGTT---GGTGGCAAAACCCCCGAAGAGGTGAAGAAGCAGTACGAACTCCTCGTTCAAG{AG}CGTTAAGCAT---------------------------------------------------------------------------------------
+Diervilla_sessilifolia_2B                         ------------------------------------------------------------------------------------GCGGTATATGATAAGGACACTCCCGACCGTTGGCAGAATATTGCCAGGGCAGTG---GGTGGAAAATCTGCTGAGGAAGTGAAAAGGCATTATGAAATCCTCATAGAAGACCTTAGGCACATC------------------------------------------------------------------------------------
+Dipelta_floribunda_1A                             ATGGCATCAAGCTCCGTG---TCCTCTCGCGGTTCGGGCTCG---TGGACTGCTCAGCAGAACAAAGCCTTTGAAAGGGCTTTGGCTGTTTATGACAGGGACACACCCGACCGTTGGCATAATGTAGCCAGGGCAGTT---GGTGGAAAAACTGCTGAAGAAGTGAAAAGGCATTACGAAATCCTCGTGGAGGATGTCAAGCATATTGAGTCAGGCCGAGTTCCCTTCCCTAATTACAGGACT------ACCGGGGCA---AATGGCCACTCAAAG---ACTGGTGAGGAA
+Dipelta_floribunda_1B                             ---------------------------------------------TGGACCGCGAAGGAAAACAAGGCGTTCGAGCAGGCATTAGCAGTTTATGACAAGGACACTCCTGATCGTTGGGTCAACGTGGCTAAGGCTGTG---CCTGGACGAACCGTTGAAGAAGTGAAGAGACATTATGAAATTCTTGTGGAGGATGTGAAGAGTATCGAGAGTGGGAAAGTACCATTCCCTAATTACAGG---------------------------------------------------
+Dipelta_floribunda_2B                             ----------------------------------------------------------------------------------------------------------------------ATAATGTGGCCAAGGCTGTT---GGTGGCAAAACCCCTGATGAGGTGAAGAGGCATTATGAACTCCTCGTTGAAGATGTCAAGCAT---------------------------------------------------------------------------------------
+Dipsacus_pilosus_2Ba                              ----------------------------------------------------------------------------------TAGCGCTATTTGATAAGGACACTCCCGACCGTTGGCATAACGTGGCGAAGGCCGTT---GGTGGAAAATCAGAGGAGGAAGTAAAAAGGCATTACGAGATTCTTGTGAAGGATATTATGCGAATTGAATCCGGC---------------------------------------------------------------------------
+Dipsacus_pilosus_2Bb                              ---------------------------------------------------------------------------------------------------------------------------------------------GGTGGAAAAAC{AG}G{CT}{CT}GAGGAAGTTAAGAGGCATTATCAACTCCTTGTTGAGGATGTCAATCATATCGAGAATGGC---------------------------------------------------------------------------
+Dipsacus_pilosus_2Bc                              ------------------------------------------------------------------------------------GCGGTGTATGACAAAGATACCCCTGACAGGTGGTATAATGTAGCCAAGGCCGTT---AGTGGAAAAACAGCCGAGGAAGTTAAGAGGCATTATGAACTCCTTGTGGAGGATGTCAAGCATATC------------------------------------------------------------------------------------
+Fedia_cornucopiae_2Ba                             ---------------------------------------------------------------------------------------------------------------------------------------------GGGGGAAAAACGCCTCAGGAAGTTAAGTGGCATTATCAACTACTTGTCGCAGATGTCAAGCGTATCGAGAATGGC---------------------------------------------------------------------------
+Fedia_cornucopiae_2Bb                             ----------------------------------------------------------------------------------TAGCGCTATTTGATAAGGACACTCCCGACCGTTGGTACAATGTGGCCAGGGCCGTT---GGTGGCAAAACCGCTGAGGAAGTGAAGACGCATTACGAAATCCTTGTGCAGGATGTCAAGCATATCGAGAATGG{AC}---------------------------------------------------------------------------
+Fedia_cornucopiae_2Bc                             ------------------------------------------------------------AACAAGGCGTTTGAGAGAGCGCTGGCAGTGTATGACAAAGATACACCTGACAGGTGGTACAATGTAGCCAAGGCTGTT---GGAGGAAAAACGCCTGAGGAAGTTAAGCGGCATTACGAACTACTTGTAGAGGATGTTAAGCATATCGAGAATGGC---------------------------------------------------------------------------
+Gratiola_officinalis_RAD                          --------------------------------------------------------------------------------------------------------------------------TGTGGCCAAGGCTGTT---GAAGGCAAAACTGCCGAGGAAGTGGAGAGGCATTATCAACTCCTTGTGAAGGACGTCAAGCATATCGAGAACGGACATGTTCCCTACC--------------------------------------------------------------
+Heptacodium_miconioides_1A                        ----------------------------------------------------------------------------------------------------------------------ACAACATTGCGAGGGCACTG---GGTGGAAAATCCATGGAGGAAGTGAAAAGGCAATATGAAATCCTCATAGAGGACCTCAGGCAC---------------------------------------------------------------------------------------
+Heptacodium_miconioides_1B                        -----------------------------------------------------------------------------------------------------------------------------------------------TGGAAAATCAGCAGAAGAAGTGAAGAGGCATTACGAGGTCCTAGAGACTAC-------------------------------------------------------------------------------------------------
+Heptacodium_miconioides_2A                        ----------------------------------------------------------------------------------------------------------------------ATAATGTGGCTAGAGCAGTT---GGCGGCAAAACAGCTGAGGAAGTGAAGAGGCATTACGAAATCCTTGTGGAGGATGTCAAGCAT---------------------------------------------------------------------------------------
+Heptacodium_miconioides_2B                        ATGGCTTCCAACTCAATGAGCTCTAGCGCTTCT------------TGGACACGTAAGGAGAACAAATTATTTGAAAGGGCGTTGGCTACATATGACCAGGACACTCCTGACCGTTGGCATAACGTTGCAAGAGCCGTT---GGCGGCAAATCAGCTGAAGAAGTAAGGCGACACTACGAGCTCCTCATTAGGGATGTCAATGACATTGAGTCAGGGCGTTATCCACATCCCAATTACCGTTCA------------------AAT---GGAAACAACCAC------------
+Kolkwitzia_amabilis_2A                            ----------------------------------------------------------------------------------------------------------------------ACAACATTGCAAGGGCAGTG---GGTGGAAAATC{AT}GCTGAGGAGGTGAAAAGGCACTATGAAATCCTCATAGAGGACCTTAGGCAC---------------------------------------------------------------------------------------
+Kolkwitzia_amabilis_2B                            ----------------------------------------------------------------------------------------------------------------------A{CT}AATGTGGCTAGAGCTGTT---GGCGGCAAAACAGCCGAGGAAGTGAAGAGGCATTACGAAATCCTTGTGGAGGATGTCAAGCAT---------------------------------------------------------------------------------------
+Lonicera_maackii_1A                               ATGGCCTCTAGTTCTATG---AGCTCG---------AGCTCTTCTTGGACGTCTAAGCAAAACAAGATGTTCGAGAGGGCTTTAGCCGTTTACGATAAAGACACTCCCGACCGTTGGCAAAACGTGGCTAAAGCAGTT---GGAAGTAAATCTGCAGAGGAAGTTAAACGTCACTACGACATCCTCGTTGAAGATCTCATGAACATCGAACAAGACTTAGTACCTTTGCCTAAATACAAAACC---GTCGATGTTGGAAGTAAATCTAGAGGC---ATCGATGATTTTGAT
+Lonicera_morrowii_2A                              ----------------------------------------------------------------------------------------------------------------------AGAATATTGCGAGGGCAGTG---GGCGGAAA{CT}TCGGC{AT}GAGGAAGTAAAAATGCATTATGAAATCCTCATCGAGGACCTTATAGGC---------------------------------------------------------------------------------------
+Lonicera_x_bella_1A                               ATGGCTTCTAGTTCAATGAGCACCTCATCA---------------TGGACAGCTAGAGAGGACAAGCAATTCGAAATGGCGTTGGCGAAATTCGACAAGGACACTCCTGACCGTTGGCAAAAAATTGCAAGGGCAGTT---GGTGGGAAATCAACTGAAGAAGTAAAGCGACACTATGAATTGCTCCTTAGGGATGTGAATGACATTGAGTCAGGACGCTATCCACAACCTAGGTACCGTAAC---------------------------ACT---AAT------------
+Lonicera_x_bella_1B                               ----------------------------------------------------------------------------------------------------------------------ATAACGTGGCCACGGCCGTG---GGTGGAAAATCAGCAGAAGAAGTGAAGAGGCATTACGAG---------------------------------------------------------------------------------------------------------------
+Lonicera_x_bella_2A                               ----------------------------------------------------------------------------------------------------------------------ATAATGTGGCTAGAGCTGTT---GGCGGCAAAACAGCCGAGGAAGTGAAGAGGCATTACGAAATCCTTGTGGAGGATGTCAAGCAT---------------------------------------------------------------------------------------
+Lonicera_x_bella_2B                               ----------------------------------------------------------------------------------------------------------------------ACAATGTGGCTAGAGCTGTT---GGCGGCAAAACCGCTGAGGAAGTGAAGAGGCATTACGAAATCCTTGTGGAGGATGTCAAGCAT---------------------------------------------------------------------------------------
+Lonicera_x_bella_3                                ------------------------------------------------------------------------------------------------------------------TGGCAAAATATTGCGAGGGCAGTA---GGGGGGAAATCTGTAGAGGAAGTGAAAAGGCACTATGAAATCCTCGTAGCAGACCTTAGGCACATTGAGTCCGGCAATGTCCCGTACCCAAACTACAGA---------------------------------------------------
+Morina_longifolia_1B                              ---------------------------------------------TGGACGCCGAAGCAAAACAAACTATTCGAGAAGGCATTAGCTAAGTACGATAAGGACACTCCCGACCGATGGCAAAACATCGCTAGGGCCGTC---GGGGGCAAATCCGCCGAGGAAGTAAAAAGGCACTATGAGATTCTTGTGGAGGATCTCAAGCACATTGAATCTGGAAATGTCCCATATCCTAAATACGTA---------------------------------------------------
+Morina_longifolia_2A                              ----------------------------------------------------------------------------------------------------------------------AGAATATTTTGAGGGCAGTG---GGTGGAAAATCGGCTGAGGAAGTGAAAAGGCATTATGAAATCCTCATTGAAGACCTTAGGCAT---------------------------------------------------------------------------------------
+Morina_longifolia_2Ba                             ----------------------------------------------------------------------------------------------------------------------A{CT}AATGTGGCCAAGGCTGTT---GGTGGCAAAACTGCCGAGGAAGTCAAGAGGCATTATGAGCTCCTCGTGGAGGACGTCAAGCAT---------------------------------------------------------------------------------------
+Morina_longifolia_2Bb                             ----------------------------------------------------------------------------------------------------------------------ATAATGTGGCCAGGGCCGTT---GGCGGCAAAACGGCTGAGGAGGTGAAGAGGCAATACGAAATCCTTGTGGAGGATGTCAAGCAT---------------------------------------------------------------------------------------
+Morina_longifolia_3                               ------------------------------------------------------------------------------------------------------------------TGGTACAATGTGGCTAGAGCTGTT---GGAGGCAAAACAGCGGAGGAAGTTAAGAGGC??TATGAGCTTCTGGTGGAGGATGTTAAGCATATCGAACATGGACGCGTACCGTACCCTAACTACAGG---------------------------------------------------
+Populus_trichocarpa_eugene3.00020323              ------------------------------------------------------------------------------------------------------------------TGGTAGAATGTGGCTAGAGTTATT---GGTGGAAAAACAGCTGAGGAAGTTAAGAGGCATTATGAGCTTTTGGTGGAAGATGTTAAGCATATCGAAAATGGACACGTACCCCAACTAC-----------------------------------------------------------
+Populus_trichocarpa_fgenesh4_pm.C_LG_IV000458     ----------------------------------------------------------------------------------------------------------------------AGAATATTGCAAGGGTGGTG---GGTGGAAAATCTGCAGAGGAAGTGAAGAGGCACTACGAAGTCCTCGTAGAGGACCTTAGGCAC---------------------------------------------------------------------------------------
+Populus_trichocarpa_gw1.57.329.1                  ATGGCATCAGGG---------TCTCGCATGGGCTCTGGC---TTATGGACTTCAAAGCAAAACAAACTGTTTGAAAAGGCTCTAGCCTTGTATGACAAGGACACCCCAGACCGTTGGCAGAATGTAGCCAAGGCTGTG---GGTGGGAAGTCTGCCGAGGAAGTGAAGAGACACTATGAGATCCTCATTGAGGACCTCAAACATATCGAATCGGGCCATGTTCCGATTCCTAATTACAAG------TCCACTGGA---AGCAAC---AGC------ATTGGTGATCAAGAA
+Populus_trichocarpa_gw1.V.1367.1                  ------------------------------------------------------------------------------------------------------------------TGGTACAATGTGGCTAGAGCTGTT---GGTGGCAAAACAGCTGAGGAAGTTAAGAGGCATTATGAGCTTCTGGTGGAGGATGTTAAGCATATCGAAAATGGACGTGTACCCTACCCTAACTACAGG---------------------------------------------------
+Sambucus_canadensis_1A                            ------TCTTCA---------------AATGGCTCCGGCTCCTCTTGGACAGCCAAACAAAATAAGCTATTCGAGAAGGCCCTGGCTGTATACGACAAAGACACCCCAGACCGCTGGCAAAATGTGGCCAAGGCCGTG---GGTGGCAAGTCTCCTGAAGAAGTTAAGAGGCACTATGATCGTCTCGTGGAAGATCTCGTGTACATAGAATCCGGCCAAGCCCCTCTGCCGAATTACAAG------CCCTCTGGC---AGCAATTGGAGC------------TGGGAAGAA
+Sambucus_canadensis_2A                            ----------------------------------------------------------------------------------------------------------------------ACAACATTGCAAGGGCAGTG---GGTGGAAAATCAGCCGAGGAGGTGAAAAGGCACTACGAAATCCTCATAGAGGACCTTAGGCAC---------------------------------------------------------------------------------------
+Sixalix_atropurpurea_1A                           ATGGCATCAAGTTCGATGACATCTAGTTCA---------------TGGACACAAAAGCAAAATAAGCAGTTCGAGGAGGCTTTAGCCATGTACGGTAATGATACACCGGACTGCTGGCAAAATATAGCCCGAAAAGTT---GGTGGAAAATCGGCTGAGGAAATAAGGAGGCATTATGAGGTGTTAGTTAAGGAAATTATGAAGATTGAAACTGATCAAGTTCCAATTCCAAATTATAATAAA---GTGAAGGGG---TCCAACAGCAGA------------GGATATGGC
+Sixalix_atropurpurea_2Ba                          ----------------------------------------------------------------------------------TAGCGCTATTTGATAAGGACACTCCCGACCGTTGGCATAACGTGGCGAAGGCCGTG---GGTGGAAAATCAGAGGAGGAAGTAAAGAGGCATTACGAGATCCTTGTGAAGGATATTATGCGAATAGAATCCGGC---------------------------------------------------------------------------
+Sixalix_atropurpurea_2Bb                          ------------------------------------------------------------------------------------GCCGTGTATGATAAAGATACACCCGACCGTTGGCAGAACATTGCACGCGCAGTA---GGTGGAAAATCAGCAGAAGAAGTGAAAAGACATTACGAAATCCTCATTCAAGATCTTAGGCATATC------------------------------------------------------------------------------------
+Symphoricarpos_occidentalis_1A                    ATGGCGTCAAACTCA------------AGAAGTTCAATCTCACCATGGACGTTTAGTCAAAACAAGATGTTCGAGAGGGCCTTGGCAGTTTACGACAAGGACACACCCGACCGATGGCACAATGTGGCAAAAGCTGTC---GGAGGGAAAACTGTAGAAGAAGTGAAGCGCCACTATGACATTCTCGTCGAGGATCTCATCAACATCGAGACTGGTCGTGTCCCTTTGCCCAATTACAAGACC---TTCGAATCTAACTCAAGAAGCATCAAT---------GACTTTGAC
+Symphoricarpos_orbiculatus_1B                     ----------------------------------------------------------------------------------------------------------------------ACAATGTGGCCAAGGCTGTT---GAAGGCAAAACTGCCGAGGAAGTGGAGAGGCATTACGAG---------------------------------------------------------------------------------------------------------------
+Symphoricarpos_orbiculatus_2A                     ----------------------------------------------------------------------------------------------------------------------ATAATGTGGCCAAGGCTGTT---GGTGGCAAAACCCCCGAGGAGGTGAAAAGGCATTACGAACTTCTTGTTGAGGATGTTAAGCAT---------------------------------------------------------------------------------------
+Symphoricarpos_orbiculatus_2B                     ----------------------------------------------------------------------------------------------------------------------ATAACGTGGCGAAGGCCGTG---GGTGGAAAATCAGAGGAGGAAGTAAAAAGGCATTACGAGATTCTTGTGAAGGATATTATGCGA---------------------------------------------------------------------------------------
+Symphoricarpos_orbiculatus_3                      ------------------------------------------------------------------------------------------------------------------TGGTACAATGTGGCCAGAGCTGTT---GGCGGCAAAACAGCTGAGGAGGTTAAGAGGCATTATGAGCTTCTTGTGGAGGATGTTAAGCATATCGAAAATGGACGCGTACCATGCCCAAACTACAGG---------------------------------------------------
+Valerianella_eriocarpa_1A                         ATGGCATCAAGCTCCATGACATCTTCACGTGGCTCGTCCTCCTTGTGGACGCCTAAGCAAAATAGACAATTTGAGGAGGCGTTGACCATGTTCGATAAGGACACACCCGACCGTTGGCAAAACATAGCGAGACGAATT---GATGGGAAATCAGCCGAGCAAGTGAGGAGGTATTATGAGGAACTACTCAAGGACATTACTCGTATTGAAAATGACCAAGTGCCAATTCCAAATTACAAAACCAATAACCGAGGATAT---ATATGGCAA---------------------
+Valerianella_eriocarpa_2B                         ----------------------------------------------------------------------------------TAGCGCTATTTGATAAGGACACTCCCGACCGTTGGTACAATGTCGCCAAGGCTGTT---GGTGGCAAAACCGCTGAAGAAGTGAAGAGGCATTATGAACTACTTGTGGAGGATGTCAAGCATATCGAGAATGGC---------------------------------------------------------------------------
+Valerianella_locusta_2B                           ------------------------------------------------------------AACAAGGCGTTTGAAAGGGCACTGGCTGTGTATGACAAGGACACACCTGACCGGTGGTACAATGTGGCCAGGGCCGTT---GGTGGCAAAACAGCTGAGGAAGTGAAGAGGCATTAC{AG}AAATCCTTGTGCGGGATGTCAAGCATATCGAGAATGGC---------------------------------------------------------------------------
+Veronica_montana_RAD                              ------------------------------------------------------------------------------------------------------------------TGGTACAATGTGGCCAAGGCTGTC---GAAGGCAAAACTGCCGAGGAAGTGGAGAGGCATTATGAACTCCTTGTGAAGGATGTGAAGCATATCGAGAACGGACATGTTCCCTACCCCAACTACAAA---------------------------------------------------
+Viburnum_acerifolium_1B                           ATGGCTTATTTC------ACGTCTTCACATGGTTCTAGCTCCTCTTGGACGCCCAAACAAAACAAGCTGTTTGAGAAGGCACTGGCTGTCTATGACAAAGACACCCCAGACCGCTGGCAAAATGTGGCCAAGGCTGTG---GGTGGCAAGTCGGCAGAAGAAGTTAAGATGCACTACGATCGTCTTGTGGAGGATCTTACATATATAGAATCCGGCCAAGCTCCACTGCCAAACTACAAG------CCCTCTGGG---AGCAAT---AGTACG------------------
+Viburnum_acerifolium_2A                           ----------------------------------------------------------------------------------------------------------------------ACAATGTGGCTAGAGCTGTT---GGCGGCAAAACCGCTGAGGAAGTGAAGAGGCATTACGAAATCCTTGTGAAGGATGTCAAGCAT---------------------------------------------------------------------------------------
+Viburnum_acerifolium_2B                           ----------------------------------------------------------------------------------------------------------------------ACAACATTGCAAGGGCAGTG---GGTGGAAAATCGGCTGAGGATGTTAAAAGGCACTATGAAATCCTCATAGAGGATCTTAGGCAC---------------------------------------------------------------------------------------
+Vitis_vinifera_GSVIVT01031975001                  ----------------------------------------------------------------------------------------------------------------------ACAATGTTGCCAAGGCCGTT---GG{GT}GG{AC}AAAACTGCCGAGGAAGTGAAGAGGCATTAC{GT}AG---------------------------------------------------------------------------------------------------------------
+Vitis_vinifera_GSVIVT01031982001                  ------------------------------------------------------------------------------------------------------------------TGGTACAATGTCGCCAAGGCGGTT---GGCGGAAAAACTGCTGAGGAAGTGAAGAGGCATTATGAGGTCCTTGTGGAGGATGTGAAACATATCGAGAATGGACGTGTCCCCTTCCCCAACTACAGG---------------------------------------------------
+Vitis.vinifera_GSVIVT01018944001                  ATGGCATCCAACTCTATGACTTCTTCACGTACCTCTGGCTCCTCTTGGACACCCAAGCAAAACAAACTATTTGAAAAGGCACTGGCAAAGTATGACAAGGACACCCCTGACCGCTGGCAGAATATTGCCAAGGCCGTG---GGTGGGAAATCTGCGGAGGAAGTGAAAAGGCACTATGAAATCCTCATAGAGGATGTCAAGCACATCGAGTCCGGCAAAGTTCCATTTCCCAATTACAGG---------------------------------------------------
+Weigela_hortensis_1B                              ----------------------------------------------------------------------------------------------------------------------ACAATGTGGCCAAGGCTGTT---GGTGGCAAAACTGCCGAGGAAGTCAAGAGGCATTATGAGCTCCTCGTGGAGGACGTCAAGCAT---------------------------------------------------------------------------------------
+Weigela_hortensis_2A                              ----------------------------------------------------------------------------------------------------------------------ACAACATTGCAAGGGCAGTG---GGTGGAAAATCAGCCGAGG{AG}GGTGAAAAGGCACTACGAAATCCTTATAGAGGACCTTAGGCAC---------------------------------------------------------------------------------------
+Weigela_hortensis_2B                              ------------------------------------------------------------------------------------GCGGTGTTTGACAAAGATACCCCTGACCGTTGGTACAATGTAGCTAAGGCCGTT---GGTGGAACAACGGCTCAGGAAGTTAAGTGGCGTTACCAACTACTTGAGGAAGATGTTAAGCGAATT------------------------------------------------------------------------------------
+;
+END;
+
+BEGIN CODONS;
+CODONPOSSET * CodonPositions (CHARACTERS = 'RADIALIS-like genes') = 
+		1: 1-289\3,
+		2: 2-290\3,
+		3: 3-291\3;
+CODONPOSSET  CodonPositions (CHARACTERS = 'RADIALIS-like genes') = 
+		1: 1-289\3,
+		2: 2-290\3,
+		3: 3-291\3;
+END;
+BEGIN TREES;
+      TITLE RADIALI_Streebaserun;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Populus_trichocarpa_eugene3.00020323,
+            2    Populus_trichocarpa_gw1.V.1367.1,
+            3    Arabidopsis_thaliana_AtRL6,
+            4    Arabidopsis_thaliana_AtRL5,
+            5    Antirrhinum_majus_RL2,
+            6    Antirrhinum_majus_RL4,
+            7    Antirrhinum_majus_RL3,
+            8    Symphoricarpos_orbiculatus_3,
+            9    Lonicera_x_bella_3,
+            10   Acanthocalyx_alba_3,
+            11   Cryptothladia_chinensis_3,
+            12   Morina_longifolia_3,
+            13   Vitis_vinifera_GSVIVT01031982001,
+            14   Arabidopsis_thaliana_AtRL2,
+            15   Arabidopsis_thaliana_AtRL1,
+            16   Vitis_vinifera_GSVIVT01031975001,
+            17   Populus_trichocarpa_fgenesh4_pm.C_LG_IV000458,
+            18   Bournea_leiophylla_RAD,
+            19   Veronica_montana_RAD,
+            20   Antirrhinum_majus_RADIALIS,
+            21   Gratiola_officinalis_RAD,
+            22   Diervilla_sessilifolia_2B,
+            23   Weigela_hortensis_2B,
+            24   Sixalix_atropurpurea_2Bb,
+            25   Dipsacus_pilosus_2Bc,
+            26   Dipsacus_pilosus_2Ba,
+            27   Sixalix_atropurpurea_2Ba,
+            28   Dipsacus_pilosus_2Bb,
+            29   Fedia_cornucopiae_2Bc,
+            30   Fedia_cornucopiae_2Ba,
+            31   Fedia_cornucopiae_2Bb,
+            32   Valerianella_eriocarpa_2B,
+            33   Valerianella_locusta_2B,
+            34   Centranthus_ruber_2Bb,
+            35   Centranthus_ruber_2Ba,
+            36   Heptacodium_miconioides_1A,
+            37   Kolkwitzia_amabilis_2B,
+            38   Dipelta_floribunda_2B,
+            39   Lonicera_x_bella_2B,
+            40   Symphoricarpos_orbiculatus_2B,
+            41   Weigela_hortensis_2A,
+            42   Diervilla_sessilifolia_2A,
+            43   Heptacodium_miconioides_2A,
+            44   Kolkwitzia_amabilis_2A,
+            45   Lonicera_morrowii_2A,
+            46   Lonicera_x_bella_2A,
+            47   Symphoricarpos_orbiculatus_2A,
+            48   Viburnum_acerifolium_2A,
+            49   Sambucus_canadensis_2A,
+            50   Viburnum_acerifolium_2B,
+            51   Morina_longifolia_2A,
+            52   Acanthocalyx_alba_2A,
+            53   Cryptothladia_chinensis_2A,
+            54   Morina_longifolia_2Bb,
+            55   Cryptothladia_chinensis_2Bb,
+            56   Cryptothladia_chinensis_2Ba,
+            57   Morina_longifolia_2Ba,
+            58   Acanthocalyx_alba_2B,
+            59   Symphoricarpos_orbiculatus_1B,
+            60   Lonicera_x_bella_1B,
+            61   Heptacodium_miconioides_1B,
+            62   Weigela_hortensis_1B,
+            63   Cryptothladia_chinensis_1Bb,
+            64   Acanthocalyx_alba_1B,
+            65   Antirrhinum_majus_AmRL1,
+            66   Dipelta_floribunda_1B,
+            67   Morina_longifolia_1B,
+            68   Cryptothladia_chinensis_1Ba,
+            69   Diervilla_sessilifolia_1B,
+            70   Acanthocalyx_alba_1A,
+            71   Cryptothladia_chinensis_1A,
+            72   Sixalix_atropurpurea_1A,
+            73   Valerianella_eriocarpa_1A,
+            74   Dipelta_floribunda_1A,
+            75   Symphoricarpos_occidentalis_1A,
+            76   Lonicera_maackii_1A,
+            77   Lonicera_x_bella_1A,
+            78   Heptacodium_miconioides_2B,
+            79   Sambucus_canadensis_1A,
+            80   Viburnum_acerifolium_1B,
+            81   Vitis.vinifera_GSVIVT01018944001,
+            82   Populus_trichocarpa_gw1.57.329.1,
+            83   Arabidopsis_thaliana_AtRL3,
+            84   Arabidopsis_thaliana_AtRL4;
+      TREE Fig._2 = [&R] ((((((1,2),(3,4)),(((5,(6,7)),(8,9)),(10,(11,12)))),13),(((14,15),16),(17,((((18,19),20),21),(((22,23),(((((((24,25),26),27),28),(((29,(30,31)),(32,33)),(34,35))),36),(37,38))),((39,40),((((41,42),(((43,(44,(45,46))),47),48)),((49,50),((51,52),53))),(54,(55,((56,57),58)))))))))),((((((59,60),61),(62,(((63,64),(((65,66),67),68)),69))),(((70,((71,(72,73)),74)),((75,(76,77)),(78,79))),80)),81),(82,(83,84))));
+
+
+
+END;

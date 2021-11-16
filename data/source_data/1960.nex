@@ -1,0 +1,1492 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:49 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Baker W.J., Dransfield J., & Hedderson T. 2000. Phylogeny, Character Evolution, and
+a New Classification of the Calamoid Palms. Systematic Botany, 25(2): 297322.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S578]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=31;
+        TAXLABELS
+            Asterogyne_martiana
+            Calamus_hollrungii
+            Calamus_ornatus
+            Calamus_warburgii
+            Calospatha_scortechinii
+            Ceratolobus_concolor
+            Ceroxylon_quindiuense
+            Daemonorops_didymophylla
+            Daemonorops_fissa
+            Eleiodoxa_conferta
+            Eremospatha_wendlandiana
+            Eugeissona_utilis
+            Kerriodoxa_elegans
+            Korthalsia_cheb
+            Laccosperma_acutiflorum
+            Lepidocaryum_tenue
+            Mauritia_flexuosa
+            Mauritiella_armata
+            Metroxylon_sagu
+            Metroxylon_salomonense
+            Myrialepis_paradoxa
+            Nypa_fruticans
+            Oncocalamus_mannii
+            Pigafetta_elata
+            Plectocomia_mulleri
+            Plectocomiopsis_geminiflora
+            Pogonotium_ursinum
+            Raphia_farinifera
+            Retispatha_dumetosa
+            Salacca_glabrescens
+            Salacca_ramosiana
+            ;
+END;
+
+BEGIN TAXA;
+        TITLE  Taxa2;
+        DIMENSIONS NTAX=38;
+        TAXLABELS
+            Asterogyne_martiana
+            Calamus_castaneus
+            Calamus_conirostris
+            Calamus_deerratus
+            Calamus_hollrungii
+            Calamus_nanodendron
+            Calamus_thysanolepis
+            Calospatha_scortechinii
+            Ceratolobus_concolor
+            Ceroxylon_quindiuense
+            Daemonorops_didymophylla
+            Daemonorops_fissa
+            Eleiodoxa_conferta
+            Eremospatha_wendlandiana
+            Eugeissona_tristis
+            Eugeissona_utilis
+            Kerriodoxa_elegans
+            Korthalsia_cheb
+            Laccosperma_acutiflorum
+            Laccosperma_opacum
+            Lepidocaryum_tenue
+            Mauritia_flexuosa
+            Mauritiella_armata
+            Metroxylon_sagu
+            Metroxylon_salomonense
+            Myrialepis_paradoxa
+            Oncocalamus_mannii
+            Pigafetta_elata
+            Pigafetta_filaris
+            Plectocomia_elongata
+            Plectocomia_mulleri
+            Plectocomiopsis_geminiflora
+            Pogonotium_ursinum
+            Raphia_farinifera
+            Retispatha_dumetosa
+            Salacca_glabrescens
+            Salacca_ramosiana
+            Salacca_rupicola
+            ;
+END;
+
+BEGIN TAXA;
+        TITLE  Taxa3;
+        DIMENSIONS NTAX=38;
+        TAXLABELS
+            Asterogyne_martiana
+            Calamus_castaneus
+            Calamus_conirostris
+            Calamus_deerratus
+            Calamus_hollrungii
+            Calamus_nanodendron
+            Calamus_thysanolepis
+            Calospatha_scortechinii
+            Ceratolobus_concolor
+            Ceroxylon_quindiuense
+            Daemonorops_didymophylla
+            Daemonorops_fissa
+            Eleiodoxa_conferta
+            Eremospatha_wendlandiana
+            Eugeissona_tristis
+            Eugeissona_utilis
+            Kerriodoxa_elegans
+            Korthalsia_cheb
+            Laccosperma_acutiflorum
+            Laccosperma_opacum
+            Lepidocaryum_tenue
+            Mauritia_flexuosa
+            Mauritiella_armata
+            Metroxylon_sagu
+            Metroxylon_salomonense
+            Myrialepis_paradoxa
+            Oncocalamus_mannii
+            Pigafetta_elata
+            Pigafetta_filaris
+            Plectocomia_elongata
+            Plectocomia_mulleri
+            Plectocomiopsis_geminiflora
+            Pogonotium_ursinum
+            Raphia_farinifera
+            Retispatha_dumetosa
+            Salacca_glabrescens
+            Salacca_ramosiana
+            Salacca_rupicola
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M2211]
+
+	TITLE Baker1.nex;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=66;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2 3 4 5" MISSING=? GAP= -;
+	CHARSTATELABELS
+		1  Aerial_branching / absent present,
+		2  Dichotomous_branching / absent present,
+		3  Internode_length / extremely_short moderate elongate,
+		4  Lamina_splitting / adaxial abaxial,
+		5  Lamina_division / pinnate palmate,
+		6  Leaflet_margin / entire praemorse,
+		7  Cirrus_with_acanthophylls / absent present,
+		8  Cirrus_without_acanthophylls / absent present,
+		9  Subcirrus / absent present,
+		10  Flagellum / absent present,
+		11  Knee / absent present,
+		12  Rachis_and_cirrus_spines / absent present,
+		13  Spine_modification / simple 'grapnel-like',
+		14  Spine_organisation / not_organised organised,
+		15  Root_spines / absent present,
+		16  Reproductive_strategy / hapaxanthic pleonanthic,
+		17  Inflorescence_adnation / free adnate_internode adnate_internode_sheath,
+		18  Inflorescence_capturing / not_captured captured,
+		19  Rachis_bract_shape / tubular incomplete,
+		20  Primary_bract_armature / unarmed armed,
+		21  Primary_bract_persistence / persistent caducous,
+		22  Prophyll_splitting / apical abaxial_or_adaxial lateral,
+		23  Prophyll$rachis_ratio / prophyll_shorter_than_rachis prophyll_exceeding_rachis,
+		24  Adnation_of_first_order_branch / free adnate_to_rachis_above_bract,
+		25  Bract_subtending_rachilla / shorter_than_rachilla exceeding_rachilla,
+		26  Rachilla_stalk / absent present,
+		27  Rachilla_bract / tubular incomplete,
+		28  Proximal_rachilla_bracts / empty subtending_flower_cluster,
+		29  Distal_rachilla_bracts / empty subtending_flower_cluster,
+		30  Rachilla_bract_arrangement / 'distichous (including subdistic' spiral distichous_and_spiral,
+		31  Rachilla_bract_fusion / free connate_laterally,
+		32  Pedicelliform_involucrophore / absent present,
+		33  Floral_bracteole_abaxial_surfac / glabrous hairy,
+		34  Flower_cluster / strictly_solitary dyad triad complex,
+		35  Dioecy / absent present,
+		36  Terminal_flower_in_pistillate_a / absent present,
+		37  Terminal_flower_in_pistillate_a / fertile sterile,
+		38  Terminal_flower / hermaphrodite male female,
+		39  Lateral_flower_in_staminate_and / absent present,
+		40  Lateral_flower / hermaphrodite unisexual,
+		41  Fertile_staminate_and_pistillat / not_in_single_rachilla in_single_rachilla,
+		42  Perianth_differentiation / tepals sepals_and_petals,
+		43  Flower_opening / congenitally_closed congenitally_open,
+		44  Stamen_number / 3 6 '>6',
+		45  Anther_attachment / 'medifixed (including basifixed)' dorsifixed,
+		46  Anther_dehiscence / latrorse introrse extrorse,
+		47  Stigmas / pyramidal divergent,
+		48  Gynoecium / apocarpous syncarpous,
+		49  Ovary_locule_partitioning / incomplete complete,
+		50  Ovule_orientation / not_twisted twisted_on_funicle,
+		51  Ovule_form / anatropous hemianatropous,
+		52  Epicarp_scales / absent present,
+		53  Endocarp / absent 'present (inner carpel wall)' 'present (mid-fruit layer)',
+		54  Sarcotesta / absent present,
+		55  Knob_on_seed_apex / absent present,
+		56  Endosperm / homogeneous ruminate,
+		57  Embryo_position / basal lateral,
+		58  Germination / adjacent_ligular remote_ligular,
+		59  Aperture_number / 0 1 2 3,
+		60  Aperture_position / polar subequatorial equatorial meridional,
+		61  Aperture_type / sulcate extended_sulcate porate trichotomosulcate incomplete_zonosulcate zonosulcate,
+		62  Symmetry / symmetric assymetric,
+		63  Shape / spheroidal ellipsoidal oblate_spheroidal oblate_rounded_triangular,
+		64  Tectum / 'tectate (including semitectate)' intectate,
+		65  Supratectate_processes / absent present,
+		66  Intectate_processes / absent present,
+		;
+
+MATRIX
+[                                       10        20        30        40        50        60         ]
+[                                        .         .         .         .         .         .         ]
+Asterogyne_martiana             00{01}100000000--010010010000111100020-----11020111101010000010011000
+Calamus_hollrungii              002100010011100120000001000110000111110101011011010101010022001000
+Calamus_ornatus                 0021000011111101200100010001100001111101010210110101010100220010?0
+Calamus_warburgii               0021000100111101200100010101100001111101010110110101010000220010?0
+Calospatha_scortechinii         002100001011110120010101000110000111110101011011010101000022001000
+Ceratolobus_concolor            0021010100111101200{01}0211000110000111110101011011010101010022001000
+Ceroxylon_quindiuense           001100000000--010010000?00111100001-----01120011101010001010001000
+Daemonorops_didymophylla        002100010011110120011101000110010111110101011011010101010022001000
+Daemonorops_fissa               002100010011110120010111000110010111110101011011010101010022001010
+Eleiodoxa_conferta              00010000000101000000010001100110111111110101001101010100{01}021201000
+Eremospatha_wendlandiana        0021011000011001?0100-01001100000101001001010001010100001010101000
+Eugeissona_utilis               001100000001001010000001000001000101011001020001010120000110101000
+Kerriodoxa_elegans              00{01}010000000--010000010100011100001-----01010011100010010110001000
+Korthalsia_cheb                 102101010001110010000001011001101100--1001010001010100011022?0?101
+Laccosperma_acutiflorum         002100100001100000000000000010000101001001010001010100001010001000
+Lepidocaryum_tenue              001110000000--0100000001000110000110-10101010001010100101010000101
+Mauritia_flexuosa               001110000000--0100000000000102000110-11101010001010100100010000101
+Mauritiella_armata              001110000000--1100000001000102000110-10101010001010100100010200101
+Metroxylon_sagu                 00110000000101001000000?011001101101011001011001010101000021001000
+Metroxylon_salomonense          00110000000101001000000?011001101101011001011001010101000022001000
+Myrialepis_paradoxa             002100010001110010000001000110000110-10101010101010101000022001000
+Nypa_fruticans                  011100000000--0100000101001?0100000-----001002-0-00010000013500010
+Oncocalamus_mannii              00210010000100010000000000000000030102111101000101?100001?10001010
+Pigafetta_elata                 001100000001010100000001011011001110-1110101001101010100100--00000
+Plectocomia_mulleri             002100010001110010000001101112000110-11101010001010101000022001000
+Plectocomiopsis_geminiflora     002100010001110010000001000110000110-10101010101010101000022001101
+Pogonotium_ursinum              002100000011110120010111000110000111110101011011010101000011201000
+Raphia_farinifera               001100000000--0000000000000000000101011111010001010100011010001000
+Retispatha_dumetosa             002100000001110120010101100110000110-10101011011010101000022001010
+Salacca_glabrescens             000100000001010101000101011001100111111101010011010101000022001010
+Salacca_ramosiana               000100000001010101000101101001101110-11101010011010101000022001010
+;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M2210]
+
+	TITLE Baker2.nex;
+	LINK TAXA = Taxa2;
+	DIMENSIONS NCHAR=874;
+	FORMAT DATATYPE=Standard SYMBOLS= "A C G T" MISSING=? GAP= -;
+	CHARSTATELABELS
+		1  ITS_1,
+		2  ITS_2,
+		3  ITS_3,
+		4  ITS_4,
+		5  ITS_5,
+		6  ITS_6,
+		7  ITS_7,
+		8  ITS_8,
+		9  ITS_9,
+		10  ITS_10,
+		11  ITS_11,
+		12  ITS_12,
+		13  ITS_13,
+		14  ITS_14,
+		15  ITS_15,
+		16  ITS_16,
+		17  ITS_17,
+		18  ITS_18,
+		19  ITS_19,
+		20  ITS_20,
+		21  ITS_21,
+		22  ITS_22,
+		23  ITS_23,
+		24  ITS_24,
+		25  ITS_25,
+		26  ITS_26,
+		27  ITS_27,
+		28  ITS_28,
+		29  ITS_29,
+		30  ITS_30,
+		31  ITS_31,
+		32  ITS_32,
+		33  ITS_33,
+		34  ITS_34,
+		35  ITS_35,
+		36  ITS_36,
+		37  ITS_37,
+		38  ITS_38,
+		39  ITS_39,
+		40  ITS_40,
+		41  ITS_41,
+		42  ITS_42,
+		43  ITS_43,
+		44  ITS_44,
+		45  ITS_45,
+		46  ITS_46,
+		47  ITS_47,
+		48  ITS_48,
+		49  ITS_49,
+		50  ITS_50,
+		51  ITS_51,
+		52  ITS_52,
+		53  ITS_53,
+		54  ITS_54,
+		55  ITS_55,
+		56  ITS_56,
+		57  ITS_57,
+		58  ITS_58,
+		59  ITS_59,
+		60  ITS_60,
+		61  ITS_61,
+		62  ITS_62,
+		63  ITS_63,
+		64  ITS_64,
+		65  ITS_65,
+		66  ITS_66,
+		67  ITS_67,
+		68  ITS_68,
+		69  ITS_69,
+		70  ITS_70,
+		71  ITS_71,
+		72  ITS_72,
+		73  ITS_73,
+		74  ITS_74,
+		75  ITS_75,
+		76  ITS_76,
+		77  ITS_77,
+		78  ITS_78,
+		79  ITS_79,
+		80  ITS_80,
+		81  ITS_81,
+		82  ITS_82,
+		83  ITS_83,
+		84  ITS_84,
+		85  ITS_85,
+		86  ITS_86,
+		87  ITS_87,
+		88  ITS_88,
+		89  ITS_89,
+		90  ITS_90,
+		91  ITS_91,
+		92  ITS_92,
+		93  ITS_93,
+		94  ITS_94,
+		95  ITS_95,
+		96  ITS_96,
+		97  ITS_97,
+		98  ITS_98,
+		99  ITS_99,
+		100  ITS_100,
+		101  ITS_101,
+		102  ITS_102,
+		103  ITS_103,
+		104  ITS_104,
+		105  ITS_105,
+		106  ITS_106,
+		107  ITS_107,
+		108  ITS_108,
+		109  ITS_109,
+		110  ITS_110,
+		111  ITS_111,
+		112  ITS_112,
+		113  ITS_113,
+		114  ITS_114,
+		115  ITS_115,
+		116  ITS_116,
+		117  ITS_117,
+		118  ITS_118,
+		119  ITS_119,
+		120  ITS_120,
+		121  ITS_121,
+		122  ITS_122,
+		123  ITS_123,
+		124  ITS_124,
+		125  ITS_125,
+		126  ITS_126,
+		127  ITS_127,
+		128  ITS_128,
+		129  ITS_129,
+		130  ITS_130,
+		131  ITS_131,
+		132  ITS_132,
+		133  ITS_133,
+		134  ITS_134,
+		135  ITS_135,
+		136  ITS_136,
+		137  ITS_137,
+		138  ITS_138,
+		139  ITS_139,
+		140  ITS_140,
+		141  ITS_141,
+		142  ITS_142,
+		143  ITS_143,
+		144  ITS_144,
+		145  ITS_145,
+		146  ITS_146,
+		147  ITS_147,
+		148  ITS_148,
+		149  ITS_149,
+		150  ITS_150,
+		151  ITS_151,
+		152  ITS_152,
+		153  ITS_153,
+		154  ITS_154,
+		155  ITS_155,
+		156  ITS_156,
+		157  ITS_157,
+		158  ITS_158,
+		159  ITS_159,
+		160  ITS_160,
+		161  ITS_161,
+		162  ITS_162,
+		163  ITS_163,
+		164  ITS_164,
+		165  ITS_165,
+		166  ITS_166,
+		167  ITS_167,
+		168  ITS_168,
+		169  ITS_169,
+		170  ITS_170,
+		171  ITS_171,
+		172  ITS_172,
+		173  ITS_173,
+		174  ITS_174,
+		175  ITS_175,
+		176  ITS_176,
+		177  ITS_177,
+		178  ITS_178,
+		179  ITS_179,
+		180  ITS_180,
+		181  ITS_181,
+		182  ITS_182,
+		183  ITS_183,
+		184  ITS_184,
+		185  ITS_185,
+		186  ITS_186,
+		187  ITS_187,
+		188  ITS_188,
+		189  ITS_189,
+		190  ITS_190,
+		191  ITS_191,
+		192  ITS_192,
+		193  ITS_193,
+		194  ITS_194,
+		195  ITS_195,
+		196  ITS_196,
+		197  ITS_197,
+		198  ITS_198,
+		199  ITS_199,
+		200  ITS_200,
+		201  ITS_201,
+		202  ITS_202,
+		203  ITS_203,
+		204  ITS_204,
+		205  ITS_205,
+		206  ITS_206,
+		207  ITS_207,
+		208  ITS_208,
+		209  ITS_209,
+		210  ITS_210,
+		211  ITS_211,
+		212  ITS_212,
+		213  ITS_213,
+		214  ITS_214,
+		215  ITS_215,
+		216  ITS_216,
+		217  ITS_217,
+		218  ITS_218,
+		219  ITS_219,
+		220  ITS_220,
+		221  ITS_221,
+		222  ITS_222,
+		223  ITS_223,
+		224  ITS_224,
+		225  ITS_225,
+		226  ITS_226,
+		227  ITS_227,
+		228  ITS_228,
+		229  ITS_229,
+		230  ITS_230,
+		231  ITS_231,
+		232  ITS_232,
+		233  ITS_233,
+		234  ITS_234,
+		235  ITS_235,
+		236  ITS_236,
+		237  ITS_237,
+		238  ITS_238,
+		239  ITS_239,
+		240  ITS_240,
+		241  ITS_241,
+		242  ITS_242,
+		243  ITS_243,
+		244  ITS_244,
+		245  ITS_245,
+		246  ITS_246,
+		247  ITS_247,
+		248  ITS_248,
+		249  ITS_249,
+		250  ITS_250,
+		251  ITS_251,
+		252  ITS_252,
+		253  ITS_253,
+		254  ITS_254,
+		255  ITS_255,
+		256  ITS_256,
+		257  ITS_257,
+		258  ITS_258,
+		259  ITS_259,
+		260  ITS_260,
+		261  ITS_261,
+		262  ITS_262,
+		263  ITS_263,
+		264  ITS_264,
+		265  ITS_265,
+		266  ITS_266,
+		267  ITS_267,
+		268  ITS_268,
+		269  ITS_269,
+		270  ITS_270,
+		271  ITS_271,
+		272  ITS_272,
+		273  ITS_273,
+		274  ITS_274,
+		275  ITS_275,
+		276  ITS_276,
+		277  ITS_277,
+		278  ITS_278,
+		279  ITS_279,
+		280  ITS_280,
+		281  ITS_281,
+		282  ITS_282,
+		283  ITS_283,
+		284  ITS_284,
+		285  ITS_285,
+		286  ITS_286,
+		287  ITS_287,
+		288  ITS_288,
+		289  ITS_289,
+		290  ITS_290,
+		291  ITS_291,
+		292  ITS_292,
+		293  ITS_293,
+		294  ITS_294,
+		295  ITS_295,
+		296  ITS_296,
+		297  ITS_297,
+		298  ITS_298,
+		299  ITS_299,
+		300  ITS_300,
+		301  ITS_301,
+		302  ITS_302,
+		303  ITS_303,
+		304  ITS_304,
+		305  ITS_305,
+		306  ITS_306,
+		307  ITS_307,
+		308  ITS_308,
+		309  ITS_309,
+		310  ITS_310,
+		311  ITS_311,
+		312  ITS_312,
+		313  ITS_313,
+		314  ITS_314,
+		315  ITS_315,
+		316  ITS_316,
+		317  ITS_317,
+		318  ITS_318,
+		319  ITS_319,
+		320  ITS_320,
+		321  ITS_321,
+		322  ITS_322,
+		323  ITS_323,
+		324  ITS_324,
+		325  ITS_325,
+		326  ITS_326,
+		327  ITS_327,
+		328  ITS_328,
+		329  ITS_329,
+		330  ITS_330,
+		331  ITS_331,
+		332  ITS_332,
+		333  ITS_333,
+		334  ITS_334,
+		335  ITS_335,
+		336  ITS_336,
+		337  ITS_337,
+		338  ITS_338,
+		339  ITS_339,
+		340  ITS_340,
+		341  ITS_341,
+		342  ITS_342,
+		343  ITS_343,
+		344  ITS_344,
+		345  ITS_345,
+		346  ITS_346,
+		347  ITS_347,
+		348  ITS_348,
+		349  ITS_349,
+		350  ITS_350,
+		351  ITS_351,
+		352  ITS_352,
+		353  ITS_353,
+		354  ITS_354,
+		355  ITS_355,
+		356  ITS_356,
+		357  ITS_357,
+		358  ITS_358,
+		359  ITS_359,
+		360  ITS_360,
+		361  ITS_361,
+		362  ITS_362,
+		363  ITS_363,
+		364  ITS_364,
+		365  ITS_365,
+		366  ITS_366,
+		367  ITS_367,
+		368  ITS_368,
+		369  ITS_369,
+		370  ITS_370,
+		371  ITS_371,
+		372  ITS_372,
+		373  ITS_373,
+		374  ITS_374,
+		375  ITS_375,
+		376  ITS_376,
+		377  ITS_377,
+		378  ITS_378,
+		379  ITS_379,
+		380  ITS_380,
+		381  ITS_381,
+		382  ITS_382,
+		383  ITS_383,
+		384  ITS_384,
+		385  ITS_385,
+		386  ITS_386,
+		387  ITS_387,
+		388  ITS_388,
+		389  ITS_389,
+		390  ITS_390,
+		391  ITS_391,
+		392  ITS_392,
+		393  ITS_393,
+		394  ITS_394,
+		395  ITS_395,
+		396  ITS_396,
+		397  ITS_397,
+		398  ITS_398,
+		399  ITS_399,
+		400  ITS_400,
+		401  ITS_401,
+		402  ITS_402,
+		403  ITS_403,
+		404  ITS_404,
+		405  ITS_405,
+		406  ITS_406,
+		407  ITS_407,
+		408  ITS_408,
+		409  ITS_409,
+		410  ITS_410,
+		411  ITS_411,
+		412  ITS_412,
+		413  ITS_413,
+		414  ITS_414,
+		415  ITS_415,
+		416  ITS_416,
+		417  ITS_417,
+		418  ITS_418,
+		419  ITS_419,
+		420  ITS_420,
+		421  ITS_421,
+		422  ITS_422,
+		423  ITS_423,
+		424  ITS_424,
+		425  ITS_425,
+		426  ITS_426,
+		427  ITS_427,
+		428  ITS_428,
+		429  ITS_429,
+		430  ITS_430,
+		431  ITS_431,
+		432  ITS_432,
+		433  ITS_433,
+		434  ITS_434,
+		435  ITS_435,
+		436  ITS_436,
+		437  ITS_437,
+		438  ITS_438,
+		439  ITS_439,
+		440  ITS_440,
+		441  ITS_441,
+		442  ITS_442,
+		443  ITS_443,
+		444  ITS_444,
+		445  ITS_445,
+		446  ITS_446,
+		447  ITS_447,
+		448  ITS_448,
+		449  ITS_449,
+		450  ITS_450,
+		451  ITS_451,
+		452  ITS_452,
+		453  ITS_453,
+		454  ITS_454,
+		455  ITS_455,
+		456  ITS_456,
+		457  ITS_457,
+		458  ITS_458,
+		459  ITS_459,
+		460  ITS_460,
+		461  ITS_461,
+		462  ITS_462,
+		463  ITS_463,
+		464  ITS_464,
+		465  ITS_465,
+		466  ITS_466,
+		467  ITS_467,
+		468  ITS_468,
+		469  ITS_469,
+		470  ITS_470,
+		471  ITS_471,
+		472  ITS_472,
+		473  ITS_473,
+		474  ITS_474,
+		475  ITS_475,
+		476  ITS_476,
+		477  ITS_477,
+		478  ITS_478,
+		479  ITS_479,
+		480  ITS_480,
+		481  ITS_481,
+		482  ITS_482,
+		483  ITS_483,
+		484  ITS_484,
+		485  ITS_485,
+		486  ITS_486,
+		487  ITS_487,
+		488  ITS_488,
+		489  ITS_489,
+		490  ITS_490,
+		491  ITS_491,
+		492  ITS_492,
+		493  ITS_493,
+		494  ITS_494,
+		495  ITS_495,
+		496  ITS_496,
+		497  ITS_497,
+		498  ITS_498,
+		499  ITS_499,
+		500  ITS_500,
+		501  ITS_501,
+		502  ITS_502,
+		503  ITS_503,
+		504  ITS_504,
+		505  ITS_505,
+		506  ITS_506,
+		507  ITS_507,
+		508  ITS_508,
+		509  ITS_509,
+		510  ITS_510,
+		511  ITS_511,
+		512  ITS_512,
+		513  ITS_513,
+		514  ITS_514,
+		515  ITS_515,
+		516  ITS_516,
+		517  ITS_517,
+		518  ITS_518,
+		519  ITS_519,
+		520  ITS_520,
+		521  ITS_521,
+		522  ITS_522,
+		523  ITS_523,
+		524  ITS_524,
+		525  ITS_525,
+		526  ITS_526,
+		527  ITS_527,
+		528  ITS_528,
+		529  ITS_529,
+		530  ITS_530,
+		531  ITS_531,
+		532  ITS_532,
+		533  ITS_533,
+		534  ITS_534,
+		535  ITS_535,
+		536  ITS_536,
+		537  ITS_537,
+		538  ITS_538,
+		539  ITS_539,
+		540  ITS_540,
+		541  ITS_541,
+		542  ITS_542,
+		543  ITS_543,
+		544  ITS_544,
+		545  ITS_545,
+		546  ITS_546,
+		547  ITS_547,
+		548  ITS_548,
+		549  ITS_549,
+		550  ITS_550,
+		551  ITS_551,
+		552  ITS_552,
+		553  ITS_553,
+		554  ITS_554,
+		555  ITS_555,
+		556  ITS_556,
+		557  ITS_557,
+		558  ITS_558,
+		559  ITS_559,
+		560  ITS_560,
+		561  ITS_561,
+		562  ITS_562,
+		563  ITS_563,
+		564  ITS_564,
+		565  ITS_565,
+		566  ITS_566,
+		567  ITS_567,
+		568  ITS_568,
+		569  ITS_569,
+		570  ITS_570,
+		571  ITS_571,
+		572  ITS_572,
+		573  ITS_573,
+		574  ITS_574,
+		575  ITS_575,
+		576  ITS_576,
+		577  ITS_577,
+		578  ITS_578,
+		579  ITS_579,
+		580  ITS_580,
+		581  ITS_581,
+		582  ITS_582,
+		583  ITS_583,
+		584  ITS_584,
+		585  ITS_585,
+		586  ITS_586,
+		587  ITS_587,
+		588  ITS_588,
+		589  ITS_589,
+		590  ITS_590,
+		591  ITS_591,
+		592  ITS_592,
+		593  ITS_593,
+		594  ITS_594,
+		595  ITS_595,
+		596  ITS_596,
+		597  ITS_597,
+		598  ITS_598,
+		599  ITS_599,
+		600  ITS_600,
+		601  ITS_601,
+		602  ITS_602,
+		603  ITS_603,
+		604  ITS_604,
+		605  ITS_605,
+		606  ITS_606,
+		607  ITS_607,
+		608  ITS_608,
+		609  ITS_609,
+		610  ITS_610,
+		611  ITS_611,
+		612  ITS_612,
+		613  ITS_613,
+		614  ITS_614,
+		615  ITS_615,
+		616  ITS_616,
+		617  ITS_617,
+		618  ITS_618,
+		619  ITS_619,
+		620  ITS_620,
+		621  ITS_621,
+		622  ITS_622,
+		623  ITS_623,
+		624  ITS_624,
+		625  ITS_625,
+		626  ITS_626,
+		627  ITS_627,
+		628  ITS_628,
+		629  ITS_629,
+		630  ITS_630,
+		631  ITS_631,
+		632  ITS_632,
+		633  ITS_633,
+		634  ITS_634,
+		635  ITS_635,
+		636  ITS_636,
+		637  ITS_637,
+		638  ITS_638,
+		639  ITS_639,
+		640  ITS_640,
+		641  ITS_641,
+		642  ITS_642,
+		643  ITS_643,
+		644  ITS_644,
+		645  ITS_645,
+		646  ITS_646,
+		647  ITS_647,
+		648  ITS_648,
+		649  ITS_649,
+		650  ITS_650,
+		651  ITS_651,
+		652  ITS_652,
+		653  ITS_653,
+		654  ITS_654,
+		655  ITS_655,
+		656  ITS_656,
+		657  ITS_657,
+		658  ITS_658,
+		659  ITS_659,
+		660  ITS_660,
+		661  ITS_661,
+		662  ITS_662,
+		663  ITS_663,
+		664  ITS_664,
+		665  ITS_665,
+		666  ITS_666,
+		667  ITS_667,
+		668  ITS_668,
+		669  ITS_669,
+		670  ITS_670,
+		671  ITS_671,
+		672  ITS_672,
+		673  ITS_673,
+		674  ITS_674,
+		675  ITS_675,
+		676  ITS_676,
+		677  ITS_677,
+		678  ITS_678,
+		679  ITS_679,
+		680  ITS_680,
+		681  ITS_681,
+		682  ITS_682,
+		683  ITS_683,
+		684  ITS_684,
+		685  ITS_685,
+		686  ITS_686,
+		687  ITS_687,
+		688  ITS_688,
+		689  ITS_689,
+		690  ITS_690,
+		691  ITS_691,
+		692  ITS_692,
+		693  ITS_693,
+		694  ITS_694,
+		695  ITS_695,
+		696  ITS_696,
+		697  ITS_697,
+		698  ITS_698,
+		699  ITS_699,
+		700  ITS_700,
+		701  ITS_701,
+		702  ITS_702,
+		703  rps_1,
+		704  rps_2,
+		705  rps_3,
+		706  rps_4,
+		707  rps_5,
+		708  rps_6,
+		709  rps_7,
+		710  rps_8,
+		711  rps_9,
+		712  rps_10,
+		713  rps_11,
+		714  rps_12,
+		715  rps_13,
+		716  rps_14,
+		717  rps_15,
+		718  rps_16,
+		719  rps_17,
+		720  rps_18,
+		721  rps_19,
+		722  rps_20,
+		723  rps_21,
+		724  rps_22,
+		725  rps_23,
+		726  rps_24,
+		727  rps_25,
+		728  rps_26,
+		729  rps_27,
+		730  rps_28,
+		731  rps_29,
+		732  rps_30,
+		733  rps_31,
+		734  rps_32,
+		735  rps_33,
+		736  rps_34,
+		737  rps_35,
+		738  rps_36,
+		739  rps_37,
+		740  rps_38,
+		741  rps_39,
+		742  rps_40,
+		743  rps_41,
+		744  rps_42,
+		745  rps_43,
+		746  rps_44,
+		747  rps_45,
+		748  rps_46,
+		749  rps_47,
+		750  rps_48,
+		751  rps_49,
+		752  rps_50,
+		753  rps_51,
+		754  rps_52,
+		755  rps_53,
+		756  rps_54,
+		757  rps_55,
+		758  rps_56,
+		759  rps_57,
+		760  rps_58,
+		761  rps_59,
+		762  rps_60,
+		763  rps_61,
+		764  rps_62,
+		765  rps_63,
+		766  rps_64,
+		767  rps_65,
+		768  rps_66,
+		769  rps_67,
+		770  rps_68,
+		771  rps_69,
+		772  rps_70,
+		773  rps_71,
+		774  rps_72,
+		775  rps_73,
+		776  rps_74,
+		777  rps_75,
+		778  rps_76,
+		779  rps_77,
+		780  rps_78,
+		781  rps_79,
+		782  rps_80,
+		783  rps_81,
+		784  rps_82,
+		785  rps_83,
+		786  rps_84,
+		787  rps_85,
+		788  rps_86,
+		789  rps_87,
+		790  rps_88,
+		791  rps_89,
+		792  rps_90,
+		793  rps_91,
+		794  rps_92,
+		795  rps_93,
+		796  rps_94,
+		797  rps_95,
+		798  rps_96,
+		799  rps_97,
+		800  rps_98,
+		801  rps_99,
+		802  rps_100,
+		803  rps_101,
+		804  rps_102,
+		805  rps_103,
+		806  rps_104,
+		807  rps_105,
+		808  rps_106,
+		809  mo_1,
+		810  mo_2,
+		811  mo_3,
+		812  mo_4,
+		813  mo_5,
+		814  mo_6,
+		815  mo_7,
+		816  mo_8,
+		817  mo_9,
+		818  mo_10,
+		819  mo_11,
+		820  mo_12,
+		821  mo_13,
+		822  mo_14,
+		823  mo_15,
+		824  mo_16,
+		825  mo_17,
+		826  mo_18,
+		827  mo_19,
+		828  mo_20,
+		829  mo_21,
+		830  mo_22,
+		831  mo_23,
+		832  mo_24,
+		833  mo_25,
+		834  mo_26,
+		835  mo_27,
+		836  mo_28,
+		837  mo_29,
+		838  mo_30,
+		839  mo_31,
+		840  mo_32,
+		841  mo_33,
+		842  mo_34,
+		843  mo_35,
+		844  mo_36,
+		845  mo_37,
+		846  mo_38,
+		847  mo_39,
+		848  mo_40,
+		849  mo_41,
+		850  mo_42,
+		851  mo_43,
+		852  mo_44,
+		853  mo_45,
+		854  mo_46,
+		855  mo_47,
+		856  mo_48,
+		857  mo_49,
+		858  mo_50,
+		859  mo_51,
+		860  mo_52,
+		861  mo_53,
+		862  mo_54,
+		863  mo_55,
+		864  mo_56,
+		865  mo_57,
+		866  mo_58,
+		867  mo_59,
+		868  mo_60,
+		869  mo_61,
+		870  mo_62,
+		871  mo_63,
+		872  mo_64,
+		873  mo_65,
+		874  mo_66,
+		;
+
+MATRIX
+[                                       10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170       180       190       200       210       220       230       240       250       260       270       280       290       300       310       320       330       340       350       360       370       380       390       400       410       420       430       440       450       460       470       480       490       500       510       520       530       540       550       560       570       580       590       600       610       620       630       640       650       660       670       680       690       700       710       720       730       740       750       760       770       780       790       800       810       820       830       840       850       860       870       880]
+[                                        .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .]
+Asterogyne_martiana             CGCCGCCCGTGACG-TCGCGA-GAAGTCCACT-GAACCTTATCATTTAGAGGAAGGAGAAGTCATA----ACAAG-GTTTCTGTAGGTGAACCTGCG-GAA-GGATAATTGCCGAGA---CCCG-GACGAGGAAG----ACCCGCG-AACTAGTGAAATG???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????CACCG---TACGGCTCTCGACAATGGAT-ATCTCAGCTCTTGCATCGATG------------AAGAACGTAGCGAAA-TGCGGTACCTGGTGTGAATTGCAGAATC-CCACGA-ACCATTGAGTCTT-TGAA-TGCAAGTTGCGCCTGAGG--CCATCTGGTCGAGGGCAC-GCCT-GCCTGGGCA------------------TCACGCCAA-GTGACACTCCGTTACGTCG--GGGGCCACGAAATCCGGACGCGGATGCTGGCCT????????????????GCACGGCGGGCC-----GAAGAGCGGGCCGCTGAC-GGGGCCGAAACGGCGGATGGTGGACGCT--CTCGCGATCCTGCCATCGTGCCGTAGGACACCA????????????????????????ATAGCTGAGACGGCTAACGGACCGGTAAATCAAACAACGCCTATCAATACAAGGTCCCAGAGCGATGAGGGCCGCCCCCCGCTGCGCCTCCC---ATACCTTAG-CAA{AC}CAAAAAAAA--ACAACAACAAAACCCCAAAGA-----CCAGACCCCACACAAAAACAACCAAA
+Calamus_castaneus               CGCCACTCACGACA-TCGTGA-GAAGTCCACT-GAACCTTATCATTTAGAGGA---AGAAGTCGTA----ACAAG-GTTTCCGTAGGTGAACCCGCG-GAA-GGATTATTGCTGAGA---CCC--AACGAGCCAT----ACCCACA-AACACGTGAACTCTCCTTCAGTGCCATCGCCCGGACCCC-CGC-----------GTCGTTGAG---ACCGGCGGTTGCTGGGCGATGGAAGG--AAC-ATACC--CAGCGC----GGA-TGGCGCCAA-GGAACCTTG-AGCT-TGGACACGG---TACGACTCTCGGCAACGGAT-ATCTCGGCTCTCGCATCGACG------------AAGAATGTAGCAAAA-TGCGATATGTGGTGCGAATTGCAGAATC-CCGCAA-ACCATTGAGTCTT-CAAA-CGCAAGTTGCGCTCAAGG--CCATTCGACCGAGGGCAC-GCCT-GCCTGGGCG------------------CCAACCCAA-GCGGCGCTCCGCTCCCTC---GGGTTCCTTATTGCCGGACGAGGACGATGGCCGCACGCACCGAGCGC--GTGCGGCGTGCC-----AAAGATTTGGATGCAGGC-GAGGCCGAAGCGACGGGTGGTGGATGCA--CCAGCTATCCCGTTGTCGTGCCTCCGAACCTCG--GCCCT---TAGG---GCCCGCAATGGACGAGATGGTTAACGTACCCGTAAAGCAATCAACGACAATCAATAGGAAGTTCCGGAGCGATGAGGGCCACCCCCCGCTGCGATTCCCCTAATACCTTAGCCAAACAAAAAAACCCACGAA{AC}AAACAAACCAAAACCCCCACACACCACCACACACAAAAGGAACAAA
+Calamus_conirostris             CGCCGCCCGCGACG-TCGTGA-GAAGTCCACT-GAACCTTATCATTTAGAGGAAGGAGAAGTCGTA----ACAAG-GTTTCTGTAGGTGAACCTGCG-GAA-GGATCATTGCCGAGA---CCC--GACGAGACAA----ACCCGTG-AACACGTGAACTCCGCTCCGGCTTCATCGCCAGGACCCC-CGC-----------GCCATCGAG---ACCGGCAGCTGCGGGGCGGCGGGAGG--ACC-GGACC--CGGTGCCCTCGAA-GGGCGCCAA-GGATCCTTG-AGTG-CGGACACGG---TACGACTCTCGACAACGGAT-ATCTCAGCTCTCGCATCGATG------------AAGAACGTAGCGAAA-TGCGATACGTGGTGCGAATTGCAGAATC-CCGCGA-ACCATCGAGTCTT-CGAA-CGCAAGTTGCGCCCGAGG--CCATCCGGCCGAGGGCAC-GCCT-GCCTGGGCG------------------CCAACCCAA-GCGGCGCTCTGCTCCCCC---AAGTTCCCTATTGCCGGACACGGATGATGGCCCCCCGTACCGAGCAT--GCGCGGCGTGCC-----GAAGATTGGGCCGCAGGCTGGGGCCGGAGTGGTGGGTGGTGGACGCG--CCCGCGATCTCGTCGTCGTGCCTTCGGACCCCG--GCCCT---TAGG---GCCTGCAATGGACGAGATGGTTAACGTACCCGTAAATCAATCAACGACAATCAATACGAAGTTCCGGAGCGATGAGGGCCACCCCCCACTGCGATTCCCCTAATACCTTAGCCAAGCAAAACCCCCCACGAACAAACAAACCAAAACCCCCACACACCACCACACACACAAGGAACAAA
+Calamus_deerratus               CGTCGCCCGTGACA-TCACAA-GAAGTCCACT-AAACATTATCATTTAGAGAAAGGAGAAGTCATA----ACAAG-GTTTCCATAGGTGAACTTGTG-GAA-GGATCATTGCCGAGA---CCC--GACGAGACAA----ACCCATG-AACACATGAACTCTGCTTCGACTTCATCAACCAGACCCC-CGTA----------GCCACCAAGA--CTCGGCGGCTGTGGTGTGGCTAGAGG--ACC-GGACA--CGGCACCCTCGGA-GGGTGCCAA-GGAACCTTG-AGGG-TGGCCACGG---TATGACTCTCGGCAATGGAT-ATCTTGGCTCTTGCATCGATG------------AAGAATGTAGCGAAA-TGCGATACGTGGTGCGAATTGCAGAATC-CCATGA-ACCATCGAGTCTT-TGAA-TGCAAGTTGCGCCCGAGG--CCATTCAGCCAAGGGCAT-GCCT-ACCTGGGCA------------------CCAAGCCAA-GTAGCGCTATGCTCCCCT---AGGTTCCCTATTGCCAAACATGGACGATGGCCCCTCACACTGAGTGC--GCGCGGCGTGCC-----AAAGATTGGGTCGTAGGCTAGGGCTGGAGAGGTGGGTGGTGGATGCG--CCCACGATCCCATCACTGTGCCTCTGGACCCTG--GCCCT---TAGG---GCGCGCAATGGACAAGATGGTTAACGTACCCGTAAATCAATCAACGACAATCAATACGAAGTTCCGGAGCGATGAGGGCCACCCCCCGCTGCGATTCCCCTAATACCTTAGCCAAGCAAAAACCCCAACGAACAAACAAACCAAAACCCCCACACACCACCACACACAAAAGGAACAAA
+Calamus_hollrungii              CGCCTCGCGTGACA-TCGCAA-TAAGTCCATTGGAACCTTATCATTTAGAGAAAGAAGAAGTTGTA----ACAAG-GTTTCTGTAGGTGAACCTACG-GAA-GGATCATTGCCGACA---CCC--GACGAGCCAA----ACCTGCG-AACACATGAACTCTACTTCAGCTTCATCGCTCGAACCCC-TGC-----------GCTATTGAG---ACCGGTGGCTGTGGGGTGGCGGGAGG--ACT-AGACA--CGGCACGCTCAGA--GGTGCCAA-GGAACCTTG-AGCA-TGGACACAG---TACAACTCTCGATAATGGAT-ATCTCGACTCTCGCATCGACA------------AAGAACGTAGCGAAA-TGTGATACGTGGTGCGAATTGCAGAATC-GCACAA-ACCATTGAGTCTT-CGAA-TGCAAGTTGTGCCCGAGG--CCATCCAACCGAGGGCAC-GCCT-GCCTGGGTG------------------CCAACCCAA-GCGGCGCTTCACTCCCTT---AGGTTCCCTATTGCCAGACATGGATGATGGCCCCCCGCGCTGAGTGC--GGGCGGCGTGCC-----AAAGATTGGGCCACAGGTTAGGACCGGAGCAGCAGGTTGTGGATGCA--CCCAAGATCCCATCGCTGAGCCTTTGGATCCCA--GCCCT---TAGG---GCCCATGATGGACGAAATGGTTAACGTACCCGTAAATCAATCAACGACAATCAATACGAAGTTCCGGAGCGATGAGGGCCACCCCCCGCTGCGATTCCCCTCATATCTTAGCCAAGCAAACAACCCAACGAAAAAACAAACCAAAACCCCCACACACCACCACACACACAAGGAACAAA
+Calamus_nanodendron             CGCCGCTCATGACA-TCGCAA-GAAGTCCATT?GAACCTTATCATTTAGAGAAAGAAGAAGTCATA----ACAGG-GTTTCTGTAGGTGAACCTGCG-GAA-GGATCATTGTCGAGA---CCC--GACGAGCCAA----ACCCGCG-AACACATGAACTCTACTTCAGCTTCATCGCTCGAACCCC-CAC-----------GCTGTTGAG---ACCAGTGGCTATGGGGTGGCGGGAGG--ACC-AGACA--CGGCACCCTCGGA-GGGCGCCAA-GGAACCTTG-AGCA-TGGACACGG---TACGACTCTCGATAATGGAT-ATCTTAACTCTCGCATCGACA------------AAGAACGTAGCGAAA-TGCGATACGTGGTGCGAATTGCAGAATC-CCACAA-ACCATTGAGTCTT-CGAA-CGCAAGTTGTGCCCGAGG--CCATCCGACCGAGGGCAC-GCCT-GCCTGGGTG------------------CCAACCCAA-GCGGCGCTTCACTCCCTC---AGGTTCCCTATTGCCAGACACGGATGATGGCCCCCCGTGCCAAGTGC--GGGCGGTGTGCC-----AAAGATTGGGCCACAGGCTAGGACCGGAGCAGCAGGTTGTGGATGCA--CCCAAGATCCCATCGCTGAGCCTTTGGACCCCA--GCCCT---TAGG---GCCCACGATGGACGAGATGGTTAACGTACCCGTAAATCAATCAACGACAATCAATACGAAGTTCCGGAGCGATGAGGGCCACCCCCCGCTGCGATT----TAATACCTTAGCCAAACAAAAAAACAAACGAACAAACAAACCAAAACCCCCACACACCACCACACACACAAGGAACAAA
+Calamus_thysanolepis            TGCTGCCCGCGACG-TCGCGA-GAAGTCCACT-GAACCTTATCATTTAGAGGAAAGAGAAGCCGTA----ACAAG-GTTTCCATAGGTGAACCTGCG-GAA-GGATCATTGCCGAGA---CTC--GACGAGCCAA----ACCCGCG-AACACGTGAACTCTGCTCCGGTGCCATCGCCCGAACCCC-TGT-----------GTCATCGAG---ACTAGCGACTGTGGGGCGGTGGGAGG--ACC-GAACC--CAGCGC----GGA-TGGCGCCAA-GGAACCTTG-AGCG-TGGACACGG---TATGACTCTAGGCAACGGAT-ATCTCGGCTCTCGCATTGACG------------AAGAACGTAGTGAAA-TGCGATACGTGGTGCGAATTGCAGAATC-CCGCGA-ACCATTGAGTCTT-CGAA-CGCAAGTTGCGCCTAAGG--CCATCCGGTCGAGGGCAC-GCCT-GCCTGGGCG------------------CCAACCGAA-GCGGCGCTCCACTCCCCC---GGGTTCCCTATTGCTGAACGTGGACGATGGCCCCCCACGCTGAGCGT--GCGTGGCATGCC-----AAAGATTGGGCCATAGGCTAGG-CTGGAGCGGCGGGTGGTGGACGCG--CCCGCGATCTCATCGCCGTGCCTCCGAACCCCA--GCCCT---TAGG---GCCCGCAATGGACGAGATGGTTAACGTACCCGTAAATCAATCAACGACAATCAATACGAAGTTCCGGAGCGATGAGGGCCACCCCCCGCTGCGATTCCCCTAATACCTTAGCCAACCAAAAAAACCAACGAAAAAACAAACCAAAACCCCCACACACCACCACACACAAAAGGAACA?A
+Calospatha_scortechinii         CGCCGCCCGCGACG-TCGTGAAGAA-TCCACTGAAACCTTATCATTTAGAGGAAGGAGAAGTCATA----ACAAG-GTTTCCGTAGGTGAACCTGCG-GAA-GGATCATTGCTGAGA---CCC--GACGAGACAA----ACCCGCG-AACACGTGAACTCCGCTCCGGCTTCATCGCCAGGACCCC-CGC-----------GCCGTCAAG---ACTGGCGGCTGCGGGGCGGCTGGAGG--ACC-GGACC--CGGTGCCCTCTGA-GGGCGCCAA-GGAACCTTG-AGCG-CGGACACGG---TATGACTCTCGGCAACGGAT-ATCTCGGCTCTCGCATCGACG------------AAGAACGTGGCGAAA-TGTGATATGAGGTGCGAATTGCAGAATC-CCGCGA-ACCATCGAGTCTT-CGAA-CGCAAGTTGCGCCCAAGG--CCATCCGGCCGAAGGCAC-GCTT-GCCAGGGCG------------------CCAACCCAA-GCGGCGCTCTGCTCCCCC---GGTTTCCCTATTGCCGAACGCAGACGATGGCCCCCCGTGCCGAGCGC--GCGTGGCATGCC-----AAAGATTGGGCCGCAGGCTGGGGCCGGAGCGGCGGGTGGTGGACGCG--CCCGCGATCCCGTCGCCATGCCTTCAAACCCTG--GCCCT---TAGG---GCCCGCAATGGACGAGATTGTTAACGTACCCGTAAATCAATCAACGACAATCAATACGAAGTTCCGGAGCGATGAGGACCACCCCCCACTGCGATTCCCCTAATACCTTAGCCAAGCAAAACACCCCACGAACACACAAACCAAAACCCCCACACACCACCACACACAAAAGGAACAAA
+Ceratolobus_concolor            CACCCCTCATGATG-TCACAAGAAAGTCCACT-GAACCTTATCATTTAGAGGAAGGAGAAGTCGTA----ACAAG-GTTTCCGTAGGTGAACCTACA-GAA-GGATCATTATCGAGA---CCC--GACGAGCCAA----ACCTGCA-AACATGTGAACTCTACTCCAACTTCATCGCTCCGACCCC-TGC-----------GCCATCGAG---ACCGGTGGCCATTGGGTAGCAGGAGG--ACC-AGACC--CGGCACCTACGGA-GGGCGCCAA-GGAACCTTG-AGAGACATACACGG---TATGACTCTTGGCAATGGAT-ATCTCAGCTCTCGCATCGACG------------AAGAACGTAGCAAAA-TGCGATACATGGTGCGATTTGTAGAATC-CCGTGA-ACCATCGAGTCTT-CAAA-TGCAAGTTGCGCCCGAGG--CCATCCAGTCGAGGGCAA-GCTT-GCCTGGGCA------------------CCAACCCAA-GAGGCACTCTGCTCCCTC---AGGTTCCCTATTGCTGAATGCAGACGATGGTACCTCACACCGAGCAC--TCACGACGTGCC-----AAAGATTAGGCTACAGGCTGGGGCCGGAGCGGCAGGTGGTGGACGCG--CTCGTGATCCCATCGCCATGCCT?TGGACCCTA--GCCCT---CAGG---GCCCACGATGGACGAGATGGTTAACGTACCCGTAAATAAATCAACGACAATCAATACGAAGTTCCGGAGCGAAGAGGGCCACCCCCCGCTGCGATTCCCCTAATACCTTAGCCAAGCACACAACCCCACGAA{AC}AGCCAAACCAAAACCCCCACACACCACCACACACACAAGGAACAAA
+Ceroxylon_quindiuense           CGCCGCCCGCGACG-TCGCGA-GAAGTCCACT-GAACCTTATCATTTAGAGGAAGGAGAAGTCGTA----ACAAG-GTTTCCGTAGGTGAACCTGCG-GAA-GGATCATTGCCGAGA---CCCG-GATGAGGCAG----ACCCGCG-AACATGTGAACGT???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????CACTG---TACGACTCTCGGCAACGGAT-ATCTCGGCTCTCGCATCGATG------------AAGAACGTAGCGAAA-TGCGATACCTGGTGTGAATTGCAGAATC-CCGCGA-ACCATCGAGTCTT-TGAA-CGCAAATTGCGCCCGAGG--CCATTCGGCCGAGGGCAC-GCCT-GCTTGGGCG------------------TCACGCCAA-GCGACGCTCCGCACACCT---TGGGCCATGATGTCCGGATGCGGACACTGGCCC????????????????GCGTGGCGGGCC-----GAAGAGTGGGCCTCCGGC-GGGGCCGGAACGGCGGATGGTGGACGCG--GTCGCGATCCTGCCGCTGTGCTGCCGGGCCCCG????????????????????????ATGGCTGAGACGGCTAATGGACAGGTAAATCAAACAACGCCTATCAATACAAAGTCTAAGAACGATGAGGGCCACCCCCCGCTGCGCCTCCC---ATACCTTAG-CAACCAAAAAAAA--ACAACAAAA?AACCCCAAAAC-----ACCGAACCCACACAAACACAAACAAA
+Daemonorops_didymophylla        CGCCGCTCGCGACA-TCGCGA-GAAGTCCACT-GAACCTTATCATTTAGAGGAAGGAGAAGTCGTA----ACAAG-GTTTCCGTAGGTGAACCTGCG-GAA-GGATCATTGTCGAGA---CCC--GACGAGCCAA----ACCCACG-AACACGTTAACTCCGCTCCGGCCTCATCGCCCGGACCCC-CGC-----------GCCGTCGAG---ACTGGCAGCCGCGGGGCGGCGGGAGG--ACC-GGACC--CGGCGCCCTCGAA-GGGTGCCAA-GTAACCTTG-AGCG-CGGACACGG---TACGACTCTCGGCAACGGAT-ATCTCGGCTCTCGCATCGACG------------AAGAACGTAGCGAAA-TGCGATACGTGGTGCGAATTGCAGAATC-CCGCGA-ACCATCGAGTCTT-CGAA-CGAAAGTTGCGCCCGAGG--CCATCCGGCCGAGGGCAC-GCCTTGCCTGGGCG------------------CCAACCCAA-GCGGCGCTCCGCTCCCCC---GGGTTCCCTATTGCAGGACGCAGACGATGGCACCCTGCGCCGAGCGC--GCGCGGCGTGCC-----AAAGATTGGGCCGTAGGCTGGGTCCGGAGCGACGGGTGGTGGACGCG--CCCGCGATCCCATCGCCGTGCCTTCGGACACCG--GCCCT---TAGG---GCCCGCAATGGACGAGATGGTTAACGTACCCGTAAATAAATCAACGACAATCAATACGAAGTTCCGGAGCGATGAGGGCCACCCCCCGCTGCTATTCCCCTAATACCTTAGCCAAGCAAACAACCCCACGAACCCACAAACCAACACCCCCACACACCACCACACACACAAGGAACAAA
+Daemonorops_fissa               CGCTGCTCGTGACG-TTGTGA-GAAGTCCACT-GAACCTTATCATTTAGAGGAAGGAGAAGTTGTA----ACAAG-GTTTCCATAAGTGAACCTGAG-GAA-GGATCGTTATCGAGA---CCC--GATGAGCCAA----ACTCATG-AACACGTGAACTCCGCTCCGGCTTCATTGCCCTGACCCC-CAC-----------GCCATCGAG---ATCGGCGGCCGCGGGGCAGCGGGAGG--ACC-GGACC--CAACGCCCTCGGA-GGGCGCCAA-GGAACCTTG-AGCG-TGGACATGG---TACAACTCTCGGCAATGGAT-ATCTCGGCTCTCGCATCGATG------------AAGAATGTAGCAAAA-TGCGATACATGGTGCGAATTGCAGAATC-CCGCGA-ACCATCGAGTCTT-CAAA-CGCAAGTTACGCCTGAGG--CCATCCGGTCAAAGGAAT-GCCT-GCCTGGGCA------------------CCAACCCAA-GTGGCGCTCCACTCCCCC---GGGTTCCCTATTGCTGGACGCGGACGATGGCACCTCGCGCCGAGCGC--GTGCGGCGTGCC-----GAAGATTGGGCTGCAGGCTGGGGCCGAAGCAGTGGGTGGTGGACGTG--CCCACGATCCTGTCGCCGTGCCTTTGAACCTCG--GCCAT---TAGG---GCCCGCAATGGACGAGGTGGTTAACGTACCCGTAAATCAATCAACGACAATCAATACTAAGTTCCGGAGCGATGAGGGCCACCCCCCGCTGCGATTCCCCTAATACCTTAGCCAAGCAAACAACCCCACGAACACCCAAACCAACACCCCCACACACCACCACACACACAAGGAACACA
+Eleiodoxa_conferta              CGCCGCTCACGACG-TCGCCA-GAAGTCCACT-GAACCTTATCATTTAGAGGAAGGAGAAGTCGTA----ACAAG-GTTTCCATAGGTGAACCTGCA-GAA-GGATCATTGCCGAGA---CCC---ATGGGGCAAACCAGCCAGTG-AACATGTGAACATGGCTCTAGCGCCATCCATCGGGCCCT-GCA------------CCATTGAA---ACCATCGGACGCGAGGCGTTGGGAGG--ATC-GGACC--CGGCGC----AAA------------------------------CATGG---TACGACTCTCGGCAATGGAT-ATCTGGTCCCTCACATCGATG------------AAGAACATAGCAAAA-TGCAATACATGGTGTGAATTGCAGAATC-CCGTGA-ACCATTGAGTCTT-CGAA-TGCAAGTTGTGCCCGAGG--CCATCGAGCCGAGGGCAC-GCCT-GCCTGGGCA------------------TCACGGCAA-TCGTTGCTCCTCTTCCTT---GGGTTGCCGATTGTCGGATGCGAAGGATGCCCCCCCGCGGTGAACGC--GAGCGGCGTGCC-----AAAGTTTGGGCCTCAAGC-GGAGTCGAAACGATGGGTGGTGGATGCG--CCTGCAATCCTGTCGCCGTGGCCTCGGCTCTCG--GTCTG---TAGT---GGGCCCAATGGACGAGATGGCTAACGTACCCGTAAATCAATCAACGACAATCAATACGAAATCCCGAAGCGATGAGGGCCACCCCCCGCTGCGATTCTC-TAATACCTTAGCCAAACAAAAAAACACAAAAAAACAAACCAACCACCCCCCCCACACAACCACACACAA{AC}AGCGACAAA
+Eremospatha_wendlandiana        CGCCACCCACGACG-TCGCGA-GAAGTCCACT-GAACCTTATCATTTAAAGGAAGGAGAAGTCATA----ACAAG-GTTTTCATAGGTGAACCTATG-GAA-GGATCATTGTCGAGA---CCC--GATGAGAAAG----ATCCATG-AACACGTCAATGAT-CTCCGGTGCTTTGGCCCTACCCCC-CGC-----------ACCTTTGAG---AGCGGCAGTCGTGGGGCGGCGGGGGG--ACT-CGACC--CAGCAC----GGA-GGGTGCCAA-GGAAGCACG-AGAA-TGGACGCGG---TATGACTCTCGATAATGGAT-ATCTCGGCTCTTGCATTGATG------------AAGAACGTAGCAAAA-TGCGATACATGGTGTGAATTATAGAATC-CCGCGAAACCATCGAGTCTT-TGAA-TGCAAGTTGCGCCCGAGG--CTATCCGATTGAGGGCAC-GCCT-GCTTGGACG------------------CCATTCAAAAGCATTGCTCCCCCTCCCTCA-GGGCCCCGAATGGCCGGATGCGGATACTGGACCCCCACGGCCCCCGT--GCATGGCATGCC-----ATAGTTCGGTCCGCAGGC-GGTGCCGAAACGGTGGGTGGTGGATGCG--CCCGCAAACTCATCGCCGTGCCTCTGGACCCCG--GCTTG---TAGG---TCCCACGATGGACGCGACGGCTAACGGACCCTTAAATCTTACAAT----TCCAATACGAAGTCCAGGAGCGATGAGGGCCACCCCTCGCTACGACTCCA-CAATACCTTAACAAAGCACCAAAACCAAC?ACAA-ACAACCAAAAACACAACAACACAAACACACAAAACACACACAAA
+Eugeissona_tristis              CGCCTCCTACGATG-TCGCGA-GAAGTCCACT-GAACCTTATCATTTAGAGGAATGAGAAGTCATA----ACAAG-GTTTCCGTAGGTGAACCTGCG-GAA-GGATCATTGCCGAGA---CCT---ACGTGGGAG----ACCCGTG-AACATGACAACGTCGCCCCATCGCCATCGCCCGGTGCCC-CGC-----------ACCGTCGAA---ACCGACGGACGGGGGGCAACGGGAGG--ACC-GGACC--TGGTGC----GAA-GAGCACCAA-GGAACCGCG-ATCA-CGGACACGG---TATGACTCTCGGTAACGGAT-ATCTCGGCTCTCGCATCGATG------------AAGAACGTAGCGAAA-TGCGATATGTGGTGTGAATTGCAGAATC-CCATGA-ACCATCGAGTCCTTTGAA-TGCAAGTTGCACCCGAGG--CCATCCGATCGAGGGCAT-GC-T-ACCTGGGCG------------------TCACTCCAA-GGGACGCTCCACCCCCTT---GGGGCCCCGATGGGTGGATGCGGTCACTGGCACCCCATGCACTTCGT--GCATGGTGTGAC-----GAAGTTCGGGCCATAGGC-GGGGCCGGAACGATGGATGGTGGACGCG--CCTGCGATCTCATCACCGTGCCCCAGACCCCGG---GCTG---CAGG---GCCTCCTATGGACGAGACGGCTAACGGACCCGAAAATTAAACAACGACAATCAATACGAAGTCCCGGAGCGATGAGGGCGACCCCCCGCCGCGACTCCC-TAGTACTTTAGCCAAACAAAAAAACAAAACAA{AC}AAACAAAAACAAACACACCAACAGAAACACACGAAAACCACACAAA
+Eugeissona_utilis               CGCCGCTTACGATA-TCACGA-GAAGTCCACT-GAACCTAATCATTTAGAGGAAGGAGAAGTCGTA----ACAAG-GTTTCCATAGGTGAACCTGCG-GAA-GGATCATTGCCGAGA---CCT---ACGAGGCAG----ACCCGTG-AACATGTCAACGTCGCCCCGATGCCATTGCCCAGCGCCC-CGC-----------ACCATCGAG---ATCGGCAGACGCGGGGCAACAGGAGG--ACC-GGACC--TGGCAC----GGA-GAGTGCCAA-GGAAGCATG-ATCA-TGGACACGG---TACGACCCTCGGCAACGGAT-ATCTCGGCTCTCGCATCAATG------------AAGAACGTAGTGAAA-TGCGATACATGGTGTGAATTGCAGAATC-CCGTGA-ACCATTGAGTCTT-TGAA-CGCAAGTTGGACCTGAGA--CCATCCGACCAAGGGCAC-GCCT-ACCTGGGTG------------------TCACTCCAA-GCGACGCTCTGCTCCCCC---GGGGCCCCAATGGGCGGATGCGAAAACTGGCCCCCCGTGGCCCTTGT--GCGCGGCGTGCC-----AAAGTTCGGGCCTCAGGC-GGGTCTGGAACGACAGTTGGTGGATGCG--CCTGCGATCCCATCGCCATGCCCCTGGACCCTG--GGCTG---CAGG---GCCTCCTATGGACGAGACGGCTAACGGACCCGAAAATTAAACAACGACAATCAATACGAAGTCCCGGAGCGATGAGGGCGACCCCCCGCCGCGACTACC-TAGTACTTTAGCCAACCAAAAAAACAACACAAAAAACAAAAACAAACACACCAACAGAAACACACGAAAACCACACAAA
+Kerriodoxa_elegans              CGCCGCCCGCGACG-TCGTGA-GAAGTCCACT-GAACCTTATCATTTAGAGGAAGGAGAAGTCGTA----ACAAG-GTTTCCGTAGGTGAACCTGCG-GAA-GGATCATTGCCGAGA---CCCG-AGCGAGGAAAG---ACCCGCG-AACATATGAGCGC???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????CATGG---TACGACTCTCGGCAACGGAT-ATCTTGGCTCTCGCATCGATG------------AAGAACGTAGCGAAA-TGCGATGCCTGGTGTGAATTGCAGAATC-CCGCGA-ACCATCGAGTCTT-TGAA-CGCAAGTTGCGCCCGAGG--CCATACGGTCGAGGGCAC-GCCT-GCCTGGGCG------------------TCACGTCAA-GCGGCGCTTCGCTCCCTC---GGAGCCGCGA-AGCCGGACGAGGACATTGGCCC????????????????CCCGGGCGCGGCGGTCCGAAGAGCGCGTCGCCGAT-GGGGCTGGATCGGCGGATGGTGGATGCGC-CTTGCGATCCAATCGTCGTGGAGCCGGACCCTA????????????????????????ATGGCTGAGACGGC---------------------------TA---GTACAAAGTCCCAGTGCGATGGGGGCCACCCCCCGCTGCGCCTCTC--CATACCTTAG-CAA{AC}ACAAAAAAA--ACAAAAACACAAACCCAAAAC-----ACACAACCCAAACAACACCAAACAAA
+Korthalsia_cheb                 CGCCGCCCGCGACG-TCGCAA-GAA-TCCACT-GAACCTTATCATTTAGAGGAAGGAGAAGTCATA----AAAAG-GTTTCCATAGGTGAACCTACG-GAA-GGATCATTGACAGAG---ACCC-GATGAGGCAG----ACCCGCA-AACACGTGAGCGTCGCTTCGATGCCGTCCCTGGCCCCCCTCACAG---------TTGGTCGCG---------------GGATGGGCGGGAGG--GTC-GCACCCCCCGCGC----GGA-GGGCGCCAA-GGAACCATG-AGCA-TGGACATGG---TACGACTCTTGGCAATGGAT-ATCTTGGCTCTCGCATCGACG------------AAGAATGTAGCGAAA-TGCGATACGTGGTGTGAATTGCAGAATC-CTGTGA-ACCATCGAGTCTT-TGAA-TGCAAGTTGCGCCCGTGG--CCGTCCGGCTGAGGGCAC-GCCT-GCCTGGGCA------------------TCATGCCAA-GCGACGCTCCGCTCCCTG---GGGTACCCAATTGCGGGACACAGTAGATGGCCCCCCGCACTAGACGC--GCATGGCAGGCC-----TAAGCTTGGGCCGCAAGC-GGGGCCGGAACGGTGGGTGGAGGACTTT--CCCGCGCTCACGTTGCGGTGTCACCGGACCCCT--GCCCG---CAGG---GCCCCCCATGGACGAGACGGCTACCGTACCCGTGCCTCAAACAACGACAATCAATACGAAGCCCCGGAGCGATGAGGGCCAGCCCCCGCTGCGATTCCC-TAATACCTCGGCCCAGCACACAAACCCAACAAAAAACACCAACCACCAA--CAACACAAACACACAAACCAGG?A?CAC
+Laccosperma_acutiflorum         CGCCGCCCGCGACA-TCGCGA-GAAGTCCACT-GAACCTTATCATTTAGAGGAAGGAGAAGTTGTA----ACAAG-GTTTCCATAGGTGAACCTACG-AAA-GGATCATTGCCAAGA---CCC--AATGAGGCAG----ACCTGCA-AACACGTTAAAGACGCTCCGACGCCATGGCCCGGCCCCC-CGT-----------ACCATCTAG---ACTGGCGGTCGCGGGGCGAC?GGGGG--ACC--GACC--TGGCAT----GGA-GGGCGCCAA-GGAAGCATG-AGCA-TGGACGCTG---TACGACTCTCAGCAACGGAT-ATCTCGACTCTCGCATCGATG------------AAGAACGTAGCGAAA-TGCGATACGTGGTGTGAATTGCAGAATC-CCGTGA-ACCATCGAGTGTT-TGAA---CAAGTTGCTCCCGAGG--CCATCCGGCCAAGGGAAC-GCCT-GCCTGGGCG------------------TCATGCCAAAGTGGCACTCCGCTCCCCT---CGGGGCCCGGTGGCCGGATGTGGACACTAGCCCCCTGTGCCCCTCGC--GTGCGGTGTGCC-----GAAGTTTGGGCCGTAGGT-AGGGCCGGAACGGTGGGTGGTGGACACG--CCCACAAACCCATTATCGTTCCTTCGGGCCCCTG-GCGTA---CAGG---TCCCACGACGGACGAGACGGCTAACGGACCCTTAAATCAAACAAT----TTCAATACGAAGTCCAGGAGCGATAAGGGCCACCCCTCGCTACGACTCCA-TAATACCATAACCAAGCAACAAAACCAAAAAAAAAAAAAAACAAAACACAACAACACAAACACACAAAACACAAACAAA
+Laccosperma_opacum              CGCCACCCGCGACG-TCGCGA-GAAGTCCACT-GAACCTTATCATTTAGAGGAAGGAGAAGTCGTA----ACAAG-GTTTCCATAGGTGAACCTACG-GAA-GAATCATTATCGAGA---CCC--GATGAGGCAG----ACCCACG-AACACGTTAAAGCCACTCCGGCACCATGGCCCGACCCCC-CGC-----------ACCGTCAAG---ACCAGCGATCGCGGGGTGGCGGGGGG--ACC-CGACC--CGGCGC----GGA-GGGCGCCAA-GGAAGCATG-AGAG-CGGACGTGG---TATGACTCTCAGCAACGGAT-ATCTCAGCTCTCGCATCAACG------------AAGAATGTAGCGAAA-TGCGATACATGGTGTGAATTGCAGAATC-CCATGA-ACCATCGAGTCTT-TGAA-AGCAAGTTGCGCCTGAGG--CCATCCGGCCGATGGCAT-GCCT-GCCTGGGTGGCACGCCTGCCTGGGCG-GCATGCCAAAGTGGCGCTCCGCTCCCCC---CCGGGGCCCCTGGCAGGATGCGGACACTGGCCCCCCACGCCCCCCGT--GCATCGTGTGCC-----GAAGTTCAGAATGCAGGT-GGGGCCAGAACCGCAGGTGGTGGATGCA--CCCGTGAACCCATCGCCGTGCCTCCGGACCCCTG-GCCTG---CAGG---TCCCACGACGGACGAGACGGCTAACGGA-CCTTAAATCAAACAAT----TTCAATACGAAGTCCAGGAGCGATGAGGGCCACCCCTCGATACGACTCCA-TAATACCATAACCCAGCAACAAAACCAAAAAAAAAAAAAAACAAAACACAACAACACAAACACACAAAACACAAACAAA
+Lepidocaryum_tenue              CGCCACCCACGATG-TCGCAA-GAAGTCCACT-GAACCTTATCATTTAGAGGAAGGAGAAGTCGTA----ACAAG-GTTTCCGTAGGTAAACCTACG-GCA-GGAACATTGCCGAGACGCCCC--GACGAGGCAG----ACCCGTG-AACACGTGAATGCCGCTCCAATGCCATGTCCCGGCTCCC-CGC-----------ACCATCGAA---ACCGGCAAACGTCGGGCGGTGGGACG--ACCCGTACC--CTGCAC----GGA-GGGTGCCAA-GGAACCGCG-AGCA-TGGACGAGG---TACAACTTTCGACAACGAAT-ATCTCGGCCTTCGTATGGACGGTAGCGTGACCAACACACGTAGCGAAA-TGCGATACGTGGTGTGAATTGCAGAATC-ACACGA-ACCATGGAGTCTT-TGAA-CGTAAGTTGCGCCCGAGG--CTATTTGGTTGAGGGCAC-AC{AC}T-G--------------------------------TAGATTGGCGTTCCACCCCCTC---GGGTGCCCCCTGGTTGGATGCGGACATTGGCCCCCTGCTCCTGGTGG--GCATGGCATGCC-----GAAGCTTGGGCCGCAGGC-AGTGCCGAGATGGTGGGTGGTGGACACA--CCCGCGATCCCATCGCCGTGCTATCGGTACACG--GCCTG---CAGC---GCCCCCCATGAACGAGACGGCTAACGGACCGGTAAATCAAACAACCACAATCAATACGAAGTCCCGGAGCGATGAGGGCCACCCCCCGCTGCGACTCCA-TAATACCTTAGTCAACCCAAAAAAA--ACAAAAAAACAAACCAAAACCA-CACACACAAACACACAACACACAAAACAC
+Mauritia_flexuosa               CGCCACCTACGATG-TCGTGA-GAAGTCCACT-GAACCTTATCATATAGAGGAAGGAGAAGTCATA----ACAAG-GTTTCCATAGGTGAACCTACG-GAA-GGATCATTGTCGAGA---CCCATGATGAGGCAA----ACCCGTG-AACATGTGAATGCCGCTCCGGCACCATCATCCGACCCCT-CGTGC---------ACCATCGAG---ACCGACGGGCATGGGGCGGTGAGAGG--ACCTAGACC--CGACGT----GGA-TTGCACCAA-GGAAAAACC-CGCC-TGCACATGG---TACAACTCTCGATAGTGGAT-ATCTCAACCCTTGCATCGAGG------------AAGAATGTAGCAAAA-TGCGATATGTGGTGTGGATTGCAGAATC-TCATGA-GCCATCAAGTCTT-TCAA-TGCAAGTTGCACCCGAGG--CCATCCGATTGAGGGCAT-GCCT-GCCTGGGCA------------------TCATGCTAGATTGGTGCTCCACCCCCTT---GGGTCCCACTTGGCCGGATGTGGATGGTGGCCCCCCATGCCCATCGG--GTGCGGCATGCC-----GAAGCATGGGCCACAGGC-GGTGTCGGGATGGTAGGTTGTGGATGCG--CCTGTGATCCCATTGCCATGACAACGATACCCA--GCCTG---TAGC---ACCCCCCGTGGACGAGACGGCTAACGGACCGGTAAATCAAACAACCACAATCAATACGAAGTCCCGGAGCGATGAGGGCCACCCCCCGCTGTGACTCCA-TAATACCTTAGTCAACCCAAAAAAA--ACAAAAAAAAAAACAGAAACCA-CCCACACAAACACACAACAAACAAAACAC
+Mauritiella_armata              CGCTGCCCACGACA-TCGTGA-AAAGTCCACT-AAACCTTAT-ATTTAGAGGAAGGAGAAGTCGTA----ACAAG-GCTTCCCTAGGTGGACCTGCG-GAA-GGATCATTGCCGAGA---CCCACGACGAGGCAG----ACCCACG-AACACGTGAATGCCACTTCGGCGCCATCGCCCGGCCCCC-CACGC---------ACCGTCGAG---ACTGGCGGGCATGGGGAGGTGGGTGG--GACCGGACC--CAGCGC----GGA-TTGTGCCAA-GGAACAAGC-TGCT-TGATCACGG---TACGACTCTCGACAATGGAT-ATCTCAGCCCTCGCATCGATG------------AAGAATGTAGCGAAA-TGTGATACGTGGTGTGAATTGCAGAATC-CTGCGA-ACCATCGAG-CTT-TGAA-TGCAAGTTGCACCCGAGG--CCATCAGGCCGAGGGCAT-GCCT-GCCTGGGCA------------------TCACACCAAATTGGTGCTCCGCCACTCC---CCCTCCCCCCTGGTCGGATGCAGATAGTGGCCCCCCGTGCCTACCGG--GCACGGCATGCC-----GAAGCATGGGCTGCAGGC-GGTGCCGGGACGATGGGTGGTGGATGCG--CCTGCAATCCCATTGCCGTGCTATCGATACTTG--ACCTA---TAGT---GCCCCCCATGGACGAGACGGCTAACGGACCGGTAAATCAAACAACCACAATCAATACGAAGTCCCGGAGCGATGAGGGCCACCCCCCGCTGCGACTCCA-TAATACCTTAGTCAACCCAAAAAAA--CCAAAAAAACAAACAGAAACCA-CACACACAAACACACAACAAACAGAACAC
+Metroxylon_sagu                 -GCCGCCCATGACG-TTGCGG-GAAG-CCACT-GAACCTTATCATTTAGAGGAAGGAGAAGTCGTA----ACAAG-GTTTTCGTAGGTGAACCTGCG-GAA-GGATCATTGCCGAGA---CCCA-AACAAGGCAG----ACCCGCA-AACACGTGAACACCGCTCCGGTGCCATCGCCCGGGCCTC-CAG-----------GCCATCGAG---ATCGACGGATGCGAAGGGGCAACAAG--ACC-GGACC--CGACAC----AGA-GGGTGCCAA-GGAACCTTG-AGCA-CGGACACGG---CAGGACTCCCAGCAACGGAT-ATCTCGGCTCTCGCATCGATG------------AAGAACATAGCGAAA-TGCGATACGTGGTGTGAATTGCAGAATC-CCGTGA-ACCATCAAGTCTT-TGAA-CGCAAGTTGCGCCCGAGG--CCATCCGGCCGAGGGCAT-GCCT-GCTTGAGCA------------------TCATGCCAA-GCGGCGCTCTTCTCCCCC---GAGTTCCCGATCACCGGATGTGAACGATGGACCCCTGCGCTGAGCAT--GCACGGCGTGTC-----GAAGTTTGGGCTGCGGGC-GGGGCCAGAGTGGAGGGTGGTGGACACG--CCCGCGATCCCGTCGCCGTGCCTTCGGTCCCCG--GGCCG---CAGG---GCCCCCGATGGACGAGATGGCTAACGTACCCGTAAATCAATCAACGACAATCAATACGAAGTCCCGGAGCGATGAGGGCCACCCCCCGCTGCGATTCCC-TAATACCTTAGCCAACCAAAAAAACACAACAAAAAA?ACCAACCACCACACCAACACCAACACACACAAAAGCAACAAA
+Metroxylon_salomonense          CGCCGCCTGCGACG-TCGCGA-GAAGTCCATT-GAACCTTATCATT-AGAGGAAG---AAGTCGAA----ACAAG-CTTTTCATAGGTGAACCTGCG-GAA-GGATCATTACCAAGA---CCCG-GACGAGGCAG----ACCCGTG-AACACATGAACGCTGCTCCGGCGCCATGGCCCGGGCCCC-TGC-----------GCCGTCGAG---ATCAGCGGATGCGAAGGGGCAGGAGG--ATC-GGACC--CGGCAC----GGA-GGGCGCCAA-GGAACCTTG-AGCA-CGGACACGG---TAGGACTCTCGGCAACAGAT-ATCTCGGCTCTCGCATCGATG------------AAGAACGTAGCGAAA-TGCGATACGTGGTGTGAATTCCAGAATC-CTGCAA-ACCATCGAGTCTT-TGAA-TGCAAGTTGCGCTCGAGG--CCATCCGACCGAGGGCAC-GCCT-GCCTGGGCG------------------TCACGCCAA-GCGGCGCTCCGCTCCCCA---GGGTTCCCGATTGCCGGACGTGGACGATGACCCCCCGCACCGAGCGT--GCGCGGCGTGCC-----GAAGTTTGGGCCACGGGC-GGGGCCGGAGCGGTGGGTGGTGGACGCG--CCCGTGATCCTACCGCCGTGCCTTAGGTCCTTG--GGCCG---TAGG---ACCACCAATGGACGAGATGGCTAACGTACCCGTAAATCAATCAACGACAATCAATACGAAGTCCCGGAGCGATGAGGGCCACCCCCCGCTGCGATTCCC-TAATACCTTAGCCAACCAAAAAAACACAACAAAAAA?ACCAACCACCACACCAACACCAACACACACAAAAGGAACAAA
+Myrialepis_paradoxa             CGTGGTCTGCGACA-TCATGA-GAAGTCCAGT-GAACCTTATCATTTAGAAGAAGGAGAAGTCATA----ACAGG-GTTTC-GTAGGTGAACTTGTG-GAA-GGATCATTACCGAGA---TCC--GACGAGGCAT----ACCCATG-AACATGTGAATGCCACTCCGGCACCATCGCCTGCCTACC-CGGCAACATGTGAATCCATCGAG---ACCGGCAGTTTCGGGGCGATGGGAGG--ACT-GGTCC--AAGCAC----GAA-AGGCATCAA-GGAACCTTG-ATCA-TGGTCACAG---TACAACTCTCAGCAATGAAT-ATCTTGGCTCTCGCATCAATG------------AAGAATGTAGCAAAA-TGTGATATGTGGTGCAAATTGCAGAATC-CCACAA-ACCATTGAGTCTT-TGAA-TGCAAGTTGTGCCCGAGG--CCATCCGACTGAGGGCAT-GCCT-GCTTGGGCG------------------CCAAGAGAA-GCGGCACTCCTCTCCCTC---AAGTTCCCGATTGCCAGACATGGACGATGGCCCCCCATGTCGAGCGC--ACGCAGCATGCC-----AAAGCTTGGGCTGCAGGC-AGGGCCGGAGTGGCAGGTGGTGGACAAG--CCCGTGATCCCGTTGCCGTGCCTTTGGACCCGA--CCCG----CAGG---GCTCACAATGGACGAGATGGCTAACGTACCCGTAAATCAATCAACGACAATCAATACGAAGTTCCGGAGCGATGAGGGCCACCCCCCGCTGCAATTCCCCTAAAACCTTAGCCAAGCAAACAAACCCAACAAAAAACAAACCAAAACCA-CACACACACACACACACAAAAGGAACAAA
+Oncocalamus_mannii              CGCCGCCCGCGACG-TCGCGA-GAAGTCCACT-GAACCTTATCATTTAGAGGAAGGAGAAGTCGTA----ACAAG-ATTTCCGTAGGTGAACCTGTG-GAA-GGATCATTGCCGAGA---CCG--GACGAGGTAG----ACCGGTG-AATGTGTTAACG-CGCCCCAGCGCCATCTCCCGACCCCC-CG------------ACCGTCGGG---AACGGCGGTCGCGGGGCGGTGGGGGGGGACC-TGACC--TGACGC----GGA-GGGTGCCAA-GGAAGCGCG-AGCA-CGTCCGCGG---TACGACTCTCGGCAATGGAT-ATCTTAGCTCTCGCATCGACG------------AAGAATGTAGCGAAA-TGCGATACGTGGTGTGAATTGCAGAATC-CCACGA-ACCATCGAGTCTT-TGAA-CGCGAGTTGCGCCCGAGG----------------------------------------------------------------------------------------------CGGTCGGATGCAGAGACTGGCCCCCCACGCCCACCGC--GCGCGGTGTTCC-----GAAGTTCGGGCCGTAGGC-GGGGCCGGAACGACGGGTGGTGGACGCA--CCTGCGAACCCATCGCCGTGCCTCCGGACCCCA--TCCCG---TAGG---TCCCACAATGGACGAGACGGCTAACGGACCCTTCAATCAAACAAT----TCCAATACGAAGTCCAGGAGCGATGAGGGCCACCCCTCGCTACGACTCCA-TAAATCCTTAACCAAGCAACAAAACAAACAAAAAAAAAAAAAAAAATACAGCCCCACAAACAC?CAAAAC?CAAACACA
+Pigafetta_elata                 CACCGCCCACAACG-TCGCGA-GAAGTCCACT-GAACCTTATCATTTAGAGGAAGGAGAAGTCGCA----ACAAG-GTTTTCGTAGGTGAACCTGCG-GAA-GGATCATTGCTGAGA---CAT--GATGAGGCAG----ACTCATG-AACACATGAACGCGGCTCC-CCGC------------------------------ACCATCGAGT--TCCATCGGATGCGGGGCACCGGGAGG--ACC-GGACC--CGGCTC----GGA-GAGCGCCAA-GGAACCTTG-AGTG-CGGGCACGG---TATGACTCTCGGCAATGGAT-ATCTCGACTCTCACATCGACG------------AATAACTTAGCAAAA-TGCAACACGTTGTGTGAATTGCAGAATC-CCATGA-GCCATTGAGTCTT-TGAA-CGCAAGTTGCGCCTGAAG--CCATCCGACCGAGGGCAT-GCCT-ACCTGGGCG------------------TCATGCCAA-GCGGCGCTCCGCTCCCCC---AGGATCCCAATTGCCAGACACGAACGATGGCCCCCCGCGCCAAGGGC--ATGCGGCATGCC-----AGAGTTTGGGCCGCAGGC-GGGGCTGGAGCGGCGGGTGGTGGACGCT--CCCGTGATCCCATCGCCATGCCTTTGGACCCCA--TCCCC---TAGG---GCCCCTGATGGACGAGATGGCTAACGTACCCGTAAATCAATCAACGACAATCAATATGAAGTTCCGGAGCGATGAGGGCCACCCCCCGCTGCGATTCCCCTAATACCTTAGCCAACCAAAAAAACACACAAAAAAACACCACCAACCCA-CCCACACAACCACACACAACAA--AAAAA
+Pigafetta_filaris               CACCACCCACGATG-TCACGA-GAAGTCCATT-GAACCTTATCATTTAGAGGAAGGAAAAGTCATA----ATAAG-GTTTCCGTAGGTGAACCTATG-GAA-GGATTATTGCTGAGA---CCC--GACGAGGCAG----ACCCATA-AACACGTGAACGCGACCCC-CTGC------------------------------GCCATCGAGA--CCCGACGGATGCAGGACGGCAAGAGG--ATC-GGACC--CGACAC----GAA-GGGTGCCAA-GGAACCTTG-AGCG-CAATCACGG---TATGACTC--AGCAATAGAT-ATCTCGGCTCTCGCATTGACG------------AAGAACGTAGCGAAA-TATGACATGTGGTATGAATTATAGAATC-CCGCGA-GCCATCGAGTCTT-TGAA-TGCAAGTTGCACCCGAGG--CCATCCGACCGAGGGCAT-GCCT-GCTTGGGCA------------------TCACGCCAA-GCAGTGCTCCACTCCTTT---AGGATCTCGATTGCCGGACATGAACAATGGCCCCTTGCACCAAGTGT--GCGTGGCATACC-----GAAGTTTGGGCCACGTGT-GGGGCCGGAGCAATGGGTGGTGGATTCA--CCTGTGATTCTGTTGCCTTGCCTTCGAACCCCA--TCCCC---TAGG---GCCCCTAATGGACGAGATGGCTAACGTACCCGTAAATCAATCAACGACAATCAATATGAAGTTCCGGAGCGATGAGGGCCACCCCCCGCTGCGATTCCCCTAATACCTTAGCCAACCAAAAAAACACACAAAAAAACACCACCAACCCA-CCCACACAACCACACACAACAA--AAAAA
+Plectocomia_elongata            ----CGCCGCGACG-TCGTGA-GAAGTCCACT-GAACCTTATCATTTAGAGGAAGGAGAAGTCGTA----ACAAG-GTTTCCGTAGGTGAACCTGTG-GAA-GGATCATTGCCGAGA---CTT--GATGAGGCAT----AGCCGCA-AACAAGTGTACAC---------------GCCCGCCTCCC-CGC-----------ATCACGGGG---ACCGGCAATTCTGGGTTGGCGGGAGG--ACC-AGACC--CGGCAC----GGA-GGGCACCAA-GGAAA-----AGCT-CGATCATGG---TACAACTCTCGGCAATGGAT-ATCTCAGCTCTCACATCGATG------------AAGAATGTAGTGAAA-AGCGATAAGTGGTGCGAATTGCAGAATC-TCGTGA-ACCATCGAGTCTT-TGAA-CGCAAGTTGCACCTGAGG--CCATCCGATCGAGGGCAC-GCCT-GCTCGGGCG------------------TCGAGCCCA-ACATCGCTCAGCTCCCTT---GGGTTCCCGATTTTTGGATGCGGACGATGGCCCCCTGCACCGAGCAT--GTGCGGCATGCC-----GAAGATTGGGCCGCAGGC-GGGGCCGGAGTGGCGGTTGGTGGATGCGTGACCCTGATTTCATCACCGTGCCTTTGGACCCCG--ACCCG---CAGG---GCTTGCAATGGACGAGATGGCTAACGTTACCGTAAATCAATCAACGACAATCAATACGAAGTCCCGGAGCGATGAGAGCCACCCCCTGCTGCGATTCCCCTAATACCTTAGCCAAGCAAACAAACCCAACAAAAAACCACCCGAAACCA-CCCACACAAACACACACAAAAGGAACAAA
+Plectocomia_mulleri             CGCCACCCATGACG-TCTTGA-GAAGTCCACT-GAACCTTATCATTTAGAGGAAGGAGAAGTTGTA----ACAAG-GTTTCCGTAGGTGAACCTACG-GAA-GGATCATTGCCGAGA---CCC--GATGAGGCAT----AGCCGCG-AACAAGTGAATGCCACTCCGGAGCCATCGCCCGCCTCCC-CGT-----------GCAGTGGGG---ATCAGCGGTTGCAGGTTGGCGGGAGG--ACC-ATACC--CAACGC----GGA-GGGCACCAA-GGAAA-----AGCT-CGATCACGG---TACGACTCTCGGCAATGGAT-ATCTTGGCTCTGGCATCAACG------------AAGAATGTAGCAAAA-TGCGATACATGGTTCAAATTGTAGAATC-CCACGA-ACCATCGAGTCTT-TGAA-TGCAAGTTGGGCCCGAGG--CCATCAGGTCGAGGGCAT-GCCT-GCCTGGGCG------------------CCGAGCCCA-GCGTCGCTCCACTCCCTT---GGGTTCCCGATTGCTGGACGTGGACGATGGCCCCCCGCGCTGAGCGC--ATGCGGCGTGCC-----AAAGATTGGGCCGCAGGC-GAGGCCGGAGCGGCGGGTGGTGGACGTGTGACCCCGATCCCATCGTCGTGCCTTCGGACCCTG--GCCCA---CAGG---GCTCGCAATGGACGAGATGGCTAACGTTACCGTAAATCAATCAACGACAATCAATACGAAGTCCCGGAGCGATGATAGCCACCCCCTGCTGCGATTCCCCTAATACCTTAGCCAAGCAAACAAACCCAACAAAAAACCACCCGAAACCA-CCCACACAAACACACACAAAAGGAACAAA
+Plectocomiopsis_geminiflora     -------CGCAACA-TCATGA-GAAGTCCACT-CAACCTTATCATTTAGATGAAGGAGAAGTCGTA----ACAAG-GTTTATGTAGGTGAACCTACG-GAA-GGATCATTGTCGAGA---CCT--GACGAGGCAT----ACCCGTG-AACACATGAACGCCACTTTGGCACCATCACCCACCTCCC-CGA-----------GCAGTGGAGACCACCAGCAGTGGTGGGTTGGCAGAAGG--ATC-AGACC--CAGCAT----GGA-GGGCACAAA-GGAACCTTG-ATCG-TGGTCACGG---TATGAATCTTGGCAATAGAT-ATCTTGGCTCTCGCATCGACG------------AAGAATGTAGTGAAA-TGTGATACATGGTGTGAATTGCAAAATC-CCTCGA-ACCATTGAGTCAT-TGAA-TGCAAGTTGTGCCTGAGG--CCATCTG-TCGAGGGCAC-GCCT-ACCTGGGCA------------------TTGAGCCAA-GCGGTGCTCCACTCCCTC---GGGTTCCCGATTGCTGGATGCAAATGATAGCTTCTAATGCTAAGCAT--GCACGGCATGCC-----AACGATTTGGCCGCAGGT-GGGGCCAGAGTGGCAAGTGGTGGATGCACGCCCATAATCCCGTCGTCATGTCTTCGAACCCCA--TACCG---CATG---GCTCGCAATGGACGAGATGGCTAACGTCCCCGTAAATCAATCAACGACAATCAAAACGAAGTCCCGGAGCGATGAGAGCCACCCCCCGCTGCGATTCCCTTAATACCTTAGCCAAGCAAACAAACCCAACAAAAAACAAACCAAAACCA-CACACACACACACACACAAAAGGAACCAC
+Pogonotium_ursinum              TGCCGCTTATGACG-TCACAA-GAAGTCCACT-GAACCTTATCATT-AGAGAAATGTGAAGTCGTA----ACAAG-GTTTCCGTAGGTGAACCTGTG-GAA-GGATCATTGCCGAGA---CCC--GATGAGCCAA----ACCCGCG-AACACGTGAACTCCGCTCCGGCTTAATCGCCCGGACCCC-TGC-----------GCCATCGAG---ACCGGCGACCACGGGGCGGCGGGAGG--ACCCGGACC--CGACGCCCTTGGA-GGGCACCAA-GTAACCTTG-AGCA-CGGACATGG---TACAACTCTCAGCAATGGAT-ATCTCATCTCTCACATCGATG------------AAGAACGTAGCGAAA-TGCGATACATGATGCGAATTGCAGAATC-TCGTGA-ACCATCGAGTCTT-CGAA-TGCAAGTTGCGCCTGAGG--CCATCCGGCCGAGGGCAC-GCTT-GCCTGGGCA------------------CCAACCCAA-GCAGCGCTTCGCTCCACC---GAGTTCCCTATTGTCGGATGCGGACAATGGCACCCTGCACCGAGCGC--ATGCGGCATGCC-----AAAGATTGGGCCGCAGGCTGGGGCCGGAGCGGCGGGTGGTGGACGCA--CTTGCGATCCCATCGTCGTGCCTCCGAACCCTG--GCCCT---TAGG---GCCCGCAATGGACGAGATGGTTAACGTACCCGTAAATCAATCAACGACAATCAATACGGAGTTCCGGAGCGATGAGGGCCACCCCCCGCTGCGATTCCCCTAATACCTTAGTCAAGCAAAAAACCCCACGAACACCCAAACCAAAACCCCCACACACCACCACACACAAAACCGACAAA
+Raphia_farinifera               CACCACCTGTAACACTCGAGA-GAA-TCCACT-AAACCTTATCATTTAGAGGAAGGAGAAGTTGTA----ACAAG-GTTTTCGTAGGTGAACCTGTG-GAA-GGATCATTGTTGAGA---CCC--GAGGAGGCAG----ACCTGTG-AACACATGAACACTACTCTGGAGGGATGGCCCGACCCCC-TAC-----------ATCATTGAG---ATCGGTGGACATGGGGCAGCGGGAGG--TCT-GCAACC-CGGCAC----GGA-GGGTGCTAA-GGAACCTCG-AGCA-TGGACAAGG---CATGACTCTCGGCAATGGAT-ATCTTGGCTCTTGCATCGATG------------AAGAATGTAGCAAAA-TGTGATACATGGTCTGAATTGTAGAATC-CCATGA-TCCATCAAGTCTT-TGAA-TGCAAGTTGCACCTGAGG--CCATCCGACTGAGGGCAT-GCCT-ACCTGGGCG------------------TCATGCCTCTCCTATGCTCCACACCCCC---AAGGCCCTGATGGACGGATGTGAGCACTGGCCCCC----------AT--GAAAGGTGTGTC-----GAAGCTTGGGCCACAGGT-GGGTCCGTAACTACGGGTTGTGGACACG--CCCACGATCCCATCGTCGTGCCATAGGACCTTG--GCCTG---TAGG---GCCCCCAATGGACGAGACGGCTAAATGACCGGTAAATCAAATAACCACAA---ATCGGAAGTCCCGGAGTAATGAGGGCCACTCCCCGCTGCGACTCCA-TAATACCATAGCCAACCAAAAAAAA--AAAAAAAAAAAAAAAAAAACACACCCCCACAAACACACAAACCACAAACAAA
+Retispatha_dumetosa             TGCCACCTGCGACA-TCGCGA-GAAGTCCAGT-GAACCTTATCATTTAGAGGAAGGAGAAGTCATA----ACAAG-GTTTCCGTAGGTGAACCTACG-GAA-GGATCAATGCCAAGA---CCC--GATGAGCCAT----ACCCATG-AACACGTGAACTCTGCTCCGACACCATCGCCCGGACCCC-CGC-----------GCCATTGAG---ACCAGTGGCTGCAGGGCAGCAGGAGG--ACC-AGACC--CAACGT----GGA-GGGCACCAA-GGAACCTTG-AGCG-CGGACATGG---TACGACTCTCAAAAATGGAT-ATCTCGGCTCTTGCATCGATG------------AAGAATGTAACAAAA-TGCGATACATGGTGCGAATTGCAGAATC-CCATGA-ATCATTGAGTCTT-CGAA-TGCAAGTTGCACCCGAGG--CCATCTGGCCGAGGGCAT-GCCT-GCTTGGGCA------------------CCAACCCAA-GCAGCGCTCCGCTCCCCC---GAGTTCCCTATTGCTGAATGCGGATGATGGCCCCCTGTGCCGAGCGT--GCG{AT}GGCGTGCC-----AAAGATTGGGCCG{AC}AGGC-TGGGCCAGAAGGTCGGATGGTGGATGCG--CCCGCAATCCCATAGTCATGCCTCCGGACATCG--GCCCT---TAGG---GCTTGCAATGGACGAGATGGTTAACGTACCCGTAAATCAATCAACGACAATCAATACGAAGTTCCGGAGCGATGAGGGCCACCCCCCGCTGCGATTCCCCTAATACCTTAGCCAAGCAAAAAAACCCACGAACACACCAACCAAAACCA-CACACACCACCACACACAAAAGGAACACA
+Salacca_glabrescens             CGCCGCTCGCGACG-TCGCCA-GAAGTCCACT-GAACCTTATCATTTAGAGGAAGGAGAAGTCGTA----ACAAG-GTTTCCGTAGGTGAACCTGCG-GAA-GGATCATTGCTGAGA---CCC--GAGGAGGCAAG---ACCCGCG-AACACGTGAATGTGTCTCCGGCGCCATCTATCGGCCCCC-GGC-----------ACCGCCAAG---ACCGTCGGACTTGGGGCGTTGGGAGG--ATC-GGAAC--CGGCGC----GGA-AGGCGCCAA-GGAACGTTG-AGCG-CGGACACTG---TACGACTCTCGGCAACGGAT-ATCTCGGCTCTCGCATCGACG------------AAGAACGTAGCGAAA-TGCGATACGTGGTGTGAATTGCAGAATC-CCGCGA-ACCACCGAGTCTT-TGAA-CGCAAGTTGCGCCCGAGG--CCATCCGGCGGAGGGCAC-GCCT-GCCTGGGCG------------------TCACGCCAA-GCGGCGCTCCGGTTCCCC---CTGTTCCAGATTGTCGGACGCGGAGGATGGCCCCCTGCGCCGAAGGC--GCGTGGCGCGCC-----GAAGTTTGGTCCGCAGGC-GGGGCCGGCACGGCGGGTGGTGGACTGT--CCCTCGATCCCGTCGCCGTTCCTTCGGACCCCG--GCCTG---CAGG---GCCCTCGATGGACGAGATGGCTAACGTACCCGTAAATCAATCAACGACAATCTATACGAAGTCCCGGATCGATGAGGGCCACCCCCCGCTGCGATTCTC-TAATACCTTAGCCAAACAAAAAAACACACACAAACACACCAACCAACCCCCCCACACAACCACACACAAAAGGAACACA
+Salacca_ramosiana               CGCCGCTCGCGACG-TCGCCA-GAAGTCCACT-GAACCTTATCATTTAGAGGAAGGAGAAGTCGTA----ACAAG-GTTTCCGTAGGTGAACCTGCG-GAA-GGATCATCGCCGAGA---CCC--AAGGAGGCAAG---ACCCGCG-AACATGTGAACGCGTCTCCGGCGCCATCAATCGGCCCCC-GGC-----------ACCGCCGAA---ACCGTCGGACTCGGGGCGTTGGGAGG--ATC-GGAAC--CGGCGC----GGA-AGGCGCCAA-GGAACGTTG-AGCG-CGGACACTG---TACGACTCTCGGCAACGGAT-ATCTCGGCTCTCGCATCGACG------------AAGAACGTAGCGAAA-TGCGATACGTGGTGTGAATTGCAGAATC-CCGTGA-ACCACCGAGTCTT-TGAA-CGCAAGTTGCGCCCGAGG--CCATCCGGCCGAGGGCAC-GCCT-GCCTGGGCG------------------TCACGCCAA-GCGGCGCTCCGGTTCCCC---CTGTTCCAGATTGTCGGACGCGGAGGATGGCCCCCTGCGCCGAAGGC--GCGTGGCGTGCC-----GAAGTTTGGTCCGCAGGC-GGGGCGGGCACGGCGGGTGGTGGACTGT--CCCGCGATCCCGTCGCCGTGCCTTCGGACCCCG--GCCTG---CAGG---GCCCTTGATGGACGAGATGGCTAACGTACCCGTAAATCAATCAACGACAATCTATACGAAGTCCCGGATCGATGAGGGCCACCCCCCGCTGCGATTCTC-TAATACCTTAGCCAAACAAAAAAACACACACAAACACCACAACCACCCA-CCCACACAACCACACACAAAAGGAACACA
+Salacca_rupicola                CGCCGCTCGCGACG-TCGCCA-GAAGTCCACT-GAACCTTATCATT-AGAGGAAGGAGAAGTCGTA----ACAAG-GTTTCCGTAGGTGAACCTGCG-GAA-GGATCATTGCCGAGA---CCC--GAGGAGGCAAG---ACCCGCG-AACACGTGAACGCGTCTCCGGCGCCATCTATCGGCCCTC-GGC-----------ACCGCCGAG---ACCGTCGGACTTGGGGCGTTGGGAGG--ACC-GGAAC--CGGCGC----GGA-AGGCGCCAA-GGAACGTTG-AGCG-CGGACACTG---TACGACTCTCGGCAACGGAT-ATCTCGGCTCTCGCATCGACG------------AAGAACGTAGCGAAA-TGCGATACGTGGTGTGAATTGCAGAATC-CCGCGA-ACCACCGAGTCTT-TGAA-CGCAAGTTGCGCCCGAGG--CCATCCGGCCGAGGGCAC-GCCT-GCCTGGGCG------------------TCACGCCAA-GCGGCGCTCCTGTTCCCC---CTGTTCCAGATTGTCGGACGCGGAGGATGGCCCCCTGCGCCGAAGGC--GCGTGGCGTGCC-----GAAGTTTGGTCCGCAGGC-GGGGCGGGCACGGCGGGTGGTGGAGTGT--CCCGCGATCCCGTCGCCGTGCCTTCGGACCCCG--GCCTG---CTGG---GCCCTCGATGGACGAGATGACTAACGTACCCGTAAATCAATCAACGACAATATATACGAAGTCCCGGATCGATGAGGGCCACCCTCCGCTGCGATTCTC-TAATACCTTAGCCAAACAAAAAAACACACACAAACACACCAACCACCCCCCCCACACAACCACACACAAAAGGAACACA
+;
+END;
+
+BEGIN SETS;
+	CHARSET rps16 (CHARACTERS = Baker2.nex) =  703-808;
+	CHARSET its (CHARACTERS = Baker2.nex) =  1-702;
+	CHARSET morphology (CHARACTERS = Baker2.nex) =  809-874;
+END;
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M2209]
+
+	TITLE Baker3.nex;
+	LINK TAXA = Taxa3;
+	DIMENSIONS NCHAR=66;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2 3" MISSING=? GAP= -;
+	CHARSTATELABELS
+		1  Aerial_branching / absent present,
+		2  Dichotomous_branching / absent present,
+		3  Internode_length / extremely_short moderate elongate,
+		4  Lamina_splitting / adaxial abaxial,
+		5  Lamina_division / pinnate palmate,
+		6  Leaflet_margin / entire praemorse,
+		7  Cirrus_with_acanthophylls / absent present,
+		8  Cirrus_without_acanthophylls / absent present,
+		9  Subcirrus / absent present,
+		10  Flagellum / absent present,
+		11  Knee / absent present,
+		12  Rachis_and_cirrus_spines / absent present,
+		13  Spine_modification / simple 'grapnel-like',
+		14  Spine_organisation / not_organised organised,
+		15  Root_spines / absent present,
+		16  Reproductive_strategy / hapaxanthic pleonanthic,
+		17  Inflorescence_adnation / free adnate_internode adnate_internode_sheath,
+		18  Inflorescence_capturing / not_captured captured,
+		19  Rachis_bract_shape / tubular incomplete,
+		20  Primary_bract_armature / unarmed armed,
+		21  Primary_bract_persistence / persistent caducous,
+		22  Prophyll_splitting / apical abaxial_or_adaxial lateral,
+		23  Prophyll$rachis_ratio / prophyll_shorter_than_rachis prophyll_exceeding_rachis,
+		24  Adnation_of_first_order_branch / free adnate_to_rachis_above_bract,
+		25  Bract_subtending_rachilla / shorter_than_rachilla exceeding_rachilla,
+		26  Rachilla_stalk / absent present,
+		27  Rachilla_bract / tubular incomplete,
+		28  Proximal_rachilla_bracts / empty subtending_flower_cluster,
+		29  Distal_rachilla_bracts / empty subtending_flower_cluster,
+		30  Rachilla_bract_arrangement / 'distichous (including subdistic' spiral distichous_and_spiral,
+		31  Rachilla_bract_fusion / free connate_laterally,
+		32  Pedicelliform_involucrophore / absent present,
+		33  Floral_bracteole_abaxial_surfac / glabrous hairy,
+		34  Flower_cluster / strictly_solitary dyad triad complex,
+		35  Dioecy / absent present,
+		36  Terminal_flower_in_pistillate_a / absent present,
+		37  Terminal_flower_in_pistillate_a / fertile sterile,
+		38  Terminal_flower / hermaphrodite male female,
+		39  Lateral_flower_in_staminate_and / absent present,
+		40  Lateral_flower / hermaphrodite unisexual,
+		41  Fertile_staminate_and_pistillat / not_in_single_rachilla in_single_rachilla,
+		42  Perianth_differentiation / tepals sepals_and_petals,
+		43  Flower_opening / congenitally_closed congenitally_open,
+		44  Stamen_number / 3 6 '>6',
+		45  Anther_attachment / 'medifixed (including basifixed)' dorsifixed,
+		46  Anther_dehiscence / latrorse introrse extrorse,
+		47  Stigmas / pyramidal divergent,
+		48  Gynoecium / apocarpous syncarpous,
+		49  Ovary_locule_partitioning / incomplete complete,
+		50  Ovule_orientation / not_twisted twisted_on_funicle,
+		51  Ovule_form / anatropous hemianatropous,
+		52  Epicarp_scales / absent present,
+		53  Endocarp / absent 'present (inner carpel wall)' 'present (mid-fruit layer)',
+		54  Sarcotesta / absent present,
+		55  Knob_on_seed_apex / absent present,
+		56  Endosperm / homogeneous ruminate,
+		57  Embryo_position / basal lateral,
+		58  Germination / adjacent_ligular remote_ligular,
+		59  Aperture_number / 0 1 2 3,
+		60  Aperture_position / polar subequatorial equatorial meridional,
+		61  Aperture_type / sulcate extended_sulcate porate trichotomosulcate,
+		62  Symmetry / symmetric assymetric,
+		63  Shape / spheroidal ellipsoidal oblate_spheroidal oblate_rounded_triangular,
+		64  Tectum / 'tectate (including semitectate)' intectate,
+		65  Supratectate_processes / absent present,
+		66  Intectate_processes / absent present,
+		;
+
+MATRIX
+[                                       10        20        30        40        50        60         ]
+[                                        .         .         .         .         .         .         ]
+Asterogyne_martiana             00{01}100000000--010010010000111100020-----11020111101010000010011000
+Calamus_castaneus               0001000000011101200{01}0001000110000111110101011011010101000022001000
+Calamus_conirostris             002100001111110120010001000110000111110101011011010101010022001000
+Calamus_deerratus               002100000111100120010001000110000111110101011011010101000022001000
+Calamus_hollrungii              002100010011100120000001000110000111110101011011010101010022001000
+Calamus_nanodendron             000100000001000120010001000110000111110101011011010101010022001000
+Calamus_thysanolepis            0011000000011001200000010001100001111101010110110101010000220010?0
+Calospatha_scortechinii         002100001011110120010101000110000111110101011011010101000022001000
+Ceratolobus_concolor            0021010100111101200{01}0211000110000111110101011011010101010022001000
+Ceroxylon_quindiuense           001100000000--010010000?00111100001-----01120011101010001010001000
+Daemonorops_didymophylla        002100010011110120011101000110010111110101011011010101010022001000
+Daemonorops_fissa               002100010011110120010111000110010111110101011011010101010022001010
+Eleiodoxa_conferta              00010000000101000000010001100110111111110101001101010100{01}021201000
+Eremospatha_wendlandiana        0021011000011001?0100-01001100000101001001010001010100001010101000
+Eugeissona_tristis              0001000000010000100{01}0001000001000101011001020001010120000110101000
+Eugeissona_utilis               001100000001001010000001000001000101011001020001010120000110101000
+Kerriodoxa_elegans              00{01}010000000--010000010100011100001-----01010011100010010110001000
+Korthalsia_cheb                 102101010001110010000001011001101100--1001010001010100011022?0?101
+Laccosperma_acutiflorum         002100100001100000000000000010000101001001010001010100001010001000
+Laccosperma_opacum              102100100001100000000000000010000101001001010001010100001010001000
+Lepidocaryum_tenue              001110000000--0100000001000110000110-10101010001010100101010000101
+Mauritia_flexuosa               001110000000--0100000000000102000110-11101010001010100100010000101
+Mauritiella_armata              001110000000--1100000001000102000110-10101010001010100100010200101
+Metroxylon_sagu                 00110000000101001000000?011001101101011001011001010101000021001000
+Metroxylon_salomonense          00110000000101001000000?011001101101011001011001010101000022001000
+Myrialepis_paradoxa             002100010001110010000001000110000110-10101010101010101000022001000
+Oncocalamus_mannii              00210010000100010000000000000000030102111101000101?100001?10001010
+Pigafetta_elata                 001100000001010100000001011011001110-1110101001101010100100--00000
+Pigafetta_filaris               001100000001010100000001011011001110-1110101001101010100100--00000
+Plectocomia_elongata            002100010001110010000001101112000110-11101010001010101000022001000
+Plectocomia_mulleri             002100010001110010000001101112000110-11101010001010101000022001000
+Plectocomiopsis_geminiflora     002100010001110010000001000110000110-10101010101010101000022001101
+Pogonotium_ursinum              002100000011110120010111000110000111110101011011010101000011201000
+Raphia_farinifera               001100000000--0000000000000000000101011111010001010100011010001000
+Retispatha_dumetosa             002100000001110120010101100110000110-10101011011010101000022001010
+Salacca_glabrescens             000100000001010101000101011001100111111101010011010101000022001010
+Salacca_ramosiana               000100000001010101000101101001101110-11101010011010101000022001010
+Salacca_rupicola                000100000001010101000101011001101111111101010011010101000022001010
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb5615;
+      LINK TAXA = Taxa3;
+         TRANSLATE
+            1    Calamus_castaneus,
+            2    Calamus_conirostris,
+            3    Calamus_deerratus,
+            4    Calamus_hollrungii,
+            5    Calamus_nanodendron,
+            6    Calamus_thysanolepis,
+            7    Calospatha_scortechinii,
+            8    Ceratolobus_concolor,
+            9    Daemonorops_didymophylla,
+            10   Daemonorops_fissa,
+            11   Pogonotium_ursinum,
+            12   Retispatha_dumetosa,
+            13   Myrialepis_paradoxa,
+            14   Plectocomia_elongata,
+            15   Plectocomia_mulleri,
+            16   Plectocomiopsis_geminiflora,
+            17   Eleiodoxa_conferta,
+            18   Salacca_glabrescens,
+            19   Salacca_ramosiana,
+            20   Salacca_rupicola,
+            21   Korthalsia_cheb,
+            22   Metroxylon_sagu,
+            23   Metroxylon_salomonense,
+            24   Pigafetta_elata,
+            25   Pigafetta_filaris,
+            26   Eugeissona_tristis,
+            27   Eugeissona_utilis,
+            28   Laccosperma_acutiflorum,
+            29   Laccosperma_opacum,
+            30   Oncocalamus_mannii,
+            31   Eremospatha_wendlandiana,
+            32   Raphia_farinifera,
+            33   Lepidocaryum_tenue,
+            34   Mauritia_flexuosa,
+            35   Mauritiella_armata,
+            36   Kerriodoxa_elegans,
+            37   Ceroxylon_quindiuense,
+            38   Asterogyne_martiana;
+      TREE Fig._2 = [&R] (37,((36,38),((26,27),((30,(31,(28,29))),(32,(33,(34,35))),((21,(22,23),(24,25),(17,(19,(18,20)))),(((13,16),(14,15)),((1,6),((3,(4,5)),((11,12),((2,7),(9,(8,10))))))))))));
+      TREE Fig._3 = [&R] (37,((36,38),((26,27),(((30,(31,(28,29))),(32,(33,(34,35)))),(((21,(22,23)),((24,25),(17,(19,(18,20))))),(((13,16),(14,15)),((1,6),((3,(4,5)),((11,12),((2,7),(9,(8,10))))))))))));
+
+
+
+END;
+BEGIN TREES;
+      TITLE Tb5613;
+      LINK TAXA = Taxa2;
+         TRANSLATE
+            1    Eugeissona_tristis,
+            2    Eugeissona_utilis,
+            3    Laccosperma_acutiflorum,
+            4    Laccosperma_opacum,
+            5    Oncocalamus_mannii,
+            6    Eremospatha_wendlandiana,
+            7    Raphia_farinifera,
+            8    Lepidocaryum_tenue,
+            9    Mauritia_flexuosa,
+            10   Mauritiella_armata,
+            11   Kerriodoxa_elegans,
+            12   Ceroxylon_quindiuense,
+            13   Asterogyne_martiana,
+            14   Calamus_castaneus,
+            15   Calamus_conirostris,
+            16   Calamus_deerratus,
+            17   Calamus_hollrungii,
+            18   Calamus_nanodendron,
+            19   Calamus_thysanolepis,
+            20   Calospatha_scortechinii,
+            21   Ceratolobus_concolor,
+            22   Daemonorops_didymophylla,
+            23   Daemonorops_fissa,
+            24   Pogonotium_ursinum,
+            25   Retispatha_dumetosa,
+            26   Myrialepis_paradoxa,
+            27   Plectocomia_elongata,
+            28   Plectocomia_mulleri,
+            29   Plectocomiopsis_geminiflora,
+            30   Eleiodoxa_conferta,
+            31   Salacca_glabrescens,
+            32   Salacca_ramosiana,
+            33   Salacca_rupicola,
+            34   Korthalsia_cheb,
+            35   Metroxylon_sagu,
+            36   Metroxylon_salomonense,
+            37   Pigafetta_elata,
+            38   Pigafetta_filaris;
+      TREE Fig._2 = [&R] (12,((11,13),((1,2),((5,(6,(3,4))),(7,(8,(9,10))),((34,(35,36),(37,38),(30,(32,(31,33)))),(((26,29),(27,28)),((14,19),((16,(17,18)),((24,25),((15,20),(22,(21,23))))))))))Calamoideae))Arecaceae;
+      TREE Fig._3 = [&R] (12,((11,13),((1,2),(((5,(6,(3,4))),(7,(8,(9,10)))),(((34,(35,36)),((37,38),(30,(32,(31,33))))),(((26,29),(27,28)),((14,19),((16,(17,18)),((24,25),((15,20),(22,(21,23))))))))))Calamoideae))Arecaceae;
+
+
+
+END;
+BEGIN TREES;
+      TITLE Tb5612;
+      LINK TAXA = Taxa2;
+         TRANSLATE
+            1    Eugeissona_tristis,
+            2    Eugeissona_utilis,
+            3    Laccosperma_acutiflorum,
+            4    Laccosperma_opacum,
+            5    Oncocalamus_mannii,
+            6    Eremospatha_wendlandiana,
+            7    Raphia_farinifera,
+            8    Lepidocaryum_tenue,
+            9    Mauritia_flexuosa,
+            10   Mauritiella_armata,
+            11   Kerriodoxa_elegans,
+            12   Ceroxylon_quindiuense,
+            13   Asterogyne_martiana,
+            14   Calamus_castaneus,
+            15   Calamus_conirostris,
+            16   Calamus_deerratus,
+            17   Calamus_hollrungii,
+            18   Calamus_nanodendron,
+            19   Calamus_thysanolepis,
+            20   Calospatha_scortechinii,
+            21   Ceratolobus_concolor,
+            22   Daemonorops_didymophylla,
+            23   Daemonorops_fissa,
+            24   Pogonotium_ursinum,
+            25   Retispatha_dumetosa,
+            26   Myrialepis_paradoxa,
+            27   Plectocomia_elongata,
+            28   Plectocomia_mulleri,
+            29   Plectocomiopsis_geminiflora,
+            30   Eleiodoxa_conferta,
+            31   Salacca_glabrescens,
+            32   Salacca_ramosiana,
+            33   Salacca_rupicola,
+            34   Korthalsia_cheb,
+            35   Metroxylon_sagu,
+            36   Metroxylon_salomonense,
+            37   Pigafetta_elata,
+            38   Pigafetta_filaris;
+      TREE Fig._4 = [&R] (12,((11,13),((1,2),(((5,(6,(3,4))),(7,(8,(9,10)))),((30,(32,(31,33))),((37,38),((34,(35,36)),(((26,29),(27,28)),((14,19),(25,((16,(17,18)),((15,20),(22,(23,(21,24)))))))))))))Calamoideae))Arecaceae;
+
+
+
+END;
+BEGIN TREES;
+      TITLE Tb5614;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Laccosperma_acutiflorum,
+            2    Eremospatha_wendlandiana,
+            3    Oncocalamus_mannii,
+            4    Eugeissona_utilis,
+            5    Metroxylon_salomonense,
+            6    Metroxylon_sagu,
+            7    Korthalsia_cheb,
+            8    Eleiodoxa_conferta,
+            9    Salacca_ramosiana,
+            10   Salacca_glabrescens,
+            11   Daemonorops_fissa,
+            12   Daemonorops_didymophylla,
+            13   Calamus_hollrungii,
+            14   Calamus_ornatus,
+            15   Calamus_warburgii,
+            16   Calospatha_scortechinii,
+            17   Pogonotium_ursinum,
+            18   Ceratolobus_concolor,
+            19   Retispatha_dumetosa,
+            20   Myrialepis_paradoxa,
+            21   Plectocomiopsis_geminiflora,
+            22   Plectocomia_mulleri,
+            23   Pigafetta_elata,
+            24   Raphia_farinifera,
+            25   Mauritia_flexuosa,
+            26   Mauritiella_armata,
+            27   Lepidocaryum_tenue,
+            28   Nypa_fruticans,
+            29   Kerriodoxa_elegans,
+            30   Ceroxylon_quindiuense,
+            31   Asterogyne_martiana;
+      TREE Fig._1 = [&R] (28,((29,(30,31)),((27,(25,26)),(24,((3,(1,2)),(4,(7,((5,6),((8,(9,10)),(23,(22,((20,21),(13,(15,((14,16),19,(17,(18,(11,12))))))))))))))))Calamoideae))Arecaceae;
+
+
+
+END;

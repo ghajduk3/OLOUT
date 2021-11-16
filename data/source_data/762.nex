@@ -1,0 +1,153 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:38 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Lee S., Lee I., & Suh Y. 2005. Molecular evidence for recognizing Antithamnion sparsum
+(Ceramiales, Rhodophyta) at the species level. Phycologia, 44: 530-535.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S1511]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=11;
+        TAXLABELS
+            Antithamnion_aglandum
+            Antithamnion_callocladum
+            Antithamnion_defectum
+            Antithamnion_kylinii
+            Antithamnion_nipponicum
+            Antithamnion_sparsum_ASB
+            Antithamnion_sparsum_ASM
+            Antithamnion_sparsum_ASW
+            Antithamnionella_sp_ATN
+            Antithmanion_densum
+            Platythamnion_yezoense
+            ;
+END;
+
+BEGIN TAXA;
+        TITLE  Taxa2;
+        DIMENSIONS NTAX=11;
+        TAXLABELS
+            Antithamnion_aglandum
+            Antithamnion_callocladum
+            Antithamnion_defectum
+            Antithamnion_densum
+            Antithamnion_kylinii
+            Antithamnion_nipponicum
+            Antithamnion_sparsum_ASB
+            Antithamnion_sparsum_ASM
+            Antithamnion_sparsum_ASW
+            Antithamnionella_sp_ATN
+            Platythamnion_yezoense
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M1112]
+
+	TITLE Rubisco_spacer;
+	LINK TAXA = Taxa2;
+	DIMENSIONS NCHAR=111;
+	FORMAT DATATYPE=DNA SYMBOLS= "A C G T" MISSING=? GAP= -;
+
+MATRIX
+[                                    10        20        30        40        50        60        70        80        90        100       110 ]
+[                                     .         .         .         .         .         .         .         .         .         .         . ]
+Antithamnion_aglandum        -AAGACTGTTTGTCTTTTATATTATTTGTTT--ATATTTTGCGTAAGCTTAGTCAATCAAAACATATTAAAATATTAATAATTGCTTAATCACCATAAGGAGTATATACTA
+Antithamnion_callocladum     -AAGACTGTTTGTCTTTTATATTATTTGTTT--ATATTTTGCGTAAGCTTAGTCAATCAAAACAGATTAAAACATTAATAATTGCTTAATAACCATAAGGAGTATATAATA
+Antithamnion_defectum        AAAAAATATTGAG--ATTTTATTATTTTTTTT-ATATTTTAAGCAAGCTTAGTCAATCAAAACATATTAAAGCATTAATAATTGTTTAATCACCATAAGGAGTATACACTA
+Antithamnion_densum          AAAAAATATTG-----TTT-ATTATTTTTTT--ATATTTTAAGCAAGCTTAGTCAATCAAAACATATTAAAACATTAATAATTGTTTAATCACCATAAGGAGTATATACTA
+Antithamnion_kylinii         AAAAAATATTGAG--ATTTTATTATTTTTTTT-ATATTTTAAGCAAGCTTAGTCAATCAAAACATATTAAAACATTAATAATTGTTTAATCACCATAAGGAGTATATACTA
+Antithamnion_nipponicum      -AAGACTGTTTCTCTTTTATATTATTTGTTT--ATATTTTGCGTAAGCTTAGTAAATCAAAACATATTAAAATATTAATAATTGCTTAATCACCATAAGGAGTATATACTA
+Antithamnion_sparsum_ASB     AAAAAATATTAAG--ATTTTATTATTTTTTTT-ATATTTTCAGCACGCTTAGTCAAGCAAAACATATTAAAGCATTAATAATTGTTTAATCACCATAAGGAGTATACACTA
+Antithamnion_sparsum_ASM     AAAAAATATTAAG--ATTTTATTATTTTTTTT-ATATTTTCAGCACGCTTAGTCAAGCAAAACATATTAAAGCATTAATAATTGTTTAATCACCATAAGGAGTATACACTA
+Antithamnion_sparsum_ASW     AAAAAATATTAAG--ATTTTATTATTTTTTTT-ATATTTTCAGCACGCTTAGTCAAGCAAAACATATTAAAGCATTAATAATTGTTTAATCACCATAAGGAGTATACACTA
+Antithamnionella_sp_ATN      ----AATCTTTA---TATCTCTAATTTTTAC--ATGCTTCATGTAAATTTAGTGAATATCAAAA--TTCAAGCTTTAATAATTGCTTAACCATCATAAGGAGTACACAATA
+Platythamnion_yezoense       -AATAATAATAAT-TAAAATATTATTTTATCGCGTATTTTACGTAAGCTTAGTAAATATAAACA-ATAAAAGCTTTAATAATTACTTAACCACCATAAGGAGTATAAAATA
+;
+END;
+
+BEGIN CODONS;
+CODONPOSSET * CodonPositions (CHARACTERS = Rubisco_spacer) = 
+		N: 1-111;
+CODONPOSSET  CodonPositions (CHARACTERS = Rubisco_spacer) = 
+		N: 1-111;
+END;
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M1113]
+
+	TITLE ITS1;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=398;
+	FORMAT DATATYPE=DNA SYMBOLS= "A C G T" MISSING=? GAP= -;
+
+MATRIX
+[                                    10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170       180       190       200       210       220       230       240       250       260       270       280       290       300       310       320       330       340       350       360       370       380       390        ]
+[                                     .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .        ]
+Antithamnion_aglandum        AAATTTTATATATATATATATATGCTTATATCTTTT----GTG---CACATG---GCGGTCGATGCC----TTGTGCTCTCATCTTTTCC----GCAGTACACATCTGTGTGGCAGTGAACTTTTCATTCCGTTGGT-GTGTACTGTTTAAGGAACTAAGATTCGATTTGTGAGCTGCTGCCTTATTCTGTGCGCGCCACTTGACGCCTTGCGCTCTCGCTTTAACAAATATTGTGGTGTGTACAATTGTATACGCATATGTATATGTATATATATAT---ATTTATCCCGCGAACAAACTTTTGATTTTTATTTTTTTT--TTTAACTAAACCAAACC--------------------------AAACCA------AAACCCC-----AAATTTTTT
+Antithamnion_callocladum     GAATTTATTATGT-----TATATGCTTATATGTTT-----GTG---CACACACTCGCGATTGATGCCGCTTTTTGGCTCTCGTCTTTACCCCC--CAGTGAGCACTTTTGTCGCAGTTCGCAAGAGCTCCTATTAGTCGTTTACTGG----GGG-CGG-GATTTGATT----------------------------------GAGTCCTTGTGCTCTCGCTATGGT---TGCTGCGGTGCATATTCCTCTATAT---CATGTATACATAAAT-TATAT---AT--ATCCCGCGAACGAACTTTTTAATTCTTATTTTTTT--TTTCTTAAACCCAAACC--------------------------AAACCA----AAAAACC----AAAATTATTTTT
+Antithamnion_defectum        AAATTTTT----------GAGTTGCCAT--GGTTATCT--GTATA-CACA--------GTT----CC------TGGCTCTC---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ATTTATAT---ATTTATCCCGCGAACAAACTT--GATTTTTATTTTTTTTATTTTTTTTAAACCAAACC--------------------------AAACTTAT----AAACCCC-----AATATTTTT
+Antithamnion_kylinii         AAATTTTT----------GAGATGCCAT--GGTTATCT--GTATTATGCA--------GTT----CC------TGGTTCTC---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ATTTATAT---ATATATCCCGCGAACAAACTT--GATTTTTATTTTTTTTATTTTTTTTAAACCAAACC--------------------------AAACTTAT----AAACCCC-----AATATTTTT
+Antithamnion_nipponicum      AAATTTATTATATA----TATATGC---TATAATT-----ATG---CACAT----GTGGTTGAAGCC--TTTATTGCTCTCGTCTTTTTCTCTTGCAGTAAACACTTTTGTTGCAGTTTTCACAAGCTCCTATTAGT-GTTTACTGTTTAAGGG-CGAAGATTTGATT----------------------------------GACGCTTTGTGCTCCTGCTTTTGT-----TTGT-GTGCATAAA--TCTATA----CATATATATATAAATATATAT---AT--ATCCCGCGAACGAACTTTTGATTTTT---TTTTTT--TTTCTTAAACCCAAACC--------------------------AAACCT------AAACCCCC---AATTTTTTTT
+Antithamnion_sparsum_ASB     AAATTTTT----------GAGTTGCCAT--GGTTATCT--GTATA-CACA--------GTT----CC------TGGCTCTC---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ATTTATAT---ATTTATCCCGCGAACAAACTT--GATTTTTATTTTTTTT---TTTTTTAAACCAAACC--------------------------AAACTTAT----AAACCCC-----AATATTTTT
+Antithamnion_sparsum_ASM     AAATTTTT----------GAGTTGCCAT--GGTTATCT--GTATA-CACA--------GTT----CC------TGGCTCTC---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ATTTATAT---ATTTATCCCGCGAACAAACTT--GATTTTTATTTTTTTT----TTTTTAAACCAAACC--------------------------AAACTTAT----AAACCCC-----AATATTTTT
+Antithamnion_sparsum_ASW     AAATTTTT----------GAGTTGCCAT--GGTTATCT--GTATA-CACA--------GTT----CC------TGGCTCTC---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ATTTATAT---ATTTATCCCGCGAACAAACTT--GATTTTTATTTTTTTT----TTTTTAAACCAAACC--------------------------AAACTTAT----AAACCCC-----AATATTTTT
+Antithamnionella_sp_ATN      -AACTTT-----------GTAT--------GGTATTCTTTGATT--CAATTCTTTTTCTGTTTTTGTTTCAAAGTTCCGC----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------CTTTACAT---TTTTTTCACGCGAACCA-CTTG--ATTTATTTTTTTTTT-GAACCTTGAACCCAAAATGTAGGGAGGGGGGAAGTTCCCTTCCCAAACCATAAAATAATTCATTTATGAATTTCTGT
+Antithmanion_densum          AAATTTTT----------GAGATGCTAT--GGTTATCT--GTATTACACA--------GTT----CC------TGGCTCTC---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ATTTATAT---ATTTATCCCGCGAACAAACTT--GATTTTTATTT---TTATTTTTTTTAAACCAAACC--------------------------AAACTTA-----AAACCCC-----AAAATTTTT
+Platythamnion_yezoense       -------------TATATGTG--GCGAACAGGCT------GTG----CTTC------GGT---------------GCTGTCC--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------GTTTGCTTAACATTCTTCACGCGCACTA-CTA---ATTTATAACATTTTT-TTTAATTAAACCTAAAAA------------------CCATTTTCAAACAA--AAACAAATCAT-----AATATTTTT
+;
+END;
+
+BEGIN CODONS;
+CODONPOSSET * CodonPositions (CHARACTERS = ITS1) = 
+		N: 1-398;
+CODONPOSSET  CodonPositions (CHARACTERS = ITS1) = 
+		N: 1-398;
+END;
+BEGIN TREES;
+      TITLE Tb7708;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Platythamnion_yezoense,
+            2    Antithmanion_densum,
+            3    Antithamnionella_sp_ATN,
+            4    Antithamnion_sparsum_ASW,
+            5    Antithamnion_sparsum_ASM,
+            6    Antithamnion_sparsum_ASB,
+            7    Antithamnion_nipponicum,
+            8    Antithamnion_kylinii,
+            9    Antithamnion_defectum,
+            10   Antithamnion_callocladum,
+            11   Antithamnion_aglandum;
+      TREE ITS1 = [&R] ((((11,(7,10)),(((4,6,5,9),8),2)),1),3);
+
+
+
+END;
+BEGIN TREES;
+      TITLE Tb7707;
+      LINK TAXA = Taxa2;
+         TRANSLATE
+            1    Platythamnion_yezoense,
+            2    Antithamnionella_sp_ATN,
+            3    Antithamnion_sparsum_ASW,
+            4    Antithamnion_sparsum_ASM,
+            5    Antithamnion_sparsum_ASB,
+            6    Antithamnion_nipponicum,
+            7    Antithamnion_kylinii,
+            8    Antithamnion_densum,
+            9    Antithamnion_defectum,
+            10   Antithamnion_callocladum,
+            11   Antithamnion_aglandum;
+      TREE Rubisco_spacer = [&R] (((((11,6),10),((3,5,4),9,7,8)),1),2);
+
+
+
+END;

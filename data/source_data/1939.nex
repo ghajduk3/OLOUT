@@ -1,0 +1,300 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:52 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Grimaldi D., Agosti D., & Carpenter J. 1997. New and rediscovered primitive ants
+(Hymenoptera: Formicidae) in Createous Amber from New Jersey, and their phylogenetic
+relationships. American Museum Novitates, 3208: 1-43.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S273]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=27;
+        TAXLABELS
+            Adetomyrma
+            Aenictinae
+            Aenictogiton
+            Amblyopone
+            Aneuretinae
+            Anomalomyrmini
+            Apomyrmini
+            Bradynobaenidae
+            Brownimecia
+            Cerapachyinae
+            Dolichoderinae
+            Dorylinae
+            Ecitoninae
+            Formiciinae
+            Formicinae
+            Leptanillini
+            Leptanilloides
+            Myrmeciini
+            Myrmicinae
+            Nothomyrmeciinae
+            Paraponera
+            Platythyrea
+            Ponerinae
+            Prionomyrmecini
+            Pseudomyrmecinae
+            Sphecomyrma
+            Vespidae
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M2428]
+
+	TITLE Table_x;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=62;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2" MISSING=? GAP= -;
+	CHARSTATELABELS
+		1  Head / hypognathous prognathous,
+		2  Labrum / without_rows_of_peglike_teeth with_2_rows_of_peglike_teeth,
+		3  Labium / with_pair_of_cylinidrical_pegs without,
+		4  Clypeus / normally_developed extremely_reduced,
+		5  Clypeus / rounded with_flat_medial_surface,
+		6  Worker_eyes / present absent,
+		7  Malar_area_in_dorsal_view / visible reduced,
+		8  Antennal_socket / exposed not covered_by_torulus,
+		9  Worker_promesonotal_suture / mobile fused,
+		10  Metapleural_gland / absent not_covered covered_by_cuticular_flange,
+		11  Metacoxal_cavities / open_or_sutured closed,
+		12  Metatibial_gland / absent present,
+		13  Basitarsal_sulcus_on_metatarsi / absent present,
+		14  Petiole / without_tergosternal_fusion with,
+		15  Worker_helcium / unfused fused,
+		16  Helcium_sternite / protruding_ventrally not,
+		17  Helcium_sternite / overlapped_laterally_by_preterg not,
+		18  Worker_spiracle_of_III / situated_posteriorly situated_close_to_anterior_face,
+		19  Worker_diameter_of_segment_III / subequal_to_segment_IV smaller,
+		20  Worker_segment_III / tergum_and_sternum_not_fused with_complete_fusion,
+		21  Worker_dorsal_stridulatory_orga / absent present_between_segments_III_IV,
+		22  Worker_ventral_stridulatory_org / absent present_between_segments_III_IV,
+		23  Segment_IV / without_presclerites with_presternite_pretergite_unf fused,
+		24  Segment_IV_presclerite_length / '<.5 IV' '>.5 IV',
+		25  Presternite_of_IV / subequal_to_pretergite shorter,
+		26  Segment_IV_tergum_and_sternum / not_fused completely_fused,
+		27  'Spiracles of V-VII' / not_visible visible,
+		28  Pygidium / not_bidentate bidentate,
+		29  Pygidial_spines / absent present,
+		30  Pygidial_reduction / absent 'narrow U-shaped sclerite',
+		31  Worker_pygidium / not_covered_by_tergum_VI covered,
+		32  Acidopore / absent present,
+		33  Sting_and_lancets / articulated disarticulated,
+		34  Furcula / well_developed reduced_to_absent,
+		35  Proventriculus / flaccid sclerotized,
+		36  Dufour_gland_epithelium / not_crenellate crenellate,
+		37  Pavans_gland / absent present,
+		38  Sting_bulb_gland / absent present,
+		39  'Worker-gyne dimorphism' / limited_to_wings_alar_sclerites pronounced,
+		40  Gyne / not_dichthadiiform dichthadiiform,
+		41  Wing_venation / not_crowded crowded,
+		42  Gyne_segment_III / poorly_differentiated forming_postpetiole,
+		43  Bursa_copulatrix / not_exposed exposed,
+		44  Male_antennal_sockets / clypeus_visible at_anterior_margin_of_head,
+		45  Male_head_incision / absent present_posteriorly,
+		46  Male_antennal_scape / shorter_than_next_2_articles longer,
+		47  Male_forewing_pterostigma / present absent,
+		48  Male_hindwing_jugal_lobe / present absent,
+		49  Male_propodeal_spiracle / 'slit-shaped' round_to_elliptical,
+		50  Male_segment_III / no_tergosternal_fusion present,
+		51  Male_segment_IV / without_presclerites with_differentiated_presclerite,
+		52  Male_tergite_VII / sclerotized desclerotized,
+		53  Male_sternite_VIII / without_anterior_apodemes with_long_anterior_apodemes,
+		54  Male_cerci / present absent,
+		55  Male_subgenital_plate / not_biaculeate biaculeate,
+		56  Lamina_annularis / thin enlarged,
+		57  Male_genitalia / retractile not_retractile,
+		58  Male_genitalia_size / normal larger_than_rest_of_gaster,
+		59  Larval_haemolymph_feeding_organ / absent present_on_abdominal_segment_II,
+		60  Larval_mandibles / inner_masticatory_margin outer,
+		61  Trophothylax / absent present,
+		62  Pupa / with_cocoon naked,
+		;
+
+MATRIX
+[                            10        20        30        40        50        60  ]
+[                             .         .         .         .         .         .  ]
+Adetomyrma           10010101010001110000000??010000000???0????????????????????????
+Aenictinae           10010100121100100011001000100100010100110001010101011010000001
+Aenictogiton         ???????0??1?????????????????????????????0??111011100101000????
+Amblyopone           100000010110001100000020000000000000??1000?000011001000000????
+Aneuretinae          10000001010001010000000??0000000011010100000000110000100100000
+Anomalomyrmini       10?0110002100111011100200000000000000010010???????????????????
+Apomyrmini           11010100011000110101000??000000000000010000000????????????0000
+Bradynobaenidae      0000000?00000101000000???000000000???0000000000000?0000000????
+Brownimecia          10?0000?11??0????0010?100?00?000?0????????????????????????????
+Cerapachyinae        100?0000?21?001000?100?100101000010000?0000?010111100010000000
+Dolichoderinae       10000?01011001?10000000??0000000011010?000000?01100001?0100001
+Dorylinae            10010100121100100001001000110000010100110011010101001010000001
+Ecitoninae           10010?001211001000?100100010010001000011000001010010001100000?
+Formiciinae          ???????????????????????????????000?????010?000??0???????00????
+Formicinae           10?00001?11001110000000??0000001111000100000010110000??010000?
+Leptanillini         1011010002100111011100200000000000000011001?011111?00010111101
+Leptanilloides       10?1010002100?100011?01000100110000000????????????????????????
+Myrmeciini           10000011020010010010002100000000000001000100000000100100100000
+Myrmicinae           10100?0?111001?11?10?0?0100000000?0000?001000?0110100??0?00001
+Nothomyrmeciinae     10?00001020010010000010??000000000000100000000000000?110100000
+Paraponera           10000001010001110000012100000000000???1000?000000011000000????
+Platythyrea          10000001010001100001002001000000000???1000?000001111000000????
+Ponerinae            10??0????1?0??1100?1??210100?0000?0000?00?0?0?0?11100??0?0000?
+Prionomyrmecini      10?00001??????????1????????????00???????0??00000??????????????
+Pseudomyrmecinae     100000010210?0010010101010000000000000000100000110100100100011
+Sphecomyrma          10?0000102?00??1?0000?0???0000000??????????0000?1?00010000????
+Vespidae             00000000000000000000000??000000000000000000000000000000000000?
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb5007;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Vespidae,
+            2    Bradynobaenidae,
+            3    Aenictinae,
+            4    Aenictogiton,
+            5    Aneuretinae,
+            6    Anomalomyrmini,
+            7    Apomyrmini,
+            8    Cerapachyinae,
+            9    Dolichoderinae,
+            10   Dorylinae,
+            11   Ecitoninae,
+            12   Formicinae,
+            13   Leptanillini,
+            14   Leptanilloides,
+            15   Myrmeciini,
+            16   Myrmicinae,
+            17   Nothomyrmeciinae,
+            18   Ponerinae,
+            19   Pseudomyrmecinae,
+            20   Formiciinae,
+            21   Prionomyrmecini,
+            22   Adetomyrma,
+            23   Sphecomyrma,
+            24   Platythyrea,
+            25   Paraponera,
+            26   Amblyopone,
+            27   Brownimecia;
+      TREE Fig._18 = [&R] (1,(2,12,25,26,(18,24),(20,(5,9)),(16,19),(17,(15,21)),(22,(7,(6,(13,(14,((8,11),(4,(3,10))))))))));
+
+
+
+END;
+BEGIN TREES;
+      TITLE Tb5008;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Vespidae,
+            2    Bradynobaenidae,
+            3    Aenictinae,
+            4    Aenictogiton,
+            5    Aneuretinae,
+            6    Anomalomyrmini,
+            7    Apomyrmini,
+            8    Cerapachyinae,
+            9    Dolichoderinae,
+            10   Dorylinae,
+            11   Ecitoninae,
+            12   Formicinae,
+            13   Leptanillini,
+            14   Leptanilloides,
+            15   Myrmeciini,
+            16   Myrmicinae,
+            17   Nothomyrmeciinae,
+            18   Ponerinae,
+            19   Pseudomyrmecinae,
+            20   Formiciinae,
+            21   Prionomyrmecini,
+            22   Adetomyrma,
+            23   Sphecomyrma,
+            24   Platythyrea,
+            25   Paraponera,
+            26   Amblyopone,
+            27   Brownimecia;
+      TREE Fig._20 = [&R] (1,2,12,23,25,26,(18,24,27),(20,(5,9)),(16,19),(17,(15,21)),(22,(7,(6,(13,(14,((8,11),(4,(3,10)))))))));
+      TREE Fig._22 = [&R] ((1,2),(23,(16,19),(15,17),((12,(5,9)),((26,(25,(18,24,27))),(22,(7,(6,13,(14,(8,(11,(3,10)))))))))));
+
+
+
+END;
+BEGIN TREES;
+      TITLE Tb5006;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Vespidae,
+            2    Bradynobaenidae,
+            3    Aenictinae,
+            4    Aenictogiton,
+            5    Aneuretinae,
+            6    Anomalomyrmini,
+            7    Apomyrmini,
+            8    Cerapachyinae,
+            9    Dolichoderinae,
+            10   Dorylinae,
+            11   Ecitoninae,
+            12   Formicinae,
+            13   Leptanillini,
+            14   Leptanilloides,
+            15   Myrmeciini,
+            16   Myrmicinae,
+            17   Nothomyrmeciinae,
+            18   Ponerinae,
+            19   Pseudomyrmecinae,
+            20   Formiciinae,
+            21   Prionomyrmecini,
+            22   Adetomyrma,
+            23   Sphecomyrma,
+            24   Platythyrea,
+            25   Paraponera,
+            26   Amblyopone,
+            27   Brownimecia;
+      TREE Fig._16 = [&R] (1,2,(12,((21,(15,17)),((16,19),((5,9,20),(22,(7,(18,((6,13),(14,(8,(11,(3,4,10)))))))))))));
+
+
+
+END;
+BEGIN TREES;
+      TITLE Tb5005;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Vespidae,
+            2    Bradynobaenidae,
+            3    Aenictinae,
+            4    Aenictogiton,
+            5    Aneuretinae,
+            6    Anomalomyrmini,
+            7    Apomyrmini,
+            8    Cerapachyinae,
+            9    Dolichoderinae,
+            10   Dorylinae,
+            11   Ecitoninae,
+            12   Formicinae,
+            13   Leptanillini,
+            14   Leptanilloides,
+            15   Myrmeciini,
+            16   Myrmicinae,
+            17   Nothomyrmeciinae,
+            18   Ponerinae,
+            19   Pseudomyrmecinae,
+            20   Formiciinae,
+            21   Prionomyrmecini,
+            22   Adetomyrma,
+            23   Sphecomyrma,
+            24   Platythyrea,
+            25   Paraponera,
+            26   Amblyopone,
+            27   Brownimecia;
+      TREE Fig._14 = [&R] (1,(2,(12,(((5,9,20),(16,(19,(15,17,21)))),(7,18,(6,13),(8,14,(11,(3,4,10))))))));
+
+
+
+END;

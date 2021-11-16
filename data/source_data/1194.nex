@@ -1,0 +1,133 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:46 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Van ham R., & Hart H. 1994. Evolution of Sedum series Rupestria (Crassulaceae): Evidence
+from chloroplast DNA and biosystematic data. Plant Systematics and Evolution,
+190: 1-20.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S192]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=8;
+        TAXLABELS
+            Sedum_album
+            Sedum_amplexicaule_tenuifolium
+            Sedum_forsterianum
+            Sedum_montanum_montanum
+            Sedum_ochroleucum
+            Sedum_pruinatum
+            Sedum_rupestre_erectum
+            Sedum_sediforme
+            ;
+END;
+
+BEGIN TAXA;
+        TITLE  Taxa2;
+        DIMENSIONS NTAX=10;
+        TAXLABELS
+            Rosularia_alpestris_alpestris
+            Sedum_album
+            Sedum_amplexicaule_tenuifolium
+            Sedum_forsterianum
+            Sedum_montanum_montanum
+            Sedum_mooneyi
+            Sedum_ochroleucum
+            Sedum_rupestre_erectum
+            Sedum_sediforme
+            Sempervivum_armenum
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M101]
+
+	TITLE Table_6;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=66;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2 3" MISSING=? GAP= -;
+
+MATRIX
+[                                          10        20        30        40        50        60      ]
+[                                           .         .         .         .         .         .      ]
+Sedum_album                        111122122131221221211222213121322321213121112112132121121121111211
+Sedum_amplexicaule_tenuifolium     122211211122312211112112111311111111211212221312222212212211131222
+Sedum_forsterianum                 11212112111111222111122211223132232221??21121212132211111211131211
+Sedum_montanum_montanum            111121211111321111211112212232222211122213231311231211112212222221
+Sedum_ochroleucum                  111122212131221211222122313222222211122213232321231221122211222221
+Sedum_pruinatum                    122212121232311112122231?23332111111212112211322132212211211112122
+Sedum_rupestre_erectum             211122212221322212111211?22232322321213112211211121212112212122221
+Sedum_sediforme                    211122122231222222121231?2322232232211??22212221111122121121121121
+;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M376]
+
+	TITLE Table_4;
+	LINK TAXA = Taxa2;
+	DIMENSIONS NCHAR=141;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1" MISSING=? GAP= -;
+
+MATRIX
+[                                          10        20        30        40        50        60        70        80        90        100       110       120       130       140 ]
+[                                           .         .         .         .         .         .         .         .         .         .         .         .         .         . ]
+Rosularia_alpestris_alpestris      ????????0000011101001000000000100111011101000101001?10100011111010101100010100000????????????0100??????00011000010??????100000101100?????????
+Sedum_album                        111010010000011100101000001000100111011101000101010110110010111010100100010010000010000110011010001011000011000010111101100000101?00000010001
+Sedum_amplexicaule_tenuifolium     110000000000001111011111001000000110001001000100010010011001111000100101010100000111111000001110000110101111010010011001100110001110001101111
+Sedum_forsterianum                 110000000000001111011111001000000110011001000100011010011001011000100101010100000111111000001010000110100111010010011001100110001110001101111
+Sedum_montanum_montanum            111010001011011110100000100111000000010110001001000110110110111001101110001001101110001111110000101011010001111100101010011000111101100000000
+Sedum_mooneyi                      ????????0000011100101010001000100011001001100101010?00100000111000111000010000000????????????0100??????00001000010??????100000101?00?????????
+Sedum_ochroleucum                  111010001010011110000000100111011000111110000101000110110010100001101100000011010000000111110010101001010001101101111010010010111101010100000
+Sedum_rupestre_erectum             111110001011011110100000100111000000010110000101000110110010110101101010001001100110001111110000101001010001111100101010011000111101100100000
+Sedum_sediforme                    001011110100110001101000111100100111011101110111110101100010111010011100110100000000101110011001010011110110011010110101100011100000010110101
+Sempervivum_armenum                ????????0000011101001001000100100001011101000101000?10100011111000101100110010000????????????0100??????00001000010??????000000101100?????????
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb4921;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Sedum_album,
+            2    Sedum_amplexicaule_tenuifolium,
+            3    Sedum_forsterianum,
+            4    Sedum_montanum_montanum,
+            5    Sedum_ochroleucum,
+            6    Sedum_pruinatum,
+            7    Sedum_rupestre_erectum,
+            8    Sedum_sediforme;
+      TREE Fig._2 = [&R] (1,((((6,2),3),((4,5),7)),8));
+
+
+
+END;
+BEGIN TREES;
+      TITLE Tb4920;
+      LINK TAXA = Taxa2;
+         TRANSLATE
+            1    Sedum_album,
+            2    Sedum_mooneyi,
+            3    Rosularia_alpestris_alpestris,
+            4    Sempervivum_armenum,
+            5    Sedum_amplexicaule_tenuifolium,
+            6    Sedum_forsterianum,
+            7    Sedum_montanum_montanum,
+            8    Sedum_ochroleucum,
+            9    Sedum_rupestre_erectum,
+            10   Sedum_sediforme;
+      TREE Fig._1A = [&R] (1,((5,6),10,((7,9),8)));
+      TREE 'Fig. 1B (I)' = [&R] (1,(((5,6),10),((7,9),8)));
+      TREE 'Fig. 1B (II)' = [&R] (1,(((5,6),((7,9),8)),10));
+      TREE 'Fig. 1B (III)' = [&R] (1,((5,6),(((7,9),8),10)));
+
+
+
+END;

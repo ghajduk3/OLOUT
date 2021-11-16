@@ -1,0 +1,67 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:38 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Wendel J. 1989. New World tetraploid cottons contain Old World cytoplasm. Proceedings
+of the National Academy of Sciences of the United States of America, 86: 4132-4136.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S195]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=8;
+        TAXLABELS
+            D_genome_diploids
+            Gossypium_arboreum
+            Gossypium_barbadense
+            Gossypium_darwinii
+            Gossypium_herbaceum
+            Gossypium_hirsutum
+            Gossypium_mustelinum
+            Gossypium_tomentosum
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M408]
+
+	TITLE Table_3;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=12;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1" MISSING=? GAP= -;
+
+MATRIX
+D_genome_diploids        000000000000
+Gossypium_arboreum       011100000000
+Gossypium_barbadense     100010101000
+Gossypium_darwinii       100011111000
+Gossypium_herbaceum      011100000000
+Gossypium_hirsutum       100010000011
+Gossypium_mustelinum     100010000100
+Gossypium_tomentosum     100010000000
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb4924;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Gossypium_hirsutum,
+            2    Gossypium_mustelinum,
+            3    Gossypium_tomentosum,
+            4    Gossypium_barbadense,
+            5    Gossypium_darwinii,
+            6    Gossypium_arboreum,
+            7    Gossypium_herbaceum,
+            8    D_genome_diploids;
+      TREE Fig._2 = [&R] (((1,2,3,(4,5)),(6,7)),8);
+
+
+
+END;

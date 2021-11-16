@@ -1,0 +1,134 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:49 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Kawai-toyooka H., Mori T., Hamaji T., Suzuki M., Olson B.J., Uemura T., Ueda T.,
+Nakano A., Toyoda A., Fujiyama A., & Nozaki H. 2014. Sex-specific Post-translational
+Regulation of the Gamete Fusogen GCS1 in the Isogamous Volvocine Alga Gonium
+pectorale. Eukaryotic Cell, .
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S15345]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=29;
+        TAXLABELS
+            Apis_mellifera
+            Arabidopsis_thaliana
+            Chlamydomonas_reinhardtii
+            Coccomyxa_subellipsoidea
+            Cyanidioschyzon_merolae
+            Dictyostelium_discoideum
+            Gonium_pectorale
+            Hydra_magnipapillata
+            Leishmania_major_A
+            Leishmania_major_B
+            Lilium_longiflorum
+            Monosiga_brevicollis
+            Naegleria_gruberi
+            Nematostella_vectensis
+            Oryza_sativa
+            Paramecium_tetraurelia_A
+            Paramecium_tetraurelia_B
+            Physarum_polycephalum
+            Plasmodium_berghei
+            Plasmodium_falciparum
+            Plasmodium_yoelii
+            Tetrahymena_thermophila
+            Theileria_parva
+            Toxoplasma_gondii
+            Tribolium_castaneum
+            Trypanosoma_brucei
+            Trypanosoma_cruzi
+            Volvox_carteri_1
+            Volvox_carteri_2
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M20705]
+
+	TITLE 'Gamete fusogen GCS1/HAP2 ';
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=239;
+	FORMAT DATATYPE=Protein SYMBOLS= "A C D E F G H I K L M N P Q R S T V W Y" MISSING=? GAP= -;
+
+MATRIX
+[                                     10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170       180       190       200       210       220       230         ]
+[                                      .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         ]
+Apis_mellifera                LLG-----------NEKTRQG-------------VHV---RRKRRHDEEQNP---------DTMRNCTRKIIISMRFNNIGKTEIE----DKFVVID--------HVLDPF-------------TMEKIPLQNPYVIKVRQDTILQFYGLKFQS-VVNAEAREEVINNRSPN--------FTGCS-------V-TEHPTCGRSFIH----GK---------PVPYSEGFCCSCNSTFER
+Arabidopsis_thaliana          V---------------DGIQI-------------LSK---SKLEKCEKTSD----------SGNLNCSTKIVLNLAVPS-GSSGGE----ASIVAEI--------VEVEDN------------SSSNMQTVRIPPVITVNKSAAYALYDLTYIR-DVPYKPQEYHVTTRK------------CEPD-----AGPDIVQICERLRDEK---GN---------VLEQTQPICCPCGPQRRM
+Chlamydomonas_reinhardtii     L---------------AHAEV-------------IAS---GRLEKCVVDGV----------TEELDCQEKVVVTLTVGN-GQSLQT----EALEFSL--------SCLNSPDGRCPCSCSAADPTCACRDLAAPLRVSLTKSPLWASYPLQYLS-SFNWKPLEVILRPSNK-----------VCKD-----GDWEDSPTCG-WFSQG---GV---------RVADSQGFCCECSSSQVW
+Coccomyxa_subellipsoidea      C---------------FFFLA-------------TLI---SQLQTCIQDGS----------ALLLQCSKKLILTLAVEN-GASLAT----QSLQFSV--------PCINRPTNNCPCTCNATDPGCTCRDLRDTLNVTITKGAVYASYPLIYQQ-AFNNRPTEAIIRTGAN-----------SCND-----GPLSDTPTCG-WATDA--NGA---------RIPASQGFCCSCTSSALA
+Cyanidioschyzon_merolae       S---------------VGGSL-------------TGV---GSIVTCLDSGR----------PGSIPCSKKWVLTLAVEN-GATAAS----SSVSATQ--------AVYGSSSANAT--VRSADNPNTVYAFKYQVHITLTKSRIRLDYPLYYQS-DFNNKPYEIVYKYNQKGPL---NWLDNQCVA-----TWGSSDPTCGYAYNPS---WSTKPA----DRILYSQGFCCDCNAGDLL
+Dictyostelium_discoideum      L---------------IWCGI-------------ISS---SSIESCTLDGTELA----DQDKTNLKCDKKLVVSLYIDS-QKENS-----ETFNFQV--------SEIKDE-------------NGKLKTLVIPISVKFKKSETFINYPLVYVQ-NVAYQPKETVIYKTDYV------L-TSGCK------DK-PTDHTCPGAIDAN---GK---------LIRDSQGFCCSCSFSDYV
+Gonium_pectorale              W---------------ALAEI-------------LAT---GSLQKCIADGV----------TEELNCANKLVVTLTVGN-GQSLRT----EDLEFSL--------SCINSPDGQCPCSCSQLDPGCACRDLAAPLRVSLTKSPLWASYPLQYLA-SFNWKPKEVILRPSNA-----------VCKD-----GEYEDNPTCG-WFVQP---GP------APTRLPDSQGFCCQCDAGQIW
+Hydra_magnipapillata          F---------------VGGLI-------------LSK---SSIEFCENTGSSNDLKDPTNVVTQSACEKKMVVLLSVGN-KQGET-----EKLQAVV--------SVVQNS------------ATNEFARLYNPFMITVSKSPVYLNFPFFFNGITVNNQPYEEIILSKNRWYV---SDSSRQCLDQWQVEEEDDEHPTCGYQYTNSTQKQTDGTWKTVKTRIWDSQGFCCYCTQDLKN
+Leishmania_major_A            P---------------ARAAF-------------VSS---SLISYCSDSGD-----------ENISCTKKMVVTVTVEG-EQLPGE----ESLLFLN--------SATDMT------------VNNGTSVQFSPLRITTSRSAVRYRYPLFYVQ-NYNAKPYEATVKGSLL----------NQCNA-----DFNADTATCGLAYDAA---GK---------AIPYSQGFCCDCSMCQTL
+Leishmania_major_B            G---------------MGGTA-------------TAT---AYVRSCDGASP----------PTPPGCGLKLVVDLTLDD-SILTGSVLETEVMVTHALHESLFPRDAASDAAG---------TAATSLQVSLPPITVAMRRGAVQMRYGLTYLR-TFPAALRDSVRVLKTA----------MSCD------DG---VTRCPSYMSMT---GT---------LVSAPLGLCCLCTSVECA
+Lilium_longiflorum            S---------------TAVEI-------------LSK---SRVERCTKTSD----------SDKLDCNNKIVVDLAVPS-GSSGGE----ASIVAQL--------VEVEQRE----------NATRKMHTLREPPVITINKSAAYALYKLIYLR-DVAYKPEEFHVETRR------------CEPD-----APYEILGECQGLRDQN---GN---------IIENTQPVCCPCGPEGRY
+Monosiga_brevicollis          R---------------VQAQI-------------KAA---GQIERCLRDGS-----------LEPNCERKMVLNLGVLG-STGGGE----YYHLTQS--------RTE----------------DGAISDSENEFIIVVQKTSVSIEYPLRYRG-VVNNKPYEIAQPVQTLLGGLFGSGDKTGCKD-----SPYHSSPSCGWLIDGG---GK---------KVEGSQGFCCRCSTADQL
+Naegleria_gruberi             ----------------SINVY-------------SLS---SKVVSCTDA----------------SCTTQLAVQISLAF-GNQ-------KSMLVEL--------SDTVNE--------------KGEKVNLRPIKIVIQKSAPKAVYPLLYVK-TFNGKPTESIIYKDDI--------LVPTCDD-----SSKSAAPTCGWVKDSQ---GN---------KIPDSQGFCCSCSVGQMF
+Nematostella_vectensis        E---------------SYSDV-------------IAK---SSLQMCENTGNSDDP---YNVVDQKACEKKLIVTLSVRS-GQNGTE----FLKAVTN--------VSKVYDQ-----------TEKEMARLYNPFIITLAKTPVKLTYPYYYLA-MVNNKPTERVVISDSKWHA---SGSYHACSD-----AWDDEDALCGFYTDAE---GK---------PIWDSQGFCCRCTEQEKW
+Oryza_sativa                  A---------------CGTEI-------------LSK---SRLESCSHDSDA---------GGRLKCDRKLVVDLAVPS-GASGGE----ASLVARV--------AGVEEEN----------DTPSATKSIRDPPVITVSKSATYALYALTYLDRDVAYRPDEKYVKTHK------------CEPY-----AGAKVVGECERLWDEK---GN---------VIKQTEPICCPCGPHRVQ
+Paramecium_tetraurelia_A      L---------------TSQEP-------------LTT---SQIKVCDSNK-------------NADCSENMLISLTIEN-SFSTST----EQIQINS--------TILNN----------------QTVQLSTPFTLTITKTPVYAYYPLKYFQ-NYNSQPYELQIPSAVN-----------PCDD-----NWTSNSPTCGFQYSS----TN---------KVQDSQGFCCSCGSSEYS
+Paramecium_tetraurelia_B      K---------------SMAEI-------------ISQ---SQINKCYSNST-----------NNTECSEKMLISLTVEN-AQNTVT----EYIKISE--------TTIDN----------------QTSQLKTPIIISITKTPVYAFYPLKYTE-DYNSQPYEVKIAGAIL-----------SCDD-----SWYSNSPTCGFQYEK----KE---------KIFDSQGFCCSCGILDLI
+Physarum_polycephalum         T---------------LHADL-------------IAS---SQITNCVLDGSS--------EDTILNCQKKFVVSLSVDN-GQNKTE----AVQFTIS--------SATDG---------------NTTLQFVNPWTITLSKSPVAIYYPISYLQ-TVNADPSEAVIYTRDW-------IVVSSCQS-----GAYSDNPTCGWYKDSN---GN---------NIPDSQGFCCSCNLAEYL
+Plasmodium_berghei            KYYKWC----DFKNKVFFIQL-------------VYS---FAKKSVCTSSL-----------DDSTCHTVTFGELDVSN-NSV-------VRLKVM---------R-----------------------KGGKGYFLTIRRDYVTVSYYLKYVK-DIPLEFREIIDIFNNHK-------FEQYTQE-----QINKYTYTCNVRKIED---IDKYDEKNPTKFHEYTRGEACRCQTYNYF
+Plasmodium_falciparum         FLFSNCKLNDYIRTKYPFIQF-------------VYS---YSKKKVCTSST-----------DDSTCRTVVYGDLDVSN-NSV-------LRLKVL---------R-----------------------SEGKGYFVTIRRDYVTISYYLKYMK-DIPLKYREVVDIFNNHK-------YEKYTEK-----QIKDFTYNCTAIKVED---ANNTVGDFAPHYHEYTRGESCICPSYHLF
+Plasmodium_yoelii             KYYKWC----DSKNKVFFIQL-------------VYS---FAKKSVCTSSS-----------DDSTCHTVTFGELDVSN-NSV-------VRLKVM---------R-----------------------KGGKGYFLTIRRDYVTVSYYLKYVK-DIPLEFREVIDIFNNHK-------FEQYTQE-----QINKYTYTCNVRKIED---IDKYDEKNPTKFHEYTRGEACRCQSYNYF
+Tetrahymena_thermophila       L---------------NRCEY-------------ITS---STIQKCYNSSN-----------EPNNCSQKAVIVLSLEN-GQIANT----EQVVATL--------NQLSD--------------SGVNKQLQNSFIFEVTKSPVTALFPLIYLQ-DFNSQPLEQVIATTLF-----------SCKD-----GFYDSSPTCKFQYDSK---GQ---------KILDSQGYCCYCSLSDIL
+Theileria_parva               S---------------TGFFF-------------VDSAVTGNITQCVRNSD------------KLFDDQTCVQRLHTNV-DVSHGL----REYHYIY--------RRK--------------------DDLSKGLYLVLKTSNTSLLYTLNYQT-MVPLYYTDHTERWTYS-------------E------ISGELKTSCKSVQNSK---CTKKTQV--PPGIDFLPRVCCICGL----
+Toxoplasma_gondii             ----------------DADIP-------------QAV---SRQQICTVNGAYGK-----DDPRRMQCKDTILGTLRISN-KEK-------FSFNVMQ--------NTIDSR------------DKTYADVGNVGFVVTITKTPVTISLPLEYIK-EVPFDYREEIYEYSRWEAG---RLPEKFCYE----DTTDKCSEDGKLAVHPH---GK---------PLSWAHGRCCWCSEVLAF
+Tribolium_castaneum           CCRE--------AQKPTSFEVKSMMTECPNQNCLNWSNAHQVIVQRNKTTP----------EKLTDCKQKLLLTIKVTN-EGIPSD----KSEYVII--------DHITDP------------TTLQKVRILNPYAIRIRQQPMLQAYQLKFER-AVNGEAKEQVFNKHTR----------NYRGC-----DTSYESPTCGL-VQHE---GK---------MVPYSTGFCCSCDAEKNR
+Trypanosoma_brucei            C---------------TEAAF-------------VAS---SSIEYCERSSN----------GEPFPCEKKMVVGLSVGS-EQTIEA----EEVVLLR--------EAVDKTG-----------DEKGKRVEFEPIRLVTTKSPVQYRYPIYYIR-NFNAKPYEQRLRTSAS----------SWCDD-----SSNPGSATCGVARDRR---GD---------VIPYSQGFCCLCGACALS
+Trypanosoma_cruzi             A---------------AEGLL-------------LAS---SSIEQCDRVGT----------DNSLPCEKKLVVTLSVDS-DQAEDV----EEFVILR--------DAVDKTK-----------GTGEEHVEFQPIRLTTSKSRVQYSYPLFYER-NFNAKPYEEEITTELV-----------GCD------DTFSPKATCGLAMDTA---GR---------PIPYSQGFCCRCGPCQLL
+Volvox_carteri_1              K---------------VYGEV-------------LAA---GKLEKCVRDGV----------TEVVQCSDKLVITVTVAN-GQTLKT----EELDLTV--------LCVNSPTGECPCPCNAVDEDCSCRDLAAPMKVTITKSLLWASYPLTFVQ-QFNWKPVEIIQYTNSK-----------KCRD-----GDYEQYPTCP-YYYDG---KD---------KVPDSQGFCCQCSSGEVW
+Volvox_carteri_2              --------------------------------------------------------------------------------TSMHIT----ARSRASL-----------LPPSGICPCPCNAVDEGCSCRDLAEPLVVEYNKEALYVSHMLNYTG-TYNYKPYEVLDINPLK-----------LRPD-----APTDDWPQCG-WQKVD---GK---------RVPDSQGFCCWCDRKVIW
+;
+END;
+
+BEGIN TREES;
+      TITLE 'Gamete fusogen GCS1/HAP2 Phylogeny';
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Dictyostelium_discoideum,
+            2    Hydra_magnipapillata,
+            3    Nematostella_vectensis,
+            4    Trypanosoma_cruzi,
+            5    Trypanosoma_brucei,
+            6    Leishmania_major_A,
+            7    Monosiga_brevicollis,
+            8    Leishmania_major_B,
+            9    Cyanidioschyzon_merolae,
+            10   Physarum_polycephalum,
+            11   Apis_mellifera,
+            12   Paramecium_tetraurelia_A,
+            13   Paramecium_tetraurelia_B,
+            14   Tetrahymena_thermophila,
+            15   Theileria_parva,
+            16   Toxoplasma_gondii,
+            17   Naegleria_gruberi,
+            18   Arabidopsis_thaliana,
+            19   Lilium_longiflorum,
+            20   Oryza_sativa,
+            21   Plasmodium_falciparum,
+            22   Plasmodium_yoelii,
+            23   Plasmodium_berghei,
+            24   Tribolium_castaneum,
+            25   Volvox_carteri_1,
+            26   Coccomyxa_subellipsoidea,
+            27   Chlamydomonas_reinhardtii,
+            28   Gonium_pectorale,
+            29   Volvox_carteri_2;
+      TREE Imported_tree_0 = [&R] ((16:1.144409128165842,(21:0.1333642872728101,(22:1.23874447621354E-6,23:0.02598395647876188)98:0.4639615364222173)100:2.28915924527812)71:0.35293975461705496,(((((24:1.2976151979835588,11:0.7651546572568322)97:1.3853292085874704,10:0.40322120550050566)51:0.25546741969709486,((14:0.5833630260789995,(12:0.48612311810615644,13:0.2336595638710792)99:0.4243996087787448)80:0.2654586462872799,((26:0.7161075810167605,((28:0.1814801499090428,27:0.1422818879914166)80:0.16731340934253588,(25:0.41763697296026286,29:1.401676185187569)41:0.06415540186861679)85:0.2582879120535501)77:0.4747797861400408,((9:1.4618160274548753,((4:0.4074471352656287,5:0.44952299060482204)67:0.28708322045780277,6:0.46919050139786395)62:0.33523265125561447)16:0.08101192473748917,(17:0.9315361933752638,8:2.672657640370401)29:0.27801132691274144)18:0.29518583022638334)10:0.05699373661070595)24:0.17039557466675243)5:0.02426872433265032,(7:1.2333039269499824,(3:0.6888529198290502,2:0.5712707135492667)84:0.6269709354322837)23:0.14399350752877788)15:0.22459291438212137,(1:0.9239676518373267,(20:0.24810708494557238,(18:0.2219846445647697,19:0.323740040226415)49:0.24544622811899425)91:1.431931383008169)35:0.13838159150387666)66:1.5635485770055615,15:3.89672463593469);
+
+
+
+END;

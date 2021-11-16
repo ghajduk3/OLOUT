@@ -1,0 +1,127 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:49 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Soltis D., Soltis P., & Ness B. 1989. Chloroplast-DNA variation and multiple origins
+of autopolyploidy in Heuchera micranthia (Saxifragaceae). Evolution, 43: 650-656.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S186]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=28;
+        TAXLABELS
+            Heuchera_micrantha_D_1572
+            Heuchera_micrantha_D_1736
+            Heuchera_micrantha_D_1767
+            Heuchera_micrantha_D_1809
+            Heuchera_micrantha_D_1814
+            Heuchera_micrantha_D_324
+            Heuchera_micrantha_D_325
+            Heuchera_micrantha_D_343
+            Heuchera_micrantha_D_344
+            Heuchera_micrantha_D_397
+            Heuchera_micrantha_D_398
+            Heuchera_micrantha_D_400
+            Heuchera_micrantha_E_1542
+            Heuchera_micrantha_E_1713
+            Heuchera_micrantha_E_389
+            Heuchera_micrantha_E_407
+            Heuchera_micrantha_H_1558
+            Heuchera_micrantha_H_1949
+            Heuchera_micrantha_M_1567
+            Heuchera_micrantha_M_1570
+            Heuchera_micrantha_M_1578
+            Heuchera_micrantha_M_1641
+            Heuchera_micrantha_P_1555
+            Heuchera_micrantha_P_1693
+            Heuchera_micrantha_P_1694
+            Heuchera_micrantha_P_354
+            Heuchera_micrantha_P_357
+            Heuchera_micrantha_P_404
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M324]
+
+	TITLE Table_1;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=14;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1" MISSING=? GAP= -;
+
+MATRIX
+Heuchera_micrantha_D_1572     00000000000000
+Heuchera_micrantha_D_1736     00000000000001
+Heuchera_micrantha_D_1767     00000000000001
+Heuchera_micrantha_D_1809     00000000000001
+Heuchera_micrantha_D_1814     00000000000000
+Heuchera_micrantha_D_324      00000000000001
+Heuchera_micrantha_D_325      11110000000000
+Heuchera_micrantha_D_343      00000000000000
+Heuchera_micrantha_D_344      00000000000001
+Heuchera_micrantha_D_397      11110000000000
+Heuchera_micrantha_D_398      11110000000000
+Heuchera_micrantha_D_400      00000000000000
+Heuchera_micrantha_E_1542     00000110100000
+Heuchera_micrantha_E_1713     00000000000001
+Heuchera_micrantha_E_389      00000010100000
+Heuchera_micrantha_E_407      00000110100000
+Heuchera_micrantha_H_1558     00001001000000
+Heuchera_micrantha_H_1949     00000000000000
+Heuchera_micrantha_M_1567     00000000000000
+Heuchera_micrantha_M_1570     00000000001100
+Heuchera_micrantha_M_1578     00000000001100
+Heuchera_micrantha_M_1641     00000000010000
+Heuchera_micrantha_P_1555     00000000000000
+Heuchera_micrantha_P_1693     00000000100000
+Heuchera_micrantha_P_1694     00000000000000
+Heuchera_micrantha_P_354      00000000000000
+Heuchera_micrantha_P_357      00000000000010
+Heuchera_micrantha_P_404      00000000000000
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb4914;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Heuchera_micrantha_P_404,
+            2    Heuchera_micrantha_P_1555,
+            3    Heuchera_micrantha_P_1694,
+            4    Heuchera_micrantha_P_1693,
+            5    Heuchera_micrantha_P_357,
+            6    Heuchera_micrantha_P_354,
+            7    Heuchera_micrantha_D_344,
+            8    Heuchera_micrantha_D_343,
+            9    Heuchera_micrantha_D_1736,
+            10   Heuchera_micrantha_D_325,
+            11   Heuchera_micrantha_D_324,
+            12   Heuchera_micrantha_D_400,
+            13   Heuchera_micrantha_D_1572,
+            14   Heuchera_micrantha_D_398,
+            15   Heuchera_micrantha_D_397,
+            16   Heuchera_micrantha_D_1814,
+            17   Heuchera_micrantha_D_1809,
+            18   Heuchera_micrantha_D_1767,
+            19   Heuchera_micrantha_E_407,
+            20   Heuchera_micrantha_E_1542,
+            21   Heuchera_micrantha_E_389,
+            22   Heuchera_micrantha_E_1713,
+            23   Heuchera_micrantha_H_1558,
+            24   Heuchera_micrantha_H_1949,
+            25   Heuchera_micrantha_M_1578,
+            26   Heuchera_micrantha_M_1641,
+            27   Heuchera_micrantha_M_1570,
+            28   Heuchera_micrantha_M_1567;
+      TREE Fig._4 = [&R] ((1,12,6,8,16,22,13,3,2,24,28),(11,7,18,9,17),(27,25),26,5,23,(14,15,10),(4,((19,20),21)));
+
+
+
+END;

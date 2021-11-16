@@ -1,0 +1,254 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:46 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Les D., Cleland M., & Waycott M. 1997. Phylogenetic studies in Alismatidae, II: evolution
+of marine angiosperms (seagrasses) and hydrophily. Systematic Botany, 22:
+443-463.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S618]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=70;
+        TAXLABELS
+            Alisma_plantago
+            Amphibolis_antartica
+            Apalanthe_granatensis
+            Aponogeton_dio
+            Aponogeton_herm
+            Aponogeton_mono
+            Baldellia_ranunculoides
+            Blyxa_aubertii
+            Butomus_umbellatus
+            Coleogeton_pectinatus
+            Cycnogeton_procera
+            Cymodocea_nodosa
+            Cymodocea_serrulata
+            Damasonium_alisma
+            Echinodorus_grandiflorus
+            Egeria_densa
+            Elodea_nuttallii
+            Enhalus_acoroides
+            Groenlandia_densa
+            Halodule_beaudettei
+            Halodule_pinifolia
+            Halophila_decipiens
+            Halophila_engelmannii
+            Heterozostera_tasmanica
+            Hydrilla_verticillata
+            Hydrocharis_morsus
+            Hydrocleys_nymphoides
+            Lagarosiphon_major
+            Lagarosiphon_muscoidess
+            Lepilaena_australis
+            Lilaea_scilloides
+            Limnobium_spongia
+            Limnocharis_flava
+            Luronium_natans
+            Najas_flexilis
+            Najas_marina
+            Nechamandra_alternifolia
+            Ottelia_alismoides
+            Ottelia_ulvifolia
+            Phyllospadix_torreyi
+            Posidonia_australis
+            Posidonia_oceanica
+            Potamogeton_amplifolius
+            Potamogeton_confervoides
+            Potamogeton_crispus
+            Potamogeton_gramineus
+            Potamogeton_perfoliatus
+            Potamogeton_richardsonii
+            Potamogeton_robbinsii
+            Potamogeton_zosteriformis
+            Ranalisma_humile
+            Ruppia_maritima
+            Ruppia_megacarpa
+            Sagittaria_graminea
+            Sagittaria_latifolia
+            Scheuchzeria_palustris
+            Statiotes_aloides
+            Syringodium_filiformis
+            Syringodium_isoetifolium
+            Thalassia_hemprichii
+            Thalassia_testudinum
+            Thalasssodendron_pachyrhizum
+            Triglochin_maritimum
+            Vallisneria_americana
+            Vallisneria_spiralis
+            Wiesneria_triandra
+            Zannichellia_palustris
+            Zostera_marina
+            Zostera_mucronata
+            Zostera_noltii
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M2587]
+
+	TITLE Not_Available;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=1;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2" MISSING=? GAP= -;
+
+MATRIX
+Alisma_plantago                  ?
+Amphibolis_antartica             2
+Apalanthe_granatensis            ?
+Aponogeton_dio                   ?
+Aponogeton_herm                  ?
+Aponogeton_mono                  ?
+Baldellia_ranunculoides          ?
+Blyxa_aubertii                   ?
+Butomus_umbellatus               ?
+Coleogeton_pectinatus            ?
+Cycnogeton_procera               ?
+Cymodocea_nodosa                 ?
+Cymodocea_serrulata              ?
+Damasonium_alisma                ?
+Echinodorus_grandiflorus         ?
+Egeria_densa                     ?
+Elodea_nuttallii                 ?
+Enhalus_acoroides                ?
+Groenlandia_densa                ?
+Halodule_beaudettei              ?
+Halodule_pinifolia               ?
+Halophila_decipiens              ?
+Halophila_engelmannii            ?
+Heterozostera_tasmanica          ?
+Hydrilla_verticillata            ?
+Hydrocharis_morsus               ?
+Hydrocleys_nymphoides            ?
+Lagarosiphon_major               ?
+Lagarosiphon_muscoidess          ?
+Lepilaena_australis              ?
+Lilaea_scilloides                ?
+Limnobium_spongia                ?
+Limnocharis_flava                ?
+Luronium_natans                  ?
+Najas_flexilis                   ?
+Najas_marina                     ?
+Nechamandra_alternifolia         ?
+Ottelia_alismoides               ?
+Ottelia_ulvifolia                ?
+Phyllospadix_torreyi             ?
+Posidonia_australis              ?
+Posidonia_oceanica               ?
+Potamogeton_amplifolius          ?
+Potamogeton_confervoides         ?
+Potamogeton_crispus              ?
+Potamogeton_gramineus            ?
+Potamogeton_perfoliatus          ?
+Potamogeton_richardsonii         ?
+Potamogeton_robbinsii            ?
+Potamogeton_zosteriformis        ?
+Ranalisma_humile                 ?
+Ruppia_maritima                  ?
+Ruppia_megacarpa                 ?
+Sagittaria_graminea              ?
+Sagittaria_latifolia             ?
+Scheuchzeria_palustris           ?
+Statiotes_aloides                ?
+Syringodium_filiformis           ?
+Syringodium_isoetifolium         ?
+Thalassia_hemprichii             ?
+Thalassia_testudinum             ?
+Thalasssodendron_pachyrhizum     ?
+Triglochin_maritimum             ?
+Vallisneria_americana            ?
+Vallisneria_spiralis             ?
+Wiesneria_triandra               ?
+Zannichellia_palustris           ?
+Zostera_marina                   ?
+Zostera_mucronata                ?
+Zostera_noltii                   ?
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb5697;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Echinodorus_grandiflorus,
+            2    Wiesneria_triandra,
+            3    Sagittaria_graminea,
+            4    Sagittaria_latifolia,
+            5    Ranalisma_humile,
+            6    Luronium_natans,
+            7    Damasonium_alisma,
+            8    Baldellia_ranunculoides,
+            9    Alisma_plantago,
+            10   Hydrocleys_nymphoides,
+            11   Limnocharis_flava,
+            12   Butomus_umbellatus,
+            13   Limnobium_spongia,
+            14   Hydrocharis_morsus,
+            15   Statiotes_aloides,
+            16   Lagarosiphon_muscoidess,
+            17   Lagarosiphon_major,
+            18   Apalanthe_granatensis,
+            19   Egeria_densa,
+            20   Elodea_nuttallii,
+            21   Ottelia_ulvifolia,
+            22   Ottelia_alismoides,
+            23   Blyxa_aubertii,
+            24   Hydrilla_verticillata,
+            25   Nechamandra_alternifolia,
+            26   Vallisneria_spiralis,
+            27   Vallisneria_americana,
+            28   Halophila_decipiens,
+            29   Halophila_engelmannii,
+            30   Enhalus_acoroides,
+            31   Thalassia_hemprichii,
+            32   Thalassia_testudinum,
+            33   Najas_marina,
+            34   Najas_flexilis,
+            35   Scheuchzeria_palustris,
+            36   Aponogeton_herm,
+            37   Aponogeton_mono,
+            38   Aponogeton_dio,
+            39   Cycnogeton_procera,
+            40   Triglochin_maritimum,
+            41   Lilaea_scilloides,
+            42   Posidonia_oceanica,
+            43   Posidonia_australis,
+            44   Ruppia_megacarpa,
+            45   Ruppia_maritima,
+            46   Halodule_pinifolia,
+            47   Halodule_beaudettei,
+            48   Syringodium_filiformis,
+            49   Syringodium_isoetifolium,
+            50   Cymodocea_serrulata,
+            51   Cymodocea_nodosa,
+            52   Amphibolis_antartica,
+            53   Thalasssodendron_pachyrhizum,
+            54   Phyllospadix_torreyi,
+            55   Zostera_marina,
+            56   Zostera_noltii,
+            57   Zostera_mucronata,
+            58   Heterozostera_tasmanica,
+            59   Zannichellia_palustris,
+            60   Lepilaena_australis,
+            61   Potamogeton_amplifolius,
+            62   Potamogeton_confervoides,
+            63   Potamogeton_zosteriformis,
+            64   Potamogeton_crispus,
+            65   Potamogeton_richardsonii,
+            66   Potamogeton_perfoliatus,
+            67   Potamogeton_gramineus,
+            68   Potamogeton_robbinsii,
+            69   Coleogeton_pectinatus,
+            70   Groenlandia_densa;
+      TREE Fig._2 = [&R] ((((1,(2,(3,4))),(5,((6,7,(8,9)),(10,11)))),(12,((13,14),(15,((16,17),((18,(19,20)),(21,22,23))),(((24,(25,(26,27))),((28,29),(30,(31,32)))),(33,34)))))),(35,(((37,38),36),((39,(40,41)),(((42,43),((44,45),(46,47),(48,(49,(50,51,(52,53)))))),((54,(55,(56,57,58))),(((59,60),(61,(62,63,((64,65),(66,67,68))))),69,70)))))));
+
+
+
+END;

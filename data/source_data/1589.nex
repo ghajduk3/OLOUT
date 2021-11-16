@@ -1,0 +1,79 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:49 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Mcdonald A.T., & Horner J.R. 2010. "New material of "Styracosaurus" ovatus from the
+Two Medicine Formation of Montana." In: , eds. New Perspectives on Horned Dinosaurs.
+pp. 156-168. Bloomington, University of Indiana Press.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S13153]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=11;
+        TAXLABELS
+            Achelousaurus_horneri
+            Albertaceratops_nesmoi
+            Centrosaurus_apertus
+            Centrosaurus_brinkmani
+            Chasmosaurinae
+            Einiosaurus_procurvicornis
+            Leptoceratops_gracilis
+            Pachyrhinosaurus_canadensis
+            Pachyrhinosaurus_n._sp.
+            Rubeosaurus_ovatus
+            Styracosaurus_albertensis
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M13874]
+
+	TITLE Character_Matrix;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=27;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2 3 4" MISSING=? GAP= -;
+
+MATRIX
+[                                       10        20        30   ]
+[                                        .         .         .   ]
+Achelousaurus_horneri           1210113131?111110?101301010
+Albertaceratops_nesmoi          11001201001111110?0?11?1010
+Centrosaurus_apertus            1000101111311111111114?1010
+Centrosaurus_brinkmani          1000102111211111111212?1010
+Chasmosaurinae                  10000001000000110?0?10?1010
+Einiosaurus_procurvicornis      10001131213111110?101311{01}10
+Leptoceratops_gracilis          0???0??0???000000?0?0??0?0?
+Pachyrhinosaurus_canadensis     12111??131?111110?111301010
+Pachyrhinosaurus_n._sp.         1211113131?111110?111301010
+Rubeosaurus_ovatus              1000???1213???110?101311{12}1{01}
+Styracosaurus_albertensis       1000101121311111101{01}130121{12}
+;
+END;
+
+BEGIN TREES;
+      TITLE Analysis_results;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Leptoceratops_gracilis,
+            2    Chasmosaurinae,
+            3    Albertaceratops_nesmoi,
+            4    Centrosaurus_apertus,
+            5    Centrosaurus_brinkmani,
+            6    Styracosaurus_albertensis,
+            7    Rubeosaurus_ovatus,
+            8    Einiosaurus_procurvicornis,
+            9    Achelousaurus_horneri,
+            10   Pachyrhinosaurus_canadensis,
+            11   Pachyrhinosaurus_n._sp.;
+      TREE Figure_10.5 = [&R] (1,(2,(3,((6,(4,5)),((7,8),(9,(10,11)))))));
+
+
+
+END;

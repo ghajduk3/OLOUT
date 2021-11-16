@@ -1,0 +1,179 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:47 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Lutzoni F., & Vilgalys R. 1995. Integration of morphological and molecular data
+sets in estimating fungal phylogenies. Canadian Journal of Botany, 73: S649-S659.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S292]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=8;
+        TAXLABELS
+            Arrhenia_lobata
+            Omphalina_epichysium
+            Omphalina_ericetorum
+            Omphalina_hudsoniana
+            Omphalina_lutevitellina
+            Omphalina_obscurata
+            Omphalina_rivulicola
+            Omphalina_velutina
+            ;
+END;
+
+BEGIN TAXA;
+        TITLE  Taxa2;
+        DIMENSIONS NTAX=8;
+        TAXLABELS
+            Arrhenia_lobata
+            Omphalina_epichysium
+            Omphalina_ericetorum
+            Omphalina_hudsoniana
+            Omphalina_lutevitellina
+            Omphalina_obscurata
+            Omphalina_rivulicola
+            Omphalina_velutina
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M2724]
+
+	TITLE Table_2;
+	LINK TAXA = Taxa2;
+	DIMENSIONS NCHAR=17;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2 3" MISSING=? GAP= -;
+	CHARSTATELABELS
+		1  Lichenization / absent globular squamulose,
+		2  Clamps_at_base / absent present,
+		3  'Prop. basidia w/ diff. # spores' / 70%_tetrasporic 7.5%_trisporic 15%_bisporic 7.5%_unisporic,
+		4  Reproduction / potentially_parthenogenic sexual,
+		5  Pileus_surface / free_ends_not_forming_scales free_ends_forming_scales,
+		6  Cutis_texture / epidermoidea intricata porrecta prismatica,
+		7  'Cutis-free termiminal cell' / absent present,
+		8  'Pileus micro-incrustation' / absent present,
+		9  Pileus_laciniate_incrustation / absent present,
+		10  Axenic_culture_on_MEA / not_possible possible,
+		11  Pileus_colour / reddish_brown yellow grey_brown,
+		12  Lamellae_colour / pale_brown yellow dark_greyish_brown grey_white,
+		13  Stipe_base_pubescences / absent present,
+		14  Stipe_interior / hollow solid,
+		15  Stipe_colour / pale_reddish_brown white_to_pale_yellow dark_grey,
+		16  'Basidiospores w/ diff. # nuclei' / '13% uni 60% bi 13% tri 13% > tr' 100%_binucleate 100%_uninucleate,
+		17  Stipe / absent present,
+		;
+
+MATRIX
+[                                   10        20    ]
+[                                    .         .    ]
+Arrhenia_lobata             0{01}311{12}011122???20
+Omphalina_epichysium        01?1{01}21{01}0123??221
+Omphalina_ericetorum        10000{12}0000121{01}101
+Omphalina_hudsoniana        20100{01}1000111{01}121
+Omphalina_lutevitellina     10100100001101111
+Omphalina_obscurata         01311{12}11112201201
+Omphalina_rivulicola        01310{123}011100{01}0021
+Omphalina_velutina          1020{01}10{01}0002110?1
+;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M1300]
+
+	TITLE Fig._1;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=62;
+	FORMAT DATATYPE=DNA SYMBOLS= "A C G T" MISSING=? GAP= -;
+
+MATRIX
+[                                   10        20        30        40        50        60  ]
+[                                    .         .         .         .         .         .  ]
+Arrhenia_lobata             ATTT-CTGGAACCCGTCTCCATTGCTCTTAG--GTTCATC--GATTGTCGGGTTTCTTTGTT
+Omphalina_epichysium        ATT--TCGAA?CTCGTCCCTGTTAT-GTTGG---TTC-TC-GGG-GGTC?????????????
+Omphalina_ericetorum        ACT-CCCGTGAACCGTCGCCTTCACC-CCGG--GTTTATT--GGCTATTACCAGCTCTTGTC
+Omphalina_hudsoniana        ATCT-CAAGAGTTGCTTTCTGCAGTC-TCGTTTGTCCTCTG-GGCAGCTACCTGCTCTTCTC
+Omphalina_lutevitellina     GCCTCCAACAGTTGCTTTCCGCCACCCTTGTTTGTCCATTCGAGCGGTTACGAGCTCCCCCC
+Omphalina_obscurata         GCTT-TTGAAACTCGCTTCCATCACTCTTAG--GTTCAAC--AATAGTCGGGTTTCCTTCTT
+Omphalina_rivulicola        ACTT-CTGAAAATCGTTCTTGTTACC-CTGG---ATTTCT--GGCAATTACCTGCTTTTGTC
+Omphalina_velutina          ATCTCCAACGGCTGCCCCTCGTGACC-CTGG--GAGCACTG-GGTGGCTACCTGCTCCCGCC
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb5037;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Omphalina_epichysium,
+            2    Omphalina_ericetorum,
+            3    Omphalina_hudsoniana,
+            4    Omphalina_lutevitellina,
+            5    Omphalina_obscurata,
+            6    Omphalina_rivulicola,
+            7    Omphalina_velutina,
+            8    Arrhenia_lobata;
+      TREE Fig._2B = [&R] ((((4,3),7),(1,(5,8))),2,6);
+
+
+
+END;
+BEGIN TREES;
+      TITLE Tb5035;
+      LINK TAXA = Taxa2;
+         TRANSLATE
+            1    Arrhenia_lobata,
+            2    Omphalina_epichysium,
+            3    Omphalina_ericetorum,
+            4    Omphalina_hudsoniana,
+            5    Omphalina_lutevitellina,
+            6    Omphalina_obscurata,
+            7    Omphalina_rivulicola,
+            8    Omphalina_velutina;
+      TREE Fig._2A = [&R] ((((5,4),3),8),7,(1,(2,6)));
+
+
+
+END;
+BEGIN TREES;
+      TITLE Tb5036;
+      LINK TAXA = Taxa2;
+         TRANSLATE
+            1    Arrhenia_lobata,
+            2    Omphalina_epichysium,
+            3    Omphalina_ericetorum,
+            4    Omphalina_hudsoniana,
+            5    Omphalina_lutevitellina,
+            6    Omphalina_obscurata,
+            7    Omphalina_rivulicola,
+            8    Omphalina_velutina;
+      TREE Fig._7 = [&R] ((((5,4),8),3),7,(2,(1,6)));
+      TREE Fig._6.2 = [&R] ((((5,4),8),3),7,(2,(1,6)));
+      TREE Fig._6.3 = [&R] (3,7,(((5,4),8),(2,(1,6))));
+      TREE Fig._6.1 = [&R] (((((5,4),8),3),2),7,(1,6));
+
+
+
+END;
+BEGIN TREES;
+      TITLE Tb5038;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Omphalina_epichysium,
+            2    Omphalina_ericetorum,
+            3    Omphalina_hudsoniana,
+            4    Omphalina_lutevitellina,
+            5    Omphalina_obscurata,
+            6    Omphalina_rivulicola,
+            7    Omphalina_velutina,
+            8    Arrhenia_lobata;
+      TREE Fig._3 = [&R] ((((4,3),7),(1,(5,8))),2,6);
+
+
+
+END;

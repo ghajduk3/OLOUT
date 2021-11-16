@@ -1,0 +1,141 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:38 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Samuels G., Petrini O., & Manguin S. 1994. Morphological and macromolecular characterization
+of Hypocrea schweinitzii and its Trichoderma anamorph. Mycologia, 86:
+421-435.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S297]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=17;
+        TAXLABELS
+            Hypocrea_rufa_89.127
+            Hypocrea_rufa_89.142
+            Hypocrea_schweinitzii_79.225
+            Hypocrea_schweinitzii_79.290
+            Hypocrea_schweinitzii_84.473
+            Hypocrea_schweinitzii_86.403
+            Hypocrea_schweinitzii_86.404
+            Hypocrea_schweinitzii_86.408
+            Hypocrea_schweinitzii_88.6
+            Hypocrea_schweinitzii_88.81
+            Hypocrea_schweinitzii_89.7
+            Hypocrea_schweinitzii_90.111
+            Hypocrea_schweinitzii_AYR_2896
+            Trichoderma_longibrachiatum_CBS816.68
+            Trichoderma_pseudokoningii
+            Trichoderma_reesei_NS20
+            Trichoderma_reesei_NS21
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M1509]
+
+	TITLE Table_III;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=42;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2 3 4 5" MISSING=? GAP= -;
+	CHARSTATELABELS
+		1  Aconitase,
+		2  Ethanol_dehydrogenase,
+		3  Ethanol_dehydrogenase,
+		4  Aldolase,
+		5  Aldolase,
+		6  Diaphorase,
+		7  Esterase,
+		8  Esterase,
+		9  Esterase,
+		10  Fumarase,
+		11  Fumarase,
+		12  Glutamate_dehydrogenase,
+		13  Glutamate_oxaloacetate_transami,
+		14  Glutamate_oxaloacetate_transami,
+		15  'Glyceraldehyde-3-phosphate dehy',
+		16  'Glyceraldehyde-3-phosphate dehy',
+		17  'Glucose-6-phosphate dehydrogena',
+		18  'Glucose-6-phosphate dehydrogena',
+		19  'Glucose-6-phosphate dehydrogena',
+		20  Glutathione_reductase,
+		21  Hydroxyacid_dehydrogenase,
+		22  Hydroxyacid_dehydrogenase,
+		23  Hexokinase,
+		24  Leucine_amino_peptidase,
+		25  Leucine_amino_peptidase,
+		26  Lactate_dehydrogenase,
+		27  Malate_dehydrogenase,
+		28  Malate_dehydrogenase,
+		29  Malate_dehydrogenase,
+		30  Malate_dehydrogenase,
+		31  Malate_dehydrogenase,
+		32  Malic_enzyme,
+		33  'Mannose-6-phosphate isomerase',
+		34  'Mannose-6-phosphate isomerase',
+		35  '6-Phosphogluconate dehydrogenas',
+		36  '6-Phosphogluconate dehydrogenas',
+		37  Phosphoglucose_isomerase,
+		38  Phosphoglucomutase,
+		39  Pyruvate_kinase,
+		40  Pyruvate_kinase,
+		41  Pyruvate_kinase,
+		42  Purine_nucleoside_phosphorylase,
+		;
+
+MATRIX
+[                                                 10        20        30        40  ]
+[                                                  .         .         .         .  ]
+Hypocrea_rufa_89.127                      212114122111231121102031001012111111221110
+Hypocrea_rufa_89.142                      312115231001231121102031201110010101230011
+Hypocrea_schweinitzii_79.225              000013210222000122110000110032102131112310
+Hypocrea_schweinitzii_79.290              000013212222000122110000110032103131112310
+Hypocrea_schweinitzii_84.473              500012202331110123021030031031101010011200
+Hypocrea_schweinitzii_86.403              500012202331120123021030031031101010011200
+Hypocrea_schweinitzii_86.404              500012202331120123021030031021101010011200
+Hypocrea_schweinitzii_86.408              500012202331120123021030031031101010011200
+Hypocrea_schweinitzii_88.6                500011202331120123021030031002101010011200
+Hypocrea_schweinitzii_88.81               401001202441120024131120010032100101100410
+Hypocrea_schweinitzii_89.7                500012202331110123021030031002101010011200
+Hypocrea_schweinitzii_90.111              000013012221000102110030010032102131112310
+Hypocrea_schweinitzii_AYR_2896            500012202331120123021030031002101010011200
+Trichoderma_longibrachiatum_CBS816.68     200013202221020122121010000032101111111210
+Trichoderma_pseudokoningii                10001?202330310110121030021002101111311010
+Trichoderma_reesei_NS20                   500012222331120123121030031031101111111210
+Trichoderma_reesei_NS21                   500012242331120123121030031031101121111210
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb5047;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Hypocrea_schweinitzii_79.225,
+            2    Hypocrea_schweinitzii_79.290,
+            3    Hypocrea_schweinitzii_84.473,
+            4    Hypocrea_schweinitzii_86.403,
+            5    Hypocrea_schweinitzii_86.404,
+            6    Hypocrea_schweinitzii_86.408,
+            7    Hypocrea_schweinitzii_88.6,
+            8    Hypocrea_schweinitzii_88.81,
+            9    Hypocrea_rufa_89.127,
+            10   Hypocrea_rufa_89.142,
+            11   Hypocrea_schweinitzii_89.7,
+            12   Hypocrea_schweinitzii_90.111,
+            13   Hypocrea_schweinitzii_AYR_2896,
+            14   Trichoderma_pseudokoningii,
+            15   Trichoderma_reesei_NS20,
+            16   Trichoderma_reesei_NS21,
+            17   Trichoderma_longibrachiatum_CBS816.68;
+      TREE Fig._1 = [&R] (('Hypocrea_rufa_89-142','Hypocrea_rufa_89-127'),((((('Hypocrea_schweinitzii_79-290','Hypocrea_schweinitzii_79-225'),'Hypocrea_schweinitzii_90-111'),17),'Hypocrea_schweinitzii_88-81'),(((((('Hypocrea_schweinitzii_86-408','Hypocrea_schweinitzii_86-403'),'Hypocrea_schweinitzii_84-473'),'Hypocrea_schweinitzii_86-404'),(('Hypocrea_schweinitzii_88-6',13),'Hypocrea_schweinitzii_89-7')),(15,16)),14)));
+
+
+
+END;

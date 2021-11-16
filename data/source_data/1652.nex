@@ -1,0 +1,88 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:49 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Anderberg A. 1994. Phylogeny of the Empetraceae, with special emphasis on character
+evolution in the genus Empetrum. Systematic Botany, 19: 35-46.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S2366]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=14;
+        TAXLABELS
+            Ceratiola_ericoides
+            Corema_album
+            Corema_conradii
+            Daboecia
+            Empetrum_atropurpureum
+            Empetrum_eamesii
+            Empetrum_hermaphroditum
+            Empetrum_kardakovii
+            Empetrum_maclovianum
+            Empetrum_medium
+            Empetrum_nigrum
+            Empetrum_rubrum
+            Empetrum_subholarcticum
+            Enkianthus
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M3522]
+
+	TITLE Table_1;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=28;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2 3 4 5" MISSING=? GAP= -;
+
+MATRIX
+[                                   10        20        ]
+[                                    .         .        ]
+Ceratiola_ericoides         0110100100010112110111101110
+Corema_album                0110100101100111110112001100
+Corema_conradii             0110100101100111110111?1111?
+Daboecia                    0000000000001000010000??0100
+Empetrum_atropurpureum      1110100210010011111112510111
+Empetrum_eamesii            111010021001001111111241011?
+Empetrum_hermaphroditum     1101100210010011111112310111
+Empetrum_kardakovii         11001002100101111111124101??
+Empetrum_maclovianum        2110101210010111111112210110
+Empetrum_medium             ?110100210010011111112210110
+Empetrum_nigrum             1101100210010111111112310110
+Empetrum_rubrum             010110021001011111111221011?
+Empetrum_subholarcticum     1100110210010111111112310111
+Enkianthus                  0000000000001000100000??0000
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb9583;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Enkianthus,
+            2    Daboecia,
+            3    Corema_album,
+            4    Corema_conradii,
+            5    Ceratiola_ericoides,
+            6    Empetrum_nigrum,
+            7    Empetrum_hermaphroditum,
+            8    Empetrum_subholarcticum,
+            9    Empetrum_kardakovii,
+            10   Empetrum_eamesii,
+            11   Empetrum_atropurpureum,
+            12   Empetrum_medium,
+            13   Empetrum_rubrum,
+            14   Empetrum_maclovianum;
+      TREE Fig._2 = [&R] ((1,(2,((4,3),(5,((12,14),(13,(6,(7,(8,(9,(10,11))))))))))Empetraceae));
+      TREE Fig._3 = [&R] ((1,(2,(5,(3,4),(12,14,(13,(6,(7,(8,(9,(10,11)))))))))Empetraceae));
+
+
+
+END;

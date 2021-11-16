@@ -1,0 +1,153 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:51 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Zambino P., & Harrington T. 1992. Correspondence of isozyme characterization with
+morphology in the asexual genus Leptographium and taxonomic implications. Mycologia,
+84: 12-25.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S304]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=30;
+        TAXLABELS
+            Leptographium_abietinum
+            Leptographium_abietinum_C172
+            Leptographium_engelmannii
+            Leptographium_lundbergii
+            Leptographium_procerum
+            Leptographium_pyrinum
+            Leptographium_serpens
+            Leptographium_sp._A
+            Leptographium_sp._E
+            Leptographium_sp._F
+            Leptographium_sp._H
+            Leptographium_sp._I
+            Leptographium_sp._J
+            Leptographium_sp._K
+            Leptographium_sp._L
+            Leptographium_terebrantis
+            Leptographium_truncatum
+            Leptographium_wageneri_v._ponde
+            Leptographium_wageneri_v._pseud
+            Leptographium_wageneri_v._wagen
+            Ophiostoma_abiocarpum
+            Ophiostoma_adjuncti
+            Ophiostoma_aureum
+            Ophiostoma_clavigerum
+            Ophiostoma_crassivaginatum
+            Ophiostoma_europhioides
+            Ophiostoma_huntii
+            Ophiostoma_penicillatum
+            Ophiostoma_robustum
+            Ophiostoma_sp._M
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M955]
+
+	TITLE Table_III;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=15;
+	FORMAT DATATYPE=Standard SYMBOLS= "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z" MISSING=? GAP= -;
+	CHARSTATELABELS
+		1  ACO1,
+		2  AAT1,
+		3  DIA1,
+		4  FUM1,
+		5  G6PD1,
+		6  GPI1,
+		7  GDH1,
+		8  IDH1,
+		9  LAP1,
+		10  MAN1,
+		11  MDH1,
+		12  MDH2,
+		13  PGM1,
+		14  SOD1,
+		15  TPI1,
+		;
+
+MATRIX
+[                                           10        20        30        40     ]
+[                                            .         .         .         .     ]
+Leptographium_abietinum             J{BE}F{AD}J{DEJ}D{KLR}{CFM}{KU}{GO}{CH}{IN}BI
+Leptographium_abietinum_C172        GEFDFJDVSNNKQBA
+Leptographium_engelmannii           JBFDJDELMUOHNBI
+Leptographium_lundbergii            JJHEDVLMO?QPOAL
+Leptographium_procerum              HICCBIACVDRFDFD
+Leptographium_pyrinum               OAHHBRDMHVJFODS
+Leptographium_serpens               AIF{CG}B{BJ}HBKCBG{FN}A{FVY}
+Leptographium_sp._A                 MCHGCXBMGJJNOAT
+Leptographium_sp._E                 DDCGBBD{AB}WBOFEAF
+Leptographium_sp._F                 {CE}D{CG}GBHD{ABGQ}{LQ}{BCE}FA{AC}EF
+Leptographium_sp._H                 HOCGBKDGPFFOCAU
+Leptographium_sp._I                 LFCBDCEND{ORX}{ES}{QT}OBD
+Leptographium_sp._J                 KFFFEMCNKWKFKAC
+Leptographium_sp._K                 MFCBDADMDLCPOCJ
+Leptographium_sp._L                 IEHKKTFHJQAFOAX
+Leptographium_terebrantis           SCJFAQBPETJPKAT
+Leptographium_truncatum             TF{CF}HDS{GH}EI{PS}{AM}FOA{GL}
+Leptographium_wageneri_v._ponde     HMCFB{KP}DGRGFMEGH
+Leptographium_wageneri_v._pseud     H{LM}CFBKDGRGF{MO}{BE}F{HO}
+Leptographium_wageneri_v._wagen     FLCFBKDSRGFO{BE}FM
+Ophiostoma_abiocarpum               PHEGBFIDKIJDRBB
+Ophiostoma_adjuncti                 BNDLGGGTUHIRHHE
+Ophiostoma_aureum                   MCHFDXBMHSJJPBW
+Ophiostoma_clavigerum               {NO}A{HIJ}HB{NR}DM{HO}VJ{FN}{MO}{AD}{PRS}
+Ophiostoma_crassivaginatum          QGAJHWKWN?HEGAK
+Ophiostoma_europhioides             IIJFDSI{GH}BY{DJ}{BFI}SA{NT}
+Ophiostoma_huntii                   KIHGDOGIBMLSOAN
+Ophiostoma_penicillatum             PGBJILIUT?PDJBD
+Ophiostoma_robustum                 NAJHBNDMHVJFOAP
+Ophiostoma_sp._M                   RKJIDUJJAZJLSAQ
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb5058;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Leptographium_abietinum,
+            2    Leptographium_abietinum_C172,
+            3    Leptographium_engelmannii,
+            4    Leptographium_lundbergii,
+            5    Leptographium_procerum,
+            6    Leptographium_pyrinum,
+            7    Leptographium_serpens,
+            8    Leptographium_terebrantis,
+            9    Leptographium_truncatum,
+            10   Leptographium_wageneri_v._wagen,
+            11   Leptographium_wageneri_v._ponde,
+            12   Leptographium_wageneri_v._pseud,
+            13   Leptographium_sp._A,
+            14   Leptographium_sp._E,
+            15   Leptographium_sp._F,
+            16   Leptographium_sp._H,
+            17   Leptographium_sp._I,
+            18   Leptographium_sp._J,
+            19   Leptographium_sp._K,
+            20   Leptographium_sp._L,
+            21   Ophiostoma_abiocarpum,
+            22   Ophiostoma_adjuncti,
+            23   Ophiostoma_aureum,
+            24   Ophiostoma_clavigerum,
+            25   Ophiostoma_crassivaginatum,
+            26   Ophiostoma_europhioides,
+            27   Ophiostoma_huntii,
+            28   Ophiostoma_penicillatum,
+            29   Ophiostoma_robustum,
+            30   Ophiostoma_sp._M;
+      TREE Fig._1 = [&R] (22,(25,((((1,3),2),(21,28)),((((((9,4,27),20),(26,30)),((24,29,6),(8,(23,13)))),(17,19))4_cluster,((7,18),(5,((14,15),(16,(10,(11,12))))))7_cluster))));
+
+
+
+END;

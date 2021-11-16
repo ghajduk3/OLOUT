@@ -1,0 +1,79 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:48 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Gay R. 2010. "Kayentavenator elysiae, a new tetanuran from the Early Jurassic of
+Arizona." In: Gay R., eds. Notes on Early Mesozoic Theropods. pp. 27-43. , Lulu
+Press.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S13135]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=11;
+        TAXLABELS
+            Allosaurus
+            Archaeopteryx
+            Carnotaurus
+            Ceratosaurus
+            Coelophysisidae
+            Dilophosaurus
+            Dromeosauridae
+            Herresaurus
+            Kayentavenator
+            Rauisuchidae
+            Tyrannosauridae
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M13853]
+
+	TITLE Tetanurans;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=28;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2 3 4" MISSING=? GAP= -;
+
+MATRIX
+[                           10        20        ]
+[                            .         .        ]
+Allosaurus          0001011101001211122220200020
+Archaeopteryx       0011111?110212?12232201001??
+Carnotaurus         0?01011000001100121111011???
+Ceratosaurus        0101010000011010111111011011
+Coelophysisidae     0000100120000000101000000110
+Dilophosaurus       0?0101000011101001110101100?
+Dromeosauridae      0011111111031111223220100120
+Herresaurus         0000001000040000000000000100
+Kayentavenator      2001010101111020122210000111
+Rauisuchidae        01010?2210000000????????0101
+Tyrannosauridae     0001011101001221123220200120
+;
+END;
+
+BEGIN TREES;
+      TITLE Tetanurans;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Rauisuchidae,
+            2    Kayentavenator,
+            3    Archaeopteryx,
+            4    Ceratosaurus,
+            5    Coelophysisidae,
+            6    Dilophosaurus,
+            7    Herresaurus,
+            8    Dromeosauridae,
+            9    Allosaurus,
+            10   Tyrannosauridae,
+            11   Carnotaurus;
+      TREE Imported_tree_0 = [&R] (1,((2,(9,10,(3,8))),(11,(4,6)),(5,7)));
+
+
+
+END;

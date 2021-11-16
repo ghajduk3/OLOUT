@@ -1,0 +1,107 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:47 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Simpson M. 1990. Phylogeny and classification of the Haemodoraceae. Annals of the
+Missouri Botanical Garden, 77: 722-784.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S108]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=19;
+        TAXLABELS
+            Anigozanthos_flavidus
+            Anigozanthos_rufus
+            Barberetta_aurea
+            Blancoa_canescens
+            Conostylis_androstemma
+            Conostylis_aurea
+            Conostylis_bealiana
+            Dilatris
+            Haemodorum_spicatum
+            Lachnanthes_caroliniana
+            Macropidia_fuliginosa
+            Philydraceae
+            Phlebocarya
+            Pontederiaceae
+            Pyrrorhiza_neblinae
+            Schiekia_orinocensis
+            Tribonanthes
+            Wachendorfia_thyrsiflora
+            Xiphidium_coeruleum
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M2572]
+
+	TITLE Table_8;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=55;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1" MISSING=? GAP= -;
+
+MATRIX
+[                                    10        20        30        40        50     ]
+[                                     .         .         .         .         .     ]
+Anigozanthos_flavidus        0001100?11110011011000000010110010110011001101100001111
+Anigozanthos_rufus           0001100?11110011011000000010110010110011001101000001111
+Barberetta_aurea             001000110????00000001100000010111000010110010000101??11
+Blancoa_canescens            0001100?11110011001000000010110010110011001101100001?11
+Conostylis_androstemma       0001100?1111001100100000001011001011001100110110000??11
+Conostylis_aurea             0001100?1111001000100000001011001011001100110110000??11
+Conostylis_bealiana          0001100?1111001100100000001011001011001100110110000??11
+Dilatris                     100111111100100000001110000010101000011100010001111?111
+Haemodorum_spicatum          110110100????000000111100000100000??0111000101011101?11
+Lachnanthes_caroliniana      100111?111000000000011000000100000??0111000001?11111111
+Macropidia_fuliginosa        0001100?1111001101100000001011001011001100110000000??11
+Philydraceae                 0?00001011000000?00111???000??00?????1001?11011000?0001
+Phlebocarya                  000110??1111000000010000001011001010001101111000100??11
+Pontederiaceae               00010010110000???001?????0001000?0??0?0??011???000?0110
+Pyrrorhiza_neblinae          11011011100010001000111110001000100010010001010?11???11
+Schiekia_orinocensis         0001101110001100100010110000000011??1101000001?011???11
+Tribonanthes                 0101100?1101001000110000011111001011001100110110100??11
+Wachendorfia_thyrsiflora     1111001110001100100011000000101110000101000100001111111
+Xiphidium_coeruleum          100100110????000000011100000100010000100000101101111111
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb4827;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Philydraceae,
+            2    Pontederiaceae,
+            3    Anigozanthos_flavidus,
+            4    Anigozanthos_rufus,
+            5    Barberetta_aurea,
+            6    Blancoa_canescens,
+            7    Conostylis_androstemma,
+            8    Conostylis_aurea,
+            9    Conostylis_bealiana,
+            10   Dilatris,
+            11   Haemodorum_spicatum,
+            12   Lachnanthes_caroliniana,
+            13   Macropidia_fuliginosa,
+            14   Phlebocarya,
+            15   Pyrrorhiza_neblinae,
+            16   Schiekia_orinocensis,
+            17   Tribonanthes,
+            18   Wachendorfia_thyrsiflora,
+            19   Xiphidium_coeruleum;
+      TREE Fig._167 = [&R] (((((((18,5),19),(15,16)),10),12),11),(14,(17,(8,(7,9,6,(3,(4,13)))))))Haemodoraceae;
+      TREE Fig._175B = [&R] ((((((18,5),16),19),15),(10,12)),11);
+      TREE Fig._175A = [&R] ((((((18,5),10),19),(15,16)),12),11);
+      TREE Fig._174A = [&R] ((((18,5),19),(15,16)),((10,12),11));
+      TREE Fig._173 = [&R] ((((18,5),19),(15,16)),((11,(10,12)),(14,(17,(8,(7,9,6,(3,(4,13))))))));
+      TREE Fig._166 = [&R] ((((((18,5),19),(15,16)),(10,12)),11),(14,(17,(8,(7,9,6,(3,(4,13)))))))Haemodoraceae;
+
+
+
+END;

@@ -1,0 +1,80 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:49 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Lavin M. 1990. The genus Sphinctospermum (Leguminosae): taxonomy and tribal relationships
+as inferred from a cladistic analysis of traditional data. Systematic Botany,
+15: 544-559.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S103]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=11;
+        TAXLABELS
+            Coursetia
+            Dalbergia
+            Hebestigma
+            Kunstleria
+            Lonchocarpus
+            Peteria
+            Piscidia
+            Robinia
+            Sesbania
+            Sphinctospermum
+            Tephrosia
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M1488]
+
+	TITLE Table_1;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=27;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2" MISSING=9 GAP= -;
+
+MATRIX
+[                           10        20       ]
+[                            .         .       ]
+Coursetia           000011211000000111101111111
+Dalbergia           000000000000000000000000000
+Hebestigma          000011001000000191100011011
+Kunstleria          000000100001110000000001010
+Lonchocarpus        100002101111111001000011011
+Peteria             000111011000000111111111111
+Piscidia            101002101111111001000011011
+Robinia             000011011000000111111111111
+Sesbania            000011001000000011100000011
+Sphinctospermum     111111211000100111100009191
+Tephrosia           111002111111111101100011111
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb4822;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Dalbergia,
+            2    Kunstleria,
+            3    Lonchocarpus,
+            4    Piscidia,
+            5    Tephrosia,
+            6    Sphinctospermum,
+            7    Sesbania,
+            8    Hebestigma,
+            9    Robinia,
+            10   Peteria,
+            11   Coursetia;
+      TREE Fig._21 = [&R] (1,((7,(8,(6,(11,(9,10))))),(2,(3,(4,5)))));
+      TREE Fig._22 = [&R] (1,(2,(7,(8,((6,(5,(3,4))),(11,(9,10)))))));
+
+
+
+END;

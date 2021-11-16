@@ -1,0 +1,176 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:46 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Coyle F. 1995. A revision of the funnelweb mygalomorph spider subfamily Ischnothelinae
+(Araneae, Dipluridae). American Naturalist, 226: 1-133.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S270]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=28;
+        TAXLABELS
+            Allothele
+            Andethele_huanca
+            Andethele_lucma
+            Andethele_tarma
+            Diplura
+            Euagrus
+            Indothele_dumicola
+            Indothele_lanka
+            Indothele_mala
+            Indothele_rothi
+            Ischnothele_annulata
+            Ischnothele_caudata
+            Ischnothele_digitata
+            Ischnothele_garcia
+            Ischnothele_goloboffi
+            Ischnothele_guianensis
+            Ischnothele_huambisa
+            Ischnothele_jeremie
+            Ischnothele_longicauda
+            Ischnothele_reggae
+            Ischnothele_xera
+            Lathrothele_catamita
+            Lathrothele_cavernicola
+            Lathrothele_grabensis
+            Lathrothele_jezequeli
+            Linothele
+            Thelechoris_rutenbergi
+            Thelechoris_striatipes
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M2398]
+
+	TITLE Table_1;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=44;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2 3" MISSING=? GAP= -;
+	CHARSTATELABELS
+		1  Spines_on_tibia_I_mating_apophy / absent present,
+		2  Position_of_tibia_I_mating_apop / subterminal terminal,
+		3  Shape_of_tibia_I_mating_apophys / truncate tapers_to_point two_protuberances,
+		4  Shape_of_dorsal_portion_of_tibi / not_or_weakly_swollen strongly_swollen,
+		5  Ventral_keel_distal_end_of_meta / absent present,
+		6  Apophysis_on_ventral_surface_of / present absent,
+		7  Retrolateral_prominence_of_meta / short_strong_and_blunt short_weak_and_pointed 'long and keel-like',
+		8  Retrolateral_keel_of_metatarsus / thick_and_ridgelike low_and_proximally_thin tall_and_strong,
+		9  Prolateral_prominence_of_metata / present absent,
+		10  Prolateral_prominence_of_metata / small_sharp_point long_thick_ridge keel,
+		11  Spines_on_prolateral_surface_of / '0.0-0.2' '1.3-3.0' '18-27',
+		12  Spines_on_retrolateral_surface / '0.0-0.5' '1.8-2.7',
+		13  'Mean of ITarL(100)/CL' / '30-45' '55-72',
+		14  Tarsus_I / not_pscudosegmented pseudosegmented,
+		15  Spines_on_prolateral_surface_of / none 'two slender-tipped spines' 'two truncate broad-tipped spine',
+		16  Shape_of_palpal_tibia / proximal_half_strongly_swollen proximal_half_not_strongly_swol,
+		17  Bristles_on_tip_of_cymbium / absent weak_bristles strong_bristles,
+		18  Mean_of_CAS / '0-1.5' '2.8-6.1' '11.3-12.0',
+		19  'Mean of PL(100)/BD' / '150-175' '222-282' '309-435',
+		20  Transition_from_bulb_to_embolus / gradual fairly_rapid rapid very_abrupt,
+		21  Serrations_on_embolus / absent present,
+		22  Keels_on_embolus / absent edges_weakly_flattened one_or_two_thin_keels,
+		23  Embolus_cross_section / not_flattened flattened,
+		24  Form_of_embolus_tip / sharp_tip_extends_beyond_openin no_such_extension,
+		25  Embolus_curvature_near_tip / downward upward,
+		26  'Mean of SW(100)/SL' / '81-93' '97-99',
+		27  'Mean of AMD(100)/CL' / '3.3-5.0' '1.7-2.2',
+		28  Position_of_ocular_lobe / anterior_edge_behind_carapace anterior_edge_even_or_in_front,
+		29  'Mean of CS(100)/CW' / '5.2-8.1' '11.2-18.3',
+		30  'Mean of LSL3(100)/CL' / '79-123' '53-59',
+		31  Spermathecae_per_side / one two three four_to_six,
+		32  Shapes_of_spermathecal_stalks / not_coiled one_stalk_coiled both_stalks_coiled,
+		33  Sclerotization_of_spermathecae / unsclerotized weakly_to_moderately_sclerotize heavily_sclerotized,
+		34  Lengths_of_spermathecal_stalks / vestigial short_to_long,
+		35  Relative_lengths_of_spermatheca / lateral_longer_than_medial all_roughly_same_length,
+		36  Separation_of_spermathecae / small large,
+		37  Sclerotization_of_spermathecal / absent one_or_more_stalks_sclerotized,
+		38  Lip_on_base_of_spermathecal_sta / absent present,
+		39  Climate / warm cool,
+		40  Cymbial_apophysis / elongate extremely_short_or_absent,
+		41  Rows_of_cheliceral_teeth / two one,
+		42  Trichobothrial_base / collariform corrugiform,
+		43  Spigot_base / fused articulated,
+		44  Fovea_shape. / procurved otherwise,
+		;
+
+MATRIX
+[                                   10        20        30        40        50        60        ]
+[                                    .         .         .         .         .         .        ]
+Allothele                   ---001----110001{02}{01}{12}0000100{01}00110{01}{01}{01}010{01}11111
+Andethele_huanca            01200020011100011110000110100110111010100000
+Andethele_lucma             01200020011100011110000110100110111010100000
+Andethele_tarma             01200020011100011110000110100110111010100000
+Diplura                     1100000-1-001101{012}01000011{013}0011{01}{01}011000011111
+Euagrus                     ---001----110001{02}{01}{12}0000100{01}00110{01}{01}{01}010{01}11111
+Indothele_dumicola          001000211-000??10110000110011010011001000000
+Indothele_lanka             001001----0001010110000110011011011011000000
+Indothele_mala              ?????????????????????????00110100110010?0000
+Indothele_rothi             ?????????????????????????00110100110010?0000
+Ischnothele_annulata        1100000-002100002112000100000011010010000000
+Ischnothele_caudata         1100000-002100002112000100000011010010000000
+Ischnothele_digitata        1100000-1-1101012110000100011030011000000000
+Ischnothele_garcia          ?????????????????????????00010200110100?0000
+Ischnothele_goloboffi       1100000-001101002110000100000012010010000000
+Ischnothele_guianensis      1100000-002100002112000100000011010010000000
+Ischnothele_huambisa        ?????????????????????????00110200110000?0000
+Ischnothele_jeremie         1100100-00?1??210001020100001020011010000000
+Ischnothele_longicauda      1100100-001111210001020100001020011010000000
+Ischnothele_reggae          1000100-000111110001110100001020201010000000
+Ischnothele_xera            1000100-001111110001110100001020201010000000
+Lathrothele_catamita        ?????????????????????????0011?000-1-00??0000
+Lathrothele_cavernicola     00110022020001010120000110011010011010000000
+Lathrothele_grabensis       00110022020001010120000110011010011010000000
+Lathrothele_jezequeli       0010001-1-0001010120000110011010011110000000
+Linothele                   1100000-1-001101{012}01000011{013}0011{01}{01}011000011111
+Thelechoris_rutenbergi      011001----00000102?3001001010012011010000000
+Thelechoris_striatipes      011001----00000102?3001001010012011010000000
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb5002;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Ischnothele_longicauda,
+            2    Ischnothele_jeremie,
+            3    Ischnothele_garcia,
+            4    Ischnothele_reggae,
+            5    Ischnothele_xera,
+            6    Ischnothele_digitata,
+            7    Ischnothele_huambisa,
+            8    Ischnothele_caudata,
+            9    Ischnothele_guianensis,
+            10   Ischnothele_annulata,
+            11   Ischnothele_goloboffi,
+            12   Andethele_lucma,
+            13   Andethele_huanca,
+            14   Andethele_tarma,
+            15   Lathrothele_grabensis,
+            16   Lathrothele_cavernicola,
+            17   Lathrothele_jezequeli,
+            18   Lathrothele_catamita,
+            19   Indothele_lanka,
+            20   Indothele_dumicola,
+            21   Indothele_rothi,
+            22   Indothele_mala,
+            23   Thelechoris_rutenbergi,
+            24   Thelechoris_striatipes,
+            25   Euagrus,
+            26   Allothele,
+            27   Diplura,
+            28   Linothele;
+      TREE Fig._21 = [&R] ((26,25),((12,13,14)Andethele,((((((1,2),3),(4,5)),(6,7)),((8,9,10),11))Ischnothele,((((15,16),(17,18))Lathrothele,(19,(20,21,22))Indothele),(24,23)Thelechoris)))Ischnothelinae)Dipluridae;
+      TREE Fig._22 = [&R] ((26,25),(28,27),((((1,2),3),(4,5)),(((6,7),((8,9,10),11)),((12,13,14),((((15,16),(17,18)),(19,(20,21,22))),(24,23))))))Mygalomorphae;
+
+
+
+END;

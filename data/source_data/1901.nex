@@ -1,0 +1,340 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:51 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Liljeblad J., & Ronquist F. 1998. A phylogenetic analysis of higher-level gall wasps
+relationships (Hymenoptera: Cynipidae). Systematic Entomology, 28(3): 229-252.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S1570]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=41;
+        TAXLABELS
+            Andricus
+            Antistrophus
+            Asiocynips_lugubris
+            Asiocynips_pannucea
+            Aulacidea_kerneri
+            Aulacidea_phlomica
+            Aulacidea_tragopogonis
+            Aulacidea_verticillica
+            Aylax
+            Barbotinia
+            Biorhiza
+            Cecconia
+            Ceroptres
+            Diastrophus
+            Diplolepis
+            Eschatocerus
+            Euceroptres
+            Gonaspis
+            Hedickiana
+            Himalocynips
+            Ibalia
+            Iraella
+            Isocolus
+            Liposthenes
+            Neaylax
+            Neuroterus
+            Panteliella
+            Paramblynotus
+            Pediaspis
+            Periclistus
+            Phanacis_centaureae
+            Phanacis_hypochoeridis
+            Phanacis_phlomidis
+            Plagiotrochus
+            Pseudomelanips
+            Rhodus
+            Synergus
+            Synophromorpha
+            Timaspis
+            Vetustia
+            Xestophanes
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M1220]
+
+	TITLE Table_3;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=166;
+	FORMAT DATATYPE=Standard SYMBOLS= "a b c d e f g h i j" MISSING=- GAP= ?;
+	CHARSTATELABELS
+		1  Shape_of_clypeus_ventrally / projecting_over_mandibles not_projecting,
+		2  Shape_of_ventral_clypeal_margin / Straight_or_rounded Median_incision,
+		3  'Clypeo-pleurostomal lines' / Present Absent,
+		4  'Direction of clypeo-pleurostoma' / Ventrally_diveriging Ventrally_converging,
+		5  Epistomal_sulcus / Present Absent,
+		6  Distance_between_anterior_tento / Long Short,
+		7  Facial_strigae / Reaching_compound_eye Reaching_past_0.7_of_distance_t Not_reaching_past_0.6_of_distan Absent,
+		8  Subocular_impression / Absent Present,
+		9  Carina_from_ventral_margin_of_a / Absent Present,
+		10  Surface_of_upper_face / Flat Slightly_raised Distinctly_raised,
+		11  Antennal_rim / Distinctly_widened_lateroventra Not_widended,
+		12  Antennal_socket / Small Large,
+		13  Orbits / Flat Impressed,
+		14  Transition_between_eye_and_face / 'Smooth, face rising to eye' 'Smooth, face not rising' Abrupt,
+		15  Sculpture_on_vertex / Regularly_polygonal Erased Punctate,
+		16  Regular_sculpture_on_vertex / Concave Flat Convex,
+		17  Median_hairy_strip_of_gula / Broad Narrow Absent,
+		18  Ventral_part_of_hypostoma / Not_projecting_from_cranial_mar Distinctly_projecting,
+		19  Position_of_gular_ridges / United_well_before_hypostomata 'Free, but meeting' 'Free, well separated',
+		20  Appearance_of_gular_sulci / Distinctly_marked Indistinct Absent,
+		21  Distinctness_of_gular_sulci / Raised Reduced,
+		22  Distance_occipital_and_oral_for / Short Long,
+		23  Position_of_posterior_tentorial / High Low,
+		24  Shape_of_posterior_tentorial_pi / Rounded Slitlike,
+		25  Depression_laterad_hypostomata / Absent Present,
+		26  Ridge_from_hypostomata / Absent Present,
+		27  Posterior_surface_of_cranium / Distinctly_impressed Almost_flat,
+		28  Shape_of_occiput_medially / Flat Sharply_impressed 'Broadly, gradually impressed',
+		29  Sculpture_on_occiput / Transversely_wrinkled Not_wrinkled,
+		30  Shape_of_odontoidea / 'Narrow, pointed' 'Broader, more rounded',
+		31  Teeth_on_mandibles / Three Two,
+		32  Basal_swelling_of_anterior_side / Small Large,
+		33  Dorsal_margin_of_uppper_tooth_o / Evenly_rounded Produced_into_an_extra_tooth,
+		34  Posterior_ventral_surface_of_ma / Horizontal Oblique,
+		35  Oval_window / Large Small_or_absent,
+		36  Prementum_and_stipes / Short Elongate,
+		37  Carina_on_stipes / Present Absent,
+		38  Cardo / Large_part_visible_posteriorly Small_part_visible_posteriorly Not_visible_posteriorly,
+		39  Apical_peg_of_palps / Long_and_narrow Short_and_broad,
+		40  4th_and_5th_segment_of_maxillar / Free_articulation Rigid_insertion_of_5th_in_4th Fused,
+		41  Second_segment_of_maxillary_pal / Short Long,
+		42  First_segment_of_maxillary_palp / Subrectangular Triangular,
+		43  No._of_segments_of_labial_palp / Three_normal 'Three, 2nd reduced' Two,
+		44  First_segment_of_labial_palp / Long Short,
+		45  Female_flagellomeres / 10 11 12 13,
+		46  Length_of_F1 / Short Long,
+		47  Male_flagellomeres / 13 12 11,
+		48  Modified_part_of_F1 / Present Absent,
+		49  Longitudinal_ridge_on_F1 / Absent Present,
+		50  Length_of_F1 / Short Long,
+		51  Shape_of_pronotum / Long_medially Intermediate Short Very_short,
+		52  Anteroventral_margin_of_pronotu / Evenly_rounded Medially_incised,
+		53  Anterior_flange_of_pronotum / 'Long, horizontal' 'Short, oblique',
+		54  Admedian_depressions_of_pronotu / Separated United,
+		55  Shape_of_admedian_depressions / Round Oval Linear,
+		56  Dorsal_pronotal_margin / Sharp Blunt,
+		57  Dorsal_pronotal_area / Present_and_exposed Absent_or_hidden,
+		58  Sculpture_on_pronotal_plate / 'Glabrous-glabrate and shining' Coriarious_and_dull,
+		59  Lateral_margin_of_posterior_par / Marked_entirely Marked_only_ventrally,
+		60  Lateral_pronotal_carina / Present Absent,
+		61  Ridges_on_laterally_on_pronotum / Lacking Some_irregular_in_lower_half Many_regular,
+		62  Sculpture_laterally_on_pronotum / At_least_superficially_sculptur Laregely_glabrous,
+		63  Pronotal_surface_laterodorsally / More_or_less_vertical Broad_dorsal_strip_inflected Gradually_curved_inwards_dorsal,
+		64  Ventral_corner_of_spiracular_in / Pointed Rounded,
+		65  Lateroventral_margin_of_pronotu / Concave Straight,
+		66  Subventral_impression_of_pronot / Narrow_and_distinct Broad_and_shallow,
+		67  Position_of_profurcal_pit / Anterior_to_middle_of_furcaster At_or_behind_middle,
+		68  Shape_of_profurcal_pit / 'Rounded, small' 'Transverse, large',
+		69  Lateral_profile_of_mesoscutum_a / Not_recurved Recurved,
+		70  Anterior_mesoscutal_margin / 'Angled laterally, narrow medial' 'Angled lat., truncate med.' Evenly_rounded_throughout,
+		71  Incision_anteriorly_at_end_of_a / Absent Present,
+		72  Impression_mesad_parascutal_car / Ending_in_front_of_tegula Continuing_to_notaulus,
+		73  Anterolateral_mesoscutal_margin / Mesoscutal_margin_not_projectin Mesoscutal_margin_projecting_ov,
+		74  Mesoscutum_midlaterally / Slightly_rounded Distinctly_rounded Conspicuously_rounded,
+		75  Sculpture_of_mesoscutum / Glabrous 'Shining coriarious-racemose to' Dull,
+		76  Transverse_ridges_of_mesoscutum / Present Absent,
+		77  Pubescence_on_mesoscutum / As_dense_as_on_pronotum Distinctly_less_dense Almost_bare,
+		78  Lateral_bar / Present Absent,
+		79  Posterodorsal_margin_of_axillul / Not_marked Distinctly_marked,
+		80  Posterior_part_of_axillular_sur / Shallowly_impressed Deeply_impressed,
+		81  Axillar_carina / Distinct Indistinct_or_absent,
+		82  Subaxillular_bar / 'Broad, vertical' 'Narrow, horizontal',
+		83  Shining_strip_posterodorsally / Dorsal_projection_absent Dorsal_projection_present,
+		84  Notauli / Percurrent_and_distinct 'Percurrent, anterior half indis' Absent_in_anterior_half_only Absent,
+		85  Median_mesoscutal_impression / 'Present, extendingly' 'Present, slightly' Absent,
+		86  Scutellar_foveae / Present Absent,
+		87  Sculpture_in_foveae / Glabrous_to_glabrate Finely_coriarious,
+		88  Posteromedian_scutellar_impress / Absent 'Present, round and margined',
+		89  Ventral_surface_of_mesopectus / Protruding_ventrally Not_protruding_ventrally,
+		90  Lateral_part_of_mesopectus / Long_and_low Intermediate Short_and_high,
+		91  Specular_sculpture / Glabrous Reticulate_to_rugulose 'Regularly costulate-strigate',
+		92  Direction_of_regular_costulae_o / Horizontal Obliquely_downwards,
+		93  Below_mesopleural_triangle / No_regular_sculpture 'Regular, closely set striae' 'Regular, reticulate',
+		94  Ventral_border_of_mesopleural_t / Clearly_set_off Diffuse,
+		95  Posterior_subalar_pit / 'Large, deep' 'Small, shallow',
+		96  Lower_half_of_mesopleural_trian / Smooth_or_irregular Strigate,
+		97  Mesopectus_ventrally / Only_slightly_bulging Prominently_bulging,
+		98  Acetabular_carina_medially / Absent 'Distinct, slightly raised' 'Distinct, strongly raised',
+		99  Carina_from_mesocoxal_foramen / Absent Present,
+		100  Rim_surrounding_mesocoxal_foram / Narrow_throughout Expanded_posteriorly,
+		101  Position_of_mesocoxal_foramen / Removed_from_posterior_margin Close_to_posterior_margin,
+		102  Metascutellum / Subrectangular Constricted_medially,
+		103  Bar_ventral_to_metanotal_trough / At_least_partly_smooth Covered_with_irregular_sculptur,
+		104  Shape_of_metanotal_trough / 'Narrow, apically rounded' 'Broad, apically truncate',
+		105  Anterior_end_of_metapleural_sul / Low High,
+		106  'Distance metepimeron-metepister' / Short Intermediate Long,
+		107  Carina_from_calyptra / Present Absent,
+		108  Lateral_propodeal_carina / Present Absent,
+		109  Shape_of_lateral_propodeal_cari / Narrow Broad,
+		110  Length_of_nucha_dorsally / Long Short,
+		111  Posterodorsal_edge_of_nucha / Rounded Angled,
+		112  Position_of_metacoxal_foramen / Removed_from_anterior_margin Closer_to_anterior_margin,
+		113  Blunt_projection_from_metasubpl / Absent Present,
+		114  Position_of_metafurcal_pit / Anteriorly Posteriorly,
+		115  'Petiolar-metecoxal triangle' / Narrow Broad,
+		116  Position_of_petiolar_foramen / Anteriorly Posteriorly,
+		117  Carina_on_procoxa / Absent Present,
+		118  'Anterior, lateral crest of proc' / Present Absent,
+		119  Annular_girdle_of_procoxa / Posteriorly_just_touching_margi Posteriorly_following_margin,
+		120  Mesocoxa_anteriorly / Strongly_protruding Less_strongly_protruding,
+		121  Annular_girdle_of_mesocoxa / Distinctly_set_off Posteriorly_continuous_with_cox,
+		122  Laterobasal_hump_on_mesocoxa / Absent Present,
+		123  Mesofemur / Same_width_throughout Distinctly_widened_subbasally,
+		124  Metatarsal_claw / Slightly_bent Strongly_bent,
+		125  Subapical_seta_on_metatarsal_cl / Absent Present,
+		126  Pubescence_on_metacoxa / Two_distinct_lateral_bands Less_distinct_bands More_evenly_pubescent,
+		127  Vertical_strigae_on_metacoxa / Absent Present,
+		128  Carina_on_metatibia / Absent Present,
+		129  Shape_of_2r / Simple Prominent_vein_stump_projecting,
+		130  Length_of_2r / Long Intermediate Short,
+		131  Direction_of_R1_laterad_2r / Perpendicular_to_wing_margin More_oblique,
+		132  Extent_of_R1_at_marginal_cell / Tubular_along_entire_margin Tubular_only_along_basal_part Ending_close_to_anterior_margin Ending_before_anterior_margin,
+		133  Areolet / Present Absent,
+		134  Length_of_basalis / Short Long,
+		135  'Position of Rs+M on basalis' / Low High,
+		136  'Bulla in R1+Sc' / Absent Present,
+		137  'Angle R+ScR1+Sc' / No_change_in_direction Distinctly_angled,
+		138  'M at junction with 2r-m' / Distinctly_angled Straight,
+		139  'Hair-fringe along margin' / Present Absent,
+		140  Size_of_3tg / Small Intermediate Large,
+		141  Anterior_margin_of_3tg / Straight Upcurved,
+		142  Posterior_margin_of_3tg / Vertical Oblique,
+		143  Pubescence_on_3tg / Very_sparse 'Dense hair-patch',
+		144  3tg_and_4tg / Free_sclerites Fused,
+		145  Posterior_margin_of_4tg / Straight Rounded_incision_medially,
+		146  Sculpture_of_5tg / Glabrous Closely_and_distinctly_punctate,
+		147  Anterior_margin_of_5tg / Deeply_notched_medially Straight,
+		148  Flange_of_petiole / Absent 'Present, slightly projecting' 'Present, distinctly projecting',
+		149  Pubescence_on_petiolar_flange / Nude Marginal_hair_fringe,
+		150  Protuberance_on_petiole / Absent Present,
+		151  Sternal_apodeme_of_3st / Distinct Indistinct,
+		152  Apex_of_ventral_spine / Not_prominent Prominent,
+		153  Ventral_hairs_on_7st / Same_as_on_8tg Distinctly_longer,
+		154  Vental_margin_of_metasoma / 'Oblique, rounded' Distinctly_angled,
+		155  Dorsal_margin_of_9tg / Straight Curved,
+		156  Position_of_cercus / Close_to_apex_of_9tg Removed_from_apex_of_9tg,
+		157  Insertion_of_cercus / Directly_attached In_a_wide_membrane,
+		158  Third_valvula / Broadened_apically Not_broadened_apically,
+		159  Length_of_terebra / Long Intermediate Short,
+		160  Length_of_third_valvula / Short Long,
+		161  Structure_of_9tg / 'Brown, sclerotized' 'Opaque, membranous',
+		162  Apical_part_of_aedeagus / Slightly_expanded_subapically Distinctly_expanded,
+		163  Length_of_paramere / Long Short,
+		164  Basidorsal_margin_of_parameral / Distinctly_incised Weakly_incised,
+		165  Life_history / Nonalternating_generations Alternating_generations,
+		166  Host_plant_family / Asteraceae Papaveraceae Rosaceae Lamiaceae Valerianaceae Fagaceae Fabaceae Aceraceae,
+		;
+
+MATRIX
+[                                  10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170       180       190         ]
+[                                   .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         ]
+Andricus                   a{ab}aaaacaab{ab}abcaccaabaaaababcabb{ab}baaabbbaaa{ab}a{bc}baaaadbbb-bbabbbabababaaaabba{bc}b{ab}aaaabbacaaabbaaaaa{ab}abaaba{ab}aaabababbabaabbabbaababaa{ab}cbcabbbbbacba{ab}abbba-abbbbbbaabaabbabf
+Antistrophus               b-ababcaaaa?abaababaaaabbabbaaabaaaaabacaaaabab???aababbbbbbaacbaaaaaaaaaccbaabbbabcbababbbacaaaabaabbaaacbaaaaaaaaabbaaaabaaaaaabbcbaabb-bcabaaabbcaaaaaaaaabca????aa
+Asiocynips_lugubris        aaaaaabaaabaacac???????????aa??b???a????????cb????bbbacabacbbaab?a??adaaaacbabaa?abdbaaabcbaabaaa????baabaab-aa??????b?a?aaa?baaa{ab}aaab?babbcaaaaab?????aaa?abb?b????a?
+Asiocynips_pannucea        aaaaaaaaaabaacaa?aaaaba?b?b????b???aa?a?????bb????a?bacab?cbbaabaa??adaaaacaab?aaa?dcaaabbbacbaaa????baabaab-aa??????b?a?aaa?baaaaaaaa?babbbaaaaab?????aaa?abb?a????a?
+Aulacidea_kerneri          aaaabacaaaaaabab????????????????????????????bba???a?baaabaabaaaaaa??aaaaaabbbabbaababaaabbcabaaaa????baaaaaaaaa??????b?b?abaaaaaabbcbabbb-ababbaaa???a?aaa?aab?b????ad
+Aulacidea_phlomica         aaaaaaaaaaaaabaa???????????????b????????????aa????abbabababbbaaaaa??aaaaaa?baabab?a{ab}?aaabbcabaaaa???a???bbaabaa?????bb?a?abbaaaaabaaaabbbbbbabbaaa?{bc}???aab?abb?b????ad
+Aulacidea_tragopogonis     aaaaaaaaaaaaabaabaacaaabbabaaaabaaaaaaaaaaaabab???abbabababbaaaaaaaaaaaaaacbaaaaaaaaaaaabbcabaaaabaaabaaabaabaaaaaaabbaaaabaaaaaababaabbbbabaabaabbbaaaaabaabbaa????aa
+Aulacidea_verticillica     aaaaaaaaaaaaabaa????????????a???????????????aa????a?babababbbaaa?a??aaaaaacbbabaaabcbaaabbcbbaaaa???a???acaa?aa?????bb?a?aba?aaaabbbaaabbbababaaaa?????aab?aa??a????ad
+Aylax                      abaaaacaaabaababbabaaaabaababaabbaabacaaaaaacaabaacbbabababbaaaaaaaaadaaaacbaabababaaaaabbaabaaaabaabbaaaaaaaaaaaababbabaabaabaaabbcabbbbbacaabaaaba-baaaaaaabbaaabbab
+Barbotinia                 b-ababaaaaa?abaaaacaaaaaaabbaaabaaabacaaaaaacaabaacbbabababbbaabaaaaaaaaaacbaabaaabaaaaabbbaaaaaabaabbaaaababaaaaaaabbaaaabaaaaaabbbabbbbbabaaaababcabaaaabaaabbaabbab
+Biorhiza                   abaaaadbacbbbcaccacaaabaaabcabbabbbabcbbbacacbaabadbbb-bbabbbabbbabbababbaabcaaaabbabaaabbaaaaababaababbaabaaabbabaaabbbbaabacaabcbcaabbbaacbaaaaaaa-abbbbbaaacaabaabf
+Cecconia                   b-ababaaaaaaabaa????????????b???????????????bab??abbbababbbbaacaaa??aaaaaccbaabbaabccababbcabaaaa????baaabbaaaa??????b?aaabaaaaaabbcbaabb-acabba?a?c?a?aab?aa??a????ae
+Ceroptres                  b-b-baaabaaaacacbaacababbbbabaabaaaaaaaaabbbaaa???babababaabaaaaaaaaaabaaacbaabaaabbbaaabaaaaaaaacaaabaabababaabababbbaaaabbbaaaaabaabbbbaaaaababbbcbabaabbaabbb????af
+Diastrophus                abb-bababaaaacb-ba-cbaaababbababaaaaabaaaaaabbbabaaabaaabaabcaaaaaaaaaaabbabcabbaababaaabbaaaaaaabaabaaaaaaaaaaaaaaabbaaaabbbaaaabbcaabbbaabaaaaaabcaaaaaabaabcaaabaac
+Diplolepis                 aaaaaadaaababcaccaacaaaaaababbbbbbaabcaaaacacbbaabdabb-bbacbbaabbabbbcabaacbabaabaabcaaabbaaabaaaaaabaabaaab-bbaaababbaabaaaaaabbbababbbbaacbaaaaaba-abaaaaaaaba????ac
+Eschatocerus               aaaabadba-babcaacaacaaabaabab-bba?bab-a---cabbcbabdbb--bbbcbaaabbabbbca-aacb-baab--dcb-abcbacbba-aaaba--aabb-b-baabaab-a-aaaabaaabbdb--ab-bcaaaab-ba-aba-aa?abcaababag
+Euceroptres                abaaaaaaaaaaaac-baaaaaaababaaaabaaaaaaaaaaaacaaabaabbabaaabaaaa?aaaaaaaaaacaaabaaaaaaaaabaaaaaaaabaabaaaaaaaaaaaaaaabbaaaabbaaabaaaaababaaacbbaaabbbaaaaaaaaaacaaaaaaf
+Gonaspis                   b-b-baaabaaaabb-ba-cbaaababbababaaaaabaaaaaacbbabaaabaaabaabcaaaaaaaaaaaababcabaaabaaaaabbaaaaaaacaabbaaaaaaaaaaaaabbbaaaabbbaababbcaabbbaababaaaaba-aaaaabaabcaaabaac
+Hedickiana                 b-ababaaaaaaaaaa?????a??babab??????b???a????aabaaaabbababbbbaaaaaa??aaaaabcbaabbaabcbababbbabaaaa???bbaaabaaaaa??????b?aaabaaaaaabbcaabbbabcabaaab??aa?aab?aa??a????ad
+Himalocynips               aaaaaadaacbbacb-cac????aaab????b???a?c???aaadb????abbaabbaabbbaabb??abbabaabbabbabbaab-bbbaaabaabba?baabaaaaaaba??aa?baa?baaacaaabbcba-bb-abbaaaa-?a-a?aba?aa??a??????
+Ibalia                     aaaaaaaaaaaaaac-aaaaaaaaaaaa??aaaaaaaaaaaaaabaa{ab}abaaaab-aabaaaaa-aaaaaaaaaaabaaaa-aaaaaaaaaabbabaaaa-aaaaaaaaaa-a---aaaaaaaaacaa---ababaaaabaaaaaaaa-aaaaaa??aaaaaaaa-
+Iraella                    abaaaadaaabaabaababbaaabaababaabbaabacaaaaaaca{ab}???cbbabababbaaabbaaaaaaaaacbaaaababbaababcbacaaaabaabbbaaaaaaaaaaababbaaaaaaacaaabbcabbbbbabaabaaaba-aaaaaaaaaca????ab
+Isocolus                   abaaaabaaaaaabaabaabaaabbbbaaaabaaaaaaaaaaaababbaaabbabababbaaaaaaaaaaaaaacaaaaabaaacaaabbcabaaaabaaabaaabaabaaaaaaabaaaaabaaabaabacaabbabbbaaaaabbbaaaaabaabbaaaaabaa
+Liposthenes                abaaaadaaaababaccacaaaaababbabbbaaaaabaabaaababbaaaabaaabaabcaaaaaaaabaaaabbcabbaababaaabbcabaaaabaabbbaaaaaaaaaaaaabaaaaabaaabaabbcbabbb-acabbaaabcaaaaaaaaabcaaaaaad
+Neaylax                    b-ababaaaaaaaaaabaaaaaabbabaaaabaaabaaaaaaaaaa{ab}???abbaaabbbbaaaaaaaaaaaaaacbaabbaabacababb{bc}abaaaabaabbbaabaaaaaaaaaabbaaaabaaaaaabbcaabbbaababaaabba-aaaabaaabba????ad
+Neuroterus                 aaaabadbacbbbcaccacaaabaaabcbbbabbbabcbcbacadba???dabb-abacbbabababbababbaabcbaaabadcaaabcaaabbaaaaababbaabaab-babbaabbbbaabacaaacbcaabbaaacaaaaaaaa-abbbabbaaaa????bf
+Panteliella                aaaaaadaaabaacaa??b?aaa????a??aba?aa????????caa???b?babababbbaca?a??aaaaabcbaabababcaaaab{bc}cbbaaba???bb?abbaa?????aa????a?aba?aaaacbcbabbb-acaaaa?b?????aaabaabca????ad
+Paramblynotus              abaaaaaaacaaaaaabaaaaaaaaaaabbabaaaaabaaaaaaba{ab}baaaaaabaaa-aaaaaaaaaaaaaaaaaaaaaa--aaaaaaaaaabaaacaabaa-b-aabaaaaaa-abaaaabaaaaaaaabbbbaa-abaaaaaaacaaaaaaaaabaaa???a-
+Pediaspis                  aaaaaacababbacb-cabaaaaaaabbbbbbbbaabcbaaa{ac}acbababbbbaa?babbababbbbaababbaabbabbabbaab-bbbaaabaabbaababbaaaaaabaaaaabbaabbaaabaaabbcaabbbaacbaaaaaba-abababaaacaaabbbh
+Periclistus                b-b-baaaaaaaacacbbacababbbbabbabaaaaaaaaababaababaaabababaabbaaaaaaaabbaaacbaabaaabbbaaabbcabaaaacbbabaabaaaaaabbbabbbaaaabbbaaaaabaabbbabaaaabbbbbcbaaaabaabbbbbaaaac
+Phanacis_centaureae        aaaaaacaaabaacaaaaacababbababaabbbaaaaaaaaaabbb???abbacabacbaaabbaaaadaaaacbabaaaabccaaabcbacbbaaaaabbaabaaaaabaaababbaaaabaabaaaaababbbbaabbaaaaaba-aaaaabaaaca????aa
+Phanacis_hypochoeridis     aaabbaaaaabaababbabbaaabbababaababaaaaaaaabacab???abbacabacbaaaabaaaadaaabcbabbaaabcbaaabcbacbaaaaaabbabbaaaaaaaaababbaaaabaabaaaabbabbbbbacbaaaaabaaaaabaaaaaacaa??aa
+Phanacis_phlomidis         aaaaaacaaabaacaa???????????ab??b???a????????bb????a?bacabacbaaab?a??adaaabcbabaa?abdcaaabcbacbbaa????baabaab-aa??????b?a?aa???a?aaaaab?bbbabbaaaaa?????aaa?a?b?b????ad
+Plagiotrochus              aaaaaaaaabbabcabcaabaaaaaabcabbabbaabcbaaabacaaaabdabb-abacbaabbbabaaaabbabbcaaabbbbbaaabc{ab}aabaabbaababbaabaabbbabba?babbaaaabaaacbcaabbbaacbaaaaaaa-aba-abbabcaabbabf
+Pseudomelanips             b-aaaaaaaaaaabaa???????????????b????????????bbbbaaabbbbaaababaaa?-??aaaaaacbaabaaaacbaaabbcaaaaaa?a??aabaaaaaaaa?????a?aaaba?aabaaaaababaaacbbaaab???-?aa??aab?b????ab
+Rhodus                     b-abaaaaaaaaaaaa????????????a??????????a????babaaaa?bababbbbaaaaaa??aaaaabcbaabbbabcbababbcabaaaa????baaacaaaab??????b?aaabaaabaabbcbbabb-bcabaaaa?caa?aab?aab?a????ad
+Synergus                   b-b-baaaaaaaacacbbacababbababbabaaaaaaaaababcbaabbcabababababaaaaaaaabbaaacaaaaaaabbbaaabacabaaaacbbabaabaaabaabbbabbaaaaabbbaaaaabaabbbaaaaaaabbbbcbaaaabaabbabbaaaaf
+Synophromorpha             b-b-aaaabaaaacb-baababaabbbbbbabaaaaaaaaababaababaaabaaabaabaaaaaaaaaabaaaabcaaaaabbbaaabbaaaaaaacaaabaabaaabaabaaabbbaaaabbbaaaabbcaabbbbaaaabbbbbcbaaaabaabbabbaaaac
+Timaspis                   aaaaaacaaabaacabaabbaaabaababaababaaaaaaaaaacbbaabcabacabacabaabbaaaadaaaacbabbaaabbbaaabcbaabbaaaaabbbbaaaaabaaaababbaaaabaabaaaaabababbaacbaaaaaba-abaaaaaabcaaaabaa
+Vetustia                   aaaaaabaaaaaabab???????????aa??b????????????ba????abbababbbbbaaa?a??aaaaabcbbababa?bbaaabbcbbaaba???bbabbbaabaa??????b?a?aba?abaaabaab?bbbacabaaab?{bc}???aaa?aab?a????ad
+Xestophanes                b-b-aaaabaaaabb-ba-bbaaababbababaaaaaaaaababbababaaabaaabaabababaaaaaabaaaabcabaaabcbaaabbaaaaaaabaabbbabaaabaaaaaabbbaaaabbbaaaaabbaabbbaaaaaabaabcbaaaaabaabcaaabaac
+;
+END;
+
+BEGIN ASSUMPTIONS;
+	WTSET * CURRENT = 1: 1-166 ;
+	WTSET  CURRENT = 1: 1-166 ;
+END;
+BEGIN TREES;
+      TITLE Tb7829;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Ibalia,
+            2    Paramblynotus,
+            3    Pseudomelanips,
+            4    Euceroptres,
+            5    Biorhiza,
+            6    Neuroterus,
+            7    Andricus,
+            8    Plagiotrochus,
+            9    Pediaspis,
+            10   Himalocynips,
+            11   Diplolepis,
+            12   Eschatocerus,
+            13   Asiocynips_pannucea,
+            14   Asiocynips_lugubris,
+            15   Phanacis_phlomidis,
+            16   Phanacis_centaureae,
+            17   Phanacis_hypochoeridis,
+            18   Timaspis,
+            19   Iraella,
+            20   Aylax,
+            21   Barbotinia,
+            22   Panteliella,
+            23   Vetustia,
+            24   Aulacidea_verticillica,
+            25   Aulacidea_phlomica,
+            26   Aulacidea_tragopogonis,
+            27   Isocolus,
+            28   Neaylax,
+            29   Hedickiana,
+            30   Rhodus,
+            31   Antistrophus,
+            32   Cecconia,
+            33   Aulacidea_kerneri,
+            34   Liposthenes,
+            35   Gonaspis,
+            36   Diastrophus,
+            37   Xestophanes,
+            38   Synophromorpha,
+            39   Ceroptres,
+            40   Periclistus,
+            41   Synergus;
+      TREE Fig._3 = [&R] (((((((((((41,40),39),38),37),(36,35)),(34,33)),(((((32,31),30),29),28),(((27,26),25),(24,(23,22))))),(21,(20,(19,((18,(16,(17,(15,(14,13))))),((12,11),((10,9),(8,(7,(6,5)))))))))),(4,3)),2),1);
+
+
+
+END;

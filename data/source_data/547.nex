@@ -1,0 +1,128 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:36 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Bremer K. 1988. The limits of amino acid sequence data in angiosperm phylogenetic
+reconstruction. Evolution, 42: 795-803.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S115]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=9;
+        TAXLABELS
+            Apiaceae
+            Asteraceae
+            Brassicaceae
+            Caprifoliaceae
+            Chenopodiaceae
+            Fabaceae
+            Poaceae
+            Polygonaceae
+            Solanaceae
+            ;
+END;
+
+BEGIN TAXA;
+        TITLE  Taxa2;
+        DIMENSIONS NTAX=6;
+        TAXLABELS
+            Apiaceae
+            Brassicaceae
+            Caprifoliaceae
+            Chenopodiaceae
+            Fabaceae
+            Poaceae
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M2039]
+
+	TITLE Figure_2;
+	LINK TAXA = Taxa2;
+	DIMENSIONS NCHAR=82;
+	FORMAT DATATYPE=DNA SYMBOLS= "A C G T" MISSING=? GAP= -;
+
+MATRIX
+[                          10        20        30        40        50        60        70        80        90        100]
+[                           .         .         .         .         .         .         .         .         .         .]
+Apiaceae           AATGCCAACAACAGCGGTGGGCGAAGTCGGACAGCAAGTTGACTCGTCTGA{CT}GAGTTAGACA{AG}AAGAGA{AG}{AG}{CT}CA{CT}CACGTGT
+Brassicaceae       CAAGGAAGATTGAGGGATAAATGGAAGAGAGTGGATCAACAAGAAAAGAGA{AG}GACAGGGAGC?CAGTTG{CT}{CT}?AT{CT}GCCACGT
+Caprifoliaceae     ATTGCCTGCCTCAGCGTTGGATGAGGAACTACGGCCCAACATAAAAAATTA{CT}CCCATGCCCA{CT}TGCAGG{AG}{CT}{AG}AGGGTAACAC
+Chenopodiaceae     CGTACCTACAAGTCTTAAGGGTGGGGCCGTGTGTCAAGTTCAATCGTGTTG?AAGTTCCCGC?AACAGC{CT}{CT}{CT}AGGGCTACAC
+Fabaceae           CAAGGAAGAATCAGTGAGGGGTCAAATATCACAGATCAACATATAAAGAT???C?ATGCCCA??G?GA??{CT}{AG}AGGG????AC
+Poaceae            CGTTCCTACAAGCCTTAGAACACAAAGAAGACGTCCCAACAAGAAATGAGG{AG}GAGTCGCCCA{AG}AAGGAA{CT}{AG}{AG}CGGCAAGTAC
+;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M2035]
+
+	TITLE Figure_1;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=64;
+	FORMAT DATATYPE=DNA SYMBOLS= "A C G T" MISSING=? GAP= -;
+
+MATRIX
+[                          10        20        30        40        50        60    ]
+[                           .         .         .         .         .         .    ]
+Apiaceae           AATAAATGTCCAACAACAGCGGTGGGCGGATCTAGTCGGACAGCGAAGTGTGAACTCGTTTCTG
+Asteraceae         ATTGGTTGACCTGAAACAGCGATAAATGAAGGAAGACGGGTGGCGCCAAGCAAAATAATTAGTT
+Brassicaceae       CATGGAAGTGAAGATTGAGGGATAAATGGGTCTAAGAGAGTGGAATCAAGCATAGAAAATTGAG
+Caprifoliaceae     ATTGGTTGTCCTGCCTCAGCGTTGGATGGATCTGGAACTACGGCACCAAGCATTAAAAATTATT
+Chenopodiaceae     CGTGGATATCCTACAAGTCTTAAGGGTGGGTCTGGCCGTGTGTCAAAGTGTCTAATCGTATGTT
+Fabaceae           CATGGAAGTGAAGAATCAGTGAGGGGTCGATCTAATATCACAGAATCAATCATTATAAATTGAT
+Poaceae            CGAGGATTTCCTACAAGCCTTAGAACACAAGTAAAGAAGACGTCACCAAGCATAGAAATTTGAG
+Polygonaceae       CGAGGAAGTCCTGAAAGACTTATGGCTGGATCTGGCATGGTATCAATAATCAAAACGGTAA?TT
+Solanaceae         CATAAATGAGATGAAACACTAATGGATGGATCTGGAATTACGGAACCAAGCATTAAAATTTGAG
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb4834;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Apiaceae,
+            2    Brassicaceae,
+            3    Caprifoliaceae,
+            4    Solanaceae,
+            5    Poaceae,
+            6    Chenopodiaceae,
+            7    Fabaceae,
+            8    Asteraceae,
+            9    Polygonaceae;
+      TREE Fig._5D = [&R] ((1,2,3,4,6,7,8,9),5);
+      TREE Fig._5C = [&R] ((1,((2,7),4),3,6,8,9),5);
+      TREE Fig._3 = [&R] (5,(((1,8),(((2,7),4),3)),(6,9)));
+      TREE Fig._4 = [&R] (5,((((1,8),3),((2,7),4)),(6,9)));
+      TREE Fig._5A = [&R] ((((1,8),((2,7),4),3),(6,9)),5);
+      TREE Fig._5B = [&R] ((1,((2,7),4),3,(6,9),8),5);
+
+
+
+END;
+BEGIN TREES;
+      TITLE Tb4835;
+      LINK TAXA = Taxa2;
+         TRANSLATE
+            1    Apiaceae,
+            2    Brassicaceae,
+            3    Caprifoliaceae,
+            4    Poaceae,
+            5    Chenopodiaceae,
+            6    Fabaceae;
+      TREE Fig._6 = [&R] (4,((1,5),((2,6),3)));
+      TREE Fig._7 = [&R] (4,(((1,5),3),(2,6)));
+      TREE Fig._8A = [&R] (((1,5),(2,6),3),4);
+      TREE Fig._8B = [&R] ((1,2,3,5,6),4);
+
+
+
+END;

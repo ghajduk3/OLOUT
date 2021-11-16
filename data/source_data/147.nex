@@ -1,0 +1,64 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:37 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Ayers T. 1990. Systematics of Heterotoma (Campanulaceae) and the evolution of nectar
+spurs in the New World Lobelioideae. Systematic Botany, 15: 296-327.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S87]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=7;
+        TAXLABELS
+            'Cordifolia "group"'
+            Heterotoma_lobelioides
+            Heterotoma_pringlei
+            Lobelia_berlandieri
+            Lobelia_laxiflora
+            Lobelia_margarita
+            'Macrocentron "group"'
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M2129]
+
+	TITLE Table_1;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=10;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1" MISSING=? GAP= -;
+
+MATRIX
+'Cordifolia "group"'       0000111000
+Heterotoma_lobelioides     1001001100
+Heterotoma_pringlei        0110111011
+Lobelia_berlandieri        0000110000
+Lobelia_laxiflora          1001000100
+Lobelia_margarita          0110110011
+'Macrocentron "group"'     0000111000
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb4804;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Lobelia_berlandieri,
+            2    Lobelia_margarita,
+            3    Lobelia_laxiflora,
+            4    Heterotoma_lobelioides,
+            5    'Cordifolia "group"',
+            6    'Macrocentron "group"',
+            7    Heterotoma_pringlei;
+      TREE Fig._16 = [&R] ((3,4),((2,7),1,(5,6)));
+
+
+
+END;

@@ -1,0 +1,476 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:49 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Page R., Price R., & Hellenthal R. 1995. Phylogeny of Geomydoecus and Thomomydoecus
+pocket gopher lice (Phthiraptera:Trichodectidae) inferred from cladistic analysis
+of adult and first instar morphology. Systematic Entomology, 20(2): 129-143.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S573]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=122;
+        TAXLABELS
+            Geomydoecus_actuosi
+            Geomydoecus_albati
+            Geomydoecus_alcorni
+            Geomydoecus_alleni
+            Geomydoecus_angularis
+            Geomydoecus_aurei_aurei
+            Geomydoecus_aurei_grahamensis
+            Geomydoecus_bajaiensis
+            Geomydoecus_betleyae
+            Geomydoecus_biagiae
+            Geomydoecus_bulleri_bulleri
+            Geomydoecus_bulleri_intermedius
+            Geomydoecus_bulleri_melanuri
+            Geomydoecus_burti
+            Geomydoecus_californicus
+            Geomydoecus_centralis
+            Geomydoecus_chapini
+            Geomydoecus_cherrei
+            Geomydoecus_chiapensis
+            Geomydoecus_chihuahuae_chihuahuae
+            Geomydoecus_chihuahuae_emersoni
+            Geomydoecus_clausonae
+            Geomydoecus_cliftoni
+            Geomydoecus_copei
+            Geomydoecus_coronadoi_coronadoi
+            Geomydoecus_coronadoi_saccharalis
+            Geomydoecus_coronadoi_submerriami
+            Geomydoecus_costaricensis
+            Geomydoecus_craigi
+            Geomydoecus_crovelloi
+            Geomydoecus_dakotensis
+            Geomydoecus_dalgleishi
+            Geomydoecus_davidhafneri
+            Geomydoecus_duchesnensis
+            Geomydoecus_ewingi
+            Geomydoecus_expansus
+            Geomydoecus_extimi
+            Geomydoecus_fuchsi
+            Geomydoecus_fulvescens
+            Geomydoecus_fulvi
+            Geomydoecus_geomydis
+            Geomydoecus_guadalupensis
+            Geomydoecus_heaneyi
+            Geomydoecus_hoffmani
+            Geomydoecus_hueyi
+            Geomydoecus_idahoensis
+            Geomydoecus_illinoensis
+            Geomydoecus_jaliscoensis
+            Geomydoecus_jonesi
+            Geomydoecus_limitaris_bakeri
+            Geomydoecus_limitaris_halli
+            Geomydoecus_limitaris_limitaris
+            Geomydoecus_limitaris_tolteci
+            Geomydoecus_martini
+            Geomydoecus_mcgregori
+            Geomydoecus_merriami
+            Geomydoecus_mexicanus
+            Geomydoecus_mobilensis
+            Geomydoecus_musculi
+            Geomydoecus_nadleri
+            Geomydoecus_nayaritensis
+            Geomydoecus_nebrathkensis
+            Geomydoecus_neotruncatus
+            Geomydoecus_oklahomensis
+            Geomydoecus_oregonus
+            Geomydoecus_panamensis_dariensi
+            Geomydoecus_panamensis_panamensis
+            Geomydoecus_pattoni
+            Geomydoecus_perotensis_irolonis
+            Geomydoecus_perotensis_perotensis
+            Geomydoecus_polydentatus_angustirostris
+            Geomydoecus_polydentatus_polydentatus
+            Geomydoecus_pygacanthi
+            Geomydoecus_quadridentatus
+            Geomydoecus_scleritus
+            Geomydoecus_setzeri
+            Geomydoecus_shastensis
+            Geomydoecus_sinolae
+            Geomydoecus_spickai
+            Geomydoecus_subcalifornicus
+            Geomydoecus_subgeomydis
+            Geomydoecus_subnubili
+            Geomydoecus_tamaulipensis
+            Geomydoecus_telli
+            Geomydoecus_texanus_texanus
+            Geomydoecus_texanus_tropicalis
+            Geomydoecus_thaeleri
+            Geomydoecus_thomomyus
+            Geomydoecus_tolucae
+            Geomydoecus_traubi
+            Geomydoecus_trichopi
+            Geomydoecus_truncatus
+            Geomydoecus_umbrini
+            Geomydoecus_ustulati_clarkii
+            Geomydoecus_ustulati_ustulati
+            Geomydoecus_veracruzensis
+            Geomydoecus_warmanae
+            Geomydoecus_welleri_multilineatus
+            Geomydoecus_welleri_welleri
+            Geomydoecus_wernecki_planiceps
+            Geomydoecus_wernecki_wernecki
+            Geomydoecus_yucatanensis
+            Thomomydoecus_arleneae
+            Thomomydoecus_asymmetricus
+            Thomomydoecus_barbarae
+            Thomomydoecus_birneyi
+            Thomomydoecus_byersi
+            Thomomydoecus_dickermani
+            Thomomydoecus_genowaysi
+            Thomomydoecus_greeri
+            Thomomydoecus_jamesbeeri
+            Thomomydoecus_johnhafneri
+            Thomomydoecus_markhafneri
+            Thomomydoecus_minor
+            Thomomydoecus_neocopei
+            Thomomydoecus_orizabae
+            Thomomydoecus_peregrini
+            Thomomydoecus_potteri
+            Thomomydoecus_timmi
+            Thomomydoecus_wardi
+            Thomomydoecus_williamsi
+            Thomomydoecus_zacatecae
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M2195]
+
+	TITLE ;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=58;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2 3 4 5 6 7 8 9" MISSING=? GAP= -;
+	CHARSTATELABELS
+		1  Lateral_seta_VI / 0 present absent,
+		2  Marginal_terminal_setae / 0 none one_v._long two_short,
+		3  Lateral_metanotal_seta / 0 'very long, > 0.2 mm' 'short, < 0.09 mm',
+		4  Temple_sculpturing / 0 none many_dark_bumps few_dark_bumps sparse_bumps_nr_margin small_bumps_in_rows,
+		5  SMT_4 / 0 present absent,
+		6  Int._sternal_setae / 0 '<=1' '>=2',
+		7  Seta_on_coxa_III / 0 'large, thick, > 0.020' 'medium, 0.010-0.020' 'short, <= 0.010' 'slender, >= 0.025',
+		8  MT_seta_4 / 0 prominent small,
+		9  'Med. tergal setae I-VI' / 0 'all med-long' all_short 'ant. long, post v. short' all_v._short,
+		10  Med._tergal_seta_VII / 0 absent present,
+		11  Med._tergal_seta_VII / 0 absent present,
+		12  Med._metanotal_seta / 0 'long, > 0.2 mm' 'short, < 0.11 mm',
+		13  Int._sternal_setae_II / absent present,
+		14  'Med length sternal setae IV-V' / 0 '5-15' '17-25' '27-35' '37-45',
+		15  Relative_size_med_sternal_setae / 0 '= int. setae' larger_than_int._setae,
+		16  Med_sternal_setae_on_IX / 0 absent present,
+		17  'Relative size sternal setae II-' / 0 similar VII_shorter 'VI-VII shorter' 'II, II-III, II-IV shorter' V_much_longer,
+		18  Submarginal_seta_on_VII / 0 long medium 'short-minute',
+		19  Mean_temple_width / 0 '240-262' '264-310' '311-340' '344-360' '381-395' '433-482',
+		20  Med._length_head_seta_1 / 0 '5-25' '27-50' '52-75' '77-140',
+		21  Med_length_head_seta_2 / 0 '5-10' '12-20' '22-32' '52-62',
+		22  Med._length_pronotal_seta / 0 '7-25' '27-50' '52-77' '82-112',
+		23  Marginal_temple_seta_5 / 0 'short-minute, < 10' '15-20 long',
+		24  Length_submarg._head_seta_3 / 0 '10-22' '25-40' '42-62',
+		25  Length_dorsal_ant._pedical_seta / 0 '27-45' '47-65' '67-85' '87-112',
+		26  Lat_seta_IV / 0 short long,
+		27  Rel._length_submarg._VI_vs_VII / 0 comparable much_shorter,
+		28  'Submarg setae II-V' / 0 all_long all_short all_very_long 'II-III or II-IV very long, rest',
+		29  Int._tergal_setae / 0 long medium short,
+		30  Very_long_lat._seta_VII / absent present,
+		31  Length_int._sternal_seta_VII / 0 '5-17' '20-37' '42-57' '67-120',
+		32  Int._sternal_setae_III / absent present,
+		33  Lateral_seta_V / short long,
+		34  'LNS TG8 / HD WDTH' / '< 0.09' '0.09-0.20' '0.20-0.27' '>0.27',
+		35  NGS_LPS / none '1-2' '3-5' '6-9' '10-11' '12+',
+		36  'LNS TG7 / HD WDTH' / '<= 0.18' '0.18-0.25' '0.25-0.35' '0.35+',
+		37  'PSLTG IN / HD WDTH' / '<= 0.07' '0.07-0.15' '0.15-0.225' '0.225-0.27' '0.27+',
+		38  'PSLTG OT / HD WDTH' / '<= 0.10' '0.10-0.23' '0.23+',
+		39  SET_STN2 / '<= 7' '7-9.5' '9.5-13' '13+',
+		40  'GS LGTH / TOT LGTH' / 0 '<= 0.09' '0.09-0.12' '0.12+',
+		41  Last_tergite_setal_formula / '2+2+2' '3+3' '1+4+1',
+		42  Ant._margin_genital_sac / smooth prominent_central_notch ant._protrusion,
+		43  'male MG TMP / fem MG TMP' / '< 0.7' '0.7-1.15' '> 1.15',
+		44  SMG_TMP_position / lateral medial,
+		45  Male_scape_margin / straight weak_convexity distinct_protuberance,
+		46  'MG TMP/ HD WDTH' / '<= 0.035' '0.035-0.076' '>0.076',
+		47  'SMG TMP / HD WDTH' / '< 0.09' '0.09-0.15' '0.15-0.21' '0.21-0.28' '> 0.28',
+		48  'HD LGTH/TOT LGTH' / '< 0.25' '> 0.25',
+		49  'Male scape length (SCP LGTH/HD' / '< 0.31' '0.31-0.45' '>0.45',
+		50  SET_TG7 / '<=13.5' '>13.5',
+		51  SET_STN8 / '<5' '5-7' '>7',
+		52  No._genital_sac_spines / none two three four five six eight_or_more,
+		53  'GPA WDTH / HD WDTH' / '<0.19' '0.19-0.24' '0.24-0.31' '>0.31',
+		54  Grouped_setae_on_II_and_III / absent present,
+		55  Genital_parameral_arch_shape / semicircular medial_post._apical_proj. marked_medial_thickening post._margin_truncated lateral_shoulders triagular_apical_proj. med._apical_proj._bulbous long_pical_proj. irregular no_apical_proj.,
+		56  Genital_endomeral_plate_shape / ovoid diamond elongated_diamond bluntly_triangular irregular triangular deep_terminal_bifurcation rounded_post_margin elongated_triangle long,
+		57  Genital_spine_shape / stout 'slender, curved' 'small, triangular',
+		58  'Outer mid-dorsal head seta' / short long,
+		;
+
+MATRIX
+[                                                   10        20        30        40        50        ]
+[                                                    .         .         .         .         .        ]
+Geomydoecus_actuosi                         1122121112111221122233111122311111312133100021301115305501
+Geomydoecus_albati                          1122121111111411112333121111113111312133100021301115305501
+Geomydoecus_alcorni                         112111211211031111221?223114112111412123001001201115305300
+Geomydoecus_alleni                          1121113221110311116431134114214010012103101100011113305700
+Geomydoecus_angularis                       1122121111111411212333122111113111312133100021301115305501
+Geomydoecus_aurei_aurei                     1122121112111221122222111122312111212133100021301115305501
+Geomydoecus_aurei_grahamensis               1122121112111221122232112022311101212133100021301115305501
+Geomydoecus_bajaiensis                      1122121111111411212344122111113111212133100021301115305501
+Geomydoecus_betleyae                        212121311222012143211111202232100201322100?0?????????????0
+Geomydoecus_biagiae                         212121311222012243211112102232100201322100?0?????????????0
+Geomydoecus_bulleri_bulleri                 2122112121111121132122222022311101512123001001201115305300
+Geomydoecus_bulleri_intermedius             2122112121111121132212224022311101512113001001201115305300
+Geomydoecus_bulleri_melanuri                2122112121111111133111211022311101511123001001201115305300
+Geomydoecus_burti                           2122112141111111133222234022311101512113001001201115305300
+Geomydoecus_californicus                    1122121111111411112444132111114111312133100021301115305501
+Geomydoecus_centralis                       1122121111111411112333131111113111312133100021301115305501
+Geomydoecus_chapini                         11211132422103111352211240223120001331021021000101100078?0
+Geomydoecus_cherrei                         1121113242110211133111114022312000012113112101011112305600
+Geomydoecus_chiapensis                      2121113241110311116421124112213011112103102101?11115305500
+Geomydoecus_chihuahuae_chihuahuae           1121113112211122432111133022311103034123101002301115302500
+Geomydoecus_chihuahuae_emersoni             1121113112211122432112134022311103034123101002201115305500
+Geomydoecus_clausonae                       1122121111111411212344121111112111212133100021301115305501
+Geomydoecus_cliftoni                        1122121112111221122222111122311111412123100021101115305501
+Geomydoecus_copei                           11211132422103111141211240123120010032021011000110000178?0
+Geomydoecus_coronadoi_coronadoi             1123111141111211232221112022311101210023100001102115305501
+Geomydoecus_coronadoi_saccharalis           1123111141111211132232114022312101210023100001102115305501
+Geomydoecus_coronadoi_submerriami           1123111141111211432232113022312101210023100001102115305501
+Geomydoecus_costaricensis                   1121113242110211134121114022312000012113112101011113205600
+Geomydoecus_craigi                          2121213112220122432111121022321002014221001000401113309510
+Geomydoecus_crovelloi                       1122121112111321112223111111311111212133100021301115305501
+Geomydoecus_dakotensis                      2121213112220122432111121022321002013222001000401125309510
+Geomydoecus_dalgleishi                      1124111112111121132232121011311101012123100021111115305501
+Geomydoecus_davidhafneri                    ?????????????????????????????????0012113112101011115305500
+Geomydoecus_duchesnensis                    21212131122201224321111110223210020132210010004111103095?0
+Geomydoecus_ewingi                          1122111122111111332222111022311101212123100011101113305501
+Geomydoecus_expansus                        1123112141111321112322123014312111212123101001101115305500
+Geomydoecus_extimi                          1122121112111411113433112113112111312123100021101115305501
+Geomydoecus_fuchsi                          2121213112220122432111121022321002013221001000401115309510
+Geomydoecus_fulvescens                      11211121121102111232232341141121110011110010012111201041?0
+Geomydoecus_fulvi                           1121113112210122532121134022311002023123100002401115302500
+Geomydoecus_geomydis                        1124111112111121132332122022311101412123100011101115305501
+Geomydoecus_guadalupensis                   1122121111111221112223111122311111312133100021301113305501
+Geomydoecus_heaneyi                         1124111112111121122332131011311101112123100021101115305501
+Geomydoecus_hoffmani                        11211132422103111351211240223120001331021021000101100078?0
+Geomydoecus_hueyi                           1125124111111312212334122111212111412133100001301115305501
+Geomydoecus_idahoensis                      1121112112111122132232123121311101312133100001301115305501
+Geomydoecus_illinoensis                     1121111112111121122322121012311101212123100001101115305501
+Geomydoecus_jaliscoensis                    1122121112111211113333111121212111412123100021101115305501
+Geomydoecus_jonesi                          112111322111031111642113?114214010012103101100011123305700
+Geomydoecus_limitaris_bakeri                1122121112211221122222111022311101212133100021301115305501
+Geomydoecus_limitaris_halli                 1122121112111221122223111122312111212133100021301115305501
+Geomydoecus_limitaris_limitaris             1122121112111221122223111122311111312133100021301115305501
+Geomydoecus_limitaris_tolteci               1122121112111221122223111122312111412133100021301115305501
+Geomydoecus_martini                         1123112141111321112222124114312111312123100001101115305500
+Geomydoecus_mcgregori                       1121114121110311113122234114112111112123001001201124305300
+Geomydoecus_merriami                        1123112141111121132221122022311101511023100001102115305501
+Geomydoecus_mexicanus                       112111321221041112221?2241111131110022011010012111202000?0
+Geomydoecus_mobilensis                      112111314211111133222113402231110131211210?0?????????????0
+Geomydoecus_musculi                         1122121112111211112232111121211111212123100021101115305501
+Geomydoecus_nadleri                         2122112121111121132121223022311101512113001001101115305300
+Geomydoecus_nayaritensis                    1122121111111311113333111114112111412123100021101115305501
+Geomydoecus_nebrathkensis                   1124111112111122122222111022311101112123100011101115305501
+Geomydoecus_neotruncatus                    1121111132111111332121113022311101112122100001011115305500
+Geomydoecus_oklahomensis                    1124111112111121132332121022311101112123100021111115305501
+Geomydoecus_oregonus                        1121112112111122123232123121311101312123100001201115305501
+Geomydoecus_panamensis_dariensi             1121113242110211135221124022312000012113112101011115305500
+Geomydoecus_panamensis_panamensis           2121113242110211134221134022311000012113112101011115305500
+Geomydoecus_pattoni                         112111311221012243222?134022311002023113101002301115306500
+Geomydoecus_perotensis_irolonis             11211121121102111321122241211121110011110010011111201000?0
+Geomydoecus_perotensis_perotensis           11211121122104111122222240211131110011110010011111201000?0
+Geomydoecus_polydentatus_angustirostris     1123112141111221432122123022311101211023100001102116305501
+Geomydoecus_polydentatus_polydentatus       1123112141111121432121111022311101211023100001102116305501
+Geomydoecus_pygacanthi                      2121113241110411116431124112213011102103102101011115305500
+Geomydoecus_quadridentatus                  112212111211131121223311101231210111212310002110111330550?
+Geomydoecus_scleritus                       1121113142111111332221134022311101322113101001111115305500
+Geomydoecus_setzeri                         1121113242110211133111114022311000012113112101011115205500
+Geomydoecus_shastensis                      1125124112111322112323133111112111312133100001301115305501
+Geomydoecus_sinolae                         1122121112111311122223111122312111412133100021301115305501
+Geomydoecus_spickai                         1124111112111121132332122022311101112123100021111115305501
+Geomydoecus_subcalifornicus                 1122121112111411112334111111212111512133100021301113305501
+Geomydoecus_subgeomydis                     1122111122111111332222111022311101212123100011101115305501
+Geomydoecus_subnubili                       1211113121110211112112134012212000102113101001001103305500
+Geomydoecus_tamaulipensis                   1111113121110311113124134012213001123113101001001113305500
+Geomydoecus_telli                           1123111141111222433222122022312101011023120001102115305501
+Geomydoecus_texanus_texanus                 1111113121110111133121124022311101112123101001001113305500
+Geomydoecus_texanus_tropicalis              1111113121110111232111124022311101112123101001001113305500
+Geomydoecus_thaeleri                        2121213112220121432111111022321002013221001000401115309510
+Geomydoecus_thomomyus                       2121213112220122432111111022321002013221001000401113309510
+Geomydoecus_tolucae                         1121113112211122132121134022311102013133100001301115302500
+Geomydoecus_traubi                          1121113212110311123112224122212110001201001001211121201220
+Geomydoecus_trichopi                        2221113112210121432111124022311101211123001001201115305300
+Geomydoecus_truncatus                       1121111132111111332121124022311101112122100001011115303700
+Geomydoecus_umbrini                         1122121111111211112333111121212111312123100021101115305501
+Geomydoecus_ustulati_clarkii                1111113121110211112122134012212001112113101001001113305500
+Geomydoecus_ustulati_ustulati               1111113121110211113112134012212001112113101001001113305500
+Geomydoecus_veracruzensis                   1123111141111311422121111111112111311023100001101115305501
+Geomydoecus_warmanae                        1122121112111121112123111111311111312133100021301115305501
+Geomydoecus_welleri_multilineatus           1122121112111321112123111121112111313133100021101115305501
+Geomydoecus_welleri_welleri                 1122121112111311122122111121212111213133100021101115305501
+Geomydoecus_wernecki_planiceps              1121114122110311124113234114113111302123001001202125305300
+Geomydoecus_wernecki_wernecki               1121114122110311113122234114112111212123001001202125305300
+Geomydoecus_yucatanensis                    11211132422103111351211140223120001331021021000111100078?0
+Thomomydoecus_arleneae                      232111314221011243111?1220223210020221210010020001102159?0
+Thomomydoecus_asymmetricus                  132111313221012243111112202231110202222?0010020000100184?0
+Thomomydoecus_barbarae                      23211131422101124311121220223210020221210010020001102159?0
+Thomomydoecus_birneyi                       132111313221012243111112102231110202222?0010020000100184?0
+Thomomydoecus_byersi                        ?????????????????????????????????20221210010020011201159?0
+Thomomydoecus_dickermani                    132111313221012243111112102231110202222?0010020000100184?0
+Thomomydoecus_genowaysi                     132111313221012243111112102231110202222?0010020000100184?0
+Thomomydoecus_greeri                        13211131322101224311111210223111020222210010020000100184?0
+Thomomydoecus_jamesbeeri                    132111311221012243121?12202231111202222?0010020000100184?0
+Thomomydoecus_johnhafneri                   132111314221012243111111102231110202222?0010020100000184?0
+Thomomydoecus_markhafneri                   132111313221012243111112102231110202222?0010020000000184?0
+Thomomydoecus_minor                         132111314221012243111112101231110202222?0010020000100184?0
+Thomomydoecus_neocopei                      132111313221012243111112102231110202222?0010020000101184?0
+Thomomydoecus_orizabae                      132111311221012243111112202231110202212?2010020000000184?0
+Thomomydoecus_peregrini                     132111313221012243111212202231111202222?0010020000000184?0
+Thomomydoecus_potteri                       ?????????????????????????????????20222210010020000000184?0
+Thomomydoecus_timmi                         132111313221012243111212102231110202222?0010020000100184?0
+Thomomydoecus_wardi                         23211131422101124311121220223210020221210010020000102159?0
+Thomomydoecus_williamsi                     132111313221012243111213202231110202222?0010020000100184?0
+Thomomydoecus_zacatecae                     132111311221012241111213102231111202222?0010020000100184?0
+;
+END;
+
+BEGIN ASSUMPTIONS;
+	WTSET * Hennig86 SAW = 3: 7 32 34 38 45 49 , 4: 3 8 30 41 50 54 , 0: 10 15 18 20-22 24-25 27 35 , 1: 1 9 11 14 16 19 26 28-29 31 33 36 48 51-52 , 8: 56 , 2: 13 17 37 39-40 43 46-47 53 , 6: 2 4 , 10: 5-6 12 23 42 44 55 57-58 ;
+	WTSET  Hennig86 SAW = 10: 5-6 12 23 42 44 55 57-58 , 1: 1 9 11 14 16 19 26 28-29 31 33 36 48 51-52 , 8: 56 , 6: 2 4 , 0: 10 15 18 20-22 24-25 27 35 , 3: 7 32 34 38 45 49 , 2: 13 17 37 39-40 43 46-47 53 , 4: 3 8 30 41 50 54 ;
+END;
+BEGIN TREES;
+      TITLE Tb5601;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Geomydoecus_expansus,
+            2    Geomydoecus_polydentatus_angustirostris,
+            3    Geomydoecus_polydentatus_polydentatus,
+            4    Geomydoecus_veracruzensis,
+            5    Geomydoecus_duchesnensis,
+            6    Geomydoecus_fuchsi,
+            7    Geomydoecus_dakotensis,
+            8    Geomydoecus_thaeleri,
+            9    Geomydoecus_betleyae,
+            10   Geomydoecus_biagiae,
+            11   Geomydoecus_craigi,
+            12   Geomydoecus_thomomyus,
+            13   Thomomydoecus_byersi,
+            14   Thomomydoecus_barbarae,
+            15   Thomomydoecus_arleneae,
+            16   Thomomydoecus_wardi,
+            17   Thomomydoecus_johnhafneri,
+            18   Thomomydoecus_orizabae,
+            19   Thomomydoecus_williamsi,
+            20   Thomomydoecus_markhafneri,
+            21   Thomomydoecus_dickermani,
+            22   Thomomydoecus_timmi,
+            23   Thomomydoecus_zacatecae,
+            24   Thomomydoecus_birneyi,
+            25   Thomomydoecus_minor,
+            26   Thomomydoecus_potteri,
+            27   Thomomydoecus_peregrini,
+            28   Thomomydoecus_jamesbeeri,
+            29   Thomomydoecus_greeri,
+            30   Thomomydoecus_asymmetricus,
+            31   Thomomydoecus_genowaysi,
+            32   Thomomydoecus_neocopei,
+            33   Geomydoecus_alcorni,
+            34   Geomydoecus_wernecki_planiceps,
+            35   Geomydoecus_wernecki_wernecki,
+            36   Geomydoecus_mcgregori,
+            37   Geomydoecus_jonesi,
+            38   Geomydoecus_alleni,
+            39   Geomydoecus_pygacanthi,
+            40   Geomydoecus_chiapensis,
+            41   Geomydoecus_mobilensis,
+            42   Geomydoecus_scleritus,
+            43   Geomydoecus_cherrei,
+            44   Geomydoecus_costaricensis,
+            45   Geomydoecus_davidhafneri,
+            46   Geomydoecus_setzeri,
+            47   Geomydoecus_panamensis_dariensi,
+            48   Geomydoecus_panamensis_panamensis,
+            49   Geomydoecus_hoffmani,
+            50   Geomydoecus_chapini,
+            51   Geomydoecus_yucatanensis,
+            52   Geomydoecus_copei,
+            53   Geomydoecus_trichopi,
+            54   Geomydoecus_subnubili,
+            55   Geomydoecus_tamaulipensis,
+            56   Geomydoecus_ustulati_clarkii,
+            57   Geomydoecus_ustulati_ustulati,
+            58   Geomydoecus_texanus_tropicalis,
+            59   Geomydoecus_texanus_texanus,
+            60   Geomydoecus_pattoni,
+            61   Geomydoecus_chihuahuae_emersoni,
+            62   Geomydoecus_chihuahuae_chihuahuae,
+            63   Geomydoecus_fulvi,
+            64   Geomydoecus_tolucae,
+            65   Geomydoecus_hueyi,
+            66   Geomydoecus_shastensis,
+            67   Geomydoecus_idahoensis,
+            68   Geomydoecus_oregonus,
+            69   Geomydoecus_fulvescens,
+            70   Geomydoecus_traubi,
+            71   Geomydoecus_perotensis_irolonis,
+            72   Geomydoecus_perotensis_perotensis,
+            73   Geomydoecus_mexicanus,
+            74   Geomydoecus_nadleri,
+            75   Geomydoecus_burti,
+            76   Geomydoecus_bulleri_intermedius,
+            77   Geomydoecus_bulleri_melanuri,
+            78   Geomydoecus_bulleri_bulleri,
+            79   Geomydoecus_martini,
+            80   Geomydoecus_merriami,
+            81   Geomydoecus_coronadoi_submerriami,
+            82   Geomydoecus_coronadoi_saccharalis,
+            83   Geomydoecus_coronadoi_coronadoi,
+            84   Geomydoecus_dalgleishi,
+            85   Geomydoecus_telli,
+            86   Geomydoecus_neotruncatus,
+            87   Geomydoecus_truncatus,
+            88   Geomydoecus_ewingi,
+            89   Geomydoecus_subgeomydis,
+            90   Geomydoecus_heaneyi,
+            91   Geomydoecus_spickai,
+            92   Geomydoecus_nebrathkensis,
+            93   Geomydoecus_oklahomensis,
+            94   Geomydoecus_illinoensis,
+            95   Geomydoecus_geomydis,
+            96   Geomydoecus_quadridentatus,
+            97   Geomydoecus_guadalupensis,
+            98   Geomydoecus_subcalifornicus,
+            99   Geomydoecus_welleri_multilineatus,
+            100  Geomydoecus_welleri_welleri,
+            101  Geomydoecus_nayaritensis,
+            102  Geomydoecus_extimi,
+            103  Geomydoecus_jaliscoensis,
+            104  Geomydoecus_cliftoni,
+            105  Geomydoecus_musculi,
+            106  Geomydoecus_umbrini,
+            107  Geomydoecus_warmanae,
+            108  Geomydoecus_crovelloi,
+            109  Geomydoecus_sinolae,
+            110  Geomydoecus_actuosi,
+            111  Geomydoecus_aurei_grahamensis,
+            112  Geomydoecus_aurei_aurei,
+            113  Geomydoecus_limitaris_tolteci,
+            114  Geomydoecus_limitaris_halli,
+            115  Geomydoecus_limitaris_bakeri,
+            116  Geomydoecus_limitaris_limitaris,
+            117  Geomydoecus_clausonae,
+            118  Geomydoecus_bajaiensis,
+            119  Geomydoecus_angularis,
+            120  Geomydoecus_albati,
+            121  Geomydoecus_centralis,
+            122  Geomydoecus_californicus;
+      TREE Fig._5 = [&R] ((((((((((((((((((122,121,120),(118,117,119)),98),(116,(115,111),108,107,97,113,109,114,112,110),(66,65)),(100,99)),103,106,(102,101)),105),104),96),(89,88),92,93,91,90,84,95),94),(68,67)),((85,(83,82,81),4),3,2,80)),(1,79)),((87,86),(42,41))),(53,((((74,76),75),77,78),((((73,70),((72,71),69)),(36,(35,34))),33))),((((((52,(51,(50,49))),((40,39),(38,37))),((46,47,48,45),(44,43))),54),57,55,56),59,58)),64,63,60,62,61,(12,5,11,10,(9,8),6,7))Geomydoecus,(13,((32,31,29,26,17,20,25,24,22,21,30,(28,23),27,19,18),16,14,15))Thomomydoecus);
+
+
+
+END;

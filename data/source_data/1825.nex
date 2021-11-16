@@ -1,0 +1,60 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:51 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Pang K., Guo S.Y., Alias S.A., & Jones E. 2014. Marine Dactylospora species including
+D. vrijmoediae sp. nov. form an unidentified lineage in the Eurotiomycetes.
+Botanica Marina, .
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S14133]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=37;
+        TAXLABELS
+            Anzia_colpodes
+            Aphanopsis_coenosa
+            Arthrorhaphis_citrinella
+            Calicium_viride
+            Crocynia_pyxinoides
+            Dactylospora_haliotrepha_1
+            Dactylospora_haliotrepha_2
+            Dactylospora_imperfecta
+            Dactylospora_lobariella
+            Dactylospora_mangrovei
+            Dactylospora_taiwanensis
+            Gypsoplaca_macrophylla
+            Haematomma_sulphureum
+            Hypotrachyna_degelii
+            Lecanora_concolor
+            Lecidea_cyrtidia
+            Lecidea_fuscoatra
+            Lepraria_lobificans
+            Loxospora_cismonica
+            Megalospora_tuberculosa
+            Micarea_lutulata
+            Miltidea_ceroplasta
+            Mycoblastus_sanguinarius
+            Ophioparma_lapponica
+            Porpidia_speirea
+            Psora_decipiens
+            Pycnothelia_papillaria
+            Ramalina_complanata
+            Rhizocarpon_oederi
+            Rinodina_tephraspis
+            Sphaerophorus_globosus
+            Sporastatia_testudinea
+            Teloschistes_flavicans
+            Tephromela_atra
+            Xanthoria_elegans
+            Xanthoria_parietina
+            Xanthoria_polycarpa
+            ;
+END;
+

@@ -1,0 +1,792 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:36 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Han K., Braun E., Kimball R., Reddy S., Bowie R., Braun M., Chojnowski J., Hackett
+S., Harshman J., Huddleston C., Marks B., Miglia K., Moore W., Sheldon F., Steadman
+D., Witt C., & Yuri T. 2010. Are Transposable Element Insertions Homoplasy
+Free? An Examination Using the Avian Tree of Life. Systematic Biology, .
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S10968]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=10;
+        TAXLABELS
+            Ardeotis_kori
+            Coccyzus_americanus
+            Coua_cristata
+            Crotophaga_sulcirostris
+            Cuculus_canorus
+            Geococcyx_californianus
+            Grus_canadensis
+            Phaenicophaeus_curvirostris
+            Rallus_limicola
+            Tauraco_erythrolophus
+            ;
+END;
+
+BEGIN TAXA;
+        TITLE  Taxa2;
+        DIMENSIONS NTAX=21;
+        TAXLABELS
+            Alcedo_leucogaster
+            Brachypteracias_squamigera
+            Bucco_macrodactylus
+            Bucorvus_abyssinicus
+            Capito_niger
+            Cathartes_aura
+            Colius_colius
+            Coracias_caudata
+            Dryocopus_pileatus
+            Galbula_albirostris
+            Indicator_maculatus
+            Megalaima_virens
+            Merops_nubicus
+            Momotus_momota
+            Pandion_haliaetus
+            Phoeniculus_purpureus
+            Tockus_camurus
+            Todus_angustirostris
+            Trogon_personatus
+            Tyto_alba
+            Upupa_epops
+            ;
+END;
+
+BEGIN TAXA;
+        TITLE  Taxa3;
+        DIMENSIONS NTAX=169;
+        TAXLABELS
+            Acanthisitta_chloris
+            Aegotheles_insignis
+            Aerodramus_vanikorensis
+            Alcedo_leucogaster
+            Alectura_lathami
+            Alisterus_scapularis
+            Anas_platyrhynchos
+            Anhinga_anhinga
+            Anser_erythropus
+            Anseranas_semipalmata
+            Apteryx_australis
+            Aramus_guarauna
+            Ardea_herodias
+            Ardeotis_kori
+            Arenaria_interpres
+            Aythya_americana
+            Balaeniceps_rex
+            Batrachostomus_septimus
+            Biziura_lobata
+            Bombycilla_garrulus
+            Brachypteracias_squamigera
+            Bucco_macrodactylus
+            Bucorvus_abyssinicus
+            Burhinus_bistriatus
+            Buteo_jamaicensis
+            Cacatua_sulphurea
+            Capito_niger
+            Caprimulgus_longirostris
+            Cariama_cristata
+            Casuarius_casuarius
+            Cathartes_aura
+            Centropus_viridis
+            Chalcopsitta_cardinalis
+            Charadrius_vociferus
+            Chauna_torquata
+            Ciconia_ciconia
+            Climacteris_erythrops
+            Coccyzus_americanus
+            Cochlearius_cochlearius
+            Colibri_coruscans
+            Colinus_cristatus
+            Colius_colius
+            Columba_livia
+            Columbina_passerina
+            Coracias_caudata
+            Corvus_corone
+            Corythaeola_cristata
+            Coturnix_coturnix
+            Coua_cristata
+            Crax_alector
+            Crotophaga_sulcirostris
+            Crypturellus_soui
+            Cuculus_canorus
+            Daptrius_ater
+            Dendrocolaptes_certhia
+            Diomedea_nigripes
+            Dromaius_novaehollandiae
+            Dromas_ardeola
+            Dryocopus_pileatus
+            Eudocimus_albus
+            Eudromia_elegans
+            Eudyptula_minor
+            Eupodotis_ruficrista
+            Eurostopodus_macrotis
+            Eurypyga_helias
+            Falco_mexicanus
+            Fregata_magnificens
+            Fringilla_montifringilla
+            Galbula_albirostris
+            Gallus_gallus
+            Gampsonyx_swainsonii
+            Gavia_immer
+            Geococcyx_californianus
+            Geotrygon_montana
+            Grallaria_varia
+            Grus_canadensis
+            Haematopus_ostralegus
+            Heliornis_fulica
+            Hemiprocne_mystacea
+            Herpetotheres_cachinnans
+            Himantornis_haematopus
+            Indicator_maculatus
+            Jacana_jacana
+            Larus_marinus
+            Leptosomus_discolor
+            Malacorhynchus_membranaceus
+            Malurus_melanocephalus
+            Megalaima_virens
+            Megapodius_eremita
+            Menura_novaehollandiae
+            Merops_nubicus
+            Mesitornis_unicolor
+            Micrastur_semitorquatus
+            Micropsitta_finschii
+            Mionectes_macconnelli
+            Momotus_momota
+            Monias_benschi
+            Morus_bassanus
+            Nothoprocta_perdicaria
+            Numida_meleagris
+            Nyctibius_bracteatus
+            Nyctibius_grandis
+            Oceanites_oceanicus
+            Oceanodroma_tethys
+            Opisthocomus_hoazin
+            Otidiphaps_nobilis
+            Oxyura_jamaicensis
+            Pandion_haliaetus
+            Passer_montanus
+            Pedionomus_torquatus
+            Pelecanoides_urinatrix
+            Pelecanus_occidentalis
+            Phaenicophaeus_curvirostris
+            Phaethon_lepturus
+            Phaethon_rubricauda
+            Phaethornis_griseogularis
+            Phalacrocorax_carbo
+            Pharomachrus_auriceps
+            Phegornis_mitchellii
+            Phodilus_badius
+            Phoenicopterus_chilensis
+            Phoeniculus_purpureus
+            Picathartes_gymnocephalus
+            Pipra_coronata
+            Pitta_guajana
+            Platycercus_elegans
+            Ploceus_cucullatus
+            Podargus_strigoides
+            Podiceps_auritus
+            Psittacula_alexandri
+            Psittacus_erithacus
+            Psophia_crepitans
+            Pterocles_namaqua
+            Puffinus_griseus
+            Rallus_limicola
+            Regulus_calendula
+            Rhea_americana
+            Rhynochetos_jubatus
+            Rollulus_rouloul
+            Rostratula_benghalensis
+            Sagittarius_serpentarius
+            Sapayoa_aenigma
+            Sarcoramphus_papa
+            Sarothrura_elegans
+            Scopus_umbretta
+            Scytalopus_magellanicus
+            Smithornis_rufolateralis
+            Speotyto_cunicularia
+            Steatornis_caripensis
+            Streptoprocne_zonaris
+            Strix_occidentalis
+            Struthio_camelus
+            Sylvia_nana
+            Syrrhaptes_paradoxus
+            Tauraco_erythrolophus
+            Thamnophilus_nigrocinereus
+            Thinocorus_orbignyianus
+            Tinamus_guttatus
+            Tockus_camurus
+            Todus_angustirostris
+            Treron_vernans
+            Trogon_personatus
+            Turdus_falklandii
+            Turnix_sylvatica
+            Tyrannus_tyrannus
+            Tyto_alba
+            Upupa_epops
+            Urocolius_indicus
+            Vidua_chalybeata
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M6999]
+
+	TITLE Avian_Tree_of_Life_GH1;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=3634;
+	FORMAT DATATYPE=DNA SYMBOLS= "A C G T" MISSING=? GAP= -;
+
+MATRIX
+[                                       10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170       180       190       200       210       220       230       240       250       260       270       280       290       300       310       320       330       340       350       360       370       380       390       400       410       420       430       440       450       460       470       480       490       500       510       520       530       540       550       560       570       580       590       600       610       620       630       640       650       660       670       680       690       700       710       720       730       740       750       760       770       780       790       800       810       820       830       840       850       860       870       880       890       900       910       920       930       940       950       960       970       980       990       1000       1010       1020       1030       1040       1050       1060       1070       1080       1090       1100       1110       1120       1130       1140       1150       1160       1170       1180       1190       1200       1210       1220       1230       1240       1250       1260       1270       1280       1290       1300       1310       1320       1330       1340       1350       1360       1370       1380       1390       1400       1410       1420       1430       1440       1450       1460       1470       1480       1490       1500       1510       1520       1530       1540       1550       1560       1570       1580       1590       1600       1610       1620       1630       1640       1650       1660       1670       1680       1690       1700       1710       1720       1730       1740       1750       1760       1770       1780       1790       1800       1810       1820       1830       1840       1850       1860       1870       1880       1890       1900       1910       1920       1930       1940       1950       1960       1970       1980       1990       2000       2010       2020       2030       2040       2050       2060       2070       2080       2090       2100       2110       2120       2130       2140       2150       2160       2170       2180       2190       2200       2210       2220       2230       2240       2250       2260       2270       2280       2290       2300       2310       2320       2330       2340       2350       2360       2370       2380       2390       2400       2410       2420       2430       2440       2450       2460       2470       2480       2490       2500       2510       2520       2530       2540       2550       2560       2570       2580       2590       2600       2610       2620       2630       2640       2650       2660       2670       2680       2690       2700       2710       2720       2730       2740       2750       2760       2770       2780       2790       2800       2810       2820       2830       2840       2850       2860       2870       2880       2890       2900       2910       2920       2930       2940       2950       2960       2970       2980       2990       3000       3010       3020       3030       3040       3050       3060       3070       3080       3090       3100       3110       3120       3130       3140       3150       3160       3170       3180       3190       3200       3210       3220       3230       3240       3250       3260       3270       3280       3290       3300       3310       3320       3330       3340       3350       3360       3370       3380       3390       3400       3410       3420       3430       3440       3450       3460       3470       3480       3490       3500       3510       3520       3530       3540       3550       3560       3570       3580       3590       3600       3610       3620       3630       3640       3650       3660    ]
+[                                        .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .    ]
+Ardeotis_kori                   CTGGCTGCCGAGACATACAAAGAGTTCGTAAGTGT{CT}GCGGCCCCTGGGCATCTCCTCCGCGCTAGCAGGATGGTTT--CA--------GGACC-AT-------GCCACAGCTTCCCACCCACTAT----AACTTCCTACAAACAGAGACTTTTCAACTATTAGCATCTTTTCTGCCAGCTCTCG-TGAGG-AGAAAGGGTCTCGATAGGAC-AGGACA----ATGTCCCACC{AG}GCCTGGACTCTGTCTCCTCCTCACGGCTCTCAGCCCCC--------{AT}CCTCTG------CA{CT}GGTCCCCTCCCCAGGGCCATTGCTGCC-CGTGTCCAAACC--TAC-C-{AG}CTCAGGGTCA-GCTGTCTCAAAGGGAAACCTGGCTCTGCAAGCAGTGGGAGATGGCACAGATATT-TTGCAAGACTTGCCCGTGACGGCCACCCATGGCCCCGGCTGATGTCAAGTGCTTACAACGATC-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------CAGTTCCTGCTGTTGCCAGAAGCTGGCATGAGCTGTCACTTTGGCAAGAGC------TGTCCTT-GGGGG-TCATCCACCCCTTGG-AGAACCCAGTCCCAGGGTGTTTTGCCTTCACCTTAGCACTTTGGCTCAGTG----AAAGGAAGACCTTTAGGTCTAGTAGCTA{GT}TGTGCCAACATAAAAACTCC-CG-TTCCCACCTGCCAACCCCGTA--GAGACACCT------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------CAGGTTTCACA--T{CT}TATTTCTCGCAAAGAGTAACCGCTTAGGTCAGCTCGGGGA--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------AAGTGTCTA-TGGTCTTCTCCCAGTACACAGGCAACAGATCC------GACTGTGTTTGGGATATCTCCACAGGAACGCACCTATATTCCAGAGGA{CG}CAGAGACACACCAACAAAAATTCTCAGGCAGCGTTTTGTTATTCAGAAGCCATCCCGGCTCCCACAGGGAAGGATGATGCCCAGCAGAAATCGGTAAGTTCTGTCCCCT-GGGCC-AGCACAGAGCTGTTTGAAGAGCCCAGCTGTGCTTCATTACAGGAACAAAGGGTTTCCATCTGTGAGAATTTCAGTGCTCCCTGAGGTGTCATTCCTCCTCTCCCTTTTTTACTATTTAAACCCTGCATGAAGAAAGAAAGACTCCTCTGG-TTG--------------------------------------------------------------T----TGGGTGGTGCTCCTCACCTTGCAAACCTGTCTGCATCTGCTGAAGCTGCAGGAGCAGCAGCACATGTCTGGGT------------GTTTCAGAGGG-AGCAGGACATG-------CTCTACCAAATACCTCACCTGCACA{CG}CTTTGACCCTTTTTTTTTTT--------------CTTATTTTCAGGACATGGAGCTTCTTCGGTTTTCCCTGGTTCTCATCCAGTCCTGGCTGACCCCGGTGCAATACTTAAGCAAGGTGTTCACAAACAATCTGGTTTTTGGCACCTCAGACAG
+Coccyzus_americanus             CTGGCTGCTGAGAACTACAAAGAATTCGTAAGTGTTGTGATGTGCTTGCATCTCCTCTGCATTAGCTTGACACATT--CA--------GAACC-AT-------CACACAGCTTCACATCTGGTTTGGGACACAGACTAGAAATA--GATTTTTCAACTATTAGTATATTCTCTGACAGCTCTTGATGAGG-TGAAA--GTCTTAATAGGAC-AGGACAGGTTATGTTCT{AC}TCAGCCAGAACCCTGTCTCCTCCTTACAGCTCTCTGTCTCG--------ACCTCTGATCTTCCACAGTCCCTTCCTCAAGGCCATTGCTGCT-CACATTCAAACC--TAC-T-GCACAGGACAG-GCTGTATCAAAGAGAATCCTGGTTCTGAAAGAAGAGGGATATGGCACAGGTATT-TTACAAG--------GTGATGGTCACCTACAGCCCTGGCTGATTCCAAGTGCTTTGAGCTGTCTTGTGTGTCCAAGAGAAAGGCAACAAAGCTGGGGAGGGGACTGGAGCTCAGGGATCATGG-GACTGGCTGAAGGAACTGGAGTTGTTCAGCCTGGAGAAGAGGAGGCTGAGGAGAGACCTCATCACTATCTAAA---TCCAG-AAGGAGGTCGTAGTGAGGTGAGGATTGGTCTCTTCTCGCAGGTAGCAAATGATAGGACAAGAGGAAATAGACTCAAGTTGCACCAGGGCAGGTTCAGATTGGATATTAGGAAACACTTCTTCCCCAAAAGGGTTCTCAGGCCCTG-CAGAGGCTGCCCAGGGCAGTGGTGGAGTCACTATCCTTGAAGGTATTTAAAAGATGGGTAGA{CT}AAGGTGTTCGGGAGTGGTTTAGTAGTGGACAGGTATAATTGAACTTGATAATCTCAAAGGTCTTTTCCTTCCAAACAATTCTCTGATTCTATTCTATGATTCTATGATCCAGTTTCTGCTGTTGCCAGGAGCTGGAATGAGCTGTTCCTTTGCTAAGAGC------TGTCCTT-GGGGG-TCACCTACTTCTTGGG{AT}GAACCCAGTTTAAGTGTATTTTGTGTTCATTTTAGCACCTTGTCTTAGTG----AGAGGAAGACCTTTACGTCCAGGAACTACTGCATCAGCAAGGAAACTCC-TG-TTCCTCCCTGCCAGCCCTGTACAGAGCC{AG}CCTTGTAGAATCAAAAAACCACAGAATGGTTTGGGTTGGAAGGGACCTCAAAGCCCATCCAGTTCCAAG-CCCTGAAATGGGCCGGGACACCACCCACTGGATCAGGG-GCTCCAAGCCCCATCCAACCTGACCTTGAACCCCTCCAGGGATGGGGCAGCCACCGCTTCTCTGGGCAACCTGGGCCAGGGCTTCCCCACCCTCACAGGAAAACATTTCTCCCTAAGATCTCATCTCAATCTCCCCTCTTTCAGATAAAAGCCATTCCCCCTCATCCTATTCCCACACTCCATGATCAAGAACCCCTCCCCAGCTTTCCT---------------------------------------------------------------------------------------------AGAC---TGCCTTTTTGTCC-TGGAAGTACACATCTCACA--TTAATTTCTTGCAAAGAATAACCATTTAGAACAGCTTA-GGAAAATTTTGTCGCAAGTGAGTCTCTAGACAAAACTTGTATTTAAATAAAAGTGCAACTTAATAGGGCTTGATGCTCAGGTCATG-CTATTACTTACTGCATGAAGTAAAGATAT----------------GAGACAAAAACAGGTTATGTGTCTTTTTAGGTAAAAGATTCTATGTGCACACACAGCTCCTTGTGTCACTTAGCTCAGATTTCAAAGTTTCCTAGTGCTTATCCTCAATTTATCAGCATTCCTGCCCGGGTGTCCAGTGTGAGTTCACTCCAGAGTTCAGATCTGAGGATTCACTAAGTAGACTCTCAGGTATCAGATTTTAGAAGGTAAATA-----ACAGAGA{AG}ATACGGCAACATAGACAACTCTGAGAAGAGAGACCAACTCCACAGAGAGGCACCAGCCATGAACCAAGAAATCCCTGGGCAATTCCACTCTCGCAGACTCTTTACCCAACCCTCATAAAATGACTCCATCCAACAGGAATTTGGGGTC-------TTCTTGTCCTCATTGGATTCCTGTATTTTCAGAGAGATCATGATCTTG--------------ATGTTGATGA------TCCATGAA-CCTCTGTATTTTTCTGTTTCTCCTTGACTCAGGAGCCATGTGTTGACTGAACAGCTTGTATGTACTGGGAAAGTTCTTCAGTGGAAATTTC{CT}AGCTTGTAGCTC{AG}GTGCTTCAGAGCCAGTCTGGCTACTCCTGCTGGGACAGCCAAGCAAACAGCATAATAAGTGACACAATAGTATAACTCTAAGTGATTTATTCTACATAAAATATAATTCTCTTTTGGCTAAACAAGCTGTTAAAGAGGAGAATTCCCCAGTCATGCAGTCCAACTGCCACCCAGGGATGATTCAAATGGGGCTCACCACTGATTGGTTGTCAGTAAAAGATCTCATTGCATTGAGAAGCACTCTTGAGA--------GGCACGAGGGGAGGTCATCACCACACAGTCACGGTGCCCAGCAGCAGGAGCTCAAAGCAGGCTCCATTAGGTTTTCATACTTATGGGATAAAAAGGATTGACTCACAGCCAAATTGCATAAAACAG-------------GCTCTTTATCAGTGTTTGCTGTATCACTCTGCTCCTTGTGGGTTTCTCAGAGAAGTTCTTGGCCCAGC-TGTGGGCAGGCCTTTACCTCCCCTGAAGCCTGAGCAAAAGCAGCAGCAGTTTGGCTAAAGGATGGGTGGAATGCATCCATCACAAGTGTCTG-TGGTCTTCTCTCAGCACATGGGCAACAGATCT------GAGTACATTTGAGATGTCTCCACAGGAACGCACCTATATTCCAGAGGACCAGAGACATGCCAACAAAAATCCTCAGGCA---TTCTGTTACTCAGAAGCCATTCCTGCTCCTACGGGGAAGGATGA{CT}GCCCAGCAGAAATCGGTAAGTTCTTTCCCCTT-GGCCAAGCATAGACATGTTTGAAAAGCGCAGATGTGCTTCATCGCAGTCACGGAGGGTTTCCATCTGCAAGCCTTTCAGTGCTTTCCAAGGTGTCACTCCTTTTCTCCCTTTCTTGCTATTTAAAACCAACATGAAGAAAGACAGGCTTTTCTCA----GAC-----------CCCCCACCTCTAAGAGGAGACAAACCATTGTCTGTGCAGGACATGT-----------------TCCTCAGCTTCCAATCCTGTCTGCATCTGCTGCAGCTGCAGGAGCAGTGGCACATCCCTAGGTCACATCTAAGCTGTTTCAGAGGG-AGCAGGACACACAGGTAACTCTACCAAATACCTCATCTGCACATCTTTGGCCTTTTCTTTC-----------------TTTAATTTCAGGACATGGAGCTGCTTCGATTTTCCCTGGTTCTCATCCAGTCCTGGTTGACCCCTGTACAATACCTGAGCAAGGTGTTCACAAACAACCTGGTTTTCGGCACATCAGACAG
+Coua_cristata                   CTGGCTGCTGAGAACTACAAAGAGTTCGTAAGTGTTGTGGCCTCCAGGCTTCTCTTCTGCATTAGCTTGACAGGTT--CA--------GGACT-GT-------GCCACAGCCTCCTACCTGGTGT----AGGTTTCTAGGAATG-AGACCTTTCAACTGTCAGGGTCTTCTCTATCCATTCTGGATGAGG-TGAAAC{CG}GTCTTAATAGGAC-AGGATGGGTTATGACCCATCATCCTGGACCCTGTCTCCTCCTCACAGTTCTCTGCCTCC--------ACCCCTGATCCTCCACAGATCCCTCCTC{AG}GAGGAGTC-CAGC----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------AGTAACCTGGGGTCTG{AG}{AG}ATCTTCTTGTTCTCACTGGATTCCTTTGCTTTCAGGCAGGTTGTTATCTTGTCTAGGTACAGCTGGTGTTGATGATCTGATTCCTTGAAGCCTCTGCTTTTT-----------------------CCACGTGGTGCCTGAACAGTTTGTATGCACGGGGAAAATTCTTAGCTGGAAATTCCCAG{CG}CTGAAGTCTGGTGTTTCAAAGCCAGTTTGGCTACTCCAGCTAGGACAACTAAGCAAA{CT}AGCATAAT-AATCACACAATAGTATAGCTCTAAATTATTTATTTCACATAAAATATTA-TTTATTTAGGCTAAACAAGCTGCTAAAGAGGAGAATTCCCCAGTCATGCAGTCCAGCTGCTGTTCAGAGAGGATTCAGATGGGGCTTACCAGCAATTTGTCATCTGTAAAAGATCTTATTGCTTTGAGGAGCACCCTTGGGAGGCGTCCCAGCACAAAGGGAGCTCATCACCACACAGCCACAGTGCCCAGCAGGGAGTGCTCAAAGCAGGCTCCATTAGACTGTCAGATTTATGGCATAAAAGGGGTTCACTCACAGTCAAAATGCATAAAATAGAGCTATGCAC{AG}AGGCTCTTTATCAGTGGTTGCTGTGTCACT{CT}TGCTTCTTGTGGGTTTCTCAGA---GTTCCTGGCCTGGC-TATAGGCAGGTTTTTACCTCCTCTGGAGCCTGAACCA{AC}ACTGCTGCTGGCTGGGCTAAAGGATGGGTG{AG}AACACATCCATCACAAGTGTCTG-TGGTCTTC----AGTGCACAGGCAACAGATCT------GAGTGTATTTGGGATGTCTCCACAGGAACGCACCTATATTCCAGAGGACCAGAGACATGCCAACAAAAATCCTCAGGCA---TTCTGTTACTCAGAAACCATCCCTGCTCCCACAGGGAAGGACGATGCCCAGCAGAAATCGGTAAGTTCTTTCCCCTT-GGCCAAGCATGGACTTGTTTGAAGAGCTCAGCTGTGCTTCATCACAATCACAGAGGGTTTCAATCTACGAGCACTTCAGTGCTTCCCAAGGTGTCATTCCTCCTTTCCCTTTCATGCTATTTAAACCCTGCATGAAGAAAGACAGATTCT---------GACTGTGAATCATCTTCCCACCCCAAAAAGGAGACAAACCACTGT----GCTGGACATGT--C----TGGGTGGTGCTCCTCAGCTTCCAAACCTGTCTGCATCTGCTGAGGCTGCAGGTGCAGTGGCACATCCCTGGGTCACCTCCAGCCTGTTTCAGGGGGTAGCAGGACACTCGGGTAACTCTACCCAACACCTCACCTGCACAGCTTTGACCCTTTCCTTTTTTT-------------TTTAATTCTAGGATATGGAGCTGCTTCGGTTTTCCCTGGTTCTCATCCAGTCCTGGTTGACTCCAGTACAATACCTAAGCAAGGTGTTTACAAACAACGTGGTTTTCAGCACCTCTGACAG
+Crotophaga_sulcirostris         CAGGCTGCCGAAACCTACAAAGATTTTGTAAGTGTTGTGGCCTCCGAGCATCTCCTCTGCATTAGCTTGACAGGTC--CA--------GGGCT-TT-------GCCACAGCCTCCCACCCAGTGT----AACTTCCTAAAAACAGAGACTTTTCAACTATTAATGTCTTCTATGTCAGTTCTGGATGAAG-TGAAAGGATCTTAATTGGAC-AGGACAGGTTATGTCCCATCAGCCTAAACGCTGTCTCTTCTTCACAGCTCTGTGCT--------------------------------------------------------------AAACCCCTAAATAGCACAGAGCC{AG}AG{AC}TGTCTCAAAGAGAATCCTG------AAAGTAGAGGGAGATGGCACAGATATTTTTGCAAGACTTTCTTGTGATGGTCACCTATGGCCTTGGCTGGTTCCAAGTGCTTAGAACTATCTACTGTGTCCA-GAGAAGGGCAACAAAGCTGAGGAAGGATCTGGAGAACAGGGGTTATGAAGAACAGCTCAGGAATCTGGGGCTGCTTAGTCTGGAGAAGAGGAGGCTG{AG}GGGGAGACCTCATCACTCTCTGCAGCTCCCAGAAAGGAGGTTGCAGCAAGGTGGGTGCTG-TCTCTTCTCCCAAATGACAGGTGATAGGACAAGAGGAAATGGC----------ACCAGGACAGGTTCAGATGGGACATCAGGAAAAATTTCTTCACTGAAAGGGTTCTGAGGCACTGGCAGAGGCTGCCCAGGGAGGTGATGGAGTCACCATCCCTGGAAGCGTTTAAAAGACGG-TAGACAAGGTGCTCAGGGATA---CAGGGGTGGACAGGTACAGTCGGATTTGACCATCTCAAAGGTCTTTTCCAACCAAACAATTCAAGAATTCTATTCTATGATTGTATGATCCAGTTTCTGCTGTTGCCAGGAGCTGGAATGAGCTGTCGCTTTGG-AAAAAC------TGTCCTTGGGGGGGTCATCTAATCCTTGGGAGAATCCAATCCAAGTGCGTTTTGAATTCACCCTAGCACCTTGGGTTAGTG----AGGGGAAGACATTTAGGTCAGGAAGATGTTGGACCAGCTTGGAAACTCC-TG-TT{CT}{CT}CCCCTGCTAACCCTGTACAGAGCC---TCATAAAACCATAGAATCATGGAATGG----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------AAATAGAGCAATGCATGAGGTTCTTTATTAGCGTTCGCTGCATTGCTCTGCTTCGTGTGGGTTTCCTAGAGGAGATCCAGGCCTGCT-GCTG-------------------------CTGAACCAAACTGCTGCTGGTTTGGTTAAAGGATGGGTGGAACGCATCCATCACATGTGTTTG-TGGTCTTCTCCCAGTACATGGGCAACAGATCT------GAGTGTACGTGGGATGTCTCCACAGGAACGCATCTACATTCCAGAGGACCAGAGACACGCCAACAAAAATCCTCAGGCA---TTCTGTTACTCAGAAACCATCCCTGCTCCCACAGGGAAGGATGATGCCCAGCAGAAATCGGTAAGTTCTGTCCTCTG-GGCCAAGCACGGACCTGTTTGAAGAGCCCAGCTGTGCTTCATTACAGACACAAATTCTTTCCATCTGCGAGTACTTCCATTCTTTCCAAG-TATCGTTCTTCCTCTCCCTTTCTTACTTTTTAAACCTTACACAAGGGAAGACAGACCCTTCTGGGTTAGGCTGTGAATCATGTTCCCACCCCAAAGAGGAGTC-----------TGCACAGGACATATGCC----TGGGTGGTGCTCCTCAGCTTCCAAACTTG---------------GCTGCAGGAGCAGTGGCACATCCCTGGGTCACCTCCAGGCTGTATTGGAGGG-AGAGGGACACACTGGTAACTCTACCGAACACCTCACCTGAATGACTTCGATTCTTT{AC}TTTTTTT--------------TTTAATTTCAGGATATGGAGCTGCTTCGGTTTTCCCTGGTTCTCATCCAGTCCTGGTTGACCCCGATACAATACCTAAGCAAGGTGTTCACAAACAACCTGGTTTTCAGCACCTCAGACAG
+Cuculus_canorus                 CTGGCTGCTGAGACTTACAAAGAGTTCGTAAGTGGTGTGGCCTTCTGGCATCTCTTCTGCATTAACTTGACACATT--TA--------GGACC-TT-------CACACAGCTTCCAACCTGGTGT----AACTTCCTAGAAACATAGACTTTTCAGCTATTAGTATCTTCTCTGTCAGCTCTTGATGAGG-TGAAAGAGTCTCAATAGGACCAGGACAGGCTATGTCCCATCAGCCAGAACTCTGTCTCCTCCTCACAGCTCTCTGCCTCT--------ATCTCTGATCTTCCACAATCCCTTCCTCAGGGCCATTGCTGCT-CACATGCAAACC--TAC-{CT}-GCACAGGGCCA-GCTGTCTCAAAGAGAATCCTGGCTCTGAAAGCAGAGGGAGATGGCACAGGTATT-TCAGAAGGTTCTCCTGTGATGGTCACCTACAGCCCTGGCTGATTCCAAGTTCTTTGAACTGTCTCATGTGTCCA-GAGAAAGGCAACAAAGCTGGGAAAGGGGCTGGAGCACAGGGATCATGG-GAGTGGCTGAAGGTACTGGAGTTGTTTAGACTGGAGAAGAGGAGGCTGAGGGGAGACCTCATCACTATCTACA----CCTGAAAGGCGGTTGTAGCGAGGTAGGGGGTGGTCTCATCTCCCAAGTAACAAGTGATAGGATGAGGGGAAATGGCCTCAAGTTGCACCCGGGCAGGTTCAGATTGGATATCAGGAAACATTTCTTCACCAAAAAGGTTCTCAGGCCCTG-CAGACGCTGCCAGGGGCAGTGGTGAAGTCACCATCCTTGAAGGTATTTAAAAGATGGGTAGATAAGGTTCTCAGGGGTAGTTTAGTAGTGTACAGGTACAACTGAACTTGATGATCCTGGAAGTCTTTTCCCTCCAAACGATTCTCTTATTCTATGCTATGATTCTATGATCCAGTTTCTGCTGTTGCCAGGAGCTGGAACAAGCTGTTGCTTTGGTAAGAGC------TCTCCTT-CGGGG-TCATCTACTCCTTGGGAGAACCCAGTTCAAGTGCATTTTGTGTTCGCTTTAGCACCTTGCCTTAGCGAAGGCAAGGAAGACCTGTAGGTCCAGAAACTACTGCACCAGCATGGAAACTCC-TG-TTCCTCGCTGCCAATCCTGTACAGAGCCACCTCACAGAATCATAAAATCACAGAACAGTTTGCATTGGAAAGGACCTCAAAGCCCATCCAATTCCAACTCCCTACCATGGGCAGGGACACCTCCCACTGGATCCGGTTGCTCCAAGCCCCATCCAATCTGGCCTTGAACCCCTCCAGGGATGGGGCAGCCACCACTGCTCTGGACAACCTGGGCCAGGGCCTCCCCACCCTCACAGGAAAACATTTCTCCTTAAGATCTCATCTCAATCTCCCCTCTTTCAGCTGAAAACCATTCCTCCTCATCCTGTCCCTGCACTCCATGATCAAGAGCCCCTCCTCAGCTTTCCT---------------------------------------------------------------------------------------------AGAGCTTTCCCTTTTCATACTTGGACGTATGCATGTCACACATTTATTTCTTGCAAAGAGTAACTATTTAGAACAGCTTA-GGAAAATTCTGTCACAACTGAGTTTTTAGATAAAACTTGTATTTAAATAAAAGTCCGACTTAATAGGATTCGATGCTAAAGTCATG-CTATTACTTACTGCACAGAGGAAAGATAGAAAAAAAGGAAAGAAAGAGGGAAAATCAGGTTATATGTGCTTATAGGTAAAAGATTCTACGTGCACACACAGCTCCTTGTATCACTTAGCTCAGATTTCAAAGTTTCCTAGTGCTTATCCTCAATTTATCAGCATTCCCGCCTGGGTGTCTGGCATAAGTTCACTCCAGAGTTCAAATCTGAGGATTCACTAAGCAAACTCTTAGGTAGCAGATTTTAGAAGGTAAATAATTTAATAGAGACATACAGCAACATGGACAGCTCTGGGGAGAGAGACCAACTCTGTGGAGATGCGCCAAC-ATGAACCAAGAAATCCCTGGGCAATGCCACCCTTACAGACTCTTTACCCACCCCTCATAAAATGAATCTGTTCAAAAGTAATTTGGGGTCTGGGGTCTTCTCTTCCTCACTGGATTCCTTAGCTTTCAGAGAGGTCGTTATCTTG--------------ATGTTGATGA------TCCTTGAA-CCTCTGTATTTTCCTGTTTTTCTTTGACT-GGGAGCCATGTGTTGACTGAACAGCTTGTATGCGCTGGGAAAGTTCTTAAGTGGAAATTCCCAGCTTGTAGCCTGGTGCTTCAGAGCCACTCTGGCTACTCCTGCTAGGACAGCTAAGCAAACAGCATACTAAATCACACAGTAGTATAACTCTAAATGATTTATTCTACATAAAATATTATTTTATTTCAGCTAAACAAGCTGTTAAAGAGGAGAATTCCCTGGTCATGCAGTCCAGTTGCCACCCAGGGAGGATTCAGATGGGGATCACCAGTGATTTCTTGTCAGTAAAAGATCTCATTGCTTTGAGGAGCACCCTTGA--GGCGTCCCAGCACAAGGGGAGATCATCATGACACAGTCATGGTGCCCAGCAGGAAGAACTCAAAGCAGGCTCCATTAGGTTGTCATATTTATGGGATAAAAAGGATTGAGTCACAGCCAAA----ATAAAATGG-------------GCTCTTTATCGGTGTTCACTCTATCACTCTGCTCCTTGTGGGTTTCTCAGAGAAGTCCTTGGCCCAGC-TGTGGGCAGGCCTTTACATCCCCTGAAGCCTGAACAAAACCAGCAGCAGTTTGGTTAAAGGATGGGTGGAATGCATGCATCAGAAGCGCCTG-TGGTCTTCTCCCAGCACATGGGCAACAGATGT------GAGTACATTTGGGGTGTCTCCACAGGAACGCACCTATATTCCAGAGGACCAGAGACACGCCAACAAAAATCCTCAGGCA---TTCTGTTACTCAGAAACCATTCCTGCTCCCACGGGGAAGGATGACGCCCAGCAGAAATCGGTAAGTTCTTTCCCCTT-GGCCAAGCATAGACCTGTTTGAAGAGCCCAACTGTGCTTCATCACAGTCGTGCAGGGTTTCCATCTTCAAGCCCTTGAGCGCTTTCCAAGGTGTCATTCCTCCTCTCCCTTTCTTGCTATTTAAACTCTGCATGAAGAAAGACAGACTTTTCTCAGTTAGACTGTGAATTATCTTCCCACTCTAAAAAGGAGACAAACCATTGTCTGTGCAGTACGT----C----TGGGCGGTGCTCCTCAGCTTCCAATCTTGTCTGCATCTGTTGCGGCTGCAGGAGCAGTGGCACATCCCTGGGTCACCTCTAGGCTGTTTAAGAGGG-AGCAGGAAACACAGGTAACTGGACCAAACACCTCACTTGCACATCTTTGACCCCTTCTTTC-----------------TTTAATTTCAGGATATGGAGCTGCTTCGGTTTTCCCTGGTTCTCATCCAGTCCTGGTTGACCCCCGTACAATACCTAAGCAAAGTGTTCACAAACAACCTGGTTTTCGGCACCTCAGACAG
+Geococcyx_californianus         CTGGCTGCCGAGACCTACAAAGAGTTCGTAAGTGTTGTGGCCCCCAGGCATCTCCTCTGCGTTAGCTTGACAGGTC--CA--------GGACA-CT-------GCCACAGCCTCTCTCCCAGGGT----AACTTCCTAGAAACAAAGACTCTCCAACTCTAAGTGTCTTCTCTGCCAGTTCTGGATGAGG-TGAAAGGGTCTTAATAGGAC-AGGACAGGCTACGTCCCAGCAGCCTAAACCCTGTCTTCTCCTCACAGCTCTCTGCTCCCACGCCCCCACCTCTGATCCTCCAGAGTCCCCTCCTCGGGGCCATTGCTGCTTCATGTCCAAAAC--CAC-T-GCACAGGACCA-GCTGTCTCAGAGGGAAACCTGGCTCTGAAAGCAGAAGGAGATGGCATAAATATT-TTTCAGGACTTTCCTGTGAAGGTCACCTACTGCCCCAGCTGATTCCGTGTGCTCAGAACTATC-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------CAGTTTCTGCTGTTGCCCAGACCTCGAATGAGCTGGCACTTTGGCATGAGC------TGTACTT-GGGGG-TCACCTACTCCTTGGGAGAACCCGCTCCAAGTGTGGTTTGTGTTCAACATAGCACCTTGGTTTAGTG----ACAGGAAGACATTTAGGTCCAGAAGATACTGTGCCAGCTTGGAGACTCC-TG-TTCCTCCCTGCCAACTCTGTACAGAGCCACCTCATAGAATCACAGATTTATGGAATGGTTTGGGTTGGAAGGAACCTCAAAACCCATCCAGTGTC-ACCCCCTGCCATGGGCAGGGACCCCTCCCACTGCATCAGTGGGCTCAAAGTCCCATCCAACCTGGCCTTGAACACTTCCAGGTCTGGGGCAGCCACCACTTCCCTGGGCAACCTGTGCCAGGGCCTCCCAACCATCACAAGAAA------------------------------------------------------------------------------------------------------------ACAGCACCCACCTGACTTCAGTCTCCTTTCCAGGAGCTGTAGAGAGCAATGAGGTCTCTCCTCAGCCTACTCTTCTCGAGGCTAAACAATCCC---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------TGGAAAGGCATCCCAATACAAGAGGAGTTCATCACCATGCAGTCATACTGCCCAGTTCATAG-----AAAGC---TCCCTTTAGGCTGTCAGATTTATGGGATAAAAAGGATTGAATTGTAGTCAAATTGCATAAAATAGAGCTATTCATGAGGCTCTTTATCAGTGTTTGCTG-GTTGCTGTGCTTCATGTGGGTTTCCTTGAGGAGTTCCTGGCCCCCCCTGCAGGTAGGCCTTTACCTCCTCTAGAGCCTGAACCAAACTGCTGCTGGTTTGGTTAAAGGAT-------------CCATCACACGTGTCTG-TGGTCCTCTCCCAGTACATGGGCAACAGATCT------GAGTGTACGTGGGATGTCTCCACAGGAACGCACCTACATTCCAGAGGACCAGAGACACGCCAACAAAAATCCTCAAGCA---TTCTGTTACTCAGAAACCATCCCTGCTCCCACAGGGAAGGACGATGCCCAGCAGAAATCGGTAAGTTCTCTTCCCTG-AGCCAAGCATGGACCTGTTTGAATAGCCCAGCTGTCCTTCATGATAGACACAAACGGTTCCCATCTGCGAGTACTTCTGCGCTTTCTAGGGTATCATTCTTCCTCTCCCTTTCTTACAATTTAAACCCTAAATGAAGAAAGACAGACTGTTCTGGGTTAGGCTGTGAATCATGTTCCCACCCCAAAGAGGAGACAAACTATTGTCTGCACAGGACACGTGCC----TGGGTAGTGCTCCTTAGCTTCCAAACTTG---------------GCTGCAGGAGCAGTGGCACGTCCCTGGGTTAACTCCAGGCTGTTTCAGACAG-AGGGGGACACACAGGTAACTCTACCAAACAGCTCACCTGCACAGCTTTGATCCTTTCTTTTTTT--------------TTAAATTTCAGGACATGGAGCTGCTTCGGTTTTCCCTGGTTCTCATCCAGTCCTGGTTGACCCCGGTACAGTACCTAAGCAAGGTGTTCACAAATAACCTGGTTTTCGGCACCTCAGACAG
+Grus_canadensis                 CTGGCTGCTGAGACATACAAAGAGTTTGTAAGTGTTGTGGCCTCCGGGCACCTCCTCTGCATTACCTTGATGGTTT--CA--------GGACC-AC-------GCCACAGCTTCCCACCCAGTGT----AACTTCCTAGAAACAGAGACTTTTCAATGATTAGTGTCT-----------TCCTGATGAGG-CGAAAGGGTCTTAATAGGAT-AGGACAGGTTATGTCCCACCAGCCTGGACCCCATCTCCTCCCCGCATCTCTCCATCTCC--------ACCTCTGATC--ACACAGTCTCCTCCTCAGGGCCATCACTGCC-CGTGTCCAAACC--TAC-C-GCACAGGGTCA-GCTGTCTCAGAGAGAAACCTGGCTCTGCGAGCAGTGCGAGACAGCACAGGTATT-TTGCAAGACTTTCCTGTGACAGTCACCTACGGCCCTGACTGATTCCAAGTGCCTAAACCTATC-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------CAGTTTCTGCTGTTGCCAGGAGCTGGCATGAGCTGTCACTTTGG------------------------GG-TCATCTACTCCTTGGGAAAACCCAGTCCAAGTGTGTTTCGTTCTCACCTTAGCACTTTGGCTTAGTG----AGAAGACGACCTTTAGGCCCAGAAGCTACCGTGCCAACATACAAACTCC-TG-TTCCTACC---------GGTAC--AGACACCT------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------CACATCTCACA--GTTATTTCTTGCAAAGAGTAACCATTCAGGACAGCTTG-GGA--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------AAGTGTCTG-TGGTTTTGTCCCAGCACATGGGCAACAGATCA------GAGTGTATTTGGGATGTCTCCACAGGAACGCACCTATATTCCAGAGGACCAGAGACATGCCAACAAAAACTCTCAGGGAGCATTTTGTTACTCCGAAACCATTCCTGCTCCCACGGGGAAGGATGATGCCCAGCAGAAATCGGTAAGTTCTCTCC---------AAGCACAGACCTGTTTGAAGAGCTCTGCTGTGCTTCATCACAGGAACAGAGGGTTTCCACCTGTGAGTACTTCAGCACCTCACGAGGTGTCATTCCTCCTCTCCCTTCTTTACTGTTTAAACCCTGCATGAAGAAAGAAAGATTCTTCTGGGTTAGACTATAAATCATATTCCCGCTCCAAGGAGGAGAAAAGCTATTGTCTGCGCAGGACATACGCC----TGGGTGGTGCCCCTCAGCTTACAAACTTGTCTGCGTCTGCTGAAGCTGCAGAGACAGTGGCACATCTCTGGGTCACCTCCAGGCTGTTCCAGAGGG-AGCAGGACACACAGGTAACTCTACTGAA----------GTAGAGCTTTGACCCTTTCTTTT-----------------TTTAATTTCAGGATATGGAGCTTCTTCGGTTTTCCCTGGTTCTCATCCAGTCCTGGTTGAACCCAGTGCAATACCTAAGCAAGGTGTTCACAAACAATCTGGTTTTTGGCACCTCAGACAG
+Phaenicophaeus_curvirostris     CTGGCTGCTGAGAACTACAAAGAATTCGTAAGTGTTGTGACGTCCTCGCATCTCCTCTGCATTAGCTTGACACATT--CA--------GGACC-AT-------CACACGGCTTCCCACCTGGTGTGGGAAACAGACTAGAAACA--GACTTTTCAACTATTAGTATATTCTCTGACAGCTCTTGATGAGG-TGAAA--GTCTTAATAGGAC-TGGACAGGTTATGTC--ATCAGCCAGAACCCTGTCCCCTCCTCACAGCTCTCTGCCTCG--------ACCTCTGATCTTCCACAGTCCCTTCCTCAGGGCCATTGCTGCT-CACATCCAAACC--TAC-T-GCACAGGACAA-GCTGTCTCAAAGAGAACCCTGGTTCTGAAAGCAGAGGGAT{AG}TGGCACAGGTATT-TTAAAAGGTTCTCCTGTGATGGTCACTTACAGCCCTGGCTGATTCCAAGTGCTTTGAACTGTCTTGTGTGTCCA-GAGAAGGGCAACAAAGCTGGGGAGGGGACTGGAGCACAGGGATCATGG-GACTGGCTGAAGGAACTGGAGTTGTTTAGCCTGGAGAAGAGGAGGCTGAGGGCAGACTTCATCACTATCTACA----TCTGAAAGGAGGTTGTAGTGAGGTGGGGATTGGTCTCTTCTCACACGTAGCAAGTGATAGGACAAGAGGAAATAGACTCAAGTTGCACCAGGGCAGGTTCAGATTGGATATTAGGAAACACTTCTTCAACAAAAGGGTTCTCAGGCCCTG-CAGAGACTGCCCAGGGCAGTGGTGGAGTCACTATCCTTGAAGGTATTTAAAAGATGGGTAGATAAGGTGCTTGGGAGTGGTTTAGTAGTGGACAGGTATAATTGAACTTGATGATCCTAAAGGTCTTTTCCCTCCAAACAATTCTCTGATTCTATTCTCTGATTCTATGATCCAGTTTCTGCTGTTGCCAGGGGCTGGAATGAGCTGTCGTTTTGGTAAGAGC------TGTCCTT-GGTGG-TCATCTACTCCTTGGGAGAACTCAGTTTAAGTGTATTTTGTGTTCATTTTAGCACCTTGCCTTAGTA----AGAGGAAGACCTTTAGGTCCAGAAACTACTGCATCAGCATGGAAACTCC-TG-TTCCTCCCTGCCAACCCTGTACAGAGCCGCTTCATAGAATCAAAAAATCACAGAATGGTTTGGGTTGGAAGGGATCTCAAACCCCACCCAGTTAAAAG-CCCTGAAATGGGCAGGGACACCTCCCACTGGATCCGGTTGCTCAAAGCCCCATCCAACCTGGCTTTGAATGCCTCCAGGGATGGGGCAGCCACTGCTTCTCTGGGCAACCTGGGCCAGGGCCTCCCCACTCTCACAGCAAAACATTTCTCCCTAAGATCTCATCTCAATCTCCCCTTTTTCAGATAAAAACCATTCCCCCTCATCCTATTTCCGCACTCCATGATCAAGAACCCCTCCCCAGCTTTCCT---------------------------------------------------------------------------------------------AGAG---TGCCTTTTTGTAC-TGGAAGTACACATCTCACA--TTTATTTCTTGCAAAGAATAACCATGTAGAACAGCTTA-GGAAAATTTTGTCTCAAGTGAGTTTTTAGACAAAACTTGTATTTAAATAAAAGTGCAACTTAATAGGGTACGATGCTAAGGTCGCATCAATTACTTACTGCATGAAGGAAAGATAT----------------GAGGCAAAATCAGGTTATGTGTACTTTTAGGTAAAAGATTCTATGTGCACACACAGCTCCTTGTGTCACTTAGCTCA{GT}ATTTCAAAGTTTC{CT}TAGTGCTTATCCTCAATTTATCAGCATTCCTGCCTGGGTGTCCAGCATGAGTTCACTCCAGAGTTCAGATCTGAGGATTCACTAAGCAGACTCTCAGGTATCAGATTTTAGAAGGTAAATAATTTAATAGACAGATACGGCAACATGGACAGCTATGAGGAGAGAGACCAACTCCACAGAGAGGCGCCAGCCATGAACCAAGAAATCCCTGGGCAATTCCACTCTCACAGACTCTTTACCCAACCCTCATAAAATGACTCCATCCAACAGTAATTTGGGGTCCGGGGTCTTCTTGTCCTCATTGGATTCCTTTATTTTCAGAGAGGTCATTATCTTG--------------ATGTTGATGA------TCCTCGAA-CCTCTGTATTTTTCTGTTTCTTCTTGACTCAGGAGCCATGTGTTGACTGAACAGCTTGTATGCACTGGGAAAGTTCTTCAGTGGAAATTCCCAGCTTGTAGCTTGGTGCTTCAGAGCCAGTCTGGCTACTCCTGCTAGGACAACTAAGCAAACAGCATGCTAAGTCACACAATAGTATAACTCTAAATGATTTATTCTACATAAAATACAATTCTATTTTGGCTAAACAAGCTGTTAAAGAGGAGAATTCCCCAGTCATGCAGCCCAGCTGCCACACGGGGATGATTCAAATGGGGCTCACCACTGATTTGTTGTCAGTAAAAAATCTCATTGCATTGAGAAGCACTCTTGAGAAGTGTCCTGGCACAAGGGGAGGTCATCACCACGCAGTCATGGTGCCCAGCAGCAGGAGCTCAAAGCAGGCTCCATTAGGTTGTCATATTTATTGGATAAAAAGGATTGACTCACAGCCAAATTGCATAAAATAG-------------GCTCTTTATCAGTGTTTGCTGTATCGCTCTGCTCCTTGTGGGTTTCTCAGAGAAGTTCTTGGCCCAGC-TGTGGGCAGGCCTTTACCTCCCCTGAAGCCTGAGCAAAACCAGCAGCAGTTTGGTTAAAGGATGGGTGGAATGCATCCATCACAAGTGTCTG-TGGTCTTCTCTTAGCACACGGGCAACAGATCT------GAGTATATTTGGGATATCTCCACAGGAACGCACCTATATTCCAGAGGACCAGAGACATGCCAACAAAAATCCTCAGGCA---TTCTGTTACTCAGAAGCCATTCCTGCTCCTACGGGGAAGGATGACGCGCAGCAGAAGTCGGTAAGTTCTTTCCCCTT-GGCCAAGCATAGACATGTTTGAAAAGCGCAGTTGTGCTTCATTGCAGTCACGGAGGGTTTCCATCTGCAAGCCTTTCAGTGCTTTCCAAGGTGTCATTCCTTTTCTCCCTTTCTTGCTATTTAAACCCCACATGAAGAAAGACAGGCTTTTCTCAGAT---------------TTCCCACCCCAAAGAGGAGACAAACCATTGTCTGTGCAGGACATGTG------TGGGTGGTGCTCCTCAGCTTCCAATCATGTCTGCAGCTGCTGCAGCTGCAGGAGCAGTGGCACATCCCAGGGTCACCTCTAAGCTGTTTCAGAGGG-AGCAGGACACACAGATAACTCTACCAAATACCTCACTTGCACATCTT{GT}GGCCCTTTCTTTC-----------------TTTAATTTCAGGATATGGAGCTGCTTCGGTTTTCCCTGGTTCTCATCCAGTCCTGGTTGACCCCTGTACAATACCTAAGCAAGGTGTTCACAAACAACCTGGTTTTCGGCACATCAGACAG
+Rallus_limicola                 CTGGCTGCTGAGACATACAAAGAGTTTGTAAGTGTCGTGGCCTCCAGGCACCTC------------CTGACAGCTT--CA--------GGAAC-AG-------GTCCCAGCTTCCCAAACAGTGT----AAC-CCCTATAAACAGAGACTCTCCCACTGTTAGCACCTTCTCTGTCAGTTCCTGATGAGGCACAAAGGGTCTTCATAGGAC-AGGACAGGTTGTGGCCCATCAGCCTGGACCCTGTCTGCCTCCTGCAGCTCTCTGCTTCC--------ACCTCTGATG----ACAAT-------------CCACCACCACC-CACATCCCAACC--TTC-T-------------GCTGTCTCAGAGAGAA-CCTGGCTCTCAGAGCAAGGGG-GGT-GCACAGGTATT-TTAT--GACTTTCCTGTGACAGTCACCTACTGCCCTGGCTGACTCCAAGCGCTTAAAACTACC-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------CAGTTTCTGCTGCTGCCAGGAGCTGGCATGAGCTGTTGCTTTGGCAAGAGCAAAAGCTGTCCTT-GGGGG-TCATCTAGCCCCTAGGAGAACCCAGTCCAAGTGTGTTTTGCATTCACCTTAGCACTTTGA-TTAGGG----AGAGGAAGACCTTTAGGTGCAGAAGCCGCTGTGCCAATATAACCCCCCCCTG-TTCCTACCTGCCAACCCTGTGCAGACACACG-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------AGGGTCTCACA--TTTACTCCTTGCAAAGA------------GACAGCTTG-GGA--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------CAGTCTGCACTGGTTTTCTCCCAGTACACAGGCAACAGATCT------GAATGTGTTTGGGATGTCTCCACAGGAACGCACCTACATTCCAGAGGACCAGAGACATGCCAACAAAAATTCCCAGGCAGCATTTTGTTACTCAGAAACCATCCCTGCTCCCACAGGGAAGGATGATGCCCAGCAGAAATCGGTAAGTTCTCTCCCCA-GGGCCAAGCACAGACCTGTT------------------------------------------------TG{AG}GTACTCCAGTGCTTCCTGAGGGATCATTCCTCCTCTCCCTTT---ACTATTTGAACCCTGCATT--GAA-GAA{AG}GACTCTTCTGG-TTAGAC{CG}GTAAATCAC{AG}TTCCTACCCCAAGGAGGAGAAAAG------------CAGGGCATA-GTCTGGGTGGGTGGTGCTCCTCAGCTTGTGAACTCAACTGCC-----AAAAACCTCAGGAACAGTGTCACATCTCTGGGTCACCTCCAGGCTGATTCAGAGGG-AGCAGGACACACAGGTAACTCTACTCAA----------GTAGAGCTTTGATCCTTCCT{CG}TTCGTTTTTTGTTTTTTTTTTAAATGTCAGGATATGGAGCTGCTTCGTTTTTCCCTGGTTCTCATCCAGTCCTGGTTGAACCCTGTGCAGTACCTAAGCAAGGTGTTCACAAACAACCTGGTTTTTGGCACGTCAGACAG
+Tauraco_erythrolophus           CTGGCTGCCGAGACATACAAAGAATTCGTAAGTGTCGTGGCCTCTGGAC-----------------TTGATGGTTTGTCATGGCCTCTGGACTTGTAGGGGAAGCCACAGCTTCCC--CTAGTGT----AACTTC-------------------TACTATTGGTGCCTTCTGTGCCAGCTCTCAATGAGG-AGAA{AC}GGGTCTTAACAGGTT-AGGACA{AG}ATTACGTCCCATCAGCCCAGACCCTGTCTCCTCCTCACAGCTCTCTGCCTCC--------ACCTCTGATCCTGCACAGTCCCCTACTCAGGGCCATGGCTGCC-CGTGTCCAAACC--TAG-T-GCACAGAGTCA-GCTGCCTCAAAGAGAAACCTGGCTCTGAAAGTGGTGGGAGATGGCACAGATATT-TCACAAGACTTTCCTGTGACGGTCACCTTCAGCCCTGGCTGATTCCGAGTGCTTAAAACTATC-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------CAGTTTCTGCAGTTGCCAGAAGATGGTATGAGCCATCACTTTGGCAAGAGC------TGTCCT--GAGGG-TCATCTGCTCCT-GGGAGAACCCAGTCCAAATGTGTTTTGCATTCAGCTTAGCACTTTGGCTTAGTG----AGAGGAAGACTTTTAGGTCCAGTAGCTACTGTGCCAACATACAAACTCC-TGTTTCCCACCTGCCAATCCTGTACACAGACACCT------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------CATGTCTCACA--TTTATTTCTTGCAAAGAGTAACCATTCAGCACAGCTTG-GGA--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------AAGCATCTA-CTGTTTTCTCCCAGTACACAGGCAACAGATTTAGATTTGAGTGTATTTGGGATGTCTCCACAGGAACGCACCTATATTCCAGAGGACCAGAGACACGCCAACAAAAATTCTCAGGCAGCATTTTGTTACTCAGAAACCATTCCTGCTCCCACAGGGAAGGATGATGCCCAGCAGAAATCGGTAAGTTCCCTCCCTC-AGGGCAAGCACAGACCTGTTTGAAGAGCCCACCTGTGGTTCATCACAGGAACAGAGGGTTTCCATCTGTGAGCACTTCAGAGCTTCCTGAGGTATCATTCCTCCTCTACCTTTTT-ACTATTTAAACCCTGCATGAAGAAAGAAAGACTCTTCTGGTTCAGACTAT------------------AAAG----------CTCTTGCTTGCACAAGAC---------------------------------AAACTTGTCTGTACCTGCTGAAGGTGCAGGAGCAGTGGCACATCTCTGGGTCACCTCCAGGCTGCTTCAGAAGG-AGCAGGAGACACAGGTAACTCTACCAAATACTTCACCTGCACAGCTTTGACCTTTTCTTTT-----------------ATTAATTTCAGGACATGGAGCTGCTTCGGTTTTCTCTGGTTCTCATCCAGTCCTGGTTGACCCCGGTGCAATACCTGAGCAAGGTGTTCACAAACAATCTGGTTTTTGGCACCTCAGACAG
+;
+END;
+
+BEGIN SETS;
+	CHARSET GH1_exon3 (CHARACTERS = Avian_Tree_of_Life_GH1) =  2978-3094;
+	CHARSET GH1_exon2 (CHARACTERS = Avian_Tree_of_Life_GH1) =  1-27;
+	CHARSET TE40 (CHARACTERS = Avian_Tree_of_Life_GH1) =  1479-1570;
+	CHARSET GH1_exon4 (CHARACTERS = Avian_Tree_of_Life_GH1) =  3525-3634;
+	CHARSET Uniditentified_insertion (CHARACTERS = Avian_Tree_of_Life_GH1) =  1655-2904;
+	CHARSET TE39 (CHARACTERS = Avian_Tree_of_Life_GH1) =  1162-1477;
+	CHARSET TE38 (CHARACTERS = Avian_Tree_of_Life_GH1) =  471-931;
+END;
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M6996]
+
+	TITLE Avian_Tree_of_Life_TE_Matrix;
+	LINK TAXA = Taxa3;
+	DIMENSIONS NCHAR=66;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1" MISSING=? GAP= -;
+	CHARSTATELABELS
+		1  'ALDOB-3',
+		2  'ALDOB-3',
+		3  'ALDOB-5',
+		4  'ALDOB-5',
+		5  'CLTC-6',
+		6  'CLTC-6',
+		7  'CLTC-7',
+		8  'CLTC-7',
+		9  'CLCTL1-7',
+		10  'CLCTL1-7',
+		11  'CRYAA-1',
+		12  'EEF2-5',
+		13  'EEF2-5',
+		14  'EEF2-5',
+		15  'EEF2-5',
+		16  'EEF2-5',
+		17  'EEF2-6',
+		18  'EEF2-7',
+		19  'EEF2-7',
+		20  'EEF2-7',
+		21  'EEF2-8',
+		22  'EEF2-8',
+		23  'EEF2-8',
+		24  'EEF2-8',
+		25  'EEF2-8',
+		26  'EEF2-8',
+		27  'EEF2-8',
+		28  'EEF2-8',
+		29  'FGB-5',
+		30  'FGB-5',
+		31  'FGB-7',
+		32  'FGB-7',
+		33  'FGB-7',
+		34  'FGB-7',
+		35  'GH1-2',
+		36  'GH1-2',
+		37  'GH1-2',
+		38  'GH1-2',
+		39  'GH1-2',
+		40  'GH1-2',
+		41  'GH1-2',
+		42  'GH1-3',
+		43  'GH1-3',
+		44  'HMGN2-2',
+		45  'HMGN2-3',
+		46  'HMGN2-4',
+		47  'HMGN2-4',
+		48  'HMGN2-4',
+		49  'HMGN2-4',
+		50  'HMGN2-4',
+		51  'HMGN2-5',
+		52  'IRF2-2',
+		53  'MB-1',
+		54  'MB-1',
+		55  'MUSK-3',
+		56  'MUSK-3',
+		57  'MYC-b',
+		58  'PCBD1-2',
+		59  'PCBD1-2',
+		60  'PCBD1-3',
+		61  'PCBD1-3',
+		62  'PCBD1-3',
+		63  'PCBD1-3',
+		64  'PCBD1-3',
+		65  'TGFB2-5',
+		66  'TGFB2-5',
+		;
+
+MATRIX
+[                                       10        20        30        40        50        60      ]
+[                                        .         .         .         .         .         .      ]
+Acanthisitta_chloris            ????0000??0000001???0000001000000000000000001??????000000000000000
+Aegotheles_insignis             00000000??00000000000000000000000000000000000000000000000000000000
+Aerodramus_vanikorensis         00000000??000000000100000000000000000000000??100000000000000000000
+Alcedo_leucogaster              ????0000??01000000000000000000000000000000000000010000??0000000010
+Alectura_lathami                00000000??000010000000000000000000000000000????????000000000000000
+Alisterus_scapularis            00000000??000000000000000001000010000000000?????????00000000000000
+Anas_platyrhynchos              000000000000000000000000000000000000000000000000000000000000000000
+Anhinga_anhinga                 000000000000000000000000000000000000000000000000000000000000000000
+Anser_erythropus                000000000000000000000000000000000000000000000000000000000000000000
+Anseranas_semipalmata           00000000??00000000000000000000000000000000000000000000000000000000
+Apteryx_australis               000000000000000000000000000000000000000000000000000000000000000000
+Aramus_guarauna                 00000000??000000000000000000000000000000000????????000000000000000
+Ardea_herodias                  00000000??00000000000000000000000000000000000000000000000000000000
+Ardeotis_kori                   00000000??000000?00000000000000000000000000????????000000000000000
+Arenaria_interpres              000000000000000000000001000000000000000000000000000000000000010000
+Aythya_americana                0000000000000000000000000000??000000000000000000000000000000000000
+Balaeniceps_rex                 00000000??000000000000000000??000000000000000000000000000000000000
+Batrachostomus_septimus         00000000??000000?00000000000000000000000000?????????00000000000000
+Biziura_lobata                  00000000??000000000000000000000000000000000????????000000000000000
+Bombycilla_garrulus             00000000??00000000000000001000????000000000????????000000000000000
+Brachypteracias_squamigera      00000000??000000000000000000000000000000000??000011000000000000000
+Bucco_macrodactylus             00000010??100001000000000000000000010000001??001000000000000000000
+Bucorvus_abyssinicus            00000000??000000000000000000000000000000000??00001000000?000000000
+Burhinus_bistriatus             00000000??000000000000000000000000000000000????????000000000000000
+Buteo_jamaicensis               000000000000000000000000000000000000000000000000000000000000000000
+Cacatua_sulphurea               00000000??000000000000000001000010000000000????????000000000000000
+Capito_niger                    00000000??000000000000001000000000???????????0001100??000000000100
+Caprimulgus_longirostris        00000000000000000???????????00000000000000000000000000000000000000
+Cariama_cristata                00000000??00000000000000000000000000000000000000000000??0000000000
+Casuarius_casuarius             000000000000000000000000000000000000000000000000000000000000000000
+Cathartes_aura                  00000000??00000000000000000000000000000000000000000000000000000000
+Centropus_viridis               ????0000??000000000000000100000000?????????????????0000000000000??
+Chalcopsitta_cardinalis         00000000??000000000000000001000010000000000????????000000010000000
+Charadrius_vociferus            00000000??00000000000000000000000000000000000000000000000000000000
+Chauna_torquata                 00000000??00000000000000000000000000000000000000000000000000000000
+Ciconia_ciconia                 000000000000000000000000000000000000000000000000000000000000000000
+Climacteris_erythrops           00000000??000000000000000010000000?????????????????000000000000000
+Coccyzus_americanus             00000000??00010000000110010000000000011000000010000000000000100000
+Cochlearius_cochlearius         00000000??000000000000000000000000000000000????????000000000000000
+Colibri_coruscans               0000000000000000010000000000??000000000010000000000000000000000000
+Colinus_cristatus               00000000??000000000000000000000000?????????????????001000000000000
+Colius_colius                   000000000100000000000000000000000000000000000000000000000000000000
+Columba_livia                   000000000000000000001000000000100000000000000000000000000000000000
+Columbina_passerina             00000000??000000000010000000001000000000000????????000000000000000
+Coracias_caudata                00000000??000000000000000000000000000000000??000010000000000000000
+Corvus_corone                   ????00000000000000000000001000000000000000001000000000000000000000
+Corythaeola_cristata            ????0001??000000????????????000000000000000????????0??000000000000
+Coturnix_coturnix               0000010000000000000000000000??0000000000000000000000??000000000000
+Coua_cristata                   00000000??000000000000000100000000000??0000??000000000??0000000000
+Crax_alector                    000000000000000000000000000000000000000000000000000000000000000000
+Crotophaga_sulcirostris         00000000??000000000000000100000000000110000??00000000000?000000000
+Crypturellus_soui               ????0000??0??????00000000000000000000000000??000000000000000000000
+Cuculus_canorus                 00000000??000100000000000100000000000110000??00000000000?000000000
+Daptrius_ater                   00000000??000000000000000000000000000000000????????000000000000000
+Dendrocolaptes_certhia          00000000??000000000000000010000000000000000????????0000000000000??
+Diomedea_nigripes               00000000??000000000000000000000000000000000????????000000000000000
+Dromaius_novaehollandiae        000000000000000000000000000000000000000000000000000000000000000000
+Dromas_ardeola                  ????????????????????????????000000000000000????????000000???????00
+Dryocopus_pileatus              000000000000000000000000100000000001000000000000110000000???????00
+Eudocimus_albus                 00000000??00000000000000000000000000000000000000000000000000000000
+Eudromia_elegans                000000000000000000000000000000000000000000000000000000000000000000
+Eudyptula_minor                 00000000000000000???????????00000100000000000000000000000000000000
+Eupodotis_ruficrista            00000000??0000000???????????00000000000000000000000000000000000000
+Eurostopodus_macrotis           00000000??0?????????????????00????000000010????????000000000000000
+Eurypyga_helias                 000000001000000000000000000000000000000000000000000000000000000000
+Falco_mexicanus                 000000000000000000000000000000000000000000000000000000000000000000
+Fregata_magnificens             000000000000000000000000000000000000000000000000000000000000000000
+Fringilla_montifringilla        00000000??00000000000000001000????000000000????????000000000000000
+Galbula_albirostris             00000010??100001000000000000000000010000000??000000000110000000000
+Gallus_gallus                   000100000000000000000000000000000000000000000000000001000000000000
+Gampsonyx_swainsonii            00000000??000000000000000000000000000000000????????000000000000000
+Gavia_immer                     00000000??000000000000000000??000000000000000000000000000000000000
+Geococcyx_californianus         ????0000??000000000000000100000000000011000??000000000000000000000
+Geotrygon_montana               00000000??000000000010000000001000000000000????????100000000000000
+Grallaria_varia                 00000000??000000000000000010000000000000000????????000??0000000000
+Grus_canadensis                 00000000??000000000000000000000000000000000????????000000000000000
+Haematopus_ostralegus           000000000000000000000000000000000000000000000000000000000000000000
+Heliornis_fulica                ????0000??000000000000000000000000000000000????????000000000000000
+Hemiprocne_mystacea             00000000??000000001100000000000000000000000??100000000000000000000
+Herpetotheres_cachinnans        00000000??000000000000000000000000000000000????????0??000000000000
+Himantornis_haematopus          ????0000??000000000000000000000000000000000????????000000000000000
+Indicator_maculatus             00000000??000000000000001000000000???????????000110?00000???????00
+Jacana_jacana                   00000000??000000000000010000000000000000000????????000000000010000
+Larus_marinus                   00000000??000000000000000000000000000000000????????000000100000000
+Leptosomus_discolor             00000000??000000000000000000000000000000000????????000000000000000
+Malacorhynchus_membranaceus     00000000??000000000000000000??0000000000000????????000000000000000
+Malurus_melanocephalus          00000000??000000000000000010000000000000000????????000000000000000
+Megalaima_virens                00000000??000000????00001000000000???????????0001100000000000011??
+Megapodius_eremita              00000000??00001000000000000000000000000000000000000000000000000000
+Menura_novaehollandiae          00000000??0??????00000000010??0000000000000????????000000000000000
+Merops_nubicus                  000000??????????0???00000000??????000000000??000010000000000000000
+Mesitornis_unicolor             000000000000000000000000000000000000000000000000000000000000000000
+Micrastur_semitorquatus         00000000??000000000000000000000000000000000????????000??00000000??
+Micropsitta_finschii            00000000??000000000000000001000010000000000????????000000000000000
+Mionectes_macconnelli           01000000??0?????????????????000000000000000????????000000000000000
+Momotus_momota                  00000000??000000000000000000000000000000000??000010000000000000000
+Monias_benschi                  00000000??000000000000000000000000000000000????????000000000000000
+Morus_bassanus                  00000000??000000000000000000000000000000000????????000000000000000
+Nothoprocta_perdicaria          0000000000000000000000000000??????00000000000000000000??0000000000
+Numida_meleagris                000000000000000000000000000000000000000000000000000001000000000000
+Nyctibius_bracteatus            00000000??000000000000000000000000000000000????????000000000000000
+Nyctibius_grandis               00000000??0000000???0000000000000000000000000000000000000000000000
+Oceanites_oceanicus             00000000??00000000000000000000000000000000000000000000000000000000
+Oceanodroma_tethys              00000000??000000000000000000000000000000000????????000000000000000
+Opisthocomus_hoazin             00000000??00000000000000000000000000000000000000000000000000000000
+Otidiphaps_nobilis              00000000??000000000010000000001000000000000????????000000000000000
+Oxyura_jamaicensis              00000000??000000000000000000000000000000000????????000000000000000
+Pandion_haliaetus               000000000000000000000000000000000000000000000000000000000000000000
+Passer_montanus                 00000000??00000000000000001000000000000000001000000000000000000000
+Pedionomus_torquatus            00000000??000000000000010000000100000000000????????000000000010000
+Pelecanoides_urinatrix          00000000??000000000000000000000000000000000????????000??00000000??
+Pelecanus_occidentalis          00000000??000000000000000000000000000000000????????000000000000000
+Phaenicophaeus_curvirostris     000000?????001000???????????000000000110000??000000?00000000000000
+Phaethon_lepturus               00000000??00000000000000000000000000000000000000000000000000000000
+Phaethon_rubricauda             00000000??00000000000000000000000000000000000000000000000000000000
+Phaethornis_griseogularis       ??????????000000000000000000??0000?????????????????000??0???????00
+Phalacrocorax_carbo             0000000000000000000000000000000000000000000????????000000000000000
+Pharomachrus_auriceps           00100000??000000000000000000000000000000000????????000000000000000
+Phegornis_mitchellii            00000000??000000000000000000000000?????????????????000??0000000000
+Phodilus_badius                 00000000??000000000000000000100000000000000????????000000000000000
+Phoenicopterus_chilensis        000000000000000000000000000000000000000000000000000000000000000000
+Phoeniculus_purpureus           ????0000??00000000000000000001????001000000??000010?10000000000000
+Picathartes_gymnocephalus       00000000??000000000000000010000000000000000????????000000000000000
+Pipra_coronata                  00000000??000000000000000010000000000000000????????000000000000000
+Pitta_guajana                   000000?????0000000000000001000000000000000001000000000??0000000000
+Platycercus_elegans             00000000??0??????00000000001000010000000000????????000000000000000
+Ploceus_cucullatus              ????0000??00000000000000001000000000000000001000000000000000000000
+Podargus_strigoides             000000000000000000000000000000000000000000000000000?00000000000000
+Podiceps_auritus                000000?????0100000000000000000000000000000000000000000000000000000
+Psittacula_alexandri            000000?????000000000????????000010000000000????????000000000000000
+Psittacus_erithacus             00000000??00000000000000000100001000000000000000000000000000000000
+Psophia_crepitans               0000000000000000000000000000??000000000000000000000000000000000000
+Pterocles_namaqua               00000000??00000000000000000000000000000000000000000000000000000000
+Puffinus_griseus                00000000??00000000000000000000000000000000000000000000000000000000
+Rallus_limicola                 0000000000000000000000000000000000000000000??000000000??0000000001
+Regulus_calendula               00000000??000000000000000010000000000000000????????000??0000000000
+Rhea_americana                  000000000000000000000000000000000000000000000000000000000000000000
+Rhynochetos_jubatus             000000001000000000000000000000000000000000000000000000000000000000
+Rollulus_rouloul                00000000??000000000000000000000000000000000????????001000000000000
+Rostratula_benghalensis         00000000??000000000000010000000000000000000?????????00000000010000
+Sagittarius_serpentarius        00000000??000000000000000000000000000000000????????000000000000000
+Sapayoa_aenigma                 00000000??000000000000000010000000000000000????????000000000000000
+Sarcoramphus_papa               00000000??000000000000000000000000000000000????????000000000000000
+Sarothrura_elegans              00000000??000000000000000000000000000000000????????000000000000000
+Scopus_umbretta                 00000000??000000000000000000000000000000000????????000??1000000000
+Scytalopus_magellanicus         00000000??000000000000000010000000000000000????????000000000000000
+Smithornis_rufolateralis        100000000000000000000000001000000000000000001000000000000000000000
+Speotyto_cunicularia            0000000000000000000000000000000000000000000????????000000000000000
+Steatornis_caripensis           ????0000??000000000000000000??000000000000000000000000000000000000
+Streptoprocne_zonaris           000000000000000000010000000000000000000000010100000000000000000000
+Strix_occidentalis              00000000??000000000000000000000000000000000????????000000000000000
+Struthio_camelus                000000000000000000000000000000000000000000000000000000000000000000
+Sylvia_nana                     00000000??000000000000000010000000000000000????????000000000000000
+Syrrhaptes_paradoxus            00000000??000000000000000000000000000000000????????000000000000000
+Tauraco_erythrolophus           000000000000000000000000000000000000000000000000000000000000000000
+Thamnophilus_nigrocinereus      00000000??0000000???00000010000000000000000????????000000000000000
+Thinocorus_orbignyianus         00000000??00000000000001000000????000000000????????000000???????00
+Tinamus_guttatus                000000000000000000000000000000000000000000000000000000000000000000
+Tockus_camurus                  00000000??00000000000000000000000000000000000000010000000000000000
+Todus_angustirostris            00000000??0?????000000000000000000100000000??000010000000000000000
+Treron_vernans                  0000000000000000000010000000001000000000000????????0??000000000000
+Trogon_personatus               0010000000000000000000000000??000000000000000000000000000000000000
+Turdus_falklandii               00000000??0000000000????????000000000000000????????000000000000000
+Turnix_sylvatica                ????1000??0000000???????????000000000000000????????000000001000000
+Tyrannus_tyrannus               00000000??000000000000000010000000000000000????????0??000000000000
+Tyto_alba                       00000000??00000000000000000010000000000000000000000000000000000000
+Upupa_epops                     00000000??00000000000000000000????001000000??000010000000???????00
+Urocolius_indicus               00000000??000000000000000000000000000000000????????000000000000000
+Vidua_chalybeata                000000000000000000000000001000000000000000001000000000000000000000
+;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M6998]
+
+	TITLE Avian_Tree_of_Life_HMGN2;
+	LINK TAXA = Taxa2;
+	DIMENSIONS NCHAR=2807;
+	FORMAT DATATYPE=DNA SYMBOLS= "A C G T" MISSING=? GAP= -;
+
+MATRIX
+[                                      10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170       180       190       200       210       220       230       240       250       260       270       280       290       300       310       320       330       340       350       360       370       380       390       400       410       420       430       440       450       460       470       480       490       500       510       520       530       540       550       560       570       580       590       600       610       620       630       640       650       660       670       680       690       700       710       720       730       740       750       760       770       780       790       800       810       820       830       840       850       860       870       880       890       900       910       920       930       940       950       960       970       980       990       1000       1010       1020       1030       1040       1050       1060       1070       1080       1090       1100       1110       1120       1130       1140       1150       1160       1170       1180       1190       1200       1210       1220       1230       1240       1250       1260       1270       1280       1290       1300       1310       1320       1330       1340       1350       1360       1370       1380       1390       1400       1410       1420       1430       1440       1450       1460       1470       1480       1490       1500       1510       1520       1530       1540       1550       1560       1570       1580       1590       1600       1610       1620       1630       1640       1650       1660       1670       1680       1690       1700       1710       1720       1730       1740       1750       1760       1770       1780       1790       1800       1810       1820       1830       1840       1850       1860       1870       1880       1890       1900       1910       1920       1930       1940       1950       1960       1970       1980       1990       2000       2010       2020       2030       2040       2050       2060       2070       2080       2090       2100       2110       2120       2130       2140       2150       2160       2170       2180       2190       2200       2210       2220       2230       2240       2250       2260       2270       2280       2290       2300       2310       2320       2330       2340       2350       2360       2370       2380       2390       2400       2410       2420       2430       2440       2450       2460       2470       2480       2490       2500       2510       2520       2530       2540       2550       2560       2570       2580       2590       2600       2610       2620       2630       2640       2650       2660       2670       2680       2690       2700       2710       2720       2730       2740       2750       2760       2770       2780       2790       2800       ]
+[                                       .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .       ]
+Alcedo_leucogaster             GTAAGAAGTTC-ACTTTTTTTGGAGAAAGTTGGATCATAAAGTGTTGACGTTGGCCGAGGAGGGTTT-AACTTCAT-CAAAATAAAC-------AAAC-----AGT---GAGAGAACTGGGCTTAATCGATTCTGATTTTTC-ATAG----GATTGTCTTTTCACTCTAACTGTGAAAAA-TATGTGCAGCTATT-------------AGTGGTTGAGATGAGTTAGCCTCATATTTCTTGAGA-ACTAGGGGG-------AAAGGGAACAAAAAGCTT-------------------------------------------------------AAATACTGGTTCTGGGATTTTACTCCTT-TGAAATAAGAATTGCATAAGGAATTT----TTTGAGAGTT--TAT-TCCATTCACATTCATTTCCATCCTTTTT---CTTTCTAACCAGCCACAGAGGAGATCGGCGAGGTTATCTGCTGTGAGTATTCCA---------GAAGATGGCCCAAAACTGGGGAGT-TTCAA-CTGGAAT-TA---TCC------TAGAGGGGATCTGTGGGGATTCTGGAGA--CGTGTTGTTCCATGGAAA----ATTCCTGGCTCAACAAACTGCCCCATTGTGTGGTGCTGTGGGAGTGGTGGAATGATTGACAAATCA-----GTGTTTCAATTTCAAACGTTCT-------CCTTTGCTTGCCTAAAAC--TTAACTATTGGGGTTGAATGTTTATTAAAACAAACAAAAAGTTGTTATGTTTCTCTTAGAATTATTCAAATAACATGAGGG----TTTTTCTC-C---CAGAAACCTGCCCCTCCGAAGCCAGAGCCTAAACCTAAGAAGGCAGCTCCAAAGGTGAGTTGTTGAGTC--T-CAGTTA--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------CTGAGAAAGAAA--TGAGTTTATTGGGTTTAGATTCCTCCTG--------------------------------------------------------------------------------------------------------------------------------------TAACAG----------------------CT-AAAACACCTCT-GAATGGCAGC-TGTGTAGTGACAA-GTTGAGCTACATCATTGTTTCTATGAAACTACACTG--AAAACTTTG-GAA-TTTGAC--AACATTAGCATT--------AAAAAT-----------------------------ACCCAAGTGAAGACTCTTCAGAGTTGGTGTTGA----TCTGAAACGTGCAAA----TATTTGTG-TGTTGCATTC-TCTTCAGGCCAACACCCACT-TTTAGAATCACGGGGTTGTTTGGGTTG-AAAAG-ATCTCT-GAGCTCCTCGAGTCC--AAAACCC-TTGGCTTTTT----ACCA--CTAGTTT----------------CTTAACGAGG-GGCTGCTGTTAATTGTGAC--------------ACTGCCCTCTTG------CCTTCACAGAAGAGCGAGAAGGTGCCCAAGGGGAAGAAGGGGAAAGCTGATGCTGGCAAGGAGGGCAACAACCCTGCAGAAAATGGAGATGCCAAAACAGACCAGGTACAAGAGCAGCTCTGGCAGCTTGGCTGG-CATCAGCCACTTAGGATTTT------------CCACACCAAAGGCAGACGGGTCTGGGCTTGTGCTAACAAAAGGGCAATCCCCACTCAGTTATTTAGACCTGTTGCTTCTGACACTAAAAAAGACACATCTGCAGAT---GTG-GGGAGGGG-TGTTGCCA-GGTTGGTAAAGAGCT--AAAGTTGT--GTTTGCCAGTTGGAGTTGCCACCTGAGAGTTG--CTGTTGTGCCAAGTCCTGAAAACGTGTGGAGTTCC--AAGGTAAT-----GACTTG-GAG---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------TTGCT-T-------------GAAAT-------------------GAAA------------------------------------------------------------------------------------------------------------------------------------------------------------------------CTTA-TT-C-TAGTAG
+Brachypteracias_squamigera     ???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????TAAACCTAAGAAGGCAGCTCCAAAGGTGAGTTGTT-GGTC--T-CTATTA--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------CCAAGAGATAAA--TGGATT-TCAGGGTTTTGATTTATCTCA--------------------------------------------------------------------------------------------------------------------------------------TAATAT----------------------CT-AATACAGTTTT-GAATAGCAGCATGTGTAGTGGTGAAGTTGAGCTGCATCATCACCTCTATAAAGTTGCTCCG--AAAACTTTG-GAA-TATTAC--AAAATCTGCATT--------AAGAAT-----------------------------ACTAAAGTGAAGACTCTTCACAGTTGACTT-CAA---TCTTAAACATACAAA----CATTTGTG-TGTCATGTTC----TCAGGCCAACATCCAAC-ATTAGAATCACAGAACCATTTAGGATGGAAAAG-ATCTTT-AAGATT---GAGTCC--AA---CCACTGGCTTTTT----ACCATTGTAGTTTTGGGATTCTT-AAGG-CTTAATGACT-GGGTGTC-TTAATTGTAACAGT----TAATTGTAACTTCCTCTTA------CATTTGCAGAAGAGCGAGAAGTTGCCCAAGGGAAAGAAGGGGAAAGCTGATGCTGGCAAGGAGGGAAACAACCCTGCAGAAAATGGAGATGCCAAAACAGACCAGGTACAGCAGTGGCTCTGGCAGCTTGTCTGA-CATCAGCAAATCATGATTTT------------CCATATCAAGCAGAGATAGGTCCAGGCTTGTGCTATCAAA-GGGCAGTTATTGCTCGATTATTTAGACTTGTCGCTTGCAACACTAACAA---CCCATCTGCAGAC---ACAGCAGGGAGG-TGTTGCTG-GGGTGGTAAAGAGTT--GAAATTGA--GTTTGCCAGTTGGTGTTGCCACATGGAA--------GTTCTGCCTTGTGCTGAAAACACATGAAGTGCC--CATGTAATAAAGC---TGT-GGGAAATTACAGAAAGGCTGAGAGACCTGGAGAGAAGAAGACTGAGGGGGGATCTAATTAACGTGTATAAACATATGAAGTGTCAAGAAGAAAGGGATGACCTCTTTTCACTTGTGCCCTGTGACAGGACAAGGGGCAATTTTGTAAGCTAGAGCACAGGAAGTTCCACCTCAACGTGAGGAAGAACTTCTTTACTGTAAGGGTGACAGACACTGGCCCAGGCTGCCCAGAGAGGTTGTGGAGTCTCCTTCTCTGGAGACTTTCAAGACCCATCTGGACTGTTCCTGTGTGACCTGCTCTAGATTCTATGGTCCTGCTCTGGCAGGGAGGTGGACTCGATCTCCAGAGATCCCTTCCAACCCCTAACATTCTGTGATGCTGTAAAGCAACTTTGAGTTGC--TTTTTCTGCACTT-CAGATATGA-GACTTTGCCTTGTCAGAAAT------------------------------------------GATGGTGGTGTGGCCCAAATGAAATTTACTCCAT----TTGGA-GAA-T-GGCTGTT-----AAAAA---AAGCTCTCAGGTGG-TGGTGCCCATGTG-TGGTGTGTATTGACT-GGTT--CCTCTTT-CT-C-TTCTAG
+Bucco_macrodactylus            ???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????TAAACCTAAAAAGGCAGCTCCAAAGGTGAGTCGTCACGGCAGTGCTGTTACTGAGAGGGAGGTGGGATTGTATGTTAGGCAGAAGTTGTTCCCCAGGAGGCTGGTGAGCCAGTGGCCCAGGTTGCCCAGAGAGGGGTGGCAGCCCCATCCCTGGCAGTGTGGCAGGCCAGGCTGGCTGGGGCTGGCAGCAAGCTGCTCTAGTGGCAGTGTCCCTGCCCATGGCAGGGGTTGGCACTAGAGGAGCTTTCAGGTCCCTTCCAACCCTGCCAGTTCTATAATTCTATGA-----------GTG-ATGAGGTTTAGATTTGTCCCA--------------------------------------------------------------------------------------------------------------------------------------TAATAA----------------------CTAAATAAAACTTG-GAACACCAGCATTCATAGTGATGAAATTAAGCTGCATCCTCACTGGTATACAGCTCTGCTG--AAAACTTGG-GAG--TTTAC--ACCATCTGCAT--------CAAAAAT-----------------------------AACAAAGCAAAGACTCTTCACACTTGTT----AATC-TCTTCCACATGCAAA----TAGTTGG--------GTTC--TTGTAAGGCA-------GT------------------------------------------------------------------GTTGGTTTTT-----ACCA---TAGTTTTGGGGTTCTT-GTGG-CTTAATGAGT-GGCAGTTGTTAATTGTAATGAT----------GCTCATTGTCTTC------CCTTCACAGAAGAGCGAGAAGGTGCCCAAGGGAAAGAAGGGGAAAGCTGATGCTGGCAAGGAGGGAAACAACCCTGCAGAAAATGGAGATGCCAAAACAGACCAGGTAGGATAGCAGCTCTGGTAGCTTGGCTTT-CAGCAGCAGATTAATTTTT-------------CCCTATCAAACCTAGACAAGTCTAGGCTTGAGCTAACAAA-GAGGAATTACTGCTCAATTATTTAGACCTGTTGCTTATGCCACTAACAC-AACACCTCCAGACAT-------GGAGGGTG-TGTTGCCT-GTTTGGTGAAGAGTT--AAAGTTGTCTGTTTGCCAGTTGTAGTTGCCATGTGGAAGGTC--TTGTTTTGCCTTGTCCTGAAAATGTGTAAAGTTGA--C-CCTAAGAAAGCAACTTCCAGT----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------TGCCTTTTTATGGTAC-TTGAAATGTTT-GGCTTCATTTGGTTAGCAAT-GACAGAATCATAAGGTTGGAAGAGAGCTCTTAAGATCATCAGAGAATGGTGCAACCCAGCTGAGG----TTTCTGCTGCTTAGA-GAATG--GCTCTTG------------GAGTTAGTTACTGGTTGGTGCCCAGGTG-TGTGCTGTGCTGACT-GCTT--CCCCTTTTCT-CTTTTTAG
+Bucorvus_abyssinicus           ???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????TAAACCTAAAAAGGCAGCTCCAAAGGTGAGTTG---TGTCAGTGCTGTCA--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------CTGGGA--TAAA--TGGGTG-ATGA-GTTTAGATT---------------------------------------------------------------------------------------------------------------------------------------------TAATAA----------------------CT-AATAAAACTTT-GAATACCAGCGTATGTACC-ATGAAATCGAGCCACATTGTCACTTCTATGAAGTTGCACCG--AAAACTTTT-GAATATCATT---AAATTTGTGTTTAAAAAAAAAAAAA---------------------------AAACCAAAACGCAGACTCTTCCCAATTTTTGT-C-----TCTTAAACAAGGC-A----CAATTGTG-TGTTGGGTTA-TTTTGGGGCCAACACCCACT-GTTAGAACCACAGAATCGCTGAGGTTGGAAAAG-ACCTTT-AAGATCAGCGAGTCC--AA---CCGTTGGTTTTC-----ACCGTTCTAGTTTGTGGATTCTG-GCTG------TTGCT-CG----------TTGTAACGCT----------GTGTGTC-TCTTAA-----CGTTCGCAGAAGAGCGAGAAGTTGCCCAAGGGAAAGAAGGGGAAAGCTGACGCTGGCAAGGAGGGAAACAACCCCGCAGAAAATGGAGATGCCAAAACAGACCAGGTACGGCAGCGGCTCTGGCAGCGTGTCTTT-CGGCAG-GAATTATTTTTTT------------CTGTATCAAACACTGAC-GGTCGGGGCTTGCGCTGACAAA-GAGGAATTACTGCTCGATTATCTGGACCTGTTGCTTCTGCCGCTGACAA---CACGTCTGCGGGT---G-G-GGGG-GGC--GTTGCTG-GCTTGGTGAAGAGTT--AAAGCTGTCTGGGTGCCAGTTGAAGTTGCCAGGTGGAAGTTA--CTATTCCTCCTTGTCCTGAGAATGGGTTAAGTTGG--CGTGAAATAAAGCAACTTG-AGG---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------TTGCC-CTTTGCAGTAC-GTTAG--------ACTTGATTGTGTTGGAAGT------------------------------------------GACGGCGGTGCTGCCCACGTGGGA----TTTCCCCCATTGGGA-GAAGG--GCTCTCC---------------------ATGGT-GGGTGCTGGGGCA-TGGTAGGTGTTGACT-GGTT--CCCCTTT-CT-C-TTCCAG
+Capito_niger                   ???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????TAAACCTAAAAAGGCAGCTCCAAAGGTGAGTGGTTGTGTCAG----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------CCA--AGGTAAA--TGGGTG--TGA--TTTAGATTTGTCCTGTCATAGAATCATAGAATGATTTGGGTTGGAAGGGACCTT--AGATCATCTAATT-CCAACCTCC-TACCATGGGCAGGGACTCCTCCTGCACCTTCCACTGGACCAGGTTGCTCAAGACCTCATCCAACCTGGCTAATAAAAC--------------------C-AGT--AACTTT-GGATGGCAACACACAGTATGAT---ACAGAGCTGCATCCTCACTGCTACAAAGCTCTGCTG--AAAA-GTGA-GAA-TCTTAC--AAAACTTGCAAT-------AAAAAAA---------------------------ATGGCACAGTGAAGACTCTGCACAATTGT----CAGTC-CCTTAAACATGCAAA----TATTGTTG-TGTTGTGCTC-TTTTTGGGCCAGCATCCAGT-GCTGGAGTCATGGCATGGTTTAGGTTGGAAAAG-ATCTTT-AAGGTGATCAAGTCC--AGG---CATTGGGTTGC-----ACCCTTGGAGTTGGTGGATTCTT-GTGG-CTCAACAGCTTGGCTGTT-------GTAACAACCACC------TTGCATCATCTTAACCTTTGCTTTGCAGAAGAGTGAGAAGTTGCCCAAGGGAAAGAAGGGGAAGGCTGATGCTGGCAAGGAGGGAAACAACCCTGCAGAAAATGGAGATGCCAAAACAGACCAGGTAGAGCAGCAGCTCTGACAGCTTGTCTTA-CATCAGGCTGTTGGTTCTT-------------CCCTATCAAACACAGACAGGCCCAGGCCTGTGCTAAC-AA-GAGGAATTACTGCACAGTTACTTAGGGCTGTTACTCATGGCACTGGCCC---CACATATGCAGGT---GTG-GAGG-GTG-TGTGAGCTTGGTTGGTAGAGAGTT--AAAGCTGTC----TGCTGGTTGGAGTTGCCACATGAAGGTGA-----------CTTGTTCTGAGAACACACAAAGTCCA--CATCTAACAAAGCAACTTC-AGG--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------GCTGCC-TTTTGGGATGC-TTCAGATGTTG-AACTTGATTCTGTT---------------------------------------------------AGTGGTGCAGCCTGGGTGAGA----TTCCTGCTGTTGGCA-GAAGCA-GCTGCTG-------------------------------------------GTGTGTGCTGATTTCCTT-CCTCCTTTTCT---TTGCAG
+Cathartes_aura                 GTAAGAAGTTC-AACGTTTT--GAGAAAGTTGGATCATAAAGTGTTTACCTTGGAAGATGAGG-TTT-GACTTCAT-CAAAATAAA--------GAACAGGGGAGCAGGGGGAGGGTTGGTCTGACTTGATTCTGACTTTTC-AAAGTATTAACTGTCTTTTAACCTTAACCATGAAAAA-TCTGCTTGACTATTGTTAGCTGTCAGTAGTGGTTTAAATGGGGCAGTCTCATGTTTCTTGAGA-ACGCGG--------AAAAAGGGAACTAAAAACTT-------------------------------------------------------AAACATTAGTTCTTGGATTTTACTACTT-TGAAATGAGAGTTACTGTATGAGTT-----TTTGAGAGTTCATAT-TCCAT-CACATTGAAGTCAATCATTTTT---CTTTTTAAACAGCCACAACGGAGATCGGCGAGGTTATCTGCTGTGAGTATTCTCTTGTTGAGCTGAGATGTCACGACACTTAGCAGT-TCTAAGCTTGAGTGTTAGGTACTGCGTCTGTGTGAGAACTGTAGGTATTCTGGAGAGATGCATTGTTCAGTTGAAAGAACATTACTGGCGTAACGAACTGCCCCATTGCATGGTGCTATGGGAGGGGTAGAAGAATTGACAA-----GTAAATGCTTCAGTTTCAAGTGTTTT-------TATTTGCTTTCCTGAAAC--GAAACTATTTGGGTTGAACGTTTC----------AAAAAAGTAGT-ATGTTTCTCTTGAAATGATTTGAATA-CACAAGGCT---TTTTTCTCACTTACAGAAGCCTGCTCCTCCAAAGCCAGAGCCTAAACCTAAAAAGGCAGCTCCAAAGGTAAGTCGTTGTGTCAGCGCTATTA--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------TTGAGAGGTAAA--TGGGTT-ATGAGGTTTAGATTTGTTCAG--------------------------------------------------------------------------------------------------------------------------------------TAACAA----------------------CT-AATAAAACTTT-GAATAACAGCGTGTGTAGTGATGAAATTGAGCTGCATCGTCACTTCTATAAAGTTGCACTG--AAAACTTTT-GAA-TTTTAC--AAAATTTGCGT--------AAAAAAT-----------------------------GCTGAAGTGAAGAGACTTCGCAGTTGTTGT-CAGTC-TCTTGAACGTGCAAA----CGTTT--G-TGTTGCGTTC-TTTTCGGGCCAACATCCAGC------------------------------------------------------------------GTTGGTTTTT-----ACCGTTCTAGTTTTTGGATTCTT-GTGG-CTTAATGACT-GGATGTTGGTAAATGTAATGGC----------GTACATCATCTTA------CATTTACAGAAGAGCGAGAAGTTGCCCAAGGGAAAGAAGGGGAAAGCTGATGCTGGCAAGGAGGGAAACAACCCTGCAGAAAACGGAGATGCCAAAACAGACCAGGTATAGCAGCGGGTCTGGCAGCTTGTCTTA-CATCAGCAAATTATTTTTTTT-----------CCATATCAAACATAGACAGGTCTAGGCTTGTGCTAATGAA-GAGGAGTTATTGCTTGATTATTTAGACCTGTTGCTTTTGACACTAACAA---CATGTCTACAGAT-------GGGGGGGG-TGTTGCTT-GGTTGGTAAAGAGTT--AAAGTTGTCTGTTTGCCAGTTGAAGTTGCCACATGAAAGTTA--CTGTTCTGCCTTGTCCTGAAAATGCGTAAAGTTAG--GACGTAATAAAGCAACTTC-AGG---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------TTGCC-TTTTACGGTAC-TTCAAACGTTA-GATTTCATTTTGTTAAAAAT------------------------------------------GACGGTGGTGCAGCCCAGATAAGA----TTTCTTCTGTTCGGA-GAACT--GCTATTT--AGAAAAAT--GAGTTGTCAGTGGTTTGGTGCACGTGCA-TGGTGTATGTTGACT-GGTT--CCCCTTT-TT-C-TTTTAG
+Colius_colius                  GTAAGAAGTTC-AATCTTCT--GAGAAAGTTGGATCATAAAGTGTTTGTGTTGGAGGATAAGG-TTTTAACTTCAT-CAAAATAAA--------GAACTGTGGAGCAGAGAGAGGGTTGGTCTTGATTGATTCTGGCTTCTTTTAAGCATTAGCTGTCTTTTAACCCTAACCCTGAAAAG-TCTCCTTAACTGTTGTTAGCTGTTAGTAGTGATTTTAGTGGGATAGTCTCAAATTTCTTAAGA-AG----------------AGGGGA--AAAAGCTG-------------------------------------------------------AAACGTTAGTTCAGGGATTTTACTAC----------AGAGTTACTTTATGAG-------TTTGAGC-TTCATAT-TCCAT-CCCATTCAATTCAGTCATTTTT---CTTTTTAAACAGCCACAACGGAGATCGGCGAGGTTATCTGCTGTGAGTATTCTCTTGTTGAACAGAGGTGTCACAACACCTGGGAGC-TGTAAGCTTGGCTATTAGTTGCTGCATCTGTGTGAGACCTGTAGGCGTTTGGGAGA-----------------------AATTATTGTCCTGACAAATTGCCCCATTGTGTAGCACAATGAGAACGGTACAATAACTGACAAACCAAGTAA-------------AAA-GTC------------------------AAC--TGAAGTATTTTGTTTGAGTGTTTT----------AAAACAGTAGA-ATGTTTCTTTTAAAATAACTTGAGTAACAGAAGAGTT--TTTTCCTCACCAACAGAAGCCTGCTCCTCCAAAGCCAGAGCCTAAACCTAAGAAGGCAGCTCCAAAGGTGAGTTGTTGTGTCAGCACTGTTA--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------TTGGGAGGTAAA--TGAGTT-GTGAGG----------TGCAG--------------------------------------------------------------------------------------------------------------------------------------TAATAA----------------------CT-AATACAACTTT-GAATGACAGTGTAAGTAGTGATGAAATTGAGCTGCATAGTCACTTCTATAAAGTTGCCCTGT-AAAACTT--GGAA-TTGTAC--AAAAGTAGCAA--------AAAAACC---------------------------CCACCAAAGTGAAGACTTG--GCTGTTGTTGT-CAGTC-CCTTACACAAGCAAA----CAGCTGTG-TGTTACCTTC-TGTTTGGGCCAAAACCCAGT------------------------------------------------------------------GCTGACTTTG-----AGCTGGCTGGTTTTGGGGTTCTT-GTGGCTTTGGTGAC--AGATGTTGGTCAGTGTAATGGT----------GTTTGCCATCTCA------CATTCACAGAAGAGCGAGAAGTTGCCCAAGGGAAAGAAGGGGAAGGCTGATGCTGGCAAGGAGGGAAACAACCCTGCAGAAAATGGAGATGCCAAAACAGACCAGGTATAACAGCAGGCCAGGCAGCTTGTCTTT-CATCAGCATGTTAT-------------------------------GGACAGGTCTAGGCTTGTGCTAACAAA-GATTCATTATCACTTGATTATTTAGACCTGTTGCTTATGACACTGACAA---AACATCTGCAGGTTGGGGG-AGGGGGGG-TGTTGCTC-AGTTGGTAAAGAGTT--AATGTTGTCTG----CCAGCTGAAGTTGCCACACCAAAGTTACTCTCTTCTGCCTTGTTCTG------GGTGAAGCTGG--CATGTAATAA-CCAACTTC-AGG---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------TTG-------------------------A-TATTTT-TTTGGTTAGAAGC------------------------------------------GACTGTGGTGCAGCCTAGATGAGA----TCTCATCTGTTCAGA-AAGCT--GCACTTG--AGAAGGAT--GAGTTCCCAGT----TGGTGC----------------ATTGACC-CATT--CCCCTTT-CT-C-TTTCAG
+Coracias_caudata               ???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????TAAACCTAAGAAGGCAGCTCCAAAGGTGAGTCGT--TGTCAGCACTATTA--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------CTGAGAGAT-AA--TGGGTT-ATGGGGTTTCGATTTATCCCA--------------------------------------------------------------------------------------------------------------------------------------TAATAT----------------------CT-AATACAGCTTT-GAATAGCAGCGTGTGTAGTGATGCAGCTCCGTTTCACCATCACCTCTATAAAGCTGCGCCG--AAAACTCTG-GA--TATTAC--AAAATTTGCATT--------AAAAAT-----------------------------ACCAAAATGAAGACTCTTCACGGTTGGTGTTCAA---TCTTAAACA-GCAAA----C-TTTGTG---TCGCGTTC-TTCT-AGGCCAGCATCCAAC-ATCAGAGTCACAGAACCCTTTCAGC-GGAAAAG-ACCTTT-GAGATC---GAGTCC--AG---TTGTTGGCTTTTT----ACCAGTGTAGTTTTTGAATTCTT-GTGG-CTTAATGGTG-GGGTGTTGTTGGTTGTAACGGT----TAATTGTAACATCCTCTTA------TGTTTGCAGAAGAGCGAGAAGTTGCCCAAGGGAAAGAAGGGGAAAGCTGATGCTGGCAAGGAGGGAAACAACCCTGCAGAAAACGGAGATGCCAAAACAGACCAGGTACAACAGCGGCTCT------------GA-TGCGAGCAAATTACGATTTT------------CTCTGTCAAACATAGATAGGTCCAGGCTTGTCCTAACAAA-GGGCGATTATTGCTCAGTTATTTAGACCTGTTACTCATGACACTAACAA--AC-CATCCACAGAC---CTGGCGGGTGGG---TTGCT---------AAA-AGTT-CAAAGTCGA--GTTTGCCAGTTGGCGTTACCGCGTGAAAGTCA--CTGTTCTGCCTTGTCCTGAAAACGCGTAAAATTTG--CACGTAATAAAGCAACTTC-GAG---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------TCGCC-TTTTGTGGCACTT-CAAATATTA--CTTTTGCTTCGTCATAAAT------------------------------------------GACGGTGGTGTGGCCC----------------------------------------------AAAAA---GAGTTAGAAGCTGT-TGGTGCCCGTGCG-TGGTGTGTATTGACT-GGTT--CCCCTTT-CT-C-TTCTAG
+Dryocopus_pileatus             GTAAGAAGTTC-AATATTTA--GAGAAAGTTTGACCCTGAAGTGGGGATGTTGGAAGAGGAGA-TTT-AACTTCATTCGAAGCACAG-------GGACTGGGGAGCAGGCTAAGGGTTGGGCTTGGCTGGTGGTGACTTTTC-AAAGTCTTT---------TAACCTTAATTGTGAAAAAA-CAACTTAAGTATTGTTAGCTATTAGCAGTGCTTTAGCTGGGATAGTTTCCTGCTTCTTGAGAAACAGGGCAGGGGGG--AAAGGGAACTAAGAGCCTGGGGGATGCTTCTTTGAAATGAGAATTTCCCAAGAATGGAGGGGGGAATGGAACTGAAAA------CTGGGATTTTACTACTT-TGAACTGAGAGTTACTTTATACATA-----TTTGAGAGTTCATTTTTCCAT-CACATTAAATTCAGTTCTCTCTCTCTCTCTTAAACAGCCACAGCGGAGGTCAGCGAGGTTATCTGCTGTGAGTATTCTCTTGCTGAGCAGAGGTGACACAACCCTTGATAGTTCTTAAGCTTGAGCA-----------------------------------------------GCTGTAAGGATG---GAAAGTTCCTGCCAT-------------GTTGTGTGGTTCTTGGAGGGTGGGGCAATAACTGACAGATCA-----GTGCTTCAGTTTCAGCTATTGT-------GGTTGGCTTTCCCAAAGCAGTTCACTGCTTGGGTTG-----------------------------TATGCATGTCTTGAAATGATTGGAATAACACAAGGTTGGGTTTTTTTGTCTCACAGAAACCCGCTCCTCCCAAGCCAGAGCCTAAACCTAAAAAGGCAGCTCCAAAGGTGAGTGGTTGTGTTAG----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ACA-GAGGTAGA--TGGGTG-GTGAGCTTTAGATTTGTCCTGTCACAGGATCAGGGAATGGTTTGGATTGGAAGGGAACTTAGAGGTCATCCAG-GCCCAACCCCCCTGCCATGGGACAC--TTCCTCC---ACCTTCCTCTGGGCCAGGTTGCTCAAGGCCTCACCCAGC-TGGCTAATAAAATTACTGAGGCTGGCTAGTAACC-AGTAAAACTCT-GGATGCCGGCATGCACAGGGATGACACTGAGCTGCATCTTCACTGCTGCTAAGCTGTGCTG--AAAACTTGG-GAA-TTCTAC--CCAGTTTGCATTT-------AAAAAG------------------------------GCCAAGTGAGGA--CTGCAGAGTTGT-----CTCC-TCTGAAGCATGCAGA----CAGCTGTG-TGCTGTGCTCTTCCTTCAGGCTGCATCCAAC-ACTGGGATCACAGAGTGGTTCGGGTTGGAAAGG-ATCTTT-AAGTTGACCAAGTCC--AGA---GGTTGGGTTTT-GCAAAACCTTCTGGTTGGTGGTTTCTT-GTGG-CTCAACAACTTGGCTGCTCAC--TTGCGACAACCATC------TTGCATCATCTT-CCCTTTGCTTTGCAGAAGAGTGAGAAGTTGCCCAAGGGAAAGAAGGGGAAAGGTGATGCTGGCAAGGAGGGGAACAACCCTGCAGAGAACGGAGATGCCAAAACAGACCAG----------------GGCAGCTGGTCTGA-CACCAGCCTGTTAGTTCTT-------------CCCTATCACACACAGGC-GGCCTGGGCTTGTGCTCAC-AA-GAGGAATTACTGCACAGTGGCTTAGAGCTGTTACTCATGGCGCTGACAG---CACTGCTGCAGGT---GTG-GAGG-GTG-TGTGGCTT-GGTTAGTAAAGAGTT--AAAGCTGTC----TGCTGGTCGGGGTTGCCACATGAAAGCTA--CTTTTGGGCCTTGTCCTGAAAACACACAAAGCTGA--CATGTATCAAAGCAACCTC-AGG--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------GTTGCC-TTTTAGGATGC-TTCAGATGTTC-AGCTTCATTCTGTT---------------------------------------------------GGTGGTGCAGCCCAGGTGAGG----TTGCCGCTGTTGGCA-AAAGG--GCTGCT----GAGGCCC---AG------------GAGCCACCAGCTGCTGGTGC----TGACT-GGTC-CCTGCTTTTCT-C-TTGCAG
+Galbula_albirostris            ???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????TAAACCTAAAAAGGCAGCTCCAAAGGTGAGTAGTTGTGTCAGTGCTGTTA--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------CTGAGAGGTAGC--TGGGTG-------CTGAGATTTGTCCAT--------------------------------------------------------------------------------------------------------------------------------------TAGGAC----------------------TT-AATAAAAGTTT-GAACACCAGCAGATGTAGTGATGACATTGAGCTGCATCATCCCTGCCATAAAGGTGCACTG--GAAACTTGG-GAG-CTTTACAAGAAACTTA-AT-------ATTAAAAA---------------------------ACCCCCAAGTGAAGACTCTTCACAGTTGCTGT-TGATT-TCTTAA-CACACAAA----CAGTTGT-GTGTTGTGTTC-TTTTTGGGCCAACATCCAGT------------------------------------------------------------------GCTGGTTTTT-----GTCACTCTAGGTTTTGGATTCTT-GTGG-CTTAACGAGG-GGCAGTTGTTAATTGTAACAGT----------GCTTGTCATCTTC------CCTTCACAGAAGAGCGAGAAGTTGCCCAAGGGAAAGAAGGGGAAAGCTGATGCTGGCAAGGAGGGAAACAACCCTGCAGAAAATGGAGATGCCAAAACAGACCAGGTATGACAGCAGCTCTGGCAGCTTGGCTTA-CATCAGCAAATTGGTTTTT-------------CTGTATCAAACATGGACAAGTCCAGGCTTGTGCTAACCAAAGAGGAATTATTGCTTGATTATTTAGACCTGTTGCTTATGGCACTGACAC---CACCTACGGATGT-------GGAGGGTG-TGTTGTCT-GGTTGGTAAAGAGTT-AAAAGTAGTCTGTTTGCCAGTTGGAGTTGCCACATGAAGGCTG--TTGTTATTCCTTGTCCTGAAAATGTGTAAAGATGACATATATAATACAGCAACTTC-AAG---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------TTGCC-TTTTAGGGTAC-TTTA--TATTG-GGCTTCATTTTATTAGAGAT------------------------------------------CAGAGTGGTGCAGTCCAGATGAGA----TTGTTGCAGCTCAGA-GAATG--ACTCTTG--AGGCAGAG--GAG-TAGCAGTGGGTAGGTGCCCATGTG-TGCTGTGAGCTGACT-GCTT--CCCCTTTTCT-T-TTGTAG
+Indicator_maculatus            ???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????TAAACCTAAAAAGGCAGCTCCAAAGGTGAGTGGTGGTGTCAG----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------CAA-GGGGTAAA--TGGGTG--TGAGCTTTAGGTTTGTCCTGTCATAGAATCATGGAGTGGTTTGGGTTGGAAGGGACCTTAAAGATCATGCAGTTGACAACCCCCTTACCATGGGCAGGGACACCTCTTCTACCTTCCACTGGGCCAGGTTGCTTAAGG-CTCATCCAGCCTGGCTAATAAAATTACTAAGGCTGGCTAATAACC-AATAAAACTGT-GGATGCCAACATACACAGTGGTGACACTGAGCTGTATCTTCACTGCTACTAAGCTGTGCTG--AAAACTTGG-GAA-TTTTAC----AGTTTGCATT------AAAAAAAA---------------------------AAGGCAGAGTGAGTC--CTGCACAGTTGT----CAATC-TCTTAAGCATGCAAA----CCTTTGTG-TGCTGTGCTCTTTTTTGGGCCAACATCCAGC-ATTGGGATCACAGAATGGT-------GGAAAAG-AT---AAAAGGTGATCAAGTCC--AGA---GACTGGGATTT-----GCCCTTCTGGTTGGTGAATTCTT-GTGG-CTCAACAGCT-GGCTGTTCGC--TTGTAGCAACCATC------TTGCATCATCTT-CCTTTTGCTTTGCAGAAGAGTGAGAAGTTGCCCAAGGGAAAGAAGGGGAAAGGTGATGCTGGCAAGGAGGGAAACAACCCTGCAGAGA-TGGAGATGCCAAAACAGACCAGGTAGAGCAGCAGCTCTGGCAGCTTGTCTGA-CACCAACCTGTTAGTTCTT-------------TCCTATCACACACAGACAGGCCTGGGCTTGTGCTAAC-AA-GAGGAATTACTGCACAGTTTCTTAGAGCTGTTGCTCATGGCACTGACAC---CACATCTGCAGGT---GTG-GAGG-GTGGTGTGGCTT-GGTTG-TAAAGAGTT--AAAGCTGTC----TGCTGCTTGGAGTTGCCACATGAAAGTTA--CTGTTGGGCCTTGTCCTAAGAACACATAAAGCTGA--CAT-TAACAAAGCAACTTC-AGG--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------GTTGCC-TTTTAGGATGC-TTCAGATGTTC-AGCTTCATTCTGTT---------------------------------------------------AGTGGT-----------GAGA----TTGCTGCTGTTGGCA-GAAGG--GCTGCT----GAGAGCC---AG------------GAGCCACCAGCTGCTGGAGC----TGACT-GGAT-CCTCCTTTTCT-C-TTGCAG
+Megalaima_virens               ???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????TAAACCTAAAAAGGCAGCTCCAAAGGTGAGTGGCTGTGTCAG----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------CCA--AGGTAAA--TGGGTG--TGAG-TTTAGACTTGGCCTGTCATAGTACCATAGAGTGGTTTTGGTTGGAAGGGACCTT--AGCTCATCTAGTT-CCAGCC-TCCTGCCATGGGCAGGGACACTTCCTGCACCTTTCACTGGTCTGGATTGCTCAAGGCCTTATCCAGCCTGGCTAATAAAAC--------------------C-AATCCAACTTG-GAATGCCAACAGACAGAATGGT--C-CTGAGCTGTGTCCTCACTGCTGCAGAGCTGTGCTG--AAAACTTGG-GAG-TTTTAC--AAAGCTTGCAA--------CAAAAAAAAAAAAAGGAGAAAAAGAAAAAAAAAAAAGGCAAA-------CTCTGCTCAGTTAT----CAGTC-TCTTAAACGTCCAAA----TATTGTTG-TGCTGTGCTC-TCTTGGGGCCAGCATCCAGT-GCTGGAATCGCAGAATGGTTCAGGTTGGAAAAG-ATCTTCCAGGG-GATCAAGTGC--AGG---TGCTGGGTTGT-----ACCCTTGGAGTTGGTGGATTCTTGGTGG-CTCAACAGCTTGGCTGTT-------GCAACAACTTCC------TTGCATCATCTTAACCTTTGCTTTGCAGAAGAGTGAGAAGTTGCCCAAGGGAAAGAAGGGGAAGGCTGATGCTGGCAAGGAGGGAAACAACCCCGCAGAAAACGGAGATGCCAAAACAGACCAGGTAGAGCAGCAGATCTGGCAGCTTGTC------TCAGC--------TCTT-------------CC-TATCAAACACAGGCAGGCCCAGGCCTGTGCCAGC-CA-GAGGAATTACTGCACAGTTACTTAGGGCTGTTACTCATGGCACTGGCAT---CACATCTGCAGGT---GTG-GAGG-GGG-TGTGGGCCTGGTGGGTAGAGGGTT--AAAGCTGTC----TGCTGGTTGAAGTTGCCACATGAAGGTTA--CTGTTGGGCCTCATCCTGAGAACACACAAAGTCCA--CATCTAGCAAAGCAACTTC-AGG--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------GCTGCCTTTTTAGGATGC-TTCAGATGTTG-CA-TTGATTC-G--AGAG-T------------------------------------------------GGTGCAGCCCAGGTGAGG----TTCCTGCTGCTGACA-GAAAG--GCTGCTG-------------AG-------------AGCCAGCAGCTGCTGCTGTGTGCTGACT-GCTT-CCCCCTTTCCT-C-TTGCAG
+Merops_nubicus                 ???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????TAAACCTAAAAAGGCAGCTCCAAAGGTGAGTCCTTGTGTCAGCGCTGGTT--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------TTGAGAGAGAAA--TGGCTG-AGAGGGTTCAGATTTTTCCCA--------------------------------------------------------------------------------------------------------------------------------------TAATAG----------------------CC-AACACAGCTCT-GAATAGGGG-GTGTGTAGTGGTGAAATTGAGCTGCA----------------GCCTGCACC-AACAACTTGT-GAA-TTTTAC--AAAATTTGGATT-------AAAACAC-----------------------------ACCAAGGTGAAGACTCTCCACGGT-GGTGT-CAG---TCCTAAACACGCAAA----CCTTCGTG-TGTCATGTTC-TTTTCAAGCCAACATCCAAT-GTTTGAGTCATGGAGTTGTTTAGGTTGGAAAAG-ACCTTT-AGGATCCCCAA-TCC--AAG---TGTTGGCTTTTT----GCCACTCTAGGTTTTGGATTCTT-GTGG-CTTAA-GACT-GGCTGTTGTTAATTATAACA------TAATTGTAACGTCATCTTA------CCTTCGCAGAAGAGCGAGAAGTTGCCCAAGGGAAAGAAGGGGAAGGCTGATGCTGGCAAGGAGGGAAACAACCCTGCAGAAAACGGAGATGCCAAAACAGACCAGGTACAGCAGCAGCTCTGGCAGCTTGTCTGA-CATCAGCAGGTTG-AGTTTC------------CCATATCAAACACAGACAGGCG-AGGCTCGTCCCAGCAAG-GTGCAATTATTGCTCGGTTATTTC--CCTGTCACTTATGACCCTAAAGA---CACCTCTGGAGAT--GTGGCA-GGGGCG-AGTTGCAG-GGTTAGGGAGGAGTT-AAAAGTCAA--GTTTGCCAGTTGGAGTTGCCACATGAAAGCTG------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------T-TGGTGCCCGTGTG-TGGTGT----TAACA-GGTT--CCTCTTT-CT-C-TTCCAG
+Momotus_momota                 ???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????TAAACCTAAAAAGGCAGCTCCAAAGGTGAGTCGTCCTGTCAGCGCCGTTA--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------TCGAGAGA--AA--GGGGTTTACAGGGTTTAGTTTTGTCCCG--------------------------------------------------------------------------------------------------------------------------------------TAATAA----------------------CT-AATAAAGCTTT-GAGTAGCAACGTCCGTAGCGACAAAACCGAACTGCGTCATCGCTTCTATAAAGTTGCCCCG--AAAACTTTA-GGA-TTTTAC--GGCATTTCTAC----------AAAAT-----------------------------ACCAGAGTGAAGATTCTTCACGATTGGTGT-CAGTC--------CCGACCAC-------TGGTG-TGTTGCCTTC-TTTCTGGGCC-ACACCCAGC-GTTACAAT-GGAGGATTGTTGGGGTTGGAAAAGAACCTTTTAAGATCGTCAAGTCCC-AAA-CTCGTTGGCTTTTT----ACCATTCGAGTTTCTCGTGGCTT---------AACGAGT-GGCTGTTGTTAATTGTAACGCT----------GCAAATCATCTTAA-----CCTTCGCAGAAGAGCGAGAAGCCACCCAAGGGGAAGAAGGGGAAGGGTGATGCCGGCAAGGAGGGAAACAACCCTGCAGAAAACGGAGATGCCAAAACAGACCAGGTACAACAGCAGCTCCGGTGGCTTTTCTCA--CTCGGCGAGTCAGGATTTTT-------CCGATCGTATCAAACGCAGACAGGTCTAGGCTTGTGCTAACCGA-GGGCAGCTCTTGCTGGGTTATTTAGACCTGTTGCTTATGATGCTAAGGC-------------------GCGGACACGGGG-A----GAG-GGTTGGTAAAGAGCT--AAAGTTGC--G-TTGCCAGTTGGAGTTGCCCCGTGAAAGCTG--CCGTTCCGCCGTGCCTTGAAAATCCGTAAAGTTCA--CCCGTAATAAAGCAACTTC-AAG---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------TTGCC-TTTTGTTGGTACTTTGAATCTTCAGCCTT-GTTTTGGTGGAGAT------------------------------------------GAGGGTGGTGTGGCCCAGGTGAGA----TTCTTTCTACTTGGA-GAAAA--GCT-------GAGGAGTAAAAGTTTTTGGTTGTC-GATGCCGGTGCG-TGGCGTGGGTTGACT-GGTT--CCCCTTT-CT-C-TTTTAG
+Pandion_haliaetus              GTAAGAAGTTC-AACATTTT--GAGAAAGTTGGATCATAAAGCGTTTATGTTGGAAGATGAGG-CTT-AACTTCAT-CAAAATAAA--------AAACTGGGGAACAGGGAGTGGGTTGGTCTTAATCGATTCTGGGTTTTC-AAAGTATCAACTGTC--------TTAACCATGAAAAG-TCTGCTTAACTATTGTTAGCTATTAGTAGTGATTTAAATGAGATAGCCTCGTGTTTCTTGAGA-ACGGGG--------AAATAGGGAACTAAAAACTG-------------------------------------------------------AAACATTACTTCTGAGATTTTACTCCTT-TGAAATGAGAGTTACTTTACGAGGC-----TTTGAGAGTTCATAT-TCCAT-CACATTAAATTCAATCATTTTT---CTTTTTAAACAGCCACAACGGAGATCAGCGAGGTTATCTGCTGTGAGTATTCTCTTGTTGAGCTGAGATGCCACAACGCTTCGTAGT-TTTAAGCTTGAGTATTGGGTACTGCATCTGTGTGAGAGCTGTAGGTATTTTGGAGAGACGCGTTGTTCAGTTGCAAGAAAGTTACTGGCTTAACGAACTGCCCCATTGCGTGGTGCTATGGGAGTGGTAGAATAATCGACAAATC----AAGAGCTTCAATTTCAAAT-TATT-------GATTTGCTTTCTTACAAC--TAAGCTATTCGGGTTGAATGTTTTT----------AAAAAGTAGT-ATGTTTCTCTTAAAATAATTTTAATAACAGAAGGGG---TTTTTCTTGCTTCCAGAAGCCTGCTCCTCCAAAGCCAGAGCCTAAACCTAAAAAGGCAGCTCCAAAGGTAAGTCGTTGTGTCAGCGCTATTA--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------TTGAGAGGTAAA--CGGGTT-ACAAGGTTTAGATTTGTCCAG--------------------------------------------------------------------------------------------------------------------------------------TAATAA----------------------GT-AATAAAACTTT-TAGTAACAATGTATGTAGCAATGAAATTAAGCTGCATTATTACTTCTATAAAGTTGCACTG--AAAATTTTT-GAT-TTTTAC--AAAATTTGCATT--------AAAAAT-----------------------------ACCAAAGTGAAGACTCTTCACAGTTGTTGT-CAATC-TCTTCAGCGTGCAAA----CATTTGCA-TGTTGCGTTC-TTTTTGGGCCAACATCCAAT------------------------------------------------------------------GTTGGTTTTT-----ACCATTCTAGTTTTTGGATTCTT-GTGG-CTTAATGACT-GGATGTTGGTAATTGTAATGGT----------GTACGTCATCTTA------CGTTTACAGAAGAGCGAGAAGTTGCCCAAGGGAAAGAAGGGGAAAGCTGATGCTGGCAAGGAGGGAAACAACCCTGCAGAAAACGGAGATGCCAAAACAGACCAGGTATAACAGTGGGTCTGGCAGCTTGTCTTA-CATCAGCAAATTATTTTTTT-------------CATATCAAATATAGACAGGTCTGGGCTTGCGCTAATGAA-GAGGAATTATTGCTTGATTATTTAGACCTCTTGCTTATGACACTAACAA---CACATCTACAGAT---GTAAAGAG-----------TT--GTCGGTAAAGAGTTA-AAAGTTGTCTGTTTGCCAGTTGAAGTTGCCATGTGAAAGTTA--CTGTTCTGCCTCGTTCTGAAAATGCCTGAAGTTCG--CACGTAATAAAGCAACTCC-AGG---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------TTGCT-TTTTACGGTAC-TTCAAATGTTA-GATTTCATTTCGTTAAAAAT------------------------------------------GACGGTGGTGCAGCCCAGGTAAGA----TTTCTTCTCTTCAGA-GAACT--GCTATTT--AGAAGAAT--GAGTTATCGGTTGTTTGGTGCAAGTGTG-TGGTGTATATTGACC-GATT--CCCCTTT-TT-C-TTTTAG
+Phoeniculus_purpureus          ???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????TAAACCTAAAAAGGCAGCTCCAAAGGTGAGTGGTTGTGTCAGTGCTGTAA--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------CTGAGAGATAAA--TGGGTG-AGGAGATTAAAGTTTGTCTGA--------------------------------------------------------------------------------------------------------------------------------------TAGTAG----------------------CT-AATG-------------------TATGTAGTGATGGAATCAAGCTGCATCATCACTTGTATAAAGCTGCACCG--AAAACTT---GAG-TTGCTT--ATAATTTGCCT--------CAAAAAC-----------------------------CCCAAAGCAAGGATGT-CTGCAGTTGT----CAGTCTCTC-AAACACACTGC----CGTGTGTG-TGTTGTG-TC-ATTCCGGGCTGACATCCAGCATTTAGAATCCCAGACTGGTTTAGGTTGGAAAAG-ACCTTT----ACAATTGAGTCC--AA---CTGCTGGGATTT-----ACCATTCTAGTTTGTGGATTCTT-GTGG--TTAACGACT-GGATGTTACCGATTGTAACTGT----------GCG--TCATCCTTT-----CCTTCACAGAAGAGCGAGAAGTTGCCCAAGGGAAAGAAGGGGAAAGCTGATGCTGGCAAGGAGGGAAACAACCCTGCGGAAAACGGAGATGCCAAAACAGACCCGGTACAGCAGCGGCTCTGGCAGCTTCTTG---CATCACAGAGTTGGGGTTTTTTTTTTTT----CCATATCAAACATAGATGGGTCCAGGCTTGTGCTTAACGAAGAGGAGTTACTGCTTGATT----TGGCCTGTTGCTAGTGGCATTTTCAA---TGCATCTGTATGT---GTGTGAGGAGCT-TGTTGCTG-GGCTGGTAAAGTGTT--AAAGTTTT--------------GAGTTGCCAAATGAAATTCA--CTCTTCTGCCTAGTCCTCAAACCGTGTAAAATTCT--TGAGTAACCAGGCAACTTC-AGG--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------TTATTT-CTG-GTGGTG--------TTTTA-GACTTGGTTTTGTTAGGAGT------------------------------------------TGTGGTGCTGCAGCCCAGGTGGGG----CTTCTGTGATAAGCGAG-TTG--GGGCTTCTGTGATAAGC--GAGTTACCCGTTGTTGGTGCATGGCTGT-GGAGTGTTACTGACT-GGTT--TCCCTTT-CT-C-TTTTAG
+Tockus_camurus                 GTAAGAGGCTCTATTATTCT--GAGAAAGTTGGACCGTAGGGTATTTGTGTTGGAAGATGAGG-TTT-AACTTCAT-CAAAATAAAGACGTAAAGATCTGGGGAGCAGGGAGAGGGTTGGTCGTCATTGATTCTGACTTGTC-AAAGTATTAGCTGTCTTTTGACCTCAGCCATGAAGAA-TCTTCAGAACTGTTTTTT-CTGTTAGCAGTGATTTAAATGGGATAGTCTACTGCTCCTTGAGA-ACAGGGC-------AAAAAGGGAACTCAAAACCT------------------------------------------------------CAGGCATGAGTTCTGGGGGTTTACTGCTTGTGAAATGGGAGTT-TCTC-GTAGATTAACTTCTGAGAGTTTGTAT-TCCCT-CCCATTAAATTCAGCCATTTTT---CTTTTCAAACAGCCACAGCGGAGGTCGGCGAGGTTATCTGCTGTGAGTATTCTCTTGTTGAGCAGAGATGTCGCAAAACTGAATAGTCTTTAGGCTTGAGTATAACATCCTGCGTCTGTGTGAGAACGGTGGGGATTCTGCAGA---GGCTCCTTCGGTTCAAAGAACGCTCTTGGCTTAACGAACTGCCCCATCGCGCAGTGCTAGGGGAAGGGTGGAATAACTGACAGAGCAAGTAAGCGCTTCAATTCCACATGGTTTAATCTTTTTTTTTTTTTCCTAAAAC--AAAACTATTTGAGTGGACTGTTCTT-----------AGAAGTTGT-ATGTTTCTCTTAAAATAATTTGAATAACTTGAGGGTT--TTTTTCTTGCTTACAGAAACCTGCTCCTCCGAAGCCAGAGCCTAAACCTAAAAAGGCACCTCCAAAGGTGAGTCA---TGTCAGTGCTGTCA--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------CTGGGA--TAAA--TCAGTG-ATGAGGTTTAGAATTGTCC------------------------------------------------------------------------------------------------------------------------------------------ATAA----------------------CT-AATAGAACTTC-GAACACCGGTGTATGTACT-GTGAAATCGAGGGGCATTGTCACTCATATGAAGCTGCACT--------TTT--GAATACCATT--TAAATTTGCATT--------AAAAAA-----------------------------AC-AAAGCACAGAATCTTCCCAACTGTTGC-C-----TCTTAAACACGGAGA----CAATCACA-TGTTGGGTTA-TTTTGGGGCCAACATCCAGT-GTAGGAATCACAGAATTGCTGAGGTTGGAAAAG-ACCTTTTAAGATCAGCGAGTCC--AG---CCGTTGTTTTTC-----ACTGTTCTGGGTTGCGGATTCCA-GCTG------TTGCT-CG----------TTGTAACGCT----------GTGCGTAATCTTTAA----TGTTTGCAGAAGACCGAGAAGTTGCCCAAGGGAAAGAAAGGGAAAGCTGATGCTGGCAAGGAGGGAAACAACCCTGCAGAAAATGGAGATGCCAAAACAGACCAGGTACAGCAGTGGCTCTGGCAGCGTGTCTTT-CGGCAGCGAATTATATTTTC------------CTCTATCAAATACAGATGGGTCTGGTCTTGCGCTGACAAA-GAGGAATTATTGCTCGATTATCTGGACCTGTTGCTTCTGCTGCTGACAG---CACGTCTGTGGGT---GTG-GGGGGTGG-TGTTGCTG-GCTTGGTGGAGAGTT--AAAGCTGTCTGGGTGCCAGCTGAAGTTGCTAGGTGGAAGTTA--CTGTTCCTCCTTGTCCAGAAAATGGGTTAGGTTGG--TGTGAAATAAAGCAGCTTC-AGG---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------TTGCC-CTTTGCTGTAC-ATTAG--------ACTCGACTGTGTTAGAAGC------------------------------------------GATGGCAGTGCTGCCTGGGTGGGA----TTTCCCCCCTCGGGA-GAACC--GCTCTCT------------GGA------------GGGTGCTGGGACA-TGGTGGGTGTTGACT-GGTT--CCCCTTT-CT-C-TTCCAG
+Todus_angustirostris           ???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????TAAACCTAAAAAGGCAGCTCCAAAGGTGAGTGGTGGTGTCAGCGCTGTTA--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------CTGAGAGAGAAAAAGGGGTT-GTGGGG-TTGGATTTGTCCCG--------------------------------------------------------------------------------------------------------------------------------------TAATAA----------------------CC-AATAAAACTTGGGAATAGCAGC-CGTGTAGCCCT-AAGTTGAGCTGCTTCGCTACCTCTACAAAGCTATGCTG--AAAACTCTT-GAA-TTCCAC--AAAATCCGCGTT--------AAAAAT-----------------------------ACC-AAGCGAAGCCTCTTCGC-TTAACACT-CAA----------AGATCCAC-----------G-TGTTGC---A-TTTTCACGCCAAC-TCCGAT-ATTAGA-TC--------GTTTAGGCTGGAAAAG-ACCTTTTAAGATCATGGAGTCCCCAA--ACCGTTGGCTTTTG----ACCGCTCTAGTTTTC-GTTTCTT-GAAG-CTTCGTGAGT-AGACCCTGTTAATTGTAACGAT----------GCGCCTCATCTTAA------GTTCGCAGAAGAGCGAGAAGGTGCCCAAGGGGAAGAAGGGGAAAGCCGATGCTGGCAAGGAGGGAAACAACCCCGCAGAAAACGGAGATGCCAAAACAGACCAGGTACAGCAGCGGCTCTGGCAGCTCTTCTGG-CATCAGCGAGTTGTATTTT-------------CCA-CTCAAACA------GGTCTAGGCTTGC----AC--------AGTTACCGCTCGA---CTCAGACCTGTTGCATGTGACACTTAACGA--CACGTCTGCAGAC---GTGGGGAAGGGG----------GGTGGGGGAAGCGCT--GAGGTCGG--GTTTGCCGGTTGGAGTTGCCGCGTGGAAGTCG--CTGTCCCGCCGTGGCCCGAAAACA-GTGAAGTTCG--CCCGTAATAA-GCGACTTC-ACG---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------TTGCC-TTTTACGATAC-TTGGGAAGTT-GGCTTAAATTTTGTTAAGAGCT-----------------------------------------GGCGGCGGTGC-GCC-GGATGAGA----TTCCTCCT--TTGAA-AAACG--AG--------------------TT-TGGGTTGTC--GTTCCCCTGCG-TGGCGCTTATTGATC--GTTT-CCTCTTT-CT-C-TTCTAG
+Trogon_personatus              GTAAGAAGTTC-AATATTTG--GAGAAAGTTGGATGGTGAAGTGTTTTCATTGGAAGATGAGG-CTT-AACTTCGT-GGAAGTAAA--------GAACTGGGCAATGCAGGAAGGGTTTGTCTTAATTGATTCTGACTTTTC-AA-CTGTTAACTGTGTTTT------AACCCTGGTAAA-TCTTCTTAACTGTCATAA---GTTAGTACTGACTTAAATGGTCTAGTCTCATGTTTCTTGAGA-ACGGGG--------AAGAAAGTAACTAAAAGCCT---------------------------------------------------------ATGC---TTCTGGGATTTCACTGTTT-TGGAATGAGAGTTACTTTATGAGCT-----TTTGACAGTCCTTAC-TCCAT-CCTGCTAACGGCAGTCGTTTTT---GTTTTTAAACAGCCACAACGGAGATCGGCGAGGTTATCTGCTGTGAGTATTCTGTTGTTGAGCGGAGATGTCACAACACTCAGTAGT-TTTAGGCTGGAGTATGAGGTACTGCGTCTGTGTGAGAGCTGTGGGTGTTCTGGAGAGATGCGTTGTTCAATTGAAGGAAAGTTCCTGGCTTAACGAACTGGCCTGTTGCGTGGTGCGATGGGAGTGGTAGAATAATTGCCAAATCAAGTAAGTGCTCTAATTTCAAAAGTTTT-------GATTTGCTTTCCCAAAAC--GAAACTATTTGGGTTGAGCGTTTT----------AAGAAAGTAGT-ACATTTCTCTTAAAATAGTTTGATTAACACAGGGTTT--TCTTCTCGGTTGACAGAAGCCTGCTCCTCCAAAGCCAGAGCCTAAACCTAAAAAGGCAGCTCCAAAGGTGAGTCGTCGTGTCAGCACTGTTA--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------CTGAGAGGTAAA--TGGGTG-GTGAGGTTTAGATTTGCCCAG--------------------------------------------------------------------------------------------------------------------------------------TAATAA----------------------CT-ATTAAAACTGT-GGAGAGCAGC-TATGTAGTGATGAAATTGAGCTGTGTCATCACCTCTATAAAGTTGCACC---AAAACTTTATGAA-TTTTAC--AAAATTTGCAT--------AAAAAAA-----------------------------CCCAACGTGAAGAGTCTTCACGGTTGTTGG-CAGTC-TCGTAAACATGCAAAA---CATTTGT-GTGCTGCCTTC-TTTTTGGGCCGACATCCAAC------------------------------------------------------------------GTTGGTTCTT-----ACTGTTCTAGTTTTTGAATTCTT-GTGG-CTTAACGGTG-GGATGTCAGTAATTGTAATGGT----------GTACCTCATCTTC------CATTCGCAGAAGAGCGAGAAGTTGCCCAAGGGAAAGAAGGGGAAAGGTGATGCTGGCAAGGAGGGAAATAACCCTGCAGAAAACGGAGATGCCAAAACAGACCAGGTACAGCAGCGGGTCTGACAGCTTGGCTTAACATCAGCGAGTTATTTTTTTC-----------CTATATCAGACGTAGACGGGTCTGGGCTTGCGCTAATGAA-GAGGAATTATTGCTCGATTATTTCAACCTGTGGCTTTTGACACTCGGAA---CATGTCTATGAAT-----------TGGA-TGTTTCT--GGCTGGTAAAG--------AGTTGTCAG----CCAGCTGCCGTTGCCACGTGAAAG-TA--CACTCCTGCTTTGTTCTGAAAGTGCGTGAAGTTTG--CGTGTAATAAAGCAACTTC-AGG---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------TTGTC-TTTAGCAGTAT-TTCACATGTT------------TGTTTAAGAT------------------------------------------TACAGTGGTGCAGCACAAATGAGA---TTTTGTTTTATTTGGA-GAACT--GCTATCC--------GA--GAGTTTCA-GCTGTT----GTAAGCGCG-TGGTGTGTATTGACC-GATT--CCCCTTT-TTTC-TTCTAG
+Tyto_alba                      GTAAGAAGTTC-AACATTTT--GAGAAAGTTGGATCATAAAGTGTTTACGTTGGAAGATGAGG-TTT-AACTTGAG-CAAAATAAA--------GAACTGGGGAGCAAAGGGAGGGTTGGTCTTAATTCAGTCTGACTTTCC-CAAGTACTAACTGTCTTTT------AACCATGAAAAA-TCTACATAACTATTGTTAGCTACTAACAGTGATTTAAATGAGATAGTCTCATGTTTCCTGAGA-ATGGGG---------AAAAAGGAACTAATAACAT-------------------------------------------------------AAACATTAGTTCTGGGATTTTACTACTT-TAAAATGAGAGTTACTTTATGAGTT-----TTTGAGAATTCATAT-TCCAC-CACGTTAAATCCAGTCATTTTT---CTTTTTAAACAGCCACAACGGAGATCGGCAAGGTTATCTGCTGTGAGTATTCTCTTGCTGAGCAGAGATGTCACAACACTTGGTAGT-TTTAAGCTTGAGTATTAGGTACTGCATCTGTGTGAGAACTGTAGGTATTCTGGAGAGACGCATTGTTCAGTTGAAAGAAAGTTACTGGCTTAACAAACTGCCCCATTGTGTGGAGCTATGGGAGTGGTAAAATAATTGACAAATCAA----GTGCTTCAATTTCAAATGGTCT------TGATCTGCTTTCCTGAAAC--TAAACTACATAGGTTGAATGTTCT----------AAGAAAGTAGT-ATGTTTCTCTTAAAATAGTTTGAATAACACAGTGTGG--TTTTTTTCATTTACAGAAGCCTGCCCCTCCGAAGCCAGAGCCTAAACCTAAAAAGGCAGCTCCAAAGGTGAGTTGTTGTGTCAGCGCTATTA--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------CTGAGAGGTAAA--TGGGTT-ATGAGGTTTAGATTTGTCTAG--------------------------------------------------------------------------------------------------------------------------------------TAATAA----------------------CT-AATAGAACTTT-GAATAGCAGCGAACGTAGTGACAAAATTGAGCTGTATTGTCACTTCTATAAAGTTGTGCTG--AAAACTTGTTGAA-GTTTAC--TAAATTTGCATT--------AAAAAT-----------------------------ACCAAAGTGAAGAATCCTTGCTGTTGTTGT-GAATC-TCTTAAACACACAAA----TGTTTGA-GTGTTGCGC-A-TTTCGGGAC-AACATCCAAT------------------------------------------------------------------GTTGGTTTTT-----ACCATTCTAGTTTTTGGATTCCT-GTGG-CTTAATGACT-GGATGTTGGTAATTGTAATGGT----------GTACGTCATCTTC------CATTTACAGAAGACCGAGAAGTTGCCCAAGGGAAAGAAGGGGAAAGCTGATGCTGGCAAGGAGGGAAACAACCCTGCAGAAAATGGAGATGCCAAAACAGACCAGGTATAACAGCGGGTCTGGCAGCTTGTCTTA-CATCAGCCAATTACTTTTTT------------CCATATCAAACATAGACAGGTCTAAGCCTGCGCTAATGAA-GG---ATTATTGCTTGATTATTTAGACCTGTTGCTTATGACAC---------CACATCTATAGAT----GG-GGGGGTGG-TGTTGCTT-GGTTGGTAAAGAGTT--AAGGGTGTCTGTTTGCCAGGTGAAA---------------------GTTCTGCCTTGTTCTGAAAATGCATAATTTTTT--CATATGATAAAGCAACTTC-AGG---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------TTGCC-TCTTACGGAAC-TT--GATGTTA-GATTTCATTTTGT----------------------------------------------------------GCAGCCCAGATAATA----CTACTTCTGCTCAGA-GAACT--GCTGTTA--AGAAAAAC--GAGTTGCCAGTTTTTTGGTGCAAGTGTG-TGGTGTATATTGACT-GGTT--CCCCTTT-TT-C-TTTTAG
+Upupa_epops                    ???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????TAAACCTAAAAAGGCAGCTCCAAAGGTGAGTGGTTGTGTCAGGGTTGTAA--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------TTGAATGGTAAA--TGGGTG-AGGAGGTTTAGATTTGTCTGG--------------------------------------------------------------------------------------------------------------------------------------TAATAA----------------------CT-AATAAAACTCT-GAGTACCAACATA-GTAGCAGTGAAATCGAGCTCCATCATTACTGGTACACAACTGTGTTG--AAAACTTCT-AAA-TTGCTC--ATAATTTGTCT--------AAAAAAT-----------------------------ACCGAAGTGGAGATGTTCTGCAATTGT-CA-GTATC--TC-AAACAACCCAACGTGCACATGT--TGTTGTG-TC-ATTTC-GGCTGACATCCAGT-GTTGGAATCCCAGACTGGTTTAGGTTGGAAAAG-ACCTTT----ATGACTGAGTCC--AA---CTGTTGGGTTTT-----CCCACTCTAGTTTCTGGATTCTT-GTGG--TTAACAACT-GGCTGTTGCTAATTGTAACCGT----------GCG--TCATCCTTA-----CCTTCGCAGAAGAGTGAGAAGTTGCCCAAGGGAAAGAAGGGGAAAGCTGATGCTGGCAAGGAGGGAA-CAACCCTGCAGAAAACGGAGATGCCAAAACAGACCAGGTACAGCAGGGGTTCTGGCAGCTTCTTAGA---TTCCAGAGTTAGTTTCTTT-----------CCATGTCAAACATAGACGGGTCTAGGCTTGTGCTAACAAA-GAGGAATTAATACTTGATTATTTGGGCCCGTTGCTAGTGGCATTTTCGA---CA-----------GGGGTGTGACGAGGT-TGCTGCTG-GGCTAGTAAAGAGTT--AAAGTTTTC-AGTTGCCAGTTAGAGTTGCCAAATGAAATTCA--CTCTTTCGCCTGGTCCTAAAAATGTGTGAAGTTCT--TGAGTAACAAAGCAGCCTC-AGG---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------TTGTT-CTTAGACCTGA----TCTTGTTAGGAATT-GTGCTGC------------------------------------------------------------AACCCAAGTGGGG----CTTCCC------------------------------------CAGTTCCCCCTTAGTTGGTGCACGGCCG-CGGAGTGTACTGACT-GGCT--TCCCTTT-CT-C-TTTTAG
+;
+END;
+
+BEGIN SETS;
+	CHARSET HMGN2_TE49 (CHARACTERS = Avian_Tree_of_Life_HMGN2) =  1178-1311;
+	CHARSET HMGN2_TE50 (CHARACTERS = Avian_Tree_of_Life_HMGN2) =  1592-1656;
+	CHARSET HMGN2_exon5 (CHARACTERS = Avian_Tree_of_Life_HMGN2) =  1772-1867;
+	CHARSET HMGN2_TE51 (CHARACTERS = Avian_Tree_of_Life_HMGN2) =  2183-2574;
+	CHARSET HMGN2_exon4 (CHARACTERS = Avian_Tree_of_Life_HMGN2) =  856-880;
+	CHARSET HMGN2_TE48 (CHARACTERS = Avian_Tree_of_Life_HMGN2) =  906-1135;
+END;
+BEGIN TREES;
+      TITLE HMGN2_Han_et_al_2010_Fig._3;
+      LINK TAXA = Taxa2;
+         TRANSLATE
+            1    Alcedo_leucogaster,
+            2    Momotus_momota,
+            3    Todus_angustirostris,
+            4    Brachypteracias_squamigera,
+            5    Coracias_caudata,
+            6    Merops_nubicus,
+            7    Bucco_macrodactylus,
+            8    Galbula_albirostris,
+            9    Capito_niger,
+            10   Megalaima_virens,
+            11   Dryocopus_pileatus,
+            12   Indicator_maculatus,
+            13   Bucorvus_abyssinicus,
+            14   Tockus_camurus,
+            15   Phoeniculus_purpureus,
+            16   Upupa_epops,
+            17   Trogon_personatus,
+            18   Colius_colius,
+            19   Tyto_alba,
+            20   Cathartes_aura,
+            21   Pandion_haliaetus;
+      TREE Fig._3_HMGN2 = [&R] ((((1:0.16508231,2:0.20724079,3:0.21954011):0.0176147,(4:0.11298541,5:0.07740488):0.04917481,6:0.16822140000000002):0.03224315,(((7:0.12090973,8:0.11207732):0.03867625,((9:0.03919005,10:0.06262048):0.04022755,(11:0.07976234,12:0.0337977):0.02589477):0.12531929):0.03294008,((13:0.03392897,14:0.08831579):0.11460788,(15:0.14212127,16:0.1139476):0.14968391):0.01814743):0.01215806):0.009708915,(17:0.16246767,(18:0.087974875,(19:0.09977193,(20:0.033366775,21:0.07968547):0.0166833875):0.0166833875):0.087974875):0.009708915);
+
+
+
+END;
+BEGIN TREES;
+      TITLE Hackett_et_al._Science_Fig._2;
+      LINK TAXA = Taxa3;
+         TRANSLATE
+            1    Struthio_camelus,
+            2    Rhea_americana,
+            3    Nothoprocta_perdicaria,
+            4    Eudromia_elegans,
+            5    Tinamus_guttatus,
+            6    Crypturellus_soui,
+            7    Apteryx_australis,
+            8    Casuarius_casuarius,
+            9    Dromaius_novaehollandiae,
+            10   Chauna_torquata,
+            11   Anseranas_semipalmata,
+            12   Oxyura_jamaicensis,
+            13   Malacorhynchus_membranaceus,
+            14   Anser_erythropus,
+            15   Biziura_lobata,
+            16   Aythya_americana,
+            17   Anas_platyrhynchos,
+            18   Alectura_lathami,
+            19   Megapodius_eremita,
+            20   Crax_alector,
+            21   Numida_meleagris,
+            22   Colinus_cristatus,
+            23   Rollulus_rouloul,
+            24   Coturnix_coturnix,
+            25   Gallus_gallus,
+            26   Phoenicopterus_chilensis,
+            27   Podiceps_auritus,
+            28   Phaethon_lepturus,
+            29   Phaethon_rubricauda,
+            30   Pterocles_namaqua,
+            31   Syrrhaptes_paradoxus,
+            32   Mesitornis_unicolor,
+            33   Monias_benschi,
+            34   Otidiphaps_nobilis,
+            35   Columbina_passerina,
+            36   Treron_vernans,
+            37   Geotrygon_montana,
+            38   Columba_livia,
+            39   Rhynochetos_jubatus,
+            40   Eurypyga_helias,
+            41   Steatornis_caripensis,
+            42   Nyctibius_bracteatus,
+            43   Nyctibius_grandis,
+            44   Podargus_strigoides,
+            45   Batrachostomus_septimus,
+            46   Caprimulgus_longirostris,
+            47   Eurostopodus_macrotis,
+            48   Aegotheles_insignis,
+            49   Colibri_coruscans,
+            50   Phaethornis_griseogularis,
+            51   Hemiprocne_mystacea,
+            52   Streptoprocne_zonaris,
+            53   Aerodramus_vanikorensis,
+            54   Opisthocomus_hoazin,
+            55   Eupodotis_ruficrista,
+            56   Ardeotis_kori,
+            57   Geococcyx_californianus,
+            58   Crotophaga_sulcirostris,
+            59   Coua_cristata,
+            60   Centropus_viridis,
+            61   Cuculus_canorus,
+            62   Phaenicophaeus_curvirostris,
+            63   Coccyzus_americanus,
+            64   Himantornis_haematopus,
+            65   Rallus_limicola,
+            66   Sarothrura_elegans,
+            67   Heliornis_fulica,
+            68   Psophia_crepitans,
+            69   Grus_canadensis,
+            70   Aramus_guarauna,
+            71   Corythaeola_cristata,
+            72   Tauraco_erythrolophus,
+            73   Gavia_immer,
+            74   Eudyptula_minor,
+            75   Oceanites_oceanicus,
+            76   Diomedea_nigripes,
+            77   Oceanodroma_tethys,
+            78   Pelecanoides_urinatrix,
+            79   Puffinus_griseus,
+            80   Ciconia_ciconia,
+            81   Pelecanus_occidentalis,
+            82   Scopus_umbretta,
+            83   Balaeniceps_rex,
+            84   Eudocimus_albus,
+            85   Cochlearius_cochlearius,
+            86   Ardea_herodias,
+            87   Fregata_magnificens,
+            88   Morus_bassanus,
+            89   Phalacrocorax_carbo,
+            90   Anhinga_anhinga,
+            91   Burhinus_bistriatus,
+            92   Haematopus_ostralegus,
+            93   Charadrius_vociferus,
+            94   Phegornis_mitchellii,
+            95   Turnix_sylvatica,
+            96   Larus_marinus,
+            97   Dromas_ardeola,
+            98   Arenaria_interpres,
+            99   Rostratula_benghalensis,
+            100  Jacana_jacana,
+            101  Pedionomus_torquatus,
+            102  Thinocorus_orbignyianus,
+            103  Sarcoramphus_papa,
+            104  Cathartes_aura,
+            105  Sagittarius_serpentarius,
+            106  Pandion_haliaetus,
+            107  Gampsonyx_swainsonii,
+            108  Buteo_jamaicensis,
+            109  Colius_colius,
+            110  Urocolius_indicus,
+            111  Phodilus_badius,
+            112  Tyto_alba,
+            113  Speotyto_cunicularia,
+            114  Strix_occidentalis,
+            115  Leptosomus_discolor,
+            116  Trogon_personatus,
+            117  Pharomachrus_auriceps,
+            118  Phoeniculus_purpureus,
+            119  Upupa_epops,
+            120  Bucorvus_abyssinicus,
+            121  Tockus_camurus,
+            122  Bucco_macrodactylus,
+            123  Galbula_albirostris,
+            124  Capito_niger,
+            125  Megalaima_virens,
+            126  Indicator_maculatus,
+            127  Dryocopus_pileatus,
+            128  Merops_nubicus,
+            129  Coracias_caudata,
+            130  Brachypteracias_squamigera,
+            131  Todus_angustirostris,
+            132  Alcedo_leucogaster,
+            133  Momotus_momota,
+            134  Cariama_cristata,
+            135  Micrastur_semitorquatus,
+            136  Herpetotheres_cachinnans,
+            137  Daptrius_ater,
+            138  Falco_mexicanus,
+            139  Cacatua_sulphurea,
+            140  Psittacus_erithacus,
+            141  Platycercus_elegans,
+            142  Chalcopsitta_cardinalis,
+            143  Micropsitta_finschii,
+            144  Psittacula_alexandri,
+            145  Alisterus_scapularis,
+            146  Acanthisitta_chloris,
+            147  Sapayoa_aenigma,
+            148  Smithornis_rufolateralis,
+            149  Pitta_guajana,
+            150  Pipra_coronata,
+            151  Tyrannus_tyrannus,
+            152  Mionectes_macconnelli,
+            153  Thamnophilus_nigrocinereus,
+            154  Grallaria_varia,
+            155  Dendrocolaptes_certhia,
+            156  Scytalopus_magellanicus,
+            157  Menura_novaehollandiae,
+            158  Climacteris_erythrops,
+            159  Malurus_melanocephalus,
+            160  Corvus_corone,
+            161  Picathartes_gymnocephalus,
+            162  Bombycilla_garrulus,
+            163  Regulus_calendula,
+            164  Turdus_falklandii,
+            165  Sylvia_nana,
+            166  Fringilla_montifringilla,
+            167  Passer_montanus,
+            168  Ploceus_cucullatus,
+            169  Vidua_chalybeata;
+      TREE Fig._2 = [&R] ((1,((((9,8),7),((5,6),(4,3))),2)),((((19,18),(20,(21,((23,(24,25)),22)))),(10,(11,(12,(((17,16),15),(13,14)))))),(((((134,(((135,136),(137,138)),((146,((((159,(160,((((162,163),((169,168),(167,166))),(165,164)),161))),158),157),((147,(149,148)),((((156,155),154),153),((152,151),150))))),(139,(140,((141,142),(143,(145,144)))))))),(((103,104),(((107,108),106),105)),((115,((117,116),(((((130,129),(131,(132,133))),128),((123,122),((124,125),(126,127)))),((118,119),(121,120))))),((109,110),((111,112),(113,114)))))),(((95,(97,96)),(((99,100),(101,102)),98)),((92,(94,93)),91))),(54,(((55,56),(((58,57),((60,59),(61,(62,63)))),(((70,69),68),((64,65),(66,67))))),((((((((79,78),77),76),75),74),(80,((87,((89,90),88)),((84,(86,85)),(81,(82,83)))))),73),(71,72))))),(((39,40),(((42,43),41),((44,45),((46,47),(48,((50,49),((53,52),51))))))),((27,26),((29,28),((30,31),((33,32),((35,34),(36,(38,37)))))))))));
+
+
+
+END;
+BEGIN TREES;
+      TITLE GH1_Han_et_al_2010_Fig._3;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Coua_cristata,
+            2    Crotophaga_sulcirostris,
+            3    Cuculus_canorus,
+            4    Coccyzus_americanus,
+            5    Phaenicophaeus_curvirostris,
+            6    Geococcyx_californianus,
+            7    Grus_canadensis,
+            8    Rallus_limicola,
+            9    Tauraco_erythrolophus,
+            10   Ardeotis_kori;
+      TREE Fig._3_GH1 = [&R] ;
+
+
+
+END;

@@ -1,0 +1,784 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:46 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Delwiche C., Hoffman G., Sanchez puerta M., Puerta M. 2008. Gene Families, Biochemistry
+And The Inference Of Function In Algal Light-Harvesting Complex Proteins.
+Plant Physiology, null.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S2160]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=246;
+        TAXLABELS
+            Alexandrium_tamarense_CF751882
+            Alexandrium_tamarense_CK431764
+            Alexandrium_tamarense_CK431807
+            Alexandrium_tamarense_CK432998
+            Alexandrium_tamarense_CK433577
+            Alexandrium_tamarense_CK782611
+            Alexandrium_tamarense_CK785040
+            Alexandrium_tamarense_CK785886
+            Alexandrium_tamarense_CK786246
+            Alexandrium_tamarense_CV554475
+            Amphidinium_carterae_AJ009670_lhcA
+            Amphidinium_carterae_AJ009670_lhcB
+            Amphidinium_carterae_AJ009670_lhcD
+            Amphidinium_carterae_CF064709
+            Amphidinium_carterae_CF064920
+            Amphidinium_carterae_CF065118
+            Amphidinium_carterae_CF065877
+            Amphidinium_carterae_CF066031_CF067312
+            Amphidinium_carterae_CF066762
+            Amphidinium_carterae_Z47563
+            Bigelowiella_natans_AY267688
+            Bigelowiella_natans_AY267689
+            Chlamydomonas_eugametos_X60721_L1818
+            Chlamydomonas_reinhardtii_104720
+            Chlamydomonas_reinhardtii_184724
+            Chondrus_crispus_CO649812
+            Chondrus_crispus_CO652368_CO651192
+            Chondrus_crispus_CO652608_CO652286
+            Chondrus_crispus_CO653137
+            Cyanidioschyzon_merolae___CMN235C
+            Cyclotella_cryptica_AJ000545_Fcp_2
+            Cyclotella_cryptica_AJ000670_Fcp_1
+            Cyclotella_cryptica_AJ000965_Fcp_3
+            Cyclotella_cryptica_AJ000967_Fcp_5
+            Cyclotella_cryptica_AJ000968_Fcp_6
+            Cyclotella_cryptica_AJ000969_Fcp_7
+            Cyclotella_cryptica_AJ005838_Fcp_4
+            Cyclotella_cryptica_AJ005839_Fcp_12
+            Cylindrotheca_fusiformis_AY125590_cffcpB3
+            Cylindrotheca_fusiformis_AY125594_cffcpC
+            Cylindrotheca_fusiformis_DQ060240_cffcpA1A
+            Emiliania_huxleyi_AY289120
+            Emiliania_huxleyi_CX771537
+            Emiliania_huxleyi_CX772211
+            Emiliania_huxleyi_CX772333
+            Emiliania_huxleyi_CX772408
+            Emiliania_huxleyi_CX774563
+            Emiliania_huxleyi_CX774638
+            Emiliania_huxleyi_CX774681
+            Emiliania_huxleyi_CX775010
+            Emiliania_huxleyi_CX775827
+            Emiliania_huxleyi_CX776411
+            Emiliania_huxleyi_CX777192
+            Emiliania_huxleyi_CX777336
+            Emiliania_huxleyi_CX778736
+            Emiliania_huxleyi_CX779067
+            Emiliania_huxleyi_DQ658248
+            Emiliania_huxleyi_EG030880
+            Emiliania_huxleyi_EG030976
+            Emiliania_huxleyi_EG033467
+            Emiliania_huxleyi_EG357771
+            Emiliania_huxleyi_EG357835
+            Emiliania_huxleyi_EG357978
+            Galdieria_sulphuraria_AJ012759_lhc1
+            Galdieria_sulphuraria_AJ276862_lhcr5
+            Galdieria_sulphuraria_AJ277213_lhcr2
+            Galdieria_sulphuraria_AJ277285_lhcr4
+            Galdieria_sulphuraria_AJ308253_lhc3
+            Giraudyopsis_stellifer_Z46920
+            Griffithsia_japonica_AF517869_Gj446
+            Griffithsia_japonica_AF517881_Gj513
+            Griffithsia_japonica_AY124024
+            Guillardia_theta_AF268322_LHCC4
+            Guillardia_theta_AF268323_LHCC10
+            Guillardia_theta_AF268324_LHCC13
+            Guillardia_theta_AJ821801_lhc1
+            Guillardia_theta_AJ821803_lhc3
+            Guillardia_theta_AJ821808_lhc4
+            Guillardia_theta_AJ821820_lhc7
+            Guillardia_theta_AJ821831_lhc7
+            Guillardia_theta_EG720035
+            Guillardia_theta_EG72369_EG719821
+            Heterocapsa_triquetra_AY826901
+            Heterocapsa_triquetra_AY826902
+            Heterocapsa_triquetra_AY826903
+            Heterocapsa_triquetra_AY826905
+            Heterocapsa_triquetra_AY826911_A
+            Heterocapsa_triquetra_AY826913
+            Heterocapsa_triquetra_DT382892
+            Heterosigma_carterae_X99697_Fcp1
+            Isochrysis_galbana_DQ118573
+            Isochrysis_galbana_DQ118574
+            Isochrysis_galbana_DQ118577
+            Isochrysis_galbana_DQ118578
+            Isochrysis_galbana_DQ118579
+            Isochrysis_galbana_DQ118580
+            Isochrysis_galbana_DQ118581
+            Isochrysis_galbana_DQ118582
+            Isochrysis_galbana_DQ118583
+            Isochrysis_galbana_DQ118584
+            Isochrysis_galbana_DQ118585
+            Isochrysis_galbana_DQ118586
+            Isochrysis_galbana_DQ118587
+            Isochrysis_galbana_ISL00000009
+            Isochrysis_galbana_ISL00000011
+            Isochrysis_galbana_ISL00000222
+            Isochrysis_galbana_ISL00000652
+            Isochrysis_galbana_ISL00000731
+            Isochrysis_galbana_ISL00001344
+            Isochrysis_galbana_ISL00001475
+            Isochrysis_galbana_ISL00001514
+            Isochrysis_galbana_ISL00004541
+            Isochrysis_galbana_X77333_IGFcp1
+            Karenia_brevis_CO063314
+            Karenia_brevis_CO064441_CO061242
+            Karenia_brevis_CO064464
+            Karenia_brevis_CO065025
+            Karlodinium_micrum_DQ118610
+            Karlodinium_micrum_DQ118611
+            Karlodinium_micrum_DQ118614
+            Karlodinium_micrum_DQ118615
+            Karlodinium_micrum_DQ118616
+            Karlodinium_micrum_DQ118621
+            Karlodinium_micrum_DQ118623
+            Laminaria_digitata_AW401184_AW401128
+            Laminaria_digitata_CN467240_CN466737
+            Laminaria_japonica_DQ250739_lhcf6_A
+            Laminaria_japonica_DQ250739_lhcf6_B
+            Laminaria_saccharina_AF226858_lhcf2
+            Laminaria_saccharina_AF226861_lhcf5
+            Laminaria_saccharina_AF226862_lhcf6
+            Lingulodinium_polyedrum_BP742312
+            Lingulodinium_polyedrum_BP743285
+            Lingulodinium_polyedrum_BP743367
+            Lingulodinium_polyedrum_BP743813
+            Lingulodinium_polyedrum_CD809390
+            Lingulodinium_polyedrum_CD809793
+            Lingulodinium_polyedrum_CD809920
+            Lingulodinium_polyedrum_CD809947
+            Macrocystis_pyrifera_U10065_pfcpa
+            Macrocystis_pyrifera_U10069_pfcpe
+            Mesostigma_viride_MVL00002413
+            Micromonas_sp._MSL00000056b
+            Micromonas_sp._MSL00000740
+            Odontella_sinensis_X81054_FcpA
+            Odontella_sinensis_X81055_FcpB
+            Ostreococcus_lucimarinus_7949
+            Ostreococcus_tauri_6427
+            Pavlova_lutheri_PLL00000003
+            Pavlova_lutheri_PLL00000004
+            Pavlova_lutheri_PLL00000019
+            Pavlova_lutheri_PLL00000092
+            Pavlova_lutheri_PLL00000098
+            Pavlova_lutheri_PLL00000288
+            Pavlova_lutheri_PLL00000387
+            Pavlova_lutheri_PLL00000398
+            Pavlova_lutheri_PLL00000435
+            Pavlova_lutheri_PLL00000672
+            Pavlova_lutheri_PLL00001579
+            Pavlova_lutheri_PLL00003241
+            Phaeodactylum_tricornutum_10243
+            Phaeodactylum_tricornutum_11006
+            Phaeodactylum_tricornutum_14386
+            Phaeodactylum_tricornutum_16302
+            Phaeodactylum_tricornutum_16322
+            Phaeodactylum_tricornutum_16481
+            Phaeodactylum_tricornutum_17531
+            Phaeodactylum_tricornutum_17766
+            Phaeodactylum_tricornutum_22006
+            Phaeodactylum_tricornutum_23257
+            Phaeodactylum_tricornutum_25893
+            Phaeodactylum_tricornutum_30643
+            Phaeodactylum_tricornutum_34536
+            Phaeodactylum_tricornutum_48882
+            Phaeodactylum_tricornutum_6062
+            Phaeodactylum_tricornutum_9799
+            Phaeodactylum_tricornutum_AC151931
+            Phaeodactylum_tricornutum_X55156_Fcp2
+            Phaeodactylum_tricornutum_Z23153_fcpF
+            Phaeodactylum_tricornutum_Z24768_fcpA
+            Phaeodactylum_tricornutum_Z24768_fcpC
+            Pleurochrysis_carterae_AB240951
+            Porphyra_haitanensis_EG017003
+            Porphyra_yezoensis__AU190126_AU187195
+            Porphyra_yezoensis__AV437049
+            Porphyra_yezoensis__AV438065
+            Porphyra_yezoensis_AU193538
+            Porphyra_yezoensis_AV437085_AV432551
+            Porphyra_yezoensis_CX874214
+            Porphyridium_cruentum_U58679_LhcaR1
+            Porphyridium_cruentum_U58680_LhcaR2
+            Prymnesium_parvum_DV097448
+            Prymnesium_parvum_DV097686
+            Prymnesium_parvum_DV097739
+            Prymnesium_parvum_DV098263
+            Prymnesium_parvum_DV098344
+            Prymnesium_parvum_DV098387
+            Prymnesium_parvum_DV098428
+            Prymnesium_parvum_DV099034
+            Prymnesium_parvum_DV099196
+            Prymnesium_parvum_DV099689
+            Prymnesium_parvum_DV099977
+            Prymnesium_parvum_DV100100
+            Prymnesium_parvum_DV100168
+            Prymnesium_parvum_DV100215
+            Prymnesium_parvum_DV100460
+            Prymnesium_parvum_DV100745
+            Prymnesium_parvum_DV102503
+            Prymnesium_parvum_DV102563
+            Prymnesium_parvum_DV103421
+            Prymnesium_parvum_DV103534
+            Prymnesium_parvum_DV103536
+            Pyrocystis_lunula_AF508261
+            Pyrocystis_lunula_BQ253990
+            Rhodomonas_sp._CS24_AJ308530_Lhcc2
+            Rhodomonas_sp._CS24_AJ308530_Lhcc3
+            Rhodomonas_sp._CS24_AJ308530_Lhcc4
+            Skeletonema_costatum_U66169_scfcpA
+            Skeletonema_costatum_U66171_scfcpB
+            Skeletonema_costatum_U66173_scfcpC
+            Skeletonema_costatum_U66174_scfcpD
+            Skeletonema_costatum_U66175_scfcpE
+            Skeletonema_costatum_U66177_scfcpF
+            Thalassiosira_pseudonana_11501
+            Thalassiosira_pseudonana_12097
+            Thalassiosira_pseudonana_2601
+            Thalassiosira_pseudonana_268127
+            Thalassiosira_pseudonana_270092
+            Thalassiosira_pseudonana_29375
+            Thalassiosira_pseudonana_31128
+            Thalassiosira_pseudonana_31983
+            Thalassiosira_pseudonana_32723
+            Thalassiosira_pseudonana_33018
+            Thalassiosira_pseudonana_33606
+            Thalassiosira_pseudonana_34276
+            Thalassiosira_pseudonana_38122
+            Thalassiosira_pseudonana_38139
+            Thalassiosira_pseudonana_38494
+            Thalassiosira_pseudonana_38667
+            Thalassiosira_pseudonana_38879
+            Thalassiosira_pseudonana_39813
+            Thalassiosira_pseudonana_41655
+            Thalassiosira_pseudonana_42962
+            Thalassiosira_pseudonana_6139
+            Vaucheria_litorea_AF336982
+            Vaucheria_litorea_AF336985
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M3833]
+
+	TITLE Algal_LHC_Proteins;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=266;
+	FORMAT DATATYPE=Protein SYMBOLS= "A C D E F G H I K L M N P Q R S T V W Y" MISSING=? GAP= -;
+
+MATRIX
+[                                                      10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170       180       190       200       210       220       230       240       250       260      ]
+[                                                       .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .      ]
+Alexandrium_tamarense_CF751882                 -------------------------QSAFESELG--------------------------------VQSPVGFWDPVGFTADG-----------DAAAFRRRRVTELKHGRVSMLAAIGYIVP--ESY-RFPGYLSPSE-------------DLKFADMPHGLAAIS----KVPLPGIAQWVLFVGFVE----KDDPSRLPGDYE-------------S-TISDPEEKTRRLNSELANGRLAMTAIMALFFQNGTVG---------
+Alexandrium_tamarense_CK431764                 -------------------------LRDFSQELG--------------------------------ACPPLGFWDPLDLSNFD----------VAVSQFKRRRIIEIQHGRVSMLACIGFIVP---EYFKWPGYLSPSE-------------GIQFQDIPNGLGAAA----KVPLIGWAQIVAFVGTIE-----EPGEYAG---D-------------GGSIDDREKKEKSLLAEINNGRLAMMAIIGMFFQNGLTG---------
+Alexandrium_tamarense_CK431807                 --------------------------RAFEGELG--------------------------------VQAPL-F-DPAGLSADG-----------DVASFTRRRSVEIKHGRICMLATMGYITP--EVTGKFPGYLSPGS-------------GLKFADVPNGLAAIG----KVPLLGWLQIFGYAFFVE----------SD--VA-------------LLATDDPEKRKTKLAAELANGRLAMMAIIGMFFQDGLTG---------
+Alexandrium_tamarense_CK432998                 --------------------------FNPAEQPGAV--------------------------------PPLGFFDPLGFCKVG-----------DERGFWKLRSAEIKHGRVAMMASVGAVVQHF---VKLPGCENVKGT-------------FGALTTAEGVI------------GATGIFVLSAILE-----------------------------GVNMFDEE-MRNK---ELGNGRMAMLSVLGIWAAELATG---------
+Alexandrium_tamarense_CK433577                 -------------------------------------------------------------------------------ARGG-----------DVAVFKRRRETEIKHGRVSMLATMGYITP--ELTGKLPGYLSPSM-------------GLKFEDVPNGLAAIS----KVPAAGWAQIVAYGFFCE----------EN-----------------LLATDDAELKTKRLNAELANGRLAMMAIIGMFFQDGLTG---------
+Alexandrium_tamarense_CK782611                 ------------------------------------MSPSVPYLEYPEV-------------LD-GWVGGEKGFDPLNVTQ--------------ALPVYLVREAELKHGRVCMLATLG-WIATD--LG---------------VRFPG---EVFQNVSTVDAHNKMVEA-----GIMGPFLATVGVYE------VNREAGDFF--LGKNFLPKDE---------AQATTMKLKELENGRLAMLAFSG-ICTQA--VLTGKT----
+Alexandrium_tamarense_CK785040                 ----------------------------------------------G-------------TR-LEGYVGQEQDFDPLGFS--------------DTFDVRWLREAELKHGRVCMLATVG-FAAQQF---------------------VTLP--GV-TPTEDSLQAVYT----APAPLMAALLLFTGYVE------TDREPGDLN--FG-KRFLDGD-E-------EKSYDLKLKELNNGRLAMMAFGGMVHHNLVV-KGPLFPLF-
+Alexandrium_tamarense_CK785886                 --------------------------FSKEQQLGAQ--------------------------------DPLGFWDPLDLCK-------------DEATFKDYRAKELKHGRAAMMGALGMLTQSV---VQVPGMEGVPKS-------------VNAIFVGNGMV------------GGLAVLALIGGLE-----------------------------WWDDYSDE-MRAR---ELNNGRIAMFAAIGQIAAGLYTG---------
+Alexandrium_tamarense_CK786246                 -----------------------------------------------------------------------QSRRP--------------------GGFRILRMAELKHGRVAMMASIGLVAQHF---LKLPGAESVPAG-------------IGALSTVAGQV------------GFVAIFAWSGVLE-----------------------------GLGMYDVE-MRNR---EINNGRFAMIAVTGILAAELATG---------
+Alexandrium_tamarense_CV554475                 --------------------------VVPKEQPGVT--------------------------------APLGFFDPAG-T-KG-----------DETGFKHLRAAEIKHGRVAMMAALGNVAAHY---WKLPGFEGVPTG-------------LATLGTEQGAK------------GFAALFCLVALKE-----------------------------NFGQYTPE-MRTK---ELNNGRMAMFAVMGQLVAEMATG---------
+Amphidinium_carterae_AJ009670_lhcA             --------------------------MAFENERG--------------------------------VQDPVGFFDPLGFTADG-----------SVENFKRRRQTEIKHGRVAMWATMGYITP--EITGKLPGYLSPST-------------GVKYDDIPNGLGAIS----KVPAAGWGQMIAYAAFCE---------SAG---T-------------VLTSSDPAELEKKLSAESANGRLAMMAIIGMFFQDGLTG---------
+Amphidinium_carterae_AJ009670_lhcB             -------------------------LRAFESERG--------------------------------VQPPVGFFDPLGFTKDG-----------NVENFTRRRATEIKHGRIAMLATMGYITP--ELF-RFDGYLSRSA-------------GVKYVDIPNGLGAFS----KVPFVGWVQMVAYCLLVE---------SQG---A-------------VLTSSNPAEKEKKLRAELANGRLAMMAIIGMFFQDGLTG---------
+Amphidinium_carterae_AJ009670_lhcD             ----------------------------CEHKTC--------------------------------VRPPVGFWDPLGSTKDG-----------DRAAFQRRRATEFKHGRIAMLATMGYITP--EIAGKFPGELS--S-------------ELKFTDVPTGLAALG----VVPFAGWLQIILYCYAVH----RSRLQEGR-AWQ-------------WLVGKDPTLRKKKLSVDLANGRLAMMAIIGMFFQDGLTG---------
+Amphidinium_carterae_CF064709                  ------------------------------------------FAQGLVGSE--------------HAFG-RYEFDPIGFS-KYTEL------------VPWFREAELKHGRIAMLAWLG-LVVPDFVHP--------------RRGVLLRGRATSRRCT--CP-RRCRT----KLPDYPLHLHR-ALLR------SWRLQLDAL-------LPED---------EEAQKQMRIAEL-NGRL--L-ALG-A-TQA---ITG-PFP--
+Amphidinium_carterae_CF064920                  -------------------------NPAFENELG--------------------------------VQAPVGFWDPVGFTADG-----------NVASFRRRRTVELKHGRISMLAAMGYITP--EVTGKFPGYLSPGA-------------GLKFADVPNGLGALS----VVPAAGWAQIAAYMGAVD-------VLGGFNDYK-------------MLTSSDPAEKQVKLASELANGRLA----MVAILAMFFQN---------
+Amphidinium_carterae_CF065118                  ------------------------------------------FAGGLVGSEY-------------GGFGGRYEWDPAGLAERWPEH------------LAWYREAELKHGRVAMLAFAG-LLAPDLFR---------------LPWGEFSDPSLDFVNA----HDKFVS----GFGPMWWGFIACGGIE------TLERWQPWM--VRS--SQRI---------LKSAFSMRWRELKNGPLGYVGREP-FSLAGV--LLG-STT--
+Amphidinium_carterae_CF065877                  ----------------------------------------------------------------------------------------------------------------------WHHCA---RVVKFPGYLSPSE-------------GLKFADVPNGLGALA----KVPAEGWLQIGLFLGHYE-----DKDRSPG---D-------------PTPELSDADKEKKLSVEIANGRLAMVAIIGMFYQDGLTG---------
+Amphidinium_carterae_CF066031_CF067312         ------------------------------------M-PSVPYLPYP-R-------------L--GWVGGEKGFDPLRTS---------------IIDVYWLREAELKHGRICMLATLG-WIS-D--A----------------WRFEA---EMFQGVSVINAHNKMVEM-----GVMQQMLSIVGVCE------IQRKAGDYF--IGKNFLPKEE---------DKAKDMQLKELENGRLAMLAFSG-ICTQA--NLFPES----
+Amphidinium_carterae_CF066762                  --------------------------------------------------------------------------------TEDC----------TKADFDRRRAVELKHGRVCMFATLGMVWP--DIFGKFDGDLSPSLG-------------LKFSDIPSGLGAIT----AVPIAGWVQILFFAGLIE--------FGVSSSGA-------------GRKIKDPAERKQKLTTELNNGRLAMVAFTGMALQNLLTG---------
+Amphidinium_carterae_Z47563                    -------------------------LRAFENELG--------------------------------VQAPTGFFDPLGLSSDG-----------SVDNFKRRRASEIKHGRVAMLATMGYMTP--EITAKFPGYLSYSQ-------------SSKFADVPNGLAAMS----KVPVLGWAQVAAYGAVCD----------AG---T--------------ITSEDEETLKRKLNSELANGRLAMMAIIGLFFQDGLTG---------
+Bigelowiella_natans_AY267688                   ---------------------------------------------------------AED-TLPG-TAPLGKFWDPAGFTKG-----------LSPNELKKYREAEITHGRVSMLGVLG-FLTQE---AFHPL-----------------FGGNIDGPAIKQFDEITRMA------FWYPVLLAIAVAE-F-SLRDEYEPGN-IG-FDPLNLKP-SNP-------TDLASIKNKELNNGRLAMLALAGFVAQELVNG---------
+Bigelowiella_natans_AY267689                   ---------------------------------------------------------QPYK-LPG-SAPMGDYFDPLGLSKGK-----------DESELKRFREAEITHSRVAMLAFLG-FLFQEALL-DRPLF-----------------LGGIKGPAIYHFQQVSERF----------TLPFFAYFE-FG-LKEDYTPGD-LG-FDPFQAYP-LDS-------NGKKAMQDKELNNGRLAMLGVAGLMAQELVDG---------
+Chlamydomonas_eugametos_X60721_L1818           ----------------------------------------------------------A--TLPGCGVESGPVWDPLSLAAT-----------ATVGDVRRWRESEITHGRVAMLAALG-FVVGEQL-EDFPAFF---------------FDGHITGQAIKQFDQVQQG-------FWEPLLIAIGLAE-FNNLKDEYDLGN-LY-FDPLGLKP-EDP-------EELRELQTKELNNGRLAMIAIAGFVLQEVAEG---------
+Chlamydomonas_reinhardtii_104720               -----------------------------------------------------------------------GVFDPAGFLAT-----------ASIKDVRRWRESEITHGRVAMLAALG-FVVGEQL-QDFPLFF---------------WDGRVSGPAIYHFQQIGQG-------FWEPLLIAIGVAE-FNSLKDDYEPGD-LG-FDPLGLKP-TDP-------EELKVMQTKELNNGRLAMIAIAAFVAQELVEQ---------
+Chlamydomonas_reinhardtii_184724               ----------------------------------------------------------K--TLPGVTAPFDNVFDPAGFLAT-----------ASVKDVRRWRESEITHGRVAMLAALG-FIVGEQL-QDFPLFF---------------FDGRVSGPAIYHFQQIGQG-------FWEPLLIAIGVAE-FNSLKDDYEPGD-LG-FDPLGLKP-TDP-------EELKTLQTKELNNGRLAMIAIAAFVAQELVEQ---------
+Chondrus_crispus_CO649812                      -----------------------------------------PRAEFG-------------TNLSPDMPGYTG-FDPLGLSN--------------LFDVKFLQEAEIKHCRVCMLAVLG-MLVSEQ------------------VTLPFYT-DAPRLASD--IHAWAV-----NQGAMVQLLFWVSFFE-------PRKPGEFA--FDPLGLGKNP---------TAYARYQLSEIKNGRLAMIAIGGLIHQEWMT-GLTPI-QQ-
+Chondrus_crispus_CO652368_CO651192             ------------------------------------MSKSVPFLLKP-------------KNLEG-LPASFE-FDPLLISD--------------YINVRFLQAAEIKHGRICMLACLG-MLVQE--L----------------WTFPNS--YFPHILP-VEAHNYFI-----TTGGMSQILLFIAVFE-------KNE-GNFG--FDPLGL--GKD-------ATTFKKYQVNEIMNGRLAMIGIGGLIHQEWVT-KTGAIDQL-
+Chondrus_crispus_CO652608_CO652286             ------------------------------------ASRAIPFLEAP-------------SKLDGSRIG-DSGFDPLYLS--------------DYLDQDYAAAGELKNGRVAMLATVG---VQ---------------------EFVHLPNP--MFAEANPIKAIYA----VPVEGWVQILVAIAIIE-----------GDLG--FDPLGMGSKG----------NMEELKLKELKNGRLAMLASIGFIFQTITTGKPIIA-QL-
+Chondrus_crispus_CO653137                      ------------------------------------RP-SMPFLPKP-------------PTLSEDMIG-YTGFDPLALS--------------QLMDVKWLQESEIKHGRICMLAFLG-MLVQEF---------------------VHLPN-AA-FSNPVATEALGQ----VPAIGLWQIFIFCGISE-------GAEPGKLG--FNPMNLKMT-------------DRIRLAEIKNGRLAMCGVGGVIHSMFIY-KTPIVAQL-
+Cyanidioschyzon_merolae___CMN235C              ------------------------------------NSRSVPFAPVP-------------EVRESGLAGSEAEFDPLMITS--------------YLPISWMRESEVKHGRIAMLAFVG-TLAQQA------------------YQFPWYK-GAPTTLVG--AHDHFV-----TT-ALAQILLFTSAFE-------GRLPGYYG--FDPLGLWGKD--------EASRKRMELAEVKNGRLAMIAMLALWHQEVLSGGMGVI-EQ-
+Cyclotella_cryptica_AJ000545_Fcp_2             FASLIAGAAAFAPA--QTGKATTSLA-AFENELGAQ--------------------------------PPLGFFDPLGLL-DG----------ADQERFDRLRYVELKHGRICQLAFLGQITT--RAGFRLPGDISYDG--------------TKFSDIGEGW-A---GSLQVPVAGALQILAFVGFLE------EGEFVGDFR--------------------EETKLSKRAIELNNGRAAMMGILGLMVHEQLG----------
+Cyclotella_cryptica_AJ000670_Fcp_1             IAS----AAAFAPA--QTGKATTSLA-AFENELGAQ--------------------------------PPLGFFDPLGLL-DG----------ADQERFDRLRYVELKHGRICQLAFLGQITT--RAGFRLPGDISYDG--------------TKFSDIGEGW-A---GSLQVPVAGALQILAFVGFLE------EGEFVGDFR--------------------EETKLSKRAIELNNGRAAMMGILGLMVHEQLG----------
+Cyclotella_cryptica_AJ000965_Fcp_3             FASLIAGAAAFAPV--QTGKATTSLA-AFENELGAQ--------------------------------PPLGFFDPLGLL-DG----------ADQERFDRLRYVELKHGRICQLAFLGQITT--RAGFRLPGDISYDG--------------TKFSDIGEGW-A---GSLQVPVAGALQILAFVGFLE------EGEFVGDFR--------------------EETKLSKRAIELNNGRAAMMGILGLMVHEQLG----------
+Cyclotella_cryptica_AJ000967_Fcp_5             IASLIAGAAAFAPA--QTGKATTSLR-AFEDELGAQ--------------------------------PPLGFFDPFGMLSGD----------CTQERFDRLRYVEIKHGRIAQLAFLGQVVT--RAGIHLPGSINYAG--------------DSFDSFPNGV-AALFGPNSIPTAGLVQIISFIGVLE------TNEHVGDFR--------------------EETKLQKRAIELNNGRAAMMGILGLMVHEEII----------
+Cyclotella_cryptica_AJ000968_Fcp_6             -------------------------------------------------------NAFSAADLPGA-LPPVGFFDPLGFAEK-----------ADEKTLKRYREAEVTHGRVAMLAVVG-FLVGEAVEGSSFLF-----------------DAQISGPAITHFTQVPDG-------WDALIVTFIGAAEQPGLLRDNYYPGD-IG-FDPLGLKP-EDP-------EELNIMITKELQNGRLAMLAAAGFLAQEAVDG---------
+Cyclotella_cryptica_AJ000969_Fcp_7             -------------------------------------------------------NAFSAADLPGA-LPPVGFFDPLGFAEK-----------ADEKTLKRYREAEVTHGRVAMLAVIG-FLVGEAVEGSSFLF-----------------DAQISGPAITHFTQVPDG-------WDALIVTFIGAAEQPGLLRDNYYPGD-IG-FDPLGLKP-EDP-------EELNIMITKELQNGRLAMLAAAGFLAQEAVDG---------
+Cyclotella_cryptica_AJ005838_Fcp_4             ---------------------------------------SIPFLTVP-------------EKLDGSMPG-DMGFDPMGLSD-------------IQTDLNYARWSELKHGRICMLAVVG-MVWQEYG--------------------PHLPG-DA-YATRDPWEAISS----VGFASNIQTLLAIGVVE------GT--PGDIG--WDGGQLKNMD-S-------AAVKKRMESEVVHCRLAMIAFIGATHQTFLLHK----GLL-
+Cyclotella_cryptica_AJ005839_Fcp_12            -------------------------------------------------------ESAFAWGLPGSLD-PAPEFDPFGFAKN-----------TDLQTMKKWREAETQHGRVAMLAAVG-MLVTEEPIEYHPLF---------------EADNKDIGPAIRHLDEVRAVE------FLA-FAAFIGALEEFQQIEADYYPGD-VG-FDPLGLKP-KDS-------ADFAVMQTKELQNGRLAMLGAAGMIAQELQNG---------
+Cylindrotheca_fusiformis_AY125590_cffcpB3      LASLVATAAVFAPA-KQAATTTSLN--SFENELGAQ--------------------------------PPLGFFDPLGLV-AD----------GDQEKFDRLRYVELKHGRICMLGVVGYLVT--AAGIRLPGDIDYSG--------------TAFSDITYGW-EGS---QQVPVAGALQVFAFVGFLE-------GEFPGDFR--------------------EETKLQKRAV--------------------------------
+Cylindrotheca_fusiformis_AY125594_cffcpC       FAALIATAAAFAPA-KQAATTTSLN--SFESELGAQ--------------------------------DPLGFFDPLGLV-EN----------ADQAKFDRLRFVELKHGRICMLGVLGYLVT--AAGVRLPGDIDYAG--------------TKFADIGYGW-EGS---QQVPVAGALQIFAFCGFLE-------GEFIGDFR--------------------AETKLQKRAIELNNGRAAQMGMLGLMIHDKLGN---------
+Cylindrotheca_fusiformis_DQ060240_cffcpA1A     LASLVATAAAFAPA--KQASTSTALNNAFESELGAQ--------------------------------PPLGFFDPFGLLSGD----------ATEERFERLRYVEIKHGRICMLAFLGQITT--RAGIHLPGSINYAG--------------DSFDSYPNGV-AAVFGENHIPTAGIVQIISTIGILE------FAEFPGDFR--------------------EETKLQKRAIELNNGRAAMMGILGLMVHELII----------
+Emiliania_huxleyi_AY289120                     ----------------------------------------------------------DLKTLATGLNPVVGYWDPLKLG------EAEFWDNTNEETIGWLRHAEIKHGRVAMAGFVG-FIVQANGIKFPWAPF------N-----AITST--SPPEQWDQLPDAAK----------WQIILGVGFLE---------KPGYVPDLYDPLKWSNGASA-------EKKQKGLLTELNNGRLAMLGIMGFVSEAKVPG---------
+Emiliania_huxleyi_CX771537                     --------------------------FSPASDIGVT--------------------------------PPLGLFDPLNLLAR------------GPEVYRRSQELEIKHGRLAMAATLGVIVT--EAGIRLPGYLSISE-------------DIKFADQPGTLDGAY---FGTPLAGWVQIVAFIAALD----DPS-NDPGDVVQ---------------------TKAFKLNAERNNGRAAMFGIIGMISHTALGQ---------
+Emiliania_huxleyi_CX772211                     ----------------------------------------------------------LLTGGCPSQSQRELIMARMTLT-------------ERRAAVAKMREAEIRHARLAMLAAAGWPLSELLQG--------------------------------------------------------------GLGPAAPRLAGD-FG-FDPLGVMAEEGA-------YRRKELSANELFNGRLAMLAITGFAAQEFLWG---------
+Emiliania_huxleyi_CX772333                     --------------------------TRSSWHTRGQ--------------------------------GVGPAWPWRG-GVAV------------PPPLRRDQARPRVHGRLPWHDCWAQRALP-----AYAQLLSPSLG-------------LHFDDIPGGIAAID----SVPAAGWLQIIALVGVHE------------DYTK-------------GFKSEDPEVFR-KQLKELKNGRLAMIAVLGELMAQKVSG---------
+Emiliania_huxleyi_CX772408                     -------------------------------------------------------------------------------------------SQGNEATWGWLRHAEIKHGRVAMFAFVG-YIAQYNGLHFGFPLS------LP--ESPSYAAGLTPPEQWDALPLLAK----------AQIFTFIGFLE---------RPGDYPDLYDPFGFAGKRSE-------EQKAKGLLAEINNGRAAMIGIMAFLAEQKIPG---------
+Emiliania_huxleyi_CX774563                     -----------------HATRVAAP-MKAEGEIGVT--------------------------------PPLGVWTRW-LPRG-----------YPRRDYRRYVELEIKHGRIAMLATVGVLTT--EAGFRWPGYLSKSL-------------DLKFADLPGGCFDSY---NAVPALGWLQIVGFVIFLE----DPS-KEPGDVGG---------------------TKKFKLNAERNNGRAAMMGITGMMIHNALGV---------
+Emiliania_huxleyi_CX774638                     -------------------------------------------------------MSAADGMEGAAHETGFTTWDPLG-----------LADLGSPATLAFFRHAELKHCRVAMAAFTG-WLVAVSGVHFPGLCS------SEGISFEDISQ-LTPMEQWGAVPALGK----------AQILLAIGIIE---------KPGD-LKFWDPIGLTSKMDA-------KKLERQRLSEIKNGRLAMIGIVSVLIANNMPG---------
+Emiliania_huxleyi_CX774681                     --------------------------------------EALPFLVRRESLGPV-----------GALVG-DVGFDPLGFTEI--------------LPLAWLREAEIKHCRTAMLATFG-FAFTDF------------------WHFPG-----FD-YTTLEAHDAVIAQ-----GGMSQLLLWIGLLE-------GREPGDYG--FDPLGFA--D--------PAKKADLQMKELANGRLAMFAFGG-FVTQS--VLTGNT----
+Emiliania_huxleyi_CX775010                     ----------------------------------------------------------------------------FGFSVR------------NPERFNRYRAVELKHGRIAMAATTGYMVQ--SF-LRWPGYLSTSA-------------NIKFADLPNG-IAAF---KAIPPAGLFQILLFIGAME----VPEGKAPGDVAG---------------------EKAFKLNAEINNGRAAMMGSLGMLMHDHILG---------
+Emiliania_huxleyi_CX775827                     MLSFSAGSTTFAGASLRTAPLSRTLPVQMELSWTEY--------------------------------DG-AKWDPLKLA-------------KTPEKFEKLRYVELKHGRIAMLAFLGHAAA--AG-AHLPG--KLAG-------------DLAFADMPTGF-AAL---AATPPLGLLQMFLFVGFLE-------GEFPGDFR--------------------PQQKLEKRSKELNNGRAAMMGILGLMVHENLAG---------
+Emiliania_huxleyi_CX776411                     ---------------------------------------------------------AYVQTLPG-ISGPLGFFDPAGFCGDN----------ATLGKVKFYREVELKHGRVAMLASLG-FLVGEN---FHPLF-----------------GGNIDVPSYVAFQQTPLQV------FWPAVVFVIASLEEGWAIRADHEPGT-LG-WDPLGLAP-SDP-------AEFKAMQTKELNNGRLAMIAIAGMIAQELVTKT--------
+Emiliania_huxleyi_CX777192                     ---------------------------------------------------------LKVNGMVG-DCKPLGYFDPLGFSKDA-----------SPETMAKFREAELKHGRVAMLACAG-MITADK---FHPLF-----------------GG---KLSSNPLLAITQV----PKLGLLQILLFIGFMEILNSRRPDYEPGNFLG--------------------PTWDAYQLRELNNGRLAMFGAIGMLTHAYITGK--------
+Emiliania_huxleyi_CX777336                     ------------------------------------PSNAMPFLTAP-------------PCQSSKLPGAETGFDPLYLS--------------EFIDIKWAREAELKHGRICMLATVG-YIMQEF---------------------FSLPG-YP-GYTPNPIEAVSS----TPPEALAQIVLVLSIIE------PAREPGNLG--FDPLKF--GENK-------ETRERLAMAELKNGRLAMIAFSGMIHQTFVTGK-PLFASL-
+Emiliania_huxleyi_CX778736                     -------------------------------------------------------MALVDSMEGVGEETGGQIWDPLG-----------ISEAVSDEAVMWFRASELKHGRVAMLASVG-YLVGAAKISFPG--E------AKGVTFASVAA-NGPYQAWDAVPQAGK----------LQILSIILALE---------VPGKIEQFWDPLNFTGALSA-------EQKARKRKAELKNGRLAMIGIISFITGHNLPG---------
+Emiliania_huxleyi_CX779067                     -------------------------------------------------------ADEFAFGLPGG-DNILGNFDPAGFLEG-----------KSKGEVYRLREAELAHGRVGMLAATG-FLVQER---FHPLF---------------SGDG---GPAI---DQIPQLP------WIV-MTIGIGNAE-----------------FDPLNLAP-GNE-------KDLRLMQERELSHGRLGMIAAAGFLAQEAVTG---------
+Emiliania_huxleyi_DQ658248                     ----------------------------------------------------------GLEALAKKLNPTVGLWDPLGIA------------ETSPETIGWFRHAEIKHGRVAMAAFVG-YCVQSNGIHFPWNIQG---WQTPVVSFADIAAAGGPADQWDALSTPAK----------LQILGVIGFLE---------KPGYFPKLWDPFGFTSKMTP-------ERKEKALLAEVNNGRLAMIGIFGMISASKG-L---------
+Emiliania_huxleyi_EG030880                     ------------------------------------KSQALPFAERPAK-------------LD-GTLVGDVGFDPLGLSNI--------------LPIEWMREAELKHGRVCMLAVVG-YIVVD--KG---------------LRAPG-AEKLVAATSSFTAHDAAVQS-----GHMWALLLACGLFE------GDRKPGEFA--LTGG-FDRD---------AAKLERFKLAEIKHSRLAMMAFSG-LVTQD--ALSHGA----
+Emiliania_huxleyi_EG030976                     ------------------------------------KSQALPFMDAPAP-------------LD-GSMAGDKGFDPLNLSGS--------------FDIKWMREAELKHGRVCMLAWVG-YVAVD--NG---------------FYVP-----FAPHVSSLAAHDAAVKA-----GPMLGLLLAVGAIE------TDRRPGDFY--LDP--FNLC------------STPEKRIHAREGDLALPARDV-CIFRRGDPVCPHG----
+Emiliania_huxleyi_EG033467                     ------------------------------------------------------------------------------------------ED-ASAETLAWYRAAELKHSRVAMAAVTGWAWVSSGGPLFPGYLS------EQGVTFESLGR-DG-YAAWAAVPEAGK----------FQILGVIGILE---------TPGKVP-LWDPLGFTAKLSP-------ETLARKRLAELKNGRLAMIGVMSLVSAHFIPN---------
+Emiliania_huxleyi_EG357771                     -------------------------------------------LKKP-------------PALDGSMVGDVG--DPLGISTTI----------ELGGDLRYVREAELMHGRQAMLATVG-FVFPKLFGKLPVE-------------------WAKDIS-LNPLEAQYQ----IPPVALGQIAISIAIAE-----DPDYVVGDHG--FG-AGMLKGKSE-------AQVKDMKMKELAHCRLAMVAITGMFFQTAITG---------
+Emiliania_huxleyi_EG357835                     -----------------------------------------SVDSMIGKYS-----------------IKGTVYDPLDLASK--------------YDVNWLREAELKHGRVCMLAVAG-FLAND--AG---------------WGLPG----LDIKCSSIEAHDRMVES-----GHMWALLAVVGVCE-------DWEPGNYG--LDPFKLDSP----------------REAELKNGRLAMLAFSG-LVTQA--ALGHA-----
+Emiliania_huxleyi_EG357978                     -------------------------------------------------------PKIKTMMVGDGTLAGDMGFDPLQLA-------------DSPDKLAFYREAEVKHARLAMLAAFGWPVSEITN-----------------------------------------------------------------SKSPDYLPGM-LG-FDPLG--------------ADSQGMRAAEITNGRVAMVAITVFALEEALTR---------
+Galdieria_sulphuraria_AJ012759_lhc1            ------------------------------------WSKALPFMLWP-------------KNLDGTMAGDVG-FDPLGFTN--------------VFDVKWMREAELKHCRIAMLAALG-FMVQE--L----------------WTFPHP--YFSKVPP-VLAHDVYV-----KTGGMSQILLFVIFFE-------KREPGVFH--FDPLGL--GKD-------PDTFRKYEWSELRNGRLAMIAVGGFIHQYWVT-KQGIFEQL-
+Galdieria_sulphuraria_AJ276862_lhcr5           ------------------------------------MSKAIPFFPKP-------------ERLDESMPG-YAGFDPLGFS--------------DKFDVKFLQEAEIKHCRICMLAALG-WVFPEFW---------------------HLPSEV--FSNTSPLAALGQ----VPKFGLIQILLLVVALE-------EKEPGDFG--FDPLGLGKG----------KSKKWMQTAEIKNGRLAMIAMGAFFHQNLLTNQGVIE-QL-
+Galdieria_sulphuraria_AJ277213_lhcr2           ------------------------------------KSKAIPFLDRP-------------PALDGSMVGDVG-FDPLNISS--------------YLDLRWLRESELKHCRIAMLAVVG-WFVQEV---------------------FHLPNQIYSASDPTEAFWKTL-----ATGPMGQIVLWTSFFE-------GREPGYFG--FDPLGLGKNP---------QLYKRFQLSELKNGRLAMIAIGGLIHQSFLT-HMGAI-QQ-
+Galdieria_sulphuraria_AJ277285_lhcr4           ------------------------------------SP-SVPFLERP-------------QNLDGTAPG-DVGFDPLYIS--------------DLLDIQWLRESEIKHGRIAMLAALG-FIVQEF---------------------VHLPG-QV-FSNKVAVDAFFQ----VPRGGLWQIFLFIGLLE-------NRKPGDFG--FDPLGLGKD---------PQTRRRYQVAEIKNGRLAMLAVGGFIHHMFLT-HQGVVEQL-
+Galdieria_sulphuraria_AJ308253_lhc3            ------------------------------------QSRAIPFLKAP-------------PSLDGSMVG-DVGFDPLGFS--------------SIIDLRYLRESELKHCRIAMLAVVG-FIVQVFV------------------EFIHLPGD--VFSNPHPMQAIGQ----VPVAGWVQIFLLVAILE--------REPGYFG--FDPLGLAKDK---------QAHDRYLLSELKNGRLAMIASIAFMVQSSRSNEGIIA-QL-
+Giraudyopsis_stellifer_Z46920                  ---------------------------AFEDAEGAQ--------------------------------APLGFFDPLGLL-ND----------ADQERFDRLRYVEVKHGRISMLAIAGHLVQ--QN-VRLPGYLSISE-------------NIKFTDVPNGL-AAF---SKIPAAGIAQLVAFIGILE--------STPGDMNR-------------------EETQSRKRSIELNNGR-AQMGILALMVHEQLNG---------
+Griffithsia_japonica_AF517869_Gj446            ------------------------------------ASASVPFLERP-------------PKLDGSLPG-DVGFDPCGFS--------------NAFELNFLREAELKHGRICMLAILG-WVFPELVG--------------------HLPNEA--YSATNPLYAVGS----VGWLPIIQILAFIAICE-------CANPGNYG--FDPFGLTANP---------KTKQHYELAEIKNGRLAMCAIGGAIHHALLRNVGLVE-QI-
+Griffithsia_japonica_AF517881_Gj513            ------------------------------------SP-SVPFLPKP-------------KNLSEDMVG-YTGFDPLGLS--------------NLVDIKWLQESEIKHGRVCMLAVAG-ILAQEF---------------------VHLPD-PR-YANPLATEALNQ----VPSAALWQIFLFCGLAE-------GAVPGELG--FNPMNLKIS-------------DDMKLKEIKNGRLAMCAVGGFIHSMFIY-KTPIIAQL-
+Griffithsia_japonica_AY124024                  ------------------------------------ASESVPFLEKP-------------SKLDGTRVG-DTGFDPLYLS--------------DYIDLDYAAAAEIKHGRICMLATLG-MLVQ---------------------EVVHLPNA--AFSEPNPLKAIYA----VPIEGWVQIITVICLVE-----------GDLG--FDPMGLGTPD----------KIEELKLKEVKNGRLAIIACTGFIFQILVTGKPILA-QL-
+Guillardia_theta_AF268322_LHCC4                ------------------------------------GVNIIPIFPRP-------------ASLDGTAVGDQG-FDPFGFSS--------------WVNMKFVREAEIKHGRIAMLAFAG-IMVEA--AG---------------IKAPGVESVFGPTKDIFEIHNLAV-----EKGSMGQILLWTGFLE-------KRIPGDFG--FDPLGLGKG-----------SMARKQLSEIKNGRLAMLAVSGIVHHTLITGK-GPL----
+Guillardia_theta_AF268323_LHCC10               ------------------------------------TMQSNRFSYRSD-------------GLPQWDSEGAD-WAVNGG--LFGA----------VGDVIWAREAEVKHGRICMLAATG-SIVQD--L----------------YHFPFMDKWFKG-EKMWGLHDAAI-----KSGALWQVLFFIGLLE-------VDGTGDIG--FDPLGLKND---------PETFARRQVTEVKNGRLAMIAISGMTHHYFLTGK-GPI---E
+Guillardia_theta_AF268324_LHCC13               ------------------------------------PSMQDRFAYKT---------------SCGYDIEAPY-WAVNGG--VFGW----------P-DVIWAREAEVKHGRIAMLAATG-LIVQD--L----------------FTFPFYSKWYTG-EKVWALHDKLV-----KVGAAWQVLLFLFALE-------LDGTGDYG--FDPLGLKSD--------------RRAVTEIKNGRLAMIAFGGMMQHYLLTGK-GPV---Q
+Guillardia_theta_AJ821801_lhc1                 -------------------------------------------------------ALMARGDIDGNGVIDYAGFDPLNCA-------------TSMDALKNYREAELKHGRLAMLAAAGWPVSELVQPYLAKMLG------------------------------------------------------------ADYIPGD-LG-FDPLRLYTGKSE-------PVKRDLELKELNNGRLAMLAITAYAYEEFLTK---------
+Guillardia_theta_AJ821803_lhc3                 ------------------------------------FSESVPFLKQP-------------TNLDGSLPGDVG-FDPLGFSE--------------VFDVKVLREAELKHGRIAMLAVLG-WLVQES------------------YTFP----FFDKVSP-IEAHDLLV-----KSGGMSQILLWTSFLE-------TRYPGDFS--FDPLGLSAGKN-------EANLEKYQLAEIKHGRLAMIAFGGFAHQYFIT-KQGVFEQL-
+Guillardia_theta_AJ821808_lhc4                 ------------------------------------KSKAMPFLSQP-------------EKLDGSMPG-DVGFDPLGIS--------------TYFDLKWMREAELKHGRICMLAWTG-CLVQEV---------------------IHLPE-SA-EAKKLALDAWAS----APRGGMISILVAIGLIE------PARVPGDLG--FDPLSLGNNP-A-------TRAKYELS-EVIHGRAAMMGFSGVIHQMIVTKQPIIYSLL-
+Guillardia_theta_AJ821820_lhc7                 ------------------------------------MSEAIPFLEKP-------------KKLDSSMPG-YAGFDPLGFS--------------DYYDVKWLQEAEIKHGRICMLAVVG-MFHPEIA---------------------KLPQFA--SFSTNPLEAFYQ----LSFAGWLQIFVFIGICE-------DKAPGDLG--FDPLRLGSNP---------ASRKYYANAEVKNGRLAMIGFGGMLHHALLTKMGPFQ-QI-
+Guillardia_theta_AJ821831_lhc7                 -------------------------------------SKSIPFLKKP-------------AALDGTLAGDVG-FDPLGLSSVAD--------------VRFLAEAELKHCRLAMLAALG-AIVQD--I----------------FTFPGVSKVVGS-EKMTGVHDILV-----KQGAMGQILLWVSFLE--------RAPGDFK--FDPLGFGKNA---------QTRERYALAEVKNGRLAMLGFGGMVHGYFLTGK-GPI---E
+Guillardia_theta_EG720035                      ------------------------------------SQ-SVPFLPRP-------------AALDGKMVG-DVGFDPFGFS--------------SKYDIKWLRESELKHGRVCMLASLG-YIVQEF---------------------VHLPF-EA-TSNPVGSEAFYQ----VPAGGLWQIFAFIGAIE-------GRTPGNFG--FDPLGFGKN---------PQARARYELAELKNGRLAMLGFSGMIHGSFITGKGPINALL-
+Guillardia_theta_EG72369_EG719821              ------------------------------------SY-AVPFLSRP-------------PALDGTMAG-DVGFDPLGFS--------------NYFDLKWLREAELKHGRVCMLGTLG-FLVQEK---------------------FQLPL-PG-FGEKLPIEAFFT----VPTGGLWQIFFTLGAIE-------GRAPGDLG--FDPLNLSSD--E-------SALRRFELAELKHGRLAMIGLGGMLHQQLLT-KQPTLEQL-
+Heterocapsa_triquetra_AY826901                 ------------------------------------------FAGGLIGSKY-------------AGFG-EYAWDPAGFSTRYPEH------------LAWYRESELKHGRVAMLAFVG-LVVPDFVR---------------IPLEQFEDSGLDMVTA----HNKLIGP---GEGPMWWLLCVCGAIE------TLENAGDLN--FGKSFLPQT---------AEGKELMKTKELKNGRLAMMAVSG-IFTAGV--TWN-AHH--
+Heterocapsa_triquetra_AY826902                 -----------------------------------------------------------------VETN-GEIWDPLGFGKLYDRN-FDFNNVMTYPHAQYLRESEIKHGRVCMLAFVG-IVVQS-IVQIPGYPQ--------------EPDWLNALSACYASKVPTLGL--------VQMSVFFMLVE---------EPGDL--GFDPLKLTK-KPG------FD-LKKAQLQELKNGRLAMIAVAAFAANHVIPG---------
+Heterocapsa_triquetra_AY826903                 ------------------------------------------FAQGLIGAD--------------GAWG-RYEYDPAGLS-QWTEF------------VPYFREAELKHGRIAMLAWVG-LVVPDFVR---------------IPGERYSFEAIPNVLD---AHDKLNG----AVGVNFQILFWIALVE------SLETAGDYG--L-TGFFPAD---------EEGQKRMRLAELKNGRLA-MVAFGGAVTQ?------------
+Heterocapsa_triquetra_AY826905                 -------------------------LRAFENERG--------------------------------VQVPVGFWDPAGFTADG-----------DATNFARRRQTELKHGRISMLATMGYITP--EITGKLPGFLSPSA-------------GLKFADIPNGLGAIS----KVPAAGWAQIAAYMAFCE---------SPG---T-------------VLTSSDPAEKEKKLCAEIANGRLSMMAIIGMFFQDGLTG---------
+Heterocapsa_triquetra_AY826911_A               --------------------------FAPAAQIGAM--------------------------------EPLGYFDPLGFTSVG-----------DEEGFTKLRASELKHGRVAMMASIGLVGQHF---IKFPGFEKTPAG-------------LGALGTGEGIF------------GFVGIFLLSAVLE-----------------------------GLNMYNEE-MRMK---EISNGRMAMISVLGIFAAEIATG---------
+Heterocapsa_triquetra_AY826913                 --------------------------IDVTKELG--------------------------------VQAPVGFWDPAGFCDDI-----------DEMGFKRLRSSELKHGRLAMMATIGYIWP--ITLGHLPGYLSPSA-------------SLKFSDIPDGLGAIS----KVPNAGWIQILLFASMIE--------SIEEWKTR-------------FGPVTDAGKKERSLNSELANGRLAMAAITGMVLQNGITG---------
+Heterocapsa_triquetra_DT382892                 -------------------------LRAFENERG--------------------------------VQAPVGFFDPIGYTKDG-----------DMAKFKRRRAVEIKHGRTPCWPPWATSPR--EITGKLPGFLSTSA-------------GLKFADIPNGLGAIS----KGAGCGLGPIAAYMAFCE-------VSQ---------------------TSRR-------ALR----------------LPRVT-----------
+Heterosigma_carterae_X99697_Fcp1               AAALMGASAFVAPNKMGVAKSSSALKMSFENEIGVQ--------------------------------APLGFWDPLGLL-DE----------ADQERFDRLRTVEIKHGRISMLAILGHLVT--TAGVRLPGAYDLAG--------------DQFSSLPTGL-KAL---SALPAAGVAQTIGFIGLIE--------ELEADCE--------------------DEKKDSKRAIELNNGRAAQMGILALMVHEQLDN---------
+Isochrysis_galbana_DQ118573                    -----------APMVSRPALSNVRMTAITPGDVGTT--------------------------------KPLGVYDPLGLMTT------------MPDKYRRFQEMEIKHGRISMAAVLHVILT--EAGVRWPGYLSFAE-------------DIKFSDMPGGTWASW---AALPNLAWAQIVLIVALLD----KPD-KAPGDIIP------------------GFSGKEFKLNVERNNGRAAMMGIIGMMIHESLTG---------
+Isochrysis_galbana_DQ118574                    -----------ALAPMRAPVP--RMSAIQVGDVGTT--------------------------------RPLGVFDPLGLMTK------------MPEKYRRFQEMEIKHGRIAMLAVFHVIWT--GSGHKWDGYCSYLSFP-----------PLKFEDIPAGTLGSW---AALPQAGWAQIVAVVAILD----DPN-REPGDVVG---------------------VKFFKLNAERNNGRAAMMGIIGMMVHESLTG---------
+Isochrysis_galbana_DQ118577                    -------------------------------------------------------MALVDKMEGVGPETFGKVFDPLG-----------ISSSVSDEAVMWFRHSELKHGRVAMAATVG-CLVSKLGITFPG--D------ANGVPFASVGA-GGPFAAWDAVPTAGK----------LQLFLFIGALE---------VPGKIDPFWDPLNTMGALTE-------EQKATKRKSELKNGRLAMIAIISFISAHYIPG---------
+Isochrysis_galbana_DQ118578                    -------------------------------------------------------M-GVADMEGVGPETANKIFDPLG-----------FSN-ASPETLAWYRAAELKHSRVAMTAVTGWAWVSSGGPLFPGYLS------SEGVTFESLGR-DG-YAAWDAVPEAGK----------LQIIGTIGILE---------IPGKVP-LWDPLGYTARLSP-------ETLATKRVSELKNGRLAMIGVMSLVSAHFVPG---------
+Isochrysis_galbana_DQ118579                    ----------------------------------------------------------TKEALAEKLNPAIGYFDPIGLG------TADFWSQGNAATYGFLRHSEIKHGRVAMAAFVG-FCVQSNGIHFPFDLQ------GGGVAQAQYAAGLSPPEQWDALPFAAK----------AQIIAFVGFLE---------QPGKYPELFDPLGLSKGLTA-------DQKETKLCAEINNGRLAMIGIFGFLAAEKIPG---------
+Isochrysis_galbana_DQ118580                    --------------------------------------------------------PEFCYGLPGG-KNILGEFDPAGFTKG-----------KSQPEVYRYREAELTHGRVSMLASLG-FIIQEK---FHPLF---------------SGDG---GPAI---QQIPQLP------WLV-LTVGIGAAEAETALRDGYQPGD-LA-FDPLGLAP-EDP-------EEFALMQEKELSHCRLAMIAASGFLAQEAVSG---------
+Isochrysis_galbana_DQ118581                    --------------------------------------------------------SEFCYGLPGN-IAPAGDFDPANLLDG-----------TSEEEVYRWREAELTHGRVGMLAAAG-FLVQEN---FHPLF---------------SGDG---GPAI---EQIPGLP------WFL-MTLGIGVVENVQRLKPGYEPGD-LG-FDPLGLMP-DDP-------DELRTMQERELSHGRLAMLAAAGFLAQEGVSG---------
+Isochrysis_galbana_DQ118582                    --------------------------------------------------------QPFCKGLPGA-ISPLGEFDPLGFSND-----------VDVLEVNRLREAELAHGRVGMLAAAG-FLVQEK---FHPLF---------------GADG---GPAI---NQIPALP------WFG-LTAAIAAAENFQQLKPDYVPGD-LG-FDPLGLAP-DDA-------DDFRAMQEKELSNGRLGMIAAAGFLAQEAVTG---------
+Isochrysis_galbana_DQ118583                    ---------------------------------------------------------AKIKGMVG-DSAPLGFFDPFGFSKEA-----------SPASMAKFREAELKHGRVAMLASAG-MITADK---FHPLY-----------------DG---KLSSNPLLAISQV----PKLGLLQIVLFIGFMEILNSRRPDYQPGNFLG--------------------ASWDDFQVRELNNGRLAMFASIGMLTHSSITGK--------
+Isochrysis_galbana_DQ118584                    ------------------------------------YSQSMPFLVKRKT-------------LD-GYVG-DIGFDPVGFSEI--------------LPMDWLREAELKHCRVAMLATVG-FVFTDF------------------FHISG-----FD-FTTLEAHDACVAS-----GAMSQLLLWLGLLE-------GRAAGDFS--FDPLGFG--D--------PAKMATLQMKELANGRLAMFAFSG-MVTQS--VLTGND----
+Isochrysis_galbana_DQ118585                    ------------------------------------PSKAVPFLSAP-------------PCQSSKLAGAETGFDPLYLS--------------EYIDIKWAREAELKHGRICMLAATG-YFFQEF---------------------LALPG-FP-GYTPNGIEAATS----VSPESLAQIVLFMSVVE------PKREPGNLG--FDPLHF--GDNK-------ASRARLEMAELKNGRLAMLAFSGMIHQTLVTGK-PVWASL-
+Isochrysis_galbana_DQ118586                    ------------------------------------KSQALPFLEAPAK-------------LD-GSMAGDRGFDPLNLAGS--------------FNLNYMREAELKHGRICMLAWVG-YVAVD--NG---------------FYVP-----FAPHVSSLAAHDTAVKS-----GNMLLLLGAVGVIE------TDRRPGDFS--MDP--FGQA------------DKTMLEKEISHCRLAMFAFSG-VVTQS--ALAGHG----
+Isochrysis_galbana_DQ118587                    -----------------MRSGALAMSSPYENELGVI--------------------------------QPTGFFDPLNLSSDI-----------DEDTFAQYRTAELKHGRVAQLAVIGYVVP--EF-YRFPGEIAPG---------------IKFADVPNG-VAAID---AIPTLGWAQIIFLIGAVD-------G-FLGDFDA-------------------------RQLCELQHGRLAMIAFLELLRHNSQNY---------
+Isochrysis_galbana_ISL00000009                 ----------------LMPSRSSGASMRAEGEIGVT--------------------------------PPLGVYDPLGLLAT-----------YPRRDYRRYVELEIKHGRIAMLATVGVITT--EAGFRWPGYLSKSL-------------DLKFADVPGGCFDSY---NAVPALGWLQIVLFVVFLE----DPN-KEPGDIGG---------------------TKMRKLNIERNNGRAAMMGILGMMTHNALGV---------
+Isochrysis_galbana_ISL00000011                 -----------FLDVTGKPYKEVNTFIPAYDEIGVV--------------------------------PPIGRWDPLQIREQ------------GPDRYRRFVEMEIKHGRMAMAAFLGVITT--YSGMRWPGYLSTSE-------------NIKFSDIPGGAIASW---AALPTSAWLQIVIFISALE----DPE-KAPGDVVP------------------LFLGKTWKLNAERNNGRAAMMGITGMVIHEALTG---------
+Isochrysis_galbana_ISL00000222                 --------------------------DP---IFGGT--------------------------------PEGKIFDPLGFGADE------------GSLYRR-RCVEIKHGRVCMVAFLGMTVGPNELFAPSHQLLSPSLD-------------LYFDDIPGGIAAIE----AVPAAGWFQILAVVGIHE------------DYTK-------------GFKPDDPEVFRNKQLKELKNGRLAMIAVLGELMAQQVSG---------
+Isochrysis_galbana_ISL00000652                 -------------------------------------------------------LATALALLSSACVRQCLSSAPCGGT---------LAHMLSDDSVLFCRHAPSTHAQVAMAAFTG-WLVAVSGVHFPGLCS------SEGVSFEDISK-LTPLEQWTAVPMLGK----------AQILLAIGIIE---------QPGN-LKFWDPVGFTSKLSA-------AKLERQRLSEIKNGRAAMIGIISVLIAHNVPG---------
+Isochrysis_galbana_ISL00000731                 ------------------------------------RSASIPFLKKP-------------PALDGSMIGDVG-FDPLGFSTTI----------ELGGDLRYVREAELMHGRQAMLAAVG-MVFPKVFGKLPAP-------------------WAESVS-TNPLEAQYQ----LPPVVLGQIAVSIFIAE-----DPSYVVGDHG--FG-SKFLNGKSD-------AQVADMKLKELNNGRLAMIAVTGMFFQIAIKG---------
+Isochrysis_galbana_ISL00001344                 -------------------------------------------------------PLTSTMRVGDNTLAGDFGFDPFQLA-------------ESPERLAYYREAEVKHARLAMLAAAGWPMAELLNKPLSDALG---------------------------------------------------------KRDPKYIPGM-LQ-FDPLG--------------MDSPTMRNAEITNGRIGMIAITAFALEEFVFK---------
+Isochrysis_galbana_ISL00001475                 -----------------------------------------DVNSMLGKYS-----------------VKGIVYDPLGLASK--------------YDVNWLREAELKHGRLCMLAFAG-FLAND--AG---------------WGIPG----LNIKCASIDAHDKMVAS-----GHMWALLAFVGICE-------DYRPGNYG--LDPLKLDTP----------------REAELKNGRLAMLAFSG-VITQA--ALGHT-----
+Isochrysis_galbana_ISL00001514                 ---------------------------------------------------------FSVKDLPG-ISGPFGFFDPLGFCEG-----------ASEGKIKFYREVELKHGRVAMLAALG-FLVGEQ---FHPLF-----------------GGSIDVPSYIAFQETPLQT------FWPAVVVAISVMEEPWSVRSDYESGD-LG-FDPLGLKP-TSA-------AEYKEMATKEINNGRLAMFAIAGMIGQELATGA--------
+Isochrysis_galbana_ISL00004541                 ------------------------------------KSQSLPFLEKPVN-------------LD-GSMAGDVGFDPLGLSNY--------------FPLAWMREAEIKHGRVCMLAIVG-YIAVD--FG---------------LRAPG-AAKLGSLTS-FSAHDATVAS-----GHMWALLGVAGIAE------SGRAPGDFA--FDGG-FAKD---------AAKLERFKLSEVKHSRLAMMAFSG-LITQD--ALANGG----
+Isochrysis_galbana_X77333_IGFcp1               --------------------------------------------------------DEFAYGLPGG-ANILGEFDPAGFLKG-----------KDKLEVYRLREAETTHGRVAMLASLG-FVVQEK---FHPLF---------------SGDN---GPAI---EQIPQLP------WIV-MTIGIGRAEADSALREGYEPGD-LG-FDPLGLAP-SDP-------DEFRLMQEKELSHGRLAMIAAAGFLAQEAVSG---------
+Karenia_brevis_CO063314                        ---------------------------------------------------------FDVKDLAG-ITEPFGFFDPLGLSEGV-----------SEGRLRFYREVELKHGRLGMLAALG-FLVGEQ---WHPLF-----------------GGDIDVPAYLAFQQTPLEK------FWGLVVAAISVNEEPWSIRSDHEPGN-LL-FDPLKLRP-EDP-------KEWLEMQNKELNNGRLAMLAAAGMIAQEYVTGE--------
+Karenia_brevis_CO064441_CO061242               --------------------------------------------PERQAD-VRMETLDDLIKLAEENPGPFGYWDPLKLA------EKEFWGQSNEATIGFLRHAEIKHGRVAMAGFVG-YCVHENGIHCPWKLS------KALPDYSTFEG-LSAPAIWDATPQGGR----------LQILAVIGFFE---------KPGYFPTLFDPFGFTQRIVG------------------------------------------------
+Karenia_brevis_CO064464                        ----------------------------------------------------------DLEVLAKQLNPFVGFWDPLQIA------NYDQFRKGEEASVGFLRHAELKHGRVAMAAFIG-YIVQANGFFWPGKLT------LAGKTFADISAAGSPPDQWDALPTGGK----------LQILLFIGLLE---------KPGSYPPLFDPFDLQKDMTP-------ERKEKALLAEINNGRLAMLGIM-LPC---------------
+Karenia_brevis_CO065025                        --------------------------------------------HVRHAD-ARMETLDDLKTLAVEQNPVVGYFDPLKLA------EGEFWGQSNEATIGFLRHAEIKHGRVAMAGFVG-YCVHENGIHWPWKLS------TSLPDYSSFQG-LSAPAVWDATPQAAR----------LQILIIIGFFE---------KPGYF-T-------------------------------------------------------------
+Karlodinium_micrum_DQ118610                    ---------------------------------------------------------SPIADWAG-VTAPLGFFDPVGFSNDI-----------SEGRQRFYREVELKHGRLAMLAALG-MLVAEQ---FHPLF-----------------GGEIDVPAILAFRETLLEA------IYIAVLFSIFIPEEPWSIREDHEPGN-LG-FDPLGLKP-KDT-------SEFKEMQTKELNNGRLAMLGAAGMIAQELVKTD--------
+Karlodinium_micrum_DQ118611                    ---------------------------------------------------------FDLEEQAG-VTAPLGFFDPVGFSEDL-----------SEGRARYYREVELKHGRLGMLAALG-FLVGEN---FHPLF-----------------GGDIDAPAYLAFQQTPLET------FWGIVVAAIASLEEPWSIRSDHVPGD-LG-FDPLNLKP-TDP-------EELKTMQTKELNNGRLAMLAAAGMVAQELATGN--------
+Karlodinium_micrum_DQ118614                    ---------------------------------------------------------LDAEDLAG-VTAPLGFFDPAGFLTDK-----------TAGKVRFYREVELKHGRLGMLAALG-FLIGEN---FHPLF-----------------GGDIDAPGYLAFQQTPLQT------FWPAVVTAIAILEEPWSIRSDHVPGD-LG-FDPLNLKP-TDA-------EELKTMQTKELNNGRLAMLAAAGMIAQELAT?---------
+Karlodinium_micrum_DQ118615                    ---------------------------------------------------------FDIKQLAG-VTAPVGFFDPVGFTTDK-----------SEGKIRFYREVELKHARLGMLAALG-FLVGEN---FHPLF-----------------GGNIDDAAYLAFQQTPLQT------FWPAVVTAIAILEEPWSIRSDHMPGD-LG-FDPLNLKP-TDP-------EELKTMQTKELNNGRLAMLAAAGMIAQEFATGQ--------
+Karlodinium_micrum_DQ118616                    ---------------------------------------------------------FDIKDLAG-VTAPLGFFDPVGFTEGK-----------SEGKIRFYREVEIKHGRLGMLAALG-FLVGEN---FHPLF-----------------GGDIDVPAYLAFQQTPLQA------FWGAVMLQIAILEEPWSIRSDHIPGD-LR-FDPLNLKP-TDP-------K?---------------------------------------
+Karlodinium_micrum_DQ118621                    -------------------------------------------AAPRTGN-ADMSALDELIELAESTPGPVQYWDPLGLS------EMDFWGAGNDATIGFLRHAEIKHGRVAMAGFVG-YCLHENGIRWPFPLS------SSLPDYSSFEG-LSAPDVWDATPLAAR----------LQIIAVIGFFE---------KPGQFPALFDPFGFTADLSE-------EELATKRLREVQNGRLAMIGLFSLISEARVPG---------
+Karlodinium_micrum_DQ118623                    --------------------------------------------VSARSS-VRMETLSDLKDLAKSQNPVVGYFDPLNLA------EGEFWEQSNEATIGWLRHAEIKHGRVAMAGFVG-YCLHENGIRWPWPLA------TSLPDYSSFEG-LSAPAVWDAIPTASK----------VQILLVIGFFE---------KPGYFPTLFDPFGLTKKLSE-------EQKAKKLNAEVNNGRLAMLGLMSLISEAKVPG---------
+Laminaria_digitata_AW401184_AW401128           APGLRDPQRLQRCRADHLGQVLFRHEDVLRIRDRRP--------------------------------GPPRLLGPARPL-GD----------ADQERFERLRYVEVKHGRIAMLAIVGHLTQ--QN-TRLPGMLSNSA-------------NLSFADMPNGV-AAL---SKIPPAGLAQIFGFIGFLE--------SFPGDFTI-------------------EETQNSKRAIELNNGRAAQMGILALMVHEEINN---------
+Laminaria_digitata_CN467240_CN466737           AQAFVAPSAFNGAALTTSAKSSSAMKMSFESEIGAQ--------------------------------APLGFWDPLGLL-AD----------ADQERFERLRYVEVKHGRIAMLAIAGHLTQ--QN-TRLPGMLSNSA-------------NLSFADMPNGV-AAL---SKIPPAGLAQIFGFIGFLE--------SFPGDFTI-------------------EETQNS-RAIELNNGRAAQMGILALMVHEELNN---------
+Laminaria_japonica_DQ250739_lhcf6_A            AQAFVAPSAFNGAALTTSAKSSSAMKMSFESEIGAQ--------------------------------APLGFWDPLGLL-AD----------ADQERFERLRYVEVKHGRIAMLAIAGHLTQ--QN-TRLPGMLSNSA-------------NLSFADMPNGV-AAL---SKIPPAGLAQIFGFIGFLE--------SFPGDFTI-------------------EETQNSKRAIELNNGRAAQMGILALMVHEELNN---------
+Laminaria_japonica_DQ250739_lhcf6_B            AQAFVAPSAFNGAALTTSAKSSSAMKMSFESEIGAQ--------------------------------APLGFWDPLGLL-AD----------ADQERFERLRYVEVKHGRIAMLAIAGHLTQ--QN-TRLPGMLSNSA-------------NLSFADMPNGV-AAL---SKIPPAGLAQIFGFIGFLE--------SFPGDFTI-------------------EETQNSKRAIELNNGRAAQMGILALMVHEELNN---------
+Laminaria_saccharina_AF226858_lhcf2            HACFAFHSAFNGAALTTSAKASSAMKMSFESEIGAQ--------------------------------APLGFWDPLGLL-AD----------ADQERFERLRYVEVKHGRIAMLAIAGHLTQ--QN-TRLPGMLSNSA-------------NLSFADMPNGV-AAL---SKIPPAGLAQIFGFIGFLE--------SFPGDFTN-------------------EETQASKRAIELNNGRAAQMGILALMVHEELNN---------
+Laminaria_saccharina_AF226861_lhcf5            AQAFVAPSAFNGAALTTSAKASSAMKMSFESEIGAQ--------------------------------APLGFWDPLGLL-AD----------ADQERFERLRYVEVKHGRIAMLAIAGHLTQ--QN-TRLPGMLSNSA-------------NLSFADMPNGV-AAL---SKIPPAGLAQIFGFIGFLE--------SFPGDFTN-------------------DETQASKRAIELNNGRAAQMGILALMVHEELNN---------
+Laminaria_saccharina_AF226862_lhcf6            AQAFVAPSAFNGAALTTSAKSSSAMKMSFESEIGAQ--------------------------------APLGFWDPLGLL-AD----------ADQERFERLRYVEVKHGRIAMLAIAGHLTQ--QN-TRLPGMLSNSA-------------NLSFADMPNGV-AAL---SKIPPAGLAQIFGFIGFLE--------SFPGDFTI-------------------EETQNSKRAIELNNGRAAQMGILALMVHEELNN---------
+Lingulodinium_polyedrum_BP742312               -----------------------------ENELG--------------------------------VQAPLGFWDPAGFTADG-----------DVENFKRRRNTEIKHGRISMLATMGYITP--EITGKLPGYLSPSA-------------GLKFADVPNGLAAIS----KVPAAGWAQIIAYMAFCE---------SPEF--K-------------VLTSSDPAEKTKKLNAEIANGRLSMMAIIGMFFQDGLTG---------
+Lingulodinium_polyedrum_BP743285               -------------------------LRAFESELG--------------------------------VQPPVGFWDPLGLSKDG-----------DVATFNRRRATEIKHGRISMLATMGYITP--ELTGKFPGYLSPSA-------------DLKFEDVPNGLAAIS----KVPGFGWFQIVAYCLYCE----------YNED-Q-------------LLATDDAELKKKRLNAELANGRLAMMAIIGMFFQDGLTG---------
+Lingulodinium_polyedrum_BP743367               -----------------------------------------------------------SMVGSDVEIGDGKAWDPLGFGKLFDRN-FEMNMVMVYPHVQWLREAEVKHGRICMIAFVG-MVVQK-FVTIPGLPV--------------EHDWTKALAACYEDKNATLGI--------IQISLFTMLVE---------EAGDY--GFDPLKLAK-KPG------FD-LKTAQLKELKNGRLAMIGVASMAAAYSIPG---------
+Lingulodinium_polyedrum_BP743813               --------------------------FNPAKEVGAL--------------------------------APLGYFDPLGFCSVG-----------DEGGFSKLRAAELKHGRVAMMASVGLLGQHF---LKFPGFEKTPAG-------------FGAIATGEGVF------------GMLGLFIASAVME-----------------------------GVKMYTED-MRNK---EISNGRFAMICVFGIFAAEMVTG---------
+Lingulodinium_polyedrum_CD809390               -----------------------------------------------------------------------------------------------------RREVEIKHGRVSMFATIGYIIP---EYVKFPGYLSPST-------------DLKFEDVPNGLAALS----KVPVAGWGQIVAFIGFIE-----YGE--PG---N-------------SSSIPDPALREKKLSAELANGRLAMMAIIGMFFQDGLTG---------
+Lingulodinium_polyedrum_CD809793               --------------------------FAPAEQVGAM--------------------------------APLGFFDPLGFTKVG-----------DEEGFRNLRTAELKHGRVAMMAALGGVAQHY---IKFPGFESVPSG-------------VAAVATPPGTY------------GFVALFLLSGALE-----------------------------GLGMYDEE-TRNK---EINNGRFAMFAAIGIISAELLTG---------
+Lingulodinium_polyedrum_CD809920               --------------------------FDPATQVGAT--------------------------------EPLGYWDPAGFSKTG-----------DESGFRNLRAAEIKHGRVAMMAAAGAVAQHF---IKFPGFEKVPAG-------------LAAALTPPGSY------------GLILLFALAGGLE-----------------------------GLGAYDTE-TRNK---ELNNGRAAMFCRHRHHRC?-------------
+Lingulodinium_polyedrum_CD809947               ------------------------------------RSASVPYLMYPAQ-------------LD-GFVGCEKGFDPLRVTE--------------ALPVYLCREAELKHGRVCMLATVG-WIATD--LG---------------VRFPG---EMFAKSTTVSAHDDMVAA-----GIMGPMLATVGVLE------IERDAGDYF--LGKNFLPKTE---------DGAREMKLKELENGRLAMFAFSG-IVTQA--VLTGKS----
+Macrocystis_pyrifera_U10065_pfcpa              APGLRRPSAFNGAALTTSAKSSSAMKMSFESEIGAQ--------------------------------APLGFWDPLGLL-AD----------ADQDGFERLRYVEVKHGRIAMLAIAGHLTQ--QN-ARLPGMLSNSA-------------NLSFADMPNGV-AAL---SKIPPAGLAQIFAFIGFLE--------SFPGDFTL-------------------EETQASKRAIELNNGRAAQMGILALMVHEELNN---------
+Macrocystis_pyrifera_U10069_pfcpe              APGLRGAEPFNGAALATSAKSSSAMKMSFESEIGAQ--------------------------------PPIGFWDPLGLV-AD----------ADQERFDRLRYVEIKHGRIAMLAVVGHITQ--QN-TRLPGMLSFKE-------------NLAFADSPNGV-AAF---SKIPPLGTLQIILAIGCHE--------SFPGDCTT-------------------EETQASKRAIELNNGRAAQMGILAMMVHEQLSN---------
+Mesostigma_viride_MVL00002413                  ----------------------------------------------------------AG--LPGKSAPFGDGFDPLNFLGG-----------KTTAEIKMLRESELVHGRVAMLATLG-FVVGETFNPL--------------------FGGSITGPAINQFQQVPQP-------FWELVVLAIGLAE-FSVLKESYTPGT-LG-YDPLGLKP-TNS-------KELDEMATKELNNGRLAMIGIAGMVVQELITQ---------
+Micromonas_sp._MSL00000056b                    ----------------------------------------------------------TQAGIVAGCAPFPEGVDFFGFYNG-----------IDEKEAQRYADVEITHGRIAMLASLG-FLVGEQVEGSAFLF-----------------DANITGPAIDHFQQVPGT-------FWGLLGAVIFTIEKLFLLKDDYTPGD-YN-FDPLKLSAGKDD-------VWLNDMKLKEVNNGRVAMVAISGMVAQELVNG---------
+Micromonas_sp._MSL00000740                     ----------------------------------------------------------VDAGLIQGVAPFPEGIDVFGFFND-----------IDQAEAQRYADVEITHGRLAMLASVG-FLVGESVEGSSFLF-----------------DSQVTGPAINHFQQVPLP-------FWLGLGALIFIVERLGLMKDDHTPGD-YG-FDPLGLSKGKDE-------EWLDIHRLRELNNGRLAMVAITAMVAQELNTG---------
+Odontella_sinensis_X81054_FcpA                 AALLAGSAAAFAPA--QSGKASTALNMAFESELGAQ--------------------------------PPLGFFDPLGML-AD----------ADQERFDRLRYVEVKHGRIAHVAFLGQIVT--RNGIHLSGNIDYAG--------------NSFDSFPNGW-AAISGPDAIPQAGLLQIVAFVGILE------EGEFPGDFR--------------------EETKLSKRAIELNNGRAAMMGILGLMVHEQLG----------
+Odontella_sinensis_X81055_FcpB                 AALLAGSAAAFAPA--QSGKASTALNMAFESELGAQ--------------------------------PPLGFFDPLGML-AD----------ADQERFDRLRYVEVKHGRIAHVAFLGQIVT--RNGIHLSGNIDYAG--------------NSFDSFPNGW-AAISGPDAIPQAGLLQIVAFVGILE------EGEFPGDFR--------------------EETKLSKRAIELNNGRAAMMGILGLMVHEQLG----------
+Ostreococcus_lucimarinus_7949                  ----------------------------------------------------------TAAGLVGASAPFPEGLDVLGFCNG-----------IDGASLQRYREAELTHGRVSMLATVG-FLVGEQVEGSSFLF-----------------DAQVTGPAVNHFQQVPTP-------FWFAIGATIAIAEKLFLLKDGYTPGD-LN-FDPLGLGRGKSE-------EELDELRLKELNNGRLAMISISGMIAQELVDG---------
+Ostreococcus_tauri_6427                        ----------------------------------------------------------TAAGLIGASAPFPEGLDILGFCNG-----------VDGATLQRYREAEVAHSRVCMLATVG-FLVGEQVEGSSFLF-----------------DAQVTGPAVNHFQQVPLP-------FWFAIGSVIAIAEKLFLLKDGYTPGD-LS-FDPLGLGNGKSA-------EELDALRLKELNNGRLAMIAISGMVAQELVDG---------
+Pavlova_lutheri_PLL00000003                    AQIAVAALAFSAPALRSRTPARSQAVMTFEEEIGVV--------------------------------APLGFYDPLGLL-DN----------ADEERFERLRYVELKHGRICMLAVLGHIVT--AAGIRLPGEISFG---------------LPFADVPAGL-KAL---EVVPAAGLAQIVAFVGFLE------EGEFPGDFR--------------------DETKEQKRNIELNQGRAAQMGILALMVHEKLDN---------
+Pavlova_lutheri_PLL00000004                    ------------------------------------KSRALPFLEAPPA-------------LD-G-LIGSQGFDPLKCSTY--------------VSTKWLVESELKHGRICMLATAG-WIATD--LG---------------VRFPG--AAYQVGP--LAAHDAMVAK-----GDMLVLFIAASLFE------TPAKPGEYF--FDPLNLGKG-----------NAERMQLAEIKNGRLAMLAFSG-IVTQA--ALYGKP----
+Pavlova_lutheri_PLL00000019                    ------------------------------------KATKAPKPQAD-------------YGISGGFLESGGVYDPLNYAA-------------GKD-INRLRSVELKNGRICMLATLG-YVVQEVYS-W--------------------PNDQGYFDGSNPITTFAT----VPVFGVLQILLVCGLIE-----WQTREPGDIG--FDPLGLAKNGIN----------PAYADAELKHARLAMVGWLGFVTQSLVTGKGVLATTFD
+Pavlova_lutheri_PLL00000092                    -----------------------------------------------------------DLPGASIELG-GKPWDPLGFAKLNALP-TGS-GPASNPSLKWLREAEVKHCRVAMLAFLGTAFQTF-GPHLPGAAFS-------------EPDWFKASYTFSAQN--PGGA--------AQILLGIAIIE---------AAGAL--GFDPLGLSKGLPK-------AKADEMQLKELKNGRLAMIACAALASSKLIAG---------
+Pavlova_lutheri_PLL00000098                    ---------------------------------------------------------PQIKSDAG-VSAPFGYFDPAGLMSNG-----------QQADYARYKEVEIKHGRLAMLAATG-FVVGEQ---FHPLF-----------------GGNIDAPSAFAFQQTPLQT------FWPLVVAAIGLVEALWKMKAGRVPGD-LG-FGGAAKAK-SDP-------AGFKGMQTREINNGRLAMLAVAGMTAQELVTGQ--------
+Pavlova_lutheri_PLL00000288                    --------------------------------------KSIPFVKAP-------------PALDGSMPGDVG-FDPLGISTTI----------ELNGDLKYVREAEIVHGRVAMLAAAG-FIFPEIFK-------------------------FREYS-SRALEAQAQ----VPVEVWSQIFIGIAIAE-----DS--VPGSHG--FDPLGFKSKFGG------AEGYKTLQLKEIKNGRLAMMAVAGMFTQQLLTG---------
+Pavlova_lutheri_PLL00000387                    ------------------------------------S-AAIPFVAKP-------------KNLNGELLCDIG-FDPAGFTN-K----------ASPEKIAKFREAELKHGRVCMLAVLG-FVAQELIA----------------------PYQAAPFNEVNPINAIAA----VPALGILQIIVLCGIIE-----YAGRIPGDIG--FDPLGLSAGGIK----------EDWAIAEIKHGRLAMIAFLAFQVQIKVSGESVLSTTFD
+Pavlova_lutheri_PLL00000398                    ---------------------------------------AVPFLEKA-------------SKLGKGMLG-DVGFDPLYLS--------------ESMDLKWLREAELKHGRVSMLGVVG-LVVPEF---------------------VRLGG-PY-YDSPNPIEAFAK----VPVEAWAQILLAIGIFE------PARVPGKVG--FDPLRM--GGS-----------TDLELKELKNGRLAMLAFGGMLHQVFITGH-PVLQGF-
+Pavlova_lutheri_PLL00000435                    ----------------MKTVAKVASSSAYANALGVI--------------------------------EPTGFFDPAGLSNGI-----------DQATFDQYRTAELKHGRVAQLAVLGYIAP--EI-YRFPGDIAPG---------------ITFASIPNG-VAAID---AIPALGWAQIIFLIGAVD-------G-FLGDFDA-------------------------RQLQELQHGRLAMLAFLELLRHDSQNY---------
+Pavlova_lutheri_PLL00000672                    ---------------------------------------------------------VAVKDMVG-VSAPLGYFDPLGFAK-------------NPEKVNYLREAELKHGRTAMWAVLGWMTTASG---FHPLI-----------------DGLKIAPGATPLADAANM----PGATWFQIIAFVSVVELILQKNPNYKPGDLLG--------------------LGWKRYQLAELNNGRLAMMGFAGLVAESLIFNH--------
+Pavlova_lutheri_PLL00001579                    ---------------------------------------MVTLESLPGKYA-----------------LGG-VFDPLGLGEK--------------GDVVWLREAELKHGRVAMLAVVG-YIVND--LG---------------IHFPGE---QYAGISSLAAHDAMLKT-----GNMQQLLYAVIVCE------SDYKIGSFE--LDPLNMANE----------------RLAEIKNGRLAMFAISG-ILTQS--ALTHGG----
+Pavlova_lutheri_PLL00003241                    -------------------------------------------------------------------------------ANA--------------QTLPWMIEAELKHGRVCMLAVLG-WVAVD--LG---------------FHFPS--------TTSRGSPR-PRTT----RSSLATCSASSSLRR------TARCRATSA--LTRCHFKGS------------YVKLQVNEIKNGRLAMLAFSG-IVTQA--ALTGKG----
+Phaeodactylum_tricornutum_10243                -------------------------------------------------------------------MPGDVGFDPFGFV-------------DSEASLVSFREAEIKHARLAMLAAAGWPLSELFDRQFASWLD-----------------------------------------------------------DPDYFPGK-LG-FDPLGLYP-STT-------TGKRRMELAEIKNGRLAMIAITGFAFQEFVQQ---------
+Phaeodactylum_tricornutum_11006                ------------------------------------MSKSMPFLTAP-------------KN-TGGYVG-DVGFDPLGFS--------------DNFDMKWLRESEIKHGRAAMLATVG-FVMQQF---------------------WTLP--GM-VHVDDSNLAPGA----AGISPMLQIVFGMGALE------SSREPGNLG--FDPMGMSKNKSK-------EEAEAMQLKEIKNGRLAMLAIGGMIHHNWVT-GEALF----
+Phaeodactylum_tricornutum_14386                -----------------------------------------------MPGAI-------------NFAAKEFKFDPLKLAETYEPF------------LPWFRESELRHGRTAMLAVVG-FIATDFVR---------------IPGEAYSFAAIPKTID---AHDALLK-----SGPMYQLLLWIGLWD------GERTPG-DF--GWTLMAPKD---------DAKMQKKKDSELLNGRLAMVAVGG-IATQSV--ITG--HG--
+Phaeodactylum_tricornutum_16302                -------MAHGGSHKLSNTALRVTG---FEDELGVQ--------------------------------KPLGFWDPLSVC-DG----------ADQARFDELRYVEIKHGRVAMLAIVGHMVT--SAGVRWPG--SIGG--------------VSYSNIPAGL-AAF---ERLPISGLAAIFVAIGFLE------VAQYPGDLR--------------------PEEQLEKRAIELNNGRAAQMGILALMVHEKLNN---------
+Phaeodactylum_tricornutum_16322                -----------------------------EKEIGVL--------------------------------PPIGFFDPLGFTTRG----------SREENFRHYRGVEVKHGRIAMAATLGTLVQ--QN-YRFEGFLSPSA-------------NLEFAEVPNG-LAAL---DVVPLAGWVQMAVVIGAHE----RP-GRKPGDFGT--------------------AKQLRLLNVEVSNGRLAMLGILGMFASEIIHG---------
+Phaeodactylum_tricornutum_16481                ---------------------------------------------------------MPKNKLLDGSYPGDAGFDPLFLA-------------DSQALLEDYRDAEIKHGRLAMLAALGWPASEVWDRAIANAVS-----------------------------------------------------------DDRWFPGN-LN-FDPLGLYP-KSE-------AKQREMQLKEIKNGRLAMIAITAFAIQEAIVG---------
+Phaeodactylum_tricornutum_17531                ---------------------------------------------------------WKDETVVG-ITAPVGFFDPLGLSKDK-----------NDETMGYYRESELKHGRVAMAACLGWFITAGG--T-HPAF------------------N-S-ELSSDPLEAARQL----PFVAWLQFILGCGAVEEQIKKRPGYVPGDVLG--------------------EGWVDYQNKELNNGRLAMLAIAGIYAQDILFNN--------
+Phaeodactylum_tricornutum_17766                ------------------------------------ASESLPFMEYPPN-------------LK-GYVG-DAGFDPFRFSDF--------------LPMDFLREAELKHGRICMMATAG-FAAVDLGLR-------------VYPLPEG-----YEGLTSVTAHDALVKQ-----GGMGQMLLWFSFLE-------GRRPGDFG--FDPAGFLKND--------AKKEEDMMLKELTNGRLAMLAFSG-MVTQA--VLTQGP----
+Phaeodactylum_tricornutum_22006                LASLIATAAAFAPA-QKAVTSTALSASNFEDALGAQ--------------------------------PPLGFYDPLGLL-DG----------ASESKFERLRYVELKHGRISMLAVVGYLVT--EAGIRLPGNIDYSG--------------TKFTDIPGGF-DAL---SAISKEGLGQIIGFIFFLE-------GEFVGDFR--------------------EETKLKKRAIELNQGRAAQMGILALMVHEQLG----------
+Phaeodactylum_tricornutum_23257                ------------------------------------RSRAVPFLPRPIN-------------LD-GSSPGDQGFDPFYLSSIPKNFPP-SWETGGISTLYWMREAEIKHCRVAMLAVTG-WIATD--FG---------------VRFPGAGAPYTDIPNAYNAHNILVDQ-----GTMTVMLLAIGFVE------TDRDAGDFG--FDG-GLLKGK-------SAEAIKTMKTKEVNNGRLAMLAFGG-IATQT--ALGEAT----
+Phaeodactylum_tricornutum_25893                ---------------------SSSALKAFENEAGVI--------------------------------QPTGFFDPFGLSKGK-----------DMATFDQYRTAELKHGRVAMLCVIGYVVP--EF-YRFPGDIAPG---------------LKFADVPNG-VAALS---AIPALGWAQIFFLVGAVD-------G-VLGDFEY-------------------------RQTQELQNGRLAMLATLELLRHDSQNY---------
+Phaeodactylum_tricornutum_30643                LASIAAGAAAFAPSQGQSARASVATNMAFENEAGVT--------------------------------APLGFYDPLGLV-SD----------GDEAKFKRLRFVELKHGRISMLAVVGYIAT--ATGNRLPGTIDFAG--------------TKFSDIPAGF-GSL---ANIPAAGLCQILFFIGLLE-------GESVGDFR--------------------DEEKARQYNVELNQGRAAQMGILALMVHEQLGN---------
+Phaeodactylum_tricornutum_34536                -------------------------------------------------------VTRVALDDLAGSTAPLKRFDPLG-----------LAQVGSEQTFAWFQAAELKHSRAAMLATTG-FIVQAAGIHFPG--M------SKDISFESLSG-MNPVEQWAGVPDAGK----------WQIILTIFIAE-----------GD-LPVFPPIDFSKVDAA--------TLKTKRSRELNNGRLAMIGIMSFISEYNIPG---------
+Phaeodactylum_tricornutum_48882                -----------------TLSTALQSSSSYENELGAI--------------------------------DPVGFFDPAGLTSNI-----------DEETFRRYRAGEIKNGRVAMLAVIGYIVP--EF-YRFPGELMPG---------------LAFKDIPNG-IAAVN---AIPSIFWMTTFFAIGMVD---------NLGYHEI-------------------------RRTNEVSNGRLAMLAFFELLRHDWQNT---------
+Phaeodactylum_tricornutum_6062                 -------------------------------------SIAIPYEGAP-------------ALLDGSLVGDVG-FDPCFLSTKA----------VSIDGLTWYREAELMHGRICMIAVVG-FIAPG-FGTFEGN----------------AWTGADAFSNTNPLEALGA----APSASIFQIFAFMAALE-----GNNYQPGDSQ--RWGQGDGRWNPL-----SPEEYEEKQLQEVKHARLAMVGLLGLLFQANASG---------
+Phaeodactylum_tricornutum_9799                 ------------------------------------MSKSIPFLVKP-------------DKLDGSMAG-DMGFDPMRLSD-------------IQTDLKYARWSEIKHGRICMLAIVG-ILVQQAG--------------------IHLPG-EQ-FTNTDIFGAVDS----VGFGANMQIFAGIGAVE------GE--PGDLG--FDGGQLKGAS-A-------DKIALRKEQEIVHCRLAMIAFLGAMGQTLLFGQ----ALP-
+Phaeodactylum_tricornutum_AC151931             -------------------------------------------------------INLQKEDLVGA-IPPVGFFDPLGFADK-----------ADSPTLKRYREAELTHGRVAMLAVVG-FLVGEAVEGSSFLF-----------------DASISGPAITHLSQVPAP-------FWVLLTIAIGASEKPGLLRDDYVPGD-LG-FDPLGLKP-SDP-------EELITLQTKELQNGRLAMLAAAGFMAQELVNG---------
+Phaeodactylum_tricornutum_X55156_Fcp2          IASLIAGAAAFAPA-KNAARTSVATNMAFEDELGAQ--------------------------------PPLGFFDPLGLV-AD----------GDQEKFDRLRYVEIKHGRISMLAVVGYLVQ--EAGVRLPGTIDYSG--------------KTFAEIPN-V-AAF---KEIPAGGLVQLLFFIGVLE------EAEFVGDFR--------------------EETQFKKRAIELNQGRAAQMGILALMVHEQLG----------
+Phaeodactylum_tricornutum_Z23153_fcpF          FASLLASAAAFAPA-QQSARTSVATNMAFESELGAQ--------------------------------PPLGFFDPLGLV-AD----------GDQEKFDRLRYVELKHGRISMLAVVGYLVQ--ENGIRLPGDIDYSG--------------TSFASIPNGF-AAL---STISTAGIAQIVAFIGFLE-------GEFPGDFR--------------------EETQFKKRAIELNQGRAAQMGILALMVHEKLG----------
+Phaeodactylum_tricornutum_Z24768_fcpA          FASLLASRAAFAPA-QQSARTSVATNMAFENEIGAQ--------------------------------QPLGYWDPLGLV-AD----------GNQEKFDRLRYVEIKHGRICMLAVAGYLTQ--EAGIRLPGDIDYSG--------------TSFESIPNGF-AAL---SAVPGAGIAQIIAFIGFFE-------GEFVGDFR--------------------EDKKLQKRAIELNQGRAAQMGILALMVHEQLG----------
+Phaeodactylum_tricornutum_Z24768_fcpC          IASLIAGAAAFAPA-KNAARTSVATNMAFEDELGAQ--------------------------------PPLGFFDPLGLV-AD----------GDQEKFDRLRYVEIKHGRISMLAVVGYLVQ--EAGVRLPGTIDYSG--------------KTFAEIPK-F-AAF---KEIPAGGLVQLLFFIGVLE------EAEFVGDFR--------------------EETQFKKRAIELNQGRAAQMGILAFMVHEQLG----------
+Pleurochrysis_carterae_AB240951                LSLSVAALGFNAP-LPAAIASRSAVRMAFEGEINP---------------------------------GPQGVYDPLGLV-AD----------GDQEKFDRLRYVELKHGRICMLAILGHVVT--SAGVRLPGELSFG---------------LPFASVPTGI-KAL---SVVPAAGLAQIFAFVGFLE------TGEFPGDFR--------------------EEEKASKRGIELNNGRAAQMGILALMVHEMLDN---------
+Porphyra_haitanensis_EG017003                  ------------------------------------SA-SVPFLPQP-------------PACDGSMAG-DVGFDPLNLS--------------GVVDIKFLREGELKNGRVAMLAFLG-VLVQEF---------------------VHLPA-PQ-FSNPVATEAFFQ----VPAGGLWQIFLACGLVE-------GREPGNFG--FDPLNLYKGT--------PAQKKKLELAEVKNGRLAMIGIGGVIHSNFIY-HQPIVSQL-
+Porphyra_yezoensis__AU190126_AU187195          ------------------------------------ASKAIPFLEAP-------------EKLDETKAG-YAGFDPLYLS--------------NYLDQDYAAQGELKNGRVAMLACLG-WLVA---------------------EVVHLPNK--QFSNPVALDAIYQ----VPVAGWVQILIAISVVE--------RAAGQLG--FDPLKMDSP--------------TMRLKEVKNGRLAMIGIIGLIFQQLVFHKPTIA-QL-
+Porphyra_yezoensis__AV437049                   ---------------------------------------------------------------LDGWAANAE-FDPLGISD--------------YIPVAYLRESELKHGRICMLASVG-LIVQEV------------------FTWGGS--YFPKIIPPIAAHDHYL-----QTG-MAQLLIFIGAFE-------NRAPGDFN--FDPLNL--GKD-------PSKRAHYEKAEIKNGRLAMIATGGMITTQQVF-HDGTIHMM-
+Porphyra_yezoensis__AV438065                   ------------------------------------KSKAIPFMEAP-------------PALDGSMIGDVG-FDPLGFSN--------------YIDLKFLREAEIKHCRVTMLAVLG-LFVQEF------------------YTLPFYS-GGPALAEP--SHNYFV-----TQGAMQQLLLWICGLE-------GRRPGEFG--FDPLNLAKTN---------AAFDKFQNAELVNGRLTMIAIGGLIHQQWMT-HCTPV-QQ-
+Porphyra_yezoensis_AU193538                    ------------------------------------SA-SVPFLPQP-------------DACDGSMAG-DVGFDPLNLS--------------GIVDIKFLREGELKNGRVAMLAFLG-VLVQEF---------------------VHLPS-PL-FSNPVATDAFFQ----VPAGGLWQIFLACGLVE-------GREPGNFG--FDPLNMYKGT--------PAQKKKLELAEVKNGRLAMIGIGGVIHSNFIY-HQPIVSQL-
+Porphyra_yezoensis_AV437085_AV432551           ------------------------------------ASKSVPFWERP-------------ATLDKAYAG-DVGFDPLGFS--------------GAFDLKWLAEAELKHCRIAMLGALG-MIFPEFY---------------------HLPNPA--YAQTNPLAAVPS----VGFAPIAQIVLFMVVLE-------SAAAGDFG--FDPLGLSKNE---------SARKRFALSEVKNGRLAMIGCGGMIHHALITHQGPIS-QI-
+Porphyra_yezoensis_CX874214                    ------------------------------------SA-SVPFLPQP-------------DACDGSMAG-DVGFDPLNLS--------------GIVDIKFLREGELKNGRVAMLAFLG-VLVQEF---------------------VHLPS-PL-FSNPVATDAFFQ----VPAGGLWQIFLACGLVE-------GREPGNFG--FDPLNMYKGT--------PAQKKKLELAEVKNGRLAMIGIGGVIHSNFIY-HQPIVSQL-
+Porphyridium_cruentum_U58679_LhcaR1            ------------------------------------MSKSIPFLEKP-------------KNLDGSMAG-DVGFDPLGFS--------------DKWDVKFLREAELKHGRICMLAALG-FIYPEIMGG------------------KSIPSPEGYFTELNPLKAVKA----IPTAGLLQIVLFVMVLE-------TSAPGDFK--FDPLGLKSP--------------KMELSEVKNGRLAMIAVGGMIHQVLLTKQPILA-QL-
+Porphyridium_cruentum_U58680_LhcaR2            ------------------------------------KSKAIPFLEAP-------------AKLDGTLVG-DVGFDPLGLS--------------ATLDVKYLRAAELKHGRIAMLAALG-FVVQ---------------------EILAPKQSG-PFTEPDPFLAIYK----VPVEGWYQIIAAISLVE--------AEPGNFG--FDPLGLGKDK---------SVFDKYALSELKNGRLAMIAWTAFAIQQIVTGKGVIK-QL-
+Prymnesium_parvum_DV097448                     -----------ACPVARPALSNVRMSAITPGDIGTT--------------------------------KPLGVYDPLNLMTT------------MPDKYRRWQEMEIKHGRFAMAAVLHVVLT--EAGVRWPGYLSIAE-------------DIKFSDMPGGAIASW---AALPGLAWLQIVLIVALFD----KPE-KAPGDVIP------------------GFSGKEFKLNAERNNGRAAMMGITGMLIHEGLTG---------
+Prymnesium_parvum_DV097686                     ------------------------------------PSKSMPFLTAP-------------ACQSSGLVGAEAGFDPLYLS--------------DFMDIKWMREAELKHGRICMMATVG-IIAQEL---------------------FSLPG-IA-GYDPNPVTACST----VAPDVLIQVVGVMAWAE------KSRVPGNVG--FDPLKF--GDNK-------AARERLELAELKNGRLAMLAFSGMIHQVFVTGK-PVLASV-
+Prymnesium_parvum_DV097739                     -----------------------------------------------------------AYG-PGN-NAIGGDFDPAGFLDG-----------KSEVEVNRYRECELTHGRVGMLASLG-FIVQEK---FHPLF---------------SADG---GPAI---DQIPQLP------WGV-MAAGIGLAEAESALRPDYSPGE-LG-FDPLGLAP-TES-------GELMLMKEKELAHGRLGMIAAAGFLAQEAVTK---------
+Prymnesium_parvum_DV098263                     -----------YIDVTGKEYQEANVFIPQFDEIGVL--------------------------------PPIGRWDPLKIREQ------------GPERYRRFVEMEIKHGRMAMAAFLGVVTT--YSGMRFPGYLSVAQ-------------DIKFSDIPGGAIASW---AALPSSAWLQIILFITFCE----SPD-KAPGDVVP------------------LFLGKTWKLNAERNNGRAAMMGITGMVVHESLTG---------
+Prymnesium_parvum_DV098344                     -----------KPVAVKKAAAPKSSTFSTGTEIGVT--------------------------------PPLGLFDPLDFLSR------------GPDVYRRYQEIEIKHGRLAMAATLGVIVT--EAGIRLPGYLSLDQ-------------DLKFADVPGDLGGAY---SSVPLAGWVQIVAFIAALD----DPE-YAPGDVVQ---------------------VKAFKLNVERNNGRAAMFGILGMISHTALGQ---------
+Prymnesium_parvum_DV098387                     ----------------------------------------------------------DLVSLAPKLNPLVPFYDPLNLA------SMDLWGKGSEATIGWLRHSEIKHGRIAMFAFVG-YCVQANGVHWPWQLT------SAGLSFGDISAAGFPAEQWDALPTAAK----------LQILGAIGLLE---------KPGYFPPLYDPFGLSAGKTA-------EQKARGLVSEINNGRLAMIGIIGFLSASKVPG---------
+Prymnesium_parvum_DV098428                     ---------------------------------------------------------AKLD-MAG-SGAPLGFFDPLGFSKGA-----------SPETMKKYRECELKHGRVAMLACAG-MITADK---FHPLF-----------------GG---TNSANPLEALTQV----PKLGWLQILTFIMFMEVLNSRRPDYEPGNFLG--------------------ETWESYQTKELNNGRLAMFGSIGMLVGSYITGK--------
+Prymnesium_parvum_DV099034                     -------------------------------------------------------MSMADKAEGISFETGNKVFDPLG-----------LADLGGEKTLAFLRHAEIKHGRVSMAAFVG-YLVAANGIHFPGLCS------SESLSFEDLSK-LPPLEQWSAMPFLGK----------AQILLLIGIIE---------VPGD-VKYFDPIGLTSKMSA-------EAKEKKRLSEIKNGRLAMLGITSVLIAKEIPG---------
+Prymnesium_parvum_DV099196                     --------------------------------------------------------SDFCYGLPGA-IEPAGEFDPANMLQG-----------TSKAEVYRWREAELTHGRVGMLASAG-FLVQEN---FHPLF---------------SGDN---GPAI---QQIPQLP------WFV-MTLGIGMAENVQSLKEDYYPGD-LG-FDPLGLAP-DDP-------AEFRTMQEKELTHGRLAMLAAAGFMAQEATTG---------
+Prymnesium_parvum_DV099689                     --------------------------------------------------------SDFCYGLPGS-IAPIKEFDPFNLLDG-----------KSKEQVMTWREAELTHCRVGMLASAG-FLVQEK---FHPLF---------------SGDG---GPAI---DQIPKLP------WFA-MTLGIGIAEVFQKLKPGYIPGD-LG-FDPLGLKP-EDP-------AEFRAMQTKELQNGRLAMIAAAGFLAQEAVSD---------
+Prymnesium_parvum_DV099977                     ------------------------------------KSQAIPFLKKPPG-------------LD-GSMVGDIGFDPLRLTDV--------------VPISWAREAELKHARVCMLAFLG-YVAVD--LG---------------FRVP-----GAPEVSSLYAHDAAVDN-----GSMLFMLLPIAVFE------DATAPGDYK--FDP--MNFS--------TEEAKRTMAMKELANGRAAMMAFSG-IVTQS--ALTGGG----
+Prymnesium_parvum_DV100100                     -----------------------------------------------------------LEAQASKLNPVVGYFDPLKLG------EGEFWGDSNAATIGFLRESEIKHGRVAMAGFVG-YIVHANDIRFPFDKI------ATS---VPTGL--APQA-WDAIPE-AK----------WQIILTIGFFE---------KPGYFPTLFDPFKLSKSASP-------EKKASGLLKEINNGRLAMIGLFGFLSESQVPG---------
+Prymnesium_parvum_DV100168                     --------------------------------------------------------------LATSLNPVVGFWDPLKLA------EAEFWDNTNEETIGFLRHAEIKHGRVAMAAFVG-YVLQSNGVHFPWAPY------PGFDAAASAAM--SPPEQWDALPYAGK----------LQILLTIGFLE---------KPGYFPDLYDPFKWSKGMSE-------ETKATRLLAELNNGRLAQIGIIAFLSEQKVPG---------
+Prymnesium_parvum_DV100215                     ------------------------------------YSASIPFLKKP-------------AALDGSMAGDRG-FDPLGFTATI----------DLGGDLNYVREAELMHGRQAMLATVG-FLAPAVFGRLPGG-------------------VYDSVS-LNPLEAQYQ----LPEIVLIQLAVSIAVAE-----SP---PGEHG--FDPMGFIPKFCD------PQKMMLMKEKEIKHCRIAMIAVTGMFFQIAVTG---------
+Prymnesium_parvum_DV100460                     ------------------------------------YSESLPMLVKRPQ-------------LK-GYIG-DVGFDPVGFSEI--------------LPMDWLREAELKHCRVSMLATVG-FVFTDF------------------LHLPG-----FD-YTTLEAHDACIAS-----GAMSQLLLWIGLLE-------GRAAGDYG--FDPLGFG--D--------PKNMADLQMKELANGRLAMFAFSG-MVTQA--VLTGGT----
+Prymnesium_parvum_DV100745                     --------------------------DP---IFGGT--------------------------------PEGKIFDPLGFGADE------------ASLYRR-RVVEIKHGRICMVAFLGMTVGPNELITPTHTLLSPSLD-------------LHFDEIPGGVAALE----YVPAAGWFQIISLIGIHE------------DYTK-------------GFKPEDPAVFRNKQLKELKNGRLAMIAVLGEMMAQQVSG---------
+Prymnesium_parvum_DV102503                     ------------------------------------------------------------------LNPLVGYFNPLGL-------TMSGPGYSSEGVIGYLRHSEIKHGRIAMAAFVG-FIVQSNGIHFPWATS------FSGLTYADIAANAAPAAQWDALPTAAK----------VQILLVIGLLE---------KPGFYPSLFDPFGLSKNASP-------ERKQKGLLAEINNGRLAMIGIMGFMAAASVEG---------
+Prymnesium_parvum_DV102563                     --------------------SAIKMSSPYEGELGVI--------------------------------DPTGFFDPLGLSTSI-----------SPETFEQYRTAELKHGRVAQLCVIGYIVP--EF-YRFPGEIAPG---------------IAFADIPNG-VAAIN---TIPALGWLQMVFLIGAVD-------G-VLGDFSI-------------------------RKLQELQHGRLAMIATLELLRHDSQNF---------
+Prymnesium_parvum_DV103421                     ---------------PALRIPASSPMMRAEGEIGVT--------------------------------PPLGVYDPLNLLRT-----------YPRRDYERYVELEIKHGRVAMLATLGVITT--EAGFRWPGYISKSL-------------DLKFSDIPGGALDSY---AAVPALGWLQIVGFVIFLE----PP-GNAPGDIGG---------------------VKKFKLNVERNNGRAAMMGITGMVAHNAVGV---------
+Prymnesium_parvum_DV103534                     -------------------------------------------------------M-GVESMEGLGPETLGKVFDPLN-----------LSATASDKTLAWYRHAELKHGRVAMAAFVGWLWVNGGAPLFGGAYS------S-GATFESLGH-DS-FAAWDALPTLAK----------AQIFLTIGGLE---------TPGKVT-LGNTLAPSTNLLP-------SAVASKRVSELKNGRLAMIGIMGVIAAHYVPG---------
+Prymnesium_parvum_DV103536                     ---------------------------------------CMAINDMPGKYA-----------------INGALYDPLGLSNI--------------FDAKWLREAELKHGRLCMLAFAG-YVAVD--LG---------------LKLPD------HAWSSFEAHDKSVGA----GGAMGQILLFASLIE------GDREPGDFG--LDPLGYLTG---------PEQKKDLQIKELKNGRLAMLAFSG-VITQA--GLGHTE----
+Pyrocystis_lunula_AF508261                     -------------------------LAAFESELG--------------------------------VQDPVGFWDPLGFASDG-----------DVTAFKRRRSVELKHGRICMLATMGYITP--ELTGKWPGDLSPSE-------------GVKFADIPNGLAAIS----KVPALGWAQIVAYCGFCE-----------DDW-K-------------VLTSSDPEERQKKLSAEIANGRLAMVAIIGMFFQDGLTG---------
+Pyrocystis_lunula_BQ253990                     --------------------------FTPSKQLGAM--------------------------------EPLGFFDPAGFTKVG-----------DEKGFRNLRAAELKHGRVAMMAALGFVAQQ----PSSSRLRERASR-------------LAGGDHGTGHV-----------------------------------------------------LNIFGYDQD-MRAK---ELNNGRFAMVRGHWQ-----SSP---------
+Rhodomonas_sp._CS24_AJ308530_Lhcc2             ------------------------------------TMQS-RFSYG---------------GGTEWDQNGAD-WAINGG--LFGA----------VGDIVWAREAEVKHGRICMLAATG-SLVQD--L----------------YTFPFMSKWYKG-EKMWGLHEAAI-----KSGAMWQVLFFVGLLE-------VDGTGDLG--FDPLGLKND---------PETFARRQVTEIKNGRLAMIAIGGMTHHYFLTGK-GPI---E
+Rhodomonas_sp._CS24_AJ308530_Lhcc3             ------------------------------------TMQS-RFSYG---------------GGTEWDQNGAD-WAINGG--LFGA----------VGDIVWAREAEVKHGRICMLAATG-SLVQD--L----------------YTFPFMSKWYKG-EKMWGLHEAAI-----KSGAMWQVLFFVGLLE-------VDGTGDLG--FDPLGLKND---------PETFARRQVTEIKNGRLAMIAIGGMTHHYFLTGK-GPI---E
+Rhodomonas_sp._CS24_AJ308530_Lhcc4             ------------------------------------PVMQDRFSYKT---------------TCGYDIQAPY-WAENGG--IFGW----------P-DVIWAREAEVKHGRIAMLAATG-LIVQD--L----------------FTLPFYGKWYTG-EKVWALHDKLV-----SVGAAWQVLLAIGALE-------LDGTGDYG--FDPLSLKSD--------------RRAVTEIKNGRLAMIAFGGMMQHYLLTGK-GPV---Q
+Skeletonema_costatum_U66169_scfcpA             IAALIG-SAAFAPA--QTGKATTALN-AFENELGAQ--------------------------------APLGFFDPLGLL-DD----------ADQERFDRLRYVELKHGRISQLAFLGQITT--RAGVRLPGDIDYSG--------------TSFADIGEGW-S---GSLQVPVAGALQILAFVGALE------DNEFVGDFR--------------------EETKLSKRAIELNNGRAAMMGILGLMVHEQL-----------
+Skeletonema_costatum_U66171_scfcpB             FAAAIASAAAFAPA--QVGKTTTSLN-AFESELGAQ--------------------------------APLGFWDPLGFL-DR----------ADQETFDRLRYVELKHGRVSQLAFVGNLIT--RAGYHLPGNITPD---------------STFDSYPNGL-AAINGADAIPTLRLIQTLAFIGFLE------D-QFAGDFR--------------------PEWQEQKRAVELNQGRAAMMGILELMVHEQL-----------
+Skeletonema_costatum_U66173_scfcpC             -------AAAFAPAK--TGKASTALNAAFDSEIGAA--------------------------------AELGCWDPLGFVTN-----------GDQSRFDRLRSVELKHGRVAMLATWGYATT--WSGARFPGCEDQVA-------------GHQAVFS--------------GPEFLVPVLLTAGFLE----K-EGSFPGDFSA-------------------EQDMIDLRTRELNNGRAAQMGILGMMVHEQL-----------
+Skeletonema_costatum_U66174_scfcpD             LATLAAYAAAFAPA--QTGKAPTALN-AFENELGAQ--------------------------------PPLGFFDPLGLL-DE----------AGRG-FDRLRYVEIKHGRICQLAFLGNIIT--RAGVHLPGNIATDG--------------TKFSDVGNGW-A---GSFDVPVDGALQILFFVGFLE------ENEFVGDFR--------------------EEIKRKKRAVELNNGRAAMMGILGLMVHEQL-----------
+Skeletonema_costatum_U66175_scfcpE             FPAALPSPAAFPPA--KTGKATTSLN-AFENELGAQ--------------------------------PPLDS-TIFGML-DD----------ADQERFDRLRYVEIKHGRISQLAFLGQITP--RAGYHLPGAIDGAG--------------DSFADFPNGF-AAIGGPDSIPGAGTGQILFFIGALE------E-EFVGDFR--------------------EETKLQKRAVELNNGRAAMMGILGLMVHEQL-----------
+Skeletonema_costatum_U66177_scfcpF             IAALIG-SAAFAPA--QNKAATTASN-AFEDELGVQ--------------------------------PPLGFFDLFGLLSGD----------VTQERFDRLRYVEIKHGRIAQLAFLGQVVT--RAGIHLPGNIDYAG--------------NAFDSFPNGV-AALIGPDSIPSRDKGQIIAFIGWLE------TNEHVGDIR--------------------EETKLQKRAIELNNGRAAMFGILGLMVHEEL-----------
+Thalassiosira_pseudonana_11501                 ---------------------------------------------------------WRDEVVVG-ITAPVGFFDPLGLSKGK-----------DDATMAYYREAELKNGRVAMAACLGWYLNAGG---VHPAF------------------N-S-ELSNDPLKAMVEL----PAVGWLQFVLGCGAIEQQIKERPGYVPGDLLG--------------------EGWVMYQNKELNNGRLAMLAIVGMVYQDVFVGD--------
+Thalassiosira_pseudonana_12097                 -------------------------------------------------------ETQNCFGLPGSVA-PTGYFDPLGFAQDG----------ITLNEIKRNREAEVMHGRVAMLATLG-YFAGEA--LPSP-F---------------GITGP----AN---DQLQQVP------FLL-LTAGIASAETLWKLRDNYYPGD-VG-FDPLGLKP-TDA-------KAFADMQTRELQNGRLAMIGAIGMISQELVNH---------
+Thalassiosira_pseudonana_2601                  ------------------------------------APRALPFGSAP-------------PTLDGSLVGDVG-FDPIGFSTAP----------NFMTDVQWLREAELTHGRIAQLAVVG-FIWPALFGTFPGNE---------------NFGGADAYSYVNPLEAINH----IPSLAIYQIVGGMAWVE-----GKDRISGDIG--LAYPGG--WNPF-----SPEEYAEKQLQEIKHCRLAMLGAFGLFFQALNSG---------
+Thalassiosira_pseudonana_268127                FAATIAAASAFAPA--QVAKTTTSLN-AFEDELGAQ--------------------------------APLGFFDPFGMLSGD----------CTQERFDRLRYVEIKHGRIAQLAFLGQVVT--RAGIHLPGSINYAG--------------DSFDSFPNGV-AALFGPNSIPTAGLVQIISFIGILE------TNEHVGDFR--------------------EETKLSKRAIELNNGRAAMMGILGLMVHEEII----------
+Thalassiosira_pseudonana_270092                ----------------------------------------------------------DLKSIAEKSNPVLKFYDPLELS------STTIWDNTNDQTIAFLRHSEIKHGRVAMAAFVG-YIVQSNGIHFPWPMS------FDGTPFPYAAG--SPPEQWDALSDEAK----------WQIILFIGFLE---------VPGAYPKLFDPFGFSEGKSA-------EAKANGLIKELNNGRLAMIGIMGFISEQRVEG---------
+Thalassiosira_pseudonana_29375                 ------------------------------------MSKAMPFLINP-------------AN-TDGLIG-SNGFDPLGFS--------------DTFDIKWLQESEIKHGRVAMLASAG-FIASQF---------------------VNFPMYSS-MHVDDSNMAPTV----VGISAMLQIVCAAGVEE------ADRTPGDFG--FDPMGQLKGKSE-------AAVNEMKLKEIKNGRLAMLAIGGMIHHNFVT-GEALF----
+Thalassiosira_pseudonana_31128                 -------------------------------------------------------ESAFAWGLPGAPA-PADGFDPLGFAAN-----------TDLATMKKWREAEAQHGRVAMLAAVG-MLVTEEPIEYHPLF---------------EAYNKDIGPAIRHLDEVRAVS------FEV-LAIVIGTLEGFQDLNDEYYPGD-VG-FDPLGLKP-KDA-------DEFATMATKELQNGRLAMLGAAGMIAQELTNG---------
+Thalassiosira_pseudonana_31983                 ------------------------------------RSASMPFLPRPIN-------------LD-GSYVGDVGFDPFYLSSIDKNFPP-SWETNGLPTLYWMREAELKHGRVAMLAWTG-WLATDGALGPV------------PLRFPG--AAYQAVPNSLSAHDIMVDQ-----GSLGFMLVAIGIIE------SDRAAGDFK--LDPLQFLKGK-------SDADINTMKLKELQNGRAAMMAFAG-VVTQA--ALGG------
+Thalassiosira_pseudonana_32723                 -------------------------------------------------------LGATNIQDLPGATAPLKGFDPLN-----------LATLGSESTLAWFRAAELKHSRVAMLATTG-YIVQAAGIHFPG--M------SSDVSFESLSA-MKPLDAWDAVPDLGT----------AQIYFTIFFAE-----------GD-FPVFPPINFASSDAE--------KEKLQMSRELNNGRLAMISIMSFVAAANIPG---------
+Thalassiosira_pseudonana_33018                 IASSIAAASAFAPV--QVAKTTTSLN-AFESEIGAQ--------------------------------APLGFWDPLGFL-DR----------ADQETFDRLRYVELKHGRIAQLAFVGNLIT--RAGYHLPGDISLG---------------RAFADVPNGI-AAINGPDAISTAALLQTLAFIGFLE------E-QFRGDFR--------------------PEWQTNKRAIELNQGRAAMMGILGLMMHEQVG----------
+Thalassiosira_pseudonana_33606                 -------------------------------------SASLPFLEAPPN-------------LD-GGVG-DLGFDPFRFSDF--------------VPIDFLREAELKHGRICMMAWLG-FVAVDMGFR-------------VYPAAEG-----FESLTSITAHDAAVEQ-----GGMSQMLLWFSLLE-------GRAPGDFG--LD-GGFLKG--------SQAEIDTMKLKEIVHCRLAMFAFSG-VVTQA--VLTQGP----
+Thalassiosira_pseudonana_34276                 ------------------------------------MSKSIPFLTVP-------------EKLDGSMAG-DVGFDPMGLSD-------------IQTDLNYARWAELKHGRICMLAVVG-MVWQEYG--------------------PHLPG-DA-YATKDPWEAISS----VGFASNFQTLLAIGVVE------GT--PGDIG--WTGGQLSKMN-D-------AQIKTRMESEIVHCRLAMIAFIGATHQTFLLHK----GLL-
+Thalassiosira_pseudonana_38122                 -----------------------ALSADFSGEIGAA--------------------------------AELGCWDPLNFCT-------------DQASFDKMRYAELKHGRVAQLAAWGYATT--WSGARFPGCEDFPA-------------GHEAVLKI-------------GTENLIPVLVVAGALE----K-EGSFPGDFSA-------------------EADMIDLRTKELNNGRAAMMGILGMIVHEQIDG---------
+Thalassiosira_pseudonana_38139                 ---------------------------------------------------------MARPVALDGSLAGDVGFDPIGFA-------------KSSADLMNYREAEVKHARLAMLAAAGWPLSEVFDKKIAAAFG-----------------------------------------------------------GADHLPGD-FG-LR-LG-YP-SDS-------AGQQRMQLAEIKNGRLAMIAVFGFAIQEFVSK---------
+Thalassiosira_pseudonana_38494                 IAS----AAAFAPA--QVGKTSTAIN-AFENELGAQ--------------------------------APLGFFDPLGML-DD----------ADQERFDRLRYVELKHGRISQLAFLGQIVT--RNGIRLPGDIDYSG--------------TSFSDIGEGW-A---GSLQVPVAGALQILAFVGFLE------EGEFVGDFR--------------------EETKLSKRAIELNNGRAAMMGILGLMVHEQLG----------
+Thalassiosira_pseudonana_38667                 IAASLASAAAFQSA--SPVAKTTALN-AFENELGVQ--------------------------------PPIGFFDPLGLL-DG----------ADQERFDRLRYVEIKHGRIAQLAFLGNIIT--RAGVHLPGNIDYAG--------------NSFDSFPNGW-AAINGPDAITGTGLGQIVAFIGFLE------TNEFVGDFR--------------------DEVKLQKRAIELNNGRAAMMGILGLMMHEQLG----------
+Thalassiosira_pseudonana_38879                 -------------------------------------------------------NAFSASDLPGA-LPPMGFFDPLGFAEK-----------ADEKTLKRYREAEVTHGRVAMLAVLG-FLVGEAVEGSSFLF-----------------DAQISGPAITHFTQVPDG-------WDALIVTFIGAAEQPGLLKDSYYPGD-IG-FDPLGLKP-EDP-------EELNTMITKELQNGRLAMLAAAGFLAQEAVDG---------
+Thalassiosira_pseudonana_39813                 -------------------ASTAVNG--FENELGVI--------------------------------APTGFFDPLGLSKDI-----------DQEKFDQYRTAELKHGRVAQLAVIGYIVP--EI-FRWGFDIAPG---------------VACADVPNG-VAAID---AIPALGWAQIIFAIGAVD-------G-WFGNFDI-------------------------RALQELQHGRLAMLAILELLRHDSQNL---------
+Thalassiosira_pseudonana_41655                 -------------------------------------------------------PFLRRPQFLTGEFAGDVGFDPLGLS-------------SSSEKVLYYREAEIKHARLAMLAAAGWPLSELLDRPLTQQLD----------------------------------------------------------EQQTYRPGD-YN-WDPLNLYP-TDE-------EGQFRMQLAEIKHGRLGMLAITGFAVQEYVFG---------
+Thalassiosira_pseudonana_42962                 IASSIAAASAFAPA--PVAKSTTAIN-AFENELGAQ--------------------------------PPLGFFDPLGML-DE----------AGQARFDRLRYVELKHGRICQLAFLGNIIT--RAGIHLPGAISLDG--------------TKFSDIGNGW-A---GSFEVPKDGALQILFFVGFLE------EGEFVGDFR--------------------EETKLQKRAIELNNGRAAMMGILGLMVHEQLG----------
+Thalassiosira_pseudonana_6139                  --------------------------------------------------------SRETVLSEPDTVEFGQKWDPLGLS-----------DLGSDETIAWFRHSEIKHGRVAMAAFVG-WWAVGAGWRLPGELS-------YGLDFASIPS--KGLDAWEAVPGWGK----------VQMLLFAGLIE---------IPGKN--LYDPLGFSKGRSE-------EAKARGRASEIKNGRLAMIGVAGMYAAATIDG---------
+Vaucheria_litorea_AF336982                     -----------RGNAIKTAASRSSVLRMSSDEIGVT--------------------------------KPLGYWDPLGFSKN------------IDGVDRRWRMVEIKHGRIAMLATIGYIVP--YYFKLFP------------------------EGKPGT--EAL---TTIPQAGLVQIFAFIGALE----SPE-KEPGDIAP---------------------VRTKKLNIELNNGRLAMIAIMGMLVQDSITD---------
+Vaucheria_litorea_AF336985                     -------------------------------------------------------------------------------------------SLAINPHPQWLQESEIKHGRICMLAFVGTLVIHA-GIHIPNLGY--------------TSDWYNSFPEFVAKN--PLGL--------AQVIAGLTIWE---------KPGHL--NFDLLNLMKGKNE-------SQLKSIQLKEIKNGRLAMVAMAAFASEHFISG---------
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb9285;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Phaeodactylum_tricornutum_9799,
+            2    Galdieria_sulphuraria_AJ276862_lhcr5,
+            3    Guillardia_theta_AJ821820_lhc7,
+            4    Griffithsia_japonica_AF517869_Gj446,
+            5    Porphyra_yezoensis_AV437085_AV432551,
+            6    Porphyridium_cruentum_U58679_LhcaR1,
+            7    Galdieria_sulphuraria_AJ308253_lhc3,
+            8    Griffithsia_japonica_AY124024,
+            9    Chondrus_crispus_CO652608_CO652286,
+            10   Porphyra_yezoensis__AU190126_AU187195,
+            11   Porphyridium_cruentum_U58680_LhcaR2,
+            12   Galdieria_sulphuraria_AJ277213_lhcr2,
+            13   Porphyra_yezoensis__AV438065,
+            14   Chondrus_crispus_CO649812,
+            15   Cyanidioschyzon_merolae___CMN235C,
+            16   Porphyra_yezoensis__AV437049,
+            17   Guillardia_theta_AJ821803_lhc3,
+            18   Galdieria_sulphuraria_AJ012759_lhc1,
+            19   Chondrus_crispus_CO652368_CO651192,
+            20   Guillardia_theta_AF268322_LHCC4,
+            21   Guillardia_theta_AJ821831_lhc7,
+            22   Rhodomonas_sp._CS24_AJ308530_Lhcc2,
+            23   Rhodomonas_sp._CS24_AJ308530_Lhcc3,
+            24   Guillardia_theta_AF268323_LHCC10,
+            25   Guillardia_theta_AF268324_LHCC13,
+            26   Rhodomonas_sp._CS24_AJ308530_Lhcc4,
+            27   Pyrocystis_lunula_BQ253990,
+            28   Alexandrium_tamarense_CK785886,
+            29   Alexandrium_tamarense_CV554475,
+            30   Alexandrium_tamarense_CK786246,
+            31   Lingulodinium_polyedrum_CD809920,
+            32   Lingulodinium_polyedrum_CD809793,
+            33   Alexandrium_tamarense_CK432998,
+            34   Lingulodinium_polyedrum_BP743813,
+            35   Heterocapsa_triquetra_AY826911_A,
+            36   Emiliania_huxleyi_CX772333,
+            37   Prymnesium_parvum_DV100745,
+            38   Isochrysis_galbana_ISL00000222,
+            39   Amphidinium_carterae_CF066762,
+            40   Heterocapsa_triquetra_AY826913,
+            41   Amphidinium_carterae_AJ009670_lhcD,
+            42   Alexandrium_tamarense_CF751882,
+            43   Heterocapsa_triquetra_DT382892,
+            44   Amphidinium_carterae_CF064920,
+            45   Alexandrium_tamarense_CK431764,
+            46   Lingulodinium_polyedrum_CD809390,
+            47   Amphidinium_carterae_CF065877,
+            48   Amphidinium_carterae_AJ009670_lhcA,
+            49   Pavlova_lutheri_PLL00000672,
+            50   Giraudyopsis_stellifer_Z46920,
+            51   Laminaria_saccharina_AF226861_lhcf5,
+            52   Laminaria_saccharina_AF226862_lhcf6,
+            53   Laminaria_japonica_DQ250739_lhcf6_B,
+            54   Laminaria_japonica_DQ250739_lhcf6_A,
+            55   Laminaria_digitata_CN467240_CN466737,
+            56   Macrocystis_pyrifera_U10065_pfcpa,
+            57   Laminaria_saccharina_AF226858_lhcf2,
+            58   Macrocystis_pyrifera_U10069_pfcpe,
+            59   Laminaria_digitata_AW401184_AW401128,
+            60   Pavlova_lutheri_PLL00000003,
+            61   Pleurochrysis_carterae_AB240951,
+            62   Heterosigma_carterae_X99697_Fcp1,
+            63   Phaeodactylum_tricornutum_16302,
+            64   Cyclotella_cryptica_AJ000967_Fcp_5,
+            65   Thalassiosira_pseudonana_268127,
+            66   Skeletonema_costatum_U66177_scfcpF,
+            67   Cylindrotheca_fusiformis_DQ060240_cffcpA1A,
+            68   Cyclotella_cryptica_AJ000545_Fcp_2,
+            69   Cyclotella_cryptica_AJ000965_Fcp_3,
+            70   Cyclotella_cryptica_AJ000670_Fcp_1,
+            71   Thalassiosira_pseudonana_38494,
+            72   Skeletonema_costatum_U66169_scfcpA,
+            73   Thalassiosira_pseudonana_42962,
+            74   Skeletonema_costatum_U66174_scfcpD,
+            75   Odontella_sinensis_X81055_FcpB,
+            76   Odontella_sinensis_X81054_FcpA,
+            77   Thalassiosira_pseudonana_38667,
+            78   Skeletonema_costatum_U66175_scfcpE,
+            79   Skeletonema_costatum_U66171_scfcpB,
+            80   Thalassiosira_pseudonana_33018,
+            81   Phaeodactylum_tricornutum_X55156_Fcp2,
+            82   Phaeodactylum_tricornutum_Z24768_fcpC,
+            83   Phaeodactylum_tricornutum_Z23153_fcpF,
+            84   Phaeodactylum_tricornutum_Z24768_fcpA,
+            85   Phaeodactylum_tricornutum_22006,
+            86   Cylindrotheca_fusiformis_AY125590_cffcpB3,
+            87   Cylindrotheca_fusiformis_AY125594_cffcpC,
+            88   Phaeodactylum_tricornutum_30643,
+            89   Emiliania_huxleyi_CX775827,
+            90   Skeletonema_costatum_U66173_scfcpC,
+            91   Thalassiosira_pseudonana_38122,
+            92   Isochrysis_galbana_DQ118573,
+            93   Prymnesium_parvum_DV097448,
+            94   Isochrysis_galbana_DQ118574,
+            95   Isochrysis_galbana_ISL00000011,
+            96   Prymnesium_parvum_DV098263,
+            97   Emiliania_huxleyi_CX771537,
+            98   Prymnesium_parvum_DV098344,
+            99   Emiliania_huxleyi_CX774563,
+            100  Isochrysis_galbana_ISL00000009,
+            101  Prymnesium_parvum_DV103421,
+            102  Emiliania_huxleyi_CX775010,
+            103  Vaucheria_litorea_AF336982,
+            104  Phaeodactylum_tricornutum_16322,
+            105  Isochrysis_galbana_DQ118587,
+            106  Prymnesium_parvum_DV102563,
+            107  Pavlova_lutheri_PLL00000435,
+            108  Phaeodactylum_tricornutum_25893,
+            109  Thalassiosira_pseudonana_39813,
+            110  Phaeodactylum_tricornutum_48882,
+            111  Heterocapsa_triquetra_AY826905,
+            112  Lingulodinium_polyedrum_BP742312,
+            113  Pyrocystis_lunula_AF508261,
+            114  Lingulodinium_polyedrum_BP743285,
+            115  Alexandrium_tamarense_CK433577,
+            116  Alexandrium_tamarense_CK431807,
+            117  Amphidinium_carterae_Z47563,
+            118  Amphidinium_carterae_AJ009670_lhcB,
+            119  Pavlova_lutheri_PLL00000387,
+            120  Pavlova_lutheri_PLL00000019,
+            121  Emiliania_huxleyi_EG357771,
+            122  Isochrysis_galbana_ISL00000731,
+            123  Prymnesium_parvum_DV100215,
+            124  Pavlova_lutheri_PLL00000288,
+            125  Phaeodactylum_tricornutum_6062,
+            126  Thalassiosira_pseudonana_2601,
+            127  Griffithsia_japonica_AF517881_Gj513,
+            128  Chondrus_crispus_CO653137,
+            129  Porphyra_yezoensis_CX874214,
+            130  Porphyra_yezoensis_AU193538,
+            131  Porphyra_haitanensis_EG017003,
+            132  Guillardia_theta_EG720035,
+            133  Galdieria_sulphuraria_AJ277285_lhcr4,
+            134  Guillardia_theta_EG72369_EG719821,
+            135  Isochrysis_galbana_DQ118585,
+            136  Emiliania_huxleyi_CX777336,
+            137  Prymnesium_parvum_DV097686,
+            138  Pavlova_lutheri_PLL00000398,
+            139  Alexandrium_tamarense_CK785040,
+            140  Phaeodactylum_tricornutum_11006,
+            141  Thalassiosira_pseudonana_29375,
+            142  Guillardia_theta_AJ821808_lhc4,
+            143  Cyclotella_cryptica_AJ005838_Fcp_4,
+            144  Thalassiosira_pseudonana_34276,
+            145  Alexandrium_tamarense_CK782611,
+            146  Lingulodinium_polyedrum_CD809947,
+            147  Amphidinium_carterae_CF066031_CF067312,
+            148  Isochrysis_galbana_DQ118586,
+            149  Emiliania_huxleyi_EG030976,
+            150  Prymnesium_parvum_DV099977,
+            151  Emiliania_huxleyi_EG030880,
+            152  Isochrysis_galbana_ISL00004541,
+            153  Pavlova_lutheri_PLL00000004,
+            154  Phaeodactylum_tricornutum_23257,
+            155  Thalassiosira_pseudonana_31983,
+            156  Phaeodactylum_tricornutum_17766,
+            157  Thalassiosira_pseudonana_33606,
+            158  Isochrysis_galbana_DQ118584,
+            159  Prymnesium_parvum_DV100460,
+            160  Emiliania_huxleyi_CX774681,
+            161  Emiliania_huxleyi_EG357835,
+            162  Isochrysis_galbana_ISL00001475,
+            163  Pavlova_lutheri_PLL00001579,
+            164  Prymnesium_parvum_DV103536,
+            165  Pavlova_lutheri_PLL00003241,
+            166  Heterocapsa_triquetra_AY826903,
+            167  Amphidinium_carterae_CF064709,
+            168  Heterocapsa_triquetra_AY826901,
+            169  Amphidinium_carterae_CF065118,
+            170  Phaeodactylum_tricornutum_14386,
+            171  Heterocapsa_triquetra_AY826902,
+            172  Lingulodinium_polyedrum_BP743367,
+            173  Vaucheria_litorea_AF336985,
+            174  Pavlova_lutheri_PLL00000092,
+            175  Emiliania_huxleyi_AY289120,
+            176  Prymnesium_parvum_DV100168,
+            177  Prymnesium_parvum_DV100100,
+            178  Thalassiosira_pseudonana_270092,
+            179  Prymnesium_parvum_DV102503,
+            180  Isochrysis_galbana_DQ118579,
+            181  Emiliania_huxleyi_CX772408,
+            182  Emiliania_huxleyi_DQ658248,
+            183  Prymnesium_parvum_DV098387,
+            184  Karenia_brevis_CO064464,
+            185  Karlodinium_micrum_DQ118623,
+            186  Karenia_brevis_CO064441_CO061242,
+            187  Karenia_brevis_CO065025,
+            188  Karlodinium_micrum_DQ118621,
+            189  Thalassiosira_pseudonana_6139,
+            190  Isochrysis_galbana_DQ118577,
+            191  Emiliania_huxleyi_CX778736,
+            192  Isochrysis_galbana_DQ118578,
+            193  Emiliania_huxleyi_EG033467,
+            194  Prymnesium_parvum_DV103534,
+            195  Phaeodactylum_tricornutum_34536,
+            196  Thalassiosira_pseudonana_32723,
+            197  Emiliania_huxleyi_CX774638,
+            198  Isochrysis_galbana_ISL00000652,
+            199  Prymnesium_parvum_DV099034,
+            200  Guillardia_theta_AJ821801_lhc1,
+            201  Phaeodactylum_tricornutum_10243,
+            202  Thalassiosira_pseudonana_41655,
+            203  Thalassiosira_pseudonana_38139,
+            204  Phaeodactylum_tricornutum_16481,
+            205  Emiliania_huxleyi_EG357978,
+            206  Isochrysis_galbana_ISL00001344,
+            207  Emiliania_huxleyi_CX772211,
+            208  Cyclotella_cryptica_AJ005839_Fcp_12,
+            209  Thalassiosira_pseudonana_31128,
+            210  Thalassiosira_pseudonana_12097,
+            211  Isochrysis_galbana_DQ118581,
+            212  Prymnesium_parvum_DV099196,
+            213  Prymnesium_parvum_DV099689,
+            214  Isochrysis_galbana_DQ118580,
+            215  Isochrysis_galbana_X77333_IGFcp1,
+            216  Emiliania_huxleyi_CX779067,
+            217  Prymnesium_parvum_DV097739,
+            218  Isochrysis_galbana_DQ118582,
+            219  Cyclotella_cryptica_AJ000968_Fcp_6,
+            220  Cyclotella_cryptica_AJ000969_Fcp_7,
+            221  Thalassiosira_pseudonana_38879,
+            222  Phaeodactylum_tricornutum_AC151931,
+            223  Ostreococcus_tauri_6427,
+            224  Ostreococcus_lucimarinus_7949,
+            225  Micromonas_sp._MSL00000056b,
+            226  Micromonas_sp._MSL00000740,
+            227  Mesostigma_viride_MVL00002413,
+            228  Chlamydomonas_reinhardtii_104720,
+            229  Chlamydomonas_reinhardtii_184724,
+            230  Chlamydomonas_eugametos_X60721_L1818,
+            231  Bigelowiella_natans_AY267688,
+            232  Bigelowiella_natans_AY267689,
+            233  Karlodinium_micrum_DQ118614,
+            234  Karlodinium_micrum_DQ118615,
+            235  Karlodinium_micrum_DQ118616,
+            236  Karlodinium_micrum_DQ118611,
+            237  Karenia_brevis_CO063314,
+            238  Karlodinium_micrum_DQ118610,
+            239  Isochrysis_galbana_ISL00001514,
+            240  Emiliania_huxleyi_CX776411,
+            241  Pavlova_lutheri_PLL00000098,
+            242  Isochrysis_galbana_DQ118583,
+            243  Emiliania_huxleyi_CX777192,
+            244  Prymnesium_parvum_DV098428,
+            245  Phaeodactylum_tricornutum_17531,
+            246  Thalassiosira_pseudonana_11501;
+      TREE Fig._2 = [&R] (192,193,(194,((190,191),(189,(((196,195),(((174,(173,(172,171))),((((((227,((226,225),(224,223))),((231,232),(230,(228,229)))),(((210,(209,208)),(218,(213,((211,212),((217,216),(214,215)))))),(222,(221,(220,219))))),(241,(((237,238),(235,(236,(234,233)))),(240,239)))),(((49,(245,246)),(244,(242,243))),((28,((30,(33,(34,35))),(32,(29,(31,27))))),((110,(106,(105,(109,(107,108))))),((36,(38,37)),((103,(104,((102,((97,98),(((96,95),(93,(92,94))),(101,(100,99))))),((50,((52,(55,((56,(59,58)),(57,51)))),(53,54))),((63,(61,60)),(62,((((((70,(69,68)),(73,74)),(71,72)),((78,(79,80)),((77,(66,(64,(65,67)))),(76,75)))),((87,86),(85,((83,84),(88,(81,82)))))),(89,(90,91))))))))),(39,(45,((47,46),((44,((43,((118,48),(111,112))),(113,(117,(116,(41,(114,115))))))),(40,42))))))))))),((200,(204,((201,(203,(207,202))),(206,205)))),(((124,(123,(121,122))),(126,125)),((119,120),((((138,(137,(135,136))),(139,(140,141))),(((133,(134,(132,((127,128),(131,(130,129)))))),((19,((18,17),(((14,13),(15,12)),(((26,25),(24,(23,22))),(20,21))))),(16,((((147,(145,146)),(170,((168,169),(166,167)))),((157,156),(160,(159,158)))),((163,(164,(162,161))),((165,(150,((152,151),(148,149)))),(153,(155,154)))))))),((3,((2,6),(5,4))),(142,(1,(143,144)))))),(7,(11,(8,(10,9)))))))))),(((179,(184,(183,182))),((178,(176,175)),(177,(185,(187,(188,186)))))),(180,181)))),(199,(198,197)))))));
+
+
+
+END;

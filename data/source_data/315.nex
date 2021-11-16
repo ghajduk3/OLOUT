@@ -1,0 +1,61 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:36 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Reed D., Smith V., Rogers A., Hammond S., & Clayton D. 2004. Molecular genetic analysis
+of human lice supports direct contact between modern and archaic humans.
+Public Library of Science, null.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S1259]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=5;
+        TAXLABELS
+            Fahrenholzia_pinnata
+            Pedicinus_hamadryas
+            Pediculus_humanus
+            Pediculus_schaeffi
+            Pthirus_pubis
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M179]
+
+	TITLE Morphological_Data;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=155;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2 3 4 5 6 7 8" MISSING=? GAP= -;
+
+MATRIX
+[                                10        20        30        40        50        60        70        80        90        100       110       120       130       140       150     ]
+[                                 .         .         .         .         .         .         .         .         .         .         .         .         .         .         .     ]
+Fahrenholzia_pinnata     2-100000--0110222101100042000002001112-120--2-21121122--01-1-1-101000121100003?10--114-1--1002111210012010000110000000000000000000000000000000000000000????
+Pedicinus_hamadryas      31000020--600022212120?????01200001112-1212-12-4122121--01-1-1-101104133201110-110113--3--0122000211012010000110000000000000000000000000000000000000000????
+Pediculus_humanus        2-100020--000022212220104201010200110--120--2-240--1230001-1-1-101104133220001?1101112-2--0122222200012020000110000000001222211000000000000000000000000????
+Pediculus_schaeffi       2-100020--000022212220104201010200110--120--2-240--1230001-1-1-101104123320000-1101112-2--0122222200012020000110000000000000000000000000000000000000000????
+Pthirus_pubis            3100002220700022211220111201000220112-0120--2-230--1230001-0-1-101004143300000-1101112-1--01222222100120100001100000000000000000000000000000000????????????
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb7100;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Pthirus_pubis,
+            2    Fahrenholzia_pinnata,
+            3    Pediculus_schaeffi,
+            4    Pediculus_humanus,
+            5    Pedicinus_hamadryas;
+      TREE Fig_1 = [&R] ((5,((4,3)Pediculidae,1)),2);
+
+
+
+END;

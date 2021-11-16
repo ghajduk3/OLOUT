@@ -1,0 +1,504 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:45 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Kellner H., & Zak D. 2009. Detection of expressed fungal type I polyketide synthase
+genes in a forest soil. Soil Biology and Biochemistry, 41(6): 1344-1347.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S9954]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=153;
+        TAXLABELS
+            Acremonium_sp_ABD33804
+            Aigialus_parvus_ABD57309
+            Alternaria_alternata_BAD97694
+            Alternaria_solani_BAD83684
+            Alternaria_solani_BAE80697
+            Anabaena_circinalis_AAO62582
+            Aspergillus_clavatus_XP_001268490
+            Aspergillus_clavatus_XP_001270321
+            Aspergillus_clavatus_XP_001270445
+            Aspergillus_clavatus_XP_001270543
+            Aspergillus_clavatus_XP_001273186
+            Aspergillus_clavatus_XP_001273842
+            Aspergillus_clavatus_XP_001275051
+            Aspergillus_fumigatus_EDP49172
+            Aspergillus_fumigatus_EDP52288
+            Aspergillus_fumigatus_EDP53793
+            Aspergillus_nidulans_XP_664688
+            Aspergillus_nidulans_XP_681681
+            Aspergillus_niger_XP_001390395
+            Aspergillus_niger_XP_001392496
+            Aspergillus_niger_XP_001394029
+            Aspergillus_niger_XP_001394543
+            Aspergillus_niger_XP_001396752
+            Aspergillus_niger_XP_001402359
+            Aspergillus_oryzae_XP_001818816
+            Aspergillus_oryzae_XP_001823613
+            Aspergillus_oryzae_XP_001825712
+            Aspergillus_parasiticus_AAC23536
+            Aspergillus_parasiticus_Q12053
+            Aspergillus_terreus_AAD34559
+            Aspergillus_terreus_AAD39830
+            Aspergillus_terreus_BAA20102
+            Aspergillus_terreus_XP_001209753
+            Aspergillus_terreus_XP_001209968
+            Aspergillus_terreus_XP_001210411
+            Aspergillus_terreus_XP_001213896
+            Aspergillus_terreus_XP_001215234
+            Beauveria_bassiana_ABD51495
+            Botryotinia_fuckeliana_AAR90237
+            Botryotinia_fuckeliana_AAR90239
+            Botryotinia_fuckeliana_AAR90244
+            Botryotinia_fuckeliana_AAR90246
+            Byssochlamys_nivea_AAK48943
+            Chaetomium_globosum_XP_001219267
+            Chaetomium_globosum_XP_001224361
+            Cochliobolus_heterostrophus_AAB08104
+            Cochliobolus_heterostrophus_AAR90257
+            Cochliobolus_heterostrophus_AAR90260
+            Cochliobolus_heterostrophus_AAR90264
+            Cochliobolus_heterostrophus_AAR90267
+            Cochliobolus_heterostrophus_AAR90269
+            Cochliobolus_heterostrophus_AAR90271
+            Cordyceps_bassiana_CAL69597
+            Emericella_nidulans_1905375A
+            Emericella_nidulans_AAA81586
+            Gibberella_moniliformis_AAD43562
+            Gibberella_moniliformis_AAR92208
+            Gibberella_moniliformis_AAR92209
+            Gibberella_moniliformis_AAR92212
+            Gibberella_moniliformis_AAR92214
+            Gibberella_moniliformis_AAR92217
+            Gibberella_zeae_AAU10633
+            Gibberella_zeae_ABB90282
+            Gibberella_zeae_XP_390724
+            Gibberella_zeae_fg12100
+            Gibberella_zeae_fg12125
+            Magnaporthe_grisea_CAG28798
+            Magnaporthe_grisea_CAH59193
+            Melittangium_lichenicola_CAD89777
+            Metarhizium_anisopliae_ABD47709
+            Microcystis_aeruginosa_YP_001657794
+            Monascus_pilosus_ABA02239
+            Monascus_purpureus_BAD44749
+            Mycosphaerella_zeae_maydis_AAR85531
+            Nectria_haematococca_AAS48892
+            Neosartorya_fischeri_XP_001258701
+            Neosartorya_fischeri_XP_001261656
+            Neosartorya_fischeri_XP_001262991
+            Neosartorya_fischeri_XP_001265535
+            Neosartorya_fischeri_XP_001265690
+            Neurospora_crassa_EAA28899
+            Neurospora_crassa_XP_955938
+            Neurospora_crassa_XP_958169
+            Neurospora_crassa_XP_959122
+            Nodularia_spumigena_AAO64407
+            Nodularia_spumigena_ZP_01628022
+            Nodulisporium_sp_AAD38786
+            Nostoc_sp_NP_485689
+            Ochrolechia_pallescens_ABQ11380
+            Penicillium_citrinum_BAC20564
+            Penicillium_citrinum_BAC20566
+            Penicillium_expansum_CAO91861
+            Penicillium_griseofulvum_CAA39295
+            Penicillium_nordicum_AAP33839
+            Pertusaria_amara_ABQ11385
+            Pertusaria_corallina_ABQ11381
+            Pertusaria_corallina_ABQ11386
+            Pertusaria_corallophora_ABQ11387
+            Pertusaria_flavida_ABQ11388
+            Pertusaria_lactea_ABQ11391
+            Pertusaria_pustulata_ABQ11382
+            Pertusaria_scaberula_ABQ11395
+            Pertusaria_subfallens_ABQ11383
+            Pertusaria_subventosa_ABQ11384
+            Pertusaria_subventosa_ABQ11397
+            Pertusaria_tetrathalamia_ABQ11398
+            Pertusaria_tetrathalamia_ABQ11399
+            Phaeosphaeria_nodorum_XP_001801515
+            Phaeosphaeria_nodorum_XP_001806097
+            Podospora_anserina_XP_001905191
+            Podospora_anserina_XP_001905278
+            Podospora_anserina_XP_001908964
+            Pyrenophora_tritici_repentis_EDU42159
+            Pyrenophora_tritici_repentis_EDU46125
+            Pyrenophora_tritici_repentis_EDU46521
+            Pyrenophora_tritici_repentis_EDU46982
+            Saccharopolyspora_erythraea_YP_001107472
+            Sclerotinia_sclerotiorum_XP_001587412
+            Sclerotinia_sclerotiorum_XP_001595995
+            Sclerotinia_sclerotiorum_XP_001597598
+            Solorina_crocea_ABQ42548
+            Stigmatella_aurantiaca_AAF19814
+            Streptomyces_antibioticus_AAZ77673
+            Uncultured_expressed_fungal_PKSI_RNAtype1_FJ232770
+            Uncultured_expressed_fungal_PKSI_RNAtype2_FJ232771
+            Uncultured_expressed_fungal_PKSI_RNAtype3_FJ232772
+            Uncultured_expressed_fungal_PKSI_RNAtype4_FJ232773
+            Uncultured_expressed_fungal_PKSI_RNAtype5_FJ232774
+            Uncultured_expressed_fungal_PKSI_RNAtype6_FJ232775
+            Uncultured_expressed_fungal_PKSI_RNAtype7_FJ232776
+            Uncultured_fungal_PKSI_DNAtype1_FJ232777
+            Uncultured_fungal_PKSI_DNAtype10_FJ232786
+            Uncultured_fungal_PKSI_DNAtype11_FJ232787
+            Uncultured_fungal_PKSI_DNAtype12_FJ232788
+            Uncultured_fungal_PKSI_DNAtype13_FJ232789
+            Uncultured_fungal_PKSI_DNAtype14_FJ232790
+            Uncultured_fungal_PKSI_DNAtype15_FJ232791
+            Uncultured_fungal_PKSI_DNAtype2_FJ232778
+            Uncultured_fungal_PKSI_DNAtype3_FJ232779
+            Uncultured_fungal_PKSI_DNAtype4_FJ232780
+            Uncultured_fungal_PKSI_DNAtype5_FJ232781
+            Uncultured_fungal_PKSI_DNAtype6_FJ232782
+            Uncultured_fungal_PKSI_DNAtype7_FJ232783
+            Uncultured_fungal_PKSI_DNAtype8_FJ232784
+            Uncultured_fungal_PKSI_DNAtype9_FJ232785
+            Xanthoparmelia_semiviridis_ABS58604
+            Xylaria_sp_AAM93545
+            Xylaria_sp_AAY27746
+            Xylaria_sp_AAY32931
+            Xylaria_sp_AAY40862
+            Xylaria_sp_AAY41231
+            Xylaria_sp_AAY46446
+            Xylaria_sp_AAY68230
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M4249]
+
+	TITLE PKS;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=455;
+	FORMAT DATATYPE=Protein SYMBOLS= "A C D E F G H I K L M N P Q R S T V W Y" MISSING=? GAP= -;
+
+MATRIX
+[                                                              10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170       180       190       200       210       220       230       240       250       260       270       280       290       300       310       320       330       340       350       360       370       380       390       400       410       420       430       440       450     ]
+[                                                               .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .     ]
+Acremonium_sp_ABD33804                                 EAHGTGTAVGDPIEASAISEIFTPYRS--------------ADQPLYVGALKSSVGHLEGAAGVAAMIRGVFSLERGVIPGN-------IWFEKLNPRID-ESWHLK-------FPTEP-----TLWPQAGLR-------RMSINSFG-------------------------IGGSNAHVVMDDAYHFLQQYHLVGSHRTAIHPKK-------PGMLALVNGLSNGLTN---------------GITNGVTNGVSNGHTNGYSNGHTNGITNGINGNTNGVGHRTTNGFHRATDSGVDVGFIEAEIAKAPYLFV-FSS-----YDQEGVMRVRDSYKEYLTSRTKHHRDIDD---EAQ-FLKDLSFTLASKRTR---------HAWRSFCTAKSQPELQSALGE----LPSPVRAKSE----------------------PSLAFVFTGQGAQW
+Aigialus_parvus_ABD57309                               EAHGTGTAVGDPIEASAISRAFGNFRT--------------KEDPIYVGTVKSNIGHLEGASGVAGVIKAILCLERGVIAPN-------VWPKDINPKIAAECPNIA-------FPTTS-----IPWPP-GLR-------RVSVNSFG-------------------------FGGANAHAVLDDAFHFVRERKLTGTRYSE-------------QSILQCKKDGG--QSTGSSAIRTSMSHGHINPN---TDDDPEPLQTSLTITDGPIF----------------------------KLLTLSSLDEG------------------GIRRSIDACKTWFHG---LPTSA-----QHSLNLDDLAYTLCLRRSV---------LPWRTFAVTSSTSDIMERLRWLP---GLRAKNDL------------------------KLCFLFTGQGAQW
+Alternaria_alternata_BAD97694                          EAHGTGTAAGDAAELDALSSVFCVD----------------RDLPLYVGSVKSNIGHLEAASGMAALIKATLMLENEAIPPS-------INFSRPKENLRIDERNIK-------IPTAL-----QPWPKG-------ASARICVNSFG-------------------------YGGTNAHAILERAP------------------------------------------------------------------------ERPTVMG----------------------------PKNTPYLFLLSAKSRA------------------SLSRTVKNIKEWISS---QH---------DTLSLRDLSYTLNQRRSMM---------SWRFGGVA---TTHQELLDVL--TQELKSSSAV----------------RTPTRANIN--FVFTGQGAQW
+Alternaria_solani_BAD83684                             EAHGTGTQAGDPLEARAILKTIGSVEGR--------------KSDLYVGSVKTNIGHLEGAAGVAGIIKAALTVERGMIPPN-------LWFEKLNPEIDLPD-NVK-------IASKL-----TPWPHSGP-------RRASINSFG-------------------------FGGANAHAILEDAASFLS---RHGLSGRHTTAPLLP-----------------------------SLSSVRVSHPSDSPSSSASTVAEEATSGESSDNISDVSSEVLR------------DVYPIPKLFVLSSHDQE------------------GVKRSAERLQEYLASKTS--TTPS--------FLNDLAYTLSAKRTT---------LPWKSYAVS---SSVSGLREKIS--SLPPVVRS-----------------STSAIPRIA--FVFTGQGAQW
+Alternaria_solani_BAE80697                             EAHGTGTPVGDPCEAAAISNVFS-CRT--------------PKDPIFVGALKSNMGHPEGASGIAGVIKTLLVLEKGIIPPN-------VYPERINPAVAAAGPNLK-------FPLVP-----ATWPTDGIR-------RASVNSFG-------------------------YGGTNAHVVLDDALSFLRDHGLSGRHCTEI-----------LHASEGATKPAI--FDALAINGEDGS-YSTDTSA---CSEFFADNTPPDSMDDHETA---------------------------PKLFILSAFDER------------------ATQRSISTFENWMRN---HANDE-----NDRQLLNDVAYTLAEKRTS---------FPWKSVCVALPNS--LSQLSWSA---PARARQRV------------------------NLCFVFTGQGAQW
+Anabaena_circinalis_AAO62582                           EAHGTGTSLGDPIEMNAIAAVYG--------ERSQ---------PLYVGSVKTNIGHLEAAAGIAGTIKTILALQHGEIPSH-------LHFQEPNPLINWQGYPIKIPSQA------------IPWSNN--GQVR----IAGVSSFG-------------------------FSGTNAHIIIEQAPAANIPEIK---------------------------------------------------------------------------------------------------LQRPSHLLTISAHSET------------------GLKELALRFHTRLESH----PEMGD-----------ICHSAAIGRSS---------LPERLAIVADTLT------ELQQRLAAFAEEKNIDHG---------IFYRRFTGEKYPKIVFLFTGQGACY
+Aspergillus_clavatus_XP_001268490                      EAHGTGTAVGDPIESGAIGAAFRQHRS--------------ANDPLFIGAVKSNIGHLEGASGMAGLIKTILVLEKGIIPAN-------ANFRSLNPRIDAEYLNLR-------FPEES-----VPWPTAGLR-------RASINSFG-------------------------FGGTNSHAILDDAYNYLRMHDLQGNHQTAERPPT-------LEALRQP-------------------------------SVGGQPLVRDDTTLSTLP--------------------------STPKLLVWSAADED------------------GLKRLATSYRDHFSAL--QVTNGKS---E--DYLRNLAYTLAAKRSS---------LSWKAFAIADSIQSLP----EVSFSKGVRSNSK------------------------PSLGFIFTGQGAQW
+Aspergillus_clavatus_XP_001270321                      EAHGTGTQAGDPIETGAIGNTIGATKSP--------------GDPLLIGSVKSNIGHLEGASGLAGIVKAILILEKGLIPAT-------AGFESPNPKTRLEEQGLQ-------VVSKL-----TPWPHDGL-------RRISVNSFG-------------------------FGGANAHVILDDAYHYLQ---DRNRREDAISDLSSN-----------------------------SDDEPPRTVVSESCSESTNISDSQLLS------------------------------SSPSRLFVFSSHHEQ------------------GCASIAQSLQQYLGKKEEAELNSE--------LLDNLSYTLSERRSK---------LMWKSFVVA---SSATELSEALQ--TVSPPVK-------------------SASVRSLA--FVFSGQGAQW
+Aspergillus_clavatus_XP_001270445                      EAHGTGTKVGDPREAAAISGCFGS-------QPIHG-------NPLYVGSIKTIIGHTEGTAGLAGVLKASLAIQHGVIPPN-------MLLNRLNPDVKQYYTNLQIPTSP------------IQWPALPAGVPR----RASVNSFG-------------------------FGGTNGHAIIEGYEPTVSKSDEE-----------------------------------------------------------------------------------------------QQQPVVPVTPFVFSATTEE------------------TLVALLQSYSDYLKI-NPTIDLHS------------LAWTLQSRRSA---------FAFK-SAVAASTI-----DGLVSRLESKVKQAK-STPP----TPAGVRSTPATPHL----LGVFTGQGAQW
+Aspergillus_clavatus_XP_001270543                      EAHGTGTPAGDPIEARAIQTAFFG-----PDLNFTADS---RKDTLFVGSIKTVVGHTEGTAGLAAVIKASLALQSGTIPPN-------RLLEQLNPAIKPFYNSLKILAAA------------EDWPQLSRGGVR----RVSVNSFG-------------------------FGGANSHAILESYEPSLHS--HKGTR--------------------------------------------------------------------------------------------DIS----FSPFTFSAASET------------------ALVASLRAYRDLLST-RSDVRLTD------------LAWTLNSRRST---------LASR-VAIAASDK-----DDLVLKLDDRAENYDGSDTF----MDAGHRKPNANELR---ILGVFTGQGAQW
+Aspergillus_clavatus_XP_001273186                      EAHGTGTPIGDPIETRAIGKAFRRYRS--------------AKEPLYVGSVKSNIGHLEGASGVAGVIKAILALEKAIIPPNS------SNLQSLAPQIDEDFFNLK-------ILQKA-----IPWPDSGLR-------RASVSSFG-------------------------FGGSNCHVVLDDAYNSLRLMGIRSGHHQTVVAPP-------THGN-IIEGCDS---------------------NNLKEKFREMTSNSQLPLDPTEEA-------------------------VDHQLLVWSTADEG------------------GIKRLGSSWVGYLSSKN---ELPDD---QQPQYLLDLAHTLSQRRTH---------LTWRTYALGDSCHQFDS--LPGQFTPAIKSIIDP------------------------KIAFVFTGQGAQW
+Aspergillus_clavatus_XP_001273842                      EAHGTGTPAGDPVEAAALSAALNTNRS--------------SQEPLLIGSVKSNIGHTETASGLASIIKVTMALEKGYIPPS-------ANFEKPNKDIDMNGLNIE-------IPTLL-----RPWPQALR--------RASVNNFG-------------------------YGGANSHVIIESPAVLTQPSP-------------------------------------------------------------AIVSESGSLQ---------------------------------SRVFVLSAKEGA------------------AVSRMASRMAEHLRGLTLDD---------ESAYMRHLAFSLGQRRSN---------FPWKAAYLA---STKKELIEKLE-QGQVTPQQ-------------------ATEQPRLG--FVFTGQGAQW
+Aspergillus_clavatus_XP_001275051                      ECHGTGTPTGDPIETRAVARVFG-------------------EKGVYIGSIKPNLGHTEAASGLVSLLKMVKALQHRVIPPN-------IKFTSPNPNIPFEDGKLT-------VPTEA-----LPWP-------KDRLERVSVNSFG-------------------------IGGANAHVILESAA-------------------------------------------------------------TYNVPAAFHET-PETP-----------------------------------QLLLFTANSSK------------------SITRLVDDYKAWIEQ------------N--PDKVSDLAYTLARRREH---------LPHRAFAIVNSGV------IENLSQPVNSKSAKPP-----------------------SIVMVFTGQGAQW
+Aspergillus_fumigatus_EDP49172                         ECHGTGTPAGDPTEVKGAASVLAHMRPP--------------ASPLIIGSVKSNIGHSEPGAGLSGLIKAMLVVEEGEIPGN-------PTFLNPNPAIDFDNLRVY-------ATRIR-----IPWP---KE--SSHYRRASVNSFG-------------------------FGGSNAHAVLDNAEHYL----------------------------------------------------GKYWASLEIPRSHLSSYINLSDM-------------LSLFDGRRSSKT----VTRRPQVLVFSANDMD------------------SLKRQISTLSAHLLN------------PRVKVKLSDLSYTLSERRSR---------HFCRAFLLSYPAKSGHASKIAVEEAQFSKISQEAT-----------------------RIGFVFTGQGAQW
+Aspergillus_fumigatus_EDP52288                         ECHGTGTPTGDPIEAAAVARVFG-------------------DKGVYIGSVKPNLGHTEAASGLVSLLKMVKALEHRVIPPN-------IKFTSPNPNIPFAEGKLT-------VPTDP-----LPWP-------KDRLERVSVNSFG-------------------------IGGANAHVILESAA-------------------------------------------------------------TYNVPVAVHET-PETP-----------------------------------QLLLFTANSSK------------------SITRMIDGYKAWVEQ------------N--PDKVSDLAYTLARRREH---------LPHRAFAIFRNGV------LESVSQPANSKAAKPP-----------------------SVVMVFTGQGAQW
+Aspergillus_fumigatus_EDP53793                         EAHGTGTPIGDPIEIRAIGTAFRRYRS--------------PEQPLYVGSVKSNIGHLEGASGVAGVIKVILALEKGIIPPNS------RNLQFLNPQIDEEFLNLK-------VLQKA-----IPWPENDLR-------RASVSSFG-------------------------FGGSNCHVVLDDAYNSLRLMGIEGSRHQTVVVPP-------SLEVTALVAHGK---------------------CGYTTNAGSDQPNDDHPNGLHDEE-------------------------ETHQLLVWSTADEE------------------GIERLVETWKPFLSDKR---EFSRS---QRRQYLLDLAYTLGQRRSH---------LQWRSYAIGDALEDLGS--LADRFTPAIRSTDES------------------------HIAFLFTGQGAQW
+Aspergillus_nidulans_XP_664688                         ECHGTGTRAGDPIEVKGVASVFCPERPA--------------ERPLLIGSVKSNIGHSEPGAGISGLLKTILALEKSVIPGN-------PTFETPNPEIDFDGLKTR-------AFQHA-----TPWP-------SMPFKRASVNSFG-------------------------YGGSNAHVILDEAKTG----------------------------------------------------------VSASEMCFKSSYLPEDHDPF-----------EECEENE----------KCFPQLLVFSANDEK------------------SLQEYIRALRAHLIN------------PRVRISLQDLAYTLSERRSR---------HFNRAFLITQTSLN-----LDLHGLVFGKLRSSSP-----------------------RVGFIFTGQGSQW
+Aspergillus_nidulans_XP_681681                         ECHGTGTATGDPIEARAVHDAFFP-----TETRTASNTL-IPDGKLYVGSVKTIIGHLEGCAGIAGVLKAVLAIKNRTIPPN-------MHFHEPNPRVIPFCDRLEIPTVP------------IPWPDTGR-SPL----RASINSFG-------------------------FGGTNAHAIIEGYDALSSP---------------------------------------------------------------------------------------------VREATITP-DDLFIGPLLFSANSSS------------------SLVANVKNMAERIRS-DPSIDLES------------LVWTLYARRSV---------LPVK-AFFTGGTV-----QRLLNFMDRFVAESEETTSS-----TAGIKYQPLNPTETPGILGIFTGQGAQW
+Aspergillus_niger_XP_001390395                         EAHGTGTPIGDPIEARAIGTAFRSYRS--------------EQAPLHVGSVKSNIGHLEGASGIAGFIKAVLVLEKGFIPPNS------NNLQHINPQIDEDYLRLK-------ILNKA-----IVWPTTGIR-------RASVSSFG-------------------------FGGANSHIVLDDAYNSLQLGGFEQVGHQTVRVPS-------LGQVNGTPQLN-----------------------GHHDTGGTDTFNDS----TIACK-------------------------TVPKLVVWSAADHA------------------GIKRLAESWSTYLS------DLSVE---ETEEYLRDLAHTLCDRRSH---------WAWRTFVVAKPGVLLQD--LTRQFSPATQSIDSP------------------------HLAFVFTGQGAQW
+Aspergillus_niger_XP_001392496                         EAHGTGTKVGDPREAAAISGCFGS-------QPIHG-------NPLYVGSIKTIIGHTEGTAGLAGVLKASLAIQHGVIPPN-------MLLNRLNPDVKQYYTNLQIPTSP------------IQWPVLPAGVPR----RASVNSFG-------------------------FGGTNGHAIIEGYEPKASNFDGE-----------------------------------------------------------------------------------------------QQQPVAPVTSFVFSATTEE------------------SLVALLQSYSNYLKI-NPTIDLHS------------LAWTLQSRRSA---------FAYK-TAVAASTI-----DGLVSRLESKVKQAK-STPP----TPAGVRSTPATPHL----LGVFTGQGAQW
+Aspergillus_niger_XP_001394029                         EAHGTGTARGDPIEARAIGAVFGSTR----------------SEPLYVGSVKSNIGHLEGASGLAGIIKATLALEESQIPPN-------MHFKRPNPEIKFDEWKIQ-------VPQDI-----ISWPAS-----ANGIRRASINSFG-------------------------YGGTNAHVILDAYK-------------------------------------------------------------PEDSEAELQAIPAISSS----------------------------IPVDRPYLIPLSAHSTK------------------AGALWEDKLTKYLSNE-----------PIGRPAVSDLAVSLSTRRTM---------HGNRSFIIGKDMPTVLQGLEQPPSPAAAWTRPLKETP---------------------RLGFVFTGQGAQW
+Aspergillus_niger_XP_001394543                         ECHGTGTPTGDPVEVQAVARVFG-------------------EAGVYIGSVKPNLGHSEGASGLTSLIKGVLALEHRIIPPN-------IKFTAPNPKIPFEACKLT-------VPLEP-----IPWP-------ESRWERVSINSFG-------------------------VGGSNAHLILDSAR-------------------------------------------------------------SFQIPSPTPDNFLAGP-----------------------------------QLLLLSASAAG------------------SLQRMTATFEDWVPQ------------H--QDQLRDLAYTLATRREH---------LPHRTFLIAGPDR------IGTPS-PGRKVPSSAP-----------------------SLAMVFTGQGAQW
+Aspergillus_niger_XP_001396752                         EAHGTGTPAGDPREAQAIGMAFMRHRS--------------NDDPIYVGAIKSNVGHLEGASGLAGLIKAVLVLEKGIIPPN-------ANFQKVNPKIDVEFLNIS-------FPQKA-----RPWPANGLR-------RASVNSFG-------------------------YGGANAHVVIDDAYNYLRIRGLNGKHNTAKRPPQ-------LREQSDK-------------------------------MPLSPALTPPRQENVQRLFV---------------WSASDKDGIG--RIIKQYSTGYS------------------PIKQLLQKYQQLRQQGGKESIDATN---DITNLMANLAYTLDTHRSH---------LQWRSFALMNTIEDFEN--ISSLMSTPVSAQAKSP----------------------PRIGFVFSGQGAQW
+Aspergillus_niger_XP_001402359                         EAHGTGTAIGDPIEADAIGSVFRAFRS--------------PEDPLYIGAVKSNIGHLEGGSGIAGIVKTILVLEKGLIPPN-------ANFEHLNPNIDAEFLNLR-------VPTDL-----IPWPTKGLR-------RASVASFG-------------------------FGGSNSHAILDDAYHYLLERGLL--------------------------------------------------------SSASHCTIPDPSHSDGL----------------------------SSQLLIFSTSDEA------------------GIQRMANAYTRYFQSLP-SFRRGRD---EEGSFVKRLATMLAQRRSK---------LNWRSFAVADGSLDFLRDQLPSAISKPIRVNESKS----------------------LGLGYIFTGQGAQY
+Aspergillus_oryzae_XP_001818816                        ECHGTGTAAGDPVEARAVHDAFFP-----PSSKRDN------ERPLYAGSIKTIIGHLEGCAGLAGVLKASLALQNRIIPPN-------MHFNDLSPSVKPFYGMIQIPKQP------------MPWPES---TTF----RASVNSFG-------------------------FGGTNAHVILEGYYKGGEC---------------------------------------------------------------------------------------------LNGGCQQARLDSFVGPMLFSGNTQT------------------TLRAMIKEYFDYLSA-NPSLDLEG------------LARALADRRSM---------FPVR-AFFSGSNR-----EALLKYMGQALISSEGSD----------IGTRSLASSDTPGLLGIFTGQGAQW
+Aspergillus_oryzae_XP_001823613                        EAHGTGTATGDPIEARAITSVFQSHRR-------------REDEALRIGSVKTNIGHTEATSGLASVIKVVMAMEKGVLPPS-------INFEKPNPQLALDDWRLK-------VVTEL-----EKWPVAPGQ-----AMRASVNNFG-------------------------YGGSNAHIIMEDANGLLRNRS--------------------------VNG----------HINGHVNG----HANGNINGVDAHANGATGDK---------------------------------YRLLVISAKDEH------------------VHQNMVARLAEFLRQKERDGSK------DTEDFLQNLVYTLGQRRTV---------FPWVAAYPVPITQGLDGVAKVLE-TPKFRPSR-------------------PSQRPRIG--MVFTGQGAQW
+Aspergillus_oryzae_XP_001825712                        ECHGTGTLAGDPVEVAGVSSVFAPSRTL--------------DRPLHIGSIKSNIGHSETAAGLSGLMKAIMILETGLIPGN-------PTFETPNPKIDFGGSRVK-------VSQSV-----VPFP----N--DVPFRRVGVNNFG-------------------------FGGSNSHAILEEP----------------------------------------------------------RVVHLDYCPAHRSSYTSPSPD-------------SIKEEP-----------AKQPYILCFSANHKD------------------SLKHYIERFSQHCTS------------PGVHLNVRDVAYTLGVRRSK---------HFHRGYLITDNLK-----HLDPTKVVYGKKSVNAV-----------------------KVGFVFTGQGAQW
+Aspergillus_parasiticus_AAC23536                       EAHATSTPVGDPTEVSAISAVYGK-------GRSPD-------KPCYIGSVKPNVGHLEAGAGAVGFIKAVMSVQKGILPPQ-------ANLKTLNTRVNWN-EGVRVVQDI------------EDWPSS-GYPR-----RAGVCSYG-------------------------YGGTVSHGIIEQYIQTGPAIY------------------------------------------------------------------------------------------------SREQWPKGTQVLLLSAPQRR------------------SLKTQAATQAEWMSTIGKQND-LRC-----------VAATLGTRRSH---------HKYRAAFVVESHD------DAAEKLNAFACQTPTKWT---------TSGGKPEGDDRP-VVWVFSGHGAQW
+Aspergillus_parasiticus_Q12053                         EMHGTGTQVGDAVEMESVLSVFAP-----------SETARKADQPLFVGSAKANVGHGEGVSGVTSLIKVLMMMQHDTIPPHCGIKPGSKINRNFP-DLGARNVHIAFEP--------------KPWPRT------HTPRRVLINNFS-------------------------AAGGNTALIVEDAPER-H--------------------------------------------------------------------------------------------------WPTEKDPRSSHIVALSAHVGA------------------SMKTNLERLHQYLLKN-------------PHTDLAQLSYTTTARRWH---------YLHRVSVTGASVEEVTRKLEMAIQNG-DGVSRPKSK---------------------PKILFAFTGQGSQY
+Aspergillus_terreus_AAD34559                           EAHGTGTRAGDPLELAVISAAFP-------------------GQQIQVGSVKANIGHTEAVSGLASLIKVALAVEKGVIPPN-------ARFLQPSKKLLKDT-HIQ-------IPLCS-----QSWIPTDG------VRRASINNFG-------------------------FGGANAHAIVEQYG----PFAET--------------------------------------------------SICPPNGYSGNYDGNLGTD--------------------------------QAHIYVLSAKDEN------------------SCMRMVSRLCDYATHARPAD---------DLQLLANIAYTLGSRRSN---------FRWKAVCTA---HSLTGLAQNLA-GEGMRPSK-------------------SADQVRLG--WVFTGQGAQW
+Aspergillus_terreus_AAD39830                           EAHGTGTPAGDPQEAEAIATAFFGH----EQVARSDGN---ERAPLFVGSAKTVVGHTEGTAGLAGLMKASFAVRHGVIPPN-------LLFDKISPRVAPFYKNLRIPTEA------------TQWPALPPGQPR----RASVNSFG-------------------------FGGTNAHAIIEEYMEPEQNQLRVSNNE-----------------------------------------------------------------------------------------DCPPMTGVLSLPLVLSAKSQR------------------SLKIMMEEMLQFLQS-HPEIHLHD------------LTWSLLRKRSV---------LPFR-RAIVGHSH-----ETIRRALEDAIEDGI---------VSSDFTTEVRGQPS---VLGIFTGQGAQW
+Aspergillus_terreus_BAA20102                           EAHATSTPLGDPTEVSAVSAVYGK-------GRPEG-------NPCFIGSVKPNVGHLEAGAGAVGFIKAVMAVEKATFPPQ-------TNLKRLNSRIDWDQAGVKVVQET------------LEWPGNEDDVR-----RAGVCSYG-------------------------YGGTVSHAIIEEFAQQLQRPT---------------------------------------------------------------------------------------------TNTTDEEPLP--RILLLSAPQER------------------RLALQARTQASWIAAEGRNRT-LES-----------IATTLSTRRGH---------HDYRAAIIAENHD------DAVQKLSDIVNGKAAEWT---------TSSRVLDASCSKDVVWVFSGHGAQW
+Aspergillus_terreus_XP_001209753                       EAHGTGTKVGDPIEAGVLSRVFSP-GRT-------------KRFPLYVGSAKSNFGHLENTSGIVSIIKASLMLEKGFILPN-------ANFEKANDAIPFDKYHLK-------VPTT-----IRPWPKNKR--------FISINNFG-------------------------FGGSNTHVVLERFRPPSDTETSFI---------------------------------------------------------------EASP-----------------------------------RLFVLSANDEA------------------AAKSMMTKLSVYIE--QHPEV-------FQKRLAYDLAYTLGQRRTH---------FQWRVAIAA---SGCNELGAALH-GVDVRPNR------------------AVK-SPKIA--FVYTGQGAQW
+Aspergillus_terreus_XP_001209968                       EAHGTGTVAGDSTETRALGETIGKSRLP--------------GQPLWVGSIKANIGHLEGASGLAALIKTIYVLEKGIIPPQ-------IWYEDTNPRIRLKEWNLA-------VPTEV-----TQWPYPGP-------RRASVNSFG-------------------------FAGANAHAILEDAASYLK---RSGKTGRHISKAAEE-----------------------------SSHSPTRSQVSD--DSGFSTVDDEISN-----------------------------VKAFPKLVVWSAHEQG------------------GLNRISDSWKEYLSMKTSMYSQPEQ-----YRLLRDLAYTASKKRTQ---------FPWRSFAVC---SNPEELATGQV--DIAPPVR-------------------TSQKPKLA--FVFTGQGAQH
+Aspergillus_terreus_XP_001210411                       EAHGTGTQAGDPREASAIHDAFFG-----AEGDDN-----KTGPKLVVGSIKTIVGHTEGTAGMAGMLKALLAIRHRVIPPN-------LHFNNLNPSVAPFYDRLTVPTES------------IPWPVVAPGTPL----RASVNSFG-------------------------FGGTNAHAIVESYEPD-------------------------------------------------------------------------------------------------NRSSITGQNDGIVLPLVLSAHSDK------------------ALASVVENYAAFLRQTQQTLCLRD------------LAWTLHSRRSN---------LPVK-AAFSGLSA-----SDIAQQMQDRLESVRNTPGT-----ELGIRSPAIASKK-PSLLGVFTGQGAQW
+Aspergillus_terreus_XP_001213896                       EFHGTGTRAGDSLEANGVATVFTPFQSP--------------DRPLRIGSVKSNIGHSEPAAGLSGLLKTVLSLEHGVIPGN-------PTFIDPSPKIDFAALRLY-------TSRTA-----TTWP-------KVPFRRASINSFG-------------------------YGGSNAHVIVDEAKG--------------------------------------------------------------LGHHHVSSYVNEETD-------------DLFAEET----------ATRPYLLVFSANDEK------------------ALDAQAAALDRHLSD------------PAVKVALRDLAYTLSERRSR---------HYHRAFAVTSSTT------IDLPTMNRGHISGQKP-----------------------RVGFVFTGQGAQW
+Aspergillus_terreus_XP_001215234                       ECHGTGTYVGDPIEVSAVGKVFAGEREA--------------DNPLLIGSVKSNVGHSEGASALASIMKVVLSLERGAIPPV-------FDLQTLNPNIDFEGARMK-------PVTEV-----TPWP----E--G--LRRASINSFG-------------------------YGGANGHVIIDHVNNVL----------------------------------------------------PDYVAPGVFKHSANRTSNSHSNGYSNGNANAQPMHHSPILVSPKLTST-ATAATRQLVVLPFSGHNQA------------------SLDANIDALSKVID----------------QYQLADVAYTLGARRSR---------LAQRSFRVVDKNNV--AEGLMVARKPVRAPL-QTS-----------------------KVGFIFTGQGAQW
+Beauveria_bassiana_ABD51495                            EAHGTGTQAGDPREALSIGEVFADAR----------------EKPLYVGSIKTNIGHLEGASGLAGVMKAMLSVERGKILPN-------MHFDTPNPKIDFAALKIQ-------VPTET-----IEWNP------ENGIRRASINSFG-------------------------FGGANSHVVLENYS-------------------------------------------------------------SVRPGVVVEDKFAVS-------------------------------PSKRPFLLPLSSHSET------------------GGKLLQKSLAEYMNKY-----------PDTR--VQDLAHTYSTRRSL---------HRFRSFAIGSDLQTMRD-AATTLGPLASWKQ-AGNSP---------------------RLGFVFTGQGAQW
+Botryotinia_fuckeliana_AAR90237                        EAHGTGTPLGDPIEAGAIGSVFREYRS--------------ATEPLYVGALKSNIGHLEGGSGIAGLIKTVLVLEKGIIPPN-------ANFEQANSNIDAEFFHLR-------FPTEQ-----APWPSQGLR-------RASVNSFG-------------------------FGGSNSHCIVNRA------------------------------------------------------------------TAKSFKFVSDP------------------------------------QLLVFSAVDKD------------------GIRRVAEAYRSYFAGH--ALKTQRS---Q-LSFLRDLAYTLSVRRTA---------FVWRSFVVTDTLTDLL--DLPTKISLPIRAASS------------------------LGVAFIFTGQGAQY
+Botryotinia_fuckeliana_AAR90239                        EAHGTGTLAGDRQEAEAISRAFDLY----QTSHLMQD-----NLPLSVGSIKTIVGHLEGCAGIAGLLKASLALQHSFIPPN-------MHFQELNPEIEPFYQNLKVVTSL------------QPWPLIPDNTPR----RASINSFG-------------------------FGGTNAHAILESYSAALDTTES-----------------------------------------------------------------------------------------QLSLGKEEMTQINTIVPLLLSASSEH------------------SLVELTKKYLDHLKT-HPFQNLQD------------ICWTALSCRSL---------LPVR-ASFVGESS-----DSMIAQIKQRLDLLSIDSSA-----TLGVASIGDCHNK---ILGIFTGQGAQW
+Botryotinia_fuckeliana_AAR90244                        EAHGTGTKVGDPIEATALYNVFGE-GRN-------------ARNPLFIGSVKSNIGHLEAASGIISVIKTAMMLERGFILPN-------HDFKTPNENIPFSKWHLK-------VPIS-----QRPWPRAKK--------FASVNNFG-------------------------FGGTNAHVVLERAPFITKLEPESS--------------------------------------------------------------EKALQD---------------------------------RRMIALSANDKG------------------ALEALMKNIGIYLE--RRPEF-------FQNGLMSNVAYTLGQRRSLACANLMMVRLQWRVAIPA---TSSFELIQALN-SGKVTPMR------------------EIE-PLRIG--FVFTGQGAQW
+Botryotinia_fuckeliana_AAR90246                        ECHGTGTQAGDPTEVKGAASAFSGTRSA--------------DKPLIIGSIKSNLGHAEPSAGISGILKAVMAIENGIIPGN-------PTFLKPSPKIDFAGLKVK-------ATRTA-----IPWP---ES--S--IRRASVNSFG-------------------------YGGSNAHVILE-------------------------------------------------------------QPKFPDGPHHITSYLSVADE-------------LTLDEDD----------SDHPYTLVLSANDNV------------------SLKANIKALSNHLIN------------PRVKVNLEDLAYTLSERRTK---------LWHRAYITTRST------EIDENDFVVGKKNPEAL-----------------------RIGFVFTGQGAQW
+Byssochlamys_nivea_AAK48943                            EAHATSTPLGDPTEISAIAGVYGL-------GRQPE-------DPCYIGSIKPNIGHLEAGAGAMGFIKAVLALKKGILPPQ-------ANLQKLNSKVDWDHAGVKVVQEA------------TKWPES-DEVR-----RAGVCSYG-------------------------YGGTVSHAIVEEFTSPPQPEL---------------------------------------------------------------------------------------------FDGS---PDVGPGILLLSGPQEK------------------RISVQAKTLQSWLSSEGRNQS-LRK-----------ILTTLATRRDH---------HDYRAALIVESHE------DAVKGLDDLASGENHPYT---------TQSRVFGSDISKDVVWIFSGHGAQW
+Chaetomium_globosum_XP_001219267                       EAHGTGTKKGDPIEARGIYNAVGR-YFS-------------PENPLHIGSVKPNVGHLECASGIISIIKGALMLYYGFILPN-------ADFERVNEAIPLAAWNMR-------VATR-----QKPWPRNTN--------RLCINNFG-------------------------FSGSNSTCVLSTTPRCRSIEIADN---------------------------------------------------------------GAYSP---------------------------------LRLFVLSANDET------------------ALRKSVSKLGIWIE--QHAEL-------YQTTMPRNLAYTLCQRRSH---------LQWRMAVVA---GMCSDVTKAIN-SHEAVPTR------------------APSVPPKVA--FVYTGQGAQW
+Chaetomium_globosum_XP_001224361                       EAHGTGTPTGDPIEVAAIASVFKDTRT--------------HGEPLRIGSVKTNIGHTETASGVAAIIKVALALEKGQIPPS-------INFEKPNAKLHLDEWNLK-------VPTSL-----ESWPEPEG------IRRASINNFG-------------------------YGGSNAHVIMESLDSFVAASASAVPVSAPTNGNGNGVTNG---YRNGANGHTNGINGTNGHTNGTNG---HHHGHSRKDSGISMAEEEEDPG--------------------------------RSRIFLLSGKDER------------------ATQAMADNLKKHLLSVSPAD---------EEAFLDNLAYTLGHRRSQ---------FPWMSTFAA---SSIAGLVKTLD-SGRNKPVKR-----------------EASSTPRLG--LVYTGQGAQW
+Cochliobolus_heterostrophus_AAB08104                   ECHGTGTQAGDTTEASALSKVFSPG--R-------------R-LPLLIGSVKTNIGHLEGASGLAGVVKSILMLEQGVILPN-------RNFERPNTKIPLEKWNLR-------VPTTL-----ECWNNV-------KTRRVSINSFG-------------------------YGGANVHAILESATDFLRDNSMGTDSTRFASR----------------------------------RSVVVGNVGQTKPAVSLVQDMSSNDRSH---------------------------EDPTPLLFALSAFDSS------------------AGDAWARSLSIYLSQRQGSD---------EKTILSSLAYTLSDRRTWH---------PWKAALSA---TTIQELITKLE------KVRFV----------------NMAPRHNIG--FVFTGQGAQW
+Cochliobolus_heterostrophus_AAR90257                   EAHAPGTRVGDPIEISALQEVFSTSART-------------LEDPLLIGSVKANVGHLESSSGFPSLIKAAMMLKKGLVVPN-------ANFENESMNSHLKEKNMR-------VPIS-----TQPWPKGKT--------YIAINNYG-------------------------FGGSNSHCIVRAPPIPQGLVSQKE--------------------------------------------------------------TRNVES---------------------------------DYLFVLSANDEV------------------ALRRTREQLVEFLE--SVD---------ASSTTMQNTAYTLGQRRSL---------LSWRATVVA---SNIDDLIIQAA-SPQVIPRR------------------VTR-QPTLV--FAFTGQGAQY
+Cochliobolus_heterostrophus_AAR90260                   EAHGTGTKQGDAIEARGIAQAFK-SRR--------------KDKPLYLGSVKASVGHLEGAAGVAGIIKSVLALENGVIPPQ-------ANFEKANPKIPFQKWNLS-------IADKA-----VPWPTQGLR-------RVSINSFG-------------------------VGGTNAHAILDDAYHYLRDHELTGNHRTAIEAPSMEKIDSLSRAAEALIAPSEQLSETQHLNGDDSAPKQNGTHTPSKTNGHAHAGNGVDKGHSLRSW------------------ISAENIPEPPQLIGLSAFDEA------------------GVSRNAETQLDFFKS---HSTYP-------PSFLNDYSHTLN-RRSQ---------FSWRSFFLAGDTSDMVEVLPTVHT-KAIRARGPI------------------------SIAYVFTGQGAQY
+Cochliobolus_heterostrophus_AAR90264                   EAHGTGTKAGDPCEAAAINSVFS-ART--------------PEDPIFVGALKSNMGHPEGASGIAGVIKTLLVLEKGIIPPN-------VYPERINPAVTAAGPNLR-------FPLEP-----VTWPTSGVR-------RASVNSFG-------------------------YGGTNAHVVIDDALSFLREQGLEGRHCTAD-----------VRTIEEAKYVHP--CNTSTLSRTSSNENGSEIMP---SGSTARDDTPSGSIGDYEEAS----------------PSASENSKFTPKLLAISAFDER------------------AVHRSIDALKKWMND---YMEDE-----NRRPTLNDIAYTLAEKRTK---------FPWKSTCVALSET--QSELTWSP---PVRSKPNT------------------------NMCFVFTGQGAQW
+Cochliobolus_heterostrophus_AAR90267                   ECHATGTATGDPIEATAVGNVFG-------------------NGGVYIGSVKPNVGHSEGASGITSIIKAVLALENRVIPPN-------IKFETPNPKIPFLEKDLK-------VPTDC-----LGWP-------KDKLERVSVNNFG-------------------------IGGANAHFILDSAASYG-------------------------------------------------------VNSDIIADPEREESFLESLKWGK--------------------------------LFLITASTSE------------------SLEMQTRNLRDYALS------------N--PTKAEHGSYTLACRREH---------FSHRAFSVIQELS------VDSQAGVSIAGVSPLR------------------------LVMIFTGQGAQW
+Cochliobolus_heterostrophus_AAR90269                   ECHGTGTAVGDPIEVGAVARVFG-------------------KDGMIIGSVKSNIGHSEGASGNTSVIKAILSMEHQIIPPN-------VNFETPNPKIPWKEANLR-------VPTEC-----MKWP-------SDRLERASVNSFG-------------------------IGGTNAHVILESAA-------------------------------------------------------------AHGVNRPKLLSTEQKPR---------------------------------LSLLLFTARSEI------------------SLQESINKHADYIQK------------HG-SSRLGDIAYTLGTRREH---------HEHRTFCVSDGEE------PLAALPSLRTKMTTRS------------------------TVFVFTGQGAQW
+Cochliobolus_heterostrophus_AAR90271                   EAHGTGTQAGDPQEARAIHDVFFP------ELRDSA-------DVLYVGSVKTVIGHLEGAAGVAGLIKAAEAVRRAVVPPN-------MLLQKLNPAIEPFCVNLKVPTQS------------LPWPHLPLGGPR----RASVNSFG-------------------------FGGTNAHAIIESYEHQT------------------------------------------------------------------------------------------------FTRRGPQQLSIFPSPVLLSANSDL------------------SLRAQATALADFLES-NESTSWLD------------LLYTLQSRRSQ---------HYVR-LALSSTSR-----EDLLRKLR-ATAQSNSNVGI-------NMTKP-SSSFR---FLGVFTGQGAQW
+Cordyceps_bassiana_CAL69597                            ECHGTGTKAGDPVEARAISDAFLP-----PSHRTNGAAT-TVDAPLYVGSIKTVVGHLEGCAGLAGLVKVLLSLKHGIIPPN-------LWFDKLNPEIARYYGPLQIPTKA------------IPWPKLAPGTPL----RASVNSFG-------------------------FGGTNAHAIIERYDASQSYCSQWRRNMTE---------------------------------------------------------------------------------EKTIARTQNNESIEIPVPLVLTAKTGR------------------ALWRTVDAYAQHLRQ-HPKLRVTN------------LSQFMHSRRST---------HRVR-ASFSGASR-----EELVENMAKFVQAHAADAKSPASQNRIGYSPLHIDPKEAPGILGVFTGQGAQW
+Emericella_nidulans_1905375A                           EMHGTGTQAGDAVEMQSVLDVFAP------------DHRRGPGQSLHLGSAKSNIGHGESASGVTSLVKVLLMMKENMIPPHCGIK--TKINHNFPTDLAQRNVHIALQP--------------TAWNR-----PSFGKRQIFLNNFS-------------------------AAGGNTALLLEDGPVSDP----------------------------------------------------------------------------------------------------EGEDKRRTHVITLSARSQT------------------ALQNNIDALCQYISEQEKTFG------VKDSNALPSLAYTTTARRIH---------HPFRVTAIGSSFQEMRDSLIASSRK--EFVAVPAKT---------------------PGIGFLFTGQGAQY
+Emericella_nidulans_AAA81586                           EMHGTGTQVGDAVEMESVLSLFAP-----------DETFRPRDKPLYVGSAKANIGHGEGVSGVTSLIKVLLMMKNDTIPPHCGIKPGSRINRNYP-DLPARNVHIAFEP--------------KPWPRT------DTPRRVLINNFS-------------------------AAGGNTAVLVEDAPV-----------------------------------------------------------------------------------------------------------PELGEIAGSFGEAAG------------------NQSS-------------------------------ELSYTTTARRWH---------HPHRVSITGANTMEILRNVESAIARG-HGVNRPATK---------------------PKIVIACSGQGSQY
+Gibberella_moniliformis_AAD43562                       EAHGTGTSVGDPLEATAIARVFGG--SS--------------DNKLYIGSVKPNLGHSEGASGVSSVMKAVLALENRTIPPN-------INFSTPNPKIPFSEMNMA-------VPVDA-----IPWP-------RDRPLRVSVNSFG-------------------------IGGANAHCIIETLEEYLGRSLPNESQVAP----------------------------------------IRNGNGSVQADSSSAVTSITAMKMEVRRKKRQSAVEAAGLVSNLRLVADSTKIRPSKALYVLSAANPT------------------SLRQSVMDYQKYLAS------------H--KTDPVDVSYTLANRREH---------LSHRTYGVVTTES------TNDTP--IVPDFSPLSKTN---------------NNSLPEINMIFTGQGAQW
+Gibberella_moniliformis_AAR92208                       HAHGTGTPAGDPREAEAIYRAFYS--------DVKD-------DKLYVGSIKTVLGHTEGTAGLASLIGTALAIQNKTIPPN-------MHFDVLNPKIKPFYDNLEVPTKA------------IAWPEPYQGQPR----RASINSFG-------------------------FGGTNAHAIIEAYEPSTTESVPG----------------------------------------------------------------------------------------------------PLFSPLIFSASSEA------------------SLRSLLSSYSGYLKS-SPELSLKD------------LAYTLQTRRST---------LAYR-VAITASST-----QDAYTQLDAIVNGEQ-AST-------VGVRQVSKASPK---IMGVFTGQGAQW
+Gibberella_moniliformis_AAR92209                       EAHGTGTPVGDPIEVEAIGRCFQAHRS--------------PSEPLYVGSVKANIGHLEGASALASLVKCVLILEKGVIPPN-------ALLQKTNTALKADSYNIT-------VPTKS-----IEWPTEGLR-------RVSLNSFG-------------------------FGGSNSHVIIDDALHYLKDRSLSGVHNTSLTPRP-------VTNGSGVTI-----------------------------NGNGAAQTNG-TNETNGVA-------------------NGHPDVELPKLLVWTAADEK------------------AAKRTIEAYHSFYKE-------KVW---GNHKKLDYLASTLGTRRSN---------MLWRVSTVVDGLTAQAL--SNL---KPIRSSEDL------------------------GLAFVFTGQGAQY
+Gibberella_moniliformis_AAR92212                       EAHGTGTPVGDPIEASAISGAFLEYCS--------------EQEPMVVGAVKTNIGHLEGSAGIAGLIKAIMVLEKGIIPPN-------MGFQTPNPKIPVHDWHLK-------FLTKP-----EAWPTKGLR-------RASINAFG-------------------------YGGSNAHIIIDDAYHYLLVNTSSINGTNGIN-----------------------------------------GHSNGINGHINGHHSASSSSDDEYILVKRFKG-----------------HAPPSRLFFFSTFDEA------------------GAARMAKAYKEFLAPTSKSIVAGSE---EEQRFLSDLSYTLINHRTS---------FPWRFSIVADSIAALADKLEA----NLSPVRTTAE----------------------PKLGFVFTGQGAQW
+Gibberella_moniliformis_AAR92214                       ECHGTGTKAGDWRELKAISESLCTVRDI--------------DNPMVVGSIKPNIGHLEGAAGVAGLIKGVLALEHAKIPPN-------INFEKPNPDIDFKEWKVK-------VPTEL-----LDWPVSGL-------RRVSVNCFG-------------------------FGGTNAHVIMDEAPLYLS---ARGLRGNHNSFEAIT-----------------------------SSRRASDT-----------------------------------------------KAVFEPQLFVFSSHNKL------------------GVRRIMESHIPYLESQGEED----------TAILHNYAYTLGCRRSN---------LEWKHAVVA---KSREELIAKLQNIDESLFKRT-----------------SKNKKPNIC--FVFCGQGAQF
+Gibberella_moniliformis_AAR92217                       EAHGTGTPAGDPLEARAIHEAFFT------DGDIVS-------EPMYVGSVKTAIGHLEGCAGLAGLIKALEAVKRGVIPPN-------QLFENLNPALKPYVSNLRLPTES------------KPWPKLAPGSAR----RASVNSFG-------------------------FGGTNVHAIIEQFDH--------------------------------------------------------------------------------------------------AQREASSADGIISTPLVLSANSDL------------------SLRKQIAHFAEAIEH-NDKGEVDR------------IIFTLAQRRSQ---------LPLR-AYFSGHGL-----QSIQQKLRDATAENAVLPFI-------SQTVPPGQPPR---ILGVFTGQGAQW
+Gibberella_zeae_AAU10633                               EMHGTGTQAGDATEMTSVLKTFAPTS---------GFGGRLPHQNLHLGSVKANVGHGESASGIIALIKTLLMMEKNMIPPHCGIK--TKINHHFPTDLTQRNVHIAKVP--------------TSWTRS----GQANPRIAFVNNFS-------------------------AAGGNSAVLLQDAPRPSV--------------------------------------------------------------------------------------------------VSDVTDPRSSHVVTMSARSAD------------------SLRKNLANLKELVEGQGD----------SEVDFLSKLSYTTTARRMH---------HQFRASVTAQTREQLLKGLDSAIERQ-DVKRIPAAA---------------------PSVGFVFSGQGAQY
+Gibberella_zeae_ABB90282                               EMHGTGTKVGDPAEMGALASLFSH---------------RRTPKPVVVGGVKANVGHSESAAGVASLLKCIMMFQKNILPPQAGMP--HALNPNFP-PLSEINIEIPSEP--------------STFESP-----VSQPRRILLNNFD-------------------------AAGGNACILLEDFGNN----------------------------------------------------------------------------------------------------MVKKSDPRVHHTVVTSSRTQA------------------SYHGNKAKLLQWLRQN-------------PGARIEDVAYTTTARRTH---------HPIRFAVTASSTQELISKLEADTADS----PAAKES----------------------PVVFVFTGQGSHY
+Gibberella_zeae_XP_390724                              EAHGTGTAAGDSVELRAIGASVTKNRDS--------------SKTLVVGSIKSNIGHTEGAAGLAAFIKAVLVVEKGLIPRN-------IHLNNPNPRIPFEELKIQ-------VPTVE-----IPWPTPGV-------RRASVNSFG-------------------------YGGTNAHAILDDASSYLEYWHERQIHQQNSPQMTEH-----------------------------SSSASSDAGFSADSGVLVDFVDKQSLPSSF-------------------------KETTNKRLFVFSAHEES------------------AALNMKQRYATHLEEEASKAMSTSI-----TSYLDRLAYTLATRRSI---------LPWKTSIVA---GGLDELLRNLASSEIKPFR-------------------SLNK-PRLA--FVFTGQGAQW
+Gibberella_zeae_fg12100                                EAHGTGTPAGDPLEARAIHEAFFD------GSDIVN-------EPMYVGSVKTAIGHLEGCAGLAGMIKAIEAVKTGIIPPN-------QLFETLNPAVKPYTSNLKLPVES------------QPWPKLTEGFPR----RASVNSFG-------------------------FGGTNVHAIIEHFDN--------------------------------------------------------------------------------------------------LSSE-SSVNEVISTPLVLSANCEL------------------SLRAQISQLAQVLEN-AESERIES------------ILYTLAHRRSQ---------LPLR-TFFSGHDL-----PSLQEKLESAIVEDVVIPTS-------KQDSPLGSAPR---ILGVFTGQGAQW
+Gibberella_zeae_fg12125                                EMHGTGTQAGDATEMLSVLDTFAPPVSG-------SRPSRPNDQKLYIGSAKANIGHGEAASGACSVIKVLQMMQKNTIVPHCGIK--TKINHRFPTDLEERNIRIAFEP--------------TPWERIN----LDTPRRVMVNNFS-------------------------AAGGNSALLIQDAPPKKQ--------------------------------------------------------------------------------------------------LASGKDTRVQFSIAFTAKSGV------------------SLQGNLRSMLKFLAGS-------------PDISLAELSYTTTARRIH---------HQHRVLISGSTPSEICNKIETALESN-TGVNRPKSA---------------------PKVVFSFTGQGAQY
+Magnaporthe_grisea_CAG28798                            EAHGTGTPAGDPIEAAAISKAFFG-----DDVKPHSRD---GHDTLFVGSIKTVIGHTEGTAGLAAIIKASTALQAGVLPPN-------RLFHKLNPKIEPYYSNLKILTEA------------QPWPRLPEAGTR----RVSVNSFG-------------------------FGGANAHAIVESADGYIARR-AAAPN--------------------------------------------------------------------------------------------PRS----FAPCPLSAASET------------------VLTAMTERLRSYLKS-QIASGGTGIN-------MRDLAWTLCSRRST---------LGVRSVLPAAKSP-----QDLLDKLEASAQLPP---------PATSTKKAPETGPR---VFGVFTGQGAQC
+Magnaporthe_grisea_CAH59193                            EAHGTGTPAGDPVEARGIFKSFFDPESAKKSRTSEE-------TPLLVGSVKTIIGHLEGCAGLAGVIKVLVAMEHDTIPPN-------LHLKRLNPEIEPLSRVLKIPTES------------RPWPTPAAGQPK----RASVNSFG-------------------------FGGTNAHAIIESFDGGLEKQDLGRGRKDTQHDVAGR--------------------------------------------------------------------------VHTWEGLAAAAAERPAMPIVLSAHSEQ------------------ALQRQARNLLEFLRD-NPSVEQRD------------LAWTLFARRSE---------LGVR-MSIPAAKSREDLEQSLQETLSKTTAAEKPTKLG-------EPPKALASPDEGVGILGVFTGQGAQW
+Melittangium_lichenicola_CAD89777                      EAHGTGTALGDPIEMRAIGAVFGP-------TREKS-------RPLRVGSVKTNIGHLEFASGIAGLIKLALSLKHREIPAH-------LHFKRGNPYIPWNELPVEIPTQL------------TPWAAG--QGPR----VAGVSSFG-------------------------ASGTNAHVVLEEAPEVER-KAEG--------------------------------------------------------------------------------------------------KGRPLHVMSLSARNAE------------------SLRELASRYVKYLEAHPE--AKLEE-----------VCFTANAGRAH---------FAHRAAVVAENVQ------QLREQVEALAKGEAPE-----------QGAVSREAGRVQEVVFLFTGQGSQA
+Metarhizium_anisopliae_ABD47709                        EGHGTGTQAGDTREMAGIARSFSQHRTA--------------SEKLLVGSVKANIGHLEACAGLASLIKCVYILETGMIPPT-------PSVRRLNPKISWEEWHLE-------VPTTQ-----TPWPTDGLR-------RISTQGFG-------------------------YGGANAHLVLDDAAHYLEGRNLRG------------------------------------------------HHYTLTKSQKQRLLDTESHGDSP--------------------------KKHVPRLFLLQANDRG------------------GLGRVRASLAQHLDQLQILNKSWPPGSRDGGVYLQNLAYTLASRRSH---------LKRQTYAVA---STPGELIEVLKRHDDAWETPEV----R-----------RAASPPRLG--FIFTGQGAQW
+Microcystis_aeruginosa_YP_001657794                    ELHGTGTSLGDPIEAMALGAVLEE-------GRDKD-------NPCLVGSVKSNIGHLEAAAGIASVIKMALSLKNKQIPPS-------LHFNKPNPYIPFDKLPLKLQSSL------------ITWPQQ--ETTA----KGGISSFG-------------------------FSGTNAHLILEEAN-LSHPEPIS--------------------------------------------------------------------------------------------------LTFP-HLLPLSAHSQE------------------AVRDLAQNYEDFLKDQALTAEFVQN-----------LCYSASARRTH---------HAHRQAVVVHSHE------ELLKGLKELETIDLSTQ--------------SKPSKRKTNIAFVFSGQGPQW
+Monascus_pilosus_ABA02239                              EAHGTGTPAGDPQEAEAIATAFFGH----KKEASDAEN---AETPLFVGSVKTVVGHTEGTAGLAGLMKASFAVQHGVIPPN-------LLFENISPRVAPFYSNLKIATET------------TPWPTIKPGQPR----RVSVNSFG-------------------------FGGTNAHAIIEEYIKSDQKVPASRQPV-----------------------------------------------------------------------------------------EYSDSPSTLNLPLVLSAKSQR------------------SMKTTLESMVQFLQS-NPEVNLRD------------LSWTLLRKRSI---------LPFR-RAIVGHSH-----EAIRAALEAAIEDGI---------VVSDFSADVKGKPS---VLGVFTGQGAQW
+Monascus_purpureus_BAD44749                            EAHGTGTAVGDPAEYDGIRAVFGGPIR---------------SDVLSLGSVKGLVGHTECASGVVSLIKTLLMIQQGFIPPQ-------ASFSSINPSLNAKAEEKIEISTR-----------LKPWDAPFR--------AALINNYG-------------------------ASGSNASMVVTQPPNLTETP--------------------------------------------------------------------------------------------------STPLPGKSYPFWISAFDQQ------------------SLQSYVRRLRQFLEKHAADKN----------LSVANLSFQVACQSNW--------SLPQALVFSASTKEELNRALASFEKGSTDFPSVQLPDP--------------------KPVILCFGGQVSTY
+Mycosphaerella_zeae_maydis_AAR85531                    ECHGTGTQAGDTTEARAISNVFGPG--R-------------Q-VPLAIGSVKTNIGHLEAASGLAGVLKCILMLENEIILPN-------RNFKHANLNIPLEEWKLR-------VPTTV-----EPWNSM-------TTRRASVNSFG-------------------------YGGTNVHAILESADNFLR--ARGLDQTKFTRRPM-------------------------------HRIMAIRNALELEPEQNGNPFSSSGAKYMG--------------------------QRADPQVFAVSAFDPT------------------AGEACAKNLAYYVEERQDMA---------DATFLSSLAFTLSDRRTVH---------PWKATVTA---SSSAELISGLR------KVRFS----------------SVKSTHNLA--FVFTGQGAHW
+Nectria_haematococca_AAS48892                          EMHGTGTQAGDATEMNSVLSVFVP------------GHQRMPRHPIYLGSAKANIGHAESASGVSSLIKVLMMMKHNEIPPHCGIK--TKINHNYPLDLKDRNVNIASRP--------------TPWLRD--D-APCGKRLAFLNNFS-------------------------AAGGNTAVLLEDAPLP----------------------------------------------------------------------------------------------------RDLQADPRTFHLVAVSSKTAK------------------SLRGNIEALISHLETS-------------RHVSVPSLAYTTTARRMH---------HGYRVTAIGSDITSIAQSLRSKINNL-DPKPIPPVARV-------------------PNVAFMFTGQGSFY
+Neosartorya_fischeri_XP_001258701                      ECHGTGTAAGDPIEARAVHDAFFP-----TETGTASNLL-IPDGKLYVGSVKTIIGHLEGCAGIAGVLKAVLAIKNRTIPPN-------MHFHEPNPEVIPFCDRLQIPTAP------------IPWPDTGR-SPM----RASVNSFG-------------------------FGGTNAHAIIEGYDALSSP---------------------------------------------------------------------------------------------VQEKTVTP-EDLFIGPLLFSASSST------------------SLVANVKNMAERIRS-DASIDLES------------LVWTLHARRSV---------LPIK-AFFTGGTV-----QRLLNFMDRFVAESEETTSS-----TAGIKYQPLNPAEAPGVLGIFTGQGAQW
+Neosartorya_fischeri_XP_001261656                      ELHGTGTPVGDPIEVRAIASAMNDTRST--------------EKPLLLGAVKPNIGHSEAASGIFAVMKAALMTEAGVIPGV-------AHFQRLNPAIHEKEWNVK-------VNVDT-----TPWP----Q--EFDVRRASVSSFG-------------------------YGGTNGHVIIESVESLY----------------------------------------------------PWYQH-----------------------------------ARAKRDAPYTRSYDRP-FLLCFSAHDKA------------------TLARNVTAISKVAG----------------DYYMMDLAYTLNMNRTR---------WGHRAFAIARDAQG--TAVFDQSAVQSGVALPVGP-----------------------EVGFLFTGQGAQW
+Neosartorya_fischeri_XP_001262991                      ECHGTGTPTGDPIEAAAVARVFG-------------------DKGVYIGSVKPNLGHTEAASGLVSLLKMVKALEHRVIPPN-------IKFTSPNPNIPFAEGKLT-------VPTDP-----LPWP-------KDRLERVSVNSFG-------------------------IGGANAHVILESAA-------------------------------------------------------------SYNVPAAVYET-PETP-----------------------------------QLLLFTANSSK------------------SITRTIDGYKAWVEQ------------N--PDKVSDLAYTLARRREH---------LPHRAFAIFSNGV------LESVSQPANTKSAKPP-----------------------SVVMVFTGQGAQW
+Neosartorya_fischeri_XP_001265535                      EFHGTGTRAGDSLEANGVATVFTPFQAP--------------DRPLRIGSVKSNIGHSEPAAGLSGLLKTVLSLEHGVIPGN-------PTFIDPSPKIDFEALRLY-------TSRTA-----TTWP-------KVPFRRASINSFG-------------------------YGGSNAHVIIDEAKD--------------------------------------------------------------LGHHHVSSYVNEETD-------------DLFAEQS----------ATRPYLLVFSANDEK------------------ALDAQAAALDRHLSD------------PAVKVSLRDLAYTLSERRSR---------HYHRAFAVTDSTT------LDLPTLNKGHISGQKP-----------------------KVGFVFTGQGAQW
+Neosartorya_fischeri_XP_001265690                      EAHGTGTPIGDPIETRAIGTAFRRYRS--------------PEQPLYVGSVKSNIGHLEGASGVAGVIKVILALEKGIIPPNS------RNLQFLNPQIDEEFLNLK-------VLQRA-----IPWPENGLR-------RASVSSFG-------------------------FGGSNCHVVLDDAYNSLRLMGIEGSRHQTVVIPP-------SHADTALVAQGK---------------------CGNTTNAGSDQPTDDRQNGLLDEE-------------------------ETHQLLVWSTAD-E------------------GIKRLVEAWKPFLSDKR---EFSRS---QRRQCLLDLAYTLSQRRSH---------LQWRSYAIGDALEDLGS--LADRFTPAIKSTDES------------------------HIAFLFTGQGAQW
+Neurospora_crassa_EAA28899                             EAHGTGTRVGDPIEATAIHNVLGQ-ERS-------------PRNPLWIGSVKSNIGHLEGASGIAGVIKAALMLERGFILPN-------HDFKQPNPRIPWKEWNLE-------VPVT-----QRPWPRGKK--------TS--------------------------------GSSHDDTLMASD--------------------------------------------------------------------------KSGLG---------------------------------RKLYVVTAHDKA------------------ALSQQMKNIVVYLE--QRPEI-------FQVDLTSNLAYTLGQRRSL---------LQWRAAIPA---INSFELIEAIN-GEKAITGK------------------EIE-PLRLG--FIFTGQGAQW
+Neurospora_crassa_XP_955938                            EAHGTGTKKGDPIEATAIYKAVGR-YLS-------------ADDPLYIGSSKPNVGHLECASGLVSVIKGVLSLYYGFILPN-------ADFDKENPGIPFKEWNMT-------VAKQ-----QKPWPAHKK--------YACVNNFG-------------------------FSGSNSTCILAGPPIHRRIELGEH---------------------------------------------------------------GAYTT---------------------------------PRLFVLSANDEQ------------------ALRTSIKELGIWLE--QHAEL-------YQTTMPRNLAYTLCQRRSH---------FPWRVAIVE---SICSGLAGSLN-GHDLTPMR------------------ASSEQPRLA--FIFTGQGAQW
+Neurospora_crassa_XP_958169                            ECHGTGTYVGDPIEVAALGRVFAPERSS--------------DDPLLIGSVKSNVGHGEGASALASIMKVVLALEHGAIPPI-------YDLQTRNPNIDFEGAKVQ-------PVTEV-----TPWP----K--DR-LQRASINSFG-------------------------YGGANGHCIIDHVNIVL----------------------------------------------------PDYVAPGIYKRSTRDTTNG-VNGHMNG-RNGSPSHR-PMIQRPKMTAS-PNANTRPLVLLPLSAHNEN------------------SLELNLKALSQVVD----------------KLPLADVAYTLGARRSK---------FAQRSFCIVEKDKV--VEGLAAKSRVVRAPL-QPT-----------------------NLGFIFTGQGAQW
+Neurospora_crassa_XP_959122                            EAHGTGTPTGDPIEVKAIARVFKDSRKG-----------NGEDALLRIGSVKTNIGHTETASGVAAIIKVALALERGQIPPS-------INFETPNAKLSLDEWKLK-------VPTEL-----EEWVGKDG------IRRASINNFG-------------------------YGGSNAHVIMEDYSSYLATTQ-----------------------RPKALP----------LTNGTAPGHHHHHHHQHTDSGIVIDDDFHGNGNNG--------------------------DHHHSKVFLLSAKDEK------------------ATERMIANLKTYLHQQKANTHSKI----AENALLSNLAHTLCDRRTL---------FPWTATFSG---ASLDSLIRTLD-SGRVKPAK------------------ASAQPPRIG--FVFTGQGAQW
+Nodularia_spumigena_AAO64407                           EAHGTGTSLGDPIEMNAIAAVYG--------KRSQ---------PLYVGSVKTNIGHLEAAAGIAGMIKTILSLQHGEIPPH-------LHFQKPNPLINWQGYPIKIPSQI------------IPWSNH--GEIR----IAGVSSFG-------------------------FSGTNAHVIVEQAPAAKTTEIK---------------------------------------------------------------------------------------------------LQRPSHLLTISAHNET------------------ALKELAQRFHTRLESD----PEIGD-----------ICHSAAIGRSP---------LPERLAIVADTLP------ELQQKLSAFANEKTIDHL---------TFSQRFSGEKQPKIAFLFTGQGACY
+Nodularia_spumigena_ZP_01628022                        EAHGTGTALGDPIEIGALGAVFS--------ESHQK-------SPLLVGSLKTNIGHLEAAAGIAGLIKVVLALKYGEIPPH-------LHFEQPNPHIPWEQFPIHIPTTC------------TPWHG-----KK----IAGVSSFG-------------------------FSGTNAHVILSKNDSLPLPKTRD--------------------------------------------------------------------------------------------------NERPLHILTLSAKTET------------------ALQQLAKNYINHLQ-D----IDWAD-----------ICYSANTGRSK---------LEYRLAIIADSLT------TAQEKLNCFINSEATAN----------IFTNRVNYQSRPKIAFLFTGQGSQY
+Nodulisporium_sp_AAD38786                              EMHGTGTQAGDGTEMVSVTDVFAPAN---------RHRP--ADRPLYLGAVKANVGHGEAASGVTALIKVLMMLKKNAIPPHIGIK--KEINKTFPKDLGERGVNIAFHK--------------TPFTRKD-----GKPRKVFVNNFS-------------------------AAGGNTGLLLEEGPR----------------------------------------------------------------------------------------------------YKTAVVDPRSQHVITITAKSKA------------------AMIRNAENLVKWMEEN-------------PSTSVSHVAYTTTARKIQ---------HYWRMNVVASSLVEAQEAIKERLKSN--FVPVSPEQ---------------------PKVAFLFTGQGSHY
+Nostoc_sp_NP_485689                                    ELHGTGTPLGDPIEAMAIGAVLGE-------GRDAA-------HPCLVGAVKSNIGHLEAAAGIASIIKMALALKYQQIPPS-------LHFHQPNPYIPFDQLPLRVQTSL------------IPWPKS--KYGA----KAGVSSFG-------------------------FSGTNAHVILEGVSSFNSPEQQT--------------------------------------------------------------------------------------------------CKFP-HLLPLSAHTPA------------------AVQTLALGYQDLINAQKLTPEFVQN-----------LCYSASVRRTH---------QSYRSAVVVNSPE------DLPSCLQALATADITTQ--------------TKQSKRKPKVAFVFSGQGPQW
+Ochrolechia_pallescens_ABQ11380                        EMHGTGTQAGDAVEMKSVLDIFSPD-----------NRKRASHQPLYLGSAKANVGHGESASGVTSLTKVLLMMKKNIIPPHCGIK--KKINHNFPTNLKERNVHIALQP--------------TPWTR-----PVQKQRRVFVNNFS-------------------------AAGGNTALLLEDAPIIST---------------------------------------------------------------------------------------------------DRDEDPRAYHVVAVSAKSMV------------------SLKQNLRALIAFINGS-------------QPMSLPSLSYTTTARRLH---------HNNRVMVNGTTSQQISDALDKFTFRE-DLIPIPTST---------------------PRVAFAFTGQGSQY
+Penicillium_citrinum_BAC20564                          EAHGTGTPAGDPQEAEAIATAFFGH----KDGTIDSDG---EKDELFVGSIKTVLGHTEGTAGIAGLMKASFAVRNGVIPPN-------LLFEKISPRVAPFYTHLKIATEA------------TEWPIVAPGQPR----RVSVNSFG-------------------------FGGTNAHAIIEEYMAPPHKPTAVVT-------------------------------------------------------------------------------------------EVTSDADACSLPLVLSSKSQR------------------SMKATLENMLQFLET-HDDVDMHD------------IAYTLLEKRSI---------LPFR-RAIAAHNK-----EVARAALEAAIADGE---------VVTDFRTDANDNPR---VLGVFTGQGAQW
+Penicillium_citrinum_BAC20566                          EAHGTGTPTGDPLEISAISAAFK-------------------GHPLHLGSVKANIGHTEAASGLASIIKVALALEKGLIPPN-------ARFLQKNSKLMLDQKNIK-------IPMSA-----QDWPVKDG------TRRASVNNFG-------------------------FGGSNAHVILESYDRASLALPED--------------------------------------------------QVH-VNGNSEHGRVEDGSK--------------------------------QSRIYVVRAKDEQ------------------ACRRTIASLRDYIKSVADID---------GEPFLASLAYTLGSRRSI---------LPWTSVYVA---DSLGGLVSALS-DESNQPKR-------------------ANEKVRLG--FVFTGQGAQW
+Penicillium_expansum_CAO91861                          ECHGTGTQAGDPIEAQAIRDAFFT-----TESSDE-------VAPLFVGSVKTVIGHTEGCAGLAGVLKAVLAIRNQTLPPN-------LLFNQLSDSVRPFYGPLQIPTTS------------LPWPDTISGSPK----RASVNSFG-------------------------FGGTNAHALIEEYNPQ-------------------------------------------------------------------------------------------------IAQSGYH-ADQALGPLVISAHSGP------------------ALLNKVRDLLSYMIS-NPSANLPD------------ICWTLQTRRTT---------HKVR-SYFSNRSY-----QSLLDSLAAFVQTNQSLQPE-----QIGFQPQLIDRNESPGVLGVFTGQGAQW
+Penicillium_griseofulvum_CAA39295                      EAHATSTPLGDPTEISAIASVYGA-------DRPAD-------DPCYIGSIKPNIGHLEAGAGVMGFIKAVLAIQKGVLPPQ-------ANLTKLNSRIDWKTAGVKVVQEA------------TPWPES-DPIR-----RAGVCSYG-------------------------YGGTVSHAVIEEFSPILQPDP---------------------------------------------------------------------------------------------LGNG---AVSGPGLLLLSGPQEK------------------RLALQAKTLRDWMTAEGKDHN-LSD-----------ILTTLATRRDH---------HDYRAALVVDDYR------DAEQVLQSLANGVDHTFT---------TQSRVLGSDISKDVVWVFSGHGAQW
+Penicillium_nordicum_AAP33839                          EAHATSTPVGDSTEITALSRVYGH-------MRKSD-------NPCYIGSVKPNIGHLEAGAGAVGFIKSVMSIHTGILAPQ-------ANLDQLNSSIDWAGAGLQVVQDS------------QQWPSS-DAPR-----RAGVSSYG-------------------------YGGTVSHVILEQYTP--PPFE------------------------------------------------------------------------------------------------DKQSQSDGPQILLLSAPHEN------------------RISAQANVLSFWMNDAGKNNA-LSR-----------IATTLAIRRGH---------HTHRAALVVDNHH------DAIEKLRSLSEDVSTEWV---------TKNRVLTKDTRKDVTFVFSGHGAQW
+Pertusaria_amara_ABQ11385                              EMHGTGTQAGDGVEMQSVLNVFAPI-----------GRTRDS--PLHLGSAKANVGHGEAASGVTSLIKLLKMMEKNMIPPHCGIK--TKINHTFPTNLKERNVHIASKP--------------TPWIR-----AEGENRKVFLNNFS-------------------------AAGGSTALLLEDAPISAE---------------------------------------------------------------------------------------------------RSEEDPRSMHLIAVSAKSKV------------------SLKQNIQSLISYMKRN-------------PNTSLPSLSYTTTSRRSH---------HNHRVIVSGSDLHAIRQGLETSTQQV-DISPVPSSA---------------------PTIAFAFTGQGSQY
+Pertusaria_corallina_ABQ11381                          EAHATSTPVGDPAEVMAIANVYGK-------NRTKD-------DPCYIGSIKPNIGHLEAGAGVMGFIKAVLAVNKGKIPPQ-------ANLKKLNSRIPWDKTGIQVIRNS------------LDWPKS-NFPR-----RAGICSYG-------------------------YGGTVSHAVIEEYIADEDAINGA-------------------------------------------------------------------------------------------AHEQMEDDIDKYHVLLLSAPQEK------------------RLAIQANLQHQWIIGNGKTHS-LDS-----------IATTLATRRNH---------HYYRAAMVVDNHE------NAADSLKSFADGKTCPWI---------SSSKVVDPDAENKVIWVFSGHGAQW
+Pertusaria_corallina_ABQ11386                          EMHGTGTQAGDATEMRSVLSAFAWDR---------RRASSIPPRPLHLGAVKANVGHSEAASGVTALIKVLMMMRHNEIPPHR-LN--GQLNRHYPTDLADRNVHIAFEP--------------TAWRREDC---ANNKRMSFLNNFS-------------------------AAGGNTAILLEDAPTRL--------------------------------------------------------------------------------------------------AHTTREDLRSVKPVTVSAKTIK------------------ALEANLRALNIYLDKH-------------PNTSLSALSYTTTARRTH---------YNFRILVSGPDINAIKTALKRYENTCNMIEAVKPEP---------------------PKIVFVFTGQGALY
+Pertusaria_corallophora_ABQ11387                       EMHGTGTQAGDGVEMQSVLDVFAPT-----------NRIRVS--PLHLGSAKANIGHGEAASGVTSLIKLIKMMEKNIIPPHCGIK--TKINHTFPTNLTERNVHIALKP--------------TPWIR-----AEGKKRKMFLNNFS-------------------------AAGGNTALLIEDAPISVA---------------------------------------------------------------------------------------------------RREEDPRSMHLVAVSAKSKP------------------SLQKNIQSLKTFIERN-------------PDTSLPSLSYTTTSRRAH---------HNHRVMLTGSSLSAIQLGLETITLQD-DISPIPAST---------------------PTIAFAFTGQ????
+Pertusaria_flavida_ABQ11388                            EMHGTGTQAGDAVEMKSVLDVFTP------------TGVPRSRHPLYLGSAKSNIGHGESASGVTSLIKVLLMMKKNEIPPHCGIK--GKINRNFPTDLQQRGIRIAMEP--------------LSWSR-----PEKGLRRVFLNNFS-------------------------AAGGNTALLLEDAPNAPQNE-----------------------------------------------------------------------------------------------GNGGSLRPGSFYVVPISAKSRS------------------ALKKNVQMLTAFIGRNL-----------DSGLSLSDLSYTTTARRMH---------HNHRIAVNGSNLTMIKEKLEQAVLQD-DSLPVPTVA---------------------PGIIFAFTGQGSIY
+Pertusaria_lactea_ABQ11391                             EMHGTGTQAGDAVEMNSVLEVFASE-----------QGNRNAKQPLFLGSVKSNVGHGESASGVTSLIKVLLMMMKNEIPPHCGIK--TKINRHFHTNLQERGIRIAVKP--------------TSWDR-----AEGATRRVFINNFS-------------------------AAGGNTALLLEDAPIANQ--------------------------------------------------------------------------------------------------IGEDLDSRSFHLVAISAKSAS------------------SLIKNIRDLKAFVAAN-------------SGIPLPNLSYTTTARRMH---------HAYRTIVSASNLQTLESGLETASLHD-GYSPVSRYS---------------------PNVAFTFTGQGSQY
+Pertusaria_pustulata_ABQ11382                          EAHATSTPVGDPVEISAVSSVYGK-------GRTSD-------KPCLLGSIKPNVGHLEAGAGAMGFIKAVMAVNKGIVPPQ-------ANLNKLNSRIDWQEAGVQVVQQP------------TQFPLF-NVLR-----RAGICSYG-------------------------YGGTVSHAVIEEFPGNSQNFP---------------------------------------------------------------------------------------------APGPLAERDGKLHTLLLSAPQEK------------------RLAVQAKALESWILTDGTKHS-LAS-----------ISTTLATRRGH---------HDYRAAFVVGSHE------EGAAALKAFSEGARSASS---------ISGRTLDSKTSKEAVWVFSGHGAQW
+Pertusaria_scaberula_ABQ11395                          EMHGTGTQAGDATEMGSVLSVFVP------------GRERMPRFPLHLGSAKANIGHGESASGVSSLIKVMMMMQKNEIPPHCGIK--TKINHNYPSDLKDRNVKIASKP--------------VPWYRT--D-SAGGKRSVFLNNFS-------------------------AAGGNTAVLLEDAPLSHL--------------------------------------------------------------------------------------------------NNEGQDPRTMHLVAVTAKSAK------------------SLKENIDSLIAFLEQH-------------PGTSLPALSYTTTARRMQ---------HNYRVICTGSDMRSIQNALKSKIDSH-DSKSIPNTKKL-------------------PKVAFVFTGQGSMY
+Pertusaria_subfallens_ABQ11383                         EAHATSTPLGDPTEVSAVSRVYGQ-------GRTQE-------DPCFIGSVKPNVGHLEAGAGAVGFIKAVMAVNKGLLPPQ-------TNLTKLNSKVNWAESGVKVVRDA------------MDWPVS-DEIR-----RAGICSYG-------------------------YGGSVSHAVIEEYSKEVYYNS---------------------------------------------------------------------------------------------ENEDNDEALAGPQILLLSAPQEK------------------RLALQAETQQSFISGAGSKQD-LRA-----------IATTLSTRRGH---------HDYRVAFVVDDHA------DAAEHLGAFAKGNSTDWT---------SQGRVFGNDISKDTVWVFSGHGAQW
+Pertusaria_subventosa_ABQ11384                         EAHATSTPLGDPTEVSAVSQVYGQ-------GRTQE-------DPCFIGSVKPNVGHLEAGAGAVGFIKAVMAVNKGLLPPQ-------TNLTKLNSKVNWAESGVKVVRDA------------MDWPVS-DEIR-----RAGICSYG-------------------------YGGSVSHAVIEEYSKEVYYNS---------------------------------------------------------------------------------------------ENED-DEVLAGPQLLLLSAPQEK------------------RLPLLAGTHESFISGAGSKQD-LRS-----------IATTLSTRRGH---------HDYRVAFVVDNHT------DASEHLSAFAKGTSTDWT---------SKGRVLGNDISKDTVWVYSGHGAQW
+Pertusaria_subventosa_ABQ11397                         EMHGTGTQAGDGVEMQSVLEVFAPT-----------NRTRKT--SLHLGSAKSNIGHGEAASGVTSLIKVLKMMEKNTIPPHCGIK--TKINHTFPTNLTERNVHIASKP--------------TPWIR-----VEGGNRRVFLNNFS-------------------------AAGGNTALLIEDAPISTV---------------------------------------------------------------------------------------------------ISEGDPRTMHLVAVSARSKL------------------SLKKNMQSLKAFIEEN-------------PDTSLASLSYTTTARRSH---------HNYRVIVNGSGFQAIQQGLDTSTFDD-DMLSIPSSS---------------------PTIAFAFTGQGAQY
+Pertusaria_tetrathalamia_ABQ11398                      EMHGTGTQAGDTIESTSVAKVFGP--------------GRTLDNPLYFGTVKPNIGHGEAASGVTSVIKAVMMFSKNTIPPHIGVK--RKMNPKLL-DFNAIGMKLADRN--------------VPFKPNP---RGDGKRRIMVNNFD-------------------------ATGGNTSIILEDPPKLS----------------------------------------------------------------------------------------------------AVGEDPRGSYVITVSAKTRN------------------ALWENTHRLVEFLKMN-------------PQTKLSHVSYTTTARRTH---------HNFRRSHVATCVSDLQASLERNLEAQ-HERSIKPKS-----------------------VVFVFTGQASQY
+Pertusaria_tetrathalamia_ABQ11399                      EMHGTGTQAGDSNELKSITDVFAPA-----------KHGRNAKQPLFIGAAKANVGHGEAAAGIMSLIKTLCVLQKESIPPHVGIK--NHLTSNFPTDANERNLHIPYKS--------------TPWRRS-----PGRKRIAIVNNFG-------------------------AAGGNTTFVLEEGPERQ----------------------------------------------------------------------------------------------------IEETDPRSTHVLTVSAKNAV------------------SLQRNIQRLLSYLEKN-------------PGVALHDLAYTLTARRAH---------YSYRVGFAVSDFTTLRKLCEPCLAPDFSIKAVRSQQ---------------------PPVAFAFTGQGSFY
+Phaeosphaeria_nodorum_XP_001801515                     ECHGTGTAVGDPIETMGISRVFLPDETT--------------RDSLLVGAVKTNIGHGEASSAMASIIKVIMSMENRTIPAT-------IGITSYNPKIDFRGGKLQ-------VVQDN-----IPWP----E--NYPVRRASVNSFG-------------------------YGGANAHAIIEAADSVL----------------------------------------------------PGYRS--FARKGTKAITLS------------------PTLDTIGVNGSRVPAIEREEFVLPFSAHDFP------------------TLKNSLANIRNVAD----------------QYDVFDLAFTLSERRSR---------FFNRAFAVVGRDSP--VEDLDDDEIVFGKRG-NGA-----------------------NIAFIFTGQGAQS
+Phaeosphaeria_nodorum_XP_001806097                     QCHGTGTQAGDPTEVRGAGSFFAASRPA--------------DKPLLIGSIKSNIGHSEPSAGISGLLKATLAIEHGVIPGT-------PTFINPSPKIDFAGNRVR-------AFRSA-----IPWP---KD--I--LRRASVNSFG-------------------------YGGSNAHAILE-------------------------------------------------------------LPDQ-NVVRHVKSWVSGEDQ-------------ELSFEDD----------SERPYLLVLSANDAA------------------SLKGNIKTLSNHLIN------------PRVKVALPDLAYTLSERRSK---------LWHRGFITTHKAD-----DLDENSFFLAKKHAQAP-----------------------RVGFVFTGQGAMG
+Podospora_anserina_XP_001905191                        EAHGTGTKAGDPKEAAAIYECFGQH----VKAEET---------PLYVGSVKTVIGHTEGAAGLAGFMKGLKSIQAGQIPPN-------LLFENLNPAIEQYYKGLTIPTSL------------APWPQLPEGVPR----RVSVNSFG-------------------------FGGSNAHAIIEQYIPTTTTPEPE-------------------------------------------------------------------------------------------------NQSPVFTPFVFSAASET------------------SLVAHLEAYAEHLKT-RSDITARD------------LAWTLQSRRSH---------LPIK-AAFSARSV-----EQLVEKLDDKLADLK-RAAG----TTVGVRSATAKSTYPTKILGVFTGQGAQW
+Podospora_anserina_XP_001905278                        EAHGTGTKKGDPIEATAIYGAVGR-HFT-------------ADQPLYIGSAKPNVGHLEGVSGIVSVIKSVLMLYYGFILPN-------TEFETLNPAIPLDKWNMR-------VATD-----QKPWPSKRK--------YACVNNFG-------------------------FSGSNSMCVLSAAPITREIELGKD---------------------------------------------------------------AGYTP---------------------------------QRLFVLSANDET------------------ALRNSMKELGIWLE--QHAEL-------YQTTMPRNLAYTLCQRRSH---------LPWRVAVVA---GMCSAVAGSLN-SHEMVPAR------------------ASSETPKLA--FVFTGQGAQW
+Podospora_anserina_XP_001908964                        EAHGTGTPTGDPIEVKAISSVFQDTRP--------------SDDPLRIGSVKTNIGHTETASGVAAIIKVALALEKGQIPPT-------VNYEKPNEKLRLYDWKLK-------VPTEL-----EPWDGKEG------VRRASINNFG-------------------------YGGSNAHVIMEDLDSFTGSQP----------------------LQQAAN-----------LDNASS--------RSRRSS-----SALEYLP--------------------------------RRRVFVLSGKDER------------------ATQAMVSNLKDYLLNTKITD---------EDGFLDNLAYTLGHRRSR---------FPWITSVSA---DTVEALIKILD-SPKAKPAK------------------AAIASPRVG--FVYNGQGAQW
+Pyrenophora_tritici_repentis_EDU42159                  EAHGTGTPIGDPVEANAIGIAFKQHRT--------------SDDPLYIGAVKANIGHLEGASGLAGIVKTIMVLENGVIPPI-------AGFERLNDQVDPGALHLL-------FPKTA-----TPWPTSGLR-------RACINSFG-------------------------FGGTNATAILDDACHFLEQHGLSGHHRTHRNPRK-------EMT-----------------------------------NGDQAKYVNGGTGELS----------------------------DRPRLLTWSAP-EK------------------SALGVAASSHLQYLD-------QHP------EKTQAVVYTLSARRSN---------FMYRCFSVVPHPTSINI--SSVTISAPVKINPHP------------------------RSAFIFTGQGAQY
+Pyrenophora_tritici_repentis_EDU46125                  ECHGTGTAVGDPIEAKAVARIFG-------------------EEGVHISSIKPNLGHAEGASGLVSVIKMVLALENRTIPPN-------IRFTSPNPSIPFESAKLT-------VPVEA-----MPWP-------TGKLQRVSVNSFG-------------------------IGGANAHVILDSAS-------------------------------------------------------------RFQAQPVDSYS-ARGP-----------------------------------QILLHSANTIA------------------SLDRLAKSHAQFAQE------------N--PVKVGDMAYTLAFRREA---------LPHRSFTIVKDGG------VTAASTPVKSDPSSTP-----------------------DVVMIFTGQGAQW
+Pyrenophora_tritici_repentis_EDU46521                  EAHGTGTQIGDTTEAAAIHSVFGKYRS--------------PEEPLIVGAVKSNIGHLEGASGLASIIKTVLALEKGVIPPN-------TNFEKPNPRIP--------------FPTEN-----IPWPSKGLR-------RASVNSFG-------------------------YGGANAHVILDDAYHYLKVRGLQGRHRTAVPR--------------------------------------DPR------TQSARSLIRHWSAYP------------------------------QPKLLVWSAADEQ------------------GPQRYVEALKAHLSET----KGAD------HAYIVDLAYTLASKRSR---------LPWKSFLRLDSTTLSST-DLWRQCSKPVRSSGNA-----------------------PGLAFVFTGQGATW
+Pyrenophora_tritici_repentis_EDU46982                  EAHGTGTQAGDPLEARAILKTVGSVENR--------------KSDLYVGSVKTNIGHLEGAAGVAGVIKAALAVERGLIPQN-------LWFEKLNPDIHLPE-NVK-------VPTKL-----TPWPHNGP-------RRASINSFG-------------------------FGGANAHVILEDTASFLA---RHGLKGRHATAPLLP-----------------------------SLATVRDGYVSDSPSSSGSTVAEEPSSGESSDTASDMSSEVLR------------DLHPTSKLFVLSSNDQE------------------GVKRNVERLQDYLASKVS--SGPS--------FLSDLAFTLSSKRTA---------LPWKSYAVS---SNLSGLREKIS--SPAPVVRS-----------------STSVIPRVA--YVFTGQGAQW
+Saccharopolyspora_erythraea_YP_001107472               EAHGTGTRRGDRTEVVALSTVYGA-------GRPAD-------DPCLIGSVKTNIGHLEASAGIAGVIKAVLALGHDHIPPS-------LHNSSLNPAVDWETAGIKVVTEP------------TAWPRR-SHPR-----RAAVSSFG-------------------------FGGTISHVLLQQAPDR-RPAAA--------------------------------------------------------------------------------------------VPSSTTPNTNTSTVFPLSARSES------------------GLRRNAARLADWLRGPGADTA-LAD-----------VGHTLALRRSH---------LTHRASVVAADRD------ELINGLRNIADGELAPGI---------ATG---TTDAVPRAVWVFSGHGSQW
+Sclerotinia_sclerotiorum_XP_001587412                  EAHGTGTPIGDPREAGAIGIAFKDH----------------VDEPLVVGAVKSNIGHLEGASGLAGLIKTILILEKGVIPRN-------IWFEKLNPEILADEWKLK-------FPTDT-----MAWPKEGLR-------RASVNSFG-------------------------YGGANAHVIVDDAYHYLKSRKLAGKHQTVSSPPK-----------VIHTN----------------------GMSNGTTNGRTYGTTNGTNNGTEIQTTDPEK----------------------YRLFVWSASDEG------------------GLRRLSTSYQKYFQTLH------SE---KAD-FLDNLAYTLSRRRSN---------LPWKSFLVAISIENIHHELSAGSLSKPVRSSASLQ----------------------PNLVFVFTGQGAQW
+Sclerotinia_sclerotiorum_XP_001595995                  ECHGTGTQTSDTIEAEVAALAFSGTRSR--------------DRPLIIGSIKSNLGHAGPAAGISGIIKAVMAIENGIIPGN-------PTFINPNPKIDFARLKVK-------ATRTA-----IPWP---AS--S--IRRASVNSFG-------------------------HGGSNAHVIFE-------------------------------------------------------------QPEFSDGPKHATSYLSDSDD-------------FDLDEDD----------SEHPYTLVLSANDKA------------------SLKANIMALCNHLIN------------PSVKVDLKDLAYTLSERRTR---------FWHRAYITTQNT------DIDENDFIIGQKNPEAL-----------------------RIGFVFTGQGAQW
+Sclerotinia_sclerotiorum_XP_001597598                  EAHGTGTAVGDPIEALAIGRVLGEGRS--------------STNPIYVGALKSNIGHLEGASGIAGLIKTILALEKGVIPPN-------ANFEKLNPKIDAKKLNLA-------FPQEC-----IPWPVDGLR-------RASINSFG-------------------------LGGSNAHVVLDDAYNFMTMRGISGNHQTAGFRPA-------IDSIISPTLPGMLSPHIGQWDDIASIRESNPEGSVKWESGSSQIIIRPASNTD------------------------------IPKLLIWSTSDEK------------------GMEKMSRDFAEHFSDI----RDETP---KNSSYMADLAYTLAVRRSS---------LSWKSFS-VSSSVLTLR-NLKYTISKPVRCR-KE-----------------------QGLGFVFTGQGAQY
+Solorina_crocea_ABQ42548                               EAHGTGTAAGDPIEANAIARTFA-SRK--------------SKIPLYVGAIKSGVGHLEGGAGVAGVIKGTLILESGIIPPN-------VNFEKVNPKIPLKKWNLQ-------FPVKP-----VPWPTSDVR-------RISINSFG-------------------------VGGTNAHVILDDAHSFLSNRGIDASHNTRRSVPSQDEVDRLVQSLEADAIDDS--SETDAIKAMSSTDHANTVKMNGHTTSLTNGVSRAKSETNGMTNV----------------TFADENISPVPRLITLAAFDES------------------GVQRIASAQAEYLQT---IERSHQF---NEEDFLDDFAYTIS-KRSP---------FPWKSFALASSFNEVIHSLQALPK--PIRARNVP------------------------KIGFIFTGQGAQW
+Stigmatella_aurantiaca_AAF19814                        EAHGTGTALGDPIELRAIGAVFGK-------KQDRE-------QPLLVGSVKTNFGHLEYASGIAGLIKLALSMSHGEIPPH-------LHFKRGNPYIPWNELPVEIPTKL------------TPWKAK--KDKR----IGSVSSFG-------------------------ASGTNAHVVLEEAPKEGR-QTAD--------------------------------------------------------------------------------------------------RERPAHVLSLSARSEV------------------ALKALAGRYAQYLASSGA--VNLAD-----------VCHTANAGRAQ---------FKHRLALVAESAA------QLSQQLGLFAEGKPAE-----------VLLGQAPNAGKAEVVFLFTGQGSQH
+Streptomyces_antibioticus_AAZ77673                     EAHGTGTRLGDPLEAGALSAVFGR-------GRPKD-------EPCLIGSVKSNIGHLEAAAGIASLIKATLALSKGEIPPS-------LNFSQGNPAIDWAESGLRVVTER------------TAWPEREDRPV-----RAGVSGFG-------------------------YGGTIAHVVMEQAPEVSRPDDA--------------------------------------------------------------------------------------------AGDEGSAEVVTERLFPLSGGTQA------------------GLRAYAGRLADRLSDDDAEELPLES-----------VGHTLALRRSA---------LAHRAAVVASDRK------DLVAKLRLITLGEQTREA---------VIGSV-PSDAGAGPVWVFSGHGSQW
+Uncultured_expressed_fungal_PKSI_RNAtype1_FJ232770     ESHGTGTRVGDPIEAAALHSVFGE-GRT-------------ARQPLYIGSVKSNVGHLEGASGIVSIIKAAMMLEKGFVLPN-------HDFVTGNPKIPFGDWNMK-------VANS-----QRPWPRGKK--------YASVNNFG-------------------------FGGTNAHAVLERAPQ--KPQPASTV------------------------------------------------------------N--AKDV---------------------------------KRLFVLSANDKN------------------AVLSQMNSLTVYLE--QHPEV-------FQNSLLGNLAYTLGQRRSI---------LPWKVAIPA---IGSSELIPSLA-GSEVVPSR------------------AMK-EPRIG--FVFTGQGAQW
+Uncultured_expressed_fungal_PKSI_RNAtype2_FJ232771     EGHGTGTQAGDLIEISAIDSVFK--RG--------------PSDPLYVGSVKPNIGHLEGAAGIATVIKSVLAVERGIIPPN-------INFDYPNPKLKLTERNLK-------VPTQP-----ILWPGSGVR-------RVSINGFG-------------------------YGGTNAHCVLDDAYSYLKQKGLSG--RTTFS--------------------------------DDSS-----IGTP----RHIRDDSGVDLGHDLK--------------------MAGIAGSPQPKLICLSTPDQV------------------ALTRLALTQSDYLK----KSEFP-------SDYLEHLAHTYNCRRSL---------FQWRTCLVAQNTADLAEQLSSALL-PVRNTKSP-------------------------GLVFCFTGQGAQW
+Uncultured_expressed_fungal_PKSI_RNAtype3_FJ232772     EGHGTGTSVGDAVEARAIGKSLGV-------TNPPR-K-----FPLLIGSVKSNIGHMEGASGVPAIIKTILALENAIIPGN-------LHLKQGNPRIDFDGLSIDVVRAT------------RAWPECDIRR-------AGVSGFG-------------------------FGGSNAHIMLQQYIPTDDESTRS--------------------------------------------------------------------------------------------------IAVPPLPIVLSAARPE------------------ALSALQTALKETLEKN--------------------SGQNLPTWWTY---------HIRCVLDVHTCHS------EQAFWFPLLRNCSLIY----------------------KHLCFVFTGQGAQW
+Uncultured_expressed_fungal_PKSI_RNAtype4_FJ232773     EGHGTGTTAGDRIEARALKETFCKE--R-------------EGQNLIIGSVKANIGHTESVAGLAGVIKAVLMLEKGFIPPN-------PTLVKPSDNLPIGSWKME-------VPTKL-----IPWPEN-------TIRRASVNSFG-------------------------YGGTNGHIILECADEYLK------------RR-----------------------------------------------------LPSSECNNGL--------------------------EGPRPRLFVLSHALES------------------GLREAASDLKRFVNNFDGSF---------KS--LDSLAFTLT-RRSIL---------DYRSFVTA---STQEELIEALDRQATG-EDRVS----------------SHTTPPKIC--FAFTGQGAQW
+Uncultured_expressed_fungal_PKSI_RNAtype5_FJ232774     EAHGTGTKVGDPIEASALHDCFGK-GRT-------------SRQPLYIGSVKSNIGHLEGASGIVSIIKSAMILEKGFILPN-------YDFKTPNPKIPLAEWNMK-------IPTT-----QRPWPRGKR--------YVSVNNFG-------------------------FGGTNAHAVLERAPQLSKTTPNSQL------------------------------------------------------------QDQLQNR---------------------------------KMIFVVSANDKL------------------SISEQMQNLTLYLE--QRPEV-------FQNALLRNLAYTLGQRRSV---------LSWKVAIPA---RSSLELIPTLA-SSAIPPSR------------------AVN-EPRIG--FVFTGQGAQW
+Uncultured_expressed_fungal_PKSI_RNAtype6_FJ232775     EGHGTGTVAGDGQELRAIDAVYNFNNRG---------------APLLVGSIKSNMGHAEGASGIMSLIKLLMAYETGVIPQNL------NYVSSSHESIVCKRIEVVTNN--------------KKWNRG----------YAAINNFG-------------------------FGGTNAHMILGPGNRFDQDRYG---------------------------------------------------------------------------------------------------DDATPNALIFGRSNET------------------IMNYFQKKLSDRYWN---------------------YVRKNAYNVSK---------FPYRGIVCN-----------GQNLVREAKEKLN--------------------------VAFCFTGQGAQW
+Uncultured_expressed_fungal_PKSI_RNAtype7_FJ232776     EGHGTGTAVGDPTEAYALGNCFRGFRS--------------IKDPLYIGAVKSNVGHLEGASGLAGVIKAVMVLERGIIPPN-------TNFERLNPKIDAEFLKIK-------FPSCA-----IPWPSQGTR-------RASVNSFG-------------------------FGGSNSHVVLDDAYNYLRERNIEGQHCTIKDPHY-------PQLQQMV-------------------------------TTEVETLDDSKGDVLD--------------------SKTTNSGVRSTRVLTWSASSEE------------------TLNQMLSLFEEHLANS-----SSHG---SVHENLEAIAYTLNHRRSR---------FKWRAWAVMDAASQLKR--FKDYVSKPIKVIPQ------------------------PRLGFVFTGQGAQW
+Uncultured_fungal_PKSI_DNAtype1_FJ232777               EGHGTGTKVGDPIEVKAIHKVMCE-------GRDP--E-----APCMIGSIKANIGHTESAAGVASLIKVSLMVYHGYIPPS-------LNFETPNPELPFLADPKSPLQVV------------RALSPFNTEKYSK--VFCGVNSFG-------------------------FGGSNAHAVVQQYKREDFSCSGD--------------------------------------------------------------------------------------------------SVSCRNTNATSSTVST------------------VVHSNDNVNKVSYMFP--------------------FSACPEKSLHQ---------HMSDILEVLKVDN------ELLGGLTISTGFVLLRRLQ--------TMLFSGITKPNKKLVFVFTGQGAQW
+Uncultured_fungal_PKSI_DNAtype10_FJ232786              EAHGTGTKKGDPVEATAIYKAVAS-NFT-------------PHQPLYLGSTKGNVGHLECASGIVSLIKSALMLYYGFVLPN-------AEFEKSNPAIPLEEWNMC-------VPAL-----QKPWPRNKP--------YACVNNFG-------------------------FSGSNATCILSMAPITRTPELSSS---------------------------------------------------------------ATYTT---------------------------------LRLFVLSANDEM------------------ALKNSTKRLGIFLE--QHAEL-------YQYTMPRNLAYTLCQRRSR---------LPWRIAVVA---GTCSGLAVALN-NHKAVLMR------------------APTEVPKLA--FIFTGQGAQW
+Uncultured_fungal_PKSI_DNAtype11_FJ232787              EAHGTGTPAGDPIEAEAIHNAFFG-----EGLNPEVSS---LDDTLYVGSIKTVIGHTEGTAGLAAVIKTSLALQMGVIPPN-------MLLERLNPNVKPFYGSLNVLSKS------------QLWPEVARGSVR----RASVNSFG-------------------------FGGANCHVILESAEGHRQNTDIKRTK--------------------------------------------------------------------------------------------EANNSPTLTPFIFSAATDD------------------SLVKVLQRFRNYLAN-PNTAALVDP---------RHLSWTLCNRRAT---------LPYRAVVPAASSI-----DELIIKLDTTIKSNSQRSDG----PVVGFKRSDA-KPR---LLGIFTGQGAQW
+Uncultured_fungal_PKSI_DNAtype12_FJ232788              EGHGTGTLAGDPQEAKGIYSAFFGH----VKSDGEDETD-IGDEKLFCGSIKTIIGHLEGCAGLAGLLKASLAVQHGIIPPN-------LLFKSLNPEIEPYYHRLQVPTKA------------IPWPAVQ--TVR----RASVNSFG-------------------------FGGTNCHAIIEQYVEQHPSSSL----------------------------------------------------------------------------------------PQTKIEQTTAAEDCFAGPLLLSAATGT------------------SLAASICRLADMLEEEDSVVRVED------------LAWFTQTRRTK---------FQQR-ISFPGGTR-----SGLIEALR---ATTKSTAAS-----EIGVRAPAKLKWHTPGILGIFTGQGAQW
+Uncultured_fungal_PKSI_DNAtype13_FJ232789              EAHGTGTPTGDPIEARAISSAFKARRQ--------------PGHPIRLGSVKTNVGHTETASGLASIIKATMMLEKGLIPPI-------AGFEKPSTKIDLDALQL-------EVPRKV-----ETWPRESG------YQRASINNFG-------------------------YGGTNAHVIMESYESFLKERVPNVQELTFNGVNG----------HKGANG----------TSNGISNGINNGYTNGHTNGVTNRTNGVNGHSIQT--------------------------SEDPKRIIMLSAKDEQ------------------ACQAMISNLAEYVSSKLTGDKE------TDSALFASLAYTLSQRRSL---------FSWVAATSA---QSLEDLSKALA-TPRMKPAR------------------REEIAPRLG--FVFTGQGAQW
+Uncultured_fungal_PKSI_DNAtype14_FJ232790              EGHGTGTKAGDPREAAAISQVFGQR----LDAPIATR------GPLYVGSIKTVIGHLEGAAGLAGILKASAMVQHGVIAPN-------LLFNRLNPAVEPYYNGLHVPTQT------------LPWPELPNGVPR----RVSVNSFG-------------------------FGGSNVHAIIEQYNNSSIRSHAEGTI-------------------------------------------------------------------------------------------VSNGAWGPVTPFVFSALSEA------------------SLVAQLQAYSDHLGR-HEELDPHD------------LAWTLQSRRSE---------FATK-ASFSASTI-----SQLKSKIDTKLAEVT-HLG-------------PPDPAY----LGVFTGQGAQW
+Uncultured_fungal_PKSI_DNAtype15_FJ232791              EWHGTGTKKGDPIEVAAIHNALRG-RRR-------------KRQPLWIGSVKSNIGHLENASGIVSIIKGAMMLERGFILPN-------ADFEKPNEEIPLSEWDMK-------VSISSVPTAQKPWPANQR--------YLAVNSFG-------------------------FSGSNAHCVLERPPRPEAVEFSES---------------------------------------------------------------DNLT----------------------------------KRLFVLSANDDK------------------ALQRMMYELGVSLE--QHAEL-------YQMTLTRNLAYTLCQRRSH---------HPCRVAFVA---NSCSDLALALN-RPDVSPYR------------------MLK-SPKVS--FVFTGQGAQW
+Uncultured_fungal_PKSI_DNAtype2_FJ232778               EAHGTGTPLGDPIEIGAIGSVFSL-------GRDPA-------RPLALGSVKTNIGHLEAAAGIAGVAKVILSLQHGTIPAN-------LHFQTGNPLIDWAGLPITVPVEA------------TPWLQD--SGRR----LAGVSAFG-------------------------FSGCNAHVILEQAPDLSRDETAD--------------------------------------------------------------------------------------------------QDRPVHVLALSARDSG------------------TLSELAHRYEKALTDD----MNVAD-----------ACHTANAGRSH---------FNSRLAVAGTTMR------EIRHRLSAFVEGQPNEG----------VATGRHDGAARPQVAFLFTGQGAQW
+Uncultured_fungal_PKSI_DNAtype3_FJ232779               EGHGTGTPTGDPIEAIAVARVFG-------------------ESGIYIGSIKPNLGHSEGASGLASLIKCVLALENRIIPPN-------IKFSRPNPKIPFESGKLV-------VPVEP-----ITWP-------ESCLERVSINSFG-------------------------FGGSNAHVIIDSASNLC----------------------------------------------------------SEPLEETFPDKKITTP-----------------------------------QLLLYSANSLE------------------SLKQMTESYNSYLHS------------N--PQNLPNLAYTLANGREH---------MPHRAFVIASGDR------TTAVS-PITKTSSTVA-----------------------NVVMAFTGQGAQW
+Uncultured_fungal_PKSI_DNAtype4_FJ232780               EAHGTGTPVGDPIEAQAIGTVFGR-------GKEVEVK-----DRCRFGSIKSNIGHLEPASGMAGLIKAALCVQRGYIPPT-------LHIESVNPRIREDEWGIHLSREG------------GAFPDS-SGPR-----LAAVNSFG-------------------------FGGTNACVILQEPPKLLRERQ-------------------------------------------------------------------------------------------------DRNLARRPALFPLSGSSNA------------------SLCTIAGRIADQVDAG--NMA-LTD-----------LAGTLALRRSH---------LDYRAVVLANSSD------VASSGLRSLAEGKPHDGV---------IVGR---RMNCSGPVFVFTGQGAQW
+Uncultured_fungal_PKSI_DNAtype5_FJ232781               EGHGTGTKAGDPVEAQAVSDALIP-----PQDMHQ-------TTPLYVGSIKMIIGHTEGCAGLAGVIKAVLAIKHQTIPPN-------LMFKDLDTAVRPVYGPMKIPTTA------------VPWPELTPGQPK----RASVNSFG-------------------------FGGTNAHAIIDEYLP--------------------------------------------------------------------------------------------------IREVTRR-SSHITGPLVISAHSGA------------------ALLSKVRSLHQYLED-NPSINLSD------------LSWTLQTRRTT---------HKIK-AHFSESTR-----EMLLNSMLEFTAQSSKPAPT-----DIGFQPQLIDRSEIPGVLGVFTGQGAQW
+Uncultured_fungal_PKSI_DNAtype6_FJ232782               EGHGTGTQAGDREELTALSKVFASQGAA-------------RSHPLHVGSNKGNFGHTENVSGLASLAKAVLMLRHRQIPPT-------ANLENFKLDLPLDG--LV-------IPNKL-----VPWPQRDDGGVMSTPQRIGISGFG-------------------------FGGTNSHLILEGVDRAGT-----------------------------------------------------------------LNHELSSITSSL--------------------------DAGTPHLFVFSANSKA------------------SLAGTIAAYKDWVQ----QH---------PDVPLAALSYTLCCRRSAM---------PWRFSCVA---HDQASLLTALGHGQDQRPVTLP----------------QQSVNSQVQCAFVFTGQGA??
+Uncultured_fungal_PKSI_DNAtype7_FJ232783               EGHGTGTLAGDPIECRAASLVFSPSRSA--------------DAPLRIGSVKSNIGHSEPAAGISGMLKTVLAVERGIIPGN-------PTFDIPNPNIDFYASKVL-------PSKLA-----TIWP-------QNAIRRASLNSFG-------------------------YGGSNAHSIVEHPNIL----------------------------------------------------------IPGYESTHVTSYDLPGKD-------------IFADEDD----------DDSRRLLLFSANDET------------------SLKQYVNETIRHLSN------------PAVNIQSADLAFTLSQRRTR---------HFFRAYAISKGTN------FRDHQVVYGKLR-SAP-----------------------RIGFVFTGQGAQW
+Uncultured_fungal_PKSI_DNAtype8_FJ232784               EGHGTGTPTGDPIEVAGLAAVFAPTRPA--------------DMPLIIGSIKSNVGHSESAAGLSSLIKAVLTVESGVIPGT-------PSFINPTPRIDFEKSRVR-------PTRES-----IRFP---KM--ASGLRRASVNSFG-------------------------FGGSNAHVVLESRES------------------------------------------------------MVKLRKEFVFSSHGSHIFGGLDR-------------LPETAEIG---------SKLPQVLVFSANDKE------------------GLDKAAQTLADHLID------------PAVNARLSDVAYTLSERRSH---------HFYRGFVVSKSTS------IAPQSMITGKKKAQPP-----------------------RVAFIFTGQGAQW
+Uncultured_fungal_PKSI_DNAtype9_FJ232785               EGHGTGTKTGDPIEAKAIASIFKDSRF--------------HDQPLRIGSVKTNVGHTESASGLASIIKVALALEKGQIPPG-------ANFEQPNEKIPMHEWHLKVFNFLISVPTQL-----EPWHEVTG------IRRASINNFG-------------------------YGGANAHVVMEGYKSYNDSKAH----------------------QTNCNG----------MKNG-TNGVHS-FTNG-VNGVNG-VNGVNGHHEPT-----------------------------QTRIIILSAKDES------------------AVKAMMSNLKDYLLKTNVTD---------EGNFFASLAYTLGQRRSI---------FSWVAAQPV---QGISDLIKNIE-SGTMKPRR------------------RMERAPRLG--YVFTGQGAQW
+Xanthoparmelia_semiviridis_ABS58604                    EAHGTGTSVGDPAEYDGICRVFGG------------------LGSLSLGSVKGFVGHTESASGIIALIKVLLMISKGFIPPQ-------ASFKSINPAIKASPRDKIEIPTR-----------LKPWSIDFR--------AALINNYG-------------------------ASGSNASMIVTQAPASTVLHGK------------------------------------------------------------------------------------------------ETRHSGRKFPFWFSGFDEK------------------SLQAYSTRFRLFLRTQMLAKE----------LDIETLSFQVARQSNR--------TLSHSLIFSCSSVNELEQKLTKFEAGDKSIIAAARPAP--------------------RPVVLCFGGQISTF
+Xylaria_sp_AAM93545                                    EMHGTGTQAGDGTEMVSVTSVFAPAE---------RHRP--ADRPLYLGSVKSNVGHGEAASGVTALIKVLMMLQRNAIPPHIGIK--KEINKTFPKDLGQRGVNIAFHK--------------TPFLRKD-----GKPRRLFVNNFS-------------------------AAGGNTGLLLEDGPR----------------------------------------------------------------------------------------------------YKNAAVDPRSQHVITVTAKSKS------------------AMIRNAETLVRWMEEN-------------PSTSVAHVAYTTTARRIQ---------HYWRMNVMAGSLVEAQQAIKERLKSN--FVPVSPEQ---------------------PKVAFMFTGQGSHY
+Xylaria_sp_AAY27746                                    ECHGTGTLAGDPVEVEGAASVFAATRER----------------ELIIGSIKSNIGHSEAAAGLSGLIKAALSVENGLIVGN-------PTFIDPNPKIDWKGSKVC-------ATRLP-----IKWPRDAAA--SRGLRRASVNSFG-------------------------YGGTN?????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????
+Xylaria_sp_AAY32931                                    ECHGTGTLAGDPIEVEGAASVFGKGREK--------------GKELIIGSIKSNIGHSEPAAGLSGLLKATMALEKGIIPGN-------PTFLVPNPKIDWGNLRVK-------ASRIS-----MPWP--STG--ADIVRRASVNSFG-------------------------FGGANAHAVVEN--------------------------------------------------------------DARSLSRHVSSYKEVTAD-------------FFDDDEDEDNQVGGMETDAAPTVLVFSANDQP------------------SLKNYVKALNAHLQN------------PTVSIALGDLAYTLSERRSR---------HYHRAFAIVRSGS-----QAINQDTLIHGKPGSPP-----------------------CIGFVFTGQGAQW
+Xylaria_sp_AAY40862                                    EAHGTGTPVGDPIEASAIGELFGSFRS--------------PERPLYVGALKSNVGHLEGASGVAAVIKGIFTLEQGVIPAN-------TWLDRLNPKIR-SSWHLQ-------FPTQP-----LPWPQPGLR-------RMSINSFGKWIDPINYGYALCAFRLFRMLISPGVGGSNAHVVLNDALNFLRSYHLVGHHRTILNPVN-------SSLFIIAKHQWYLNTFYD-----------VLSLTYDVSSDIILPCTNDDGNNSLYFYTNVAATKESLILETRDQDINGLMAIPCNRLFVWSSYDQGKHTIANFSTRIALPYSCHGVLRVRDSLNEYIIKQSQALDSPTL---KHY-FMRDLNYTLAMRRTH---------HGWRSFALADSCAGLRNALPS----KPVVTRTLSK----------------------PRLAFIFTGQGAQW
+Xylaria_sp_AAY41231                                    EAHGPGTPAGDPLETSAISKVFSQYHSP--------------DFPLYVGSVKSNIGHLEAGAGIAGLTKAIYALEKGQIPPN-------IWFEKANPKILLKEWNLS-------VPTEL-----LPWPTDGL-------RRASINSFG-------------------------YGGTNAHCIIDDAYHYLT---SRGLVGRHNTTPVVPRPVV---LSHDAAV-------------LSPESEIPTSMVSSAFATSVMNSEVVSTEGTTTPVSDVGSIEDLG------------VISSTPQLLVWSHHEQN------------------GIARTAKDLQSYLKEGDVLATEAP-------THLKRLAYTLAARRTR---------HPWASFVVA---SDLDEAIKELD--TPAKHLR-------------------PSDNLASV--WIFTGQGAQW
+Xylaria_sp_AAY46446                                    EAHATSTPIGDPSEMEALARVYGD-------GARPARA-----EPCLVGSIKANIGHLEAGAGVMGLIKAVMVLQKGVVPPQ-------ANLYTLNRKIPWETNMLKPCTEP------------TALPRLHAGMRP----RAAVASYG-------------------------YSGTVSHAILEAAPPSYPIHIHDD------------------------------------------------------------------------------------------TTNKHDDKHETMVNLCLSAPQES------------------RLPAAAASLAHWLETEGSDVP-LDD-----------VATTLASRRGH---------HKFRATITAESKS------EAILLLQRLSQNRDGPFI---------SRG----SSTGTGVVWVFSGHG???
+Xylaria_sp_AAY68230                                    EGHGTGTRVGDPIEATAIHDVFHQ-GRT-------------PRDPLYLGSVKSNIGHLEGASGIVAVIKSAMMLERGFILPN-------YDFKHPNEKIPFKAWNMK-------VPIS-----QRPWPRNKK--------YISINNFG-------------------------FGGTNAHVVLERVPFTQRGSKNDAD------------------------------------------------------------LKDDTPT---------------------------------RKLFVATANDKS------------------SLETVLKNLVIYLE--QRPEM-------FQKALMADVAYTLGQRRSL---------LQWRVAIPA---LRSFDLIEAIN-GQRLTPGK------------------ESD-PLRIG--F?????????
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb10326;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Acremonium_sp_ABD33804,
+            2    Aigialus_parvus_ABD57309,
+            3    Alternaria_alternata_BAD97694,
+            4    Alternaria_solani_BAD83684,
+            5    Alternaria_solani_BAE80697,
+            6    Anabaena_circinalis_AAO62582,
+            7    Aspergillus_clavatus_XP_001268490,
+            8    Aspergillus_clavatus_XP_001270321,
+            9    Aspergillus_clavatus_XP_001270445,
+            10   Aspergillus_clavatus_XP_001270543,
+            11   Aspergillus_clavatus_XP_001273186,
+            12   Aspergillus_clavatus_XP_001273842,
+            13   Aspergillus_clavatus_XP_001275051,
+            14   Aspergillus_fumigatus_EDP49172,
+            15   Aspergillus_fumigatus_EDP52288,
+            16   Aspergillus_fumigatus_EDP53793,
+            17   Aspergillus_nidulans_XP_664688,
+            18   Aspergillus_nidulans_XP_681681,
+            19   Aspergillus_niger_XP_001390395,
+            20   Aspergillus_niger_XP_001392496,
+            21   Aspergillus_niger_XP_001394029,
+            22   Aspergillus_niger_XP_001394543,
+            23   Aspergillus_niger_XP_001396752,
+            24   Aspergillus_niger_XP_001402359,
+            25   Aspergillus_oryzae_XP_001818816,
+            26   Aspergillus_oryzae_XP_001823613,
+            27   Aspergillus_oryzae_XP_001825712,
+            28   Aspergillus_parasiticus_AAC23536,
+            29   Aspergillus_parasiticus_Q12053,
+            30   Aspergillus_terreus_AAD34559,
+            31   Aspergillus_terreus_AAD39830,
+            32   Aspergillus_terreus_BAA20102,
+            33   Aspergillus_terreus_XP_001209753,
+            34   Aspergillus_terreus_XP_001209968,
+            35   Aspergillus_terreus_XP_001210411,
+            36   Aspergillus_terreus_XP_001213896,
+            37   Aspergillus_terreus_XP_001215234,
+            38   Beauveria_bassiana_ABD51495,
+            39   Botryotinia_fuckeliana_AAR90237,
+            40   Botryotinia_fuckeliana_AAR90239,
+            41   Botryotinia_fuckeliana_AAR90244,
+            42   Botryotinia_fuckeliana_AAR90246,
+            43   Byssochlamys_nivea_AAK48943,
+            44   Chaetomium_globosum_XP_001219267,
+            45   Chaetomium_globosum_XP_001224361,
+            46   Cochliobolus_heterostrophus_AAB08104,
+            47   Cochliobolus_heterostrophus_AAR90257,
+            48   Cochliobolus_heterostrophus_AAR90260,
+            49   Cochliobolus_heterostrophus_AAR90264,
+            50   Cochliobolus_heterostrophus_AAR90267,
+            51   Cochliobolus_heterostrophus_AAR90269,
+            52   Cochliobolus_heterostrophus_AAR90271,
+            53   Cordyceps_bassiana_CAL69597,
+            54   Emericella_nidulans_1905375A,
+            55   Emericella_nidulans_AAA81586,
+            56   Gibberella_moniliformis_AAD43562,
+            57   Gibberella_moniliformis_AAR92208,
+            58   Gibberella_moniliformis_AAR92209,
+            59   Gibberella_moniliformis_AAR92212,
+            60   Gibberella_moniliformis_AAR92214,
+            61   Gibberella_moniliformis_AAR92217,
+            62   Gibberella_zeae_AAU10633,
+            63   Gibberella_zeae_ABB90282,
+            64   Gibberella_zeae_fg12100,
+            65   Gibberella_zeae_fg12125,
+            66   Gibberella_zeae_XP_390724,
+            67   Magnaporthe_grisea_CAG28798,
+            68   Magnaporthe_grisea_CAH59193,
+            69   Melittangium_lichenicola_CAD89777,
+            70   Metarhizium_anisopliae_ABD47709,
+            71   Microcystis_aeruginosa_YP_001657794,
+            72   Monascus_pilosus_ABA02239,
+            73   Monascus_purpureus_BAD44749,
+            74   Mycosphaerella_zeae_maydis_AAR85531,
+            75   Nectria_haematococca_AAS48892,
+            76   Neosartorya_fischeri_XP_001258701,
+            77   Neosartorya_fischeri_XP_001261656,
+            78   Neosartorya_fischeri_XP_001262991,
+            79   Neosartorya_fischeri_XP_001265535,
+            80   Neosartorya_fischeri_XP_001265690,
+            81   Neurospora_crassa_EAA28899,
+            82   Neurospora_crassa_XP_955938,
+            83   Neurospora_crassa_XP_958169,
+            84   Neurospora_crassa_XP_959122,
+            85   Nodularia_spumigena_AAO64407,
+            86   Nodularia_spumigena_ZP_01628022,
+            87   Nodulisporium_sp_AAD38786,
+            88   Nostoc_sp_NP_485689,
+            89   Ochrolechia_pallescens_ABQ11380,
+            90   Penicillium_citrinum_BAC20564,
+            91   Penicillium_citrinum_BAC20566,
+            92   Penicillium_expansum_CAO91861,
+            93   Penicillium_griseofulvum_CAA39295,
+            94   Penicillium_nordicum_AAP33839,
+            95   Pertusaria_amara_ABQ11385,
+            96   Pertusaria_corallina_ABQ11381,
+            97   Pertusaria_corallina_ABQ11386,
+            98   Pertusaria_corallophora_ABQ11387,
+            99   Pertusaria_flavida_ABQ11388,
+            100  Pertusaria_lactea_ABQ11391,
+            101  Pertusaria_pustulata_ABQ11382,
+            102  Pertusaria_scaberula_ABQ11395,
+            103  Pertusaria_subfallens_ABQ11383,
+            104  Pertusaria_subventosa_ABQ11384,
+            105  Pertusaria_subventosa_ABQ11397,
+            106  Pertusaria_tetrathalamia_ABQ11398,
+            107  Pertusaria_tetrathalamia_ABQ11399,
+            108  Phaeosphaeria_nodorum_XP_001801515,
+            109  Phaeosphaeria_nodorum_XP_001806097,
+            110  Podospora_anserina_XP_001905191,
+            111  Podospora_anserina_XP_001905278,
+            112  Podospora_anserina_XP_001908964,
+            113  Pyrenophora_tritici_repentis_EDU42159,
+            114  Pyrenophora_tritici_repentis_EDU46125,
+            115  Pyrenophora_tritici_repentis_EDU46521,
+            116  Pyrenophora_tritici_repentis_EDU46982,
+            117  Saccharopolyspora_erythraea_YP_001107472,
+            118  Sclerotinia_sclerotiorum_XP_001587412,
+            119  Sclerotinia_sclerotiorum_XP_001595995,
+            120  Sclerotinia_sclerotiorum_XP_001597598,
+            121  Solorina_crocea_ABQ42548,
+            122  Stigmatella_aurantiaca_AAF19814,
+            123  Streptomyces_antibioticus_AAZ77673,
+            124  Uncultured_expressed_fungal_PKSI_RNAtype1_FJ232770,
+            125  Uncultured_expressed_fungal_PKSI_RNAtype2_FJ232771,
+            126  Uncultured_expressed_fungal_PKSI_RNAtype3_FJ232772,
+            127  Uncultured_expressed_fungal_PKSI_RNAtype4_FJ232773,
+            128  Uncultured_expressed_fungal_PKSI_RNAtype5_FJ232774,
+            129  Uncultured_expressed_fungal_PKSI_RNAtype6_FJ232775,
+            130  Uncultured_expressed_fungal_PKSI_RNAtype7_FJ232776,
+            131  Uncultured_fungal_PKSI_DNAtype1_FJ232777,
+            132  Uncultured_fungal_PKSI_DNAtype10_FJ232786,
+            133  Uncultured_fungal_PKSI_DNAtype11_FJ232787,
+            134  Uncultured_fungal_PKSI_DNAtype12_FJ232788,
+            135  Uncultured_fungal_PKSI_DNAtype13_FJ232789,
+            136  Uncultured_fungal_PKSI_DNAtype14_FJ232790,
+            137  Uncultured_fungal_PKSI_DNAtype15_FJ232791,
+            138  Uncultured_fungal_PKSI_DNAtype2_FJ232778,
+            139  Uncultured_fungal_PKSI_DNAtype3_FJ232779,
+            140  Uncultured_fungal_PKSI_DNAtype4_FJ232780,
+            141  Uncultured_fungal_PKSI_DNAtype5_FJ232781,
+            142  Uncultured_fungal_PKSI_DNAtype6_FJ232782,
+            143  Uncultured_fungal_PKSI_DNAtype7_FJ232783,
+            144  Uncultured_fungal_PKSI_DNAtype8_FJ232784,
+            145  Uncultured_fungal_PKSI_DNAtype9_FJ232785,
+            146  Xanthoparmelia_semiviridis_ABS58604,
+            147  Xylaria_sp_AAM93545,
+            148  Xylaria_sp_AAY27746,
+            149  Xylaria_sp_AAY32931,
+            150  Xylaria_sp_AAY40862,
+            151  Xylaria_sp_AAY41231,
+            152  Xylaria_sp_AAY46446,
+            153  Xylaria_sp_AAY68230;
+      TREE Fig._1 = [&R] ((((((((((((((124,128),(41,153)),81),((((132,(82,111)),44),137),33)),47),((((135,(145,((45,112),84))),26),12),(30,91))),(127,(142,3))),((((((125,(48,121)),(59,151)),70),(((((130,120),(2,(5,49))),(1,150)),((((7,(24,39)),((11,(16,80)),19)),(58,113)),(23,118))),115)),((((4,116),34),8),(60,66))),((21,38),(46,74)))),(((((133,10),67),57),((136,(9,20)),110)),((((134,40),53),(((141,92),((18,76),25)),(((31,72),90),35))),((52,(61,64)),68)))),((((((139,22),((13,(15,78)),114)),50),56),51),(((143,(17,(36,79))),(((144,(14,(148,149))),((42,119),109)),27)),(((37,83),108),77)))),((((138,(69,122)),((6,85),86)),(71,88)),(140,((((28,((((32,(103,104)),101),96),(43,93))),94),152),(117,123))))),126),129),((131,(73,146)),(((((29,55),(((((54,(((89,99),100),(95,(98,105)))),((75,102),97)),62),65),(87,147))),107),106),63)));
+
+
+
+END;

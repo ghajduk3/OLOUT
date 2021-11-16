@@ -1,0 +1,919 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:36 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Di maro A., Citores L., Russo R., Iglesias R., & Ferreras J.M. 2014. Sequence comparison
+and phylogenetic analysis by the Maximum Likelihood method of ribosome-inactivating
+proteins from angiosperms. Plant Molecular Biology, .
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S15769]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=54;
+        TAXLABELS
+            Abrus_precatorius_AAA32624
+            Abrus_precatorius_P28590
+            Abrus_precatorius_Q06077
+            Abrus_precatorius_Q9M6E9
+            Abrus_pulchellus_ABW23503
+            Abrus_pulchellus_ABW23504
+            Adenia_volkensii_CAD61022
+            Agaricus_bisporus_ACN56442
+            Agaricus_bisporus_EKM79674
+            Agaricus_bisporus_EKM79675
+            Camelia_sinensis_ADF45509
+            Camelia_sinensis_ADF45512
+            Cinnamomum_camphora_AET98835
+            Cinnamomum_camphora_Q94BW5
+            Cucumis_sativus_XP004140357
+            Cucumis_sativus_XP004146289
+            Cucumis_sativus_XP004149970
+            Cucumis_sativus_XP004151509
+            Gossypium_raimondii_013G087700
+            Iris_hollandica_Q8W2E7
+            Jatropha_curcas_AFK73425
+            Malus_domestica_MDP0000711911
+            Momordica_charantia_BAH05018
+            Phyllostachys_edulis_FP092597
+            Polygonatum_multiflorum_Q9M653
+            Polygonatum_multiflorum_Q9M654
+            Populus_trichocarpa_XP002307943
+            Ricinus_communis_XP002534220
+            Ricinus_communis_XP002534649
+            Sambucus_ebulus_AAM94880
+            Sambucus_ebulus_CAC33178
+            Sambucus_ebulus_CAQ42478
+            Sambucus_nigra_AAC15885
+            Sambucus_nigra_AAC15886
+            Sambucus_nigra_AAC49158
+            Sambucus_nigra_AAC49672
+            Sambucus_nigra_AAC49673
+            Sambucus_nigra_AAN86131
+            Sambucus_nigra_AAN86132
+            Sambucus_nigra_P33183
+            Sambucus_nigra_P93543
+            Sambucus_sieboldiana_BAD93340
+            Sambucus_sieboldiana_SSA
+            Sambucus_sieboldiana_Sieboldin
+            Sorghum_bicolor_XP002459593
+            Trichosanthes_kirilowii_1GGP
+            Viscum_album_AAT37532
+            Viscum_album_AAY34343
+            Viscum_album_P81446
+            Viscum_album_P82683
+            Viscum_album_Q6H266
+            Viscum_articulatum_ABU95610
+            Ximenia_americana_CAJ38823
+            Zea_mays_DAA39742
+            ;
+END;
+
+BEGIN TAXA;
+        TITLE  Taxa2;
+        DIMENSIONS NTAX=68;
+        TAXLABELS
+            Amaranthus_tricolor_AAB67746
+            Amaranthus_viridis_AAB93956
+            Amaranthus_viridis_AAC98718
+            Atriplex_canescens_AEY75258
+            Atriplex_patens_ABJ90432
+            Beta_vulgaris_AAS67266
+            Beta_vulgaris_Q1H8M9
+            Beta_vulgaris_Q1H8N0
+            Bougainvillea_buttiana_AAY34283
+            Bougainvillea_spectabilis_AAL35962
+            Bougainvillea_spectabilis_ABI64066
+            Chenopodium_album_AAF66234
+            Chenopodium_album_AAK28323
+            Clerodendrum_aculeatum_CAA65328
+            Clerodendrum_inerme_ACF41167
+            Dianthus_caryophyllus_P24476
+            Dianthus_chinensis_AAK68929
+            Drimia_maritima_P84786
+            Euphorbia_serrata_AAO15530
+            Euphorbia_serrata_AAO15531
+            Hordeum_vulgare_ACI00278
+            Hordeum_vulgare_BAJ98605
+            Hordeum_vulgare_BAK07457
+            Hyacinthus_orientalis_Q677A1
+            Jatropha_curcas_AAL58089
+            Jatropha_curcas_AAL86778
+            Jatropha_curcas_ABW17545
+            Jatropha_curcas_AEA72440
+            Jatropha_curcas_AFK73426
+            Jatropha_curcas_AFK73427
+            Jatropha_curcas_AFK73428
+            Jatropha_curcas_AFK73429
+            Manihot_esculenta_cassava41023613m
+            Manihot_esculenta_cassava41029773m
+            Manihot_esculenta_cassava41031745m
+            Mesembryanthemum_crystallinum_AAB96824
+            Mirabilis_expansa_AAN65450
+            Mirabilis_jalapa_P21326
+            Oryza_sativa_AAX96490
+            Oryza_sativa_Q8S7P0
+            Phytolacca_acinosa_D0VWY1
+            Phytolacca_acinosa_Q941G8
+            Phytolacca_americana_P10297
+            Phytolacca_americana_P23339
+            Phytolacca_americana_Q03464
+            Phytolacca_americana_Q40772
+            Phytolacca_americana_Q8RYA4
+            Phytolacca_americana_Q8S946
+            Phytolacca_dioica_P34967
+            Phytolacca_dioica_P84853
+            Phytolacca_dioica_P84854
+            Phytolacca_dioica_P85208
+            Phytolacca_heterotepala_Q6EH50
+            Phytolacca_insularis_PIP
+            Phytolacca_insularis_Q9XFF8
+            Phytolacca_octandra_Q4A524
+            Phytolacca_octandra_Q4A525
+            Saponaria_officinalis_3HIQ
+            Saponaria_officinalis_P20656
+            Saponaria_officinalis_P27559
+            Saponaria_officinalis_Q7M1Z2
+            Secale_cereale_Q7M1Z3
+            Silene_chalcedonica_P85101
+            Spinacia_oleracea_BAB83507
+            Spinacia_oleracea_BAG71411
+            Stellaria_media_ADB83311
+            Stellaria_media_ADB83312
+            Suregada_multiflora_AAA16312
+            ;
+END;
+
+BEGIN TAXA;
+        TITLE  Taxa3;
+        DIMENSIONS NTAX=92;
+        TAXLABELS
+            Abrus_precatorius_AAA32624
+            Abrus_precatorius_P28590
+            Abrus_precatorius_Q06077
+            Abrus_precatorius_Q9M6E9
+            Abrus_pulchellus_ABW23503
+            Abrus_pulchellus_ABW23504
+            Adenia_volkensii_CAD61022
+            Bryonia_cretica_P33185
+            Bryonia_cretica_P98184
+            Camelia_sinensis_ADF45509
+            Camelia_sinensis_ADF45512
+            Cinnamomum_camphora_AET98835
+            Cinnamomum_camphora_Q94BW5
+            Cucumis_ficifolius_Q9FRX4
+            Cucumis_sativus_XP004140357
+            Cucurbita_moschata_3BWH
+            Drimia_maritima_P84786
+            Euphorbia_serrata_AAO15530
+            Euphorbia_serrata_AAO15531
+            Gossypium_raimondii_013G087700
+            Gynostemma_pentaphyllum_AAN08103
+            Gynostemma_pentaphyllum_AAN08104
+            Hordeum_vulgare_ACI00278
+            Hordeum_vulgare_BAJ98605
+            Hordeum_vulgare_BAK07457
+            Iris_hollandica_3MVG
+            Iris_hollandica_AAC49780
+            Iris_hollandica_Q8W2E7
+            Jatropha_curcas_AAL58089
+            Jatropha_curcas_AAL86778
+            Jatropha_curcas_ABW17545
+            Jatropha_curcas_AEA72440
+            Jatropha_curcas_AFK73425
+            Jatropha_curcas_AFK73426
+            Jatropha_curcas_AFK73427
+            Jatropha_curcas_AFK73428
+            Jatropha_curcas_AFK73429
+            Luffa_acutangula_P84530
+            Luffa_cylindrica_CAA44230
+            Luffa_cylindrica_P22851
+            Luffa_cylindrica_Q00465
+            Malus_domestica_MDP0000134012
+            Malus_domestica_MDP0000223290
+            Malus_domestica_MDP0000284608
+            Malus_domestica_MDP0000711911
+            Malus_domestica_MDP0000918923
+            Manihot_esculenta_cassava41023613m
+            Manihot_esculenta_cassava41029773m
+            Manihot_esculenta_cassava41031745m
+            Momordica_balsamina_4H0Z
+            Momordica_balsamina_P29339
+            Momordica_charantia_AAX20021
+            Momordica_charantia_BAH05018
+            Oryza_sativa_AAX96490
+            Oryza_sativa_Q8S7P0
+            Panax_ginseng_ABG76785
+            Phyllostachys_edulis_FP092597
+            Polygonatum_multiflorum_Q9M653
+            Polygonatum_multiflorum_Q9M654
+            Prunus_persica_ppa009409m
+            Prunus_persica_ppa009637m
+            Ricinus_communis_28842m000952
+            Ricinus_communis_XP002534220
+            Ricinus_communis_XP002534649
+            Sambucus_ebulus_CAC33178
+            Sambucus_ebulus_CAQ42478
+            Sambucus_nigra_AAC15886
+            Sambucus_nigra_AAC49158
+            Sambucus_nigra_AAC49672
+            Sambucus_nigra_AAC49673
+            Sambucus_nigra_P33183
+            Sambucus_nigra_P93543
+            Sambucus_sieboldiana_SSA
+            Sambucus_sieboldiana_Sieboldin
+            Secale_cereale_Q7M1Z3
+            Sorghum_bicolor_XP002459593
+            Suregada_multiflora_AAA16312
+            Trichosanthes_anguina_P56626
+            Trichosanthes_kirilowii_1GGP
+            Trichosanthes_kirilowii_2019502A
+            Trichosanthes_kirilowii_AAA70096
+            Trichosanthes_kirilowii_AAM22782
+            Trichosanthes_kirilowii_BAG12408
+            Trichosanthes_kirilowii_P09989
+            Viscum_album_AAT37532
+            Viscum_album_AAY34343
+            Viscum_album_P81446
+            Viscum_album_P82683
+            Viscum_album_Q6H266
+            Viscum_articulatum_ABU95610
+            Ximenia_americana_CAJ38823
+            Zea_mays_DAA39742
+            ;
+END;
+
+BEGIN TAXA;
+        TITLE  Taxa4;
+        DIMENSIONS NTAX=47;
+        TAXLABELS
+            Arthrobotrys_oligospora_EGX49275
+            Beauveria_bassiana_EJP61635
+            Beauveria_bassiana_EJP64846
+            Brachypodium_distachyon_I1H5Y4
+            Brachypodium_distachyon_I1HK11
+            Burkholderia_sp_YP003610323
+            Cordyceps_militaris_EGX87856
+            Cronobacter_condimenti_WP007664251
+            Drimia_maritima_P84786
+            Erwinia_billingiae_YP003742802
+            Escherichia_coli_1R4P
+            Escherichia_coli_YP670472
+            Eutypa_lata_EMR66115
+            Hordeum_vulgare_AAB33361
+            Hordeum_vulgare_ACI00278
+            Hordeum_vulgare_BAJ93458
+            Hordeum_vulgare_BAJ98605
+            Hordeum_vulgare_BAK03617
+            Hordeum_vulgare_BAK03860
+            Hordeum_vulgare_BAK05402
+            Hordeum_vulgare_BAK07457
+            Hordeum_vulgare_P04399
+            Hordeum_vulgare_P22244
+            Hordeum_vulgare_Q00531
+            Hyacinthus_orientalis_Q677A1
+            Muscari_armeniacum_Q71SN2
+            Muscari_armeniacum_Q8L5M2
+            Muscari_armeniacum_Q8L5M3
+            Muscari_armeniacum_Q8L5M4
+            Oryza_sativa_AAX96490
+            Oryza_sativa_ABA96584
+            Oryza_sativa_BAB85658
+            Oryza_sativa_BAB85659
+            Oryza_sativa_Q10F32
+            Oryza_sativa_Q69S32
+            Oryza_sativa_Q8S7P0
+            Pantoea_stewartii_EHT99686
+            Populus_trichocarpa_EEE75844
+            Rickettsiella_grylli_ZP02062680
+            Secale_cereale_Q7M1Z3
+            Serratia_odorifera_WP004959514
+            Shigella_dysenteriae_1DM0
+            Streptomyces_coelicolor_CAB89764
+            Streptomyces_lividans_ZP06526866
+            Streptomyces_scabiei_CBG75759
+            Triticum_aestivum_Q07810
+            Zea_mays_P10593
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M22096]
+
+	TITLE Monocots_Group_1_Type_1_RIPs;
+	LINK TAXA = Taxa4;
+	DIMENSIONS NCHAR=460;
+	FORMAT DATATYPE=Protein SYMBOLS= "A C D E F G H I K L M N P Q R S T V W Y" MISSING=? GAP= -;
+
+MATRIX
+[                                              10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170       180       190       200       210       220       230       240       250       260       270       280       290       300       310       320       330       340       350       360       370       380       390       400       410       420       430       440       450       460]
+[                                               .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .]
+Arthrobotrys_oligospora_EGX49275       ---------------------------------------------MVIKTFHVDVESGSTGARAYLNLIVDLRRSAAAGD--RVVH--------------GLGVLPAETANP----ADFIDVGLKTT-------TNLITVRLRRDNLYLIGYLPS--YRTRWYEFSDTH---------------LIQGSEALPHDGHYTTLEK----------KANASRRDIALGFGPTEGAVNALAQKGAP------------------SSVEIHARSLIILIEAISEAMRSTVAC-----------EFIR----SKWELGTAEKPTLRIVTLENSWD-PISKAIME---------NHAVTDRSIAVY----IKEGTETPTLQD-----------CVNVIG---------------------VLLRGGH----------------------------------------
+Beauveria_bassiana_EJP61635            ---------------------------------IPTHSELQPRAAAAEKIPPRSFDLDTQGAEGYTKFLEDLRTELAACR--RSE---------------ALRVLPPQTLNPTAETVDWFDLGLHTG-------GFTITVRLRADNLYLLGYRVEPFANSNWRAFSDAQR--------------LVTGSTALPGGFTYSRLET----------QAGLRRPELPLGLSALRGAVSYLATHPQD--------------PSNEEEKKSLAKALLVVVQMLCEAMRFRLIG-----------DHVAAES-----AQITERMTR----LENDWA-DISEAVLR--------GDTTYTDSTPLLANENQMQKWE-LRTLAA------AIA--ILGLA---------------------LQPSL-------------------------------------------
+Beauveria_bassiana_EJP64846            SPLPGEPGNIVPQGLEYSGSNIDHSLNVEELKFGLPFFRQSEQLERRDDTPAEELKVDLSTKEVYKNFIERIRRRVQDSG--VSSH--------------GRPVLPPQRMPP----TSWFDIVLRTQ-------SQAVRLRIRSDNLYLDGYRAE--DSDQWFEFGVANVDP-----------QLIDGSTHLGFDGGYNSLQT----------TAARRRSETALGQQQLTTAVNQLATTAD---------------------RRERARSLLVVIQMICEAIRFTHIS-----------DTITNNY------SEGVTPDERFTALENGWG-DVSTALLR---------HDQNPEGQIQLP----RPNAMGINSVTD-----------AVAVIG-------------------VLLRYSI------------------------------------------
+Brachypodium_distachyon_I1H5Y4         -----------------------------------------MAMN---PLFTVTFDLKSSE--TYGSFIDDLRRRFGKRG-HFSHN---------------RPVLPPFDETVP--PRWWFHVVLRTT-Q-----TTTLTLAIRADNLYLEGFRSS-DNT--WWELTQGFIP----------------GATYMGFGGSYSDLLG-----------ETDAMVRVELGPQQMTEAVNVLAGRRRADKGS-------------EAKQKQAGKMLATLLLMVNEATRFVTVS-----------AFVAGLMHPKVAGTKSGVITALMKEQVNGWS-DLSAALLR--------TDARPPVGFVGEKGGLTKAKAEKMGVDT---------EEKAANTVGVVLFAEDKTVKGMV-TGAKALQLFPVGRLADQ------------------------------------
+Brachypodium_distachyon_I1HK11         -------------------------------------------MENPTAEFTAELDLTRGS--SYGNFISGVRDQLVHHAGAMRHL---------------ELVLLPHQESDPG-KAPWFGVTLRHG-P-----GDLVLFRIRADSLYLCGYRNY-AGQ--WHEFHGGSAIS---------------GATSLSFGESYGEMAA----------AASTELVKLTLG-------MDELAAD--------------------TGTQRETAISMMTMSVMVSEAIRFRSVG--------------RHGVLSAH-MVKQVKSSGS---LSEYWLGAVPYIKADAD----AIASQRYDYIPQHLLAPAKIDCQDHAMTALG------VALNLQSGLQDKHKVALDKHWRDVR-TLARKLDRERASASGT-------------------------------------
+Burkholderia_sp_YP003610323            ----------------------------------------------------AEFSVDFTSPQKYVQSLGAIRAAMGDAMSLTNIP---------------GNKILYQLRPDASNIVEGVTIEIIGVGRNNSPSNRDVRFVINPSDLYLTGFIVG----RIFYRFSDFSDTASGRV-QVNAPRHLVDFTIDMTVDSSYLSLARSA--------GVSADRTDLSIDRYSLMKGYRDLINHVSSTR----------------TINGAEARALLSYATVLSEAVRFRSIQ-----------GNFASTALGDD-AFTPYRLSLEDSNRTTRWD-RLSDEIRK---------AHYGAIKIATHG------AAPILLANVR-------------DVFG--------------------MTTCTSKK----------------------------------------
+Cordyceps_militaris_EGX87856           --------------MLVRCLWLALAVLVSTAHGIPTPSELQPRG---EKIPPRSVNLDEMDADAYKKLLEDLRGELEACR--RPV---------------ALHVLPPQTPNPTAATVDWFDLGLHTG-------GFTITVRLQADNLYLLAYRVEGFANPEWRALADAGP--------------LVPGSRALPGGFTYSRLET----------QADLRRPELPLGLGAFRGAASYLATHLQD--------------PRNQDEKKALAKSLLVLVQMLSEALRFRVIG-----------DHVAAEG-----AQITERMAR----LENDWA-DISEAVLR--------GDTTYTDSTPLLANENQLQKWE-LRTLAA------AIA--ILGIA---------------------LQPSL-------------------------------------------
+Cronobacter_condimenti_WP007664251     ------------------------------------------------MTAKLTWHDVLADEKEKPYFKKILTTVAAERD--------------------------AGVTIYPPQKDVFNAFRFTELG-------DVKVVILGQDPYHGPGQAHG----LAFSVRPGIAPPP-------------SLVNMYKELAQSVPGFTRP---------AHGYLESWARQGVMLLNTVLTVQAGKAHSHANLG---------------WETFTDKVISLINEHREGVVFLLWG-----------SHAQKKGAIIDRDRHHVLQAPHPSPLSAHRG-FFGCGHFV---------KTNEYLQSRGEA------PIDWMPVLPE-----------EAQ-----------------------------------------------------------------------
+Drimia_maritima_P84786                 -----------------------------------------SQCKAMTVKFTVELDIERLTGQTYTDFIKNLRRSLATWY--LHGV----------------PVLPLYNQEADP---RGFDLKLTFR-------GQVTTVRIHRDDLVLRGYQMQ--GAGKWLELERPSTQTG----------HLIEGSELLEFGPSYEELAA----------AAQQDILDISYNKNALQDAVSKLAVSTN---------------------TRDRARSLIVVSQMFCEATRFVDIA-----------NHFAFNLESSEPVKLPQWMQND---LEKNWV-RFSFMILKSN------ADPCYKFEPQTIY-GKIIKTADELLNFLG------IVE--QHPDT--------------------RSPPCAAG-----------------------------------------
+Erwinia_billingiae_YP003742802         ------------------------------------------------MANTLTWHDVLAEEKEKPYFIETLAKVAHERA--------------------------SGKIVYPPQKDVFNALRMTELG-------DIKVVILGQDPYHGPNQAHG----LAFSVLPGVAVPP-------------SLVNMYKELVTDIPGFIRP---------QHGFLESWARQGVMLLNTVLTVEGGNAHSHAKFG---------------WETFTDRVIAAINEHREGVVFLLWG-----------AHAQKKGSIIDRQRHHVLLAPHPSPLSAHRG-FFGSGHFS---------STNEWLEQHGEK------PIDWQPVLPE-------------------------------------------------------------------------------------
+Escherichia_coli_1R4P                  ----------------------------------------------------REFTIDFSTQQSYVSSLNSIRTEISTPLEHISQG------------------TTSVSVINHTPPGSYFAVDIRGLDVYQARFDH-LRLIIEQNNLYVAGFVNTA--TNTFYRFSDFTHISV----PG-------VTTVSMTTDSSYTTLQR----------VAALERSGMQISRHSLVSSYLALMEFSG------------------NTMTRDASRAVLRFVTVTAEALRFRQIQ-----------REFRQAL-SETAP--VYTMTPGDVDLTLNWG-RISNVLPEYR------GEDGVRVGRISFNNISAILGTVAVILNCH------HQGARSVRAVNEESQPECQITGDRP-VIKINNTLWESNTAAAFLNRKSQFLYTTGK-----------------------
+Escherichia_coli_YP670472              ------------------------------------------------MANELTWHDVLAEEKQQPYFLNTLQTVASERQ--------------------------SGVTIYPPQKDVFNAFRFTELG-------DVKVVILGQDPYHGPGQAHG----LAFSVRPGIATPP-------------SLLNMYKELENTIPGFTRP---------NHGYLESWARQGVLLLNTVLTVRAGQAHSHASLG---------------WETFTDKVISLINQHRKGVVFLLWG-----------SHAQKKGAIIDKQRHHVLKAPHPSPLSAHRG-FFGCNHFV---------LANQWLEQRGET------PIDWMPVLPA-----------ESE-----------------------------------------------------------------------
+Eutypa_lata_EMR66115                   --------------------------------------------MINTSKQFSIRFDIDDGADSYIQNIQQLRRELAVGDYIESVG-------------------TLAPQVPPGGTLEFFDIVLSYTDDHG--TTHTLTVRLRTDNLYLVAWRRP--NTTVWYELGHESGGAAT-------IVDPGATTQLLSLRESYVALER----------VAGWRLQDIPLSARRIGEAIRTLATTEVNSSTD----------------LTPIARSVLTLSFTLAEATRLRSIS-----------ALIETAWWNES------SPGEHYTSQVRSWG-RLSNAVQR--------TRNEGHTWDFNGE-------STDIWSFTA-----------AILALG-------------------IMHLIDTNSS---------------------------------------
+Hordeum_vulgare_AAB33361               -------------------------------------------MALDKVAPIVIVTPFNVMTDRYDEFIEKVRKALAGTAGAKVGPKPKSK---------VESPVLDKGTFPVEQPPRWIHVELHGKTQGTTT--PKPKVAIRSDDAYIMGFTNS---TGRWFQLSKTGTTY----------KLVDDKAVMAGFDGNYNTLVG----------GVN-NLPTLNLNKFSMAQAAAALWNKASTLSGGIGSDVVDDDDGDMLRANDPVKQAVATLAVAVCEAARFSPVS-----------KVVN----AGWIKDKV-SVTPDEVNYIKEWG-DLSTALLSW-------MDKQYKDD--ATI-----FKKFN-GIGIT-------NGEEALAVVRLVKLVIRSNMAAAP-TTDEQILAYAQLPKHGRYMAEVFAVRIPATAGGDRPAAP--------------
+Hordeum_vulgare_ACI00278               -----------------------------------------MAKNVDKPLFTATFNVQASS-ADYATFIAGIRNKLRNPA-HFSHN---------------RPVLPPVEPNVP--PSKWFHVVLKASPT-----SAGLTLAIRADNIYLEGFKSS-DGT--WWELTPGLIP----------------GATYVGFGGTYRDLLG-----------DTDKLTNVALGRQQLADAVTALHGRTKADKAS-------------GPKQQQAREAVTTLVLMVNEATRFQTVS-----------GFVAGLLHPKAVEKKSGKIGNEMNAQVNGWQ-DLSAALLK--------TDVKPPPGKSPAK----FAPIEKMGMRT---------AEQAANTLGILLFVE---VPGGL-TVAKALELFHASGGK--------------------------------------
+Hordeum_vulgare_BAJ93458               -------------------------------------------MENP--AFTAELDVTRGS--SYGSFVSGVRDQLVLHAGATRHL---------------ELVLLPPQAEDPR-KAPWFGVTLRCG-S-----GQPALLRIRADNIYLCGYRSS-DGL--WSEFPGCSLIA---------------GATPLPFGDSYGAMAR----------VAETALESLTLGKEELEAAAERLAAN--------------------AGTQQEIARSLMTMSVMVSEAIRFRSVGGALGHMMC---NAARRGVLPTH-MVDQVKNWSS---LSEYWLGAVLYGQPSPRPPVVAGCSQQHVYIPQHLHAPAKIDCQDHAMMALG------VALNRRRGLQDKHRAALDEHWRAVR-AHARKLDRERASASGT-------------------------------------
+Hordeum_vulgare_BAJ98605               ---------------------------------------SATRILPHASQIVPLRFDCSTGVGDYKVFMKNLREQLTFARHERLDR-------------------PLLAKFRPDNPARWMHVKLVSDN-------HEATLAIRDDTVYLIGFQAR---NGTWYEFSSSKPSLHLPPQKKESSLHLIEGSTFLDCGVTYGDLLGGAMN----LVNMRLGHLQVNLGKLFAIEAVRLLSEYSGG------------------GLTDNHKKALAGLILIICESARMISHF-----------DTVIN----GWPRAGGKSISRQQVHYVWNWG-NMSRFLTGRSR---CLQDEERLRQSCGITTEELALGIVHLLLNSP--------QPPYPTAAGQGQAKPPQPGACGEDGPSGPGNPQQTPP----------------------------------------
+Hordeum_vulgare_BAK03617               --------------------------------------MIILFARTAQGQPREIAWDHDAVNAEHTELLDTWHGHVIETVETRFRMKVG-------DLCDVMAPQRELEDKMTMPPDTWIKPTLKGRGN------DKVTLWFSNDDLYFLGYTNL---TGHLHTLGGYDGLF-------------LEPFYPLRFGGSYTDLMGEHRTPQGKKIPAHTFVVSVPLGKESLLDAIHVLSSYNPSTP------------------DADLKIAIAKIVLMGPESLRFRPIR-----------DAYI----LEWHQETNTYLTLGQTKYLVKWS-EISKELVR--------WEKSGRKI------------FLKTKGAR--------ELKDELGIVS-----AEEAMG-------LVYLLLRPRP----------------------------------------
+Hordeum_vulgare_BAK03860               -----------------------------MSVSFFFFLFLSLPLHHALDPVKVLNVQYNVSSDSFTRVSALFSRQLLAYSRDPPQVLLR-------------RFLAPTRAVFEARPNYFILLNMVDNVPG-----RTATLALCDDDLYVQGFKDT---KLRWNHFEKFDPIVP--------------DSTVLPVTHDYPGLLPKFPNGTK---RSHLNLFEVPLGKAAALSSFRTLANYNSRTTT-----------------VPALRSALVTLIIMFCEGHRFDRLN-----------ARLK----DEWDNPRPIYMLEEEAPYVVKWG-ALSRALQN--------WEESGRKHWTKDP--DDVSEFSKIHANSP------------LAARN-------------------ALLFLHRTENFKL------------------------------------
+Hordeum_vulgare_BAK05402               ----------------------------------------------------------------MAALLLFLLLALAASNSKHGG---------------------AVAAADDPPALRILTLRGS--------PEN-TSLAVQAYDLSLAGFTDE---SLHWHAFPG--------------HEHLIPTSMPLPFGSSYGELIG----------GLA-NVPSLPLGRDAMLQAVRVLSAYDP--AG----------------DVEPVKRALAAVKVMICESGRLKPIR-----------KTVN----DGW-DGES-RVAPEHLPYIEHWD-TMSYEIIR--------SNRTGKWD--GPF-----TQMLETKANIR-------SKEEAVAVMN---MLMDADFG--------QVFKAHAIP-----------INLD-------------------------
+Hordeum_vulgare_BAK07457               -----------------------------------------------------MEGSTMTRLAGMAAFLLILGLAVGNIKHGHGG---------------------AVVVGD--PTLIVVELQGH--------NDDKSSVAVQKHDVSVAGFTDG---SGQWHAFPG--------------LEHLFPASTTLPFGSSYSELIG----------GIA-NLPGVPLGREAMMQAIRVLSAYRP--GA----------------DVEPVKRALAAVKVVISEAQRLEPIR-----------KAVN----DGW-DGES-RVAPEHLPYIEHWD-TMSYEILR--------SNRTGKWD--GPF-----TKMLETQANIR-------SKEEALAVVG---LLLNADFE--------KVFKAHAIP-----------INLE-------------------------
+Hordeum_vulgare_P04399                 --------------------------------------AAKMAKNVDKPLFTATFNVQASS-ADYATFIAGIRNKLRNPA-HFSHN---------------EPVLPPVEPNVP--PSRWFHVVLKASPT-----SAGLTLAIRADNIYLEGFKSS-DGT--WWELTPGLIP----------------GATYVGFGGTYRDLLG-----------DTDKLTNVALGRQQLEDAVTALHGRTKADKAS-------------GPKQQQAREAVTTLLLMVNEATRFQTVS-----------GFVAGLLHPKAVEKKSGKIGNEMKAQVNGWQ-DLSAALLK--------TDVKPPPGKSPAK----FTPIEKMGVRT---------AEQAAATLGILLFVE---VPGGL-TVAKALELFHASGGK--------------------------------------
+Hordeum_vulgare_P22244                 -------------------------------------MAAKMAKNVDKPLFTATFNVQASS-ADYATFIAGIRNKLRNPA-HFSHN---------------RPVLPPVEPNVP--PSRWFHVVLKASPT-----SAGLTLAIRADNIYLEGFKSS-DGT--WWELTPGLIP----------------GATYVGFGGTYRDLLG-----------DTDKLTNVALGRQQLADAVTALHGRTKADKPS-------------GPKQQQAREAVTTLLLMVNEATRFQTVS-----------GFVAGLLHPKAVEKKSGKIGNEMKAQVNGWQ-DLSAALLK--------TDVKPPPGKSPAK----FAPIEKMGVRT---------AVQAANTLGILLFVE---VPGGL-TVAKALELFHASGGK--------------------------------------
+Hordeum_vulgare_Q00531                 -------------------------------------------MALDKVAPIVIVTPFNVMTDRYDEFIEKVRKALAGTAGAKVGPKPKSK---------VESPVLDKGTFPVEQPPRWIHVELHGKTQGTTT--PKPKVAIRSDDAYIMGFTNS---TGRWFQLSKTGTTY----------KLVDDKAVMAGFDGNYNTLVG----------GVN-NLPTLNLNKFSMAQAAAALWNKASTLSGGIGSDVVDDDDGDMLRANDPVKQAVATLAVAVCEAARFSPVS-----------KVVN----AGWIKDKV-SVTPDEVNYIKEWG-DLSTALLSW-------MDKQYKDD--ATI-----FKKFN-GIGIT-------NGEEALAVVRLVKLVIRSNMAAAP-TTDEQLLAYAQLPKHGRYMAEVFAVRIPATAGGDRPAAP--------------
+Hyacinthus_orientalis_Q677A1           ----------------------------------------YLTRALHEARSTSIPSPTKLTQASS----RELRITLASTY--SKSV----------------PVLPVLSHTAP----NGFDVVLTAG-------ATTTTARFRRDNLYLVGFRM---QNNAWCEFR--DSTQ------------LIEGSRVLDFEGSYTDLER----------VGE-KVMKMEFSKKELAAAVGVLAGSQN---------------------KGARAKSSLVVIQMISEAARFIDLS-----------KLFASKLAKSA--KLEEWMRND---LENNWA-LMSYQILKPE------ADPCYKFKPADHQPERLFRRRMTREAFSG------SSY--RDAGHP-----------QVT-VQATMLNPFITKCRTL-------------------------------------
+Muscari_armeniacum_Q71SN2              --------------------MAANT-GIHRLMIFMLIVVAAAGQNFITVQFTETLNTVTLNRATYNATITRLRNRLAQTY--VPSV-------------PNLPVLPVYNQIQPP---QGFDIVLIGD--L----GHTTTLRFRRDNLYLVGYN----QAGTWLEFGRAGDPQ------------FIRGSQFLGFTGSYIELER----------LGG-SVTGMEINQARLITAVQQLARPST---------------------NAVRARALVVVIQMFSEAARFISVS-----------DYFASNLATPN-AKLPAWMMRD---LQKNWA-LISRDVLRWD------ARPSYNIGPFTIN-GNRITDFLRLRPYLG------ILY--RSTADPFSTSLYEEMKTGLE-FAARRFGPVMVA-----------------------------------------
+Muscari_armeniacum_Q8L5M2              --------------------MAANIRMIHRFMIFMLTVVAAAGQGFLTVEFTKTLNAVTLTSSTYTTFIRELRSRLAQTY--VAGV-------------PNIPVLPVYNQTQPP---QGFDIVLTAG-------ADRTTVRFRRDTLYLVGYQM---QSGAWLEFGRAGNPQ------------FIRGSEFLGFGGSYTELER----------LAG-PVTSMDINQAKLVTSVRDLAVSTN---------------------SVVRAKALVVLIQMICEATRFIPIS-----------DHFASNLATDY-AKLPPWMMSD---LEKNWA-RISREVLKWD------ADTSYKIQPQTIN-GQTITTVEGLRPYLG------ILY--RASVNPFSTSLYEEMKVGLE-FAARRFGPVMVA-----------------------------------------
+Muscari_armeniacum_Q8L5M3              --------------------MAANT-SMHRLMIFMLLIAAAAGQNFITVQFTETLNTVTLNRATYNATITRLRNRLAQTY--VPSV-------------PNLPVLPVYNQIQPP---QGFDIVLIGD--L----GHTTTLRFRRDNLYLVGYN----QSNTWLEFGRAGDPQ------------FIRGSQFLGFTGSYIELER----------LGG-SVTGMEIDQARLITVVQQLARPST---------------------NAVRARALVVVIQMFSEATRFISVS-----------DYFASNLATPN-TKLPAWMMED---LQKNWA-HISQEVLRWG------VRPSYNIQISNIN-GRPITTVAQLRPYLG------ILY--QATADPFSTGLYEEMKIGLE-FAARRFGPVMVA-----------------------------------------
+Muscari_armeniacum_Q8L5M4              --------------------MAAST-GMHRLIIFMLIIAAAAGQGFLTVQFTETLDAVTLNRATYTAFIGKIRSRLEDTN--VAGVR------------PNIPVLPVYNQIRPP---QGFDIVLTAG-------AHTTTARFRRDNLYLVGYEM---KTDTWLEFGRRRDPQ------------LIRGSEFLGFDGSYTDLER----------HAG-SVTKMDINRAILMTSVQDLTESTT---------------------TSVRAKALVVVIQMICEAARFISVE-----------NHFASNLATQR-AKLPLWMMED---LQKNWA-RISREVLRWA------ADPTYRIQPQTIN-RKRITTVAGLRPYLG------TLY--RATATPSSTSLYDEMKVGLE-FAARRFGPVMVVAQA--------------------------------------
+Oryza_sativa_AAX96490                  ------------------------------------------------MAVRVENVEFNVRTGNYPEFMNNLRDRLAEHPDLDDVYAG---------------CPVLAMQRCPKQPARWMYINLVGNGD------DRATLAVRDDNVNLIGFRNL---KGQWFHMGFSGMSKP----------ILPEPSTFLGCDGSYPSLLGGRDEDD----VKNMLVNDIDLRQVVLLDAVHKLSGYEQPPDPYG-------------AADDDTKLDLVHLTVVFCEGARMALHY-----------DAVN---------DGQISLNERQVDYLRNWW-LMSRALLQD-------ETTPWPRRLSSETGINDDEQARRVVLLVLN-------TSTTVHVHGAAERRPLVEKLFVVPARNPPLVPVSKPGVPIRD-----------------------------------
+Oryza_sativa_ABA96584                  -------------------MAWNTLYENAEMLLKYYEVFVCQLGTILQGLHHIDIDVTDPTQGGYTTALNSIRERDQERAGQNTFHG----------------------VAITSLNKQWRRINLVHQDR------PTVSLLIDESNGYLVGFRRG---DGTWMHFNDQELPNVPG-------TEQRVPGIPIQLSSSYMNLIK------------DNERPYFSVGRQSLRHSYFVLLNYDAEVDLRS-------------AMMKRQRKALTQLIILFCEAARIRPVL-----------EFIS----EAMSTEDTTPLDETLWTWIKNWS-TLSRFALHCRR----CERDATPLDPNEIK----HVSPYGITSREQ------VLEVVARGILFIVCVCCGLTWNTFSMLLFNSLMIFERKKCDDNGCDRCGENVVFLMILKLIH-----------------
+Oryza_sativa_BAB85658                  -----------------------------------------MALN---PLFTVTFDVS-SG-DNYGDFIAGIRSRVANPR-HFSRN---------------RPVLPPVEPPPP--PRRWFHVVLRAS-P-----TAALTLATRADNLYLEGFRSS-DGR--WWELTPGILGAA----------PGGAAATYVGFGGSYRDLLG-----------DTDRLTVVTLGPQQMAQAVNALAARRPADLAN-------------GAAQRRAMDAVAALLLMVHEATRFQTVS-----------RLVAGLMHPKAA-SKSGAITTAMRKQVNGWQ-VLSAAMLG--------TDARPPARFAPLR---------DMGVDT---------VEEAAATVGILLFVE---VPGGM-TAARALQLFHHGN----------------------------------------
+Oryza_sativa_BAB85659                  -----------------------------------------MALN---PLFTVTFNVSGSGSDNYGDFIAGIRKRVANPR-HFSHN---------------RPVLPPVEPDVP--PRRWFHVVLRT--Q-----TSELTLATRADNLYLEGFRGS-DGTSAWWELTRGLI----------------AGATYLGFGGSYRELLG-----------HTDNMVGVTLGPQQMTQAVDTLAG--LAASGG-------------GAARQRAGEALATLLLMVNEAVRFLTVA-----------ELVGGFMNPRAV-RKSGTITADMKEQVNGWK-VLSRALLT--------MDALQLEDSNSASKHN-KVDTKKMEQEKKAWEAAEKLAVEAAKAVGILLFVEK--VPAGM-TKATALQLFHGN-----------------------------------------
+Oryza_sativa_Q10F32                    ----------------------------------------VAASLFSPAAALLAGGEHGVVVVEPRQVEIMFDLATQSWYHELYRPLKAALTDDGAGPELMGHAVVD-LLDDDQPPSKQITVRLFASGG----GGDEAKLLVAEDDAYVAGFANR---TGHWHTFRGGRCHHP----VII-PAGGAAPCTELPFGGTYRELIG----------GVA-NLRAVPLGRASAESAMRVLSRYDP-ATT----------------PAADAKMVVAKFMVMVTEPMRLKAVS-----------RAVG----GRW-EEES-YLSSDEAKYVPYWG-EISAMLVE--------WNSTGRWGELGPR-----SKMDRARCPRP-------AGCED-DGGD-----GDDGGG--------KLFMI--------------------------------------------
+Oryza_sativa_Q69S32                    ---------------------------------------------PPNSVPTIDRTEMDVSTSPYRDLIKKWRDLVLLNTRPEVMVP-------------EDHPVLAPQYDDTVPPERLLLPKLVANGD------KTATLALRDSNIYFIGFANK---AGQWFSFKDRNDLPP------------SFRARPLSFGVDYASIAG-----------FRKNLPNYPLGRRQTEWAVKVLSEYDPNRTD-----------------EATIKRAVVIILLTFCEALRFFPIR-----------NAVEIG----W--DSVAYITSTDADRLVCWG-QISYMLEYS-------FMSGHSWDSEEQR-----TRLKNLARDCK--------IFNEPQALETVDVLEYG-----------AILGAKSTNWLY-------------------------------------
+Oryza_sativa_Q8S7P0                    ----------------------------------------TKMLLLLVSLAPVAAGEHGVAAAEPRLVEIPFNFSVHSWNELISNRLKAELADNPCRQEIEGIPTMAGLHGDDEPPAKWITVRLFGGGDR---DDDQAKLLVAEDDAYVAGFANR---TGHWHTFRGGRCY----------PALPATACTELPFGGSYRDLIG----------GVA-NLRAVPVGRSSAVGAMEVLSRYDPAATT----------------AAADAKMALAKFMVMVTEAARLKPVR-----------RAVV----ERW-EQVS-YLSSDEVRDVPYYG-KMSLMILE--------WKRTGRWGELGPW-----ANIDRARCPRP-------TGCEDEDDAD-----ADAGAG--------ELRGLRAIH-----------AGTS-------------------------
+Pantoea_stewartii_EHT99686             ------------------------------------------------MAAKLTWHDVLAEEKEKPYFIETLKQVANQRA--------------------------AGVTVYPPQKDVFNAFRLTELG-------DVKVVILGQDPYHGPNQAHG----LAFSVLPGVPIPP-------------SLQNMYKELQQDIPGFEKP---------SHGYLASWAEQGVLLLNTVLTVEAGKAHSHARLG---------------WETFTDRVIDAINAQREGVIFLLWG-----------SHAQKKGSIIDRQRHHVLQAPHPSPLSAHRG-FFGCQHFS---------KTNALLKESGRD------PVDWTPVLP--------------EPAA--------------------------------------------------------------------
+Populus_trichocarpa_EEE75844           ----------------------------------------------MPVEFEMEINVQTSTRGGYRDFIEKLRDRLGVRFSHNR----------------------PALAVQEEPPTRFFDLVIRTN-------DHSVRFRLRMDNLYLIGYQME---NGQWLEFNNETGVHLIR----------EQGTEFLGFNGSYNMLSN----------VAGLSMEEVRVGFYNLGYGINQLATSTT---------------------WKIRARYLIGVIMMICESTRLIPISDYMATNFDNSHGTSSDDYNNYDNRNREGQIQPWITTLVRAWD-AFSAALLR--------ADAYPDESFMTFDEGQCFLGLPLVEVFSVSIDN--IDGEDPGQLYGTITVDDGLNIEYIYNRTSSNPESIKPGQNASLTGPSQSIIAIGNFTIKLLLTDMLVNSGSPMRGPGVY
+Rickettsiella_grylli_ZP02062680        ----------------------------------------------------ITCSVDFSSPKSYVDSLNKIRERIGIRLPNLTTSQ--------------GNMSISVFVLSPSASNIGIIVTLQGIDYDDPNTSVPIRLVLSPENLYLAGFIQG----NTFYRFRDRQNTVL----PSD----IHVQIVDLTTGSDYTELER----------VGDVRRDRLQINRHSLVTSYRDLNQFSG------------------TALNQASARAMLRFITVLPEALRFRQIQ-----------RNFRPVL-SQTASNSHYIMSPSNISLTLNWG-GLSATLPSYSP-----DSTQVQVGNIRLNGLTEILYAVALLLDCY------HRPKTNVYAQCSMADP-----------IVINKVIWDKKTLSTILSE---------------------------------
+Secale_cereale_Q7M1Z3                  --------------------------------------AAKMAKNVDKPLFTAFTNVQSSS-ADYVTFITGIRNKLGNPR-HFSHN---------------RPVLPPIEPKVP--PSRWFHIVLKTSPA-----STGLTLATRADNLYWEGFKSS-DGT--WWELTPGLIP----------------GATYFGFGGTYRDLLG-----------DTDKLTNVALGRQQMADAVTALYGRTKADKSS-------------GPKQQQAREAVTTLLLMVHEATRFQSVS-----------AFVAGLLHPKAVEKKSGKISNELKAQVNGWQ-DLSEALLK--------TDAKPPAGKPPAK----FTPIEKMGVRT---------AEQAAATLGILLFVQ---VPGGM-TAAQALELFHASGGK--------------------------------------
+Serratia_odorifera_WP004959514         ------------------------------------------------MTTSLTWHDVIGKEKEQPYFVETLAFVAAERQ--------------------------AGKTIYPPQKDVFNAFRFTELA-------DVKVVILGQDPYHGPNQAHG----LAFSVRPGVAVPP-------------SLVNIYKELTSDIAGFERP---------SHGCLQSWAEQGVLLLNTVLTVEAGQAHSHARLG---------------WETFTDKVIAALNENRQGVIFLLWG-----------SHAQKKGNFIDRQRHHVLKAPHPSPLSAHRG-FLGCQHFS---------QTNQLLEQQGLA------PIDWTPQLPN-----------EVEPA---------------------------------------------------------------------
+Shigella_dysenteriae_1DM0              ----------------------------------------------------KEFTLDFSTAKTYVDSLNVIRSAIGTPLQTISSG------------------GTSLLMIDSGTGDNLFAVDVRGIDPEEGRFNN-LRLIVERNNLYVTGFVNRT--NNVFYRFADFSHVTF----PG-------TTAVTLSGDSSYTTLQR----------VAGISRTGMQINRHSLTTSYLDLMSHSG------------------TSLTQSVARAMLRFVTVTAEALRFRQIQ-----------RGFRTTL-DDLSGR-SYVMTAEDVDLTLNWG-RLSSVLPDYH------GQDSVRVGRISFGSINAILGSVALILNCH------HHASRVARMASDEFPSMCPADGRVR-GITHNKILWDSSTLGAILM----------------------------------
+Streptomyces_coelicolor_CAB89764       ----------------------------------------------------DTPNRQTTYIDFHVDPEIDNVPHYRSVVQQLRRGA--------------GHLIHGNNIYETMGQG--QNAGLVALNLYNADWVHQTTLYFNASNLYLVGFKSR---TGQAYLFSDASANAR----EEVGREVRGAPVTTLPFAGSYTSLVNT---------LPGAETEPTTIGIYAIQTNMEALARTPNPAAAT-------------GAYRGSIARAMLIMIGAFAEAARFPMFR-----------DHFEAAF-RRFANP-SVVVTPTMQALRTAWG-QMSRWVQQLVS-----GPPPTPA---VFG-----SGVYFFVLASW------EDVDKYLRAINGQR-----------------------------------------------------------------
+Streptomyces_lividans_ZP06526866       ----------------------------------------------------DTPNRQTTYIDFHIDPEIDNVPHYRSVVQQLRRGA--------------GHLIHGNNIYETMGQG--QNAGLVALNLYNADWVHQTTLYFNASNLYLVGFKSR---TGQAYLFSDASANAR----EEVGREVRGAPVTTLPFAGSYTSLVNT---------LPGAETEPTTIGIYAIQTNMEALARTPNPAAAT-------------GAYRGSIARAMLIMIGAFAEAARFPMFR-----------DHFEAAF-RRFANP-SVVVTPTMQALRTAWG-QMSRWVQQLVS-----GPPPTPA---VFG-----SGVYFFVLASW------EDVDKYLRAINGQR-----------------------------------------------------------------
+Streptomyces_scabiei_CBG75759          ---------------------------------------MGLSAPAASADPDRILTVHDWVIDDLVNGGQDPHQQYWNMVAAMHRVTG-------------HDFFRDTLDETTTNGNALFQVSVHRYG------TYVGALYFWTNDLYLAGFYQAG-EGGGHYAFNEPRRARFN--------ELLRIQSTALPWNGSYTDFSGN--------AGDQGSRSNLQINGPRLDNALQQLGRAGSHLQSQN--------------GRAVLSQALVMIIQATSEAARFGRIF-----------DNIRTNIRDYH--TGGAQMGAENVNLQQNWG-TISNWIYR--------VLQNAGTPPLTIG-------IRDLQRTFA----------TFQQLIAY-----------------VFYMELASGSRPR-------------------------------------
+Triticum_aestivum_Q07810               -----------------------------------------MAKNVDKPLFTATFNVQASS-ADYVTFINGIRNKLRNPG-HSSHN---------------RPVLPPIEPNVP--PSRWFHIVLKTSPA-----STGLTLATRADNLYWEGFKSS-DGT--WWELTPGLIP----------------GATHVGFGGTYRDLLG-----------DTDKLTNVALGRQQMADAVTALYGRTKADKTS-------------GPKQQQAREAVTTLLLMVHEATRFQTVS-----------GFVAGVLHPK--EKKSGKIGNEMKAQVNGWQ-DLSEALLK--------TDANAPPGKAPAK----FTPIEKMGVRT---------AEQAAATLGILLFVQ---VPGGM-TVAQALELFHKSGGK--------------------------------------
+Zea_mays_P10593                        ---------------------------------------------KKIVPKFTEIFPVEDVNYPYSAFIASVRKDVIKHCTDHKG---------------IFQPVLPP---EKKVPELWFYTELKTRTSSIT-------LAIRMDNLYLVGFRTP---GGVWWELARPATP-----------TSSATTP------GGSASAAG----------TR---TSSATRVWRPSPWAARDDQGRQRAADP-----------------QADTKSKLVKLVVMVCEGLRFNTLS-----------RTVDAGFNSQ----HGVTLTVTQGKQVQKWD-RISKAAFE--------WADH--------------------------------------------------------------------------------------------------------------
+;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M22098]
+
+	TITLE Angiosperms_Group_3_Type_1_RIPs_and_type_2_RIP_A_chains_;
+	LINK TAXA = Taxa3;
+	DIMENSIONS NCHAR=381;
+	FORMAT DATATYPE=Protein SYMBOLS= "A C D E F G H I K L M N P Q R S T V W Y" MISSING=? GAP= -;
+
+MATRIX
+[                                              10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170       180       190       200       210       220       230       240       250       260       270       280       290       300       310       320       330       340       350       360       370       380 ]
+[                                               .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         . ]
+Abrus_precatorius_AAA32624             ---------------------EDRPIKFS-----TEGATSQSYKQFIEA-LRERLRGG----LIHD----IPVLPD-PTTLQERNRYITVELSN---SDTESIEVGIDVTNAYVVAYRAGTQSYFLRDAPSS----ASDY---LFTGT-DQHSLPFYGTYGDLERWAH-QSRQQ-----------------------IPLGLQALTHGISFFRSGGND---NEEKART----LIVIIQMVAEAARFRYISNRVRVSIQTGT---------AFQPDAAMISLENN-WDNLSRGVQES-------VQDTFPNQVTLTNIRNEPVIVDSLSHPTVA-VLALMLFVCNPPN----------------------------------
+Abrus_precatorius_P28590               ---------------------QDQVIKFT-----TEGATSQSYKQFIEA-LRQRLTGG----LIHD----IPVLPD-PTTVEERNRYITVELSN---SERESIEVGIDVTNAYVVAYRAGSQSYFLRDAPAS----ASTY---LFPGT-QRYSLRFDGSYGDLERWAH-QTREE-----------------------ISLGLQALTHAISFLRSGASN---DEEKART----LIVIIQMASEAARYRYISNRVGVSIRTGT---------AFQPDPAMLSLENN-WDNLSGGVQQS-------VQDTFPNNVILSSINRQPVVVDSLSHPTVA-VLALMLFVCNPPN----------------------------------
+Abrus_precatorius_Q06077               ---------------------QDQVIKFT-----TEGATSQSYKQFIEA-LRQRLTGG----LIHG----IPVLPD-PTTLQERNRYISVELSN---SDTESIEAGIDVSNAYVVAYRAGNRSYFLRDAPTS----ASRY---LFTGT-QQYSLRFNGSYIDLERLAR-QTRQQ-----------------------IPLGLQALRHAISFLQSGT-D---DQEIART----LIVIIQMASEAARYRFISYRVGVSIRTNT---------AFQPDAAMISLENN-WDNLSGGVQQS-------VQDTFPNAVTLRSVNNQPVIVDSLTHQSVA-VLALMLFVCNPPN----------------------------------
+Abrus_precatorius_Q9M6E9               ----------------------QDPIKFT-----TGSATPASYNQFIDA-LRERLTGG----LIYG----IPVLRD-PSTVEKPNQYVTVELSY---SDTVSIQLGIDLTNAYVVAYRAGSESFFFRNAPAS----ASTY---LFTGT-QQYSLPFDGNYDDLEKWAH-QSRQR-----------------------ISLGLEALRQGIKFLRSGASD---DEEIART----LIVIIQMVAEAARFRYVSKLVVISLSNRA---------AFQPDPSMLSLENT-WEPLSRAVQHT-------VQDTFPQNVTLINVRQERVVVSSLSHPSVS-ALALMLFVCNPLNATQSPLLI--------------------------
+Abrus_pulchellus_ABW23503              ---------------------ED-PIKFT-----TEGATSQSYQQFMDA-LRDRLTSG----LIHD----IPVLRD-PTTVQERNRYVTVQLSN---SDTESIQVGIDVTNAYVVAYRAGSRSYFLRDVPAS----ASTY---LFTGT-NQYSLPFNGTYGDLERWAH-QNREQ-----------------------VHLGLQAFRHGISFLRSGDDD---NEERAHT----MIVIIQMVAEAARFRYISNRVAVSIRTGT---------AFQPDPAMISLENN-WDNLSAGVQRS-------VQDTFPNEVTLRSINNRPVIVDSLSHPTVA-VLALMLFVCNPPN----------------------------------
+Abrus_pulchellus_ABW23504              ---------------------EDRPIEFT-----TEGATSQSYKQFIEA-LRASLTDR----LIHG----IPVLRD-PTTVEERNRYITVELSN---SERESIQVGIDVTNAYVVAYRAGTQSYFLRDAPRY----ASTY---LFTDT-QQHSLRFDGSYSDLQRWAQ-QSREQ-----------------------ISLGLQALTHAISFLHSGTND---DRERAHT----MIVIIQMASEAARYRYISNRVGVSIRTST---------AFQPDPAMLSLENN-WDNLSGGVQQS-------VQDTFPNNVILSSINRQPVVVDSLSHPTLA-VLALMLFVCNPPN----------------------------------
+Adenia_volkensii_CAD61022              ---------------------VFPKVPFD-----VPKATVESYTRFIRV-LRDELAG-------GVSPQGIRRLRN-PAEIQPSQGFILIQLTGY--VG--SVTLIMDVRNAYLLGYLSHNVLYHFN-DVS-------ASSIASVFPDAQRRQLPFGGGYPSMRNYAP-E-RDQ-----------------------IDHGIVELAYAVDRLYYSQN---NNQIALG-----LVICAGMVAEASRFRYIEGLVRQSIVGPG------DYRTFRPDALMYSIVTQ-WQTLSERIQGSFNG--------AFQPVQLGYAS-DPFYWDNVAQ-AITRLSLMLFVCSQPP-------------------------RQF-------
+Bryonia_cretica_P33185                 ------------------------DVSFR-----LSGATTTSYGVFIKN-LREALPY-----ERKVYN--IPLLRS--SISG-SGRYTLLHLTN---YADETISVAVDVTNVYIMGYLAGDVSYFFNEASAT----EAAK--FVFKDAKKKVTLPYSGNYERLQTAAG-KIREN-----------------------IPLGLPALDSAITTLYYYTA-----SSAASA----LLVLIQSTAESARYKFIEQQIGKRVDK-----------TFLPSLATISLENN-WSALSKQIQIAS-TNN----GQFESPVVLIDGNNQRVSITNASARVVTS--NIALLLN-RNNIAAIGEDISMTLIGFEHGLYGI------------
+Bryonia_cretica_P98184                 -----------------------VDINFS-----LIGATGATYKTFIRN-LRTKLTVG----TPRVYD--IPVLRN--AAAG-LARFQLVTLTN---YNGESVTVALDVVNVYVVAYRAGNTAYFLADASTE----ANN----VLFAGINHVRLPYGGNYDGLETAAGRISREN-----------------------IELGFSEISSAIGNMFRHNPG----TSVPRA----FIVIIQTVSEAARFKYIEQRVSENVGT-----------KFKPDPAFLSLQNA-WGSLSEQIQIAQ-TRG----GEFARPVELRTVSNTPTFVTNVNSPVVK---GIALLLYFR------------VNVGTDNVFAMSLSTY--------
+Camelia_sinensis_ADF45509              ---------CTSTVEDTKLTLRYNTVRFT-----TERATKESYTQFMEA-LRDQLGS-------GYEAHTIPVLRD-VSTVDTSQRFLLVELSDF--AG-ATITLAVDVQNAYVVAYQAGDQSYFFR-DAP-------EVAFSNLFNDTQQSTFNFTGSYVDLEGRSR-HDRED-----------------------IDLGILALERAIFSLS-RSSAAAESTIARS-----LIVCIQMVSEAARFR----YIERRVRQSITS---AGYGHFRPDAGMLSLENN-WGALSYAIQQSNQG-------VFSSPVQLQRPDYTFFNVDSATLSIVRNLALMLFVCNI-NH------------------------ASS-------
+Camelia_sinensis_ADF45512              ---------CTSTVEDTKLTLRYNTVRFP-----TENATKESYTQFTEA-LRDQLGS-------GYEAHTIPVLRN-VSTVDTSQRFLLVELSNW--GE-ATITLAVDVQNAYVVAYQAGDQSYFFR-DAP-------EVAFSNLFNDTQQSTFTFTGSYVDLEGRSH-QDRED-----------------------IDLGILALELAILSLR-RSSSAAESTIARS-----LIVCIQMVSEAARFR----YIERRVRQSITS---AGYEHFRPDAGMLSLENN-WGALSYAIQQSNQG-------VFSSPVQLQRPDYTFFNVDSATLSIVRNLALMLFVCNI-NQ------------------------ASS-------
+Cinnamomum_camphora_AET98835           ----------------------YQTVTFT-----TKQATKTSYAQFIEA-LRAQLAS-------GEEPHGIPVTRE-RSTVPDSQRFVLVELSNW--AADSPVTLALNVTDAYVVAYRTGSRSFFLREDNP-------DPAIDNLFPDTQRQTLRFGGNYNDLEDAAG-QRRDT-----------------------IELGMEPLENAISTLR-VSNTDPDGPIARS-----LIVVIQMVAEAVRFR----YIEGRVSQSIGT---A--QVFVPDPAMRRLENK-WKKLSKAVQESNQGG------VFSRPVELRSRSNNPVNVDSVSHPVISGLAIMLFSCRSSDR------------------------ASSDQFID--
+Cinnamomum_camphora_Q94BW5             ----------------------YQTVTFT-----TKNATKTSYTQFIEA-LRAQLAS-------GEEPHGIPVMRE-RSTVPDSKRFILVELSNW--AADSPVTLAVDVTNAYVVAYRTGSQSFFLREDNP-------DPAIENLLPDTKRYTFPFSGSYTDLEGVAG-ERREE-----------------------ILLGMDPLENAISALW-ISNLNQQRALARS-----LIVVIQMVAEAVRFR----FIEYRVRGSISR---A--EMFRPDPAMLSLENK-WSALSNAVQQSNQGG------VFSSPVELRSISNKPVYVGSVSDRVISGLAIMLFICRSTDR------------------------ASSDQFID--
+Cucumis_ficifolius_Q9FRX4              ----------------------DVTVKFS-----LLGSNHKSYSKFITS-MRNALPN-----AGDIYN--IPLLVP--SISG-SRRYILMQLSN---YEGNTITMAVDVTNVYIMGYLVNGTSYFFNETDAQ----LASK--FVFQGT-KSITLPYSGNYQKLQSVAR-KERDS-----------------------IPLGFMALDSAISTLYYYDS-----RSAPIA----FLVLIQTTAEAARYKYIEKQIIDRISV-----------SKVPDLAAISLENE-WSLLSKQIQIAK-SNN----GQFQTPVKIINDKGILTEVTNVSSLVVTK--NIMLLLN-KLNIASFEDHVISTTMPQA------------------
+Cucumis_sativus_XP004140357            -----------------------------------KRPVVDVYQSYIQT-IRQKFGS-----KTHKLYG-IPVLHH--SLSN-SDRFHLIDAGN---EPGDTITFAVDAQDMSVVAYLAGDNDSYFFSNAPK----FAFD--ILFPKT-NQNLLNFDNSFKSIEIAAN-TTREA-----------------------TPLGLKPSNAAIANLFHYDP-----VLAPVS----FLIVFQMVFESAKFKFIEQRIVNSITNGE---------AFTPDLAMLSLEDN-WSELSLEIQASN-SLQ----GLFGSSVTLYNSKNEAVEVDSIYYPLILSNLALQLYHCNIQDYIKMPTAT--------------------------
+Cucurbita_moschata_3BWH                ------------------------NVRFD-----LSSATSSSYKTFIKN-LREALPK-----DGKVYD--IPVLLS--TVMD-SRRFILIDLVN---YDGQSITAAIDVLNVYIVAYSTGTVSYFFQQVPA-----QAPK--LLFKGT-QQRTLPYTGNYENLQTAAK-KLREN-----------------------IELGLPALDSAITTLFHYNA-----EAAASA----LLVLIQTTSEAARFRYIELQIANNVGT-----------KFKPSQTIISLENN-WSALSKQIQIAK-NKN----GQFETPVILIDPQGNRVQITNVTSNVVTQ--NIQLLLNIGATA---------------------------------
+Drimia_maritima_P84786                 ------------------SQCKAMTVKFT-VELDIERLTGQTYTDFIKN-LRRSLATW--------YLHGVPVLPLYNQEADPRGFDLKLTFRG------QVTTVRIHRDDLVLRGYQMQGAGKWLELERPS----TQTG--HLIEGS---ELLEFGPSYEELAAAAQQDILD------------------------ISYNKNALQDAVSKLAVSTN----TRDRARS----LIVVSQMFCEATRFVDIANHFAFNLESSEP--------VKLPQWMQNDLEKN-WVRFSFMILKSNADP----CYKFEPQTIYGKIIKTADELLNFLGIVEQHPDTRSPPCAAG------------------------------------
+Euphorbia_serrata_AAO15530             ----------LNAPVNY------PTVKFT--THLASVG---SYQTLMSA-LRVNLESK-------LESHNIPLLRK-PSDITDQNKYLLVELTNYDT--KRTVTLALTVLNVYVIGYKSGT-KSFFLKDA------PSDAKTLLFTDTTPKTL-EVDTNYNNL------GDRSK-----------------------VGLGIPALKNAINILNQFDG--STDQDFKHS----LLIVIQMVSEAARFKFIQLKIEGGLLTQ-----------YLPKPDTISYQNN-WSALSKSIQLADAN------GRLSESVTLKYEDGKDRVVFMVEQVQRDISLLLYHVGSTERLGEEKFGGVYADEAVEDELLSVI------------
+Euphorbia_serrata_AAO15531             ----------LNAPINY------PSVKFT--THLASVG---SYQSFMSS-LRKELDSG-------SESHDIPLLRK-PTEITNNNKYLLVNLINYDS--QLSITLAVTVVNVYVIGYKSAG-NSFFLKDA------PSDAKTLLFQGTNKITLSSVDSNYNNL------GDRSK-----------------------VGLGIGPLSRSIDTLNKFNG--SVNNVFKES----LLVVIQMVAEAARFKFIQLKIENNLLDE-----------YKPKNDTISYENN-WEKLSEQIQLSGTD------GKFKKPVTLLYANGTDKIVSTVAQVKPDISILLYKGSSGITAAEEKVGEIFAKDVMEEWLPIML------------
+Gossypium_raimondii_013G087700         -------------SCCIAVTENEHKLKIYTVRFTTERATRNSYLMFMKD-LYNALTER------ADRSGDMPILPPRSAQPTDPRQYVLVELSN---GY-QTVTLALHVSNVYILGYRASAGSYFFS-DVP-------DDVRNALFPGSTG--LPFTGRYGALEGAAGVDDRRE-----------------------IPLGMDELRQHIDNLNYINPNNNHAPIARA-----LIVCIQMVSEAARMRNIQQQILAVAEPHADG----TYGTFNPDGLMMEYETS-WEDISSAIQSATDG-------IFARAVRLVYD-AQELVLSTLRQ-VIFIIALMPMECNPRA-------------------------NLQL------
+Gynostemma_pentaphyllum_AAN08103       ------------------------DINFS-----LAGADGQTYNTFIAK-LRQELSIG----TQKVAN--ITVLKH--HVSSNTQRFLSINLFN---YNGDKITLGIDVFDVYVVGFLTGTNSYIFKEAPDL----AYNK--SLLFPGSVRENLSYTGGYDDLERRG--AGRED-----------------------IPLGLLPLDTAITNLFRRDS-----TSFRRS----FIVIIQMVSEAARFKIIEAKIAKNLYGEN---------TFKTDQAIISLENN-WGALSKQIQKAQ-DRG----GVFPNLVTLTTSSGKPLIIRNDSDPLVQN--GIALLKYMSERSVEYSITDDTVNE-SNGAFLEIMEIHDLM-----
+Gynostemma_pentaphyllum_AAN08104       ------------------------DINFS-----LAGADGQTYNTFIAK-LRQELSIG----TQKVAN--ITVLKH--HVSSNTQRFLSINLFN---YNNAKITLGIDVFDVYVVGFLTGTNSYIFKEAPDL----AYNQ--SLLFPGSVRENLSYTGGYDDLERGG--ARRED-----------------------IPLGLLPLNTAITNLFHRDS-----TSFRRS----FIVIIQMVSEAARFKIIEAQIAKNLYG-----------TFKPDRAILSLENN-WGALSKQIQKAQ-GRG----GVFPNPVTLTTSKGNSLIIRNDSDPLVQN--GIALLKSMSERSVEYSITDDTVNE-SNGAFLEIMEIHDLM-----
+Hordeum_vulgare_ACI00278               ------------------MAKNVDKPLFT--ATFNVQASSADYATFIAG-IRNKLRNP------AHFSHNRPVLPPVEPNVPPSKWFHVVLKASP---TSAGLTLAIRADNIYLEGFKSSDGTWWELTPGLI----PGAT------------YVGFGGTYRDLLGDTDKLTN-------------------------VALGRQQLADAVTALHGRTKADKASGPKQQQAREAVTTLVLMVNEATRFQTVSGFVAGLLHPKAVE------KKSGKIGNEMNAQVNGWQDLSAALLKTDVKPP-----PGKSPAKFAPIEKMGMRTAEQAANTLGILLFVEVPGGLTVAKALELFHASGGK----------------------
+Hordeum_vulgare_BAJ98605               -------------SATRILPHASQIVPLR----FDCSTGVGDYKVFMKN-LREQLTFAR------HERLDRPLLAK--FRPDNPARWMHVKLVS----DNHEATLAIRDDTVYLIGFQARNGTWYEFSSSKPSLHLPPQKKESSLHLIEGSTFLDCGVTYGDLLGGAMNLVNMRLG------------------HLQVNLGKLFAIEAVRLLSEYSGG-GLTDNHKKA----LAGLILIICESARMISHFDTVINGWPRAG---------GKSISRQQVHYVWN-WGNMSRFLTGRSRCLQD--EERLRQSCGITTEELALGIVHLLLNSPQPPYPTAAGQGQAKPPQPGACGEDGPSGPGNPQQTPP-------------
+Hordeum_vulgare_BAK07457               ----------------------MEGSTMT---------RLAGMAAFLLI-LGLAVGN-------------IKHGHG-GAVVVGDPTLIVVELQG---HNDDKSSVAVQKHDVSVAGFTDGSGQWHAFPGLEH----LFPAS----------TTLPFGSSYSELIGGIANLPG-------------------------VPLGREAMMQAIRVLSAYRPG-ADVEPVKRA----LAAVKVVISEAQRLEPIRKAVNDGWDGES-----------RVAPEHLPYIEH-WDTMSYEILRSNRTG-K-WDGPFTKMLETQANIRSKEEALAVVGLLLNADFEKVFKAHAIPINLE-------------------------------
+Iris_hollandica_3MVG                   ----------------------IETVEFR-----VTGTTRRSYSDFLQN-LRNRLSS-------GTSVHDIPLLP--AQS-GSQQDLLFVRLFDW--GN-RPITLVLNRVNAYVVAYQAQNRFYLLS-DTP-------AN---PQVYGNNPHRLTFTGSYGALQNVAK-SNREN-----------------------IDLGINPLATAITTLHNWSPPTVETSVARS-----LIVLIQLVSETARFRAIEQRVTNNIIDQVTP---IRYDNFRPRVGIIDLQTN-WQTLSTEVQRAEGG-------RFLQPVKLQVSVQQTVVISDVEK-ARTFCGLALLLRWRPS----QASLSSHD-----FAWR--DIRSILDIGA--
+Iris_hollandica_AAC49780               ----------------------IETVQFR-----VTGTTRQTYSAFLQT-LRTRLSS-------GSSVHDIPLLP--AQS-GSQQDLLLVQLFDW--DN-TPITLVLNRVNAYLVAYQAKNRYYLLS-DTP-------AN---PQLYGSNPHRLSFTGSYIALQNVAK-TSREN-----------------------IDLGINPLATAITTLHNWAPPTVETSVARS-----LIVLIQLVSETARFRAIEQRVTSSIIDAVTP---IRYDSFRPGVGIIDLQTN-WQTLSTEVQRAEQG-------IFLQPVKLQVSPQQTVVIGDVEK-ARTFCGLALLLRWRPS----QASLSSHD-----FAWRDLNIRSMLHMGA--
+Iris_hollandica_Q8W2E7                 --------------------LPYKKVEFH-----ITGCTKDTYSAFIQS-LRTHLSS-------GTSEYGIPLMR--AQNPSSSQELLLVEIFGW--DN-EPVTLVLNLVNAYVIAYQAQGHYYLLH-DTP-------DN---PQLYGSDAHRLSFDGSYPALQHVAG-EYREN-----------------------IDLGINELGSAILVLHQWSPPTVERTVARS-----FIVLIQMVSEAARFRAIETRVRRNIIQVG------DYRSFRPGAGMLDLETN-WGTLSERVQESNEG-------VFANRLTLQTTNFETIHIYNAQT-ARQVCGLALLLFACKARQSLQALLPPHDSPVLPTLLDLNVVRSMLDI----
+Jatropha_curcas_AAL58089               ----REIVCPFSSNQNY---KAGSTPTLT--ITYDAAADKKNYAQFIKD-LREAFGFS-------YSSHEIPVLR---ATVAPNQKFIVAKVINVA---NLEVSLGLNVVNAYLVGYKVGG-TSYFFNDPES----LADAKTYLFTDTKQQTL-SFTGSYADFLSRAN-VHRED-----------------------VDLGVQALDNYIYTLEKS----SKPADIAKP----LVGFIEMVPEAARFKYIEKKVLSQISKT-----------LRPGGDIISLENN-WGDLSYQIQKC-VN------GVFLKPVQLQRENYTNILVNNVTQVAGVMGVLLNAVN--YKV----------------------------------
+Jatropha_curcas_AAL86778               ----REIVCPFSSNQNY---KAGSTPTLT--ITYDAAADKKNYANFIRD-LREAFGFS-------YSSHEIPVLR---ATVAANQKFIVAKVINVA---NLEVSLGLNVVNAYLVGYKVGG-TSYFFNDPES----LADAKTYLFTDTKQQTL-SFTGSYADFLSRAN-VHRED-----------------------VDLGVQALDNYIYTLEKS----SKPADIAKP----LVGFIEMVPEAARFEYIEKKISTQISKT-----------FRPRGDIISLENN-WGDLSYQIQKS-VD------DVFLKPVQLQRENYTNILVNNVTQVKGLMGVLLNAVK--YKV----------------------------------
+Jatropha_curcas_ABW17545               ----REIVCPFSSNQNY---KAGSTPTLV--ITYDATTDKKNYAQFIED-LREAFDFS-------YLSHKIPVLR---ATVAANQKFIVAKVINSG---DIEVSVGLNVINAYLVAYKVGS-NSYFFNDSES----LADAKKNLFTDTNQQTL-AFTGSYADFESRAK-LHREE-----------------------VDLGVVALDNYVYTLEKS----SQPADIAKP----LVGFIEMVPEAARFKYIEKKISTQISKT-----------FRPRGDIISLENN-WGDLSYQIQKS-VD------DVFLKPVQLQRENYTNILVNNVTQVKGLMGVLLNAVN--YKVSMEEIIFNDQKWLPWL------------------
+Jatropha_curcas_AEA72440               ----REIVCPFSSNQNY---KAGSTPTLT--ITYDATTDKKNYAQFIKD-LREAFGFS-------YSSHEIPVLR---ATVAANQKFIVAKVINVA---NLEVSLGLNVVNAYLVAYKVGG-TSYFFNDPES----LADAKKYLFTDTKQQTL-SFTGSYADFLSRAN-VHRED-----------------------VDLGVLALDNYIYTLEKS----SQPADIAKP----LVGFIEMVPEAARFKYIEKKVLTQISKT-----------FRPRGDIISLENN-WGDLSYQIQKS-VN------GVFLKPVQLQRENYTNILVNNVTQVTGLMGVLLNAVN--YKVSMEEIIFNYQKWLPWL------------------
+Jatropha_curcas_AFK73425               ----------EDGTNDN--SLGYPTLNFT-----INVKDKEGYTRFLQS-VRDQLTS-------GNQIHGISVLPD-ISTLPVSQRFLLLKLSSS--AT-TPITLALDVATAGVVAYGFQNQSYFFN-DK---------LAFSNLFNDTKQNTLPFGSSYGELENSTG-MPRSK-----------------------IDLGLLPLNEAVSNIV-ANNIKTED-LASC-----LIVVMQMVSEAARFR----YIEHQVRWSTEK---G--QRFRPDGTIYSLENN-WEALSTAVQESRGG-------VFSEPVQLQRLN-VKFNLDSVTRELVANLGLMLFISCK-DN------------------------S---------
+Jatropha_curcas_AFK73426               ---LAR-VYPLQTNGNS-----VAIASFT--ITRYGETDKADYLQFMED-IRSKLGTG-------TPSHGIPVLP---VSVSKNQKYTTVELINSG---NKKVTIGLNVLDLYVVAYKLENQNSYFFNDP-K----FKDATDYLFKDTKQNPL-KISGNYESLKTQG--GDRET-----------------------VYLGVGQLDSFIYTLYES----TLPKDIAKP----LVCIIQMVSEATRYKYIENEVVKHISDR-----------FLPKGDIISRENK-WQDLSEAIQKS-VA------DEFTKPVQLQAPDYNVYNVYRVQQVKDDMGLLLNQANSGETEDITT------------------------------
+Jatropha_curcas_AFK73427               ---LARVIHPSAIHNCTVTVDEIPSVSFT--ITRIPGDDTAGYKQFMVD-LREKLASG-------TTSHGVPVLR---STASREAKYLLVNIINSG---NKEITLGLNVISAYILSYKVGY-NSYFFKDKAE----LKDAQKYLFTDTRQTTLDKFSGNYDSFKAEG--GDRET-----------------------TDLGIGQLDSHIYTLHKS----TLPKDIAKP----LVCIIQMVSEATRYKYIENKIIDKISGS-----------FRPKLDTITRENK-WEDLSDGIENADAK------GNFKTEVRLQKEDGKEDIISSVNQIIGDMGILLYQKKKSYNPSFGQTTF--GNLITTKSNCCLDFD----------
+Jatropha_curcas_AFK73428               ---LARFICPLAIHNHT--VDAIPSVSFT--ISRIPDDDKTGYKQLMVD-LRNKLASG-------TTSNGVPVLR---TTASKEAKYLLVNIINTG---NKEITLGLNVINAYVLAYKVGD-NSYFFNDPTE----LKDAQTYLFKDTKQNTI-KMTGSYDSLKAQG--GDRET-----------------------MDIGIGQLDSHIYTLHKS----TALKDIAKP----LVCIIQMVSEAARFKYIEKKIIDEVEGG-----------FTPKLDVISRENN-WGGLSEGIENADKN------GKFKTTVRLQNEDSSAKVISKVDEIIVEMGVLLYVKKKSYIPSFEQTIFGIGNLILNQINLLPRL-----------
+Jatropha_curcas_AFK73429               ---LDRVIHPSAIHNCTVIVDEIPFVSFT--ITGDPGDDAAGYKQFMID-LREKLASG-------TTSNGVPVLR---STASNEAKYLLVNITNSG---NKEITLGLNVISAYILAYKVGV-NSYFFKDRSE----LKDAKKYLFTGTTQTILSKFSGNYHSLKDEG--GDRET-----------------------TDLGIQQLDSHIYTLHKS----TLPKEIAKP----LVCIIQLVSEATRYKYVENKIIDEIIVG-----------FRPKLDSITRENN-WGDLSKGIENADEK------GNF-------------------------------------------------------------------------
+Luffa_acutangula_P84530                ------------------------DVSFS-----LSGSSSTSYSKFIGA-LRKALPS-----NGTVYN--ITLLLS--SASG-ASRYTLMKLSN---YDGKAITVAIDVTNVYIMGYLVNSTSYFFNESDAK----LASQ--YVFAGS-TIVTLPYSGNYEKLQTAAG-KIREK-----------------------IPLGFPALDSAITTLFHYDS-----TAAAAA----FLVIIQTTAESSRFKYIEGQIIMRISK-----------NGVPSLATISLENE-WSALSKQIQLAQ-TNN----GTFKTPVVIMDAGGQRVEIGNVGSKVVTK--NIQLLLN--------------------------------------
+Luffa_cylindrica_CAA44230              -----------------------ANVSFS-----LSGADSKSYSKFITA-LRKALPS-----KEKVSN--IPLLLP--SASG-ASRYILMQLSN---YDAKAITMAIDVTNVYIMGYLVNSTSYFFNESDAK----LASQ--YVFKGS-TIVTLPYSGNYERLQNAAG-KVREK-----------------------IPLGFRAFDSAITSLFHYDS-----TAAAGA----FLVIIQTTAEASRFKYIEGQIIERIPK-----------NEVPSPAALSLENE-WSALSKQIQLAQ-TNN----GAFRTPVVIIDNKGQRVEIKDVNSKVVTN--NIKLLLN-KQNIAAFDDGIPTKH----------------------
+Luffa_cylindrica_P22851                -----------------------ANVSFS-----LSGADSKSYSKFITA-LRKALPS-----KEKVSN--IPLLLP--SASG-ASRYILMQLSN---YDAKAITMAIDVTNVYIMGYLVNSTSYFANESDAK----LASQ--YVFKGS-TLVTIPYSGNYERLQNAAG-KIREK-----------------------IPLGFRALDSALTSIFHYDS-----TAAAAA----FLVILQTTAEASRFKYIEGQIIERIPK-----------NEVPSPAALSLENEAWSLLSKQIQLAQ-TNN----GAFRTPVVIIDNKGQRVEITNLASKVQIKDVNSKLLLN-KQNIA--------------------------------
+Luffa_cylindrica_Q00465                -----------------------ADVRFS-----LSGSSSTSYSKFIGD-LRKALPS-----NGTVYN--ITLLLS--SASG-ASRYTLMTLSN---YDGKAITVAVDVTNVYIMGYLVNSTSYFFNESDAK----LASQ--YVFKGS-TIVTLPYSGNYEKLQTAAG-KIREK-----------------------IPLGFPALDSAITTLFHYDS-----TAAAAA----FLVIIQTTAEASRFKYIEGQIIERISK-----------NQVPSLATISLENE-WSALSKQIQLAQ-TNN----GTFKTPVVITDDKGQRVEITNVTSKVVTK--NIQLLLNYKQNVAAFDEDVSAKH----------------------
+Malus_domestica_MDP0000134012          -----------------------MSISFT-----LIGATPDSYSTFINQ-LRDRLTFG-----TTSQG--IPVLPS-SRQVGNNDRFIYVNLTN---YDGVTVTIGIDVVNVYVMGYEQGGQNYLLGGTLPD----EAA---TVFPNTRAAGELPFRADYGSLGQYARGMPNEQPNRRDQQS----VNRLRNDMRENIALGPSSLHWAIHMLVHAAT-----SSQASA----IIVIIQMVSEAARYPYIERRVRESIQTA---------NSFIPDPRMLTLENH-WSTLSRQIMEATRAGRE-SFSTSVSLVDAYQSHGAPPLVVNSVRDSFVQDMEIALLLHDRGDDRGTDQGIDPKNCTAGPSVSGRG----KKPHDEL
+Malus_domestica_MDP0000223290          -----------------------MSIPFT-----LIDATPDSYSRFIDQ-LRARLTFG-----TTSQG--IRVLPP-SRQVGNNARFIYVDLTN---YDGVTVTIGIDVVNAYVMGYEQGEQNYPLQ-TLPD----DPAPVELLFPNTRSAGELPFTGHYASLGEYARRMQNEQPNRRDQQA----LNRLSNPMRQNIGLGPSSLHSAIDMLERAATP----LSQAGA----ILVIIQMVSEAARYPYIERQVRESIQTG---------NSFLPDPRMLSLENN-WSNLSRQIMGATRAGRE-SFSTSVSLDDAYQSHGAPPLVVNSVRDSFIQDMEIALLLHDRGDDRGTDQGNDPENCTPGPSGSGIGRRG?KKPRRQH
+Malus_domestica_MDP0000284608          -----------------------MALALS-----LLNATPKTYTAFIEA-LRARLTAG----RPTSHG--IPVLPR-REDVSDAQRFLYVDLTN---YNGDTIRVAIDVVNVYVVGYRSGNKSYILANNA-E----NP-------------------GSN------AHIIPHR--PRRRAVHADYAALHRRLPRTWSICTTYS-ATECISKLHYAASH----SDQAAA----FIVIIQMVSEAARFRYIESQVGTRMGIDN--------PPYIPDPAMRSLETN-WSALSEQIQKVP-ANGK-RFNR--TIQLTTVNN--RPFVVDSVEADMVQRRGIAMLLYAR------------------------------------
+Malus_domestica_MDP0000711911          ------------------------NISFS-----TSGATSNSYNTFIKA-LRAQLTN-----GATAIYD-IPVLNP--SVPD-SQRFLLVDLSN---NGNNTITVAIDVVN?SVVAYRARAARPYFLADAPD----EALD--?LFNDT-RGFFLPFTSNY?DLEKAAE-KSRDK-----------------------IPLGLTPLHNAITSLWNHES-----EEAAVS----LLVIIQTVFEAARFRVIEQRVRNSISSKA---------NFIPDPAMLSLENN-WLAISWETQH---ALN----GVFSKSIQLRSTNNNLFLVDSVSSSIMAG-VAFLFYNC-----VTFPNIIK-------------------------
+Malus_domestica_MDP0000918923          -----------------------MALSFS-----IKNATTTTYRTFIEA-LRAQLTAG----GSTSHG--IPVLRR-RQDVKDDQRFVLVNLTN---YDSYTITVAIDVVNAYVVGYCAGTRSYFLRDPA-T----HPPPLHRLFPG-TTRTTLPFAGDYLGLGRAAQEALQQNTNRNRAAG---SRIHENISMRERIPLGPGELDNAISQLRYAESA----SSQAAA----FIVIIQIVSEAARFRYIQGQVRDRIRDG---------TSAEPDPAMLSLENS-WSNLSEQIQMVP-ANQL-LFINNGSVQIRKADN--SIVLVKSVDSDAV--RGVAFLLYCGGNPPAPNSESARTSKVTVQKPTLAKKKK--------
+Manihot_esculenta_cassava41023613m     ------RVCPITSDDKHK--LGFPTVSFT--TAD---ATPDTYSQFVQA-LRKELISG-------AESYSIPLLRQ-ESKVSNAQRFVLVKLSNAK---A-STTLAIDVVNVYLVAYQVEA-SSYFFNDTS------AAAFSDLFEGTTKIRF-KFSGGYPDLKNLG--ADREN-----------------------VDLGLFSLDSAIFSLNKYSSS--DHNKIAAP----LLVVIQMVSEASRISHIERKIMTYFYQR-----------FRPLGDVISLENQ-WSALSSAIQKSNG-------GVFQEPVQLQKSDYTFFDVTNVKQIRPYLALLLFDSKKSVSSLRQDIDVA--------------------------
+Manihot_esculenta_cassava41029773m     ------RVCPITSDDKHT--LGFPTVSFT--TAG---ATPDTYSQFVQA-LRKELISG-------AESYSIPLLRQ-ESKVSNAQRFVLVKLSNAK---A-STTLAIDVVNVYLVAYQVEA-SSYFFNDTS------AAAFSDLFKGTTKTRF-KFSGGYPDLKNLG--ADREN-----------------------VDLGAISLDNAIFSLNKYSS---DPNKIAAP----LLVVIQMVSEASRISHIERKIMTNFYQR-----------FRPLGDVISLENK-WSALSSAIQKSNG-------GVFQEPVQLQKSDYTFFDVTNVKQIRPYLALLLFDSKNSVSSLGQDIDVA--------------------------
+Manihot_esculenta_cassava41031745m     ------RDCPLTSNQQHTT-LGYPAISFD--TES---ATPKTYSQFLTN-LRTELKSG-------AEIYSIPLLRQ-QSKVLSSQRFVLVTLSNSR---S-SAILAIDVVNVYLVAYQVGT-SSYFFNDTS------DSAFSDLFKGTTKTRF-RFSGGYPDLKNLG--ADREN-----------------------VDLGIYPLDNAIYALNRDSS---IPRAIAAP----LVAVIQMVSEASRISHIERKIKTNFYQR-----------FRPLGDVISLENQ-WGALSSAIQKSNK-------GVFQEPVQLQRSNYTIFNVTKVDEIKPYLALLLFVSTNSITSLGQEIVKSYLSTESLDGMWL--------------
+Momordica_balsamina_4H0Z               ------------------------DVSFR-----LSGADPSSYGMFIKD-LRNALPH-----TEKVYN--IPLLLP--SVSG-AGRYLLMHLFN---YDGNTITVAVDVTNVYIMGYLALTTSYFFNEPAAD----LASQ--YVFRSARRKITLPYSGNYERLQIAAG-KPREK-----------------------IPIGLPALDTAISTLLHYDS-----TAAAGA----LLVLIQTTAEAARFKYIEQQIQERAYR-----------DEVPSSATISLENS-WSGLSKQIQLAQ-GNN----GVFRTPTVLVDSKGNRVQITNVTSNVVTS--NIQLLLN-TKNI---------------------------------
+Momordica_balsamina_P29339             ------------------------DVNFD-----LSTATAKTYTKFIED-FRATLPF-----SHKVYD--IPLLYS--TISD-SRRFILLDLTS---YAYETISVAIDVTNVYVVAYRTRDVSYFFKESPP-----EAYN--ILFKGT-RKITLPYTGNYENLQTAAH-KIREN-----------------------IDLGLPALSSAITTLFYYNA-----QSAPSA----LLVLIQTTAEAARFKYIERHVAKYVAT-----------NFKPNLAIISLENQ-WSALSKQIFLAQ-NQG----GKFRNPVDLIKPTGERFQVTNVDSDVVKG--NIKLLLNSRASTADENFITTMTLLGESVVN---------------
+Momordica_charantia_AAX20021           ------------------------DVSFR-----LSGADPRSYGMFIKD-LRNALPF-----REKVYN--IPLLLP--SVSG-AGRYLLMHLYN---YDGKTITVAVDVTNVYIMGYLADTTSYFFNEPAAE----LASQ--YVFRDARRKITLPYSGNYERLQIAAG-KPREK-----------------------IPIGLPALDSAISTLLHYDS-----TAAAGA----LLALIQTTAEAARFKYIEQQIQERAYR-----------DEVPSLATISLENS-WSGLSKQIQLAQ-GNN----GIFRTPIVLVDNKGNRVQITNVTSKVVTS--NIQLLLN-TRNIAEGDNGDVSTTHGFSSY----------------
+Momordica_charantia_BAH05018           ------------------------NLSLS-----QSNFSADTYKSFIKN-LRKQLTIG----ASYGSAG-IPILKH--SVPI-CERFLLVDLTN---GDNETITLAINVEDAGFAAYRAADR-SYFFQNAPP----IASY--VIFTDT-NQNIMNFNNTFESIEIVGG-TTRSE-----------------------TPLGIMHFEASIFHLFVHDE-----NYVPTS----FLVLIQMVLEAAKFKFIEQKVIHSIMDME---------DFTPGLAMLSLEEN-WTQLSLQLQASE-SLN----GVFGDSVSLYNSMDEPIGVDSMYYPILTANMAFQLYQCPYGVIRMMPTIT--------------------------
+Oryza_sativa_AAX96490                  ------------------MAVRVENVEFN--------VRTGNYPEFMNN-LRDRLAEHP---DLDDVYAGCPVLAM-QRCPKQPARWMYINLVGN---GDDRATLAVRDDNVNLIGFRNLKGQWFHMGFSGMS----------KPILPEPSTFLGCDGSYPSLLGGRDEDDVKN------------------MLVNDIDLRQVVLLDAVHKLSGYEQPPDPYGAADDDTKLDLVHLTVVFCEGARMALHYDAVNDGQISLNERQVDYLRNWWLMSRALLQDETTPWPRRLSSETGINDD------EQARRVVLLVLNTSTTVHVHGAAERRPLVEKLFVVPARNPPLVPVSKPGVPIRD----------------------
+Oryza_sativa_Q8S7P0                    ----TKMLLLLVSLAPVAAGEHGVAAAEPRLVEIPFNFSVHSWNELISNRLKAELADN----PCRQEIEGIPTMAGLHGDDEPPAKWITVRLFGGGDRDDDQAKLLVAEDDAYVAGFANRTGHWHTFRGGRC----YPALP------ATACTELPFGGSYRDLIGGVANLRAVP-------------------------VGRSSAVGAMEVLSRYDPAATTAAADAKMA---LAKFMVMVTEAARLKPVRRAVVERWEQVS----------YLSSDEVRDVPYY--GKMSLMILEWKRTGRWGELGPWANIDRARCPRPTGCEDEDDADADAGAGELRGLRAIHAGTS---------------------------------
+Panax_ginseng_ABG76785                 ---------GSSNYLLLPTQKDNVNANLPTVTLTTVGITRQIFNNFVDA-VRDLVVS-------GPPVHGLLRLRD-RSTVPISQRFILVELYNY--EA-TPITLAIDVTNLYVVGYRTGDLFYYFL-DSA-------VDTP-GIFRELPHIELPFNSSYPALQHEAG--DRVN-----------------------IPLGITELDQSIQDLR----HYRRTNLARP-----FIVVIQMVSEAVRFRYIENLVVLSIRADGS------RQNFRPTRTMISLENN-WDTLSTSIQQSVEG-------RFTPSVELVNREDQSVLVSSVTPGLILNIAVMIFVCNNPN-------------------------PN--------
+Phyllostachys_edulis_FP092597          SSDGALPPATASENATTVLNKYYPQVRLS-----TVGLSAPRYENFIAA-VRAALKK-------DEIHG-IPVLRC-NPYPLLSERYLFVTLTNK--AW-YSITLKLDVTGAYFTAYRAGNYSCDIHKIISG----LSVTCKYARGTS-SHVLMEPSSTGSHPVDHLAE-DLEG-----------------------VRWGTNALDEAISSLYRFPLGMATIREWAD----GIRTCIMMITNAARFQ----YIERRMSAAIRH---G--NDETEDPSLHSLALR-WRDLSAAIEESHQ-G------VFAAPITVLR-RSNEVLPVDSVRRAAPFIALMY-CHCQKP-----------------------LKETQ-------
+Polygonatum_multiflorum_Q9M653         --------------------QDFPTIFFN-----ILAG--ETYGDFIAD-LREIVTRT----ADTKNG-SIPVLLNPAHPVPVRERFVKVHLTG---RNGKTVILALDVTNLYVAAFSANNVAYFFR-DFSA----LERE--NLFSGMLTIR-LSFTSNYVSLEHKAG-VGREN-----------------------ISLGPTPLDEACTKS-LWSGTTVTEASIAKA----LLVVIQMVSEAARFRHIEERVRRSFTAADHD-----QLTFRPDGLMLSMENE-WPSMSLEVQRSIEG------GIFIGVVQLQDESFQPLRVDNFNTLSRYTMVALLLFRCGHPRATAGTSSTTPAAAQIIRMPVDVLAGEEYYD----
+Polygonatum_multiflorum_Q9M654         ---------------------DYPSITFN-----LKGATWQTYRDFIEK-LREIVTRG----ATTIAGTSIPVLN---RVVPDSRRFVYVRLIN---LDGNVVTIAVDVTSLYVVAFSANNNGYFFS-DSTE----TERT--NLFVGIPRGDPLGFTGNYNSLENWAG-ADRGS-----------------------IPLGPALLNKAIRN--LRS--NGRDSKAAKS----LIVVIQMVSEAARFRRIEEQVRRSIADQD---------TFTPGSLMITMEKK-WSKMSQQVERSVNDQGI-FTGIFTRTVQLIDDNLQTLNIDNFNALSLHTMLAILLFRC---RTTTSSHNTLPAASNIVLMGEDYVDKD--------
+Prunus_persica_ppa009409m              -----------------------MILSFS-----TKNATPETYRDFIQA-LRDQLTAG----RPTSNG--IPVLPR-REDVPDAQRFLLVDLTN---SQGNTIRLAIDVVNAYVVGYAADGRAYLLQENARD----NRPPIHTLFRDATTRIDLGFDGSYSGLSRVAREAVERNTPRNRARNRAGASAHDNTPVLEQIPMGRNELDTAISLLRSASSP----TNQALG----FIVIIQMLSEAARFRAIEGLVRTTMRETY--------DPLMRGLAMESLETH-WSDLSEQIQRAQQRNET-GFDR--TIVLHNVGN--ERREVNSVDSPFV--RGVAMLLYDRNGNCNPGSGPHRHDEL--------------------
+Prunus_persica_ppa009637m              -----------------------MELSFS-----TKNTTPQKYRDFIES-LRQRLTAG----RSKSHG--IPVLPR-REDVPDAQRFLLVDLTN---SGNNTIRLAIDVVNAYVVGYAAGGRSYFLKENARE----NPPPIHTLFRDTTRMPPLDFDGSYTGLSRAAQEAVKRNIARDRARNPAVAGLHPDTPILERIPLGRNELDDAINLLRLAPSQ----SDQAVG----FIVVIQMICEAA-----------SMKDVY--------DPTIPGPATRSLENH-WSDISKEIQRVP-ANQT-QFQK--AVVLHNIKN--ERVEVRSVDSDVV--RGVAMLLYDRNQNANPGPSAKKPLLKN-------------------
+Ricinus_communis_28842m000952          ----MDAKDHIFLILQHGSGSHSNGSMVYLLDSYYYSYDRYSYTNFIDG-LRGLLAEG------GSVSHSIPVLPT-QVPADDDSRFVLAVLEKVG----HYTTLALDGTNANIVGFSIETDSYFFKDVADN----IYAS---PLFDNTYKTRLPFGSSYDSLEAEGA--YREN-----------------------TTLGTYPLNDAASKLYAYHSN--NTIDIAPS----LLVIIQMVSEAARFQYIEGMLFDNFNVG-----------LDPKCDMLSLEDN-WYVISIAIQTSVND-------KFLFPVQLQQEDCSTEKVSNVGVVQSKMGLLWPFPCQGDLIRKLSSVV---------------------------
+Ricinus_communis_XP002534220           -----------------IFPKQYPIINFT-----TADATVESYTNFIRA-VRSHLTT------GGDVRHEIPVLPN-RVGLPISQRFILVELSNH--AE-LSVTLALDVTNAYVVGCRAGN-SAYFFHPDNQ----EDAEAITHLFTDVQNFTFAFGGNYDRLEQLGG--LREN-----------------------IELGTGPLEDAISALYYYSTCGTQIPTLAR----SFMVCIQMISEAARFQ----YIEGEMRTRIRY---N--RRSAPDPSVITLENS-WGRLSTAIQESNQ-G------AFASPIQLQR-RNGSKFNVYDVSILIPIIALMVYRCAPPP-------------------------SS--------
+Ricinus_communis_XP002534649           -----------------IFPKQYPIINFT-----TAGATVQSYTNFIRA-VRGRLTT------GADVRHEIPVLPN-RVGLPINQRFILVELSNH--AE-LSVTLALDVTNAYVVGYRAGN-SAYFFHPDNQ----EDAEAITHLFTDVQNYTFAFGGNYDRLEQLAGN-LREN-----------------------IELGNGPLEEAISALYYYSTGGTQLPTLAR----SFIICIQMISEAARFQ----YIEGEMRTRIRY---N--RRSAPDPSVITLENS-WGRLSTAIQESNQ-G------AFASPIQLQR-RNGSKFSVYDVSILIPIIALMVYRCAPPP-------------------------SSQF------
+Sambucus_ebulus_CAC33178               --------------------IDYPSVSFN-----LAGAKSTTYRDFLKN-LRDRVATG----TYEVNG--LPVLRR-ESEVQVKNRFVLVRLTN---YNGDTVTSAVDVTNLYLVAFSANGNSYFFK-DATE----LQKS--NLFLGT-TQHTLSFTGNYDNLETAAG-TRRES-----------------------IELGPNPLDGAITS--LWY-----DGGVARS----LLVLIQMVPEAARFRYIEQEVRRSLQQLT---------SFTPNALMLSMENN-WSSMSLEVQLSGDN-----VSPFSGTVQLQNYDHTPRLVDNFEELYKITGIAILLFRC------VATKT---------------------------
+Sambucus_ebulus_CAQ42478               ------------------TPPVYPSVSFN-----LAGADT--YGPFLRE-LREKVILG----NHTAFD--LPVLNP-ESQILESDRFVLVPLTNSTNSSGDTVTLAIDVVNLNVVAFSSNGRSYFFS-GSSA----VQRD--NLFVDT-TQEDLNFTGNYTSLELHVG-VGRVD-----------------------IPLGLNSLAQAISSLWTYTLSAGDTKPLARG----LLVVIQMVSEAARFRYIELRILTSITDAS---------EFTPDPLMLSMENN-WSSMSSEIQQTQPG------GIFGGVVQLRDQRNNSIEVTNSRRLFQLTYVAVLLHGC------LAVTTS--------------------------
+Sambucus_nigra_AAC15886                --------------------IDYPSVSFN-----LAGAKSATYRDFLKN-LRTIVATG----TYEVNG--LPVLRR-ESEVQVKNRFVLVLLTN---YNGNTVTLAVDVTNLYVVAFSANANSYFFK-DATQ----LQKS--NLFVGT-RQHTLPFTGNYDNLETAAG-TRRES-----------------------IELGPSPLDGAITS--LYY-----DESVARS----LLVVIQMVSEAARFRYIEQEVRRSLQQTA---------GFTPNALMLSMENN-WSSMSLEVQQSGDN-----VSPFTGTVQLQNYDHTPRLVDNFEELYKITGIAILLFRC------FSPSN---------------------------
+Sambucus_nigra_AAC49158                -----------------VTPPVYPSVSFN-----LTGADT--YEPFLRA-LQEKVILG----NHTAFD--LPVLNP-ESQVSDSNRFVLVPLTN---PSGDTVTLAIDVVNLYVVAFSSNGKSYFFS-GSTA----VQRD--NLFVDT-TQEELNFTGNYTSLERQVG-FGRVY-----------------------IPLGPKSLDQAISSLRTYTLTAGDTKPLARG----LLVVIQMVSEAARFRYIELRIRTSITDAS---------EFTPDLLMLSMENN-WSSMSSEIQQAQPG------GIFAGVVQLRDERNNSIEVTNFRRLFELTYIAVLLYGC------APVTS---------------------------
+Sambucus_nigra_AAC49672                ------------------APPNYPSVSLK-----MAGAKWISYRNFLGE-LQDLVTRK----SYTSLD--LPVLKP---QVPVENRFVLARLTN---PSGDTVTLAIDVVNLYVVAFSANGRSYFFK-ESTD----IEKK--NLFVDT-KQENLKFTGNYNSLEQQAG-DRRES-----------------------IPLGPNSLAQAISSLSRYSGG--DAKSLAKA----LLVVIQMVSEAARFRYIELRIWTSVTDAI---------DFTPDPLMLSMENK-WSYMSKEIQGATVG------GTFAHVVQLQDQGNNPINVTNFRRLFQLTYIAVLLYGC------APVTS---------------------------
+Sambucus_nigra_AAC49673                -----------------ATPPNYPSVSLK-----MAGAKWISYRNFLGE-LQDLVTRK----SYTALD--LPVLKP---QVPVENRFVLARLTN---PSGDTVTLAIDVVNLYVVAFSANGKSYFFN-DSST----IEME--NLFVNT-TQDKLKFTGNYISLERLAGVNNRES-----------------------IFLGPISLAEAISSLWRYTQSNKDTKSLAKA----LLVVIQMVSEAARFRYIELRIWTSVTDAI---------DFTPDPLMLSMENK-WSYMSKEIQGATLG------GTFAHVVQLQDQGNNPINVTNFRRLFQLTYIAVLLYGC------APVTS---------------------------
+Sambucus_nigra_P33183                  --------------------IDYPSVSFN-----LDGAKSATYRDFLSN-LRKTVATG----TYEVNG--LPVLRR-ESEVQVKSRFVLVPLTN---YNGNTVTLAVDVTNLYVVAFSGNANSYFFK-DATE----VQKS--NLFVGT-KQNTLSFTGNYDNLETAAN-TRRES-----------------------IELGPSPLDGAITS--LYH-----GDSVARS----LLVVIQMVSEAARFRYIEQEVRRSLQQAT---------SFTPNALMLSMENN-WSSMSLEIQQAGNN-----VSPFFGTVQLLNYDHTHRLVDNFEELYKITGIAILLFRC------SSPSN---------------------------
+Sambucus_nigra_P93543                  -----------------APPTVYPSVSFN-----LTEANSNEYRHFLQE-LRGKVILG----SHRAFD--LPVLNP-ESKVSDSDRFVLVRLTN---PSRKKVTLAIDVVTFYVVAFAQNDRSYFFS-GSSE----VQRE--NLFVDT-TQEDLNFKGDYTSLEHQVG-FGRVY-----------------------IPLGPKSLAQSISSLSTYKSSAGDNKRLARS----LLVVIQMVSEAARFRYIQLRIQASITDAK---------EFTPDLLMLSMENK-WSSMSSEIQQAQPG------GAFAQVVKLLDQRNHPIDVTNFRRLFQLTSVAVLLHGC------PTVTK---------------------------
+Sambucus_sieboldiana_SSA               -----------------VTPPVYPSVSLN-----LTGADT--YGPFLRA-LQEKVILG----NYTAFD--LPVLNP-ESQVSDSNRFVLVPLTN---PSGDTVTLAIDVVNLYVVAFSSNGRSYFFS-GSTA----VQRD--NLFVDT-TQEDLNFTGNYTSLERQVG-SGRVD-----------------------IPLGPESLAQAISSLRTYTLSAGDTKPLARG----LLVVIQMVSEAARFRYIELRIWTSITDKT---------DFYPDPLMLSMENN-WSSMSSEIQQAQPG------GIFAGVVQLRDERNNSIEVTNFRRLFQLTYIAVLLYGC------VPVTS---------------------------
+Sambucus_sieboldiana_Sieboldin         --------------------IDYPSVSFN-----LAGAKSTTYRDFLKN-LRTKVATG----TYEVNG--LPVLRR-ESEVHVNNRFVLVPLTN---YNGNTVTLAVDVTNLYVVAFSANANSYFFK-DATQ----LQKS--NLFVDT-KQHTLSFTGNYDNLETAAG-SRRES-----------------------IELGPNPLDAAIAS--LRY-----GESVARS----LLVVIQMVSEAARFRYIEQEVRRNLQQAT---------SFTPNALMLSMENN-WSSMSLEIQQSGNN-----VSPFSGTVQLQNYDHTPRLVDNFEELYKITGIAILLFRC------SSPSN---------------------------
+Secale_cereale_Q7M1Z3                  ---------------AAKMAKNVDKPLFT--AFTNVQSSSADYVTFITG-IRNKLGNP------RHFSHNRPVLPPIEPKVPPSRWFHIVLKTSP---ASTGLTLATRADNLYWEGFKSSDGTWWELTPGLI----PGAT------------YFGFGGTYRDLLGDTDKLTN-------------------------VALGRQQMADAVTALYGRTKADKSSGPKQQQAREAVTTLLLMVHEATRFQSVSAFVAGLLHPKAVE------KKSGKISNELKAQVNGWQDLSEALLKTDAKPP-----AGKPPAKFTPIEKMGVRTAEQAAATLGILLFVQVPGGMTAAQALELFHASGGK----------------------
+Sorghum_bicolor_XP002459593            ----SSSSQDVGAAAAALKAEYIIKVNFS-----TASATPDKYKSFIAS-VRAGLVSTAAEAAGTNTSGGIPVLVS-EDDPLALEASLNITLVNK--AG-RSVSLKMDISGAYIAGYEAGNFSCLVKRSGSG----HTLSSVTCYRSSYPWG---GPPTVDVAVP-------EV-----------------------SAWRVEDLDEAISSLFLFPTGNATKEDLSR----GLAACDVMVATAATFP----YVERRMSAGMWD---G--NGVSNDGSLRGLQES-WPDLSAAVQESYQ-G------AFAAPVALQR-SNGEWMLVDNVRRAVPLVSFLENAGCKKKM-------------------TTTTEAAAA------
+Suregada_multiflora_AAA16312           ---------------------GLDTVSFS--TKG---ATYITYVNFLNE-LRVKLKPE-------GNSHGIPLLRK-KCDDP-GKCFVLVALSNDN---GQLAEIAIDVTSVYVVGYQVRN-RSYFFKDAP------DAAYEGLFKNTIKTRL-HFGGSYPSLEGEK--AYRET-----------------------TDLGIEPLRIGIKKLDENAIN-YKPTEIASS----LLVVIQMVSEAARFTFIENQIRNNFQQR-----------IRPANNTISLENK-WGKLSFQIRTSGAN------GMFSEAVELERANGKKYYVTAVDQVKPKIALLKFVDKDPKTSLAAELIIQN--YESLVGFD---------------
+Trichosanthes_anguina_P56626           ------------------------DVSFD-----LSTATKKSYSSFITQ-LRDALPT-----QGTVCG--IPLLPS--TASG-SQWFRFFNLTN---YNDETVTVAVNVTNVYIVAYRADAVSYFFEDTPA-----EAFK--LIFAGT-KTVKLPYSGNYDKLQSVVG-KQRDM-----------------------IELGIPALSSAITNMVYYDY-----QSTAAA----LLVLIQCTAEAARYKYIEQQVSSHISS-----------NFYPNQAVISLENK-WGALSKQIQIANRTGH----GQFENPVELYNPDGTRFSVTNTSAGVVKG--NIKLLLYYKAS----------------------------------
+Trichosanthes_kirilowii_1GGP           -------------------------------------STDASYNADIKE-ERDAAEGP----MAHG----IPALN--AGALDEARAYATVDSAN---TD-EEVSVAVDVTNLAVVAYRAGSNSYFHAAAPGS----SLSH---LFSRS-SQHTLGFDNTYGDMAQAAG-SNRKA-----------------------IPLGAAALESGIASLNSKN-------PLART----LMVIIQMLVEAARFRYIQNNVDVSIETQS---------AFAADAAMISLENN-WANLSALVQGSS----G-GQGTFASSATLQNAEDEPIIVDAVYHPTVAAVLALMLRKAC-------------------------------------
+Trichosanthes_kirilowii_2019502A       ------------------------DCSFR-----LSGATSSSYGVFISN-LRKALPN-----ERRLYD--IPLLRS--TLPE-SQRYALIHLTN---TADETISCAIDCTNCYIMGYRAGDTSYFFNEASAT----EAAK--YVFKDAMRKITLPYSGNYERLQTAAG-KIREN-----------------------IPLELPALDSAITTLFYYNA-----NSAASA----LMVLIQSTSEAARYKFIEQQIEKRVDL-----------TFLPSLAIISLENS-WSALSKQIQIAS-TNN----GQFESPVVLINAQNQRVTITNVDAGVVTS--NIALLLN-RNNMA--------------------------------
+Trichosanthes_kirilowii_AAA70096       ------------------------DVSFR-----LSGARSSSYGVFISN-LRKALGN-----ERRLYD--IPLLRS--TLPG-CERYALIHLRN---YADETISVAIDVRNVYIMGYRAGDTFYFFNEASAT----EAAK--YVFKDAMRKVTLPYSGNYERLQTAAG-KIREN-----------------------IPLGLPALDSAITTLFYYNA-----NSAASA----LMVLIQSTSEAARYKFIEQQIGKRVDK-----------TFIPSFAIISLENS-WSALSRQIQIAS-TNN----GQFESPVVLINAENQRVTITNVDAGVVTS--NIALLLN-RNNMA--------------------------------
+Trichosanthes_kirilowii_AAM22782       ------------------------DVSFR-----LSGATSSSYGVFISN-LRKALPY-----EKKLYD--IPLLRS--SLSG-SQRYALIYLTN---YADETISVAIDVTNVYIMGYRAGDISYFFNEASAT----EAAK--YVFKDAKRKVTLPYSGNYERLQIAAG-KIREN-----------------------IPLGLPALDSAITTLFYYNA-----NSAASA----LLVLIQSTAEAARYKFIEQQIGKRVDK-----------TFLPSLAIISLENS-WSALSKQIQIAS-TNN----GQFESPVVLINAQNQRVTIANVNAGVVTS--NIAFLLN-RNNMA--------------------------------
+Trichosanthes_kirilowii_BAG12408       ------------------------DVNFS-----LLGSTSATYKQFIQN-LRAALTVG----SPTVEN--IPVLKG--TAAG-LARFLLVHLTN---YNGESITVAVDVVNVYVVAYRAGNNAYFLNDASAE----ANN----VLFKGINHVRLPYGGNYDGLETAAGRISREK-----------------------IYLGFSEISSAIGSMFHYNAG----TSVPKA----FIVIIQTVSEAARFKYIQQRVSENVQT-----------KFLPDPAFLSLENA-WGGLSEQIQIAQ-YRG----GEFARPIELRTVSNTPTFVTNVNSPVVK---GVALLLYYK------------VNV---------------------
+Trichosanthes_kirilowii_P09989         ------------------------DVSFR-----LSGATSSSYGVFISN-LRKALPN-----ERKLYD--IPLLRS--SLPG-SQRYALIHLTN---YADETISVAIDVTNVYIMGYRAGDTSYFFNEASAT----EAAK--YVFKDAMRKVTLPYSGNYERLQTAAG-KIREN-----------------------IPLGLPALDSAITTLFYYNA-----NSAASA----LMVLIQSTSEAARYKFIEQQIGKRVDK-----------TFLPSLAIISLENS-WSALSKQIQIAS-TNN----GQFESPVVLINAQNQRVTITNVDAGVVTS--NIALLLN-RNNMA--------------------------------
+Viscum_album_AAT37532                  ----------------------YERLDLD----VTSQTTGEEYFRFITL-LRDYVSS-------GSFSNEIPLLRQSGGGV-EAARFVLVELTNE--GG-DSITAAIDVTNLYVVAYQAGSQSYFLS------------GPGTHLFTGTTRSSLPFNGSYPDLEQYAG--HRKQ-----------------------IPLGIDQLIQSVTALR--FPG-NTRTQARS-----ILILIQMISEAARFN----PILWRARQYIN-----SGASFLPDVYMLELETS-WGQQSTQVQQSTEG-------VFNNPIRLAIP-GNFVTLTNVRD-VIASLAIMLFVCGERP-------------------------SSS-------
+Viscum_album_AAY34343                  ----------------------YERLKLR----VTHQTTGDQYFKFITL-LRDHVSS-------GSLSNQIPLLRQSTVPVSDSQRFVLVELTNQ--GG-DSITAAIDVTNLYVVAYQAGNQSYFLR-DAP-------RGAETYLFTGTTRSSLPFNGSYPDLERYAG--HRDQ-----------------------IPLGIDQLIQSVSALR--FPGSNTRAQARS-----FIILIQMISEAARFN----PILWRARQYIS-----SGGSFLPDTYILQLETS-WGQQSTQVQHSTDG-------VFNNPIRLTISTGVFVTLSNVRD-VIASLAIMLFVCEDRP-------------------------SSS-------
+Viscum_album_P81446                    ----------------------YERLRLR----VTHQTTGEEYFRFITL-LRDYVSS-------GSFSNEIPLLRQSTIPVSDAQRFVLVELTNE--GG-DSITAAIDVTNLYVVAYQAGDQSYFLR-DAP-------RGAETHLFTGTTRSSLPFNGSYPDLERYAG--HRDQ-----------------------IPLGIDQLIQSVTALR--FPGGSTRTQARS-----ILILIQMISEAARFN----PILWRARQYIN-----SGASFLPDVYMLELETS-WGQQSTQVQQSTDG-------VFNNPIRLAIPPGNFVTLTNVRD-VIASLAIMLFVCGERP-------------------------SSS-------
+Viscum_album_P82683                    ----------------------YERLRLR----VTHQTTGDEYFRFITL-LRDYVSS-------GSFSNEIPLLRQSTIPVSDAQRFVLVELTNQ--GG-DSITAAIDVTNLYVVAYQAGDQSYFLR-DAP-------DGAERHLFTGTTRSSLPFTGSYTDLERYAG--HRDQ-----------------------IPLGIEELIQSVSALR--YPGGSTRAQARS-----IIILIQMISEAARFN----PIFWRVRQDIN-----SGESFLPDMYMLELETS-WGQQSTQVQQSTDG-------VFNNPFRLAISTGNFVTLSNVRD-VIASLAIMLFVCRDRP-------------------------SSS-------
+Viscum_album_Q6H266                    ----------------------YRRISLR----VTDKTTGDEYFRFITI-LRDYVSI-------GSFSNDIPLLRQSTIPVSDAQRFVLVELTNQ--WG-DSITAAIDVTNLYVVAYQAAGQSYYLR-DAP-------HGAERHLFTGTTRSSLPFNGSYADLERYAG--HRDR-----------------------IPLGREPLLRSVSALH--YPGGSTRAQASS-----IIIVIQMISEAARFN----PILWRARQYIN-----RGVSFLPDVYMLELETS-WGRQSTQVQQSTDG-------VFNNPIRLGISTGNFVTLSNVRD-VIPSLAIMVFVCRDRS-------------------------SS--------
+Viscum_articulatum_ABU95610            ----------------------YERLRLR----VTHQTTGDEYFRLITL-LRDYVSS-------GSLSNDIPLLRQSSLPITDAQRFVLVELSNL--GG-DTITLAIDVTNLYVVAYEAGDQTYFFR-DAP-------DGAEQHLFTGNSRYSLPFTGSYTDLERYAG--HRDQ-----------------------IPLGREELIQAVRALR--YPGGSTRAQARS-----LLVAIQMISEAARFN----PIFWRVRQHIN-----RGDTFLPDTYMLELETS-WGQQSTQVQQSTDG-------VFNTPIRLAD-----VTLSNVRD-VIASLAIMLFVCSDRP-------------------------SSS-------
+Ximenia_americana_CAJ38823             ---------------------DYPTFRLS-----LSGLTQRDYNQFVRD-LRDRLAR------HNDRRHGVPVLRQ-PGAVLENERFILVELTNM--AEDRTMTWAIDVTNLYLVGYQVGDRSYFFRGVP--------EEATRNLFNDTTPQSYDFTGDYTQLRPRAGVGNIDS-----------------------ITLGFNQLDESINYLFRHSGQTHTEEEKNKQA-TAMIVCIVMIAEAVRFR----YIQGTLAGTIIG---DGYRSFNNNGAVARFINT-WQDLSQAIQESNEDG------VFPNQIRLQSPTYAEYWATNVMPNLVAAIGIMLYFCAKPP-------------------------PPQS------
+Zea_mays_DAA39742                      ---------NVGAAAPILRADY-IKLNFS-----TASATPDKYKSFIAS-VRAGLVS----KAGGNSSG-IPVLVD-EDDPLALESFLNITLVNK--AG-RSVSLKMDVSRAYFVAYVAGQRSCLLKRSG------RTFSSAICYYGG-PWGTSSAPVTRPAAAAGDGE-DPGV-----------------------AAWRARDLDEAISSLFLFPTGNATEEELRR----GVAACDMMVASAATFP----YVERRMSAGMWD---S--NGVANDPSLRGLQAR-WPWLSAAVQQSYQ-G------AFAAPVPVQR-SNGKWMRVDNVRSAVPLVSFLEHGSCNR------------------------TRGAPA------
+;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M22099]
+
+	TITLE Angiosperms_Type_2_RIP_B_chains_and_lectins;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=363;
+	FORMAT DATATYPE=Protein SYMBOLS= "A C D E F G H I K L M N P Q R S T V W Y" MISSING=? GAP= -;
+
+MATRIX
+[                                           10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170       180       190       200       210       220       230       240       250       260       270       280       290       300       310       320       330       340       350       360   ]
+[                                            .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .   ]
+Abrus_precatorius_AAA32624          --IVEKSKI-CSSRYEPTVRIGGRDGMCVDVY--DNGYHNGN--RIIMWKCKDRLEENQLWTLKS--DKTIRS-NGK-CLTTY--GYAPGSYVMIYDCTSA-VAEATYWEIWDNGTIINPKS------ALVLSAESSSM---GGTLTV-QTNEYLMRQGWRTGN---------NTSPFVTS-ISGYSD--LCMQAQG--S-------NVWMA-----------------DCDSN---KKEQQWALYTDGSIRS---VQNTN--NCLTSKDHKQGST---ILLMGCSNGWASQRWVFKNDGS-----IYSLYDD-MVMDVKGS---DPSLKQIILWPY-TG-KPN-QIW----LTLF-------
+Abrus_precatorius_P28590            --IVEESKI-CSSRYEPTVRIGGRDGMCVDVY--DDGYHNGN--RIIAWKCKDRLEENQLWTLKS--DKTIRS-NGK-CLTTE--GYAPGNYVMIYDCTSA-VAEATYWEIWDNGTIINPKS------ALVLSAESSSM---GGTLTV-QTNEYLMRQGWRTGN---------NTSPFVTS-ISGYSD--LCMQAQG--S-------NVWLA-----------------DCDNN---KKEQQWALYTDGSIRS---VQNTN--NCLTSKDHKQGSP---IVLMACSNGWASQRWLFKNDGS-----IYNLHDD-MVMDVKRS---DPSLKEIILHPY-HG-KPN-QIW----LTLF-------
+Abrus_precatorius_Q06077            --IVEKSKI-CSSRYEPTVRIGGRNGMCVDVY--DDGYHNGN--RIIAWKCKDRLEENQLWTLKS--DKTIRS-NGK-CLTTE--GYAPGNYVMIYDCTSA-VAEATYWEIWDNGTIINPKS------ALVLSAESSSM---GGTLTV-QTNEYLMRQGWRTGN---------NTSPFVTS-ISGYSD--LCMQAQG--S-------NVWLA-----------------YCDNN---KKEQQWALYTDGSIRS---VQNTN--NCLTSKDHKQGSP---IVLMACSNGWASQRWLFRNDGS-----IYNLHDD-MVMDVKRS---DPSLKEIILHPY-HG-KPN-QIW----LTLF-------
+Abrus_precatorius_Q9M6E9            --VVEQSKI-CSSHYEPTVRIGGRDGLCVDVS--DNAYNNGN--PIILWKCKDQLEVNQLWTLKS--DKTIRS-KGK-CLTTY--GYAPGNYVMIYDCSSA-VAEATYWDIWDNGTIINPKS------GLVLSAESSSM---GGTLTV-QKNDYRMRQGWRTGN---------DTSPFVTS-IAGFFK--LCMEAHG--N-------SMWLD-----------------VCDIT---KEEQQWAVYPDGSIRP---VQNTN--NCLTCEEHKQGAT---IVMMGCSNAWASQRWVFKSDGT-----IYNLYDD-MVMDVKSS---DPSLKQIILWPY-TG-NAN-QMW----ATLF-------
+Abrus_pulchellus_ABW23503           ------SKI-CSSDYEPTVRISGRDGMCVDVS--DNAYHNGN--PIIMWKCKDQLEENQLWTLKR--DKTIRS-KGK-CLTTY--GYAAGNYVMIYDCSSA-VPEATYWEIWDNGTIINPKS------SLVLSAISSDN---GYKLIV-QTNEYLMRQGWRTGN---------NTSPFVTS-IVGYLD--LCMEAHG--S-------NVWLA-----------------DCVSN---KKEQQWALYTDGSIRS---VQNTN--NCLTSKEHKKGSL---IVLMGCSNGWASQRWVFKNDGT-----IYSLYDD-MVMDVKGS---DPSLQNIILYPY-TGGKPN-QIW----LTLF-------
+Abrus_pulchellus_ABW23504           ------SQT-CSFHNEPTVRIGGRDGMCMDVA--NEVYNNDN--PIIMYNCKDKLEENQLWTLKL--DKTIRS-NGK-CLTTK--GYASGNSVVIYDCTSA-EREATYWEIWDNGTIINPRS------SLALTAISSDN---GYKLIV-QTNEYLMRQGWRTGN---------NTSPFVTS-IVGYLD--LCMEAHG--S-------NVWLA-----------------DCVSN---KKEQQWALYTDGSIRS---VQNTN--NCLTSKEHKKGSL---IVLMGCSNGWASQRWVFKNDGT-----IYSLYDD-MVMDVKGS---DPSLQNIILYPY-TGGKPN-QIW----LTLF-------
+Adenia_volkensii_CAD61022           -------DPVCP-SGETTAFIVGRDGRCVDVK--VEEFFDGN--KVQMWPCKSSQNANQLWTLKR--DGTIRC-QGK-CLTVR----SPQLYAMIWDCTTF-YAPATKWEVWDNGTIINPAS------GRVLTAPTGEA---GVTLNL-QFNEYAASQAWRVTN---------VTVPTVTT-IVGYDD--LCLETNG--N-------GVWLA-----------------NCVKG---KAQQRWTLYADGTIRS---QSTLS--KCLACSGSCVKLAK--IVNTDCAG-SANSRWYFDNYGG-----IVNLRTG-MVMDVKES---NPSLNEIIAHPW-HG-NSN-QQW----FL---------
+Agaricus_bisporus_ACN56442          ---SPLVPR-QKVGPVGTLHPISSSEKCIDIR--GAAFENGT--AVQIFDCN--DSDAQNWKIQRGVAGHIEVEGTGFCLDAGS-SPANGVGMKIWQCFDN--LPAQQWTYNSDNQIKLADK------DFCLDLTDGNSGN-SNQLQIWECSTSNRNQVWLEGPPGNGESTPPPPPPPTSRALHSNVDGSKCMDVEG--AIFANG-TPVQIF-----------------DCNGS----NAQQWTLT-DGNTKVQ--LAGTN--FCLDATSANPANGV-GMKIWECFDGLAAQSWTYTDSHH------LQLQSSAKCIDLTNG--DTTNGNQLQVFDCFDG-NNN-QIWN--------------
+Agaricus_bisporus_EKM79674          ---SPVAPR--QVGPVGTLHPIASSGKCVDVR--TSVFENGT--VVQIFDCN--DSDAQNWRIQRGVAGPIEVEGTGFCLDAGS-SPALGVGMKIWQCIDN--LPAQQWLYNNDNQIILANQN----TNFCLDLTDGNLAN-TNQLQIWECATGNENQVWLEGPPGNDD---PTPPPPTSRPLHPNANGDKCMDVEG--SVFANG-TPVQIF-----------------DCNGS----SAQQWTLT-DGNTKVQ--VAGMN--FCLDATSANPANGV-GMKIWECFDGLAAQSWTYTDSHH------LQLQSSPKCVDLTNG--DITNGNQLQVFDCFEG-NDN-QIWN--------------
+Agaricus_bisporus_EKM79675          ---SPVAPR--QVGPVGTLHPIASSGKCVDVR--TSVFENGT--VVQIFDCN--DSDAQNWRIQRGVAGPIEVEGTGFCLDAGS-SPALGVGMKIWQCIDN--LPAQQWLYNNDNQIILANQN----TNFCLDLTDGNLAN-TNQLQIWECATGNENQVWLEGPPGNDD---PTPPPPTSRPLHPNANGDKCMDVEG--SVFANG-TPVQMFVFFLSSIDLESDMLYSFDCNGS----SAQQWTLT-DGNTKVQ--VAGMN--FCLDATSAS-------------------KSWTYP----------MLIK------HLT-------------------------------------------
+Camelia_sinensis_ADF45509           ------DDDTCA-EPEPTIRISGRNGLCVDVR--DGQYNDGN--PIQLWPCESNTDANQLWTLKR--DGTIQS-NGK-CLTTY--GYSPGDYVMIYNCDTA-ATAATRWQVWDNGTIINPES------ALVLSAESENA---GTTLTM-EINIYASRQGWRASN---------NTDPFVTS-IVGFMD--LCMQRNG--N-------NVGLG-----------------DCVSN---QTDQKWAIYPDGSIRP---QQNQN--VCLTCNN-HFQGT--NIIIFGCSNGWSSQRWVFTNDGA-----ILNLYNG-MVMDVKDS---NPILQQIILLPF-NG-NPN-QKW----LPML-------
+Camelia_sinensis_ADF45512           ------DDDTCA-EPEPTIRISGRNGLCVDVR--DGQYNDGN--PIQLWPCESNTDANQLWTLKR--DRTIQS-NGK-CLTTY--GYSPGDYVMIYNCDTA-VTAATRWQVWDNGTIINPES------ALVLSAESENA---GTTLTV-EINIYASRQGWRASN---------NTDPFVTS-IVGFMD--LCMQRNG--N-------NVGLG-----------------DCVSN---QTDQKWAIYPDGSIRP---QQNQN--VCLTCNN-HFPGT--NIIIFGCSNGWSSQRWVFTNDGA-----ILNLYNG-MVIDVKDS---NPNLQQLILWPF-NG-NPN-QKW----LPML-------
+Cinnamomum_camphora_AET98835        -------DDTCD-DPEPTVRISGRNGLCVDVR--DGQYNDGN--PIQLWPCKQNSDVNQLWTLRK--DGTIRS-NGK-CLTTY--GSSPGNYVMIFDCTTA-VTVATIWHVWANGTIFNPQS------ALVLSAESGNS---GTTLTV-QNNIYASRQGWLAGN---------NTEPFVTS-IAGFND--LCMQANG--D-------AMWVV-----------------ECESS---KAEQKWALYPDGSIRP---QQNRD--RCLTSSDNHSKGS--IIIISGCSSGSEGQRWVFMNDGT-----ILNLKNG-MVMDVKGS---DPSLHQIIIWEF-TG-NPN-QKW----LPLF-------
+Cinnamomum_camphora_Q94BW5          -------DDTCA-DPEPTVRISGRNGLCVDVR--DGKYNNGN--PIQLWPCKQNSDVNQLWTLRR--DGAIRS-NGK-CLTTN--GYSAGDYVMIYDCRTP-VTAASIWQFWANGTIINPQS------ALVLSAESGNP---RTTLTV-QANIYASRQGWLAGN---------NTEPFVTS-IVGFND--LCMQANG--D-------AMWVE-----------------ECESS---KAEQKWALYPDGSIRP---HQDPGPAACP-LLDNHPQGS--IIIISSCSPGSEGRRWVFMNDGT-----VLNLKNG-LVMDVKGS---NPSLHQIIIWPA-TG-KPN-HEW----LPLL-------
+Cucumis_sativus_XP004140357         --ADHQNPR-CY-VKERTVRISGQDGLCADVA--R----DGS--HVISSPCG--QQANQQWTFHR--DHTIRS-SDK-CLIPNK-SKA-NPLAVIQNCNKVSQEDAT-WDVSISGTIMNPAY------DLVLTSKNGIN---DNSLSM-KKNKYCGNQGWRVGN---------YVEPIIAS-IIGVKQ--MCLEATE-ENT------NIWLE-----------------ECVKN---KIEQSWAVFSDGSIRV---NNDHS--LCMTASSIESKQR---IVIAKCNG-LASQRWVLKADGT-----ISTPKYEGLVMDVAQS---NVDLKEIVLYPR-SD-LVS-QHW----VALY-------
+Cucumis_sativus_XP004146289         --------------VPGATHLVGRDGLCLEMS--PWFY-KGSNFPTRLSPCNEQKKQTQLWTVLQ--DETIRPMNDRYCLVSYV-SVNFITNVVVSECAKE-PHSNKKWIHKEDRTIVHVGS------GMVLTGN-------SNYVTV-QRNKNAPSQSWEATK---------SLTPMVAN-IKWLEN--LCLQSTKDSN-------YVQLD-----------------GCNSEN---KSQHWSLYGDGTIRK---HVNRN--YCLTSEQDFGRFV----AVSKCED-KPQQRWGLGAEDN----TINHPNTD-MVMDVLSV---PFDDLPLAVVTN-HRDGTATQRW-----IIY-------
+Cucumis_sativus_XP004149970         --------------VPGATHLVGRDGLCLEMS--PWYKPAGINFPTRLSPCDE-KKQTQLWTIVG--DGTIRPMNDKFCLAAEV-FYGVINKAVVSECGKV-SDPNKKWTQKNDGTIALVDS------RMVLTGD-------LDYVTL-QSNKYTPSQSWEVTE---------SLNSMVAN-IEWLNN--LCLQSTDDSS-------HVGLN-----------------GCNTDN---KYQRWALYADGTIRQ---HVNKN--YCLTSDQDFGRFV----VVSKCED-KPQQRWSLDAKDY----TIDHPNTD-MVLDVFSV---PDSTFPSVLVTN-RRDGSASQRW-----TIIN------
+Cucumis_sativus_XP004151509         --------------VPGATHLVGRDGLCLEMVLLRSYKPAGINFPTRLLPCDE-KKQTQLWTVVG--DGTIRPMNDKFCLAAEV-FYGVINKAVVSECGKV-SDSNKQWIHKNDGTIALAES------RMVLTGD-------SDYVTL-QSIKYTPSQSWEVTE---------SLNPMVAN-IEWLNN--LCLQSTDDSS-------NVGLN-----------------GCNTYT---KYQRWALYADGTIRQ---HVNRN--YCLTSEQNYDRSV----VVSKCED-KPQQRWSLNAKDS----TIDHPNTN-MVLDVLNV---LDSASPLVIVTN-HPDGSASQRW-----TMN-------
+Gossypium_raimondii_013G087700      -------DT-CERVLAPTSHITGQNGFCVDVY--QGSYHDGN--KVILWECG-QNQANQLWTLTSN-DNTIRS-GGK-CLTTY--GYSFKNYVMIYDCETA-VPDATKWEIRSDETIRNPRS------GLVLTGSRDSSG--MINLVV-DHKYDGSRQTFYASN---------NTKPAVTT-IVGYKD--MCLLASG--S-------RVWLE-----------------DCVSN---DAEQQWAIYPDGTIRP---QKNRN--GCLKYANDYSGLV----NVATCDG-FVEERWVFRSDGT-----ILHKMTE-MVMDVLDP---TATLLEVSANHY-NNQQFS-QIW----FQVQP------
+Iris_hollandica_Q8W2E7              -----VEDDTCP-VSEPTMRISGRDGYCMDVK--DGLYHNGN--PVTLSSCKQNNDVNQFWTFKS--DGTIQS-NGK-CLTAY--GYNAGAYVMIYDCSSA-VMGATLWTMY-NGSLINRPS------GLAISAESGES---GTTLTM-QVHLNASKQGWLPSN---------NTRPFLTP-IIGING--LCVQ-RNDQE-------DVGLA-----------------TCDDNN---SNQKWYLYGDGSIRP---LTDPN--YCVTSQTHDQGSQ---IILLSCNFGGASQRWMFTSQGT-----IYNLHSG-YVMDVKQS---DPSLQQIIIWST-TG-NPN-QMW----FTTF-------
+Jatropha_curcas_AFK73425            -------GG-CATDFEPTVRILGRNGLCLDVS--DEIYSDGN--KIHMWPCKSKPAANQLWTLKR--DGTLQS-NGK-CLTANG-SNPAGNNVVIYDCQTA-MHNATQWAIWDNGTIINPQF------GLVLTVNSGDK---GALLTL-EKNIYASSQGFLATN---------NTQPFRSP-ILGQND--LCLQTNG--T-------KVWVV-----------------ECVSN---RTEQKWALYADGSIRP---QQNKD--DCLTCNKLDAKGT--IFTIDSCSLASSGQRWAFRDDGI-----IFNLQNG-MVMDVKKI---DPSLEEVIIWPF-NG-GRN-QRW----LPLL-------
+Malus_domestica_MDP0000711911       ------NEI-CA-VQNRTTHISGLEGLCVDVK--NGLDSDGN--LVQIWPCG--QQRNQKWTFQP--DETIRS-MEK-CMTAYS-TSSPENYVMIYNCTTA-VLEATKWALSTDGTITHRRS------GLVLTAHEATR---GTTLTI-ATNSHSPKQGWRVAD---------DVEPTVTS-IIGYND--MCLTAND-DKS------RVWME-----------------YCVPS---KNQQQWALYSEGTIRV---NSDRT--LCVTSNGHNSSNV---IIILKCELKRGDQRWVFKTDGS-----ILNPNAE-LVMDVKNS---DVYLRQIILYPY-YG-TPN-QQW-------LPFF----
+Momordica_charantia_BAH05018        ------NEQ-CS-PQQRTTRISGRDGLCVDVY--GALTADGS--RVILYPCG--QQQNQQWTFYP--DNTIRS-LGK-CLATSA-LSS-GSNVVITNCDYLRYDDG--WMVSSSGTMMNKSS------HLVLTANAATS---RTNLTG-ENNVFAAKQAWRIGN---------YVEPIVTT-IIGLRH--MCLEATD-NDT------NVWLE-----------------SCVKN---KTKQYWALYSDDTIRV---NNNRN--LCVSSSTDSSSKL---IVIRRCDG-SINQRWVFTPQGT-----ISNPGYE-AVMDVAQN---DVYLKKIVLSSA-TD-KGNGQQW----TVFY-------
+Phyllostachys_edulis_FP092597       VQGSADAPA-CK-ETEPTSRIVGPDGNCVDVR--NGWYQDGA--MVQLWPCKSYTAVNQLWTFKR--DGTIRS-NGNYCLTAS--GSTPGDYVMIFRCP-DSPTDAVVWEVRDDGTIVSKS-------GLVLSASSTAS---YTVLAV-QTDNRSTGQSWTPTN---------DTNPFMAA-IVGYHD--LCLQVDG--E-------DVWVA-----------------SCVGG---KPEQAWALYPDGSIRP---KQKQD--GCLAPDAKNELKL---VQVFPCDPTSSGQRWVFWSDGS-----ILNLGTE-LVMDVRGS---DPSLKQIIVYTA-TG-NPN-QKW----APML-------
+Polygonatum_multiflorum_Q9M653      ------EET-CT-VGEPTRRISGLDGLCMDVR--NESNNDGI--PIQLWPCG--AQRNQQWTFHT--DGTIQS-MGK-CMTSNG-YHP-GDYVMIFNCSTAPVPDATKWVVSIDGSITNPHS------GLVLTAPQAAQ---TTILLV-VRNTHSAKQGRSVGD---------DVEPIVTY-IVGFKY--MCLQGNN-ENN-----TRVWLE-----------------DCAVD---RPQQWWALYSDGTIRV---DSDRS--LCVTSDGHSSRDA---IIILTCDG-GINQRLVFNTDGT-----ILNPNAQ-LVMDVRQS---NVALRQIILYQP-TG-NPN-QQWMTMITRTRPSLTS--
+Polygonatum_multiflorum_Q9M654      ------DEK-CT-VGEPTRRISGRAGWCVDVK--DGRDNDGN--PIQVLSCGDGQERKQQWTFHR--DGTIRSKLGK-CMTAYG-FKH-GEYVMIYDCDTA-IAGANKWVVSIDGTITNPIS------GLVLTAPRGAT---GTTLLV-EKNVHAARQCWRVGD---------DVEPIVTK-IVGFQE--KCLEANYLENTNVSRYTKVFLD-----------------DCVLD---RQQQRWALYSDGTIRA---DSDRS--LRVTADGHRSLDS---IIILACKG-WGNQRWVFNTDGT-----ILNPNAK-LVMDVKDS---DVSLLQIILHQS-TG-KPN-QKW---LTVTLPRTS---
+Populus_trichocarpa_XP002307943     ---VPKNDD-VVSGAKSTQHIVGINNLCVDVF--LELYFDGN--IVQLKPCKSDGDVNQQWSLEK--DGTIQS-NGK-CLATN--GTSPGSYVFISDCNKV-KASATIWKVQKDGSILNPSS------SLVLTSKSGKS---GSLLTL-ETNVYALGQGWNFTS---------VSKPSPKS-IVGLWG--YCLEFNK--Y-------VPKLA-----------------KCVKN---KTEQKWNFYADGSIRL---DANTD--LCLTSNGN-TRGSS--VVVVSCSPVSYNQRWTFGDSHGKASFTILNVNNA-LVLDVSYS---ILNPFKIIIWDF-NG-GAN-QVW----RLS--------
+Ricinus_communis_XP002534220        -------DV-CM-DPEPIVRIVGRNGLCVDVT--GEEFFDGN--PIQLWPCKSNTDWNQLWTLRK--DSTIRS-NGK-CLTIS--KSSPGQQVVIYNCSTA-TVGATRWQIWDNRTIINPTS------GLVLAATSGNS---GTKLTV-QTNIYAVSQGWLPTN---------NTQPFVTT-IVGLYG--MCLQANS--G-------KVWLE-----------------DCTSE---KAEQQWALYADGSIRP---QQNRD--NCLTTDANIKGTV---VKILSCGPASSGQRWMFKNDGT-----ILNLYNG-LVLDVRRS---DPSLKQIIVHPV-HG-NLN-QIW----LPLF-------
+Ricinus_communis_XP002534649        ------ADV-CM-DPEPIVRIVGRNGLCVDVR--DGRFHNGN--AIQLWPCKSNTDANQLWTLKR--DNTIRS-NGK-CLTTY--GYSPGVYVMIYDCNTA-ATDATRWQIWDNGTIINPRS------SLVLAATSGNS---GTTLTV-QTNIYAVSQGWLPTN---------NTQPFVTT-IVGLYG--LCLQANS--G-------QVWIE-----------------DCSSE---KAEQQWALYADGSIRP---QQNRD--NCLTSDSNIRETV---VKILSCGPASSGQRWMFKNDGT-----ILNLYSG-LVLDVRAS---DPSLKQIILYPL-HG-DPN-QIW----LPLF-------
+Sambucus_ebulus_AAM94880            -----DGE-----R--FTRQIIGRDGLCVDAR--TGCD-------IQLRPCG--SQTSQQWTFYE--DGTIRS-MGK-CMTANG-FNS-GSYIMIFDCSSA-TENATKWEVTIDGSIINPSS------GLVMTAPSGAS---GTTLVL-ENNILAASQGWTVSN---------DVQPNVTL-MVGYNN--MCLKANG-ENN------KVWME-----------------NCVST---SVQQQWALFGDRTIRV---NSSRD--LCLTSRGYVSKDI---IISFTCQG-LPTQRWFFKSDGT-----IVNPNTT-LVMDVKGS---DVSLREIIIYPS-VG-SSN-QQW---KTEVLPS-----
+Sambucus_ebulus_CAC33178            -----DGET-CAIPAPFTRRIVGRDGLCVDVR--NGYDTDGT--PIQLWPCG--TQRNQQWTFYN--DKTIRS-MGK-CMTANG-LNS-GSYIMITDCSTA-AEDATKWEVLIDGSIINPSS------GLVMTAPSGAS---RTTLLL-ENNIHAASQGWTVSN---------DVQPIATL-IVGYNE--MCLQANG-ENN------NVWME-----------------DCDVT---SVQQQWALFDDRTIRV---NNSRG--LCVTSNGYVSKDL---IVIRKCQG-LATQRWFFNSDGS-----VVNLKST-RVMDVKES---DVSLQEVIIFPA-TG-NPN-QQW---RTQVPQI-----
+Sambucus_ebulus_CAQ42478            -----YEKV-CS-VVEVTRRISGWDGLCVDVS--DDHYIDGN--PVQLSPCG--NQCTQQWTFRT--DGTIRW-LGK-CLTAS---SS----VMINDCNTV-PPEDTKWVVSIDGTITNPSS------GLVLTAPQTLE---GTALSP-ENNIHAAIQGWTVG----------DVEPLVTS-IVGYKQ--MCLREDG-ENN------FVWME-----------------HCVLN---RTEQEWALYGDGTIRV---NSNRS--LCVTSQYHEPSDL---IIILKCQG-SSNQRWVFNTNGT-----ISNPNTT-KVMDVAQA---NVSLRKIILYRP-NG-ESN-HQW---ITTTHPA-----
+Sambucus_nigra_AAC15885             -----DGE-------PITGNIIGRDGLCVDVR--NGYDTDGT--PLQLWPCG--TQRNQQWTFYT--DDTIRS-MGK-CMTANG-LSN-GSNIMIFNCSTA-VENAIKWEVTIDGSIINPSS------GLVMTAPSAAS---FTILLL-QNNIYAASQGWTVSN---------DVQPIVAL-IVGYNE--MCLQSNG-ENN------GVWME-----------------DCEAT---SLQQQWALFGDRTIRV---NSDRG--LCVTTNGYNSKDL---IIILQCQG-LPSQRWFFNSNGA-----IVNPNST-LVMDVKES---DVSLREIIIFPY-HG-DPN-QQW---VTQVLPS-----
+Sambucus_nigra_AAC15886             -----DGET-CPIPASFTRRIVGRDGLCVDVR--DGYDTDGT--PIQLWPCG--SQRNQQWTFHK--DDTIRS-MGK-CMTANG-FNS-GSSIMIFNCSTA-VKNATKWEVPIDGSIINPSS------GRVMTAPSAAS---RTILLL-QNNIYAASQGWTVSN---------DVQPVVAS-IVGYKE--MCLQANG-ENN------GVWME-----------------NCEVT---SLQQQWALFGDRTIRV---NSDRG--LCVTTNGYHSKDL---IIILKCQG-LPSQRWFFNSNGA-----IVNPNST-LVMDVKAN---DVSLREIIIFPS-HG-DPN-QQW---VTQVLPS-----
+Sambucus_nigra_AAC49158             --GGEYEKV-CS-VVEVTRRISGWDGLCVDVR--YGHYIDGN--PVQLRPCG--NECNQLWTFRT--DGTIRW-LGK-CLTAS---SS----VMIYDCNTV-PPEATKWVVSIDGTITNPHS------GLVLTAPQAAE---GTALSL-ENNIHAARQGWTVG----------DVEPLVTF-IVGYKQ--MCLRENG-ENN------FVWLE-----------------DCVLN---RVQQEWALYGDGTIRV---NSNRS--LCVTSEDHEPSDL---IVILKCEG-SGNQRWVFNTNGT-----ISNPNAK-LLMDVAQR---DVSLRKIILYRP-TG-NPN-QQW---ITTTHPA-----
+Sambucus_nigra_AAC49672             -----DDEK-CT-VVDVTRRISGRDGLCVDVR--DGLAKDGN--PVQLLSCG--QQSSQQWTFRT--DGTIRS-LGK-CLTNSG-DSS-GNYAMIYNCDTA-IRDATKWVLSIDGTITHRLS------GLVLTAPQAAQ---GTTLLL-QKNIHAASQGWIVG----------NVVPLVTF-IVGYNQ--MCLRANT-QNN------PLWLE-----------------DCVLN---RREQMWALYGDGTIRV---NSDRS--LCVS---HSSSDL---IIILKCQG-SSNQRWVFNTNGT-----ISNPNAK-LVMEVRQS---DVSLRQIIIYHP-TG-NLN-QQW---ITDTDPV-----
+Sambucus_nigra_AAC49673             -----DDEK-CT-VVDVTRRISGRDGLCVDVR--DGLAKDGN--PVQLLSCG--QQSSQQWTFRT--DGTIRS-LGK-CLTNSG-DSS-GNYAMIYNCDTA-IRDATKWVLSIDGTITHRLS------GLVLTAPQAAQ---GTTLLL-QKNIHAASQGWIVG----------NVVPLVTF-IVGYNQ--MCLRANT-QNN------PLWLE-----------------DCVLN---RTEQMWALYGDGTIRV---NSDRS--LCVS---HSSSDL---IIILKCQG-SSNQRWVFNTNGT-----ISNPNAK-LVMEVRQS---DVSLRQIIIYHP-TG-NLN-QQW---ITDTDPV-----
+Sambucus_nigra_AAN86131             -----DGE-------PFTRHIIGRDGLCVDAR--TGCD-------IQLWPCG--SQTSQQWTFYE--DGTIRS-MGK-CMTANG-FNS-GSYIMIFDCSSA-TEDATKWDVTIDGSIINLSS------VLVMTSPSRAS---GTALVL-DNNILAASQGWTVSN---------GVQPNVTL-IVGYNN--MCLKANG-ENN------KVWME-----------------NCVST---SVQQQWVLFGDRTIRV---NSNRD--LCLTSSGHVSKDI---IISFKCQG-LLTQRWFFKSDGS-----IVNPNTT-LVMDVKGS---DVSLREIIIFPA-TG-NPN-QKW---RTEVLPS-----
+Sambucus_nigra_AAN86132             -----DGE-------PITGNIVGRDGLCVDVR--NGYDTDGT--PIQLWPCG--TQRNQQWTFHT--DDTIRS-MGK-CMTANG-LNN-GSNIMIFNCSTA-VENAIKWEVTIDGSIINPSS------GLVITAPSAAS---RTILLL-QNNIYAASQGWTVSN---------NVQPIVAS-IVGFRE--MCLQANG-ENN------GVWME-----------------DCEAT---SLQQQWALFGDRTIRV---NSNRG--LCVTTNGYNSRDL---IIILKCQG-LPSQRWFFNSDGA-----IVNPKSK-LVMDVKSS---NVSLREIIIYPA-TG-RPN-QQW---VTQVLPS-----
+Sambucus_nigra_P33183               -----DGET-CTLRTSFTRNIVGRDGLCVDVR--NGYDTDGT--PLQLWPCG--TQRNQRWTFDS--DDTIRS-MGK-CMTANG-LNN-GSNIVIFNCSTA-AENAIKWEVPIDGSIINPSS------GLVMTAPRAAS---RTILLL-EDNIYAASQGWTVTN---------NVKPIVAS-IVGYKE--MCLQSNG-ENN------GVWME-----------------DCEAT---SLQQQWALYGDRTIRV---NSTRG--LCVTTNGYNSKDL---IIILKCQG-LPSQRWFFNSDGA-----IVNPKSR-HVMDVRAS---NVSLREIIIFPA-TG-NPN-QQW---VTQVLPS-----
+Sambucus_nigra_P93543               --GGEDEER-CSVVEEVTRRIGGRDGFCAEVK--NGDEKDGT--PVQLSSCG--EQSNQQWTFST--DGTIQS-LGK-CLTTS---SS----VMIYNCKVV-PPESTKWVVSIDGTITNPRS------GLVLTAPKAAE---GTLVSL-EKNVHAARQGWIVG----------NVEPLVTF-IVGYEQ--MCLETNP-GNN------DVSLG-----------------DCSVKSASKVDQKWALYGDGTIRV---NNDRS--LCVTSEGKSSNEP---IIILKCLG-WANQRWVFNTDGT-----ISNPDSK-LVMHVDQN---DVPLRKIILSHP-SG-TSN-QQW---IASTHPA-----
+Sambucus_sieboldiana_BAD93340       -----DGE-------PITGNIIGRNGLCVDVR--NGYSTDGT--PIQLWPCG--RQRNQQWTFYE--DGTIRS-MGK-CMTANG-LNS-GSNIMIFNCSTA-VENAIKWEVTIDGSIINLSS------GLVMTAPSAAS---RTILLL-ENNIYAASQGWTVSN---------DVKPIVAS-IVGYKE--MCLQANG-ENN------GVWME-----------------DCEVT---SLQQQWALFGDRTIRV---NSSRG--LCVTSNGYNSKDL---IITLKCQG-LPSQRWFFNSNGA-----IVNPNST-LVMDVRAS---NVSLREIIISPA-TG-NPN-QQW---VTQVLPS-----
+Sambucus_sieboldiana_SSA            --GGEYEKV-CS-VVEVTRRISGWDGLCVDVR--GGHYIDGN--PVQLRPCG--NECNQLWTFRT--DGTIRW-LGK-CLTTS---SS----VMIYDCNTV-PPEATKWVVSIDGTITNPRS------GLVLTAPQAAE---GTALSL-EKNIHAARQGWTVG----------DVEPLVTF-IVGYKQ--MCLRENG-ENN------FVWLE-----------------DCVLN---RVEQEWALYGDGTIRV---NSNHS--LCVTSEDHEPSDL---IVILKCEG-SGNQRWVFNTNGT-----ISNPNAK-LVMDVAQH---DISLRKIILYRP-TG-NSN-QQW---ITTTQPA-----
+Sambucus_sieboldiana_Sieboldin      -----DGET-CSLPASFTRRIVGRDGLCVDVR--DGYSTDGT--PIQLWPCG--SQRNQQWTFYT--DDTIRS-MGK-CMTANG-LNT-GSNIMIFNCSTA-VQNAIKWEVPIDGSIINTSS------GRVMTAPSAAT---RTILLL-QNNIYAASQGWSVTN---------NVQPIVAS-IVGYNE--MCLQANG-ENN------GVWME-----------------DCEVT---SLQQQFALFGDRTIRV---NSARG--LCVTSNGYNSKDL---IIILKCQG-LPSQRWFFNSDGA-----IVNPSST-LVMDVRAS---NVSLREIIIFPP-TG-NPN-QQW---VTQVLPS-----
+Sorghum_bicolor_XP002459593         --AAAATTS-CG-QAEPTVRLVGPEGRCVDVP--YGVYYNGK--QVQLWSCKSNGDVNQLWTLKR--DGTIRS-NGK-CLAASR-SDTAGARVVIDDCPPRVPTGRVVWEVRVDGTIALKGSSSSGGGGLVLAVTSSTL---FAGLTV-RRDDRGTGQSWTPTN---------DTAPLDAA-IVGFRD--LCLQ-ADTAG-------AVSVA-----------------ACGNGG-----VRWSIYPDGSIRPPAWLLLQW--QCLAADGASGRVR---VKY--CDWAG-SACERWVFRNDGT-----IFNTGTG-RVLEVVGASKGGASGGQVVVSKAGNGSPTPTQKW----ALML-----
+Trichosanthes_kirilowii_1GGP        ----------CAA---ATVRIAGRDGFCADVN--GEG-QNGA--AIILKKCA--ENDNQLWTLKR--EATIRS-NGG-CLTTA---AAEQAKAGIYDCTQA-TAELSAWEIADNGTIINPAS------SLVLSSGAANS---LLDLGV-QTNSYASAQGWRTGN---------ETSASVTQ-ISGSAQ--LCMQAGN--GPA-----NLWMS-----------------ECRAG---KAEQQWALLTDKSIRS---ETNSD--NCLTSAADAGPKT---ILLALCSG-PASQRWVFDDDGS-----ILSLYDD-KQMDSEGA---AAAAKQIILWWN-AA-EPN-QIW----LALF-------
+Viscum_album_AAT37532               ------DDVTCS-ASEPTVRIVGRNGMNVDVR--DDDFHDGN--QIQLWPSKSNNDPNQLWTIKR--DGTIRS-NGS-CLTTY--GYTAGVYVMIFDCNTA-VREATIWQIWGNGTIINPRS------NLALAASSGIK---GTTLTV-QTLDYTLGQGWLAGN---------DTAPREVT-IYGFND--LCMESNG--G-------SVWVE-----------------TCV-S---QQNDRWALYGDGSIRP---EQNQD--QCLTSGRDSVAG----INIVSCSGGSSGQRWVFTNEGA-----ILNLKNG-LAMDVA-----NPGLGQIIIYPA-TG-KPN-QMW----LPVP-------
+Viscum_album_AAY34343               ------DDGTCT-PSEPTVQIVGLNGLCVDVR--NGKFHDGN--PIQLWPCKSNTDRNQLWTIRR--DGTIRS-NSK-CLTTY--GYRDGMYVMIYNCNTA-VREATIWQIWENGTIVNPRS------SLVLGAASGSS---RTTLTV-QTQAYSLGQGWLASN---------DTAPREVT-IYGFRD--LCMEANG--S-------SVWVE-----------------TCVSN---KQNQKWALYGDGSIRP---KQNRN--QCLTCQKDSVSTV---INIVSCSAGSSGQRWVFTNKGT-----ILNLKNG-LVLDVAQS---NPSLRRIIIYPA-TG-KPN-QMW----LPLP-------
+Viscum_album_P81446                 ------DDVTCS-ASEPTVRIVGRNGMCVDVR--DDDFHDGN--QIQLWPSKSNNDPNQLWTIKR--DGTIRS-NGS-CLTTY--GYTAGVYVMIFDCNTA-VREATLWEIWGNGTIINPRS------NLVLAASSGIK---GTTLTV-QTLDYTLGQGWLAGN---------DTAPREVT-IYGFRD--LCMESNG--G-------SVWVE-----------------TCVIS---QQNQRWALYGDGSIRP---KQNQD--QCLTCGRDSVSTV---INIVSCSAGSSGQRWVFTNEGA-----ILNLKNG-LAMDVAQA---NPKLRRIIIYPA-TG-KPN-QMW----LPVP-------
+Viscum_album_P82683                 ------DDVTCT-ASEPTVRIVGRDGLCVDVR--DGKFHNGN--PIQLSPCKSNTDPNQLWTIRR--DGTIRS-NGR-CLTTY--GYTAGVYVMIFDCNTA-VREATLWQIWGNGTIINPRS------NLVLGAASGSS---GTTLTV-QTQVYSLGQGWLAGN---------DTAPREVT-IYGFRD--LCMEANG--A-------SVWVE-----------------TCGSS---TENQNWALYGDGSIRP---KQNQD--QCLTCQGDSVATV---INIVSCSAGSSGQRWVFTNEGT-----ILNLNNG-LVMDVAQS---NPSLRRIIIYPA-TG-NPN-QMW----LPVP-------
+Viscum_album_Q6H266                 ------DDVTCT-TSEPTVRIVGRNGMCLDVR--DSDYRDGS--RIQLWPCKSNSDPNQLWTIRR--DGTIRS-NGS-CLTTY--GYTAGSYIMMYDCNRA-GWDLTTWQIRGNGIIFNPRS------KMVIGTPSGSRGTRGTTFTL-QTLDDSLGQSWLASN---------DTAPREVT-IYGFRD--LCMETSG--G-------RVWVE-----------------SCVSS---KQNQRWALYGDGSIRP---KPYQD--QCLTSQGDSVRSV---INLFSCTAGSPRQRWVFTNKGT-----ILNLKNG-LALDVRES---NPSLRQIIIFSV-SG-NPN-QMW----LPVP-------
+Viscum_articulatum_ABU95610         ------DDVTCT-ISEPTVRIVGRNGLCVDVR--DNEFHNGN--PIQLWACKSNTDPNQLWTIRR--DGTIRS-NGR-CMTTY--GYSAGVYVMIFDCNRA-AREATLWQIWGNGTIVNPRS------NLVLGAASGSS---GTTLTV-QTLAYSLGQGWLASN---------DTAPREVT-IYGFRD--LCMEANG--E-------RVWVE-----------------TCASS---KENQKWALYGDGSIRP---KQNQG--RCLTSQNDSVGTV---INIVSCSAGSSGQRWLFTNEGT-----ILNLNSG-LVMDVRRS---DPSLRQIIIYPA-TG-NPN-QMW----LPVP-------
+Ximenia_americana_CAJ38823          ------GQS-CA-DPQPTVRISGRDGKCADVK--GGYYNDGD--PIILWPCKSNTDANQLWILKK--DGTIRS-KGK-CLSTSFGRYHFISTVMIYDCSIA-TKAATRWKVWDNGTIINSAS------SLVLT?ELGTS---GTPLTV-RANSYSTSQSWLPSN---------FSEPFVVSSILGLKD--LCLQATG--NG-------VWLE-----------------QCVTN---KAEQKWALFPDRSIRP---YSDRD--LCLSCNTDETSHQLNIVNLLSCGSASPGQHWMFRNNGD-----VLNIYSG-LVMDVK?S---NPSLHQILAWPP-NG-GRN-QKW----MVVV-------
+Zea_mays_DAA39742                   --ARATTAA-CGLPAEPTVRLVGPEGRCVDVP--YGYYYNGN--QVQLWSCKSTSAVNQLWTLKR--DGTIRS-NGK-CLTSS--GDAAGARAVVDDCP-RFPTGRVVWEVRVDGTVALKWSR-----GLVLAVTSSTL---FAGLTV-RQDDRGTGQSWTPTN---------VTAPLDAA-IVGFRD--LCLQ-ADYAG-------SVSVA-----------------ACRDG------VQWSLYPDGSVRPPAWLLLQW--QCLAAD-ASGGVT---VKL--CDGAG-SSCERWVFRNDGT-----IFNTGTG-MVLDARPSAGANATASQVIVSPA-TGS--PTQQW----TLML-----
+;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M22097]
+
+	TITLE Dicots_Group_2_Type_1_RIPs;
+	LINK TAXA = Taxa2;
+	DIMENSIONS NCHAR=353;
+	FORMAT DATATYPE=Protein SYMBOLS= "A C D E F G H I K L M N P Q R S T V W Y" MISSING=? GAP= -;
+
+MATRIX
+[                                                  10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170       180       190       200       210       220       230       240       250       260       270       280       290       300       310       320       330       340       350   ]
+[                                                   .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .   ]
+Amaranthus_tricolor_AAB67746               --------------------QQYRTVGFELHKENSP-NGYANFLRRLRSAVSGPTRACN----LNITQSN----PPIDR-EYVYIRLQFS----DTQWVVLGMAAKDMYIWGYVDNRP--GFGPGQPPESNFLMDSPPEARQRLFPGSNR-----RITDYGGNYNSLQQRAQRNR------DNVPLGLTSLDGAL-KSVYGKSTSQL--NEGNAEARFFLTAIQMVAEAARFKYMERGIS--APPANFR----QNMIAFQNG---WARISTLIHN---AEGATPKCQAFPQPLRIGTLTY-----GNVNEIRNEIGIIKY---------------------------------
+Amaranthus_viridis_AAB93956                -----------------------ADLTFTVTKSGTSQS-YSTLLNSFRDKVKDPKLTGTYGFQNNLPVVA----APTTPAKYLYIDIQA-----DNGIITAAFDKNDLYYMGYAHTAD--GVKKVRLFKGA------PTDVKLIFPDVTNK-NNRYYSTITGNYNDLG-----------DRASVGLGAKPLNKFINEEIYTKKKFD-----ITTDKKLALMVIQTIAEAARFTYIEGEIVSKFSDNSGFKC-NDKAKSLENN---WEKTSKTVKNS--------TGPRIDLELKDENGK-VVWKWLQVGELVDVMGILKYLK-------------------------------
+Amaranthus_viridis_AAC98718                ----------------------AVNPTFVVTMSATNKS-YSTLLSSFRDEIQDKKLKGTYGFQNDLPVVA----APTKPAKYLYIDIQA-----DKGMITAAFNKNDLYYMGYAHTAD--GAKKVRLFKGA------PTDVRLIFPDVTNI-NNRYYSTITGNYNELG-----------DRASVGLGAKPLNKFINEEIYTKKKFD-----IQTDQKLALMVIQTIAEAARFKYIEGEIVAKFSDNSGFKA-NPKAKSLENN---WDKTSETVKAS--------TGPRIDLELTYGNGN-VVWKWFQVGELVDVMGILKYLK-------------------------------
+Atriplex_canescens_AEY75258                -----------------------SDVTFKLDPKPTQTT-YNTFLQAIRNQVKDPNLV---YEG--IPMIR----APTKPDTYLLVELESVK-NNKKISLRLALSRNDLYVVAFADKYG--GKVRGHFFPHLN--IDTIEKAKKVFP--DVVEVVQ--IKYGESYAQIESNAGT------NRLSFPLGFDNLKANM-EKVYGMDTSAK--DYSKTEARSLLIAIQMVAEAARFKYIQGRAVVTTPPN------DYKILSLENN---WGAISKGIRNA--------VKKVINPPITLQYPNGATWTVTQVGDIKNDMGLLKYVS-------------------------------
+Atriplex_patens_ABJ90432                   -----------------------ADVTFKLDPKPTQNT-YNTFLQAIRNQVKDPKLV---YEG--IPMIR----APTDPDTYLLVGLESVK-NNNKISLTLALSRNDLYVVAFADKYG--GKVRGHFFPNLK--IDTIDKAKKVFP--DVEVLVQ--IKYGESYSQIESNAGT------NRLSSPLGFDNLRTYM-EKVYGLDTSAK--DYSKTEARFLLIAIQMVAEAARFKYIQGRAVVTTAPE------NYKIVSLETN---WGSISKGIKNA--------VKKVINPPINLQYPNGSTWIVTQVSDIKNDMGLLKYVS-------------------------------
+Beta_vulgaris_AAS67266                     -----------------------ADVTFDLET-ASKTK-YGTFLSNLRNIVKDSKLV---YEG--IPMLP----APIKPAKYLLAELKAKK-AGTDITITLAVSKNDLYVVAFTDQVA--GKLRAHYFP-----DISLATAKAIFP--TATQYIQ--IGYTSNYVSIEGAAGS------NRVNFQLGFVKLKEYM-LNVYGKNVQDS--DYRRSEARFLLAAIQMVAEAARFKYVESKAINNVVP-------DYKVPSLENN---WSKISEGIRKA--------VKKVISPPIELVNASNGKWTVNQVSDIKPDMGILSYVP-------------------------------
+Beta_vulgaris_Q1H8M9                       -----------------------SDVSLNLLTADESD--FSRFLTEMRVNLTDPNIS--YG-GTHLPVMA----ASTN---FILVDLEF-----EKGTMTLAFRRSDLYLEGYLDQIG--GNYRAHFFLDAS-----PEGKASLFPNARGA-NNRIIMFYKGSYPDIEK------VA-KDRSKISLGIYELRKLM-IQVYGQSKVD-----VPTEAKLMLLFIQMISEAARFKYIENKILETFYMS--FKP-DPKILKLETS---WQAITVGIRNS--------RNGVISPALKLDDVNGRDWIVSRVQDIVDDMALLKYEG-------------------------------
+Beta_vulgaris_Q1H8N0                       -----------------------TTVTFELKYGVEPLKGYSSFLTRLRNAVEAPTRACG----LQFTRKV----PLTGK-QYVLVDLKFS----NTQWVTLGIDAKDLYVWAYQDNVK--YNG---KFRANFLGDAPQSAKNSLFPGSTK-----RTTRFGGNYNSLEPAAGVTR------NNIVLGTQNLDGAI-KRVYGKQEGVL--NQGKDEAKFFLIAIQMVAEAARFKFMEQGIVKGDKTTAFK----AKMVAFQND---WDPISQAIHR---AEAAARKCTTISPTLVISNTGYR-QEVNRVDAVKNDMGLLKYKS-------------------------------
+Bougainvillea_buttiana_AAY34283            ----------------------HNTVSFNLEDATEQ--VYRSVIKSLRNELQTSTLVCK----IPVTPQS----LAVDKNQFVVVSLTWK----SKE-VQLGIDVTNAYVVGYQDKLK--NQDY----RAFLLKDAPPLAKDKLFPGVKS-----ETLPFGGTYPNLVKAGNVDRR-----EQFELGVEKLGHAI-DSIFGKPKN------DQNVARFFLNAIQIVSEAARFKYIENEVVRGGLNSGLSKP-NGKMLNLENS---WGHISDAIHN---SNQKY-KCETISPALELQNADYSKWVVNKVSEISPDLGILKYKSSKLTQSTTIMRSIVVEDSD--ELEKLETIIG
+Bougainvillea_spectabilis_AAL35962         ----------------------YNTVSFNLGEAYE----YPTFIQDLRNELAKGTPVCQ----LPVTLQT----IADDK-RFVLVDITTT----SKKTVKVAIDVTDVYVVGYQDKWD--GKD-----RAVFLDKVPTVATSKLFPGVTNR----VTLTFDGSYQKLVNAAKVDR------KDLELGVYKLEFSI-EAIHGKTIN------GQEIAKFFLIVIQMVSEAARFKYIETEVVDRGLYGSFK-P-NFKVLNLENN---WGDISDAIHK---SSP---QCTTINPALQLISPSNDPWVVNKVSQISPDMGILKFKSSKLTQFATMIRSAIVEDLDGDELEILEPNIA
+Bougainvillea_spectabilis_ABI64066         ----------------------YKTVSFNLGEAEE----YSTVIQELRNALANGAPVCN----FPVTAKT----IANDK-RFVLVDLTTT----SMKTITLAIDVTDVYVVGYRDLYN--NKD-----RAVFLAEVPSVAIHDLFPGVTNR----EMLTFSGHYQKLQEAAKVNR------ENLELGVNKLGFAI-ESIYGKALN------GKDIARFFLIAIQMMSEAARFKYIENEVSN-GLYGSFT-P-NPKVLNLENN---WGDISDAIHK---SSP---KCTTINPALQSKTPSNDPWVVHEVSEIRPDLGILKFKSSKLTQFITIIRSIVVEELDGGELQILEPNIA
+Chenopodium_album_AAF66234                 -----------------------ADITFKLEPKPTQNT-YNTFLQSIRNQAKDPSLV---YEG--IPMIR----APTNPDTYILVELESKK-DNNEISITLALSRNDLYVVAYADKFG--GKVRGHYFKNLG--ISTIDEANKVFP--NVQDFIN--ITYGESYNQIESNAGT------NRLSFPLGFDTLKYSR-NKVYGMDTTTG--GYSKTEARFLLIAIQMVAEAARFKYIQGRAIVTTAPN------DHKILSLENN---WGALSKGIRNA--------VKKVINPPITLQYPDGKPWIVTQVSDVKNDMGLLKYVK-------------------------------
+Chenopodium_album_AAK28323                 -----------------------ADITFKLEPKPTQNT-YNTFMQSIRNQAKDPSLV---YEG--IPMIR----PPTNPDTYILVELESRK-DNNEISITLALSKNDLYVVAYADKFG--GKVRGHYFKNLG--ISTIDKAKKVFP--NVQDFIN--ITYGESYNQIETNAGT------NRLSFPLGFDNLKTFT-NKVYGMDTKAG--NYTQTEARFLLIAIQMVAEAARFKYIQGRAIVTTAPN------NYKIVSLETN---WGALSKGIRNA--------VKKVINPPITLQYPDGKTWIVTQVSDVKNDMGLLKYVK-------------------------------
+Clerodendrum_aculeatum_CAA65328            --------------------QTP--AIFHVGG-ATISI-YTTFINTLREAAKDASLR---CYG--IPMLP----PTTQQPKHVLTRLDAD----AATTITLIYNRTNLYVLGYSDPFN--GECRYHIFSDVRG-TDRTEAVDTLCPDRENR--VQKDINFESNYQSMENKAGK------SRAQLELGINILKSSI-EKISGVRAFT-----EKVEAEFLLVAIQMTAEAARYKYIENLVKTNFNRN--FKP-DHKMLRLELT---WGKISTPIRNA--------QNGVISPPLNLNSSGEDPWWVTRVDEIKPYIALLNFNSGTCQIDLNAILMSSQLDNVTFVAA-------
+Clerodendrum_inerme_ACF41167               --------------------QTPVTVLFNVGS-ATISS-YTTFITSLRNAARDASLR---CYG--IPMLP----PTTQQPKYVLVKLEAD----AKT-VTLIYKRNNLYIMGYSDPFN--GRCRYHIFSDFTG-TERTEAINTLCPDSNNR--EQKDIRYESNYPSIENKAGK------SRTQVELGINILKSSI-GKISGVSTFT-----ESVEAGFFLVAIQMTAEAARYKYIENLVKTNFNRN--FLP-DHDMIRLEET---WGKISTAIHSA--------KNGEISPALNLNPPNEAPWWLTRVDDIKPYIALLNFNSGTCQLDLNAILTLRQLDNVTFVAA-------
+Dianthus_caryophyllus_P24476               ----------------------ATAYTLNLAN-PSASQ-YSSFLDQIRNNVRDTSLI---YGGTDVAVIG----APSTTDKFLRLNFQG-----PRGTVSLGLRRENLYVVAYLAMDNA-NVNRAYYFKN----QITSAELTALFPEVV-VANQKQLE-YGEDYQAIEKNAKITTGD-QSRKELGLGINLLITMI-DGVNKKVRVV------KDEARFLLIAIQMTAEAARFRYIQNLVTKNFPNKFDSE---NKVIQFQVS---WSKISTAIFGD-------CKNGVFNKDYDFGFGKVR-------QAKDLQMGLLKYLGRPKSSSIEANSTD-----DTADVL-------
+Dianthus_chinensis_AAK68929                ---------------------AVRTFTLDLAR-PTAAK-YSSFLDQIRNNMRDPRLK---YCSTEIAVIK----APSVADKFLRINFQG-----PRGTVSLGLARVNLYVVAYFAVDNR-NVNRAYYFRT----EINSAELRTVFPEVT-VANQRPLE-YTEDYQSIEKNAKITTGD-KSRKELGLGIDLLISTI-DKVNKKVRVV------KDEARFLLIGIQMSAEAVRFRYIQNLVTRNFPKKFNSD---NTVIQYQTS---WGKISEAIHSD-------CKNGKFNKDYNFGFGNVR-------LVKDFHMGLLMHLGPPKSF-FEANSTG----VAPAGVH-------
+Drimia_maritima_P84786                     ----------------SQCKAMTVKFTVELDIERLTGQTYTDFIKNLRRSLAT--WYLHG-----VPVLP-LY-NQEADPRGFDLKLTFR---GQVT--TVRIHRDDLVLRGYQMQGAG-------KWLELER---PSTQTGHLIEGSE-------LLEFGPSYEELAAAAQ------QDILDISYNKNALQDAVSKLAVSTNT--------RDRARSLIVVSQMFCEATRFVDIANHFAFNLESSEPVKLPQWMQNDLEKN---WVRFSFMILKS--------NADPCYKFEPQTIYG-KIIKTADELLNFLGI-VEQHPDTRSPPCAAG----------------------
+Euphorbia_serrata_AAO15530                 ----LNAPVN------------YPTVKFTTHL-ASVGS-YQTLMSALRVNLESKLES------HNIPLLRKPS-DITDQNKYLLVELTNY---DTKRTVTLALTVLNVYVIGYKSGT------KSFFLKDA-----PSDAKTLLFTDTTP----KTL-EVDTNYNNL-----------GDRSKVGLGIPALKNAI-NILNQFDG-S----TDQDFKHSLLIVIQMVSEAARFKFIQLKIEGGLLTQYLPKP---DTISYQNN---WSALSKSIQLAD-------ANGRLSESVTLKYEDGKDRVVFMVEQVQRDISLLLYHVGSTERLGEEKFGGVYADEAVEDELLSVI---
+Euphorbia_serrata_AAO15531                 ----LNAPIN------------YPSVKFTTHL-ASVGS-YQSFMSSLRKELDSGSES------HDIPLLRKPT-EITNNNKYLLVNLINY---DSQLSITLAVTVVNVYVIGYKSAG------NSFFLKDA-----PSDAKTLLFQGTNK----ITLSSVDSNYNNL-----------GDRSKVGLGIGPLSRSI-DTLNKFNG-S----VNNVFKESLLVVIQMVAEAARFKFIQLKIENNLLDEYKPKN---DTISYENN---WEKLSEQIQLSG-------TDGKFKKPVTLLYANGTDKIVSTVAQVKPDISILLYKGSSGITAAEEKVGEIFAKDVMEEWLPIML---
+Hordeum_vulgare_ACI00278                   -----------------MAKNVDKPLFTATFNVQASSADYATFIAGIRNKLRNPAHFSHN-----RPVLPPVE-PNVPPSKWFHVVLKAS---PTSAGLTLAIRADNIYLEGFKSSDG--------TWWELT---------PGLIPGAT-------YVGFGGTYRDLLGDT-------DKLTNVALGRQQLADAVTALHGRTKADKASGPKQQQAREAVTTLVLMVNEATRFQTVSGFVAGLLHPKAVEKKSGKIGNEMNAQVNGWQDLSAALLKT--------DVKPPPGKSPAKFAPIEKMGMRTAEQAANTLGILLFVEVPGGLTVAKALELFHASGGK-----------
+Hordeum_vulgare_BAJ98605                   --------------SATRILPHASQIVPLRFDCSTGVGDYKVFMKNLREQLTFARHER-----LDRPLLAKFR--PDNPARWMHVKLVS-----DNHEATLAIRDDTVYLIGFQARNG--------TWYEFSSSKPSLHLPPQKKESSLHLIEGSTFLDCGVTYGDLLGGAMNLVNMRLGHLQVNLGKLFAIEAVRLLSEYSGGGLT-----DNHKKALAGLILIICESARMISHFDTVINGWPRAGGKSISRQQVHYVWN----WGNMSRFLTGRS---RCLQDEERLRQSCGITTEELALGIVHLLLNSPQPPYPTAAGQGQAKPPQPGACGEDGPSGPGNPQQTPP----
+Hordeum_vulgare_BAK07457                   ---------------------MEGSTMTRLAG-------MAAFLLILGLAVGNIKHG-----HGGAVVVG--------DPTLIVVELQG----HNDDKSSVAVQKHDVSVAGFTDGSG--------QWHAFPG-------LEHLFPASTT-------LPFGSSYSELIGGIAN-------LPGVPLGREAMMQAIRVLSAYRPGAD-----VEPVKRALAAVKVVISEAQRLEPIRKAVNDGWDGESRVAP---EHLPYIEH---WDTMSYEILRSN-------RTGKWDGPFTKMLETQAN--IRSKEEALAVVGLLLNADFEKVFKAHAIPINLE----------------
+Hyacinthus_orientalis_Q677A1               ----------------YLTRALHEARSTSIPSPTKLTQASS---RELRITLAS--TYSKS-----VPVLP-VL-SHTA-PNGFDVVLTAG---ATTT--TARFRRDNLYLVGFRMQNN--------AWCEFR-------DSTQLIEGSR-------VLDFEGSYTDLERVG-------EKVMKMEFSKKELAAAVGVLAGSQNK--------GARAKSSLVVIQMISEAARFIDLSKLFASKLAKS--AKLEEWMRNDLENN---WALMSYQILKP--------EADPCYKFKPADHQPERLFRRRMTREAFSGS-SYRDAGHPQVTVQATMLNPFITKCRTL----------
+Jatropha_curcas_AAL58089                   --REIVCPFSSNQNY---KAGSTPTLTITYDA-AADKKNYAQFIKDLREAFGFSYSS------HEIPVLR--A-TVAPNQKFIVAKVIN----VANLEVSLGLNVVNAYLVGYKVGG------TSYFFNDPES---LADAKTYLFTDTKQ----QTL-SFTGSYADFLSRAN------VHREDVDLGVQALDNYI-YTLEKSSK-------PADIAKPLVGFIEMVPEAARFKYIEKKVLSQISKTLRPGG---DIISLENN---WGDLSYQIQKC--------VNGVFLKPVQLQRENYTNILVNNVTQVAGVMGVLLNAVN--YKV-------------------------
+Jatropha_curcas_AAL86778                   --REIVCPFSSNQNY---KAGSTPTLTITYDA-AADKKNYANFIRDLREAFGFSYSS------HEIPVLR--A-TVAANQKFIVAKVIN----VANLEVSLGLNVVNAYLVGYKVGG------TSYFFNDPES---LADAKTYLFTDTKQ----QTL-SFTGSYADFLSRAN------VHREDVDLGVQALDNYI-YTLEKSSK-------PADIAKPLVGFIEMVPEAARFEYIEKKISTQISKTFRPRG---DIISLENN---WGDLSYQIQKS--------VDDVFLKPVQLQRENYTNILVNNVTQVKGLMGVLLNAVK--YKV-------------------------
+Jatropha_curcas_ABW17545                   --REIVCPFSSNQNY---KAGSTPTLVITYDA-TTDKKNYAQFIEDLREAFDFSYLS------HKIPVLR--A-TVAANQKFIVAKVIN----SGDIEVSVGLNVINAYLVAYKVGS------NSYFFNDSES---LADAKKNLFTDTNQ----QTL-AFTGSYADFESRAK------LHREEVDLGVVALDNYV-YTLEKSSQ-------PADIAKPLVGFIEMVPEAARFKYIEKKISTQISKTFRPRG---DIISLENN---WGDLSYQIQKS--------VDDVFLKPVQLQRENYTNILVNNVTQVKGLMGVLLNAVN--YKVSMEEIIFNDQKWLPWL---------
+Jatropha_curcas_AEA72440                   --REIVCPFSSNQNY---KAGSTPTLTITYDA-TTDKKNYAQFIKDLREAFGFSYSS------HEIPVLR--A-TVAANQKFIVAKVIN----VANLEVSLGLNVVNAYLVAYKVGG------TSYFFNDPES---LADAKKYLFTDTKQ----QTL-SFTGSYADFLSRAN------VHREDVDLGVLALDNYI-YTLEKSSQ-------PADIAKPLVGFIEMVPEAARFKYIEKKVLTQISKTFRPRG---DIISLENN---WGDLSYQIQKS--------VNGVFLKPVQLQRENYTNILVNNVTQVTGLMGVLLNAVN--YKVSMEEIIFNYQKWLPWL---------
+Jatropha_curcas_AFK73426                   -LAR-VYPLQTNGNS-----VAIASFTITRYG-ETDKADYLQFMEDIRSKLGTGTPS------HGIPVLP--V-SVSKNQKYTTVELIN----SGNKKVTIGLNVLDLYVVAYKLENQ-----NSYFFNDP-K---FKDATDYLFKDTKQ----NPL-KISGNYESLKTQG-------GDRETVYLGVGQLDSFI-YTLYESTL-------PKDIAKPLVCIIQMVSEATRYKYIENEVVKHISDRFLPKG---DIISRENK---WQDLSEAIQKS--------VADEFTKPVQLQAPDYNVYNVYRVQQVKDDMGLLLNQANSGETEDITT---------------------
+Jatropha_curcas_AFK73427                   -LARVIHPSAIHNCTVTVDEIPSVSFTITRIP-GDDTAGYKQFMVDLREKLASGTTS------HGVPVLR--S-TASREAKYLLVNIIN----SGNKEITLGLNVISAYILSYKVGY------NSYFFKDKAE---LKDAQKYLFTDTRQ----TTLDKFSGNYDSFKAEG-------GDRETTDLGIGQLDSHI-YTLHKSTL-------PKDIAKPLVCIIQMVSEATRYKYIENKIIDKISGSFRPKL---DTITRENK---WEDLSDGIENAD-------AKGNFKTEVRLQKEDGKEDIISSVNQIIGDMGILLYQKKKSYNPSFGQTTF--GNLITTKSNCCLDFD-
+Jatropha_curcas_AFK73428                   -LARFICPLAIHNHT--VDAIPSVSFTISRIP-DDDKTGYKQLMVDLRNKLASGTTS------NGVPVLR--T-TASKEAKYLLVNIIN----TGNKEITLGLNVINAYVLAYKVGD------NSYFFNDPTE---LKDAQTYLFKDTKQ----NTI-KMTGSYDSLKAQG-------GDRETMDIGIGQLDSHI-YTLHKSTA-------LKDIAKPLVCIIQMVSEAARFKYIEKKIIDEVEGGFTPKL---DVISRENN---WGGLSEGIENAD-------KNGKFKTTVRLQNEDSSAKVISKVDEIIVEMGVLLYVKKKSYIPSFEQTIFGIGNLILNQINLLPRL--
+Jatropha_curcas_AFK73429                   -LDRVIHPSAIHNCTVIVDEIPFVSFTITGDP-GDDAAGYKQFMIDLREKLASGTTS------NGVPVLR--S-TASNEAKYLLVNITN----SGNKEITLGLNVISAYILAYKVGV------NSYFFKDRSE---LKDAKKYLFTGTTQ----TILSKFSGNYHSLKDEG-------GDRETTDLGIQQLDSHI-YTLHKSTL-------PKEIAKPLVCIIQLVSEATRYKYVENKIIDEIIVGFRPKL---DSITRENN---WGDLSKGIENAD-------EKGNF----------------------------------------------------------------
+Manihot_esculenta_cassava41023613m         ----RVCPITSDDKHK----LGFPTVSFTTAD-ATPDT-YSQFVQALRKELISGAES------YSIPLLRQES-KVSNAQRFVLVKLSN----AKA-STTLAIDVVNVYLVAYQVEA------SSYFFNDTSA---AAFSD--LFEGTTK----IRF-KFSGGYPDLKNLG-------ADRENVDLGLFSLDSAI-FSLNKYSSS-----DHNKIAAPLLVVIQMVSEASRISHIERKIMTYFYQRFRPLG---DVISLENQ---WSALSSAIQKSN-------G-GVFQEPVQLQKSDYTFFDVTNVKQIRPYLALLLFDSKKSVSSLRQDIDVA-----------------
+Manihot_esculenta_cassava41029773m         ----RVCPITSDDKHT----LGFPTVSFTTAG-ATPDT-YSQFVQALRKELISGAES------YSIPLLRQES-KVSNAQRFVLVKLSN----AKA-STTLAIDVVNVYLVAYQVEA------SSYFFNDTSA---AAFSD--LFKGTTK----TRF-KFSGGYPDLKNLG-------ADRENVDLGAISLDNAI-FSLNKYSS------DPNKIAAPLLVVIQMVSEASRISHIERKIMTNFYQRFRPLG---DVISLENK---WSALSSAIQKSN-------G-GVFQEPVQLQKSDYTFFDVTNVKQIRPYLALLLFDSKNSVSSLGQDIDVA-----------------
+Manihot_esculenta_cassava41031745m         ----RDCPLTSNQQHTT---LGYPAISFDTES-ATPKT-YSQFLTNLRTELKSGAEI------YSIPLLRQQS-KVLSSQRFVLVTLSN----SRS-SAILAIDVVNVYLVAYQVGT------SSYFFNDTSD---SAFSD--LFKGTTK----TRF-RFSGGYPDLKNLG-------ADRENVDLGIYPLDNAI-YALNRDSS------IPRAIAAPLVAVIQMVSEASRISHIERKIKTNFYQRFRPLG---DVISLENQ---WGALSSAIQKSN-------K-GVFQEPVQLQRSNYTIFNVTKVDEIKPYLALLLFVSTNSITSLGQEIVKSYLSTESLDGMWL-----
+Mesembryanthemum_crystallinum_AAB96824     -----------------------ATLVLDIGG-ATEKT-YSDFMTKLRTEAKGKDPM---YVG--LSMMP----KPTKPPTYLLVELKVSK----DMSITLSLSRNDLYVVGYSDMYK--GKCRYHVFPDHDS-KKPPYEQHSLCD--KAKDAIRKPIGYVSSYTEIERKAKVR-----NRKEIGLGVNKLKTLI-PKVYGSESKD-----YQDEAKFLLVAIQTIAEAARFPYIEKIAETAANP-------DDTAICLENN---WSKISKEIYNQ--------FKGNPQTPAKDVTVR-TCKNLKGINQVQKYITLLSYQGTSRQQLTKRNVVSVLSICS------------
+Mirabilis_expansa_AAN65450                 ----------QQPGTDQTLLAPPTLATLDLTAAAN----YPPFITNMRNVLSEKDKNGKDVLLCTMKKIS----TTVPSPRYAYVDIKAS----ATQTVTLAIDRTNTYVLGYRDIFG--GTD-----RAAFFKDVYDD-AKDLFPDAKGKN--RIKLSYGSQYTTL----GDRT-------KVPLGIKSLRISI-TAIYGEAAGT---DLDKNRREFFLLALQMVAEATRFKYISDKIPTERDYDTLK-V-DNHMIALENG---WDLLSTAIYNAKSSTTKPTKCELLKTPVSLIWLGQNEWNFNSVEEIAKVVGLLKAKGKKLSTNNDDDNNGDDCGSVVVASS-------
+Mirabilis_jalapa_P21326                    -----------AP-------TLETIASLDLNNPTT----YLSFITNIRTKVADKTEQ------CTIQKIS----KTFT-QRYSYIDLIVS----STQKITLAIDMADLYVLGYSDIAN--NKG-----RAFFFKDVTEAVANNFFPGATGTN--RIKLTFTGSYGDLEKNGGLRK-------DNPLGIFRLENSI-VNIYGKAG-----DVKKQAK-FFLLAIQMVSEAARFKYISDKIPSEK-YEEVT-V-DEYMTALENN---WAKLSTAVYNSKPSTTTATKCQLATSPVTIS-----PWIFKTVEEIKLVMGLLKSS--------------------------------
+Oryza_sativa_AAX96490                      -----------------------MAVRVENVEFNVRTGNYPEFMNNLRDRLAEHPDLDDVYAGCPVLAMQR---CPKQPARWMYINLVGN----GDDRATLAVRDDNVNLIGFRNLKG------QWFHMGFSG------MSKPILPEPST------FLGCDGSYPSLLGGRDEDDVKNMLVNDIDLRQVVLLDAVHKLSGYEQPPDPYGAADDDTKLDLVHLTVVFCEGARMALHYDAVNDGQISLN------ERQVDYLRN---WWLMSRALLQDETTP----WPRRLSSETGINDDEQARRVVLLVLNTSTTVHVHGAAERRPLVEKLFVVPARNPPLVPVSKPGVPIRD-
+Oryza_sativa_Q8S7P0                        TKMLLLLVSLAPVAAGEHGVAAAEPRLVEIPFNFSVHSWNELISNRLKAELADNPCR---QEIEGIPTMAGLHGDDEPPAKWITVRLFGG-GDRDDDQAKLLVAEDDAYVAGFANRTG--------HWHTFRG-----GRCYPALPATACT-----ELPFGGSYRDLIGGVAN-------LRAVPVGRSSAVGAMEVLSRYDPAATT---AAADAKMALAKFMVMVTEAARLKPVRRAVVERWEQVSYLSS---DEVRDVPY---YGKMSLMILEWK-------RTGRWGELGPWANIDRARCPRPTGCEDEDDADADAGAGELRGLRAIHAGTS------------------
+Phytolacca_acinosa_D0VWY1                  ----------------------INTITFDAGN-ATINK-YATFMESLRNEAKDPSLK---CYG--IPMLP----NTNSTIKYLLVKLQG--AS--LKTITLILRRNNLYVMGYSDPYD--NKCRYHIFNDIKG-TEYSDVENTLCPSTNPR--VAKPINYNGLYPTLENKAGVT-----SRNQVQLGIQILSSDI-GKISGQGSFT-----EKTEAKFLLVAIQMVPEAARFKYIENQVKTNFNRD--FFP-NDKVLELEEN---WGKISTAIHDA--------KNGALPKPLELKNADGTKWIVLRVDEIKPDVGLLKYVNGTCQTT-------------------------
+Phytolacca_acinosa_Q941G8                  ----------------------VNTIIYNVGS-TTISK-YATFLDNLRNEAKDPSLK---CYG--IPMLP----NTNPNPKYVLVELQG--SN--KKTITLMLRRNNLYVMGYSDPFDT-NKCRYHIFSDISG-TERQDVETTLCPNPNSR--VSKNINYDSRYPTLESKAGVK-----SRSQVQLGIQILDSNI-GKISGVTSFT-----EKTEAEFLLVAIQMVSEAARFKYIGNQVKTNFNRA--FNP-NPKVLNLEET---WGKISTAIHDA--------KNGVLPKPLELVDASGAKWIVLRVDDIKPDVALLNYVGGSCQTT-------------------------
+Phytolacca_americana_P10297                ----------------------VNTIIYNVGS-TTISK-YATFLNDLRNEAKDPSLK---CYG--IPMLP----NTNTNPKYVLVELQG--SN--KKTITLMLRRNNLYVMGYSDPFET-NKCRYHIFNDISG-TERQDVETTLCPNANSR--VSKNINFDSRYPTLESKAGVK-----SRSQVQLGIQILDSNI-GKISGVMSFT-----EKTEAEFLLVAIQMVSEAARFKYIENQVKTNFNRA--FNP-NPKVLNLQET---WGKISTAIHDA--------KNGVLPKPLELVDASGAKWIVLRVDEIKPDVALLNYVGGSCQTT-------------------------
+Phytolacca_americana_P23339                ----------------------INTITFDAGN-ATINK-YATFMESLRNEAKDPSLK---CYG--IPMLP----NTNSTIKYLLVKLQG--AS--LKTITLMLRRNNLYVMGYSDPYD--NKCRYHIFNDIKG-TEYSDVENTLCPSSNPR--VAKPINYNGLYPTLEKKAGVT-----SRNEVQLGIQILSSDI-GKISGQGSFT-----EKIEAKFLLVAIQMVSEAARFKYIENQVKTNFNRD--FSP-NDKVLDLEEN---WGKISTAIHNS--------KNGALPKPLELKNADGTKWIVLRVDEIKPDVGLLNYVNGTCQAT-------------------------
+Phytolacca_americana_Q03464                ----------------------INTITFDVGN-ATINK-YATFMKSIHNQAKDPTLK---CYG--IPMLP----NTNLTPKYLLVTLQD--SS--LKTITLMLKRNNLYVMGYADTYN--GKCRYHIFKDISNTTERNDVMTTLCPNPSSR--VGKNINYDSSYPALEKKVGR------PRSQVQLGIQILNSGI-GKIYGVDSFT-----EKTEAEFLLVAIQMVSEAARFKYIENQVKTNFNRA--FYP-NAKVLNLEES---WGKISTAIHNA--------KNGALTSPLELKNANGSKWIVLRVDDIEPDVGLLKYVNGTCQAT-------------------------
+Phytolacca_americana_Q40772                ------------------------NIVFDVEN-ATPET-YSNFLTSLREAVKDKKLT---CHG--MIMAT----TLTEQPKYVLVDLKF-GSG----TFTLAIRRGNLYLEGYSDIYN--GKCRYRIFKDSES-----DAQETVCPGDKSKPGTQNNIPYEKSYKGMESKGGA-------RTKLGLGKITLKSRM-GKIYGKDATDQK-QYQKNEAEFLLIAVQMVTEASRFKYIENKVKAKFDDANGYQP-DPKAISLEKN---WDSVSKVIAKVG-----TSGDSTVTLPGDLKDENNKPWTTATMNDLKNDIMAL-LTHVTCKVK-------------------------
+Phytolacca_americana_Q8RYA4                ------------------------IISFDVGS-ATISK-YTTFQESLRNQAKDANLK---CYG--IPMLP----NSNLNPKYLLIELRAKLSTSEVKTITLMLRRHNLYVMGYSDPIDV-NKCRFHTFKDISG-TERQDVETTLCPDPNSR--IRKDINYDSRYPTMETKAGVQ-----SGSQVQLGIEILNSGI-GKISGVSSFT-----EKTEAGFLLVAIQMVSEAARFKYIENQAKTNFNAG--FFP-DPKVISLEEA---WGKTSEAIHGA--------KNGAFSKPLELVDAQGNKWIVLRVDEIKSDVGLLKYVTGSCQVN-------------------------
+Phytolacca_americana_Q8S946                ----------------------INTFTFDAGN-STINK-YATFMESLRNQAKDPKLK---CYG--IPMLP----DTNSTPKYLLVKLQG--AN--LKTITLMLRRNNLYVMGYSDPFNG-NKCRYHIFNDITS-TERTDVENTLCSSSSSR--VAMSINYNSLYPTLEKKAEVN-----SRSQVQLGIQILSSDI-GKISGVDSFP-----VKTEAFFLLVAIQMVSEAARFKYIENQVKTNFNRA--FYP-DPKVINLEEK---WGKISEAIHNA--------KNGALPKPLELVDAKGTKWIVLRVDEINRDVALLKYVNGTCQAT-------------------------
+Phytolacca_dioica_P34967                   ----------------------VSTITFDVGS-ATISK-YTTFLESLRNQAKDPSLK---CYG--IPMLP----NTNPNPKYLLVELNAKLSSGEVKSITLMLRRHNLYVMGYSDPYD--NKCRYHIFKDISSTTERKDVETTLCPNASSR--VSKNISYDSSYPALENKAGR------SRSQVQLGIQILNSDI-GKISGVKSFT-----DKTEAEFLLVAIQMVSEATRFKYIENQVKTNFNRA--FYP-NAKVLNLEET---WGKISMAIHGA--------KNGAFSKPLELQNADGSKWIVLRVDEIKPDVALLKYVSGSCQAT-------------------------
+Phytolacca_dioica_P84853                   ----------------------INTITYDAGN-TTINK-YATFMESLRNEAKDPSLQ---CYG--IPMLP----NNSSTIKYLLVKLQG--AS--QKTITLMLRRNNLYVMGYSDPFN--GNCRYHIFNDITG-TERTNVENTLCSSSSSR--DAKPINYNSLYSTLEKKAEVN-----SRSQVQLGIQILSSDI-GKISGQSSFT-----DKTEAKFLLVAIQMVSEAARFKYIENQVKTNFNRD--FSP-NDKILDLEEN---WGKISTAIHDA--------TNGALPKPLELKNADGTKWIVLRVDEIKPDMGLLNYVNGTCQTT-------------------------
+Phytolacca_dioica_P84854                   ----------------------VNTITFDVGN-ATINK-YATFMESLRNEAKDPTLK---CYG--IPMLP----DSNLTPKYVLVKLQD--AS--SKTITLMLRRNNLYVMGYSDLYN--GKCRYHIFNDISS-TESTDVENTLCPNSNSR--EKKAINYNSQYSTLQNKAGVS-----SRSQVQLGIQILNSDI-GKISGVSTFT-----DKTEAEFLLVAIQMVSEAARFKYIENQVKTNFNRA--FNP-NPKVLSLEEN---WGKISLAIHNA--------KNGALTSPLELKNADDTKWIVLRVDEIKPDMGLLNYVSGTCQTT-------------------------
+Phytolacca_dioica_P85208                   ------------------------NIVFDVEN-ATPET-YSSFLTSLREAVKDKKST---CHG--MIMAT----TTTELPKYVLVDLKL-GSEKDAKTFTLAIRRGNLYLEGYSDIYN--EKCRYRIFEDSES-----DAQQTVCPGDLTLPGSQNKIPYKKSYQSMESKGGD-------RTKLGLGQITLESRM-NKIYGKDATDQK-QFQKNEAEFLLIAVQMITEASRFKYIENKVKDSFDDAIGYKP-DPKAISLETS---WDKISNAIAKVN-----TPGNSIVTLPKGLLDENKKPWTTATMDELKNDIMGL-LTHVTCKIK-------------------------
+Phytolacca_heterotepala_Q6EH50             ----------------------VNTIIYNVGS-TTISK-YATFLDDLRNEAKDPNLK---CYG--IPMLP----NTNSNPKYVLVELQG--SN--KKTITLMLRRNNLYVMGYSDPFDT-SKCRYHIFNDISG-TERQDVETTLCPNSNSR--VSKNINYDSRYPTLESKVGVK-----SRSQVQLGIQILDSDI-GKISGVTSFS-----EKTEAEFLLVAIQ-ISEAARFKYIENQVKTNFNRA--FNP-NPKVLNLEET---WGKISTAIHDA--------KNGVLPKPLELVDASGAKWIVLRVDEIKPDVALLNYVSGSCQTT-------------------------
+Phytolacca_insularis_PIP                   ----------------------VNTIIYNVGS-TTIRN-YATFLDNLRNEAKDPSLM---CYG--IPMLP----NIDTNPKYILVELQG--SN--RRSITLMLRRNNLYVMGYSDPYN--NRCRFHIFKDISG-TEREDVETTLCPNADSR--VGKNINYDSRYPTLESKAGVN-----SRSRVQLGIRILDSGI-GRISGVTSFT-----ERTEAEFLLVAIQMVSEAARFKYIEDQVKTNFNRP--FNP-NPKVLILQET---WGKISSAIHGA--------RNGVLPNPLQLVHANGANWIVLRVDEIKPDVSLLNYVIGSCQRT-------------------------
+Phytolacca_insularis_Q9XFF8                --------------------ASPNPITFEVGN-ATINK-YATFMKSLRDQAKDPNLQ---CYG--IPMLP----NTSLTPKYLLVALQD--SS--LKTITLMLKRNNLYVMGYADTYN--NKCRYHIFKDISNTTERNDVMTTLCPNMSSR--VGKNISYDSSYPALEKKVGR------SRSKVQLGIQILNSDI-GKIYGVDTVN-----EKTEAEFLLVAIQMVPEATRFKYIENQVKTNFNRA--FYP-NAKVLNLEET---WGKISTAIHDA--------KNGALTKPLELINEDGTKWIVLRVDEIKPDVGLLNYVDGTCQTT-------------------------
+Phytolacca_octandra_Q4A524                 --------------------------VFDVEN-ATPET-YSTFLTSLREAVKDKKLT---CHG--MIMAT----TLTEQPKYVLVDLKF-GSGKDVKTFTLAIRRGNLYLEGYSDIYN--GKCRYRIFKDSES-----DAQKTVCPGDTTTPGPQNKIPYDKSYKGMESKGGD-------RTKLGLGKITLKSRM-GKIYGEDATDQK-QYQKNEAEFLLIAVQMITEASRFKYIENKVKDKFDDANGYKP-DPKAISLEKN---WDSTSKAIAKVN-----TPGDSIVTLPGGLKDENNKPWTTATMNELKNNIMAL-LTQVTCKVK-------------------------
+Phytolacca_octandra_Q4A525                 --------------------------IYNVGS-TTISK-YTTSLDDLRNEAKDPNLK---CYG--IPMLP----NTNPDPKYVLVELQG--SN--KKTITLMLRRNNLYVMGYSDPFDT-NKCRYHIFNDISG-TERQDVETTLCPNPNSR--VIKNINYDSRYPTLESKAGVK-----SRSQVQLGIQILDSDI-GKISGVTSFT-----EKTEAEFLLVAIQMVSEAARFKYIENQVKTNFNRA--FNP-NPKVLNLEET---WGKISTAIHDA--------KNGVLPKPLELVDASGAKWIVSRVDEIKPDVALLNYVSGSCQTT-------------------------
+Saponaria_officinalis_3HIQ                 ----------------------VIIYELNLQG-TTKAQ-YSTFLKQLRDDIKDPNLH---YGGTNLPVIK----RPVGPPKFLRVNLKA-----STGTVSLAVQRSNLAVAAYLAKNNN-KQFRAYYFKGF---QITTNQLNNLFPEATGVSNQQELG-YGESYPQIQNAAGVT------RQQAGLGIKKLAESM-TKVNGVARVE------KDEALFLLIVVQMVGEAARFKYIENLVLNNFDTAKEVEPVPDRVIILENN---WGLLSRAAKT--------ANNGVFQTPLVLTSYAVPGVEWRVTTVAEVEIGIFLNVDNN-----------------------------
+Saponaria_officinalis_P20656               ----------------------VTSITLDLVN-PTAGQ-YSSFVDKIRNNVKDPNLK---YGGTDIAVIG----PPSK-EKFLRINFQS-----SRGTVSLGLKRDNLYVVAYLAMDNT-NVNRAYYFRS----EITSAESTALFPEAT-TANQKALE-YTEDYQSIEKNAQITQGD-QSRKELGLGIDLLSTSM-EAVNKKARVV------KDEARFLLIAIQMTAEAARFRYIQNLVIKNFPNKFNSE---NKVIQFEVN---WKKISTAIYGD-------AKNGVFNKDYDFGFGKVR-------QVKDLQMGLLMYLGKPKSS-NEANSTVRHYGPLKPTLLIT-----
+Saponaria_officinalis_P27559               ----------------------VTSITLDLVN-PTAGQ-YSSFVDKIRNNVKDPNLK---YGGTDIAVIG----PPSK-DKFLRINFQS-----SRGTVSLGLKRDNLYVVAYLAMDNT-NVNRAYYFKS----EITSAELTALFPEAT-TANQKALE-YTEDYQSIEKNAQITQGD-KSRKELGLGIDLLLTFM-EAVNKKARVV------KNEARFLLIAIQMTAEVARFRYIQNLVTKNFPNKFDSD---NKVIQFEVS---WRKISTAIYGD-------AKNGVFNKDYDFGFGKVR-------QVKDLQMGLLMYLGKPKSS-NEANSTA-----YATTVL-------
+Saponaria_officinalis_Q7M1Z2               ----------------------VTSITLDLVN-PTAGQ-YSSFVDKIRNNVKDPNLK---YGGTDIAVIG----PPSK-DKFLRINFQS-----SRGTVSLGLKRDNLYVVAYLAMDNT-NVNRAYYFRS----EITSAELTALFPEAT-AANHKALE-YTEDYHSIEKNAQITEGD-KSRKELGLGINLLSSTM-DTVNKKVRVV------KNEARFLLIAIQMTAEAVRFRYIQNLVTKNFPNKFNSE---NKVIKFEVN---WKKISTAIHGD-------AKNGVFNKDYDFGFGKVR-------LVKDLQMGLLMHLGKPK----------------------------
+Secale_cereale_Q7M1Z3                      --------------AAKMAKNVDKPLFTAFTNVQSSSADYVTFITGIRNKLGNPRHFSHN-----RPVLPPIE-PKVPPSRWFHIVLKTS---PASTGLTLATRADNLYWEGFKSSDG--------TWWELT---------PGLIPGAT-------YFGFGGTYRDLLGDT-------DKLTNVALGRQQMADAVTALYGRTKADKSSGPKQQQAREAVTTLLLMVHEATRFQSVSAFVAGLLHPKAVEKKSGKISNELKAQVNGWQDLSEALLKT--------DAKPPAGKPPAKFTPIEKMGVRTAEQAAATLGILLFVQVPGGMTAAQALELFHASGGK-----------
+Silene_chalcedonica_P85101                 ----------------------RPSWTVDSDS-----AKYSSFLDSLREEFGRGTPK-----VCNIPVTK-----KANNDKFVLVNLVLP---FNRNTITLAFRASDAYLVGFQDRDSKTNKLRANFFSDEYR--ALSGKYKSIFTDAEVL---APALPCASTYTDLQNKAGVS------REKLSLGVSSLQTAF-TAVYGKVFTG------KNVAKFALISIQMVAEAARFKYIEDQVINRGMYSSFEAG--ARITLLENN---WSKISEQYHKS------------------------CKLGGGQFTEEEMKLGLLLYN--------------------------------
+Spinacia_oleracea_BAB83507                 ----------VVEDEEMIENLRYTTVTFELTNGVT---GYSSFMTRLRNAVEAPTRACG----LQSTRST----PLPGA-EYIHVDLKIS----NTQWVTLGIDVKDFYVWGYQDNVR--YNG---NYRASFLNDAPQAAKNNLFRGSTI-----RTTRFGGNYNSLEPAAGITR------RNLVLGIQNLDGAI-RTVYGKQESEL--NKGNAEARFFLIAIQMVAEAARFKFMEEAIVRNDNTPDFK----RKMVAFQND---WDPISTAIHR---AEAATPKCTRITPTLVISNTEYR-QEVNTVAEIKDDMGLLKYRSTTLSSIASSILDDDEFLESALI---------
+Spinacia_oleracea_BAG71411                 ----------------------VSDVTFDLET-ASKTK-YNTFLSDIRTKVKDPKLV---YEG--IPMLP----PPTTPTKYILIDLKAKQNAATTITVTLALSRNDLYVVAFTDQTA--PNLRAHYFAA----DITPATVRTLFP--TATELIP--IGYGSSYQNLEGNAGI------LRENLQLGFQPLKQYM-VNVYGKSIQAT--DYRKNEAKFLLTTIQMVAEAARFKYIEGKAINSFIP-------DYKVPSLGTN---WEKISKAIRSA--------VKKFT-PPIALVYANNTAWVITQVSDIKPDLGLLKYVP-------------------------------
+Stellaria_media_ADB83311                   -------------------------IALDLAN-PTAAK-YTAFLTSIRDNVKGAGLA---YGGTNIPVIA----PPTDT--FLRIDFTL-----ATGTVSLCLKRSDLYVVGFVVKNDK-GKFRAYYFNG----QIRPPQLDTIFPEAKGTANQQIITEYAENYASIESAAKVT------RKAAGLGIGKLVTYL-GAVNGKARKV------QDEAKFMLVAIQMVSEAARFGYIQNLVLQNFPNGFNPD---DKVLILERN---WNRISTAIKG--------STRGAFSTTLVLSSPEVS-TTWAVNNAAELNMGLLGNVNTALSESPLKEVQFI-----------------
+Stellaria_media_ADB83312                   -------------------------IALDLAN-PTAAK-YTAFLTSIRDNVKGAGLA---YGGTNIPVIG----PPTDT--FLRIDFTL-----ATGTVSLCLKRNDLYVVGYVAKNDK-GKFHAYYFNG----QINSLDLDTIFPEAKGKTNQQIIKEYTENYASIETAAKIS------RKAAGLGIGKLVTYL-GAVNGKARKV------QDEAKFMLVAIQMVAEAARFGYIQNLVLQNFPNGFTPD---DKVLILERN---WNRISTAIKG--------STRGAFSTTLVLSSPEVS-VGR------------------------------------------------
+Suregada_multiflora_AAA16312               ---------------------GLDTVSFSTKG-ATYIT-YVNFLNELRVKLKPEGNS------HGIPLLRKKC-DDP-GKCFVLVALSN----DNGQLAEIAIDVTSVYVVGYQVRN------RSYFFKDAPD---AAYEG--LFKNTIK----TRL-HFGGSYPSLEGEK-------AYRETTDLGIEPLRIGI-KKLDENAINY----KPTEIASSLLVVIQMVSEAARFTFIENQIRNNFQQRIRPAN---NTISLENK---WGKLSFQIRTSG-------ANGMFSEAVELERANGKKYYVTAVDQVKPKIALLKFVDKDPKTSLAAELIIQN--YESLVGFD------
+;
+END;
+
+BEGIN TREES;
+      TITLE Angiosperms_Group_3_Type_1_RIPs_and_type_2_RIP_A_chains_;
+      LINK TAXA = Taxa3;
+         TRANSLATE
+            1    Abrus_precatorius_AAA32624,
+            2    Abrus_precatorius_P28590,
+            3    Abrus_precatorius_Q06077,
+            4    Abrus_precatorius_Q9M6E9,
+            5    Abrus_pulchellus_ABW23503,
+            6    Abrus_pulchellus_ABW23504,
+            7    Adenia_volkensii_CAD61022,
+            8    Bryonia_cretica_P33185,
+            9    Bryonia_cretica_P98184,
+            10   Camelia_sinensis_ADF45509,
+            11   Camelia_sinensis_ADF45512,
+            12   Cinnamomum_camphora_AET98835,
+            13   Cinnamomum_camphora_Q94BW5,
+            14   Cucumis_ficifolius_Q9FRX4,
+            15   Cucumis_sativus_XP004140357,
+            16   Cucurbita_moschata_3BWH,
+            17   Drimia_maritima_P84786,
+            18   Euphorbia_serrata_AAO15530,
+            19   Euphorbia_serrata_AAO15531,
+            20   Gossypium_raimondii_013G087700,
+            21   Gynostemma_pentaphyllum_AAN08103,
+            22   Gynostemma_pentaphyllum_AAN08104,
+            23   Hordeum_vulgare_ACI00278,
+            24   Hordeum_vulgare_BAJ98605,
+            25   Hordeum_vulgare_BAK07457,
+            26   Iris_hollandica_3MVG,
+            27   Iris_hollandica_AAC49780,
+            28   Iris_hollandica_Q8W2E7,
+            29   Jatropha_curcas_AAL58089,
+            30   Jatropha_curcas_AAL86778,
+            31   Jatropha_curcas_ABW17545,
+            32   Jatropha_curcas_AEA72440,
+            33   Jatropha_curcas_AFK73425,
+            34   Jatropha_curcas_AFK73426,
+            35   Jatropha_curcas_AFK73427,
+            36   Jatropha_curcas_AFK73428,
+            37   Jatropha_curcas_AFK73429,
+            38   Luffa_acutangula_P84530,
+            39   Luffa_cylindrica_CAA44230,
+            40   Luffa_cylindrica_P22851,
+            41   Luffa_cylindrica_Q00465,
+            42   Malus_domestica_MDP0000134012,
+            43   Malus_domestica_MDP0000223290,
+            44   Malus_domestica_MDP0000284608,
+            45   Malus_domestica_MDP0000711911,
+            46   Malus_domestica_MDP0000918923,
+            47   Manihot_esculenta_cassava41023613m,
+            48   Manihot_esculenta_cassava41029773m,
+            49   Manihot_esculenta_cassava41031745m,
+            50   Momordica_balsamina_4H0Z,
+            51   Momordica_balsamina_P29339,
+            52   Momordica_charantia_AAX20021,
+            53   Momordica_charantia_BAH05018,
+            54   Oryza_sativa_AAX96490,
+            55   Oryza_sativa_Q8S7P0,
+            56   Panax_ginseng_ABG76785,
+            57   Phyllostachys_edulis_FP092597,
+            58   Polygonatum_multiflorum_Q9M653,
+            59   Polygonatum_multiflorum_Q9M654,
+            60   Prunus_persica_ppa009409m,
+            61   Prunus_persica_ppa009637m,
+            62   Ricinus_communis_28842m000952,
+            63   Ricinus_communis_XP002534220,
+            64   Ricinus_communis_XP002534649,
+            65   Sambucus_ebulus_CAC33178,
+            66   Sambucus_ebulus_CAQ42478,
+            67   Sambucus_nigra_AAC15886,
+            68   Sambucus_nigra_AAC49158,
+            69   Sambucus_nigra_AAC49672,
+            70   Sambucus_nigra_AAC49673,
+            71   Sambucus_nigra_P33183,
+            72   Sambucus_nigra_P93543,
+            73   Sambucus_sieboldiana_Sieboldin,
+            74   Sambucus_sieboldiana_SSA,
+            75   Secale_cereale_Q7M1Z3,
+            76   Sorghum_bicolor_XP002459593,
+            77   Suregada_multiflora_AAA16312,
+            78   Trichosanthes_anguina_P56626,
+            79   Trichosanthes_kirilowii_1GGP,
+            80   Trichosanthes_kirilowii_2019502A,
+            81   Trichosanthes_kirilowii_AAA70096,
+            82   Trichosanthes_kirilowii_AAM22782,
+            83   Trichosanthes_kirilowii_BAG12408,
+            84   Trichosanthes_kirilowii_P09989,
+            85   Viscum_album_AAT37532,
+            86   Viscum_album_AAY34343,
+            87   Viscum_album_P81446,
+            88   Viscum_album_P82683,
+            89   Viscum_album_Q6H266,
+            90   Viscum_articulatum_ABU95610,
+            91   Ximenia_americana_CAJ38823,
+            92   Zea_mays_DAA39742;
+      TREE Group_3 = [&R] ((((((((((((((((39,40),(38,41)),14),(50,52)),(8,(82,(81,(84,80))))),51),78),16),(21,22)),(((15,53),45),((9,83),(46,((42,43),(44,(60,61))))))),(79,(4,(5,(1,(3,(2,6))))))),(62,((59,58),((((67,71),73),65),((70,69),(72,(66,(68,74)))))))),((((((76,92),57),(63,64)),91),(20,7)),(56,((13,12),(((10,11),33),(((26,27),28),(90,(88,(89,(86,(85,87))))))))))),((((47,48),49),77),((18,19),((((29,30),32),31),(34,(36,(35,37))))))),17),((75,23),((24,54),(25,55))));
+
+
+
+END;
+BEGIN TREES;
+      TITLE Monocots_Group_1_Type_1_RIPs;
+      LINK TAXA = Taxa4;
+         TRANSLATE
+            1    Arthrobotrys_oligospora_EGX49275,
+            2    Beauveria_bassiana_EJP61635,
+            3    Beauveria_bassiana_EJP64846,
+            4    Brachypodium_distachyon_I1H5Y4,
+            5    Brachypodium_distachyon_I1HK11,
+            6    Burkholderia_sp_YP003610323,
+            7    Cordyceps_militaris_EGX87856,
+            8    Cronobacter_condimenti_WP007664251,
+            9    Drimia_maritima_P84786,
+            10   Erwinia_billingiae_YP003742802,
+            11   Escherichia_coli_1R4P,
+            12   Escherichia_coli_YP670472,
+            13   Eutypa_lata_EMR66115,
+            14   Hordeum_vulgare_AAB33361,
+            15   Hordeum_vulgare_ACI00278,
+            16   Hordeum_vulgare_BAJ93458,
+            17   Hordeum_vulgare_BAJ98605,
+            18   Hordeum_vulgare_BAK03617,
+            19   Hordeum_vulgare_BAK03860,
+            20   Hordeum_vulgare_BAK05402,
+            21   Hordeum_vulgare_BAK07457,
+            22   Hordeum_vulgare_P04399,
+            23   Hordeum_vulgare_P22244,
+            24   Hordeum_vulgare_Q00531,
+            25   Hyacinthus_orientalis_Q677A1,
+            26   Muscari_armeniacum_Q71SN2,
+            27   Muscari_armeniacum_Q8L5M2,
+            28   Muscari_armeniacum_Q8L5M3,
+            29   Muscari_armeniacum_Q8L5M4,
+            30   Oryza_sativa_AAX96490,
+            31   Oryza_sativa_ABA96584,
+            32   Oryza_sativa_BAB85658,
+            33   Oryza_sativa_BAB85659,
+            34   Oryza_sativa_Q10F32,
+            35   Oryza_sativa_Q69S32,
+            36   Oryza_sativa_Q8S7P0,
+            37   Pantoea_stewartii_EHT99686,
+            38   Populus_trichocarpa_EEE75844,
+            39   Rickettsiella_grylli_ZP02062680,
+            40   Secale_cereale_Q7M1Z3,
+            41   Serratia_odorifera_WP004959514,
+            42   Shigella_dysenteriae_1DM0,
+            43   Streptomyces_coelicolor_CAB89764,
+            44   Streptomyces_lividans_ZP06526866,
+            45   Streptomyces_scabiei_CBG75759,
+            46   Triticum_aestivum_Q07810,
+            47   Zea_mays_P10593;
+      TREE Group_1 = [&R] ((((((((((20,21),(34,36)),(19,(18,35))),(31,(17,30))),(24,14)),(47,(4,((32,33),((40,46),(15,(23,22))))))),((5,16),(13,(((2,7),1),((3,38),((9,25),(27,(29,(28,26))))))))),(45,(43,44))),(6,(39,(11,42)))),((8,12),(10,(37,41))));
+
+
+
+END;
+BEGIN TREES;
+      TITLE Dicots_Group_2_Type_1_RIPs;
+      LINK TAXA = Taxa2;
+         TRANSLATE
+            1    Amaranthus_tricolor_AAB67746,
+            2    Amaranthus_viridis_AAB93956,
+            3    Amaranthus_viridis_AAC98718,
+            4    Atriplex_canescens_AEY75258,
+            5    Atriplex_patens_ABJ90432,
+            6    Beta_vulgaris_AAS67266,
+            7    Beta_vulgaris_Q1H8M9,
+            8    Beta_vulgaris_Q1H8N0,
+            9    Bougainvillea_buttiana_AAY34283,
+            10   Bougainvillea_spectabilis_AAL35962,
+            11   Bougainvillea_spectabilis_ABI64066,
+            12   Chenopodium_album_AAF66234,
+            13   Chenopodium_album_AAK28323,
+            14   Clerodendrum_aculeatum_CAA65328,
+            15   Clerodendrum_inerme_ACF41167,
+            16   Dianthus_caryophyllus_P24476,
+            17   Dianthus_chinensis_AAK68929,
+            18   Drimia_maritima_P84786,
+            19   Euphorbia_serrata_AAO15530,
+            20   Euphorbia_serrata_AAO15531,
+            21   Hordeum_vulgare_ACI00278,
+            22   Hordeum_vulgare_BAJ98605,
+            23   Hordeum_vulgare_BAK07457,
+            24   Hyacinthus_orientalis_Q677A1,
+            25   Jatropha_curcas_AAL58089,
+            26   Jatropha_curcas_AAL86778,
+            27   Jatropha_curcas_ABW17545,
+            28   Jatropha_curcas_AEA72440,
+            29   Jatropha_curcas_AFK73426,
+            30   Jatropha_curcas_AFK73427,
+            31   Jatropha_curcas_AFK73428,
+            32   Jatropha_curcas_AFK73429,
+            33   Manihot_esculenta_cassava41023613m,
+            34   Manihot_esculenta_cassava41029773m,
+            35   Manihot_esculenta_cassava41031745m,
+            36   Mesembryanthemum_crystallinum_AAB96824,
+            37   Mirabilis_expansa_AAN65450,
+            38   Mirabilis_jalapa_P21326,
+            39   Oryza_sativa_AAX96490,
+            40   Oryza_sativa_Q8S7P0,
+            41   Phytolacca_acinosa_D0VWY1,
+            42   Phytolacca_acinosa_Q941G8,
+            43   Phytolacca_americana_P10297,
+            44   Phytolacca_americana_P23339,
+            45   Phytolacca_americana_Q03464,
+            46   Phytolacca_americana_Q40772,
+            47   Phytolacca_americana_Q8RYA4,
+            48   Phytolacca_americana_Q8S946,
+            49   Phytolacca_dioica_P34967,
+            50   Phytolacca_dioica_P84853,
+            51   Phytolacca_dioica_P84854,
+            52   Phytolacca_dioica_P85208,
+            53   Phytolacca_heterotepala_Q6EH50,
+            54   Phytolacca_insularis_PIP,
+            55   Phytolacca_insularis_Q9XFF8,
+            56   Phytolacca_octandra_Q4A524,
+            57   Phytolacca_octandra_Q4A525,
+            58   Saponaria_officinalis_3HIQ,
+            59   Saponaria_officinalis_P20656,
+            60   Saponaria_officinalis_P27559,
+            61   Saponaria_officinalis_Q7M1Z2,
+            62   Secale_cereale_Q7M1Z3,
+            63   Silene_chalcedonica_P85101,
+            64   Spinacia_oleracea_BAB83507,
+            65   Spinacia_oleracea_BAG71411,
+            66   Stellaria_media_ADB83311,
+            67   Stellaria_media_ADB83312,
+            68   Suregada_multiflora_AAA16312;
+      TREE Group_2 = [&R] ((((((((((((((57,53),43),42),54),(51,(48,(50,(44,41))))),((45,55),(47,49))),(15,14)),(52,(56,46))),(36,((6,65),((4,5),(12,13))))),(((2,3),7),(58,((66,67),((16,17),(61,(60,59))))))),((38,37),(1,(8,64)))),(63,(9,(10,11)))),(68,((19,20),(((33,34),35),((((25,26),28),27),(29,(31,(30,32)))))))),(((18,24),(62,21)),((22,39),(23,40))));
+
+
+
+END;
+BEGIN TREES;
+      TITLE Angiosperms_Type_2_RIP_B_chains_and_lectins;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Abrus_precatorius_AAA32624,
+            2    Abrus_precatorius_P28590,
+            3    Abrus_precatorius_Q06077,
+            4    Abrus_precatorius_Q9M6E9,
+            5    Abrus_pulchellus_ABW23503,
+            6    Abrus_pulchellus_ABW23504,
+            7    Adenia_volkensii_CAD61022,
+            8    Agaricus_bisporus_ACN56442,
+            9    Agaricus_bisporus_EKM79674,
+            10   Agaricus_bisporus_EKM79675,
+            11   Camelia_sinensis_ADF45509,
+            12   Camelia_sinensis_ADF45512,
+            13   Cinnamomum_camphora_AET98835,
+            14   Cinnamomum_camphora_Q94BW5,
+            15   Cucumis_sativus_XP004140357,
+            16   Cucumis_sativus_XP004146289,
+            17   Cucumis_sativus_XP004149970,
+            18   Cucumis_sativus_XP004151509,
+            19   Gossypium_raimondii_013G087700,
+            20   Iris_hollandica_Q8W2E7,
+            21   Jatropha_curcas_AFK73425,
+            22   Malus_domestica_MDP0000711911,
+            23   Momordica_charantia_BAH05018,
+            24   Phyllostachys_edulis_FP092597,
+            25   Polygonatum_multiflorum_Q9M653,
+            26   Polygonatum_multiflorum_Q9M654,
+            27   Populus_trichocarpa_XP002307943,
+            28   Ricinus_communis_XP002534220,
+            29   Ricinus_communis_XP002534649,
+            30   Sambucus_ebulus_AAM94880,
+            31   Sambucus_ebulus_CAC33178,
+            32   Sambucus_ebulus_CAQ42478,
+            33   Sambucus_nigra_AAC15885,
+            34   Sambucus_nigra_AAC15886,
+            35   Sambucus_nigra_AAC49158,
+            36   Sambucus_nigra_AAC49672,
+            37   Sambucus_nigra_AAC49673,
+            38   Sambucus_nigra_AAN86131,
+            39   Sambucus_nigra_AAN86132,
+            40   Sambucus_nigra_P33183,
+            41   Sambucus_nigra_P93543,
+            42   Sambucus_sieboldiana_BAD93340,
+            43   Sambucus_sieboldiana_Sieboldin,
+            44   Sambucus_sieboldiana_SSA,
+            45   Sorghum_bicolor_XP002459593,
+            46   Trichosanthes_kirilowii_1GGP,
+            47   Viscum_album_AAT37532,
+            48   Viscum_album_AAY34343,
+            49   Viscum_album_P81446,
+            50   Viscum_album_P82683,
+            51   Viscum_album_Q6H266,
+            52   Viscum_articulatum_ABU95610,
+            53   Ximenia_americana_CAJ38823,
+            54   Zea_mays_DAA39742;
+      TREE B_chains = [&R] (((((((((((((2,3),1),(6,5)),4),46),(20,53)),((12,11),(14,13))),(((29,28),21),(((45,54),24),(48,(50,(52,(51,(47,49)))))))),(19,(((23,15),22),(26,((((37,36),41),(32,(35,44))),(25,(((38,30),31),((34,43),(40,(42,(33,39))))))))))),7),27),(16,(17,18))),(8,(9,10)));
+
+
+
+END;

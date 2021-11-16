@@ -1,0 +1,76 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:27 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Wolfe A., & Elisens W. 1994. Nuclear ribosomal DNA restriction-site variation in
+Penstemon section Peltanthera (Scrophulariaceae): An evaluation of diploid hybrid
+speciation and evidence for introgression. American Journal of Botany, 81: 1627-1635.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S200]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=10;
+        TAXLABELS
+            Penstemon_centranthifolius
+            Penstemon_clevelandi
+            Penstemon_confusus
+            Penstemon_grinnellii
+            Penstemon_incertus
+            Penstemon_murryanus
+            Penstemon_newberryi
+            Penstemon_palmeri
+            Penstemon_spectabilis
+            Penstemon_utahensis
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M447]
+
+	TITLE Table_3;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=30;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2 3 4 5 6 7 8 k" MISSING=9 GAP= -;
+
+MATRIX
+[                                      10        20        30]
+[                                       .         .         .]
+Penstemon_centranthifolius     011000111100001100110011101010
+Penstemon_clevelandi           011000011001101110100001101010
+Penstemon_confusus             011000011010101101100011191910
+Penstemon_grinnellii           011000011010101110100011101011
+Penstemon_incertus             011100011010101110100011111011
+Penstemon_murryanus            011000111100001101110011191910
+Penstemon_newberryi            111010011001101110100001101110
+Penstemon_palmeri              011000111010011110100001111011
+Penstemon_spectabilis          011000011001101110100001101010
+Penstemon_utahensis            011000011010001101100011191910
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb4929;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Penstemon_newberryi,
+            2    Penstemon_murryanus,
+            3    Penstemon_utahensis,
+            4    Penstemon_confusus,
+            5    Penstemon_centranthifolius,
+            6    Penstemon_spectabilis,
+            7    Penstemon_clevelandi,
+            8    Penstemon_grinnellii,
+            9    Penstemon_incertus,
+            10   Penstemon_palmeri;
+      TREE Fig._3 = [&R] (1,(((((2,5),3),4),(8,(9,10))),6,7));
+
+
+
+END;

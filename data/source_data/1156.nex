@@ -1,0 +1,84 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:46 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Berry P. 1989. A systematic revision of Fuchsia sect. Quelusia (Onagraceae). Annals
+of the Missouri Botanical Garden, 76: 532-584.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S89]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=13;
+        TAXLABELS
+            Fuschia_alpestris
+            Fuschia_bracelinae
+            Fuschia_brevilobis
+            Fuschia_campos.portoi
+            Fuschia_coccinea
+            Fuschia_glazioviana
+            Fuschia_hatschbachii
+            Fuschia_lycioides
+            Fuschia_magellanica
+            Fuschia_regia__regia
+            Fuschia_regia_reitzii
+            Fuschia_regia_serrae
+            sect._Skinnera
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M3638]
+
+	TITLE Table_3;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=22;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2 3" MISSING=? GAP= -;
+
+MATRIX
+[                                 10        20  ]
+[                                  .         .  ]
+Fuschia_alpestris         1?0?111130000003300110
+Fuschia_bracelinae        110?111130000003301010
+Fuschia_brevilobis        1101211130000003300110
+Fuschia_campos.portoi     1101111130000003300001
+Fuschia_coccinea          1101111130000003301010
+Fuschia_glazioviana       110?111130000003300001
+Fuschia_hatschbachii      1101111130000003300000
+Fuschia_lycioides         111000002101101220000?
+Fuschia_magellanica       1100111130000003300000
+Fuschia_regia__regia      1?01111130000003300100
+Fuschia_regia_reitzii     120?111130000003300000
+Fuschia_regia_serrae      1201211130000003310100
+sect._Skinnera            0000000010100101100?0?
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb4806;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    sect._Skinnera,
+            2    Fuschia_lycioides,
+            3    Fuschia_alpestris,
+            4    Fuschia_bracelinae,
+            5    Fuschia_brevilobis,
+            6    Fuschia_campos.portoi,
+            7    Fuschia_coccinea,
+            8    Fuschia_glazioviana,
+            9    Fuschia_hatschbachii,
+            10   Fuschia_magellanica,
+            11   Fuschia_regia__regia,
+            12   Fuschia_regia_serrae,
+            13   Fuschia_regia_reitzii;
+      TREE Fig._3 = [&R] ((1,(2,(10,((13,(11,12)),9,(8,6),((4,7),(3,5)))))Quelusia));
+
+
+
+END;

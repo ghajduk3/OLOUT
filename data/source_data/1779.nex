@@ -1,0 +1,323 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:50 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Peach M.B., & Rouse G. 2004. Phylogenetic trends in the abundance and distribution
+of pit organs of elasmobranchs. Acta Zoologica, 85: 233-244.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S11810]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=53;
+        TAXLABELS
+            Aculeola
+            Aetobatines
+            Alopiidae
+            Brachaelurus
+            Carcharhinidae
+            Centrophorus
+            Centroscyllium
+            Chlamydoselachidae
+            Dalatiines
+            Dasyatididae
+            Deania
+            Echinorhinus
+            Etmopteridae
+            Euprotomicrinines
+            Ginglymostomatidae
+            Gymnuridae
+            Hemigaleidae
+            Hemiscylliidae
+            Heptranchias_perlo
+            Heterodontidae
+            Hexanchus_griseus
+            Hexatrygon
+            Lamnidae
+            Leptocharias
+            Manta_sp._Mobula_sp.
+            Megachasma
+            Mitsukurina
+            Myliobatididae
+            Narcinidae
+            Narkidae
+            Notorhynchus_maculatus
+            Odontaspididae
+            Orectolobidae
+            Outgroup_to_Neoselachii
+            Oxynotus
+            Parascylliidae
+            Plesiobatis
+            Pristidae
+            Pristiophoridae
+            Proscylliidae_Pseudotriakidae
+            Pseudocarcharias
+            Rajiformes
+            Rhinidae
+            Rhinobatidae
+            Rhinoptera
+            Scyliorhinidae
+            Somniosus_rostratus
+            Squalidae
+            Squatinidae
+            Torpedines
+            Triakidae
+            Trigonognathus
+            other_Somniosidae
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M10002]
+
+	TITLE 'Shirai 1996 + New Characters';
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=117;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2 3 4" MISSING=? GAP= -;
+	CHARSTATELABELS
+		1  Rostral_process / absent 'composed_of_ventral_rostral_rod_or_its_derivative_(trough-like_rostrum)' composed_of_lateral_and_ventral_rostral_rods_to_form_a_tripodal_rostrum,
+		2  Anterior_process_of_neurocranium / absent present,
+		3  Precerebral_fossa / absent present_as_a_circular_or_ovoid_concavity extending_anteriorly_and_roofed_to_form_a_tube,
+		4  Nasal_capsule / not_expanded expanded_ventrolaterally,
+		5  Nasal_capsule / almost_attached_to_orbit well_separate_from_orbit,
+		6  Ethmoidal_canal / absent 'present,_transmitting_the_ethmoidal_nerve_to_the_ventral_or_ventrolateral_side' 'present_with_an_exit(s)_at_the_dorsal_side_of_the_nasal_capsule',
+		7  Subnasal_fenestrae / absent present_,
+		8  Supraorbital_crest / absent 'present,_moderately_developed' expanded_laterally,
+		9  Superficial_ophthalmic_nerve_passing_through / 'the_foramen_prooticum_with_the_remaining_branches_of_the_trigeminal_and_facial_nerves_(excluding_the_hyomandibularis)' a_separate_foramen,
+		10  Ectethmoid_process / present_as_the_antorbital_process absent_or_indistinct_if_present present_as_dense_connective_tissue present_as_a_chondrified_antorbital_cartilage 'present_with_an_antler-like_anterior_expansion',
+		11  Craniopaiatine_articulation / with_the_ethmoidal_articulation 'presentin_"orbitostylic"_mode' absent,
+		12  Suborbital_shelf / absent present present_with_prominent_lateral_wing_behind_orbital_notches,
+		13  Basitrabecular_process / absent present,
+		14  Postorbital_articulation / absent disengaging_when_jaws_are_protracted present_with_an_articular_facet,
+		15  Postorbital_fenestra / absent present,
+		16  Sphenopterotic_ridge / present absent,
+		17  Hyomandibular_fossa / separate_from_orbit immediately_behind_orbit,
+		18  Hyomandibular_fossa_composed_of / 'a_single_ovoid_or_groovelike_concavity,_or_two_inconspicuous_concavities,_positioned_vertically_or_slightly_obliquely' an_obvious_dual_concavity_divided_horizontally,
+		19  Depression_below_the_hyomandibular_fossa / absent present,
+		20  Basioccipital_fovea / present absent,
+		21  Occipital_hemicentrum / absent present,
+		22  Obliquus_inferior_f3 / absent present,
+		23  Rectus_externus_arising_from / the_eye_stalk_or_interorbital_floor own_deep_fossa,
+		24  Right_and_left_halves_of_palatoquadrate_and_mandibular_cartilages / articulated_with_the_antimere fused_with_the_antimere,
+		25  'Wing-like process of mandibular cartilage' / absent present,
+		26  Hyoid_arch / 'reduced,_nonsuspensory,_having_no_insertion_of_the_dorsal_constrictor_muscle' 'massive,_holding_the_mandibular_arch_from_behind' 'composed_of_reduced_ventral_parts_and_developed_hyomandibula,_the_latter_suspending_the_lower_jaw_directly' 'similar_to_State_2,_but_the_articulation_between_the_hyomandibula_and_mandible_is_interrupted_by_a_ligament',
+		27  Pseudohyoid_bar / absent present present_with_a_fusion_between_the_ventral_bar_and_ceratobranchial_1,
+		28  Extrahranchial_cartilage_on_hyoid_arch / absent only_the_dorsal_element_present both_dorsal_and_ventral_elements_present,
+		29  Ceratobranchial_5 / free_from_the_shoulder_girdle firmly_attached_to_the_anterior_margin_of_the_coracoid,
+		30  'Sixth branchial unit (hexanchoid type)' / absent present_with_a_unique_paired_basibranchial_cartilage,
+		31  Seventh_branchial_unit / absent present,
+		32  Anterior_separate_basibranchial_series / present absent,
+		33  Hypobranchial_2 / paired fused_with_the_antimere_forming_a_transverse_bar,
+		34  Dorsal_ends_of_branchial_arches_4_and_5 / separated_each_other not_fused_but_attached 'fused_to_make_a_single_plate_(gill_pickaxe)',
+		35  Pharyngobranchial_blade / absent present,
+		36  Adductor_mandibulae_divided_into / three_or_more_subdivisions ordinal_dorsal_and_ventral_blocks lateralis_i_and_ii,
+		37  Adductor_mandibulae_medialis / absent present,
+		38  Suborbitalis / absent single with_two_divided_heads,
+		39  Suborbitalis_arising_from / the_suborbital_surface the_interorbital_wall the_lateral_surface_of_the_nasal_capsule the_supraorbital_surface the_antorbital_process,
+		40  Suborbitalis_inserted_on / 'the_adductor_mandibulae_and-or_subcutaneous_tissue_near_the_mouth_comer' 'the_mandibula_directly;_(2)_the_mandibula_by_a_tough_tendon',
+		41  Adductor_m._superficialis / absent present,
+		42  Adductor_m._superficialis_inserted_on / subcutaneous_tissue_around_the_eye also_onto_the_antorbital_process the_nasal_capsule hyomandibula,
+		43  Nictitating_lower_eyelid / absent 'rudimentary-type' secondary_lower_eyelid_developed retractor_and_depressor_reduced,
+		44  Levator_paJatoquadrati / also_inserted_on_the_spiracle separate_from_the_spiracularis,
+		45  Constrictor_hyoideus_dorsalis_inserted_onto / the_palatoquadrate_only the_hyomandibula_and_palatoquadate the_hyomandibula,
+		46  Levator_rostri / absent present,
+		47  Depressor_rostri / absent present,
+		48  Arcualis_dorsalis / composed_of_a_single_slip 'divided_into_anterior_and_posterior_slips_(double_headed_condition)',
+		49  Subspinalis / present absent,
+		50  Interpharyngobranchialis / present absent,
+		51  Geniocoracoideus_arising_from / the_fascia_of_the_rectus_cervicis the_coracoid_or_pericardial_membrane,
+		52  Coracohyoideus / present absent,
+		53  Coracohyoideus / attached_to_the_coracoarcualis_to_form_massive_rectus_cervids 'separate_from_the_coracoarcualis,_arising_from_the_fascia_on_the_coracohyomandibularis',
+		54  Coracohyoideus_inserted_on / the_basal_part_of_the_hyoid_arch the_antimere_via_raphe,
+		55  Coracobranchialis_1_arising_from / the_fascia_of_the_rectus_cervicis the_coracoid_bar,
+		56  Coracobranchialis_1_inserted_on / 'the_basi-hyal_and-or_hyoid_cartilage' 'the_hyomandibula_via_a_long_tendon,_termed_the_coracohyomandibularis_and_socket_articulation',
+		57  Symphysial_fusion_of_right_and_left_halves_of_coracoid_cartilages / articulated fused_incompletely fused_to_form_a_transverse_bar_,
+		58  Scapular_process / separate_from_the_vertebrae attached_to_the_vertebrae fused_to_the_synarcual articulated_with_the_synarcual_by_a_ball,
+		59  Articular_process_of_the_coracoid_for_the_pectoral_basals / 'single,_irregular-shaped_condyle_oriented_vertically_or_obliquely' 'two_distinct_condyles,_one_for_the_pectoral_metapterygium' 'three_(or_more)_condyles_including_one_for_the_propterygium',
+		60  Pectoral_propterygium_and_mesopterygium / sepamted fused,
+		61  Pectoral_mesopterygium_and_metapterygium / separated fused,
+		62  Pectoral_mesopterygium_and_metapterygium / not_expanded_distally expanded_distally_and_curved_in_opposite_direction_to_make_an_interspace_between_them,
+		63  Pectoral_propterygium / with_radials reduced_with_no_radials,
+		64  Pectoral_propterygium / directed_posterolaterally 'extending_anteriorly,_terminated_behind_the_nasal_capsule' reached_to_the_nasal_capsule articulated_with_the_antorbitaJ_cartilage well_extended_anteriorly_and_supporting_the_snout,
+		65  Pectoral_metapterygium / simple segmented,
+		66  Pectoral_fin_radials / aplesodic plesodic,
+		67  Neighboring_radials_of_the_pectoral_fin / separate interlocked,
+		68  Pelvic_fin / aplesodic plesodic,
+		69  Ventral_marginal_cartilage / not_elongated well_elongated,
+		70  'Accessory terminal (T-3) cartilage' / spinous not_spinous modified_into_the_external_mesorhipidion,
+		71  Pectoral_electric_organs / absent present,
+		72  'First (cervical or cervicothoracic) synarcual' / absent present,
+		73  'Second (thoracolumbar) synarcual' / absent present,
+		74  Vertebral_ribs / present absent,
+		75  Primary_calcification_of_vertebrae / reduced_or_absent restricted_terminally developed,
+		76  Secondary_calcification_of_vertebrae / absent_or_poorly_developed with_endochordal_radii_radiating_from_the_notochordal_sheath with_developed_solid_intermedialia_and_diagonal_calcified_lamellae compact_mass,
+		77  Supraneurals / absent_or_poorly_developed enlarged_at_least_in_front_of_the_second_dorsal_fin also_enJarged_in_the_abdominal_region,
+		78  Hemal_arch / not_arched_at_anterior_precaudal_tail_vertebrae almost_complete_in_the_entire_region_of_the_precaudal_tail,
+		79  Hemal_processes_at_the_precaudal_tail / shorter_than_that_of_the_lower_lobe_of_the_caudal_fin elongate_and_equal_to_those_of_the_caudal_fin,
+		80  Dorsal_fin / 'dual,_developed' 'single,_developed_(Chlamydoselachus)' 'single,_developed_(hexanchoids)' reduced_or_absent,
+		81  Dorsal_fin_skeleton_composed_of / a_triangular_or_rectangular_basal_cartilage_and_radials an_elongate_basal_with_radials 'radials_only_(no_basal)',
+		82  Dorsal_radials / on_the_basal_cartilage independent_in_part_from_the_basal,
+		83  First_dorsal_fin_radials / aplesodic semiplesodic plesodic,
+		84  Anal_fin / present absent,
+		85  Anal_fin_skeleton_composed_of / the_basal_cartilage_and_radials segmented_radials_only,
+		86  Caudal_fin / with_a_developed_lower_lobe_to_make_a_lunate_form heterocercal reduced_to_the_plesodic_or_tail_folds without_any_tail_folds_or_finlet,
+		87  Perihypochordal_cartilages / not_elongated well_elongated_anteriorly,
+		88  Indinator_dorsalis_arising_from / dorsal_surface_of_body vertebrae,
+		89  Ventral_bundle_of_body_muscle / reduced well_developed_in_the_precaudal_region_,
+		90  Flexor_caudalis / restricted_within_the_caudal_fin advanced_at_least_up_to_the_lower_caudal_origin extending_anteriorly_beyond_the_lower_caudal_origin,
+		91  Cephalic_lobes / absent present present_as_the_cephalic_fin,
+		92  Nasoral_groove / present_with_an_expanded_lobe absent,
+		93  Mesonarial_flap / present absent,
+		94  Nasal_barbel_innervated_by_a_branch_of_the_ophthlamicus_superficialis / absent present,
+		95  Circumnarial_folds / absent present,
+		96  Lower_jaw_teeth_arranged / diagonally linearly_along_the_jaw_margin_without_an_imbrication 'linearly,_overlapping_to_form_a_continuous_cutting_edge',
+		97  Upper_jaw_teeth_arranged / diagonally linearly_along_jaw_margin_and_if_overlapping_not_forming_a_complete_continuous_cutting_edge linearly_with_complete_imbrication,
+		98  Aprons_of_jaw_teeth / absent present_at_the_labial_and_lingual_sides,
+		99  Upper_eyelid / present absent,
+		100  Spiracle_valve / absent present,
+		101  Lateral_sensory_canal_of_trunk / grooved closed,
+		102  Luminous_organs / absent present_on_the_ventrolateral_surface_of_body 'well_developed,_forming_characteristic_dark_markings',
+		103  Precaudal_pit / absent present_at_the_origin_of_the_upper_caudal_lobel,
+		104  Precaudal_keel / absent present,
+		105  Intestinal_valve_type / spiral ring scroll,
+		106  Pit_organ_type / in_open_slits covered_by_overlapping_denticles,
+		107  Slit_pit_organs / without_associated_denticles with_associated_denticles,
+		108  Mandibular_pit_organs / absent present,
+		109  Mandibular_pit_organs / all_rostral_to_the_gill_slits extending_caudally_in_an_arc_dorsal_to_the_gill_slits,
+		110  'Dorsolateral/lateral pit organs' / 'distributed_from_the_head_to_the_caudal_fin,_i.e._over_most_of_the_dorsolateral_surface' absent_from_the_caudal_fin mostly_confined_to_the_caudal_fin_and_posterior_trunk,
+		111  Umbilical_group_of_pit_organs / absent_in_late_juvenile_or_adult present_in_late_juvenile_or_adult,
+		112  Spiracular_pit_organs / absent present,
+		113  Spiracular_pit_organs / appear_to_be_a_discrete_group appear_continuous_with_the_mandibular_pit_organs appear_continuous_with_the_dorsolateral_pit_organs,
+		114  Spiracular_pit_organs / all_located_rostral_to_the_spiracle mostly_lateral_to_the_spiracle all_caudal_to_the_spiracle,
+		115  Number_of_pit_organs_on_one_side_of_the_body / less_than_100 '100-200' more_than_200,
+		116  Supratemporal_pit_organs / absent present,
+		117  Lifestyle / 'demersal_(often_resting_on_the_bottom)' 'pelagic_(rarely_or_never_resting_on_the_bottom)',
+		;
+
+MATRIX
+[                                         10        20        30        40        50        60        70        80        90        100       110       ]
+[                                          .         .         .         .         .         .         .         .         .         .         .       ]
+Aculeola                          101001110110110100001000010200000201011010001001001000001000000000000000000001000001?10000001000010112000????????????
+Aetobatines                       00010001032000000101000-13201001020211120?01201?110011012320000401110001112301?30021?30112111000011110000???????????1
+Alopiidae                         20000001110100001000100001010000021101200?002000000000002000000001001000002100002?101100000000000000101011??????????1
+Brachaelurus                      10001001110100001000100001010000021101210?012000000000002000010000001000002100002?00110000010110010010001???????????0
+Carcharhinidae                    20000000110100001000100001010000021102200?302000000000002000000001001200002200002?001100000000000000101021?10010??211
+Centrophorus                      101001110110100000001000010200000201011010001001000000002000100000000000002001000101?1000000100211011000001?????????0
+Centroscyllium                    101001110110100100001010010200000201011010001001001000002000000000000000002001000001?10000001000010112000???????????0
+Chlamydoselachidae                10100001001011000000100001000000000101400?002000000000001000001000000000001000012?001100000000000000000000?????????1?
+Dalatiines                        101001110110100000001000010200001201011110001001111000002001100000000000002001000001?1000000100201011100001?????????0
+Dasyatididae                      00010001032000000101000003201001020211120?01201?110010012320000401010001112301?3???1?20112011000011110000000?00121000
+Deania                            101001110110100000001000010200010201011010001001000000002000100000000000002001000101?10000001002110110000???????????0
+Echinorhinus                      101001010010100000000000010200000201014010002001000000002001100000000000000001000001?10000001001110000000????????????
+Etmopteridae                      101001110110100100001010010200000201011010001001001000002000000000000000002001000001?100000010020101020000110??111?1?
+Euprotomicrinines                 101001-1011010000000101001020000120101111000100100100000200110000000000000200100-001?10000001002010111000????????????
+Ginglymostomatidae                10001002110100001000100001010000021001310?012000000000002000010000001000002100002?001100000101000100100011?110111210?
+Gymnuridae                        00010001032000000101000002201001020211120?01201?110010012320000401010001112301?3???1?30112011000011110000???????????0
+Hemigaleidae                      20000000110100001000100001010000021102200?302000000000002000000001001200002200002?001100000000000000101001?100?0??21?
+Hemiscylliidae                    10001001110100001000100001010000021001310?012000000000002000010000001000002100002?001100000101100100100011?1100112100
+Heptranchias_perlo                101001110010120000100000000101100101014011000001000000000000001010000000000001021000010000000001000010000????????????
+Heterodontidae                    001010010101000010001000010100000111012113002000000000002000000000000000002000000000010000010010010010000011010110000
+Hexanchus_griseus                 1010011100101200001000000001010001010140110000010000000000000010100000000000010210000100000000010000100001???????????
+Hexatrygon                        00000001032000000101000002201001020211120?01201?110010012320000401010001112301?3???1?20112011000011110000???????????0
+Lamnidae                          20000001110200001000100001010000021101200?002000000000002000000001001000002100002?101000000000000000101111?10100??2?1
+Leptocharias                      20000001110100001000100001010000021102200?202000000000002000000000001100002200002?00110000000000000010000????????????
+Manta_sp._Mobula_sp.              01010001032000000101000112201001020211120?01201?110011012320000401010001112301?30021?30112211000011110000???????????1
+Megachasma                        20000001110100001000100001010000021101200?002000000000002000000001001000002100002?00110000000000000010101???????????1
+Mitsukurina                       20000000110100001000100001010000021101200?002000000000002000000000001000002100002?00110000000000000010001???????????0
+Myliobatididae                    00010001032000000101000013201001020211120?01201?110011012320000401110001112301?30021?30112011000011110000000?200??001
+Narcinidae                        10110000042000000101000002121001000211020?0121111101??112120000201010011002321100001?10112011000011110010???????????0
+Narkidae                          10110000042000000101000002121001020211020?01211?1101??112120000201010011002321100001?10112011000011110010???????????0
+Notorhynchus_maculatus            101000010010120000000000000101100101014011000001000000000000001010000000000001021000010000000001000000000011010111?1?
+Odontaspididae                    20000001110100001000100001010000021101200?002000000000002000000000001000002100002?001100000000000000101011???0?1????1
+Orectolobidae                     10001001110100001000100001010001021101210?012000000000002000010000001000002100002?001100000101100100100011?110?112100
+Outgroup_to_Neoselachii           101000010101000000000?00010?0000000???????????????????0?00000000000?0??0000000000000010???0????000??0????????????????
+Oxynotus                          101001010110100000001000010200001201011110001001001000002001000000000000002001000001?10000001002010111000????????????
+Parascylliidae                    10001000110100001000100001010000021101210?012000000000002000010000001000002000002?00110000010100010010000???????????0
+Plesiobatis                       00000001032000000101000002201001000211120?01201?110010012320000401010001112301?3???1?20112011000011110000???????????0
+Pristidae                         102002010320000001010100021210010202110212012110110010012120000100000001002321100001?1011200100001111001001?????????0
+Pristiophoridae                   102002010210100001010100010200010202010210001001000000012020000000000000002021100001?1010200100001011001000????100??0
+Proscylliidae_Pseudotriakidae     20000001110100001000100001010001021102200?102000000000002000000000001100002000002?00110000000000000010000????????????
+Pseudocarcharias                  20000001110101001000100001010000021101200?002000000000002000000000001000002100002?00110000000000000010111???????????1
+Rajiformes                        10100201032000000101000002101001020211021201211?1100100122200003010100010023?1?30021?20112011000011110010000?00100010
+Rhinidae                          10200201032000000101010002121001020211021201211011?010012220000101010001002321100001?1011200100001111001001?????????0
+Rhinobatidae                      101002010320000001010100021210010202110212012110110010012220000301010001002321100001?10112001000011110010011000101100
+Rhinoptera                        01010001032000000101000113201001020211120?01201?110011012320000401010001112301?30021?30112111000011110000???????????1
+Scyliorhinidae                    2000000?110100001000100001010000021102200?102000000000002000000000001100002000002?001100000?00000000100001?1011111010
+Somniosus_rostratus               101001110110101000001000010200001201011110001001001000002001000000000000000001000001?1100000100201011000001100111111?
+Squalidae                         101001110110100000001000010200000201010010001001000000002000000000000000002011100001?1000100100221010011001101111101?
+Squatinidae                       10100201011010000001100001020000020100??1000200100?000002010000100000000002011100001?10112011000010010010011011101000
+Torpedines                        10110000042000000101000002121001020211020?0121111101??012120000201010011002321100001?10112011000011110010???????????0
+Triakidae                         20000001110100001000100001010000021102200?202000000000002000000000001100002200002?001100000000000000100001?1001111110
+Trigonognathus                    10100111011010010000101001020001010100??10001000001000002001000000000000002001000001?10000001000010112000????????????
+other_Somniosidae                 101001110110101000001000010200001201011110001001001000002001000000000000002001000001?11000001002010111000????????????
+;
+END;
+
+BEGIN TREES;
+      TITLE Shark_Shirai;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Outgroup_to_Neoselachii,
+            2    Heterodontidae,
+            3    Parascylliidae,
+            4    Brachaelurus,
+            5    Orectolobidae,
+            6    Hemiscylliidae,
+            7    Ginglymostomatidae,
+            8    Mitsukurina,
+            9    Odontaspididae,
+            10   Pseudocarcharias,
+            11   Megachasma,
+            12   Alopiidae,
+            13   Lamnidae,
+            14   Scyliorhinidae,
+            15   Proscylliidae_Pseudotriakidae,
+            16   Leptocharias,
+            17   Triakidae,
+            18   Hemigaleidae,
+            19   Carcharhinidae,
+            20   Chlamydoselachidae,
+            21   Hexanchus_griseus,
+            22   Notorhynchus_maculatus,
+            23   Heptranchias_perlo,
+            24   Echinorhinus,
+            25   Aculeola,
+            26   Trigonognathus,
+            27   Centroscyllium,
+            28   Etmopteridae,
+            29   Somniosus_rostratus,
+            30   other_Somniosidae,
+            31   Oxynotus,
+            32   Dalatiines,
+            33   Euprotomicrinines,
+            34   Deania,
+            35   Centrophorus,
+            36   Squalidae,
+            37   Squatinidae,
+            38   Pristiophoridae,
+            39   Pristidae,
+            40   Rhinidae,
+            41   Torpedines,
+            42   Narkidae,
+            43   Narcinidae,
+            44   Rhinobatidae,
+            45   Rajiformes,
+            46   Plesiobatis,
+            47   Hexatrygon,
+            48   Dasyatididae,
+            49   Gymnuridae,
+            50   Myliobatididae,
+            51   Aetobatines,
+            52   Rhinoptera,
+            53   Manta_sp._Mobula_sp.;
+      TREE Fig._4 = [&R] (1,((2,((3,(4,(5,(6,7)))),((8,(10,(9,(11,(12,13))))),((14,15),(17,(16,(18,19))))))),(20,(((21,23),22),(24,(((((25,(27,26)),28),((29,30),(31,(32,33)))),(34,35)),(36,(37,(38,(39,(40,(44,((41,(42,43)),(45,(47,(46,(48,(49,((50,51),(52,53))))))))))))))))))));
+
+
+
+END;

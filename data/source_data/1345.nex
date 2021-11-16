@@ -1,0 +1,110 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:47 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Boufford D., Crisci J., Tobe H., & Hoch P. 1990. A cladistic analysis of Circaea
+(Onagraceae). Cladistics, 6: 171-182.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S90]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=15;
+        TAXLABELS
+            Circaea_alpina_alpina
+            Circaea_alpina_angustifolia
+            Circaea_alpina_caulescens
+            Circaea_alpina_imaicola
+            Circaea_alpina_micrantha
+            Circaea_alpina_pacifica
+            Circaea_cordata
+            Circaea_erubescens
+            Circaea_glabrescens
+            Circaea_lutetiana_canadensis
+            Circaea_lutetiana_lutetiana
+            Circaea_lutetiana_quadrisulcata
+            Circaea_mollis
+            Circaea_repens
+            Outgroup_to_Circaea
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M3645]
+
+	TITLE Table_3;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=22;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2 3" MISSING=? GAP= -;
+
+MATRIX
+[                                           10        20  ]
+[                                            .         .  ]
+Circaea_alpina_alpina               1111131110000110001101
+Circaea_alpina_angustifolia         1111131100000000111101
+Circaea_alpina_caulescens           1111131100100000001101
+Circaea_alpina_imaicola             1111131110000000001101
+Circaea_alpina_micrantha            1111131110001111001101
+Circaea_alpina_pacifica             1111131110000100001101
+Circaea_cordata                     1111010000000000000000
+Circaea_erubescens                  1111011001101010000100
+Circaea_glabrescens                 1111010000000000000011
+Circaea_lutetiana_canadensis        1111011001010010000100
+Circaea_lutetiana_lutetiana         1111011001100000000100
+Circaea_lutetiana_quadrisulcata     1111011001110010000100
+Circaea_mollis                      1111011001010000010100
+Circaea_repens                      1111121000000000001111
+Outgroup_to_Circaea                 000000000000?0????0?0?
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb4807;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Outgroup_to_Circaea,
+            2    Circaea_cordata,
+            3    Circaea_glabrescens,
+            4    Circaea_mollis,
+            5    Circaea_lutetiana_lutetiana,
+            6    Circaea_lutetiana_canadensis,
+            7    Circaea_lutetiana_quadrisulcata,
+            8    Circaea_erubescens,
+            9    Circaea_repens,
+            10   Circaea_alpina_alpina,
+            11   Circaea_alpina_angustifolia,
+            12   Circaea_alpina_caulescens,
+            13   Circaea_alpina_imaicola,
+            14   Circaea_alpina_micrantha,
+            15   Circaea_alpina_pacifica;
+      TREE Fig._1C_&_H = [&R] (1,((2,3),(((4,6),(5,(7,8))),(9,((((10,14),15),13),11,12)))));
+      TREE Fig._1C_&_J = [&R] (1,((2,3),(((4,(6,7)),(5,8)),(9,((((10,14),15),13),11,12)))));
+      TREE Fig._4A = [&R] (1,((2,(((4,(6,7)),(5,8)),(9,((((10,14),15),13),11,12)))),3));
+      TREE Fig._1C_&_G = [&R] (1,((2,3),(((((4,6),7),8),5),(9,((((10,14),15),13),11,12)))));
+      TREE Fig._1C_&_F = [&R] (1,((2,3),(((4,(6,(7,8))),5),(9,((((10,14),15),13),11,12)))));
+      TREE Fig._1C_&_E = [&R] (1,((2,3),((4,(((5,8),7),6)),(9,((((10,14),15),13),11,12)))));
+      TREE Fig._1C_&_D = [&R] (1,((2,3),((4,(5,((6,7),8))),(9,((((10,14),15),13),11,12)))));
+      TREE Fig._1B_&_J = [&R] (1,((2,(((4,(6,7)),(5,8)),(9,((((10,14),15),13),11,12)))),3));
+      TREE Fig._1B_&_H = [&R] (1,((2,(((4,6),(5,(7,8))),(9,((((10,14),15),13),11,12)))),3));
+      TREE Fig._1B_&_F = [&R] (1,((2,(((4,(6,(7,8))),5),(9,((((10,14),15),13),11,12)))),3));
+      TREE Fig._1B_&_G = [&R] (1,((2,(((((4,6),7),8),5),(9,((((10,14),15),13),11,12)))),3));
+      TREE Fig._1B_&_E = [&R] (1,((2,((4,(((5,8),7),6)),(9,((((10,14),15),13),11,12)))),3));
+      TREE Fig._1B_&_D = [&R] (1,((2,((4,(5,((6,7),8))),(9,((((10,14),15),13),11,12)))),3));
+      TREE Fig._1A_&_J = [&R] (1,(2,(3,(((4,(6,7)),(5,8)),(9,((((10,14),15),13),11,12))))));
+      TREE Fig._1A_&_H = [&R] (1,(2,(3,(((4,6),(5,(7,8))),(9,((((10,14),15),13),11,12))))));
+      TREE Fig._1A_&_G = [&R] (1,(2,(3,(((((4,6),7),8),5),(9,((((10,14),15),13),11,12))))));
+      TREE Fig._1A_&_F = [&R] (1,(2,(3,(((4,(6,(7,8))),5),(9,((((10,14),15),13),11,12))))));
+      TREE Fig._1A_&_E = [&R] (1,(2,(3,((4,(((5,8),7),6)),(9,((((10,14),15),13),11,12))))));
+      TREE Fig._1A_&_D = [&R] (1,(2,(3,((4,(5,((6,7),8))),(9,((((10,14),15),13),11,12))))));
+      TREE Fig._4B = [&R] (1,((2,3),(((4,(6,7)),(5,8)),(9,((((10,14),15),13),11,12)))));
+      TREE Fig._2 = [&R] (1,(2,3,((4,5,6,7,8),(9,((((10,14),15),13),11,12)))));
+
+
+
+END;

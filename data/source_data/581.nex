@@ -1,0 +1,483 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:36 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Agnarsson I. 2006. Asymmetric female genitalia and other remarkable morphology in
+a new genus of cobweb spiders (Theridiidae, Araneae) from Madagascar. Biological
+Journal of the Linnean Society, 87: 211-232.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S1518]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=64;
+        TAXLABELS
+            Achaearanea_tepidariorum
+            Achaearanea_vervoorti
+            Achaearanea_wau
+            Ameridion_cf._petrum
+            Ameridion_sp.
+            Anelosimus_analyticus
+            Anelosimus_cf._jucundus
+            Anelosimus_eximius
+            Anelosimus_lorenzo
+            Anelosimus_pulchellus
+            Anelosimus_rupununi
+            Anelosimus_sp.1
+            Anelosimus_sp.2
+            Anelosimus_studiosus
+            Anelosimus_vittatus
+            Argiope_argentata
+            Argyrodes_argyrodes
+            Argyrodes_elevatus
+            Ariamnes_attenuatus
+            Asygyna_coddingtonii
+            Asygyna_huberii
+            Carniella_siam
+            Cerocida_strigosa
+            Chrysso_cf._nigriceps
+            Coleosoma_floridanum
+            Crustulina_sticta
+            Dipoena_nigra
+            Eidmanella_pallida
+            Emertonella_funebris
+            Enoplognatha_latimana
+            Enoplognatha_ovata
+            Episinus_amoenus
+            Euryopis_gertschi
+            Faiditus_cf._chickeringi
+            Helvibis_cf._longicaudatus
+            Kochiura_aulica
+            Kochiura_rosea
+            Latrodectus_geometricus
+            Latrodectus_mactans
+            Linyphia_triangularis
+            Neospintharus_trigonus
+            Nesticodes_rufipes
+            Nesticus_silvestrii
+            Pholcomma_hirsutum
+            Phoroncidia_sp.
+            Pimoa_rupicola
+            Rhomphaea_metaltissima
+            Robertus_frontatus
+            Selkirkiella_alboguttata
+            Selkirkiella_magallanes
+            Spintharus_flavidus
+            Steatoda_grossa
+            Stemmops_cf._servus
+            Synotaxus_monoceros
+            Synotaxus_waiwai
+            Tetragnatha_extensa
+            Theridion_frondeum
+            Theridion_longipedatum
+            Theridion_pictum
+            Theridion_varians
+            Theridula_emertoni
+            Thwaitesia_margaritifera
+            Thymoites_unimaculatum
+            Tidarren_sisyphoides
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M1123]
+
+	TITLE Asygyna;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=242;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2 3 4 5 6" MISSING=? GAP= -;
+	CHARSTATELABELS
+		1  Epigynal_ventral_margin / 'entire (Fig. 15G)' 'with scape (Fig. 27D)',
+		2  Epigynal_dorsal_plate / absent present,
+		3  Epigynal_plate_surface / 'smooth (Fig. 12E)' 'ridged (Fig. 21G)',
+		4  Copulatory_pore_position / 'caudal, under a dorsal plate' ventral,
+		5  Copulatory_pore_shape / 'wide (Fig. 53F)' 'narrow slits (Fig. 61G)',
+		6  Copulatory_bursa_anterior_margin / 'entire, broadly transverse (Fig. 19B)' 'medially acute (Figs. 22G, 40B)',
+		7  Copulatory_duct$_spermathecal_junction / posterior lateral_or_anterior,
+		8  Copulatory_duct_trajectory / 'straight, or at most a single simple loop (Fig. 93H-I).' 'two or more loops (Fig. 93J)',
+		9  Copulatory_duct_loops_relative_to_spermathecae / apart 'encircling (Fig. 93J)',
+		10  Spermathecal_number / 'two (Fig. 93H, J)' 'four (Fig. 93I)',
+		11  Spermathecal_shape / ovoid elongate dumbbell,
+		12  Spermathecal_accessory_lobes / absent present,
+		13  'Fertilization duct sclerotization (accessory sac)' / light 'thick and heavy (Synotaxus)',
+		14  Male_palpal_tibial_distal_end / subequal_or_slightly_wider_than_base 'distinctly broadened, clearly => 2x base width.',
+		15  Male_palpal_tibial_rim / uniform_or_only_slightly_asymmetric 'strongly and asymmetrically protruding, scoop-shaped (Fig 36D)',
+		16  Male_palpal_tibial_rim_setal_conformation / irregular 'regular row of long, strong setae',
+		17  Male_palpal_tibial_rim_relative_to_cymbium / protruding_tibial_rim_faces_dorsal_cymbial_margin protruding_tibial_rim_faces_bulb,
+		18  Male_palpal_tibia_retrolateral_trichobothria / three_or_more two one_or_none,
+		19  Male_palpal_tibia_prolateral_trichobothria / two_or_more one none,
+		20  Male_palpal_patella_spur / absent present,
+		21  Cymbium / entire expanded_retrolaterally,
+		22  Cymbial_retromargin / entire 'with a small distal apophysis containing the cymbial hood (Ameridion, Fig. 13B, E)' retromargin_groove,
+		23  Cymbium_dorsobasal_margin / 'entire (Figs. 28A, C, 31A, C)' 'strongly incised (Figs. 10C, 12C)' 'strongly modified with a ridge of parallel teeth (Tidarren)',
+		24  Cymbial_distal_promargin / entire 'with an apophysis (Argyrodes, Figs. 31D, 92E), Crustulina, Fig. 42B)' 'constricted and flattened (Latrodectus, Fig. 54B-C)',
+		25  Cymbial_mesal_margin / entire 'incised (Anelosimus, Figs. 17D, 20A)',
+		26  Cymbial_tip_sclerotization / like_rest_of_cymbium 'lightly sclerotized, appears white',
+		27  Cymbial_tip_setae / like_other_setae 'thick and strongly curved (Kochiura, Figs. 51B, 52C)',
+		28  Cymbial_sheath / absent present,
+		29  Paracymbium / present absent,
+		30  Paracymbial_form / 'Argiope-like (Fig. 91A)' 'Tetragnatha-like (Fig. 91B)' 'pimoid-like (Fig. 88A)' 'linyphiid-like (Fig. 88B)' 'cup-shaped (Fig. 88C)' 'Nesticus-like (Fig. 88D)',
+		31  'Bulb - cymbium lock mechanism (BC lock)' / absent present,
+		32  Lock_placement / 'basal (Carniella, Fig. 36C)' 'distal (Figs. 67B, 92F-G, I, M)' 'central (Fig. 92H)',
+		33  Lock_mechanism / 'hook (Figs 31F, 60D, 91A, 92D-E, J-L)' 'hood (Figs 18A, 75B, 92F-I, M)' 'Theridula (Fig 81D)',
+		34  Cymbial_hook_orientation / 'facing downwards (Figs. 91A, 92D-E, J-K)' 'facing upwards (Fig. 60C-D, 92L)',
+		35  Cymbial_hook_location / 'inside cymbium (Fig. 92D-E, J-K)' 'ectal cymbial margin (Figs. 67B, 92L).',
+		36  Cymbial_hook_inferior_groove / absent 'present (Fig. 92D, J-K)',
+		37  Cymbial_hook_distal_portion / 'blunt (Figs. 31F, 92D-E)' 'tapering to a narrow tongue (Figs. 66B, 67D, 92L)',
+		38  Cymbial_hood_size / 'narrow (Fig. 92F-H)' 'broad (Fig. 92I)' 'Spintharus (Fig. 92M)',
+		39  Cymbial_hood_region / 'translucent, hood visible through cymbium (Anelosimus, Figs. 90A, 91C)' 'opaque, hood not visible',
+		40  Bulbal_sclerite_of_lock_mechanism / MA embolus_base,
+		41  Alveolus_placement / ectal central mesal,
+		42  Alveolar_cavity / 'simple, unsclerotized' with_alveolar_sclerite,
+		43  Alveolus_shape / 'circular or oval (Fig. 92A-H)' 'with a mesal extension (Fig. 92A)',
+		44  Subtegular_retrolateral_margin / 'entire (e.g. Figs. 4A-B, 10A)' 'with a prominent rounded lobe (Fig. 2A-B)',
+		45  Tegulum_size / '< half cymbial cavity' 'huge, > half cymbial cavity (Dipoena, Fig. 4B-C))',
+		46  Tegulum_ectal_margin / entire 'protruded (Fig. 20D)',
+		47  Tegular_groove / absent 'present (Fig. 28B)',
+		48  Tegular_arch / absent present,
+		49  Tegular_pit / absent present,
+		50  Tegular_pit_embolic_interaction / via_embolic_base via_embolic_apophysis,
+		51  SDT_Switchbacks_I / present absent,
+		52  & / separate touching,
+		53  _II / entirely_in_tegulum terminates_in_embolus,
+		54  SDT_SB_I / absent 'present (Anelosimus, Fig. 93B)',
+		55  SDT_SB_II / divergent parallel,
+		56  'SDT post-SB II turn' / in_plane_of_first_loop_from_fundus 'out of plane of first loop, against tegular wall',
+		57  SDT_SB_I / absent present,
+		58  & / absent present,
+		59  _II_reservoir_segment_alignment / absent 'present (Fig. 93E)',
+		60  SDT_SB_I / 'clockwise  (left palp, ventral view)' 'counter-clockwise',
+		61  & / relatively_gradual duct_narrows_abruptly_before_SB_I,
+		62  _II_orientation / present absent,
+		63  SDT_RSB_I / 'width subequal to base (Figs, 10A, 13D, 91 A-I)' 'grossly enlarged (Figs. 46A, 67B, 69B, 83A-B, 90F-G)',
+		64  & / 'with a groove for embolus (Figs. 10A, 28D, 69B)' 'entire (Figs. 13D, 17F, 52C-D)',
+		65  _II / 'smooth (Figs. 75B, 77B-C)' ' heavily ridged (Figs. 10B-C, 44D. 67C, 69D)',
+		66  SDT_SB_III / entire complex 'Helvibis (Fig. 49A-C)',
+		67  SDT_SB_IV / like_base more_than_base,
+		68  SDT_entering_embolus / entire grooved,
+		69  SDT_constriction / 'sclerotized tegular margin (Figs. 10A, 34C, 64C)' 'lightly sclerotized region apical to tegular margin (Figs. 75A-C, 77A-C)',
+		70  Conductor / absent present,
+		71  Conductor_tip / present absent,
+		72  Conductor / sperm_duct_loop_not_inside_MA 'sperm duct loop inside MA (Figs. 90F, 91B)',
+		73  Conductor_surface / membranous fused,
+		74  Conductor_folding / broad narrow,
+		75  Conductor_tip_sclerotization / unbranched 'two nearly equally sized branches (Fig. 22A-B)',
+		76  Conductor_base / entire with_a_distinct_apophysis,
+		77  Conductor_origin / absent present,
+		78  Subconductor / entire hooded,
+		79  MA / 'narrow, pit-like (Figs. 31F, 34D)' 'scoop-shaped (Figs. 60D, 66B, 67D)',
+		80  MA_and_sperm_duct / absent present,
+		81  'MA-tegulum attachment' / 'unbranched (normal)' 'two branches (Fig. 52D)',
+		82  'MA-tegular membrane connection' / entire 'with a small apophysis (Fig. 67A-B)',
+		83  MA_form / entire 'grooved (Fig. 44C)' 'excavate (Synotaxus, Fig. 88C)',
+		84  MA_central_region / bulky 'huge, membranous flap (Figs. 37B, 67B)',
+		85  MA_apophysis_II / entire 'hooked (Figs. 17A-B, F, 22D)',
+		86  MA_distal_tip / smooth 'ridged (Figs. 7A-B, 17F, 31D, 34D, 54A, 56B, 86A)',
+		87  MA_hood_form / loosely_associated_to_or_resting_in_TTA_shallow_groove 'parts of E entirely enclosed in TTA (Figs. 37A-B, 44C, 89C)',
+		88  TTA / entire bifid,
+		89  TTA_branches / retroventral_on_tegulum 'retrolateral (ectal), partially or completely hidden by cymbium (Figs 44C, 60A-C, 67B)',
+		90  TTA_apex / smooth 'ridged (Figs. 20F, 31D, 34E)',
+		91  TTA_form / short_to_moderately_elongate 'extremely long, >2 spirals (Figs. 54D, 73A-E)',
+		92  TTA_basal_portion / 'thin, much of E spiral subequal to E tip' 'thick, entire E spiral much broader than tip',
+		93  TTA_distal_tip / suboval_or_round distinctly_flattened_and_with_pars_pendula,
+		94  TTA_surface / entire with_transverse_suture_or_fracture_plane,
+		95  Embolus_and_TTA / 'entire (normal)' deeply_grooved,
+		96  Embolus_tip / abrupt 'with a distal apophysis (EA, Fig. 34E)',
+		97  Embolus_origin / fixed 'membraneous, flexible',
+		98  Embolus_surface / entire._smooth lobed,
+		99  Embolus_shape / absent present,
+		100  Embolus_spiral_width / entire 'break-off point',
+		101  Embolus_spiral / absent present,
+		102  Embolus_form / juxtaposed separate,
+		103  Embolus_distal_rim / flush_with_carapace 'on tubercle (Argyrodes)' all_eyes_on_tubercle,
+		104  Embolic_base_terminus / subequal_or_slightly_larger_than_ALE clearly_smaller_than_ALE,
+		105  'Embolus-tegulum junction' / '> 2 AME diameters' '= <2 AME diameters',
+		106  Embolic_base / toothed smooth,
+		107  Embolic_division_b / blunt 'pointed, sharp',
+		108  Embolus_inserted_piece / four_or_more three two one,
+		109  Extra_tegular_sclerite / '=< adjacent tooth' much_larger_than_adjacent_tooth,
+		110  'Lateral eyes (male)' / toothed smooth,
+		111  'Median eyes (male)' / four_or_more three two one,
+		112  'AME size (male)' / smooth denticulate,
+		113  'AME-ALE separation (females)' / subequal 'male much larger (Tetragnatha, Enoplognatha)',
+		114  Cheliceral_promargin / smooth stridulatory,
+		115  Cheliceral_anterior_tooth_shape / evenly_rounded 'with a distinct knob (Figs. 76B, 78G)',
+		116  Cheliceral_anterior_tooth_number / absent 'present (Enoplognatha, Fig. 44I)',
+		117  Cheliceral_proximal_tooth / 'reaching tip of endites, or nearly so' 'short, not nearly reaching tip of endites',
+		118  Cheliceral_posterior_margin / base_wider_than_palpal_coxae_and_coxae_II 'base subequal to palpal coxae, narrower than coxae II',
+		119  Cheliceral_posterior_tooth_number / subequal_to_cheliceral_groove '>2x cheliceral groove (Enoplognatha, Fig 44I)',
+		120  Cheliceral_furrow / cylindrical 'elongated, sickle-shaped',
+		121  Cheliceral_sexual_dimorphism / smooth_or_weakly_serrate strongly_serrate_and_curved,
+		122  'Cheliceral ectal surface (male)' / present absent,
+		123  Cheliceral_anterior_base / 'smooth (Fig. 5D)' 'rugose - setal bases elevated (Fig. 71D-E)' 'scaly (Fig. 60F-G)' 'rippled (Fig. 38A)' 'bumpy (Fig. 50E-F)' pits_surrounding_setal_bases,
+		124  'Cheliceral apophysis (male)' / '<= 0.25-0.5x the length' '> 0.5x the length',
+		125  Cheliceral_paturon_length / uniform longitudinal_dark_band,
+		126  Cheliceral_paturon_width / longer_than_wide subequal,
+		127  'Cheliceral fang length (male)' / 'sparsely or patchily hirsute (Fig. 48D)' 'uniformly hirsute (Fig. 71D)',
+		128  Cheliceral_fang_shape / irregular regular_parallel_ridges,
+		129  Cheliceral_hairs / 'separate (two patches, Fig. 71F)' 'continuous (Fig. 60F)',
+		130  Cheliceral_boss / more_or_less_flush_with_clypeus projecting_beyond_clypeus,
+		131  Carapace_texture / concave_or_flat with_a_prominent_projection,
+		132  'Carapace height (male)' / sparse 'in a dense field, or fields',
+		133  Carapace_coloration / as_other_setae thick_and_strongly_serrate,
+		134  Carapace_shape / rebordered not_swollen_distally,
+		135  Carapace_hairiness / 'visible seam  (Fig. 27C)' fused,
+		136  Carapace_pars_stridens / 'subrectangular (Fig. 21B)' 'triangular (Fig. 5A)',
+		137  Regular_pars_stridens / 'elongated, longer than wide' subequal_or_wider_than_long,
+		138  Interocular_area / present absent,
+		139  Clypeus / 'unmodified, like other setal bases' raised,
+		140  'ocular and clypeal region setae distribution (male)' / 'anterior (Fig. 94A-D)' 'medial (Fig. 94J-K)',
+		141  'Clypeal setae morphology (male clypeal glands)' / narrow broad,
+		142  Labium_distal_margin / with_paired_humps 'ellipisoid, smooth',
+		143  'Labium-sternum connection' / folium_or_similar_pattern 'uniform (e.g. tan) or unpigmented',
+		144  Labium_shape / bilateral_spots_or_blotches distinct_central_band,
+		145  Sternum_shape / 'dark edged by white (Kochiura, Anelosimus, Fig. 94G, J)' 'light edged by dark (Fig. 94H)' 'Ameridion, light edged by white (Fig. 94I)',
+		146  Sternocoxal_tubercles / silver 'non-reflective, dull',
+		147  Sternum_setal_bases / smooth sclerotized,
+		148  Pedicel_location / continuous 'separate (two patches)',
+		149  Pedicel_lyriform_organs / absent 'present (Fig. 81F)',
+		150  Abdominal_shape / absent 'present (Figs. 16B-C, 21A, 24D-E)',
+		151  'Abdominal color pattern (in alcohol)' / 'weakly keeled (Figs. 67F, 74F)' 'strongly keeled and elongate (Figs. 16B-C, 24D-E, 42F)',
+		152  Abdominal_folium_pattern / three_or_less four_or_more,
+		153  Dorsal_band / present absent,
+		154  Abdominal_dot_pigment / flush_with_abdominal_surface 'on a ridge (Figs 32D, 72A-B)',
+		155  'Abdominal pedicel area (male)' / smooth grooved,
+		156  Abdominal_pedicel_area_sclerotization / absent present,
+		157  'Abdominal supra-pedicellate nubbins' / angled_dorsally perpendicular_or_angled_ventrally,
+		158  'Stridulatory pick row (SPR)' / 'low, gently ridged' 'acute, almost pointed',
+		159  SPR_form / straight_or_slightly_irregular distinctly_curved 'argyrodine, dorsal picks aside others',
+		160  SPR_pick_number / subequal_to_ventral_pick_spacing distinctly_compressed,
+		161  'SPR ectally-oriented picks' / lateral dorsal,
+		162  SPR_insertion / absent present,
+		163  SPR_region / absent present,
+		164  'SPR mesally-oriented picks' / absent present,
+		165  'SPR mesally-oriented picks relative to sagittal plane' / 'distinctly disk-like, strongly rugose' 'inconspicuous, weakly rugose or smooth (Figs. 4F, 24D, 47A)',
+		166  SPR_setal_bases / smooth with_scuta,
+		167  SPR / 'conspicuous, deep, contrastingly colored' 'inconspicuous, superficial, unicolorous',
+		168  SPR_dorsal_pick_spacing / 'present (e.g. Fig. 3A-E)' 'absent (Fig. 7D)',
+		169  SPR_relative_to_pedicel / in_one_pair_of_sockets in_a_row,
+		170  Additional_stridulatory_picks / '> ten' '<= eight',
+		171  'Supra pedicillate dorsal (11 oclock) proprioreceptor' / small large_and_darkened,
+		172  'Supra pedicillate ventrolateral  (4 oclock) proprioreceptor' / 'present (Figs. 45E, 61F)' 'absent (Figs. 16E, 78A)' 'invaginated (Figs. 9D,  63G)',
+		173  Abdominal_suprapedicellate_apodemes / 'large and fleshy (Figs. 55H, 61F)' 'small, less than half the length of its setae (Fig. 38B)',
+		174  Abdominal_surface / present absent,
+		175  Sigilla / three_or_more two,
+		176  Epiandrous_fusules / present absent,
+		177  Epiandrous_fusule_arrangement / attenuate palmate 'semi-palmate',
+		178  Epiandrous_fusule_pair_number / 'dense, > half of surface covered by denticles (Figs. 2D, 9E, 11D, 12G, 45G, 47E, 58G, 80D)' 'sparse < half of surface with denticles',
+		179  Male_seminal_vesicula / 'numerous, more than six' three_to_five one_to_two,
+		180  Colulus / smooth serrated,
+		181  Colulus_size / present absent,
+		182  Colular_setae / subequal 'robust, clearly larger than femur II',
+		183  'Colular setae number (female)' / present absent,
+		184  'Palpal claw (female)' / '3rd longest (typical leg formula 1243)' '2nd longest (typical leg formula 1423)' 'longest (typical leg formula 4123)',
+		185  'Palpal claw form (female)' / 3rd_longest 2nd_longest longest,
+		186  'Palpal claw dentition (female)' / metatarsus_longer metatarsus_shorter,
+		187  'Palpal tibial trichobothria (female)' / metatarsus_longer metatarsus_shorter,
+		188  'Palpal tarsal setae (female)' / like_other_macrosetae thickened_ventrally,
+		189  'Palpal tarsus dorsal setae (female)' / proximal distal submedian,
+		190  Femur_I_relative_to_II / present absent,
+		191  Femoral_macrosetae / absent present,
+		192  'Leg IV relative length (male)' / absent present,
+		193  'Leg IV relative length (female)' / smooth 'serrated (theridioid tarsal comb)',
+		194  Femur_vs._metatarsus_length / smooth theridiid_grooves,
+		195  Metatarsus_vs._tibia_length / 'simple, straight' curved_hooks,
+		196  Metatarsal_ventral_macrosetae / straight distinctly_notched,
+		197  Metatarsus_I_trichobothrium_position / 'uniform, ungrouped' 'grouped, flat-tipped (Figs. 6B-C, 8GC-D)',
+		198  Metatarsus_III_trichobothrium / 'smaller than setal sockets (normal)' enlarged,
+		199  Metatarsus_IV_trichobothrium / 'short, at most subequal' 'elongate, longer (Figs. 19E, 21C, 23D, 32H, 57F, 58F)',
+		200  'Patella-tibia autospasy' / equal_or_shorter stout_and_distinctly_longer minute,
+		201  'Tarsus IV ventral setae (comb)' / abdominal_apex 'subapical, abdomen extending beyond spinnerets',
+		202  Tarsus_IV_ventral_setal_surface / absent 'present  (Figs. 63B, 74A)',
+		203  Tarsus_IV_comb_serrations / like_ectal_surface with_parallel_ridges,
+		204  Tarsus_IV_comb_bristle_dorsal_margin / normal reduced,
+		205  Tarsus_I_ventral_setae / 'large (over 40 spigots)' 'small (less than 35 spigots)',
+		206  Tarsal_organ_size / subequal_to__PLS_CY 'longer than PLS CY (Figs. 68E, 78B, 82D)',
+		207  'Tarsus IV central claw vs. laterals (male)' / normal enlarged,
+		208  'Tarsus IV central claw vs. laterals (female)' / 'not modified, subequal or smaller than ampullates' 'huge and elongated, much larger than ampullates',
+		209  Spinneret_insertion / smooth grooved,
+		210  Spinneret_sclerotized_ring / two one,
+		211  ALS_median_surface / five_or_more four_or_less,
+		212  'ALS piriform (PI) spigot bases' / present absent,
+		213  ALS_piriform_field_size / two one,
+		214  PLS_flagelliform_spigot_length / circumference_subequal_or_less_than_CY circumference_distinctly_greater_than_CY,
+		215  PLS_post_CY_base / 'normal, round' flattened,
+		216  'PLS, PMS CY spigot bases' / 'normal, round' flattened,
+		217  CY_shaft_surface / entire lobed,
+		218  PLS_CY_spigot_number / more_or_less_parallel end_to_end,
+		219  PLS_AC_spigot_number / absent present,
+		220  PLS_flagelliform_spigot / present absent,
+		221  'PLS AG spigot number (female)' / distinct 'indistinct, absent (Fig. 1G)',
+		222  PLS_AG_spigot_size / five_or_more four three two one none,
+		223  PLS_anterior_AG_spigot_shape / 'short, subequal to CY shaft' clearly_longer_than_any_CY_shaft,
+		224  PLS_posterior_AG_spigot_shape / present absent,
+		225  PLS_aggregate_gland_form / orb 'linyphioid knock-down sheet web (Fig. 99C)' 'chickenwire, rectangular orb (Synotaxus, Fig. 95A)' 'cobweb (Figs. 97G, 99A-B, 100A-F, 101A-E)' 'Spintharine H-web (Fig. 97A)' 'network mesh web - with foraging field below (rupununi-lorenzo)' 'dry line-web',
+		226  PLS_theridiid_type_AG_position / present absent,
+		227  'PLS AG and FL (male)' / in_sheet_or_tangle on_gumfoot_lines,
+		228  PMS_mAP_nubbins / present absent,
+		229  PMS_CY_spigot_base / absent present,
+		230  PMS_AC_spigot_number / spherical_to_lenticular 'stalked (Fig. 88E, 98D).',
+		231  'PMS minor ampullate (mAP) spigot shaft length' / suboval_or_roundish basal_knob rhomboid elongated Spiky,
+		232  'Prey-catching web' / 'fine, densely woven' 'thick, coarsely spun',
+		233  Web_form / 'smooth (Fig. 88A-B, E-H)' 'spiny (Fig. 88C-D)',
+		234  Sticky_silk_in_web / solitary communal,
+		235  Sticky_silk_placement / 'roughly equal <2x female-biased' '>3x female-biased',
+		236  'Wrap-bite attack' / 'both palps present before (and after) final molt' one_palp_amputated_prior_to_final_molt,
+		237  Sticky_silk_wrap_attack / transfer_sperm pseudocopulation,
+		238  Egg_sac_surface / ipsilateral contralateral,
+		239  Egg_case_structure / independent_of_copulation during_copulation_sequence,
+		240  Egg_sac_outermost_fibers / present absent,
+		241  Egg_sac_fiber_ultrastructure / no_rythmic_movements rythmic_expansion_of_haematodocha,
+		242  Web_construction / below above,
+		;
+
+MATRIX
+[                                      10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170       180       190       200       210       220       230       240        ]
+[                                       .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .        ]
+Achaearanea_tepidariorum       00010000-00001111120001000001-111----011100000000-00100100-000001010001--------0-------00000010011000000100111-000000000010000010000011001010100-111111100010000111110101101-1-02011101{01}10000000111001100001010000000111?10103103010100??00000010?
+Achaearanea_vervoorti          00010000-00001111120001000001-111----011100000010-00100100-000001010001--------0-------00000000011000000100211-000000000010000010000011001010100-1111111000100001111101011?1-1-02011101{01}10000000111001100001010000000111?10103105????????110??????
+Achaearanea_wau                00010000-00001111120001000001-111----011100000010-00100100-000001010001--------0-------00000000011000000100211-000000000010000010000011001010100-1111111000100001111101011?1-1-02011101{01}10000000111001100001010000000111?10103105????00??1100?????
+Ameridion_cf._petrum           00000000-00001111220010000001-111----010200000000-1-----00-0000100001000000100-1000000000000000010000000100{12}11-000100000010000010000011001010101210-1111000101001011101011?1-1-00021101111102000110001100001100000000111?101031??????????000??????
+Ameridion_sp.                  00000000-00001111220010000001-111----010200000000-1-----00-0000100001000000100-1000000000000000010000000100{12}11-000100000010000010000011001010101210-1111000101001011101011?1-1-00021101111102000110001100001100000000111?101031??????????000??????
+Anelosimus_analyticus          00110000-00001111110000011001-111----000200000000-00011100-0000100000100000000-1000011000000000011100000100110100000000001000000-00001000100010101101111000110111011101001?1-0100011101011110000110001100001100000000111?101031011-0100??1?0??????
+Anelosimus_cf._jucundus        00110000-00001111110000011001-111----000200001000-00011100-0000100000100000000-1000011010101000011100000100110100000000001000010-00001000100010101101111000110111011101000?1-01000111010111000001100011000011000?0000111?101031011-0100??110??????
+Anelosimus_eximius             00110000-00001111110000011001-111----000200000000-00011100-0000100000100000000-1000011010001000011000000100110100000000001000010-00001000100010101101111000110111011101001?1-0100011101011100000110001100001100000000111?101031011-01000?110??????
+Anelosimus_lorenzo             00110110-00001111110000010011-111----110201000000-00000100-0000100000000001000-1000010000000001011000000100110100000000001000000-0000100010001010111110100010-000011101001?1-0100011101010000000110001100001110000000111?10103105????00??110??????
+Anelosimus_pulchellus          10110000-00001111110000000001-121----010200000000-01001100-0000100000100000000-1000000000?00000011?00000100110100000000001000000-0000100010101010110111?000???????111010?0?1-0100011111011110000110001100001110000000111?101031????????????0??????
+Anelosimus_rupununi            00110110-00001111110000010011-111----110201000000-00000100-0000100000000001000-1000010000000001011000000100110100000000001000000-0000100010001010111110100010-000011101001?1-0100011101010000000110001100001110000000111?10103105????00??110??????
+Anelosimus_sp.1                00010000-00001111110000011001-111----000200010100-00001100-0000000000000000000-1000010000000000011000000100110100000000001000000-00001000101010101101111000100101011101001?1-0100011111011100000110001100001110000000111?101031???????????00??????
+Anelosimus_sp.2                00010000-00001111110000011001-111----000200010100-00001100-0000000000000000000-1000010000000000011000000100110100000000001000000-00001000101010101101111000100101011101001?1-0100011111011100000110001100001110000000111?101031???????????00??????
+Anelosimus_studiosus           00110000-00001111110000011001-111----000200000000-00011100-0000100000100000000-1000011010101000011100000100110100000000001000010-00001000100010101101111000110111011101001?1-01000111010111{01}0000110001100001100000000111?101031011-0100??110??????
+Anelosimus_vittatus            10110000-00001111110000000001-121----010200000000-01001100-0000100000100000000-1000000000100000011100000100110100000000001000000-000010001010101011011110000--001011101000?1-0100011111011110000110001100001110000000111?10103103????00??000??????
+Argiope_argentata              000000?0-0000000000000000000000-----0---000000000-00000000-0000000000000000000-0-------000000000100000000000001100000000000000?0-000000000000000-00-10---00-------00000001?00000000?00000000000000--00000000000000000000?-00000000000000?000???00?
+Argyrodes_argyrodes            00010000-00001111110000100001-1100000--0200000000-0000011110000000000001010001010000010001000001110000101001103100000000010000010111111000000100-0101111010100200010101001?0001001111010011000001100011110011-0110010111110103006????11?0-0000??0?
+Argyrodes_elevatus             00010000-00001111110000100001-1100000--0200000000-0000011110000000000001010001010000010001000001110000101001103100000000010000010111?11000000100-0101111010100200010101001?0001001111010011000001100011110011-0110010111110103006????11?0-00??????
+Ariamnes_attenuatus            00010010-01001111220000100001-1100000--0200000000-000001111000000000000101000101000001000100000111000000100110310000000001000000-101111001001100-01111010100--200010101011?00010012110111110000011100111100110011000111-?-11030061?0113??000??????
+Asygyna_coddingtonii           00010001000001001220000000000-1101101--0200000000-1-----00-000010000000101000100-------00000000010000000100201-00000000001500111101101101111011--1101111010100001000111001?0000001211012211001001?00010001011-0000110110?011031???????????00??????
+Asygyna_huberii                00010001000001001220000000000-1101101--0200000000-1-----00-000010000000101000100-------00000000010000000100201-00000000001500111101001101111011--1101111010100001000111001?0000001211010211001001?00010001011-0000110110?011031???????????00??????
+Carniella_siam                 00010001000001111220000000001-1001101--0200000000-00000001000?????????0101000110-------00000000010000001100110200000000001000001101101101101011--11011100101000010101011--?00010012?1011211001001?00010200011?????100100?-11?50??????????000??????
+Cerocida_strigosa              000110?1102001011220000000001-1101100--0200000000-1-----00-001--------0001000111001100101000000010000001100010010000000011300000-00001100101011--11010----0-------001011--?010100121101111100100110001000001100001100110?-11030???????????00??????
+Chrysso_cf._nigriceps          00010100-00001111220000000001-111----110200000001000000100-0000100000100000100-1000000000000000011000000100110100000000001000000-000011001000100-111110?000100001011101011?1-1-00111101111100000110001101001010000000111?101031??????????000??????
+Coleosoma_floridanum           00010000-00001111220000000001-111----01010000000110000010110000000101000000000-1000000000000000011000001100201-00010000001000001000001100100010111101110010100001011101011?1-1-00?2110111100000011?0011000011??0000?0111??01?31030{01}??00??0001111??
+Crustulina_sticta              00010010-00001111220000100001-1100010--0200000000-00000000-0100100010001010001010000100001000001110000001003-1-000000000011000110000011001110100-1101111010100000011100011?000000121101111100000111000000001100000000111100101003????????0000?01??
+Dipoena_nigra                  00000010-10001000110000000001-1100010--0200010000-00000001010001000000010100010100000000000000001000000011---1-00000110111010100-000010111010100-10-10---00-------11100001?000101011101110001000100010001001100000010?10?-11030??????????0000?0???
+Eidmanella_pallida             00010000-0010000011000000000050-----0---100100000-000010011001--------001-0000-1000000100000000000000001100100000000000011000000-00000101100011--10-10---00-------01001011?000100011101111101010100000000001100000100100?-0002?03010100??000??????
+Emertonella_funebris           00011010-10001000210000000001-1100010--0200000000-000000010101--------010100010100000100000000001000000011---1-00000110111010100-000010111010100-10-10---00-------011001--?2-0101021101220001000100010020011100000110111?1110301---01????000??0???
+Enoplognatha_latimana          00010000-00001011110000000001-1101100--0200000000-1-----010000001010000101000101001000101000000010001001100110301001001001000001000001000100010111101111010100000111101000?000100011101110001000110001000001000000000111100103103????????000??????
+Enoplognatha_ovata             00010000-00001011110000000001-1101100--0200000000-1-----0100000010100001010001010010001010000000100010011001103010010010010000010000011001000101111011110101000001111010000000100011101110001000110001000001000000000111100103103??0100??0000?0000
+Episinus_amoenus               00011011000001011110000000001-1100010--0200000000-000000011000101110000101000101000010000000000010001000101201-00000010001000000-000011001000000-10-11000000--001011101001?0101000111011100010001111010000011000000001111101030040101??1?000??????
+Euryopis_gertschi              00011010-10001000220000000001-1100010--0200000000-000000010101--------010100010100000100000000001000000011---1-00000110111010100-000010111010100-10-10---00-------011001--?2-1-0102110122000100010001002001110000011011111110301---??????000??0???
+Faiditus_cf._chickeringi       00010110-00001111110000000001-1100000--0200000000-0000011110000000000001010001010000100000000000110000001001101100000000010000010011011000000000-0101111010100000010101001?000100111101001100?001100011110011-0110010111?11103006???111??000??????
+Helvibis_cf._longicaudatus     00010011000001111220000000001-111----01010000000100000110110001002100000000100-1000000000010000010000000100201-000000000014000010000011001000100-1101110010100001011101011?1-1-00?21101111100000110001001001110000000111?101031??????????000??????
+Kochiura_aulica                00010001100001111110000000111-1101010--0200000000-00000100-00010000000000?0001110010110000100000110000001001101000000000010000010000010001000101011011110001000010111010010010100?21101011100000110001100001110000000111?10103103????????0000?00??
+Kochiura_rosea                 00010001100001111110000000111-1101010--0200000000-00000100-000100000000001000111101001000010000011000000100110000000000001000001000001000100010101101111000100001011101001?010100021101011100000110001100001110000000111?10103103????????0?0??????
+Latrodectus_geometricus        00010111102001111110000200011-1100010--0200000000-00000000-01001000100010100010100000100001010001101010011---1-00000000001000010-000010001000100-10-11000000--001011100011000000001010111000000011100000000110000000011110010100301010400000??????
+Latrodectus_mactans            00010111102001111110000200011-1100010--0200000000-00000000-01001000100010100010100000100001010001101010011---1-00000000001000010-000010001000100-10-11000000--001011100011?000000010101110000000111000000001100000000111100101003010100??00000011?
+Linyphia_triangularis          1100000100100000001000000000030-----0---100000000-00000000-001--------1--------0-------00000000010000001100000001100001000000000-000001001000101010-10---00-------01001010?00000001000011110000100--000000010010000000000-0102101001-000?000101?01
+Neospintharus_trigonus         00010000-00001111110000000001-1100000--0200000000-0000011110000100000001010001010000010000000000110000001001103100000000010000010111110000001000-01011110100--200010101001?0001001111011111000001110011110011-0110010111?01103006????11??-00??????
+Nesticodes_rufipes             00010010-00001111120000000001-111----010200000000-00000100-0000110000000000000-1000000000000000011000000100211-000000000010000010000010001010100-1101111000100000111101011?1-1-00011101110001000111001100001010000000111?10103103010100??000??????
+Nesticus_silvestrii            00010000-0010000011000000000050-----0---100100000-00001001100001000000001-0000-1000000100000000000000001100100000000000011000000-00000101100011--10-10---00-------110010?1?0001000111011111010101000000000011000001001001-0002?03010100??000000??0
+Pholcomma_hirsutum             00011011000001111220000000001-1101101--0200000000-00000100-000010000000001000111001000001000000010001001100100000000000001200001100001101101011--1101110010100-01010110001?000100121101111100000110001020001100000100110?-11040??????00??000??????
+Phoroncidia_sp.                00011001100001000220000000011-1101100--0200000000-000000110001--------000?0000-10011001010000000110000201003-1-000001100?1000000-100010011010000-10-00----0-------10100001?2-011--211111211000001?0001000101100000100111?0110300601??????000??????
+Pimoa_rupicola                 01000000-0000000000010000000020-----0---200000000-00000000-00001000000001-0000-0-------000000000000?0000100100200100000001000000-0000000010?0100-10-10---00-------01001010?00000010000011{01}10101100--00020001001000100100?-0105-01??1-????000??????
+Rhomphaea_metaltissima         00010000-00001011220000000001-1100000--0200000000-0000011110000000000001010001010000010001000000110000001001103100000000010010010101111000001100-01111010100--2000101011--?00010012110111110000011000111100110011000111-?-11030061?0112??000??????
+Robertus_frontatus             00011010-02001111220000000001-1101101--0200000000-000000010000010000000101000111000000000000000011001001100100200000000001000001100001101101011--11011110100--001010100001?000100121101111100000110001020001100000100110?-01030??????0???000??????
+Selkirkiella_alboguttata       00011001000001011210000000001-1101101--0200000000-00000001000010101000010?000111011100101000000010001001100100100000000001000001100001000101011--10-11001011-0--1-11101001?000100121101111100000110001000001110000000110?-01030031-??00??000??????
+Selkirkiella_magallanes        00011001000001011210000000001-1101101--0200000000-0000000100001010100001010001110111001010000000100010011001001000000000010000011000010001010101110-11001011-0--1-11101001?000100121101111100000110001000001110000000110?-01030031-??00??000??????
+Spintharus_flavidus            00010001000001011110000000001-111--1-210200000000-0000000100001011100001010000-10000000000000000100000011003-1-00000010001000000-000010001000000-10-11000000--0010111011--?010100021101110001?00111101000001100000000111?1010300401??????000??????
+Steatoda_grossa                00011010-00001111110000000001-1100010--0200000000-00000000-0100100010001010001010000100000000001110000001003-1-000000000011000110000010001100100-1101111010100001011100001?0000000111011110010001110000000011000000001111001011030101????000??001?
+Stemmops_cf._servus            00011001100001011210000010001-1101000--0200000000-00000000-0000000000000010001110000000000100000110000201003-1-00000110001000000-00001100101011--10-1100000100-01010101001?000100121101221100000110001020101100000100111?0?1030??????????000??????
+Synotaxus_monoceros            0000000100001000011102000000040-----0---100000000-1--0--00-001--------001-0000-1002000100000000000000000100100000000000011000000-010010011000100-10-10---00-------01001010?000000111101000001000100000101001100000000100?-0012002000100??000??????
+Synotaxus_waiwai               0000000100001000011102000000040-----0---100000000-1--0--00-001--------1--------1002000100000000000000000100100000000000011000000-000010011000100-10-10---00-------01001010?000000111101000001000100000101001100000000100?-0012002000100??000??????
+Tetragnatha_extensa            000-0000-1000100000000000000010-----0---100000000-00000000-000000000001--------0-------000000000100001000000000010000010000000?0-000000001000101100-10---00-------00000000?0000000000000?0000{01}0000--00?000000000100000000-00020001-1-000?000010?10
+Theridion_frondeum             00010000-00001111120000000001-111----11020000000110000010110000000001000000110-1000000000000000011000001100{12}01-00010000001000001000001000100010111101111010100001111101011?1-1-00021101111000000111001100001110000000111?10103103????00??000??????
+Theridion_longipedatum         00010000-00001111120000000001-111----11020000000110000010110000000001000000110-1000000000000000011000001100{12}{01}03000100000010000010000010001010101-1101111010100001111101011?1-1-0002110111100000011100110000111000?000111?10103103????????000??????
+Theridion_pictum               00010000-00001111220000000001-111----01020000000110000010100000000101000000100-1000011000000000011000000100211-00000000001001?0100000100?1??0?011???1111?0????????111??01?11-1??002?1??1?100?00011100110?001110000000111110103103?00100?0??01111??
+Theridion_varians              00010000-00001111220000000001-111----01020000000110000010100000000101000000100-1000011000000000011000000100211-000000000010010010000010001000101110-111100010000001110101111-1-0002110111100000011100110000111000000011111010310300??00?0000111100
+Theridula_emertoni             00010000-00001111220000000001-112-------200000000-00000000-001--------00??000--0-------00000000000000000100211-000000000010010010000011001010100-10-1110000101001011101011?1-1-00121101111100000110001100001110000000111?001030??????????000??????
+Thwaitesia_margaritifera       00010000-00001011110000000001-1100010--0210000000-1-----010000100110000101000101000010000000000010001000101101-00000010001000000-000011001000000-00-11000000--0010111010{01}1?0101000111011100010001111010000011-0000010111?101030061-????11000??????
+Thymoites_unimaculatum         10010000-00001111220000000001-111----010200000001000000100-0000000101000000000-1000000000000000010000000100201-00000000001000001000001101101011--1101111000100001011101011?1-1-001211011111001001100011000011?000?000111?10103103????00??000??????
+Tidarren_sisyphoides           00010000-00001111220002000001-1100100--020001000101-----00-000010000000000000111000001000000000011000000100211-000000000010000011000010001010100-10-1100000100-01011101011?1-1-02011101110000000111001?00001010000000111?101031031-0100??0010?00??
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb7719;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Achaearanea_wau,
+            2    Achaearanea_tepidariorum,
+            3    Argiope_argentata,
+            4    Tetragnatha_extensa,
+            5    Pimoa_rupicola,
+            6    Linyphia_triangularis,
+            7    Synotaxus_waiwai,
+            8    Synotaxus_monoceros,
+            9    Eidmanella_pallida,
+            10   Nesticus_silvestrii,
+            11   Dipoena_nigra,
+            12   Emertonella_funebris,
+            13   Euryopis_gertschi,
+            14   Thwaitesia_margaritifera,
+            15   Episinus_amoenus,
+            16   Spintharus_flavidus,
+            17   Latrodectus_geometricus,
+            18   Latrodectus_mactans,
+            19   Crustulina_sticta,
+            20   Steatoda_grossa,
+            21   Asygyna_coddingtonii,
+            22   Asygyna_huberii,
+            23   Carniella_siam,
+            24   Robertus_frontatus,
+            25   Pholcomma_hirsutum,
+            26   Enoplognatha_latimana,
+            27   Enoplognatha_ovata,
+            28   Achaearanea_vervoorti,
+            29   Theridula_emertoni,
+            30   Ameridion_cf._petrum,
+            31   Ameridion_sp.,
+            32   Thymoites_unimaculatum,
+            33   Helvibis_cf._longicaudatus,
+            34   Tidarren_sisyphoides,
+            35   Coleosoma_floridanum,
+            36   Theridion_pictum,
+            37   Theridion_varians,
+            38   Theridion_longipedatum,
+            39   Theridion_frondeum,
+            40   Nesticodes_rufipes,
+            41   Chrysso_cf._nigriceps,
+            42   Anelosimus_studiosus,
+            43   Anelosimus_cf._jucundus,
+            44   Anelosimus_eximius,
+            45   Anelosimus_analyticus,
+            46   Anelosimus_sp.2,
+            47   Anelosimus_sp.1,
+            48   Anelosimus_vittatus,
+            49   Anelosimus_pulchellus,
+            50   Anelosimus_rupununi,
+            51   Anelosimus_lorenzo,
+            52   Kochiura_rosea,
+            53   Kochiura_aulica,
+            54   Faiditus_cf._chickeringi,
+            55   Ariamnes_attenuatus,
+            56   Rhomphaea_metaltissima,
+            57   Neospintharus_trigonus,
+            58   Argyrodes_elevatus,
+            59   Argyrodes_argyrodes,
+            60   Stemmops_cf._servus,
+            61   Cerocida_strigosa,
+            62   Phoroncidia_sp.,
+            63   Selkirkiella_alboguttata,
+            64   Selkirkiella_magallanes;
+      TREE Tree_1 = [&R] (3,(4,((5,6),((7,8),((9,10),((11,(12,13)),((((14,15),16),(((((((21,22),23),(24,25)),((62,60),61)),(64,63)),(26,27)),((((59,58),(57,(56,55))),54),((53,52),((((51,50),((47,46),(45,(44,(43,42))))),(49,48)),(41,(((40,((28,1),2)),34),((((((39,38),35),(37,36)),33),32),((31,30),29))))))))),((17,18),(19,20)))))))));
+      TREE Tree_2 = [&R] (3,(4,((5,6),((7,8),((9,10),((11,(12,13)),((((14,15),16),((((((((21,22),23),24),25),((62,60),61)),(64,63)),(26,27)),((((59,58),(57,(56,55))),54),((53,52),((((51,50),((47,46),(45,(44,(43,42))))),(49,48)),(41,(((40,((28,1),2)),34),((((((39,38),35),(37,36)),33),32),((31,30),29))))))))),((17,18),(19,20)))))))));
+
+
+
+END;

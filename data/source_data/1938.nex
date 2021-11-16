@@ -1,0 +1,104 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:52 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Crane P. 1985. Phylogenetic relationships in seed plants. Cladistics, 1: 329-348.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S229]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=20;
+        TAXLABELS
+            Archaeopteris
+            Bennettitales
+            Callistophyton
+            Caytonia
+            Cordaixylon
+            Corystosperms
+            Cycads
+            Ephedra
+            Extant_Conifers
+            Ginkgo
+            Glossopterids
+            Gnetum
+            Lebachia
+            Lyginopteris
+            Medullosans
+            Mesoxylon
+            Peltasperms
+            Pentoxylon
+            Welwitschia
+            angiosperms
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M590]
+
+	TITLE Table_2;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=31;
+	FORMAT DATATYPE=Standard SYMBOLS= "- +" MISSING=? GAP= N;
+
+MATRIX
+[                           10        20        30 ]
+[                            .         .         . ]
+Archaeopteris       +--N-N-NN---N--NNN-+N-NNN-----N
+Bennettitales       +++++-+-++--N+-N-++++++++------
+Callistophyton      +++++-++++--N+-N+---N-NNN-----N
+Caytonia            +++++-++++--N+-N-++-----N-----N
+Cordaixylon         +++++-+++--+++++----N-NNN-----N
+Corystosperms       +++++-++++--N+-N-++++---N-----N
+Cycads              ++++++---+--N+-N----N-NNN-----N
+Ephedra             +++++-+-+---N+--+-++N+NNN---+++
+Extant_Conifers     +++++-+++-++++--+---N-NNN-----N
+Ginkgo              +++++-+-+--+N+-N----N-NNN-----N
+Glossopterids       +++++-++++--N+-N-+------N-----N
+Gnetum              ++++N-+--+--N+--+-++N-NNN+++-++
+Lebachia            +++++-+++-+++-------N-NNN-----N
+Lyginopteris        ++++--+--+--N--N---+N-N-N-----N
+Medullosans         -++++++--+--N--N----N-NNN-----N
+Mesoxylon           +++++-+++--++-++----N-NNN-----N
+Peltasperms         +++++-+-++--N+-N----N---N-----N
+Pentoxylon          +++++-+-++--N+-N-++++++++------
+Welwitschia         ++++N-+-----N+--+-++N+NNN++++++
+angiosperms         +++++-+--+--N+-N++++++--N+-----
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb4951;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Archaeopteris,
+            2    Medullosans,
+            3    Cycads,
+            4    Lyginopteris,
+            5    Cordaixylon,
+            6    Mesoxylon,
+            7    Lebachia,
+            8    Extant_Conifers,
+            9    Ginkgo,
+            10   Callistophyton,
+            11   Peltasperms,
+            12   Glossopterids,
+            13   Caytonia,
+            14   Corystosperms,
+            15   Bennettitales,
+            16   Pentoxylon,
+            17   Gnetum,
+            18   Welwitschia,
+            19   Ephedra,
+            20   angiosperms;
+      TREE Fig._2 = [&R] (1,(4,(2,3,((((5,6),(7,8)),9),10,11,(12,(13,(14,((15,16),(((17,18),19)Gnetales,20))anthophytes))))))seed_plants);
+
+
+
+END;

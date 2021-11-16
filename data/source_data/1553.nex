@@ -1,0 +1,252 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:49 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Gernandt D.S., Leon-gomez C., Hernandez-leon S., & Olson M.E. 2010. Pinus nelsonii
+and a Cladistic Analysis of Pinaceae Ovulate Cone Characters. Systematic Botany,
+.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S10553]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=50;
+        TAXLABELS
+            Abies
+            Cathaya_argyrophylla
+            Cedrus
+            Cryptomeria_japonica
+            Keteleeria
+            Larix
+            Obirastrobus_kokubunii
+            Obirastrobus_nihongii
+            Pararaucaria_patagonica
+            Picea
+            Pinus_belgica
+            Pinus_nelsonii
+            Pinus_ponderosa
+            Pityostrobus_andraei
+            Pityostrobus_argonnensis
+            Pityostrobus_beardii
+            Pityostrobus_bernissartensis
+            Pityostrobus_californiensis
+            Pityostrobus_cliffwoodensis
+            Pityostrobus_corneti
+            Pityostrobus_hallii
+            Pityostrobus_hautrageanus
+            Pityostrobus_hokodzensis
+            Pityostrobus_hueberi
+            Pityostrobus_jacksonii
+            Pityostrobus_kayeii
+            Pityostrobus_leckenbyi
+            Pityostrobus_lynnii
+            Pityostrobus_macrocephalus
+            Pityostrobus_makahensis
+            Pityostrobus_matsubarae
+            Pityostrobus_mcmurrayensis
+            Pityostrobus_milleri
+            Pityostrobus_oblongus
+            Pityostrobus_palmeri
+            Pityostrobus_pubescens
+            Pityostrobus_ramentosa
+            Pityostrobus_shastaensis
+            Pityostrobus_villerotensis
+            Pityostrobus_virginiana
+            Pseudoaraucaria_arnoldii
+            Pseudoaraucaria_benstedi
+            Pseudoaraucaria_gibbosa
+            Pseudoaraucaria_heeri
+            Pseudoaraucaria_loppineti
+            Pseudoaraucaria_major
+            Pseudolarix_amabilis
+            Pseudotsuga
+            Sciadopitys_verticillata
+            Tsuga
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M7392]
+
+	TITLE ConeMorphologyDG;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=54;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2 3 4 5 6 7" MISSING=? GAP= -;
+	CHARSTATELABELS
+		1  Pith_sclerenchyma / absent present,
+		2  Pith_resin_canals / absent present,
+		3  Secondary_xylem_continuity / forming_a_continuous_cylinder_or_little_dissected in_separate_strands,
+		4  Secondary_xylem_resin_canals / absent present,
+		5  Secondary_xylem_growth_increments / one two,
+		6  Inner_cortex_sclerenchyma_ / absent present,
+		7  Sclerenchyma_in_outer_cortex / absent present,
+		8  Cortical_resin_canal_diameter / uniform dilated_markedly_near_points_of_branching,
+		9  Axis_scale_or_bract_base_trichomes / absent present,
+		10  Bract_and_scale_trace_origin / separate united,
+		11  Scale_trace_derivation / from_two_lateral_strands single_abaxially_concave_strand,
+		12  Scale_trace_shape / abaxially_concave becoming_cylindrical_after_divergence,
+		13  Resin_canals_to_cone_scale_complex_arising_from_cortical_canals / as_a_single_branch two_origins three_separate_origins four_separate_origins more_than_four_separate_origins,
+		14  Bract_and_ovuliferous_scale_separation / fused separating,
+		15  Bract_and_ovuliferous_scale_manner_of_separation / laterally_first medially_first all_at_once,
+		16  Bract_length_relative_to_ovuliferous_scale / shorter equal longer,
+		17  Abaxial_lobe_of_bract_base_or_cone_scale_complex / absent present,
+		18  Bract_apex_shape / simple tridentate,
+		19  Bract_sclerenchyma / absent present,
+		20  Bract_resin_canals_ / absent present,
+		21  Bract_resin_canal_number / two more_than_two,
+		22  Bract_trace / entering_bract terminating_before_entering_free_part_of_bract,
+		23  Bract_trace_vascular_ray / absent present,
+		24  Ovuliferous_scale_vascular_bundles_distal_to_seed / straight abaxially_concave,
+		25  Ovuliferous_scale_resin_canals / absent present,
+		26  Resin_canals_abaxial_to_ovuliferous_scales_at_scale_base / absent present,
+		27  Resin_canals_adaxial_to_ovuliferous_scales_at_scale_base / absent present,
+		28  Resin_canals_to_ovuliferous_scales_abaxial_at_level_of_seed_body / absent present,
+		29  Resin_canals_to_ovuliferous_scales_between_vascular_tissue_at_level_of_seed_body / absent present,
+		30  Resin_canals_to_ovuliferous_scales_adaxial_to_vascular_tissue_at_level_of_seed_body / absent present,
+		31  Resin_canals_to_ovuliferous_scale_distal_to_seed_body_including_under_wing_and_more_distal_sections_abaxial / absent present,
+		32  Resin_canals_to_ovuliferous_scale_distal_to_seed_body_including_under_wing_and_more_distal_sections_between / absent present,
+		33  Resin_canals_to_ovuliferous_scale_distal_to_seed_body_including_under_wing_and_more_distal_sections_adaxial / absent present,
+		34  Sclerenchyma_in_ovuliferous_scale_abaxial_to_vascular_tissue / absent present,
+		35  Sclerenchyma_in_ovuliferous_scale_between_vascular_tissue / absent present,
+		36  Sclerenchyma_in_ovuliferous_scale._adaxial_to_vascular_tissue / absent present,
+		37  Ovuliferous_scale_shape / flabellate_or_broad_at_apex round_to_rhomboid_or_broad_in_middle tongue_shaped subcordate deltate_triangular,
+		38  Ovuliferous_scale_base / pedicillate broad,
+		39  Ovuliferous_scale_apex / thinning_distally thickening_distally_into_an_apophysis,
+		40  Umbo / absent present,
+		41  Umbo_position / dorsal terminal,
+		42  Interseminal_ridge / absent present,
+		43  Interseminal_ridge_extension / extending_less_than_half_of_seed_diameter extending_more_than_half_of_seed_diameter extending_between_and_overarching,
+		44  Scale_at_right_angles_to_cone_axis_for_length_of_seed_body_with_sharply_upturned_distal_portion / absent present,
+		45  Method_of_cone_seed_release / cone_spreading scale_abscission_from_cone_axis,
+		46  Seed_wings_formed_from_ovuliferous_scale_tissue / absent present,
+		47  Seed_wings_formed_from_sarcotestal / absent present,
+		48  Resin_vesicles_or_cavities_in_integument / absent present,
+		49  Ridged_sclerotesta / absent present,
+		50  Enlarged_parenchyma_pad_or_cushion_at_chalazal_end_of_seed / absent present,
+		51  Number_of_ovules_per_ovuliferous_scale / one two three_or_more,
+		52  Seed_body_shape / ovoid_obovate triangular_cuneate_oblong,
+		53  Vascular_strand_entering_seed / absent present,
+		54  Seed_wing_attachment / deep_cup shallow_cup claws,
+		;
+
+MATRIX
+[                                        10        20        30        40        50        60        70        80 ]
+[                                         .         .         .         .         .         .         .         . ]
+Abies                            101{01}011{01}{01}{01}10111{02}{01}{01}1100001010010111010000-0-11101001110
+Cathaya_argyrophylla             000000100010???01001010?111???1111011100-10001000010?1
+Cedrus                           00101{01}10{01}01031000010-1001111001001110000-{01}011101001110
+Cryptomeria_japonica             1000011000??01010?0110?00--------1110000-0-0001000210-
+Keteleeria                       00000011{01}011110{02}111101{01}11111011??1013000-1010101001110
+Larix                            100{01}0{01}101010111{02}{01}101{01}{01}{01}11010011111011100-1{01}00100001001
+Obirastrobus_kokubunii           0011011100{01}03110000110001111111111010100-11001000010??
+Obirastrobus_nihongii            000101110{01}104110100110001111011111011?00-1100100001?1?
+Pararaucaria_patagonica          10000?1-1010-1000000-00?0--------0110?10-0-1010000{01}?1?
+Picea                            {01}0{01}{01}0{01}10{01}01011001001{01}0{01}0101101{01}111111100-1{01}00100001001
+Pinus_belgica                    100100000110110000?100?111011011110021110100010000100?
+Pinus_nelsonii                   0001100001101100100100?1110111111000211101200100001002
+Pinus_ponderosa                  ?0010000011011?000110??1110111111111211101000100001002
+Pityostrobus_andraei             000?01?1001011?000????01110100111101211100-00100001002
+Pityostrobus_argonnensis         10000110001010-000???1011101001111012?10-10001000010?2
+Pityostrobus_beardii             10100110101011000001100?110100111111??11?1000100101???
+Pityostrobus_bernissartensis     110000000010110000?0-101110100101100210110-001000010?2
+Pityostrobus_californiensis      1101011100101100000100101111111111010000-1100100001???
+Pityostrobus_cliffwoodensis      000100100010???000?100001101111111001?00?1000100001???
+Pityostrobus_corneti             100001100011?100001101001111111111000000-0-00101001???
+Pityostrobus_hallii              0000001001101110000100001101101111111100-??00100001???
+Pityostrobus_hautrageanus        100001100000???0000??101110110111100211110-001001010??
+Pityostrobus_hokodzensis         10100110101011200001010?1101001111110000-1000100101???
+Pityostrobus_hueberi             10000100101111000010-1001101101011000100-100010000100?
+Pityostrobus_jacksonii           000100000010?10000?11000110???11110021110100010??01???
+Pityostrobus_kayeii              1001000000001100000100011101001111012?1100-00100001???
+Pityostrobus_leckenbyi           00000???011021000?0101001010011111000000-100010100101?
+Pityostrobus_lynnii              0001001101101110000??{01}0111010011110021110100010??01???
+Pityostrobus_macrocephalus       10000110000?1??000?10100110???111101211??0-00100101??2
+Pityostrobus_makahensis          10010011001011100001{01}0001101011111010000-1000101001???
+Pityostrobus_matsubarae          10000110000011000001000?1111111111011000-10001000010??
+Pityostrobus_mcmurrayensis       10100110001011001?01000?110101???001??00-10001000010??
+Pityostrobus_milleri             00110011101010-0??11010?11011011110101110100010??01???
+Pityostrobus_oblongus            10000111011021000?0100001011011111010?00-1000101001?1?
+Pityostrobus_palmeri             100111100{01}001100000101001101011101112?11?100010000100?
+Pityostrobus_pubescens           001000001010110010010000110001?101110000-11001?0001???
+Pityostrobus_ramentosa           000000111110?100000100001111011111012?00-110010??01???
+Pityostrobus_shastaensis         10010110001011000001010?110???111101?????1000100001???
+Pityostrobus_villerotensis       000000000110111000?100011101111111112100-10001000010??
+Pityostrobus_virginiana          000?00001100?100000100011101001001010000-1000100001?0?
+Pseudoaraucaria_arnoldii         001000110000110000011{01}001010011111100?011121010101111?
+Pseudoaraucaria_benstedi         00100?1?0000?10000?1000?1??001???100?????1210101011???
+Pseudoaraucaria_gibbosa          101001110000310000?1000011100111110110011121010001111?
+Pseudoaraucaria_heeri            0010001000001100001100001010011011010001112101010111??
+Pseudoaraucaria_loppineti        001000100000110000010010101001???100??0111210100011110
+Pseudoaraucaria_major            001000100000110000010110101001111111?00111210101011???
+Pseudolarix_amabilis             101001101010?100001100?01111111110114000-1001101001010
+Pseudotsuga                      10010{01}10{01}0101102010100{01}11010011111011100-1000100001001
+Sciadopitys_verticillata         0010000010001101000110001010010110010000-0-0001000201-
+Tsuga                            10000{01}{01}0{01}010311{02}{01}0110000101001111101{01}000-1000101001010
+;
+END;
+
+BEGIN TREES;
+      TITLE Most_parsimonious_TB;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Abies,
+            2    Cathaya_argyrophylla,
+            3    Cedrus,
+            4    Larix,
+            5    Keteleeria,
+            6    Picea,
+            7    Pinus_belgica,
+            8    Pinus_ponderosa,
+            9    Pinus_nelsonii,
+            10   Pseudolarix_amabilis,
+            11   Pseudotsuga,
+            12   Tsuga,
+            13   Pseudoaraucaria_arnoldii,
+            14   Pseudoaraucaria_benstedi,
+            15   Pseudoaraucaria_gibbosa,
+            16   Pseudoaraucaria_heeri,
+            17   Pseudoaraucaria_loppineti,
+            18   Pseudoaraucaria_major,
+            19   Obirastrobus_kokubunii,
+            20   Obirastrobus_nihongii,
+            21   Pityostrobus_andraei,
+            22   Pityostrobus_argonnensis,
+            23   Pityostrobus_beardii,
+            24   Pityostrobus_bernissartensis,
+            25   Pityostrobus_californiensis,
+            26   Pityostrobus_cliffwoodensis,
+            27   Pityostrobus_corneti,
+            28   Pityostrobus_hallii,
+            29   Pityostrobus_hautrageanus,
+            30   Pityostrobus_hokodzensis,
+            31   Pityostrobus_hueberi,
+            32   Pityostrobus_jacksonii,
+            33   Pityostrobus_kayeii,
+            34   Pityostrobus_leckenbyi,
+            35   Pityostrobus_lynnii,
+            36   Pityostrobus_macrocephalus,
+            37   Pityostrobus_makahensis,
+            38   Pityostrobus_mcmurrayensis,
+            39   Pityostrobus_matsubarae,
+            40   Pityostrobus_milleri,
+            41   Pityostrobus_oblongus,
+            42   Pityostrobus_palmeri,
+            43   Pityostrobus_pubescens,
+            44   Pityostrobus_ramentosa,
+            45   Pityostrobus_shastaensis,
+            46   Pityostrobus_villerotensis,
+            47   Pityostrobus_virginiana,
+            48   Cryptomeria_japonica,
+            49   Pararaucaria_patagonica,
+            50   Sciadopitys_verticillata;
+      TREE Strict = [&R] ((((((((((1,(((13,14),(16,(17,18))),15)),(12,(34,41))),((((3,40),5),44),37)),((19,20),25)),39),(10,49)),(27,31)),((((2,6),((((((7,(((21,((((22,(42,45)),(29,36)),24),33)),32),35)),9),8),46),28),26)),(43,47)),((23,30),38))),(4,11)),(48,50));
+
+
+
+END;

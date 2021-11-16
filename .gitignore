@@ -1,4 +1,5 @@
 venv
-data/source_data
+data/quarantine
+data/quarantine_evaluations
 orange3venv
 orange3venv1

@@ -1,0 +1,77 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:41 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Schneider A., & Cannarozzi G.M. 2009. Support Patterns from Different Outgroups Provide
+a Strong Phylogenetic Signal. Molecular Biology and Evolution, 26(6): 1259-1272.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S11961]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=23;
+        TAXLABELS
+            Bos_taurus
+            Canis_familiaris
+            Cavia_porcellus
+            Dasypus_novemcinctus_
+            Echinops_telfairi
+            Equus_caballus
+            Erinaceus_europaeus
+            Felis_catus
+            Homo_sapiens
+            Loxodonta_africana
+            Macaca_mulatta
+            Microcebus_murinus
+            Mus_musculus
+            Myotis_lucifugus
+            Ochotona_princeps
+            Oryctolagus_cuniculus
+            Otolemur_garnettii
+            Pan_troglodytes
+            Pongo_pygmaeus_abelii
+            Rattus_norvegicus
+            Sorex_araneus
+            Spermophilus_tridecemlineatus
+            Tupaia_belangeri
+            ;
+END;
+
+BEGIN TREES;
+      TITLE Imported_trees;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Mus_musculus,
+            2    Homo_sapiens,
+            3    Pongo_pygmaeus_abelii,
+            4    Rattus_norvegicus,
+            5    Cavia_porcellus,
+            6    Spermophilus_tridecemlineatus,
+            7    Oryctolagus_cuniculus,
+            8    Ochotona_princeps,
+            9    Tupaia_belangeri,
+            10   Pan_troglodytes,
+            11   Macaca_mulatta,
+            12   Microcebus_murinus,
+            13   Otolemur_garnettii,
+            14   Canis_familiaris,
+            15   Felis_catus,
+            16   Bos_taurus,
+            17   Myotis_lucifugus,
+            18   Equus_caballus,
+            19   Sorex_araneus,
+            20   Erinaceus_europaeus,
+            21   Loxodonta_africana,
+            22   Echinops_telfairi,
+            23   Dasypus_novemcinctus_;
+      TREE OG_tree = [&R] ((((((((1,4),5),6),(7,8)),9),((((2,10),3),11),(12,13))),(((14,15),((16,17),18)),(19,20))),((21,22),23));
+
+
+
+END;

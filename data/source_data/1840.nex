@@ -1,0 +1,246 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:50 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Hugot J. 1999. Primates and their pinworm parasites: the Cameron hypothesis revisited.
+Systematic Biology, 48(3): 523-546.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S606]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=50;
+        TAXLABELS
+            Cal._blanci
+            Cal._brygooi
+            Ctenodatctylina_tunaetae
+            Enterobius_anthropopitheci
+            Enterobius_bipapillatus
+            Enterobius_brevicauda
+            Enterobius_buckleyi
+            Enterobius_colobis
+            Enterobius_entellus
+            Enterobius_gregorii
+            Enterobius_guerezae
+            Enterobius_inglisi
+            Enterobius_lerouxi
+            Enterobius_longispiculum
+            Enterobius_macaci
+            Enterobius_paraguerezae
+            Enterobius_pesteri
+            Enterobius_pitheci
+            Enterobius_presbytis
+            Enterobius_vermicularis
+            Enterobius_zakiri
+            Inglisoxyuris_inglisi
+            Lemuricola_baltazardi
+            Lemuricola_bauchotis
+            Lemuricola_contagiosus
+            Lemuricola_daubentoniae
+            Lemuricola_lemuris
+            Lemuricola_microcebi
+            Lemuricola_nycticebi
+            Lemuricola_trichuroides
+            Lemuricola_vauceli
+            Trypanoxyuris_atelis
+            Trypanoxyuris_bicristata
+            Trypanoxyuris_brachytelesis
+            Trypanoxyuris_callicebi
+            Trypanoxyuris_callithricis
+            Trypanoxyuris_clemenentinae
+            Trypanoxyuris_croizati
+            Trypanoxyuris_duplicidens
+            Trypanoxyuris_goeldii
+            Trypanoxyuris_lagothricis
+            Trypanoxyuris_microon
+            Trypanoxyuris_minutus
+            Trypanoxyuris_oedipi
+            Trypanoxyuris_satanas
+            Trypanoxyuris_sceleratus
+            Trypanoxyuris_sciuri
+            Trypanoxyuris_tamarini
+            Trypanoxyuris_trypanuris
+            Xeroxyuris_parallela
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M2585]
+
+	TITLE Table_1;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=45;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2 3 4 5 6 7" MISSING=? GAP= -;
+	CHARSTATELABELS
+		1  Diaphrg. / abst pst,
+		2  Sprmthc / present absent,
+		3  GenTract / prodelphic amphidelphic,
+		4  Vagina / 'abst->1.2 vgct- rct' '>1.2 vgct- *' '>1.2 vgct+ rct' '>1.2 vgct+ rct lg' '<1.2 vm',
+		5  ARug / 'pharyng-generalised' inglox 'V crest >3rd' 'U crest >3rd' V_crest_æ_p_3rd tamarini,
+		6  Cloc_opng / gnrlsd Yshpd prtdg 'Pharyngo+',
+		7  BrsCd_1 / 'Pharyngo+' 'Inglis+' 'Ent+',
+		8  BrsCd_2 / 'Ent+p1+' 'Ent+p1+bbl' 'Ent+p1-' 'Ent+p1-phsmd',
+		9  BrsCd_3 / abst 2d 2d_and_3rd linked extd_lat cone btrfl_shpd,
+		10  BrsCd_4 / '2d 3rd § -  leaf' '2d 3rd § +  leaf' '2d 3rd § +  lsg',
+		11  Spcl_Mn / thin thick_sphr thick_sphr_bos thick_mass thck_rctgl tck_verm,
+		12  Spcl_Cps_1 / feebly_curved rectlgn dble_bowed flexible,
+		13  Spcl_Cps_2 / 'flex <250' flex_Ñ250,
+		14  Spcl_Pt / sharp_point round_point hooked_point thin_point angled,
+		15  Tip_tail / absent atrophied present short long,
+		16  Amphd / 'ped-' 'ped+',
+		17  CepPlt1 / circular hexagonal rectangular square,
+		18  CepPlt2 / hexg_reg hexg_irrg '+ slot',
+		19  CepVes / generalised thick 1st_ring_thick striation_accentuated,
+		20  Bucc_aprt / 6_lips 3_lips_gnrl 3_lips_rdcd 2_lips,
+		21  Lips_1 / edge_rnd edge_rnd_rdce 'horse shoe-shaped' thickened lob dors_hztl stuck_teeth,
+		22  Lips_2 / sym_cal sym_try as_mic as_min,
+		23  TthApx_1_2 / rnd_smpl rnd_3_dtc flat 'articulated + superstrc' dors_reduced dors_atrphd lemur_type entero_type,
+		24  TthApx_2 / flat_pent flat_ê,
+		25  TthApx_3 / mushrm blades,
+		26  TthApx_4 / msrm_smpl msrm_1_dtcl,
+		27  TthApx_4_2 / bld_lrge bld_shrt,
+		28  Ospg_Blb / smg_abst smshg_pst 'opg.blb<3,15MF',
+		29  FLw_1 / abst_in_F pst_æ_blb 'pst > blb',
+		30  FLw_2 / pst_æ_blb_êê pst_æ_blb_Y pst_æ_blb_U,
+		31  FLw_3 / 'pst > blb crvc-' 'pst > blb crvc+',
+		32  FLw_4 / ê U,
+		33  FLw_5 / ê_2_crest ê_2_crests_distant ê_2_crests_rdtd,
+		34  FLw_6 / ê_2_crests_rdtd ê_2_crests_fus,
+		35  FLw_7 / U_2_crests_devlp U_2_crests_atr U_1_crest_atel,
+		36  FLw_8 / ê_1_crest ê_2_crests_gde U_1_crest_colob_1 U_1_crest_colob_2 Y_xero,
+		37  Egg_1 / 'emb+' 'emb-',
+		38  Egg_2 / 'emb-sharp' 'emb-rd',
+		39  Egg_3 / 'emb-rd thin' 'emb-rd thick',
+		40  Egg_2_1_thin / symm asymm_flat,
+		41  Egg_3_1_thick / sym asymm_cvx asymm_flat,
+		42  Egg_2_2_thin / Legg_Ñ80 'Legg <80 >60' Legg_æ60,
+		43  Egg_3_2_thick_2 / 'LÑ70 BL<100' 'L<70 Ñ50 BL<100' 'L<70 Ñ45 BL>100' 'L<45 BL>100',
+		44  Egg_3_3_thick / 'BL>100 <115' 'BL>115 <175' 'BL>175',
+		45  Egg_3_4_thick / 'BL<100 LÑ45' 'BL>100 LÑ45' 'BL>100 L<45',
+		;
+
+MATRIX
+[                                       10        20        30        40        ]
+[                                        .         .         .         .        ]
+Cal._blanci                     000-030-0-00-0010-000-0----00-------0--------
+Cal._brygooi                    000-030-0-00-0010-000-0----00-------0--------
+Ctenodatctylina_tunaetae        000-030-0-00-0010-000-0----00-------0--------
+Enterobius_anthropopitheci      111200223112-10012011-7----12-1----{01}111-1--0-
+Enterobius_bipapillatus         111200223242-40012010-7----12-1----1111-1--1-
+Enterobius_brevicauda           111200223042-40012010-7----12-1----1111-1--1-
+Enterobius_buckleyi             111200223?52-10012010-??---1?????-??111-1--1-
+Enterobius_colobis              111200223010-01012312-3-00-12-1----2111-2---2
+Enterobius_entellus             111300223003000012310-3-1-112-1----3111???-??
+Enterobius_gregorii             111200223112-20012011-7----12-1----0111-1--2-
+Enterobius_guerezae             111200223010-01012312-3-01-12-1----2111-2---0
+Enterobius_inglisi              111?00223010-00012312-3-00-12-1----?111-2---0
+Enterobius_lerouxi              111200223?52-10012010-??---1???----0111-1--0-
+Enterobius_longispiculum        111300223003100012310-3-1-012-1----3111-2---1
+Enterobius_macaci               111200223242-40012010-7----12-1----1111-1--1-
+Enterobius_paraguerezae         111200223010-01012312-3-01-12-1----2111-2---0
+Enterobius_pesteri              111?00223010-00012312-3-00-12-1??-??111-2---1
+Enterobius_pitheci              1113?0?????????012310-3-1-012-1----3???-2---1
+Enterobius_presbytis            111300223003000012310-3-1-112-1----3111-2---2
+Enterobius_vermicularis         111200223152-20012011-7----12-1----0111-1--2-
+Enterobius_zakiri               111300223003100012310-3-1-112-1----3111-2---2
+Inglisoxyuris_inglisi           000-101-0-10-0010-000-0----11?------0--------
+Lemuricola_baltazardi           111131205-40-0000-013-6----111------1101-1---
+Lemuricola_bauchotis            111131204-10-0100-013-6----111------1101-2---
+Lemuricola_contagiosus          111020214-30-0400-010-0----110------1100-----
+Lemuricola_daubentoniae         111121204-30-0100-013-0----110------1101-1---
+Lemuricola_lemuris              111131205-40-0000-013-6----111------1101-2---
+Lemuricola_microcebi            111020216-30-0400-010-0----110------1100-----
+Lemuricola_nycticebi            111020206-30-0300-013-0----112------1101-0---
+Lemuricola_trichuroides         1111???????????00-013-6----111-??-??1101-0---
+Lemuricola_vauceli              111131205-40-0000-013-6----111------1101-1---
+Trypanoxyuris_atelis            111400221-10-0202-236-5----12-01--2-111-0-3--
+Trypanoxyuris_bicristata        111400221-21-32010015-0----12-0021--111-0-1--
+Trypanoxyuris_brachytelesis     1114???????????02-236-5----1???1--2-???-0-2--
+Trypanoxyuris_callicebi         1114???????????011014021---12-000---??1-0-2--
+Trypanoxyuris_callithricis      111440221-21-3203-025-0----22-0021--111-0-0--
+Trypanoxyuris_clemenentinae     1114???????????03-125-1----12-001---??1-0-2--
+Trypanoxyuris_croizati          111400221-10-12011014021---12-000---111-0-3--
+Trypanoxyuris_duplicidens       11140022??10-0102-236-4----12-01--2-111-0-3--
+Trypanoxyuris_goeldii           111440231-20-0203-025-0----22-0020--111-0-0--
+Trypanoxyuris_lagothricis       11140022??10-0202-236-4----12-01--2-111-0-3--
+Trypanoxyuris_microon           111400221-10-02010014220---12-000---111-0-3--
+Trypanoxyuris_minutus           111400221-10-1202-21434----12-01--0-111-0-3--
+Trypanoxyuris_oedipi            111440231-20-3203-025-0----22-0020--111-0-0--
+Trypanoxyuris_satanas           111400221-10-13011214120---12-01--1-111-0-2--
+Trypanoxyuris_sceleratus        111400221-11-02010125-1----12-001---111-0-2--
+Trypanoxyuris_sciuri            111400221-21-32010015-0----12-0020--111-0-1--
+Trypanoxyuris_tamarini          111450221-11-0203-025-0----22-0020--111-0-0--
+Trypanoxyuris_trypanuris        111400221-10-13011214120---12-01--1-111-0-2--
+Xeroxyuris_parallela            110002202-10-00010010-0----12-1----410-------
+;
+END;
+
+BEGIN ASSUMPTIONS;
+	WTSET  W1 = 1000: 1-3 9 12 14 18-19 25 , 1: 4-8 10-11 13 17 20-24 26-45 , 500: 16 , 750: 15 ;
+END;
+BEGIN TREES;
+      TITLE Tb5670;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Xeroxyuris_parallela,
+            2    Trypanoxyuris_trypanuris,
+            3    Trypanoxyuris_satanas,
+            4    Trypanoxyuris_minutus,
+            5    Trypanoxyuris_microon,
+            6    Trypanoxyuris_croizati,
+            7    Trypanoxyuris_sceleratus,
+            8    Trypanoxyuris_clemenentinae,
+            9    Trypanoxyuris_callicebi,
+            10   Trypanoxyuris_sciuri,
+            11   Trypanoxyuris_bicristata,
+            12   Lemuricola_nycticebi,
+            13   Trypanoxyuris_duplicidens,
+            14   Trypanoxyuris_lagothricis,
+            15   Trypanoxyuris_brachytelesis,
+            16   Trypanoxyuris_atelis,
+            17   Lemuricola_microcebi,
+            18   Lemuricola_contagiosus,
+            19   Lemuricola_vauceli,
+            20   Lemuricola_lemuris,
+            21   Lemuricola_daubentoniae,
+            22   Lemuricola_bauchotis,
+            23   Lemuricola_baltazardi,
+            24   Trypanoxyuris_tamarini,
+            25   Trypanoxyuris_oedipi,
+            26   Trypanoxyuris_goeldii,
+            27   Trypanoxyuris_callithricis,
+            28   Enterobius_vermicularis,
+            29   Enterobius_macaci,
+            30   Enterobius_lerouxi,
+            31   Enterobius_gregorii,
+            32   Enterobius_buckleyi,
+            33   Enterobius_brevicauda,
+            34   Enterobius_bipapillatus,
+            35   Enterobius_anthropopitheci,
+            36   Enterobius_zakiri,
+            37   Enterobius_presbytis,
+            38   Enterobius_pitheci,
+            39   Enterobius_pesteri,
+            40   Enterobius_paraguerezae,
+            41   Enterobius_longispiculum,
+            42   Enterobius_inglisi,
+            43   Enterobius_guerezae,
+            44   Enterobius_entellus,
+            45   Enterobius_colobis,
+            46   Lemuricola_trichuroides,
+            47   Inglisoxyuris_inglisi,
+            48   Cal._blanci,
+            49   Cal._brygooi,
+            50   Ctenodatctylina_tunaetae;
+      TREE Fig._1 = [&R] (50,(47,(1,(((18,17),(12,(21,(46,(22,(20,(23,19)))))))Lemuricola,((((35,(31,28)),(30,(32,(33,(34,29))))),((39,(42,(45,(43,40)))),(41,38,(36,(44,37)))))Enterobius,(((11,10),((8,7),(24,(27,(26,25))))),(5,((9,6),((3,2),(4,(14,13,(16,15)))))))Trypanoxyuris)))Enterobiinae));
+      TREE strict = [&R] (50,(49,48,(47,(1,(((18,17),(12,(21,(46,(22,(20,(23,19))))))),((((35,(31,28)),(30,(32,(33,(34,29))))),((39,(42,(45,(43,40)))),((36,(44,37)),41,38))),(((11,10),((8,7),(24,(27,(26,25))))),(5,((9,6),((3,2),(4,((16,15),14,13))))))))))));
+
+
+
+END;

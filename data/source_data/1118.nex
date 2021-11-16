@@ -1,0 +1,147 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:46 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Smith J., & Sytsma K. 1994. Evolution in the Andean epiphytic genus Columnea (Gesneriaceae).
+I. Morphological variation. Systematic Botany, 19: 220-235.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S368]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=34;
+        TAXLABELS
+            Alloplectus_meridensis
+            Alloplectus_peruvianus
+            Columnea_ambigua
+            Columnea_angustata
+            Columnea_brysina
+            Columnea_colombiana
+            Columnea_crassicaulis
+            Columnea_densibracteata
+            Columnea_fritschii
+            Columnea_hypocyrtantha
+            Columnea_inconspicua
+            Columnea_isernii
+            Columnea_lavandulacea
+            Columnea_lophophora
+            Columnea_manabiana
+            Columnea_mira
+            Columnea_moesta
+            Columnea_nervosa__Ecuador
+            Columnea_nervosa__Mexico
+            Columnea_oblongifolia
+            Columnea_orientandina
+            Columnea_ovatifolia
+            Columnea_rileyi
+            Columnea_schiedeana
+            Columnea_spathulata__mic
+            Columnea_spathulata__spa
+            Columnea_spathulata__zap
+            Columnea_strigosa__kuc
+            Columnea_strigosa__str
+            Columnea_suffruticosa
+            Columnea_trollii
+            Columnea_ultraviolacea
+            Drymonia_serrulata
+            Drymonia_stenophylla
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M2030]
+
+	TITLE Appendix_1;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=33;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2 3 4 5 6 7 8 9" MISSING=? GAP= -;
+
+MATRIX
+[                                     10        20        30        40        ]
+[                                      .         .         .         .        ]
+Alloplectus_meridensis        20001000111130??10003100102312012
+Alloplectus_peruvianus        00000001141{12}311110003104102412302
+Columnea_ambigua              20000002130100000{01}107113002012005
+Columnea_angustata            1000000113010{01}0001{01}071{01}700{12}01201{05}
+Columnea_brysina              1000001{12}120{12}000000000017122202000
+Columnea_colombiana           1000000{12}1211100000001017032302001
+Columnea_crassicaulis         100000000311011?0000801702{12}11{12}010
+Columnea_densibracteata       1110000{12}130101??01005016102102000
+Columnea_fritschii            0000000{12}121{12}11??00017007122112005
+Columnea_hypocyrtantha        000000011312010100003104002112012
+Columnea_inconspicua          100000000001201100002017022112010
+Columnea_isernii              10000002{01}10{12}000000003111002512002
+Columnea_lavandulacea         1000000003110111000070{01}712{12}10{12}010
+Columnea_lophophora           10000000111100??00003100012612002
+Columnea_manabiana            10000002001120??01002017022112010
+Columnea_mira                 11100000120250??00006016002112300
+Columnea_moesta               00000001131101010000700700231201{25}
+Columnea_nervosa__Ecuador     0000000013{01}1010?0000311000251{12}002
+Columnea_nervosa__Mexico      1000000003{01}1010000003110002512002
+Columnea_oblongifolia         0010000{12}1312010100003114002012202
+Columnea_orientandina         100000021201001100000017122202000
+Columnea_ovatifolia           000000001311011100001017122102001
+Columnea_rileyi               100000000211100000007117112602005
+Columnea_schiedeana           1110100{12}150{12}400000004016002002005
+Columnea_spathulata__mic      200000010012000001009012002002210
+Columnea_spathulata__spa      2000000{12}10{01}1000{01}01009012002002010
+Columnea_spathulata__zap      2000000{12}10{01}200000{01}00911800{12}002200
+Columnea_strigosa__kuc        211000101401010{01}0000311400{12}112002
+Columnea_strigosa__str        0110100014120101000031{01}400{12}11200{24}
+Columnea_suffruticosa         0000000112{01}0101000001113002312003
+Columnea_trollii              000000011311010100003107002312012
+Columnea_ultraviolacea        0000?0001302011100017007122102005
+Drymonia_serrulata            011111011601011?10003105001101004
+Drymonia_stenophylla          1101110?0???0?1?10004104020110005
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb5162;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Columnea_suffruticosa,
+            2    Columnea_spathulata__spa,
+            3    Columnea_spathulata__mic,
+            4    Columnea_spathulata__zap,
+            5    Columnea_ovatifolia,
+            6    Columnea_orientandina,
+            7    Columnea_moesta,
+            8    Columnea_rileyi,
+            9    Columnea_lavandulacea,
+            10   Columnea_inconspicua,
+            11   Columnea_fritschii,
+            12   Columnea_manabiana,
+            13   Columnea_crassicaulis,
+            14   Columnea_colombiana,
+            15   Columnea_brysina,
+            16   Columnea_angustata,
+            17   Columnea_ambigua,
+            18   Columnea_trollii,
+            19   Columnea_strigosa__kuc,
+            20   Columnea_strigosa__str,
+            21   Columnea_oblongifolia,
+            22   Columnea_nervosa__Mexico,
+            23   Columnea_nervosa__Ecuador,
+            24   Columnea_hypocyrtantha,
+            25   Columnea_lophophora,
+            26   Columnea_isernii,
+            27   Columnea_mira,
+            28   Columnea_densibracteata,
+            29   Columnea_schiedeana,
+            30   Columnea_ultraviolacea,
+            31   Alloplectus_peruvianus,
+            32   Alloplectus_meridensis,
+            33   Drymonia_stenophylla,
+            34   Drymonia_serrulata;
+      TREE Fig._4 = [&R] ((34,33)Drymonia,(31,((24,(18,7)),((21,(20,19)Columnea_strigosa),((((((((((((30,11),5),(((10,12),13),9)),6),15),(29,(28,27))),((4,3),2)Columnea_spathulata),(8,(14,1))),(16,17)),((32,25),26)),22),23)))Columnea))Gesneriaceae;
+
+
+
+END;

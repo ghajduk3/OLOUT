@@ -1,0 +1,147 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:36 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Almeida V., Costa A., Oliveira A., Esteves V., Arruda R., & Forzza R. 2009. Morphological
+phylogenetics of Quesnelia (Bromeliaceae, Bromelioideae). Systematic Botany,
+34(4): 660-672.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S10146]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=33;
+        TAXLABELS
+            Aechmea_caesia
+            Aechmea_capixabae
+            Aechmea_maasii
+            Aechmea_nudicaulis
+            Aechmea_ornata
+            Aechmea_ramosa
+            Aechmea_saxicola
+            Aechmea_vanhouttea
+            Billbergia_amoena
+            Billbergia_iridifolia
+            Billbergia_porteana
+            Billbergia_pyramidali
+            Billbergia_zebrina
+            Encholirium_subsecundum
+            Fernseea_itatiaiae
+            Hoehnbergia_blanchetti
+            Portea_alatisepala
+            Quesnelia_alvimii
+            Quesnelia_arvensis
+            'Quesnelia augusto-coburgii'
+            Quesnelia_dubia
+            Quesnelia_edmundoi_edmundoi
+            Quesnelia_edmundoi_rubrobracteata
+            Quesnelia_humilis
+            Quesnelia_imbricata
+            Quesnelia_indecora
+            Quesnelia_kautskyi
+            Quesnelia_lateralis
+            Quesnelia_liboniana
+            Quesnelia_marmorata
+            Quesnelia_quesnelia
+            Quesnelia_seideliana
+            Quesnelia_strobilispica
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M4551]
+
+	TITLE Quesnelia;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=92;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2 3 4 5 6 7 8" MISSING=? GAP= -;
+
+MATRIX
+[                                             10        20        30        40        50        60        70        80        90        100       110   ]
+[                                              .         .         .         .         .         .         .         .         .         .         .   ]
+Aechmea_caesia                        10223010000{03}02122400040012132210012100000011011400101100112001100000011110110010-00011111100
+Aechmea_capixabae                     10{56}11000011211030401{01}30020021000000100006011001410110000312001100000010011110010-00111111100
+Aechmea_maasii                        10{02}{12}20301112010322000-----143{02}00113100000011011100100110012001100000001000111011000111011000
+Aechmea_nudicaulis                    102220101012110311{01}11-----021000002100020011001100100110101001100000011101110010-10010111000
+Aechmea_ornata                        00{02}030210110{01}41202000-----1313001101011200110114001000100120011100000{01}1001011111110111011200
+Aechmea_ramosa                        00011021011000032401100022141200001100030011010100120100112001100000011000010111110110011000
+Aechmea_saxicola                      00003021011304142200{01}-----1213101010141211101201000--110010001110100011110010010-10111111000
+Aechmea_vanhouttea                    0130303101161{14}0122001-----1311010030012130000014001110101010011000000{01}111001110---0111111000
+Billbergia_amoena                     114{12}121010121102241112111202100000211221700112160112010100101111000000100001110---0110001011
+Billbergia_iridifolia                 10{01}121101012110211210-----170100001112212000121201120111101011100000001001111010-00111001001
+Billbergia_porteana                   113212301012110321211-----021000003103210000120002110001001111021010001000110010-00001??????
+Billbergia_pyramidali                 10{01}110301012110221001-----0--------012214001121201120101111011000000001000010110-00111001011
+Billbergia_zebrina                    113212301012110221211-----021000003103210000120002110011211111021010001000110010-10001001001
+Encholirium_subsecundum               000100011010{01}31000{01}11-----1600{01}00000141000000010000--0100000110000100?21?111110---?1010?1?0?
+Fernseea_itatiaiae                    00300031011200022011{01}-----1600000021011030010014000--00110100010001000011110-00---0011011000
+Hoehnbergia_blanchetti                000110310113040025001400021422001111000000110104010--1000100111000100111102110111100110120-0
+Portea_alatisepala                    00312010011211122301120212001000000110005011111400110110111011110000110000010111110111211100
+Quesnelia_alvimii                     00432030100211022401021112011000000110003010011400100000100000100110011001110110-10010??????
+Quesnelia_arvensis                    01{02}13031011614122200{01}-----1{38}{12}{12}{01}1002010023011101410110010102000110110001110111010-00111110--1
+'Quesnelia augusto-coburgii'          100{02}{01}1100013000{12}11211-----150011001121104000110400100110102001110000001001111010-01011101001
+Quesnelia_dubia                       00422000011213031410051321132000000011228111110700110010102001100000010000010111000111??????
+Quesnelia_edmundoi_edmundoi           00211010000421011200{01}-----131100101011201110001110111010102000110001110000010111110110111000
+Quesnelia_edmundoi_rubrobracteata     000210100002{12}{12}0324000-----13{12}000101001200011001410120010100000110001110000010111110010111000
+Quesnelia_humilis                     100210300012110211000-----121000001021104001121300110111101001010001011001110010-00011??????
+Quesnelia_imbricata                   100{02}1030001{02}110321100-----12100000201110300112130110011010200111000101100110-00---0011??????
+Quesnelia_indecora                    100{01}{01}110001{23}000221200-----130010002021104000120400100110102011110000001001110010-01111??????
+Quesnelia_kautskyi                    10000110000300{01}121000-----1210{01}0002010004011110400100110101001010000000011110010-00011001001
+Quesnelia_lateralis                   100{12}{13}010000{25}1{03}0221000-----131000002011204001110500100110101001110000001111111010-01111101001
+Quesnelia_liboniana                   100{01}{01}11000130{02}012101{01}-----121000001121204000120400100100011001110000001000110010-10111101001
+Quesnelia_marmorata                   10432010100{12}110214{02}11{12}1111011000000101205001111400120100001001100010001000111010-10011101000
+Quesnelia_quesnelia                   010130310116140222001-----1{38}2201002010023001{01}01410110010101000110110001000011110-00110110--0
+Quesnelia_seideliana                  100031100002110021000-----13{01}000002011103001110500100110101001110000001000110010-10111101000
+Quesnelia_strobilispica               11{01}000100002{01}00{23}{13}1000-----1{37}{01}00000201000{34}011111400100110101001110000001001110010-00111101001
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb10747;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Aechmea_caesia,
+            2    Aechmea_capixabae,
+            3    Aechmea_maasii,
+            4    Aechmea_nudicaulis,
+            5    Aechmea_ornata,
+            6    Aechmea_ramosa,
+            7    Aechmea_saxicola,
+            8    Aechmea_vanhouttea,
+            9    Billbergia_amoena,
+            10   Billbergia_iridifolia,
+            11   Billbergia_porteana,
+            12   Billbergia_pyramidali,
+            13   Billbergia_zebrina,
+            14   Encholirium_subsecundum,
+            15   Fernseea_itatiaiae,
+            16   Hoehnbergia_blanchetti,
+            17   Portea_alatisepala,
+            18   Quesnelia_alvimii,
+            19   Quesnelia_arvensis,
+            20   'Quesnelia augusto-coburgii',
+            21   Quesnelia_dubia,
+            22   Quesnelia_edmundoi_edmundoi,
+            23   Quesnelia_edmundoi_rubrobracteata,
+            24   Quesnelia_humilis,
+            25   Quesnelia_imbricata,
+            26   Quesnelia_indecora,
+            27   Quesnelia_kautskyi,
+            28   Quesnelia_lateralis,
+            29   Quesnelia_liboniana,
+            30   Quesnelia_marmorata,
+            31   Quesnelia_quesnelia,
+            32   Quesnelia_seideliana,
+            33   Quesnelia_strobilispica;
+      TREE Fig._2 = [&R] (15,((14,((21,(17,((2,((1,(18,4)),((30,(33,(((27,((12,11),(9,10))),((29,20),13)),(28,26)))),(32,24)))),(25,((5,3),(6,7)))))),(16,22))),(23,(8,(19,31)))));
+      TREE Fig._3 = [&R] (15,((14,(21,(17,((2,((1,(18,4)),((30,(33,(((27,((12,11),(9,10))),((29,20),13)),(28,26)))),(32,24)))),(25,((5,3),(6,7)))))),(16,22)),(23,(8,(19,31)))));
+      TREE Fig._1 = [&R] (15,(((14,(21,(17,((2,((1,(18,4)),((30,(33,(((27,((12,11),(9,10))),((29,20),13)),(28,26)))),(32,24)))),(25,((5,3),(6,7))))))),(16,22)),(23,(8,(19,31)))));
+
+
+
+END;

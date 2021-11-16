@@ -1,0 +1,232 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:42 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Nelson C. 1984. Numerical cladistic analysis of phylogenetic relationships in Plecoptera.
+Annals of the Entomological Society of America, 77: 466-473.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S338]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=22;
+        TAXLABELS
+            Allonarcys
+            Austroperlidae
+            Brachypterinae
+            Capniidae
+            Chloroperlinae
+            Diamphipnoa
+            Diamphipnopsis
+            Eustheniinae
+            Gripopterygidae
+            Leuctrinae
+            Megaleuctrinae
+            Nemouridae
+            Notonemouridae
+            Paraperlinae
+            Peltoperlidae
+            Perlidae
+            Perlodidae
+            Pteronarcella
+            Pteronarcys
+            Scopuridae
+            Stenoperlinae
+            Taeniopteryginae
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M872]
+
+	TITLE Table_2;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=113;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2 3 4 5 6 7 8 9 A B C D E F G H J K L" MISSING=? GAP= -;
+	CHARSTATELABELS
+		1  Trochanter_sternal_depressor_pr / No Yes,
+		2  Trochanter_tergal_depressor_red / No Yes,
+		3  Drumming_present / No Yes,
+		4  Cervical_gills__present / No Yes,
+		5  Male_genitalia_with_large_acess / No Yes,
+		6  Female__seminal__receptacle_pre / Yes No,
+		7  Larval_coxa_with_sensory_bristl / No Yes,
+		8  'Make paraproct with bladder-lik' / No Yes,
+		9  Female_genital_opening_extremel / No Yes,
+		10  Larval_abdominal_apex_with_retr / No Yes,
+		11  Larval_cerci_in_part_transforme / No Yes,
+		12  Last_larval_instar_with / No_separate_sclerite_covering_d Separate_sclerite_covering_deve,
+		13  Larvae_strictly_phytophagous / Yes No,
+		14  Larval_mandible_molar_area_slen / No Yes,
+		15  Larval_labium_with / Glossal_apices_at_same_level_as No_glossal_apices_at_same_level,
+		16  Trochanter_sternal_depressor_in / No Yes,
+		17  Last_abdominal_ganglion_in_segm / No Yes,
+		18  One_tibial_spur / No Yes,
+		19  Larval_abdominal_gills_present / Yes No,
+		20  Larval_abdominal_gilis_present / Yes No,
+		21  Larval_abdominal_gills_present / Yes No,
+		22  Larval_abdominal_gills_present / Yes No,
+		23  Larval_abdominal_gilis_present / Yes No,
+		24  Larval_abdominal_gills_absent / No Yes,
+		25  Thoracic_atypical_longitudinal / No Yes,
+		26  Thoracic_atypical_longitudinal / not_extremely_well_developed extremely_well_developed,
+		27  Sternal_coxal_rotator_muscles_p / Yes No,
+		28  'Male paraproct with medio-basal' / No Yes,
+		29  'Male paraproct with medio-basal' / 'not pronounced and knife-like' 'pronounced and knife-like',
+		30  Body_form_conspicuously_elongat / No Yes,
+		31  Adult_cerci_approximately_as_lo / Yes No,
+		32  Larvae_with_spatulate_spines_on / No Yes,
+		33  Head_postocular_region_extended / No Yes,
+		34  Female_sternite_9_enlarged_and / No Yes,
+		35  Abdominal_accessory_trachea_lea / No Yes,
+		36  Larval_maxilla_with_radula / No Yes,
+		37  Male_epiproct / Without_basal_arms_bent_nearly With_basal_arms_bent_nearly_to,
+		38  Adult_mandible_thin_and_lacking / No Yes,
+		39  Adult_mandible_thin_not_sleroti / No Yes,
+		40  Egg_with_anchor_and_collar / No Yes,
+		41  Egg_with_micropyles_surrounding / Yes No,
+		42  Mak_epiproct_sunk_into_a_pocket / No Yes,
+		43  Thoracic_postalar_bridge_presen / No Yes,
+		44  Corpus_allatum_paired / Yes No,
+		45  Egg_chorion_gelatinous / No Yes,
+		46  Male_hammer_prffent / No Yes,
+		47  Trachea_kading_from_head_to_cer / No Yes,
+		48  Postfurcal_gills_prffent / No Yes,
+		49  Abdominal_ganglia_seven_or_fewe / No Yes,
+		50  Abdominal_and_metathoracic_gang / Not_fused_into_six_abdominal_ga Fused_into_six_abdominal_gangli,
+		51  Abdominal_ganglia_five_or_fewer / No Yes,
+		52  Male_epiproct_with_lateral_styl / No Yes,
+		53  Tarsal_segments_1_and_2 / Together_not_shorter_than_segme Together_shorter_than_segment_3,
+		54  Frontoclypeal_suture_present / Yes No,
+		55  Seminal_vesicles_and_testes_sep / No Yes,
+		56  Abdominal_accessory_intersegmen / No Yes,
+		57  Epiproct_musclm_with_additional / No Yes,
+		58  Anterior_supracoxal_gills_prese / No Yes,
+		59  Posterior_supracoxal_gills_pres / No Yes,
+		60  Epiproct_sperm_cup_present / No Yes,
+		61  Epiproct_lever_arm_present / No Yes,
+		62  Head_bent_under_pronotum / No Yes,
+		63  Anterior_ocellus_present / Yes No,
+		64  'Larval pro- and mesothorax' / 'Without duplicate plate-like ar' 'With duplicate plate-like areas',
+		65  Prothoracic_spinasternum_and_fu / No Yes,
+		66  Midgut_caecal_sacs_present / No Yes,
+		67  Muscle_ism_22_attached_near_bas / No Yes,
+		68  Most_distal_labial_palpal_segme / Not_minute_conical_asymmetrical minute_conical_asymmetrically_i,
+		69  Larval_labium_with_inflated_par / No Yes,
+		70  Muscle_PPM_56_attached_to_posta / No Yes,
+		71  Muscle_ism_24_present / No Yes,
+		72  Follicles_of_testes_not_clearly / No Yes,
+		73  Head_elongate_sides_parallel / No Yes,
+		74  'Mesosternal Y-ridge with arms c' / Yes No,
+		75  Male_epiproct_with_distal_porti / No Yes,
+		76  Epiproct_lever_arm_broad_fused / No Yes,
+		77  'Fore- and hindwings similar ana' / No Yes,
+		78  Cill_ring_in_the_intersegmental / No Yes,
+		79  Spina_11_extended_anteriorly_to / No Yes,
+		80  Sclerotic_bridge / Not_uniting_spine_I_with_anteno Uniting_spine_I_with_antenor_ma,
+		81  Male_paraproct_divided_into_inn / No Yes,
+		82  Three_tarsal_segments_all_of_eq / No Yes,
+		83  Male_basal_cereal_segment / Not_enlarged_with_remaining_seg enlarged_with_remaining_segment,
+		84  Vagina_minute_and_opening / No Yes,
+		85  Female_enital_opening_located_i / No Yes,
+		86  Forewing_with_two_cubital_veins / No Yes,
+		87  Extrusible_penis / Yes No,
+		88  Male_cerci_with_one_segment / No Yes,
+		89  Seminal_receptacle_with_bladder / No Yes,
+		90  Coxal_gills_present / No Yes,
+		91  Female_sternite_9_with_postgeni / No Yes,
+		92  Male_paraproct_asymmetrical / No Yes,
+		93  Interior_bladder_of_male_epipro / No Yes,
+		94  Male_sternite_9 / Not_strongly_produced_and_cover strongly_produced_and_covering,
+		95  Male_basal_cereal_segment_with / No Yes,
+		96  Pleural_arm_formed / No Yes,
+		97  Ejaculatory_duct_paired / Yes Yes,
+		98  Male_paraprocts_with_inner_lobe / No Yes,
+		99  Ovaries_united_forming_an_arch / Yes No,
+		100  Male_paraprocts_inner_and_outer / without_independent_inner_lobes with_independent_inner_lobes_sh,
+		101  Female_ovipositor_present / No Yes,
+		102  Seminal_vesicle_paired / Yes No,
+		103  'Testes formed into a star-shape' / No Yes,
+		104  Vasa_opening_into_terminal_port / No Yes,
+		105  Most_distal_labial_palpal_segme / Yes No,
+		106  Procoxaewith_perpendicular_inse / No Yes,
+		107  Cubital_crossveins_singleor_abs / No Yes,
+		108  Male_paraprocts_with_inner_and / No Yes,
+		109  Inner_lobe_male_paraproct_with / No Yes,
+		110  Vasa_deferentia_enlarged_functi / No Yes,
+		111  Female_paraprocts_found_for_muc / No Yes,
+		112  Inner_lobe_male_paraproct_with / No Yes,
+		113  Vasa_deferentia_opening_into_te / No Yes,
+		;
+
+MATRIX
+[                            10        20        30        40        50        60        70        80        90        100       110   ]
+[                             .         .         .         .         .         .         .         .         .         .         .   ]
+Allonarcys           00110000000000000011110001000010000001110110011100000001100000000000000100000000000000000000000000000000000000000
+Austroperlidae       11001100001100000011111100000010000000000000000000000000000000000000000000000000000000000000000000000000000000000
+Brachypterinae       00100000000000001011111100000010000000000001110000000000000000000000000000000011111110000011111000000000000000000
+Capniidae            00100100000000001011111100000010000000000001110000000000000000000000000000001011100001100000000001100000001100000
+Chloroperlinae       00100000000011101011111101100010000001011110000010011100000000000011000000111000000000000000000000000000000000000
+Diamphipnoa          11000011100000000011000010110000000010000000000000000000000000000000000000000000000000000000000000000000000000000
+Diamphipnopsis       11000011100000000011000010111010001100000000000000000000000000000000000000000000000000000000000000000000000000000
+Eustheniinae         11000011100011111100000000000000010000000000000000000000000000000000000100000000000000000000000000000000000000000
+Gripopterygidae      11001100010000001011111100000010000000000000000000000000000000000000000000000000000000000000000000000000000000000
+Leuctrinae           00100000000000001011111100000010000000000001110000000000000000000000000000001011100001110000000001100100000011011
+Megaleuctrinae       00100000000000001011111100000010000000000001110000000000000000000000000000000011100001110000000001101000000011100
+Nemouridae           00110000000000001011111100000010000000000001110010100000000000000000000000000011100001110000000110000111110000000
+Notonemouridae       00100000000000001011111100000010000000000001110010000000000000000000000000000011100001110000000110011000000000000
+Paraperlinae         00100000000001101011111101100010000001111110010010011100000000000011000011000000000000000000000000000000000000000
+Peltoperlidae        00100000000000000011111110000010000001111110010010011100001001111000000000000000000000000000000000000000000000000
+Perlidae             0010000000001110L0LL111001100010000001111010010011001100011000000110111100000000000000000000000000000000000000000
+Perlodidae           00100000000011101011111101000010000001111110010010011100010000000100000000000000000000000000000000000000000000000
+Pteronarcella        00110000000010000011100001000010000001111110001100000010010100000000000100000000000000000000000000000000000000000
+Pteronarcys          00110000000010000011110001000010000001110110011100000001100110000000000100000000000000000000000000000000000000000
+Scopuridae           00000000000000000011111100000010000000000001100000000000000000000000000000000100000000000000000000000000000000000
+Stenoperlinae        11000011100011111110000000000111100000000000000000000000000000000000000000000000000000000000000000000000000000000
+Taeniopteryginae     00100000000000001011111100000010000000000001110000000000000000000000000000000011111110011100000000000000000000000
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb5114;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Peltoperlidae,
+            2    Scopuridae,
+            3    Stenoperlinae,
+            4    Pteronarcys,
+            5    Perlidae,
+            6    Paraperlinae,
+            7    Brachypterinae,
+            8    Gripopterygidae,
+            9    Allonarcys,
+            10   Diamphipnopsis,
+            11   Notonemouridae,
+            12   Taeniopteryginae,
+            13   Nemouridae,
+            14   Pteronarcella,
+            15   Megaleuctrinae,
+            16   Leuctrinae,
+            17   Capniidae,
+            18   Chloroperlinae,
+            19   Austroperlidae,
+            20   Diamphipnoa,
+            21   Eustheniinae,
+            22   Perlodidae;
+      TREE Fig._2D = [&R] (((21,3),(20,10)),((19,8),((2,((12,7),((11,13),(17,(15,16))))),(((9,4),14),(1,((22,5),(6,18)))))));
+      TREE Fig._2E = [&R] (((21,3),(20,10)),((19,8),((2,((12,7),((11,13),(17,(15,16))))),(((9,4),14),(1,(6,(18,(22,5))))))));
+      TREE Fig._2B = [&R] (((21,3),(20,10)),((19,8),(2,(((12,7),((11,13),(17,(15,16)))),(((4,14),9),(1,(6,(18,(22,5)))))))));
+      TREE Fig._2A = [&R] (((21,3),(20,10)),((19,8),(2,(((12,7),((11,13),(17,(15,16)))),(((9,4),14),(1,(22,(5,(6,18)))))))));
+      TREE Fig._3A = [&R] (((21,3),(20,10))Eusthenioidea,((19,8)Gripopterygoidea,(2,((12,7),((11,13),(17,(15,16))))Nemouroidea,((9,4,14),(1,(22,5,6,18)Perloidea))Systellognatha)))Plecoptera;
+      TREE Fig._2C = [&R] (((21,3),(20,10)),((19,8),((2,((12,7),((11,13),(17,(15,16))))),(((9,4),14),(1,(22,(5,(6,18))))))));
+      TREE Fig._2F = [&R] (((21,3),(20,10)),((19,8),((2,((12,7),((11,13),(17,(15,16))))),(((4,14),9),(1,(6,(18,(22,5))))))));
+
+
+
+END;

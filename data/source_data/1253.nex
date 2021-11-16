@@ -1,0 +1,63 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:47 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Cox P. 1990. Pollination and the evolution of breeding systems in Pandanaceae. Annals
+of the Missouri Botanical Garden, 77: 816-840.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S149]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=6;
+        TAXLABELS
+            Asplundia
+            Balaka
+            Freycinetia
+            Pandanus
+            Raphidophora
+            Sararanga
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M3570]
+
+	TITLE Table_1;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=15;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1" MISSING=? GAP= -;
+
+MATRIX
+Asplundia        000000000000000
+Balaka           010001000110000
+Freycinetia      000110000001110
+Pandanus         111000101011111
+Raphidophora     000000000000000
+Sararanga        110001111111111
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb4871;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Freycinetia,
+            2    Pandanus,
+            3    Sararanga,
+            4    Balaka,
+            5    Raphidophora,
+            6    Asplundia;
+      TREE Fig._2 = [&R] (5,(1,(2,3)));
+      TREE Fig._3 = [&R] (4,(1,(2,3)));
+      TREE Fig._4 = [&R] (6,(1,(2,3)));
+
+
+
+END;

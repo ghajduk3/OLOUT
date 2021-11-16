@@ -1,0 +1,217 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:36 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Cloutier R. 1991. Patterns, trends, and rates of evolution within the Actinistia.
+Environmental Biology of Fishes, 32: 23-58.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S361]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=31;
+        TAXLABELS
+            Alcoveria_brevis
+            Allenypterus_montanus
+            Axelia_robusta
+            Axelrodichthys_araripensis
+            Caridosuctor_populosus
+            Chinlea_sorenseni
+            Coelacanthus_granulatus
+            Diplocercides_kayseri
+            Diplurus_longicaudatus
+            Diplurus_newarki
+            Garnbergia_ommata
+            Hadronector_donbairdi
+            Holophagus_penicillata
+            Latimeria_chalumnae
+            Laugia_groenlandica
+            Lochmocercus_aciculodontus
+            Macropoma_mantelli
+            Mawsonia_gigas
+            Miguashaia_bureaui
+            Nesides_heiligenstockiensis
+            Nesides_schmidti
+            Polyosteorhynchus_simplex
+            Rhabdoderma_elegans
+            Rhabdoderma_exiguum
+            Rhabdoderma_madagascariense
+            Rhabdoderma_sp._1
+            Synaptotylus_newelli
+            Ticinepomis_peyeri
+            Whiteia_tuberculata
+            Whiteia_woodwardi
+            Wimania_sinuosa
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M2006]
+
+	TITLE Appendix_1;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=75;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2 3 4 5 6 7 8 U" MISSING=N GAP= L;
+	CHARSTATELABELS
+		1  Cosmine / presence_of_cosmine absence_of_cosmine,
+		2  Scale_ornamentation / scale_with_longitudinal_ridges scale_only_with_longitudinal_ri,
+		3  Sensory_canal_pores_size / small_supraorbital_canal_pores large_supraorbital_canal_pores,
+		4  Premaxillae_number / 'paired (and unpaired) premaxill' fragmented_premaxillae,
+		5  Dorsal_lamina_of_premaxilla_com / dorsal_lamina_of_premaxilla_com dorsal_lamina_of_premaxilla_inv dorsal_lamina_of_premaxilla_red,
+		6  Dorsal_lamina_of_premaxilla_per / dorsal_lamina_perforated_by_ros dorsal_lamina_not_perforated_by,
+		7  Preparietal_number_of_rows / 'mosaic of elements (undifferent' presence_of_one_row_of_preparie presence_of_two_rows_of_prepari presence_of_three_rows_of_prepa,
+		8  Preparietals_number / more_than_five_preparietals_per two_preparietals_per_row three_preparietals_per_row four_preparietals_per_row five_preparietals_per_row one_preparietal_per_row,
+		9  Bifurcating_supraorbital_pores / series_of_single_supraorbital_p series_of_bifurcating_supraorbi,
+		10  Parietal_size / parietal_bigger_than_most_poste parietal_relatively_the_same_si,
+		11  Descending_process_of_parietal / absence_of_the_parietal_process presence_of_the_parietal_proces,
+		12  Postparietal_shape / 'L-shaped postparietal' 'inverted-L-shaped postparietal' rectangular_postparietal,
+		13  Descending_process_of_postparie / absence_of_descending_process_o presence_of_descending_process,
+		14  'Postparietal-postorbital articu' / postparietal_does_not_contact_p postparietal_contact_postorbita,
+		15  'Postparietal-extrascapular arti' / postparietal_articulating_with postparietal_not_articulating_w,
+		16  Medial_branch_of_otic_sensory_c / absence_of_a_medial_branch_of_t presence_of_a_medial_branch_of,
+		17  Intertemporal / presence_of_intertemporal absence_of_an_independent_inter,
+		18  Supratemporal / presence_of_supratemporal absence_of_an_independent_supra,
+		19  Descending_process_of_tabular / absence_of_descending_process_o presence_of_descending_process,
+		20  Otic_canal / otic_canal_passing_through_the otic_canal_passing_between_post otic_canal_passing_through_post,
+		21  Extrascapulars_number / three_extrascapulars five_extrascapulars 'seven extrascapulars (Forey 198' more_than_seven_extrascapulars two_extrascapulars four_extrascapulars,
+		22  Tectal / presence_of_tectal absence_of_tectal,
+		23  Cheek_bones_articulation / complete_suture_among_cheek_bon loose_articulation_of_the_posts loose_articulation_of_the_posts,
+		24  Postspiracular_size / large_postspiracular reduced_or_absent_postspiracula,
+		25  Squamosal_shape / triangular_squamosal quadrilateral_squamosal pentagonal_squamosal 'bar-like squamosal',
+		26  Quadratojugal / presence_of_the_quadratojugal absence_of_an_independent_quadr,
+		27  Jugal_canal_trajectory / jugal_canal_transverses_approxi jugal_canal_transverses_along_v,
+		28  Operculum_shape / quadrilateral_operculum triangular_operculum,
+		29  Suboperculum / presence_of_suboperculum absence_of_suboperculum,
+		30  Suboperculum_position / suture_between_operculum_and_su suture_between_suboperculum_and suboperculum_isolated,
+		31  Suboperculum_size / suboperculum_longer_than_deep suboperculum_deeper_than_long,
+		32  Suboperculum_shape / quadrilateral_suboperculum triangular_suboperculum,
+		33  'Pterygoid-quadrate fusion' / presence_of_an_isolated_bony_qu absence_of_an_isolated_bony_qua,
+		34  Anterior_dorsal_lamina_of_paras / absence_of_anterior_dorsal_lami presence_of_anterior_dorsal_lam,
+		35  Buccohypophysical_foremen_of_pa / presence_of_buccohypophysial_fo absence_of_buccohypophysial_for,
+		36  Basipterygoid_process / presence_of_basipterygoid_proce absence_of_basipterygoid_proces,
+		37  Orientation_of_dentary / straight_dentary diagonal_dentary,
+		38  Coronoid_IV_shape / 'sub-triangular Coronoid IV' 'sub-quadrilateral Coronoid IV',
+		39  Cleithral_articulation / sutures_between_cleithrum_and_c and_between_extracleithrum_and suture_between_cleithrum_and_cl,
+		40  Extracleithrum / absence_of_extracleithrum presence_of_extracleithrum,
+		41  Extracleithrum_size / extracleithrum_shorter_than_cle extracleithrum_equal_to_or_deep,
+		42  Pectoral_fin_insertion / low_insertion_of_pectoral_fin high_insertion_of_pectoral_fin,
+		43  Pelvic_fin_position / posterior_insertion_of_pelvic_f anterior_insertion_of_pelvic_fi,
+		44  Number_of_first_dorsal_lepidotr / more_than_15_lepidotrichia_in_f ten_lepidotrichia_in_first_dors eight_to_nine_lepidotrichia_in fewer_than_eight_lepidotrichia '11-15 lepidotrichia in first do',
+		45  Ventral_margin_of_basal_plate_o / smooth_ventral_margin emarginate_ventral_margin,
+		46  Anterodorsal_process_of_basal_p / absence_of_anterodorsal_process presence_of_anterodorsal_proces,
+		47  Posteroventral_process_of_basal / absence_of_posteroventral_proce presence_of_posteroventral_proc,
+		48  Posteroventral_process_of_basal / posteroventral_process_poorly_d posteroventral_process_well_dev,
+		49  Basal_plate_of_anal_fin / anal_basal_plate_with_single_pr anal_basal_plate_with_bifurcate,
+		50  Anterodorsal_process_of_basal_p / anterodorsal_process_of_basal_p anterodorsal_process_of_basal_p,
+		51  Tail / heterocercal_tail diphycercal_tail,
+		52  Supplementary_caudal_fin / absence_of_supplementary_caudal presence_of_supplementary_cauda,
+		53  Caudal_lepidotrichia / ratio_of_3$_1_or_2$_I_between_t ratio_of_1$_I_between_the_numbe,
+		54  Lepidotrichium_distal_end / distal_end_of_lepidotrichium_bi distal_end_of_lepidotrichium_si,
+		55  Premaxilla / premaxilla_without_pore_for_ant premaxilla_with_pore_for_anteri,
+		56  Tabular / posterior_margin_of_tabular_lev tabular_extending_beyond_poster,
+		57  Fusion_of_tabular / tabular_and_postparietal_separa tabular_and_postparietal_fused,
+		58  Lateral_process_of_parietal / absence_of_the_parietal_process presence_of_the_parietal_proces,
+		59  Extrascapular / extrascapulars_posterior_to_the extrascapulars_forming_part_of,
+		60  Occipital_commissure / occipital_commissure_without_an anterior_branches_developed_fro,
+		61  Width_of_cheek / normal_postorbital_distance narrow_postorbital_distance,
+		62  Anterior_process_of_postorbital / absence_of_anterior_process_of presence_of_anterior_process_of,
+		63  Postorbital / postorbital_of_normal_size postorbital_reduced_to_a_small,
+		64  Lacrimojugal / lacrimojugal_extending_only_to lacrimojugal_extending_to_anter,
+		65  Lacrimojugal / lacrimojugal_not_expanded_anter lacrimojugal_expanded_anteriorl,
+		66  Dentary / absence_of_posterodorsal_hook_o presence_of_posterodorsal_hook,
+		67  Ascending_process_of_prootic / absence_of_ascending_process_of presence_of_ascending_process_o,
+		68  Contact_of_Coronoid_IV / abutting_with_angular suturing_with_external_side_of,
+		69  Pleural_ribs / 'absence of well-developed ribs' 'presence of well-developed ribs',
+		70  Number_of_lepidotrichia_on_pect / fiRy_or_more_lepidotrichia between_30_and_49_lepidotrichia between_20_and_29_lepidotrichia between_ten_and_191epidotrichia less_than_ten_lepidotrichia,
+		71  Position_of_pelvic_fin / pelvic_fin_inserting_in_an_abdo pelvic_fin_inserting_ventrally,
+		72  Spines_on_lepidotrichia_of_firs / absence_of_denticules_on_anteri presence_of_spines_on_anterior,
+		73  Basal_plate_of_first_dorsal_fin / hemispherical_basal_plate_of_th triangular_basal_plate_of_the_f,
+		74  Number_of_lepidotrichia_on_seco / more_than_25_lepidotrichia between_20_and_25_lepidotrichia between_15_and_191epidotrichia between_ten_and_14_lepidotrichi less_than_ten_lepidotrichia,
+		75  Lepidotrichia / narrow_lepidotrichia broad_lepidotrichia.,
+		;
+
+MATRIX
+[                                       10        20        30        40        50        60        70     ]
+[                                        .         .         .         .         .         .         .     ]
+Alcoveria_brevis                1N100NNN0NN2NNNN11NNNN11NNN01888NNNN11110112NNNNNN1111NNNNNN1000NNN00301N30
+Allenypterus_montanus           1110212300N200101001100020000011001N011101100008011101100000000000N00400040
+Axelia_robusta                  111NNN251011101011123121318118880010NNNNN1NNNNNNNN1N11N10100101NNNN00NNNNN0
+Axelrodichthys_araripensis      1100212101101101110201211110NNNN01110N1101110110011111N10010100011111301140
+Caridosuctor_populosus          1110102200N001111010100010010011100N0111111011110N1111100000000000N00300020
+Chinlea_sorenseni               110021200011110N11015111110118880NN1011101121110011N11010010100011001200130
+Coelacanthus_granulatus         10N1212200N1N01111123121N08118880011011101110110001111000100101000000301120
+Diplocercides_kayseri           100NNN08000101001102001N2N00NNNN000011808NNNNNNNNN1N01N0000000NNNNN00N0NNN0
+Diplurus_longicaudatus          111NNNNNNNN1NN0N11NN2NNNNN01NNNN0NNN111101140110011111N10N0N100001N01301130
+Diplurus_newarki                11102122001111011102211101N018880111101101120110111111010000100001001301130
+Garnbergia_ommata               11002N2N01111NNN111NN11101N118880NNN1NNNN1120111NN1NN1N1010N100011N00300120
+Hadronector_donbairdi           1110003310N20000100000000000001100NN111101100108011111100000000000N00300130
+Holophagus_penicillata          1100112100N0N111111N211101110011011100110111010811111100000000001N000301111
+Latimeria_chalumnae             101121210010111111023121211002100111111101120111011111010101000001100101100
+Laugia_groenlandica             1110002N0011010111121021011118880N11018001110111101111100000000000N00310120
+Lochmocercus_aciculodontus      1N10212N00N2N11010001000200100100NN1010111131008NN1101N00000000000N00300030
+Macropoma_mantelli              10002122001111N111122111011102100111111101120110011111010001000011100N01131
+Mawsonia_gigas                  1NNNNN2200111101111241210101188801N1N1NNNNNNNNNNNNNNNNN1011011011N110NNNNNN
+Miguashaia_bureaui              00000008NN00000000000N0NN0N00000N00N000100000NNNNN0000000000000000N00000000
+Nesides_heiligenstockiensis     1N002NNN0NN1N100110N001000000011NNNN00808000NNNNNN1N01N000000000N0N00N00N30
+Nesides_schmidti                1N0NNNNN000101N01102N01N00000211000011NNNNNNNNNNNNNNNNN00000000000000NNNNN0
+Polyosteorhynchus_simplex       1110202010N2N0001001000010000000N01N011111131008011111000000000000N00400040
+Rhabdoderma_elegans             1110102201110010101010010001NNNN0011111101111108NN1111100000000000N00300N30
+Rhabdoderma_exiguum             11N0NN2NNNN00NN0NNNNNNNNNNN1NNNN000N011101101N0NNN1111N0NNNN0NN000N00300020
+Rhabdoderma_madagascariense     10NNNNNNNNN2N11N111N101121010111NNNNNNNNN111N108NN1111N0000000000NN00N0N120
+Rhabdoderma_sp._1               110010220112010111121001210101110011001101111108011111100000000010000300030
+Synaptotylus_newelli            11NNNN2N0NNN1NNN110NNNNNNN010NN10N1001NNNN1N01NNNN1111N000000N0NNNN00N0NNN0
+Ticinepomis_peyeri              110001NN00N2N00N11N2412131N018881NNN111100120NNNNN1111N1100N101001N00301111
+Whiteia_tuberculata             101NNN2200N1N1N11112N1111001021NNNNN111111120NNNNN1111N10000000000N00N0N130
+Whiteia_woodwardi               11101022011111111112101111000211001111110112NNNNNN1111N10000000000N00300130
+Wimania_sinuosa                 110NNN25001111N0111NN12111011888001011NNNNNNNNNNNNNNNNN10100000001000NNNNNN
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb5151;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Wimania_sinuosa,
+            2    Whiteia_tuberculata,
+            3    Whiteia_woodwardi,
+            4    Ticinepomis_peyeri,
+            5    Synaptotylus_newelli,
+            6    Rhabdoderma_sp._1,
+            7    Rhabdoderma_madagascariense,
+            8    Rhabdoderma_exiguum,
+            9    Rhabdoderma_elegans,
+            10   Polyosteorhynchus_simplex,
+            11   Nesides_heiligenstockiensis,
+            12   Nesides_schmidti,
+            13   Miguashaia_bureaui,
+            14   Mawsonia_gigas,
+            15   Macropoma_mantelli,
+            16   Lochmocercus_aciculodontus,
+            17   Laugia_groenlandica,
+            18   Latimeria_chalumnae,
+            19   Holophagus_penicillata,
+            20   Hadronector_donbairdi,
+            21   Garnbergia_ommata,
+            22   Diplurus_newarki,
+            23   Diplurus_longicaudatus,
+            24   Diplocercides_kayseri,
+            25   Coelacanthus_granulatus,
+            26   Chinlea_sorenseni,
+            27   Caridosuctor_populosus,
+            28   Axelrodichthys_araripensis,
+            29   Axelia_robusta,
+            30   Allenypterus_montanus,
+            31   Alcoveria_brevis;
+      TREE Fig._3B1 = [&R] (13,(((24,12),11),((10,20)Hadronectoridae,(30,(16,((27,8),(9,(6,(7,(17,(5,((3,2),(21,(((25,(29,1)),4),((((31,22),23),(26,(14,28))),(19,(15,18)))))))))))))))));
+      TREE Fig._3B2 = [&R] (13,(((24,12),11),(10,(20,(30,(16,((27,8),(9,(6,(7,(17,(5,((3,2),(21,(((25,(29,1)),4),((((31,22),23),(26,(14,28))),(19,(15,18))))))))))))))))));
+      TREE Fig._3A = [&R] (13,(((24,12),11)Diplocercidae,(10,20,(30,(16,((27,8),(9,(6,(7,(17,(5,((3,2)Whiteia,(21,(((25,(29,1)),4),((((31,22),23),(26,(14,28))),(19,(15,18)))))))))))))))))Actinistia;
+
+
+
+END;

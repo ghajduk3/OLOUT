@@ -1,0 +1,643 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:39 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Campbell B., & Cary S. 2004. Abundance of Reverse Tricarboxylic Acid Cycle Genes
+in Free-Living Microorganisms at Deep-Sea Hydrothermal Vents. Applied and Environmental
+Microbiology, 70.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S1244]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=35;
+        TAXLABELS
+            2B09_Guaymas
+            2a09_Guaymas
+            2a10_Guaymas
+            2b10_Guaymas
+            2e08_Guaymas
+            2e09_Guaymas
+            2e10_Guaymas
+            2f08_Guaymas
+            2f10_Guaymas
+            2g10_Guaymas
+            2h07_Guaymas
+            2h09_Guaymas
+            '3833-42 enrichment'
+            '3838-RT enrichment'
+            '820-A10 POB 9N'
+            '820-A11 POB 9N'
+            '820-A12 POB 9N'
+            '820-A6 POB-9N'
+            '820-B11 POB 9N'
+            '820-C1 POB 9N'
+            '820-C11 POB 9N'
+            '820-C7 POB 9N'
+            '820-D2 POB 9N'
+            '820-D5 POB 9N'
+            '820-D8 POB 9N'
+            '827-2 Guaymas'
+            '827-3 Guaymas'
+            '827-5 Guaymas'
+            '828-2 Guaymas'
+            A5_POB_9N
+            Alvinella_pompejana_symbiont
+            Candidatus_Arcobacter_sulfidicus
+            Chlorobium_limicola
+            Nautilia_sp._AmH
+            Persephonella_marina
+            ;
+END;
+
+BEGIN TAXA;
+        TITLE  Taxa2;
+        DIMENSIONS NTAX=46;
+        TAXLABELS
+            1f_Guaymas
+            2d_Guaymas
+            2f_Guaymas
+            3E_Guaymas
+            3H_Guaymas
+            4a_Guaymas
+            6A_Guaymas
+            6B_Guaymas
+            807_21_Guaymas
+            807_22_Guaymas
+            807_28_POB
+            '848-2 Guaymas'
+            A05_Guaymas
+            A11_POB_9N
+            Alvinella_pompejana_symbiont
+            Archeoglobus_fuligidus
+            B02_Guaymas
+            B10_POB_9N
+            B11_POB_9N
+            B12_POB_9N
+            C01_Guaymas
+            C04_Guaymas
+            C05_Guaymas
+            C10_POB_9N
+            Candidatus_Arcobacter_sulfidicus
+            D02_Guaymas
+            D03_Guaymas
+            E05_Guaymas
+            E06_Guaymas
+            E09_POB_9N
+            E12_POB_9N
+            F03_Guaymas
+            F04_Guaymas
+            F12_POB_9N
+            G09_POB_9N
+            G10_POB_9N
+            G11_POB_9N
+            H02_Guaymas
+            H03_Guaymas
+            H10_POB_9N
+            H11_POB_9N
+            Helicobacter_pylori
+            Methanococcus_jannaschii
+            Nautilia_sp._AmH
+            Persephonella_marina
+            Pyrococcus_furiosus
+            ;
+END;
+
+BEGIN TAXA;
+        TITLE  Taxa3;
+        DIMENSIONS NTAX=18;
+        TAXLABELS
+            '840-1 E3 POB 9N'
+            '840-2 F3 POB 9N'
+            '840-3 A4 POB 9N'
+            '840-4 G5 POB 9N'
+            '847-2 Guaymas'
+            A07_Guaymas
+            B04_POB_9N
+            B06_Guaymas
+            B07_Guaymas
+            C07_Guaymas
+            Campylobacter_jejuni
+            Chorobium_tepidum
+            D06_Guaymas
+            Desulfovibrio_desulfuricans_G20
+            E06_Guaymas
+            Escherichia_coli
+            G03_POB_9N
+            Salmonella_typhimurium
+            ;
+END;
+
+BEGIN TAXA;
+        TITLE  Taxa4;
+        DIMENSIONS NTAX=32;
+        TAXLABELS
+            3838_RT
+            Alcaligenes_eutrophus
+            FII_B1_POB_9N
+            FII_C1_POB_9N
+            FII_C3_POB_9N
+            FII_E1_POB_9N
+            FII_E4_POB_9N
+            FII_F1_POB_9N
+            FII_G02_POB_9N
+            FII_f6_POB_9N
+            Hydrogenophilus_thermoluteolus
+            Hydrogenovibrio_marinus
+            Methanococcus_jannaschii
+            Pogonophora_sp._JT1_endosymbiont
+            Rhodobacter_capsula
+            Rhodobacter_veldkampii
+            Rhodspirillum_rubrum
+            Riftia_pachyptila_endosymbiont
+            Synechococcus_sp._WH7803
+            Thiobacillus_denitrificans
+            Thiobacillus_denitrificans_b
+            Thiobacillus_ferrooxidans
+            Thiobacillus_sp.
+            'Uncultured bacteria SBII-2'
+            a05_POB_9N
+            c04_POB_9N
+            c07_POB_9N
+            d05_POB_9N
+            e05_POB_9N
+            f06_POB_9N
+            g05_POB_9N
+            h04_POB_9N
+            ;
+END;
+
+BEGIN TAXA;
+        TITLE  Taxa5;
+        DIMENSIONS NTAX=28;
+        TAXLABELS
+            '3833-42 enrichment'
+            '3838-RT enrichment'
+            '846-4-Guaymas'
+            '847-3-POB 9N'
+            'A10-Guaymas'
+            Alvinella_pompejana_symbiont
+            'B08-POB-9N'
+            'B10-Guaymas'
+            'C08-Guaymas'
+            'C08-POB-9N'
+            'C09-Guaymas'
+            Campylobacter_jejuni
+            Candidatus_Arcobacter_sulfidicus
+            Chlorobium_tepidum
+            'D08-POB-9N'
+            'D09-Guaymas'
+            'D10-Guaymas'
+            'D7-Guaymas'
+            'E08-POB-9N'
+            'E09-Guaymas'
+            'F09-Guaymas'
+            'G08-POB-9N'
+            'G09-Guyamas'
+            Geobacter_metallireducens
+            Helicobacter_pylori
+            Hydrogenobacter_thermophilus
+            Nautilia_sp._AmH
+            Persephonella_marina
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M2706]
+
+	TITLE oorA1;
+	LINK TAXA = Taxa5;
+	DIMENSIONS NCHAR=93;
+	FORMAT DATATYPE=Protein SYMBOLS= "A C D E F G H I K L M N P Q R S T V W Y" MISSING=? GAP= -;
+
+MATRIX
+[                                            10        20        30        40        50        60        70        80        90   ]
+[                                             .         .         .         .         .         .         .         .         .   ]
+'3833-42 enrichment'                 -SAGYPITPSSEIAHEMSKLLPKVGGVFIQMEDEIAGISVALGASMSGVKSMTNTSGPGISLKAEQIGLAFMAEVPLVITNVMRGGPSTGLPT
+'3838-RT enrichment'                 SFAGYPITPSSEVMHVASYLLPEVGGVAIQMEDEIAGISAAIGASAAGVKSFTATSGPGISLKAEQIGSCFIAEIPLVIVNVMRGGPSTGLPT
+'846-4-Guaymas'                      FFAGYPITPSSEVAHEMSKLLPKVGGQFIQMEDEIAGISVALGASMSGVKSMTNTSGPGISLKSEQIGLAFIAEVPLVITNVMRGGPSTGLPT
+'847-3-POB 9N'                       FFAGYPITPSSEVAHEMSKLLPKVGGVFIQMEDEIAGISVALGASMSGVKAMTNTSGPGISLKSEQIGLAFMAEVPLVITNVMRGGPSTGLPT
+'A10-Guaymas'                        FFAGYPITPATEIAEILSDKLPEVGGKFIQMEDEIGSIAATVGASIGGVKSMTATSGPGFSLMQENLGFACITEVPLVLVNVMRGGPSTGLPT
+Alvinella_pompejana_symbiont         FFGGYPITPSSEVMHTISDLLPKAGGAAIQMEDEIAGVAAAIGAGMSGVRTMTATSGPGISLKAENLGLAQMAEVPLVVVNVMRGGPSTGLPT
+'B08-POB-9N'                         FFAGYPITPATTVGNYLAPIILKTGGFVYQSEDEISSMAAIIGASFAGAKAMTATSGPGISLMQELIDLASMTELPTVIVDVQRAGPSTGLPT
+'B10-Guaymas'                        FFAGYPITPSSEIAEKMSELLPKVGGVFIQMEDEIASMAAIVGASFTGAKSMTATSGPGFSLKQENLDYAFFVEAPCVVVNVQRGGPSTGMPT
+'C08-Guaymas'                        FFAGYPITPASEISELCSQLLPKYGRVFIQMEDEIASIAVAIGASVAGGKAMTATSGPGFSLMQENIGYAVMTEIPVVIVNMMRFGPSTGIPT
+'C08-POB-9N'                         FFAGYPITPSSEVAHELSVLLPRVGGKFIQMEDEIGGICVALGASMSGVKSMTNTSGPGMSLKAEQIGLGFIAEVPLVITNVMRGGPSTGLPT
+'C09-Guaymas'                        FFAGYPITPSSEVMHVISDLLPAKGGTAIQMEDEIAGICCVIGAAMSGSRALTATSGPGMSLKAENLGLAQMAEVPLVCVNVMRGGPSTGLPT
+Campylobacter_jejuni                 FFGGYPITPSSEIAHELSHMLPANDGTFIQMEDEISGISVAIGAAMSGVKSMTASSGPGISLKAEQIGLAFIAEIPLVIVNVMRGGPSTGLPT
+Candidatus_Arcobacter_sulfidicus     FFAGYPITPSSEVMHVCSDLLPKVGGTSIQMEDEIAGVCATIGASMSGVRSLTATSGPGISLKAENLGLAQMAEVPIVVVNVMRGGPSTGIPT
+Chlorobium_tepidum                   FLGSYPITPASEILQTLAG-LKKWGVKTFQAEDEIAGILTSIGAAYGGALAATNTSGPGLALKTEGMGLAVILELPLVIINVMRGGPSTGLPT
+'D08-POB-9N'                         FFAGYPITPSSEVKHEASDLLPAAGGVAIQMEDEIGGISAALGASMAGVKSFTATSGPGISLKAEQIGLGFIAEIPLVIINVMRGGPSTGLPT
+'D09-Guaymas'                        FFAGYPITPSSEIAEKMAELLPKYGGVFIQMEDEIAAMGATVGGSFAGLKAMTATSGPGFSLKQENLGYAFMVEAPCVVVNVQRGGPSTGLPT
+'D10-Guaymas'                        FFAGYPITPSSEVMHTISDLLPKVGGTCIQMEDEIGGICAAIGAAMSGVRSMTATSGPGMSLKAENLGLAQMAEVPLVVVDVMRGGPSTGCPQ
+'D7-Guaymas'                         FFAGYPITPSSEVMHVISDLLPAKGGTAIQMEDEIAGICCVIGAAMSDSRALTATSGPGMSLKAENLGLAQMAEVPLVCVNVMRGGPSTGLPT
+'E08-POB-9N'                         FFAGYPITPSSEVMHEASDLLPAAGGVAIQMEDEIGGISAALGASMAGVKSFTATSGPGISLKAEQIGLGFIAEIPLVIINVMRGGPSTGLPT
+'E09-Guaymas'                        FFAGYPITPSSEIMHLMAKEMPRVGGVFIQMEDEIASIAAAIGASMAGKIAMTATSGPGFSLMQENIGYAAMAEIPVVIVDVMRVGPSTGLPT
+'F09-Guaymas'                        FFAGYPITPSTEIAEILSSELPKVGGEFIQMEDEIAAVVAALGASLAGRKSLTASSGPGISLKLENIGFGAMAEIPLVIINVMRGGPSTGLPT
+'G08-POB-9N'                         FFAGYPITPSSEVMHEISDLLPKVGETCIQMEDEIAAICAVIGAGMAGERTMTGTSGPGMSLKAENLGLAQMAEVPLVCVNVMRGGPSTGLPT
+'G09-Guyamas'                        FFAGYPITPSSEVAHELSVLLPRNGGKFIQMEDEIAGICVALGASMSGKKAMTNTSGPGISLKAEQIGLGFITEVPMVITNVMRGGPSTGLPT
+Geobacter_metallireducens            FFAGYPITPSTEVAEVLSAELPKVGGKFMQMEDEIGAMAALIGASLTGSKVLTSTSGPGLSLKQENIGYACIAEVPAVIVNVMRGGPSTGMPT
+Helicobacter_pylori                  FFGGYPITPSSDIMHAMSVALPNCGGHFIQMEDEISGISVSLGASMSGTKSMTASSGPGISLKVEQIGYSFMAEIPLVIADVMRSGPSTGMPT
+Hydrogenobacter_thermophilus         FYAAYPITPATTVGNYIVEDLIRVGGWLYQAEDEIASLGMALGASFAGVKAMTATSGPGLCLMTEFISYAGMTELPIVIVDVQRVGPATGMPT
+Nautilia_sp._AmH                     FFAGYPITPSSEVAHEMSKLLPKVGGQFIQMEDEIAGISVALGASMSGVKSMTNTSGPGISLKAEQIGLAFIAEVPLVITNVMRGGPSTGLPT
+Persephonella_marina                 FFAGYPITPATTVGNYLSPIILKTGGFVYQSEDEISSMAAIIGASFAGVKAMTATSGPGISLMQELIDLASMTELPVVVVDVQRAGPSTGPAP
+;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M2653]
+
+	TITLE PORAnuc1;
+	LINK TAXA = Taxa2;
+	DIMENSIONS NCHAR=68;
+	FORMAT DATATYPE=Protein SYMBOLS= "A C D E F G H I K L M N P Q R S T V W Y" MISSING=? GAP= -;
+
+MATRIX
+[                                            10        20        30        40        50        60        ]
+[                                             .         .         .         .         .         .        ]
+1f_Guaymas                           PFPIEEIRALAKK---AKVLAILEKDVSFGS-GG-AVFADVSRSLINEK--EKPIVLDFIIGLGESD-
+2d_Guaymas                           PFPYNEVAEKLAN---VKAITALDRNSPMGA-MG-ALYNEVASALSANG--QSAVMTYYIYGLGESD-
+2f_Guaymas                           PFPYKELADVLSG---AKAIAVLDRVSPAGA-QGGPLFNEIRSALYDAN--NRPPVINYSYGLGESD-
+3E_Guaymas                           PFPYNEVAEKLAN---VKAIAALDRNSPMGA-MG-ALYNEVAGALAANG--QSAVMTNYIYGLGESD-
+3H_Guaymas                           PFPIEEIKALAKK---AKVLAILEKDVSFGS-GG-AVFADVARSLINER--EKPIVLDFIIGLGGSD-
+4a_Guaymas                           PFPIEEIRALAKK---AK?LAILEKDVSFGS-GG-AVFADVSRPLINEK--EKPVVLDFIIGLGESD-
+6A_Guaymas                           PFPFDRIKEIAKK---AKLLAVLDRAVSQGF-AG-PVFGEVSGALANES--ERPIIMDFIIGLGESD-
+6B_Guaymas                           PFPAEEVREALKD---CENVIVFDRGF-FGY-EG-ILTIDIRN?LYGE----APDVYSFIVGLGESD-
+807_21_Guaymas                       RPFPYNQVAEKLKD---VKAVAALDRSAPMGA-MG-ALYNEVSGALAAKG--QSAIMTNYIYGLGES-
+807_22_Guaymas                       RPFPYKELADVLSG---AKAIAVLDGVSPAGA-QGGPLFNEIRSALYDAN--NRPPVINYSYGLGGSA
+807_28_POB                           RPFPYNEVAEKLKS---VKAVAALDRSAPMGT-TG-ALYNEVAGALMANG--QSAVMTNYIYGLGANA
+'848-2 Guaymas'                      PFPYNEVAEKLAN---VKAIAALDRNSPMGA-MG-ALYNEVAGALSANG--QSAVMTNYIYGLGGSD-
+A05_Guaymas                          PFPYDLVRDALDV-PSLKAVCCMDKSAPGGA-MG-ALFNEVSAAAYTTE--SRPMITNYIYGLGESD-
+A11_POB_9N                           PFPYNEVAEKLKN---VKAVAALDRSMPMGT-TG-ALYNEVAGALAANG--RSAIMTNYIYGLGGSD-
+Alvinella_pompejana_symbiont         PFPFDVVRDAIDISPNLKAIVCMDKSAPGGA-MG-ALFNEVSAAAYSTK--NRPIMTNYIYGLG----
+Archeoglobus_fuligidus               RPFPVEELREALKD---AEKVIVLDRSVSFGY-EG-PVSIELKSAIYGHS--S-AEIYSFAVGLGGRD
+B02_Guaymas                          PFPYNEIAEKLAN---VKAVAALDRNSPMGA-MG-ALYNEVAGALAANG--QSTVMTNIFTVSAEA--
+B10_POB_9N                           PFPFDLVRDALEN---VKSVAVLDRSSPGGA-MG-AFYNEVAAALYTTP--NRPLVTNYIYGLGESD-
+B11_POB_9N                           RPFPYNEVAEKLRN---VKAVAALDRSMPMGT-TG-ALYNEVAGALAANG--QSAIMTNYIYGLGESD
+B12_POB_9N                           RPFPYNEVAEKLKN---VKAVAALDRSMPMGT-TG-ALYNEVAGALAANG--QSAIMNKLYYGLGESD
+C01_Guaymas                          PFPYNEIAEKLAN---VKAVAALDRNSPMGA-MG-ALYNEVAGALAANG--QS?VMTNYIYGLGGSD-
+C04_Guaymas                          PFPYNQVAEKLKN---IKAVAAPDRSAPMGA-MG-ALYNEVSGALAAKG--QSAIMTNYIYGLGGSD-
+C05_Guaymas                          PSPYDLVRDALDV-PSLKAVCCMDKSAPGGA-MG-ALFNEVSAAAYTTE--SRPMITNYIYGLGESD-
+C10_POB_9N                           PFPIEEIRALAKK---AKVLAILEKDISFGS-GG-AVSADVARSLINEK--EKPIVLDFIIGLGESD-
+Candidatus_Arcobacter_sulfidicus     RPFPYEKLRDALEN---VKSIAVTDRSSPGGA-MG-AFYNEVAAAMATSK--SRPMVTNYIYGLGESD
+D02_Guaymas                          PFPYRDIAEAISASN-AKVIGTLNKAETFGG-AGGPLFEEIATSLFLSG--IQIPLVDFIYGLGESD-
+D03_Guaymas                          PFPYKELADVLSG---AKAIAVLDRVSPAGA-QGGPLFNEIRSALYDVN--NRPLVINYSYGLGESD-
+E05_Guaymas                          PFPYNEIREALAN---VKSVTVLDRSCPMGA-MG-ALYNEICGAMASTP--ANPLITNYIYGLGESD-
+E06_Guaymas                          SPFPYNQVAEKLKD---VKAIATLDRSAPMGA-MG-ALYNEVSGALAANG--QSAIMTNYIYGLGESD
+E09_POB_9N                           SPFPFDLVRDALEN---VKSVAVLDRSSPGGA-MG-AFYNEVAAALYSTP--NSALVTNYIYGLGESD
+E12_POB_9N                           PFPYNEIAEKLRN---VKAIAALDRSAPMGT-TG-ALYNEVAGALAAKG--YSAIMTNYIYGLGESD-
+F03_Guaymas                          PFPFKEILPLIKN---AKVVATLERNISMGY-GG-AVYADLSGALINEK--ERSTLIDFILGLGESD-
+F04_Guaymas                          PFPFDQVRDILEN---AKSIAVLDRSSPGGA-MG-AFFNEVSAALYSTQ--NRPLVTNYIYGLGESD-
+F12_POB_9N                           PFPYDEVREALAN---TKAIAVTDRSSPGGA-MG-AFFNEVSAAMYTSV--NRPIVTGFVYGLGESD-
+G09_POB_9N                           PFPFDEIRDVLAN---VKAVAILDRSAPMGA-MG-ALFNEISAAMYTTP--H?PIINNYIYGLGESD-
+G10_POB_9N                           PFPYYDVMDALEASN-AKAVGVFDRAETFGA-VGGPLYSDIATAMYLRG--KTYPIVSFIYGLGGSD-
+G11_POB_9N                           PFPYERLGQDLKN---LKALAILDKSSPAGA-MG-AMFNEVTSTVYQTQGTKHPVVSNYIYGLGGSD-
+H02_Guaymas                          PFPYKELADVLSG---AKAIAVLDRVSPAGA-QGGPLFNEIRSALCDAN--NRPPVINYSYGFGESD-
+H03_Guaymas                          PFPTKELADILTN---LKAVAVLDRALSPGS-IGGPLFLDLRSALYEYE--KKPIMVDYIYGLGESD-
+H10_POB_9N                           PFP?NEIAKKLAN---VKAVAALDRSAPMGT-TG-ALYNEVAGALAANG--ESAIMTNYIYGFGGSD-
+H11_POB_9N                           SPFPYNEVAEKLKN---VKAVAALDRSMPMGT-TG-ALYNEVAGALAANG--QSAIMNKLYYGFGGSD
+Helicobacter_pylori                  RPFPYERLGQDLKN---LKALAILDKSSPAGA-MG-AMFNEVTSAVYQTQGTKHPVVSNYIYGLGERD
+Methanococcus_jannaschii             RPFPKEDVKELLKD---ANNIAVLDKNISLGFNKG-ALGIEMASILKN------KKVCNYIVGLGGRD
+Nautilia_sp._AmH                     RPFPYNEIAKKLAN---VKAVAALDRSAPMGT-TG-ALYNEVAGALAANG--QSAIMTNYIYGLGESD
+Persephonella_marina                 RPFPVKEIAKALSN---AKGVAVLDRADSFDG-IGGPLFKDVASALLGTT--NRPFVHNFIYGLGESD
+Pyrococcus_furiosus                  RPFPVEEIRELAKK---AKVLAFLEKNITIGL-YG-AVFTDASAALINES--EKPLMVDFIVGLGGRD
+;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M175]
+
+	TITLE aclB1;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=153;
+	FORMAT DATATYPE=Protein SYMBOLS= "A C D E F G H I K L M N P Q R S T V W Y" MISSING=? GAP= -;
+
+MATRIX
+[                                            10        20        30        40        50        60        70        80        90        100       110       120       130       140       150   ]
+[                                             .         .         .         .         .         .         .         .         .         .         .         .         .         .         .   ]
+2B09_Guaymas                         WTMVAGGGASVVYADTIADFAG-IDDLANYGEYSGGPTTGETKFYAETLLDLMTREKDAQGREKILIIGGAIANFTDVAKTFTGIIQAFENYAYKMKEIGVKIYVRRGGPNY-----------------------------------------
+2a09_Guaymas                         WTMVAGGGASVVYADTIADMAG-IEDLANYGEYSGGPTTGETKFYAETLFDLMTREKDAEGRGKVLIIGGAIANFTDVAKTFTGIIQAFEEYQEKLKEVGVKIYVRRGGPNY-----------------------------------------
+2a10_Guaymas                         WTMVAGGGASVVYADTIADMAG-IDDLANYGEYSGGPTTGETKFYAETLLDLMTREPDPQGRGKVMIIGGAIANFTDVAKTFTGIIQAFEVYADKMKAVDLKIYVRRGGPNY-----------------------------------------
+2b10_Guaymas                         WTMVAGGGASVVYADTMADLAG-IDDLANYGEYSGGPTTGETKFYAETIFDLMTREPDPQGRGKVLIIGGAIANFTDVAKTFTGIIQAFENYQDKLKEVGTKTYVRRGGPNY-----------------------------------------
+2e08_Guaymas                         WTMVAGGGASVVYADTVADLGW-VNELANYGEYSGNPSRTETREYVKTVFKLMTRNKDPQGRPKILIIGGAIANFTDVAKTFDGIIDAMKEYADKLREVGVKIYVRRGGPNY-----------------------------------------
+2e09_Guaymas                         WTMVAGGGASVVYADTIADFAG-IDDLANYGEYSGGPTTGETKFYAETIFDLMTREPDPQGRGKVLIIGGAIANFTDVAKTFTGIIQAFENYQDSLKEVGTKIYVRRGGPNY-----------------------------------------
+2e10_Guaymas                         WTMVAGGGASVVYADIIADLAG-VKDLANYGEYSGGPTTAETQFYAETIFDLMTRYKDDRG--KILIIGGAIANFTDVAKTFTGIINAFEKYADKPQEHKTKIYVRRGGPNY-----------------------------------------
+2f08_Guaymas                         WTMVAGG-ASVVYADTIADFAG-IDDLANYGEYSGGPTTGETKFYAETLLDLMTREKDAQGREKILIIGGAIANFTDVAKTFTGIIQAFENYADKMKEIGVKIYVRRGGPNY-----------------------------------------
+2f10_Guaymas                         WTMVAGGGASVVYADTIADMAG-IDDLANYGEYSGGPTTGETKFYAETLLDLMTREPDPQGREKILIIGGAIANFTDVAKTFTGIIQAFENYADKMKAVDLKIYVRRGGPNY-----------------------------------------
+2g10_Guaymas                         WTMGAGGGASVVYADTIADLAG-IDDLANYGEYSGGPTTGETKFYAETLLDLMTREKDAQGREKILIIGGAIANFTDVAKTFTGIIQAFENYADKMKEIGVKIYVRRGGPNY-----------------------------------------
+2h07_Guaymas                         WTMVAGGGASVVYADTIADMAG-IDDLANYGEYSGGPTTGETKFYAETLFDLMTREPDPQGRGKVLIIGGAIANFTDVAKTFTGIIQAFENYKDKLKAVDTKIYVRRGGPNY-----------------------------------------
+2h09_Guaymas                         WTMVAGGGASVVYADTIADLAG-IDDLANYGEYSGGPTTGETKFYAETLLDLMTREKDAQGREKILIIGGAIANFTDVAKTFTGIIQAFENYADKMKEIGVKIYVRRGGPNY-----------------------------------------
+'3833-42 enrichment'                 ---VAGGGASVVYADTIADLAGGVEDLANYGEYSGGPTTDETRFYTETVLDLMTREKDPQGRDKILIIGGAIANFTDVAKTFTGIIQAFEKYADKMKDVGVRIYVRRGGPNS-----------------------------------------
+'3838-RT enrichment'                 --MVAGGGASVVYADTIADMAG-IDDLANYGEYSGGPTTGETKFYAETILDLMTREKDPKGRDKILIIGGAIANFTDVAKTFTGIIQAFEKYAEKMKEVGVKIYVRRGGPN------------------------------------------
+'820-A10 POB 9N'                     WTMVAGGGASVVYADTIADLAGGVAELANYGEYSGGPTTDETRFYTETVLDLMTREKDPQGRDKILIIGGAIANFTDVAKTFTGIIQAFEKYADKMKDVGVRIYVRRGGPNL-----------------------------------------
+'820-A11 POB 9N'                     WTMVAGGGASVVYADTIADLAGGVEDLANYGEYSGGPTTDETRFYTETVLDLMTREKDPQGRDKILIIGGAIANFTDVAKTFTGIIQAFEKYADKMKDVGTRIYVRRGGPNL-----------------------------------------
+'820-A12 POB 9N'                     WTMVAGGGASVVYSDTVADLGA-VKELANYGEYSGNPTRAETREYVKTVFDLMTRSRHPQG-DKILIIGGAIANFTDVAKTFEGIIDAMKEYADKLKEVGVKIYVRRGGPNL-----------------------------------------
+'820-A6 POB-9N'                      WTMVAGGGASVVYADTIADFAG-VKDLANYGEYSGGPTTAETEFYAETIFDLMTRHKDPRG--KILIIGGAIANFTDVAKTFTGIINALEKYADKLKEHGTKIYVRRGGPNL-----------------------------------------
+'820-B11 POB 9N'                     WTMVAGGGASVVYADTIADLAG-VKDLANYGEYSGGPTTAETQFYAETIFDLMTRHKDPRG--KILIIGGAIANFTDVAKTFTGIINAFEKYADKLKEHKTKIYVRRGGPNY-----------------------------------------
+'820-C1 POB 9N'                      WTMVAGGGASVVYSDTVADLGA-VKELANYGEYSGNPSRTETREYVKTVFDLMTRERHPQG-DKILIIGGAIANFTDVAKTFDGIIDAMNEYADKLKEVGVKIYVRRGGPNY-----------------------------------------
+'820-C11 POB 9N'                     WTMVAGGGASVVYADTIADLAG-VKDLANYGEYSGGPTTAETQFYAETIFDLMTRHEDPRG--KILIIGGAIANFTDVAKTFTGIINALEKYADKLKEHKTKIYVRRGGPNY-----------------------------------------
+'820-C7 POB 9N'                      WTMVAGGGASVVYADTVADLGA-VKELANYGEYSGNPSRTETREYVKTVFDLMTRERHPQG-DKILIIGGAIANFTDVAKTFDGIIDAMNEYAEKLKKVGVKIYVRRGGPNY-----------------------------------------
+'820-D2 POB 9N'                      WTMVAGGGASVVYADTIADFAG-VKDLANYGEYSGGPTTAETQFYAETIFDLMTRHKDPRG--KILIIGGAIANFTDVAKTFTGIIKAFEKYADKLKEHGTKIYVRRGGPNY-----------------------------------------
+'820-D5 POB 9N'                      WTMVAGGGASVGYSDTVADLGA-VKELANYGEYSGNPTRAETREYVKTVFDLMTRSRHPQG-DKILIIGGAIANFTDVAKTFEGIIDAMKEYADKLKEVGVKIYVRRGGPNY-----------------------------------------
+'820-D8 POB 9N'                      WTMVAGGGASVVYADTVADLGA-VKELANYGEYSGNPSRTETREYVKTVFDLMTRERHPQG-DKILIIGGAIANFTDVAKTFDGIIDAMNEYADKLKEVGVKIYVRRGGPNY-----------------------------------------
+'827-2 Guaymas'                      WTMVAGGGASVVYADTIADMAG-IDDLANYGEYSGGPTTGETKFYAETLLDLMTREPDPQGRGKVMIIGGAIANFTDVAKTFTGIIQAFEVYANKMKEVDLKIYVRRGGPNY-----------------------------------------
+'827-3 Guaymas'                      WTMVAGGGASVVYADTIADLAG-VKDLANYGEYSGGPTTAETQFYAETIFDLMTRHKDPRG--KILIIGGAIANFTDVAKTFAGIINAFEKYADKLKEHKTKIYVRRGGPNY-----------------------------------------
+'827-5 Guaymas'                      WTMVAGGGASVVYADTIADMAGGVEDLANYGEYSGGPTTDETRFYTETVLDLMTREKDPRGRDKILIIGGAIANFTDVAKTFTGIIQAFEKYADKMKDVGTRIYVRRGGPNY-----------------------------------------
+'828-2 Guaymas'                      WTMVAGGGASVVYADTIADFAG-IDDLANYGEYSGGPTTGETKFYAETIFDLMTREPDPQGRGKVLIIGGAIANFTDVAKTFTGIIQAFENYQDKLKEVGTKIYVRRGGPNY-----------------------------------------
+A5_POB_9N                            WTMVAGGGASVVYADTVADLGQ-VKELANYGEYSGNPSRAETREYVKTVFDLMTRSKHPAG-HKILIIGGAIANFTDVAKTFDGIIDAMKEYADKLKEIGIRIYVRRGGPNY-----------------------------------------
+Alvinella_pompejana_symbiont         WTMVAGGGASVVYADTIADFAG-IADLANYGEYSGGPTTGETKFYAETILDLMTREKDPQGREKILIIGGAIANFTDVAKTFTGIIQAFEEYADKMKDVGVKIYVRRGGPNY-----------------------------------------
+Candidatus_Arcobacter_sulfidicus     WTMVAGGGASVVYADTIADMAG-IEDLANYGEYSGGPTTGETKFYAETLFDLMTREPDPQGRGKVLIIGGAIANFTDVAKTFTGIIQAFENYQDKLKAVDTKIYVRRGGPHY-----------------------------------------
+Chlorobium_limicola                  --LTAGGGASVFYADAVVARGG---TIANYAEYSGDPADWAVEALTETICRLPN--------IKHIIVGGAIANFTDVKATFSGIINGFRESKSKGYLEGVKIWVRRGGPNEAQGLAAIKQLQEEGFDIHVYDRSMPMTDIVDLAMKS-----
+Nautilia_sp._AmH                     WTMVAGGGASVVYADTIADMAGGVEDLANYGEYSGGPTTDETRFYTETVLDLMTREKDPKGRDKILIIGGAIANFTDVAETFTGIIQAFEKYADKMKDVGTRIYVRRGGPNY-----------------------------------------
+Persephonella_marina                 WTMVAGGGASVVYADTVADLGY-VKELANYGEYSGNPSRAETREYVKTVFDLMTRSKHPKG-HRILIIGGAIANFTDVAKTFDGIIDAMKEYADKLREIGVRIYVRRGGPNY-----------------------------------------
+;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M2607]
+
+	TITLE Rubisco;
+	LINK TAXA = Taxa4;
+	DIMENSIONS NCHAR=129;
+	FORMAT DATATYPE=Protein SYMBOLS= "A C D E F G H I K L M N P Q R S T V W Y" MISSING=? GAP= -;
+
+MATRIX
+[                                            10        20        30        40        50        60        70        80        90        100       110       120         ]
+[                                             .         .         .         .         .         .         .         .         .         .         .         .         ]
+3838_RT                              KDDEDVNSQPFMRWRHRFDYVAEAVHQAEAETGERKGHYLNVTAPDVEQMYQRAEYA-KSLGMRVIMHDFLTAGFTAHTSLSNWCCHNGMLLHIHRA--------------------------------
+Alcaligenes_eutrophus                KDDENINSQPFMHWRDRFLFVMDAVNKASAATGEVKGSYLNVTAGTMEEMYRRAEFA-KSLGSVIIMID-LIVGWTCIQSMSNWCRQNDMILHLHRA--------------------------------
+FII_B1_POB_9N                        N-------QTFAPMREIIPLIADAMRRAQDETGEAKIFSGNITAGDPFEMIARGEYILETFGPDADKVAFLVDGYVG---------GPGMVTTARR---------------------------------
+FII_C1_POB_9N                        N-------QVFCPMKKVIPPVVDAMKRAQDETGQAKLFSANITADSHAEMIARGEYILEQFGPDADKVAFLVDGYVG---------GPGMVTTARRW--------------------------------
+FII_C3_POB_9N                        N-------QVFCPMKKVIPLVVDAMKRAQDETGQAKLFSANITADDHAEMIARGEYILEAFGPDADKVAFLVDGYVG---------GPGMVTTARRY--------------------------------
+FII_E1_POB_9N                        N-------QVFCPMKKVIPLVVNTMKRAQDKTGQAKLFSANITANSHAEMIARGEYILEQFGPDADKVAFLVDGYIG---------GPGMVTTARR---------------------------------
+FII_E4_POB_9N                        N-------QVFAPMKKVIPLVVDAMKRAQDETGQAKLFSANITADSHAEMIARGEYILEAFGEFADHVAFLVDGYVG---------GPGMVTTARRR--------------------------------
+FII_F1_POB_9N                        N-------QVLCPMKKVIPLVADAMKRAQDETGEAKLFSANITADDHSEMIARGEYILETFGPDADKVAFLVDGYVG---------GPGMVTTARRY--------------------------------
+FII_G02_POB_9N                       N-------QVFCPMKKVIPLVADAMKRAQDETGEAKLFSANITADDHSEMIARGEYILETFGPDADKVAFLVDGYVG---------GPGMVTTARR---------------------------------
+FII_f6_POB_9N                        N-------QVFCPNKKVIPLVVDAMKRAQDETGQAKLFSANITADSHAEMIARGEYVLEQFGPDADKVAFLVDGYVG---------GPGMVTTARRW--------------------------------
+Hydrogenophilus_thermoluteolus       KDDENVNSQPFMRWRDRFLFCQEAIEKAQAETGERKGHYMNVTGPTMEEIYKRAEFA-KEIGTPIIMIDYLTVGWAATQSLSKWCRDNGMLLHVHRA--------------------------------
+Hydrogenovibrio_marinus              KDDENINSQPFQRWRDRFEFVAEAVDKATAETGERKGHYLNVTAGTVEEMMKRAEFA-KELGQPIIMHDFLTAGFTANTTLANWCRENGMLLHIHRA--------------------------------
+Methanococcus_jannaschii             KDDENLTSQEFNKFEDRIYKTLEMRDKAEEETGERKA-YMPNITAPYREMIRRAEIA-EDAGSEYVMIDVVVCGFSAVQSFRE--EDFKFIIHAHRA--------------------------------
+Pogonophora_sp._JT1_endosymbiont     KDDENVNSQPFMRWRDRFEFVQEATEKAQAETGEIKGHYLNVTAPDIEEMYKRAEFA-KEIGAPIIMSDYLTMGWAAQQSLSKWCRNNGMLLHVHRA--------------------------------
+Rhodobacter_capsula                  N-------QTFAPLKETIRLVADAMKRAQDETGEAKLFSANITADDHYEMVARGEYILETFGENADHVAFLVDGYVT---------GPAAITTARRS--------------------------------
+Rhodobacter_veldkampii               KDDENVNSQPFMRWRDRFLFCQEAIEKAEAETGERKGHYMNVTAATMEEMYERAEFA-KEIGTPIIMSDYLTVGWAAHTSLSKWCRKNGMLLHVHRA--------------------------------
+Rhodspirillum_rubrum                 N-------QPFAPLRDTIALVADAMRRAQDETGEAKLFSANITADDPFEIIARGEYVLETFGENASHVALLVDGYVA---------GAAAITTARRR--------------------------------
+Riftia_pachyptila_endosymbiont       N-------QPFSPMKKTIPLVADAMRRAQDETGEAKLFSANITADDPAEMIARGEFVLETFGFEASQVAFLVDGYVA---------GPTAVATARRK--------------------------------
+Synechococcus_sp._WH7803             KDDENINSQPFQRWQNRFEFVAEAIKLSEQETGERKGHYLNVTANTPEEMYERAEFA-KELGMPIIMHDFITGGFTANTGLSKWCRKNGMLLHIHRA--------------------------------
+Thiobacillus_denitrificans           KDDENVNSQPFMRWRQRFDFVMEAIQKSERETGERKGHYLNVTAPTPEEMYKRAEYA-KEIGAPIIMHDYITGGFCANTGLANWCRDNGMLLHIHRA--------------------------------
+Thiobacillus_denitrificans_b         N-------QVFCPLKKVLPLVYDAMKRAQDDTGQAKLFSMNITADDHYEMCARADYALEVFGPDADKLAFLVDGYVG---------GPGMVTTARRQ--------------------------------
+Thiobacillus_ferrooxidans            KDDENVNSQPFMRWRQRFDFVMEAIQKAEAETGERKGHYLNVTAPTPEEMYKRAEYA-KEIGAPIIMHDYITGGFCANTGLANWCRDNGMLLHIHRA--------------------------------
+Thiobacillus_sp.                     KDDENVNSQPFMRWRHGFDFVMEAIEKAERETGERKGHYLNVTAPTPDEMFKRAEYA-KEIGAPIIMHDYITGGFTANTGLAQWCRDNGVLLHIHRA--------------------------------
+'Uncultured bacteria SBII-2'         EPFAEAAYQFWLGGDFIKNDEPQGN-------QVFCPMKKVIPLVYDAMKRAMDETGRAKLFSANITADDHYEMIARGEYVLETFGPDADKVAFLVDGYVG---------GPGMITTARRNFPSQYLHY
+a05_POB_9N                           KDDENVNSQFFMRWRDRFLFVQEACEKAEAETGERKGHYLNVTAPTVEEMYKRAEFA-KEIGARIIMSDFLTLGWAAHTSLSKWCRDNGLLLHVHRA--------------------------------
+c04_POB_9N                           KDDENINSQPFQRWQDRFEFVANAVDKATLDTGERKGHYLNVTSGDVEQMMKRAEFA-KELGQPIIMHDFLTAGFTANTTLAKWCRDNGMLLHIHRA--------------------------------
+c07_POB_9N                           KDDENINSQPFQRWQDRFEFVANAVDKATIETGERKGHYLNVTSGDVEQMMKRAEFA-KELGQPIIMHDFLTAGFTANTTLAKWCRDNGMLLHIHRA--------------------------------
+d05_POB_9N                           KDDENVNSQPFMRWRDRFLFVQEAIEKAEAETGERKGHYLNVTAPDVEEMYKRAEFA-KEIGSRIIMSDYLTLGWAAHQSLSKWCRDNGMLLHVHRA--------------------------------
+e05_POB_9N                           KDDENVNSQPFMRWRDRFLFVQEACEKAEAETGERKGHDLNVTAPTVEEMFKRAEFA-KEIGARIIMSDYLTLGWAAHTSLSKWCRDNGILLHVHRA--------------------------------
+f06_POB_9N                           KDDENVNSQPFMRWRDRFLFVEEGRRKAEAETGERKGHYLNVTAPTVEEMFKRAEFA-KEVGAPIIMSDYLTLGWAAHNSLSKWCRDNGMLLHVHRA--------------------------------
+g05_POB_9N                           KDDENVNSQSFMRWRDRFEFVAEAVMKAQDETGERKGHYLNVTAATPEEMYKRAEFA-KELGMPIIMHDFLTGGFTANTGLANWCRDSGMLLHIHRA--------------------------------
+h04_POB_9N                           --------QPFMRWRDRSLFVQEACEKAEAETGERKGHYLNVTAPTVEEMFKRAEFA-KEIGARIIMSDYLTLGWAAHTSLSKWCRDNGILLHVHRA--------------------------------
+;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M2846]
+
+	TITLE nifJ1;
+	LINK TAXA = Taxa3;
+	DIMENSIONS NCHAR=173;
+	FORMAT DATATYPE=Protein SYMBOLS= "A C D E F G H I K L M N P Q R S T V W Y" MISSING=? GAP= -;
+
+MATRIX
+[                                           10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170   ]
+[                                            .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .   ]
+'840-1 E3 POB 9N'                   GCGETPYIKLVTQLYGDHMTIANATGCSSIYGGSAPSTPYRANEY-GRGPAWANSLFEDNAEFGFGIALGYERIRYRLRDRFEKILNGDYS-------DQLKEAAKLWLESHE-TYEASREAADKIIPILE--KDGS-----DIAKEILSYKDFLVKKSVWIIGGDGWAYDIG
+'840-2 F3 POB 9N'                   GCGETPYIKLVTQLYGDHMTIANATGCSSIYGGSAPSTPYRTNEE-GLGPAWANSLFEDNAEYGYGIALAYNRIRYRIEDRFKKILEGDYS-------DDLKEAAKLWLETKD-DYQKGREVLDKILGLLD--NDGS-----EIARELLSLKDYMLKKSVWIIGGDGWAYDIG
+'840-3 A4 POB 9N'                   GCGETPYIKLVTQLYGDHMTIANATGCSSIYGGSAPSTPYRANEY-GRGPAWANSLFEDNAEFGFGIALGYERIRYRLRDRFERILNGDYS-------DQLKEAAKLWLESQE-TYEASREAADMIIPILE--KDGS-----DIAKEILSYKDFLVKKSVWIIGGDGWANDIG
+'840-4 G5 POB 9N'                   GCGETPYIKLVTQLYGDHMTIANATGCSSIYGGSAPSTPYRANEY-GRGPAWANSLFEDNAEFGFGIALGYERIRYRLRDRFEKILNGDCS-------DQLKEAAKLWLESQE-TYEASREAADKIIPILE--KDGS-----DIAKEILSYKDFLVKKSVWIIGGDGWAYDIG
+'847-2 Guaymas'                     GCGETPYIKLITQLYGDRMMIANATGCSSIYGGSAPSTPY-CTNEDNQGAAWANSLFEDNAEYGLGMATAVKKLRERLARFMTEAMD-EVA-------PATKEAFAAWLEAKE-DGEKSRAASNTVLKALET-ETHS------VAQDILKLKDHLVKKSVWVFGGDGWAYDIG
+A07_Guaymas                         GCGETPYIKLITQLYGDRKMIANATGCSSIYGGSAPSTPY-CTNKDNQGPAWANSLFEDNAEYGLGMATAVKKLRERLARFMQESMD-DVA-------PATKEAFAAWPEAKE-DGEKSRAASNAVLKALET-ETHS------VAQDILELKDHLVKKSVWVFGGDGWAYDIG
+B04_POB_9N                          GCGETPYIKLPTQLFGDRVIIANATGCSSTYGGNLPTTPYAVNQE-GRGPAWANSLFEDNAEFGLGLKLAANKKREKAFRLLGALRK-ELT-------GDLYEQIINNRADSEEAKKIMDELIEELGKQLK---NIN----REEARSLLYLADYLKKKSVWIIGGDGWAYDIG
+B06_Guaymas                         GCGETPYVKLVTQLFGDHMVIANATGCSSIYGGSAPVCPYTVNKD-GHGPAWANSLFEDNAEFGLGIETGINQRRAKLFDIVREAMNENLP-------EELKDALNAWLENFD-DGFRSKELGKKIEYLIESEVANNPADFNPVLLDILDSADYFSKISVWAFGGDGWAYDIG
+B07_Guaymas                         GCGETPYIKLITQLYGDRMMVANATGCSSIYGGSAPSTPY-CTNKDNQGPAWANSLFEDNAEYGLGMVTASKKLRERLARQMTEAMD-EVA-------PATKEAFEAWLEAKE-DGEKSRAASTAVLKALES-ENHA------VAGEILKLKDHLVKKSVWVFGGDGWAYDIG
+C07_Guaymas                         GCGETPYIKLITQLYGDRTMIANATGCSSIYGGSAPSTPY-CTNKDNQGPAWANSLFEDNTEYGLGMATAVKKLRERLARFMTEAMD-EVA-------PATKEAFAAWLEAKE-DGEKSRAASNAVLKALET-ETHS------VAQDILKLKDLLVKKSVWVFGGDGWAYDIG
+Campylobacter_jejuni                GCGETPYITLITRLFGERMIVANATGCSSIYGGSAPSTPYRKSVKNGHGPAWGNSLFEDNAEFGLGMKIATENTRHRIEHIMNESMQ-EVP-------NALSALFKDWIANKD-NGAMSVEIKDKMIPILEQNKNIK------AVQDILELKQYLSKKSHWIFGGDGWAYDIG
+Chorobium_tepidum                   GCGETPYVKLMTQLFGDRLVIGNATGCSSIYGGNLPTTPYAANPQ-GLGPTWSNSLFEDTAEFALGFRISIDKQQQFAKELVKKLAG-DIG-------ENLATAILNATQNSEPEIFEQRERVAVLKDKLQ---QMK----SDDAKNLLAVADMLVKKSVWAVGGDGWAYDIG
+D06_Guaymas                         GCGETPYIKTATQLFGEGMLIANATGCSSIYGGSNPATPYTVHQQSGQGPAWANSLFEDNAEYGFGMALANTKLRDRIADRMEKALNENIS-------DELKDGFNAWLENIH-STIESRKIANKIIPLMETEKENN-----ENVKEIYNLKHYLVKKSQWIIGGDGWAYDIG
+Desulfovibrio_desulfuricans_G20     GCGETPYVKLLTQLFGERMVVANATGCSSIWGASAPTTPYTVNKD-GHGPTWGNSLFEDAAEFGYGMNMAYVQRRNRLAQLCEEALQAAES-------AELKAALKGWLENKD-DAELSRKFGEEVLAYID-ELGD-----SPLVDEVYGMHDMFTKKSVWIFGGDGWAYDIG
+E06_Guaymas                         GCGETPYIKTITQLYGDRMMVANATGCSSIYGGSAPSTPY-CKNSDGEGPAWANSLFEDNAEYGYGMALGVNKIRDRIERLLGEALEGDVS-------AERKEAFENWIATKD-DNSNSKAASEKLKEVLKG-ANDD------LAKQLMDISHYFTKKSNWIFGGDGWAYDIG
+Escherichia_coli                    GCGETPYIKLLTQLYGDRMLIANATGCSSIYGGNLPSTPYTTDAN-GRGPAWANSLFEDNAEFGLGFRLTVDQHRVRVLRLLDQFAD-KIP-------AELLTALK--SDATP---EVRREQVAALRQQLN---DVA-----E-AHELLRDADALVEKSIWLIGGDGWAYDIG
+G03_POB_9N                          GCGETPYIKLITQLWGENMLVANATGCSSIYGGNLPSTPYSVNAK-GRGPAWSNSLFEDNAEFGMGLKLATDKKRELALQYLEELKE-EVG-------AELYEAIINDNGKQEVDAQQQQKNIELLRQRLR---GNN----SKVARDLDYLPDNLAVKSVWIFGGDGWAYDIG
+Salmonella_typhimurium              GCGETPYIKLLTQLYGDRMLIANATGCSSIYGGNLPSTPYTTDAN-GRGPAWANSLFEDNAEFGLGFRLSVDQHRARVMRLLAQFAD-RIP-------AELNDALH--AEATP---DVRREQVAALRQHLK---SVA-----G-AEELLKDADALVEKSIWLIGGDGWAYDIG
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb7036;
+      LINK TAXA = Taxa5;
+         TRANSLATE
+            1    Hydrogenobacter_thermophilus,
+            2    Helicobacter_pylori,
+            3    Alvinella_pompejana_symbiont,
+            4    '3833-42 enrichment',
+            5    '3838-RT enrichment',
+            6    'C08-Guaymas',
+            7    'D10-Guaymas',
+            8    '847-3-POB 9N',
+            9    Candidatus_Arcobacter_sulfidicus,
+            10   Nautilia_sp._AmH,
+            11   '846-4-Guaymas',
+            12   'C08-POB-9N',
+            13   'G08-POB-9N',
+            14   'E08-POB-9N',
+            15   'D08-POB-9N',
+            16   'B08-POB-9N',
+            17   'G09-Guyamas',
+            18   'F09-Guaymas',
+            19   'E09-Guaymas',
+            20   'D09-Guaymas',
+            21   'C09-Guaymas',
+            22   'B10-Guaymas',
+            23   'A10-Guaymas',
+            24   'D7-Guaymas',
+            25   Persephonella_marina,
+            26   Chlorobium_tepidum,
+            27   Campylobacter_jejuni,
+            28   Geobacter_metallireducens;
+      TREE Fig._4B = [&R] ((((((((11,10),(8,4)),(17,12)),(2,27)),((15,14),5)),(((((1,(25,16)),(19,6)),(22,20)),(28,23)),18)),(((((24,21),13),7),9),3)),26);
+
+
+
+END;
+BEGIN TREES;
+      TITLE Tb7037;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    '3838-RT enrichment',
+            2    '3833-42 enrichment',
+            3    A5_POB_9N,
+            4    2f08_Guaymas,
+            5    '828-2 Guaymas',
+            6    '827-3 Guaymas',
+            7    '827-2 Guaymas',
+            8    '827-5 Guaymas',
+            9    '820-D8 POB 9N',
+            10   '820-D2 POB 9N',
+            11   '820-C11 POB 9N',
+            12   '820-C7 POB 9N',
+            13   '820-B11 POB 9N',
+            14   '820-A6 POB-9N',
+            15   '820-D5 POB 9N',
+            16   '820-C1 POB 9N',
+            17   '820-A12 POB 9N',
+            18   '820-A11 POB 9N',
+            19   '820-A10 POB 9N',
+            20   Persephonella_marina,
+            21   Chlorobium_limicola,
+            22   Nautilia_sp._AmH,
+            23   Candidatus_Arcobacter_sulfidicus,
+            24   Alvinella_pompejana_symbiont,
+            25   2h07_Guaymas,
+            26   2f10_Guaymas,
+            27   2e10_Guaymas,
+            28   2e09_Guaymas,
+            29   2B09_Guaymas,
+            30   2h09_Guaymas,
+            31   2g10_Guaymas,
+            32   2e08_Guaymas,
+            33   2b10_Guaymas,
+            34   2a10_Guaymas,
+            35   2a09_Guaymas;
+      TREE Fig._4A = [&R] (((((((((34,7),26),((31,30),(29,4))),1),(24,((22,8),((19,2),18)))),(35,((33,(28,5)),(25,23)))),(((27,((13,6),11)),14),10)),((((32,20),3),((16,9),12)),(17,15))),21);
+
+
+
+END;
+BEGIN TREES;
+      TITLE Tb7040;
+      LINK TAXA = Taxa3;
+         TRANSLATE
+            1    '847-2 Guaymas',
+            2    '840-2 F3 POB 9N',
+            3    '840-3 A4 POB 9N',
+            4    '840-1 E3 POB 9N',
+            5    '840-4 G5 POB 9N',
+            6    G03_POB_9N,
+            7    B04_POB_9N,
+            8    E06_Guaymas,
+            9    D06_Guaymas,
+            10   B06_Guaymas,
+            11   C07_Guaymas,
+            12   B07_Guaymas,
+            13   A07_Guaymas,
+            14   Escherichia_coli,
+            15   Campylobacter_jejuni,
+            16   Salmonella_typhimurium,
+            17   Chorobium_tepidum,
+            18   Desulfovibrio_desulfuricans_G20;
+      TREE nifJ_Tree = [&R] (((17,(16,14)),(7,6)),((15,(((13,(11,1)),12),8)),(9,((5,(4,3)),2))),(18,10));
+
+
+
+END;
+BEGIN TREES;
+      TITLE Tb7039;
+      LINK TAXA = Taxa2;
+         TRANSLATE
+            1    6B_Guaymas,
+            2    6A_Guaymas,
+            3    4a_Guaymas,
+            4    3H_Guaymas,
+            5    1f_Guaymas,
+            6    F03_Guaymas,
+            7    C10_POB_9N,
+            8    C05_Guaymas,
+            9    B12_POB_9N,
+            10   Methanococcus_jannaschii,
+            11   Pyrococcus_furiosus,
+            12   Archeoglobus_fuligidus,
+            13   Alvinella_pompejana_symbiont,
+            14   H02_Guaymas,
+            15   H03_Guaymas,
+            16   '848-2 Guaymas',
+            17   3E_Guaymas,
+            18   2f_Guaymas,
+            19   2d_Guaymas,
+            20   H10_POB_9N,
+            21   G10_POB_9N,
+            22   G09_POB_9N,
+            23   F12_POB_9N,
+            24   F04_Guaymas,
+            25   E12_POB_9N,
+            26   G11_POB_9N,
+            27   E05_Guaymas,
+            28   D03_Guaymas,
+            29   D02_Guaymas,
+            30   C04_Guaymas,
+            31   C01_Guaymas,
+            32   B10_POB_9N,
+            33   A11_POB_9N,
+            34   A05_Guaymas,
+            35   B02_Guaymas,
+            36   Nautilia_sp._AmH,
+            37   Persephonella_marina,
+            38   E09_POB_9N,
+            39   E06_Guaymas,
+            40   B11_POB_9N,
+            41   Candidatus_Arcobacter_sulfidicus,
+            42   807_28_POB,
+            43   807_22_Guaymas,
+            44   807_21_Guaymas,
+            45   H11_POB_9N,
+            46   Helicobacter_pylori;
+      TREE porA_Tree = [&R] ((((45,9),33),40),42,((((((((46,26),((41,((38,32),24)),(((34,8),13),23))),22),((((((43,14),18),28),15),(37,(29,21))),(((12,1),10),(((11,((7,4),(5,3))),6),2)))),27),((35,31),((19,16),17))),((44,39),30)),((36,20),25)));
+
+
+
+END;
+BEGIN TREES;
+      TITLE Tb7038;
+      LINK TAXA = Taxa4;
+         TRANSLATE
+            1    'Uncultured bacteria SBII-2',
+            2    Methanococcus_jannaschii,
+            3    FII_F1_POB_9N,
+            4    FII_E4_POB_9N,
+            5    FII_E1_POB_9N,
+            6    FII_C3_POB_9N,
+            7    FII_C1_POB_9N,
+            8    FII_B1_POB_9N,
+            9    FII_G02_POB_9N,
+            10   FII_f6_POB_9N,
+            11   Riftia_pachyptila_endosymbiont,
+            12   Thiobacillus_denitrificans_b,
+            13   Rhodobacter_capsula,
+            14   Rhodspirillum_rubrum,
+            15   3838_RT,
+            16   Alcaligenes_eutrophus,
+            17   Thiobacillus_ferrooxidans,
+            18   Rhodobacter_veldkampii,
+            19   Pogonophora_sp._JT1_endosymbiont,
+            20   h04_POB_9N,
+            21   e05_POB_9N,
+            22   d05_POB_9N,
+            23   g05_POB_9N,
+            24   c07_POB_9N,
+            25   c04_POB_9N,
+            26   Synechococcus_sp._WH7803,
+            27   Hydrogenovibrio_marinus,
+            28   Hydrogenophilus_thermoluteolus,
+            29   Thiobacillus_sp.,
+            30   Thiobacillus_denitrificans,
+            31   f06_POB_9N,
+            32   a05_POB_9N;
+      TREE Fig._3 = [&R] ((((((19,(((32,(21,20)),31),22)),(28,18)),(((30,17),29),(((27,(25,24)),(26,23)),15))),16),(((14,13),11),((12,(10,(((9,(3,1)),((7,5),6)),4))),8))),2);
+
+
+
+END;

@@ -1,0 +1,150 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:36 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Whitlock B., & Baum D. 1999. Phylogenetic relationships of Theobroma and Herrania
+based on sequences of the nuclear gene vicilin. Systematic Botany, 24(2): 128-138.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S412]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=30;
+        TAXLABELS
+            Abroma_augusta
+            Guazuma_ulmifolia_1
+            Guazuma_ulmifolia_2
+            Herrania_cuatrecasana
+            Herrania_kanukuensis
+            Herrania_nitida
+            Herrania_nycterodendron
+            Herrania_purpurea_1
+            Herrania_purpurea_2
+            Herrania_umbratica
+            Theobroma_angustifolium
+            Theobroma_bicolor_A
+            Theobroma_bicolor_B
+            Theobroma_cacao_A
+            Theobroma_cacao_B1
+            Theobroma_cacao_B2
+            Theobroma_cacao_C
+            Theobroma_chocoense_1
+            Theobroma_chocoense_2
+            Theobroma_gileri_1
+            Theobroma_gileri_2
+            Theobroma_grandiflorum_1
+            Theobroma_grandiflorum_2
+            Theobroma_mammosum
+            Theobroma_microcarpum_1
+            Theobroma_microcarpum_2
+            Theobroma_simiarum
+            Theobroma_speciosum
+            Theobroma_velutinum
+            taxon_30
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M2094]
+
+	TITLE vicilin_gene;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=1220;
+	FORMAT DATATYPE=DNA SYMBOLS= "A C G T" MISSING=? GAP= -;
+
+MATRIX
+Abroma_augusta               
+Guazuma_ulmifolia_1          
+Guazuma_ulmifolia_2          
+Herrania_cuatrecasana        
+Herrania_kanukuensis         
+Herrania_nitida              
+Herrania_nycterodendron      
+Herrania_purpurea_1          
+Herrania_purpurea_2          
+Herrania_umbratica           
+Theobroma_angustifolium      
+Theobroma_bicolor_A          
+Theobroma_bicolor_B          
+Theobroma_cacao_A            
+Theobroma_cacao_B1           
+Theobroma_cacao_B2           
+Theobroma_cacao_C            
+Theobroma_chocoense_1        
+Theobroma_chocoense_2        
+Theobroma_gileri_1           
+Theobroma_gileri_2           
+Theobroma_grandiflorum_1     
+Theobroma_grandiflorum_2     
+Theobroma_mammosum           
+Theobroma_microcarpum_1      
+Theobroma_microcarpum_2      
+Theobroma_simiarum           
+Theobroma_speciosum          
+Theobroma_velutinum          
+taxon_30                     
+;
+END;
+
+BEGIN SETS;
+	CHARSET exon (CHARACTERS = vicilin_gene) =  1-158 259-434 584-664 787-1074 1203-1220;
+	CHARSET intron (CHARACTERS = vicilin_gene) =  159-258 435-583 665-786 1075-1202;
+	CHARSET exon4 (CHARACTERS = vicilin_gene) =  787-1074;
+	CHARSET exon3 (CHARACTERS = vicilin_gene) =  584-664;
+	CHARSET INDELS (CHARACTERS = vicilin_gene) = ;
+	CHARSET exon2 (CHARACTERS = vicilin_gene) =  259-434;
+	CHARSET exon5 (CHARACTERS = vicilin_gene) =  1203-1220;
+	CHARSET exon1 (CHARACTERS = vicilin_gene) =  1-158;
+END;
+BEGIN CODONS;
+CODONPOSSET * UNTITLED (CHARACTERS = vicilin_gene) = 
+		N: 159-258 435-583 665-786 1075-1202,
+		1: 2-160\3 261-434\3 584-664\3 787-1074\3 1203-1218\3,
+		2: 3-158\3 259-435\3 585-665\3 788-1075\3 1204-1219\3,
+		3: 1-159\3 260-436\3 586-666\3 789-1076\3 1205-1220\3;
+END;
+BEGIN TREES;
+      TITLE Tb5286;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Abroma_augusta,
+            2    Herrania_kanukuensis,
+            3    Theobroma_velutinum,
+            4    Theobroma_angustifolium,
+            5    Theobroma_mammosum,
+            6    Theobroma_microcarpum_2,
+            7    Theobroma_grandiflorum_2,
+            8    Theobroma_grandiflorum_1,
+            9    Theobroma_gileri_2,
+            10   Theobroma_gileri_1,
+            11   Theobroma_chocoense_1,
+            12   Theobroma_bicolor_B,
+            13   Theobroma_bicolor_A,
+            14   Theobroma_cacao_B2,
+            15   Theobroma_cacao_B1,
+            16   Theobroma_cacao_C,
+            17   Theobroma_cacao_A,
+            18   Herrania_purpurea_2,
+            19   Herrania_purpurea_1,
+            20   Herrania_nycterodendron,
+            21   Herrania_cuatrecasana,
+            22   Herrania_umbratica,
+            23   Herrania_nitida,
+            24   Theobroma_microcarpum_1,
+            25   Theobroma_speciosum,
+            26   Guazuma_ulmifolia_2,
+            27   Guazuma_ulmifolia_1,
+            28   Theobroma_chocoense_2,
+            29   Theobroma_simiarum,
+            30   taxon_30;
+      TREE Fig._3 = [&R] (1,(Rulingia_madagascariensis,((((((((29,(28,11)Theobroma_chocoense),(5,4)),(8,7)Theobroma_grandiflorum),((24,6)Theobroma_microcarpum,(10,9)Theobroma_gileri)),(17,16,(15,14))Theobroma_cacao),((25,3),(13,12)Theobroma_bicolor)),((23,(21,20),2),(22,(19,18)Herrania_purpurea))),(27,26)Guazuma_ulmifolia)));
+
+
+
+END;

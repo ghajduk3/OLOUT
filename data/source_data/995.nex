@@ -1,0 +1,375 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:41 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Fabbri L., Rua G., Rúgolo de agrasar Z., & Vega A. 2008. A Morphology-based Cladistic
+Analysis of Digitaria (Poaceae, Panicoideae, Paniceae). Systematic Botany,
+null.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S2179]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=71;
+        TAXLABELS
+            Anthaenantia_lanata
+            Digitaria_abyssinica
+            Digitaria_aequiglumis
+            Digitaria_ammophila
+            Digitaria_angolensis
+            Digitaria_arenicola
+            Digitaria_argillacea
+            Digitaria_argyrostachya
+            Digitaria_argyrotricha
+            Digitaria_atra
+            Digitaria_badia
+            Digitaria_balansae
+            Digitaria_bicornis
+            Digitaria_bonplandii
+            Digitaria_botryostachya
+            Digitaria_brownii
+            Digitaria_californica
+            Digitaria_catamarcensis
+            Digitaria_cayoensis
+            Digitaria_chaseae
+            Digitaria_ciliaris
+            Digitaria_coenicola
+            Digitaria_cognata
+            Digitaria_curvinervis
+            Digitaria_debilis
+            Digitaria_diagonalis
+            Digitaria_divaricatissima
+            Digitaria_eggersi
+            Digitaria_eriantha
+            Digitaria_eriostachya
+            Digitaria_fragilis
+            Digitaria_fuscescens
+            Digitaria_gazensis
+            Digitaria_gerdesii
+            Digitaria_gymnostachys
+            Digitaria_heterantha
+            Digitaria_hitchcockii
+            Digitaria_horizontalis
+            Digitaria_insularis
+            Digitaria_junghuhniana
+            Digitaria_katangensis
+            Digitaria_laxa
+            Digitaria_lecardii
+            Digitaria_leiantha
+            Digitaria_maitlandii
+            Digitaria_mariannensis
+            Digitaria_melanochila
+            Digitaria_minutiflora
+            Digitaria_mollicoma
+            Digitaria_monodactyla
+            Digitaria_nitens
+            Digitaria_nodosa
+            Digitaria_parviflora
+            Digitaria_patens
+            Digitaria_pearsonii
+            Digitaria_pennata
+            Digitaria_perrottetti
+            Digitaria_phaeotrix
+            Digitaria_pittieri
+            Digitaria_pubiflora
+            Digitaria_sacchariflora
+            Digitaria_sanguinalis
+            Digitaria_similis
+            Digitaria_swalleniana
+            Digitaria_tenuis
+            Digitaria_ternata
+            Digitaria_thouaresiana
+            Digitaria_violascens
+            Echinochloa_pyramidalis
+            Panicum_repens
+            Urochloa_brizantha
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M3450]
+
+	TITLE 'Digitaria - Discrete Morphology Characters';
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=113;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2 3" MISSING=? GAP= -;
+	CHARSTATELABELS
+		1  Inflorescence_primary_branches,
+		2  Depth_of_epidermal_cell_indentations,
+		3  Epidermal_cell_width,
+		4  Spikelet_length_mm,
+		5  'Spikelet-width mm',
+		6  Anther_length_mm,
+		7  'Spacer, uninformative',
+		8  'Spikelet, hair apex' / not_dilated slightly_dilated 'dilated - claviform hairs',
+		9  'Spikelet, hair apex' / acute 'apiculate-rounded' rounded,
+		10  'Spikelet, hair walls' / smooth verrucose,
+		11  'Spikelet, hair apex' / straight recurved,
+		12  'Spikelet, hair length' / up_to_2_mm '3-5 mm',
+		13  'Spikelet, hair pigmentation' / 'silver-white' isabelline brownish,
+		14  'Spikelet, purple-tinged hairs' / wanting present,
+		15  'Spikelet, first rachilla internode' / elongated inconspicuous,
+		16  'Spikelet, second rachilla internode' / elongated inconspicuous,
+		17  Spikelet_position / Upper_lemma_abaxial Upper_lemma_adaxial,
+		18  Spikelet_compression / biconvex 'plano-convex' dorsiventrally_flattened,
+		19  'Lower glume, whether present or not' / wanting present,
+		20  'Lower glume, shape' / 'truncate, reduced to a rim' 'ovate, acute' obtuse,
+		21  'Lower glume, margins' / not_clasping clasping_at_the_base 'clasping, with overlapping margins',
+		22  Lower_glume_texture / membranaceous hyaline,
+		23  'Lower glume, number of nerves' / 'many-nerved' '3-nerved' without_nerves,
+		24  'Upper glume, number of lateral veins on each glume half' / 0. 1. 2. 3_or_more,
+		25  'Upper glume, apex' / acuminate acute obtuse,
+		26  'Upper glume, relative length' / obsolete shorter_than_the_lower_lemma 'sub-equal to the lower lemma' longer_than_the_lower_lemma,
+		27  'Upper glume, relative width' / 'wider than the upper floret, the glume covers the upper floret sides' 'narrower than the upper floret (upper floret laterally visible)',
+		28  Upper_glume_indumentum / wanting present,
+		29  'Upper glume, distribution of indumentum' / pilose_throughout 'alternate, inner internervial spaces pilose' 'pilose between margins and outer veins, otherwise glabrous' 'alternate, inner internervial spaces glabrous',
+		30  'Upper glume, scabrousness of nerves' / smooth scabrous,
+		31  'Upper glume, distribution of nerves' / equidistant 'unequidistant, lateral nerves contiguous',
+		32  'Upper glume, distal convergence of lateral nerves' / not_convergent convergent,
+		33  'Lower lemma, number of lateral veins on each lemma half' / 1. 2. 3. 4_or_more,
+		34  'Lower lemma, apex' / acuminate acute obtuse apiculate,
+		35  'Lower lemma, texture' / papyraceous membranaceous hyaline cartilaginous,
+		36  'Lower lemma, indumentum' / wanting present,
+		37  'Lower lemma, distribution of indumentum' / 'pilose between margins and outer veins, otherwise glabrous' 'alternate, inner internervial space glabrous' 'inner internervial space glabrous, otherwise pilose' all_internervial_spaces_fringed_with_hairs,
+		38  'Lower lemma, scabrousness of nerves' / smooth scabrous,
+		39  'Lower glume, pectinate bristles' / lacking present_at_least_in_pedicellate_spikelets,
+		40  'Lower lemma, vein distribution' / equidistant 'unequidistant, lateral nerves contiguous' 'unequidistant, three central nerves contiguous',
+		41  'Lower lemma, distal convergence of lateral veins' / not_convergent convergent,
+		42  'Lower lemma, axillary flower' / lacking reduced_to_a_palea 'male-fertile',
+		43  'Upper floret, abscission' / not_occurring occurring,
+		44  'Upper floret, lemma apex' / closed open,
+		45  'Upper floret, lemma texture' / membranaceous cartilaginous_with_membranaceous_margins crustaceous,
+		46  'Upper floret, lemma and palea surface' / smooth papillose,
+		47  'Upper floret, disposition of lemma margins' / inrolled_around_the_palea folded_upon_the_palea,
+		48  'Upper floret, short, stiff prickles towards lemma apex' / wanting present,
+		49  'Upper floret, pigmentation at maturity' / stramineous_to_ochraceous brown dark_purple,
+		50  'Upper floret, relative length' / longer_than_the_lower_lemma 'sub-equal to the lower lemma' shorter_than_the_lower_lemma,
+		51  'Upper floret, apex' / acute acuminate obtuse,
+		52  'Upper floret, nerves of the upper lemma' / 3_nerves_distinguishable 5_nerves_distinguishable 7_nerves_distinguishable,
+		53  'Flower, pigmentation of anthers' / yellow purplish,
+		54  'Flower, pigmentation of stygmata' / pale purplish,
+		55  'Caryopsis, outline' / 'elliptical-oblong' obovate orbicular,
+		56  'Caryopsis, pigmentation' / pale brown,
+		57  'Reproduction, cleistogamy' / none occurring,
+		58  'Inflorescence, distribution of LPc along the main axis' / racemes_always_alternate 'proximal racemes (frequently) verticillate' 'distal racemes conjugate, otherwise alternate',
+		59  'Inflorescence, relative length of 1â order branches' / decreasing_towards_apex about_the_same_length_throughout 'longer at the middle, infl. fusiform',
+		60  'Inflorescence, length of racemes relative to main axis' / racemes_not_reaching_the_apex the_lowermost_racemes_almost_reaching_the_apex racemes_overtoping_the_apex,
+		61  'Inflorescence, orientation of LPc' / ascendent_to_spreading rigidly_horizontal,
+		62  Inflorescence_abscision_as_tumbleweed_sensu_Watson_and_Dallwitz / not_occuring occuring,
+		63  'Inflorescence, homogenization' / paniculate 'proximally paniculate, homogenized distally' kPc_homogeneous_throughout,
+		64  'Inflorescence, main florescence (=terminal spikelet) and distal kPc' / wanting present,
+		65  'Inflorescence, long paraclades' / wanting present,
+		66  'Inflorescence, phylotaxis' / distichous polystichous,
+		67  'Inflorescence, second order long paraclades' / 'wanting - occasionally a reduced 2â LPc on the proximal raceme' regularly_present,
+		68  'Inflorescence, pulvini at the base of racemes' / 'inconspicuous - lacking' 'conspicuous, bulky',
+		69  'Inflorescence, pulvini at the base of pedicells' / lacking present,
+		70  'Inflorescence, peduncle indumentum' / glabrous distally_hirsute hirsute_throughout,
+		71  'Inflorescence, rachis of racemes' / trichetrous narrowly_winged,
+		72  'Inflorescence, rachis indumentum' / glabrous_to_scabrous hirsute ventrally_pubescente,
+		73  'Inflorescence, pedicell development' / 'very brief, spikelets subsessile' 'developed, normal' extraordinarily_developed,
+		74  'Inflorescence, pedicell indumentum' / glabrous 'scabrous to antrorse-echinulate (more-than-scabrous)' puberulous 'hirsute-ciliolate',
+		75  'Inflorescence, pedicell apex sensu Webster 1983' / truncate cupuliform discoid,
+		76  'Inflorescence, coronula at the apex of pedicells' / lacking composed_of_short_hairs composed_of_long_cilia,
+		77  'Inflorescence, the more frequent number of spikelets per node' / one two three_or_more,
+		78  'Inflorescence, pedicell concrescence' / pedicells_free pedicells_concrescent_with_the_rachis,
+		79  'Inflorescence, whether sub-sessile or pedunculate racemes' / '(sub)sessile' with_long_peduncles,
+		80  'Inflorescence, relative length of raceme internodes' / 'short - less than twice the length of the spikelets' 'long -more than twice the length of the spikelets',
+		81  'Growth form, life cicle' / annual perennial,
+		82  'Growth form, branching of culms' / unbranched branched,
+		83  'Growth form, growth direction of culms' / orthotropous_to_geniculate decumbent 'plainly plagiotropous, stoloniferous',
+		84  'Growth form, internode indumentum' / glabrous distally_hirsute,
+		85  'Growth form, stypochitum' / wanting present,
+		86  'Growth form, leaf sequence along tillers' / the_prophyll_is_followed_by_cataphylls the_prophyll_if_followed_by_foliage_leaves,
+		87  'Leaves, pubescence of cataphylls' / glabrous pubescent,
+		88  'Growth form, direction of growth in the innovation zone' / orthotropous 'mainly orthotropous, but shortly plagiotropous proximally' plainly_plagiotropous,
+		89  'Growth form, rhizome internodes' / all_internodes_short 'elongated in the plagiotropous portion, distally shortened' all_elongated,
+		90  'Growth form, accesory innovation zones along the culm' / lacking present,
+		91  'Growth form, transition from short to long internodes' / abrupt gradual,
+		92  'Growth form, culm internodes' / hollow solid,
+		93  'Leaves, leaf sheath indumentum' / glabrous 'pubescent-pilose',
+		94  'Leaves, prefoliation' / convolute conduplicate,
+		95  'Leaves, indumentum of the ligular region' / glabrous 'hirsute-pubescent',
+		96  'Leaves, ligule outline' / truncate acute obtuse,
+		97  'Leaves, ligule margin' / entire 'irregular, erose',
+		98  'Leaves, type of ligule' / entirely_membranous membranous_with_a_ciliate_margin 'ciliate, without a conspicuous membranous portion',
+		99  'Leaves, ligule development' / 'well developed, conspicuous' reduced_to_an_inconspicuous_ridge,
+		100  'Leaves, leaf blade outline' / 'narrowly lanceolate, acuminate' lanceolate filiform,
+		101  'Leaves, leaf blade consistence' / papiraceous coriaceous,
+		102  'Leaves, mature leaf blade exposition' / plane involute,
+		103  'Leaf anatomy, midrib' / 'differentiate, distinct' undifferentiate,
+		104  'Leaf anatomy, adaxial papillae' / lacking present,
+		105  'Leaf anatomy, adaxial prickles on rib zones' / lacking present,
+		106  'Leaf anatomy, abaxial prickles on rib zones' / lacking present,
+		107  'Leaf anatomy, differentation of costal and intercostal adaxial regions' / undifferentiate slightly_noticeable... noteworthy,
+		108  'Leaf anatomy, differentation of costal and intercostal abaxial regions' / undifferentiate slightly_noticeable... noteworthy,
+		109  'Leaf anatomy, location of bulliform cells' / only_adaxial both_adaxial_and_abaxial,
+		110  'Leaf anatomy, colorless parenchyma associated to midrib' / adaxial both_adaxial_and_abaxial none,
+		111  'Leaf anatomy, macrohairs' / lacking present,
+		112  'Leaf anatomy, crystals in chlorenchymatous cells' / lacking present,
+		113  'Leaf anatomy, abaxial microhairs' / lacking present,
+		;
+
+MATRIX
+[                                     10        20        30        40        50        60        70        80        90        100       110       120       130       140    ]
+[                                      .         .         .         .         .         .         .         .         .         .         .         .         .         .    ]
+Anthaenantia_lanata           000000000100????31201{01}0102111?00100010010000{012}011100200001?11000001010?001100011?0000?{01}110?112110110000010000?1?01
+Digitaria_abyssinica          ???????111211002{12}2{12}00?0{01}12210?00011001110010001000{01}0100211101000011001000?11001?????01012100100001111001111100001
+Digitaria_aequiglumis         0200000111210012{12}020{01}0011201110001100111102001100111100211100000011001000010001?????0{01}011100000001000101100110001
+Digitaria_ammophila           000000100111210212201000021113001010011110220012001011?211101000011{01}010111{01}0000110000101010000010110{12}1?1000?00001
+Digitaria_angolensis          021000110111001211211000021211002011011100120110000110021110100001{01}102000010001?????00012000100000000000010100001
+Digitaria_arenicola           020000100121110{12}{23}1201101021113000010011110120{01}?0??100012111011000210010111100001??0?0{01}000{01}00000100000000101100001
+Digitaria_argillacea          1100000111210002{12}1{12}11{01}0{01}0211110{01}0010011101100010000100021{01}?01000011102000010001????101010010100001010000011100001
+Digitaria_argyrostachya       2200020111210012111110000111120020100111011001100101100211101001011212100010001????000010100000010100001101100001
+Digitaria_argyrotricha        02100011112{01}0012{12}12010000111110000100111001000000011200201101001010102100011001?????01012000100000010101111100001
+Digitaria_atra                22000{02}01112{01}0002{12}22010000133{01}?00101001110112???000????0210?0?02??11?110??1001???000??10100000000011211?1?11101001
+Digitaria_badia               1100020111212012121110000{12}211300{01}0100111011001100?01000211?010000111020001000?0000000{01}010100100101021010011100001
+Digitaria_balansae            220002011121001211111000011112002010011101{01}201100001100211101000011102000?{01}0001????0?0000100000010022000111100001
+Digitaria_bicornis            00000011112110021111100012111101{01}11001110010011001112002{01}1101001011001000011001?????01010000000111100010011001011
+Digitaria_bonplandii          2200020111212012322{01}100002211300211001110110011000{01}01002111010000111120001????????0?11010010010111020000111100001
+Digitaria_botryostachya       02000001112100021111100002111100011001110012000???000002?11000000102010001000001100000010000000001101001111100001
+Digitaria_brownii             00001010112110011120100002011300001001111022001{12}000000021{01}?0000001110100111000{01}1{12}00100010100{01}001?11120?1?00?00{01}?1
+Digitaria_californica         0000{01}0{01}001211002102110000201120010100111102100{01}001010002111000000111010001100001100001011100000101112{01}01000?00001
+Digitaria_catamarcensis       00001100112120021021100002011200101001111021000001010002111000000111010001100001210100002100000101012000010100011
+Digitaria_cayoensis           11000001112100121111100002111100101001110110001???000002111010000112020000100?1????001010100000001011000111101001
+Digitaria_chaseae             22000001112120123121100002111300201001111210000???????02100??0001111020?0000001????001010101011001021001111101001
+Digitaria_ciliaris            0000000111211002111110000211110011100111001001100011{12}002{01}1{01}01001011001000011001???0?0{01}012100100101012000111101001
+Digitaria_coenicola           000000100121110{12}10201000020113000010011110210010001011?211101000011101011110000110000{01}0{01}1100000{01}0{01}{01}{01}2001000?00001
+Digitaria_cognata             0000001011211002112010010211130000100111101000100010101{12}111011000211010111100001000000000100100101102000001101101
+Digitaria_curvinervis         ???????11111000212110?0012110?002110011101000110000?000211?01000011102000010001?????010{01}2000{01}00010010000?10100001
+Digitaria_debilis             020{01}001001211002303013000201110010100111022101100010100211101000011001000011001?????0{01}00{01}000000110100111?11101011
+Digitaria_diagonalis          ???????1112{01}{02}01202110?0?0{01}110?000100011100{01}001000?11000211111000011122000100011?000000000010000001112000111100001
+Digitaria_divaricatissima     000000{01}001212102102110000201110{01}1110011110200010001011121110100001110101111000011000000{01}2100000{01}0110{12}00000{01}?00001
+Digitaria_eggersi             000000100121100211101000021111000010011110110000000000021{01}00000001100100011100011000010110000001000011?1?0??00011
+Digitaria_eriantha            00000001112110021111100102111100001001110010011000112002{01}110100101100100011{02}00{01}100100{01}001100000001112000000100001
+Digitaria_eriostachya         00000011112{01}0002{12}120100{01}0201110010100111021101100?{01}1000211101000011101000?{01}1001????10{01}001100100010012000?1010?011
+Digitaria_fragilis            110000011121000211{12}11000021111000010011101100?10000{01}{01}00211101000011102000010001????1010100000001010110?0111101001
+Digitaria_fuscescens          ???????1112{01}001212200?001{12}110?00210101110100001{02}002?2002{01}1?01001010102100112001?2?11100001001001100{01}1000?11100011
+Digitaria_gazensis            02010011112121123121130002111100001001110212011???01{12}001111110000111010001000001100001011000000011100101010111011
+Digitaria_gerdesii            220002011121000231201000021113000000011111100??000???0021{01}?0?00??111020101000?1?000001010000000011010101111101001
+Digitaria_gymnostachys        0200000011210002020012??02311000001001111012001???10101211101000011101011100001?000011010100000001112001?10100001
+Digitaria_heterantha          000000010121110231211000031112010010011110200110001120?2{01}11010000110010{01}111100???01000010000100000001010110111001
+Digitaria_hitchcockii         0000001001212002112110000111130000100111101000100001000211?000000111010001100001100001010100000101{01}010?10{01}1?00001
+Digitaria_horizontalis        0200000111210002111110000211110000000111101000000011{012}002{01}1101001011001000011001???01010121001000{01}111{12}{01}{01}{01}?{01}{01}{01}00011
+Digitaria_insularis           000011000121{12}00210{12}11000020111001010011110{12}10110010100021110000001110100011000011000010{01}1100000001112{01}0{01}001100011
+Digitaria_junghuhniana        00000001112100021111100002111100111001111012011???01100{12}111{01}1000011101000011001???00010{01}0100100011111?11111111011
+Digitaria_katangensis         ???????1112{01}001212110?0002110?00011001110110000???0100021110100101120200010000??1?0000000110000000022000?0010?001
+Digitaria_laxa                00000100012120020111120??201101000100111101101010011000211110100011101000110000?200001002100100{01}00112000000?00101
+Digitaria_lecardii            11000001112100121111100002111101101001111112001001010002111010000112120000{01}0001????0010101100000011220?1111101001
+Digitaria_leiantha            ???????11121001212110?0012110?0021100111001001100001100211101000011202000100010100001{01}0001100111110200?0100110001
+Digitaria_maitlandii          22000001112100121211100001211200101001110102011??0010002111010{01}0011202000100011?0000010101012001110211?1111100001
+Digitaria_mariannensis        00000001112{01}?????????????311131{01}011000010010000000112002{01}1101001000000?00011001?????0{01}010100000011122101110101011
+Digitaria_melanochila         22000201112100121111100001111300201001110110001???01000211100001011102100000001????00001010000000002200111110?001
+Digitaria_minutiflora         ???????11120??????010????0120?000100011100{01}000000001000211101000011222000010001???0?0{01}0101102001010220?0111100001
+Digitaria_mollicoma           021000011121001211201000121111000100011100100{01}1??02?2002{01}1?01001010102000111001?2?111{01}00{02}100100001011001111101011
+Digitaria_monodactyla         00000101112100021011100001111101001001110010001???????02100??0001130110?010001??10000{01}0{01}01102011010100?1100110001
+Digitaria_nitens              00000011112100021111100002011300101000111012010???00000211101000023111010100????0000?{01}?000000101100110?010110000?
+Digitaria_nodosa              02000001112100121111100002111300011001110112011??0{01}01002111010000101010001100001100101110100000011101000?11100011
+Digitaria_parviflora          0{02}0000011121110211211000022113000110011111{01}20110000100011110100001{01}10100011000010000000{01}00000000011110001??101001
+Digitaria_patens              0000101011211002102110000201120010100111101200100100100211100000011111001110000110000{01}01000000010110{12}0010{01}{01}?000{01}1
+Digitaria_pearsonii           ???????11121100212110?0002110?00001001110212001???001001111110000110010001?000?120?001010100100010022101111111011
+Digitaria_pennata             020000001121010211201000011113000010011111120000001001121110100011110101111?0001??0?001101000000011000?1000100001
+Digitaria_perrottetti         0200001111210002112010000111120020100111001000100011000211101000011001001011001????001010101100010012000?1010?011
+Digitaria_phaeotrix           1100020111210002111110000211110020100111011000000011{01}0021110100001110200{01}100000{01}000001000110211{01}1{01}020020{01}0010{01}001
+Digitaria_pittieri            00000010012110021111100002111100011001110011000000{01}1100211100000011001000?1{01}00?1??0001012000100{01}01102101000?00001
+Digitaria_pubiflora           02000010112111021120100001111300001001111012000001{01}0001211101100021101011110000110000{01}0{01}01001001010010?0011101001
+Digitaria_sacchariflora       000011000121200211{12}11000020111001010011110110100000100021110000001110100011000011000?0000100000001102000110100001
+Digitaria_sanguinalis         00000001112110021111100002111110111001111012011000112002{01}110100101100100001{01}001????00101{02}100{01}00001101101000100001
+Digitaria_similis             0000110001212002{12}121100002011000001001111021000001010002111000000111010001100001100100001100000001112000001100001
+Digitaria_swalleniana         00001100012110021111100002011000001001111021000000010002111000000111010001100001210001012000000{01}0{01}101101001?00011
+Digitaria_tenuis              000000100121100211211000020111000010011110110000000100021{01}?{01}0000011101000110000110000{01}012100000001102101000100001
+Digitaria_ternata             21000201112{01}0012111110000221130020100111011001100021100211?01011213{12}12000000001????000010100000001021000111111001
+Digitaria_thouaresiana        2200020111210012112010000212130020000111011001100001100211101001011102000000001???0000010000100010021010111110001
+Digitaria_violascens          0{02}100001112{01}0002{12}120100{01}12111100211001110110011000{01}11002{01}1101001011{12}02100002001????00{01}000000100000020000111110001
+Echinochloa_pyramidalis       ???????00101120020300?1101000?101020020010121011100000021110000011320100011000001000?{01}100?20000001110000011100001
+Panicum_repens                ???????10001220{02}31200?1003110?000021020000{12}0211??00000001?11000001110?01111000002201?0010?11{02}101110210?1001100012
+Urochloa_brizantha            000000000001{12}20031201?0101100?001120021000101110?001200201001001102200?0011110011010?{01}010?11{01}001011110?0000100002
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb9318;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Anthaenantia_lanata,
+            2    Panicum_repens,
+            3    Echinochloa_pyramidalis,
+            4    Urochloa_brizantha,
+            5    Digitaria_abyssinica,
+            6    Digitaria_aequiglumis,
+            7    Digitaria_ammophila,
+            8    Digitaria_angolensis,
+            9    Digitaria_arenicola,
+            10   Digitaria_argillacea,
+            11   Digitaria_argyrostachya,
+            12   Digitaria_argyrotricha,
+            13   Digitaria_atra,
+            14   Digitaria_badia,
+            15   Digitaria_balansae,
+            16   Digitaria_bicornis,
+            17   Digitaria_bonplandii,
+            18   Digitaria_botryostachya,
+            19   Digitaria_brownii,
+            20   Digitaria_californica,
+            21   Digitaria_catamarcensis,
+            22   Digitaria_cayoensis,
+            23   Digitaria_chaseae,
+            24   Digitaria_ciliaris,
+            25   Digitaria_coenicola,
+            26   Digitaria_cognata,
+            27   Digitaria_curvinervis,
+            28   Digitaria_debilis,
+            29   Digitaria_diagonalis,
+            30   Digitaria_divaricatissima,
+            31   Digitaria_eggersi,
+            32   Digitaria_eriantha,
+            33   Digitaria_eriostachya,
+            34   Digitaria_fragilis,
+            35   Digitaria_fuscescens,
+            36   Digitaria_gazensis,
+            37   Digitaria_gerdesii,
+            38   Digitaria_gymnostachys,
+            39   Digitaria_heterantha,
+            40   Digitaria_hitchcockii,
+            41   Digitaria_horizontalis,
+            42   Digitaria_insularis,
+            43   Digitaria_junghuhniana,
+            44   Digitaria_katangensis,
+            45   Digitaria_laxa,
+            46   Digitaria_lecardii,
+            47   Digitaria_leiantha,
+            48   Digitaria_maitlandii,
+            49   Digitaria_mariannensis,
+            50   Digitaria_melanochila,
+            51   Digitaria_minutiflora,
+            52   Digitaria_mollicoma,
+            53   Digitaria_monodactyla,
+            54   Digitaria_nitens,
+            55   Digitaria_nodosa,
+            56   Digitaria_parviflora,
+            57   Digitaria_patens,
+            58   Digitaria_pearsonii,
+            59   Digitaria_pennata,
+            60   Digitaria_perrottetti,
+            61   Digitaria_phaeotrix,
+            62   Digitaria_pittieri,
+            63   Digitaria_pubiflora,
+            64   Digitaria_sacchariflora,
+            65   Digitaria_sanguinalis,
+            66   Digitaria_similis,
+            67   Digitaria_swalleniana,
+            68   Digitaria_tenuis,
+            69   Digitaria_ternata,
+            70   Digitaria_thouaresiana,
+            71   Digitaria_violascens;
+      TREE Fig._1 = [&R] (1,(2,(3,(4,(40,(((54,(53,(5,6,16,18,24,32,41,43,55,(10,22,34,46,(8,27),(48,(15,((11,50),(69,70)))),(23,(13,37)),(14,(17,(47,61))),(44,(29,51))),(12,(71,(35,52))),(28,39),(33,60),(56,(36,58)),(49,65)))),((38,((59,(7,(25,30))),(63,(9,26)))),(19,57))),((20,(68,(31,62))),(45,(64,(42,66,(21,67)))))))))));
+      TREE Fig._2 = [&R] (1,(2,(3,(4,(((32,(65,(16,(24,((43,((5,(6,(71,(12,(35,52))))),((28,39),(33,60)))),(41,49)))))),(((((46,(22,(34,(10,(8,27))))),((48,(15,((11,50),(69,70)))),((23,(13,37)),(44,(29,51))))),(14,(17,(47,61)))),((18,55),(56,(36,58)))),(53,54))),((20,((40,(((25,(7,30)),((9,(26,63)),(38,59))),(19,57))),(68,(31,62)))),(45,(64,(42,(66,(21,67)))))))))));
+
+
+
+END;

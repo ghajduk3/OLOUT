@@ -1,0 +1,110 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:49 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Hoch P., Crisci J., Tobe H., & Berry P. 1993. A cladistic analysis of the plant family
+Onagraceae. Systematic Botany, 18: 31-47.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S100]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=19;
+        TAXLABELS
+            Boisduvalia
+            Calylophus
+            Camissonia
+            Circaea
+            Clarkia
+            Epilobium
+            Fuchsia
+            Gaura
+            Gayophytum
+            Gongylocarpus
+            Hauya
+            Lopezia
+            Ludwigia
+            Lythraceae
+            Oenothera
+            Outgroup_to_Onagraceae
+            Stenosiphon
+            Trapaceae
+            Xylonagra
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M2533]
+
+	TITLE Table_3;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=17;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2 3" MISSING=? GAP= -;
+
+MATRIX
+Boisduvalia                10031011311110001
+Calylophus                 10101010220111010
+Camissonia                 10101010310110010
+Circaea                    00001120010110000
+Clarkia                    10131011320111010
+Epilobium                  10031011311110001
+Fuchsia                    01001010010110000
+Gaura                      10121010220111010
+Gayophytum                 10101010310110001
+Gongylocarpus              10?01010310110010
+Hauya                      00001010220111010
+Lopezia                    01001210010110000
+Ludwigia                   00000?0031?000100
+Lythraceae                 ??00000??0000000?
+Oenothera                  10111010110110010
+Outgroup_to_Onagraceae     ??00000??00000?00
+Stenosiphon                10111010110110010
+Trapaceae                  0?00011??0000??00
+Xylonagra                  10?01010310110010
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb4818;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Outgroup_to_Onagraceae,
+            2    Trapaceae,
+            3    Lythraceae,
+            4    Ludwigia,
+            5    Fuchsia,
+            6    Lopezia,
+            7    Circaea,
+            8    Hauya,
+            9    Gongylocarpus,
+            10   Gayophytum,
+            11   Xylonagra,
+            12   Camissonia,
+            13   Calylophus,
+            14   Gaura,
+            15   Oenothera,
+            16   Stenosiphon,
+            17   Clarkia,
+            18   Epilobium,
+            19   Boisduvalia;
+      TREE Fig._1A = [&R] ('Outgroup_{Myrtales}',(4,(((6,5),7),((19,18),(10,(9,11,12,(15,16),(17,(8,13,14))))))));
+      TREE Fig._1B = [&R] ('Outgroup_{Myrtales}',(4,(((6,5),7),(((19,18),10),(9,(11,12,(15,16),(17,(8,13,14))))))));
+      TREE Fig._1D = [&R] ('Outgroup_{Myrtales}',(4,(((6,5),7),(((19,18),10),(9,(11,(12,(15,16),(17,(8,13,14)))))))));
+      TREE Fig._1C = [&R] ('Outgroup_{Myrtales}',(4,(((6,5),7),(((19,18),10),(9,11,12,(15,16),(17,(8,13,14)))))));
+      TREE Fig._1E = [&R] ('Outgroup_{Myrtales}',(4,(((6,5),7),(((19,18),10),(11,(9,(12,(15,16),(17,(8,13,14)))))))));
+      TREE Fig._1F = [&R] ('Outgroup_{Myrtales}',(4,(((6,5),7),(((19,18),10),(11,(9,12,(15,16),(17,(8,13,14))))))));
+      TREE Fig._1G = [&R] ('Outgroup_{Myrtales}',(4,(((6,5),7),(((19,18),10),(9,11,(12,(15,16),(17,(8,13,14))))))));
+      TREE Fig._2 = [&R] (1,(4,(((6,5),7),(((18,19),10),(9,11,12,(16,15),(17,(14,13,8)))))));
+      TREE Fig._1H = [&R] ((1)'}',(4,(((6,5),7),(10,(18,19),(9,11,12,(15,16),(17,(8,13,14))))))Onagraceae);
+      TREE Fig._3A = [&R] ((2,(4,(((5,6),7),((19,18),(10,(9,11,12,(15,16),(17,(8,13,14)))))))Onagraceae));
+      TREE Fig._3B = [&R] (2,(4,(7,((5,6),((19,18),(10,(9,11,12,(15,16),(17,(8,13,14)))))))));
+
+
+
+END;

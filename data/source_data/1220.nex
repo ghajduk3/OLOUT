@@ -1,0 +1,124 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:47 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Sierwald P. 1997. Phylogenetic analysis of Pisaurine nursery web spiders, with revisions
+of Tetragonophthalma and Perenethis (Araneae, Lycosoidea, Pisauridae). The.
+Journal of Arachnology, 25: 361-407.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S365]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=14;
+        TAXLABELS
+            Afropisaura_ducis
+            Afropisaura_valida
+            Charminus_camerunensis
+            Cispius_variegatus
+            Maypacius_kaestneri
+            Maypacius_petrunkevitchi
+            Maypacius_roeweri
+            Perenethis__dentifasciata
+            Perenethis__sindica
+            Perenethis__symmetrica
+            Perenethis__venusta
+            Perenethis_simoni
+            Polyboea_vulpina
+            Tetragonophthalma_vulpina
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M2027]
+
+	TITLE Table_4;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=34;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2 3 4 5" MISSING=? GAP= -;
+	CHARSTATELABELS
+		1  Cheliceral_teeth_# / 3. '4(3)' 2.,
+		2  Chel._teeth_size / unequal equal,
+		3  AER_curvature / rec str proc strongly_proc extremely_proc,
+		4  Eye_Ratios / 'ALE<PME' 'ALE=PME' 'ALE>PME',
+		5  Eye_Ratios / 'ALE<AME' 'ALE=AME' 'ALE>AME',
+		6  Patellar_spines / 1. 4. 0_and_1,
+		7  Spine_length_to_tibia_width / '3;1-1.5' 6.5,
+		8  anterior_epf / convergent divergent,
+		9  carina / continuous two_branches,
+		10  carina / rec str proc Tetragonophthalma P._symmetrica,
+		11  Posterior_edge_of_ca / ridge lip,
+		12  anterior_edge_of_ca / weak strong,
+		13  position_of_fossae / directly_above_copulatory_openi lateral between,
+		14  copulatory_duct / membraneous posterior_section_sclerotized posterior_and_anterior_section fully_sclerotized,
+		15  cd_loops / 1. 2. 2.5,
+		16  cd_loop_sizes / '1 > 2' '1 = 2;',
+		17  hs_position / lateral anterior bent,
+		18  bs / large_lumen small_lumen lumen_filled_with_duct_loops,
+		19  rta_shape / 'round-perpendicular' 'flat-forward',
+		20  rta_tip / pointed rounded,
+		21  tibial_venter / smooth with_hump,
+		22  tegulum_base / smooth with_peak,
+		23  c_tip / long short,
+		24  c_midpiece / long short,
+		25  c_tip / broad_round slender_round spiral modified_spiral,
+		26  c_base / narrow broad,
+		27  c_mesally / smooth with_hump,
+		28  c_tip / 'with ridge-like fold' smooth,
+		29  c_tip / absent present,
+		30  db_of_da / smooth with_pit,
+		31  scl_A_size / small median large,
+		32  scl_A_shape / triangular rod 'small, oval' forked,
+		33  dst_shape / Ch Ci Afro Tetra Pe PoMay,
+		34  e_length / long moderate short,
+		;
+
+MATRIX
+[                                     10        20        30    ]
+[                                      .         .         .    ]
+Afropisaura_ducis             012021010011022010000010-101001120
+Afropisaura_valida            011011010011022002000010-101001320
+Charminus_camerunensis        0000100002001010010000000000001000
+Cispius_variegatus            000000000210130-100000000000001011
+Maypacius_kaestneri           214100110101200-200?010130001????2
+Maypacius_petrunkevitchi      214100110001210-11????????????????
+Maypacius_roeweri             2141001???0???????1001013000112352
+Perenethis__dentifasciata     202000011101101000????????????????
+Perenethis__sindica           2020000111011010201011001011000240
+Perenethis__symmetrica        2020000114011011211111001011000240
+Perenethis__venusta           2020000111111010201011001011000240
+Perenethis_simoni             2020000111011010211111001011000240
+Polyboea_vulpina              2122202101?12010210001002000112351
+Tetragonophthalma_vulpina     1131221103010321120100000100000130
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb5159;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Maypacius_petrunkevitchi,
+            2    Maypacius_kaestneri,
+            3    Maypacius_roeweri,
+            4    Polyboea_vulpina,
+            5    Perenethis__venusta,
+            6    Perenethis__sindica,
+            7    Perenethis__dentifasciata,
+            8    Perenethis__symmetrica,
+            9    Perenethis_simoni,
+            10   Tetragonophthalma_vulpina,
+            11   Afropisaura_ducis,
+            12   Afropisaura_valida,
+            13   Cispius_variegatus,
+            14   Charminus_camerunensis;
+      TREE Fig._2 = [&R] (14,13,((10,(12,11)Afropisaura),((4,(3,2,1)Maypacius),((9,8),(7,6,5))Perenethis)))Pisauridae;
+
+
+
+END;

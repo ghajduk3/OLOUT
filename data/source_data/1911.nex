@@ -1,0 +1,123 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:52 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Hoot S. 1991. Phylogeny of the Ranunculaceae based on epidermal microcharacters and
+macromorphology. Systematic Botany, 16: 741-755.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S232]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=25;
+        TAXLABELS
+            Aconitum
+            Actaea
+            Adonis
+            Anemone
+            Anemonella
+            Aquilegia
+            Caltha
+            Cimicifuga
+            Clematis
+            Consolida
+            Coptis
+            Delphinium
+            Eranthis
+            Helleborus
+            Hepatica
+            Hydrastis
+            Isopyrum
+            Nigella
+            Outgroup_to_Ranunculaceae
+            Pulsatilla
+            Ranunculus
+            Thalictrum
+            Trautvetteria
+            Trollius
+            Xanthorhiza
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M621]
+
+	TITLE Table_2;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=23;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2" MISSING=? GAP= -;
+
+MATRIX
+[                                     10        20         ]
+[                                      .         .         ]
+Aconitum                      00001000{01}01100110111000
+Actaea                        01000100001100001010200
+Adonis                        01{01}001000001{01}0011020100
+Anemone                       00{01}0010{01}01010102000?101
+Anemonella                    0001001??000-----------
+Aquilegia                     {01}00010100000-----------
+Caltha                        0111010??0010002000?000
+Cimicifuga                    01000100001100001010000
+Clematis                      00{01}001000001000000{01}0101
+Consolida                     0000100010111011011100?
+Coptis                        000000000010-----------
+Delphinium                    00001000{01}011{01}0110111000
+Eranthis                      010{01}1100010101020011000
+Helleborus                    0101010??001000100110{01}1
+Hepatica                      00100{01}0101010102000?10{01}
+Hydrastis                     000000000000-----------
+Isopyrum                      {01}001001??000-----------
+Nigella                       00101000000110010011010
+Outgroup_to_Ranunculaceae     0000000000{01}0000?00{01}0000
+Pulsatilla                    001001010{01}01010200{01}0101
+Ranunculus                    00{01}00100010100011020101
+Thalictrum                    1001001??000-----------
+Trautvetteria                 0000010000010000100?{01}0?
+Trollius                      0101010??001000200{12}0000
+Xanthorhiza                   000000000010-----------
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb4954;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Aconitum,
+            2    Actaea,
+            3    Adonis,
+            4    Anemone,
+            5    Caltha,
+            6    Cimicifuga,
+            7    Clematis,
+            8    Consolida,
+            9    Delphinium,
+            10   Eranthis,
+            11   Helleborus,
+            12   Hepatica,
+            13   Nigella,
+            14   Pulsatilla,
+            15   Ranunculus,
+            16   Trautvetteria,
+            17   Trollius,
+            18   Aquilegia,
+            19   Anemonella,
+            20   Coptis,
+            21   Hydrastis,
+            22   Isopyrum,
+            23   Thalictrum,
+            24   Xanthorhiza,
+            25   Outgroup_to_Ranunculaceae;
+      TREE Fig._9B = [&R] (25,(21,(24,20),(18,23,19,22),((13,(1,9,8)),(3,5,17,10,11,16,7,(15,(12,4,14)),(2,6)))));
+      TREE Fig._10C = [&R] (25,((13,(1,8,9)),(3,(2,6),(5,10,11,17),(7,15,16,(12,4,14)))));
+      TREE Fig._10D = [&R] (25,((7,(15,(4,12,14))),(16,((2,6),(3,(5,10,11,17,(13,(1,8,9))))))));
+      TREE Fig._9A = [&R] (25,(21,(24,20),(18,(23,19,22)),((13,(1,9,8)),(3,5,17,10,11,16,7,15,12,4,14,(2,6)))));
+
+
+
+END;

@@ -1,0 +1,124 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:49 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Goldblatt P. 1990. Phylogeny and classification of the Iridaceae. Annals of the Missouri
+Botanical Garden, 77: 607-627.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S325]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=9;
+        TAXLABELS
+            Irideae
+            Isophysidoideae
+            Ixieae
+            Mariceae
+            Nivenioideae
+            Pillansieae
+            Sisyrinchieae
+            Tigridieae
+            Watsonieae
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M2621]
+
+	TITLE Table_1;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=50;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1" MISSING=? GAP= -;
+	CHARSTATELABELS
+		1  Rhipidia / few_to_several single_flowered,
+		2  Inflorescence / unspecialized one_or_more_rhipidia_in_large_s,
+		3  Leaf / bifacial ensiform_and_equitant,
+		4  Rhipidia / single binate,
+		5  Flowers / lasting_³_two_days fugacious,
+		6  Flower_color / yellow_to_orange blue,
+		7  Stamen_number / six_in_two_whorls three_with_no_outer_whorl,
+		8  Stem / branched unbranched,
+		9  Ovary / superior inferior,
+		10  Style / lobed_or_divided_above_anthers 'deeply 3-forked to below the ba',
+		11  Nectaries / present lacking,
+		12  Vessel_perforations / scalariform simple,
+		13  Mangiferin / absent often_present,
+		14  Biflavones / present absent,
+		15  'Meta-carboxyphenylalanine carbo' / absent present,
+		16  Styloids / absent present,
+		17  Microsporogenesis / successive simultaneous,
+		18  Endosperm_formation / helobial nuclear,
+		19  Rootstock / creeping_rhizome bulb,
+		20  Leaves / flat plicate,
+		21  Tepals / not_clawed clearly_divided_into_limb_and,
+		22  Filaments / supporting_free_anthers weak_with_anthers_on_style,
+		23  Style_arms / parallel_to_and_appressed_to_st extended_between_stamens,
+		24  Style_branch_apices / symmetrical_and_uniformly_stigm produced_into_erect_paired_appe,
+		25  Style_branches / slender_and_symmetric thickened_and_compressed,
+		26  Style_branches / slender_and_symmetric flattened_and_petaloid,
+		27  Nectaries / septal perigonal,
+		28  Nectaries_located / on_inner_and_outer_tepals on_base_of_outer_tepals,
+		29  Nectaries / located_on_inner_and_outer_tepa most_strongly_developed_on_inne,
+		30  Nectaries_secreting / only_sugars oil_from_special_elaiophores,
+		31  Primary_thickening_meristem / extensive reduced_and_scant,
+		32  Leaf_vein / none_present distinct_midrib_present,
+		33  Leaf_margin_subepidermal_sclere / not_developed present,
+		34  Flavonols / abundant absent,
+		35  'Gamma-glutamyl peptides' / absent produced,
+		36  Karyotype / 'x=10' 'x=7',
+		37  Rootstock / persistent_creeping_rhizome a_corm_of_several_internodes,
+		38  Corm / axillary_and_lateral_to_stem apical_and_basal_to_stem,
+		39  Leaf_sheaths / open closed,
+		40  Flower / pedicellate sessile,
+		41  Inflorescence / Not_a_spike a_spike,
+		42  Tepals / free united_in_a_tube,
+		43  Pollen_grain_exine / reticulate micropunctate,
+		44  Style_branches / undivided_or_apically_forked deeply_forked,
+		45  Mesophyll_cells / isodiametric elongated_horizontally,
+		46  Epidermal_cells / straight_walls sinuous_walls,
+		47  Epidermal_cells / one_or_no_papillae two_to_a_few_papillae,
+		48  Flavonoids / flavonols_present flavones_present,
+		49  'Flavone C-glycosides' / present absent,
+		50  Flavonol_sulfate / absent present,
+		;
+
+MATRIX
+[                           10        20        30        40        50]
+[                            .         .         .         .         .]
+Irideae             11001010110111111100100101110010101000000000000000
+Isophysidoideae     11100011001000010000000000000000000000000000000000
+Ixieae              11000010100111011100000000000001000011111110111100
+Mariceae            11001010110111111100110110101111011000000000000000
+Nivenioideae        11011110100000010000000000000000000000000000000000
+Pillansieae         11000010100111011100000000000000000010110110000011
+Sisyrinchieae       11001010110111111100001000000000010000000000000000
+Tigridieae          11001010110111111111110110101110001100000000000000
+Watsonieae          11000010100111011100000000000001000010111111111010
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb5097;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Ixieae,
+            2    Watsonieae,
+            3    Pillansieae,
+            4    Tigridieae,
+            5    Mariceae,
+            6    Irideae,
+            7    Sisyrinchieae,
+            8    Nivenioideae,
+            9    Isophysidoideae;
+      TREE 'Figs. 3-5' = [&R] (9,(8,((7,(6,(5,4)))Iridoideae,(3,(2,1))Ixioideae)))Iridaceae;
+
+
+
+END;

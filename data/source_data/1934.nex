@@ -1,0 +1,67 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:53 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Piel W.H., & Nutt K. 2000. One species or several? Discordant patterns of geographic
+variation between allozymes and mtDNA sequences among spiders in the genus Metepeira
+(Araneae: Araneidae). Molecular Phylogenetics and Evolution, 15(3): 414-418.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S586]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=7;
+        TAXLABELS
+            Metepeira_atascadero_Guanajuato
+            Metepeira_atascadero_San_Miguel
+            Metepeira_incrassata_Fortin
+            Metepeira_incrassata_SLP
+            Metepeira_spinipes_Durango
+            Metepeira_spinipes_Tepotzotlan
+            Metepeira_spinipes_Toluca
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M2225]
+
+	TITLE 12S_mtDNA;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=256;
+	FORMAT DATATYPE=DNA SYMBOLS= "A C G T" MISSING=? GAP= -;
+
+MATRIX
+[                                           10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170       180       190       200       210       220       230       240       250      ]
+[                                            .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .      ]
+Metepeira_atascadero_Guanajuato     ACCTGCCTATTAATCGATTCTCCACGATATATTTTACTTTTATTTAAATCTTATATACCTCCATCTCAAGGATTAATAATTATATTCTCCCCCTAATAGAAATTCTAAAAAGTTAGGTAAAGGTGTAGACTACATAAAAGCTGGGGTGGGTTACAATAAATCTTATTTAAGGATGTTTAATTAAAATTTTAATTGAAAAAGGATTTATAAGTAATTTAAGAATAATATTCCTTAATGAACCTGATAAATAATGTGC
+Metepeira_atascadero_San_Miguel     ACCTGCCTATTAATCGATTCTCCACGATATATTTTACTTTTATTTAAATCTTATATACCTCCATCTCAAGGATTAATAATTATATTCTCCCCCTAATAGAAATTCTAAAAAGTTAGGTAAAGGTGTAGACTACATAAAAGCTGGGGTGGGTTACAATAAATCTTATTTAAGGATGTTTAATTAAAATTTTAATTGAAAAAGGATTTATAAGTAATTTAAGAATAATATTCCTTAATGAACCTGATAAATAATGTGC
+Metepeira_incrassata_Fortin         ACCTGCCTATTAATCGATTCTCCACGATATATTTTACTTTTATTTAAATCTTATATACCCCCATCTCAAGGATTAATATCTATATTCTCCCCCTAATAGAAACTCTAAGAAGTTAGGTAAAGGTGTAGACTACATAAAAGCTGGGGTGGGTTACAATAAACCTTATTTAAGGATATTTAATTAAAATTTTAATTGAAAAAGGATTTATAAGTAATTTAAGAATAATATTCCTTAATGAACCTGATAAATAATGTGC
+Metepeira_incrassata_SLP            ACCTGCCTATTAATCGATTCTCCACGATATATTTTACTTTTATTTAAATCTTATATACCCCCATCTCAAGGATTAATATCTATATTCTCCCCCTAATAGAAACTCTAAGAAGTTAGGTAAAGGTGTAGACTACATAAAAGCTGGGGTGGGTTACAATAAACCTTATTTAAGGATATTTAATTAAAATTTTAATTGAAAAAGGATTTATAAGTAATTTAAGAATAATATTCCTTAATGAACCTGATAAATAATGTGC
+Metepeira_spinipes_Durango          ACCTGCCTATTAATCGATTTTCCACGATATATTTCACTTTTATTTAAATCTTATATACCTCCATCTCAAGGATTAATATTTATATTCTTCCCATAATAGAAATTCTAAAAAGTTAGGTAAAGGTGTAGACCACATAAAAGTTAGGGTGGGTTACAATAAATCTAATTTAAGGATATTTATTTAAAATTT-AGTTGAAAAAGGATTTATAAGTAATTTAAGAATAATATTCTTTAATGAATT?GATAAATAATGTGT
+Metepeira_spinipes_Tepotzotlan      ACCTGCCTATTAATCGATTCTCCACGATATATTTCACTTTTATTTAAATCTTATATACCTCCATCTCAAGGATTAATATTTATATTCTTCCCATAATAGAAATTCTAAAAAGTTAGGTAAAGGTGTAGACCACATAAAAGTTAAGGTGGGTTACAATAAATCTAATTTAAGAATATTTATTTAAAATTTTAGTTGAAAAAGGATTTATAAGTAATTTAAGAATAATATTCTTTAATGAATT?GATAAATAATGTGT
+Metepeira_spinipes_Toluca           ACCTGCCTATTAATCGATTCTCCACGATATATTTCACTTTTATTTAAATCTTATATACCTCCATCTCAAGGATTAATATTTATATTCTTCCCATAATAGAAATTCTAAAAAGTTAGGTAAAGGTGTAGACCACATAAAAGTTAAGGTGGGTTACAATAAATCTAATTTAAGGATATTTGTTTAAAATTTTAGTTGAAAAAGGATTTATAAGTAATTTAAGAATAATATTCTTTAATGAATT?GATAAATAATGTGT
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb5629;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Metepeira_spinipes_Durango,
+            2    Metepeira_spinipes_Tepotzotlan,
+            3    Metepeira_spinipes_Toluca,
+            4    Metepeira_atascadero_Guanajuato,
+            5    Metepeira_atascadero_San_Miguel,
+            6    Metepeira_incrassata_SLP,
+            7    Metepeira_incrassata_Fortin;
+      TREE Fig._2 = [&R] ((1,(3,2))Metepeira_spinipes,((7,6)Metepeira_incrassata,(5,4)Metepeira_atascadero))Metepeira;
+
+
+
+END;

@@ -1,0 +1,92 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:44 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Philbrick C., & Jansen R.K. 1991. Phylogenetic studies of North American Callitriche
+(Callitrichaceae) using chloroplast DNA restriction fragment analysis. Systematic
+Botany, 16: 478-491.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S131]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=14;
+        TAXLABELS
+            Callitriche_brutia
+            Callitriche_hermaphroditica
+            Callitriche_heterophylla_3
+            Callitriche_heterophylla_4
+            Callitriche_heterophylla_b.
+            Callitriche_heterophylla_h.
+            Callitriche_marginata
+            Callitriche_nuttallii
+            Callitriche_peploides
+            Callitriche_stagnalis
+            Callitriche_terrestris
+            Callitriche_trochlearis
+            Callitriche_verna_1
+            Callitriche_verna_2
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M1029]
+
+	TITLE Table_5;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=72;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1" MISSING=? GAP= -;
+
+MATRIX
+[                                       10        20        30        40        50        60        70  ]
+[                                        .         .         .         .         .         .         .  ]
+Callitriche_brutia              0000000101001011101100011101101100000010011100010010110101110000?00?0?10
+Callitriche_hermaphroditica     000110???100000110010000100?1???111??11000?0?00?0000110??1???1?0??100001
+Callitriche_heterophylla_3      101111010100000011010010100111101110011001100100101010110010110011010001
+Callitriche_heterophylla_4      10111?010100000001010000100111101110011001100100101011110110110011010001
+Callitriche_heterophylla_b.     10111?010100000001010000100111101110011001100100101011110110110011010001
+Callitriche_heterophylla_h.     101111010100000011010010100111101110011001100100101010110010110011010001
+Callitriche_marginata           11111100100000000100100001011111011100110011001100010110111100100?101011
+Callitriche_nuttallii           111110001110000010000000100110101111111001101110001001001110110101101111
+Callitriche_peploides           111110000100000010010000100010101110011101100100001111011110110001101010
+Callitriche_stagnalis           0001101111000011100100000011000010000110000100010000110111010010?0010001
+Callitriche_terrestris          111110011100000010010000100110101110011101100100011011010110110001100010
+Callitriche_trochlearis         10111?010100000011010010100111101110011001100100101011110110110011010001
+Callitriche_verna_1             10111?010101010010011110100111101100010011100100101011110110111011010001
+Callitriche_verna_2             10111?010100000010010000100111101110010011100100101011110110111011010001
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb4853;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Callitriche_heterophylla_b.,
+            2    Callitriche_heterophylla_h.,
+            3    Callitriche_heterophylla_3,
+            4    Callitriche_verna_1,
+            5    Callitriche_trochlearis,
+            6    Callitriche_heterophylla_4,
+            7    Callitriche_verna_2,
+            8    Callitriche_marginata,
+            9    Callitriche_nuttallii,
+            10   Callitriche_peploides,
+            11   Callitriche_terrestris,
+            12   Callitriche_brutia,
+            13   Callitriche_stagnalis,
+            14   Callitriche_hermaphroditica;
+      TREE Fig._1 = [&R] (((((2,1,5,(4,7)),(8,9,10,11)),14),12),13)Callitriche;
+      TREE Fig._2 = [&R] ((((((1,(2,5)),(4,7)),(8,9,10,11)),14),12),13);
+      TREE Fig._3 = [&R] ((((((1,5,2),(4,7)),(8,9,10,11)),14),12),13);
+      TREE Fig._5 = [&R] (((((1,5,2,(4,7)),((8,9),(10,11))),14),12),13);
+      TREE Fig._4 = [&R] (((((1,5,2,(4,7)),(((9,8),10),11)),14),12),13);
+
+
+
+END;

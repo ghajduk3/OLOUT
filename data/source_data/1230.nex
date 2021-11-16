@@ -1,0 +1,148 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:47 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Farwick A., Jordan U., Fuellen G., Huchon D., Catzeflis F., Brosius J., & Schmitz
+J. 2006. Automated Scanning for Phylogenetically Informative Transposed Elements
+in Rodents. Systematic Biology, 55(6): 936-948.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S1619]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=23;
+        TAXLABELS
+            Anomalurus_sp
+            Castor_fiber
+            Cavia_porcellus
+            Coendou_prehensilis
+            Cricetus_cricetus
+            Ctenodactylus_gundi
+            Dolichotis_patagonum
+            Glis_glis
+            Heteromys_gaumeri
+            Jaculus_jaculus
+            Marmota_Marmota
+            Meriones_unguiculatus
+            Mus_musculus
+            Myocastor_coypus
+            Nannospalax_ehrenbergi
+            Octodon_degus
+            Ondatra_zibethicus
+            Oryctolagus_cuniculus
+            Pedetes_capensis
+            Proechimys_cuvieri
+            Rattus_norvegicus
+            Sciurus_vulgaris
+            Thryonomys_swinderianus
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M2575]
+
+	TITLE 'SINE presence-absence';
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=31;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1" MISSING=? GAP= -;
+	CHARSTATELABELS
+		1  char1,
+		2  char2,
+		3  char3,
+		4  char4,
+		5  char5,
+		6  char6,
+		7  char7,
+		8  char8,
+		9  char9,
+		10  char10,
+		11  char11,
+		12  char12,
+		13  char13,
+		14  char14,
+		15  char15,
+		16  char16,
+		17  char17,
+		18  char18,
+		19  char19,
+		20  char20,
+		21  char21,
+		22  char22,
+		23  char23,
+		24  char24,
+		25  char25,
+		26  char26,
+		27  char27,
+		28  char28,
+		29  char29,
+		30  char30,
+		31  char31,
+		;
+
+MATRIX
+[                                   10        20        30 ]
+[                                    .         .         . ]
+Anomalurus_sp               ?00000000?0000?000011100000?100
+Castor_fiber                ?????0???00???00000100000??????
+Cavia_porcellus             000000001?000000000000111001111
+Coendou_prehensilis         ?0000??01??????0000000110000100
+Cricetus_cricetus           0000011101110011111100000??0100
+Ctenodactylus_gundi         ?00000???0?????0??00001000001??
+Dolichotis_patagonum        ?00000001??000?0??0000111001111
+Glis_glis                   ?????00????0000???0000000??0???
+Heteromys_gaumeri           ?0000?0??0????????0100000??????
+Jaculus_jaculus             00000?000??00001101100000000???
+Marmota_Marmota             ??????0????011?0??0????????0100
+Meriones_unguiculatus       11??011101?10011101100000000???
+Mus_musculus                1100011101110011101100000000100
+Myocastor_coypus            ?011100????????0000000110110100
+Nannospalax_ehrenbergi      ?????00000000011101100000000100
+Octodon_degus               ?0111???????????00?00011000?100
+Ondatra_zibethicus          000001110111001111?10000000????
+Oryctolagus_cuniculus       000000?00?0000?0000000000000000
+Pedetes_capensis            0000000????00000000111000000???
+Proechimys_cuvieri          001110001??????000?000110110100
+Rattus_norvegicus           1100011101?10011101100000000100
+Sciurus_vulgaris            ?0000?0??0?01100000000000000100
+Thryonomys_swinderianus     ?00000000??000????00001?0??0100
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb7940;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Dolichotis_patagonum,
+            2    Cavia_porcellus,
+            3    Octodon_degus,
+            4    Myocastor_coypus,
+            5    Proechimys_cuvieri,
+            6    Thryonomys_swinderianus,
+            7    Ctenodactylus_gundi,
+            8    Heteromys_gaumeri,
+            9    Castor_fiber,
+            10   Anomalurus_sp,
+            11   Pedetes_capensis,
+            12   Jaculus_jaculus,
+            13   Nannospalax_ehrenbergi,
+            14   Ondatra_zibethicus,
+            15   Oryctolagus_cuniculus,
+            16   Glis_glis,
+            17   Marmota_Marmota,
+            18   Cricetus_cricetus,
+            19   Meriones_unguiculatus,
+            20   Rattus_norvegicus,
+            21   Mus_musculus,
+            22   Sciurus_vulgaris,
+            23   Coendou_prehensilis;
+      TREE 'Fig. S-1' = [&R] ((((((21,20,19),(18,14)),13),12),(11,10),9,8),(7,6,(((5,4),3),(2,1),23)),(22,17),16,15);
+
+
+
+END;

@@ -1,0 +1,94 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:36 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Fiorillo A.R., & Tykoski R.S. 2011. A new species of the centrosaurine ceratopsid
+Pachyrhinosaurus from the North Slope (Prince Creek Formation, Maastrichtian) of
+Alaska. Acta Palaeontologica Polonica, .
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S12992]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=16;
+        TAXLABELS
+            Achelousaurus_horneri
+            Albertaceratops_nesmoi
+            Centrosaurus_apertus
+            Centrosaurus_brinkmani
+            Chasmosaurus_belli
+            Diabloceratops_eatoni
+            Einiosaurus_procurvicornis
+            Pachyrhinosaurus_canadensis
+            Pachyrhinosaurus_lakustai
+            Pachyrhinosaurus_perotorum
+            Protoceratops
+            Rubeosaurus_ovatus
+            Styracosaurus_albertensis
+            TMP_2002.76.1
+            Triceratops_
+            Zuniceratops_christopheri
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M13628]
+
+	TITLE Pachyrhinosaurus;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=54;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2 3 4 5" MISSING=? GAP= -;
+
+MATRIX
+[                                       10        20        30        40        50       ]
+[                                        .         .         .         .         .       ]
+Achelousaurus_horneri           01100111113110122?100111111120022211112111100100000011
+Albertaceratops_nesmoi          ?????1??11211?0010002?11?111200033?11121111???00000011
+Centrosaurus_apertus            011001111011110111102111111123331011112111100100000?11
+Centrosaurus_brinkmani          0110011?1011100111102?11?111233424?111211?100100000?11
+Chasmosaurus_belli              122110001010100?10012000001211211000002111111200000???
+Diabloceratops_eatoni           0110001010011?00100021011011200032?11?????????00000111
+Einiosaurus_procurvicornis      011001111011101212100111?111200121111121111001000001{12}1
+Pachyrhinosaurus_canadensis     0110011121311?122?1001111?1120032311112111100100121011
+Pachyrhinosaurus_lakustai       01100111213110122?1001111211200333?111211?100111120011
+Pachyrhinosaurus_perotorum      011001112?31??1?2?100?????1??00?23????????????101210??
+Protoceratops                   000000000000001?0???00000000000000?000000000000000??00
+Rubeosaurus_ovatus              ?????????01?????12100??????1200125?11??????????000013{12}
+Styracosaurus_albertensis       0110011?101111011110011111112232221111211110010000003{23}
+TMP_2002.76.1                   0110011?2?311?1?2?100??????1?????????1211?????01010???
+Triceratops_                    122110101010000010001100000211111000002111111200000???
+Zuniceratops_christopheri       ?00??01?1?0???0010012?????????????????10000??100000?00
+;
+END;
+
+BEGIN TREES;
+      TITLE Pachyrhinosaurus;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Protoceratops,
+            2    Zuniceratops_christopheri,
+            3    Chasmosaurus_belli,
+            4    Triceratops_,
+            5    Diabloceratops_eatoni,
+            6    Albertaceratops_nesmoi,
+            7    Centrosaurus_apertus,
+            8    Centrosaurus_brinkmani,
+            9    Styracosaurus_albertensis,
+            10   Rubeosaurus_ovatus,
+            11   Einiosaurus_procurvicornis,
+            12   Achelousaurus_horneri,
+            13   TMP_2002.76.1,
+            14   Pachyrhinosaurus_lakustai,
+            15   Pachyrhinosaurus_canadensis,
+            16   Pachyrhinosaurus_perotorum;
+      TREE Imported_tree_0 = [&R] (1,(2,((3,4),(5,(6,((8,(7,9)),((10,11),(12,(13,14,15,16)))))))));
+
+
+
+END;

@@ -1,0 +1,126 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:51 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Darbyshire S., & Warwick S. 1992. Phylogeny of North American Festuca (Poaceae) and
+related genera using chloroplast DNA restriction site variation. Canadian Journal
+of Botany, 70: 2415-2429.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S205]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=26;
+        TAXLABELS
+            Festuca_amplissima
+            Festuca_arundinacea
+            Festuca_brachyphylla
+            Festuca_canadensis
+            Festuca_dasyclada
+            Festuca_filiformis
+            Festuca_gigantea
+            Festuca_hallii
+            Festuca_idahoensis
+            Festuca_kingii
+            Festuca_minutiflora
+            Festuca_pratensis
+            Festuca_roemeri
+            Festuca_rubra
+            Festuca_saximontana
+            Festuca_subulata
+            Festuca_subuliflora
+            Festuca_subverticillata
+            Festuca_thurberi
+            Festuca_tolucensis
+            Festuca_trachyphylla
+            Festuca_viridula
+            Lolium_perenne
+            Poa_pratensis
+            Puccinellia_distans
+            Vulpia_myuros
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M489]
+
+	TITLE Table_x;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=108;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1" MISSING=? GAP= -;
+
+MATRIX
+[                                   10        20        30        40        50        60        70        80        90        100        ]
+[                                    .         .         .         .         .         .         .         .         .         .        ]
+Festuca_amplissima          000000110101011010111010110011011010001010010111010000110110001101000100011000001110100101100011000000100110
+Festuca_arundinacea         100100110010001010000000111011100111000000010100001000000110100000110000010000011010110010100011000000110000
+Festuca_brachyphylla        000000100100010010111010110001011010001010010111011011100110001101000100011000101110100101100011011100100110
+Festuca_canadensis          000000100100010010111010110001011010001010010111011001100110001101000100011000101110100101100011001100100111
+Festuca_dasyclada           000000110100011110111010110001011010001010010111011000110010001101000100011000001110100101100011000000100110
+Festuca_filiformis          000000100100010010111010110001011010001010010111011001100100001101000100011000101110100101100011001100100111
+Festuca_gigantea            100000110010001010100000111011100111000000010100001000110110100000110000010000010010110010100011000000110000
+Festuca_hallii              000000011100010010111010110001010010001010010111011000110110001101000100011000001110100101100111000000100110
+Festuca_idahoensis          000000100100010010111010110001011010001010010111011001100110001101000100011000101110100101100011001100100110
+Festuca_kingii              000000010010101010100011110001110011000000010110011000110110100100110000010000001010110010101111100000100000
+Festuca_minutiflora         000000110100011110111010110001011010001010010111011000110010001101000100011000001110100101100011001100100110
+Festuca_pratensis           100000110010001000100000011011100111000000000100001000110110100000110000010000011010110010100011000000110000
+Festuca_roemeri             000000100100010010111010110001011010001010010111011001100110001101000100011000101110100101100011001100100110
+Festuca_rubra               000000100100010011111010110001011010001010010111011001100110001101000100011000101110100101100011001100100111
+Festuca_saximontana         000000100100010010111010110001011010001010010111011011100110001101000100011000101110100101100011011100100110
+Festuca_subulata            000000011100011010111010110001010010001010010111011000110110001111000101011000001110100101100111000000100110
+Festuca_subuliflora         000000011100011010111010110001010010001010010111011000110110001111000101011000001110100101100111000000100110
+Festuca_subverticillata     000001010100011110111010110001011010001010011111011000110010001101000100011000001110100101100011000000100110
+Festuca_thurberi            010000111100011010111010110001010010001010010110011000110111001101000100011000001110100101100111000000100000
+Festuca_tolucensis          000000100101011010111010110011011010001011010111010000110110001101000100011000001110110101100011000000100110
+Festuca_trachyphylla        000000100100010011111010110001011010001010010111011001100110001101000100011000101110100101100011001100100111
+Festuca_viridula            000000100100011010111010110001010010001010011111011000110110001101000100011000001101100101100111000000100110
+Lolium_perenne              100100110010001010100000111010100111000000010100001000010110100000110000010000011010100010100011000000110000
+Poa_pratensis               000010010000110010101100000001010011011110110101011100110110101101110110011010101010011010101111000000101110
+Puccinellia_distans         001000010110010010101110010001000011011000010000111100110110110101101100101101001010110010011111000010000110
+Vulpia_myuros               000010010100001010111010110111011000101010010011011000101110001101000101011000001010100101100000000001100110
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb4936;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Festuca_subuliflora,
+            2    Festuca_subulata,
+            3    Festuca_subverticillata,
+            4    Festuca_pratensis,
+            5    Festuca_gigantea,
+            6    Festuca_kingii,
+            7    Festuca_amplissima,
+            8    Festuca_rubra,
+            9    Festuca_dasyclada,
+            10   Festuca_filiformis,
+            11   Festuca_thurberi,
+            12   Festuca_viridula,
+            13   Festuca_trachyphylla,
+            14   Festuca_minutiflora,
+            15   Festuca_brachyphylla,
+            16   Festuca_saximontana,
+            17   Festuca_canadensis,
+            18   Festuca_roemeri,
+            19   Festuca_idahoensis,
+            20   Festuca_tolucensis,
+            21   Festuca_hallii,
+            22   Festuca_arundinacea,
+            23   Vulpia_myuros,
+            24   Lolium_perenne,
+            25   Poa_pratensis,
+            26   Puccinellia_distans;
+      TREE Fig._1 = [&R] ((((((((((((8,13),17,10),19,18,(16,15)),14),9,3),((7,20),23)),12),21),11),(2,1)),((4,5,(22,24)),6)),25,26);
+      TREE Fig._2 = [&R] ((((((((((8,13),17,10),19,18,(16,15)),14),9,3),((21,11,(2,1)),12)),(7,20)),23),((4,5,(22,24)),6)),25,26);
+      TREE Fig._3 = [&R] ((((((8,13,17,10),19,18,16,15),14,9,3,(7,20),23),12,2,1,21,11),((4,5,(22,24)),6)),25,26);
+
+
+
+END;

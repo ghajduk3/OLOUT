@@ -1,0 +1,149 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:36 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Davies V. 1999. Carbinea, a new spider genus from North Queensland, Australia (Araneae,
+Amaurobioidea, Kababininae). Journal of Arachnology, 27: 25-36.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S582]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=22;
+        TAXLABELS
+            Amaurobius_fenestralis
+            Amphinecta_milina
+            Badumna_longiqua
+            Carbinea_breviscapa
+            Carbinea_longiscapa
+            Carbinea_robertsi
+            Carbinea_wunderlichi
+            Dardurus_spinipes
+            Desis
+            Dictynidae
+            Jalkaraburra_alta
+            Kababina_alta
+            Malala_lubinae
+            Manjala_plana
+            Midgee_binnaburra
+            Paramatachia_decorata
+            Procambridgea
+            Quemusia_aquilonia
+            Stiphidion_facetum
+            Storenosoma_terranea
+            Tasmarubrius_milvinus
+            Wandella_barbarella
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M2214]
+
+	TITLE Table_4;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=36;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2 3 4" MISSING=? GAP= -;
+	CHARSTATELABELS
+		1  AME / as_large_or_larger_than_ALE smaller_than_ALE,
+		2  Retromarginal_CH_teeth / '2+' 2. 1. 0.,
+		3  Promarginal_CH_teeth / '3+' 3. 2. 0.,
+		4  Long_prolateral_seta_at_base_of / absent present,
+		5  Large_frontal_CH_seta / absent present,
+		6  CH_lamina / absent present,
+		7  Foveal_area_highest / absent present,
+		8  Female_leg_I / shorter_than_leg_IV equal_to_or_longer_than_leg_IV,
+		9  Stridulatory_ridges_on_3_coxa_1 / absent present,
+		10  Trochanteral_notch / absent present,
+		11  Large_ventral_spines_on_tibia_a / absent present,
+		12  Feathery_hairs / absent present,
+		13  MT_preening_combs / absent present,
+		14  MT_TRICH / '2+' 1.,
+		15  Tarsal._TRICH / 0. '2+' double_row,
+		16  CR / 2_spinning_fields 1_spinning_field absent,
+		17  CR_spigots / absent longitudinally_ribbed annulate,
+		18  Calarnistrum / absent proxitnal 'proximo-medial',
+		19  MAP_female_ALS / 2. 1_and_nubbin 1.,
+		20  Position_of_MAP_female_ALS / mesal anterior,
+		21  PCR_female_PMS / one_shaft_per_base more_than_one_shaft absent,
+		22  Medial_EPIG_fossa / absent present,
+		23  Posterior_EPIG_scape / absent short medium long,
+		24  Insemination_duct / absent present,
+		25  EPIG_lateral_projections / absent present,
+		26  E_direction / straight clockwise anticlockwise,
+		27  Proximal_E_APOPH / absent present,
+		28  Parembolic_process / present absent,
+		29  Conductor / absent rounded 'large T- shaped' 's-shaped-falciform.',
+		30  Secondary_conductor / absent present,
+		31  Median_APOPH / absent present,
+		32  Orientation_of_CB_to_bulb / dorsal mesal,
+		33  Paracymbium / absent present,
+		34  RTA_to_CB_length / absent quarter_or_less third half more_than_half,
+		35  Dorsal_branch_of_RTA / absent present,
+		36  Palpal_patellal_APOPH / absent present,
+		;
+
+MATRIX
+[                                  10        20        30      ]
+[                                   .         .         .      ]
+Amaurobius_fenestralis     000000010000111011000001010110100110
+Amphinecta_milina          110000000000111200?0-001010110100100
+Badumna_longiqua           010000010000011011001101010130100100
+Carbinea_breviscapa        11210011010101120000-111011110000100
+Carbinea_longiscapa        11210011010101120000-131011110000400
+Carbinea_robertsi          11210011010101120000-121011110000300
+Carbinea_wunderlichi       11210011010101120000-121011110000200
+Dardurus_spinipes          100100010010011111002101010110000101
+Desis                      11000001000001220021-001010130100100
+Dictynidae                 120000010000000111210001010120010100
+Jalkaraburra_alta          11100001000001120000-001020131000100
+Kababina_alta              112100110101011011000101010110000400
+Malala_lubinae             10001001001001120010-001010130000100
+Manjala_plana              11011001001001101110?101010130100100
+Midgee_binnaburra          10211000001001120010-001010110000100
+Paramatachia_decorata      010000010000011112000001010130000101
+Procambridgea              100100010100011011001001010110000100
+Quemusia_aquilonia         111000010000011011002001020131000100
+Stiphidion_facetum         011100010001011012001001010120000100
+Storenosoma_terranea       11200000100011120010-001010110100110
+Tasmarubrius_milvinus      11200000000011120000-001110110101110
+Wandella_barbarella        033001010000010021200-00000000000000
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb5620;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Dictynidae,
+            2    Badumna_longiqua,
+            3    Paramatachia_decorata,
+            4    Desis,
+            5    Quemusia_aquilonia,
+            6    Jalkaraburra_alta,
+            7    Amphinecta_milina,
+            8    Amaurobius_fenestralis,
+            9    Storenosoma_terranea,
+            10   Tasmarubrius_milvinus,
+            11   Procambridgea,
+            12   Stiphidion_facetum,
+            13   Midgee_binnaburra,
+            14   Dardurus_spinipes,
+            15   Manjala_plana,
+            16   Malala_lubinae,
+            17   Kababina_alta,
+            18   Carbinea_longiscapa,
+            19   Carbinea_breviscapa,
+            20   Carbinea_wunderlichi,
+            21   Carbinea_robertsi,
+            22   Wandella_barbarella;
+      TREE Fig._43 = [&R] (22,(1,(((13,16),(4,(7,(9,10)))),((5,6),(3,(8,(2,(15,((11,14),(12,(17,(19,(20,(18,21)))Carbinea)Kababininae))))))))Amaurobioidea));
+
+
+
+END;

@@ -1,0 +1,77 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:45 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Goldblatt P., & Henrich J. 1991. Calydorea Herbert (Iridaceae-Tigridieae): Notes
+on this New World genus and reduction to synonymy of Salpingostylis, Cardiostigma,
+Itysa, and Catila. Annals of the Missouri Botanical Garden, 78: 504-511.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S98]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=11;
+        TAXLABELS
+            Calydorea_pallens
+            'Calydorea {typical}'
+            Cardiostigma
+            Catila
+            Cypella
+            Cypella_&_Cipura
+            Gelasine._Herbertia._plus
+            Itysa
+            Mariceae
+            Onira
+            Salpingostylis_coelestinum
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M2440]
+
+	TITLE Table_1;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=15;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1" MISSING=? GAP= -;
+
+MATRIX
+Calydorea_pallens              101110011000100
+'Calydorea {typical}'          1011101?1001100
+Cardiostigma                   1011111?1000111
+Catila                         101110010000100
+Cypella                        101100000000000
+Cypella_&_Cipura               ???????????????
+Gelasine._Herbertia._plus      101100000100000
+Itysa                          1011111?1010101
+Mariceae                       010000000000000
+Onira                          101110000000100
+Salpingostylis_coelestinum     1011111?1000111
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb4816;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Cypella_&_Cipura,
+            2    Gelasine._Herbertia._plus,
+            3    Cypella,
+            4    Onira,
+            5    Catila,
+            6    Itysa,
+            7    Cardiostigma,
+            8    Salpingostylis_coelestinum,
+            9    Calydorea_pallens,
+            10   'Calydorea {typical}',
+            11   Mariceae;
+      TREE Fig._3 = [&R] ((11,('1',(Gelasine_Herbertia_plus,(4,(5,(9,('Calydorea_{typical}',(6,(8,7))))))))));
+
+
+
+END;

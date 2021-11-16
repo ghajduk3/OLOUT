@@ -1,0 +1,179 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:45 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Anderberg A., & Bremer K. 1991. Parsimony analysis and cladistic reclassification
+of the Relhania generic group (Asteraceae-Gnaphalieae). Annals of the Missouri
+Botanical Garden, 78: 1061-1072.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S85]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=44;
+        TAXLABELS
+            Antithrixia_flavicoma
+            Leysera_gnaphalodes
+            Leysera_leyseroides
+            Leysera_longipes
+            Leysera_tenella
+            Oedera_capensis
+            Oedera_hirta
+            Oedera_imbricata
+            Oedera_intermedia
+            Oedera_muirii
+            Oreoleysera_montana
+            Relhania_acerosa
+            Relhania_biennis
+            Relhania_calycina
+            Relhania_conferta
+            Relhania_corymbosa
+            Relhania_decussata
+            Relhania_dieterlenii
+            Relhania_foveolata
+            Relhania_fruticosa
+            Relhania_garnotii
+            Relhania_genistifolia
+            Relhania_multipunctata
+            Relhania_nordenstamii
+            Relhania_pumila
+            Relhania_pungens
+            Relhania_relhanioides
+            Relhania_resinifera
+            Relhania_rotundifolia
+            Relhania_sedifolia
+            Relhania_sessiliflora
+            Relhania_silicicola
+            Relhania_spathulifolia
+            Relhania_speciosa
+            Relhania_squarrosa
+            Relhania_steyniae
+            Relhania_tricephala
+            Relhania_tuberosa
+            Relhania_uniflora
+            Relhania_viscosa
+            Rosenia_glandulosa
+            Rosenia_humilis
+            Rosenia_oppositifolla
+            Rosenia_spinescens
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M907]
+
+	TITLE Table_2;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=46;
+	FORMAT DATATYPE=Standard SYMBOLS= "* 0 1 2 3 4" MISSING=- GAP= ";
+
+MATRIX
+[                                  10        20        30        40      ]
+[                                   .         .         .         .      ]
+Antithrixia_flavicoma      000000000000000000000--0000000000000-0000000--
+Leysera_gnaphalodes        0000-1000000001000-10--00001211010010001111102
+Leysera_leyseroides        100011000000001001110--00001211010010001111102
+Leysera_longipes           010011000001001000000--00-0110101000--0001100-
+Leysera_tenella            100011000000001000110--00001211010010001111102
+Oedera_capensis            000011101101000210001011100120100000--00013-1-
+Oedera_hirta               000011121111000210001011100110100000--00013-1-
+Oedera_imbricata           000011121111000210001011100120100000--00013-1-
+Oedera_intermedia          000011101111000210001011100120100000--00013-10
+Oedera_muirii              000010101111000210001011100100100000--00-13-1-
+Oreoleysera_montana        000011010000001000100--0000010100001000000000-
+Relhania_acerosa           001011000101100000000--00001101110010000113-1-
+Relhania_biennis           100011000000000000100--0-001211010010000013-21
+Relhania_calycina          000011-00111000000001100-100200101110000113-10
+Relhania_conferta          000011100001100100001000000110100000--10113-1-
+Relhania_corymbosa         000011010000110100000000000100100001100001301-
+Relhania_decussata         0000100001001000000011000001001100010000113-10
+Relhania_dieterlenii       000010000000110000000--0000100100000--00013-1-
+Relhania_foveolata         0000110000012000000010000001001000010000013-1-
+Relhania_fruticosa         000011000000110000001000000100100000--00013-2-
+Relhania_garnotii          000011100000100100002--00011101000011000113-10
+Relhania_genistifolia      000011-0000110010000100000011010000100-0013-10
+Relhania_multipunctata     000011000001200101001000000110111000---0013-1-
+Relhania_nordenstamii      0000000000012001011010000001101000010000013-1-
+Relhania_pumila            100011000000000000101020-001201000010100113-11
+Relhania_pungens           000011000110000000001100-100200101110000113-10
+Relhania_relhanioides      0000110100001100000000000011001000011000013-1-
+Relhania_resinifera        0000110000012001011010000001101000010000013-10
+Relhania_rotundifolia      000011010000110000001000100100100000--00013-2-
+Relhania_sedifolia         0000110000012001011010000001101-10010000013010
+Relhania_sessiliflora      1000110000000000001010200001201000010100113-11
+Relhania_silicicola        000010000001100100000--0000110100000--10013-1-
+Relhania_spathulifolia     0000110100001100000000000011001000011000013-10
+Relhania_speciosa          000011-00111-000000011001100200-01110000113-10
+Relhania_squarrosa         0000111000011001000010000001101010010000013-10
+Relhania_steyniae          000010000101100100001000000110100000--00013-10
+Relhania_tricephala        0000110100001101000000000011001000011000013-10
+Relhania_tuberosa          0100010000010000000000000001101000010000113-10
+Relhania_uniflora          0000100000011000000010000001101000010000013-10
+Relhania_viscosa           0000110000011001000010000001101000010000013-10
+Rosenia_glandulosa         001100000000000000001000000000000001000000201-
+Rosenia_humilis            00-00000000-00000000-0000000000000010000002010
+Rosenia_oppositifolla      000000000000000000000--0000000-000010000002010
+Rosenia_spinescens         00110000000000000000-000000000000001000000201-
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb4803;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Antithrixia_flavicoma,
+            2    Oreoleysera_montana,
+            3    Leysera_longipes,
+            4    Leysera_gnaphalodes,
+            5    Leysera_tenella,
+            6    Leysera_leyseroides,
+            7    Rosenia_glandulosa,
+            8    Rosenia_spinescens,
+            9    Rosenia_oppositifolla,
+            10   Rosenia_humilis,
+            11   Relhania_dieterlenii,
+            12   Relhania_fruticosa,
+            13   Relhania_rotundifolia,
+            14   Relhania_spathulifolia,
+            15   Relhania_corymbosa,
+            16   Relhania_tricephala,
+            17   Relhania_relhanioides,
+            18   Relhania_genistifolia,
+            19   Relhania_viscosa,
+            20   Relhania_squarrosa,
+            21   Relhania_conferta,
+            22   Relhania_steyniae,
+            23   Relhania_garnotii,
+            24   Relhania_multipunctata,
+            25   Relhania_resinifera,
+            26   Relhania_sedifolia,
+            27   Relhania_foveolata,
+            28   Relhania_nordenstamii,
+            29   Relhania_uniflora,
+            30   Relhania_silicicola,
+            31   Relhania_pumila,
+            32   Relhania_sessiliflora,
+            33   Relhania_biennis,
+            34   Relhania_tuberosa,
+            35   Relhania_acerosa,
+            36   Relhania_decussata,
+            37   Relhania_pungens,
+            38   Relhania_calycina,
+            39   Relhania_speciosa,
+            40   Oedera_capensis,
+            41   Oedera_hirta,
+            42   Oedera_imbricata,
+            43   Oedera_intermedia,
+            44   Oedera_muirii;
+      TREE Fig._2 = [&R] (1,((9,10,(8,7)),(2,((((31,32),(33,(4,5,6))),((35,(36,(37,(38,39)))),(23,((11,(12,13)),(15,16,(17,14)))))),((34,3),(29,27,18,19,(20,(24,(26,(25,28)))),(21,30,22,(40,41,44,43,42))))))));
+      TREE Fig._1 = [&R] (1,((9,10,(8,7)),(2,((((31,32),(33,(4,5,6))),((35,(36,(37,(38,39)))),(23,((11,(12,13)),((15,16),(17,14)))))),((34,3),(29,27,(18,19,(20,(24,(26,(25,28)))),((21,30),(22,(40,(41,44,(43,42))))))))))));
+
+
+
+END;

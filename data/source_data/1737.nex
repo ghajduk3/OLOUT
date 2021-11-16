@@ -1,0 +1,266 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:50 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Jamieson B. 1988. On the phylogeny and higher classification of the Oligochaeta.
+Cladistics, 4: 367-410.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S363]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=50;
+        TAXLABELS
+            Ailoscolex_lacteospumosus
+            Alluroides_pordagei
+            Alma_nilotica
+            Biwadrilus_bathybates
+            Brinkhurstia_americanus
+            Callidrilus_scrobifer
+            Celeriella_bursata
+            Criodrilus_lacuum
+            Cryptodrilus_resticus
+            Desmogaster_doriae
+            Dichogaster_bolaui
+            Dichogaster_oraedividitis
+            Digaster_bradburyi
+            Diplotrema_fragilis
+            Diporochaeta_intermedia
+            Diporodrilus_pilosus
+            Drilocrius_hummelincki
+            Eiseniella_teraedra
+            Enchytraeidae
+            Eudrilus_eugeniae
+            Eukerria_garmani_argentinae
+            Glossoscolex_paulistus
+            Glyphidrilocrius_ehrhardti
+            Glyphidrilus_weberi
+            Haplotaxis_violaceus
+            Hemigastrodrilus_monicae
+            Heteroporodrilus_tryoni
+            Hormogaster_redii
+            Komarekiona_eatoni
+            Kynotus_darwini
+            Lampito_sylvicola
+            Lumbriculidae
+            Lumbricus_terrestris
+            Lutodrilus_multivesiculatus
+            Megascolides_australis
+            Microchaetus_benhami
+            Microscolex_georgianus
+            Moniligaster_troyi
+            Nemertodrilus_griseus
+            Ocnerodrilus_occidentalis
+            Octochaetus_multiporus
+            Perionyx_excavatus
+            Pheretima_montana
+            Pontoscolex_corethrurus
+            Sparganophilus_tamesis
+            Standeria_tranvaalensis
+            Syngenodrilus_lamuensis
+            Tiguassu_reginae
+            Tubificidae
+            Vignysa_popi
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M2023]
+
+	TITLE Table_2;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=68;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2 3 4 5 6 7 8 9 A B C D E" MISSING=? GAP= -;
+	CHARSTATELABELS
+		1  Prostomium / 'attached (P)' 'separate (A)',
+		2  Lateral_lines / 'present (P)' 'absent (A)',
+		3  Dorsal_pores / 'absent (P)' 'present (A)',
+		4  Caudal_TS / 'not quadrangular (P)' 'quadrangular (A)',
+		5  Anus / 'terminal (P)' 'dorsal (A)',
+		6  Copulatory_alae / 'absent (P)' 'present (A)',
+		7  Claspers_with_terminal_male_por / 'absent (P)' 'present (A)',
+		8  Genital_lobes_or_claspers / 'without lateral male pores (P)' 'with lateral male pores (A)',
+		9  Longitudinal_tubercula_pubertat / 'absent (P)' 'present (A)',
+		10  Somatic_setae / '4 bundles (P)' 'perichaetine (A)',
+		11  Penial_setae / 'absent (P)' 'present (A)',
+		12  'Long-grooved genital setae' / 'absent (P)' 'present (A)',
+		13  'Prostate-like setal glands' / 'absent (P)' 'present (A)',
+		14  Clitellum / 'unilayered (P)' 'multilayered (A)',
+		15  Dorsal_vessel / 'extending onto pharynx (P)' 'or not (A)',
+		16  Subneural_vessel / 'absent (P)' 'present (A)',
+		17  Intestine_with_anterior_thicken / 'absent (P)' 'present (A)',
+		18  Intestinal_caeca / 'absent (P)' 'present (A)',
+		19  Intestinal_typhlosole / 'absent (P)' 'present (A)',
+		20  Enterosegmental_organs / 'absent (P)' 'paired (A)',
+		21  Nephridia / 'holonephric (P)' 'meronephric (A)',
+		22  Nephridial_bladder / 'absent (P)' 'present (A)',
+		23  Nephridial_caeca / 'absent (P)' 'present (A)',
+		24  Caudal_nephridia / 'exonephric (P)' 'enteronephric (A)',
+		25  Testes / in_segment_10_or_homeotic_equiv 'not in 10 (A)',
+		26  Testes / in_segment_11_or_homeotic_equiv 'not in 11 (A)',
+		27  Male_pores / '2 per side (P)' '1 by fusion (A)',
+		28  Muscular_male_bursa / 'absent (P)' 'present (A)',
+		29  Glandular_male_bursa / 'absent (P)' 'present (A)',
+		30  Ovaries / 'in segment 12 (P)' 'not in 12 (A)',
+		31  Ovaries / 'in segment 13 (P)' 'not in 13 (A)',
+		32  Ovaries / 'multistringed (P)' 'single-stringed (A)',
+		33  Ovaries / 'free (P)' 'in septal chambers (A)',
+		34  Spermathecae / 'present (P)' 'absent (A)',
+		35  Spermathecae / 'not multiple (P)' 'multiple (A)',
+		36  Spermathecae / 'without oviducal link (P)' 'oviducal link present (A)',
+		37  'Supra-oesophageal vessel' / 'absent (P)' 'on oesophagus only (Al)' 'oesophago-pharyngeal (A2)',
+		38  Commissural_blood_vessels / 'throughout (P)' 'discrete hearts in 10 (Al)' '11 (A2)' '12 (A3)' '13 (A4)',
+		39  Segments_of_oesophageal_gizzard / '0 (P)' '1 (Al)' '2 (A2)' '3 (A3)' '4 (A4)' '12 (A5)',
+		40  1st_oesophageal_gizzard_in_segm / 'absent (P)' '5 (Al)' '6 (A2)' '7 (A3)' '8 (A4)' '13 (A5)' '14 (A6)',
+		41  1st_intestinal_segment / '9 (P)' '10 (Al)' '11 (A2)' '12 (A3)' '13 (A4)' '14 (A5)' '15 (A6)' '16 (A7)' '17 (A8)' '21 (A9)' '23 (A10)',
+		42  'Last male pore(s)' / 'posterior to last testis-segmen' '2 (Al)' '3 (A2)' '4 (A3)' '5 (A4)' '6 (A5)' '7 (A6)' '8 (A7) 9 (A8)' '11 (A9)' '12 (A10)' '13 (All) segments',
+		43  Setal_interval / 'cd=ab (P)' 'cd>ab (A)',
+		44  Setal_interval / 'cd=ab (P)' 'cd<ab (A)',
+		45  Caudal_nephrostomes / '1 per side (P)' 'many per side (A)',
+		46  Caudal_nephridia / 'present (P)' 'none (A)',
+		47  'Testis-sacs' / 'absent (P)' 'segmental (A)',
+		48  'Testis-sacs' / 'absent (P)',
+		49  'Testis-sacs' / 'absent (P)' 'capping the testes (A)',
+		50  Seminal_vesicles / 'extensive (P)' 'short (A)',
+		51  Seminal_vesicles / 'present (P)' 'absent (A)',
+		52  Male_pores / 'anterior on clitellum (P)' 'anterior to clitellum (A)',
+		53  Male_pores / 'anterior on clitellum (P)' 'posterior to clitellum (A)',
+		54  Tubular_prostates / 'absent (P)' 'present (A)',
+		55  'Tubulo-racemose or racemose pro' / 'absent (P)' 'present (A)',
+		56  Capsular_prostates / 'absent (P)' 'present (A)',
+		57  Euprostates / 'absent (P)' 'present (A)',
+		58  Spermathecae / 'adiverticulate (P)' 'seminal diverticulum (A)',
+		59  Spermathecae / 'adiverticulate (P)' 'with non-seminal diverticulum (',
+		60  Acanthrodrilin_prostate_arrange / 'absent (P)' 'present (A)',
+		61  Microscolecin_prostate_arrangem / 'absent (P)' 'present (A)',
+		62  Megascolecin_prostate_arrangeme / 'absent (P)' 'present (A)',
+		63  Last_spermathecae / 'pretesticular (P)' 'testicular (A)',
+		64  Last_spermathecae / 'pretesticular (P)' 'post-testicular (A)',
+		65  Number_of_clitellar_segments / '3 (P)' '3.5-5 (Al )' '6 17 (A2)' '20 60 (A3)',
+		66  Eudriloid_spermatheca / 'absent (P)' 'present (A)',
+		67  Secondary_tube_of_sperm_acrosom / 'free (P)' 'with weak connectives (Al)' 'full connectives (A2)',
+		68  Length_of_acrosome / 'very short (P)' 'short (Al)' 'moderate (A2)' 'long (A3)',
+		;
+
+MATRIX
+[                                       10        20        30        40        50        60        ]
+[                                        .         .         .         .         .         .        ]
+Ailoscolex_lacteospumosus       01000000100101000010011000100101000002426A010000010010000000001030??
+Alluroides_pordagei             000000000000000000000000011001000000030041000000010000010000000010??
+Alma_nilotica                   0101101000100110101000000010010000102300C7000000010100000000000130??
+Biwadrilus_bathybates           000010000010110000000000001001000100120021010000010100000000000030??
+Brinkhurstia_americanus         000000000010000000000000011001000000030071000000001001000000000010??
+Callidrilus_scrobifer           010110000000011100100000001001000010232175000000010000100000000130??
+Celeriella_bursata              011000000100010000001000001001000000131286001000010011000100010010??
+Criodrilus_lacuum               010110000001010110100000001011010100022143000000010000000000000030??
+Cryptodrilus_resticus           011000000010010000001100001001000000131196100100010010100100010010??
+Desmogaster_doriae              11000000000000010001011000000100100002CAE0000001001000010010000020??
+Dichogaster_bolaui              011000000010010000101000001001000000142296000000010011000101000020??
+Dichogaster_oraedividitis       0110000000000100001010000010010000001322A6000010010011000101000020??
+Digaster_bradburyi              01100000000001000000100000100100000013220610000001001010010001001023
+Diplotrema_fragilis             011000000010010000000000001001000000141166100000010011000101000010??
+Diporochaeta_intermedia         010000000100010000000100001001000000131166000000010011000100010000??
+Diporodrilus_pilosus            010000001000010010100100001001010000020073000000010100000000001020??
+Drilocrius_hummelincki          010110010000011110100000001001000010222183000000010000000000000130??
+Eiseniella_teraedra             01110000100001011010010000100101000002006100000001010000000000102023
+Enchytraeidae                   00000000000000000000000010000010000000000000000000000000000000000000
+Eudrilus_eugeniae               010000000000011100000000001001000001121165000010010010001100100121??
+Eukerria_garmani_argentinae     010000000000011000000000011001000000120036000000010011000001000020??
+Glossoscolex_paulistus          010000001000011000100110101101000000121258010010010000000000000020??
+Glyphidrilocrius_ehrhardti      0101100100000110101000000010010000102400E5000000010000000000000130??
+Glyphidrilus_weberi             01011100000001010010000000100100001012236D100000010010000000000130??
+Haplotaxis_violaceus            00000000000000000000000000000010000000000000000001000000000000000020
+Hemigastrodrilus_monicae        010000001000010000100000001001000000023253010000010000000000000130??
+Heteroporodrilus_tryoni         0110000000100100000001000010010000001411661000000100101001000100102?
+Hormogaster_redii               01000000100101010010011000100101000012327401000001000001000000013023
+Komarekiona_eatoni              01000000100011000000010000100101000002124A000000010010000000000020??
+Kynotus_darwini                 0100000000001101000001100011010000101211C4000010010100000000C00130??
+Lampito_sylvicola               011000000100010000101001101001000000141176000000010010100100010020??
+Lumbriculidae                   00000000000000?000000000000000??0000?000?0??000000000000000000??0011
+Lumbricus_terrestris            01100000100101011010010000100101000002006301001001010000000000102023
+Lutodrilus_multivesiculatus     01011100000011110010000000100101001002002B000000010000000000000130??
+Megascolides_australis          0110000000000100000010010010010000000411A6100000010011000100010000??
+Microchaetus_benhami            010000001010110000100110001001000000021359010000010010000000000130??
+Microscolex_georgianus          010000000010010000000100001001000000131176100000010011000101000010??
+Moniligaster_troyi              110000000000000100010110100001001000023980000001001000010010000010??
+Nemertodrilus_griseus           010000000000010100000000001001000001121176000000010010001000000121??
+Ocnerodrilus_occidentalis       010000000000010000000000001001000100120035000000101011000000100020??
+Octochaetus_multiporus          0110000000000100001010010010010000001412A6001000010011000101000020??
+Perionyx_excavatus              011000000110010100000000001001000000231266000000010010100100010010??
+Pheretima_montana               01100000010001010110100100100100000014146600101001001010010001000023
+Pontoscolex_corethrurus         010000001000010100100110101001000000131289100010000010000000000020??
+Sparganophilus_tamesis          01001000100011000000000000100101000002000700000001000000000000002022
+Standeria_tranvaalensis         000000000000000000000000011101000000030061000000001000000000000010??
+Syngenodrilus_lamuensis         0?00000010000000000001000010010000000324310000100000010000000000?0??
+Tiguassu_reginae                01000000100000???0000000100000100000?13230010000000100000000000020??
+Tubificidae                     00000000000000000000000010011010000000000000000000000000100000100000
+Vignysa_popi                    010000001000010010100000001001000000022263010000010000000000001020??
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb5156;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Pheretima_montana,
+            2    Lampito_sylvicola,
+            3    Dichogaster_oraedividitis,
+            4    Dichogaster_bolaui,
+            5    Octochaetus_multiporus,
+            6    Megascolides_australis,
+            7    Diporochaeta_intermedia,
+            8    Celeriella_bursata,
+            9    Perionyx_excavatus,
+            10   Digaster_bradburyi,
+            11   Cryptodrilus_resticus,
+            12   Heteroporodrilus_tryoni,
+            13   Microscolex_georgianus,
+            14   Diplotrema_fragilis,
+            15   Eiseniella_teraedra,
+            16   Lumbricus_terrestris,
+            17   Komarekiona_eatoni,
+            18   Ailoscolex_lacteospumosus,
+            19   Diporodrilus_pilosus,
+            20   Hemigastrodrilus_monicae,
+            21   Vignysa_popi,
+            22   Hormogaster_redii,
+            23   Kynotus_darwini,
+            24   Pontoscolex_corethrurus,
+            25   Glossoscolex_paulistus,
+            26   Microchaetus_benhami,
+            27   Nemertodrilus_griseus,
+            28   Eudrilus_eugeniae,
+            29   Eukerria_garmani_argentinae,
+            30   Ocnerodrilus_occidentalis,
+            31   Criodrilus_lacuum,
+            32   Lutodrilus_multivesiculatus,
+            33   Callidrilus_scrobifer,
+            34   Glyphidrilocrius_ehrhardti,
+            35   Drilocrius_hummelincki,
+            36   Glyphidrilus_weberi,
+            37   Alma_nilotica,
+            38   Sparganophilus_tamesis,
+            39   Biwadrilus_bathybates,
+            40   Syngenodrilus_lamuensis,
+            41   Standeria_tranvaalensis,
+            42   Brinkhurstia_americanus,
+            43   Alluroides_pordagei,
+            44   Desmogaster_doriae,
+            45   Moniligaster_troyi,
+            46   Tiguassu_reginae,
+            47   Haplotaxis_violaceus,
+            48   Lumbriculidae,
+            49   Tubificidae,
+            50   Enchytraeidae;
+      TREE Fig._1B = [&R] ((50,49)Tubificata,(47,(48,(46,((45,44)Moniligastridae,(((43,(42,41))Alluroididae,40)Alluroidina,(((39,((((((37,36),33),35),31),34)Almidae,32)),38)Aquamegradrili,((30,29)Ocnerodrilidae,((28,27)Eudrilidae,(((((26,(22,20)),(25,24)Glossoscolecidae),((21,(19,(16,15))Lumbricidae),18)),17),((14,13),(12,(11,(10,(9,(8,(7,((6,(5,(4,3))),(2,1)))))))))Megascolecidae)))Terrimegadrili)Crassiclitellata)Opisthopora)Metagynophora))))Oligochaeta;
+      TREE Fig._1A = [&R] ((50,49),(48,(47,(46,((45,44),(((43,(42,41)),40),(((39,((((((37,36),33),35),31),34),32)),38),((30,29),((28,27),(((((26,(22,20)),(25,24)),((21,(19,(16,15))),18)),17),((14,13),(12,(11,(10,(9,(8,(7,((6,(5,(4,3))),(2,1)))))))))))))))))Diplotesticulata));
+
+
+
+END;

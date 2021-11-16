@@ -1,0 +1,95 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:31 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Donoghue M.J., Olmstead R., Smith J., & Palmer J. 1992. Phylogenetic relationships
+of Dipsacales based on rbcL sequences. Annals of the Missouri Botanical Garden,
+79: 333-345.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S118]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=12;
+        TAXLABELS
+            Adoxa
+            Cornus
+            Dipsacus
+            Hedera
+            Heuchera
+            Lonicera
+            Menyanthes
+            Sambucus
+            Spigelia
+            Symphoricarpos
+            Valeriana
+            Viburnum
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M3516]
+
+	TITLE Table_1;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=88;
+	FORMAT DATATYPE=Standard SYMBOLS= "A C G T" MISSING=? GAP= -;
+
+MATRIX
+[                          10        20        30        40        50        60        70        80        ]
+[                           .         .         .         .         .         .         .         .        ]
+Adoxa              TAAGCTTCACCGACTACCGCCTTTCTTTTGACAGCCCGTTCCAGAGGCAGAACCCCTTCGTCACCTCCGTACTTAGAGCTGCATAAGA
+Cornus             TAAGCTCTGCCGAATCTCGTCTTTCTCTTGACAAATTGCCAATTGGACAGGGCTCTGTGGTTGTCGTTGCGTTTACGGCTGTATAAGA
+Dipsacus           CAAACACCGCCGAAAACTGCCTCTCTCTAGGTAAATTGCTCCAGAAATACGGTTTTGTGGTCACC??CGCGCTTGCGGCTGTCCAGCC
+Hedera             TAAGCTCCGCCGAGTACCATCCTTCTCTTGACAGCTCGCTACAGGGGCAGGGCTTTGTCGTCGCGTCCCCGTCCACGGCTGCATAACA
+Heuchera           TAGGTTCCATCGAGTCCCGCCCTTGTCTTAACAACTTACCACAGAGACACGGCCTTGTGATTACCTTCGCATCTACGATTATATAAAT
+Lonicera           CGGGTACCGCCGACTACTGCCCCTCTTCTGACGGATTGCTCATGAGATCGGGCCCTGCCGCCGCCGCCACGTTTGCGGC?ACCCAATC
+Menyanthes         TAAACTCGGTCCAGTACCATTCTTCCCTTGACATTTTACTGCAGGGGCAGGGCTCCTTCGTCACCTCCGCGTTTACGACTGCATGACA
+Sambucus           TAAGCTTCGCCGAGTACCGCCTT?CTTTTGACAGCCCGTTGCAGAGGCCGAACCCTGTCGTCGCCGCCTTGCTTAGGGCTGCATAACA
+Spigelia           C?GACTCTGCTCGAACCCACTCTCGCGTAGACGGTTTACTACTGAAACAGAGTTCTTTCATTGTGGTTCCACTTATGACTGTATAGAA
+Symphoricarpos     TGAGTACCGCCCACTACTGCCCCCCTTCCGACGGATTGCTCAAGGGATCGGGCCCTGCCGCCGCCTCCACG?TTGCGGTCACCAAACC
+Valeriana          GAAGCACGGCTGGCTATTGTCCTTCCTCTAGTAGATTGCTCAATAGGTACGGCCCCGTGGTCACCTCCGCGCTCGTAGCCGTCCGGTC
+Viburnum           TAAGCTTCGCCGAGTACCG?CTTTCTCTAGACAGCCCGCTAAAGAGGCTGGGCTCTGTCGTCGCCGCCGCGCTTACGGCCGCATAACA
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb4838;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Heuchera,
+            2    Hedera,
+            3    Cornus,
+            4    Spigelia,
+            5    Menyanthes,
+            6    Adoxa,
+            7    Sambucus,
+            8    Viburnum,
+            9    Lonicera,
+            10   Symphoricarpos,
+            11   Valeriana,
+            12   Dipsacus;
+      TREE Fig._1D = [&R] (1,(4,(3,((((6,7),8),(5,2)),(((9,10),11),12)))));
+      TREE Fig._3 = [&R] (1,(4,3,6,7,8,5,2,9,10,11,12));
+      TREE Fig._6A = [&R] (1,(4,3,((5,2),(((6,7),8),((9,10),(11,12))))));
+      TREE Fig._6D = [&R] (1,(3,(2,((5,4),((6,7),8),((9,10),(11,12))))));
+      TREE Fig._6B = [&R] (1,(4,3,((5,2),(6,(7,(8,(9,10)))),(11,12))));
+      TREE Fig._6C = [&R] (1,(4,(3,(((5,2),(((6,7),8),(9,10))),(11,12)))));
+      TREE Fig._3 = [&R] (1,(4,3,((6,7),8),5,2,((9,10),11,12)));
+      TREE Fig._3 = [&R] (1,(4,3,(6,7),8,5,2,((9,10),11,12)));
+      TREE Fig._3 = [&R] (1,(4,3,6,7,8,5,2,((9,10),11,12)));
+      TREE Fig._3 = [&R] (1,(4,3,6,7,8,5,2,(9,10),11,12));
+      TREE Fig._2 = [&R] (1,(4,3,(((6,7),8),(5,2),((9,10),11,12))));
+      TREE Fig._1A = [&R] (1,(4,(3,(((6,7),8),((5,2),((9,10),(11,12)))))));
+      TREE Fig._1B = [&R] (1,(4,(3,((((6,7),8),(5,2)),((9,10),(11,12))))));
+      TREE Fig._1C = [&R] (1,((4,3),((((6,7),8),(5,2)),((9,10),(11,12)))));
+
+
+
+END;

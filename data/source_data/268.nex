@@ -1,0 +1,82 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:36 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Livezey B. 1986. Phylogeny and historical biogeography of steamer-ducks (Anatidae:
+Tachyeres). Systematic Zoology, 35: 458-469.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S332]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=5;
+        TAXLABELS
+            Outgroup_to_Tachyeres
+            Tachyeres_brachypterus
+            Tachyeres_leucocephalus
+            Tachyeres_patachonicus
+            Tachyeres_pteneres
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M1666]
+
+	TITLE Table_1;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=20;
+	FORMAT DATATYPE=Standard SYMBOLS= "a b c" MISSING=? GAP= -;
+	CHARSTATELABELS
+		1  Ventral_articulating_surface_of / dorsal_to_or_coplanar_with_basi ventral_to_basioccipital_plate,
+		2  Posterior_terminal_of_mandibula / straight moderately_medially_inflected strongly_inflected_medially,
+		3  Site_of_attachment_of_M_extenso / distal_end_coincident_with_forn completely_proximad_to_fornix,
+		4  Posterior_extent_of_internal_ri / less_than_or_equal_to_that_of_m exceeds_that_of_metacarpal_m,
+		5  'Tuberosity on proximo-posterior' / indistinct moderately_large prominent,
+		6  Distal_terminus_of_tendinal_gro / open_linear_poorly_ridged_passa shortened_prominent_having_lips,
+		7  Scapholunar_facet_on_radius / perpendicular_to_shaft directed_proximally_appressed_t,
+		8  External_sternal_facet_on_corac / uniformly_textured_surface surface_roughened_ventrally_pro,
+		9  Rotation_of_scapular_blade_arou / moderate_distal_rotation strong_distal_rotation,
+		10  Sexual_dichromatism_of_bill / present obsolete,
+		11  'Bill- lamellar density' / 0.70_0.75 '0.58-0.64 0.600.70' 0.54_0.58,
+		12  'Wing length means (mm)' / 303_288 '275-281 266-273',
+		13  'Body mass means (kg)' / 3.0_23 '3.8-5.4 3.0-4.2',
+		14  Dichromatism_of_head_plumage / present obsolete,
+		15  'Golden "collar" on base of neck' / absent present,
+		16  Postocular_streak_on_downy_youn / continuow divided,
+		17  Supraloral_and_supraocular_patc / separate continuous,
+		18  Upper_eyelid_of_downy_young / dark whitish,
+		19  Color_of_crown_of_downy_young / equal_in_darkness_to_cheeks darker_than_cheeks,
+		20  General_body_color_of_downy_you / brownish grayish,
+		;
+
+MATRIX
+[                                   10        20]
+[                                    .         .]
+Outgroup_to_Tachyeres       aaaaaaaaa-----------
+Tachyeres_brachypterus      abbabbabbabbbababaaa
+Tachyeres_leucocephalus     abbacbbbbabbbaaabbbb
+Tachyeres_patachonicus      aaaaaaaaaaaaaaaaaaaa
+Tachyeres_pteneres          bbbbbaabbbbbbbabaaaa
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb5107;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Outgroup_to_Tachyeres,
+            2    Tachyeres_patachonicus,
+            3    Tachyeres_leucocephalus,
+            4    Tachyeres_brachypterus,
+            5    Tachyeres_pteneres;
+      TREE Fig._2 = [&R] (2,((3,4),5))Tachyeres;
+
+
+
+END;

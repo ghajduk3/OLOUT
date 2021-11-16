@@ -1,0 +1,79 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:38 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Bolliger M., & Molau U. 1992. Nothobartsia, a new genus of Scrophulariaceae from
+southwest Europe. Plant Systematics and Evolution, 179: 59-71.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S146]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=11;
+        TAXLABELS
+            'Bartsia {inc Bellardia}'
+            Bornmuellerantha
+            Digitaleae
+            Euphrasia
+            Hedbergia
+            Macrosyringion
+            Nothobartsia
+            Odontitella
+            Odontites_s_str
+            Omphalothrix
+            Parentucellia
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M2637]
+
+	TITLE Table_2;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=24;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2 3 4" MISSING=? GAP= -;
+
+MATRIX
+[                                   10        20        30        40        50 ]
+[                                    .         .         .         .         . ]
+'Bartsia {inc Bellardia}'   00{01}0110{01}{01}{01}{01}{12}00110{01}{01}11{01}11
+Bornmuellerantha            010000102010211211011111
+Digitaleae                  00000000000000000000000{03}
+Euphrasia                   00001211001{12}011{12}11010010
+Hedbergia                   00000000000100100110001?
+Macrosyringion              010011010001010111011111
+Nothobartsia                00101101{12}00101111101001?
+Odontitella                 110011011101010111000012
+Odontites_s_str             0100101121{01}1111{12}110{01}{01}{01}1{14}
+Omphalothrix                00011010{01}00201111100001?
+Parentucellia               00001101{01}001021000011{01}21
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb4868;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Digitaleae,
+            2    Nothobartsia,
+            3    'Bartsia {inc Bellardia}',
+            4    Odontites_s_str,
+            5    Macrosyringion,
+            6    Odontitella,
+            7    Bornmuellerantha,
+            8    Parentucellia,
+            9    Omphalothrix,
+            10   Euphrasia,
+            11   Hedbergia;
+      TREE Fig._5B = [&R] (1,(((2,(((4,7),10),9),(5,6)),(3,8)),11));
+      TREE Fig._5A = [&R] (1,(((2,(4,7),5,6,9,10),3,8),11));
+
+
+
+END;

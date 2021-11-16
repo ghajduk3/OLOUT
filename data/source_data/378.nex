@@ -1,0 +1,290 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:36 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Corona A., & Morrone J. 2007. Phylogenetic analysis of the subgenus Lampetis (Spinthoptera)
+(Coleoptera: Buprestidae) of North and Central America, and the West
+Indies. Journal of Natural History, 41: 1035-1046.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S1875]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=42;
+        TAXLABELS
+            Capnodis_tenebrionis
+            Ectinogonia_pulverea
+            Lampetis_amaurotica
+            Lampetis_aurata
+            Lampetis_aurifera
+            Lampetis_auropunctata
+            Lampetis_bahamica
+            Lampetis_chalconota
+            Lampetis_chamela
+            Lampetis_chiapaneca
+            Lampetis_christophi
+            Lampetis_colima
+            Lampetis_cortesi
+            Lampetis_cupreopunctata
+            Lampetis_cyanitarsis
+            Lampetis_dilaticollis
+            Lampetis_drummondi
+            Lampetis_fastuosa
+            Lampetis_geniculata
+            Lampetis_granulifera
+            Lampetis_guildini
+            Lampetis_hirtomaculata
+            Lampetis_hondurensis
+            Lampetis_lesnei
+            Lampetis_mexicana
+            Lampetis_monilis
+            Lampetis_obscura
+            Lampetis_rugosa
+            Lampetis_simplex
+            Lampetis_srdinkoana
+            Lampetis_straba
+            Lampetis_tigrina
+            Lampetis_torquata
+            Lampetis_tucumana
+            Lampetis_viridicolor
+            Lampetis_viridimarginalis
+            Lampetis_viridimarginata
+            Lampetis_webbi
+            Oedisterna_bisulcata
+            Perotis_unicolor
+            Polybothris_sumptuosa
+            Psiloptera_bicarinata
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M3733]
+
+	TITLE Lampetis;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=65;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2" MISSING=? GAP= -;
+	CHARSTATELABELS
+		1  Front_sinuate / absent present,
+		2  Front_with_confluent_punctures / scarce abundant,
+		3  Front_with_strong_callosities / absent present,
+		4  Front / narrow wide,
+		5  Depression_behind_eyes / absent present,
+		6  Punctures_on_the_base_of_mandibles / scarce abundant,
+		7  clypeus_margin / emarginate_at_middle concave entire,
+		8  Third_antennal_segment_larger_than_the_second / absent present,
+		9  'Antennal segment 6-11 wider than longer' / absent present,
+		10  Pronotum_longer_than_wider / absent present,
+		11  concavity_along_middle_and_lateral_margin / absent present,
+		12  Lateral_margins_with_confluent_punctures / absent present,
+		13  Lateral_margins_parallel / absent present,
+		14  Lateral_margins_near_anterior_margin_projected_toward_outside / absent present,
+		15  Shape_of_lateral_margin_from_middle_to_anterior_margin / rounded convergent,
+		16  Shape_of_lateral_margin_from_middle_to_posterior_margin / subparallel concave,
+		17  Shape_of_lobule_of_posterior_margin / rounded acute,
+		18  Punctures_at_middle / absent present,
+		19  Surface_with_circular_callosities / absent present,
+		20  Surface_with_sulcus / absent present,
+		21  Sulcus_and_pulverulence_along_lateral_margins / absent present,
+		22  'Sulcus, sometimes interrupted at middle, alon anterior margin' / absent present,
+		23  'Sulcus longitudinal at middle, sometimes interrupted at middle' / absent one_at_midline two,
+		24  Depression_like_a_bead_along_anterior_margin_from_lateral_to_midline / absent present,
+		25  Larger_at_base_than_pronotum / absent present,
+		26  Humeral_angles / rounded slightly_acute,
+		27  Basal_surface_with_transversal_depressions / sacrce abundant,
+		28  lateral_margins_expanded_at_outside / absent present,
+		29  Callosities_at_lateral_margins_near_anterior_margin / absent present,
+		30  'Strongly impressed longitudinal, punctate striae' / absent present,
+		31  Striae / separated closed,
+		32  Many_irregular_interstrial_depression_surrounding_callosities_laterally / abset present,
+		33  Apices_oblique / absent present,
+		34  Apices / non_dentiform dentiform,
+		35  Sutural_angles_of_apices / separated closed,
+		36  Shape_of_anterior_margin_at_middle / flattened concave 'convex (like lobule)',
+		37  Lateral_lobule_of_anterior_margin / absent present,
+		38  With_confluent_punctures_laterally / scarce abundant,
+		39  With_confluent_punctures_anteriorly / absent present,
+		40  Obtusely_angulated_behind_procoxae / absent present,
+		41  Shape / flat convex,
+		42  Punctures_at_middle / absent present,
+		43  Surface_with_confluent_punctures / absent present,
+		44  Concave_medially / absent present,
+		45  With_three_lobules / absent present,
+		46  Second_lobe_of_posterior_margin / absent rounded acute,
+		47  Pubescence_on_lateral_and_posterior_margin / scarce abundant,
+		48  Confluent_punctures_forming_callosities / absent present,
+		49  Apices_shape / rounded flattened,
+		50  Behind_with_teeth_around / absent present,
+		51  First_ventrite_shape / flat concave,
+		52  Carina_on_first_ventrite / absent present,
+		53  Second_ventrite / concave_or_flattened convex,
+		54  Third_ventrite / concave convex,
+		55  Shape_of_last_male_ventrite / rounded truncate,
+		56  Surface_with_circular_callosities_laterally / absent present,
+		57  Surfaec_with_punctures_on_lines / absent present,
+		58  Aedeagus_shape / 'slender, large' 'wide, small',
+		59  Median_lobe_shape / entire_apex subtriangular_apex semicircular_apex,
+		60  Median_lobe / slender wide,
+		61  Paramers_of_aedeagus_from_base_to_middle / parallel subparallel,
+		62  Apices_of_parameres_and_median_lobe / non_parallel parallel,
+		63  Apices_of_parameres_of_aedeagus / rounded oblique truncate,
+		64  Parameres_expanded_from_middle_to_apices / absent present,
+		65  With_irregular_callosities_on_pronotum / absent present,
+		;
+
+MATRIX
+[                                     10        20        30        40        50        60     ]
+[                                      .         .         .         .         .         .     ]
+Capnodis_tenebrionis          00000021100001000100000000000000001110001100120011001110010111011
+Ectinogonia_pulverea          10100010001110000100000001000010000110000100000010110010000001200
+Lampetis_amaurotica           01010120000000100110000001000100001111010000120010111111010010210
+Lampetis_aurata               00111001000000100001111000101101101111111000010110111110002011000
+Lampetis_aurifera             00111001000000110001111000101101110111011000010110110110012011000
+Lampetis_auropunctata         11010101000100100100000101000110111001010010010110111110012111110
+Lampetis_bahamica             10111011000000100001010000101101110111110010010110111110002011000
+Lampetis_chalconota           11010001000100100100000101000101110001110010010110110110010111110
+Lampetis_chamela              01010121000000100100000000100101110001010010010100110110012011000
+Lampetis_chiapaneca           01010001000000100100000100000100110001111010010100110110010111110
+Lampetis_christophi           01010121000000100100000001000101110001010000010010110110010111010
+Lampetis_colima               01010121000000100100000000100101111001010010010110111110002011000
+Lampetis_cortesi              11010101000100100100000001100101101001111000010110110110001011110
+Lampetis_cupreopunctata       11010101000100110100000101100101110001111000010110110110001011000
+Lampetis_cyanitarsis          01010121000000100100000100000101111001010000010010110110002011000
+Lampetis_dilaticollis         00110001000100010000000100100101101001011000011000100110012111010
+Lampetis_drummondi            00110001000100010100000101100101101001011000011000100110012111010
+Lampetis_fastuosa             01010011000000100100000001000100100201110010021010101110010011210
+Lampetis_geniculata           00010111000100100100000001000101110001010000010010110110011011100
+Lampetis_granulifera          00110101000000100100000001000101110001010010010110110110001011000
+Lampetis_guildini             00110001000100100100000001100101110001010110010010111110010111010
+Lampetis_hirtomaculata        00011001000000100100000101000100110001010010010110110110001011000
+Lampetis_hondurensis          01010111000000100100000101000101110001110010010110110110011011000
+Lampetis_lesnei               110100110001001001000000010001011100011100000101001111100???????0
+Lampetis_mexicana             01110111000100100100000101100101110001011010010110110110012011100
+Lampetis_monilis              01010001000000100100000101000100110001110000010010110110001011000
+Lampetis_obscura              11010001000100110100000101100101110001111000010110111110001011010
+Lampetis_rugosa               01010011000100100100000001000100000111000010020010111110010111010
+Lampetis_simplex              01010101000000100100000001000101110001010000010010110110001011100
+Lampetis_srdinkoana           10111011000000100100000100000100111001010000010010111110010111010
+Lampetis_straba               00110111000000100001112000101100111111111000010110001110002011000
+Lampetis_tigrina              01010011000000110100000100000101110001111000010110111110011011100
+Lampetis_torquata             00111001000000110001010000101101110111111010010110111110002011000
+Lampetis_tucumana             00111011000000100100000100000100110111010010010010110110010111010
+Lampetis_viridicolor          01010101000000100100000101000101110001110000010110111110011011000
+Lampetis_viridimarginalis     11010111000000110100000100000101110001111010010100011110001011000
+Lampetis_viridimarginata      01010011000000100110000001000100001111010000120010111111010010210
+Lampetis_webbi                00110101000000110100000100000101101001011000010000100110012111010
+Oedisterna_bisulcata          00100001000101000100100100000010001110001000020010001110010110210
+Perotis_unicolor              00010011000001000100000101000010001101000110120010001110010110010
+Polybothris_sumptuosa         10000020010010101101000010010000001110000100000010110000110001000
+Psiloptera_bicarinata         01010121000200100001010001000100011201000001010010110010010011210
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb8590;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Lampetis_srdinkoana,
+            2    Lampetis_simplex,
+            3    Lampetis_monilis,
+            4    Lampetis_mexicana,
+            5    Lampetis_lesnei,
+            6    Lampetis_hondurensis,
+            7    Lampetis_hirtomaculata,
+            8    Lampetis_guildini,
+            9    Lampetis_granulifera,
+            10   Lampetis_geniculata,
+            11   Lampetis_drummondi,
+            12   Lampetis_dilaticollis,
+            13   Lampetis_cyanitarsis,
+            14   Lampetis_cupreopunctata,
+            15   Lampetis_cortesi,
+            16   Lampetis_colima,
+            17   Lampetis_christophi,
+            18   Lampetis_chiapaneca,
+            19   Lampetis_chamela,
+            20   Lampetis_chalconota,
+            21   Lampetis_bahamica,
+            22   Lampetis_auropunctata,
+            23   Lampetis_aurifera,
+            24   Lampetis_aurata,
+            25   Lampetis_tucumana,
+            26   Lampetis_rugosa,
+            27   Lampetis_fastuosa,
+            28   Lampetis_viridimarginata,
+            29   Lampetis_amaurotica,
+            30   Psiloptera_bicarinata,
+            31   Polybothris_sumptuosa,
+            32   Oedisterna_bisulcata,
+            33   Capnodis_tenebrionis,
+            34   Ectinogonia_pulverea,
+            35   Perotis_unicolor,
+            36   Lampetis_webbi,
+            37   Lampetis_viridimarginalis,
+            38   Lampetis_viridicolor,
+            39   Lampetis_torquata,
+            40   Lampetis_tigrina,
+            41   Lampetis_obscura,
+            42   Lampetis_straba;
+      TREE Fig._10 = [&R] (35,(33,32,((34,31),(30,27,26,25,22,20,19,18,17,16,15,14,13,10,9,8,7,6,5,4,3,2,1,41,40,38,37,(29,28),(36,(12,11)),(24,23,21,42,39)))));
+
+
+
+END;
+BEGIN TREES;
+      TITLE Tb8589;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Lampetis_srdinkoana,
+            2    Lampetis_simplex,
+            3    Lampetis_monilis,
+            4    Lampetis_mexicana,
+            5    Lampetis_lesnei,
+            6    Lampetis_hondurensis,
+            7    Lampetis_hirtomaculata,
+            8    Lampetis_guildini,
+            9    Lampetis_granulifera,
+            10   Lampetis_geniculata,
+            11   Lampetis_drummondi,
+            12   Lampetis_dilaticollis,
+            13   Lampetis_cyanitarsis,
+            14   Lampetis_cupreopunctata,
+            15   Lampetis_cortesi,
+            16   Lampetis_colima,
+            17   Lampetis_christophi,
+            18   Lampetis_chiapaneca,
+            19   Lampetis_chamela,
+            20   Lampetis_chalconota,
+            21   Lampetis_bahamica,
+            22   Lampetis_auropunctata,
+            23   Lampetis_aurifera,
+            24   Lampetis_aurata,
+            25   Lampetis_tucumana,
+            26   Lampetis_rugosa,
+            27   Lampetis_fastuosa,
+            28   Lampetis_viridimarginata,
+            29   Lampetis_amaurotica,
+            30   Psiloptera_bicarinata,
+            31   Polybothris_sumptuosa,
+            32   Oedisterna_bisulcata,
+            33   Capnodis_tenebrionis,
+            34   Ectinogonia_pulverea,
+            35   Perotis_unicolor,
+            36   Lampetis_webbi,
+            37   Lampetis_viridimarginalis,
+            38   Lampetis_viridicolor,
+            39   Lampetis_torquata,
+            40   Lampetis_tigrina,
+            41   Lampetis_obscura,
+            42   Lampetis_straba;
+      TREE Fig._9 = [&R] (35,(32,(33,((26,((27,(30,((10,((2,(3,(((40,37),(14,(15,41))),(38,(6,((9,7),(4,(22,(20,(18,5)))))))))),(13,(19,(16,(21,(39,(23,(24,42))))))))),(17,(8,((36,(12,11)),(25,1))))))),(29,28))),(34,31)))));
+
+
+
+END;

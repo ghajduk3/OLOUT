@@ -1,0 +1,733 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:51 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Chaw R.C., Zhao Y., Wei J., Ayoub N., Allen R., Atrushi K., & Hayashi C. 2014. Intragenic
+homogenization and multiple copies of prey-wrapping silk genes in Argiope
+garden spiders. BMC Evolutionary Biology, 14(31).
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S15355]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=30;
+        TAXLABELS
+            Agelenopsis_aperta_MaSp
+            Agelenopsis_aperta_TuSp1
+            Araneus_ventricosus_Flag
+            Araneus_ventricosus_MiSp
+            Argiope_argentata_AcSp1Complete
+            Argiope_argentata_TuSp1
+            Argiope_bruennichi_TuSp1
+            Argiope_trifasciata_MaSp2
+            Bothriocyrtum_californicum_fibroin1
+            Deinopis_spinosa_MaSp2
+            Deinopis_spinosa_fibroin1a
+            Diguetia_canities_MaSp
+            Diguetia_canities_MaSp_like
+            Euprosthenops_australis_MaSp
+            Latrodectus_geometricus_AcSp1
+            Latrodectus_geometricus_MaSp1
+            Latrodectus_hesperus_AcSp1
+            Latrodectus_hesperus_MaSp1
+            Latrodectus_hesperus_MaSp2
+            Latrodectus_hesperus_MiSp
+            Latrodectus_hesperus_TuSp1
+            Metepeira_grandiosa_MiSp
+            Nephila_clavata_TuSp1
+            Nephila_clavipes_Flag
+            Nephila_clavipes_MaSp1a
+            Nephila_clavipes_MaSp1b
+            Nephila_clavipes_MaSp2
+            Nephila_inaurata_madagascariensis_Flag
+            Nephila_inaurata_madagascariensis_MaSp2
+            Uloborus_diversus_MiSp
+            ;
+END;
+
+BEGIN TAXA;
+        TITLE  Taxa2;
+        DIMENSIONS NTAX=4;
+        TAXLABELS
+            Araneus_ventricosus
+            Argiope_argentata
+            Argiope_aurantia
+            Argiope_trifasciata
+            ;
+END;
+
+BEGIN TAXA;
+        TITLE  Taxa3;
+        DIMENSIONS NTAX=50;
+        TAXLABELS
+            Araneus_ventricosus_R_1
+            Araneus_ventricosus_R_10
+            Araneus_ventricosus_R_2
+            Araneus_ventricosus_R_3
+            Araneus_ventricosus_R_4
+            Araneus_ventricosus_R_5
+            Araneus_ventricosus_R_6
+            Araneus_ventricosus_R_7
+            Araneus_ventricosus_R_8
+            Araneus_ventricosus_R_9
+            Argiope_amoena_R_1
+            Argiope_amoena_R_2
+            Argiope_amoena_R_3
+            Argiope_amoena_R_4
+            Argiope_amoena_R_5
+            Argiope_amoena_R_6
+            Argiope_argentata_R_1
+            Argiope_argentata_R_10
+            Argiope_argentata_R_11
+            Argiope_argentata_R_12
+            Argiope_argentata_R_13
+            Argiope_argentata_R_14
+            Argiope_argentata_R_15
+            Argiope_argentata_R_16
+            Argiope_argentata_R_17
+            Argiope_argentata_R_18
+            Argiope_argentata_R_19
+            Argiope_argentata_R_2
+            Argiope_argentata_R_20
+            Argiope_argentata_R_3
+            Argiope_argentata_R_4
+            Argiope_argentata_R_5
+            Argiope_argentata_R_6
+            Argiope_argentata_R_7
+            Argiope_argentata_R_8
+            Argiope_argentata_R_9
+            Argiope_trifasciata_R_1
+            Argiope_trifasciata_R_10
+            Argiope_trifasciata_R_11
+            Argiope_trifasciata_R_12
+            Argiope_trifasciata_R_13
+            Argiope_trifasciata_R_14
+            Argiope_trifasciata_R_2
+            Argiope_trifasciata_R_3
+            Argiope_trifasciata_R_4
+            Argiope_trifasciata_R_5
+            Argiope_trifasciata_R_6
+            Argiope_trifasciata_R_7
+            Argiope_trifasciata_R_8
+            Argiope_trifasciata_R_9
+            ;
+END;
+
+BEGIN TAXA;
+        TITLE  Taxa4;
+        DIMENSIONS NTAX=4;
+        TAXLABELS
+            Araneus_ventricosus
+            Argiope_argentata
+            Argiope_aurantia
+            Argiope_trifasciata
+            ;
+END;
+
+BEGIN TAXA;
+        TITLE  Taxa5;
+        DIMENSIONS NTAX=50;
+        TAXLABELS
+            Araneus_ventricosus_R_1
+            Araneus_ventricosus_R_10
+            Araneus_ventricosus_R_2
+            Araneus_ventricosus_R_3
+            Araneus_ventricosus_R_4
+            Araneus_ventricosus_R_5
+            Araneus_ventricosus_R_6
+            Araneus_ventricosus_R_7
+            Araneus_ventricosus_R_8
+            Araneus_ventricosus_R_9
+            Argiope_amoena_R_1
+            Argiope_amoena_R_2
+            Argiope_amoena_R_3
+            Argiope_amoena_R_4
+            Argiope_amoena_R_5
+            Argiope_amoena_R_6
+            Argiope_argentata_R_1
+            Argiope_argentata_R_10
+            Argiope_argentata_R_11
+            Argiope_argentata_R_12
+            Argiope_argentata_R_13
+            Argiope_argentata_R_14
+            Argiope_argentata_R_15
+            Argiope_argentata_R_16
+            Argiope_argentata_R_17
+            Argiope_argentata_R_18
+            Argiope_argentata_R_19
+            Argiope_argentata_R_2
+            Argiope_argentata_R_20
+            Argiope_argentata_R_3
+            Argiope_argentata_R_4
+            Argiope_argentata_R_5
+            Argiope_argentata_R_6
+            Argiope_argentata_R_7
+            Argiope_argentata_R_8
+            Argiope_argentata_R_9
+            Argiope_trifasciata_R_1
+            Argiope_trifasciata_R_10
+            Argiope_trifasciata_R_11
+            Argiope_trifasciata_R_12
+            Argiope_trifasciata_R_13
+            Argiope_trifasciata_R_14
+            Argiope_trifasciata_R_2
+            Argiope_trifasciata_R_3
+            Argiope_trifasciata_R_4
+            Argiope_trifasciata_R_5
+            Argiope_trifasciata_R_6
+            Argiope_trifasciata_R_7
+            Argiope_trifasciata_R_8
+            Argiope_trifasciata_R_9
+            ;
+END;
+
+BEGIN TAXA;
+        TITLE  Taxa6;
+        DIMENSIONS NTAX=22;
+        TAXLABELS
+            Araneus_ventricosus_Cterm
+            Argiope_argentata_CtermV1
+            Argiope_argentata_CtermV2
+            Argiope_argentata_CtermV3
+            Argiope_argentata_CtermV4
+            Argiope_argentata_CtermV5
+            Argiope_argentata_CtermV6
+            Argiope_argentata_CtermV7
+            Argiope_aurantia_CtermV1
+            Argiope_aurantia_CtermV2
+            Argiope_trifasciata_CtermV1
+            Argiope_trifasciata_CtermV10
+            Argiope_trifasciata_CtermV11
+            Argiope_trifasciata_CtermV12
+            Argiope_trifasciata_CtermV2
+            Argiope_trifasciata_CtermV3
+            Argiope_trifasciata_CtermV4
+            Argiope_trifasciata_CtermV5
+            Argiope_trifasciata_CtermV6
+            Argiope_trifasciata_CtermV7
+            Argiope_trifasciata_CtermV8
+            Argiope_trifasciata_CtermV9
+            ;
+END;
+
+BEGIN TAXA;
+        TITLE  Taxa7;
+        DIMENSIONS NTAX=27;
+        TAXLABELS
+            Argiope_argentata_NtermV1
+            Argiope_argentata_NtermV2
+            Argiope_argentata_NtermV3
+            Argiope_argentata_NtermV4
+            Argiope_argentata_NtermV5
+            Argiope_argentata_NtermV6
+            Argiope_argentata_NtermV7
+            Argiope_aurantia_NtermV1
+            Argiope_aurantia_NtermV2
+            Argiope_aurantia_NtermV3
+            Argiope_aurantia_NtermV4
+            Argiope_aurantia_NtermV5
+            Argiope_aurantia_NtermV6
+            Argiope_trifasciata_NtermV1
+            Argiope_trifasciata_NtermV10
+            Argiope_trifasciata_NtermV11
+            Argiope_trifasciata_NtermV12
+            Argiope_trifasciata_NtermV13
+            Argiope_trifasciata_NtermV14
+            Argiope_trifasciata_NtermV2
+            Argiope_trifasciata_NtermV3
+            Argiope_trifasciata_NtermV4
+            Argiope_trifasciata_NtermV5
+            Argiope_trifasciata_NtermV6
+            Argiope_trifasciata_NtermV7
+            Argiope_trifasciata_NtermV8
+            Argiope_trifasciata_NtermV9
+            ;
+END;
+
+BEGIN TAXA;
+        TITLE  Taxa8;
+        DIMENSIONS NTAX=22;
+        TAXLABELS
+            Araneus_ventricosus_Cterm
+            Argiope_argentata_CtermV1
+            Argiope_argentata_CtermV2
+            Argiope_argentata_CtermV3
+            Argiope_argentata_CtermV4
+            Argiope_argentata_CtermV5
+            Argiope_argentata_CtermV6
+            Argiope_argentata_CtermV7
+            Argiope_aurantia_CtermV1
+            Argiope_aurantia_CtermV2
+            Argiope_trifasciata_CtermV1
+            Argiope_trifasciata_CtermV10
+            Argiope_trifasciata_CtermV11
+            Argiope_trifasciata_CtermV12
+            Argiope_trifasciata_CtermV2
+            Argiope_trifasciata_CtermV3
+            Argiope_trifasciata_CtermV4
+            Argiope_trifasciata_CtermV5
+            Argiope_trifasciata_CtermV6
+            Argiope_trifasciata_CtermV7
+            Argiope_trifasciata_CtermV8
+            Argiope_trifasciata_CtermV9
+            ;
+END;
+
+BEGIN TAXA;
+        TITLE  Taxa9;
+        DIMENSIONS NTAX=30;
+        TAXLABELS
+            Agelenopsis_aperta_MaSp
+            Agelenopsis_aperta_TuSp1
+            Araneus_ventricosus_Flag
+            Araneus_ventricosus_MiSp
+            Argiope_argentata_AcSp1Complete
+            Argiope_argentata_TuSp1
+            Argiope_bruennichi_TuSp1
+            Argiope_trifasciata_MaSp2
+            Bothriocyrtum_californicum_fibroin1
+            Deinopis_spinosa_MaSp2
+            Deinopis_spinosa_fibroin1a
+            Diguetia_canities_MaSp
+            Diguetia_canities_MaSp_like
+            Euprosthenops_australis_MaSp
+            Latrodectus_geometricus_AcSp1
+            Latrodectus_geometricus_MaSp1
+            Latrodectus_hesperus_AcSp1
+            Latrodectus_hesperus_MaSp1
+            Latrodectus_hesperus_MaSp2
+            Latrodectus_hesperus_MiSp
+            Latrodectus_hesperus_TuSp1
+            Metepeira_grandiosa_MiSp
+            Nephila_clavata_TuSp1
+            Nephila_clavipes_Flag
+            Nephila_clavipes_MaSp1a
+            Nephila_clavipes_MaSp1b
+            Nephila_clavipes_MaSp2
+            Nephila_inaurata_madagascariensis_Flag
+            Nephila_inaurata_madagascariensis_MaSp2
+            Uloborus_diversus_MiSp
+            ;
+END;
+
+BEGIN TAXA;
+        TITLE  Taxa10;
+        DIMENSIONS NTAX=27;
+        TAXLABELS
+            Argiope_argentata_NtermV1
+            Argiope_argentata_NtermV2
+            Argiope_argentata_NtermV3
+            Argiope_argentata_NtermV4
+            Argiope_argentata_NtermV5
+            Argiope_argentata_NtermV6
+            Argiope_argentata_NtermV7
+            Argiope_aurantia_NtermV1
+            Argiope_aurantia_NtermV2
+            Argiope_aurantia_NtermV3
+            Argiope_aurantia_NtermV4
+            Argiope_aurantia_NtermV5
+            Argiope_aurantia_NtermV6
+            Argiope_trifasciata_NtermV1
+            Argiope_trifasciata_NtermV10
+            Argiope_trifasciata_NtermV11
+            Argiope_trifasciata_NtermV12
+            Argiope_trifasciata_NtermV13
+            Argiope_trifasciata_NtermV14
+            Argiope_trifasciata_NtermV2
+            Argiope_trifasciata_NtermV3
+            Argiope_trifasciata_NtermV4
+            Argiope_trifasciata_NtermV5
+            Argiope_trifasciata_NtermV6
+            Argiope_trifasciata_NtermV7
+            Argiope_trifasciata_NtermV8
+            Argiope_trifasciata_NtermV9
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M20777]
+
+	TITLE RepeatPCR;
+	LINK TAXA = Taxa4;
+	DIMENSIONS NCHAR=525;
+	FORMAT DATATYPE=DNA SYMBOLS= "A C G T" MISSING=? GAP= -;
+
+MATRIX
+[                               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170       180       190       200       210       220       230       240       250       260       270       280       290       300       310       320       330       340       350       360       370       380       390       400       410       420       430       440       450       460       470       480       490       500       510       520        ]
+[                                .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .        ]
+Araneus_ventricosus     GGTTTCACAGGGGCTGGTGGCTACCCTGGT------GGAGCTGGTCCTTTGGGTGGCGGAGTAGGCTCTTTGACAGGCCAAACCTCTTTCGGT------------CAAACATCAGGCTTTACTTCAACTGCTGG{CT}GCCCAAGGAGGTTTCGGTCCAACAACTGGCGCGCAATCTGCCCTTATCTCCAGAATAGCTAACGCACTGGCGAATACATCAACACTGAGATCGGTCCTCAGAACCGGTGTATCCCAACAGACTGCCTCTAGCGTGGTACAGAGAACCATCCAGACCTTGGCTAGTAATCTCGGCATCGACGGAAATAACTTGTCCAGAATAGCGTTACAAGCCATCTCTCAAGTCCCCGCGGGTTCTGACACTTCTGCTTACGCTCAAGCATTTTCTACTGCCTTGGTCACCGGTGGAGTTCTGAACGCAAACAACGTTGACACATTGGGATCCCAAGTACTCTCAGCAGTTTTGAACGGAGTATCAAGTGCGGCGCAAGGCCTTGGAATCAATGTAGAC
+Argiope_argentata       GGCTACACCGGACCTTCTGGCTACACAGGA---------CCAGTGGGTGGCGGAGCGCAGTTCGGTTCTGCTTCAGGCCAAAGCTCTTTCGGT------------CAGACATCAGGATTTACCGCATCTTCTGGCGGACAAGCCGCTTTCGGTGGAACCAGTGGAGCGTCTGCTGGCCTCATCTCCAGAGTAGCAAACGCACTTGCCAATACATCCACATTGAGAGCTGTCCTCCGAAGAGGTGTATCCCAACAGACTGCCTCCAGCGTGGTACAGAGAGCCGCTCAGTCGTTGGCCAGTACTCTCGGAGTCGACGGAAACAACTTGTCCAGAGTAGCATTACAAGCCATCTCTCAAGTGCCCACAGGGTCTGACACTTCAGCTTACGCTCAAGCCTTCTCTAGTGCGCTCTTCAATGCCGGAGTTCTCAATGCAAGCAACATTGACACATTGGGATCCCGAGTTCTCTCAGCTGTTTTGAACGGAGTATCAAGTGCGGCGCAAGGTCTTGGCATCAATGTAGAT
+Argiope_aurantia        GGTTACACAGGGCCTGCTGGACCTTCTGGCTACACAGGGCCTGCTGGACCTTCTGGTTACACTGGGCCTGTGGGTGGCGGAGCGCAGTTTGGTTCGGTTTCAGGTCAAACATCAGGCTTTACCGCATCTACTGGCGGACAAGCCGCTTTCGGTACAACAAGTGGAGCGTCTTCTGGCCTTATCTCCAGAGTAGCAAACGCACTTGCCAATACATCAACATTGAGAACTGTCCTCAGAAGAGGTGTATCCCAACAGATTGCCTCCAGCGTGGTACAGAGAGCCGCTCAGTCGTTGGCCAGTACTCTGGGAGTCGACGGAAATAACTTCTCCAGAATAGCATTACAAGCCATCTCTCAAGTGCCCGCAGGGTCTGACACTTCTGCTTACGCTCAAGCATTCTCTAGTGCGCTGTTCAATGCCGGAGTTCTGAATGCAAGCAACATTGACTCATTGGGATCCCGAGTTCTGTCAGCAGTTTTGAACGGAGTATCAAGTGCGGCGCAAGGTGTTGGCATCAATGTAGAT
+Argiope_trifasciata     GGATACACAGGACCTTCTGGACCTTCC---------------ACTGGACCTTCTGGCTACCCTGGGCCTTTGGGTGGCGGAGCGCCGTTCGGT------------CAAACATCAGGCTTTGGCGGATCTGTTGGCCCTCAAGGTGGATTCGGTGCCACAGGTGGAGCGTCTGCTGGCCTTATCTCCAGAGTAGCAAACGCACTTGCCAATACATCAACATTGAGAACTGTCCTCAGAAGAGGTGTATCTCAACAGATTGCCTCCAGCGTGGTACAGAGAGCCGCTCAGTCGTTGGCCAGTACTCTCGGAGTCGACGGAAATAACTTGGCCAGAATAGCATTACAAGCCATCTCTCAAGTGCCCTCAGGGTCTGACACTTCTGCTTACGCTCAGGCATTCTCTAGTGCGCTGTTCAATGCCGGAGTTCTGAATGCAAGCAACATTGACTCATTGGGATCCCGAGTTCTGTCAGCAGTTTTGAACGGAGTATCAAGTGCGGCGCAAGGTCTTGGCATCAATGTAGAT
+;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M20774]
+
+	TITLE CtermPCRvariants;
+	LINK TAXA = Taxa8;
+	DIMENSIONS NCHAR=687;
+	FORMAT DATATYPE=DNA SYMBOLS= "A C G T" MISSING=? GAP= -;
+
+MATRIX
+[                                        10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170       180       190       200       210       220       230       240       250       260       270       280       290       300       310       320       330       340       350       360       370       380       390       400       410       420       430       440       450       460       470       480       490       500       510       520       530       540       550       560       570       580       590       600       610       620       630       640       650       660       670       680       690   ]
+[                                         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .   ]
+Araneus_ventricosus_Cterm        TCCCAAGTACTCTCAGCAGTTTTGAACGGAGTATCAAGTGCGGCGCAAGGCCTTGGAATCAATGTAGACACTGGAAGTGTACAAAGTGACATTCGTTCCAGCAGTAGCTCCCTGTCAACAAGTTCTTCGTCTGCCAGTTTC---TCTCAGACCAGTGGTGCAGCTTCGACA---ACTGGTTTCACA---------GGGGCTGGTGGCTAC---------------------------------------------------------------------------------------------------CCTGGTGGAGCTGGTCCTTTGGGTGGCGGAGTAGGCTCATTTGGAGGT------CAAACCTCTTTCGGTCAAACATCAGGCTTGACCTCTTCTGCTGCTAGCCAATCGGATTTCACTCAAGCTAGTGGCTTTGTGTCATCTGCTACCAGTCAAGGTGCTTTTGGTCAAACGTCGGGTATTGCTTCATTTGGTGCTGGACCATCGACTGGATTATCGGTGAGATCTACTCTTAATTCGCCCAATGGATTGAGGTCGGGTTCGGCTGCAGCTAGAATCAGCCAATTGACATCATCTGTAAGGAATGCGATCGGTCCCAATGGCGTTGATGCTAATGCTCTGGCCCGTAGTCTTCAAGCAAGTTTCTCGAGTCTTCGAAGT
+Argiope_argentata_CtermV1        TCCCGAGTTCTCTCAGCTGTTTTGAACGGAGTATCAAGTGCGGCGCAAGGTCTTGGCATCAATGTAGATACCGGCAGTGTACAGAGTGACATTAGTTCCAGTAGCAGCTTCCTCTCAACCAGCTCGTCTGCGTCCAGTATCTCCTCTCAGGTATCAGCTTCTTCTACCAGCGGTGCTGGCTACACC---------GGACCTTCTGGCTAC------------------------------------------------------------------------------------------------------------ACAGGACCAGTGGGTGGCGGAGCGCAGTTCGGTTCTTCTTCAGGCCAAAGCTCTTTCGGTCAAACATCAGGATTTACAACTTCCGCTGGC---------CTCTTAGGAGCCACGTCTGGA------TCG---CTG---TCT---------------------------------------GGTGCTGGACAATCTGCTGGAGTATCTTTAACGTCTTCTCTTAATTCGCCCGTTGGATTAAGATCTGGTTCTGCTGCTTCTAGAATCAGGCAATTAACTTCATCTGTGACGAATGCGGTCGGCCCCAATGGAGTTGATGCTAATGCACTTGCCCGTAGTCTTCAATCTAGTTTCTCGAATCTGAGAAGT
+Argiope_argentata_CtermV2        TCCCGAGTCCTGTCAGGAGTTTTGAACGGAGTATCAAGAGCTGCACAAGACCTTGGCTTGAATGTAGACACCAGCAATGTACAAAATGACATTAGTTCCAGCAATAGCTTCCTCTCATCCAGTTCCACC---ACCAGTTAC---TCTCAGACAGGAGGTTCT---ACTTCCAGTGCTGCTTCAACTCGCACCTCAGGATCTACAGGCTACACCGGAGAACAG------------TACGGATCTGCATCCAGCCAAAGATCCTACGGTCAAACA------------------------------------TCAGGCTATACCGGATCT---ACTGCCGGA------------------------CAAACCGGTTACGGACAAGCATCTGGCTACACCGGATCTTCTGAAAGCCAAAGAGGTTATGGTCAATCAAGTGGTTCGACATCTCAACTTGCCTTT---------------------------------------GGTGCTGGACAATCTGCTGGAGCTTCCCTGACAGGTGCTCTTAACTCACCTGTTGGATTGAGATCTGGTTCTGCTGCTTCTAGAATTAATCAATTAGCATCATCTGTGACAAATGCGGTCGGCCCCAACGGCGTGGATGCTAATGCTCTTGCTCAAAGTCTCCAATCTAGTTTCTCGGCACTCAGAAGC
+Argiope_argentata_CtermV3        TCCCGAGTTCTGTCAGCAGTTTTGAACGGAGTATCAAGTGCGGCGCAAGGTCTAGGCATCAATGTAGACACTGGCAGTGTACAAAGTGACATTCGTTCCAGCAGTGGCTTCCTGTCAACAAGCACTTCGTCGACCAGTTTC---TCTCAGGCATCAGCTTCTTCTGCCGGTGGAGCTGGCTACTCG---------GGACCTTCTGGCTACAAT---------------------------------------------------------------GGACCTTCCGGGTACACC---------GGACCTTCTGGCTACACTGGGCCTGTGGGCGGCGGAGCGCAGTTCGGTTCCGTTTCAGGCCAAACCTCTTACGGTCAAACGTCAGGATCTGCCGCATCTACTGGAGGCCAAGGTGTTTTAGGTCAACCAATTGGGGTACCATCTAGCCTCACCGCT---------------------------------------GGTGTTGGACAAACGGCTGATGTATCAGTAATTTCTTCTCTTAACTCACCTGTTGGATTGAGATCTGGTTCTGCTGCTTCTAGAATTAATCAACTAGCATCATCTGTGACAAATGCGGTCGGACCCAACGGCGTGGATGCTAATGTTCTTGCTCAAAGTCTCCAATCTAGTTTCTCGGCACTCAGAAGC
+Argiope_argentata_CtermV4        TCCCGAGTTCTGTCAGCAGTTTTGAACGGAGTATCAAGTGCGGCGCAAGGTCTAGGCATCAATGTAGACACTGGCAGTGTACAAAGTGACATTCGTTCCAGCAGTGGCTTCCTGTCAACAAGCACTTCGTCGACCAGTTTC---TCTCAGGCATCAGCTTCTTCTGCCGGTGGAGCTGGCTACTCG---------GGACCTTCTGGCTACAAT---------------------------------------------------------------GGATCTTCCGGGTACACC---------GGACCGTCTGGCTACACTGGGCCTGTGGGCGGCGGAGCGCAGTTCGGTTTCGTTTCAGGCCAAACCTCTTACGGTCAAACGTCAGGATCTGCCGCATCTACTGGAGGCCAAGGTGTTTTAGGTCAACCAATTGGGGTACCATCTAGCCTCACCGCT---------------------------------------GGTGTTGGACAAACGGCTGATGTATCAGTAATTTCTTCTCTTAACTCACCTGTTGGATTGAGATCTGGTTCTGCTGCTTCTAGAATTAATCAACTAGCATCATCTGTGACAAATGCGGTCGGACCCAACGGCGTGGATGCTAATGTTCTTGCTCAAAGTCTCCAATCTAGTTTCTCGGCACTCAGAAGC
+Argiope_argentata_CtermV5        TCCCGAGTTCTGTCAGCAGTTTTGAACGGAGTATCAAGTGCGGCGCAAGGTCTAGGCATCAATGTAGACACTGGCAGTGTACAAAGTGACATTCGTTCCAGCAGTGGCTTCCTGTCAACAAGCACTTCGTCGACCAGTTTC---TCTCAGACATCAGCTTCTTCTGCCGGTGGAGCTGGCTACTCG---------GGACCTTCTGGCTACAAT---------------------------------------------------------------GGATCTTCCGGGTACACC---------GGACCGTCTGGCTACACTGGGCCTGTGGGCGGCGGAGCGCAGTTCGGTTTCGTTTCAGGCCAAACCTCTTACGGTCAAACGTCAGGATCTGCCGCATCTACTGGAGGCCAAGGTGTTTTAGGTCAACCAATTGGGGTACCATCTAGCCTCACCGCT---------------------------------------GGTGTTGGACTAACGGCTGATGTATCAGTAATTTCTTCTCTTAACTCACCTGTTGGATTGAGATCTGGTTCTGCTGCTTCTAGAATTAATCAACTAGCATCATCTGTGACAAATGCGGTCGGACCCAACGGCGTGGATGCTAATGTTCTTGCTCAAAGTCTCCAATCTAGTTTCTCGGCACTCAGAAGC
+Argiope_argentata_CtermV6        TCCCGAGTTCTGTCAGCAGTTTTGAACGGAGTATCAAGTGCGGCGCAAGGTCTAGGCATCAATGTAGACACTGGCAGTGTACAAAGTGACATTCGTTCCAGCAGTGGCTTCCTGTCAACAAGCACTTCGTCGACCAGTTTC---TCTCAGACATCAGCTTCTTCTGCCGGTGGAGCTGGCTACTCG---------GGACCTTCTGGCTACAAT---------------------------------------------------------------GGATCTTCCGGGTACACC---------GGACCGTCTGGCTACACTGGGCCTGTGGGCGGCGGAGCGCAGTTCGGTTTCGTTTCAGGCCAAACCTCTTACGGTCAAACGTCAGGATCTGCCGCATCTACTGGAGGCCAAGGTGTTTTAGGTCAACCAATTGGGGTACCATCTAGCCTCACCGCT---------------------------------------GGTGTTGGACAAACGGCTGATGTATCAGTAATTTCTTCTCTTAACTCACCTGTTGGATTGAGATCTGGTTCTGCTGCTTCTAGAATTAATCAACTAGCATCATCTGTGACAAATGCGGTCGGACCCAACGGCGTGGATGCTAATGTTCTTGCTCAAAGTCTCCAATCTAGTTTCTCGGCACTCAGAAGC
+Argiope_argentata_CtermV7        TCCCGAGTTCTGTCAGCAGTTTTGAACGGAGTATCAAGTGCGGCGCAAGGTCTAGGCATCAATGTAGACACTGGCAGTGTACAAAGTGACATTCGTTCCAGCAGTGGCTTCCTGTCAACAAGCACTTCGTCGACCAGTTTC---TCTCAGGCATCAGCTTCTTCTGCCGGTGGAGCTGGCTACTCG---------GGACCTTCTGGCTACAAT---------------------------------------------------------------GGACCTTCCGGGTACACC---------GGACCTTCTGGCTACACTGGGCCTGTGGGCGGCGGAGCGCAGTTCGGTTCCGTTTCAGGCCAAACCTCTTACGGTCAAACGTCAGGATCTGCCGCATCTACTGGAGGCCAAGGTGTTTTAGGTCAACCAATTGGGGTACCATCTAGCCTCACCGCT---------------------------------------GGTGTTGGACTAACGGCTGATGTATCAGTAATTTCTTCTCTTAACTCACCTGTTGGATTGAGATCTGGTTCTGCTGCTTCTAGAATTAATCAACTAGCATCATCTGTGACAAATGCGGTCGGACCCAACGGCGTGGATGCTAATGTTCTTGCTCAAAGTCTCCAATCTAGTTTCTCGGCACTCAGAAGC
+Argiope_aurantia_CtermV1         TCCCGAGTTCTGTCAGCAGTTTTGAACGGAGTATCAAGTGCGGCGCAAGGTGTTGGCATCAATGTAGATTCCGGCAGTGTACAAAGTGACATTAGTTCCAGTAGCAGCTTCCTCTCAACAAGCTCGTCTGCGTCCAGTTTC---TCTCAGACATCAGCTTCTTCTACCAGCGGTGCTGGTTACACAGGGCCTTCTGGACCTTCTGGCTACACAGGGCCTGCT------------------------------------------------------GGACCTTCTGGCTACACAGGGCCTGCTGGACCTTCTGGTTACACTGGGCCTGTGGGTGGCGGAGCGCAGTTCGGTTCTGTTTCAGGCCAATCCTCTTTCGGTCAAACATTAGGTGTTACGGCTTCTGCTGGCGCTCCAGGTGGTTTG------CTGGGTGGCGCCCCATCTAGCGTGACCTCT---------------------------------------GGTGCCGGACAGTCGGGTGGAGTATCTCTCATATCTTCTCTTAATTCACCCGTTGGATTGAGATCTGGTTCTGCTGCTTCTAGAATTAGTCAATTAACATCCTCCGTAACAAATGCGGTCGGCCCCAATGGTGTTGATGCTAACGCTCTTGCCCGAAGTCTTCAATCTAGTTTCTCGGCACTGAGAAGC
+Argiope_aurantia_CtermV2         TCCCGAGTTCTGTCAGCAGTTTTGAACGGAGTATCAAGTGCGGCGCAAGGTGTTGGCATCAATGTAGATACCGGCAGTGTACAAAGTGACATTAGTTCCAGTAGCAGCTTCCTCTCAACAAGCTCGTCTGCGGCCAGTTTC---TCTCAGACATCAGCTTCTTCTACCAGCGGTGCTGGTTACACAGGGCCTGCTGGACCTTCTGGCTACACAGGGCCTGCTGGACCTTCAGTCTACACAGGGCCTGCTGGACCTTCAGGCTACACAGGGCCTGCTGGACCTTCAGGCTACACAGGGCCCTCTGGACCGTCTGGCTACACTGGGCCTGTAGGTGGCGGA---------GGCGTCGTTTCAGGCCAAACCTCTTTCGGTCAAACTACAGGTTTTAAGGCGTCTGCTGGCGCTGAAGGAGTATTC------CCTGGTGGCGTCCCATCTAGTCTGACCTCT---------------------------------------GGTGCCGGACAGTCGGCTGGAGTATCTCTCATATCTTCTCTTAATTCTCCCGTTGGATTGAGATCTGGTTCTGCTGCTTCTAGAATTAGTCAATTAACATCCTCCGTAACAAATGCTGTCGGACCCAATGGTGTTGATGCTAATGCTCTTGCCCGAAGTCTTCAATCTAGTTTCTCGGCACTCAGAAGC
+Argiope_trifasciata_CtermV1      TCCCGAGTTCTGTCAGCAGTTTTGAACGGAGTATCAAGTGCGGCGCAAGGTCTTGGCATCAATGTAGATACCGGCAGTGTACAAAGTGACATTAGTTCCAGTAGCAGCTTCCTCTCAACAAGCTCGTCTGCGGCCAGTTAC---TCTCAGACATCAGCTTCTTCGACCAGCGGTGCCGGATACACA---------GGACCTTCT------------------------------------------------------------------------GGACCTTCC---------------------------GGCTACCCTGGGCCTTTGAGTGGCGGAGCGTCGTTCGGC------TCTGGCCAAACTTCTTTCGGTCAAACATCAGCCTTTGCCGCATCT------------------------------------------------------------------------------------------------GGTGCTGGACAATCGGCTGGAGTATCTGTTATATCTTCTCTTAATTCACCCGTTGGATTGAGGTCTGCTTCTGCTGCTTCTAGACTTAGTCAATTAACATCATCCATAACGAATGCAGTTGGTGCCAATGGCGTTGATGCTAATTCTCTTGCCCGTAGTCTTCAATCTAGTTTCTCGGCACTTAGAAGC
+Argiope_trifasciata_CtermV10     TCCCGAGTTCTCTCAGCACTTTTGAACGGAGTATCAAGTGCGGCGCAAGGTCTTGGCATCAATGTAGATAGCGGCAGTGTACAAAGTGACATTAGTTCCAGTAGCAGCTTCCTCTCAACAAGCTCGTCTTCGGCCAGTTAC---TCTCAGGCATCAGCTTCTTCGACCAGCGGTGCCGGATACACA---------GGACCTTCT------------------------------------------------------------------------------------------------------------GGCTACCCTGGGCCTTTGAGTAGCGGAGTGTCGTTCGGC------TCAGGGCAATCTTCTTTCGGTCAAACATCAGCTCTTTCCGCATCT------------------------------------------------------------------------------------------------GGTGCTGGACAATCGGCTGGAGTATCTGTTATATCTTCTCTTAATTCACCTGTTGGATTGAGGTCTGCTTCTGCTGCTTCTAGACTTAGTCAATTAACATCATCCATAACGAATGCAGTTGGTGCCAATGGTGTTGATGCTAATTCTCTTGCCCGTAGTCTTCAATCTAGTTTCTCGGCACTCAGAAGC
+Argiope_trifasciata_CtermV11     TCCCGAGTTCTCTCAGCACTTTTGAACGGAGTATCAAGTGCGGCGCAAGGTCTTGGCATCAATGTAGATAGCGGCAGTGTACAAAGTGACATTAGTTCCAGTAGCAGCTTCCTCTCAACAAGCTCGTCTTCGGCCAGTTAC---TCTCAGGCATCAGCTTCTTCGACCAGCGGTGCCGGATACACA---------GGACCTTCT------------------------------------------------------------------------------------------------------------GGCTACCCTGGGCCTTTGAGTAGCGGAGCGTCGTTCGGC------TCAGGGCAATCTTCTTTCGGTCAAACATCAGCCCTTTCCGCATCT------------------------------------------------------------------------------------------------GGTGCTGGACAATCGGCTGGAGTATCTGTTATATCTTCTCTTAATTCACCCGTTGGATTGAGGTCTGCTTCTGCTGCTTCTAGACTTAGTCAATTAACATCATCCATAACGAATGCAGTTGGTGCCAATGGTGTTGATGCTAATTCTCTTGCCCGTAGTCTTCAATCTAGTTTCTCG{AG}CACTCAGAAGC
+Argiope_trifasciata_CtermV12     TCCCGAGTTCTCTCAGCACTTTTGAACGGAGTATCAAGTGCGGCGCAAGGTCTTGGCATCAATGTAGATAGCGGCAGTGTACAAAGTGACATTAGTTCCAGTAGCAGCTTCCTCTCAACAAGCTCGTCTTCGGCCAGTTAC---TCTCAGGCATCAGCTTCTTCGACCAGCGGTGCCGGATACACA---------GGACCTTCT------------------------------------------------------------------------GGACCTTCC------ACT---------GGACCTTCTGGCTACCCTGGGCCTTTGAGTGGCGGAGCGTCGTTCGGC------TCTGGCCAATCTTCTTTCGGTCAAACTTCAGCCTTTTCCGCATCT------------------------------------------------------------------------------------------------GGTGCTGGACAATCGGCTGGAGTATCTGTTATATCTTCTCTTAATTCACCCGTTGGATTGAGGTCTGCTTCTGCTGCTTCTAGACTTAGTCAATTAACATCATCCATAACGAATGCAGTTGGTGCCAATGGTGTTGATGCTAATTCTCTTGCCCGTAGTCTTCAATCTAGTTTCTCGGCACTCAGAAGC
+Argiope_trifasciata_CtermV2      TCCCGAGTTCTGTCAGCAGTTTTGAACGGAGTATCAAGTGCGGCGCAAGGTCTTGGCATCAATGTAGATACCGGCAGTGTACAAAGTGACATTAGTTCCAGTAGCAGCTTCCTCTCAACAAGCTCGTCTGCGGCCAGTTAC---TCTCAGACATCAGCTTCTTCGACCAGCGGTGCCGGATACACA---------GGACCTTCT------------------------------------------------------------------------GGACCTTCC---------------------------GGCTACCCTGGGCCTTTGAGTGGCGGAGCGTCGTTCGGC------TCTGGCCAAACTTCTTTCGGTCAAACATCAGCCTTTGCCGCATCT------------------------------------------------------------------------------------------------GGTGCTGGACAATCGGCTGGAGTATCTGTTATATCTTCTCTTAATTCACCCGTTGGATTGAGGTCTGCTTCTGCTGCTTCTAGACTTAGTCAATTAACATCATCCATAACGAATGCAGTTGGTGCCAATGGTGTTGATGCTAATTCTCTTGCCCGTAGTCTTCAATCTAGTTTCTCGGCACTCAGAAGC
+Argiope_trifasciata_CtermV3      TCCCGAGTTCTGTCAGCAGTTTTGAACGGAGTATCAAGTGCGGCGCAAGGTCTTGGCATCAATGTAGATACCGGCAGTGTACAAAGTGACATTAGTTCCAGTAGCAGCTTCCTCTCAACAAGCTCGTCTGCGGCCAGTTAC---TCTCAGACATCAGCTTCTTCGACCAGCGGTGCCGGATACACA---------GGACCTTCT------------------------------------------------------------------------GGACCTTCC---------------------------GGCTACCCTGGGCCTTTGAGTGGCGGAGCGTCGTTCGGC------TCTGGCCAAACTTCTTTCGGTCAAACATCAGCCTTTGCCGCATCT------------------------------------------------------------------------------------------------GGTGCTGGACAATCGGCTGGAGTATCTGTTATATCTTCTCTTAATTCACCCGTTGGATTGAGGTCTGCTTCTGCTGCTTCTAGACTTAGTCAATTAACATCATCCATAACGAATGCAGTTGGTGCCAATGGCGTTGATGCTAATTCTCTTGCCCGTAGTCTTCAATCTAGTTTCTCGGCACTCAGAAGC
+Argiope_trifasciata_CtermV4      TCCCGAGTTCTCTCAGCACTTTTGAACGGAGTATCAAGTGCGGCGCAAGGTCTTGGCATCAATGTAGATAGCGGCAGTGTACAAAGTGACATTAGTTCCAGTAGCAGCTTCCTCTCAACAAGCTCGTCTGCGGCCAGTTAC---TCTCAGACATCAGCTTCTTCGACCAGCGGTGCCGGATACACA---------GGACCTTCT------------------------------------------------------------------------GGACCTTCC---------------------------GGCTACCCTGGGCCTTTGAGTGGCGGAGCGTCGTTCGGC------TCTGGCCAAACTTCTTTCGGTCAAACATCAGCCTTTGCCGCATCT------------------------------------------------------------------------------------------------GGTGCTGGACAATCGGCTGGAGTATCTGTTATATCTTCTCTTAATTCACCCGTTGGATTGAGGTCTGCTTCTGCTGCTTCTAGACTTAGTCAATTAACATCATCCATAACGAATGCAGTTGGTGCCAATGGCGTTGATGCTAATTCTCTTGCCCGTAGTCTTCAATCTAGTTTCTCGGCACTTAGAAGC
+Argiope_trifasciata_CtermV5      TCCCGAGTTCTCTCAGCACTTTTGAACGGAGTATCAAGTGCGGCGCAAGGTCTTGGCATCAATGTAGATAGCGGCAGTGTACAAAGTGACATTAGTTCCAGTAGCAGCTTCCTCTCAACAAGCTCG{CT}CTGCGGCCAGTTAC---TCTCAGACATCAGCTTCTTCGACCAGCGGTGCCGGATACACA---------GGACCTTCT------------------------------------------------------------------------GGACCTTCC---------------------------{AG}GCTACCCTGGGCCTTTGAGTGGCGGAGCGTCGTTCGGC------TCTGGCCAAACTTCTTTCGGTCAAACATCAGCCTTTGCCGCATCT------------------------------------------------------------------------------------------------GGTGCTGGACAATCGGCTGGAGTATCTGTTATATCTTCTCTTAATTCACCCGTTGGATTGAGGTCTGCTTCTGCTGCTTCTAGACTTAGTCAATTAACATCATCCATAACGAATGCAGTTGGTGCCAATGGCGTTGATGCTAATTCTCTTGCCCGTAGTCTTCAATCTAGTTTCTCGATCTT-------
+Argiope_trifasciata_CtermV6      TCCCGAGTTCTCTCAGCACTTTTGAACGGAGTATCAAGTGCGGCGCAAGGTCTTGGCATCAATGTAGATAGCGGCAGTGTACAAAGTGACATTAGTTCCAGTAGCAGCTTCCTCTCAACAAGCTCGTCTTCGGCCAGTTAC---TCTCAGGCATCAGCTTCTTCGACCAGCGGTGCCGGATACACA---------GGACCTTCT------------------------------------------------------------------------GGACCTTCC------ACT---------GGACCGTCTGGCTACCCTGGGCCTTTGAGTGGCGGAGCGTCGTTCGGC------TCTGGCCAAACTTCTTTCGGTCAAACATCAGCCTTTGCCGCATCT------------------------------------------------------------------------------------------------GGTGCTGGACAATCGGCTGGAGTATCTGTTATATCTTCTCTTAATTCACCCGTTGGATTGAGGTCTGCTTCTGCTGCTTCTAGACTTAGTCAATTAACATCATCCATAACGAATGCAGTTGGTGCCAATGGCGTTGATGCTAATTCTCTTGCCCGTAGTCTTCAATCTAGTTTCTCGAT----------
+Argiope_trifasciata_CtermV7      TCCCGAGTTCTCTCAGCACTTTTGAACGGAGTATCAAGTGCGGCGCAAGGTCTTGGCATCAATGTAGATAGCGGCAGTGTACAAAGTGACATTAGTTCCAGTAGCAGCTTCCTCTCAACAAGCTCGTCTTCGGCCAGTTAC---TCTCAGGCATCAGCTTCTTCGA{CG}CAGCGGTGCCGGATACACA---------GGACCTTCT------------------------------------------------------------------------GGACCTTCC------ACT---------GGACC{GT}TCTGGCTACCCTGGGCCTTTGAGTGGCGGAGCGTCGTTCGGC------TCTGGCCAAACTTCTTTCGGTCAAACATCAGCCTTTGCCGCATCT------------------------------------------------------------------------------------------------GGTGCTGGACAATCGGCTGGAGTATCTGTTATATCTTCTCTTAATTCACCCGTTGGATTGAGGTCTGCTTCTGCTGCTTCTAGACTTAGTCAATTAACATCATCCATAACGAATGCAGTTGGTGCCAATGGTGTTGATGCTAATTCTCTTGCCCGTAGTCTTCAATCTAGTTTCTCGGCACTCAGAAGC
+Argiope_trifasciata_CtermV8      TCCCGAGTTCTCTCAGCACTTTTGAACGGAGTATCAAGTGCGGCGCAAGGTCTTGGCATCAATGTAGATAGCGGCAGTGTACAAAGTGACATTAGTTCCAGTAGCAGCTTCCTCTCAACAAGCTCGTCTTCGGCCAGTTAC---TCTCAGGCATCAGCTTCTTCGAGCAGCGGTGCCGGATACACA---------GGACCTTCT------------------------------------------------------------------------GGACCTTCC------ACT---------GGACCTTCTGGCTACCCTGGGCCTTTGAGTGGCGGAGCGTCGTTCGGC------TCTGGCCAATCTTCTTTCGGTCAAACTTCAGCCTTTTCCGCATCT------------------------------------------------------------------------------------------------GGTGCTGGACAATCGGCTGGAGTATCTGTTATATCTTCTCTTAATTCACCCGTTGGATTGAGGTCTGCTTCTGCTGCTTCTAGACTTAGTCAATTAACATCATCCATAACGAATGCAGTTGGTGCCAATGGTGTTGATGCTAATTCTCTTGCCCGTAGTCTTCAATCTAGTTTCTCGGCACTCAGAAGC
+Argiope_trifasciata_CtermV9      TCCCGAGTTCTCTCAGCACTTTTGAACGGAGTATCAAGTGCGGCGCAAGGTCTTGGCATCAATGTAGATAGCGGCAGTGTACAAAGTGACATTAGTTCCAGTAGCAGCTTCCTCTCAACAAGCTCGTCTTCGGCCAGTTAC---TCTCAGGCATCAGCTTCTTCGACCAGCGGTGCCGGATACACA---------GGACCTTCT------------------------------------------------------------------------GGACCTTCC------ACT---------GGACCGTCTGGCTACCCTGGGCCTTTGAGTGGCGGAGCGTCGTTCGGC------TCTGGCCAATCTTCTTTCGGTCAAACGTCAGCCTTTTCCGCATCT------------------------------------------------------------------------------------------------GGTGCTGGACAATCGGCTGGAGTATCTGTTATATCTTCTCTTAATTCACCCGTTGGATTGAGGTCTCCTTCTGCTGCTTCTAGACTTAGTCAATTAACATCATCCATAACGAATGCAGTTGGTGCCAATGGTGTTGATGCTAATTCTCTTGCCCGTAGTCTTCAATCTAGTTTCTCGGCACT{CT}AGAAGC
+;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M20775]
+
+	TITLE SpidroinGeneTree;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=840;
+	FORMAT DATATYPE=DNA SYMBOLS= "A C G T" MISSING=? GAP= -;
+
+MATRIX
+[                                                   10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170       180       190       200       210       220       230       240       250       260       270       280       290       300       310       320       330       340       350       360       370       380       390       400       410       420       430       440       450       460       470       480       490       500       510       520       530       540       550       560       570       580       590       600       610       620       630       640       650       660       670       680       690       700       710       720       730       740       750       760       770       780       790       800       810       820       830       840       850     ]
+[                                                    .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .     ]
+Agelenopsis_aperta_MaSp                     ATGACTTGGACTGTGCGACTAGCTATCCCCATTCTC---ATTTTGATCCTT------------------------------CAAGGGTCAAAATGTCTTGGACAGAGCAAC---CCGTGGACAGACACTGCCACGGCAGAAAGTTTTATATCGAGTGTAATGTCATCCGTTGCTAACCAGGGATGTCTCTCATACGACCAAATAGACGACATGCAAGCTGTTGGCGATACAATGCTGGCAACAATGGACAACTTGGTCAGAAGTGGTAAGAGTTCCAGTCATATGTTAAAGGCAATGAACATGGCAATGGGAACTTCCATAGCAGAAATT---GTCGCTGAT---------GGAGGAGGCAATCTTGGTAGCAAAGTGAGTTGCATATCAAATGCCTTATCGTCAGCGTTTCTACAAACCACTGGTTCAGTAAATACACAGTTTGTAAATGAAATTGTATCTCTCATCAGTATGTTCGCTCAAGCA---------GATACAAACGAAGTCTCTCGACTTTCATCACCTTCATCAAGTTCTAGAGTATCCTCTGCCGTTTCTGGATTA---------TTACCTAATGGTAACTTTAACTTA------GGAAACTTGCCCGGCATTGTATCAAATCTTTCGTCTTCAATT---GCTTCTTCT---GGTCTCTCCGGCTGTGAAAATTTAGTGCAAGTTCTCATTGAGGTTGTTTCTGCTCTTGTGCATATTTTAGGATCTGCCAACATTGGAAACATTAATATGAATGCAGCATCATCTACTGCTGCTGCTGTTGGT---CAGGCAATAGTAAATGGGTTGTAC------------------
+Agelenopsis_aperta_TuSp1                    ATGGTTTGGATAACTAGCATAGCATGTCTGTTTACCTTTATAGCCACATTTGGCAGTCAAGTTGGAGCACAAGGAACTTCTTTTGCATCATCAGCAACAGCAGGAATACGAAATATATTTGGAAATCCAAACACTGCAAATAACTTCGTTGACTGTCTTAAAGGAGGAATTCAGGCATCCCCAGCTTTCCCACGACAAGAACAAGCTGATATCCAGTCAATTGCAAGTTCCATACTTTCAGCT------GGT------AATACTGCAACAAAATCGAAAGCAATAGAACAAGCTTTAAGCACAGCTTTAGCTTCCTCTCTCGCGGAAATTGTAATTACAGAA------TCAGGGGGGCAGGATTATTCTAAACAAATAACAGATTTAAATGGAATCCTATCAAACTGCTTTATCCAAACAACAGGAGTAGAAAACAAAAGATTCGTAAACAGCATACAAAATCTCATAAGACTGCTTGCAGAAAGC---------GCAGTCTCAGAAACAACTGGACTTTCTTCTGCTTCTGCATCTTCTCGTGTAAATAGTTTAGCTTCATCAGTAGCTTCTGCTATAGCCTCTGGT---CAAGCTCTAAGTGCGGATAGTTTTGCAAAATCGTTATTGATCCAAGCTTCCCAAATTCAAAGTAGTGCACCTAGTTTTAAAGCAGATGATGTAGTCCACGAATCTCTCCTTGAAGGAATTTCAGCTCTTATCCAAGTTATCAACAGCAGTTATGGTTCACCTTTGAGTTTGTCCAATGCCCAGACTGTTAACGCTGGACTTGTA---AACTATTTCCTTGTT---------------------------
+Araneus_ventricosus_Flag                    ???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????CTCATACAGGCC---CAGAGCATGGGCAAAGGCCGGCACGACACCAACGCGAAAGCCAAAGCCATGCAGATGGCCCTGGCCTCCTCTATCGCCGAGCTGATAGTGGAAGAA------AGCGGAGGGGTGAATATGCAGCAGAAGACCAACGCGGCGATCAATGCCTTGAGGAACGCCTTGAGATCCACTTCTGGACAAGTGGATGAGGGCTTTGTCAGCGAAATCGTTGAACTCGTCAACCTATTCTCTCAAGAG---------CAGTTTAACGAGGTG---------------------------TCTAGACTTCCATCTTTGGTGAATGGACTGATGGGCTCTATGCAACCAACCGGATTTAACTAT------CAGAACTTCGGAAATGTTCTGTCTCAGTACGCCACAGGCTCCGGAACATGCAACAGCAACGATGTGAAT------CTGCTGATGGACGCGCTTATG---------GCGGCTTTG---CATTGCCTGTCTTAC---GGATCCGGTTCTGTTCCGTCTACTCCGACTTATTCTGCGATGTCTGCCTACAAC---CAGTCTATCCGTAGAATGTTTACATAT---------------
+Araneus_ventricosus_MiSp                    ATGCAGTTGCCTACTCGATTATCGTTTTTCTTCCTC---GTCCTGTTCATT------------------------------CAGGGATTTTTGTCCCAGAGTCAA------CCAATCTGGACCAACCCAAATGCAGCAATGACCATGACCAACAACCTGGTCCAATGTGCGAGTCGGTCAGGTGTGCTCACAGCCGATCAGATGGACGACATGGGAATGATGGCAGACTCTGTTAACTCGCAGATGCAGAAAATGGGACCA---AACCCACCT---CAACACAGACTCAGGGCAATGAATACCGCCATGGCCGCAGAAGTAGCTGAA---GTAGTAGCAACT------TCGCCACCACAAAGTTATTCTGCAGTTTTAAATACCATTGGTGCTTGCTTGAGGGAATCAATGATGCAAGCGACAGGCTCCGTCGACAATGCATTCACAAATGAAGTAATGCAATTGGTAAAAATGTTATCTGCGGAT---------AGCGCGAATGAAGTAAATCGCTTGTCTAGTGCTGAAGCTGCCAGTAGAGTATCCTCTAATATTGCAGCTATT---------GCATCTGGTGGTGCT---------------TCCGCCCTCCCCAGTGTTATTTCAAATATTTACTCAGGTGTCGTTGCTTCT------GGTGTTTCTTCTAATGAAGCTCTGATTCAAGCTCTGTTGGAACTCCTTTCCGCACTTGTTCATGTTTTAAGCAGTGCCTCTATCGGTAATGTTAGCTCAGTAGGAGTAGATAGTACATTGAATGTTGTTCAG---GATTCAGTA---GGCCAATATGTAGGT---------------
+Argiope_argentata_AcSp1Complete             ATGAATTGGTTACCTACTCTCGCTTTTGCGATTCTACTGCTGTCAGTCCAGTACGATGCGGTG------------------CAAAGCGCGTCAACTCTG------TCCAGGAGTCCTTGGGCCAATCCGGCCAAAGCTGGTTCTTTGATGAACTGTCTCATGAGCAGAATCGCCAGTTCAAATGTCCTGCCTCAACAAGATAAAGAAGATCTGGAATCCATTATGGACACACTGATGTCGGCAATTAAAGGAGCGAGTGCCAAAGGTAAAAGCTCTGCAGCGCAGTTGCAGGCGATAAATATGGCTGTTGCTTCTTCCCTGGCAGAAATAGTCGTTGCTGAAGATGCAGGCAATCAAGCAAGCATCGCAGTAAAGACTCAGGCCCTTACAGGTGCTCTGGGACAATGCTTCCAAGCAGTCATGGGCACAGTCGACAGGAAATTCATCAATGAAATAAATGACTTGATAACAATGTTTGCAAAAGAAGCTGCCAGTGAAAGCAACGAAATAGTTGGATTAAGATCTGGTTCTGCTGCTTCTAGAATCAGGCAATTAACTTCATCTGTGACGAATGCGGTC------GGCCCCAATGGAGTTGATGCTAATGCACTTGCCCGTAGTCTTCAATCTAGTTTCTCGAATCTG---AGAAGTTCC---GGAATGTCCTCTAGCGATGCTAAAATTGAAGTTTTGCTAGAAACCATAGTCAGTCTGCTGCAACTTTTGAGCAACACACAGATTCGAGGAGTGAATCCGGCAACGGCATCTTCCGTGGCCAATTCTGCTGCC---AGATCCTTTGAATTAGTTTTAGCT------------------
+Argiope_argentata_TuSp1                     ---??????????????????????????????????????????????????????????????????????????????????????????GCAGTTACCGCCGTTCCATCAGTCTTCAGTAGTCCGAATTTAGCAAGCGGCTTCCTTCAGTGCCTCACATTTGGAATCGGAAATTCTCCCGCATTTCCCACTCAAGAACAACAAGATTTGGATGCCATTGCTCAAGTGATACTCAATGCCGTTTCAACA------AATACTGGCGCCACAGCATCAGCCAGAGCTCAAGCTTTAAGTACAGCGCTCGCATCCTCTCTCACAGATCTCCTCATTGCAGAG------TCGGCTGAGAGCAACTACAATAATCAGCTTTCTGAACTAACAGGAATACTTTCCAACTGTTTTATCCAAACCACTGGATCGGATAATCCAGCATTTGTATCCAGAATTCAGTCGCTCATATCAGTGCTTTCTCAGAAT---------ACTGATGTAAATATATCTGGCTTAGGTTCCTCTGCTGCCTCTGCCAGAGTGAGTAGTTTAGCCAATTCCGTTGCTTCTGCTATTTCTTCATCTGGAGGCTCCCTCAGTGTTCCAACCTTCTTGAATTTTCTTTCATCCGTTGGGGCTCAAGTT---AGCAGTAGTAGTTCTTTGAATTCCTCCGAAGTTACAAACGAAGTGTTACTTGAAGCTATCGCGGCACTCTTGCAAGTCCTCAACGGAGCTCAAATAACATCAGTTAATCTGAGAAACGTTCCGAATGCTCAACAGGCTTTGGTG---CAAGCATTGTCTGGT---------------------------
+Argiope_bruennichi_TuSp1                    ATGGTTTGGCTCACTAGCATAGCGTTCCTCGTAGGCTTTCTGGGAGCAGTGTCGTCT------------------------CAGTCAGTT---GCAGTTACCGCCGTTCCTTCAGTCTTCAGCAGTCCAAATTTGGCCAGCGGCTTCCTTCAATGTCTCACATTTGGAATCGGAAATTCCCCCGCATTTCCTACTCAAGAACAACAAGACTTGGATGCCATTGCTCAGGTGATACTCAATGCTGTTTCAAGC------AACACTGGCGCTACAGCATCGGCCAGAGCTCAAGCTTTAAGTACAGCGCTTGCATCTTCTCTGACAGATCTGCTCATTGCAGAG------TCGGCAGAAAGCAATTACAGCAATCAGTTGTCTGAACTAACAGGAATTCTCTCCGACTGTTTTATCCAAACTACTGGATCGGACAACCCAGCATTTGTGTCCAGAATTCAATCTCTCATTTCAGTGCTTTCCCAGAAT---------GCAGATACAAATATATCAGGCTTAGGCTCATCTGCTGCCACTGCCAGGGTGAGTAGTTTAGCCAACTCCTTTGCTTCTGCGATTTCTTCATCTGGAGGTTCCCTCAGTGTTCCAACCTTCTTGAATCTTCTTTCATCCGTTGGGGCCCAAGTT---AGTAGTAGCAGTTCTTTGAGTTCCTTGGAAGTTACAAACGAAGTTTTACTTGAAGCTATTGCGGCTCTCTTGCAAGTTATCAACGGAGGTTCAATAACATCAGTTGATCTTAGATACGTTCCGAATGCTCAGCAGGATTTGGTG---AACGCTTTATCTGGT---------------------------
+Argiope_trifasciata_MaSp2                   ATGAATTGGTCAATTCGTCTTGCTCTTTTAGGTTTCGTGGTGCTCAGCACC------------------------------CAAACTGTATTTTCTGCTGGCCAGGGTGCAACTCCATGGGAGAACTCGCAACTGGCGGAGAGCTTCATCAGCCGTTTTTTAAGATTCATAGGACAAAGCGGAGCTTTTTCCCCAAACCAACTGGATGATATGTCTTCTATTGGAGACACCTTGAAGACTGCAATTGAAAAAATGGCTCAAAGCCGAAAAAGTTCTAAATCGAAGTTGCAGGCATTAAACATGGCATTTGCTTCCTCAATGGCCGAAATTGCTGTAGCAGAG------CAGGGAGGTTTAAGCTTAGAAGCAAAAACCAATGCCATCGCAAGTGCCCTCAGTGCAGCCTTTTTGGAAACCACTGGCTATGTAAACCAACAGTTTGTCAATGAAATAAAAACATTAATATTTATGATCGCTCAGGCA---------TCATCAAATGAAATTTCTCGACTTTCTTCTCCTCAAGCCAGTTCTCGAGTTTCATCAGCTGTGTCAACTTTG---------GTGTCGAGCGGTCCTACGAATCCT------GCCTCACTCTCTAATGCTATCAGTAGCGTTGTATCACAAGTCAGTGCAAGTAATCCTGGTCTTTCTGGTTGTGATGTACTCGTCCAAGCATTGCTGGAAATTGTATCCGCCTTGGTACATATCCTTGGATCTTCTAGCATTGGGCAAATTAATTACGCCGCTTCTTCTCAGTATGCGCAAATGGTTGG??????????????????????????????????------------
+Bothriocyrtum_californicum_fibroin1         ATGGGTTGGTTAACTCATATCACTTTGTCGCTTTTCTTCGTTTCAGCGCAGTTCAGC------------------------ATCTCATCTGCAAGAACTAAAGTAACGAATGTACCATGGACCGATGAAGCCAAAGGTAAAAAATTTCTCAGTACCTTCTTAGATTATGCATTAGACCACGGCCTGTTTCCGCAGCAGGAGAGAGATGATTTGGAAGCAATATCCCAAAACCTCATTCCAGTATTCCGGAAGACAATGGATTCAGGGGGGAATGCTGCAGCTAAGATGAAGGCGCTAAACATGGCATTTGCTTCATCCATAGCTGAAATAGCTGTACAGGAG------GGAGGAGCAGGTTCAATCGAAGAAAAAACCCAAGCAGTTTCAGAAGCTCTAGCACATGCTTTCCTTCAAACTACAGGTTCCGTAAATATACAATTCATCAAAGAAATCAGAGCCCTCATAACCCTTTTCGCTAAAGAAGGA------CAAGACAACGAAACAAGCGGTTTGACTTCAGAGGCTGCAAAGGAAAGGATTTCTTCGATCATAGCATCACTGTTATCAGCAAAATCTTCCCAGGATTTTAATGCC------TTACTTCTCTCAAACATTCTCCCTTCCTTAATATCTAAAATTTCGCAGCGTGCGTCAGGATTATCCCCAACAGAAATGGTAACGGAAGCTCTCCTAGAAGTATTGGCTGGTTGTATGGAAATCCTGTCTTCATTCAATGTTGGAGCACAGAGTATTTCTTCATCTAGAACATCATCTAATGCTCTGGTT---CAGTCAATATCTAACCAATTTTCAGGATTAAATGCAGCTGCT
+Deinopis_spinosa_MaSp2                      ??????CCTCTGCTTGCTCTAGTAATTTCCTCATTGAGTGGGGCTGCAACA------------------------------GGCGCAAGTAGCTATGCATCGGCGAACACCACACCTTGGAGGGACGCAGCGACAGCGCAAGCTTTCATCGGCAACTTTATGCAAGCCATCTGTTATGACCCGGTCATAAATCCGCAGCAATGCGACGATATGAATTCCATGGCGAGCACGATACTGGCCGGGGTACAAAATATGGCACGTGACGGCAAAATATCAAAAGCAAAGCTGCAGGCAATGAACATGGGCTTCGCATCCGCTATAGCAGAAATTGCTCTGGTAGAA---------GGCGGTGCACCGGCAGAA---------AACGCTGTAGTCAACGCCATGCAAAGCGCAATTTGGCAGAGCACAGGTTCACCAAACAGATCATTCATAAACGAAATGAAAGCATTAATGAAAATGCTTGCCCAA------------CAGTCAAATTTCGTATCAAGGATGAGTACTCCTGGTTCAGGTTCTAGAATTTCTAACGCTGTGTCAAACATT---------TTATCCTCTGGTGTTAGTTCGTCC------TCTGGTCTGTCAAACGCTATTTCAAATATATCTTCCTCGATTAGTGCTTCAAATCCTGGTCTTTCAGGGTGTGACGTTCTTGTTCAAGTTTTGTTGGAAGTGATTTCGGCTCTGGTGCATATTCTGGGTTCAGCATCTGTTGGGCAAGTT------GGTTCTTCCCCACAAAATGCTCAGATGGTTGCGGCTAATGCTGTGGCAAATGCATTTTCT------------------
+Deinopis_spinosa_fibroin1a                  ??????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????TTCAACGATATTAGCCAGACGATGGTGGATGCCGTGAAAAGATTACAGAGGTCGAATAAGAGCACTGCACACAAGCTTCAAGCCATGAATATGGCTTTCGCGTCATCCATGGCTGAGATAGCTTCC------------CAAAGTAACGATATCAATCGCGCAAAA---TATGCTATGGCAGAAGCAATGGCATGTGCTTTTCGAAACTCATTAGGATACGTGGACGGAAACTTCGTACAGGAGGTAATAGGCATGGTCGAAATGTTCAGCCAAGCG---------AATATCAATGAGATTTCTGTACTGGCTTCTCCACAATCTGTTACACGCGTCAGTGCTTTAGTACCAAATTTG---------ATATCTGGCGGAAGTTTTAACTCA------AATGCTGTTTCTGCTGTACTGCCTGGCCTTACTTCCCAGATTAAAGCAGCAACA---GGATCTAACGGATGTGATTCTTTTGTCATAGCTCTCCTTGAGATTGTTTCAGCTTTGGGTCACCTATTGAATAATTCGATGATT---AATGTTAATGCAGCAAGTGTTCCTGTTAGCCCTCCT------------CAATGGCTATAT------------------------------
+Diguetia_canities_MaSp                      ATGGGTTGCGTCGTTCGACTAGTTTTCCTCGCATTCGCGACTACGCAATGCCTTCTAGCAGGG------------------CAAGGTGTCCACGGAGCAATG---GCCAACACGCCATTTGCAAATAAGATCATGGCGGAGGACTTTATGAATAAGTTCACTAACCAACTGGCGAACTCACCCTACTTCTCGTCGCAGCAGAAAGAAGATATGAGTAGCATCAAGGACGAATTAATCTCAGTGATCGAAAGTATGGATTCTGCTCATAAGAGCTCAGCCGCGAAGCTGCAAGCCATGAACATGGCATTCGCATCTGCGATTGCTGACATAGCGGCAACCGAA------GCATACGGAGCGGACATTTCATTGGAAACGTCAGCAATCGCCAATGCTCTCTCTGAAGCTTTCCTGCAGACAACCGGCGTAGTGAACAAGCGTTTCATCAGTGAGATACAGGAGCTGATTTACATGTTCGCACAGGACGCCTCGGTGCAAAGCAACGAAATCGCACTTCTCGTCTCTGCTGATGCACCTTCAAGAATTGCTTCGGTTTCGTCATCTCTCAACAGTGTTGTGTCTTCCGGTGCTTCAGCAAGTAGCTTTGCTTCTATTGCAACCCAGATTGCTGATGTAGCAGGTCAGGTGTCTTCAGTTCACCCTGAACTGTCAAGCCTTGAAGTCCTTGTTGAAGCCTTGATTGAGATTATTGTGGCGCTTGTACATGCCCAGTCTGGTGGT---GCTTCCTCAGCAAGTGCCAGTGCATCCGCCAGTGCG---CTGGCCTCA------CAGTTAGGGCAGCTCTTTGGC---------------------
+Diguetia_canities_MaSp_like                 ???????????????CGACTACTTTTCCTCGTCTTTGCGACAAGTGGCGTTCTGGCACAC---------------------CAGGGCCCTCAT------------AGAAAGACACCATGGGAGACCCCGGAAATGGCAGAAAACTTTATGAACAATGTCCGCGAAAATTTGGAAGCTTCCCGAATATTTCCGGACGAGCTGATGAAAGACATGGAGGCCATCACAAACACGATGATCGCAGCGGTCGATGGGTTAGAAGCCCAACATAGGTCATCATATGCGAGCCTGCAAGCCATGAACACGGCATTCGCTTCGTCCATGGCTCAACTGTTTGCAACCGAA------CAGGACTACGTGGAC------------ACAGAAGTAATCGCCGGAGCCATTGGAAAAGCTTACCAGCAGATTACCGGATACGAAAATCCACACCTAGCTTCCGAGGTCACGAGGTTGATCCAACTTTTCCGCGAAGAAGATGAC---CTAGAAAACGAAGTAGCTGGTAGTGGTGAACTGTCCGTTGCTTCAAGAATATCCACCATGGCATCATCTATGAGTTCCCTGTTGTCATCCAACTTTTCTCCAGTTATCTTTTCTTCTCTTGCTAACGTGATAGCCAATGGAGCATCTGCAATTGCTGTCGCTCATCCTGAACTTTCTGGCGCTGGTGTTCTTACGGAAGCCTTGTTGGAGGCCCTGGTAGCATTTTGCTACGCTCATGCTGGATCT---ATTGCTTCTGCGAGCGACGTTAATCTAGCTGTAACCACTTTGGCATCCACG---ATGCAGGGTTCTTTGCCT------------------------
+Euprosthenops_australis_MaSp                ATGAGTTGGACAGCGCGACTTGCTCTTCTATTGCTCTTTGTAGCTTGC---------------------------------CAGGGCTCCAGTTCTCTGGCCTCACACACTACACCATGGACAAACCCAGGACTCGCAGAAAACTTCATGAACAGTTTCATGCAAGGCCTGAGCTCGATGCCAGGTTTCACGGCAAGCCAATTGGATGATATGTCAACCATCGCACAATCCATGGTACAGTCAATACAATCCTTGGCGGCACAAGGCAGGACATCACCGAATAAGCTGCAGGCCCTTAACATGGCTTTTGCATCTTCGATGGCAGAAATCGCGGCATCCGAA------GAAGGAGGGGGAAGCCTTTCCACCAAAACTAGCTCTATAGCCAGTGCAATGTCCAACGCGTTTCTGCAAACAACTGGAGTGGTAAACCAACCGTTCATAAATGAAATAACTCAGCTCGTTAGCATGTTTGCTCAAGCA---------GGTATGAATGATGTCAGTCGCCTCTCATCGCCTTCCGCAGTATCTCGAGTTTCTTCAGCAGTTTCTAGCTTG---------GTTTCAAATGGTCAAGTGAATATG------GCAGCGTTACCTAATATCATTTCCAACATTTCTTCTTCTGTCAGTGCATCTGCTCCTGGTGCTTCTGGATGTGAGGTCATAGTGCAAGCTCTACTCGAAGTCATCACTGCTCTTGTTCAAATCGTTAGTTCTTCTAGTGTTGGATATATTAATCCATCTGCTGTGAACCAAATTACTAATGTTGTTGCT---AATGCCATGGCTCAAGTAATGGGC------------------
+Latrodectus_geometricus_AcSp1               ??????????????????????????????????????????????????????????????????????????????????????????????????????TCATCCAAGAGTCCTTGGGCAAATCCGGCTAAGGCGAACGCATTCATGAAATGTTTAATCCAAAAGATAGGCACATC{AG}CCTGTATTCCCTCAACAAGAAAAAGAGGACATGGAAGAAATTGTGGAGACCATGATGTCTGCTTTCAGTAGTATGAGTACATCTGGGGGAAGCAATGCGGCAAAACTACAAGCCATGAACATGGCATTCGCTTCATCTATGGCGGAATTAGTTATTGCCGAAGATGCAGATAACCCAGACAGTATTTCCATTAAAACTGAAGCTCTGGCGAAGTCTCTTCAACAGTGTTTCAAATCAACATTGGGTTCAGTGAATAGGCATTTCATTGCTGAGATTAAAGATCTGATTGGAATGTTTGCCAGAGAAGCTGCC---GCTATGGAAGATACTCAAGGTCTGAA{AG}TCTCCT{CG}AAGCAAGTTCGAGGATTAATCGCCTCACTTCGTCTGTTGTAAATGC{CT}CTC------GGACCTAATGGCTTGGATGTCAACAACTTTTCTAATGGCTTGCG{AT}GCTACTCTTTCACAGCTG---TCTAGTTCA---GGTTTGTCTAAAAAGGAAGCGGCTA????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????
+Latrodectus_geometricus_MaSp1               ATGAATTTGTCAACTCGACTTGCTCTATCATTCCTCGT?GTGCTTTGCACT------------------------------CAAGGTCTGTATGTTCTGGGACAAGCAAACACTCCATGGTCTAGTAAACAAAATGCTGACGCTTTTATAAGTGCATTCATGACTGCTCCTTCACAAAGTGGAGCATTTTCATCGGATCAGATCGATGACATGTCTGTCATCAGCAATACATTAATGGCAGCAATGGATAATATGGGA------GGAAGAATTACACCCACCAAATTACAAGCCTTAGATATGGCTTTCGCATCATCTGTGGCAGAAATTGCTGCTGTGGAA------------GGTCAAAATATAGGGGTAACTACAAATGCAATTTCAGACGCCTTGACATCAGCTTTCTATCAAACAACAGGGGTAGTTAATAACAAATTTATCAGCGAAATTAGAAGTTTGATTAATATGTTTGCACAAGCG---------TCTGCAAATGATGTTTCTGCTTTGGCAGCTCCAGCTACAAGTGCAAGAATTTCTTCACATGCCTTAACACTT---------CTTTCCAATGGGCCAACTAATCCT------GCTTCTATTTCAAATGTAATTAGTAATGCTGTTTCCCAAATTAGTTCAAGCAATCCGGGATATTCTTCATGTGACATTCTTGTACAAGCTCTTCTTGAACTAGTTACTGCATTACTCACTATAATTGGGTCCTCTAATGTTAATGATATAAATTATGGTTCGTCAGGTCAGTATGCCCAAATGGTTTCT---CAGTCAGTACAGAATGTGTTTGGA------------------
+Latrodectus_hesperus_AcSp1                  ATGAACTGGTTAACTAGCCTCAGCTTAATTTTTATATTAGCCTTTGTACAAAATGTACAAGTCGAAGGAAGAAAA------GGACACCATCATTCCAGTGGCTCATCCAAGAGTCCTTGGGCAAATCCGGCTAAGGCGAACGCTTTCATGAAATGTTTGATCCAGAAGATAAGCACATCCCCTGTCTTTCCTCAACAAGAAAAAGAGGACATGGAAGAAATTGTGGAGACCATGATGTCTGCTTTCAGTAGCATGAGCACATCTGGGGGAAGCAATGCGGCAAAACTACAAGCCATGAATATGGCATTTGCTTCATCTATGGCGGAATTAGTTATTGCCGAAGATGCTGATAACCCAGACAGTATATCCATTAAAACAGAAGCTCTGGCAAAGTCTCTTCAACAGTGCTTCAAATCAACATTGGGCTCAGTGAACAGGCATTTCATTGCAGAGATTAAAGATCTGATTGGAATGTTTGCCAGAGAAGCTGCA---GCTATGGAAGAGGCCCAAGGTTTAAAATCTCCTCAAGCAAGTTCCAGGATCAACCGCCTTTCTTCGTCTGTTGTAAACGCACTT------GGACCTAATGGCTTGGACATCAATAACTTTTCTGATGGTCTGCGAACTACTCTTTCTCAGCTT---TCCAGTTCA---GGCTTGTCTAAAAAGGAAGCGGCTATCGAAACCCTCATGGAAGCAATGGTTGCTCTGTTACAAGTTCTAAATTCAGCACAAGTAAATCAAGTTGATACATCTTCTACTGTTGTAACAAGTAGTTCACTTGCC---AAAGCTTTATCTTCTTTGTTT---------------------
+Latrodectus_hesperus_MaSp1                  ATGACTTGGTCAACTCGACTTGCCTTATCATTTCTTTTCGTGCTCTGCACT------------------------------CAGAGCCTGTACGCTTTGGCGCAAGCCAACACGCCATGGTCAAGTAAAGCGAATGCTGATGCTTTTATCAATTCCTTTATTTCGGCAGCTTCGAATACTGGATCCTTCTCCCAAGATCAGATGGAAGATATGTCATTGATTGGTAATACATTAATGGCAGCAATGGATAATATGGGT------GGAAGAATTACGCCATCCAAATTACAGGCTTTAGATATGGCTTTCGCATCATCTGTAGCAGAAATTGCTGCTTCGGAA------------GGAGGAGACTTAGGAGTAACAACAAATGCAATTGCAGATGCTTTAACGTCAGCTTTCTATCAAACAACCGGAGTAGTTAATAGCAGATTTATAAGCGAAATTAGAAGTTTGATTGGCATGTTTGCACAGGCA---------TCTGCCAACGATGTATCTGCTTTGGCAGCTCCAGCTACAAGCGCGAGAATTTCTTCACACGCCTCAGCTCTT---------CTTTCAAATGGACCTACTAACCCT------GCTTCTATTTCAAACGTTATTAGTAATGCTGTATCCCAAATTAGTTCCAGCAATCCAGGAGCGTCTGCGTGTGATGTTCTCGTTCAAGCTCTTCTTGAACTTGTTACTGCTTTGCTCACCATTATTGGATCATCAAATATTGGCAGTGTTAATTATGATTCTTCAGGCCAATATGCGCAAGTTGTTACT---CAATCTGTTCAAAATGCATTCGCT------------------
+Latrodectus_hesperus_MaSp2                  ATGAATTGGTCTACTCGACTTGTGTTGTCAATACTCGTAGTGCTTTGCACT------------------------------CAGAGCCTCTGTGCTCTGGGACAAGCAAACACTCCGTGGTCCAGTAAAGAAAACGCTGACGCTTTTATAGGCGCATTTATGAATGCTGCTTCACAAAGTGGAGCATTTTCATCGGATCAGATAGATGATATGTCAGTTATTAGTAATACATTGATGGCTGCAATGGACAACATGGGT------GGAAGAATCACACAATCAAAATTACAGGCTTTAGATATGGCTTTTGCATCATCCGTGGCAGAAATAGCTGTAGCTGAT------------GGCCAAAACGTTGGAGCCGCTACGAATGCCATATCAGACGCATTACGGTCAGCCTTCTATCAAACTACCGGAGTGGTAAACAATCAATTTATTACTGGGATAAGTAGCCTAATTGGCATGTTTGCCCAAGTA---------TCAGGCAATGAAGTTTCAGCTTTATCTTCACCGACAACGCATGCTAGAATTTCTTCCCATGCATCAACTCTA---------TTATCAAGTGGGCCAACTAATGCG------GCAGCTCTTTCTAATGTCATTAGTAATGCCGTTTCCCAAGTCAGTGCAAGTAATCCAGGATCTTCCTCTTGTGATGTCCTTGTTCAAGCACTTCTTGAAATAATTACTGCATTAATTAGTATACTAGATTCCTCTAGTGTTGGACAAGTTAATTACGGTTCTTCAGGACAGTATGCACAAATTGTAGGG---CAGTCTATGCAACAGGCTATGGGG------------------
+Latrodectus_hesperus_MiSp                   ATGCATATTCCAGCTCAGTTATCTTTACTCTTCCTT---CTTCTGTGCGCC------------------------------CAGAGC---TTCGTCTCTTTAGATGCCGCCAGTGTCTGGGACAGCACTGCAACAGCTGAAGCTTTTATTGGAAGCTTCAATTCTGGCATGGAAAGATCTGGAGTGTTGTCACGGTCTCAGATGGATGATATCTCATCCATTAGCGACACCATAATATCTGCCATTGAAAGA---AACCCA---AACAACTCC---AAATCGAAACTGCAAGCTTTAAACATGGCTTTTGCATCATCAGTTTCGGAAATTGCGTTCTCTGAG------AACAATGGAATTTCAAACAGTGCTAAAATACAAGCCATTATTGATGCACTCAGAGGAGCATTTCTGCAAACTATTGGAACGGTTGATCAAACCTTTTTGAATGAAATTTCTAGTCTCGTTAAAATGTTTTCACAGGTTTCA------GCAGAAAATGCCGTTTCACGATTAAGTTCTCCTTCTTCCTCGTCTAGAATAAGCTCTGCAGCGTCAAGCCTT---------GCAACTGGTGGAGTGTTGAATTCT------GCTGCATTGCCTTCGGTAGTTTCTAATATGATGTCCCAAGTTTCTGCTAGCAGTCCTGGAATGTCATCAAGTGAAGTTGTTATCCAAGCCCTACTTGAATTGGTGTCTTCTCTTATACATATTCTCAGCTCTGCTAACATCGGTCAAGTCGACTTCAACTCTGTTGGAAATACAGCTGCTGTAGTTGGT---CAATCACTT---GGGGCAGCTTTAGGA---------------
+Latrodectus_hesperus_TuSp1                  ATGGTTTGGTTGACAAGTACTGTGCTCCTAGCATCCCTTCTGGGAACACTTGGACTTCCAGCC------------------AATAGTTTATCAGGAGTTTCTGCCTCGGTCAATATTTTCAATAGCCCCAATGCAGCAACTAGTTTCCTAAACTGTCTTAGATCTAATATAGAATCTTCTCCAGCATTCCCATTCCAAGAACAGGCTGACTTAGATTCTATCGCGGAAGTAATTCTTTCAGATGTATCCAGTGTG---AATACC---GCAAGC---TCAGCAACATCTTTAGCGCTAAGTACTGCTTTAGCATCGTCGTTGGCTGAACTACTTGTCACTGAA------TCAGCTGAAGAAGATATTGATAATCAGGTAGTAGCTTTGTCAACAATTCTTTCTCAGTGTTTCGTAGAAACCACAGGATCTCCCAACCCAGCGTTTGTAGCAAGTGTAAAATCGCTACTTGGAGTATTATCACAGTCT---------GCAAGCAATTATGAAGCTGGATTGGCTTCTACTGCAGCAACTTCAAGAATTAATGACATTGCACAAAGTTTATCTTCAACTCTATCTTCAGGATCGCAA---TTAGCTCCAGATAATGTACTTCCTGGTCTCATTCAACTGTCTTCATCCATTCAAAGCGGAAATCCTGATTTAGACCCTGCTGGTGTTTTGATCGAGTCATTATTAGAATACACTTCCGCACTTTTAGCTCTTCTTCAAAACGCTCAAATTACAACTTATGATGCTGCGACTTTACCTGCATTCAATACAGCTCTTGTA---AATTACCTTGTTCCCCTTGTT---------------------
+Metepeira_grandiosa_MiSp                    ???????????????CGACTATCGCTATTCTTCCTC---GTCCTGTTCATT------------------------------CAGGGC---TTTATGGCTCATGGC------CATATCTGGGGGACTCCAGGAGCTGGAAAATCGGTGACCGGCAGCATTGTTCAATGTGCTGGGCAGTCAGGCGTCTTCAGTGGAGACCAGATGCAGGACTTGGGAGACATGGCGGATGCAGTAAACAGACAGTTGGACCGATTGGGACCA---AATGCACCT---GATCACAGACTTAAGGGAGTGACTACCATGATGGCCGCCGGAATAGCCGAT---GCGGCTGTAAAT------TCACCAGGTCAGAGTCTTGATGTCATGATTAATACCATCAGCGGATGCATGACGCAAGCAATGTCTCAAGCGGTAGGTTACGTCGACCAGACATTAATAAGAGAAGTGGCAGAAATGGTAAACATGCTTGCAAACGAA---------AATGCGAATGCAGTAAATCGATTGTCTAGTGCCGAAGCAGCAAGCAGAGTATCCTCTAATGTTGCAGCTCTC---------GCCTCCGGTGGCCCT---------------GCTGCCCTTGCCAATGTAATGGGAAATATCTACTCAGGTGTT---GCTTCTTCT---GGTGTTTCTTCTGGTGAAGCTCTTGTTCAGGCCCTTTTGGAAGTCATATCTGCACTTGTTCATTTGTTGAGCAATGCTTCTATTGGTAACGTTAGCTCAGCTGGATTAGGTAATACAATGAGTCTTGTT------CAGAGTACGGTAGGTGCGTACGCCGGT---------------
+Nephila_clavata_TuSp1                       ATGGTTTGGCTGACAAGCATAGCGTTTGTTGTGGCTCTTTTAGGAGCACAATACGACATCGTGACTGCT------------CAGGCAATTTCAGTTGCAACTCCTGTCCCATCAGTGTTCAGTAGCCCTAGCCTTGCGAGTGGTTTCCTTGGATGCCTCACAACTGGTATTGGACTATCTCCAGCTTTCCCGTTTCAAGAACAACAAGATTTAGATGACTTAGCCAAGGTAATTCTCTCCGCAGTAACCAGT------AATACTGACACCTCAAAGTCAGCGAGAGCACAAGCCTTGAGCACTGCATTAGCATCTTCCTTAGCCGACCTACTGATATCCGAA------TCAAGTGGAAGCAGCTACCAAACTCAAATATCTGCCCTCACTAATATCCTATCCGATTGTTTTGTCACAACAACTGGATCAAACAATCCTGCATTTGTATCAAGAGTTCAAACACTTATAGGAGTGCTTTCTCAAAGC---------AGCAGTAATGCAATTTCCGGCTTATCATCAGCGAGTGCGAGTGCAAGAGTTGGCAGTTTAGCTCAATCTCTGGCGTCTGCATTGTCGACTTCTCGAGGTACTTTGAGTTTATCAACCTTCTTGAATCTCCTCTCTCCGATTTCGTCAGAAATT---CGAGCCAATACTTCTCTTGATGGAACGCAGGCGACTGTTGAAGCTTTACTGGAAGCTTTAGCTGCTCTCCTGCAAGTTATCAATGGAGCACAGATAACCGATGTCAATGTTTCTAGCGTCCCCAGCGTGAATGCAGCCCTGGCT---TCTGCTCTTGTTGCT---------------------------
+Nephila_clavipes_Flag                       ???GCTTGCTTTACCTCGGCAGTGATATTTCTTTTCTTAGCGCAGTGTGCG------------------------------TCGACGTACGGAAGGGGGATTATAGCCAACTCCCCTTTCTCAAACCCTAACACAGCGGAAGCTTTTGCACGATCTTTCGTGAGCAATATTGTTTCTAGTGGAGAATTTGGAGCCCAAGGAGCCGAAGACTTCGATGACATAATTCAGAGTCTCATACAGGCC---CAGAGCATGGGCAAAGGGCGGCATGATACGAAGGCCAAGGCGAAAGCGATGCAGGTAGCCCTTGCTTCTTCTATAGCCGAATTGGTTATTGCAGAA------AGCAGCGGAGGCGATGTGCAACGCAAAACCAACGTTATCTCCAACGCTTTGAGAAACGCCTTGATGTCTACAACAGGCAGCCCAAACGAAGAGTTCGTCCATGAAGTTCAAGACCTCATCCAGATGTTATCTCAAGAA---------CAGATCAACGAGGTA---------------------------TCGCGTGTTCCCGATATGGTGAATGGTATAATGAGTGCTATGCAAGGATCTGGTTTTAACTAC------CAAATGTTTGGTAATATGCTATCACAATATTCGTCTGGTTCAGGAACATGCAATCCAAATAATGTTAAT------GTTTTGATGGATGCTTTGTTA---------GCTGCTTTG---CACTGTCTAAGTAACCACGGATCATCATCTTTTGCACCTTCTCCAACTCCGGCTGCTATGAGTGCGTATTCT---AATTCTGTAGGAAGAATGTTCGCTTAT---------------
+Nephila_clavipes_MaSp1a                     ATGACTTGGACAGCTCGACTTGCGCTTTCATTTTTAGCGGTGATCTGCACC------------------------------CAGAGCTTGTTTGCTCAGGGTCAA---AACACCCCATGGTCAAGTACGGAACTAGCAGATGCATTCATTAATGCATTCATGAACGAAGCTGGAAGAACTGGAGCTTTTACTGCGGATCAACTTGATGATATGTCTACCATCGGAGACACAATTAAAACGGCGATGGACAAAATGGCGAGAAGCAACAAGAGTTCAAAAGGAAAGTTGCAAGCTCTTAACATGGCATTCGCTTCATCAATGGCGGAAATTGCTGCAGTAGAA------CAAGGAGGTTTAAGTGTAGATGCAAAGACAAACGCTATTGCAGATTCATTAAACTCCGCATTCTACCAGACAACTGGAGCAGCCAACCCACAGTTTGTCAATGAAATCAGAAGCTTAATTAACATGTTTGCCCAATCT---------TCTGCAAATGAAGTATCCCGCTTGTCCTCACCTGAAGCTAGTTCAAGAGTTTCATCAGCTGTTTCTAACTTG---------GTTTCAAGTGGTCCTACTAATTCT------GCGGCACTTTCAAGTACCATCAGTAATGTTGTTTCACAAATTGGCGCCAGCAATCCTGGTCTTTCTGGATGCGATGTTCTCGTCCAAGCTCTCCTTGAGGTTGTTTCTGCTCTCATCCATATCTTAGGATCTTCCAGCATCGGCCAAGTTAATTATGGTTCAGCTGGTCAAGCCACTCAGATCGTTGGC---CAATCAATTTATCAAGCTCTTGGT------------------
+Nephila_clavipes_MaSp1b                     ATGACTTGGACAGCTCGACTTGCGCTTTCAATTTTAGCGGTGCTTTGCACC------------------------------CAGGGCCTGTTTGCTCAGGGTCAA---AACACCCCATGGTCAAGTACGGAACTAGCAGATGCATTTATCAATGCATTCTTAAACGAAGCTGGAAGAACTGGAGCTTTCACTGCAGATCAACTCGATGACATGTCTACCATTGGCGACACCCTTAAAACGGCAATGGACAAAATGGCAAGAAGTAACAAGAGTTCACAATCAAAGCTGCAAGCTCTAAACATGGCCTTCGCTTCATCAATGGCGGAAATTGCTGCAGTGGAG------CAAGGAGGTCTGAGTGTAGCAGAAAAAACTAACGCAATTGCAGATTCATTAAACTCAGCCTTCTACCAAACCACAGGAGCAGTCAACGTTCAGTTTGTCAATGAAATCAGAAGTTTAATTAGCATGTTTGCACAAGCC---------TCTGCAAATGAAGTATCCCGTTTGTCTTCTCCTCAAGCTAGTTCAAGAGTTTCATCAGCTGTTTCCAACTTG---------GTTGCAAGTGGTCCTACTAATTCT------GCGGCCTTGTCAAGTACAATCAGTAACGTGGTTTCACAAATAGGCGCCAGCAATCCTGGTCTTTCTGGATGTGATGTCCTCATTCAAGCTCTTCTCGAGGTTGTTTCTGCTCTTATCCACATCTTAGGTTCTTCCAGCATCGGCCAAGTTAACTATGGTTCCGCTGGACAAGCCACTCAGATCGTTGGT---CAATCAGTTTATCAAGCCCTAGGT------------------
+Nephila_clavipes_MaSp2                      ATGAGTTGGTCCACT---CTAGCTTTAGCGATTTTAGCGGTGCTTAGCACC------------------------------CAATCCATCTACGCTTCTGCACAAGCAAGGTCTCCATGGAGTGACACAGCCACAGCAGATGCCTTCATTCAGAATTTCTTAGCAGCGGTTTCGGGAAGTGGAGCTTTCACTTCAGATCAACTTGATGACATGTCCACGATCGGCGATACCATCATGTCAGCAATGGACAAAATGGCTAGAAGTAACAAGAGCTCCCAACACAAACTGCAAGCTCTCAACATGGCTTTCGCCTCTTCCATGGCAGAAATTGCAGCGGTGGAG------CAAGGTGGTATGAGCATGGCAGTAAAAACAAATGCAATTGTTGATGGCCTGAATTCAGCTTTCTACATGACAACTGGAGCTGCAAATCCTCAGTTTGTCAACGAAATGAGGAGCTTAATTAGTATGATAAGTGCAGCT---------TCGGCTAATGAAGTATCTCGTCTGGCTTCTCCAGATTCAGGCGCTAGAGTTGCATCAGCTGTTTCTAACTTG---------GTATCCAGTGGCCCAACTAGCTCT------GCTGCCTTATCAAGTGTTATCAGTAACGCTGTGTCTCAAATTGGCGCAAGTAATCCTGGTCTCTCTGGTTGCGATGTCCTCATTCAAGCTCTCTTGGAAATCGTTTCTGCTTGTGTAACCATCCTTTCTTCATCCAGCATTGGTCAAGTTAATTATGGAGCGGCTTCTCAGTTCGCCCAAGTTGTCGGC---CAATCTGTTTTGAGTGCATTT---------------------
+Nephila_inaurata_madagascariensis_Flag      ATGGCCTGCTTTACCTCGGCAGTGATATTTCTTTTCTTAGCGCAGTGTGCG------------------------------TCGACGTACGGAAGGGGGATTATAGTCAACTCCCCTTTCTCAAACCCTAACACAGCGGAAGCTTTTGCAAGATCTTTCGTGAGCAATGTTGTTTCTAGTGGAGAATTTGGAGCCCAAGGAGCCGAAGACTTCGATGACATAATTCAAAGTCTCATACAGGCC---CAGAGTATGGGCAAAGGGCGGCATGATACGAAGGCCAAGGCGAAAGCGATGCAGGTAGCCCTTGCTTCTTCTATAGCCGAATTGGTGATAGCAGAA------AGCAGCGGAGGCGATGTGCAACGCAAAACCAATGTTATCTCCAACGCTTTGAGAAACGCCTTGATGTCTACAACTGGAAGCCCGAACGAAGAGTTCGTCCATGAAGTTCAAGACCTCATCCAGATGTTATCTCAAGAA---------CAGATCAACGAGGTA---------------------------TCGCGTGTTCCCGATATGGTGAATGGTATAATGAGTGCTATGCAAGGATCTGGTTTTAACTAC------CAAATGTTTGGCAATATGCTATCACAATATTCTTCTGGTTCAGGGTCATGCAATCCAAATAATGTTAAT------GTTTTGATGGATGCTTTGTTA---------GCTGCTTTG---CACTGTCTAAGTAACCACGGATCATCATCTTTTGCACCTTCTCCAACTCCGGCTGCTATGAGTGCTTATTCT---AATTCTGTAGGAAGAATGTTCGCTTAT---------------
+Nephila_inaurata_madagascariensis_MaSp2     ATGAGTTGGTCCACT---CTAGCTTTAGCGATTATCGCGGTGCTTAGCACC------------------------------CAGTGCATTTTTATTGCAGGACAAGCAAACACACCATGGAGCGACACTGCCACAGCAGATGCTTTCATTCAGAATTTCTTAGGAGCTGTTTCAGGAAGTGGAGCCTTTACTCCAGATCAACTTGATGATATGTCCACAGTCGGAGATACCATCATGTCAGCAATGGACAAAATGGCTCGCAGTAACAAGAGCTCCAAATCAAAATTACAAGCTCTAAACATGGCTTTCGCTTCATCGATGGCAGAAATTGCAGCGGTGGAA------CAAGGTGGTCAGAGCATGGATGTCAAAACAAATGCAATTGCCAATGCTCTAGATTCAGCTTTTTATATGACAACTGGTTCAACAAATCAACAGTTTGTCAACGAAATGAGAAGCTTAATTAACATGTTGAGTGCAGCT---------GCCGTTAATGAAGTATCTCGACTTGCTTCTCCAGATTCAGGCGCTAGAGTTGCATCTGCTGTTTCTAACTTG---------GTATCCAGTGGTCCAACTAGCTCT------GCTGCCTTATCAAGCGTCATCAGTAACGCTGTGTCTCAAATTGGAGCCAGTAATCCTGGTCTCTCTGGTTGCGATGTCCTCATTCAAGCTCTCTTGGAAATCGTTTCGGCTTGTGTAACCATTCTTTCTTCATCTAGCATTGGTCAAGTTAATTATGGAGCGGCT?????????????????????????????????????????????????????????????????????
+Uloborus_diversus_MiSp                      ??????????????????????????????TTCGCT---GTTTTTTGCGCC------------------------------CAGAGCTACTCAGCTCTGGGGCAAGGAGCCTCAGTATGGTCAAGCCCCCAAATGGCCGAGAACTTCATGAACGGCTTCTCCATGGCTCTTTCGCAAGCTGGAGCATTCAGTGGGCAGGAGATGAAAGACTTCGATGATGTCAGAGATATCATGAACTCTGCAATGGACAAGATGATAAGGTCCGGGAAAAGTGGCCGTGGCGCGATGAGGGCCATGAACGCAGCGTTCGGCTCAGCTATTGCAGAAATCGTTGCTGCTAAC---------GGCGGAAAAGAATACCAA------ATAGGCGCAGTTCTAGATGCAGTTACTAATACTCTTCTACAGCTGACCGGAAATGCTGATAACGGTTTTCTCAATGAAATCAGTCGACTTATCACGCTATTTAGCAGTGTA---------GAAGCAAACGACGTAAACCGAATTGTATCTGCTCCAGCTGTCAACCGAATGAGCGCAGCATCTTCAACTCTT---------GTTTCTAACGGCGCTTTTAACGTC------GGTGCTCTTGGTTCAACGATTTCAGATATGGCTGCACAGATCCAAGCTGGTTCACAAGGACTTTCCAGTGCAGAAGCAACTGTGCAAGCTCTTCTTGAAGTAATTTCGGTTCTTACACACATGCTCAGTTCGGCAAACATTGGATACGTCGATTTCAGTCGTGTTGGAGATTCCGCATCTGCTGTCTCT---CAATCAATG------GCCTATGCCGGT---------------
+;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M20773]
+
+	TITLE NtermPCRvariants;
+	LINK TAXA = Taxa10;
+	DIMENSIONS NCHAR=937;
+	FORMAT DATATYPE=DNA SYMBOLS= "A C G T" MISSING=? GAP= -;
+
+MATRIX
+[                                        10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170       180       190       200       210       220       230       240       250       260       270       280       290       300       310       320       330       340       350       360       370       380       390       400       410       420       430       440       450       460       470       480       490       500       510       520       530       540       550       560       570       580       590       600       610       620       630       640       650       660       670       680       690       700       710       720       730       740       750       760       770       780       790       800       810       820       830       840       850       860       870       880       890       900       910       920       930       940       950       960       970       980       990       1000       1010       1020       1030       1040        ]
+[                                         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .        ]
+Argiope_argentata_NtermV1        AGTCCAGTACGATGCGGTGCAAAGCGCGTCAACTCTGTCCAGGAGTCCTTGGGCCAATCCGGCCAAAGCTGGTTCTTTGATGAACTGTCTCATGAGCAGAATCGCCAGTTCAAATGTCCTGCCTCAACAAGATAAAGAAGATCTGGAATCCATTATGGACACACTGATGTCGGCAATTAAAGGAGCGAGTGCCAAAGGTAAAAGCTCTGCAGCGCAGTTGCAGGCGATAAATATGGCTGTTGCTTCTTCCCTGGCAGAAATAGTCGTTGCTGAAGATGCAGGCAATCAAGCAAGCATCGCAGTAAAGACTCAGGCCCTTACAGGTGCTCTGGGACAATGCTTCCAAGCAGTCATGGGCACAGTCGACAGGAAATTCATCAATGAAATAAATGACTTGATAACAATGTTTGCAAAAGAAGCTGCCAGTGAAAGCAACGAAATACCAGATCAAGAATCTTTCTCCGCAAGCGGATCATCTGCTTCAACGTCGTATCAAGCAGCAAGCCAAAGTTTCCAAGGGTCATCACAAACAACAGGCGGAATTAGTACATATCCCCAGCCTCAAGTTTCGCAATCAGCAACATTCGGCATTGGGTCAGTTGGAAATACTGGTGGTGCTGGATCATATGGTGGGGGATTGCAATCAGGCTCAGTAACCGGTGGAACTTCTTTTGGTCAAACATCCACTTTATCAACTAGTTTGTCTCAGACAGGAGGTATATCTACCAGTGGGGCCGGTTACAACGGACCAGTTGGATACAGAGGGCCT------------------GTTGGTGGAGGATCACAG------TTC---------------------GGAACTGATTCAAGCCAAACAG--------------------------------------------------------------------------------
+Argiope_argentata_NtermV2        AGTCCAGTACGATGCGGTGCAAAGCGCGTCAACTCTGTCCAGGAGTCCTTGGGCCAATCCGGCCAAAGCTGGTTCTTTGATGAACTGTCTCATGAGCAGAATCGCCAGTTCAAATGTCCTACCTCAACAAGATAAAGAAGATCTGGAATCCATTATGGACACACTGATGTCGGCAATTAAAGGAGCGAGTGCCAAAGGTAAAAGCTCTGCAGCTCAATTGAAGGCAATCAATATGGCGGTTGCATCTTCCCTGGCAGAAATAGTCGTTGCCGAAGATGCAGGAAACCAGGCCAGCATCGCAGTAAAGACTCAGGCCCTTACAGGTGCTCTGGGACAGTGCTTCCAAGCAGTCATGGGCACTGTCGACAGGAAATTCATCAATGAAATAAACGACTTGATAACAATGTTTGCAAAAGAAGCTGCCAGTGAAAGCAACGAAATACCAGATCAAGAATCTTCCTCCGCAAGCGGATCATCTGCTTCAACGTCGTATCAAGCAGCAAGCCAA---------GGCTCGTTTCAAACTACAGGTGGAATAAGTACATACTCTCAACCTCAAGTTTCACAGCCAGAATCATTC---------------------------GGAGCTGGG------CAACAGATATTACAACCTTCT---------------------------------------------------------------------------------------GGCTACACTGGACCTTCCGGGTACACCGGACCTTCTAGCAACAATGGGACTGTGGGCGGCGGAGCGCAG------TTC---------------------GGTTCCGTTTCAGGCCAAACCTCTTACGGTCAAACGTCAGGATCTGCCGCATCTACTGGAGGCCAAGCCTCTTTCGGTGCACCAAGCGGAGCGTCAGCTGGC
+Argiope_argentata_NtermV3        AGTCCAGTACGATGCGGTGCAAAGCGCGTCACCTCTGTCCAGGAGTCCTTGGGCCAATCCGGCCAAAGCTGGTTCTTTTATGAACTGTCTAATGAGCAGAATCGCCAGTTCAAATGTCCTGCCTCAACAAGATAAAGAAGATCTGGAATCCATTATGGACACACTGATGTCGGCAATTAAAGGAGCGAGTGCCAAAGGTAAAAGCTCTGCAGCTCAATTGAAGGCAATCAATATGGCGGTTGCATCTTCCCTGGCAGAAATAGTCGTTGCCGAAGATGCAGGAAACCAGGCCAGCATCGCAGTAAAGACTCAGGCCCTTACAGGTGCTCTGGGACAGTGCTTCCAAGCAGTCATGGGCACTGTCGACAGGAAATTCATCAATGAAATAAACGACTTGATAACAATGTTTGCAAAAGAAGCTGCCAGTGAAAGCAACGAAATACCAGATCAAGAATCTTCCTCCGCAAGCGGATCATCTGCTTCAACGTCGTATCAAGCAGCAAGCCAA---------GGCTCGTTTCAAACTACAGGTGGAATAAGTACATACTCTCAACCTCAAGTTTCACAGCCAGAATCATTC---------------------------GGAGCTGGG------CAACAGATATTACAACCTTCT---------------------------------------------------------------------------------------GGCTACACTGGACCTTCCGGGTACACCGGACCTTCTAGCAACAATGGGACTGTGGGCGGCGGAGCGCAG------TTC---------------------GGTTCCGTTTCAGGCCAAACCTCTTACGGTCAAACGTCAGGATCTGCCGCATCTACTGGAGGCCAAGCCTCTTTCGGTGCACCAAGCGGAGCGTCAGCTGGC
+Argiope_argentata_NtermV4        AGTCCAGTACGATGCGGTGCAAAGCGCGTCAACTCTGTCCAGGAGTCCTTGGGCCAATCCGGCCAAAGCTGGTTCTTTGATGAACTGTCTCATGAGCAGAATCGCCAGTTCAAATGTCCTACCTCAACAAGATAAAGAAGATCTGGAATCCATTATGGACACACTGATGTCGGCAATTAAAGGAGCGAGTGCCAAAGGTAAAAGCTCTGCAGCTCAATTGAAGGCAATCAATATGGCGGTTGCATCTTCCCTGGCAGAAATAGTCGTTGCCGAAGATGCAGGAAACCAGGCCAGCATCGCAGTAAAGACTCAGGCCCTTACAGGTGCTCTGGGACAGTGCTTCCAAGCAGTCATGGGCACTGTCGACAGGAAATTCATCAATGAAATAAACGACTTGATAACAATGTTTGCAAAAGAAGCTGCCAGTGAAAGCAACGAAATACCAGATCAAGAATCTTTCTCCGCAAGCGGATCATCTGCTTCATCGTCGTTTCAAGCAGTTAGCCAA---------GGCTCGTTTCAAACTACAGGTGGAATAAGTACATACTCTCAACCTCAAGTTTCACAGCCAGAATCATTC---------------------------GGAGCTGGG------CAACAGATATTACAACCTTCT---------------------------------------------------------------------------------------GGCTACACTGGACCTTCCGGGTACACCGGACTTTCTAGCAACAATGGGACTGTGGGCGGCGGAGCGCAG------TTC---------------------GGTTCCGTTTCAGGCCAAACCTCTTACGGTCAAACGTCAGGATCTGCCGCATCTACTGGAGGCCAAGCCTCTTTCGGTGCACCAAGCGGAGCGTCAGCTGGC
+Argiope_argentata_NtermV5        AGTCCAGTACGATGCGGTGCAAAGCGCGTCAACTCTGTCCAGGAGTCCTTGGGCCAATCCGGCCAA{AG}GCTGGTTCTTTGATGAACTGTCTCATGAGCAGAATCGCCAGTTCAAATGTCCTGCCTCAACAAGATAAAGAAGATCTGGAATCCATTATGGACACACTGATGTCGGCAATTAAAGGAGCGAGTGCCAAAGGTAAAAGCTCTGCAGCTCAATTGAAGGCA{AG}TCAATATGGCGGTTGCATCTTCCCTGGCAGAAATAGTCGTTGCCGAAGATGCAGGAAACCAGGCCAGCATCGCAGTAAAGACTCAGGCCCTTACAGGTGCTCTGGGACAGTGCTTCCAAGCAGTCATGGGCACTGTCGACAGGAAATTCATCAATGAAATAAACGACTTGATAACAATGTTTGCAAAAGAAGCTGCCAGTGAAAGCAACGAAATACCAGATCAAGAATCTTTCTCCGCAAGCGGATCATCTGCTTCAACGTCGTATCAAGCAGCAAGCCAAAGTTTCCAAGGGTCATCACAAACAACAGGCGGAATTAGTACATATCCCCAGCCTCAAGTTTCGCAATCAGCAACATTCGGCATTGGGTCAGTTGGAAATACTGGTGGTGCTGGATCATATGGTGGGGGATTGCAATCAGGCTCAGTAACCGGTGGAACTTCTTTTGGTCAAACATCCACTTTATCAACTAGTTTGTCTCAGACAGGAGGTATATCTACCAGTGGGGCCGGTTACAACGGACCAGTTGGATACAGAGGGCCT------------------GTTGGTGGAGGATCACAG------TTC---------------------GGAACTGATTCAAGCCAAACAG--------------------------------------------------------------------------------
+Argiope_argentata_NtermV6        AGTCCAGTACGATGCGGTGCAAAGCGCGTCAACTCTGTCCAGGAGTCCTTGGGCCAATCCGGCCAAAGCTGGTTCTTTGATGAACTGTCTCATGAGCAGAATCGCCAGTTCAAATGTCCTACCTCAACAAGATAAAGAAGATCTGGAATCCATTATGGACACACTGATGTCGGCAATTAAAGGAGCGAGTGCCAAAGGTAAAAGCTCTGCAGCTCAATTGAAGGCAATCAATATGGCGGTTGCATCTTCCCTGGCAGAAATAGTCGTTGCCGAAGATGCAGGAAACCAGGCCAGCATCGCAGTAAAGACTCAGGCCCTTACAGGTGCTCTGGGACAGTGCTTCCAAGCAGTCATGGGCACTGTCGACAGGAAATTCATCAATGAAATAAACGACTTGATAACAATGTTTGCAAAAGAAGCTGCCAGTGAAAGCAACGAAATACCAGATCAAGAATCTTTCTCCGCAAGCGGATCATCTGCTTCAACGTCGTATCAAGCAGCAAGCCAAAGTTTCCAAGGGTCATCACAAACAACAGGCGGAATTAGTACATATCCCCAGCCTCAAGTTTCGCAATCAGCAACATTCGGCATTGGGTCAGTTGGAAATACTGGTGGTGCTGGATCATATGGTGGGGGATTGCAATCAGGCTCAGTAACCGGTGGAACTTCTTTTGGTCAAACATCCACTTTATCAACTAGTTTGTCTCAGACAGGAGGTATATCTACCAGTGGGGCCGGTTACAACGGACCAGTTGGATACAGAGGGCCT------------------GTTGGTGGAGGATCACAG------TTC---------------------GGAACTGATTCAAGCCAAACAG--------------------------------------------------------------------------------
+Argiope_argentata_NtermV7        AGTCCAGTACGATGCGGTGCAAAGCGCGTCAACTCTGTCCAGGAGTCCTTGGGCCAATCC{AG}GCCAAAGCTG{AG}TTCTTTGATGAACTGTCTCATGAGCAGAATCGCCAGTTCAAATG{CT}CCTGCCTCAACAAGATAAAGAAGATCTGGAATCCATTATGGACACACTGATGTCGGCAATTAAAGGAGCGAGTGCCAAAGGTAAAAGCTCTGCAGCGCAGTTGCAGGCGATAAATATGGCTGTTGCTTCTTCCCTGGCAGAAATAGTCGTTGCTGAAGATGCAGGCAATCAAGCAAGCATCGCAGTAAAGACTCAGGCCCTTACAGGTGCTCTGGGACAATGCTTCCAAGCAG{CT}CATGGGCACAGTCGACAGGAAATTCATCAATGAAATAAATGACTTGATAACAATGTTTGCAAAAGAAGCTGCCAGTGAAAGCAACGAAATACCAGATCAAGAATCTTCCTCCGCAAGCGGATCATCTGCTTCAACGTCGTATCAAGCAGCAAGCCAA---------GGCTCGTTTCAAACTACAGGTGGAATAAGTACATAC{CT}CTCAACCTCAAGTTTCACAGCCAGAATCATTC---------------------------GGAGCTGGG------CAACAGATATTACAACCTTCT---------------------------------------------------------------------------------------GGCTACACTGGACCTTCCGGGTACACCGGACCTTCTAGCAACAATGGGACTGTGGGCGGCGGAGCGCAG------TTC---------------------GGTTCCGTTTCAGG{CT}CAAACCTCTTACGGTCAAACGTCAGGATCTGCCGCATCTACTGGAGGCCAAGCCTCTTTCGGTGCACCAAGCGGAGCGTCAGCTGGC
+Argiope_aurantia_NtermV1         GGTACAGTACGATGCGGTGCAAAGCGCGTCACCTTTGTCAAGGAGTCCTTGGGCCAATCCAGCCAAAGCAGGATCGTTGATGAACTGTCTTATCAATAGAATCTCTAGCTCAAATGTCTTGCCTCAACAAGATAAAGAAGACTTGGAATCCATTATGGACACACTGATGTCTGCAATAACAGGGGCCAGTGCGAAAGGTAAAAGCTCTGCAGCGCAGTTGCAGGCCATCAATATGGCAGTTGCATCTTCCCTGGCAGAACTAGTCGTTGCCGAAGACGCAGGCAATCAGGCAAGCATTGCAGTAAAGACGCAGGCCCTTTCAGGAGCACTGCAGCAATGTTTCCAAGCAGTGATGGGCACGGTCGACCGAAAATTCATCAACGAAATAAACGATTTGATAACAATGTTTGCCAGAGAAGCTGCCAGCGAAAGTAATGAAATTCCAGACCAAGCATCATTCTCCGCAAGCGGATCATCTGCTGCATCTTCCTACCAAGCAACAAGTCAAAGTTTCCAAGGATCATCTCAAACTACAGGCGGATTTAGTTCATACTCCCAACCTCAAGTTCCGCAGCCAGCAACGTTCGACACTGGCTCAGTCGGATACACTGGTGGAGCTGGGACATATGATGGAGGATTACAATCAGGCTCCATTACAGGCGGAACTTCTTTCGGTCAAACAACTGCTGCATCAACCAGTTTCTCTCAAACAGGAGCTTCAACTGCTAGTGGCGCCGGTTACACGGGGCCTACTGGCTATACTGGACCT------------------GTGGGTGGAGGATCACAG------TTC---------------------GGTTCTGATTCCGGCCAAACTGCTAGT---------------------------------------------------------------------------
+Argiope_aurantia_NtermV2         GGTACAGTACGATGCGGTGCAAAGCGCGTCACCTTTGTCAAGGAGTCCTTGGGCCAATCCAGCCAAAGCAGGATCGTTGATGAACTGTCTTATCAACAGAATCTCTAGCTCAAATGTCTTGCCTCAACAAGATAAAGAAGACTTGGAATCCATTATGGACACACTGATGTCTGCAATAACAGGGGCCAGTGCGAAAGGTAAAAGCTCTGCAGCGCAGTTGCAGGCCATCAATATGGCAGTTGCATCTTCCCTGGCAGAACTAGTCGTTGCCGAAGACGCAGGCAATCAGGCAAGCATTGCAGTAAAGACGCAGGCCCTTTCAGGAGCACTGCAGCAATGTTTCCAAGCAGTGATGGGCACGGTCGACCGAAAATTCATCAACGAAATAAACGATTTGATAACAATGTTTGCCAGAGAAGCTGCCAGCGAAAGTAATGAAATTCCAGACCAAGCATCATTCTCCGCAAGCGGATCATCTGCTGCATCTTCCTACCAAGCAACAAGTCAAAGTTTCCAAGGATCATCTCAAACTACAGGCGGATTTAGTTCATACTCCCAACCTCAAGTTCCGCAGCCAGCAACGTTCGACACTGGCTCAGTCGGATACACTGGTGGAGCTGGGACATATGATGGAGGATTACAATCAGGCTCCATTACAGGCGGAACTTCTTTCGGTCAAACAACTGCTGCATCAACCAGTTTCTCTCAAACAGGAGCTTCAACTGCTAGTGGCGCCGGTTACACGGGGCCTACTGGCTATACTGGACCT------------------GTGGGTGGAGGATCACAG------TTC---------------------GGTTCTGATTCCGGCCAAACTGCTAGT---------------------------------------------------------------------------
+Argiope_aurantia_NtermV3         GGTACAGTACGATGCGGTGCAAAGCGCGTCACCTTTGTCAAGGAGTCCTTGGGCCAATCCAGCCAAAGCAGGATCGTTGATGAACTGTCTTATCAACAGAATCTCTAGCTCAAATGTCTTGCCTCAACAAGATAAAGAAGACTTGGAATCCATTATGGACACACTGATGTCTGCAATAACAGGGGCCAGTGCGAAAGGTAAAAGCTCTGCAGCGCAGTTGCAGGCCATCAATATGGCAGTTGCATCTTCCCTGGCAGAACTAGTCGTTGCCGAAGACGCAGGCAATCAGGCAAGCATTGCAGTAAAGACGCAGGCCCTTTCAGGAGCACTGCAGCAATGTTTCCAAGCAGTGATGGGCACGGTCGACCGAAAATTCATCAACGAAATAAACGATTTGATAACAATGTTTGCCAGAGAAGCTGCCAGCGAAAGTAATGAAATTCCAGACCAAGGATCATTCTCCGCAAGCGGATCATCTGCTGCATCTTCCTACCAAGCAACAAGTCAAAGTTTCCAAGGATCATCTCAAACTACAGGCGGATTTAGTTCATACTCCCAACCTCAAGTTCCGCAGCCAGCAACGTTCGACACTGGTTCAGTCGGATACACTGGTGGAGCTGGGACATATGTTGGAGGATTACAATCAGGCTCCATTACAGGCGGAACTTCTTTCGGTCAAACAACTGCTGCATCAACCAGTTTCTCTCAAACAGGAGCTTCAACTGCTAGTGGCGCCGGTTACACGGGGCCTACTGGCTATACTGGACCT------------------GTGGGTGGAGGATCACAG------TTC---------------------GGTTCTGATTCCGGCCAAACTGCTAGT---------------------------------------------------------------------------
+Argiope_aurantia_NtermV4         GGTACAGTACGATGCGGTGCAAAGCGCGTCACCTTTGTCAAGGAGTCCTTGGGCCAATCCAGCCAAAGCAGGATCGTTGATGAACTGTCTTATCAA{CT}AGAATCTCTAGCTCAAATGTCTTGCCTCAACAAGATAAAGAAGACTTGGAATCCATTATGGACACACTGATGTCTGCAATAACAGGGGCCAGTGCGAAAGGTAAAAGCTCTGCAGCGCAGTTGCAGGCCATCAATATGGCAGTTGCATCTTCCCTGGCAGAACTAGTCGTTGCCGAAGACGCAGGCAATCAGGCAAGCATTGCAGTAAAGACGCAGGCCCTTTCAGGAGCACTGCAGCAATGTTTCCAAGCAGTGATGGGCACGGTCGACCGAAAATTCATCAACGAAATAAACGATTTGATAACAATGTTTGCCAGAGAAGCTGCCAGCGAAAGTAATGAAATTCCAGACCAAGGATCATTCTCCGCAAGCGGATCATCTGCTGCATCTTCCTACCAAGCAACAAGTCAAAGTTTCCAAGGATCATCTCAAACTACAGGCGGATTTAGTTCATACTCCCAACCTCAAGTTCCGCAGCCAGCAACGTTCGACACTGGCTCAGTCGGATACACTGGTGGAGCTGGGACATATGATGGAGGATTACAATCAGGCTCCATTACAGGCGGAACTTCTTTCGGTCAAACAACTGCTGCATCAACCAGTTTCTCTCAAACAGGAGCTTCAACTGCTAGTGGCGCCGGTTACACGGGGCCTACTGGCTATACTGGACCT------------------GTGGGTGGAGGATCACAG------TTC---------------------GGTTCTGATTCCGGCCAAACTGCTAGT---------------------------------------------------------------------------
+Argiope_aurantia_NtermV5         GGTACAGTACGATGCGGTGCAAAGCGCGTCACCTTTGTCAAGGAGTCCTTGGGCCAATCCAGCCAAAGCAGGATCGTTGATGAACTGTCTTATCAATAGAATCTCTAGCTCAAATGTCTTGCCTCAACAAGATAAAGAAGACTTGGAATCCATTATGGACACACTGATGTCTGCAATAACAGGGGCCAGTGCGAAAGGTAAAAGCTCTGCAGCGCAGTTGCAGGCCATCAATATGGCAGTTGCATCTTCCCTGGCAGAACTAGTCGTTGCCGAAGACGCAGGCAATCAGGCAAGCATTGCAGTAAAGACGCAGGCCCTTTCAGGAGCACTGCAGCAATGTTTCCAAGCAGTGATGGGCACGGTCGACCGAAAATTCATCAACGAAATAAACGATTTGATAACAATGTTTGCCAGAGAAGCTGCCAGCGAAAGTAATGAAATTCCAGACCAAGGATCATTCTCCGCAAGCGGATCATCTGCTGCATCTTCCTACCAAGCAACAAGTCAAAGTTTCCAAGGATCATCTCAAACTACAGGCGGATTTAGTTCATACTCCCAACCTCAAGTTCCGCAGCCAGCAACGTTCGACACTGGTTCAGTCGGATACACTGGTGGAGCTGGGACATATGTTGGAGGATTACAATCAGGCTCCATTACAGGCGGAACTTCTTTCGGTCAAACAACTGCTGCATCAACCAGTTTCTCTCAAACAGGAGCTTCAACTGCTAGTGGCGCCGGTTACACGGGGCCTACTGGCTATACTGGACCT------------------GTGGGTGGAGGATCACAG------TTC---------------------GGTTCTGATTCCGGCCAAACTGCTAGT---------------------------------------------------------------------------
+Argiope_aurantia_NtermV6         GGTACAGTACGATGCGGTGCAAAGCGCGTCACCTTTGTCAAGGAGTCCTTGGGCCAATCCAGCCAAAGCAGGATCGTTGATGAACTGTCTTATCAATAGAATCTCTAGCTCAAATGTCTTGCCTCAACAAGATAAAGA{AG}GACTTGGAATCCATTATGGACACACTGATGTCTGCAATAACAGGGGCCAGTGCGAAAGGTAAAAGCTCTGCAGCGCAGTTGCAGGCCATCAATATGGCAGTTGCATCTTCCCTGGCAGAACTAGTCGTTGCCGAAGACGCAGGCAATCAGGCAAGCATTGCAGTAAAGACGCAGGCCCTTTCAGGAGCACTGCAGCAATGTTTCCAAGCAGTGATGGGCACGGTCGACCGAAAATTCATCAACGAAATAAACGATTTGATAACAATGTTTGCCAGAGAAGCTGCCAGCGAAAGTAATGAAATTCCAGACCAAGCATCATTCTCCGCAAGCGGATCATCTGCTGCATCTTCCTACCAAGCAACAAGTC{AG}AAGTTTCCAAGGATCATCTCAAACTACAGGCGGATTTAGTTCATACTCCCAACCTCAAGTTCCGCAG{CT}CAGCAACGTTCGACACTGGTTCAGTCGGATACACTGGTGGAGCTGGGACATATGTTGGAGGATTACAATCAGGCTCCATTACAGGCGGAACTTCTTTCGGTCAAACAACTGCTGCATCAACCAGTTTCTCTCAAACAGGAGCTTCAACTGCTAGTGGCGCCGGTTACACGGGGCCTACTGGCTATACTGGACCT------------------GTGGGTGGAGGATCACAG------TTC---------------------GGTTCTGATTCCGGCCAAACTGCTAGT---------------------------------------------------------------------------
+Argiope_trifasciata_NtermV1      AGTACAGTACGATGCGGTGCAAAGTGCTTCACCTATCTCGAGGAGCCCTTGGGCCAATCCAGCTAAAGCAGGTTCGTTGATGAACTGTCTCATTAACAGAATTGCCAGCTCCAATGTCTTGCCTCAACAAGAAAAAGAAGACTTGGAATCCATTATGGACACACTGATGTCTGCTATAAAAGGTGCGAGTGCCAAAGGTAAAAGCTCTGCAGCTCAGTTGCAGGCTATTAATATGGCAGTTGCATCTTCCCTAGCTGAATTAGTCGTTGCTGAAGACGCTGGCAATCAGGCAAGCATCGCAGTAAAGACGCAGGCCCTTACAGGTGCCCTGGGGCAGTGTTTCCAAGCGGTCATGGGCACAGTCGACAGGAAATTCATCAACGAAATAAACGATTTGATAACAATGTTTGCCAGAGAAGCTGCAAGTGACAGCAATGAAATTGAAGACCAAGGATCATTCTCCACAAGTGGATCATCAACTTCATCGTCGTATCAAGCAGCAAGTCAGAGTTTA------------------------------------------------------------------------GGCATTGGGTCAGTCGGTTACACTGGTGGTGCTGGGCCATATGGGGGAGGACTTCAGTCAAGCTCATTTTCAGGCGGAACTTCTTTCGGTCAAACCGCAGCTGCATCAACCAGTTTCTCTCAGACAGGAGCTACTTCTACGAGCGGGGACAGTTAT------CCTGGTAGCTATATTGGAACT------------------CTGGGTGGAGGAGCACAG------TTC---------------------GGTTCTGCTTCCAGCCAAACAGCTAGT---------------------------------------------------------------------------
+Argiope_trifasciata_NtermV10     AGTACAGTACGATGCGGTGCAAAGTGCTTCACCTATCTCGAGGAGTCCTTGGGCCAATCCAGCTAAAGCAGGTTCGTTGATGAACTGTCTCATTAACAGAATTGCCAGCTCCAATGTCTTGCCTCAACAAGAAAAAGAAGACTTGGAATCCATTATGGACACACTGATGTCTGCTATAAAAGGTGCGAGTGCCAAAGGTAAAAGCTCTGCAGCACAGTTGCAGGCTATTAATATGGCAGTTGCATCTTCCCTGGCAGAACTAGTCGTTGCTGAAGATGCAGGCAATCAGGCAAGCATCGCAGTAAAGACGCAGGCCCTTTCAGGAGCTCTCCAGCAGTGTTTCCAAGCGGTCATGGGCACAGTCGACCGGAAATTCATCAACGAAATAAACGATTTGATAACAATGTTTGCCAGAGAAGCTGCAAGTGAAAGCAATGACATTCAAGATCAAGGATCATTCTCCACAAGTGGATCATCAGCTTCATCATCGTATCAAGCAGCAAGTCAGAGTTCA------------------------------------------------------------------------GGCATTGGGTCAGTCGGATACACTGGTGGTGCTGGGCCATATGGTGGGGGACTTCAATCAAGCTCATTTTCAGGCGGAACTTCTTTCGGTCAAACCGCAGCTGCATCAACCAGTTTCTCTCAGACAGGAGCTACTTCTACGAGCGGTGACAGTTACACAGGCCCTGTTGGCTATAGTGGACCT------------------CTGGGTGGAGGAGCACAG------TTC---------------------GGTTCTGCTTCCAGCCAAACAGCTAGT---------------------------------------------------------------------------
+Argiope_trifasciata_NtermV11     AGTACAGTACGATGCGGTGCAAAGTGCTTCACCTATCTCGAGGAGTCCTTGGGCCAATCCAGCTAAAGCAGGTTCGTTGATGAACTGTCTCATTAACAGAATTGCCAGCTCCAATGTCTTGCCTCAACAAGAAAAAGAAGACTTGGAATCCATTATGGACACACTGATGTCTGCTATAAAAGGTGCGAGTGCCAAAGGTAAAAGCTCTGCAGCACAGTTGCAGGCTATTAATATGGCAGTTGCATCTTCCCTGGCAGAACTAGTCGTTGCTGAAGATGCAGGCAATCAGGCAAGCATCGCAGTAAAGACGCAGGCCCTTTCAGGAGCTCTCCAGCAGTGTTTCCAAGCGGTCATGGGCACAGTCGACCGGAAATTCATCAACGAAATAAACGATTTGATAACAATGTTTGCCAGAGAAGCTGCAAGTGAAAGCAATGAAATTCAAGATCAAGGATCATTCTCCACAAGTGGATCATCAGCTTCATCATCGTATCAAGCAGCAAGTCAGAGTTCA------------------------------------------------------------------------GGCATTGGGTCAGTCGGATCCACTGGTGGTGCTGGGCCATATGGTGGGGGACTTCAATCAAGCTCATTTTCAAGCGGAACTTCTTTCGGTCAAACCGCAGCTGCATCAACCAGTTTCTCTCAGACAGGAGCTACTTCTACGAGCGGTGACAGTTACACAGGCCCTGTTGGCTATAGTGGACCT------------------CTGGGTGGAGGAGAACAG------CTC---------------------GGTTCTGCTTCCAGCCAAACAGCTAGT---------------------------------------------------------------------------
+Argiope_trifasciata_NtermV12     AGTACAGTACGATGCGGTGCAAAGTGCTTCACCTATCTCGAGGAGCCCTTGGGCCAATCCAGCTAAAGCAGGTTCGTTGATGAACTGTCTCATTAACAGAATTGCCAGCTCCAATGTCTTGCCTCAACAAGAAAAAGAAGACTTGGAATCCATTATGGACACACTGATGTCTGCTATAAAAGGTGCGAGTGCCAAAGGTAAAAGCTCTGCAGCTCAGTTGCAGGCTATTAATATGGCAGTTGCATCTTCCCTAGCTGAATTAGTCGTTGCTGAAGACGCTGGCAATCAGGCAAGCATCGCAGTAAAGACGCAGGCCCTTTCAGGAGCTCT{AC}CAGCAGTG{CT}TTCCAAGCGGTCATGGGCACAGTCGACCGGAAATTCATCAACGAAATAAACGATTTGATAACAATGTTTGCCAGAGAAGCTGCAAGTGAAAGCAATGA{AC}ATTCAAGATCAAGGATCATTCTCCACAAGTGGATCATCAGCTTCATCATCGTATCAAGCAGCAAGTCAGAGTTCA------------------------------------------------------------------------GGCATTGGGTCAGTCGGATACACTGGTGGTGCTGGGCCATATGGTGG{AG}GGACTTCAATCAAGCTCATTTTCAGGCGGAACTTCTTTCGGTCAAACCGCAGCTGCATCAACCAGTTTCTCTCAGACAGGAGCTACTTCTACGAGCGGTGACAGTTACACAGGGCCTGTAGGCTATAGTGGACCT------------------CTGGGTGGAGGAGCACAG------TTC---------------------GGTTCTGTTTCCAGCCAAACAGCTAGT---------------------------------------------------------------------------
+Argiope_trifasciata_NtermV13     AGTACAGTACGATGCGGTGCAAAGTGCTTCACCTATCTCGAGGAG{CT}CCTTGGGCCAATCCAGCTAAAGCAGGTTCGTTGATGAAC{CT}GTCTCATTAACAGAATTGCCAGCTCC{AG}ATGTCTTGCCTCAACAAGAAAAAGAAGACTTGGAATCCATTATGGACACACTGATGTCTGCTATAAAAGGTGCGAGTGCCAAAGGTAAAAGCTCTGCAGC{AT}CAGTTGCAGGCTATTAATATGGCAGTTGCATCTTCCCTAGCTGAATTAGTCGTTGCTGAAGACGCTGGCAATCAGGCAAGCATCGCAGTAAAGACGCAGGCCCTTACAGGTGCCCTGGGGCAGTGTTTCCAAGCGGTCATGGGCACAGTCGACAGGAAATTCATCAACGAAATAAACGATTTGATAACAATGTTTGCCAGAGAAGCTGCAAGTGAAAGCAATGAAATTCAAGATCAAGGATCATTCTCCACAAGTGGATCATCAGCTTCATCATCGTATCAAGCAGCAAGTCAGAGTTCA------------------------------------------------------------------------GGCATTGGGTCAGTCGGATACACTGGTGGTGCTGGGCCATATGGTGGAGGACTTCAATCAAGCTCATTTTCAGGCGGAACTTCTTTCGGTCAAACCGCAGCTGCATCAACCAGTTTCTCTCAGACAGGAGCTACTTCTACGAGCGGTGACAGTTACACAGGGCCTGTAGGCTATAGTGGACCT------------------CTGGGTGGAGGAGCACAG------TTC---------------------GGTTCTGTTTCCAGCCAAACAGCTAGT---------------------------------------------------------------------------
+Argiope_trifasciata_NtermV14     AGTACAGTACGATG{CG}{AG}G{CT}G{AC}AAAG{CT}GC{GT}TC{AT}{CG}CT{AT}{CT}{CG}TC{AG}AG{AG}AGTCC{CT}TGGGCCAATCCAGC{CT}AAAGCAGGT{GT}CGTTGATGAA{CT}TGTCT{CG}AT{CT}AACA{AG}AATTGCCAGCTC{AC}AATGTCTTGCCTCAACAAGAAAAAGAAGACTTGGAATCCAT{CT}ATGGACACACTGATGTCTGC{AT}ATAAAAGGTGC{AG}AGTGCCAAAGGTAAAAGCTCTGCAGCACAGTTGCAGGC{CG}AT{CT}AATATGGCAGTTGCATCTTCCCTGGCAGAA{CT}TAGTCGTTGCTGAAGA{CT}GC{AT}GGCAATCAGGCAAGCAT{AC}GCAGTAAAGACGCAGGCCCTT{AT}CAGG{AT}GC{GT}CT{CG}{CG}{AG}GCAGTGTTTCC{AG}AGCAGTCATGGGAACGGTCGATAGGAAATTCATCAACGAAATAAATGATTTGATAAGAATGTTTGCTAGAGAAGCAGCCAGCGAAACGAATGAAATACCAGACCAAGGTGCTTTATATGGAGCCGGTTCTTCAGCCTCATCATCATTTCAAGCAACAGGTCAAAACTACCAAGACTCGTCTCGAACAGCTAGTGGA------------------------------------------------------------------------------------------------------------------TCAACTGATTCTTCAACCAGTGATACTGCAATTCGCACCACA---------------------------------------GGATATACAGGCTACACAGGACAACAGTTCGGATCA---------------GTTTCAGGC------CAAACATCTTACGATCAGGGATCGGGCTATACAGGATCTGCTGCCGGACAAGGAGGTTACGGACAAACATCTGGTTTTGGCGGACCCGCTGGAGGACCGGGCGCTTTCGGCCCCACCACTGGAGCGTCAGCCGGC
+Argiope_trifasciata_NtermV2      AGTACAGTACGATGCGGTGCAAAGTGCTTCACCTATCTCGAGGAGCCCTTGGGCCAATCCAGCTAAAGCAGGTTCGTTGATGAACTGTCTCATTAACAGAATTGCCAGCTCCAATGTCTTGCCTCAACAAGAAAAAGAAGACTTGGAATCCATTATGGACACACTGATGTCTGCTATAAAAGGTGCGAGTGCCAAAGGTAAAAGCTCTGCAGCTCAGTTGCAGGCTATTAATATGGCAGTTGCATCTTCCCTAGCTGAATTAGTCGTTGCTGAAGACGCTGGCAATCAGGCAAGCATCGCAGTAAAGACGCAGGCCCTTACAGGTGCCCTGGGGCAGTGTTTCCAAGCGGTCATGGGCACAGTCGACAGGAAATTCATCAACGAAATAAACGATTTGATAACAATGTTTGCCAGAGAAGCTGCAAGTGACAGCAATGAAATTGAAGACCAAGGATCATTCACCACAAGTGGATCATCAGCTTCATCGTCGTATCAAGCAGCAAGTCAGAGTTTA------------------------------------------------------------------------GGCATTGGGTCAGTCGGTTACACTGGTGGTGCTGGGCCATATGGGGGAGGACTTCAGTCAAGCTCATTTTCAGGCGGAACTTCTTTCGGTCAAACCGCAGCTGCATCAACCAGTTTCTCTCAGACAGGAGCTACTTCTACGAGCGGGGACAGTTAT------CCTGGTAGCTATATTGGAACT------------------CTGGGTGGAGGAGCACAG------TTC---------------------GGTTCTGCTTCCAGCCAAACAGCTAGT---------------------------------------------------------------------------
+Argiope_trifasciata_NtermV3      AGTACAGTACGATGCGGTGCAAAGTGCTTCACCTATCTCGAGGAGTCCTTGGGCCAATCCAGCTAAAGCAGGTTCGTTGATGAACTGTCTCATTAACAGAATTGCCAGCTCCAATGTCTTGCCTCAACAAG{AG}A{AG}{AT}AGAAGACTTGGAATCCATTATGGACACACTGATGTCTGCTATAAAAGGTGCGAGTGCCAAAGGTAAAAGCTCTGCAGC{AT}CAGTTGCAGGCTAT{CT}AATATGGCAGTTGCATCTTCCCTAGCTGAATTAGTCGTTGCTGAAGACGCTGGCAATCAGGCAAGCATCGCAGTAAAGACGCAGGCCCTTACAGGTGCCCTGGGGCAGTGTTTCCAAGCGGTCATGGGCACAGTCGACAGGAAATTCATC{AG}ACGAAATAAACGATTTGATAACAATGTTTGCCAGAGAAGCTGCAAGTGACAGCAATGAAATTGAAGACCAAGGATCATTCACCACAAGTGGATCATCAGCTTCATCGTCGTATCAAGCAGCAAGTCAGAGTTTA------------------------------------------------------------------------GGCATTGGGTCAGTCGGTTACACTGGTGGTGCTGGGCCATATGGGGGAGGACTTCAGTCAAGCTCATTTTCAGGCGGAACTTCTTTCGGTCAAACCGCAGCTGCATCAACCAGTTTCTCTCAGACAGGAGCTACTTCTACGAGCGGGGACAGTTAT------CCTGGTAGCTAT{AG}TTGGAACT------------------CTGGGTGGAGGAGCACAG------TTC---------------------GGTTCTGCTTCCAGCCAAACAGCTAGT---------------------------------------------------------------------------
+Argiope_trifasciata_NtermV4      AGTACAGTACGATGCGGTGCAAAGTGCTTCACCTATCTCGAGGAGTCCTTGGGCCAATCCAGCTAAAGCAGGTTCGTTGATGAACTGTCTCATTAACAGAATTGCCAGCTCCAATGTCTTGCCTCAACAAGAAAAAGAAGACTTGGAATCCATTATGGACACACTGATGTCTGCTATAAAAGGTGCGAGTGCCAAAGGTAAAAGCTCTGCAGCTCAGTTGCAGGCTATTAATATGGCAGTTGCATCTTCCCTAGCTGAATTAGTCGTTGCTGAAGACGCTGGCAATCAGGCAAGCATCGCAGTAAAGACGCAGGCCCTTACAGGTGCCCTGGGGCAGTGTTTCCAAGCGGTCATGGGCACAGTCGACAGGAAATTCATCAACGAAATAAACGATTTGATAACAATGTTTGCCAGAGAAGCTGCAAGTGACAGCAATGAAATTGAAGACCAAGGATCATTCTCCACAAGTGGATCATCAACTTCATCGTCGTATCAAGCAGCAAGTCAGAGTTTA------------------------------------------------------------------------GGCATTGGGTCAGTCGGTTACACTGGTGGTGCTGGGCCATATGGGGGAGGACTTCAGTCAAGCTCATTTTCAGGCGGAACTTCTTTCGGTCAAACCGCAGCTGCATCAACCAGTTTCTCTCAGACAGGAGCTACTTCTACGAGCGGGGACAGTTAT------CCTGGTAGCTATATTGGAACT------------------CTGGGTGGAGGAGCACAG------TTC---------------------GGTTCTGCTTCCAGCCAAACAGCTAGT---------------------------------------------------------------------------
+Argiope_trifasciata_NtermV5      AGTACAGTACGATGCGGTGCAAAGTGCTTCGACTATCTCGAGGAGTCCTTGGGCCAATCCAGCTAAAGCAGGTTCGTTGATGAACTGTCTCATTAACAGAATTGCCAGCTCCAATGTCTTGCCTCAACAAGAAAAAGAAGACTTGGAATCCATTATGGACACACTGATGTCTGCTATAAAAGGTGCGAGTGCCAAAGGTAAAAGCTCTGCAGCTCAGTTGCAGGCTATTAATATGGCAGTTGCATCTTCCCTAGCTGAATTAGTCGTTGCTGAAGACGCTGGCAATCAGGCAAGCATCGCAGTAAAGACGCAGGCCCTTACAGGTGCCCTGGGGCAGTGTTTCCAAGCGGTCATGGGCACAGTCGACAGGAAATTCATCAACGAAATAAACGATTTGATAACAATGTTTGCCAGAGAAGCTGCAAGTGACAGCAATGAAATTGAAGACCAAGGATCATTCTCCACAAGTGGATCATCAACTTCATCGTCGTATCAAGCAGCAAGTCAGAGTTTA------------------------------------------------------------------------GGCATTGGGTCAGTCGGTTACACTGGTGGTGCTGGGCCATATGGGGGAGGACTTCAGTCAAGCTCATTTTCAGGCGGAACTTCTTTCGGTCAAACCGCAGCTGCATCAACCAGTTTCTCTCAGACAGGAGCTACTTCTACGAGCGGGGACAGTTAT------CCTGGTAGCTATATTGGAACT------------------CTGGGTGGAGGAGCACAG------TTC---------------------GGTTCTGCTTCCAGCCAAACAGCTAGT---------------------------------------------------------------------------
+Argiope_trifasciata_NtermV6      AGTACAGTACGATGCGGTGCAAAGTGCTTCACCTATCTCGAGGAGCCCTTGGGCCAATCCAGCTAAAGCAGGTTCGTTGATGAACTGTCTCATTAACAGAATTGCCAGCTCCAATGTCTTGCCTCAACAAGAAAAAGAAGACTTGGAATCCATTATGGACACACTGATGTCTGCTATAAAAGGTGCGAGTGCCAAAGGTAAAAGCTCTGCAGCTCAGTTGCAGGCTATTAATATGGCAGTTGCATCTTCCCTAGCTGAATTAGTCGTTGCTGAAGACGCTGGCAATCAGGCAAGCATCGCAGTAAAGACGCAGGCCCTTACAGGTGCCCTGGGGCAGTGTTTCCAAGCGGTCATGGGCACAGTCGACAGGAAATTCATCAACGAAATAAACGATTTGATAACAATGTTTGCCAGAGAAGCTGCAAGTGACAGCAATGAAATTGAAGACCAAGGATCATTCTCCACAAGTGGATCATCAACTTCATCGTCGTATCAAGCAGCAAGTCAGAGTTTA------------------------------------------------------------------------GGCATTGGGTCAGTCGGTTACACTGGTGGTGCTGGGCCATATGGGGGAGGACTTCAGTCAAGCTCATTTTCAGGCGGAACTTCTTTCGGTCAAACCGCAGCTGCATCAACCAGTTTCTCTCAGACAGGAGCTACTTCTACGAGCGGTGACAGTTACACAGGGCCTGTAGGCTATAGTGGACCT------------------CTGGGTGGAGGAGCACAG------TTC---------------------GGTTCTGTTTCCAGCCAAACAGCTAGT---------------------------------------------------------------------------
+Argiope_trifasciata_NtermV7      AGTACAGTACGATGCGGTGCAAAGTGCTTCACCTATCTCGAGGAG{CT}CCTTGGGCCAATCCAGCTAAAGCAGGTTCGTTGATGAACTGTCTCATTAACAGAATTGCCAGCTCCAATGTCTTGCCTCAACAAGAAAAAGAAGACTTGGAATCCATTATGGACACACTGATGTCTGCTATAAAAGGTGCGAGTGCCAAAGGTAAAAGCTCTGCAGCACAGTTGCAGGCTATTAATATGGCAGTTGCATCTTCCCTGGCAGAACTAGTCGTTGCTGAAGATGCAGGCAATCAGGCAAGCATCGCAGTAAAGACGCAGGCCCTTTCAGGAGCTCTACAGCAGTGTTTCCAAGCGGTCATGGGCACAGTCGACCGGAAATTCATCAACGAAATAAACGATTTGATAACAATGTTTGCCAGAGAAGCTGCAAGTGA{AC}AGCAATGAAATT{CG}AAGA{CT}CAAGGATCATTCTCCACAAGTGGATCATCA{AG}CTTCATCGTCGTATCAAGCAGCAAGTCAGAGTTTA------------------------------------------------------------------------GGCATTGGGTCAGTCGGTTACACTGGTGGTGCTGGGCCATATGGGGGAGGACTTCAGTCAAGCTCATTTTCAGGCGGAACTTCTTTCGGTCAAACCGCAGCTGCATCAACCAGTTTCTCTCAGACAGGAGCTACTTCTACGAGCGGGGACAGTTAT------CCTGGTAGCTATATTGGAACT------------------CTGGGTGGAGGAGCACAG------TTC---------------------GGTTCTGCTTCCAGCCAAACAGCTAGT---------------------------------------------------------------------------
+Argiope_trifasciata_NtermV8      AGTACAGTACGATGCGGTGCAAAGTGCTTCGACTATCTCGAGGAGTCCTTGGGCCAATCCAGCTAAAGCAGGTTCGTTGATGAACTGTCTCATTAACAGAATTGCCAGCTCCAATGTCTTGCCTCAACAAGAAAAAGAAGACTTGGAATCCATTATGGACACACTGATGTCTGCTATAAAAGGTGCAAGTGCCAAAGGTAAAAGCTCTGCAGCACAGTTGCAGGCTATTAATATGGCAGTTGCATCTTCCCTGGCAGAACTAGTCGTTGCTGAAGATGCAGGCAATCAGGCAAGCATCGCAGTAAAGACGCAGGCCCTTTCAGGAGCTCTACAGCAGTGTTTCCAAGCGGTCATGGGCACAGTCGACCGGAAATTCATCAACGAAATAAACGATTTGATAACAATGTTTGCCAGAGAAGCTGCAAGTGAAAGCAATGAAATTCAAGATCAAGGATCATTCTCCACAAGTGGATCATCAGCTTCATCATCGTATCAAGCAGCAAGTCAGAGTTCA------------------------------------------------------------------------GGCATTGGGTCAGTCGGATACACTGGTGGTGCTGGGCCATATGGTGGAGGACTTCAATCAAGCTCATTTTCAGGCGGAACTTCTTTCGGTCAAACCGCAGCTGCATCAACCAGTTTCTCTCAGACAGGAGCTACTTCTACGAGCGGTGACAGTTACACAGGGCCTGTAGGCTATAGTGGACCT------------------CTGGGTGGAGGAGCACAG------TTC---------------------GGTTCTGTTTCCAGCCAAACAGCTAGT---------------------------------------------------------------------------
+Argiope_trifasciata_NtermV9      AGTACAGTACGATGCGGTGCAAAGTGCTTCACCTATCTCGAGGAGTCCTTGGGCCAATCCAGCTAAAGCAGGTTCGTTGATGAACTGTCTCATTAACAGAATTGCCAGCTCCAATGTCTTGCCTCAACAAGAAAAAGAAGACTTGGAATCCATTATGGACACACTGATGTCTGCTATAAAAGGTGCGAGTGCCAAAGGTAAAAGCTCTGCAGCACAGTTGCAGGCTATTAATATGGCAGTTGCATCTTCCCTGGCAGAACTAGTCGTTGCTGAAGATGCAGGCAATCAGGCAAGCATCGCAGTAAAGACGCAGGCCCTTTCAGGAGCTCTCCAGCAGTGTTTCCAAGCGGTCATGGGCACAGTCGACCGGAAATTCATCAACGAAATAAACGATTTGATAACAATGTTTGCCAGAGAAGCTGCAAGTGAAAGCAATGAAATTCAAGATCAAGGATCATTCTCCACAAGTGGATCATCAGCTTCATCATCGTATCAAGCAGCAAGTCAGAGTTCA------------------------------------------------------------------------GGCATTGGGTCAGTCGGATACACTGGTGGTGCTGGGCCATATGGTGG{AG}GGACTTCAATCAAGCTCATTTTCAGGCGGAACTTCTTTCGGTCAAACCGCAGCTGCATCAACCAGTTTCTCTCAGACAGGAGCTACTTCTACGAGCGGTGACAGTTACACAGGGCCTGTAGGCTATAGTGGACCT------------------CTGGGTGGAGGAGCACAG------TTC---------------------GGTTCTGTTTCCAGCCAAACAGCTAGT---------------------------------------------------------------------------
+;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M20776]
+
+	TITLE RepeatAll;
+	LINK TAXA = Taxa5;
+	DIMENSIONS NCHAR=651;
+	FORMAT DATATYPE=DNA SYMBOLS= "A C G T" MISSING=? GAP= -;
+
+MATRIX
+[                                    10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170       180       190       200       210       220       230       240       250       260       270       280       290       300       310       320       330       340       350       360       370       380       390       400       410       420       430       440       450       460       470       480       490       500       510       520       530       540       550       560       570       580       590       600       610       620       630       640       650    ]
+[                                     .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .    ]
+Araneus_ventricosus_R_1      ??????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????TCTTTCGGTCAAACATCAGGCTTTACTTCAACTGCTGGCGCCCAAGGAGGTTTCGGTCCAACAACTGGCGCGCAATCTGCC
+Araneus_ventricosus_R_10     CTTATCTCCAGAATAGCTAACGCACTGGCGAATACATCAACACTGAGATCGGTCCTCAGAACCGGTGTATCCCAACAGACTGCCTCTAGCGTGGTACAGAGAACCATCCAGACCTTGGCTAGTAATCTCGGCATCGACGGAAATAACTTGTCCAGAATAGCGTTACAAGCCATCTCTCAAGTCCCCGCGGGTTCTGACACTTCTGCTTACGCTCAAGCATTTTCTACTGCCTTGGTCACCGGTGGAGTTCTGAACGCAAACAACGTTGACACATTGGGATCCCAAGTACTCTCAGCAGTTTTGAACGGAGTATCAAGTGCGGCGCAAGGCCTTGGAATCAATGTAGACACTGGAAGTGTACAAAGTGACATTCGTTCCAGCAGTAGCTCCCTGTCAACAAGTTCTTCGTCTGCCAGTTTC---TCTCAGACCAGTGGTGCAGCTTCGACAACTGGT------TTCACAGGG---GCTGGT------GGCTAC---------------CCTGGTGGA---GCTGGTCCTTTGGGTGGCGGAGTA------GGCTCATTTGGAGGTCAAACCTCTTTCGGTCAAACATCAGGCTTGACCTCTTCTGCTGCTAGCCAATCGGATTTC???????????????????????????
+Araneus_ventricosus_R_2      CTTATCTCCAGAATAGCTAACGCACTGGCGAATACATCAACACTGAGATCGGTCCTCAGAACCGGTGTATCCCAACAGATTGCCTCTAGCGTGGTACAGAGAACCATCCAGACCTTGGCTAGTAATCTCGGCATCGACGGAAATAACTTGTCCAGAATAGCGTTACAAGCCATCTCTCAAGTCCCCGCGGGTTCTGACACTTCTGCTTACGCTCAAGCATTTTCTACTGCCTTGGTCACCGGTGGAGTTCTGAACGCAAACAACGTTGACACATTGGGATCCCAAGTACTCTCAGCAGTTTTGAACGGAGTATCAAGTGCGGCGCAAGGCCTTGGAATCAATGTAGACACTGGAAGTGTACAAAGTGACATTCGTTCCAGCAGTAGCTCCCTGTCAACAAGTTCTTCGTCTGCCAGTTTC---TCTCAGACCAGTGGTGCAGCTTCGACAACTGGT------TTCACAGGG---GCTGGT------GGCTAC---------------CCTGGTGGA---GCTGGTCCTTTGGGTGGCGGAGTA------GGCTCTTTGACAGGCCAAACCTCTTTCGGTCAAACATCAGGCTTTACTTCAACTGCTGGCGCCCAAGGAGGTTTCGGTCCAACAACTGGCGCGCAATCTGCC
+Araneus_ventricosus_R_3      CTTATCTCCAGAATAGCTAACGCACTGGCGAATACATCAACACTGAGATCGGTCCTCAGAACCGGTGTATCCCAACAGACTGCCTCTAGCGTGGTACAGAGAACCATCCAGACCTTGGCTAGTAATCTCGGCATCGACGGAAATAACTTGTCCAGAATAGCGTTACAAGCCATCTCTCAAGTCCCCGCGGGTTCTGACACTTCTGCTTACGCTCAAGCATTTTCTACTGCCTTGGTCACCGGTGGAGTTCTGAACGCAAACAACGTTGACACATTGGGATCCCAAGTACTCTCAGCAGTTTTGAACGGAGTATCAAGTGCGGCGCAAGGCCTTGGAATCAATGTAGACACTGGAAGTGTACAAAGTGACATTCGTTCCAGCAGTAGCTCCCTGTCAACAAGTTCTTCGTCTGCCAGTTTC---TCTCAGACCAGTGGTGCAGCTTCGACAACTGGT------TTCACAGGG---GCTGGT------GGCTAC---------------CCTGGTGGA---GCTGGTCCTTTGGGTGGCGGAGTA------GGCTCTTTGACAGGCCAAACCTCTTTCGGTCAAACATCAGGCTTTACTTCAACTGCTGGTGCCCAAGGCGGTTTCGGTCCAACAACTGGCGCGCAATCTGCC
+Araneus_ventricosus_R_4      CTTATCTCCAGAATAGCTAACGCACTGGCGAATACATCAACACTGAGATCGGTCCTCAGAACCGGTGTATCCCAACAGACTGCCTCTAGCGTGGTACAGAGAGCCATCCAGACCTTGGCTAGTAATCTCGGCATCGACGGAAATAACTTGTCCAGAATAGCGTTACAAGCCATCTCTCAAGTCCCCGCGGGTTCTGACACTTCTGCTTACGCTCAAGCATTTTCTACTGCCTTGGTCACCGGTGGAGTTCTGAACGCAAACAACGTTGACACATTGGGATCCCAAGTACTCTCAGCAGTTTTGAACGGAGTATCAAGTGCGGCGCAAGGCCTTGGAATCAATGTAGACACTGGAAGTGTACAAAGTGACATTCGTTCCAGCAGTAGCTCCCTGTCAACAAGTTCTTCGTCTGCCAGTTTC---TCTCAGACCAGTGGTGCAGCTTCGACAACTGGT------TTCACAGGG---GCTGGT------GGCTAC---------------CCTGGTGGA---GCTGGTCCTTTGGGTGGCGGAGTA------GGCTCTTTGACAGGCCAAACCTCTTTCGGTCAAACATCAGGCTTTACTTCTACTGCTGGTGCCCAAGGAGGTTTCGGTCCAACAACTGGCGCGCAATCTGCC
+Araneus_ventricosus_R_5      CTTATCTCCAGAATAGCTAACGCACTGGCGAATACATCAACACTGAGATCGGTCCTCAGAACCGGTGTATCCCAACAGACTGCCTCTAGCGTGGTACAGAGAACCATCCAGACCTTGGCTAGTAATCTCGGCATCGACGGAAATAACTTGTCCAGAATAGCGTTACAAGCCATCTCTCAAGTCCCCGCGGGTTCTGACACTTCTGCTTACGCTCAAGCATTTTCTACTGCCTTGGTCACCGGTGGAGTTCTGAACGCAAACAACGTTGACACATTGGGATCCCAAGTACTCTCAGCAGTTTTGAACGGAGTATCAAGTGCGGCGCAAGGCCTTGGAATCAATGTAGACACTGGAAGTGTACAAAGTGACATTCGTTCCAGCAGTAGCTCCCTGTCAACAAGTTCTTCGTCTGCCAGTTTC---TCTCAGACCAGTGGTGCAGCTTCGACAACTGGT------TTCACAGGG---GCTGGT------GGCTAC---------------CCTGGTGGA---GCTGGTCCTTTGGGTGGCGGAGTA------GGCTCTTTGACAGGCCAAACCTCTTTCGGTCAAACATCAGGCTTTACTTCAACTGCTGGTGCCCAAGGCGGTTTCGGTCCAACAACTGGAGCGCAATCTGCC
+Araneus_ventricosus_R_6      CTTATCTCCAGAATAGCTAACGCACTGGCGAATACATCAACACTGAGATCGGTCCTCAGAACCGGTGTATCCCAACAGACTGCCTCTAGCGTGGTACAGAGAGCCATCCAGACCTTGGCTAGTAATCTCGGCCTCGACGGAAATAACTTGTCCAGAATAGCGTTACAAGCCATCTCTCAAGTCCCCGCGGGTTTTGACGCTTCTGCTTACGCTCAAGCATTTTCTACTGCCTTGGTCACCGGTGGAGTTCTGAACGCAAACAACGTTGACACATTGGGATCCCAAGTACTCTCAGCAGTTTTGAACGGAGTATCAAGTGCGGCGCAAGGCCTTGGAATCAATGTAGACACTGGAAGTGTACAAAGTGACATTCGTTCCAGCAGTAGCTCCCTGTCAACAAGTTCTTCGTCTGCCAGTTTC---TCTCAGACCAGTGGTGCAGCTTCGACAACTGGT------TTCACAGGG---GCTGGT------GGCTAC---------------CCTGGTGGA---GCTGGTCCTTTGGGTGGCGGAGTA------GGCTCTTTGACAGGCCAAACCTCTTTCGGTCAAACATCAGGCTTTACTTCAACTGCTGGCGCCCAAGGAGGTTTCGGTCCAACAACTGGCGCGCAATCTGCC
+Araneus_ventricosus_R_7      CTTATCTCCAGAATAGCTAACGCACTGGCGAATACATCAACACTGAGATCGGTCCTCAGAACCGGTGTATCCCAACAGACTGCCTCTAGCGTGGTACAGAGAACCATCCAGACCTTGGCTAGTAATCTCGGCATCGACGGAAATAACTTGTCCAGAATAGCGTTACAAGCCATCTCTCAAGTCCCCGCGGGTTCTGACACTTCTGCTTACGCTCAAGCATTTTCTACTGCCTTGGTCACCGGTGGAGTTCTGAACGCAAACAACGTTGACACATTGGGATCCCAAGTACTCTCAGCAGTTTTGAGCGGAGTATCAAGTGCGGCGCAAGGCCTTGGAATCAATGTAGACACTGGAAGTGTACAAAGTGACATTCGTTCCAGCAGTAGCTCCCTGTCAACAAGTTCTTCGTCTGCCAGTTTC---TCTCAGACCAGTGGTGCAGCTTCGACAACTGGT------TTCACAGGG---GCGGGT------GGCTAC---------------CCTGGTGGA---GCTGGTCCTTTGGGTGGCGGAGTA------GGCTCTTTGACAGGCCATACCTCTTTCGGTCAAACATCAGGCTTTACTTCAACTGCTGGTGCCCAAGGCGGTTTCGGTCCAACAACTGGCGCGCAATCTGCC
+Araneus_ventricosus_R_8      CTTATCTCCAGAATAGCTAACGCACTGGCGAATACATCAACACTGAGATCGGTCCTCAGAACCGGTGTATCCCAACAGATTGCCTCTAGCGTGGTACAGAGAACCATCCAGACCTTGGCTAGTAATCTCGGCATCGACGGAAATAACTTGTCCAGAATAGCGTTACAAGCCATCTCTCAAGTCCCCGCGGGTTCTGACACTTCTGCTTACGCTCAAGCATTTTCTACTGCCTTGGTCACCGGTGGAGTTCTGAACGCAAACAACGTTGACACATTGGGATCCCAAGTACTCTCAGCAGTTTTGAACGGAGTATCAAGTGCGGCGCAAGGCCTTGGAATCAATGTAGACACTGGAAGTGTACAAAGTGACATTCGTTCCAGCAGTAGCTCCCTGTCAACAAGTTCTTCGTCTGCCAGTTTC---TCTCAGACCAGTGGTGCAGCTTCGACAACTGGT------TTCACAGGG---GCTGGT------GGCTAC---------------CCTGGTGGA---GCTGGTCCTTTGGGTGGCGGAGTA------GGCTCTTTGACAGGCCAAACCTCTTTCGGTCAAACATCAGGCTTTACTTCAACTGCTGGCGCCCAAGGAGGTTTCGGTCCAATAACTGGCGCGCAATCTGCC
+Araneus_ventricosus_R_9      CTTATCTCCAGAATAGCTAACGCACTGGCGAATACATCAACACTGAGATCGGTCCTCAGAACCGGTGTATCCCAACAGACTGCCTCAAGCGTGGTACAGAGAACCATCCAGACCTTGGCTAGTAATCTCGGCATCGACGGAAATAACTTGTCCAGAATAGCGTTACAAGCCATCTCTCAAGTCCCCGCGGGTTCTGACACTTCTGCTTACGCTCAAGCATTTTCTACTGCCTTGGTCACCGGTGGAGTTCTGAACGCAAACAACGTTGACACATTGGGATCCCAAGTACTCTCAGCAGTTTTGAACGGAGTATCAAGTGCGGCGCAAGGCCTTGGAATCAATGTAGACACTGGAAGTGTACAAAGTGACATTCGTTCCAGCAGTAGCTCCCTGTCAACAAGTTCTTCGTCTGCCAGTTTC---TCTCAGACCAGTGGTGCAGCTTCGACAACTGGT------TTCACAGGG---GCTGGT------GGCTAC---------------CCTGGTGGA---GCTGGTCCTTTGGGTGGCGGAGTA------GGCTCTTTGACAGGCCAAACCTCTTTCGGTCAAACATCAGGCTTTACTTCAACTGCTGGCGCCCAAGGAGGTTTCGGTCCAACAACTGGCGCGCAATCTGCC
+Argiope_amoena_R_1           ??????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????GACATTAGTTCCAGCAGTAGCTTCCTCTCAAGTAGCTCGTCTTCGGCTAGTTTC---TCTCAGACATCA---GCTTCTTCTACCAGCGGTGCTGGCTACACAGCGCCTGCTGGACCTTCTGGCTACACAGGGCCTTCTGGACCTTCTGGCTACACTGGGCCTGTGGGTGGCGCAGCGCAGTTCGGTTCTGTCTCAGGCCAAACCTCTTTCGGTCAAACATCAGGCTTTACCGCATCTACTGGCGGACAAGCCGCGTTTGGTGCAACAAGTGGATCGTCTGCTGGC
+Argiope_amoena_R_2           CTTGTGTCCAGAGTAGCAAACGCACTTGCCAATACATCAACATTGAGAGCTGTCCTCAGAAGAGGTGTATCCCAACAGACGGCCTCCAGCGTGGTACAGAGAGCTGTTCAGTCTTTGGCCGGTACTCTCGGAGTCGACGGAAATAGCTTGTCCAGAATAGCGTTACAGGCCATCTCTCAATTGCCCGGAGGGTCAGACACTTCTGCTTACGCTCAAGCATTCTCTAGTGCGCTGTTCAATGCCGGAGTTCTGAATGCAAGCAACATTGACACATTGGGATCCCGAGTTCTGTCAGCAGTTTTGAACGGAGTATCAAGTGCGGCTCAAGGTATTGGCCTCAATGTAGATACCGGCAGTGTACAAAGCGACATTAGTTCCAGCAGTAGCTTCCTCTCAAGTAGCTCGTCTTCGGCTAGTTTC---TCTCAGACATCA---GCTTCTTCTACCAGCGGTGCTGGCTACACAGCGCCTGCTGGACCTTCTGGCTACACAGGGCCTTCTGGACCTTCTGGCTACACTGGGCCTGTGGGTGGCGCAGCGCAGTTCGGTTCTGTCTCAGGCCAAACCTCTTTCGGTCAAACATCAGGCTTTACCGCATCTACTGGCGGACAAGCCGCGTTTGGTGCAACAAGTGGATCGTCTGCTGGC
+Argiope_amoena_R_3           CTTGTGTCCAGAGTAGCAAACGCACTTGCCAATACATCAACATTGAGAGCTGTCCTCAGAAGAGGTGTATCCCAACAGACGGCCTCCAGCGTGGTACAGAGAGCTGTTCAGTCTTTGGCCGGTACTCTCGGAGTCGACGGAAACAGCTTGTCCAGAATAGCGTTACAGGCCATCTCTCAATTGCCCGCAGGGTCTGACACTTCTGCTTACGCTCAAGCATTCTCTAGTGCGCTGGTCAATGCCGGAGTTCTGAATGCAAGCAACATTGACACATTGGGATCCCGAGTTCTGTCAGCAGTTTTGAACGGAGTATCAAGTGCGGCTCAAGGTATTGGCCTCAATGTAGATACCGGCAGTGTACAAAGCGACATTAGTTCCAGCAGTAGCTTCCTCTCAAGTAGCTCGTCCTCGGCTAGTTTC---TCTCAGACATCA---GCTTCTTCTACCAGCGGTGCTGGCTACACAGGGCCTTCTGGACCTTCTGGCTACACTGGGCCTGCTGGACCTTCTGGCTACACTGGGCCTGTGGGTGGCGCAGCGCAGTTCGGTTCTGTCTCAGGCCAAACCTCTTTCGGTCAAACATCAGGCTTTACCGCATCTACTGGCGGACAAGCCGCGTTTGGTGCAACAAGTGGATCGTCTGCTGGC
+Argiope_amoena_R_4           CTTGTGTCCAGAGTAGCAAACGCACTTGCCAATACATCAACATTGAGAGCTGTCCTCAGAAGAGGTGTATCCCCACAGACGGCCTCCAGCGTGGTACAGAGAGCCGTTCAGTCTTTGGCCGGTACTCTCGGAGTCGACGGAAACAGCTTGTCCAGAATAGCGTTACAGGCCATCTCTCAATTGCCCGCAGGGTCTGACACTTCTGCTTACGCTCAAGCATTCTCTAGTGCGCTGGTCAATGCCGGAGTTCTGAGTGCAAGCAACATTGACACATTGGGATCCCGAGTTCTGTCAGCAGTTTTGAACGGAGTATCAAGTGCGGCTCAAGGTATTGGCCTCAATGTAGATACCGGCAGTGTACAAAGTGACATTAGTTCCAGCAGTAGCTTCCTCTCAAGCAGCTCGTCTTCGTCTAGTATC---TCCCAGACATCA---GCTTCTTCTACCAGCGGTGCTGGCTACACAGGGCCTGCTGGACCTTCTGGCTACACAGGGCCTTCTGGACCTTCTGGCTACACTGGGCCTGTGGGTGGCGCAGCGCAGTTCGGTTCTGTTTCAGGCCAAACCTCTTTCGGTCAAACATCAGGCTTTACCGCATCTACTGGCGGACAAGCCGCGTTTGGTGCAACAAGTGGATCGTCTGCTGGC
+Argiope_amoena_R_5           CTTGTGTCCAGAGTAGCAAACGCACTTGCCAATACATCAACATTGAGAGCTGTCCTCAGAAGAGGTGTATCCCAACAGACGGCCTCCAGCGTGGTACAGAGAGCCGTTCAGTCTTTGGCCGGTACTCTCGGAGTCGACGGAAACAGCTTGTCCAGAATAGCGTTACAGGCCATCTCTCAATTGCCCGCAGGGTCTGACACTTCTGCTTACGCTCAAGCATTCTCTAGTGCGCTGGTCAATGCCGGAGTTCTGAATGCAAGCAACATTGACACATTGGGATCCCGAGTTCTGTCAGCAGTTTTGAACGGAGTATCAAGTGCGGCTCAAGGTATTGGCCTCAATGTAGATAGCGGCAGTATACAAAGTGACATTAGTTCCAGCAGTAGCTTCCTCTCAAGCAGCTCGTCTTCGTCTAGTATC---TCCCAGACATCA---GCTTCTTCTACCAGCGGTGCTGGCTACACAGGGCCTGCTGGACCTTCTGGCTACACAGGGCCTTCTGGACCTTCTGGCTACACTGGGCCTGTGGGTGGCGCAGCGCAGTTCGGTTCTGTTTCAGGCCAAACCTCTTTCGGTCAAACATCAGGCTTTACCGCATCTACTGGCGGACAAGCCGCGTTTGGTGCAACAAGTGGATCGTCTGCTGGC
+Argiope_amoena_R_6           CTGGTGTCCAGAGTAGCAAACGCACTTGCCAATACATCAACATTGAGAGCTGTCCTCAGAAGAGGTGTATCCCAACAGACGGCCTCCAGCGTGGTTCAGAGAGCCGTTCAGTCTTTGGCCGGTACTCTCGGAGTCGACGGAAACAGCTTGTCCAGAATAGCGTTACAGGCCATCTCTCAATTGCCCGCAGGGTCTGACACTTCTGCTTACGCTCAAGCATTCTCTAGTGCGCTGGTCAATGCCGGAGTTCTGAATGCAAGCAACATTGACACATTGGGATCCCGAGTTCTGTCAGCAGTTTTGAACGGAGTATCAAGTGCGGCTCAAGGTATTGGCCTCAATGTAGATAGCGGCAGT??????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????
+Argiope_argentata_R_1        CTTATCTCCAGAGTAGCAAACGCACTTTCCAATACGTCCACATTGAGGACAGTTCTCCGCAGAGGTGTGTCCCAACAGATTGCCTCAAGTATATTGCGAAGAGCCGCTCAGACTTTGGCCAGTACTCTCGGAGTCGACGGAAACAACTTGTCCAGAGTAGCATTACAAGCCATCTCTCAAGTGCCCACAGGGTCTGACACTTCAGCTTACGCTCAAGCCTTCTCTAGTGCGCTCTTCAATGCCGGAGTTCTCAACGCAAGCAACATTGACACATTGGGATCCCGAGTTCTCTCAGCTGTTTTGAACGGAGTATCAAGTGCGGCGCAAGGTCTTGGCATCAATGTAGATACCGGCAGTGTACAGAGTGACATTAGTTCCAGTAGCAGCTTCCTCTCAACCAGCTCGTCTGCGTCCAGTTTCTCCTCTCAGGCATCA---GCTTCTTCTACCAGCGGTGCTGGATACACCGGA------------------------------------CCTTCTGGCTACACAGGACCAGTGGGTGGCGGAGCGCAGTTCGGTTCTGCTTCAGGCCAAAGCTCTTTCGGTCAGACATCAGGATTAACCGCATCTTCTGGCGGACAAGCCGCTTTCGGTGGAACCAGTGGAGCGTCTGCTGGC
+Argiope_argentata_R_10       CTCATCTCCAGAGTAGCAAACGCACTTGCCAATACATCCACATTGAGAGCTGTCCTCCGAAGAGGTGTATCCCAACAGACTGCCTCCAGCGTGGTACAGAGAGCCGCTCAGTCGTTGGCCAGTACTCTCGGAGTCGACGGAAACAACTTGTCCAGAGTAGCATTACAAGCCATCTCTCAAGTGCCCACAGGGTCTGACACTTCAGCTTACGCTCAAGCCTTCTCTAGTGCGCTCTTCAATGCCGGAGTTCTCAATGCAAGCAACATTGACACATTGGGATCCCGAGTTCTCTCAGCTGTTTTGAACGGAGTATCAAGTGCGGCGCAAGGTCTTGGCATCAATGTAAATACCGGCAGTGTACAGAGTGACATTAGTTCCAGTAGTAGCTTCCTCTCAACCAGCTCGTCTGCGTCCAGTTTCTCCTCTCAGGCATCA---GCTTCTTCTACCAGCGGTGCTGGCTACACCGGA------------------------------------CCTTCTGGCTACACAGGACCAGTGGGTGGTGGAGCGCAGTTCGGTTCTGCTTCAGGCCAAAGTTCTTTCGGTCAGACATCAGGATTTACCGCATCTTCTGGCGGACAAGCCGCTTTCGGTGGAACCAGTGGAGCGTCTGCTGGC
+Argiope_argentata_R_11       CTCATCTCCAGAGTAGCAAACGCACTTGCCAATACATCCACATTGAGAGCTGTCCTCCGAAGAGGTGTATCCCAACAGACTGCCTCCAGCGTGGTACAGAGAGCCGCTCAGTCGTTGGCCAGTACTCTCGGAGTCGACGGAAACAACTTGTCCAGAGTAGCATTACAAGCCATCTCTCAAGTGCCCACAGGGTCTGACACTTCAGCTTACGCTCAAGCCTTCTCTAGTGCACTCTTCAATGCCGGAGTTCTCAATGCAAGCAACATTGACACATTGGGATCCCGAGTTCTCTCAGCTGTTTTGAACGGAGTATCAAGTGCGGCGCAAGGTCTTGGCATCAATGTAGATACCGGCAGTGTGCAGAGTGACATTAGTTCCAGTAGCAGCTTCCTCTCAACCAGCTCGTCTGCGTCCAGTTTCTCCTCTCAGGCATCA---GCTTCTTCTACCAGCGGTGCTGGCTACACCGGA------------------------------------TCTTCTGGTTACACAGGACCAAAGGGTGGCGGAGCGCAGTTCGGTTCTGCTTCAGGCCAAAGCTCTTTCGGTCAGACATCAGGATTTACCGCATCTTCTGGCGGACAAGCCGCTTTCGGTGGAACCAGTGGAGCGTCTGCTGGC
+Argiope_argentata_R_12       CTCATCTCCGGAGTAGCAAACGCACTTGCCAATACATCCACATTGAGAGCTGTCTTCCGAAGAGGTGTATCCCAACAGACTGCCTCCAGCGTGGTACAGAGAGCCGCTCAGTCGTTGGCCAGTACTCTCGGAGTCGACGGAAACAACTTGTCCAGAGTAGCATTACAAGCCATCTCTCAAGTGCCCACAGGGTCTGACACTTCAGCTTACGCTCAAGCCTTCTCTAGTGCGCTCTTCAATGCCGGAGTTCTCAATGCAAGCAACATTGACACATTGGGATCCCGAGTTCTCTCAGCTGTTTTGAACGGAGTATCAAGTGCGGCGCAAGGTCTTGGCATCAATGTAGATACCGGCAGTGTACAGAGTGACATTAGTTCCAGTAGCAGCTTCCTCTCAACCAGCTCGTCTGCGTCCAGTTTCTCCACTCAGGCATCA---GCTTCTTCTACCAGCGGTGCTGGCTACACCGGA------------------------------------CCTTCTGGCTACATAGGACCAGTGGGTGGCGGAGCGCAGTTCGGTTCTGCTTCAGGCCAAAGCTCTTTCGGTCAGACATCAGGATTTACCGCATCTTCTGGCGGACAAGCCGCTTTCGGTGGAACCAGTGGAGCGTCTGCTGGC
+Argiope_argentata_R_13       CTCATCTCCAGAGTAGCAAACGCACTTGCCAATACATCCACATTGAGAGCTGTCCTCCGAAGAGGTGTATCCCAACAGACTGCTTCCAGCGTGGTACAGAGAGCCGCTCAGTCGTTGGCCAGTACTCTCGGAGTCGACGGAAACAACTTGTCCAGAGTAGCATTACAAGCCATCTCTCAAGTGCCCACAGGGTCTGACACTTCAGCTTACGCTCAAGCCTTCTCTAGTGCGCTCTTCAATGCCGGAGTTCTCAATGCAAGCAACATAGACACATTGGGATCCCGAGTTCTCTCAGCTGTTTTGAACGGAGTATCAAGTGCGGCGCAAGGTCTTGGCATCAATGTAGATACCGGCAGTGTGCAGAGTGACATTAGTTCCAGTAGCAGCTTCCTCTCAACCAGCTCGTCTGCGTCCAGTTTCTCCTCTCAGGCATCA---GCTTCTTCTACCAGCGGTGCTGGCTACACCGGA------------------------------------CCTTCTGGCTACACAGGACCAGTGGGTGGCGGAGCGCAGTTCGGTTCTGCTTCAGGCCAAAGCTCTTTCGGTCAGACATCAGGATTTACCGCATCTTCTGGCGGACAAGCCGCTTTCGGTGGAACCAGTGGAGCGTCTGCTGGC
+Argiope_argentata_R_14       CTCATCTCCAGAGTAGCAAACGCACTTGCCAATACATCCACATTGAGAGCTGTCCTCCGAAGAGGTGTATCCCAACAGACTGCCTCCAGCGTGGTACAGAGAGCCGCTCAGTCGTTGGCCAGTACTCTCGGAGTCGACGGAAACAACTTGTCCAGAGTAGCATTACAAGCCATCTCTCAAGTGCCCACAGGGTCTGACACTTCAGCTTACGCTCAAGCCTTCTCTAGTGCACTCTTCAATGCCGGAGTTCTCAATGCAAGCAACATTGACACATTGGGATCCCGAGTTCTCTCAGCTGTTTTGAACGGAGTATCAAGTGCGGCGCAAGGTCTTGGCATCAATGTAGATACCGGCAGTGTGCAGAGTGACATTAGTTCCAGTAGCAGCTTCCTCTCAACCAGCTCGTCTGCGTCCAGTTTCTCCTCTCAGGCATCA---GCTTCTTCTACCAGCGGTGCTGGCTACACCGGA------------------------------------CCTTCTGGCTACACAGGACCAGTGGGTGGCGGAGCGCAGTTCGGTTCTGCTTCAGGCCAAAGCTCTTTCGGTCAGACATCAGGATTTACCGCATCTTCTGATGGACAAGCCGCTTTCGGTGGAACCAGTGGAGCGTCTGCTGGC
+Argiope_argentata_R_15       CTCATCTCCAGAGTAGCAAACGCACTTGCCAATACATCCACATTGAGAGCTGTCCTCCGAAGAGGTGTATCCCAACAGACTGCCTCCAGCGTGGTACAGAGAGCCGCTCAGTCGTTGGCCAGTACTCTCGGAGTCGACGGAAACAACTTGTCCAGAGTAGCATTACAAGCCATCTCTCAAGTGCCCACAGGGTCTGACACTTCAGCTTACGCTCAAGCCTTCTCTAGTGCGCTCTTCAATGCCGGAGTTCTCAATGCAAGCAACATTGACACATTGGGATCCCGAGTTCTCTCAGCTGTTTTGAACGGAGTATCAAGTGCGGCGCAAGGTCTTGGCATCAATGTAGATACCGGCAGTGTGCAGAGTGACATTAGTTCCAGTAGCAGCTTCCTCTCAACCAGCTCGTCTGCGTCCAGTTTCTCCTCTCAGGCATCA---GCTTCTTCTTCCGGCGGTGCTGGCTACACCGAA------------------------------------CCTTCTGGCTACACAGGACCAGTGGGTGGCGGAGCGCAGTTCGGTTCTGCTTCAGGCCAAAGCTCTTTCGGTCAGACATCAGGATTTACCGCATCTTCTGATGGACAAGCCGCTTTCGGTGGAACCAGTGGAGCGTCTGCTGGC
+Argiope_argentata_R_16       CTCATCTCCAGAGTAGCAAACGCACTTGCCAATACATCCACATTGAGAGCTGTCCTCCGAAGAGGTGTATCCCAACAGACTGCCTCCAGCGTGGTACAGAGAGCCGCTCAGTCGTTGGCCAGTACTCTCGGAGTCGACGGAAACAACTTGTCCAGAGTAGCATTACAAGCCATCTCTCAAGTGCCCACAGGGTCTGACACTTCAGCTTACGCTCAAGCCTTCTCTAGTGCGCTCTTCAATGCCGGAGTTCTCTATGCAAGCAACATTGACACATTGGGATCCCGAGTTCTCTCAGCTGTTTTGAACGGAGTATCAAGTGCGGCGCAAGGTCTTGGCATCAATGTAGATACCGGCAGTGTACAGAGTGACATTAGTTCCAGTAGCAGCTTCCTCTCAACCAGCTCGTCTGCGTCCAGTTTCTCCTCTCAGGCATCA---GCTTCTTCTACCAGCGGTGCTGGCTACACCGGA------------------------------------CCTTCTGGCTACACAGGACCAAAGGGTGGCGGAGCGCAGTTCGGTTCTGCTTCAGGCCAAAGCTCTTTCGGTCAGACATCAGGATTTACCGCATCTTCTAGCGGACAAGCCGCTTTCGGTGGAACCAG{CT}GGAGCGTCTGCTGGC
+Argiope_argentata_R_17       CTCATCTCCAGAGTAGCAAACGCACTTGCCAATACATCCACATTGAGAGCTGTCCTCCGAAGAGGTGTATCCCAACAGACTGCCTCCAGCGTGGTACAGAGAGCCGCTCAGTCGTTGGCCAGTACTCTCGGAGTCGACGGAAACAACTTGTCCAGAGTAGCATTACAAGCCATCTCTCAAGTGCCCACAGGGTCTGACACTTCAGCTTACGCTCAAGCCTTCTCTAGTGCGCTCTTCAATGCCGGAGTTCTCAATGCAAGCAACATTGACACATTGGGATCCCGAGTTCTCTCAGCTGTTTTGAACGGAGTATCAAGTGCGGCGCAAGGTCTTGGCATCAATGTAGATACCGGCAGTGTGCAGAGTGACATTAGTTCCAGTAGCAGCTTCCTCTCAACCAGCTCGTCTGCGTCCAGTTTCTCCTCTCAGGCATCA---GCTTCTTCTACCAGCGGTGCTGGCTACACCGGA------------------------------------CCTTCTGGCTACACAGGACCAGTGGGTGGCGGAGCGCAGTTCGGTTCTGCTTCAGGCCAAAGCTCTTTCGGTCAGACATCAGGATTTACCGCATCTTCTGATGGACAAGCCGCTTTCGGTGGAACCAGTGGAGCGTCTGCTGGC
+Argiope_argentata_R_18       CTCATCTCCAGAGTAGCAAACGCACTTGCCAATACATCCACATTGAGAGCTGTCCTCCGAAGAGGTGTATCCCAACAGACTGCCTCCAGCGTGGTACAGAGAGCCGCTCAGTCGTTGGCCAGTACTCTCGGAGTCGACGGAAACAACTTGTCCAGAGTAGCATTACAAGCCATCTCTCAAGTGCCCACAGGGTCTGACACTTCAGCTTACGCTCAAGCCTTCTCTAGTGCGCTCTTCAATGCCGGAGTTCTCAATGCAAGCAACATTGACACATTGGGATCCCGAGTTCTCTCAGCTGTTTTGAACGGAGTATCAAGTGCGGCGCAAGGTCTTGGCATCAATGTAGATACCGGCAGTGTGCAGAGTGACATTAGTTCCAGTAGCAGCTTCCTCTCAACCAGCTCGTCTGCGTCCAGTTTCTCCTCTCAGGCATCA---GCTTCTTCTACCAGCGGTGCTGGCTACACCGAA------------------------------------CCTTCTGGCTACACAGGACCAGTGGGTGGCGGAGCGCAGTTCGGTTCTGCTTCAGGCCAAAGCTCTTTCGGTCAGACATCAGGATTTACCGCATCTTCTGATGGACAAGCCGCTTTCGGTGGAACCAGTGGAGCGTCTGCTGGC
+Argiope_argentata_R_19       CTCATCTCCAGAGTAGCAAACGCACTTGCCAATACATCCACATTGAGAGCTGTCCTCCGAAGAGGTGTATCCCAACAGACTGCCTCCAGCGTGGTACAGAGAGCCGCTCAGTCGTTGGCCAGTACTCTCGGAGTCGACGGAAACAACTTGTCCAGAGTAGCATTACAAGCCATCTCTCAAGTGCCCACAGGGTCTGACACTTCAGCTTACGCTCAAGCCTTCTCTAGTGCGCTCTTCAATGCCGGAGTTCTCAATGCAAGCAACATTGACACATTGGGATCCCGAGTTCTCTCAGCTGTTTTGAACGGAGTATCAAGTGCGGCGCAAGGTCTTGGCATCAATGTAGATACCGGCAGTGTGCAGAGTGACATTAGTTCCAGTAGCAGCTTCCTCTCAACCAGCTCGTCTGCGTCCAGTTTCTCCTCTCAGGCATCA---GCTTCTTCTACCAGCGGTGCTGGCTACACCGGA------------------------------------CCTTCTGGCTACACAGGACCAGTGGGTGGCGGAGCGCAGTTCGGTTCTGCTTCAGGCCAAAGCTCTTTCGGTCAGACATCAGGATTTACCGCATCTTCTGGCGGACAAGCCGCTTTCGGTGGAACCAGTGGAGCGTCTGCTGGC
+Argiope_argentata_R_2        CTCATCTCCAGAGTAGCAAACGCACTTGCCAATACATCCACATTGAGAGCTGTCCTCCGAAGAGGTGTATCCCAACAGACTGCCTCCAGCGTGGTACAGAGAGCCGCTCAGTCGTTGGCCAGTACTCTCGGAATCGACGGAAACAACTTGTCCAGAGTAGCATTACAAGCCACCTCTCAAGTGCCCACAGGGTCTGACACTTCAGCTTACGCTCAAGCCTTCTCTAGTGCGCTCTTCAATGCCGGAGTTCTCAACGCAAGCAACATTGACACATTGGGATCCCGAGTTCTCTCAGCTGTTTTGAACGGAGTATCAAGTGCGGCGCAAGGTCTTGGCATCAATGTAGATACCGGTAGTGTACAGAGTGACATTAGTTCCAGTAGCAGCTTCCTCTCAACCAGCTCGTCTGCGTCCAGTTTCTCCTCTCAGGCATCA---GCTTCTTCTACCAGCGGTGCTGGCTACACCGGA------------------------------------CCTTCTGGCTACACAGGACCAGTGGGTGGCGGAGCGCAGTTCGGTTCTGCTTCAGGCCAAAGCTCTTTCGGTCAGACATCAGGATTTACCGCATCTTCTGGCGGACAAGCCGCTTTCGGTGGAACCAGTGGAGCGTCTGCTGGC
+Argiope_argentata_R_20       CTCATCTCCAGAGTAGCAAACGCACTTGCCAATACATCCACATTGAGAGCTGTCCTCCGAAGAGGTGTATCCCAACAGACTGCCTCCAGCGTGGTACAGAGAGCCGCTCAGTCGTTGGCCAGTACTCTCGGAGTCGACGGAAACAACTTGTCCAGAGTAGCATTACAAGCCATCTCTCAAGTGCCCACAGGGTCTGACACTTCAGCTTACGCTCAAGCCTTCTCTAGTGCACTCTTCAATGCCGGAGTTCTCAATGCAAGCAACATTGACACATTGGGATCCCGAGTTCTCTCAGCTGTTTTGAACGGAGTATCAAGTGCGGCGCAAGGTCTTGGCATCAATGTAGATACCGGCAGTGTACAGAGTGACATTAGTTCCAGTAGCAGCTTCCTCTCAACCAGCTCGTCTGCGTCCAGTATCTCCTCTCAGGTATCA---GCTTCTTCTACCAGCGGTGCTGGCTACACCGGA------------------------------------CCTTCTGGCTACACAGGACCAGTGGGTGGCGGAGCGCAGTTCGGTTCTTCTTCAGGCCAAAGCTCTTTCGGTCAAACATCAGGATTTACA??????????????????????????????????????????????????????
+Argiope_argentata_R_3        CTCATCTCCAGAGTAGCAAACGCACTTGCCAATACATCCACATTGAGAGCTGTCCTCCGAAGAGGTGTATCCCAACAGACTGCCTCCAGCGTGGTACAGAGAGCCGCTCAGTCGTTGGCCAGTACTCTCGGAGTCGACGGAAACAACTTGTCCAGAGTAGCATTACAAGCCATCTCTCAAGTGCCCACAGGGTCTGACACTTCAGCTTACGCTCAAGCCTTCTCTAGTGCGCTCTTCAATGCCGGAGTTCTCAACGCAAGCAACATTGACACATTGGGATCCCGAGTTCTCTCAGCTGTTTTGAACGGAGTATCAAGTGCGGCGCAAGGTCTTGGCATCAATGTAGATACCGGCAGTGTACAGAGTGACATTAGTTCCAGTAGCAGCTTCCTCTCAACCAGCTCGTCTGCGTCCAGTTTCTCCTCTCAGGCATCA---GCTTCTTCTACCAGCGGTGCTGGCTACACCGGA------------------------------------CCTTCTGGCTACACAGGACCAGTGGGTGGCGGAGCGCAGTTCGGTTCTGCTTCAGGCCAAAGCTCTTTCGGTCAGACATCAGGATTTACCGCATCTTCTGGCGGACAAGCCGCTTTCGGTGGAACCAGTGGAGCGTCTGCTGGC
+Argiope_argentata_R_4        CTCATCTCCAGAGTAGCAAACGCACTTGCCAATACATCCACATTGAGAGCTGTCCTCCGAAGAGGTGTATCCCAACAGACTGCCTCCAGCGTGGTACAGAGAGCCGCTCAGTCGTTGGCCAGTACTCTCGGAGTCGACGGAAACAACTTGTCCAGAGTAGCATTACAAGCCATCTCTCAAGTGCCCACAGGGTCTGACACTTCAGCTTACGCTCAAGCCTTCTCTAGTGCGCTCTTCAATGCCGGAGTTCTCAACGCAAGCAACATTGACACATTGGGATCCCGAGTTCTCTCAGCTGTTTTGAACGGAGTATCAAGTGCGGCGCAAGGTCTTGGCATCAATGTAGATACCGGCAGTGTACAGAGTGACATTAGTTCCAGTAGCAGCTTCCTCTCAACCAGCTCGTCTGCGTCCAGTTTCTCCTCTCAGGCATCA---GCTTCTTCTACCAGCGGTGCTGGCTACACCGGA------------------------------------CCTTCTGGCTACACAGGACCAGTGGGTGGCGGAGCGCAGTTCGGTTCTGCTTCAGGCCAAAGCTCTTTCGGTCAGACATCAGAATTTACCGCATCTTCTGGCGGACAAGCCGCTTTCGGTGGAACCAGTGGAGCGTCTGCTGGC
+Argiope_argentata_R_5        CTCATCTCCAGAGTAGCAAACGCACTTGCCAATACATCCACATTGAAAGCTGTTCTCCGAAGAGGTGTATCCCAACAGACTGCCTCCAGCGTGGTACAGAGAGCCGCTCAGTCGTTGGCCAGTACTCTCGGAGTCGACGGAAACAACTTGTCCAGAGTAGCATTACAAGCCATCTCTCAAGTGCCCACAGGGTCTGACACTTCAGCTTACGCTCAAGCCTTCTCTAGTGCGCTCTTCAATGCCGGAATTCTCAATGCAAGCAACATTGACACATTGGGATCCCGAGTTCTCTCAGCTGTTTTGAACGGAGTATCAAGTGCGGCGCAAGGTCTTGGCATCAATGTAGATACCGGCAGTGTACAGAGTGACATTAGTTCCAGTAGCAGCTTCCTCTCAACCAGCTCGTCTGCGTCCAGTTTCTCCTCTCAGGCATCA---GCTTCTTCTACCAGCGGTGCTGGCTACACCGGA------------------------------------CCTTCTGGCTACACAGGACCAGTGGGTGGCGGAGCGCAGTTCGGTTCTGCTTCAGGCCAAAGCTCTTTCGGTCAGACATCAGGATTTACCGCATCTTCTGGCGGACAAGCCGCTTTCGGTGGAACCAGTGGAGCGTCTGCTGGC
+Argiope_argentata_R_6        CTCATCTCCAGAGTAGCAAACGCACTTGCCAATACATCCACATTGAGAGCTGTCCTCCGAAGAGGTGTATCCCAACAGACTGCCTCCAGCGTGGTACAGAGAGCCGCTCAGTCGTTGGCCAGTACTCTCGGAGTCGACGGAAACAACTTGTCCAGAGTAGCATTACAAGCCATCTCTCAAGTGCCCACAGGGTCTGACACTTCAGCTTACGCTCAAGCCTTCTCTAGTGCGCTCTTCAATGCCGGAGTTCTCAACGCAAGCAACATTGACACATTGGGATCCCGAGTTCTCTCAGCTGTTTTGAACGGAGTATCAAGTGCGGCGCAAGGTCTTGGCATCAATGTAGATACCGGCAGTGTACAGAGAGACATTAGTTCCAGTAGCAGCTTCCTCTCAACCAGCTCGTCTGCGTCCAGTTTCTCCTCTCAGGCATCA---GCTTCTTCTACCAGCGGTGCTGGCTACACCGGA------------------------------------CCTTCTGGCTACACAGGACCAGTGGGTGGCGGAGCGCAGTTCGGTTCTGCTTCAGGCCAAAGCTCTTTCGGTCAGACATCAGGATTTACCGCATCTTCTGGCGGACAAGCCGCTTTCGGTGGAACCAGTGGAGCGTCTGCTGGC
+Argiope_argentata_R_7        CTCATCTCCAGAGTAGCAAACGCACTTGCCAATACATCCACATTGAAAGCTGTCCTCCGAAGAGGTGTATCCCAACAGACTGCCTCCAGCGTGGTACAGAGAGCCGCTCAGTCGTTGGCCAGTACTCTCGGAGTCGACGGAAACAACTTGTCCAGAGTAGCATTACAAGCCATCTCTCAAGTGCCCACAGGGTCTGACACTTCAGCTTACGCTCAAGCCTTCTCTAGTGCGCTCTTCAATGCCGGAGTTCTCAATGCAAGCAACATTGACACATTGGGATCCCGAGTTCTCTCAGCTGTTTTGAACGGAGTATCAAGTGCGGCGCAAGGTCTTGGCATCAATGTAGATACCGGCAGTGTACAGAGTGACATTAGTTCCAGTAGCAGCTTCCTCTCAACCAGCTCGTCTGCGTCCAGTTTCTCCTCTCAGGCATCA---GCTTCTTCTACCAGCGGTGCTGGCTACACCGGA------------------------------------CCTTCTGGCTACACAGGACCAGTGGGTGGCGGAGCGCAGTTCGGTTCAGCTTCAGGCCAAAGCTCTTTCGGTCAGACATCAGGATTTACCGCATCTTCTGGCGGACAAGCCGCTTTCGGTGGAACCAGTGGAGCGTCTGCTGGC
+Argiope_argentata_R_8        CTCATCTCCAGAGTAGCAAACGCACTTGCCAATACATCCACATTGAGAGCTGTCTTCCGAAGAGGTGTATCCCAACAGACTGCCTCCAGCGTGGTACAGAGAGCCGCTCAGTCGTTGGCCAGTACTCTCGGAGTCGACGGAAACAACTTGTCCAGAGTAGCATTACAAGCCATCTCTCAAGTGCCCACAGGGTCTGACACTTCAGCTTACGCTCAAGCCTTCTCTAGTGCACTCTTCAATGCCGGAGTTCTCAATGCAAGCAACATTGACACATTGGGATCCCGAGTTCTCTCAGCTGTTTTGAACGGAGTATCAAGTGCGGCGCAAGGTCTTGGCATCAATGTAGATACCGGCAGTGTACAGAGTGACATTAGTTCCAGTAGCAGCTTCCTCTCAACCAGCTCGTCTGCGTCCAGTTTCTCCTCTCAGGCATCA---GCTTCTTCTACCAGCGGTGCTGGCTACACCGGA------------------------------------CCTTCTGGCTACACAGGACCAGTGGGTGGCGGAGCGCAGTTCGGTTCTGCTTCAGGCCAAAGCTCTTTCGGTCAGACATCAGGATTTACCGCATCTTCTGGCGGACAAGCCGCTTTCGGTGGAACCAGTGGAGCGTCTGCTGGC
+Argiope_argentata_R_9        CTCATCTCCAGAGTAGCAAACGCACTTGCCAATACATCCACATTGAGAGCTGTCCTCCGAAGAGGTGTATCCCAACAGACTGCTTCCAGCGTGGTACAGAGAGCCGCTCAGTCGTTGGCCAGTACTCTCGGAGTCGACGGAAACAACTTGTCCAGAGTAGCATTACAAGCCATCTCTCAAGTGCCCACAGGGTCTGACACTTCAGCTTACGCTCAAGCCTTCTCTAGTGCGCTCTTCAATGCCGGAGTTCTCAATGCAAGCAACATTGACACATTGGGATCCCGAGTTCTCTCAGCTGTTTTGAACGGAGTATCAAGTGCGGCGCAAGGTCTTGGCATCAATGTAGATACCGGCAGTGTACAGAGTGACATTAGTTCCAGTAGCAGCTTCCTCTCAACCAGCTCGTCTGCGTCCAGTTTCTCCTCTCAGGCATCA---GCTTCTTCTACCAGCGGTGCTGGCTACACCGGA------------------------------------CCTTCTGGATACACAGGACCAGTGGGTGGCGGAGCGCAGTTCGGTTCTGCTTCAGGCCAAAGCTCTTTCGGTCAGACATCAGGATTTACCGCATCTTCTGGCGGACAAGCCGCTTTCGGTGGAACCAGTGGAGCGTCTGCTGAC
+Argiope_trifasciata_R_1      ??????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????TCTAGTGCGCTCTTCAATGCCGGAGTTCTCAATGCAAGCAACATTGACACATTGGGATCCCGAGTTCTCTCAGCACTTTTGAACGGAGTATCAAGTGCGGCGCAAGGTCTTGGCATCAATGTAGATAGCGGCAGTGTACAAAGTGACATTAGTTCCAGTAGCAGCTTCCTCTCAACAAGCTCGTCTTCGGCCAGTTAC---TCTCAGGCATCA---GCTTCTTCGACCAGCGGTGCCGGATACACAGGACCTTCTGGACCTTCC------ACTGGA---------CCTTCTGGCTACCCTGGGCCTTTGGGTGGCGGAGCGCCG---------------------------TTCGGTCAA---TCAGGCTTTGGCGGATCTGATGGCCCTCAAGGTGGATTCGGTGCCACAGGTGGAGCGTCTGCTGGC
+Argiope_trifasciata_R_10     CTTATCTCCAGAGTAGCAAACGCACTTGCCAATACATCAACATTGAGAACTGTCCTCAGAACTGGTGTATCCCAACAGATTGCCTCCAGCGTGGTACAGAGAGCCGCTCAGTCGTTGGCCAGTACTCTCGGAGTCGACGGAAATAACTTGGCCAGATTCGCGGTACAGGCCGTCTCTCGACTGCCCGCCGGATCAGACACTTCTGCTTACGCTCAAGCATTCTCTAGTGCGCTCTTCAATGCCGGAGTTCTCAATGCAAGCAACATTGACACATTGGGATCCCGAGTTCTCTCAGCACTTTTGAACGGAGTATCAAGTGCGGCGCAAGGTCTTGGCATCAATGTAGATAGCGGCAGTGTACAAAGTGACATTAGTTCCAGTAGCAGCTTCCTCTCAACAAGCTCGTCTTCGGCCAGTTAC---TCTCAGGCATCA---GCTTCTTCGACCAGCGGTGCCGGATACACAGGACCTTCTGGACCTTCC------ACTGGA---------CCTTCTGGCTACCCTGGGCCTTTGGGTGGCGGAGCGCCG---------------------------TTCGGTCAA---TCAGGCTTTGGCGGATCTGCTGGCCCTCAAGGTGGATTCGGTGCCACAGGTGGAGCGTCTGCTGGC
+Argiope_trifasciata_R_11     CTTATCTCCAGAGTAGCAAACGCACTTGCCAATACATCAACATTGAGAACTGTCCTCAGAACTGGTGTATCCCAACAGATTGCCTCCAGCGTGGTACAGAGAGCCGCTCAGTCGTTGGCCAGTACTCTCGGAGTCGACGGAAATAACTTGGCCAGATTCGCGGTACAGGCCGTCTCTCGACTGCCCGCCGGATCAGACACTTCTGCTTACGCTCAAGCATTCTCTAGTGCGCTCTTCAATGCCGGAGTTCTCAATGCAAGCAACATTGACACATTGGGATCCCGAGTTCTCTCAGCACTTTTGAACGGAGTATCAAGTGCGGCGCAAGGTCTTGGCATCAATGTAGATAGCGGCAGTGTACAAAGTGACATTAGTTCCAGTAGCAGCTTCCTCTCAACAAGCTCGTCTTCGGCCAGTTAC---TCTCAGGCATCA---GCTTCTTCGACCAGCGGTGCCGGATACACAGGACCTTCTGGACCTTCC------ACTGGA---------CCTTCTGGCTACCCTGGGCCTTTGGGTGGCGGAGCGCCG---------------------------TTCGGTCAA---TCAGGCTTTGGCGGATCTGCTGGCCCTCAAGGTGGATTCGGTGCCACAGGTGGAGCGTCTGCTGGC
+Argiope_trifasciata_R_12     CTTATCTCCAGAGTAGCAAACGCACTTGCCAATACATCAACATTGAGAACTGTCCTCAGAACTGGTGTATCCCAACAGATTGCCTCCAGCGTGGTACAGAGAGCCGCTCAGTCGTTGGCCAGTACTCTCGGAGTCGACGGAAATAACTTGGCCAGATTCGCGGTACAGGCCGTCTCTCGACTGCCCGCCGGATCAGACACTTCTGCTTACGCTCAAGCATTCTCTAGTGCGCTCTTCAATGCCGGAGTTCTCAATGCAAGCAACATTGACACATTGGGATCCCGAGTTCTCTCAGCACTTTTGAACGGAGTATCAAGTGCGGCGCAAGGTCTTGGCATCAATGTAGATAGCGGCAGTGTACAAAGTGACATTAGTTCCAGTAGCAGCTTCCTCTCAACAAGCTCGTCTTCGGCCAGTTAC---TCTCAGGCATCA---GCTTCTTCGACCAGCGGTGCCGGATACACAGGACCTTCTGGACCTTCC------ACTGGA---------CCTTCTGGCTACCCTGGGCCTTTGGGTGGCGGAGCGCCG---------------------------TTCGGTCAA---TCAGGCTTTGGCGGATCTGCTGGCCCTCAAGGTGGATTCGGTGCCACAGGTGGAGCGTCTGCTGGC
+Argiope_trifasciata_R_13     CTTATCTCCAGAGTAGCAAACGCACTTGCCAATACATCAACATTGAGAACTGTCCTCAGAACTGGTGTATCCCAACAGATTGCCTCCAGCGTGGTACAGAGAGCCGCTCAGTCGTTGGCCAGTACTCTCGGAGTCGACGGAAATAACTTGGCCAGATTCGCGGTACAGGCCGTCTCTCGACTGCCCGCCGGATCAGACACTTCTGCTTACGCTCAAGCATTCTCTAGTGCGCTCTTCAATGCCGGAGTTCTCAATGCAAGCAACATTGACACATTGGGATCCCGAGTTCTCTCAGCACTTTTGAACGGAGTATCAAGTGCGGCGCAAGGTCTTGGCATCAATGTAGATAGCGGCAGTGTACAAAGTGACATTAGTTCCAGTAGCAGCTTCCTCTCAACAAGCTCGTCTTCGGCCAGTTAC---TCTCAGGCATTA---GCTTCTTCGACCAGCGGTGCCGGATACACAGGACCTTCTGGACCTTCC------ACTGGA---------CCTTCTGGCTACCCTGGGCCTTTGGGTGGCGGAGCGCCG---------------------------TTCGGTCAA---TCAGGCTTTGGCGGATCTGCTGGCCCTCAAGGTGGATTCGGTGCCACAGGTGGAGCGTCTGCTGGC
+Argiope_trifasciata_R_14     CTTATCTCCAGAGTAGCAAACGCACTTGCCAATACATCAACATTGAGAACTGTCCTCAGAACTGGTGTATCCCAACAGATTGCCTCCAGCGTGGTACAGAGAGCCGCTCAGTCGTTGGCCAGTACTCTCGGAGTCGACGGAAATAACTTGGCCAGATTCGCGGTACAGGCCGTCTCTCGACTGCCCGCCGGATCAGACACTTCTGCTTACGCTCAAGCATTCTCTAGTGCGCTCTTCAATGCCGGAGTTCTCAATGCAAGCAACATTGACACATTGGGATCCCGAGTTCTCTCAGCACTTTTGAACGGAGTATCAAGTGCGGCGCAAGGTCTTGGCATCAATGTAGATAGCGGCAGTGTACAAAGTGACATTAGTTCCAGTAGCAGCTTCCTCTCAACAAGCTCGTCTTCGGCCAGTTAC---TCTCAGGCATCA---GCTTCTTCGACCAGCGGTGCCGGATACACAGGACCTTCTGGACCTTCC------ACTGGA---------CCTTCTGGCTACCCTGGGCCTTTGAGTGGCGGAGCGTCG---------------------------TTCGGC------TCTGGC????????????????????????????????????????????????????????????
+Argiope_trifasciata_R_2      CTTATCTCCAGAGTAGCAAACGCACTTGCCAATACATCAACATTGAGAACTGTCCTCAGAACTGGTGTATCCCAACAGATTGCCTCCAGCGTGGTACAGAGAGCCGCTCAGTCGTTGGCCAGTACTCTCGGAGTCGACGGAAATAACTTGGCCAGATTCGCGGTACAGGCCGTCTCTCGACTGCCCGCCGGATCAGACACTTCTGCTTACGCTCAAGCATTCTCTAGTGCGCTCTTCAATGCCGGAGTTCTCAATGCAAGCAACATTGACACATTGGGATCCCGAGTTCTCTCAGCACTTTTGAACGGAGTATCAAGTGCGGCGCAAGGTCTTGGCATCAATGTAGATAGCGGCAGTGTACAAAGTGACATTAGTTCCAGTAGCAGCTTCCTCTCAACAAGCTCGTCTTCGGCCAGTTAC---TCTCAGGCATCA---GCTTCTTCGACCAGCGGTGCCGGATACACAGGACCTTCTGGACCTTCC------ACTGGA---------CCTTCTGGCTACCCTGGGCTTTTGGGTGGCGGAGCGCCT---------------------------TTCGGTCAA---TCAGGCTTTGGCGGATCTGATGGCCCTCAAGGTGGATTCGGTGCCACAGGTGGAGCGTCTGCTGGC
+Argiope_trifasciata_R_3      CTTATCTCCAGAGTAGCAAACGCACTTGCCAATACATCAACATTGAGAACTGTCCTCAGAACTGGTGTATCCCAACAGATTGCCTCCAGCGTGGTACAGAGAGCCGCTCAGTCGTTGGCCAGTACTCTCGGAGTCGACGGAAATAACTTGGCCAGATTCGCGGTACAGGCCGTCTCTCGACTGCCCGCCGGATCAGACACTTCTGCTTACGCTCAAGCATTCTCTAGTGCGCTCTTCAATGCCGGAGTTCTCAATGCAAGCAACATTGACACATTGGGATCCCGAGTTCTCTCAGCACTTTTGAACGGAGTATCAAGTGCGGCGCAAGGTCTTGGCATCAATGTAGATAGCGGCAGTGTACAAAGTGACATTAGTTCCAGTAGTAGCTTCCTCTCAACAAGCTCGTCTTCGGCCAGTTAC---TCTCAGGCATCA---GCTTCTTCGACCAGCGGTGCCGGATACACAGGACCTTCTGGACCTTCC------ACTGGA---------CCTTCTGGCTACCCTGGGCCTTTGGGTGGCGGAGCGCCG---------------------------TTCGGTCAA---TCAGGCTTTGGCGGATCTGATGGCCCTCAAGGTGGATTCGGTGCCACAGGTGGAGCGTCTGCTGGC
+Argiope_trifasciata_R_4      CTTATCTCCAGAGTAGCAAACGCACTTGCCAATACATCAACATTGAGAACTGTCCTCAGAACTGGTGTATCCCAACAGATTGCCTCCAGCGTGGTACAGAGAGCCGCTCAGTCGTTGGCCAGTACTCTCGGAGTCGACGGAAATAACTTGGCCAGATTCGCGGTACAGGCCGTCTCTCGACTGCCCGCCGGATCAGACACTTCTGCTTACGCTCAAGCATTCTCTAGTGCGCTCTTCAATGCCGGAGTTCTCAATGCAAGCAACATTGACACATTGGGATCCCGAGTTCTCTCAGCACTTTTGAACGGAGTATCAAGTGCGGCGCAAGGTCTTGGCATCAATGTAGATAGCGGCAGTGTACAAAGTGACATTAGTTCCAGTAGCAGCTTCCTCTCAACAAGCTCGTCTTCGGCCAGTTAC---TCTCAGGCATCA---GCTTCTTCGACCAGCGGTGCCGGATACACAGGACCTTCTGGACCTTCC------ACTGGA---------CCTTCTGGCTACCCTGGGCCTTTGGGTGGCGGAGCGCCG---------------------------TTCGGTCAA---TCAGGCTTTGGCGGATCTGCTGGCCCTCAAGGTGGATTCGGTGCCACAGGTGGAGCGTCTGCTGGC
+Argiope_trifasciata_R_5      CTTATCTCCAGAGTAGCAAACGCACTTGCCAATACATCAACATTGAGAACTGTCCTCAGAACTGGTGTATCCCAACAGATTGCCTCCAGCGTGGTACAGAGAGCCGCTCAGTCGTTGGCCAGTACTCTCGGAGTCGACGGAAATAACTTGGCCAGATTCGCGGTACAGGCCGTCTCTCGACTGCCCGCCGGATCAGACACTTCTGCTTACGCTCAAGCATTCTCTAGTGCGCTCTTCAATGCCGGAGTTCTCAATGCAAGCAACATTGACACATTGGGATCCCGAGTTCTCTCAGCACTTTTGAACGGAGTATCAAGTGCGGCGCAAGGTCTTGGCATCAATGTAGATAGCGGCAGTGTACAAAGTGACATTAGTTCCAGTAGCAGCTTCCTCTCAACAAGCTCGTCTTCGGCCAGTTAC---TCTCAGGCATCA---GCTTCTTCGACCAGCGGTGCCGGATACACAGGACCTTCTGGACCTTCC------ACTGGA---------CCTTCTGGCTACCCTGGGCCTTTGGGTGGCGGAGCGCCG---------------------------TTCGGTCAA---TCAGGCTTTGGCGGATCTGCTGGCCCTCAAGGTGGATTCGGTGCCACAGGTGGAGCGTCTGCTGGC
+Argiope_trifasciata_R_6      CTTATCTCCAGAGTAGCAAACGCACTTGCCAATACATCAACATTGAGAACTGTCCTCAGAACTGGTGTATCCCAACAGATTGCCTCCAGCGTGGTACAGAGAGCCGCTCAGTCGTTGGCCAGTACTCTCGGAGTCGACGGAAATAACTTGGCCAGATTCGCGGTACAGGCCGTCTCTCGACTGCCCGCCGGATCAGACACTTCTGCTTACGCTCAAGCATTCTCTAGTGCGCTCTTCAATGCCGGAGTTCTCAATGCAAGCAACATTGACACATTGGGATCCCGAGTTCTCTCAGCACTTTTGAACGGAGTATCAAGTGCGGCGCAAGGTCTTGGCATCAATGTAGATAGCGGCAGTGTACAAAGTGACATTAGTTCCAGTAGCAGCTTCCTCTCAACAAGCTCGTCTTCGGCCAGTTAC---TCTCAGGCATCA---GCTTCTTCGACCAGCGGTACCGGATACACAGGACCTTCTGGACCTTCC------ACTGGA---------CCTTCTGGCTACCCTGGGCCTTTGGGTGGCGGAGCGCCG---------------------------TTCGGTCAA---TCAGGCTTTGGCGGATCTGCTGGCCCTCAAGGTGGATTCGGTGCCACAGGTGGAGCGTCTGCTGGC
+Argiope_trifasciata_R_7      CTTATCTCCAGAGTAGCAAACGCACTTGCCAATACATCAACATTGAGAACTGTCCTCAGAACTGGTGTATCCCAACAGATTGCCTCCAGCGTGGTACAGAGAGCCGCTCAGTCGTTGGCCAGTACTCTCGGAGTCGACGGAAATAACTTGGCCAGATTCGCGGTACAGGCCGTCTCTCGACTGCCCGCCGGATCAGACACTTCTGCTTACGCTCAAGCATTCTCTAGTGCGCTCTTCAATGCCGGAGTTCTCAATGCAAGCAACATTGACACATTGGGATCCCGAGTTCTCTCAGCACTTTTGAACGGAGTATCAAGTGCGGCGCAAGGTCTTGGCATCAATGTAGATAGCGGCAGTGTACAAAGTGACATTAGTTCCAGTAGCAGCTTCCTCTCAACAAGCTCGTCTTCGGCCAGTTAC---TCTCAGGCATCA---GCTTCTTCGACCAGCGGTGCCGGATACACAGGACCTTCTGGACCTTCC------ACTGGA---------CCTTCTGGCTACCCTGGGCCTTTGGGTGGCGGAGCGCCG---------------------------TTCGGTCAA---TCAGGCTTTGGCGGATCTGCTGGCCCTCAAGGTGGATTCGGTGCCACAGGTGGAGCGTCTGCTGGC
+Argiope_trifasciata_R_8      CTTATCTCCAGAGTAGCAAACGCACTTGCCAATACATCAACATTGAGAACTGTCCTCAGAACTGGTGTATCCCAACAGATTGCCTCCAGCGTGGTACAGAGAGCCGCTCAGTCGTTGGCCAGTACTCTCGGAGTCGACGGAAATAACTTGGCCAGATTCGCGGTACAGGCCGTCTCTCGACTGCCCGCCGGATCAGACACTTCTGCTTACGCTCAAGCATTCTCTAGTGCGCTCTTCAATGCCGGAGTTCTCAATGCAAGCAACATTGACACATTGGGATCCCGAGTTCTCTCAGCACTTTTGAACGGAGTATCAAGTGCGGCGCAAGGTCTTGGCATCAATGTAGATAGCGGCAGTGTACAAAGTGACATTAGTTCCAGTAGCAGCTTCCTCTCAACAAGCTCGTCTTCGGCCAGTTAC---TCTCAGGCATCA---GCTTCTTCGACCAGCGGTGCCGGATACACAGGACCTTCTGGACCTTCC------ACTGGA---------CCTTCTGGCTACCCTGGGCCTTTGGGTGGCGGAGCGCCG---------------------------TTCGGTCAA---TCAGGCTTTGGCGGATCTGATGGCCCTCAAGGTGGATTCGGTGCCACAGGTGGAGCGTCTGCTGGC
+Argiope_trifasciata_R_9      CTTATCTCCAGAGTAGCAAACGCACTTGCCAATACATCAACATTGAGAACTGTCCTCAGAACTGGTGTATCCCAACAGATTGCCTCCAGCGTGGTACAGAGAGCCGCTCAGTCGTTGGCCAGTACTCTCGGAGTCGACGGAAATAACTTGGCCAGATTCGCGGTACAGGCCGTCTCTCGACTGCCCGCCGGATCAGACACTTCTGCTTACGCTCAAGCATTCTCTAGTGCGCTCTTCAATGCCGGAGTTCTCAATGCAAGCAACATTGACACATTGGGATCCCGAGTTCTCTCAGCACTCTTGAACGGAGTATCAAGTGCGGCGCAAGGTCTTGGCATCAATGTAGATAGCGGCAGTGTACAAAGTGACATTAGTTCCAGTAGCAGCTTCCTCTCAACAAGCTCGTCTTCGGCCAGTTAC---TCTCAGGCATCA---GCTTCTTCGACCAGCGGTGCCGGATACACAGGACCTTCTGGACCTTCC------ACTGGA---------CCTTCTGGCTACCCTGGGCCTTTGGGTGGCGGAGCGCCG---------------------------TTCGGTCAA---TCAGGCTTTGGCGGATCTGCTGGCCCTCAAGGTGGATTCGGTGCCACAGGTGGAGCGTCTGCTGGC
+;
+END;
+
+BEGIN TREES;
+      TITLE RepeatPCR;
+      LINK TAXA = Taxa2;
+         TRANSLATE
+            1    Araneus_ventricosus,
+            2    Argiope_aurantia,
+            3    Argiope_trifasciata,
+            4    Argiope_argentata;
+      TREE RepeatPCR = [&R] (1:0.22519892282138912,(2:0.020809020273214365,3:0.05322416467841654):0.06114922623005123,4:0.09520353567653454);
+
+
+
+END;
+BEGIN TREES;
+      TITLE SpidroinGeneTreeNCTerm;
+      LINK TAXA = Taxa9;
+         TRANSLATE
+            1    Deinopis_spinosa_fibroin1a,
+            2    Deinopis_spinosa_MaSp2,
+            3    Nephila_clavipes_MaSp1a,
+            4    Nephila_clavipes_MaSp1b,
+            5    Nephila_inaurata_madagascariensis_MaSp2,
+            6    Latrodectus_geometricus_MaSp1,
+            7    Latrodectus_hesperus_MaSp2,
+            8    Euprosthenops_australis_MaSp,
+            9    Argiope_trifasciata_MaSp2,
+            10   Agelenopsis_aperta_MaSp,
+            11   Uloborus_diversus_MiSp,
+            12   Metepeira_grandiosa_MiSp,
+            13   Araneus_ventricosus_MiSp,
+            14   Latrodectus_hesperus_MiSp,
+            15   Bothriocyrtum_californicum_fibroin1,
+            16   Diguetia_canities_MaSp_like,
+            17   Diguetia_canities_MaSp,
+            18   Argiope_argentata_AcSp1Complete,
+            19   Latrodectus_hesperus_AcSp1,
+            20   Latrodectus_geometricus_AcSp1,
+            21   Nephila_inaurata_madagascariensis_Flag,
+            22   Nephila_clavipes_Flag,
+            23   Araneus_ventricosus_Flag,
+            24   Agelenopsis_aperta_TuSp1,
+            25   Nephila_clavata_TuSp1,
+            26   Latrodectus_hesperus_MaSp1,
+            27   Latrodectus_hesperus_TuSp1,
+            28   Argiope_bruennichi_TuSp1,
+            29   Argiope_argentata_TuSp1,
+            30   Nephila_clavipes_MaSp2;
+      TREE SpidroinGeneTree = [&R] ;
+
+
+
+END;
+BEGIN TREES;
+      TITLE CTermPCRvariants;
+      LINK TAXA = Taxa6;
+         TRANSLATE
+            1    Argiope_trifasciata_CtermV3,
+            2    Argiope_trifasciata_CtermV1,
+            3    Argiope_trifasciata_CtermV2,
+            4    Argiope_trifasciata_CtermV4,
+            5    Argiope_aurantia_CtermV2,
+            6    Argiope_aurantia_CtermV1,
+            7    Argiope_argentata_CtermV1,
+            8    Argiope_trifasciata_CtermV7,
+            9    Argiope_trifasciata_CtermV6,
+            10   Argiope_trifasciata_CtermV5,
+            11   Araneus_ventricosus_Cterm,
+            12   Argiope_trifasciata_CtermV9,
+            13   Argiope_argentata_CtermV2,
+            14   Argiope_argentata_CtermV5,
+            15   Argiope_trifasciata_CtermV11,
+            16   Argiope_trifasciata_CtermV10,
+            17   Argiope_trifasciata_CtermV8,
+            18   Argiope_trifasciata_CtermV12,
+            19   Argiope_argentata_CtermV6,
+            20   Argiope_argentata_CtermV4,
+            21   Argiope_argentata_CtermV3,
+            22   Argiope_argentata_CtermV7;
+      TREE CtermPCRvariants = [&R] ((2:1.0E-6,(((8:1.0E-6,(((15:1.0E-6,16:0.007523):0.010104,(17:0.002372,18:1.0E-6):0.004726):1.0E-6,12:0.004784):0.004801):0.009597,(9:0.004889,10:1.0E-6):0.009752):1.0E-6,4:1.0E-6):0.007312):0.002423,(3:1.0E-6,((5:0.038005,6:0.037921):0.028408,(7:0.132328,(11:0.349173,(13:0.30153,(((20:1.0E-6,(21:1.0E-6,22:0.001876):0.005654):0.001873,19:1.0E-6):1.0E-6,14:0.001873):0.074398):0.053111):0.027983):0.002226):0.069973):0.002423,1:1.0E-6);
+
+
+
+END;
+BEGIN TREES;
+      TITLE NTermPCRvariants;
+      LINK TAXA = Taxa7;
+         TRANSLATE
+            1    Argiope_argentata_NtermV2,
+            2    Argiope_argentata_NtermV4,
+            3    Argiope_argentata_NtermV3,
+            4    Argiope_argentata_NtermV7,
+            5    Argiope_argentata_NtermV1,
+            6    Argiope_argentata_NtermV6,
+            7    Argiope_argentata_NtermV5,
+            8    Argiope_trifasciata_NtermV14,
+            9    Argiope_aurantia_NtermV3,
+            10   Argiope_aurantia_NtermV4,
+            11   Argiope_aurantia_NtermV5,
+            12   Argiope_aurantia_NtermV6,
+            13   Argiope_aurantia_NtermV2,
+            14   Argiope_aurantia_NtermV1,
+            15   Argiope_trifasciata_NtermV11,
+            16   Argiope_trifasciata_NtermV10,
+            17   Argiope_trifasciata_NtermV9,
+            18   Argiope_trifasciata_NtermV8,
+            19   Argiope_trifasciata_NtermV12,
+            20   Argiope_trifasciata_NtermV13,
+            21   Argiope_trifasciata_NtermV6,
+            22   Argiope_trifasciata_NtermV1,
+            23   Argiope_trifasciata_NtermV7,
+            24   Argiope_trifasciata_NtermV4,
+            25   Argiope_trifasciata_NtermV5,
+            26   Argiope_trifasciata_NtermV2,
+            27   Argiope_trifasciata_NtermV3;
+      TREE NtermPCRvariants = [&R] (1:1.0E-6,(3:0.004128,(((5:1.0E-6,(6:0.001264,7:1.0E-6):0.019696):0.031125,(((9:1.0E-6,(11:1.0E-6,12:0.001243):0.001239):0.002486,(10:1.0E-6,(13:1.0E-6,14:0.00124):0.001243):1.0E-6):0.071397,(((15:0.005562,16:0.001382):0.003001,(((19:1.0E-6,(20:1.0E-6,(21:1.0E-6,(((24:1.0E-6,25:0.002809):0.001398,22:1.0E-6):1.0E-6,((26:1.0E-6,27:0.001409):0.002805,23:0.01889):1.0E-6):0.011471):0.012677):0.009832):0.009791,18:0.005594):1.0E-6,17:1.0E-6):0.002522):0.045499,8:0.263857):0.025734):0.122247):0.073428,4:1.0E-6):0.021154):0.001273,2:0.008085);
+
+
+
+END;
+BEGIN TREES;
+      TITLE RepeatAll;
+      LINK TAXA = Taxa3;
+         TRANSLATE
+            1    Argiope_trifasciata_R_3,
+            2    Argiope_trifasciata_R_2,
+            3    Argiope_trifasciata_R_1,
+            4    Argiope_trifasciata_R_13,
+            5    Araneus_ventricosus_R_5,
+            6    Araneus_ventricosus_R_10,
+            7    Araneus_ventricosus_R_4,
+            8    Araneus_ventricosus_R_6,
+            9    Araneus_ventricosus_R_1,
+            10   Araneus_ventricosus_R_9,
+            11   Araneus_ventricosus_R_2,
+            12   Araneus_ventricosus_R_8,
+            13   Araneus_ventricosus_R_3,
+            14   Araneus_ventricosus_R_7,
+            15   Argiope_amoena_R_6,
+            16   Argiope_amoena_R_5,
+            17   Argiope_amoena_R_4,
+            18   Argiope_amoena_R_3,
+            19   Argiope_amoena_R_2,
+            20   Argiope_amoena_R_1,
+            21   Argiope_argentata_R_20,
+            22   Argiope_argentata_R_10,
+            23   Argiope_argentata_R_9,
+            24   Argiope_argentata_R_6,
+            25   Argiope_argentata_R_3,
+            26   Argiope_argentata_R_2,
+            27   Argiope_argentata_R_4,
+            28   Argiope_argentata_R_1,
+            29   Argiope_argentata_R_5,
+            30   Argiope_argentata_R_7,
+            31   Argiope_argentata_R_11,
+            32   Argiope_argentata_R_16,
+            33   Argiope_argentata_R_14,
+            34   Argiope_argentata_R_17,
+            35   Argiope_argentata_R_15,
+            36   Argiope_argentata_R_18,
+            37   Argiope_argentata_R_19,
+            38   Argiope_argentata_R_13,
+            39   Argiope_argentata_R_8,
+            40   Argiope_argentata_R_12,
+            41   Argiope_trifasciata_R_4,
+            42   Argiope_trifasciata_R_6,
+            43   Argiope_trifasciata_R_9,
+            44   Argiope_trifasciata_R_5,
+            45   Argiope_trifasciata_R_7,
+            46   Argiope_trifasciata_R_11,
+            47   Argiope_trifasciata_R_10,
+            48   Argiope_trifasciata_R_12,
+            49   Argiope_trifasciata_R_14,
+            50   Argiope_trifasciata_R_8;
+      TREE RepeatAll = [&R] ((1:0.00168594321167134,2:0.003378775847390704):7.7645346121635E-7,(3:7.7645346121635E-7,(((4:0.0016870035211482,(((5:7.7645346121635E-7,(((6:0.027064430556388564,7:0.001629017985961205):0.001691582947695264,(8:0.006673502193007865,((9:7.7645346121635E-7,10:0.0016585841703270225):7.7645346121635E-7,(11:7.7645346121635E-7,12:0.001655040109593789):0.0016567547400941065):7.7645346121635E-7):0.0016572056958312467):0.001661318491744152,(13:7.7645346121635E-7,14:0.00499344696308245):7.7645346121635E-7):0.0016581694214876524):0.1932010829409358,(((15:0.006158287955674492,16:7.7645346121635E-7):0.003126773149608358,17:0.003133406693261477):0.004727206836602254,(18:0.006291006509690697,(19:7.7645346121635E-7,20:7.7645346121635E-7):0.007941652645270553):0.006441645338825495):0.034021882376749205):0.014362983876420468,(21:0.009574582474523667,((((22:0.006659585122102218,23:0.0049970151267274025):7.7645346121635E-7,(((24:0.0016623443842935623,(25:7.7645346121635E-7,(26:0.004996779208743259,27:0.001660423443472146):7.7645346121635E-7):7.7645346121635E-7):7.7645346121635E-7,28:0.03801430760965524):0.0016601128984984497,(29:0.003326067046072712,30:0.00166311330293019):0.0016612869193813207):7.7645346121635E-7):7.7645346121635E-7,((31:0.006679778392995029,32:0.003340988679550112):0.003332965695487356,((33:0.0016576330748865609,(34:7.7645346121635E-7,(35:0.0033212799816777004,36:7.7645346121635E-7):0.0016574911798039114):7.7645346121635E-7):0.003323145401244493,(37:7.7645346121635E-7,38:0.0033251325835167087):7.7645346121635E-7):0.0016592199397025334):7.7645346121635E-7):7.7645346121635E-7,(39:0.0016540137586499952,40:0.005005229801055001):0.0016661236993771955):0.0018240598688717671):0.041835804344741434):0.07602340402034936):7.7645346121635E-7,(41:7.7645346121635E-7,(((42:0.001687396771197061,43:0.0016880112269585933):7.7645346121635E-7,44:7.7645346121635E-7):7.7645346121635E-7,(45:7.7645346121635E-7,((46:7.7645346121635E-7,47:7.7645346121635E-7):7.7645346121635E-7,48:7.7645346121635E-7):7.7645346121635E-7):7.7645346121635E-7):7.7645346121635E-7):7.7645346121635E-7):0.0016879000370657198,49:0.007846155987825766):7.7645346121635E-7):7.7645346121635E-7,50:7.7645346121635E-7);
+
+
+
+END;

@@ -1,0 +1,111 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:47 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Carr B., Crisci J., & Hoch P. 1990. A cladistic analysis of the genus Gaura (Onagraceae).
+Systematic Botany, 15: 454-461.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S91]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=22;
+        TAXLABELS
+            Gaura_angustifolia
+            Gaura_biennis
+            Gaura_boquillensis
+            Gaura_brachycarpa
+            Gaura_calcicola
+            Gaura_coccinea
+            Gaura_demareei
+            Gaura_drummondii
+            Gaura_filipes
+            Gaura_hexandra
+            Gaura_lindheimeri
+            Gaura_longiflora
+            Gaura_macrocarpa
+            Gaura_mckelveyae
+            Gaura_mutabilis
+            Gaura_neomexicana
+            Gaura_parviflora
+            Gaura_sinuata
+            Gaura_suffulta
+            Gaura_triangulata
+            Gaura_villosa
+            Outgroup_to_Gaura
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M2331]
+
+	TITLE Table_3;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=20;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2" MISSING=? GAP= -;
+
+MATRIX
+[                              10        20]
+[                               .         .]
+Gaura_angustifolia     111111122200??010000
+Gaura_biennis          111111122200??010000
+Gaura_boquillensis     11111101101000000000
+Gaura_brachycarpa      111111122100??110000
+Gaura_calcicola        11111112212001000000
+Gaura_coccinea         11111112202110000000
+Gaura_demareei         111111122200??010100
+Gaura_drummondii       11111112212110002000
+Gaura_filipes          11111112212001000000
+Gaura_hexandra         111111122100??110000
+Gaura_lindheimeri      111111121100??000100
+Gaura_longiflora       111111122200??010000
+Gaura_macrocarpa       111111010000??000000
+Gaura_mckelveyae       11111112212001001000
+Gaura_mutabilis        111000000000??000000
+Gaura_neomexicana      111111122200??010000
+Gaura_parviflora       111112000200??010001
+Gaura_sinuata          11111112212001002000
+Gaura_suffulta         111111122100??110000
+Gaura_triangulata      111111122100??110000
+Gaura_villosa          11111112212001001010
+Outgroup_to_Gaura      000000000000??000000
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb4808;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Outgroup_to_Gaura,
+            2    Gaura_mutabilis,
+            3    Gaura_macrocarpa,
+            4    Gaura_boquillensis,
+            5    Gaura_parviflora,
+            6    Gaura_coccinea,
+            7    Gaura_villosa,
+            8    Gaura_calcicola,
+            9    Gaura_filipes,
+            10   Gaura_mckelveyae,
+            11   Gaura_sinuata,
+            12   Gaura_drummondii,
+            13   Gaura_lindheimeri,
+            14   Gaura_angustifolia,
+            15   Gaura_neomexicana,
+            16   Gaura_longiflora,
+            17   Gaura_biennis,
+            18   Gaura_demareei,
+            19   Gaura_suffulta,
+            20   Gaura_hexandra,
+            21   Gaura_brachycarpa,
+            22   Gaura_triangulata;
+      TREE Fig._1 = [&R] (1,(2,(5,(3,(4,(((22,21,20,19),(17,16,15,14,18)),13,((6,12),(8,9,(7,10,11))))))))Gaura);
+
+
+
+END;

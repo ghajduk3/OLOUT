@@ -1,0 +1,61 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:52 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Jansen R.K. 1981. Systematics of Spilanthes (Compositae: Heliantheae). Systematic
+Botany, 6: 231-257.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S162]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=6;
+        TAXLABELS
+            Spilanthes_anactina
+            Spilanthes_costata
+            Spilanthes_leiocarpa
+            Spilanthes_nervosa
+            Spilanthes_paraguayensis
+            Spilanthes_urens
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M2330]
+
+	TITLE Table_3;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=16;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2" MISSING=? GAP= -;
+
+MATRIX
+Spilanthes_anactina          1110100000120101
+Spilanthes_costata           1100010010000000
+Spilanthes_leiocarpa         1110101001111010
+Spilanthes_nervosa           0011101101110000
+Spilanthes_paraguayensis     1110101101110100
+Spilanthes_urens             1110101001110000
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb4886;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Spilanthes_anactina,
+            2    Spilanthes_costata,
+            3    Spilanthes_leiocarpa,
+            4    Spilanthes_nervosa,
+            5    Spilanthes_paraguayensis,
+            6    Spilanthes_urens;
+      TREE Fig._17 = [&R] (2,(1,((4,5),3,6)))Spilanthes;
+
+
+
+END;

@@ -1,0 +1,160 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:48 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Ramirez M. 1999. New Species and Cladistic Reanalysis of the Spider Genus Monapia
+(Araneae, Anyphaenidae, Amaurobioidinae). Journal of Arachnology, 27: 415-431.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S615]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=23;
+        TAXLABELS
+            Amaurobioides
+            Anyphaeninae
+            Arachosia
+            Coptoprepes
+            Ferrieria
+            Gayenna
+            Liparotoma
+            Monapia_alupuran
+            Monapia_angusta
+            Monapia_carolina
+            Monapia_charrua
+            Monapia_dilaticollis
+            Monapia_fierro
+            Monapia_guenoana
+            Monapia_huaria
+            Monapia_lutea
+            Monapia_pichinahuel
+            Monapia_silvatica
+            Monapia_tandil
+            Monapia_vittata
+            Oxysoma
+            Sanogasta
+            Tasata
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M3610]
+
+	TITLE Table_1;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=44;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2 3" MISSING=? GAP= -;
+	CHARSTATELABELS
+		1  Body_pattern / dark_patches_or_uniform dark_spots_on_light_background,
+		2  Carapace_outline / oval lengthened,
+		3  Carapace_height / 'normal, the posterior slope begins near the thoracic fovea' 'flattened, the slope begins well behind the thoracic fovea',
+		4  Posterior_eye_row / procurved_or_straight recurved,
+		5  Abdomen_shape / oval lengthened,
+		6  Number_of_retromarginal_cheliceral_teeth / two three four_or_more._The_character_is_considered_additive,
+		7  Long_ventral_hairs_on_male_palpal_tibia / absent present,
+		8  Cymbial_basal_retrolateral_notch / absent weak strong._Considered_additive,
+		9  Tegulum_with_a_deep_notch_occupied_by_the_median_haematodocha / absent present,
+		10  Trajectory_of_sperm_duct / parallel_to_tegular_notch with_a_curve_near_the_apical_margin_of_tegulum._Coding_and_inte,
+		11  Shape_of_paramedian_apophysis / thick thin long_and_very_thin._Considered_additive,
+		12  Amaurobioidine_paramedian_apophysis_closely_associated_with_median_apophysis / absent present,
+		13  Length_of_basal_portion_of_embolus / short very_long,
+		14  Shape_of_basal_portion_of_embolus / cylindrical flattened,
+		15  Extension_of_basal_embolar_unsclerotized_area / absent_or_small wide,
+		16  Grooved_primary_conductor / absent present,
+		17  Secondary_conductor / present absent,
+		18  Groove_in_secondary_conductor / absent present,
+		19  Division_of_secondary_conductor / entire divided_by_an_unsclerotized_area,
+		20  Unsclerotized_area_of_secondary_conductor_with_a_lobe / absent present,
+		21  Prolateral_portion_of_the_secondary_conductor_displaced_towards_the_base_of_the / apical displaced,
+		22  Denticles_on_prolateral_portion_of_the_secondary_conductor / absent present,
+		23  Retrolateral_portion_of_the_secondary_conductor_fused_to_tegulum / free fused,
+		24  Denticles_on_retrolateral_portion_of_secondary_conductor / absent present,
+		25  Shape_of_base_of_retrolateral_portion_of_secondary_conductor / thick thin_and_wide,
+		26  Anterior_pouch_on_median_epigynal_field / absent present,
+		27  Shape_of_epigynal_anterior_pouch / pit_like transversal_furrow,
+		28  Cavities_on_epigynal_anterior_pouch / a_single_pit_or_furrow two_cavities,
+		29  Central_depression_on_epigynal_median_field / absent present vestigial,
+		30  Median_pouch_on_epigynal_median_field / absent present,
+		31  Position_of_epigynal_lateral_lobes / separate contiguous fused_with_a_median_suture fused_without_suture._Considered_additive,
+		32  Degree_of_fusion_of_proximal_copulatory_ducts / separate fused_with_median_wall totally_fused_with_common_lumen._Considered_additive,
+		33  Copulatory_plug_in_mated_females / absent present,
+		34  Shape_of_spermathecae / irregular spherical_or_oval,
+		35  Shape_of_copulatory_ducts / 'thick, outline of duct not well distinct from that of spermathe' 'thin at least on distal portion, well distinct from outline of',
+		36  Shape_of_anterior_copulatory_ducts / narrow wide,
+		37  Thickness_of_walls_of_proximal_copulatory_ducts / thick thin,
+		38  'Length of female tibia + metatarsus III' / longer_than_tibia_IV shorter_than_tibia_IV shorter_than_75%_of_tibia_IV._Considered_additive,
+		39  One_strong_anterior_spine_on_chelicerae / absent present,
+		40  Ventral_spines_on_female_palp / absent present,
+		41  ProlateralIventral_spines_on_anterior_fernora / absent one several._Considered_additive,
+		42  Number_of_ventral_spines_on_anterior_tibiae / three_pairs_or_less four_pairs_or_more,
+		43  Thickness_of_ventral_spines_on_anterior_tibiae / 'normal, slender' strong,
+		44  Apical_ventral_spines_on_anterior_tibiae / present absent,
+		;
+
+MATRIX
+[                                10        20        30        40        50        60        70        80        90      ]
+[                                 .         .         .         .         .         .         .         .         .      ]
+Amaurobioides            0001010010--00011-0----000--0000000000000000
+Anyphaeninae             0000{01}2000---{01}{01}{01}00-0------{01}{01}{01}{01}-{01}0{01}0{01}{01}{012}000{01}{01}{01}{01}
+Arachosia                0000000010110000110-0000011?0000011000000000
+Coptoprepes              0000020010--00011-0----000--0000000000000000
+Ferrieria                0001020010000001110-001000--0000000000000110
+Gayenna                  0000000010000000110-000{01}01000000011000000000
+Liparotoma               0000000010000000110-000001000000011000000001
+Monapia_alupuran         10000000111000001111100001111000111000000000
+Monapia_angusta          111010?????0?????????????1?01-00?11002112111
+Monapia_carolina         100000????0?????????????11111100111000001100
+Monapia_charrua          10101000110000001110001011001100111001011111
+Monapia_dilaticollis     10000000111001001111001111101{01}10111000000000
+Monapia_fierro           10000001110000001110000011111-00111000001100
+Monapia_guenoana         111010001100000010101000?1101100111002112111
+Monapia_huaria           1000000011201110111100110110{01}032011110000000
+Monapia_lutea            1000000011201110111100110110{01}032011110000000
+Monapia_pichinahuel      10000000111011001110001011112021111110000000
+Monapia_silvatica        10000000110011001110001111112021111110000000
+Monapia_tandil           1000000111000000101011000????????????00?0000
+Monapia_vittata          10000012110000001010110001101000111000000000
+Oxysoma                  1010100{02}11000000110-100{01}01000000011000{01}00000
+Sanogasta                0000000010110000110-000001000??0011000000000
+Tasata                   1000020011000000110-100{01}01000000011000000000
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb5692;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Anyphaeninae,
+            2    Coptoprepes,
+            3    Amaurobioides,
+            4    Ferrieria,
+            5    Arachosia,
+            6    Sanogasta,
+            7    Gayenna,
+            8    Liparotoma,
+            9    Oxysoma,
+            10   Tasata,
+            11   Monapia_vittata,
+            12   Monapia_alupuran,
+            13   Monapia_dilaticollis,
+            14   Monapia_silvatica,
+            15   Monapia_pichinahuel,
+            16   Monapia_huaria,
+            17   Monapia_lutea,
+            18   Monapia_charrua,
+            19   Monapia_guenoana,
+            20   Monapia_angusta,
+            21   Monapia_fierro,
+            22   Monapia_carolina,
+            23   Monapia_tandil;
+      TREE Fig._6 = [&R] (1,((2,(3,4)),(((12,(11,23),((21,22),(18,(19,20))),(13,((14,15),(16,17)))),9,10),8,7,(6,5))));
+
+
+
+END;

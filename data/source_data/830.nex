@@ -1,0 +1,193 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:39 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Dahlgren R., & Bremer K. 1985. Major clades of the angiosperms. Cladistics, 1: 349-368.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S231]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=49;
+        TAXLABELS
+            Amborellaceae
+            Annonaceae
+            Aristolochiaceae
+            Austrobaileyaceae
+            Berberidaceae
+            Cabombaceae
+            Calycanthaceae
+            Canellaceae
+            Caryophyllaceae
+            Ceratophyllaceae
+            Chenopodiaceae
+            Chloranthaceae
+            Convallariaceae
+            Degeneriaceae
+            Dilleniaceae
+            Dioscoreaceae
+            Eupomatiaceae
+            Eupteleaceae
+            Fumariaceae
+            Gomortegaceae
+            Hamamelidaceae
+            Himantandraceae
+            Hydnoraceae
+            Illiciaceae
+            Lactoridaceae
+            Lardizabalaceae
+            Lauraceae
+            Magnoliaceae
+            Menispermaceae
+            Monimiaceae
+            Myristicaceae
+            Nelumbonaceae
+            Nymphaeaceae
+            Paeoniaceae
+            Papaveraceae
+            Phytolaccaceae
+            Piperaceae
+            Polygonaceae
+            Rafflesiaceae
+            Ranunculaceae
+            Sargentodoxaceae
+            Saururaceae
+            Schizandraceae
+            Sterculiaceae
+            Tetracentraceae
+            Trichopodaceae
+            Trimeniaceae
+            Trochodendraceae
+            Winteraceae
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M611]
+
+	TITLE Table_4;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=61;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2 3 4 5 6 7 8 9 A B C D E F G H J K L" MISSING=? GAP= -;
+
+MATRIX
+[                             10        20        30        40        50        60 ]
+[                              .         .         .         .         .         . ]
+Amborellaceae         0000??001001?00000000000001?1?000?00000000000?0000?????????00
+Annonaceae            0001000000011000100000000010000000000000000000000000010000000
+Aristolochiaceae      0001000000011000100100000100000000010000000000000000000000010
+Austrobaileyaceae     0000?1001001000000000000001000000000000000000?0000?????????00
+Berberidaceae         0001?10001?0100010010001111???1000001110000001000001000000000
+Cabombaceae           0110?100?1?000?0100000000100000000000000001000100001000000000
+Calycanthaceae        0001001010010000001000000011??0000000000000000001000000001000
+Canellaceae           000000100001?00010010000011000000000000101010?000001000000000
+Caryophyllaceae       000100111000010011011010011???10011000011001?1011001000000000
+Ceratophyllaceae      0110?100?1?000?0000000?00000000000001110001?10001000000000?00
+Chenopodiaceae        0001?11110000101110110?0011???11111010011001?1011001000000000
+Chloranthaceae        0000?10001?10000??0100?00010000000001110000?10000000001100000
+Convallariaceae       11101000??100000100100000100000000001001000001000100000010000
+Degeneriaceae         0000000000010000100000000010000000001110000000000000001110000
+Dilleniaceae          0000?10001?0001011011110011???1000000000100001000000001000000
+Dioscoreaceae         11101000??100000100100000110000000011001000001000100000010000
+Eupomatiaceae         0000000000011000??1000?0001100000?00000000000?000000010000000
+Eupteleaceae          0000?10011?00000??0000?0001???1000000000000000000000101000000
+Fumariaceae           0101?10001?0100011011010011???1000001101010001000001001100000
+Gomortegaceae         000000101001?00000100000101?1?000?01100000000?0000?????????00
+Hamamelidaceae        0000?10001?0001011011010011???1000001101000000000000100000000
+Himantandraceae       0001?1000001000000000010001000000?00000000100?0000?????????00
+Hydnoraceae           0?01??00???00000101111?00??0000000011001011?10000000000000101
+Illiciaceae           0000?1001001?00000000000001???1100000000000000000001100000000
+Lactoridaceae         0001??001001?000100100000010010000001000000001000000000000000
+Lardizabalaceae       0001?10001?00000100100010010001000000000001000000001000000000
+Lauraceae             000000001001100010110000110?1?0000001110000000001000000001000
+Magnoliaceae          0000000000011000000000000010000000000000000000000000001110000
+Menispermaceae        0001?10001?0100010010001011???10000000000001?1001000000000000
+Monimiaceae           0000000010011000100000001110000000000000000000000000000001000
+Myristicaceae         0000?10000010000100000?0010000000?001110000001000000001000010
+Nelumbonaceae         0110?100?1?0100000100000011???100?000000000001001000000000000
+Nymphaeaceae          0110?100?1?00010001000000110000000000000001000100001000000000
+Paeoniaceae           0000?10001?0000011011110011???1100100000000001000010000000000
+Papaveraceae          0001?10001?0100010000010011???1000000001010001000001001100000
+Phytolaccaceae        0001001110000101110110?0011???10011000011001?1011001000000000
+Piperaceae            0001?1000?111000??0100?00110000000001001100?10100000000000100
+Polygonaceae          0001?1000000001010110000011???1100101001100?11000000000000000
+Rafflesiaceae         0?0??100???00000111111?00?01??0000010001011000000000000000101
+Ranunculaceae         0101?10001?01000110000?1011???1000000000000001000001000000000
+Sargentodoxaceae      0001?10001?0?00010010001001???110000000000000?0000?????????00
+Saururaceae           0110?1000?11?000??0100?00110000000001000000?10100000000000100
+Schizandraceae        0000?1001001?00000000000001???1000000000000000000001100000000
+Sterculiaceae         0001?10001?0000011011010011???1100000001000001000000000000100
+Tetracentraceae       0000?10001?00000110110?0011???1000000001000000000000001000000
+Trichopodaceae        1110L000??100000100100000000000000011001000001000101000000000
+Trimeniaceae          0000?10010010000000000000011??000?00110000000?0000?????????00
+Trochodendraceae      0000?10001?00000??0000?0011???1000000001000000000000001000000
+Winteraceae           0000?10000011000000000000010010000000000000000000001000000000
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb4953;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Austrobaileyaceae,
+            2    Annonaceae,
+            3    Myristicaceae,
+            4    Eupomatiaceae,
+            5    Canellaceae,
+            6    Aristolochiaceae,
+            7    Rafflesiaceae,
+            8    Hydnoraceae,
+            9    Himantandraceae,
+            10   Magnoliaceae,
+            11   Degeneriaceae,
+            12   Winteraceae,
+            13   Lactoridaceae,
+            14   Chloranthaceae,
+            15   Illiciaceae,
+            16   Schizandraceae,
+            17   Amborellaceae,
+            18   Trimeniaceae,
+            19   Monimiaceae,
+            20   Gomortegaceae,
+            21   Calycanthaceae,
+            22   Lauraceae,
+            23   Nelumbonaceae,
+            24   Saururaceae,
+            25   Piperaceae,
+            26   Cabombaceae,
+            27   Nymphaeaceae,
+            28   Ceratophyllaceae,
+            29   Lardizabalaceae,
+            30   Sargentodoxaceae,
+            31   Menispermaceae,
+            32   Ranunculaceae,
+            33   Berberidaceae,
+            34   Papaveraceae,
+            35   Fumariaceae,
+            36   Caryophyllaceae,
+            37   Phytolaccaceae,
+            38   Chenopodiaceae,
+            39   Polygonaceae,
+            40   Paeoniaceae,
+            41   Dilleniaceae,
+            42   Sterculiaceae,
+            43   Trochodendraceae,
+            44   Tetracentraceae,
+            45   Eupteleaceae,
+            46   Hamamelidaceae,
+            47   Dioscoreaceae,
+            48   Trichopodaceae,
+            49   Convallariaceae;
+      TREE Fig._1 = [&R] ((Dioscoreales,(Asparagales,Melanthiales,(Liliales,(Alstroemeriales,Orchidales)),Burmanniales)),((Zingiberales,(Velloziales,Bromeliales,(Philydrales,(Haemodorales,Pontederiales,Typhales))),Pandanales),(((Cyclandthales,Arecales,Poales,Cyperales),Hydatellales),Commelinales)),(Arales,(Triuridales,(Alismatales,Aponogetonales,Najadales))));
+      TREE Fig._2 = [&R] ((10,(11,(14,3))),((12,9,(1,(45,(15,16)),(17,(18,(20,21))))),((2,4),((19,22),((6,(13,(24,25))),(5,(((49,(47,48)),(23,(28,(26,27)))),(43,(((30,29),(31,33,32)),(44,((46,41),(((34,35),(7,8)),(42,(40,(39,(38,(36,37)))))))))))))))));
+      TREE Fig._3 = [&R] (48,((49,47),((26,28),((24,25),(6,(5,((19,22),(13,((2,4),((10,(11,(14,3))),(12,(9,(1,((17,(18,(20,21))),((15,16),(45,(43,(((30,29),(31,(33,(32,((34,35),(23,27)))))),(44,(41,((42,(7,8)),(46,(40,(39,(38,(36,37))))))))))))))))))))))))));
+
+
+
+END;

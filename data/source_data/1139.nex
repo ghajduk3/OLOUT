@@ -1,0 +1,275 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:46 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Zehethofer K., & Sturmbauer C. 1998. Phylogenetic relationships of central European
+wolf spiders (Araneae : Lycosidae) inferred from 12S ribosomal DNA sequences.
+Molecular Phylogenetics and Evolution, 10(3): 391-398.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S417]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=29;
+        TAXLABELS
+            Alopecosa_accentuata
+            Alopecosa_cuneata
+            Alopecosa_inquilina
+            Alopecosa_pulverulenta
+            Alopecosa_taeniata
+            Alopecosa_trabalis
+            Arctosa_leopardus
+            Pardosa_agrestis
+            Pardosa_alacris
+            Pardosa_amentata_12
+            Pardosa_amentata_13
+            Pardosa_amentata_14
+            Pardosa_blanda
+            Pardosa_hortensis
+            Pardosa_lugubris
+            Pardosa_nigra
+            Pardosa_oreophila
+            Pardosa_paludicola
+            Pardosa_palustris
+            Pardosa_prativaga
+            Pardosa_pullata
+            Pardosa_riparia
+            Pardosa_saturatior
+            Pirata_hygrophilus
+            Pirata_knorri
+            Trochosa_spinipalpis
+            Trochosa_terricola
+            Xerolycosa_miniata
+            Xerolycosa_nemoralis
+            ;
+END;
+
+BEGIN TAXA;
+        TITLE  Taxa2;
+        DIMENSIONS NTAX=30;
+        TAXLABELS
+            Alopecosa_accentuata
+            Alopecosa_cuneata
+            Alopecosa_inquilina
+            Alopecosa_pulverulenta
+            Alopecosa_taeniata
+            Alopecosa_trabalis
+            Arctosa_leopardus
+            Pardosa_agrestis
+            Pardosa_alacris
+            Pardosa_amentata_12
+            Pardosa_amentata_13
+            Pardosa_amentata_14
+            Pardosa_blanda
+            Pardosa_hortensis
+            Pardosa_lugubris
+            Pardosa_nigra
+            Pardosa_oreophila
+            Pardosa_paludicola
+            Pardosa_palustris
+            Pardosa_prativaga
+            Pardosa_pullata
+            Pardosa_riparia
+            Pardosa_saturatior
+            Pirata_hygrophilus
+            Pirata_knorri
+            Tetragnatha_mandibulata
+            Trochosa_spinipalpis
+            Trochosa_terricola
+            Xerolycosa_miniata
+            Xerolycosa_nemoralis
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M2133]
+
+	TITLE 12S_mtDNA;
+	LINK TAXA = Taxa2;
+	DIMENSIONS NCHAR=321;
+	FORMAT DATATYPE=DNA SYMBOLS= "A C G T" MISSING=? GAP= -;
+
+MATRIX
+[                                   10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170       180       190       200       210       220       230       240       250       260       270       280       290       300       310       320 ]
+[                                    .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         . ]
+Alopecosa_accentuata        GTTTTCTAATCGACAATCCACGTTAATTTTCACTTCAATTAAAAA-?TTTATATACCGCCATCTAAAAAACTAATTCAATGATAAT-ATTTTTAATAAAAAC-TAAAAAGTTAGGTCAAGGTGTAATCCACATTGAAGTAAATAATGGGTTACATT-AAAATTAATTTAAGGATTATTATATAAAAACACTTTTTGAAAAAGGATTTAAAAGTAATAATA?--????????????-????????????????????????????????--AAATAATACTTTATTATGATCTAGATAATAAATGTGCACACATCGCCCGTC
+Alopecosa_cuneata           GTTTTTTAATCGACAACCCACGTTAATTTTCACTTTAATTAAAAA-?TTTATATACCGCCATCTAAAAAACTAATTCAATGATAAT-ATTTTTAATAAAAAC-TAAAAAGTTAGGTCAAGGTGTAATCTATATTAAAGAAAATAATGGGTTACATT-AAAATTAATTTAAGGATTATTTTATAAAAACATTCTTCGAAAAAGGATTTAAAAGTAATATTA?--????????????-????????????????????????????????--AAACAATATTTTATTATGATTTAGATAAAAAATGTGCACACATCGCCCGTC
+Alopecosa_inquilina         GTTTTTTAATCGACAATCCACGTTAATTTTCACTTTAATTAAAAA-?TCTATATACCGCCATCTAAAAA-TTAATTCAATGATGAT-ATTTTTAATAAAAAT-TAAAAAGTTAGGTCAAGGTGTAATCTACATTAAAGTAAATAATGGGTTACATT-AAAATTAATTTAAGGATTATTTTACAAAAGCATTTTTTGAAAAAGGATTTAAAAGTAATAATA?--????????????-????????????????????????????????--AAGCAATATTTTATTATGACTTAGATAATAAATGTGCACACATCGCCCGTC
+Alopecosa_pulverulenta      GTTTTTTAATCGACAACCCACGTTAATTTTCACTTTAATTAAAAA-?TTTATATACCGCCATCTAAAAAACTAATTCAATGATAAT-ATTTTTAATAAAAAC-TAAAAAGTTAGGTCAAGGTGTAATCTATATTAAAGAAAATAATGGGTTACATT-AAAATTAATTTAAGGATTATTTTATAAAAACATTCTTCGAAAAAGGATTTAAAAGTAATACTA?--????????????-????????????????????????????????--AAACAATATTTTATTATGATTTAGATAAAAAATGTGCACACATCGCCCGTC
+Alopecosa_taeniata          GTTTTTTAATCGACAACCCACGTTAATTTTCACTTTAATTAAAAA-?TTTATATACCGCCATCTAAAAAACTAATTCAATGATAAT-ATTTTCAATGAAAAC-TAAAAAGTTAGGTCAAGGTGTAATCTATATTAAAGAAAATAATGGGTTACATT-AAAATTAATTTAAGGATTATTTTATAAAAACATTCTTCGAAAAAGGATTTAAAAGTAATATTA?--????????????-????????????????????????????????--AAATAATATTTCATTATGATCTAGATAATAAATGTGCACACATCGCCCGTC
+Alopecosa_trabalis          GTTTTTTAATCGACAACCCACGTTAATTTTCACTTTAATTAAAAA-?TTTATATACCGCCATCTAAAAAACTAATTCAATGATAAT-ATTTTTAATAAAAAC-TAAAAAGTTAGGTCAAGGTGTAATCTATATTAAAGAAAATAATGGGTTACATT-AAAATTAATTTAAGGATTATTTTATAAAAACATTCTTCGAAAAAGGATTTAAAAGTAATACTA?--????????????-????????????????????????????????--AAACAATATTTTATTATGATTTAGATAAAAAATGTGCACACATCGCCCGTC
+Arctosa_leopardus           GTTTTATAATCGACAATCCACGTTAATTTTCACTTTAATTAAAAA-?TTTATATACCTCCATCTAAAGAATTAATCCATAAATTCA-ATTCTAAATAAAAAA-TAAAAAGTTAGGTCAAGGTGTAATCAATATTAAAGAAAATAATGGATTACTAT-AAAAATTAATTAAGGATTATTTTATTAAAATATTTTTTGAAAAAGGATTTAAAAGTAATAATA?--????????????-????????????????????????????????--TAATATAATTTTAATATGAATAAGATTATAAATGTGTACACATCGCCCGTC
+Pardosa_agrestis            GTTTTATAATCGACAATCCACGTTAATTTTAACTTTAATTAAAAA-?TTTATATATCGCCATCTAAAAAACTAATTTTATAATAAT-ATTTTCAATAAAAAA-TAAAAAGTTAGGTCAAGGTGTAATCTATATTTAAGTAAATAATGGGTTACATT-AAAAATAATTTAAGGATCAACATATTAAAATATTTTATAAAAAAGGATTTAAAAGTAATAAAA?--????????????-????????????????????????????????--TAATAATATTTTATTATGATTTAGATAATAAATGTGCACACATCGCCCGTC
+Pardosa_alacris             ?????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????
+Pardosa_amentata_12         GTTTTTTAATCGACAATCCACGTTAATTTTAACTTTAATTATAAA-?TTTATATACCGCCATCTAAAAAATTAATTTTATAATAAT-ATTTTTAATAAAAAA-TAAAAAGTTAGGTCAAGGTGTAATCTATATTAAAGTAAATAATGGGTTACATT-AAAAATAATTTAAGGAATATTATATTAAAATATTTTACAAAAAAGGATTTAATAGTAATAAAA?--????????????-????????????????????????????????--TAATAATATTTTATTATGATTTAGATAATAAATGTGCACACATCGCCCGTC
+Pardosa_amentata_13         GTTTTTTAATCGACAATCCACGTTAATTTTAACTTTAATTATAAA-?TTTATATACCGCCATCTAAAAAATTAATTTTATAATAAT-ATTTTTAATAAAAAA-TAAAAAGTTAGGTCAAGGTGTAATCTATATTAAAGTAAATAATGGGTTACATT-AAAAATAATTTAAGGAATATTATATTAAAATATTTTACAAAAAAGGATTTAATAGTAATAAAA?--????????????-????????????????????????????????--TAATAATATTTTATTATGATTTAGATAATAAATGTGCACACATCGCCCGTC
+Pardosa_amentata_14         GTTTTTTAATCGACAATCCACGTTAATTTTAACTTTAATTATAAA-?TTTATATACCGCCATCTAAAAAATTAATTTTATAATAAT-ATTTTTAATAAAAAA-TAAAAAGTTAGGTCAAGGTGTAATCTATATTAAAGTAAATAATGGGTTACATT-AAAAATAATTTAAGGAATATTATATTAAAATATTTTACAAAAAAGGATTTAATAGTAATAAAA?--????????????-????????????????????????????????--TAATAATATTTTATTATGATTTAGATAATAAATGTGCACACATCGCCCGTC
+Pardosa_blanda              GTTTTATAATCGACAATCCACGTTAATTTTAACTTTAATTAAAAA-?TTTATATACCGCCATCTAAAAAACTAATTTCATAATAAT-ATTTTCAATAAAAAA-TAAAAAGTTAGGTCAAGGTGTAATCTATATTTAAGTAAATAATGGGTTACATT-AAAAATAATTTAAGGATTTATATATTAAAATATTTTATAAAAAAGGATTTAAAAGTAATAAAA?--????????????-????????????????????????????????--TAATAATATTTTATTATGATTTAGATAATAAATGTGCACACATCGCCCGTC
+Pardosa_hortensis           GTTTTATAATCGACAATCCACGTTAATTTTAACTTTAATTATTAAAATTTATATACCGCCATCTAAAAAACTAATTTTATAATAAT-ATTTTTAATAAAAAA-TAAAAAGTTAGGTCAAGGTGTAATCTATATTAAAGTAAATAATGGGTTACATT-AAAAATAATTTAAGGATTATTATATTAAAATATTATATAAAAAAGGATTTAAAAGTAATAAAA?--????????????-????????????????????????????????--TAATAATATTTTATTATGATTCAGATAATAAATGTGCACACATCGCCCGTC
+Pardosa_lugubris            GTTTTTTAATCGACAATCCACGTTAATTTTAACTTTAATTATAAA-?TTTATATACCGCCATCTAAAAAATTAATTTTATAATAAT-ATTTATAATAAAAAA-TAAAAAGTTAGGTCAAGGTGTAATCTATATTAAAGTAAATAATGGGTTACATT-AAAAATAATTTAAGGATTATTATACTAAAATATTTTATAAAAAAGGATTTAAAAGTAATAAAA?--????????????-????????????????????????????????--TAATAATATTTTATTATGATTTAGATAATAAATGTGCACACATCGCCCGTC
+Pardosa_nigra               GTTTTCTAATCGACAATCCACGTTAATTTTAACTTTAATTATAAA-?TTTATATACCGCCATCTAAAAAACTAATTTTATAATAAT-ATTTTTAATAAAAAA-TAAAAAGTTAGGTCAAGGTGTAATCTATATTAAAGTAAATAATGGGTTACATT-AAAAATAATTTAAGGATTATTATATTAAAATATTTTATAAAAAAGAATTTAAAAGTAATAAAA?--????????????-????????????????????????????????--TAATAATATTTTATTATGATTTAGATAATAAATGTGCACACATCGCCCGTC
+Pardosa_oreophila           GTTTTATAATCGACAATCCACGTTAATTTTAACTTAAGTTATAAA-?TTTATATACCGCCATCTAAAAAACTAATTTTATAATAAT-ATTTTCAATAAAAAA-TAAAAAGTTAGGTCAAGGTGTAATCTATATTTAAGTAAATAATGGGTTACATT-AAAAATAATTTAAGGATTATTATATTAAAATATTTTATAAAAAAGGATTTAAAAGTAATAAAA?--????????????-????????????????????????????????--TAATAATATTTTATTATGATTTAGATAATAAATGTGCACACATCGCCCGTC
+Pardosa_paludicola          GTCTTTTAATCGACAATCCACGTTAATTTTAACTTTAATTATAAA-?TTTATATACCGCCATCTAAAAAATTAATTTTATAATAAT-ATTTTCAATAAAAAA-TAAAAAGTTAGGTCAAGGTGTAATCTATATTAAAGCAAACAATGGGTTACATT-AAAAATAATTTAAGGATTATTATATTAAAATATTTTATAAAAAAGGATTTAAAAGTAATAAAA?--????????????-????????????????????????????????--TAATAATATTTTATTATGATTTAGATAATAAATGTGTACACATCGCCCGTC
+Pardosa_palustris           GTTTTATAATCGACAATCCACGTTAATTTTAACTTTAATTAAAAA-?TTTATATACCGCCATCTAAAAAACTAATTTTATAATAAT-ATTTTCAATAAAAAA-TAAAAAGTTAGGTCAAGGTGTAATCTATATTTAAGTAAATAATGGGTTACATT-AAAAATAATTTAAGGATCAATATATTAAAATATTTTATAAAAAAGGATTTAAAAGTAATAAAA?--????????????-????????????????????????????????--TAATAATATTTTATTATGATTTAGATAATAAATGTGCACACATCGCCCGTC
+Pardosa_prativaga           GTTTTTTAATCGACAATCCACGTTAATTTTAACTTTAATTATAAA-?TTTATATACCGCCATCTAAAAAATTAATTTTATAATAAT-ATTTTTAATAAAAAA-TAAAAAGTTAGGTCAAGGTGTAATCTACATTAAAGTAAATAATGGGTTACATT-AAAAATAATTTAAGGACTATTATATTAAAATATTTTATAAAAAAGGATTTAAAAGTAATAAAA?--????????????-????????????????????????????????--TAATAATATTTTATTATGATTTAGATAATAAATGTGCACACATCGCCCGTC
+Pardosa_pullata             GTTTTTTAATCGACAATCCACGTTAATTTTAACTTTAATTATAAA-?TTTATATACCGCCATCTAAAAAATTAATTTTATAATAAT-ATTTTTAATAAAAAA-TAAAAAGTTAGGTCAAGGTGTAATCTACATTAAAGTAAATAATGGGTTACATT-AAAAATAATTTAAGGACTATTATATTAAAATATTTTATAAAAAAGGATTTAAAAGTAATAAAA?--????????????-????????????????????????????????--TAATAATATTTTATTATGATTTAGATAATAAATGTGCACACATCGCCCGTC
+Pardosa_riparia             ?????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????
+Pardosa_saturatior          GTTTTATAATCGACAATCCACGTTAATTTTAACTTTAGTTATAAA-?TTTATATACCGCCATCTAAAAAATTAATTTTATAATAAT-ATTTTTAATAAAAAA-TAAAAAGTTAGGTCAAGGTGTAATCTATATTTAAGTAAATAATGGGTTACATT-AAAAATAATTTAAGGATTAATATATTAAAATATTTTATAAAAAAGGATTTAAAAGTAATAAAA?--????????????-????????????????????????????????--TAATAATATTTTATAATGATAAAAATAATAAGTGTGCACACATCGCCCGTC
+Pirata_hygrophilus          GTTTTTTAATCGATAACCCACGTTATATTTTACTTTAATTATAAAAATTTATATATCGCCATTACAAGAATTAATTTTAAAAATATTACTCTTAATATTACT-TTAAAAAATAGGTCAAGGTGTAATTTATATTAAAGA-TAAAATGGGTTACTTT--AAAAATATTTAAGGATTATTTATTTCAAATTAAATATAAAAAAGGATTTAAAAGTAATATAT?-AATTTACTATAAA-????????????????????????????????TTAAATATAATTTATATATGAATAAGATAATAAATGTGCACACATCGCCCGTC
+Pirata_knorri               GTTTTTTAATCGATAACCCACGTTATATTTTACTTTAATTAAAAA-?TTTATATACCGCCATTATAAGAACTAATTATAAAAATATTACTCTTAATAAAAAAATAAAAAGATAGGTCATGGTGTAATTTATGTTAAAGA-TAAAATGGGTTACTTT--AAGGTCATTTAAGAATTATTTTTTTAAAAATAAATATAAAAAAGGATTTAATAGTAATATATATAATTTA-TATAAATGTGTATATATATTATATTTATATATTAAATAATAAAATAAAATTTATATATGAATAAGATAATAAATGTGCACACATCGCCCGTC
+Tetragnatha_mandibulata     GTTTATTAATCGACATTACACGATTATTTTTACTTTTTTATAAAT-?TTTATATACCTCCGTCCAGAAT-AAATTTTTAATATTTT-ATTCAAAATAATATTATAATAATTTAGGTAAAGGTGTAGACTTTAAATTAGT-TTAAATGTGTTACATT-AAAAATTATTTAAGAATTATTTTTTATAA-CAATATATGAAAGAGGATTTATAAGCTACTTTT?--????????????-????????????????????????????????T-AATTAAAATTTTAACTTGAATTA-AAAATAAATGCG???????????????
+Trochosa_spinipalpis        GTTTTTTAATCGACAATCCACGTTAATTTTCACTTTAATTATAAA-?TTTATATACCTCCATCTAAAAAACTAATTTAATAATAAT-ATTTCAAATAAAATA-TAAAAAGTTAGGTCAAGGTGTAATTTATACTAAAGTAAATAATGGGTTACATT-AAAAGTAATTTAAGGATT-CTC-GTAAAAATACCTTTTGAAAAAGGATTAAACAGTAATATTA?--????????????-????????????????????????????????--TAATAATATTTTATTATGATTTAGATAAAAAATGTGCACACATCGCCCGTC
+Trochosa_terricola          GTTTTTTAATCGACAATCCACGTTAATTTTCACTTTAATTATAAA-?TTTATATACCTCCATCTAAAAAACTAATTTAATAATAAT-ATTTCAAATAAAATA-TAAAAAGTTAGGTCAAGGTGTAATTTACACTAAAGTAAATAATGGGTTACATT-AAAAATAATTTAAGGATT-TTC-GTAAAAATACCTTTTGAAAAAGGATTAAACAGTAATATTA?--????????????-????????????????????????????????--TAATAATATTTTATTATGATTTAGATAAAAAATGTGTACACATCGCCCGTC
+Xerolycosa_miniata          GTTTTATAATCGATAACTCACGTTAATTTTTACTTTAATTAAAAA-?TTTATATACCGCCATCTAAAGAATTAATTTAATTATATT-ATTCTTAATAAAAAA-TAAAAAGTTAGGTCAAGGTGTAATTTACATTAAAGA-TTTAATGGGTTACTTTAAAAAAAAATTTAAGAATTAATATATGTAAACATATTATGAAAAAGGATTCAAAAGTAATATTA?--????????????-????????????????????????????????TACAATAATAATATATTATGAATTAGATAATGAATGTGCACACATCGCCCGTC
+Xerolycosa_nemoralis        GTTCTATAATCGATAATTCACGGTAATTTTCACTTTAATTAAAAA-?TTTATATACCGCCATCTAAAGAATTAATTTAATTATATT-ATTCTTAATAAAAAA-TAAAAAGTTAGGTCAAGGTGTAATTTACATTAAAGT-TTTAATGGGTTACCTT-AAAAAAAATTTAAGAATTAATATATATAAACATATTATGAAAAAGAATTCAAAAGTAATATTA?--????????????-????????????????????????????????--TAATAATATTATATTATGAATTAGATAATAAATGTGCACACATCGCCCGTC
+;
+END;
+
+BEGIN SETS;
+	CHARSET LOVAR (CHARACTERS = 12S_mtDNA) =  1-69 106-126 145-156 166-168 196-270 298-321;
+	CHARSET HIVAR (CHARACTERS = 12S_mtDNA) =  70-105 127-144 157-165 169-195 271-297;
+END;
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M2134]
+
+	TITLE ;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=16;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1" MISSING=? GAP= -;
+	CHARSTATELABELS
+		1  Eye_Arrangement / Otherwise 3_rows_of_2,
+		2  RTA / Absent Present,
+		3  Active_Eggsac_Transport / Absent Present,
+		4  Palea_Developed / Absent Present,
+		5  'MA enlarged + longitudinal' / Absent Present,
+		6  Terminal_apophysis / not_so 'small, dist.  wk like conductor',
+		7  Embolus / not_so small_and_dorsal,
+		8  Embolus / not_on_dorsal_surface on_dorsal_surface_of_MA,
+		9  Palea / 'not swollen, etc' swollen_wth_scler__plae_areas,
+		10  Tegular_lobe / not_so developed,
+		11  Median_Apophysis / not_so 'transv. + ventrally direc. spur',
+		12  Median_Apophysis / without with_dorsal_sinuous_channel,
+		13  Tegular_Apophysis / not_so lobelike_on_retro_marg_of_palea,
+		14  Terminal_Apophysis / elsewhere sitting_at_base_of_embolus,
+		15  Terminal_Apophysis / not_so 'teethy retro on palea, tip to E',
+		16  Conductor / not_so 'shaftlike, on basal mar. palea',
+		;
+
+MATRIX
+Alopecosa_accentuata       1011000111111000
+Alopecosa_cuneata          1011000111111000
+Alopecosa_inquilina        1011000111111000
+Alopecosa_pulverulenta     1011000111111000
+Alopecosa_taeniata         1011000111111000
+Alopecosa_trabalis         1011000111111000
+Arctosa_leopardus          1011000111111000
+Pardosa_agrestis           1011000111000011
+Pardosa_alacris            1011000111000011
+Pardosa_amentata_12        1011000111000011
+Pardosa_amentata_13        1011000111000011
+Pardosa_amentata_14        1011000111000011
+Pardosa_blanda             1011000111000011
+Pardosa_hortensis          1011000111000011
+Pardosa_lugubris           1011000111000011
+Pardosa_nigra              1011000111000011
+Pardosa_oreophila          1011000111000011
+Pardosa_paludicola         1011000111000011
+Pardosa_palustris          1011000111000011
+Pardosa_prativaga          1011000111000011
+Pardosa_pullata            1011000111000011
+Pardosa_riparia            1011000111000011
+Pardosa_saturatior         1011000111000011
+Pirata_hygrophilus         1011111000000000
+Pirata_knorri              1011111000000000
+Trochosa_spinipalpis       1011000111110100
+Trochosa_terricola         1011000111110100
+Xerolycosa_miniata         ????????????????
+Xerolycosa_nemoralis       ????????????????
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb5297;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Pardosa_alacris,
+            2    Pardosa_agrestis,
+            3    Arctosa_leopardus,
+            4    Alopecosa_trabalis,
+            5    Alopecosa_taeniata,
+            6    Alopecosa_pulverulenta,
+            7    Alopecosa_inquilina,
+            8    Alopecosa_cuneata,
+            9    Alopecosa_accentuata,
+            10   Xerolycosa_nemoralis,
+            11   Xerolycosa_miniata,
+            12   Trochosa_terricola,
+            13   Trochosa_spinipalpis,
+            14   Pirata_knorri,
+            15   Pirata_hygrophilus,
+            16   Pardosa_saturatior,
+            17   Pardosa_riparia,
+            18   Pardosa_pullata,
+            19   Pardosa_prativaga,
+            20   Pardosa_palustris,
+            21   Pardosa_paludicola,
+            22   Pardosa_oreophila,
+            23   Pardosa_nigra,
+            24   Pardosa_lugubris,
+            25   Pardosa_hortensis,
+            26   Pardosa_blanda,
+            27   Pardosa_amentata_14,
+            28   Pardosa_amentata_13,
+            29   Pardosa_amentata_12;
+      TREE Fig._2_morph = [&R] ((15,14)Venoniinae,(((3,(9,7,5,8,4,6)),(12,13))Lycosinae,(21,1,24,27,28,29,17,18,19,23,25,22,16,26,2,20)Pardosinae))Lycosidae;
+
+
+
+END;
+BEGIN TREES;
+      TITLE Tb5296;
+      LINK TAXA = Taxa2;
+         TRANSLATE
+            1    Xerolycosa_nemoralis,
+            2    Xerolycosa_miniata,
+            3    Trochosa_terricola,
+            4    Trochosa_spinipalpis,
+            5    Tetragnatha_mandibulata,
+            6    Pirata_knorri,
+            7    Pirata_hygrophilus,
+            8    Pardosa_saturatior,
+            9    Pardosa_riparia,
+            10   Pardosa_pullata,
+            11   Pardosa_prativaga,
+            12   Pardosa_palustris,
+            13   Pardosa_paludicola,
+            14   Pardosa_oreophila,
+            15   Pardosa_nigra,
+            16   Pardosa_lugubris,
+            17   Pardosa_hortensis,
+            18   Pardosa_blanda,
+            19   Pardosa_amentata_14,
+            20   Pardosa_amentata_13,
+            21   Pardosa_amentata_12,
+            22   Pardosa_agrestis,
+            23   Pardosa_alacris,
+            24   Arctosa_leopardus,
+            25   Alopecosa_trabalis,
+            26   Alopecosa_taeniata,
+            27   Alopecosa_pulverulenta,
+            28   Alopecosa_inquilina,
+            29   Alopecosa_cuneata,
+            30   Alopecosa_accentuata;
+      TREE Fig._2_mol = [&R] (((((13,23,16,19,20,21,9,10,11,15,17,14,8,18,22,12)Pardosinae,(3,4),(30,28,26,29,25,27)),24),(1,2)Evippinae),(7,6)Venoniinae)Lycosidae;
+      TREE Fig._1_cont. = [&R] ((((((((22,12),18),8),14),17,15,(11,10,9),(21,20,19),(16,23),13),(4,3),((((27,25),29),26),28,30)),24),(2,1));
+      TREE Fig._1 = [&R] (((((22,12),18,8,14,17,15,(11,10,9),(21,20,19)Pardosa_amentata,(16,23),13)Pardosa,(4,3)Trochosa,((((27,25),29),26),28,30)Alopecosa,(2,1)Xerolycosa,24),(7,6)Pirata)Lycosidae,5);
+
+
+
+END;

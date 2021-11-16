@@ -1,0 +1,386 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:28 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Just J., & Wilson G.D. 2007. Revision of Austrosignum Hodgson and Munnogonium George
+& Strömberg (Paramunnidae) with descriptions of eight new genera and two new
+species, (Crustacea: Isopoda: Asellota). Zootaxa, 1515: 1-29.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S1816]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=48;
+        TAXLABELS
+            Advenogonium_fuegiae
+            Allorostrata_ovalis
+            Ascionana_darwinia
+            Austrimunna_antarctica
+            Austrofilius_cf_serratus
+            Austronanus_glacialis
+            Austrosignum_escandella
+            Austrosignum_glaciale
+            Boreosignum_affinis
+            Boreosignum_maltinii
+            Boreosignum_orientale
+            Boreosignum_polynesiensis
+            Boreosignum_somersensis
+            Boreosignum_wilsoni
+            Cryosignum_incisa
+            Cryosignum_lunatum
+            Epipedonana_profunda
+            Harrietonana_subtriangulata
+            Kiklonana_arnaudi
+            Kussakinella_spinosum
+            Meridiosignum_kerguelensis
+            Meridiosignum_menziesi
+            Meridiosignum_minidenticulatum
+            Meridiosignum_subtilis
+            Munnogonium_falklandicum
+            Munnogonium_sp_nov_slope_1
+            Munnogonium_tillerae
+            Munnogonium_waldronense
+            Omonana_brachycephala
+            Omonana_parasimplex
+            Omonana_serraticoxa
+            Omonana_simplex
+            Pagonana_rostrata
+            Palanana_serrata
+            Paramunna_bilobata
+            Quetzogonium_dentatum
+            Santia_longisetosa
+            Spiculonana_platysoma
+            Sporonana_robusta
+            Stephenseniellus_palliolatipes
+            Tethygonium_adenensis
+            Tethygonium_armigerum
+            Tethygonium_quadricuspis
+            Tethygonium_variabile
+            Xenosella_coxospinosa
+            Xigonus_patagoniensis
+            Zizzygonium_magellanensis
+            cf_Cryosignum_latifrons
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M1913]
+
+	TITLE Paramunnidae;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=137;
+	FORMAT DATATYPE=Standard SYMBOLS= "1 2 3 4 5 6 7 8" MISSING=? GAP= -;
+	CHARSTATELABELS
+		1  Body_general_shape / 'ovate per 1 near width of per 6-7' 'tapering posteriorly per 1 distinctly wider than pers 6-7',
+		2  Body_dorsal_surface_setation / scattered_fine_simple_setae densely_covered_with_setae per_1_dorsal_surface_with_2_long_simple_setae,
+		3  Body_widest_in_female_at_per / one two_or_three four five,
+		4  Body_widest_in_male_at_per / one two_or_three four five,
+		5  Head_sexual_dimorphism / male_head_similar_to_female longer_in_male_than_female shorter_in_male_than_female,
+		6  Head_frontal_margin_projection / present absent,
+		7  'Head angular frontal margin adjacent to A2 - if lacking frontal projections' / absent present,
+		8  'Head frontal margin form - taxa lacking large projections only' / broadly_rounded 'shallow convex - almost straight medially or concave laterally' concave_medially,
+		9  'Head frontal margin form - if with projection' / 2_dorsolaterally_projecting_lobes 'one broad anterior lobe - with thick lateral corners' rounded_flat_anterior_projection dorsally_upcurving_anteriorly median_projection broadly_rounded_narrow_rim weakly_convex_anteriorly,
+		10  Head_frontal_margin_of_taxa_with_2_anterodorsally_projecting_lobes / rounded quadrate 'spine-like' conical absent,
+		11  Head_frontal_margin_shape_in_lateral_view_in_taxa_with_anterodorsally_projecting / 'anterior rim dorsoventrally thin - length greater than or subequal to thickness' 'anterior rim dorsoventrally thick - length less than thickness',
+		12  'Head frontal margin lobe projection size - only taxa with anterodorsally project' / prominent low,
+		13  'Head frontal margin lobe ornamentation - only taxa with anterodorsally projectin' / thin_anterior_flange small_denticles absent,
+		14  'Head frontal margin lateral corners - taxa with rounded flat projection only' / upturned flat,
+		15  'Head frontal margin median slit - taxa with flat plates' / present absent,
+		16  'Head frontal margin medial slit form - taxa with flat anterior plate' / closed open,
+		17  Head_frontal_margin_shape_of_median_projection_projection / acute rounded rounded_upturned 'broadly truncate - lateral margins at base depressed' 'broadly rounded - evenly curved',
+		18  'Head frontal margin apex shape - truncate median projections only' / weakly_convex concave,
+		19  'Head frontal margin median projection clypeus visible in dorsal view - truncate' / not_visible distinctly_protruding,
+		20  Head_frontal_margin_apex / broadly_rounded_in_dorsal_view bluntly_angular_in_dorsal_view sharply_angular_in_dorsal_view weakly_concave_in_dorsal_view,
+		21  Head_frontal_margin_adjacent_to_apex / 'concave - sinuous' 'convex - not sinuous' 'linear - not sinuous',
+		22  Head_anterodorsal_surface_ornamentation / absent low_median_bilobed_hump,
+		23  Eyes_configuration / sessile_on_dorsolateral_surface_of_head on_lobes_produced_laterally_from_head absent,
+		24  Eyestalks_approximate_length / 'prominent projecting to or beyond A1 article 1 - but not projecting beyond per 1' elongate_projecting_beyond_per_1 'vestigial length approximating width - partially covered by base of A1' 'short shorter than A1 article 1 - not reaching per 1 lateral margin',
+		25  'Eyestalks in male - projection on posterolateral margin' / absent present,
+		26  'Eyestalks in female - projection on posteroventral margin' / absent present,
+		27  Eyestalks_lateral_apex_shape / rounded 'tapering - distally rounded' somewhat_flattened,
+		28  Eyestalks_shaft_axis_shape / axis_approximately_linear curving_posteriorly curving_anteriorly sinuous,
+		29  Eyestalks_shaft_before_apex_approximate_shape_NB_need_to_set_absent_control_char / approximately_parallel_many_species constricted_proximally 'somewhat inflated midlength - margins convex' tapering_laterally_from_broad_base rounded_bump_basically_lacking_sides,
+		30  'Pers 1-4 lateral margins lateral projection' / 'not projecting - coxae visible in dorsal view' 'not projecting - coxae not visible in dorsal view' 'distinctly projecting - coxae not visible in dorsal view',
+		31  'Pers 5-7 lateral margins projecting and coxae' / 'not projecting - coxae visible in dorsal view' 'distinctly projecting - coxae not visible in dorsal view',
+		32  Per_1_of_terminal_male_sexual_dimorphism_shoulders / only_slightly_enlarged_compared_to_adult_females_or_juveniles greatly_enlarged_lateral_margin_more_than_1.5_that_of_female,
+		33  'Pers 1-4 dorsal surface ridges' / absent 'transverse medially rounded depressions pers 2-4 only' transverse_ridges,
+		34  'Pers 1-4 lateral margins single elongate seta' / absent present,
+		35  'Pers 1-4 dorsal surface ornamentation - median spines' / absent present,
+		36  'Pers 5-7 dorsal surface ornamentation - ridges and spines' / absent transverse_ridges 'median transverse spine-like ridges',
+		37  'Pers 5-7 dorsal surface ornamentation - median spines' / absent 'median spines on pers 5-6 and two spines on per 7',
+		38  Per_lateral_margin_1_lateral_margin_shape / rounded linear angular_and_projecting,
+		39  'Per lateral margin 2-3 shape' / rounded 'linear linear margin - corners may be rounded' angular_and_projecting centrally_concave 'rounded - small posteriorly projecting lobes',
+		40  Per_lateral_margin_4_margin_shape / rounded 'linear linear margin - corners may be rounded' angular anterior_lobe_followed_by_small_concavity,
+		41  Per_lateral_margin_5_shape / rounded 'linear linear margin - corners may be rounded' angular_but_not_projecting_over_coxae angular,
+		42  'Per lateral margin 6-7 shape' / rounded_or_linear angular_and_projecting angular_but_not_projecting_over_coxae rounded_and_angular_respectively,
+		43  Per_4_in_dorsal_view_recessed_or_not / extending_to_margins_of_pers_3_and_5 recessed_from_lateral_margin_of_pers_3_and_5,
+		44  Per_5_in_dorsal_view_compared_to_pers_4_and_6_margins / extending_laterally_to_margins distinctly_narrower distinctly_broader,
+		45  'Per 5-7 lateral margins small robust setae' / absent present,
+		46  Per_lateral_margins_smooth_or_denticulate / smooth denticulate_on_at_least_some_segments,
+		47  'Per lateral margins 1-4 denticulation or serration' / '1-4 smooth' '1-4 denticulate sometimes broken off in poor specimens' spinous_denticles_on_posterolateral_margin,
+		48  Per_lateral_margins_5_denticulation_posterolateral_margin / absent fine spinous,
+		49  'Per 6-7 lateral posterolateral margins denticulation' / absent fine 7_only_with_denticles,
+		50  Pleonite_1_free_pleonite / free fused_to_PLTN,
+		51  PLTN_shape_in_dorsal_view / laterally_rounded_but_with_inflection_between_proximal_and_lateral_margins laterally_rounded_but_lacking_inflection_between_lateral_and_proximal_margins 'laterally produced - inflection near middle of lateral margin' 'rounded anteriorly - tapering posteriorly' 'laterally angular anteriorly - straight sided',
+		52  PLTN_proximal_margin_length_compared_to_lateral_margin_length / subequal shorter longer,
+		53  'PLTN lat marg shape proximal neck - taxa w narrow PLTN lacking inflection' / convex proximal_neck_before_convex_margin,
+		54  PLTN_lateral_margins_position_of_denticulation / denticulate_entirely denticulate_only_next_to_uropods smooth,
+		55  PLTN_posterior_margin_general_shape / 'produced - forming rounded angle posteriorly' evenly_curved_between_uropods,
+		56  'PLTN posterior margin spine-like tip' / absent present,
+		57  PLTN_posterior_margin_continuation_of_lateral_margin / evenly_curving_into_lateral_margin set_apart_from_lateral_margins_by_concavity_at_level_of_uropods,
+		58  PLTN_posterior_margin_denticles / absent single_denticle_each_side large_denticles_laterally_all_approx_same_size large_denticles_on_entire_margin_all_approx_same_size 'fine denticles laterally - grading to smaller denticles posteriorly - none on posterior apex denticles smaller than lateral denticles' uniformly_fine_denticles,
+		59  PLTN_posterior_margin_fringing_setae_projecting_from_margin / short elongate_at_PLTN_tip,
+		60  A1_projecting_from_head_direction / anteriorly anterodorsally laterally,
+		61  A1_total_number_of_articles / 5_articles 6_articles 7_articles,
+		62  'A1 articles 1-2 combined compared to eyestalk' / extending_beyond_eyestalk_apex reaching_eyestalk_apex shorter_than_eyestalk,
+		63  A1_article_1_length_compared_to_article_2 / subequal_to_2 longer_than_2 shorter_than_2,
+		64  A1_article_1_length_compared_to_eyestalks_and_per_1 / not_extending_beyond_per_1_lateral_margin_length_shorter_or_subequal_to_eyestalk reaching_to_or_extending_beyond_per_1_lateral_margin_length_longer_than_twice_eyestalk_length,
+		65  'A1 article 1 general shape - inflated or tubular' / tubular inflated 'basally flattened - curving ventrally',
+		66  'A1 article 1 general shape - inflated or tubular' / width_subequal_to_2 broader_than_2,
+		67  A1_article_1_types_of_spines / distomedial_spines midmedial_spine absent distolateral_spines_outgroups?,
+		68  A1_article_2_distoventral_projection / 'present - distal articles inserting dorsally' 'absent - distal articles inserting apically',
+		69  A1_distal_articles_5_and_6_articulation / present absent_ñ_apparently_5_articles more_than_6_articles,
+		70  A1_articles_comparative_lengths_in_taxa_with_6_articles / '5-6 subequal > articles 3-4' '4-6 subequal > article 3' '3-6 subequal' '4-5 subequal - < 3 and 6' '4 and 6 < 3 and 5' '4-6 subequal <3' '3 and 5-6 subequal > 4' '5 longest - 3 4 6 subequal',
+		71  'A1 article 5 length compared to articles 3-4 (5 articles taxa only)' / subequal longer shorter,
+		72  A2_article_2_lateral_margin_spines / more_than_2 2_spines 1_spine spines_absent,
+		73  'A2 article 3 form - angled medially or not' / projecting_anteriorly_from_article_2 projecting_medially_from_article_2,
+		74  A2_article_3_scale / distinct_dorsolateral_scale_present 'absent - article simple tubular' 'absent - article with proximolateral bulge having seta',
+		75  'A2 article 3 length compared to 1-2 together' / 'short - length subequal' 'elongate - length distinctly longer',
+		76  A2_article_3_sexually_dimorphic_or_not / male_and_female_similar male_much_more_robust_than_female,
+		77  A2_article_3_in_ventral_view_general_shape / tubular 'inflated midlength - margins curved' 'lateral margin curved - medial margin straight' 'distally expanded - distolateral margin angular' 'quadrate - lateral margin expanded',
+		78  A2_article_3_lateral_crenate_flange / absent present,
+		79  A2_article_3_medial_margin_crenate_flange / absent present,
+		80  A2_article_3_medial_margin_proximal_spines / absent presnet,
+		81  A2_article_3_lateral_margin_denticles / absent denticles,
+		82  A2_article_3_distomedial_margin_spine_or_projection / absent present,
+		83  A2_article_3_distomedial_margin_features_of_projection / blunt_or_broadly_rounded 'pointed or spine-like',
+		84  A2_article_4_distolateral_anteriorly_curved_spine / absent present,
+		85  A2_article_5_shape / approximately_tubular_same_width_distally_and_proximally rounded_basally_and_tapering_distally,
+		86  A2_article_5_compare_to_article_4 / distinctly_longer_than_article_4_more_than_2_times only_slightly_longer_than_article_4_less_than_2x length_subequal_to_article_4_or_slightly_less,
+		87  A2_flagellum_articles / up_to_5_articles 6_articles 7_articles 8_articles_or_more,
+		88  A2_flagellum_proximal_article_length_compared_to_next_article / subequal_to_more_distal_articles distinctly_longer_than_more_distal_articles,
+		89  Mandible_palp_palp_present / present absent,
+		90  ? / 'shorter than incisor process - article 2 inflated - article 3 not curved' 'longer than incisor process - article 2 tubular - article 3 curved',
+		91  Mandible_palp_shape / present absent,
+		92  Maxilliped_palp_article_1_lateral_spine / present absent,
+		93  Maxilliped_palp_article_2_spine / articulated_distinct_on_per_1 fully_fused_to_per_1_in_terminal_males,
+		94  Per_I_coxa_articulation_in_terminal_or_mature_males / rounded_in_dorsal_view angular_in_dorsal_view projecting_into_elongate_spines_in_dorsal_view not_projecting_in_dorsal_view,
+		95  'Per coxae I-IV lateral margins shape' / absent denticles spines robust_setae single_elongate_simple_seta,
+		96  'Per coxae I-IV lateral margins additional structures' / absent anterolateral_lobe_visible_in_dorsal_view anterior_projections lateral_lobes,
+		97  Per_I_coxa_spines_or_plates / 'short straight anteriorly-directed spine' elongate_upcurved_anteriorly_directed_spine 'dentate anteriorly-directed plate' large_angular_plate_fused_to_per 'unelaborated - anterior margin simple',
+		98  Per_I_coxa_of_male_ornamentation / absent crenate_ridge row_of_blunt_spines single_spine,
+		99  Per_I_basis_anterior_margin_ornamentation / absent blunt_spines sharp_spine_in_row crenate_ridge robust_bulge,
+		100  Per_I_ischium_anterodistal_margin_ornamentation / absent present,
+		101  Per_I_ischium_shaft_posterior_and_lateral_spines / absent '1-2 spines on anterior margin' 3_or_more_spines,
+		102  Per_I_merus_spines_on_anterodistal_margin / absent 1_spine 2_spines row_of_low_rounded_tubercles several_thin_crenate_ridges,
+		103  Per_I_merus_spines_on_posterior_margin / only_fine_setae one 2_or_more,
+		104  Per_I_merus_distal_margin_elongate_robust_setae / oval triangular quadrate posterodistally_projecting tubular_walking_leg_form,
+		105  Per_I_carpus_general_shape / only_one two 2_lg_1_short_distal 3_subequal more_than_3,
+		106  Per_I_carpus_post_margin_count_major_robust_setae / straight curved,
+		107  Per_I_carpus_post_margin_shape_major_robust_setae / absent 1_denticle 2_denticles 3_denticles crenate_ridges,
+		108  Per_I_carpus_post_margin_lg_denticles_prox_to_robust_setae / absent 1_denticle 2_denticles 3_denticles crenate_ridges,
+		109  Per_I_carpus_post_margin_lg_denticles_between_robust_setae / absent one two three,
+		110  Per_I_carpus_post_margin_lg_denticles_distal_to_robust_setae / narrowing_distally_to_insertion_of_dactylus distally_broad_and_tapering_steeply_to_insertion_of_dactylus_may_be_angular_or_rounded 'tubular - elongate',
+		111  Per_I_propodus_distal_shape / absent present,
+		112  Per_I_propodus_distal_spine / simple_setae robust_seta absent,
+		113  Per_I_propodus_opposing_margin_seta_type / one two three four_or_more_robust_setae,
+		114  Per_I_propodus_opposing_margin_robust_setae / absent crenate_ridge distal_spine,
+		115  Per_I_propodus_opposing_margin_dentate_ridge_or_spines / 'robust - distinctly separated from dorsal claw away from dactylar axis' 'thin - directly adjacent to dorsal claw along dactylar axis',
+		116  Per_I_dactylus_ventral_claw / absent present,
+		117  Per_I_dactylus_ventral_margin_spines / smooth distal_indurate_lobe crenate_ridge,
+		118  Per_II_basis_form / absent crenate_ridge row_of_spines broadly_rounded_projection_bearing_single_robust_seta,
+		119  Per_II_ischium_posterior_margin_projections_or_spines / 2_or_3_short_setae row_of_elongate_stiff_robust_setae,
+		120  Per_II_carpus_and_propodus_ventral_margin_robust_setae / dorsal_claw_robust 'dorsal and ventral claws thin - elongate',
+		121  'Per II dactylus elongate seta-like distal claws' / 'not visible - covered by tergite' extending_beyond_tergite,
+		122  'Per V-VII coxae in dorsal view' / rounded elongate_and_projecting angular_and_projecting forming_elongate_spines,
+		123  'Per V-VII coxae lateral margins marginal shape' / absent single_apical_robust 2_robust 3_or_more_robust single_elongate_simple,
+		124  'Per V-VII coxae lateral margins setae' / smooth denticulate,
+		125  'Per V-VII coxae lateral margins ornamentation' / sagittate lateral_lobes_posteriorly,
+		126  Male_pLs_I_distal_form / only_moderately_projecting distinctly_projecting,
+		127  Male_pLs_I_lateral_lobes / pointed rounded,
+		128  Male_pLs_I_lateral_lobes_proximal_lateral_sublobe_shape / emerging_adjacent distinctly_separated,
+		129  Male_pLs_I_position_of_stylet_groove_and_distal_sublobe / 'forming acute angle - or approximately forming right angle' forming_obtuse_angle,
+		130  Male_pLs_I_distal_projection_overall_shape_of_posterior_margin / pointed rounded truncate,
+		131  Male_pLs_I_distal_shape_of_apices / 'simple arc-shaped curve - tapering smoothly to tip' 'sinuously curved - distally thin and hair-like - reaching well beyond distal margin of protopod',
+		132  Male_pLs_II_stylet_shape / nearly_circular ovoid distal_part_tapering_with_concave_distolateral_margins,
+		133  Female_operculum_shape_in_ventral_view / directly_on_margin dorsal_and_directly_adjacent 'dorsal - well separated' 'ventral - visible in dorsal view' 'ventral - projecting ventrally and not visible in dorsal view',
+		134  Uropods_insertion_on_PLTN_lateral_margin / 'not recessed - protopod visible' 'recessed - protopod or insertion not exposed',
+		135  Uropods_insertion / absent present,
+		136  Uropods_covered_by_small_dorsal_cuticular_hood / two_distinct_rami 'two rami - exopod vestigial' exopod_absent,
+		137  Uropods_rami / rounded 'acutely pointed - curving medially',
+		;
+
+MATRIX
+[                                          10        20        30        40        50        60        70        80        90        100       110       120       130       140       150      ]
+[                                           .         .         .         .         .         .         .         .         .         .         .         .         .         .         .      ]
+Advenogonium_fuegiae               112{12}31--11223--------12111114212111111{12}1111111---12-131111132211223211-42312311121-1114211121111-1111512215511122221111121111221112222111
+Allorostrata_ovalis                112?11--4-1--------2?1211121232?11111221121111---11?-32121132221323214-42321511111-1123?11221111-211111221111112222111111-111221221352-21
+Ascionana_darwinia                 {12}12{12}21--3-1--212-----1211112232111111222211111---14?-31111132311223211-42321111111-1223?11221111-111111321111211-22111111-111221121232131
+Austrimunna_antarctica             11?{23}1222-------------1211112232111111222111111---11?-311?1132211123216-42321121111-1124?2-221111-111121221111112222111111-111221111311111
+Austrofilius_cf_serratus           1?2211---------------11------21111111112141112211212-11121112?2?12{14}218-411-1-------111421222?411-1111115111113121121111121112-----2141111
+Austronanus_glacialis              112211--4-1--------111211111131111111211111212122112-11125132211223211-22321522121-1123211221111-2412212213321121221311121121221111312111
+Austrosignum_escandella            112{234}2211-------------121111112113112111{13}111111---12-231121132131113216-42311111111-111222-221111-1111112?1551111-221111121111221111312112
+Austrosignum_glaciale              11222212-------------1211111111211111111111111---12-231111132131113216-42321111111-112212-221111-111111231551111-221111121111221111222112
+Boreosignum_affinis                1?221211-------------1241111111111111111111111---12-111121132122113214-423221111121111222-221151-111111221121111-221111121111221121?12111
+Boreosignum_maltinii               1?221211-------------12411111111111111111?1111---12-111121132122113214-42321111111-111{123}12-221151-111111221221111-121111121121221112312111
+Boreosignum_orientale              1??21222-------------2241?11111111111111111111---12-111121132122113214-42322?11111-112322-221151-111111221221111-121111121121211112312111
+Boreosignum_polynesiensis          1?221211-------------1241111111112111332111111---12-111121132122113214-423211111121111322-221252-111111221121111-121141123511221122312111
+Boreosignum_somersensis            11?21213-------------1241?11121111111111111111---12-111121132122113214-4232?111111-112322-221151-111111221111111-12111112111122112?312111
+Boreosignum_wilsoni                1??21211-------------1241?11111111111111111111---12-111121132122113214-4232?111111-111322-221151-111111221111111-121111121111221112312111
+Cryosignum_incisa                  11?22222-------------1221111211231121111111111---12-13?111132131223216-42321111111-1????112221135111111121221112212111??21111221111?21111
+Cryosignum_lunatum                 11212211-------------1211111121231121111111111---12-131111132131123216-42322211111-111421122211341111111212211122121?1?121111221111222111
+Epipedonana_profunda               112?11--6------------121111213211111122211111222211?-12123132211223211-4232?121211-1????11221111--11211121111111-22111111-111?21??1122111
+Harrietonana_subtriangulata        112?11--5-2-----2----121?121232111111223141111---11?-21121132121223211-22321211111-1????11221111-111211121111111-32111111-11????????11121
+Kiklonana_arnaudi                  132?1211-------------1211111132111111222111211---11?-31121132221223211-4232?411111-1123?11221111-241211421111212222131111-111221111311121
+Kussakinella_spinosum              11?41211-------------1211?1112111123224211111213312-131221131121123215-4231?111111-112?12-221111-11111112111111???21111121111121121?12111
+Meridiosignum_kerguelensis         {12}1221222-------------121111122111111114411111211412-111121232131113217-42321111111-111422-??1111-211131121311112222111112112112?111312111
+Meridiosignum_menziesi             {12}1221222-------------1211?11221111111111111111---12-111121232131123214-42321111111-112312-221111-1111112213231121221111121111121111322111
+Meridiosignum_minidenticulatum     {12}1221222-------------121111122121111112211111211412-111121232131123216-42322111111-111322-??111352312112213221122221311121121221111322111
+Meridiosignum_subtilis             1?2??222-------------121?111221?111111?1111111---12-111121232131123216-423??????????????2-22?111-111111221???1122?21????2111???????312111
+Munnogonium_falklandicum           1?221211-------------123---1511111111{12}{12}{12}111111---12-131121132132113216-42321111111-1122?2-221111-111111241552111-121112121111?2111?222111
+Munnogonium_sp_nov_slope_1         11?31211-------------123---1511111111111111111---12-131111132132113216-42321111111-1111?2-221111-1111122415511121221112121111121121?22111
+Munnogonium_tillerae               11221211-------------123---1511111111111111111---12-131111132132113215-42321111111-111212-222111-111111241551111-2211122211112211?1312111
+Munnogonium_waldronense            11221213-------------123---1511111111111111111---12-131111132132113216-42321111111-11?212-221111-111112241551111-121112121111?21121322111
+Omonana_brachycephala              21?{12}1222-------------1211111232?11111222211111---11?-11121132211123211-42321221111-1112?112211131241211121111111-12111111-111221121?32131
+Omonana_parasimplex                21?11222-------------1211111132211111222211111---11?-11121132111123213-42321211111-1114?11221111-141221121111112122111111-111211121?32131
+Omonana_serraticoxa                21?22222-------------1211112132211111222211111---11?-11111132111123211-42321221111-1????112211133241231121111112222111111-111221121?32131
+Omonana_simplex                    112?1222-------------121?112132?11111222111111---11?-11121132111123211-42321221111-1123?11221111-111111121111112{12}22111111-11???????232131
+Pagonana_rostrata                  122211--5-1-----3----1211111232111111221121111---11?-11125132221123211-42321221111-1113?11221111-211211121111221-32111111-111221221222121
+Palanana_serrata                   112211--4-1--------1?121111113211111122241121211211?-11125132221221211-22321521111-1123?11121111-211111221111112122111111-111221121212111
+Paramunna_bilobata                 112211--12113--------1211111132111111{23}{23}{13}{14}2{12}111---11?-11121132311223211-42321111111-111{123}?11221111-241211221111111-12111111-111221121312111
+Quetzogonium_dentatum              1?2?1213-------------121111111111111112211111231112-121121132131223217-42321111121-1114211221121-4111112211111122221111121121121111232111
+Santia_longisetosa                 11221212-------------1211111121111111111111111---12-131121122131123215-412111------111422-22?111-1111112211111121121111121112-----?211111
+Spiculonana_platysoma              112221--7-1----------121111123221111122{12}11111211{14}11?-11121132211123111-42321111111-1113?112211132241221221111111-22111111-111121121312111
+Sporonana_robusta                  212{12}11--5-2-----411--1211111232111111{12}22211111---11?-31121132111123216-42311211111-112{23}?2-221111-211211421111111-22131111-111221111322121
+Stephenseniellus_palliolatipes     112211--4-1--------12121111113111111122{12}{13}{13}1121---131-1112113132122322-132321321111-1123111??1114-1113112214222122221?11123211221111312211
+Tethygonium_adenensis              1?2??222-------------124?111111?11111111111111---12-111121132122113217-4232?11?11221????2-2212231411111252221111-212???12311???????322131
+Tethygonium_armigerum              11221222-------------1241?1111111111111111111221112-111121132122113217-423211111121111312-221223?411112152131111-212111121111121121322131
+Tethygonium_quadricuspis           112??211-------------123---1521?1111133411111211412-111121132122113213-4232?1111121212312-221111-412111142111111-21211112112???????322111
+Tethygonium_variabile              1?221211-------------1241111111111111111111111---12-111121132122113217-423211111121111322-2211231111111142111111-212111121121221122322111
+Xenosella_coxospinosa              11223211-------------13------11111111111111111---12-231111122?2?113218-412111------111312-22233311111114311111124221111124112-----?221111
+Xigonus_patagoniensis              112221--4-1--------231211111131111111211111111---142-31121132111223211-42322311111-1123211??1112-1511412213211122121111121111221221242111
+Zizzygonium_magellanensis          112?1213-------------121?111221111111121111111---12-111121132221123211-42321311111-1113111221111-1111111211111121121111121111221121322111
+cf_Cryosignum_latifrons            112??211-------------121?111111?1111115111111221112-131116132121223211-42321111111-1114211??1111-1111111212211122121????2111???????222111
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb8429;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Omonana_parasimplex,
+            2    Omonana_brachycephala,
+            3    Kiklonana_arnaudi,
+            4    Harrietonana_subtriangulata,
+            5    Epipedonana_profunda,
+            6    Austrimunna_antarctica,
+            7    Ascionana_darwinia,
+            8    Sporonana_robusta,
+            9    Spiculonana_platysoma,
+            10   Palanana_serrata,
+            11   Pagonana_rostrata,
+            12   Omonana_simplex,
+            13   Omonana_serraticoxa,
+            14   Allorostrata_ovalis,
+            15   Paramunna_bilobata,
+            16   Stephenseniellus_palliolatipes,
+            17   Xigonus_patagoniensis,
+            18   Austronanus_glacialis,
+            19   Zizzygonium_magellanensis,
+            20   Tethygonium_quadricuspis,
+            21   Tethygonium_variabile,
+            22   Tethygonium_armigerum,
+            23   Tethygonium_adenensis,
+            24   Munnogonium_sp_nov_slope_1,
+            25   Munnogonium_tillerae,
+            26   Munnogonium_falklandicum,
+            27   Munnogonium_waldronense,
+            28   Meridiosignum_subtilis,
+            29   Meridiosignum_minidenticulatum,
+            30   Meridiosignum_menziesi,
+            31   Meridiosignum_kerguelensis,
+            32   Boreosignum_wilsoni,
+            33   Boreosignum_somersensis,
+            34   Boreosignum_polynesiensis,
+            35   Boreosignum_orientale,
+            36   Boreosignum_affinis,
+            37   Boreosignum_maltinii,
+            38   cf_Cryosignum_latifrons,
+            39   Cryosignum_incisa,
+            40   Cryosignum_lunatum,
+            41   Kussakinella_spinosum,
+            42   Advenogonium_fuegiae,
+            43   Quetzogonium_dentatum,
+            44   Austrosignum_escandella,
+            45   Austrosignum_glaciale,
+            46   Xenosella_coxospinosa,
+            47   Santia_longisetosa,
+            48   Austrofilius_cf_serratus;
+      TREE Strict_All_Analyses = [&R] (48,(47,(46,(((45,44),((37,35),36,34,33,32),(26,(25,(27,24))),(20,(21,(23,22)))),43,42,41,(40,39),38,(31,30,29,28),19,(18,10),17,16,(15,9),14,7,6,5,4,3,(2,1,13),12,11,8))));
+
+
+
+END;
+BEGIN TREES;
+      TITLE Tb8428;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Omonana_parasimplex,
+            2    Omonana_brachycephala,
+            3    Kiklonana_arnaudi,
+            4    Harrietonana_subtriangulata,
+            5    Epipedonana_profunda,
+            6    Austrimunna_antarctica,
+            7    Ascionana_darwinia,
+            8    Sporonana_robusta,
+            9    Spiculonana_platysoma,
+            10   Palanana_serrata,
+            11   Pagonana_rostrata,
+            12   Omonana_simplex,
+            13   Omonana_serraticoxa,
+            14   Allorostrata_ovalis,
+            15   Paramunna_bilobata,
+            16   Stephenseniellus_palliolatipes,
+            17   Xigonus_patagoniensis,
+            18   Austronanus_glacialis,
+            19   Zizzygonium_magellanensis,
+            20   Tethygonium_quadricuspis,
+            21   Tethygonium_variabile,
+            22   Tethygonium_armigerum,
+            23   Tethygonium_adenensis,
+            24   Munnogonium_sp_nov_slope_1,
+            25   Munnogonium_tillerae,
+            26   Munnogonium_falklandicum,
+            27   Munnogonium_waldronense,
+            28   Meridiosignum_subtilis,
+            29   Meridiosignum_minidenticulatum,
+            30   Meridiosignum_menziesi,
+            31   Meridiosignum_kerguelensis,
+            32   Boreosignum_wilsoni,
+            33   Boreosignum_somersensis,
+            34   Boreosignum_polynesiensis,
+            35   Boreosignum_orientale,
+            36   Boreosignum_affinis,
+            37   Boreosignum_maltinii,
+            38   cf_Cryosignum_latifrons,
+            39   Cryosignum_incisa,
+            40   Cryosignum_lunatum,
+            41   Kussakinella_spinosum,
+            42   Advenogonium_fuegiae,
+            43   Quetzogonium_dentatum,
+            44   Austrosignum_escandella,
+            45   Austrosignum_glaciale,
+            46   Xenosella_coxospinosa,
+            47   Santia_longisetosa,
+            48   Austrofilius_cf_serratus;
+      TREE Strict_Unweighted = [&R] (48,(47,(46,((43,((42,17),(40,39),38)),((((45,44),(26,(25,(27,24)))),((20,(21,(23,22))),(36,(34,((37,35),33,32))))),((19,(30,(28,(31,29)))),(41,((6,(7,(12,(1,(2,13))))),(8,((3,(16,(5,(18,10)))),(14,((15,9),(4,11)))))))))))));
+
+
+
+END;

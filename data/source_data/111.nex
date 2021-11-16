@@ -1,0 +1,33 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:31 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Waters D., Buchheim M., Dewey R., & Chapman R. 1992. Preliminary inferences of the
+phylogeny of bryophytes from nuclear-encoded ribosomal RNA sequences. American
+Journal of Botany, 79: 459-466.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S241]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=0;
+        TAXLABELS
+            ;
+END;
+
+BEGIN TREES;
+      TITLE Tb4963;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+      TREE Fig._2 = [&R] (((Equisetum,(((Zea,Oryza),Glycine),Zamia)),((Atrichum,(Fissidens,Plagiomnium)),(Notothylas,Phaeoceros))),((Conocephalum,Asterella),Riccia));
+      TREE Fig._3 = [&R] ((((Equisetum,(((Zea,Oryza),Glycine),Zamia)),(Atrichum,(Fissidens,Plagiomnium))),(Notothylas,Phaeoceros)),((Conocephalum,Asterella),Riccia));
+
+
+
+END;

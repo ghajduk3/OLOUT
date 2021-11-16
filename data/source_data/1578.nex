@@ -1,0 +1,82 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:49 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Park C. 1987. Flavonoid chemistry of Polygonum sect. Echinocaulon: A systematic study.
+Systematic Botany, 12: 167-179.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S176]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=13;
+        TAXLABELS
+            Polygonum_arifolium
+            Polygonum_dichotomum
+            Polygonum_dissitiflorum
+            Polygonum_hastatosagittatum
+            Polygonum_meisnerianum
+            Polygonum_muricatum
+            Polygonum_perfoliatum
+            Polygonum_praetermissum
+            Polygonum_sagittatum
+            Polygonum_senticosum
+            Polygonum_stelligerum
+            Polygonum_strigosum
+            Polygonum_thunbergii
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M226]
+
+	TITLE Table_3;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=9;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2" MISSING=? GAP= -;
+
+MATRIX
+Polygonum_arifolium             210000010
+Polygonum_dichotomum            101000010
+Polygonum_dissitiflorum         210101010
+Polygonum_hastatosagittatum     111000000
+Polygonum_meisnerianum          101100000
+Polygonum_muricatum             111000000
+Polygonum_perfoliatum           000000011
+Polygonum_praetermissum         101000010
+Polygonum_sagittatum            100010001
+Polygonum_senticosum            000000011
+Polygonum_stelligerum           110110000
+Polygonum_strigosum             210110010
+Polygonum_thunbergii            200110110
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb4902;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Polygonum_perfoliatum,
+            2    Polygonum_senticosum,
+            3    Polygonum_thunbergii,
+            4    Polygonum_dissitiflorum,
+            5    Polygonum_arifolium,
+            6    Polygonum_sagittatum,
+            7    Polygonum_muricatum,
+            8    Polygonum_hastatosagittatum,
+            9    Polygonum_meisnerianum,
+            10   Polygonum_stelligerum,
+            11   Polygonum_dichotomum,
+            12   Polygonum_strigosum,
+            13   Polygonum_praetermissum;
+      TREE Fig._2 = [&R] ((((1,2),6),((((7,8),9),13),11)),((((3,12),10),4),5))Echinocaulon;
+
+
+
+END;

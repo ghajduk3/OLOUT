@@ -1,0 +1,308 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:37 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+French J., Chung M., & Hur Y. 1995. "Chloroplast DNA phylogeny of the Ariflorae."
+In: Rudall P., Cribb P., Cutler D., & Humphries C., eds. Monocotyledons: systematics
+and evolution. pp. 255-275. Kew, Royal Botanic Gardens.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S619]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=88;
+        TAXLABELS
+            Acorus
+            Aglaodorum
+            Aglaonema
+            Alocasia
+            Ambrosina
+            Amorphophallus
+            Amydrium
+            Anadendrum
+            Anaphyllopsis
+            Anaphyllum
+            Anchomanes
+            Anthurium
+            Anubias
+            Aridarum
+            Ariopsis
+            Arisaema
+            Arisarum
+            Arophyton
+            Arum
+            Asterostigma
+            Biarum
+            Bognera
+            Caladium
+            Calla
+            Callopsis
+            Carlephyton
+            Cercestis
+            Chlorospatha
+            Colletogyne
+            Colocasia
+            Cryptocoryne
+            Culcasia
+            Cyrtosperma
+            Dieffenbachia
+            Dracontioides
+            Dracontium
+            Epipremnum
+            Furtadoa
+            Gonatanthus
+            Gonatopus
+            Gorgonidium
+            Gymnostachys
+            Hapaline
+            Helicodiceros
+            Holochlamys
+            Homalomena
+            Lagenandra
+            Lasia
+            Lemna
+            Lysichiton
+            Monstera
+            Montrichardia
+            Nephthytis
+            Orontium
+            Peltandra
+            Philodendron
+            Phymatarum
+            Pinellia
+            Piptospatha
+            Pistia
+            Pothos
+            Pseudodracontium
+            Remusatia
+            Rhaphidophora
+            Rhodospatha
+            Sauromatum
+            Schismatoglottis
+            Scindapsus
+            Spathantheum
+            Spathicarpa
+            Spathiphyllum
+            Stenospermation
+            Steudnera
+            Stylochaeton
+            Symplocarpus
+            Synandrospadix
+            Syngonium
+            Taccarum
+            Theriophonum
+            Typhonium
+            Typhonodorum
+            Ulearum
+            Urospatha
+            Xanthosoma
+            Zamioculcas
+            Zantedeschia
+            Zomicarpa
+            Zomicarpella
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M2633]
+
+	TITLE Not_Available;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=1;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1" MISSING=? GAP= -;
+
+MATRIX
+Acorus               ?
+Aglaodorum           ?
+Aglaonema            ?
+Alocasia             ?
+Ambrosina            ?
+Amorphophallus       ?
+Amydrium             ?
+Anadendrum           ?
+Anaphyllopsis        ?
+Anaphyllum           ?
+Anchomanes           ?
+Anthurium            ?
+Anubias              ?
+Aridarum             ?
+Ariopsis             ?
+Arisaema             ?
+Arisarum             ?
+Arophyton            ?
+Arum                 ?
+Asterostigma         ?
+Biarum               ?
+Bognera              ?
+Caladium             ?
+Calla                ?
+Callopsis            ?
+Carlephyton          ?
+Cercestis            ?
+Chlorospatha         ?
+Colletogyne          ?
+Colocasia            ?
+Cryptocoryne         ?
+Culcasia             ?
+Cyrtosperma          ?
+Dieffenbachia        ?
+Dracontioides        ?
+Dracontium           ?
+Epipremnum           ?
+Furtadoa             ?
+Gonatanthus          ?
+Gonatopus            ?
+Gorgonidium          ?
+Gymnostachys         ?
+Hapaline             ?
+Helicodiceros        ?
+Holochlamys          ?
+Homalomena           ?
+Lagenandra           ?
+Lasia                ?
+Lemna                ?
+Lysichiton           ?
+Monstera             ?
+Montrichardia        ?
+Nephthytis           ?
+Orontium             ?
+Peltandra            ?
+Philodendron         ?
+Phymatarum           ?
+Pinellia             ?
+Piptospatha          ?
+Pistia               ?
+Pothos               ?
+Pseudodracontium     ?
+Remusatia            ?
+Rhaphidophora        ?
+Rhodospatha          ?
+Sauromatum           ?
+Schismatoglottis     ?
+Scindapsus           ?
+Spathantheum         ?
+Spathicarpa          ?
+Spathiphyllum        ?
+Stenospermation      ?
+Steudnera            ?
+Stylochaeton         ?
+Symplocarpus         ?
+Synandrospadix       ?
+Syngonium            ?
+Taccarum             ?
+Theriophonum         ?
+Typhonium            ?
+Typhonodorum         ?
+Ulearum              ?
+Urospatha            ?
+Xanthosoma           ?
+Zamioculcas          ?
+Zantedeschia         ?
+Zomicarpa            ?
+Zomicarpella         ?
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb5698;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Acorus,
+            2    Gymnostachys,
+            3    Lysichiton,
+            4    Symplocarpus,
+            5    Orontium,
+            6    Amydrium,
+            7    Epipremnum,
+            8    Monstera,
+            9    Anadendrum,
+            10   Rhaphidophora,
+            11   Scindapsus,
+            12   Stenospermation,
+            13   Rhodospatha,
+            14   Spathiphyllum,
+            15   Holochlamys,
+            16   Pothos,
+            17   Anthurium,
+            18   Dracontioides,
+            19   Dracontium,
+            20   Anaphyllopsis,
+            21   Urospatha,
+            22   Anaphyllum,
+            23   Lasia,
+            24   Cyrtosperma,
+            25   Calla,
+            26   Zamioculcas,
+            27   Gonatopus,
+            28   Stylochaeton,
+            29   Zantedeschia,
+            30   Callopsis,
+            31   Taccarum,
+            32   Asterostigma,
+            33   Spathicarpa,
+            34   Synandrospadix,
+            35   Gorgonidium,
+            36   Spathantheum,
+            37   Dieffenbachia,
+            38   Bognera,
+            39   Anchomanes,
+            40   Nephthytis,
+            41   Aglaonema,
+            42   Aglaodorum,
+            43   Cercestis,
+            44   Culcasia,
+            45   Furtadoa,
+            46   Philodendron,
+            47   Homalomena,
+            48   Anubias,
+            49   Montrichardia,
+            50   Piptospatha,
+            51   Aridarum,
+            52   Schismatoglottis,
+            53   Phymatarum,
+            54   Lagenandra,
+            55   Cryptocoryne,
+            56   Lemna,
+            57   Amorphophallus,
+            58   Pseudodracontium,
+            59   Hapaline,
+            60   Syngonium,
+            61   Xanthosoma,
+            62   Chlorospatha,
+            63   Ulearum,
+            64   Zomicarpella,
+            65   Caladium,
+            66   Zomicarpa,
+            67   Arophyton,
+            68   Carlephyton,
+            69   Colletogyne,
+            70   Typhonodorum,
+            71   Peltandra,
+            72   Arisarum,
+            73   Ambrosina,
+            74   Helicodiceros,
+            75   Arum,
+            76   Biarum,
+            77   Sauromatum,
+            78   Theriophonum,
+            79   Typhonium,
+            80   Pinellia,
+            81   Arisaema,
+            82   Ariopsis,
+            83   Alocasia,
+            84   Remusatia,
+            85   Colocasia,
+            86   Gonatanthus,
+            87   Steudnera,
+            88   Pistia;
+      TREE Fig._1 = [&R] (1,((2,((3,4),5)),(((((((((6,7),8),9),10),11),(12,13)),14,15),(16,17)),((((18,19),20,21,22,23),24),(25,(((((26,27),28),(29,30)),(((((((31,32),33),34),(35,36)),37),38),((39,40),(41,42)),(43,44)),(((45,(46,47)),48),49)),(((((50,51),52),53),(54,55)),(56,(((57,58),(59,(60,((61,62),(63,(64,65,66)))))),((((((67,68),69),70),71),(72,73)),(((((((74,75),76),77),78),79),(80,81),(82,(83,(84,(85,86,87))))),88)))))))))));
+
+
+
+END;

@@ -1,0 +1,173 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:53 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Sinclair B. 2010. Revision and Phylogenetic Systematics of the Neotropical Ceratomerinae
+(Diptera: Empidoidea: Brachystomatidae). Arthropod Systematics & Phylogeny,
+68(2): 197-228.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S10399]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=27;
+        TAXLABELS
+            Anomalempis_archon
+            Ceratomerus_albistylus
+            Ceratomerus_apterus
+            Ceratomerus_attenuatus
+            Ceratomerus_brevifurcatus
+            Ceratomerus_campbelli
+            Ceratomerus_connexus
+            Ceratomerus_crassinervis
+            Ceratomerus_deansi
+            Ceratomerus_dorsatus
+            Ceratomerus_falcatus
+            Ceratomerus_irrammus
+            Ceratomerus_longicornis
+            Ceratomerus_masneri
+            Ceratomerus_mediocris
+            Ceratomerus_orientalis
+            Ceratomerus_paraconnexus
+            Ceratomerus_paradoxus
+            Ceratomerus_penai
+            Ceratomerus_prodigiosus
+            Ceratomerus_sp_12
+            Ceratomerus_sp_23
+            Ceratomerus_victoriae
+            Glyphidopeza_fluviatilis
+            Heterophlebus_versabilis
+            Icasma_setosa
+            Oreogeton_obscurus
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M5794]
+
+	TITLE Ceratomerinae;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=46;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2 3 4 5" MISSING=? GAP= -;
+	CHARSTATELABELS
+		1  Male_eye_contiguity / holoptic dichoptic,
+		2  Dimensions_of_the_scape / subequal more_than_two_times,
+		3  Conus / absent present,
+		4  Dimensions_of_pedicel / '1-2_times' '3-4_times',
+		5  Base_of_scape / cylindrical flattened,
+		6  Shape_of_male_postpedicel / Gradually_tapered 'apical_portion_slender_and_tapered,_at_least_two_times_longer_than_base',
+		7  'Arista-like style' / Shorter_than_postpedicel longer_than_postpedicel,
+		8  Ocelli / equidistant widely_separated,
+		9  Position_of_ocellar_bristles / Inserted_anteromedially_to_posterior_ocelli inserted_anterior_to_posterior_ocelli 'inserted_near_margin_of_eye,_anterior_to_anterior_ocellus' inserted_outside_and_anterior_to_posterior_ocelli,
+		10  Condition_of_postocular_setae / Erect overlapping_almost_half_width_of_eye,
+		11  Width_of_face / wide narrower_than_antennal_sockets,
+		12  Face / bare lower_half_setose,
+		13  Male_palpus_form / 'Cylindrical,_short' modified_with_tufts_of_setae,
+		14  Orientation_of_male_palpus / obliquely parallel,
+		15  Pseudotracheae / present absent,
+		16  Acrostichal_setae / sloping_posteriorly directed_anteriorly absent,
+		17  postpronotal_bristles,
+		18  Notopleural_bristles / two_or_more one,
+		19  Length_of_dc / increasing_in_length_posteriorly prescutellar_pair_shortest,
+		20  Position_of_dorsocentral_bristles / aligned 'first_pair_off-line',
+		21  Number_of_dorsocentral_bristles / 6_or_more two four five zero one,
+		22  'Presutural supra-alar bristle' / present absent,
+		23  'Postsutural supra-alar bristles' / present absent,
+		24  Antepronotum_vestiture / Numerous_setae 'pair_of_bristle-like_setae',
+		25  Male_posterior_basalare / 'Flat,_undeveloped' elevated_as_shiny_lobe,
+		27  Position_of_stigma / apex_of_R1 'apex_of_cell_r1,_proximal_end_truncate' 'near_middle_to_end_of_cell_r1,_elliptical,_elongate' absent 'positioned_at_apex_of_cell_r1,_but_elliptical,_slender',
+		29  Anterior_margin_of_costa / longitudinal_rows_of_simple_setae 'stout,_erect_setae_interspersed',
+		30  Subcosta / complete incomplete,
+		31  R1_termination / 'Distal_to_mid-length' 'proximal_to_mid-length',
+		32  Microtrichia / short long,
+		33  Medial_branching_pattern / Three_veins_from_cell_dm 'M1+2_petiolate',
+		34  Cell_bm / present faint_or_lacking,
+		35  Cell_cua / present absent,
+		36  Posterior_margin_of_male_wing_base / Unmodified 'concave,_sclerotized_?pocket?',
+		37  Male_fore_coxa / 'Inner_margin_parallel-sided' inner_apical_margin_concave,
+		38  First_tarsomere_of_male_foreleg / Unmodified 'slender,_bearing_groups_of_erect_setae',
+		39  Male_midleg / Cylindrical 'greatly_distorted_with_tubercles_and_lobes,_modified_setae_on_femur,_and_tibia_flattened_with_lateral_lobes_and_setae',
+		40  Hind_tibia_vestiture / Lacking_pile 'posterior_face_with_fine,_erect_pile',
+		41  Hind_1st_tarsomere_basal_vestiture / absent one_seta two_setae,
+		42  Epandrium / 'U-shaped_with_sclerotized_dorsal_bridge' 'lobes_separate,_not_connected_dorsally',
+		43  female_T8 / pair_of_lateral_sclerites 'single,_flattened,_median_plate' anterolateral_apodeme_absent present,
+		44  female_T8 / spherical_or_filamentous flattened anterior_apodeme_absent present,
+		45  female_T8 / filamentous spherical,
+		46  spermatheca,
+		;
+
+MATRIX
+[                                     10        20        30        40      ]
+[                                      .         .         .         .      ]
+Anomalempis_archon            0000000000000000000101000000000000000000001100
+Ceratomerus_albistylus        1110110000100010011020010011001011100011110001
+Ceratomerus_apterus           11101011101000120100101000----------0001111000
+Ceratomerus_attenuatus        1110100110000011011020010011001011100001110101
+Ceratomerus_brevifurcatus     11101101100011100000200111--101011110101111000
+Ceratomerus_campbelli         1110100110000011011020010011001011101011111001
+Ceratomerus_connexus          1110100000000010000050000010000011100001011000
+Ceratomerus_crassinervis      11101001100100100000200101--101011100001110000
+Ceratomerus_deansi            1110100110100010100120010010001111100000111000
+Ceratomerus_dorsatus          1110100000000010100130010020001111100000111000
+Ceratomerus_falcatus          11111001110000100100200001--001011100001110100
+Ceratomerus_irrammus          111010000010001201001110001100101110000111????
+Ceratomerus_longicornis       11111001310000120000200001--00101110000111????
+Ceratomerus_masneri           11101000001000120100410001--001011100001011000
+Ceratomerus_mediocris         1110100000000010010050000010001011100001011000
+Ceratomerus_orientalis        1110100110100011011020010011001011100001110001
+Ceratomerus_paraconnexus      1110100000000010000050000010001011100001011000
+Ceratomerus_paradoxus         1110100110010010011020000011001011101011111000
+Ceratomerus_penai             1110100110010010011020000011001011101011111000
+Ceratomerus_prodigiosus       11101101100011100000200111--101011110101111000
+Ceratomerus_sp_12             11111101310001100000200101--001011100101110100
+Ceratomerus_sp_23             11101000210000100000201001--00101110000101????
+Ceratomerus_victoriae         1110100110000011011020010011001011100011111001
+Glyphidopeza_fluviatilis      11100000210000000001000101--101000000000111001
+Heterophlebus_versabilis      0000001000000000000100000000100000000000000010
+Icasma_setosa                 11101010101000100100200001--011011100001010000
+Oreogeton_obscurus            0000000000000000000100000000001000000000000000
+;
+END;
+
+BEGIN TREES;
+      TITLE ceratomerinae_TB;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Anomalempis_archon,
+            2    Ceratomerus_albistylus,
+            3    Ceratomerus_apterus,
+            4    Ceratomerus_attenuatus,
+            5    Ceratomerus_brevifurcatus,
+            6    Ceratomerus_campbelli,
+            7    Ceratomerus_connexus,
+            8    Ceratomerus_crassinervis,
+            9    Ceratomerus_deansi,
+            10   Ceratomerus_dorsatus,
+            11   Ceratomerus_falcatus,
+            12   Ceratomerus_irrammus,
+            13   Ceratomerus_longicornis,
+            14   Ceratomerus_masneri,
+            15   Ceratomerus_mediocris,
+            16   Ceratomerus_orientalis,
+            17   Ceratomerus_paraconnexus,
+            18   Ceratomerus_paradoxus,
+            19   Ceratomerus_penai,
+            20   Ceratomerus_prodigiosus,
+            21   Ceratomerus_victoriae,
+            22   Glyphidopeza_fluviatilis,
+            23   Ceratomerus_sp_12,
+            24   Heterophlebus_versabilis,
+            25   Ceratomerus_sp_23,
+            26   Icasma_setosa,
+            27   Oreogeton_obscurus;
+      TREE Fig._x = [&R] (1,(24,((22,(((((26,14),25),(7,15,17)),(((3,12),(4,(2,21,((18,19),6)),16)),((11,(23,13)),((20,5),8)))),(9,10))),27)));
+
+
+
+END;

@@ -1,0 +1,388 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:36 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Sidlauskas B.L. 2008. Phylogenetic relationships within the South American fish family
+Anostomidae (Teleostei, Ostariophysi, Characiformes). Zoological Journal of
+the Linnean Society, 154(1): 70-210.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S12929]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=60;
+        TAXLABELS
+            Abramites_hypselonotus
+            Anostomoides_laticeps
+            Anostomus_anostomus
+            Anostomus_ternetzi
+            Brycon_falcatus
+            Caenotropus_maculosus
+            Caenotropus_mestomorgmatos
+            Chilodus_punctatus
+            Citharinus_Sp.
+            Curimata_inornata
+            Curimatopsis_microlepis
+            Distichodus_Sp.
+            Gnathodolus_bidens
+            Hemiodus_ocellatus
+            Hypomasticus_despaxi
+            Hypomasticus_megalepis
+            Hypomasticus_mormyrops
+            Hypomasticus_pachycheilus
+            Laemolyta_garmani
+            Laemolyta_orinocensis
+            Laemolyta_proxima
+            Laemolyta_taeniata
+            Leporellus_pictus
+            Leporellus_vittatus
+            Leporinus_agassizi
+            Leporinus_aripuanaensis
+            Leporinus_cf._ecuadorensis
+            Leporinus_cf._fasciatus
+            Leporinus_cf._moralesi
+            Leporinus_cf._niceforoi
+            Leporinus_fasciatus
+            Leporinus_friderici
+            Leporinus_gomesi
+            Leporinus_jatuncochi
+            Leporinus_ortomaculatus
+            Leporinus_pellegrinii
+            Leporinus_striatus
+            Leporinus_tigrinus
+            Parodon_suborbitalis
+            Petulanos_intermedius
+            Petulanos_plicatus
+            Potamorhina_laticeps
+            Prochilodus_rubrotaeniatus
+            Pseudanos_gracilis
+            Pseudanos_irinae
+            Pseudanos_trimaculatus
+            Pseudanos_winterbottomi
+            Rhytiodus_argenteofuscus
+            Rhytiodus_lauzannei
+            Rhytiodus_microlepis
+            Sartor_elongatus
+            Schizodon_fasciatus
+            Schizodon_isognathus
+            Schizodon_knerii
+            Schizodon_nasutus
+            Schizodon_scotorhabdotus
+            Schizodon_vittatus
+            Semaprochilodus_insignis
+            Synaptolaemus_cingulatus
+            Xenocharax_spilurus
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M13624]
+
+	TITLE Anostomidae;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=158;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2 3 4 5 6 7" MISSING=? GAP= -;
+	CHARSTATELABELS
+		1  Presence_or_absence_of_horizontal_flange_of_antorbital,
+		2  Anteroposterior_positioning_of_antorbital,
+		3  Presence_or_absence_of_deep_lateral_notch_on_supraorbital,
+		4  Orientation_of_sensory_canal_of_first_infraorbital,
+		5  Number_of_intermediate_pores_along_sensory_canal_of_first_infraorbital,
+		6  Thickness_and_position_of_canals_of_first_infraorbital,
+		7  Extent_of_development_of_dorsal_lamina_of_second_infraorbital,
+		8  Number_of_intermediate_pores_along_ossified_portion_of_sensory_canal_of_second_infraorbital,
+		9  Fusion_of_fourth_and_fifth_infraorbitals,
+		10  Relative_height_of_fourth_and_fifth_infraorbitals,
+		11  Degree_of_development_of_flange_of_fifth_infraorbital_posterior_of_sensory_canal,
+		12  Branching_and_poring_pattern_of_sensory_canals_in_sixth_infraorbital,
+		13  Overlap_of_anteroventral_process_of_sphenotic_by_sixth_infraorbital,
+		14  Posterior_extent_of_sixth_infraorbital_and_fusion_with_suprapreopercle,
+		15  Form_and_orientation_of_anterior_portion_of_mesethmoid,
+		16  Presence_or_absence_of_lateral_process_of_anterior_portion_of_mesethmoid,
+		17  Orientation_of_ventral_process_of_mesethmoid_contacting_anterior_limit_of_vomer,
+		18  'Presence or absence of ventromedial plate-like process of mesethmoid',
+		19  Width_of_mesethmoid,
+		20  Presence_or_absence_of_deep_grooves_on_each_side_of_vomer_that_receive_dorsal_portion_of_mesopterygoid_and_metapterygoid,
+		21  Presence_or_absence_of_pentagonal_ventral_extension_of_vomer,
+		22  Form_of_articulation_of_vomer_with_palatine,
+		23  Presence_or_absence_of_lateral_ethmoid?ectopterygoid_ligament,
+		24  Insertion_of_lateral_ethmoid?ectopterygoid_ligament_on_lateral_ethmoid,
+		25  Presence_or_absence_of_distinct_notch_in_wing_of_lateral_ethmoid,
+		26  Presence_or_absence_of_fenestra_on_portion_of_lateral_wing_of_lateral_ethmoid_situated_dorsal_to_lateral_ethmoid?ectopterygoid_ligament,
+		27  Presence_or_absence_of_process_of_lateral_ethmoid_directed_towards_posterolateral_corner_of_mesethmoid,
+		28  'Degree of development of frontal-parietal fontanel',
+		29  Dorsoventral_depression_of_neurocranium,
+		30  'Width of bony shelf above orbit formed by lateral ethmoid, frontal and sphenotic bones',
+		31  Number_of_teeth_on_premaxilla,
+		32  Number_of_cusps_on_symphyseal_tooth_of_premaxilla,
+		33  Number_of_cusps_on_second_and_third_teeth_of_premaxilla,
+		34  Structure_of_medial_surface_of_second_and_third_teeth_of_premaxilla,
+		35  Curvature_of_dentition_on_premaxilla,
+		36  Number_of_teeth_on_dentary,
+		37  Overall_shape_of_dentary_teeth,
+		38  Form_of_posterior_lamina_of_dentary_teeth,
+		39  Presence_or_absence_of_distinct_notch_in_posterior_lamina_of_symphyseal_tooth_of_dentary,
+		40  Presence_or_absence_of_distinct_notch_on_posterior_lamina_of_second_or_third_tooth_of_dentary,
+		41  Cusping_of_main_body_of_symphyseal_tooth_of_dentary,
+		42  Cusping_of_main_body_of_second_tooth_of_dentary,
+		43  Cusping_of_main_body_of_third_tooth_of_dentary,
+		44  Presence_or_absence_of_cusps_on_posterior_lobes_of_dentary_teeth,
+		45  Form_of_ascending_process_of_premaxilla,
+		46  Orientation_of_premaxilla,
+		47  'Presence or absence of block-like anterodorsal process of premaxilla',
+		48  Orientation_of_maxilla,
+		49  Insertion_of_primordial_ligament_on_medial_surface_of_maxilla,
+		50  Form_of_insertion_of_anterolateral_flange_of_maxilla_on_flat_ventral_portion_of_maxilla,
+		51  Rotation_of_ventral_portion_of_maxilla_relative_to_anterolateral_flange_of_maxilla,
+		52  Width_of_ventral_portion_of_maxilla,
+		53  Form_of_dorsal_tip_of_maxilla,
+		54  Form_of_contact_of_dorsal_portion_of_maxilla_with_anterolateral_and_posterior_portions_of_maxilla,
+		55  Width_of_ascending_process_of_anguloarticular,
+		56  'Presence or absence of trough-like form of dorsal portion of ascending process of anguloarticular',
+		57  Elongation_of_dentary,
+		58  Form_of_anterior_margin_of_dentary_and_angle_of_teeth,
+		59  Angle_formed_by_long_axis_of_dentary_and_long_axis_of_anguloarticular,
+		60  Form_of_dentary_replacement_tooth_trench_or_crypt,
+		61  Presence_or_absence_of_sensory_canal_of_dentary,
+		62  Length_of_sensory_canal_of_dentary,
+		63  Presence_or_absence_of_pore_on_midlength_of_sensory_canal_segment_of_dentary,
+		64  Form_of_retroarticular,
+		65  Relative_position_of_retroarticular_and_dentary,
+		66  Presence_or_absence_of_dermal_papillae_on_lower_lip,
+		67  Presence_or_absence_of_distinct_process_of_palatine,
+		68  Orientation_of_process_of_palatine,
+		69  Length_of_process_of_palatine,
+		70  Shape_of_palatine,
+		71  Morphology_of_anterodorsal_process_of_ectopterygoid,
+		72  Alignment_of_ectopterygoid,
+		73  Presence_or_absence_of_distinct_process_on_posterolateral_surface_of_the_ectopterygoid,
+		74  'Posteriorly-directed dorsolateral process of mesopterygoid',
+		75  Association_of_quadrate_with_mesopterygoid,
+		76  Form_of_association_of_posterodorsal_and_posterior_processes_of_quadrate,
+		77  Posterior_extent_of_lateral_shelf_of_quadrate,
+		78  Anterior_extent_of_lateral_shelf_of_quadrate,
+		79  'Aspect ratio of metapterygoid-quadrate fenestra',
+		80  'Length of cartilage body spanning ventral section of metapterygoid-quadrate fenestra',
+		81  Faceting_of_metapterygoid,
+		82  Presence_or_absence_of_lateral_shelf_on_metapterygoid,
+		83  'Length of interopercular-mandibular ligament',
+		84  Presence_or_absence_of_large_shelf_on_lateral_surface_of_preopercle_that_serves_as_origin_for_portion_of_adductor_mandibulae_muscle,
+		85  Form_of_anterodorsal_process_of_preopercle,
+		86  Form_of_anterior_margin_of_ascending_arm_of_preopercle,
+		87  Length_of_symplectic,
+		88  Shape_of_ventral_lamina_of_symplectic,
+		89  'Position of joint of interhyal, metapterygoid, symplectic and hyomandibular',
+		90  Form_of_posterodorsal_margin_of_opercle,
+		91  Presence_or_absence_of_curved_anterior_process_of_third_epibranchial_that_extends_medially_over_dorsal_surface_of_fourth_infrapharyngobranchial,
+		92  Presence_or_absence_of_ossified_first_basibranchial,
+		93  Morphology_of_second_basibranchial,
+		94  Number_of_full_tooth_rows_on_fifth_upper_pharyngeal_tooth_plate,
+		95  'Form of cusping of teeth on fifth upper pharyngeal tooth-plate',
+		96  'Number of complete rows of teeth on tooth-plate of fifth ceratobranchial',
+		97  Length_of_dorsal_margin_of_anterior_ceratohyal,
+		98  Presence_or_absence_of_inflection_point_in_joint_between_anterior_and_posterior_ceratohyals_and_corresponding_process_of_anterior_ceratohyal_running_ventral_to_posterior_ceratohyal,
+		99  'Height of, and angle between, dorsal and ventral margins of urohyal',
+		100  Number_of_branchiostegal_rays,
+		101  'Presence or absence of anteriorly-directed process of fourth pleural rib',
+		102  Curvature_of_fourth_pleural_rib,
+		103  Development_and_curvature_of_os_suspensorium,
+		104  Shape_of_neural_complex_and_angle_of_dorsal_margin_of_neural_complex_relative_to_anteriorposterior_axis_of_fish,
+		105  Presence_or_absence_of_dorsal_process_of_third_vertebra_overlapping_neural_complex_laterally,
+		106  Presence_or_absence_of_supraneural_dorsal_to_Weberian_apparatus,
+		107  Presence_or_absence_of_two_or_more_intercostal_ligaments_uniting_in_total_four_or_more_of_the_anterior_full_ribs,
+		108  'Modal number of branched dorsal-fin rays',
+		109  Development_of_dorsomedial_flange_of_mesocoracoid,
+		110  Width_of_dorsal_portion_of_supracleithrum,
+		111  'Modal number of branched pelvic-fin rays',
+		112  'Modal number of branched anal-fin rays',
+		113  Form_of_connection_of_primary_rays_of_caudal_fin,
+		114  Squamation_of_caudal_fin,
+		115  Number_of_lateral_line_scales,
+		116  Vertical_bands_encircling_body,
+		117  Possession_and_form_of_dark_vertical_blotches_on_lateral_surface_of_body,
+		118  'Presence or absence of lateral-line spots',
+		119  'Presence or absence of dark spots above and below lateral-line',
+		120  'Presence or absence of complete dark stripe along lateral-line scale row',
+		121  'Presence or absence of longitudinal stripes located dorsal and ventral to lateral-line scale row',
+		122  Presence_or_absence_of_small_dark_spots_positioned_at_centers_of_scales,
+		123  Striping_of_caudal_fin,
+		124  Presence_or_absence_of_trifurcate_articular_complex_at_anterior_margin_of_mesethmoid,
+		125  Form_of_border_of_third_posttemporal_fossa,
+		126  Depth_and_width_of_fossa_for_scaphium,
+		127  Development_of_lateral_margin_of_exoccipital_lateral_to_foramen_magnum,
+		128  Presence_or_absence_of_reduced_teeth_not_in_direct_contact_with_the_jaws,
+		129  Presence_or_absence_throughout_ontogeny_of_dentition_implanted_on_the_maxilla,
+		130  Presence_or_absence_of_premaxillary_articular_fossa,
+		131  Presence_or_absence_of_dentary_replacement_tooth_trench,
+		132  'Presence or absence of well-developed lateral shelf on quadrate',
+		133  Presence_or_absence_of_hyomandibular_process_that_extends_over_posterodorsal_region_of_metapterygoid,
+		134  Subdivision_of_anterior_portion_of_preopercular_laterosensory_canal_into_two_or_more_ossified_tubes,
+		135  'Presence or absence of distinct, posteroventrally aligned flange on lateral surface of opercle or further derived condition of that process',
+		136  Length_of_hyoid_arch,
+		137  Angle_of_articulation_between_ventral_portions_of_anterior_and_posterior_ceratohyals,
+		138  Form_of_posterolateral_portion_of_third_infrapharyngobranchial,
+		139  Form_of_posterior_region_of_third_infrapharyngobranchial,
+		140  Form_of_uncinate_process_of_third_epibranchial,
+		141  Subdivision_of_anterior_articular_surface_of_the_third_epibranchial,
+		142  Form_of_anterior_process_of_fourth_epibranchial,
+		143  Alignment_of_dorsal_process_of_fourth_epibranchial,
+		144  Form_of_dorsal_process_of_fourth_epibranchial,
+		145  Form_of_cartilaginous_fifth_epibranchial,
+		146  'Form of complex formed by fourth infrapharyngobranchial and fourth upper pharyngeal tooth-plate',
+		147  'Form of fourth upper pharyngeal tooth-plate',
+		148  'Alignment and contact of fourth and fifth upper pharyngeal tooth-plates',
+		149  'Contact of fourth and fifth upper pharyngeal tooth-plate',
+		150  'Vertical thickness of fifth upper pharyngeal tooth-plate',
+		151  'Presence or absence of dentition on fourth upper pharyngeal tooth-plate',
+		152  'Size of dentition on fifth upper pharyngeal tooth-plate and plate of fifth ceratobranchial',
+		153  Presence_or_absence_of_anteromedially_directed_process_on_fourth_ceratobranchial?s_ventral_surface,
+		154  'Presence or absence of large sac-like, muscular epibranchial organ that extends dorsal to medial elements of dorsal portion of gill arches',
+		155  Presence_or_absence_of_ventral_elaborations_of_second_and_third_vertebrae,
+		156  Fusion_of_postcleithra_2_and_3,
+		157  Presence_or_absence_of_two_or_more_intercostal_ligaments_that_join_three_or_more_anterior_full_pleural_ribs,
+		158  Fusion_of_hypurals_1_and_2,
+		;
+
+MATRIX
+[                                      10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160     ]
+[                                       .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .     ]
+Abramites_hypselonotus         11002011010000100100001010110032200400111110110110000000000111000011000110010000001100101010022100000002101111020001000000000000100111011010010100011111000010
+Anostomoides_laticeps          1100201201001010110001100110004231040{01}00111?110110000000000111001011000110110001001100101110012100000000101100010000100100000000100111011010010100011111000010
+Anostomus_anostomus            1001201101010110011012101001004330040100223?12011100000001011100100??01211112011101110100011012100010000011100010000000111000000100111011010010100011111000010
+Anostomus_ternetzi             1001201101011110011012101001004330040100223?12011100000001011100100??01211112011101110100011012100000000011100010000000110000000100111011010010100011111000010
+Brycon_falcatus                0100201000000010?000010??000005330075100533?0000011000000000100210???0200000????000020101101021200010000110000020000010000000000000000000000000000000000000000
+Caenotropus_maculosus          0000101200100001?010011200000051100{12}4100111?010001110000000?100010???000000010??000020001101013200011100000000000000000101000001101110011010010100011111000010
+Caenotropus_mestomorgmatos     0000101200100001?010011200000051100{456}4100111?010001110000000?100010???000000010??000020001101013200011100000000010000000001000001101110011010010100011111000010
+Chilodus_punctatus             00001011001000101010011200000051100{456}4100111?010001110000000?100010???000000010??000021001101013200010000000000020000000101000001101110011010010100011111000?10
+Citharinus_Sp.                 0100100100101010?000010??000005220074100222?0000011100000000100210???02000?1????00002000110000?0000100000102001200?????????10000110000100010000000000010001101
+Curimata_inornata              0000001100100010?000010??000000????0????????000001110000000?100210???0200011?0??00002000110000?000010000000000{01}{012}0000000000001110101000100101101011101010110000
+Curimatopsis_microlepis        ??0?0?1000111010?000010??000000????0????????000001110000000?100210???0200011?0??0000201011000111000100000000000{01}0000000000001110101000100101101011101010110000
+Distichodus_Sp.                00002012001000101000000??001005220074100222?01001111000001110??210???02000012???0000201011010212000100000102001200?????????10000010100001001000000000000001101
+Gnathodolus_bidens             101120110000101001111?0?10000042{23}?11111?2??0120111111100110101?0110??1120011011?101111100011012100110000011100010000010000000000100111011010010100011111000010
+Hemiodus_ocellatus             0100101100000010?010020??00000555000????????000001100000000?100210???0200001????000020001101021200010000110000120010?10000011000001000000000000000000000100001
+Hypomasticus_despaxi           101010121?011001211001100000003220032???????10001000001100011100001100001001000000110010101102210001000001110001000000011?000000100111011010010100011111000010
+Hypomasticus_megalepis         101010121?001001110001100000003120040000111?100010000011000111000011000010010000001100101011022100010000111100010000011000000000100111011010010100011111000010
+Hypomasticus_mormyrops         101010120001{01}0012110011000000041200400011110101010000011000111000011000010010000001100101011022200010000111100010000010000000000100111011010010100011111000010
+Hypomasticus_pachycheilus      10002011000010012110011000000041200400011110101010000011000111000011000010010000001100101011022200010000011100010000011000000000100111011010010100011111000010
+Laemolyta_garmani              1100201101101010110000100010004330040100000?120110000000010111001011000110111001001100101111012100010000101100010000000100000000100111011010010100011111000010
+Laemolyta_orinocensis          11002011{01}1101010110000100010004440040100000?120110000000010111001011000110111001001100101111012100010000101100010000100100000000100111011010010100011111000010
+Laemolyta_proxima              1100201101101010100000100010004440040100000?120110000000010111001011000110111001001100101111012100010000001100010000100100000000100111011010010100011111000010
+Laemolyta_taeniata             1100201101101010110000100010004440040100000?120110000000010111001011000110111001001100101111012100010000101100010000000100000000100111011010010100011111000010
+Leporellus_pictus              00001012000000000010001001000042{12}0040000111?110000010000000111010010000010000000001100001011121201010000011100010100000101100000100111011010010100011111000010
+Leporellus_vittatus            0000101200000000001000100100004230040000111?110000010000000111010010000010000000001100001011122201010000011100010100000101100000100111011010010100011111000010
+Leporinus_agassizi             1100101200001010110000100000004221040000111?110110000000000111000011000110010000001100101011012100010000111100010000000000000000100111011010010100011111000010
+Leporinus_aripuanaensis        110010121?001010110000100010004121040000111?110110000000000111000011000110010000001100101011012?00010000111100010000010000000000100111011010010100011111000010
+Leporinus_cf._ecuadorensis     1100201200001010110000100010004221040000111?1101100000000001111000110001100100000011001010110121000100001{01}1100010000010000000000100111011010010100011111000010
+Leporinus_cf._fasciatus        1100101200001010110000100010004231040000111?110110000000000111000011000110010001001100101011012100010000111100110001000000000000100111011010010100011111000010
+Leporinus_cf._moralesi         1100{12}012000010101100001000000033310400011210110110000000000111000011000110010000001100101011012100010000011100010000010000000000100111011010010100011111000010
+Leporinus_cf._niceforoi        1100101200001010110000100010004331040000111?110110000000000111000011000010010000001100101010012100010000111100010000010000000000100111011010010100011111000010
+Leporinus_fasciatus            1100101200001010110000100010004231040000111?110110000000000111000011000110010000001100101011012100010000111100110001000000000000100111011010010100011111000010
+Leporinus_friderici            110010120000?010110000100010004331040000111?110110000000000111000011000110010000001100101011012100010000111100010000010000000000100111011010010100011111000010
+Leporinus_gomesi               11101012000{01}1010110000100000004121040000111?110110000000000111000011000110010000001100101011022100010000111100010000011002000000100111011010010100011111000010
+Leporinus_jatuncochi           1100101200001000110000100010003331231000111?11011000000000011100001100011001000100110010101?012100010000111100110001000000000000100111011010010100011111000010
+Leporinus_ortomaculatus        110010121?001010110000100010004331040000111?110110000000000111000011000110010000001100101011012100010000111100010000011000000000100111011010010100011111000010
+Leporinus_pellegrinii          110010121?001010110000100010004330040000111?110110000000000111000011000110010001001100101011012100010000011100010000100000000000100111011010010100011111000010
+Leporinus_striatus             11002011000{01}{01}010110000101010003220040000111?110110000000000111000011000110010000001100101011012100010000001100010000000110000000100111011010010100011111000010
+Leporinus_tigrinus             110010131?001010110000100010003331040000111?110110000000000111000011000110010001001100101011012100010000011100110001000000000000100111011010010100011111000010
+Parodon_suborbitalis           0000101100010010?010020??001004550036100111?1000111000000000100210???0200010?????00020001010021200010000000100000000000100011000010010000000000000000000000000
+Petulanos_intermedius          1001101201011110011012101000004230040100113?12011101100001011100100??01211112111101110110011012100110000011100010000010000000000100111011010010100011111000010
+Petulanos_plicatus             1001101201011110011012101000004230040100113?12011101100001011100100??01211112111101110110011012110110000011100010000010000000000100111011010010100011111000010
+Potamorhina_laticeps           0100001100021010?000010??000000????0????????000001110000000?100210???0200011?0??00002000110000?000010000000{01}00{01}20010000000001110101000100101101011101010110000
+Prochilodus_rubrotaeniatus     0000201100020010?000020??000005110073100111?0000010100000002110000???020001000??00110000110100?000010000100{01}00010000000000000111100101100101101011101010110000
+Pseudanos_gracilis             1101101101011110010010101000004330040100223?12011100100001011100100??00210112001101110101{01}10012100000000011100010000010001000000100111011010010100011111000010
+Pseudanos_irinae               1??1?01101?1?110010010100001004330040100223?1201?????????????????00??00210112001101110?01110012100?0?0000{01}1100010000010001000000100111011010010100011111000010
+Pseudanos_trimaculatus         1101201101011110010010100001004330040100223?12011100000001011100100??00210112001101110101110012100000000011100010000010000000000100111011010010100011111000010
+Pseudanos_winterbottomi        1101201101011110010010101000004330040100223?12011100100001011100100??00210112011101110101110012100010000011100010000000101000000100111011010010100011111000010
+Rhytiodus_argenteofuscus       1100{23}101011010101100011000101144300400012211110110000000010111101011000110011001001100101110023200011101101100011000100100000000100111011010010100011111000010
+Rhytiodus_lauzannei            1100310{23}011010101100011000101143300400112221110110000000010111101011000110011001001100101110022100011111101100011010100000000000100111011010010100011111000010
+Rhytiodus_microlepis           11003102011010101100011000101143300400112221110110000000010111101011000110011001001100101110022100011111101100011010100000000000100111011010010100011111000010
+Sartor_elongatus               1001201101011010011010101000004330131100111?120111111100010101?0110??01211112111111111100011012100010000001100010000010000000000100111011010010100011111000010
+Schizodon_fasciatus            11001002010010101100011000100144400400113331110110000010010111101011100110010001001100101110023200010000101110011000100000000000100111011010010100011111000010
+Schizodon_isognathus           1110101{23}010010102?00011000000144400400112231110110000010011111101011000010010001001100101110023200010000101110011000000100000000100111011010010100011111000010
+Schizodon_knerii               11101012010010101?00011000000144400400113331110110000010011111101011000110010001001100101110023200010000101110011000100100000000100111011010010100011111000010
+Schizodon_nasutus              11002001010010002100011000100144400400112231100110000011011111101011000010010001001100101111023200010000101110011000000100000000100111011010010100011111000010
+Schizodon_scotorhabdotus       11001002010010101100011000100144400400113331110110000010010111101011000110010001001100101110022200010000101110001000100100000000100111011010010100011111000010
+Schizodon_vittatus             11001002010010101100011000100144400400113331110110000010010111101011100110010000001100101110023200010000101110011000100000000000100111011010010100011111000010
+Semaprochilodus_insignis       0100101300001010?000020??000005110073100111?0000010100000002110000???020001000??00110000110100?000010000000100010000000000100111100101100101101011101010110000
+Synaptolaemus_cingulatus       1001201101001010011012111000004330040100131?12011111100001011100110??01210112111101111100010012100110000011100010001000000000000100111011010010100011111000010
+Xenocharax_spilurus            0000100100000010?000010??000005220074100222?0000011100000000100210???0200000????000020101001021200010000010200120010000000010000010000000001000000000000001101
+;
+END;
+
+BEGIN TREES;
+      TITLE Anostomidae_Results;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Abramites_hypselonotus,
+            2    Anostomoides_laticeps,
+            3    Anostomus_anostomus,
+            4    Anostomus_ternetzi,
+            5    Brycon_falcatus,
+            6    Caenotropus_maculosus,
+            7    Caenotropus_mestomorgmatos,
+            8    Chilodus_punctatus,
+            9    Citharinus_Sp.,
+            10   Curimata_inornata,
+            11   Curimatopsis_microlepis,
+            12   Distichodus_Sp.,
+            13   Gnathodolus_bidens,
+            14   Hemiodus_ocellatus,
+            15   Hypomasticus_despaxi,
+            16   Hypomasticus_megalepis,
+            17   Hypomasticus_mormyrops,
+            18   Hypomasticus_pachycheilus,
+            19   Laemolyta_garmani,
+            20   Laemolyta_orinocensis,
+            21   Laemolyta_proxima,
+            22   Laemolyta_taeniata,
+            23   Leporellus_pictus,
+            24   Leporellus_vittatus,
+            25   Leporinus_agassizi,
+            26   Leporinus_aripuanaensis,
+            27   Leporinus_cf._ecuadorensis,
+            28   Leporinus_cf._fasciatus,
+            29   Leporinus_cf._moralesi,
+            30   Leporinus_cf._niceforoi,
+            31   Leporinus_fasciatus,
+            32   Leporinus_friderici,
+            33   Leporinus_gomesi,
+            34   Leporinus_jatuncochi,
+            35   Leporinus_ortomaculatus,
+            36   Leporinus_pellegrinii,
+            37   Leporinus_striatus,
+            38   Leporinus_tigrinus,
+            39   Parodon_suborbitalis,
+            40   Petulanos_intermedius,
+            41   Petulanos_plicatus,
+            42   Potamorhina_laticeps,
+            43   Prochilodus_rubrotaeniatus,
+            44   Pseudanos_gracilis,
+            45   Pseudanos_irinae,
+            46   Pseudanos_trimaculatus,
+            47   Pseudanos_winterbottomi,
+            48   Rhytiodus_argenteofuscus,
+            49   Rhytiodus_lauzannei,
+            50   Rhytiodus_microlepis,
+            51   Sartor_elongatus,
+            52   Schizodon_fasciatus,
+            53   Schizodon_isognathus,
+            54   Schizodon_knerii,
+            55   Schizodon_nasutus,
+            56   Schizodon_scotorhabdotus,
+            57   Schizodon_vittatus,
+            58   Semaprochilodus_insignis,
+            59   Synaptolaemus_cingulatus,
+            60   Xenocharax_spilurus;
+      TREE 'Fig. 5+' = [&R] ((9,(60,12)),(14,(5,(39,(((43,58),(11,42,10)),((8,(7,6)),((23,24),(((15,16),(17,18)),(33,(25,27,32,29,30,35,(1,37),(31,28,(34,38)),(2,(((48,(49,50)),(54,56,(53,55),(52,57))),((19,(22,(20,21))),(47,(44,45,46),((3,4),((41,40),(59,(13,51))))))))))))))))));
+      TREE 'Fig. 6+' = [&R] ((9,(60,12)),(14,(5,(39,(((43,58),(42,(11,10))),((8,(7,6)),((23,24),(((15,16),(17,18)),(33,(25,(27,(1,37)),(32,29,30,35,(((31,28),(34,38)),(2,(((48,(49,50)),((53,55),(54,56,(52,57)))),((19,(22,(20,21))),((44,(45,46)),(47,((3,4),((41,40),(59,(13,51)))))))))))))))))))));
+      TREE 'Fig. 7+' = [&R] ((23,24),(((15,16),(17,18)),(33,(25,27,32,29,30,35,(1,37),(31,28,(34,38)),(2,(((48,(49,50)),(54,56,(53,55),(52,57))),((19,(22,(20,21))),(47,(44,45,46),((3,4),((41,40),(59,(13,51))))))))))));
+
+
+
+END;

@@ -1,0 +1,76 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:48 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Austin C. 1995. Molecular and morphological evolution in South pacific scincid lizards:
+morphological conservatism and phylogenetic relationships of Papuan Lipinia
+(Scincidae). Herpetologica, 51(3): 291-300.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S357]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=6;
+        TAXLABELS
+            Lipinia_leptosoma
+            Lipinia_longiceps
+            Lipinia_noctua
+            Lipinia_pulchra
+            Lipinia_rouxi
+            Sphenomorphus_jobiensis
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M1942]
+
+	TITLE Table_2;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=12;
+	FORMAT DATATYPE=Standard SYMBOLS= "a b c" MISSING=? GAP= -;
+	CHARSTATELABELS
+		1  Aspartate_aminotransferase,
+		2  Aconitate_hydratase,
+		3  Creatine_kinase,
+		4  Glutathione_reductase,
+		5  'L-lditol dehydrogenase',
+		6  Isocitrate_dehydrogenase,
+		7  'L-Lactate dehydrogenase',
+		8  'L-Lactate dehydrogenase',
+		9  Malate_dehydrogenase,
+		10  Tripeptide_aminopeptidase,
+		11  Phosphoglucomutase,
+		12  Pyruvate_kinase,
+		;
+
+MATRIX
+Lipinia_leptosoma           bc??bbbcaaa?
+Lipinia_longiceps           baabbabaac{ab}a
+Lipinia_noctua              bbbaababbcab
+Lipinia_pulchra             abcababab?ac
+Lipinia_rouxi               bbbcbabab?ab
+Sphenomorphus_jobiensis     aba?bbbcabab
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb5142;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Sphenomorphus_jobiensis,
+            2    Lipinia_leptosoma,
+            3    Lipinia_longiceps,
+            4    Lipinia_pulchra,
+            5    Lipinia_rouxi,
+            6    Lipinia_noctua;
+      TREE Fig._3 = [&R] (1,(2,(3,(4,5,6)))Lipinia)Scincidae;
+
+
+
+END;

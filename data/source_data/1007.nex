@@ -1,0 +1,95 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:44 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Ott C.J., & Larson P. 2010. "A new, small ceratopsian dinosaur from the latest Cretaceous
+Hell Creek Formation, northwest South Dakota, United States: a preliminary
+description." In: Ryan M.J., eds. New Perspectives on Horned Dinosaurs. pp.
+203-218. Bloomington, University of Indiana Press.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S13167]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=16;
+        TAXLABELS
+            Achelousaurus
+            Anchiceratops
+            Arrhinoceratops
+            Avaceratops
+            Centrosaurus
+            Chasmosaurus
+            Diceratops
+            Einiosaurus
+            Pachyrhinosaurus
+            Pentaceratops
+            Protoceratops
+            Styracosaurus
+            Tatankaceratops
+            Torosaurus
+            Triceratops
+            Zuniceratops
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M13903]
+
+	TITLE Character_Matrix;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=73;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2" MISSING=? GAP= -;
+
+MATRIX
+[                            10        20        30        40        50        60        70   ]
+[                             .         .         .         .         .         .         .   ]
+Achelousaurus        01100??00?0?110120?11101??11110111111100111101000111111111111111011110111
+Anchiceratops        11111101?0100101110110101?0121201000110011001000000111110111111??11111211
+Arrhinoceratops      111111010?100101110110101?01?1?0100011001????0000001?111???1?????????????
+Avaceratops          ?1100??00?0?11?????????????1????10101??????????????1?111?111111???1????11
+Centrosaurus         01100??00?0?1101101110010111110111111100111101111101111111111111011110111
+Chasmosaurus         11111011?01000111?01100?00?1111010001110010010010001111101111111111111211
+Diceratops           1111100111110101110110101?01212010001101110?10000001?111???111???????????
+Einiosaurus          01100??00?0?110110111001??11110111111100111101000111111111111111011110111
+Pachyrhinosaurus     01100??00?0?110120?11101??11110111111100111101001111111111111111011110111
+Pentaceratops        11111011?01000111?0110001?01?110100011100100100100011111011111111?1111211
+Protoceratops        000?0???0?0?000000000????00000?00000000000?????????0000000000000000000000
+Styracosaurus        01100??00?0?110110111001?111110111111100111101111111111111111111011110111
+Tatankaceratops      11111??1???????11??111?1???1?1??????1????11?1??1???????1?1??11????1??????
+Torosaurus           1111100111??01011101101010012120100011011100100000011111011111???????????
+Triceratops          1111100111110101110110101001212110001100111010000001111101111111111111211
+Zuniceratops         ????????????????????10000????????????????????????????????01000???????????
+;
+END;
+
+BEGIN TREES;
+      TITLE Analysis_results;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Protoceratops,
+            2    Zuniceratops,
+            3    Achelousaurus,
+            4    Anchiceratops,
+            5    Arrhinoceratops,
+            6    Avaceratops,
+            7    Centrosaurus,
+            8    Chasmosaurus,
+            9    Diceratops,
+            10   Einiosaurus,
+            11   Pachyrhinosaurus,
+            12   Pentaceratops,
+            13   Styracosaurus,
+            14   Torosaurus,
+            15   Triceratops,
+            16   Tatankaceratops;
+      TREE Ceratopsidae_results = [&R] (1,(2,((6,((10,(3,11)),(7,13))),(16,(((4,5),(15,(9,14))),(8,12))))));
+
+
+
+END;

@@ -1,0 +1,135 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:40 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Caputo P., & Cozzolino S. 1994. A cladistic analysis of Dipsacaceae (Dipsacales).
+Plant Systematics and Evolution, 189: 41-61.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S111]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=30;
+        TAXLABELS
+            Acanthocalyx
+            Centranthus
+            Cephalaria_cephalaria
+            Cephalaria_fimbriatocarpus
+            Cephalaria_lobatocarpus
+            Cephalaria_phalacrocarpus
+            Cryptothladia
+            Dipsacus_dipsacus
+            Dipsacus_sphaerodipsacus
+            Knautia_knautia
+            Knautia_trichera
+            Knautia_tricheranthes
+            Lomelosia
+            Lomelosia_brachiata
+            Morina
+            Nardostachys
+            Patrinia
+            Pseudoscabiosa
+            Pterocephalidium_diandrum
+            'Pterocephalus {asi}'
+            'Pterocephalus {pte}'
+            Pycnocomon_intermedium
+            Pycnocomon_rutifolium
+            Scabiosa
+            Scabiosiopsis
+            Sixalix
+            Succisa
+            Succisella
+            Triplostegia
+            Valeriana
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M640]
+
+	TITLE Table_x;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=45;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2 3 4 5 6 7 8 *" MISSING=? GAP= -;
+
+MATRIX
+[                                      10        20        30        40        50 ]
+[                                       .         .         .         .         . ]
+Acanthocalyx                   011{01}000001201100-20-000100-001100010000001-03
+Centranthus                    00000000100---------00103113*101--0000000001-
+Cephalaria_cephalaria          0200101101200002120-1100**{01}01100201000010000*
+Cephalaria_fimbriatocarpus     02001011012000021800110010-011001010000100000
+Cephalaria_lobatocarpus        0200101101200002030-010010-011001010000100000
+Cephalaria_phalacrocarpus      0200101101200002150-110010-01100201000010000?
+Cryptothladia                  111{01}000{01}01201100-20-000100-101100010100001-03
+Dipsacus_dipsacus              02000011012000020100110010-011000010000100000
+Dipsacus_sphaerodipsacus       02000011012000010*0-110000-011000010000100000
+Knautia_knautia                0200011101211200-60-010010-021000000101100004
+Knautia_trichera               0200011101211200-40-010033{01}021000000101100005
+Knautia_tricheranthes          0200011101211200-60-010010-021000000101100005
+Lomelosia                      0200001{01}012000223800101032000100010110110010*
+Lomelosia_brachiata            020000100120002238001010320001000101101100106
+Morina                         1110000001201100-20-000100-101100010100001-03
+Nardostachys                   {01}0000000100---------000000-0*001--00000000012
+Patrinia                       00{01}00000000---------000000-{03}*000--00000000011
+Pseudoscabiosa                 0200001{01}0120001218001010320001000001000110105
+Pterocephalidium_diandrum      02000011012000020*0-1010311101000201100110104
+'Pterocephalus {asi}'          0200001{01}0120000208001010311001000?01010100104
+'Pterocephalus {pte}'          0200021{01}012000020*0{01}1010311001000001010100100
+Pycnocomon_intermedium         0201001{01}0120000227111010310001000101101100100
+Pycnocomon_rutifolium          0201001{01}0120000227111010320001000101101100100
+Scabiosa                       0200001{01}012000020800101032000100010100{01}100104
+Scabiosiopsis                  020??0100120002??8001010340???00?????????????
+Sixalix                        0200001{01}0120000227111010320001000201000100104
+Succisa                        0200001{01}01200002030-00103200010000010{01}0100105
+Succisella                     02000011012000020*0-001020-001000001000100105
+Triplostegia                   00?000000011000??00-000000-0010?001?0????0??0
+Valeriana                      00000000100---------001031122101--0000000001-
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb4830;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Scabiosiopsis,
+            2    Pseudoscabiosa,
+            3    Scabiosa,
+            4    Sixalix,
+            5    Lomelosia,
+            6    Lomelosia_brachiata,
+            7    Pterocephalidium_diandrum,
+            8    'Pterocephalus {pte}',
+            9    Pycnocomon_intermedium,
+            10   'Pterocephalus {asi}',
+            11   Pycnocomon_rutifolium,
+            12   Succisella,
+            13   Succisa,
+            14   Knautia_trichera,
+            15   Knautia_tricheranthes,
+            16   Knautia_knautia,
+            17   Cephalaria_phalacrocarpus,
+            18   Cephalaria_cephalaria,
+            19   Cephalaria_fimbriatocarpus,
+            20   Cephalaria_lobatocarpus,
+            21   Dipsacus_sphaerodipsacus,
+            22   Dipsacus_dipsacus,
+            23   Morina,
+            24   Cryptothladia,
+            25   Acanthocalyx,
+            26   Triplostegia,
+            27   Nardostachys,
+            28   Patrinia,
+            29   Valeriana,
+            30   Centranthus;
+      TREE Fig._1 = [&R] ((28,(27,(29,30))),(26,((25,(23,24)),((21,(22,(20,(19,(18,17)))Cephalaria)),((14,(16,15))Knautia,(12,(13,(2,((7,(10,8)Pterocephalus),(3,((5,6,1),(4,(9,11)Pycnocomon))))))))))))Dipsacales;
+
+
+
+END;

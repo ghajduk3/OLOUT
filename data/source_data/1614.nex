@@ -1,0 +1,129 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:49 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Olmstead R. 1989. Phylogeny, phenotypic evolution, and biogeography of the Scutellaria
+angustifolia Complex (Lamiaceae): Inference from morphological and molecular
+data. Systematic Botany, 14: 320-338.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S351]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=16;
+        TAXLABELS
+            Scutellaria_angustifolia_angust
+            Scutellaria_angustifolia_micran
+            Scutellaria_antirrhinoides
+            Scutellaria_bolanderi
+            Scutellaria_brittonii
+            Scutellaria_californica
+            Scutellaria_galericulata
+            Scutellaria_lateriflora
+            Scutellaria_nana
+            Scutellaria_nervosa
+            Scutellaria_ovata
+            Scutellaria_parvula
+            Scutellaria_resinosa
+            Scutellaria_sapphirina
+            Scutellaria_siphocampyloides
+            Scutellaria_tuberosa
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M1776]
+
+	TITLE Table_2;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=28;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2 3 4" MISSING=? GAP= -;
+	CHARSTATELABELS
+		1  Perennating_structure / elongate_rhizomes tubers,
+		2  Persistent_root_crowns / absent sometimes_present,
+		3  Internode_elongation / normal dwarf,
+		4  Pubescence_type / 'type 1 (0.1-0.2 mm)' 'type II (0.5-1.0 mm)',
+		5  Direction_of_appressed_stem_hai / ascendant descendent,
+		6  'Gland-tipped trichomes' / 'present (or polymorphic)' absent,
+		7  'Leaf shape (ordered)' / cordate ovate rhomboid_or_obovate,
+		8  'Leaf margin (ordered)' / crenate basal_leaves_crenate_upper_leav all_leaves_entire,
+		9  'Blade length/width' / '<3.5' '>3.5',
+		10  Leaf_veins / not_prominent_on_adaxial_surfac prominent_on_adaxial_surface,
+		11  First_flowering_node_above_base / '<6' '6-10' '>10',
+		12  Upper_lobe_of_calyx / concave convex,
+		13  Crest_of_calyx / smooth_or_entire scalloped_or_crenate,
+		14  'Length of corolla (unordered)' / '12-22 mm' '>22 mm' '<10 mm',
+		15  Corolla_color / 'blue-violet' 'white to pale creamy-yellow',
+		16  Mottling_on_lower_lip_of_coroll / always_present polymorphic absent,
+		17  Conformation_of_lower_lip_of_co / spreading reflexed,
+		18  'Corolla palate hairs (ordered)' / dense 'sparse (or polymorphic)' glabrous,
+		19  'Gland-tipped trichomes on corol' / 'present (or polymorphic)' absent,
+		20  Color_of_gynoecial_disk / 'green-yellow' 'orange- red',
+		21  Nutlet_color / black brown,
+		22  'Nutlet shape (unordered)' / ovoid_flattened subglobose turbinate ovoid_not_flattened,
+		23  Circumferential_band_on_nutlet / band_composed_of_fused_papillae band_of__missing_papillae no_band,
+		24  'Shape of papillae on nutlets (u' / small cylindrical_to_conical large_conical large_irregularly_shaped small_rounded,
+		25  Shape_of_nutlet_epidermal_cells / elongate hemispheric_or_polygonal,
+		26  Nutlet_epidermal_cell_apical_pr / 'elongate bulbous-tipped' short no_protuberance,
+		27  'Flowering phenology (ordered)' / 'April-May' 'June-July' 'July-August',
+		28  'Chromosome number 2n (unordered' / 24 22 20 32 88,
+		;
+
+MATRIX
+[                                           10        20        ]
+[                                            .         .        ]
+Scutellaria_angustifolia_angust     0000001210100001010000000110
+Scutellaria_angustifolia_micran     0000011200000100011000000110
+Scutellaria_antirrhinoides          0000001100100100001000000110
+Scutellaria_bolanderi               0001-00000201110000011000120
+Scutellaria_brittonii               0000101211100001020000010111
+Scutellaria_californica             0100001100100112000000100110
+Scutellaria_galericulata            0000100000210101021013230223
+Scutellaria_lateriflora             0000010000-10-0-021013230224
+Scutellaria_nana                    0010102200000111011100000010
+Scutellaria_nervosa                 000001110000020001011000011-
+Scutellaria_ovata                   000-11000-20000012001323----
+Scutellaria_parvula                 0000001200000200011110000112
+Scutellaria_resinosa                --001012000001000100032-110-
+Scutellaria_sapphirina              0000112200000100021000000010
+Scutellaria_siphocampyloides        0000001110100001100000100110
+Scutellaria_tuberosa                1001-11000010100001002221100
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb5136;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Scutellaria_angustifolia_angust,
+            2    Scutellaria_angustifolia_micran,
+            3    Scutellaria_antirrhinoides,
+            4    Scutellaria_bolanderi,
+            5    Scutellaria_brittonii,
+            6    Scutellaria_californica,
+            7    Scutellaria_nana,
+            8    Scutellaria_sapphirina,
+            9    Scutellaria_siphocampyloides,
+            10   Scutellaria_tuberosa,
+            11   Scutellaria_galericulata,
+            12   Scutellaria_lateriflora,
+            13   Scutellaria_nervosa,
+            14   Scutellaria_parvula,
+            15   Scutellaria_ovata,
+            16   Scutellaria_resinosa;
+      TREE Fig._4A = [&R] (4,(10,((5,(8,7)),((2,1),(3,(9,6))))))Scutellaria;
+      TREE Fig._1C = [&R] (11,(4,(10,((((8,7),2),(1,5)),3,9,6))))Scutellaria;
+      TREE Fig._1A = [&R] (15,((12,11),(4,(((10,((14,13),2,(8,7))),3),(1,5),9,6))))Scutellaria;
+      TREE Fig._1B = [&R] (4,(10,((7,8),2),3,((1,5),9),6))Scutellaria;
+      TREE Fig._1D = [&R] (4,(10,((((8,7),2),(1,5)),3,(9,6))))Scutellaria;
+      TREE Fig._4B = [&R] (4,(10,(((6,9),3),((1,2),((7,8),5)))))Scutellaria;
+
+
+
+END;

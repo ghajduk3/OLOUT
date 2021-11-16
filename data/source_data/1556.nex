@@ -1,0 +1,118 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:49 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Molina A., Acedo C., & Llamas F. 2008. Taxonomy and new taxa of the Carex divulsa
+aggregate in Eurasia (section Phaestoglochin, Cyperaceae). Botanical Journal of
+the Linnean Society, 156(3): 385-409.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S2100]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=10;
+        TAXLABELS
+            Carex_coriogyne
+            Carex_cyprica
+            Carex_divulsa
+            Carex_egorovae
+            Carex_enokii
+            Carex_leersii
+            Carex_magacis
+            Carex_nordica
+            Carex_otomana
+            Carex_otrubae
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M3294]
+
+	TITLE Carex_divulsa_aggregate;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=40;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2 3 4 5 6 7 8 9 A" MISSING=? GAP= -;
+	CHARSTATELABELS
+		1  Awn_female_glume / '-' '+.',
+		2  Auricle_leaf_blade / '-' '+.',
+		3  Spikes_contiguous / '+' '-.',
+		4  Perigynium_beak_colour / green brown.,
+		5  Ripe_achene_brown / '-' '+.',
+		6  Begining_of_anthesis / spring summer.,
+		7  Scarious_margin_of_female_glume / '-' '+ laterally' complete.,
+		8  Shape_spike / globular 'globular-elliptic' elliptic oblong.,
+		9  Apex_of_female_glume / 'rounded-obtuse' acute apiculate acuminate.,
+		10  Colour_female_glume / hyaline 'gold-beige' light_brown dark_brown purplish_brown.,
+		11  Shape_perigynium / rounded oval ovate trullate oblong obovate.,
+		12  Apex_of_beak / bidentate bifid variable.,
+		13  Beak_margins / smooth serrulate irregular_serrulate scarcely_serrulate.,
+		14  Shape_female_glume / oval ovate obovate.,
+		15  Perigynium_base_corky / '-' little '+.',
+		16  Attenuation_perigynium_beak / gradually gradually_to_abrupt abrupt.,
+		17  Position_of_perigynium / erect erect_patent patent very_patent.,
+		18  Winged_margin_of_perigynium_body / '-' from_summit_to_half_body all_over_body wing_variable.,
+		19  L_inflorescence / up_to_30 '30-50' '50-70' more_than_70_mm.,
+		20  L_lowest_bract / '< 11' '11-18' '18-24' '> 24 mm',
+		21  Distance_between_lowermost_spikes / '< 8' '8-15' '15-19' '> 19 mm',
+		22  Maximum_distance_between_2sd_3th_spikes / '< 6' '6-9' '9-15' '> 15 mm',
+		23  No._branches_first_order / '< 5' '5-9' '9-12' '> 12 mm',
+		24  L_perigynium / '< 4.0' '4.0-4.5' '4.5-4.75' '4.75-5.0' '> 5.0 mm',
+		25  W_perigynium / '< 2.0' '2.0-2.125' '2.125-2.25' '2.25-2.55' '> 2.55 mm',
+		26  L_perigynium_beak / '< 0.8' '0.8-1.0' '1.0-1.2' '> 1.2 mm.',
+		27  'L apical tooth (abaxial)' / '< 0.4' '0.4-0.5' '0.5-0.6' '> 0.6 mm.',
+		28  'No. denticles beak.mm-1' / '< 10' '10-15' '> 15',
+		29  L_female_glume / '< 3.25' '3.25-3.50' '3.5-4.0' '> 4 mm',
+		30  W_female_glume / '< 1.80' '1.80-2.0' '2.0-2.15' '> 2.15 mm',
+		31  L_male_glume / '< 3.0' '3.0-3.25' '3.25-3. 5' '> 3.5 mm',
+		32  Distance_from_base_to_widest_point_of_perigynium / '< 1.35' '1.35-1.55' '1.55-1.75' '1.75-1.90' '> 1.90 mm.',
+		33  'Difference (W perigynium - W achene)/ 2' / '< 1.2' '1.2-1.6' '1.6-2.0' '2.0-2.5' '> 2.5 mm',
+		34  L_achene / '< 2.0' '2.0-2.5' '2.5-2.75' '> 2.75 mm',
+		35  L_apex_of_female_glume / '< 0.20' '0.20-0.23' '0.23-0.30' '0.30-0.35' '> 0.35 mm',
+		36  W_inflorescence / '< 8' '8-10' '10-12' '> 12 mm',
+		37  'L perigynium/W perigynium' / '< 1.600' '1.600-1.775' '1. 775-1.825' '1.825-1.975' '1.975-2.100' '2.100-2.275' '2.275- 2.400' '> 2.400',
+		38  'L achene /W achene' / '< 0.9' '0.9-1.1' '1.1-1.25' '1.25-1.30' '1.30-1.40' '> 1.40',
+		39  'L perigynium / L beak' / '< 3.50' '3.5-3.75' '3.75-4.25' '4.25-4.50' '4.50-4.75' '4.75-5.00' '5.00-5.40' '5.40-6.00' '6.00-6.50' '> 6.50',
+		40  'L perigynium /Distance from base to widest point of perigynium' / '< 2.50' '2.50-2.70' '2.70-3.00' '3.00-3.15' '3.15-3.30' '3.30-3.60' '3.60-3.90' '3.90-4.20' '> 4.20',
+		;
+
+MATRIX
+[                           10        20        30        40]
+[                            .         .         .         .]
+Carex_coriogyne     0010000010411102310100034002323433111291
+Carex_cyprica       0010000220111001101111300000000000113456
+Carex_divulsa       00000A013010300A203433101110110101204452
+Carex_egorovae      0010000130213111101211121331111111327614
+Carex_enokii        00000001300031021A3433234111333423313571
+Carex_leersii       00000111311A1AA0A01222122212211212216753
+Carex_magacis       0000012021311001322222124222132242124643
+Carex_nordica       0001111032111001321132112222111222205743
+Carex_otomana       0001102132211110202211243332323313328634
+Carex_otrubae       111101A2232A2120201301331321332041436709
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb9144;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Carex_coriogyne,
+            2    Carex_divulsa,
+            3    Carex_enokii,
+            4    Carex_cyprica,
+            5    Carex_nordica,
+            6    Carex_leersii,
+            7    Carex_magacis,
+            8    Carex_otomana,
+            9    Carex_egorovae,
+            10   Carex_otrubae;
+      TREE Fig._4 = [&R] (10,(9,(8,((6,(5,7)),(4,(2,(3,1)))))));
+
+
+
+END;

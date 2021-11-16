@@ -1,0 +1,550 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:50 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Vogel H., Altincicek B., Glöckner G., & Vilcinskas A. 2011. A comprehensive transcriptome
+and immune-gene repertoire of the lepidopteran model host Galleria mellonella.
+BMC Genomics, .
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S11399]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=168;
+        TAXLABELS
+            Anopheles_gambiae_GST
+            Anopheles_gambiae_GST1A
+            Anopheles_gambiae_GST1B
+            Anopheles_gambiae_GST1C
+            Anopheles_gambiae_GST1D
+            Anopheles_gambiae_GSTT2
+            Anopheles_gambiae_GSTT7
+            Anopheles_gambiae_GSTu1
+            Anopheles_gambiae_GSTu2
+            Blatella_germanica_GST1
+            Bombyx_mori_GST1
+            Bombyx_mori_GST10
+            Bombyx_mori_GST11
+            Bombyx_mori_GST12
+            Bombyx_mori_GST13
+            Bombyx_mori_GST14
+            Bombyx_mori_GST15
+            Bombyx_mori_GST2
+            Bombyx_mori_GST3
+            Bombyx_mori_GST4
+            Bombyx_mori_GST5
+            Bombyx_mori_GST6
+            Bombyx_mori_GST7
+            Bombyx_mori_GST8
+            Bombyx_mori_GST9
+            Culex_quinquefasciatus_GSTNeps
+            Dermatophagoides_pteronyssinus_GSTM1
+            Drosophila_erecta_GSTT1
+            Drosophila_mauritiana_GSTT1
+            Drosophila_melanogaster_GST1
+            Drosophila_melanogaster_GSTT1
+            Drosophila_melanogaster_GSTT2
+            Drosophila_melanogaster_GSTT3
+            Drosophila_melanogaster_GSTT4
+            Drosophila_melanogaster_GSTT5
+            Drosophila_melanogaster_GSTT6
+            Drosophila_melanogaster_GSTT7
+            Drosophila_melanogaster_GSTeps
+            Drosophila_sechellia_GSTT1
+            Drosophila_teissieri_GSTT1
+            Drosophila_yakuba_GSTT1
+            Galleria_mellonella_GST1
+            Galleria_mellonella_GST10
+            Galleria_mellonella_GST11
+            Galleria_mellonella_GST12
+            Galleria_mellonella_GST13
+            Galleria_mellonella_GST14
+            Galleria_mellonella_GST15
+            Galleria_mellonella_GST16
+            Galleria_mellonella_GST17
+            Galleria_mellonella_GST18
+            Galleria_mellonella_GST19
+            Galleria_mellonella_GST2
+            Galleria_mellonella_GST3
+            Galleria_mellonella_GST4
+            Galleria_mellonella_GST5
+            Galleria_mellonella_GST6
+            Galleria_mellonella_GST7
+            Galleria_mellonella_GST8
+            Galleria_mellonella_GST9
+            Helicoverpa_armigera_GST1
+            Helicoverpa_armigera_GST10
+            Helicoverpa_armigera_GST11
+            Helicoverpa_armigera_GST12
+            Helicoverpa_armigera_GST13
+            Helicoverpa_armigera_GST14
+            Helicoverpa_armigera_GST15
+            Helicoverpa_armigera_GST16
+            Helicoverpa_armigera_GST17
+            Helicoverpa_armigera_GST18
+            Helicoverpa_armigera_GST19
+            Helicoverpa_armigera_GST2
+            Helicoverpa_armigera_GST20
+            Helicoverpa_armigera_GST21
+            Helicoverpa_armigera_GST22
+            Helicoverpa_armigera_GST23
+            Helicoverpa_armigera_GST24
+            Helicoverpa_armigera_GST25
+            Helicoverpa_armigera_GST26
+            Helicoverpa_armigera_GST27
+            Helicoverpa_armigera_GST28
+            Helicoverpa_armigera_GST29
+            Helicoverpa_armigera_GST3
+            Helicoverpa_armigera_GST30
+            Helicoverpa_armigera_GST31
+            Helicoverpa_armigera_GST32
+            Helicoverpa_armigera_GST33
+            Helicoverpa_armigera_GST34
+            Helicoverpa_armigera_GST35
+            Helicoverpa_armigera_GST36
+            Helicoverpa_armigera_GST37
+            Helicoverpa_armigera_GST38
+            Helicoverpa_armigera_GST39
+            Helicoverpa_armigera_GST4
+            Helicoverpa_armigera_GST40
+            Helicoverpa_armigera_GST41
+            Helicoverpa_armigera_GST42
+            Helicoverpa_armigera_GST43
+            Helicoverpa_armigera_GST44
+            Helicoverpa_armigera_GST45
+            Helicoverpa_armigera_GST46
+            Helicoverpa_armigera_GST47
+            Helicoverpa_armigera_GST48
+            Helicoverpa_armigera_GST49
+            Helicoverpa_armigera_GST5
+            Helicoverpa_armigera_GST50
+            Helicoverpa_armigera_GST51
+            Helicoverpa_armigera_GST52
+            Helicoverpa_armigera_GST6
+            Helicoverpa_armigera_GST7
+            Helicoverpa_armigera_GST8
+            Helicoverpa_armigera_GST9
+            Homo_sapiens_GSTA3
+            Homo_sapiens_GSTO2
+            Homo_sapiens_GSTT1
+            Homo_sapiens_GSTT2
+            Homo_sapiens_GSTT4
+            Homo_sapiens_GSTome
+            Homo_sapiens_GSTsig
+            Homo_sapiens_GSTthe
+            Homo_sapiens_GSTzeta
+            Homo_sapiens_MGST1
+            Lucilia_cuprina_GSTT1
+            Manduca_sexta_GST2
+            Manduca_sexta_GSTT1
+            Musca_domestica_GST
+            Musca_domestica_GSTT1
+            Musca_domestica_GSTT2
+            Musca_domestica_GSTT3
+            Musca_domestica_GSTT4
+            Musca_domestica_GSTthe
+            Plutella_xylostella_GST1
+            Plutella_xylostella_GST10
+            Plutella_xylostella_GST11
+            Plutella_xylostella_GST12
+            Plutella_xylostella_GST13
+            Plutella_xylostella_GST14
+            Plutella_xylostella_GST15
+            Plutella_xylostella_GST16
+            Plutella_xylostella_GST17
+            Plutella_xylostella_GST18
+            Plutella_xylostella_GST19
+            Plutella_xylostella_GST2
+            Plutella_xylostella_GST20
+            Plutella_xylostella_GST3
+            Plutella_xylostella_GST4
+            Plutella_xylostella_GST5
+            Plutella_xylostella_GST6
+            Plutella_xylostella_GST7
+            Plutella_xylostella_GST8
+            Plutella_xylostella_GST9
+            Spodoptera_littoralis_GST1
+            Spodoptera_littoralis_GST10
+            Spodoptera_littoralis_GST11
+            Spodoptera_littoralis_GST12
+            Spodoptera_littoralis_GST13
+            Spodoptera_littoralis_GST14
+            Spodoptera_littoralis_GST15
+            Spodoptera_littoralis_GST16
+            Spodoptera_littoralis_GST17
+            Spodoptera_littoralis_GST2
+            Spodoptera_littoralis_GST3
+            Spodoptera_littoralis_GST4
+            Spodoptera_littoralis_GST5
+            Spodoptera_littoralis_GST6
+            Spodoptera_littoralis_GST7
+            Spodoptera_littoralis_GST8
+            Spodoptera_littoralis_GST9
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M8569]
+
+	TITLE GST_gene_tree;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=383;
+	FORMAT DATATYPE=Protein SYMBOLS= "A C D E F G H I K L M N P Q R S T V W Y * 1 2 3" MISSING=? GAP= -;
+
+MATRIX
+[                                                10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170       180       190       200       210       220       230       240       250       260       270       280       290       300       310       320       330       340       350       360       370       380       390  ]
+[                                                 .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .  ]
+Anopheles_gambiae_GST                    ------------------MPD--------------------------------------------------YKVYYFNVKALGEPLRFLLC----------------YG-NL-PFDDVRIT----------REEWP---AL----KP--TMPMGQMPVLEV-DGKK---VHQCVAMCRYLANQVG-----------LAGADDWENLMIDTVVD----------TVNDFR-LKIAIVAYEPDDMVK--EKKMVTLNNEVIPFYL-TKL-NVIAKE--NNGHLV-LGKPTWADVYFAGI-LDYLNYLT-------KTNLLENFPNLQEVVQKVLDNENVKAYI-AKRPITEV---------------------------------
+Anopheles_gambiae_GST1A                  -----------------------------------------------------------------------MDFYYLPGCAPCRAVQMTAA----------------AV-GV-ELNLKLTDLM------KGEHMKP---EF----LK--LNPQHCIPTLVDEDGFV---LWECRAIQIYLVEKYC--AHDPALAERLYPGDPRRRAVVHQRLFFDVAILYQR-FA-----EYYYPQIFGKKVAGD--PDRLRCMEQAL------EFL-NTFL-E--GERFVAGGDDPTIADFCILAFWIATFDAA--------GYDLRR-YENIHRWYEQTGNIVP--AAD-K-NL-AGAKIFGL----YFRQK-------------------
+Anopheles_gambiae_GST1B                  -----------------------------------------------------------------------MDFYYLPGCAPCRAVQMTAA----------------AV-GV-ELNLKLTDLM------KGEHMKP---EF----LK--LNPQHCVPTLVD-SGFA---LWECRAIMCYLVEKYG--K--PCNNDCLYPTDPQKRAIVNQRLYFDMGTLYQR-FG-----DYYYPQIFEGAPA-N--EANFAKIGEAL------AFL-DTFL-E--GERFVAGGNGYCLADICLYAT-LTTFEVA--------GYDFCA-YVNVLRWYKCMPELIP--ACD-T-NR-SWAEAARP----FFDKVKH-----------------
+Anopheles_gambiae_GST1C                  -----------------------------------------------------------------------MDFYYLPGCAPCRAVQMTAA----------------AV-GV-ELNLKLTDLM------KGEHMKP---EF----LK--INPQHCIPTLVD-NGFA---LWECRAICTYLAEKYG--K-----DDKLYPKDPQKRAVVNQRMYFDMGTLYQR-FA-----DYYYPQIFAKQPA-N--PENEQKMKDAV------GFL-NCFL-D--GHKYVA-GDCLTIADLCILAT-ICTYDVA--------GFDLAK-YQHVAAWYENIRKEAP--GAA-I-NQ-AGIEEFKK----YFEK--------------------
+Anopheles_gambiae_GST1D                  -----------------------------------------------------------------------MDFYYLPGCAPCRAVQMTAA----------------AV-GV-ELNLKLTDLM------KGEHMKP---EF----LK--LNPQHCIPTLVD-NGFA---LWECRAIQIYLAEKYG--K-----DDKLYPKDPQKRAVVNQRLYFDMGTLYQR-FA-----DYHYPQIFAKQPA-N--PENEKKMKDAV------GFL-NTFL-E--GQEYAA-GNDLTIADLCLAAT-IATYEVA--------GFDFAP-YPNVAAWFARCKANAP--GYA-L-NQ-AGADEFKA----KFLC--------------------
+Anopheles_gambiae_GSTT2                  -------------------M---------------------------------------------------LDFYYLPGCAPCRAVQMVAE----------------AV-HV-KLNLKYLDLM------AGAHRCP---QF----TK--LNPQRTIPTLVD-GCLI---LCECRAALIYLCDQYG--D----EDNDWYPRDTIQRAIVNQRLFFDACVLYPR-FA-----DFYHPQVFGNAAP-D--GRKRLAFEKAV------ELL-NIFL-S--EHEFVA-GCKMTIADICLFAT-LATACTL--------GFILRP-YVHVDRWYVTMVACCP--GAQ-A-NV-SGAKEFLT----YK----------------------
+Anopheles_gambiae_GSTT7                  ------------------MT---------------------------------------------------PVLYYLPPCPPCRCVLLLAK----------------MI-GV-ELELKALNVM------EGEQLKP---DF----VE--LNPQHCIPTLDD-HGLV---LWECRVILAYLVCAYG--K-----DENLYPKDFRCRAIVDQRLHFDLGTLYQR-VV-----DYYFPTIQLGAHL-D--QTKKAKLAEAL------GWF-EAML-K--QYQWCA-ANHFTIADIALCVT-VCQIEAF--------QFDLHP-YPRVRAWLQKCKDELQGHGYK-EINE-TGAETLAG----LFRCKLKQ----------------
+Anopheles_gambiae_GSTu1                  -----------------------------------------------------------------------MKLYAVCDGPPCLAVRMALE----------------AL-NI-PYEHVCVDYG------KAEHLTA---EY----EK--MNPQKEIPVLDD-DGFF---LCECNAILQYLCEKYA--P-----TCDLYPNDPKDRALVNHRLCFNLAFLYPQ-IC-----AYVMAPIFFDYER-T--AIGLKKLHLAL------AAF-ETYL-QRTGTRYAA-GCGLTIADFPLVCC-VMCLEAI--------GFGLGERYPKVQAWYDGFKQAHP--SLW-AIAA-KGMEEIAE----FEKNPPDLTGMVHPIHPIRKPAAK
+Anopheles_gambiae_GSTu2                  ------------------MPA--------------------------------------------------PTLYYFPMCPPARAVLLLMK----------------EL-EL-PMNLKEVNPL------AGETRTE---EF----MR--MNPEHTIPTLDD-NGFY---LGECRAILCYLIDAYR--P-----GHTLYPNIPKEKALINRVLHHDLGCFYPK-FF-----GTIGALFCGAATEIC--DEMKTTTQKAL------TDL-EHYL-T--RNDYFA-GENLTIADLCLVPT-IACAVHC--------GLDLTN-YPRLNAWYECCRVLKG---FE-D-DQ-EAARQVGE----YLRCKFPTGLEALN----------
+Blatella_germanica_GST1                  ------------------MAP-------------------------------------------------SYKLTYCPVKALGEPIRFLLC----------------YG-EK-DFEDYRFQ----------EGDWP---NL----KP--SMPFGKTPVLEI-DGKQ---THQCVAICRYLGKQFG-----------LCGKDDWENLEIDMIVD----------TICDFR-AAIANYHYDADENCK--QKKWDPLKKETIPYYT-KKF-DEVVKA--NGGYLA-AGKLTWADFYFVAI-LDYLNHMA-------KEDLVANQPNLKALREKVLGLPAIKAWV-AKRPPTDL---------------------------------
+Bombyx_mori_GST1                         ------------------MA---------------------------------------------------IDLYFTAGCAPCRVVLLVAA----------------AL-DL-QLNLKPLNLW------EREQLQA---DF----LK--LNPQHTVPTIVD-EGFP---LWECRAICRYLVNKYG--G----DCCCLYPKDLMARALVDQRLDFDIGTLYPR-FA-----QYFYPQVFGGAKP-D--AAALKKLEEAL------VFL-NAFL-E--GQKYVT-GDVLTIADLCLVAT-ICTIDAA--------EICLKC-YPNVEKWFELMKTTAP--DYQ-NANQ-KGIDEFKK----LIAQMKAKT----EL---------
+Bombyx_mori_GST10                        MITCTVCLAMHLIYCCFQGVRVICQVLEYVLPYTGVPFRNMCAIKDCRNINFNTKHLRKGD--PLPPFNGKLRVYNMRYCPYAQRTILALN----------------AK-QI-DYEVVNIDLI---------DKPE---WL----TT--KCAFAKVPAIEIAEDVT---IYECLVTVEYLDEVYP--------KRPLLPQDPLKKALDKIIVEACAPIQ-----------SLFIKILKFCDTVNE---EHVAAYHKAL------DFI-QEQL-KNRGTVFLD-GCEPGYADYMIWPW-FEKLRAFAH--DERVRLEPCK-YCLLLEYIDNMLKDCAVCQYLIPLEILAKFHEAYTKKE----RPNYELLNECLKCF-------
+Bombyx_mori_GST11                        ------------------MCC--------------------------------------------------LKLYHFPVCGPCRGALLAAR----------------AI-GI-PIQIEIVNLF------KKEQLQE---SF----LK--LNPQHCVPTLDD-NNFV---LWECRAIACYLADKYG--K-----DDQWYPKDLQKRAVVNQRLYFDCACLYVK-IR-----AICFPILFLGETEIK--QCLKDDLNCTL------SFL-NQFL-E--KTKWVA-ADHPTIADTCIYAC-MCCILAV--------GWDICC-FPNIQRWIKDCLLLPG---AP-E-NE-DGARTFGD----AVKKNIKQ----------------
+Bombyx_mori_GST12                        ---------------------------------------------------MCEKHLQTGD--VLPPYCGKLRVFAMRFCPYAERTVLTLN----------------AK-NI-PYDLVFINLD---------QKPE---WI----FN--FCPKGTVPALEYEPGKA---LFDCNIINVYLDEKYP--------EIPLQACDPLRRAQDKILVECFAPAQ-----------SAYYTAAFNAQALEP---SMVETYHKGL------EGL-QKEL-ETRCTKYLH-GDEPGWVDYTLWPF-LERFEALPLIGKAEFAIDQTK-YERLVTYIEAMKNVPAVKCYFLAAETHAKFIECRAQGDANYNMLDTCA-VCCMRPRKKKE---
+Bombyx_mori_GST13                        ------------------MPN--------------------------------------------------VKFYYFPVKALGECQRLLLA----------------YG-GQ-EFEDNRIC----------SENWP---EF----KP--KTPFGQMPVLEI-DGKQ---YAQCTAICRYLGRKYG-----------LAGANDEEAFEIDQNVE----------FLNDIR-ACAACVHYEKDEAVK--AKKKAELEETKYPFFF-EKL-NEILTK--NNGHIA-LGKLTWGDFVYAGM-YDYLKAMLQ------KPDLEQKYPAFRKPIEAVLAIPKVKAYV-DAAPRTEL---------------------------------
+Bombyx_mori_GST14                        --------------------------------------------------------------------------------------MMTAA----------------HL-NI-QLDFHPIDLF------KCEHKMD---AF----NQ--INPLQKVPVLKV-DKDV---ICDCHAIAMYLCETTK--------SEDLYPGCALARAKINQMLFYNATTLFP--ID-----SFILCEYFCGKMPCG---VKVDEWFNCL------HYL-NTAL-S--VCPWLA-GDQMRICDFCCACT-ICCMETV--------VNGIKK-FVYLKRWMDELEKLPC----F-EINR-RGLERLKY----FMCLYKPN----------------
+Bombyx_mori_GST15                        ------------------MGK-------------------------------------------------QPVLYCYWRCCCCWRVRIALN----------------LK-EI-PYDIKAVCLIK----GGGEQHCN---EY----RE--VNPMEQVPCLCI-DGHT---LIECLNIMHYLEETRP--------QRPLMPQDCFKRAKVREICEMIACGIQP--LQ-----NLIVLIYVG-EEKKK--EWCQHWITRGF------RAI-EKLL-STTAGKYCV-GDEITLADCCLVPQ-VFNARRF--------HVDLRP-FPIILRIDRELENHPA---FR-AAHP-SCQPDCPP----EVAK--------------------
+Bombyx_mori_GST2                         ------------------MV---------------------------------------------------LTLYKMDACPPVRAVYMVIE----------------AL-SIPNVKYVDVDLL------AEDHLKE---EF----LK--LNPQHTIPMLTD-DKFV---IWDCHAIATYLLNKYG--K-----GCCYYPEDPEKRALIEMRLHFDCGILYPA-LR-----ENDEPIFFWGETTFK--PEGLAKIKCAY------DFT-EKFL-S--DCPWIA-GDDVTVADMCCVAT-IGCLDALL-------PINEKE-YPKITCWLKRCCELDF---YQ-RGNNVKGLLEFKA----LLKQYLCRGKE-------------
+Bombyx_mori_GST3                         ------------------MC---------------------------------------------------IIIYQTCVCPPARCALMVVN----------------IL-GI-KAETREVTLP------RRDHYCQ---EY----LE--KNPLHTVPILEE-DDLV---IADCHAIITYLVCKYGEEK-----HECMYPKDLKIRAITDQMLYFDATILFPR-LK-----TVIYCVV--RGQGMC--RQQIADIQEAY------DVL-EIYL-S--KNIFVA-GNEFTVADICCVAT-LCCLDCVL-------PVDK-K-HVNVNRWWATLCNEKW---YK-EVNV-PGLELFRC----FIKQFLK-----------------
+Bombyx_mori_GST4                         ----------------------------------------MCAIKDCRNINFNIKHLRKGD--PLPPFNGKLRVYNMRYCPYAQRTILALN----------------AK-QI-DYEVVNIDLI---------DKPE---WL----TT--KCAFAKVPAIEIAEDVT---IYECLVTVEYLDEVYP--------KRPLLPQDPLKKALDKIIVEACAPIQ-----------SLFIKILKFCDTVNE---EHVAAYHKAL------DFI-QEQL-KNRGTVFLD-GCEPGYADYMIWPW-FERLRAFAH--DERVRLEPCK-YCLLLEYIDNMLKDCAVCQYLIPLEILAKFHEAYTKKE----RPNYELLNECLKCF-------
+Bombyx_mori_GST5                         ------------------MT---------------------------------------------------IDLYYVPGCAPCRAVLLTAK----------------AL-NL-NLNLKLVDLH------HGEQLKP---EY----LK--LNPQHTVPTLVD-DGLC---IWECRAIITYLVNKYA--K-----GCCLYPEDPKARALVDQRLYFDIGTLYQR-FC-----DYFYPQVFAGAPA-D--KAKNEKVQEAL------QLL-DKFL-E--GQKYVA-GPNLTVADLCLIAC-VC----SLEAC--------DIDFKK-YANVKRWYETVKCTAP--GYQ-EANE-KGLEAFKG----LVNCMLKK------------
+Bombyx_mori_GST6                         ------------------MPVQP------------------------------------------------IKLYYLPPCPPCRAVMMTAR----------------VL-EL-DLHLITTNIM------NGEHMTP---EY----LK--MNPQHTIPTMDD-NGFI---LWECRAIQTYLVNAYG--K-----DDCLYPKNPRQRAIIDQRLNFDLGTLYLR-YL-----NLYTPILFRGEAY-D--QEKADKFDEAL------GWL-NTFL-D--GRPFVA-GENMTVADITIVVT-ITNIDAF--------GYDFCC-HENIAKWFERTKKMLEPYGYD-EIDV-TGAKMLAC----FLKKE-------------------
+Bombyx_mori_GST7                         ------------------MPK--------------------------------------------------VVYHYFACKALGECGRMLLA----------------YG-GQ-DFEDHRVL----------SADWP---DF----KP--KTPFGQTPVLVI-DGKQ---YAQCTAICRYLGRKYG-----------LAGANDEEAFEIDQNVE----------FLHDIR-AKAAAVYYEADEELK--AKKHEDFCKNVYPDML-KKL-NCIVEA--NKGHIA-AGKLTWGDFVFTCM-FDYLKTMLQ------IPDLEVQYPAFKKVLQCVLTQPKVKAFL-DLGRPYEFEF-------------------------------
+Bombyx_mori_GST8                         ------------------MV------------------------------------------------ENRVILHAYWLCCCCWRVRAMLH----------------AK-SI-PFEERPVDIVK-----TGKQLTE---EY----RA--INPAQKVPALEI-DGVT---LVECMAIIQYIEDTRP--------EPKLMPDTALQRARMREICETIVCGIQP--LQ-----NFGLKKHLGTEEKFL--SFTKYWTERGL------QTL-NDLL-AKTCGAYCI-GDQITLADICLVPQ-IYNGVCRH-------KLDLKT-YPIVCKVYENLLKEEL---FQ-ATHP-KATKE-KL----KINL--------------------
+Bombyx_mori_GST9                         ---------------------------------------------------MTYFHCVNAGVIPPPALTDKLRLYHVDMNPYGHRVLLVLE----------------AK-RI-KYEVYRLDPL---------RLPE---WF----RA--KNPRLKIPVLEIPTDQGDRFLFECVVICDYLDEKYT--------RHTLHCHDPYVKAQDRLLIERFNELI-----------KGCLECFDTNFAFGC------EQIIQTL------EIF-EKEL-TNRGTNYFG-GNRPGMLDYMVWPW-VERLYLLRCVNDRK-FVEKKCLFPNFADWGDQMQLDDIVKKHAHCPQEYFDYYKNARAHCMGYYL--------------------
+Culex_quinquefasciatus_GSTNeps           ------------------MP---------------------------------------------------ITLYYTPICPPARAVVLLIR----------------EL-GL-NVEFKPVDVM------AGGTRTE---EF----LQ--MNPEHTIPTLDD-NGFH---LWECRAILTYLVDCYA--P-----GHDLYPNIPKEKALINRVLNHDLCAFYPK-TV-----GQMAPIFQRQTCTVT--DEMMAKLDEGL------TNL-ELFL-V--RNDWFA-GENLTVADLCLLPT-IACLVHC--------GFDLAR-YPRLAEWYCNCKVLKG---FE-E-DQ-GCAQQIGG----FFKCLVAQEQQHD-----------
+Dermatophagoides_pteronyssinus_GSTM1     ------------------MCQ--------------------------------------------------PILGYWDIRGYAQPIRLLLT----------------YC-GV-DFVDKRYQIGPAPDFDRCEWLNE---KF----NL--GLDFPNLPYYID-GDMK---MTQTFAILRYLGRKYK-----------LNGCNDHEEIRICMAEQ----------QTEDMM-AAMIRVCYDANCDKL-KPDYLKCLPDCL------KLM-SKFV---GEHAFIA-GANICYVDFNLYEY-LC-------HVKVM--------VPEVFGQFENLKRYVERMECLPRVCDYI-KKQQPKTFNAPTCKWNACYA--------------
+Drosophila_erecta_GSTT1                  ------------------------------------------------------------------------------GCCPCRCVIMTAK----------------AV-GV-ELNKKLLNLQ------AGEHLKP---EF----VK--INPQHTVPTLVD-NGFA---LWECRAIQVYLVEKYG--K-----TDCLYPKCPKKRAVINQRLYFDMGTLYQC-FA-----NYYYPQVFAKAPA-D--PEAFKKIEAAF------EFL-NTFL-E--GQEYAA-GDCLTVADIALVAC-VCTFEVA--------RFEICK-YANVNKWYENAKKVTP--GWE-E-NW-AGCLEFKK----YF----------------------
+Drosophila_mauritiana_GSTT1              ------------------------------------------------------------------------------GCCPCRCVIMTAK----------------AV-GV-ELNKKLLNLQ------AGEHLKP---EF----LK--INPQHTIPTLVD-NGFA---LWECRAIQVYLVEKYG--K-----TDCLYPKCPKKRAVINQRLYFDMGTLYQC-FA-----NYYYPQVFAKAPA-D--PEAFKKIECAF------EFL-NTFL-E--GQEYAA-GDCLTVADIALVAC-VCTFEVA--------GFEICK-YANVNKWYENAKKVTP--GWC-E-NW-AGCLEFKK----FF----------------------
+Drosophila_melanogaster_GST1             ------------------MADEA-QAPPAEG---APPAEGEAPPPAEGAEGAVEGGEAAPPAEPAEPIKHCYTLFYFNVKALAEPLRYLFA----------------YG-NQ-EYEDVRVT----------RDEWP---AL----KP--TMPMGQMPVLEV-DGKR---VHQCICMARFLAKTVG-----------LCGATPWEDLQIDIVVD----------TINDFR-LKIAVVCYEPEDEIK--EKKLVTLNAEVIPFYL-EKL-EQTVKD--NDGHLA-LGKLTWADVYFAGI-TDYMNYMV-------KRDLLEPYPALRGVVDAVNALEPIKAWI-EKRPVTEV---------------------------------
+Drosophila_melanogaster_GSTT1            ----------------------------------------------------------------------MVDFYYLPGCCPCRCVIMTAK----------------AV-GV-ELNKKLLNLQ------AGEHLKP---EF----LK--INPQHTIPTLVD-NGFA---LWECRAIQVYLVEKYG--K-----TDCLYPKCPKKRAVINQRLYFDMGTLYQC-FA-----NYYYPQVFAKAPA-D--PEAFKKIEAAF------EFL-NTFL-E--GQDYAA-GDCLTVADIALVAT-VCTFEVA--------KFEICK-YANVNRWYENAKKVTP--GWE-E-NW-AGCLEFKK----YFE---------------------
+Drosophila_melanogaster_GSTT2            -----------------------------------------------------------------------MDFYYMPGGGGCRTVIMVAK----------------AL-GL-ELNKKLLNTM------EGEQLKP---EF----VK--LNPQHTIPTLVD-NGFC---IWECRAIAVYLVEKYG--K-----DDYLLPNDPKKRAVINQRLYFDMGTLYEC-FA-----KYYYPLFRTGKPG-S--DEDLKRIETAF------GFL-DTFL-E--GQEYVA-GDQLTVADIAILCT-VCTFEVC--------EFDFCK-YCNVCRWYDNAKKVTP--GWD-E-NW-EGLMAMKA----LFDARKLAA----K----------
+Drosophila_melanogaster_GSTT3            ---------------------------------------------------------------------------------------MVGK----------------AL-GL-EFNKKIINTL------KGEQMNP---DF----IK--INPQHCIPTLVD-NGFT---IWECRAILVYLVEKYG--K-----DDALYPKDIQKQAVINQRLYFDMALMYPT-LA-----NYYYKAFTTGQFG-S--EEDYKKVQETF------DFL-NTFL-E--GQDYVA-GDQYTVADIAILAN-VCNFDVV--------GFDICK-YPNVARWYDHVKKITP--GWE-E-NW-AGALDVKK----RIEEKQNAA----K----------
+Drosophila_melanogaster_GSTT4            -----------------------------------------------------------------------MDFYYCPRCCGCRTIIMVAK----------------AL-GL-ELNKKQLRIT------EGEHLKP---EF----LK--LNPQHTIPTLVD-NGFA---IWECRAIAVYLVEKYG--K-----DDCLFPNDPQKRALINQRLYFDMGTLHDC-FM-----KYYYPFIRTGQLG-N--AENYKKVEAAF------EFL-DIFL-E--GQDYVA-GCQLTVADIAILCC-VCTFEVV--------EFDICK-YPNVARWYANAKKITP--GWD-E-NW-KGLLQMKT----MYEAQKACL----K----------
+Drosophila_melanogaster_GSTT5            -----------------------------------------------------------------------MDFYYCPRGCGCRTVIMVAK----------------AL-GV-KLNMKLLNTL------EKDQLKP---EF----VK--LNPQHTIPTLVD-NGFC---IWECRAIAVYLVEKYG--K-----DDTLFPKDPKKQALVNQRLYFDMGTLYDC-FA-----KYYYPLFHTGKPG-S--DEDFKKIECCF------EYL-NIFL-E--GQNYVA-GDHLTVADIAILCT-VCTFEIF--------DFDLNK-YPNVARWYANAKKVTP--GWE-E-NW-KGAVELKG----VFDARQAAA----KQ---------
+Drosophila_melanogaster_GSTT6            -----------------------------------------------------------------------MDLYNMCGCPCTRAVMMTAK----------------AV-GV-EFNCIQVNTF------VGEQLEP---WF----VK--INPQHTIPTLVD-NLFV---IWETRAIVVYLVEQYG--K-----DDCLYPKDPQKQALINQRLYFDMGTLYDG-IA-----KYFFPLLRTGKPG-T--QENLEKLNAAF------DLL-NNFL-D--GQDYVA-GNQLCVADIVILAT-VCTTEMV--------DFDLKK-FPNVDRWYKNAQKVTP--GWD-E-NL-ARIQCAKK----FLAENLIE-----KL---------
+Drosophila_melanogaster_GSTT7            ------------------MPN--------------------------------------------------LDLYNFPMAPACRAIQMVAK----------------AL-GL-ELNCKLINTM------EGDQLKP---EF----VR--INPQHTIPTLVD-NGFV---IWECRAIAVYLVEKYG--K----PDCPLYPNDPQKRALINQRLYFDMGTLYDA-LT-----KYFFLIFRTGKFG-D--QEALDKVNCAF------GFL-NTFL-E--GQDFVA-GCQLTVADIVILAT-VCTVEWF--------SFDLCK-FPNVERWLKNAPKVTP--GWE-Q-NL-ECLQQGKK----FLQDLQAAKEKEVKA---------
+Drosophila_melanogaster_GSTeps           ------------------MCK--------------------------------------------------LILYGTEACPPVRAAKLTLA----------------AL-GI-PYEYVKINTL------AKETLCP---EF----LR--KNPQHTVPTLED-DGHF---IWDCHAICAYLVCKYG--Q-----SDTLYPKDLLQRAVVDQRLHFECGVVFVNGLR-----GITKPLFATGQTTIP--KERYDAVIEIY------DFV-ETFL-T--GHDFIA-GDQLTIADFCLITC-ITALAVFV-------VIDTVK-YANITAWIKRIEELPY---YE-EACG-KGARDLVT----LLKKFNFTFCT-------------
+Drosophila_sechellia_GSTT1               ------------------------------------------------------------------------------GCCPCRCVIMTAK----------------AV-GV-ELNKKLLNLR------AGEHLKP---EF----LK--INPQHTIPTLVD-NGFA---LWECRAIQVYLVEKYG--K-----TDCLYPKCPKKRAVINQRLYFDMGTLYQC-FA-----NYYYPQVFAKAPA-D--PEAFKKIECAF------EFL-NTFL-E--GQEYAA-GDCLTVADIALVAC-VCTFEVA--------GFEICK-YANVNKWYENAKKVTP--GWC-E-NW-AGCLEFKK----FF----------------------
+Drosophila_teissieri_GSTT1               ------------------------------------------------------------------------------GCCPCRCVIMTAK----------------AV-GV-ELNKKLLNLQ------AGEHLKP---EF----VK--INPQHTIPTLVD-NGFA---LWECRAIQVYLVEKYG--K-----TDCLYPKCPKKRAVINQRLYFDMGTLYQC-FA-----NYYYPQVFAKAPA-D--PEAFKKIEAAF------EFL-NTFL-E--GQEYAA-GDCLTVADIALVAC-VC--TFEVA--------GFEICK-YANVNKWYENAKKVTP--GWE-E-NW-AGCLEFKK----YF--------------------
+Drosophila_yakuba_GSTT1                  ------------------------------------------------------------------------------GCCPCRCVIMTAK----------------AV-GV-ELNKKLLNLQ------AGEHLKP---EF----LK--INPQHTIPTLVD-NGFA---LWECRAIQVYLVEKYG--K-----TDCLYPKCPKKRAVINQRLYFDMGTLYQC-FA-----NYYYPQVFAKAPA-D--PEAFKKIEAAF------EFL-NTFL-E--GQDYAA-GDCLTVADIALVAC-VCTFEVA--------GFEICK-YANVNKWYENAKKVTP--GWC-E-NW-AGCLEFKK----YF----------------------
+Galleria_mellonella_GST1                 ------------------MAA--FRFDDPAVQCYAFYCGV-------------------------------LALKTLGMATLTARTRYVKKVFANEEDTKI------KNGIV-KFDDPDVE------------------RV----RRAHLNDLENIPAFWL-LGGLYLTTGPETTTAITLFRVYTIGRILHCIVYAIKPLPQPARGI-----------------------SFGI------------------------------PFLIMLYM-----------GVKVV----------SFYACAL------------------------------------------------------------------------------
+Galleria_mellonella_GST10                ------------------MCC--INLDNPVVRCYIVYCAI-------------------------------LALKLLFICILTALARMTRNVFANPEDAVL------TKGKV-KFDDQVVE------------------RK----RRAHLNDLENIPAFWV-LGALYVTTGPAVAWAQLLFRAFTLGRILHTIVYAIIPLLQPARVI-----------------------AFGV------------------------------PFAINIYI-----------GVQVI----------LHYATAL------------------------------------------------------------------------------
+Galleria_mellonella_GST11                ------------------MCP--------------------------------------------------IKLYHFPICAPCRGALLAAR----------------SI-GV-PIEVEIVDLF------KKEQLKE---NF----LK--LNPQHTVPTLVD-DGFV---LWECRAIACYLADKYG--K-----DDLLYPKDLKRRALVNQRLYFDCCCLYVK-IR-----EIFRPILFLGETEIK--KPLKEDLNIIL------GFL-DGFL-R--ECKWVA-GDNVTIADTAIYAC-VCCILAV--------GWDICD-FPNIQRWVKNCATLPG---AA-E-NE-EGAKIYGD----AIKKNLKQ----------------
+Galleria_mellonella_GST12                ------------------MCR--------------------------------------------------PLLYFLPGCPPARAVMMLAD----------------II-GL-ELDIKEIDFL------KLEHKCE---AF----LK--LNPMGTIPTLQD-GDFV---ICECHTIMKYLLEKYGGDK-----REVLYPCDIRTRALIDQCVFFETGVFFVR-LK-----VVVLPAIFEGHPGPT--PKHIADIEEAY------GVV-EAYL-G--NKPYLV-GNHLTLADLCLGAT-TTAMEVIH-------KVDPKR-FPRITNWVARLQNEPF---FK-SINA-EGVACFCE----ILNACWAKNRK-------------
+Galleria_mellonella_GST13                ------------------MC---------------------------------------------------LVLYKVDRCPPVRAVLMTIE----------------IL-EL-KYKCIEVNTL------AGEHLKP---EY----LE--KNPMHTVPLLED-GKFC---LADCHAIITYLVCKYGADK-----REDLYPNDLGIRATINQRLYFDAGVLFPK-LM-----AICRPMFRKETTGPC--PQQVEEIEEAY------GIL-ECYL-G--SLKFLA-GKHLCLADICIVAT-ICTYEILI-------PITD-K-YPRLLEWLNILKNCDF---YK-KANV-PGLLQIKE----ILEQLCQGI---------------
+Galleria_mellonella_GST14                -------------MTCFRVLRPVARLLGYA------SYQTMATKAVKGKVNFNTRHLAKGD--PLPPYNGKLRIYNMRYCPYAQRTILALN----------------AK-QI-DYEVVNINLV---------NKPE---WL----PT--KCAFGKVPALEIEDGVC---IYECLVTVEYLDDVYP--------QRPLIPKDPVKKAFDKIIIEAIGPIC-----------AIFYKLLRCPDCIVE---DNFTAYYKAL------DFI-EEQL-RKRGTKFLD-GDQPGYVDYMIWPW-FERILQLDL--DERIKIREER-YKLLVPYFNRMFEDPAVCQYLIPAEILRKFLCAYTCGD--LNCINYDLLLTE-----------
+Galleria_mellonella_GST15                ---------------------------------------------------MCEKHLQTGD--VLPQYCGKLRLFAMRFCPYAERCVLVLN----------------AK-NL-QYDLVFINLD---------HKPE---WL----FN--FCPKGTVPALEYEQGKA---IFDCNIINVYLDEKYP--------DVPLQCCDPLRRAQDKLVVENFCAAQ-----------SAYYTAAFNAPALQP---SMVENYHKGL------NGL-QKEL-ETRGTKYLN-GNEPGLVDYTIWPF-LERFEALPLLGKCEFAIDKTK-YEILTTYIEAMKNVPAVRAYRLAPETHAKFTECRAKGDPDYNMLDCCD-VCCMRPRKKKE---
+Galleria_mellonella_GST16                ------------------MT---------------------------------------------------IDLYYTPGCAPCRLVLLVAA----------------AL-DI-QLNLKLTDLC------AGEQFKP---DF----LK--INPQHTVPTIVD-GDFC---LWECRAICRYLVNKYG--A-----GCTLYPEDPIARAIVDQRLDFDLGTLYPR-FG-----NLFYPQIFAGAPV-D--EALLKKLEEAL------VFF-NTFL-E--GHKYAA-GCNLTLADLCLVAT-VCTIDAV--------GFNLTP-YPNVLKWFQLVKCTAP--AYE-ETNG-KGIEEFKN----FITRLKAKC----EL---------
+Galleria_mellonella_GST17                ------------------MP---------------------------------------------------LVLHKTDGCPPVRAVLMTID----------------IL-KL-KVEFVEVNTL------AGETRRP---EY----VA--KNPMHTVPLLED-GNFT---LADCHAIITYLVCKYGGEK-----RAELYPNDFCTRATIDQRLYFDAAVLFPR-LI-----SILRPVFRDKATGPT--AQQIEDVKEGY------GML-ERYL-Q--KCEYLV-GCTITLADICLAAT-VCTLNVIV-------PLTE-E-FPKTIQWLNNLRGTDF---YK-KANE-PGLTKITE----FYNLCIKNNCC-------------
+Galleria_mellonella_GST18                ------------------MP---------------------------------------------------IDLYLNPGCAPCRAVLLTVR----------------AL-NL-DVNQKLTDLM------KGEHLTP---EY----LK--INPQHTIPTLVD-DDFC---VWECRAIITYLVNKYG--K-----DTGLYPEEPRARATVDQRLYFDMGTLYQR-FG-----EYYYPQILAGAPP-D--AEKLKKLEQAL------EFM-NTFL-D--GQEYLA-GPQLTVADLCTVAT-ICTLELT--------DVDFRK-YPNINRWYEKMRAEVA--GYK-EVNE-TGLDHMRA----IMEKFKKCT---------------
+Galleria_mellonella_GST19                ------------------MPD--------------------------------------------------VCVYYFPIKGLGECIRLLLA----------------YG-GQ-EFEDVRIP----------KEIWP---QR----RC--IAAFGQVPVLEI-DGKR---YAQCVAICRYLGRKYG-----------LTGANIEEDFLIDQNVD----------FVNEIR-LAACTVQNEPDPAVK--AVKRAKFLKDKCPFYL-QKL-DEIIRC--NNGHLA-AGKLTWGDIYFAGL-YCYLRYALE------IPDLDQKYPCFKKLQDYVLCLPQLKQYL-ANAPQTDF---------------------------------
+Galleria_mellonella_GST2                 ------------------MP---------------------------------------------------IKLYYDLMCQPCRCLYILFK----------------FI-KC-DFECKYVDLR------KAEHYTE---EY----AK--INRFQRVPVIDH-NGFV---LTECVAILKYLCREGI--I-----PENLYPRECKKQARVEEFLEWQHMELRLP-CAFYFRTKYLEPVMFGTKPCPQRICGFEQRMEQAL------TNFCTKWLGR--GCDFVT-GDAVTVADLIAICE-LEQPRMA--------GYDPREKFPVINEWYQKVRNHFNP-YYD-EAHV-IVNKVIAK---------QAKLACKL-----------
+Galleria_mellonella_GST3                 ------------------MP---------------------------------------------------IKIYKMDLCPPARCVMMACE----------------VH-GI-TAEMIDVNLI------EQEHKTP---QY----LK--MNPLHTVPVLKD-GDLI---ICDCHAILMYLTDVYG--K-----DDCLYPKDIKQRAMVNQKLFFCNCTLFHR-LR-----NITYYVLIEGMKIVP--QRLYDDIEEAY------GFL-EEFL-S--RCKFLA-GDHMTIADIAAICT-VTCLLYVH-------PHDCKK-YPKTVAWIKEMEKQPF---CQ-KYNA-PGCALLGK----LFNEKIKC----------------
+Galleria_mellonella_GST4                 ------------------MP---------------------------------------------------IDLYYVPGCAPCRAVLLTAR----------------AL-NL-NLNLKLVDLH------HGEHLKP---EY----LK--INPQHTVPTLVD-DGFC---LWECRAIITYLVNKYG--K-----GCTLYPEDPKARALVDQRLYFDIGTLYQR-FA-----DYFYPQVFGGAPA-D--KEKACKIEDCL------KLL-DTFL-E--GQKYVA-GPNLTVADLCLIAC-VCCFEAC--------DIDFKK-YPNVKRWYETVRCTAP--GYQ-EANE-KGLEAFKG----LVNCMLKK----------------
+Galleria_mellonella_GST5                 -------------------------------------------------------------------------LYYLPPCPPCRAVMMTAK----------------VL-GL-ELDLVLTNIM------EGQHMTP---EY----MK--MNPQHTIPTMDD-NGFI---LWECRAIMAYLVNAYG--R-----DDCFYPKNPRQRAIVDQRLNFDIGTLFLR-YV-----NLYVPVLFKGDEM-E--QENIDKMNEAL------GWL-NTML-D--GRAFVA-GDNLTIADICIIVT-ITNLDVF--------GYDFCC-YENVVNWFARAKKTLEPYGYN-EIDR-AGGEILNC----FLKKQ-------------------
+Galleria_mellonella_GST6                 ------------------HRP-------------------------------------------------------------------------------------------------------------------------------------------I-RG------------------------------------------------D----------FLNDIR-AKAATVHYEPDAALK--AKKHEENAKNLVPGVAREKL-DDIIRK--NNGHLV-AGKLTWGDFVFAGM-YDYL---------------------------------------------------------------------------------
+Galleria_mellonella_GST7                 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------CGKRK--------NQKLYPRDPCIKAQIDQMLFFNCAELFP--ID-----SAIYCEYFTGKWPAD--EQKVKNWYRLL------DHL-DGRL-K--TRTWLA-GEKLYLCDICCAAT-VCTLQLL--------IPLLNR-HKNVEIWLN------------------------------------------------------
+Galleria_mellonella_GST8                 ------------------MAK---------------------------------------------------KLHYFNLNGLAECIRYILY----------------YC-GE-KFEDVRYD----------RCCWPIK-SV----KD--SLPYGQLPLYEE-GNRC---LNQCLAIARYVAVRAN-----------LLPCDPFEQAILDAAVF----------NIYDFW-SKVGTYIREEDAARK--EQIKREILTECVDFYF-SRF-EKQLKA--NNGYF--GGQLCWADFILLGI-IETTNLFL-------NTEVERNYPTIVALLNRIRCLPGVKAYI-ATRKPYTL---------------------------------
+Galleria_mellonella_GST9                 ------------------MV---------------------------------------------------LTLYKLDACPPVRAVYMTIE----------------AL-NLCDVQYIDTNLF------KGEHLTE---EF----IQ--MNPQHTIPTLKE-DDFV---IWDCHAICGYLIAKYG--K-----DDCLYPTEPKQRAIIDQRLHFDCGVLFPC-HC-----WNLEPILFHGQKYIK--DEDIVKINCAY------TLI-EKFF-T--AP-WLA-GDELTLADICCVCC-ICTLNEIV-------PINGCL-YPNLLAWLDRCCNEDI---CK-KGNE-PGLLQIRQ----MLKCKLE-----------------
+Helicoverpa_armigera_GST1                ------------------MPR---------------------------------------------------RLQYFDFNGLGEKIRYLLH----------------YT-GQ-EFEDVRHD----------VTIWPVP-EI----KE--TLPFGQFPVYEE-DGKV---LCQCLAIARYVARGTD-----------LIPCDPWKNAQVDCAVY----------SIMDYC-KNVIAAVHEPDPQKK--VELRNKLFNEYIDYYF-SRF-EKLLKE--NGGYF--SGKLCWGEFVLCGC-VDCTNFFF-------TMEVEKNYPAIKAVCDEIRNAPGVKEYI-AARGPYNLDCIKKRFG-------------------------
+Helicoverpa_armigera_GST10               ------------------MCR--------------------------------------------------LILHRAVGCPPARCVMMLCE----------------IL-GL-KMEYNDVKIL------QNEQKCP---EF----KK--LNPMGTVPVLQD-GDFV---LCECHAIMKYMVCKYGGDK-----SECLYPCDLRTRAIVDQCLFFNAGVFFKA-LG-----NAAMCAFT-GLEKPT--AQHIADIECCF------SVV-DAYV-Q--DRRYIA-ADRLTLADLAAGAT-ATCIQVFR-------KVDADK-FPRCADWLCRLGEEQV---FK-TVMA-PGAEYFHK----LMHAIWEKNKKKCQK---------
+Helicoverpa_armigera_GST11               ------------------MV---------------------------------------------------LKLYYLEDGPPCLCCRQVLE----------------ALEPL-AFELVNVCFY------HGEHMTE---EF----GK--MNPQKEIPVLED-DGFF---LCECVAIMQYICDKYK--P-----GNRLYPTDPKARAIVNYRLLFNLTTYYHD-LV-----TYTIMPIYFAYER-T--PEGLKRVHRAL------DLF-DTYL-QRLGTCHAA-ADHLTIADFPLVNC-TMLLEVI--------DFDFCQ-YKHVTKWYNDFKKNHP--ACW-AVCA-EGMRLMKN----CAANLPDLCHLNHPLHPTRCIKK-
+Helicoverpa_armigera_GST12               -------------------------------------------------------------------------MYGYCLCCCCWRVRAALQ----------------YK-RI-PFEERCVDIVK-----ARQQCTE---EY----RA--INPAQKVPALVI-DNVT---LVECMAILQYLEDTRP--------EPTLTPKTPLLRAKMTELCEIVVCGIQP--LQ-----NVGLRPHFECLQKYQ--KFTKYWTERGL------QTL-EDLL-QKCAGKYCV-GDQITMADICLVPQ-LYNAVCRH-------ELDLCK-YPTVCKLYQTLLNENF---FQ-QTHP-EKVKC-KV----------------------------
+Helicoverpa_armigera_GST13               ------------------MG---------------------------------------------------VKLYTLDACPPARAAMMALE----------------IF-NV-PFEKIDVNLG------EGEHLKP---EF----LK--INPMHTVPVLVD-GDLI---LHDCHTILTYLADTYG--K-----DDCWYPKDTKKRALVDQKLFFDCAILYAR-GR-----NITYCVIMEGNKTKE--QKHLDLIEEAY------GFM-EEFL-S--RTTYIA-ADHVTI-DVCALTC-MCCMVNLH-------KFDENK-YPKTAAWYKKMKCTPY---CK-KYND-HGEKALLE----VVTKLLNC----------------
+Helicoverpa_armigera_GST14               ------------------MG---------------------------------------------------VKLYTLDACPAARAAMMALE----------------IF-NV-PFEKIDVNLG------EGQHLTP---EY----LK--KNPMHTVPVLED-GDLI---LHDCHTILTYLADTYG--K-----DDCWYPKDTKKRALVDQKLFFDCAILYTR-GR-----NICTCVIMEGKKTKE--QKHLDLIEEAY------GFM-EAFL-S--RTCYIA-ADHVTIADVCALCC-MCCLVNLH-------KFDEKK-YPKTAAWYKKMKCTPY---CK-KYND-YGEKALHE----LVTKLLNC----------------
+Helicoverpa_armigera_GST15               ------------------MPK--------------------------------------------------YVITYFNGKGVAECCRLLMA----------------YG-GE-EFEDRRVC----------FQEWP---E-----KP--KTLFGALPTLDI-DGKQ---YAQCVAICRYFGHKHG-----------LAGDTLEDALEIDQMVD----------YIMELR-TKLCEVHYEPDEAVK--EAKYAERMKEVFPTYL-ERF-NCIITK--NNGHLA-LGKLTWADFFFACT-FGYLKTMLR------MPDLEKKYPVFKQVVDTVYCLPKVKAFT-DCIPKPDFCN-------------------------------
+Helicoverpa_armigera_GST16               ------------------MPK---------------------------------------------------KLTYFNINGLGEPIRYILH----------------YT-KQ-EFEDNRIE----------LANWPDL-KL----KE--KLPFGQLPVYEE-DGRV---LCQCLAIAKYVARGTD-----------LIPCDPWKYAQVECAVY----------SVLDYM-ENVTPVVQEKDQAKQ--KELVEKLHTETIEYYF-SRF-NNLLKE--NGGYF--SGKLCWGEFILLGI-IEAGNLFL-------GTNVEKKYPAIDALVKEIRCLPGVKEYI-VARGPYDFEEIKARMNKQ-----------------------
+Helicoverpa_armigera_GST17               ------------------MG---------------------------------------------------LTVYKIDACPPVRCVFMTVE----------------AL-NIPDVEYVDVNLL------DGDHLKE---EF----TK--VNPQHT-PLLKD-DDFY---VWDCHAIAVYLVTKYG--A-----DDCLYPADPKKRAVIDQRLHFDCGILFPA-LR-----GTGEPVFFKGEKCFR--PENLEKITKAY------EFA-EKFL-A--SCQWFA-GDQITLADICCVCT-ICTMNELI-------PIDEEL-YPNLAGWLKRCGEQDF---YK-KGNE-YGLEQFRG----LKKLKLG-----------------
+Helicoverpa_armigera_GST18               ------------------MC---------------------------------------------------VKLYHFPICGPCRGALLAAR----------------AV-EV-PIDVEIINLF------HKEQFKQ---SF----LK--INPQPCVPTLDD-DGFI---LWECRAIACYLADKYA--K-----DDQYYPRDLKKRALVNQRLFFDCCCLYVK-IR-----AICFPILFLGETEIK--KPLKDDLNTCL------GYL-NQFL-E--ECKWVA-GDHPTTADTCIYAC-LTCVLAV--------DWDITC-FPNIVRWVDQCCFLPG---AC-E-NN-IGAKAFGE----AVKKNLH-----------------
+Helicoverpa_armigera_GST19               ------------------MPK--------------------------------------------------YVITYFNGKGVAECCRLLMA----------------YG-GE-EFEDRRVC----------FQEWP---EL----KP--KTLFGALPTLDI-DGKQ---YAQCVAICRYFGHKHG-----------LAGDTLEDALEIDQMVD----------YIMELR-TKLCEVHYEPDEAVK--EAKYAERMKEVFPTYL-ERF-NCIITK--NNGHLA-LGKLTWADFFFAGI-FGYLKTMLR------MPDLEKKYPVFKQVVDTVYCLPKVKAFT-DCIPKPDFNN-------------------------------
+Helicoverpa_armigera_GST2                ------------------MC---------------------------------------------------LDLYYAPGCAPCRVVLLVAA----------------AL-DV-HFNLHILNLR------NGEHLTP---EF----LK--LNPQHTVPTLVD-GDFC---LWECRAIGKYLVNKYG--G----ENNDLYPCDPKARAIVDQRLDFDLGTLYPR-FG-----NYIYPQIFGGAKA-D--EALLKKLEEAL------QFL-NTFL-E--GQKYAA-GDKLTLADLCLVAT-VCTIDAV--------DICLKE-YPNVEKWFELVKATAP--GYQ-EANE-AGLKAFRA----MVAQLKAKT----EL---------
+Helicoverpa_armigera_GST20               ------------------MG---------------------------------------------------LTVYKIDACPPVRCVFMTVE----------------AL-NIPDVEYVDVNLL------DGDHLKE---EF----TK--VNPQHTVPLLKD-DDFY---VWDCHAIAVYLVTKYG--A-----DDCLYPADPKKRAVIDQRLHFDCGILFPA-LR-----GTGEPVFFKGEKCFR--PENLEKITKAY------EFA-EKFL-A--SCQWFA-GDQITLADICCVCT-ICTMNELI-------PIDEEL-YPNLAGWLKRCGEQDF---YK-KGNE-YGLEQFRG----LKKLKLG-----------------
+Helicoverpa_armigera_GST21               ---------------------------------------------------MCEKHLQTGD--VLPPYCGKLRLFAMRFCPYAERTVLVMN----------------AK-NL-QYETVFVNLD---------HKPE---WL----SN--FCPKGTVPALEYEEGKA---IFDCNIINVYLDEKYP--------EVPLQCCDPLRRAEDKIIVELFAGAQ-----------SAFYTAAYNPCALQP---NCVETYHKGL------EAL-QLKL-KERGTKFLH-ADTPGLVDFTLFPF-LERFEALPLVGKPEFELCKTK-YELLVNYLEAMKQVPAIKAYYLDPQTHAKFIECRNKGDANYNMLDTCA-VCCMRPRKKKE---
+Helicoverpa_armigera_GST22               ------------------MG---------------------------------------------------VKLYTLDACPPARAAMMALE----------------IF-NV-PFEKIDVNLC------EGEHLTP---EY----LK--INPMHTVPVLVD-GDLI---LHDCHTILTYLADTYG--K-----DDCWYPKDTKKRALVDQKLFFDCAILYAR-GR-----NITYCVIMEGNKTKE--QKHLDLIEEAY------GFM-EEFL-S--RTTYIA-ADHVTIADVCALTC-MCCMVNLH-------KFDENK-YPKTAAWYKKMKCTPY---CK-KYND-HGEKALLE----VVTKLLNC----------------
+Helicoverpa_armigera_GST23               -------MCGKEVHACGDMP---------------------------------------------------IDLYYVPGCAPCRAVLLTAK----------------AL-NL-NLNLKLVDLH------HGEHLKP---EY----IK--LNPQHTVPTLVD-DGFC---IWECRAIITYLVNKYA--K-----GCGLYPEEPKARALVDQRLYFDIGTLYQR-FA-----DYFYPQVFGGAPA-D--KDKLAKIEDAL------QLL-NTFL-E--GQKFCA-GPNLTLADLCLIAC-VCCFEAC--------DIDFKK-YPNVKRWYETVKTCAP--GYQ-EANE-KGLDAFKG----LVNCMMKK----------------
+Helicoverpa_armigera_GST24               ------------------MA------------------------------------------------PNQVIMYGYYLCCCCWRVRAALQ----------------YK-RI-PFEEKCVDIVK-----ARQQCTE---EY----RA--INPAQKVPALVI-DNVT---LVECMAILQYLEDTRP--------EPTLTPKTPLLRAKMTELCEIVVCGIQP--LK-----NVGLRPHFECLQKYQ--KFTKYWTERGL------QTL-EDLL-QKCAGKYCV-GDQITMADICLVPQ-LYNAVCRH-------ELDLCK-YPTVCKLYQTLLNENF---FQ-QTHP-EKVKC-KV----------------------------
+Helicoverpa_armigera_GST25               ------------------MPK---------------------------------------------------KLTYFNINGLGEPIRYILH----------------YT-KQ-EFEDNRIE----------LGNWPDL-KL----KE--KLPFGQLPVYEE-DGRV---LCQCLAIAKYVARGTD-----------LIPCDPWKYAQVECAVY----------SVLDYW-KNVTPVVQEKDQAKQ--KELVEKLHTETIEYYF-SRF-NNLLKE--NGGYF--SGKLCWGEFILLGI-IEAGNLFL-------GTNVEKKYPAIDALVKEIRCLPGVKEYI-VARGPYDFEEIKARM--------------------------
+Helicoverpa_armigera_GST26               ------------------MC---------------------------------------------------LKLYCDLMCQPCRALYILLK----------------ST-KC-DFEVKFVNLR------EAEHYCE---EF----SE--INRFQRVPVIDH-NGFI---LTECVAILKYLCRENI--I-----PENLYPKECKAQARVEEFLEWQHAGLRLH-CAMYFRVKYLNPIMFGKPVDAKCLVGYECRMVCAL------TDFNTKWLGR--GTDFIN-GNTPTVADLLAACE-LEQPRMC--------GYDPCENFENIAVWFKKVREHFNP-YYD-EGHV-IVNKIIKK---------NCKVACKV-----------
+Helicoverpa_armigera_GST27               ------------------MC---------------------------------------------------LDLYYAPGCAPCRVVLLVAA----------------AL-DV-HFNPHILNLR------NGEHLTP---EF----LK--LNPQHTVPTLVD-GDFC---LWECRAIGKYLVNKYG--G----ENNDLYPCDPKARAIVDQRLDFDLGTLYPR-FG-----NYIYPQIFGGAKA-D--EALLKKLEEAL------QFL-NTFL-E--GQKYAA-GDKLTLADLCLVAT-VC------TIDAV--------DICLKE-YPNVEKWFELVKATAP--GYQ-EANE-AGLKAFRA----MVAQLKAKT----EL---
+Helicoverpa_armigera_GST28               ------------------------------------------MAAIKVKKNFNTKHLCKGD--PLPPFCGKLRVFNMRYCPYAQRTMLALI----------------AK-GI-DYDLLNIDLV---------DKPE---WL----TC--RCAFAKVPALEIADGVC---IYECLVTVEYLDEVYP--------QRPLLPKDPLLRAKEKIIVQALDGLN-----------GVFFKCMRAPETITE---ENITAYYKTL------DFI-QEQL-KQRGTTFLG-GEEPGYADYMIWPW-FERILALKC---DFGKIDKEK-YQLLCAYLA------------------------------------------------------
+Helicoverpa_armigera_GST29               ------------------MPK--------------------------------------------------AVFCYFPMKGLGEPCRLLLA----------------YG-GV-EFEDRRIP---------QGEEWL---AF----KP--QTPFGQMPVLEM-DGKQ---YAQCYAIARYLGHRFG-----------LAGDNIEEAFEIDQNVY----------LIDDLR-LKAAIVHYEPDPEVK--ERKYAEYCKTWYPNLL-ERL-NAVVVK--NNGHVA-LGKLTWGDFVFAGM-LDYLKLLLR------MPDLEKQYPAFKQVVDNVYCIPKVKAYA-DAAPVTHF---------------------------------
+Helicoverpa_armigera_GST3                ------------------MPK---------------------------------------------------KLQYFDLNGLAEPLRYLLH----------------YT-KQ-EFEDYRHD----------IATWPDP-KI----KE--SLPFGQFPIYEE-DGRV---LCQTLAIAKYVARGTD-----------LIPCDPWENALADQAVY----------SITDYH-KNVIACIQEQDREKK--SEMKNKLINETIEYYF-SRL-NKLLNE--NGGYF--SGKLCWVEFVLCGT-IEACNLFF-------SLQIEKDYPAIKAVMEEITCAPGVKEYI-EARGPYNLDGIRKRFGDI-----------------------
+Helicoverpa_armigera_GST30               ---------------------------------------------------------------------------------VAEPIRYLFA----------------FG-GI-SYKNIEIE----------DADWP---DV----QK--SVPFGKLPVLEV-DKKV---LYQCVAICRYLGKLVG-----------LLPNDDLEAAELDVIAL----------TVFDFG-TKVHEWYHEQHKEKK--LCLQKELEERWCPRYL-GDL-EEIVKQ--KGTYFG-GQKICWADLYFVGI-MECIEGMWG------SKILEKLYPCLYIIYKHVHEIPAIETYV-SNRPHYKY---------------------------------
+Helicoverpa_armigera_GST31               ------------------MAP-------------------------------------------------VYKLKFFNFMGVAEPIRYLFA----------------FG-GI-SYKNIEIE----------DADWP---DV----QK--SVPFGKLPVLEV-DKKV---LYQCVAICRYLGKLVG-----------LLPCDDLEAAELDAIAL----------TVFDFG-TKVHEWYHEQDKEKK--LYLQKELEERWCPRYL-GDL-EEIVKQ--KGTYFG-GQKLCWTDLYFVGI-MECIEGMWG------SKILEKQYPCLHIIYKHVHEIPAIETYV-SNRPHYKY---------------------------------
+Helicoverpa_armigera_GST32               ------------------MPK--------------------------------------------------AVFYYFKMKGLGEPCRLLLA----------------YG-GV-DFEDIRFE--------RHGQEWQ---DF----KP--KTPFGQVPVLEM-DGKT---YAQCYCIARFLGRKFG-----------LGGDNIQEEFEIDQIVD----------LIDDLR-KRAACVDYEPEPDLK--EKRHAIYAKTVYPDLL-QRI-NDIIVK--NNGYVA-LGKLTWGDFVLAGL-IDYLKKMLR------MPDLEKQYPAFKQVVDKVFAFPKVKAYA-DAAPEALF---------------------------------
+Helicoverpa_armigera_GST33               ------------------MAK---------------------------------------------------KLHYFNLNGLAEPIRYILH----------------YT-KQ-EFEDVRHG----------FDMKK---EV----KD--KLPYGQLPIYEE-GERI---LTQCLAIAKYVARNCD-----------LIPVDPWVVAVVEGAAY----------TIYDFW-LKIVPYIKEQDPEKK--KELKKHLLEETIDFFF-TRF-EKHLQE--NGGYF--GGKLTWVEFILCGI-VEACNLFL-------DTELEKKYPAVEAVVEKIRNLPGVKEYI-EKRGP------------------------------------
+Helicoverpa_armigera_GST34               ------------------MPK--------------------------------------------------VVFYYFPVKALGEACRLLLC----------------YG-GQ-EFEDHRVC----------QDDWQ---SF----KP--KTPFGQMPVLVI-DGKQ---YAQCYAIARYLGRKYG-----------LVGETLEDALEIDQNVD----------LIDDLR-AKAALVDYEPDEAVK--EKKYAEYVKTVFPDLL-GKL-NAIIVK--NNGHVA-LGKLTWGDFVFAGM-LDYLKKMLR------MPDLEKQYPAFKQVVDNVYCIPKVKAYA-DAAPETPF---------------------------------
+Helicoverpa_armigera_GST35               ------------------MCR--------------------------------------------------LILHRAVGCPPARCVMMLCE----------------IL-GL-KMEYNDVKIL------QNEQKCP---EF----KK--LNPMGTVPVLQD-GDFV---LCECHAIMKYMVCKYGGDK-----SECLYPCDLRTRAIVDQCLFFNAGVFFKA-LG-----NAAMCAFT-GLEKPT--AQHIADIECCF------SVV-DAYV-Q--DRRYIA-ADRLTLADLAAGAT-ATCIQVFR-------KVDADK-FPRCADWLCRLGEEQV---FK-TVMA-PGAEYFHK----LMHAIWEKNKKKCQK---------
+Helicoverpa_armigera_GST36               ------------------MPK--------------------------------------------------YVITYFNGKGVAECCRLLMA----------------YG-GE-EFEDRRVC----------FQEWP---EL----KP--KTLFGALPTLDI-DGKQ---YAQCVAICRYFGHKHG-----------LAGDTLEDALEIDQMVD----------YIMELR-TKLCEVHYEPDEAVK--EAKYAERMKEIFPTYL-ERF-NCIITK--NNGHLA-LGKLTWADFFFAGI-FGYLRTMLR------MPDLEKKYPAFKQVVDTVYCLPKVKAFT-DCIPKPDFNY-------------------------------
+Helicoverpa_armigera_GST37               ------------------MPK---------------------------------------------------KLQYFDLNGLAEPLRYLLH----------------YT-KQ-EFEDYRHD----------IATWPDP-KI----KE--SLPFGQFPIYEE-DGRV---LCQTLAIAKYVARGTD-----------LIPCDPWENALADQAVY----------SITDYH-KNVIACIQEQDREKK--SEMKNKLINETIEYYF-SRL-NKLLNE--NGGYF--SGKLCWVEFVLCGT-IEACNLFF-------SLQIEKDYPAIKAVMEEITCAPGVKEYI-EARGPYNLDGIKETVW-------------------------
+Helicoverpa_armigera_GST38               ----------------------------------------------------------RGD--PLPPFCGKLRVFNMRYCPYAQRTMLALI----------------AK-GI-DYDLLNIDLV---------DKPE---WL----TC--RCAFAKVPALEIADGVC---IYECLVTVEYLDEVYP--------QRPLLPKDPLLRAKEKIIVQALDGLN-----------GVFFKCMRAPETITE---ENITAYYKTL------DFI-QEQL-KQRGTTFLG-GEEPGYADYMIWPW-FERILALKC---DFGKIDKEK-YQLLCAYLA------------------------------------------------------
+Helicoverpa_armigera_GST39               ----------------------------------------------------------MRD--PLPPFCGKLRVFNMRYCPYAQRTMLALI----------------AK-GI-DYDLLNIDLV---------DKPE---WL----TC--RCAFAKVPALEIADGVC---IYECLVTVEYLDEVYP--------QRPLLPKDPLLRAKEKIIVQALDGLN-----------GVFFKCMRAPETITE---ENITAYYKTL------DFI-QEQL-KQRGTTFLG-GEEPGYADYMIWPW-FERILALKC---DFGKIDKEK-YQLLCAYLAKMQADPVVVEYAVPDEIFLEFRCCYVKGV----KPNYDLPC-------------
+Helicoverpa_armigera_GST4                ------------------MAK---------------------------------------------------KLHYFNLNGLAEPIRYILH----------------YT-KQ-EFEDVRHG----------FGIKK---EV----KD--KLPYGQLPIYEE-GGRI---LTQCLAIAKYVARNCD-----------LIPVDPWVVAVVEGAAY----------TIYDFW-LKIVPYIKEQDPEKK--KELKKHLLEETIDFFF-TRF-EKHLQE--NGGYF--GGKLTWVEFILCGI-VEACNLFL-------DTELEKKYPAVEAVVEKIRNLPGVKEYI-EKRGPYVIDQ-------------------------------
+Helicoverpa_armigera_GST40               ------------------MPK--------------------------------------------------AVFYYFKMKGLGEPCRLLLA----------------YG-GV-DFEDIRFE--------RHGQEWQ---DF----KP--KTPFGQVPVLEM-DGKT---YAQCYCIARFLGRKFG-----------LGGDNIQEEFEIDQIVD----------LIDDLR-KRAACVDYEPEPDLK--EKRHAIYAKTVYPDLL-QRI-NDIIVK--NNGYVA-LGKLTWGDFVLAGL-IDYLKKMLR------MPDLEKQYPAFKQVVDKVFAFPKVKAYA-DAAPEALF---------------------------------
+Helicoverpa_armigera_GST41               ------------------MA---------------------------------------------------PVLYKTDACPPACAIRILAE----------------II-GL-DLELKDVDFM------ALGHKCP---EH----IK--LNPMGTIPTLQD-GDFV---ICECHATMKYLLCKYGGDK-----SECLYPCDLRTRAIVDQCLFFNVGIFFIR-LK-----VVVLPAVFGDCDGPT--EKQKADIDEAY------GMV-EAYL-G--TKKYIA-ADHLTIADICVGAT-TVAMQPLH-------KLDPVK-FPRTAAWVCRLEEHPC---FK-KILL-PGAEILRF----VVNAA-------------------
+Helicoverpa_armigera_GST42               ------------------MA---------------------------------------------------PVLYKTDACPPACAIRILAE----------------II-GL-DLELKDVDFM------ALGHKCP---EH----IK--LNPMGTIPTLQD-GDFV---ICECHATMKYLLCKYGGDK-----SECLYPCDLRTRAIVDQCLFFNVGIFFIR-LK-----VVVLPAVFGDCDGPT--EKQKADIDEAY------GMA-EAYL-G--TKNYIA-ADHLTIADICVGAT-TVAMQPLH-------KLDPVK-FPRTAAWVCRLEEHPC---FK-KILL-PGAEILRF----VVNAGLGEK---------------
+Helicoverpa_armigera_GST43               ------------------MC---------------------------------------------------IIIHKTDICPPARATLIVAD----------------LL-GL-KIETREVNLP------TREQFKP---DY----VA--KNPLHTVPLLED-GDFI---LPECHAIMTYLVCKYGCEQ------QTLYPKDVRTRAIVDQRLYFDACILFPR-LR-----AVIYCVVKFRAPGPN--EVQIADIVECY------EVT-EKYL-E--REDLYC-TGRVYFGRYFMCGY-ICALDCIV-------AV--------------------------------------------------------------------
+Helicoverpa_armigera_GST44               ------------------MC---------------------------------------------------IIIHKTDICPPARATLIVAD----------------LL-GL-KIETREVNLP------TREQFKP---DY----VA--KNPLHTVPLLED-NDFI---LPECHAIMTYLVCKYGCEQ------QTLYPKDVRTRAIVDQRLYFDACILFPR-LR-----AVIYCVVKFRAPGPN--EVQIADIVECY------EVT-EKYL-E--GKTYIA-GEGFTLADICCVAT-ICALDCIV-------AVDK-K-YVKLHAWWGTCAEKK--------------LGIRRC----MNLGFETVLIVFI-----------
+Helicoverpa_armigera_GST45               ------------------MPK---------------------------------------------------KLQYFDLNGLAEPLRYLLH----------------YT-KQ-EFEDYRHD----------IATWPDP-KI----KE--SLPFGQFPLYEE-DGRV---LCQTLAIAKYVARGTD-----------LIPCDPWENALADQAVY----------SITDYH-KNVIACIQEQDREKK--SEMKNKLINETIEYYF-SRL-NKLLNE--NGGYF--SGKLCWVEFVLCGT-IEACNLFF-------SLQIEKDYPAIKAVMEEITCAPGVKEYI-EARGPYNLDGIRKRFGDI-----------------------
+Helicoverpa_armigera_GST46               ------------------MV---------------------------------------------------LKLYYLEDGPPCLCCRQVLE----------------ALEPL-AFELVNVCFY------HGEHMTE---EF----GK--MNPQKEIPVLED-DGFF---LCECVAIMQYICDKYK--P-----GNRLYPTDPKARAIVNHRLLFNLTTYYHD-LV-----TYTIMPIYFAYER-T--PEGLKRVHRAL------DLF-DTYL-QRLGTCHAA-ADHLTIADFPLVNC-TMLLEVI--------DFDFCQ-YKHVTKWYNDFKKNHP--ACW-AVCA-EGMRLMKN----CAANLPNLCHLNHPLHPTRCIKK-
+Helicoverpa_armigera_GST47               ------------------MG---------------------------------------------------LTVYKIDCCCPVRCVFMTIE----------------AL-NIPDVDYVNVNLL------EGEQHKE---EF----TK--LNPQHTVPLLKD-DDFC---VWDCHAIAVYLVTKYG--A-----DDCLYPADPKKRAVIDQRLHFDCGILFPA-LL-----EAVLPVFYKGEKCFR--PEHLERITKGY------EFA-EKFL-A--SCQWLA-GDQITLADICCVCC-ICTMDEII-------PIDKDL-YPNLAGWLKRCGEQEF---YK-KGNE-PGLRQFRD----LKKLKLA-----------------
+Helicoverpa_armigera_GST48               ------------------MG---------------------------------------------------LKLYKKDTCAPCRCVFMVIE----------------AL-HLRGVELVDMDLL-----GKKDHLKD---DF----LK--INPQHTIPTLKD-EDFV---IWDCHAIITYLVNKYA--K-----DDCLYPKEPKKRAVVDQRLHFCNAILFCT-LR-----ETMIPLLYHGEKCFK--QQNLDKIKCGY------EFL-ENFF-N--GQ-WLA-GDCLTLADICTVAM-ICTFNVIL-------PIDKAC-YPNLTAWFERCTKQDF---YI-KANV-PGLQYFQD----YVKCVIN-----------------
+Helicoverpa_armigera_GST49               -----------------------------------------------------------------------------DPCPPARAVMMVID----------------IL-GL-DVEQRTLNPV------LREQDVP---EL----KK--KNPMRTIPILDE-GDFW---LADCHAIMIYLLDKYGKPA-----HCCLYPTDCRKRATVHQRLFFDCGVLFQR-LR-----AVMAPTYMGRLEEMC--KCMVRNIVDAY------SML-EDYL-S--ENLYMA-DNVITIADLCIVCT-MATLVELV-------PIDEKE-IPKLKQWYKNMCDKDY---CK-RINI-PG----------------------------------
+Helicoverpa_armigera_GST5                ------------------MC---------------------------------------------------LKLYCDLMPHPCRALYILLK----------------SI-KC-DFEVKFVNLR------EAEHYCE---EF----SE--INRFQRVPVIDH-NGFI---LTECVAILKYLCRENI--I-----PECLYPKECKAQARVEEFLEWQHAGLRLH-CAMYFRVKYLNPIMFGKPVDAKCLVGYECRMVCAL------TDFNTKWLGR--GTDFIN-GNTPTVADLLAACE-LEQPRMC--------GYDPCENFANIAVWFKKVREHFNP-YYD-EGHV-IVNKIIKK---------NCKVACKV-----------
+Helicoverpa_armigera_GST50               ------------------MPK--------------------------------------------------AVFYYFKMKGLGEPCRLLLA----------------YG-GV-DFEDIRFE----------{DN}{DN}{DN}WPRVEEF----KP--KTPFGQVPVLEM-DGKT---YAQCYCIARFLGRKFG-----------LGGDNIQEEFEIDQIVD----------LIDDLR-KRAACVDYEPEPDLK--EKRHAIYAKTVYPDLL-QRI-NDIIVK--NNGYVA-LGKLTWGDFVLAGL-IDYLKKMLR------MPDLEKQYPAFKQVVDKVFAFPKVKAYA-DAAPEALF---------------------------------
+Helicoverpa_armigera_GST51               ------------------MG---------------------------------------------------VKLYTLDACPAARAAMMALE----------------IF-NV-PFEKIDVNLG------EGQHLTP---EY----RK--KNPMHTVPVLED-GDLI---LHDCHTILTYLADTYG--K-----DDCWYPKDTKKRALVDQKLFFDCAILYTR-GR-----NICTCVIMEGKRTKE--QKHLDLIEEAF------GFM-EEFL-S--RTCYIA-ADHVTIADVCALCC-MCCLVNLH-------KFDEKK-YPKTTAWYKKMKCTPY---CK-KYND-HGEKALHE----LVTKLLNC----------------
+Helicoverpa_armigera_GST52               ------------------MAC--ICLDNPVVRCYLFYCGV-------------------------------LGLKVLGMCLLTARARYCKKVFANPEDAVA------AQGKV-KFDDPDVE------------------RV----RRAHLNDLENIPVFWA-VGALYVTTGPAAPLATTLFRAFTAGRVLHTFVYAVKPLPQPARGI-----------------------AFGV------------------------------PFLITIYM-----------AFKVV----------QHYACAM------------------------------------------------------------------------------
+Helicoverpa_armigera_GST6                ---------------------------------------------------MCEKHLQTGD--VLPPYCGKLRLFAMRFCPYVERTVLVMN----------------AK-NL-QYETVFVNLD---------HKPE---WL----SN--FCPKGTVPALEYEEGKA---IFDCNIINVYLDEKYP--------EVPLQCCDPLRRAEDKIIVELFAGAQ-----------SAFYTAAYNPCALQP---NCVETYHKGL------EAL-QLKL-KERGTKFLH-ADTPGLVDFTLFPF-LERFEALPLVGKPEFELCKTK-YELLVNYLEAMKQVPAIKAYYLDPQTHAKFIECRNKGDANYNMLDTCA-VCCMRPRKKKE---
+Helicoverpa_armigera_GST7                ------------------MPK--------------------------------------------------AVFCYFPMKGLGEPCRLLLA-----------------G-GV-EFEDRRIP---------QGEEWL---AF----KP--QTPFGQMPVLEM-DGKQ---YAQCYAIARYLGHRFG-----------LAGDNIEEAFEIDQNVY----------LIDDLR-LKAAIVHYEPDPEVK--ERKYAEYCKTWYPNLL-ERL-NAVVVK--NNGHVA-LGKLTWGDFVFAGM-LDYLKLLLR------MPDLEKQYPAFKQVVDNVYCIPKVKAYA-DAAPVTHF---------------------------------
+Helicoverpa_armigera_GST8                ------------------MTK--------------------------------------------------VVYHYYREKAMGECNRLLMA----------------YG-GQ-EFEDHRIC----------DEDWP---AF----KP--NTPFGQMPVLEM-NGKK---YAKTCAICRYFGRKYG-----------LVGDTPEDAMEIDQNID----------CLNELR-DKALCVAYEPDKELQ--ERRHAEYCKTVYPQYL-EKL-SCIITE--NNGHIA-LGKLTWGDFVVAGL-IDYLKRMMR------MPDLIEKYPAFQTVVDKVYAIPQVKAYA-DAAPKMTW---------------------------------
+Helicoverpa_armigera_GST9                ------------------MPK--------------------------------------------------AVFYYFKMKGLGEPCRLLLA----------------YG-GV-DFEDIRFE-----------TTWPRVEEF----KP--KTPFGQVPVLEM-DGKT---YAQCYCIARFLGRKFG-----------LGGDNIQEEFEIDQIVD----------LIDDLR-KRAACVDYEPEPDLK--EKRHAIYAKTVYPDLL-QRI-NDIIVK--NNGYVA-LGKLTWGDFVLAGL-IDYLKKMLR------MPDLEKQYPAFKQVVDKVFAFPKVKAYA-DAAPEALF---------------------------------
+Homo_sapiens_GSTA3                       -3------------------MAG-------------------------------------------------KPKLHYFNGRGRMEPIRWLLA----------3-------AA-GV-EFEEKFIG------------SAEDLGKL----RNDGCLMFQQVPMVEI-DGMK---LVQTRAILNYIACKYN-----------LYGK-3DIKERALIDMYTE----------GMADLN-EMILLLPLCRPEEKD---AKIALIKEKTKCRYF-PAF-EKVL-QCHGQDYLV-GNKLCRADICLVEL-LY-3YVEEL--------DCCLICNFPLLKALKTRICNLPTVKKFL-QPGCPRKPPADAKALEEARKIFRF---------
+Homo_sapiens_GSTO2                       ------------------------------------------------MCGDATRTLGKGCQPPGPVPEGLIRIYCMRFCPYCHRTRLVLK----------------AK-DI-RHEVVNINLR---------NKPE---WY----YT--KHPFGHIPVLETCQCQL---IYECVIACEYLDDAYP--------GRKLFPYDPYERARQKMLLELFCKVP-----------HLTKECLVALRCGRE-CTNLKAALRQEF------SNL-EEIL-EYQNTTFFG-GTCICMIDYLLWPW-FERLDVYG-------ILDCVCHTPALRLWICAMKWDPTVCALLMDKCIFQGFLNLYFQNNPNAFDFGLC----------------
+Homo_sapiens_GSTT1                       ------------------MG---------------------------------------------------LELYLDLLCQPCRAVYIFAK----------------KN-DI-PFELRIVDLI------KGQHLCD---AF----AQ--VNPLKKVPALKD-GDFT---LTECVAILLYLTRKYK--V-----PDYWYPQDLQARARVDEYLAWQHTTLRRC-CLRALWHKVMFPVFLGEPVCPQTLAATLAELDVTL------QLLEDKFL-Q--NKAFLT-GPHICLADLVAITE-LMHPVGA--------GCQVFEGRPKLATWRQRVEAAVGEDLFQ-EAHE-VILKAK------DFPPADPTIKQKLMPWVLAMIR--
+Homo_sapiens_GSTT2                       ------------------MG---------------------------------------------------LELFLDLVCQPCRAVYIFAK----------------KN-GI-PLELRTVDLV------KGQHKCK---EF----LQ--INCLGKLPTLKD-GDFI---LTECCAILIYLCCKYQ--T-----PDHWYPCDLQARARVHEYLGWHADCIRGT-FGIPLWVQVLGPLI-GVQVPEEKVERNRTAMDQAL------QWLEDKFL-G--DRPFLA-GQQVTLADLMALEE-LMQPVAL--------GYELFEGRPRLAAWRGRVEAFLGAELCQ-EAHC-IILCILEQAAKKTLPTPCPEAYQAMLLRIARIP---
+Homo_sapiens_GSTT4                       ------------------MG---------------------------------------------------LELYLDLLCQPCRAVYIFAK----------------KN-DI-PFELRIVDLI------KGHHHCK---EY----ID--INPLRKLPCLKD-GKFI---LCECAAILYYLCRKYC--A-----PCHWCPPDLHARARVDEFVAWQHTAFQLP-MKKIVWLKLLIPKITGEEVCAEKMEHAVEEVKNCL------QLFEEYFL-Q--DKMFIT-GNQICLADLVAVVE-MMQPMAA--------NYNVFLNCCKLAEWRMQVELNIGCGLFR-EAHD-RLMQLADW----DFCTLDCMVKENICELLKKCR---
+Homo_sapiens_GSTome                      ------------------------------------------------MCGECARCLGKGCAPPGPVPEGCIRIYCMRFCPFAERTRLVLK----------------AK-GI-RHEVININLK---------NKPE---WF----FK--KNPFGLVPVLENCQGQL---IYECAITCEYLDEAYP--------GKKLLPDDPYEKACQKMILELFCKVP-----------SLVGCFIRCQNKEDY--AGLKEEFRKEF------TKL-EEVL-TNKKTTFFG-GNCICMIDYLIWPW-FERLEAMK-------LNECVDHTPKLKLWMAAMKEDPTVCALLTCEKDWQGFLELYLQNCPEACDYGL-----------------
+Homo_sapiens_GSTsig                      ------------------MPN--------------------------------------------------YKLTYFNMRGRAEIIRYIFA----------------YL-DI-QYEDHRIE----------QADWP---EI----KC--TLPFGKIPILEV-DGLT---LHQCLAIARYLTKNTD-----------LAGNTEMEQCHVDAIVD----------TLDDFM-SCFPWA--EKKQDVK--EQMFNELLTYNAPHLM-QDL-DTYLG---GREWLI-GNCVTWADFYWEIC-STTLLVF--------KPDLLDNHPRLVTLRKKVQAIPAVANWI-KRRPQTKL---------------------------------
+Homo_sapiens_GSTthe                      ------------------MG---------------------------------------------------LELYLDLLCQPCRAVYIFAK----------------KN-DI-PFELRIVDLI------KGQHLCD---AF----AQ--VNPLKKVPALKD-GDFT---LTECVAILLYLTRKYK--V-----PDYWYPQDLQARARVDEYLAWQHTTLRRC-CLRALWHKVMFPVFLGGPVCPQTLAATLAELDVTL------QLLEDKFL-Q--NKAFLT-GPHICLADLVAITE-LMHPVGA--------GCQVFEGRPKLATWRQRVEAAVGEDLFQ-EAHE-VILKAK------DFPPADPTIKQKLMPWVLAMIR--
+Homo_sapiens_GSTzeta                     ------------------MQ------------------------------------------------AGKPILYCYFRCCCCWRVRIALA----------------LK-GI-DYKTVPINLIK----DRGQQFCK---DF----QA--LNPMKQVPTLKI-DGIT---IHQCLAIIEYLEETRP--------TPRLLPQDPKKRACVRMICDLIAGGIQP--LQ-----NLCVLKQVGEEMQLT---WAQNAITCGF------NAL-EQIL-QCTAGIYCV-GDEVTMADLCLVPQ-VANAERF--------KVDLTP-YPTICCINKRLLVLEA---FQ-VCHP-CRQPDTPT----ELRA--------------------
+Homo_sapiens_MGST1                       ------------------MVDLTQVMDDEVFMAFACYATI-------------------------------ILCKMMLMCTATAFYRLTRKVFANPEDCVAFGKGENAKKYL-RTDD-RVE------------------RV----RRAHLNDLENIIPFLG-IGLLYCLCGPDPCTAILHFRLFVGARIYHTIAY-LTPLPQPNRAL-----------------------SFFV------------------------------GYGVTLCM-----------AYRLLKCKLYL-----------------------------------------------------------------------------------------
+Lucilia_cuprina_GSTT1                    -----------------------------------------------------------------------MDFYYLPGCAPCRCVLMTAK----------------AL-GI-ELNKKLLNLQ------AGEHLKP---EF----LK--INPQHTIPTLVD-GDFA---LWECRAIMVYLVEKYG--K-----NDCLFPKCPKKRAVINQRLYFDMGTLYKC-FA-----DYYYPQIFAKAPA-D--PELYKKMEAAF------DFL-NTFL-E--GHQYVA-GDCLTVADLALLAC-VCTFEVA--------GFDFCK-YANVAKWYANAKTVAP--GFD-E-NW-EGCLEFKK----FFN---------------------
+Manduca_sexta_GST2                       ------------------MPK--------------------------------------------------VVFHYFGAKGWARPT-MLLA----------------YG-GQ-EFEDHRVE----------YEQWP---EF----KP--NTPFGQMPVLEI-DGKK---YAQCLAICRYLGRKYG-----------LAGNDIEEDFEIDQIVD----------FVNDIR-ACAACVEYEQDAANK--EVKHEENMKNKYPFQL-NKL-SEIITK--NNGFLA-LGRLTWADFVFVGM-FDYLKKMLR------MPDLEEQYPIFKKPIETVLCNPKLKAYL-DCAPKKEF---------------------------------
+Manduca_sexta_GSTT1                      ------------------MV---------------------------------------------------MTLYKLDACPPARAVMMVIE----------------AL-KIPDVEYIDVNLL------EGCHLCE---EF----TK--MNPQHTVPLLKD-DDFL---VWDCHAIAGYLVCKYG--A-----DDCLYPTDPKKRAIVDQRLHFDCGILFPA-LR-----GCLEPVIFWGETAFR--PECLEKVRKGY------DFA-EKFL-T--ST-WMA-GEEFTVADICCVAC-ICTMNDIIV------PIDENT-YPKLCAWLERCCQLDV---YK-KKNA-PGNDLCKD----LVACKLC-----------------
+Musca_domestica_GST                      ------------------MADEAPAAPPAEGEAPAAPAEGEAPPPAEGE------------APPAEPVKNTYTLFYFNVKALAEPLRYLFA----------------YG-GI-EYEDVRVT----------RDEWP---AL----KP--TMPMGQMPVLEV-NGKR---VHQCICMARFLAKTVG-----------LCGATPWEDLQVDIVVD----------TINDFR-LKIAVVCYEPEDEIK--EKKLVTLNNEVIPFYL-EKL-EQTVKD--NDGHLA-LNKLTWADVYFAGI-LDYMNYMV-------KRDILEQYPALRGVVDCVNALEPIKAWI-EKRPQTEV---------------------------------
+Musca_domestica_GSTT1                    -----------------------------------------------------------------------MDFYYLPGCAPCRCVLMTAK----------------AL-GI-ELNKKLLNLQ------AGEHLKP---EF----LK--INPQHTIPTLVD-GDFA---LWECRAIMVYLVEKYG--K-----TDCLFPKCPKKRAVINQRLYFDMGTLYKC-FA-----DYYYPQIFAKAPA-D--PELFKKIETAF------DFL-NTFL-K--GHEYAA-GDCLTVADLALLAC-VCTFEVA--------SFDFCK-YPNVAKWYANLKTVAP--GWE-E-NW-AGCLEFKK----YFG---------------------
+Musca_domestica_GSTT2                    -----------------------------------------------------------------------MDFYYLPLCAPCRCVIMTAK----------------AL-GI-ELNKKLLNLF------EGEHLKP---EF----LK--INPQHTIPTLVD-NGFA---MWECRAIMVYLVEKYG--K----QNDPLYPCCPKKRALINQRLYFDMGTLWKC-YA-----DYTYPQFRENKPA-D--PELFKKFECAL------EFL-NIFL-S--QCKYAA-GETMTLADLAILAC-VCTFDVV--------QMDLCK-YEHILRWYNMLKDTAP--GAA-E-NW-AGCLEMKK----YFKK--------------------
+Musca_domestica_GSTT3                    -----------------------------------------------------------------------MDFYYLPLCAPCRCVIMTAK----------------AL-GI-ELNKKLLNLF------EGEHLKP---EF----LK--INPQHTIPTLVD-NGFA---MWECRAIMVYLVEKYG--K----QNDPLYPCCPKKRALINQRLYFDMGTLWKC-YA-----DYTYPQFRENKPA-D--PELFKKFECAL------EFL-NIFL-S--QCKYAA-GQTMTLADLAILAC-VCTFDVV--------QMDLCK-YEHILRWYNMLKDTAP--GAA-E-NW-AGCLEMKK----YFKK--------------------
+Musca_domestica_GSTT4                    -----------------------------------------------------------------------MDFYYLPLCAPCRCVLMTAK----------------AL-GI-ELNKKLLKLF------EGGHLKP---EF----LK--INPQHTIPTLVD-NGFA---LWECRAIMVYLVEKYG--K----QDDPLYPCCPKKRALINQRLYFDMGTLYQG-FA-----NYFYPQFKEKKPA-D--PELFKKFEVTL------DFL-NTFL-S--ECKYAA-GDCLTLADLALLAC-VC-TFEAV--------NIDVCK-YEHIARWYALVKETAP--GAD-E-NW-AGALEMKT----LIPK-------------------
+Musca_domestica_GSTthe                   -----------------------------------------------------------------------MDFYYLPGCAPCRCVLMTAK----------------AL-GI-ELNKKLLNLQ------AGEHLKP---EF----LK--INPQHTIPTLVD-GDFA---LWECRAIMVYLVEKYG--K-----TDCLFPKCPKKRAVINQRLYFDMGTLYKC-FA-----DYYYPQIFAKAPA-D--PELFKKIETAF------DFL-NTFL-K--GHEYAA-GDCLTVADLALLAC-VCTFEVA--------SFDFCK-YPNVAKWYANLKTVAP--GWE-E-NW-AGCLEFKK----YFG---------------------
+Plutella_xylostella_GST1                 ---------------------------------------------------MCEKHLQTGD--ALPPFGGKLRLFAMRFCPYAERCVLVLN----------------AK-NI-PYDLVFINLD---------QKPE---WI----FN--FCPRGAVPALEYEQGKG---IFDCNVINVYLDEKYP--------EVPLQAADPLRRAQDKLIVENFCAAQ-----------SAYYTAAFNAQALQP---SHLENFHKGL------ELL-QKEL-ETRGTKFLH-GDQAGLVDYTLWPF-LERFEALPLLGKCEYAIDKCK-YDILLTYMECMKQVPAVKTYYLCADMHAKFTECRVKGDPNYNMLDCCAEVCCFRLRKKKE---
+Plutella_xylostella_GST10                -----------------------------------------------------------------------MKLYKLDMCPPARATMMVAE----------------AL-GV-KVDTVDVNLM------KGDNRTP---EY----LK--KNPIHTVPLLED-GDLI---LHDCHAIVTYLVDKYG--K-----SDALYPKDVKKRAQVDQKLYLDATILFPR-LR-----AVTFLIITEGLKKPC--DKMLKDIEEAY------SIL-NCFL-S--TCKYLA-GDQLCLADICAVAT-VTCLVYVL-------PLDEAK-YPKVAAWLKTMKDLPF---VK-SKNE-PGVTQVGQ----WITFCLTCK---------------
+Plutella_xylostella_GST11                ------------------MG---------------------------------------------------LTVYKIDWCPPARAVIMTLE----------------AL-NITDAELVDVCLL------DGKHMCE---EY----LK--MNPQHTVPVIKD-GDFV---LWDCHAICAYLVDKYG--K-----DDCLYPKDLQKRAVVDQRLHFDTGILFPC-VR-----GAAEPVLFDWEPTFN--PEKLKVIQCGY------DFL-EKFL-D--HC-YLA-GDHLTIADICAGAT-VCCMNVIV-------PIAANR-YPKICAWLDRLNCIEY---F--RING-NGIKNITA----FVECKLNKCKKVYAL---------
+Plutella_xylostella_GST12                ------------------MV---------------------------------------------------LKLYAVCDGPPCLCVRQTLA----------------AL-QL-PHELVCVDYG------AGEHLTE---GYAQVGAQ--MNPQKEIPVLDD-DGFF---LCECNAIMQYLCDKYK--R-----DCPLYPTEAKARAIINQRMCFNLACYYAN-IC-----AYTLAPIFFDYER-S--SLGLKKVHLVL------EVF-DTYL-ARLGARHAA-ADHLTIADFPLVNC-TMTLEAI--------NVDFCK-YERVHKWYNDFKRNYP--ELW-KICE-DAMKELKQ----FCAHPPDLCNLNHPFHPIRH----
+Plutella_xylostella_GST13                ------------------MPV--------------------------------------------------VKFYYFPIKALGEGPRLLLA----------------YG-GQ-EFQDIRVD----------KENWP---EF----KP--KTKYGQMPILEI-DGKQ---YAQCAAICRYLACRYG-----------LVGADAEQNFEIDEAVD----------FFNDIR-AKAAQVHYEEDEKVK--EKRHETYCQTLYPDLL-GKL-HNIVQR--NNGHLA-ANKLTWADFYFAGV-YDYMKVMLR------RPDLDQQYPGFAKVYETVYCLPKVKAFA-DAAPKTDF---------------------------------
+Plutella_xylostella_GST14                ------------------MG---------------------------------------------------LTVYKIDWCPPARAVIMTLE----------------AL-NITDAELVDVCLL------DGKHMCE---EY----LK--MNPQHTVPVIKD-GDFV---LWDCHAICAYLVDKYG--K-----DDCLYPKDLQKRAVVDQRLHFDTGILFPC-VR-----GAAEPVLFDWEPTFN--PEKLKVIQCGY------DFL-EKFL-D--HC-YLA-GDHLTIADICAGAT-VCCMNVIV-------PITANR-YPKICAWLDRLNCIEY---F--RING-NGI--YT-----LFECKTNNQRCICIVT--------
+Plutella_xylostella_GST15                -----------------------------------------------------------------------MKLYKLDMCPPARATMMVAE----------------AL-GV-KVDTVDVNLM------KGDNRTP---EY----LK--KNPIHTVPLLED-GDLI---LHDCHAIVTYLVDKYG--K-----SDALYPKDVKKRAQVDQKLYLDATILFPR-LR-----AVTFLIITEGLKKPC--DKMLKDIEEAY------SIL-NCFL-S--TCKYLA-GDQLCLADICAVAT-VTCLVYVL-------PLDEAK-YPKVAAWLKNMKDLCF---VK-SKNE-PGVTQVGQ----WITCCLTLRNFII-----------
+Plutella_xylostella_GST16                ------------------MP----------------------------------------------------DLYYVPGCAPCRAVLLTAK----------------AL-NL-NLNLKLVDLH------HGEQMKP---EY----LK--LNPQHTVPTLVD-DGLA---IAECRAILTYLVNKYG--K-----GCTLYPEDPKARAIVDQRLYFDIGTLYQR-FG-----DYFYPQLFGGAPE-D--KEKLAKVDEAL------KFL-DTFL-E--GQKYVA-GNNLTVADLCLVAC-VC---SFEAA--------NIDFLK-YGNVKRWYETVKATAP--GYE-EANG--GLEAFKG----LCHCIMKK-------------
+Plutella_xylostella_GST17                -----------------------------------------------------------------------MKLYKLDMCPPARATMMVAE----------------AL-GV-KVETVDVNLM------KGDNRTP---EY----LK--KNPIHTVPLLED-GDLI---LHDCHAIVTYLVDKYG--K-----SDALYPKDVKKRAQVDQKLYLDATILFPR-LR-----AVTFLIITEGLKKPC--DKMLKDIEEAY------SIL-NCFL-S--TCKYLA-GDQLCLADICAVAT-VTCLVYVL-------PLDEAK-YPKVAAWLKTMKDLPF---VK-SKNE-PGVTQVGQ----WITCCLTCK---------------
+Plutella_xylostella_GST18                -----------------------------------------------------------------------MKLYKLDMCPPARATMMVAE----------------AL-GV-KVDTVDVNLM------KGDHTTP---EY----LK--KNPIHTVPLLED-GDLI---LHDCHAIVTYLVDKYG--K-----SDALYPKDVKKRAQVDQKLYLDATILFPR-LR-----AVTFLIFTEGLKKPC--DKMLKDIEEAY------SIL-NCFL-S--TCKYLA-GDQLCLADICAVAT-VTCLVYVL-------PLDEAK-YPKVTAWLKTMKDLPF---VK-SKNE-PGVTQCGQ----WITCCLTCK---------------
+Plutella_xylostella_GST19                ------------------MAK---------------------------------------------------KLHYFDVNGIGECIRYILH----------------YG-GQ-KFEDVRYQ----------ICGWPDK-KV----KD--ALPFGQLPLYEE-GDRC---LHQCLAIARYVACQCK-----------LLPNDLWEQAVVDCYVM----------TIYDFWFTKVIPFVKETDAAKK--ATLKKEILDECIHFFF-SRF-DKVLKE--HNGFF--IGKLTWAEFILVGI-IEAGNLFL-------DYEIEKNYPHVKAAVQKVLCLPGVKEYI-AKRKVYAL---------------------------------
+Plutella_xylostella_GST2                 ------------------MA---------------------------------------------------IDLYLTPGCAPCRLVLLTAA----------------AL-NI-QLNLNNVDLR------AGEQFCP---DF----LK--LNPQHTVPTIVD-QGFA---LWECRAICRYLVNKYG--H-----GCTLYPEDPQCRALVDQRLDFDLGTLYPK-FA-----DYFYPQVFGCAPA-D--PEKLKKLHEVL------GFL-DIFL-G--DEKYAA-GCDLTIADLCLVAT-VCTIDAA--------GICLDD-FPNIHRWFELVKCNAP--DYE-NANG-KGIKAFKE----LVAQLKAKT----EL---------
+Plutella_xylostella_GST20                ------------------MPV--------------------------------------------------VKFYYFPIKALGEGPRLLLA----------------YG-GQ-EFQDIRVD----------KECWP---EF----KP--KTKYGQMPILEI-DGKQ---YAQCAAICRYLACRYG-----------LAGADAEQNFEIDEAVD----------FFNDIR-AKAAQVHYEEDEKVK--EKRHETYCQTVYPDLL-GKL-HDIVQR--NNGHLA-ANKLTWADFYFAGV-YDYMKVMLR------RPDLDQQYPGFAKVYETVYCLPKVKAFA-DAAPKTDF---------------------------------
+Plutella_xylostella_GST3                 ------------------MA---------------------------------------------------IDLYLTPGCAPCRLVLLTAA----------------AL-NI-QLNLNNVDLR------AGEQFCP---DF----LK--LNPQHTVPTIVD-QGFA---LWECRAICRYLVNKYG--H-----GCTLYPEDPQARALVDQRLDFDLGTLYPK-FA-----DYFYPQVFGCAPA-D--PEKLKKLHEVL------GFL-DIFL-G--DEKYAA-GCDLTIADLCLVAT-VC-----TIDAA--------GICLDD-FPNIHRWFELVKCTAP--DYE-NANG-KGIKAFKE----LVAQLRAKT----EL----
+Plutella_xylostella_GST4                 ------------------MG---------------------------------------------------LTVYKIDWCPPARAVIMTLE----------------AL-NITDAELVDVCLL------DGKHMCE---EY----LK--MNPQHTVPVIKD-GDFV---LWDCHAICAYLVNKYG--K-----DDCLYPKDLQKRAVVDQRLHFDTGILFPC-VR-----GAAEPVLFDWEPTFN--PEKLKVIQCGY------DFL-EKFL-D--HA-YLA-GDHLTIADICAGAT-VCCMNVIV-------PIAANR-YPKICAWLDRLNCIEY---FC-RING-NGIKIITA----LFECKLNKCKK-------------
+Plutella_xylostella_GST5                 ---------MRLLVTCLKPVRCVGQALN--------KGDAQYRTMCTKGIKFNTKHLRKGD--PLPPYNGKLRLYNMRYCPFAQRTVLALN----------------AK-DI-DYEVVNINLF---------EKPE---WL----TC--KCAFGKVPCLEIKEGLC---IYECLVTVEYLDEVYP--------QRPLLPKDPVQRALDKIIVEACTPIQ-----------GLFVKLIKFPETITE---DTVAAYHKAL------YFL-QEQL-QCRGTRFFG-GDQPGFMDYMIWPW-FERVLPYQKV-ECRVQIDAGK-FKLLLEYLQNLKQGPVVKQYLIEDEILFKFLQPYKTGG----EPNYDLLLEA-----------
+Plutella_xylostella_GST6                 ------------------MCG--------------------------------------------------IKLYHFGVCGPCRGALLAAR----------------AL-GV-PIEVEQVDLF------KKEQLKG---RI----SE--INP-----------GFV---LWECRAIACYLADKYG--K-----DDQLYPRDLQRRALVNQRLYFDCCCLYVK-IR-----AICFPILFLGVKEIV--PCLKDDLNATL------AFL-EQFL-T--GCKWVC-GDNYTIADTCIYAC-LCCILAV--------GWDICC-FPNIQQWVKDCAILPG---FE-E-NQ-EGAKLFGE----AVKKNLQ-----------------
+Plutella_xylostella_GST7                 ------------------MP----------------------------------------------------DLYYVPGCAPCRAVLLTAK----------------AL-NL-NLNLKLVDLH------HGEQMKP---EY----LK--LNPQHTVPTLVD-DGLA---IAECRAILTYLVNKYG--K-----GCTLYPEDPKARAIVDQRLYFDIGTLYQR-FG-----DYFYPQLFGGAPE-D--KEKLAKVDEAL------KFL-DTFL-E--GQKYVA-GNNLTVADLCLVAC-VCCFEAA--------NIDFLK-YGNVKRWYETVKATAP--GYE-EANG-KGLEAFKG----LVNCIMKK----------------
+Plutella_xylostella_GST8                 ------------------MA---------------------------------------------------IDLYLTPGCAPCRLVLLTAA----------------AL-NI-QLNLNNVDLR------AGEQLCP---DF----LK--LNPQHTVPTIVD-QGFA---LWECRAICRYLVNKYG--H-----GCTLYPEDPQARALVDQRLDFDLGTLYPK-FA-----DYFYPQVFGCTPA-D--PEKLKKLHEVL------GFL-DIFL-G--DEKYAA-GCDLTIADLCLVAT-VCTIDAA--------GICLDD-FPNIHRWYELVKCTAP--DYE-NANG-KV----------------------------------
+Plutella_xylostella_GST9                 ------------------MA---------------------------------------------------IDLYLTPGCAPCRLVLLTAA----------------AL-NI-QLNLNNVDLR------AGEQFCP---DF----LK--LNPQHTVPTIVD-QGFA---LWECRAICRYLVNKYG--H-----GCTLYPEDPQCRALVDQRLDFDLGTLYPK-FA-----DYFYPQVFGCAPA-D--PEKLKKLHEVL------GFL-DIFL-G--DEKYAA-GCDLTIADLCLVAT-VCTIDAA--------GICLDD-FPNIHRWFELVKCNAP--DYE-NANG-KGIKAF-R----ICCTVEG-----------------
+Spodoptera_littoralis_GST1               ------------------MV---------------------------------------------------VKLYVMDFCPPVRACLMACE----------------VL-NA-PYERVELDLY------KRENHTP---EY----LA--KNPMHTIPVMED-GDLI---LRDCHAIMAYLCDTYA--K-----DDCWYPKDVKKRAAINDKLFFNAFVVFC------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Spodoptera_littoralis_GST10              ------------------------------------------------------------------------------------------------------------------------------------TEWP---AF----KP--KTPFGQMPVLVI-DGKE---YAQCLAICRYLGNKYG-----------VAGDCFEDALEIDQNVD----------LINDLR-AKAAVVHYEADEALK--EAKYADFVKNVFPDLF-EKL-NAIFVK--NNGHVA-LGKLTWGDFVFAGM-FDYLKVMLR------MPDLEKKYPVFQQVIDNVYCIPKVKAYA-DAAPPTDF---------------------------------
+Spodoptera_littoralis_GST11              ------------------MGD---------------------------------------------VVETKPVLYCYWRCCCCWRVRIALN----------------LK-EI-PYDIKAVCLIK----GGGEQHCN---EY----RE--VNPMEQVPCLCI-DGHT---LVECLNIMHYLEETRP-------NQRPLMPQDCFKRAKVCEICEVICCGIQP--LQ-----NLIVLIYVG-EEKKK--EWAQHWITRGF------RAV-EKLL-SACAGKYCV-GDEITLADCCLVPQ-VFNARRF--------HVDLRP-FPIILRIDRELENHPA---FR-AAHP-SCQPDCPP----EVAK--------------------
+Spodoptera_littoralis_GST12              ------------------MAK---------------------------------------------------KLHYFNFIAIAEPIRYILH----------------YT-KQ-EFEDVRHD----------HRFWPNA-EF----KE--KLPFGQFPLYEE-GDRL---LTQCLAIAKYVARGTD-----------LIPCDPWTQVVLDAAVY----------TIYDYW-SKAVTFIREKDPEKK--KELKRELLDETIDFFF-SRL-DKDLKE--NGGYF--SGKLCWVEFVLCGL-VEACNYFL-------DTELDKKYPRVEALIKKIKCLPGVKEYV-AARGPNVF---------------------------------
+Spodoptera_littoralis_GST13              ------------------MV---------------------------------------------------VKLYTYNMCPCVRACLMACE----------------IF-NV-PFEKIPIDIQ------AGEHLTP---EF----LK--KNPIHQVPVMED-GDLT---LHDCHAILPYLADTYG--K-----DDCWYPKDVKKRALVNQKLIFNAVIIFAR-AR-----NITGQVVLTGKRTIE--PELIAAVEEGY------EFM-EAFL-S--RTKYIA-GDHVTIADVAILAV-MTCLTQII-------KLDAQK-YPKTCAWLENLKTAPY---CK-KYDE-AGANELAA----YVNCRVA-----------------
+Spodoptera_littoralis_GST14              ------------------MPK--------------------------------------------------YVVHYFNGKGLGEPIRLLLA----------------YG-GE-DFEDHRVC----------PKDWP---EY----KK--NTVFGQMPNLDI-DGKK---YAQCIVICRYLGNKYG-----------LAGDTPEEALEIDQFVD----------LLVDFR-LKAAIVTYEKDEKLK--EQRYEEYCKDVFPEQL-DRF-NDIIEK--NNGHYA-LGKLTWAHFVFAGF-FDCIKFIVR------IPDLEKKYPAFQRVIDHVYCIPKVKAYA-DALGPTEF---------------------------------
+Spodoptera_littoralis_GST15              ------------------MG---------------------------------------------------VKLYTLDMCPPVRACMMACE----------------IF-NV-PFEKIPVDLM------AGDHLTP---EY----LQ--KNPLHTVPVMED-GDVT---LHDCHAIMAYLADTYG--K-----DECWYPKDVKIRAFVNQKLFFDTAIIFPR-LR-----NITYFIVMKGKTTIE--PELLEAVAEAY------DFM-EAFL-S--RTKYIA-ADHVTIADIGILAV-MTCLEHIL-------PVEPNK-YPKTCAWLENLKTAPY---CK-KWNE-ECANALGA----FVKGKLLCNILRIII---------
+Spodoptera_littoralis_GST16              ------------------------------------------------------------------------------------------------------------------------------------------------------------PTLVD-DGFP---IWECRAIITYLVNKYG--K-----GCCLYPEEPKARALVDQRLYFDIGTLYQR-FA-----DYFYPQVFGGAPA-D--KDKLAKIEDAL------QLL-NTFL-E--GQKFCA-GPTLTLADLCLVAC-VCCFEAC--------DVDFKK-YPNIKRWYETVKCCAP--GYL-EANE-KGLDAFKG----LVNCMMKK----------------
+Spodoptera_littoralis_GST17              ------------------MA---------------------------------------------------PILYKMDACPPANAVRILCD----------------II-GL-ELEVKDVNFG------VLEHKCP---EH----LK--RNPMGTVPTLID-GDFT---ICECHATMKYLLCVYGGDK-----SEALYPCDVRTRAIVDQCMFFDVGIFFIR-LK-----VVVLPAIFGDLDGPT--EKHKADIDEAY------GIV-EAYL-A-------------------------------------------------------------------------------------------------------------
+Spodoptera_littoralis_GST2               ------------------MP---------------------------------------------------PILYKADACPPARAVMMVID----------------IL-GI-NVEQRNLNPV------LREQDAP---EF----VK--KNPMRTIPWLDE-GDFW---LADCHAIMIYLIQKYGKPE-----HCKLYPTDCRKRATVHQRLFFDCGILFQR-LR-----AVMAPTYMGRLTEMC--KGMIRNIVDAY------AML-EDYL-S--ENLYMA-DEVITIADLCIACT-MATLVGLV-------AIDEKR-FCKLTQWYNNMNKQDY---CI-RINI-PGGKEHCD----GLKALMANTKFHQKCKI-------
+Spodoptera_littoralis_GST3               ---------------------------------------------------MCEKHLQTGD--ALPPYGGKLRLFAMRFCPYAERTVLVMN----------------AK-NL-QYDTVFVNLD---------HKPE---WL----LN--YCPKGTVPALEYEEGKG---IFDCNIINVYLDEKYP--------DVPLQCTDPLRRAEDKIIVELFAGVQ-----------SAFYTAAYNCQALQP---NMVETYHKGL------VAL-QDTL-RARGTKFLH-GETPGLVDFTLFPF-LERFEALPLVGKPEFELVKCK-YEL------------------------------------------------------------
+Spodoptera_littoralis_GST4               ------------------MV---------------------------------------------------LKLYYLEDGPPCLCCRQTLE----------------AL-GV-PFEIVNVCFY------HGEHMTE---EF----AK--KNPQKELPVLED-DGFF---LCECVAMMQYICDKFK--P-----NCPLYPTDCKARAIINHRLMFAMTTYYAE-LL-----NYFIMPVYFKYER-T--PEVLKRVHRAL------DLF--------------------------------------------------------------------------------------------------------------------
+Spodoptera_littoralis_GST5               ----------------LQGVQTIGRALG--------SLLPYCTMVGTNKRNFDTPHLKTGD--PLPPYTGKLRLYNMRYCPFAQRTVLALN----------------AK-NI-DYEIVNIDLM---------DKPE---WL----TT--KCAFGKVPALEIAENVC---IYECLVTVEYLDDVYP--------QRPLLPKDPVKKAVDKILVEALCAIH-----------AVYFKLVRGPDTITE---DNITAYYKNL------TFI-QQEL-QNRGTKFLD-GDQPGYADYMIWPW-FERLHVINH---DLARLDKQK-YKLLVEYIDNMFQDP------------------------------------------------
+Spodoptera_littoralis_GST6               ------------------MPK--------------------------------------------------YVFHYFDGKGLGEPVRRLLA----------------FG-DE-GFEDHRVA----------FKDWP---DF----KP--KTPFGQMPLLEF-EGKQ---YAQCLCIARYLGKKYG-----------LAGECLEDALEIDQNVD----------LINDLR-AKAAIACYEKDEAVK--EKKYAEFNKDVFPNML-EKL-NEIITK--NNGHIA-IGKLCWGDFVFAGM-FDYIKHLLV------VPDLEKKYPAFQKVVDAVYCIPKVKTYA-DAVDPRNCNFKTKEIAFYLMAVCWCEFVLKCTV--------
+Spodoptera_littoralis_GST7               ------------------MG---------------------------------------------------VKLYAMDFCCPCRACMMACE----------------IF-GV-PFEKIPVNLF------NNEHLTP---EF----LE--KNPLHAIPVLED-GDLI---LYDCHAILAYLADTYA--K-----DECWYPKDVKKRALVCQKLFFNVAIIFRR-LR-----IICYYVIQKGRKTLE--QDWLDDIVEAY------GFL-EAFL-S--KTKYIA-ADHITIADFCNLCF-LTTLEYIL-------PVDAKK-YPKTCAWLEDFKAKPY---AK-KYNE-EGAKILFN----YI----------------------
+Spodoptera_littoralis_GST8               ------------------MA------------------------------------------------ENRAILYAYCLCCCCWRVRAALH----------------FK-SI-PFEERCIDIVK-----TNQQKTE---QF----RA--INPAQKVPALVI-DNVT---LVECMAIVQYLEDTHP--------EPALTPKTPVLRARMRELCEVVVCGIQP--LQ-----NIGLRCHFDTTEQYT--KFTKYWTDRGL------KTL-EDLL-QKCAGKYCV-GDQITLADLCLVPQ-LYNAVTRH-------ALDICK-YPTVCKLYECLLKENV---FK-ETHP-ECVKC-KM----------------------------
+Spodoptera_littoralis_GST9               ------------------MAP--LPLDDPAVQCYLLYCCV-------------------------------LGLKVLGMAFLTARVRYAKNVFANPEDAAA------KKGKV-KYDDPDVE------------------RV----RRAHLNDLENIPVFWV-LGALYLTTAPCAWLATTLFRVYTAGRVLHTLVYAVKPLPQPARGI-----------------------AFGI------------------------------PLMITFYM-----------GVKVI----------LHYCCAL------------------------------------------------------------------------------
+;
+END;
+
+BEGIN TREES;
+      TITLE NJ_tree;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Anopheles_gambiae_GST,
+            2    Anopheles_gambiae_GST1A,
+            3    Anopheles_gambiae_GST1B,
+            4    Anopheles_gambiae_GST1C,
+            5    Anopheles_gambiae_GST1D,
+            6    Anopheles_gambiae_GSTT2,
+            7    Anopheles_gambiae_GSTT7,
+            8    Anopheles_gambiae_GSTu1,
+            9    Anopheles_gambiae_GSTu2,
+            10   Blatella_germanica_GST1,
+            11   Bombyx_mori_GST1,
+            12   Bombyx_mori_GST10,
+            13   Bombyx_mori_GST11,
+            14   Bombyx_mori_GST12,
+            15   Bombyx_mori_GST13,
+            16   Bombyx_mori_GST14,
+            17   Bombyx_mori_GST15,
+            18   Bombyx_mori_GST2,
+            19   Bombyx_mori_GST3,
+            20   Bombyx_mori_GST4,
+            21   Bombyx_mori_GST5,
+            22   Bombyx_mori_GST6,
+            23   Bombyx_mori_GST7,
+            24   Bombyx_mori_GST8,
+            25   Bombyx_mori_GST9,
+            26   Culex_quinquefasciatus_GSTNeps,
+            27   Dermatophagoides_pteronyssinus_GSTM1,
+            28   Drosophila_erecta_GSTT1,
+            29   Drosophila_mauritiana_GSTT1,
+            30   Drosophila_melanogaster_GST1,
+            31   Drosophila_melanogaster_GSTT1,
+            32   Drosophila_melanogaster_GSTT2,
+            33   Drosophila_melanogaster_GSTT3,
+            34   Drosophila_melanogaster_GSTT4,
+            35   Drosophila_melanogaster_GSTT5,
+            36   Drosophila_melanogaster_GSTT6,
+            37   Drosophila_melanogaster_GSTT7,
+            38   Drosophila_melanogaster_GSTeps,
+            39   Drosophila_sechellia_GSTT1,
+            40   Drosophila_teissieri_GSTT1,
+            41   Drosophila_yakuba_GSTT1,
+            42   Galleria_mellonella_GST1,
+            43   Galleria_mellonella_GST10,
+            44   Galleria_mellonella_GST11,
+            45   Galleria_mellonella_GST12,
+            46   Galleria_mellonella_GST13,
+            47   Galleria_mellonella_GST14,
+            48   Galleria_mellonella_GST15,
+            49   Galleria_mellonella_GST16,
+            50   Galleria_mellonella_GST17,
+            51   Galleria_mellonella_GST18,
+            52   Galleria_mellonella_GST19,
+            53   Galleria_mellonella_GST2,
+            54   Galleria_mellonella_GST3,
+            55   Galleria_mellonella_GST4,
+            56   Galleria_mellonella_GST5,
+            57   Galleria_mellonella_GST6,
+            58   Galleria_mellonella_GST7,
+            59   Galleria_mellonella_GST8,
+            60   Galleria_mellonella_GST9,
+            61   Helicoverpa_armigera_GST1,
+            62   Helicoverpa_armigera_GST10,
+            63   Helicoverpa_armigera_GST11,
+            64   Helicoverpa_armigera_GST12,
+            65   Helicoverpa_armigera_GST13,
+            66   Helicoverpa_armigera_GST14,
+            67   Helicoverpa_armigera_GST15,
+            68   Helicoverpa_armigera_GST16,
+            69   Helicoverpa_armigera_GST17,
+            70   Helicoverpa_armigera_GST18,
+            71   Helicoverpa_armigera_GST19,
+            72   Helicoverpa_armigera_GST2,
+            73   Helicoverpa_armigera_GST20,
+            74   Helicoverpa_armigera_GST21,
+            75   Helicoverpa_armigera_GST22,
+            76   Helicoverpa_armigera_GST23,
+            77   Helicoverpa_armigera_GST24,
+            78   Helicoverpa_armigera_GST25,
+            79   Helicoverpa_armigera_GST26,
+            80   Helicoverpa_armigera_GST27,
+            81   Helicoverpa_armigera_GST28,
+            82   Helicoverpa_armigera_GST29,
+            83   Helicoverpa_armigera_GST3,
+            84   Helicoverpa_armigera_GST30,
+            85   Helicoverpa_armigera_GST31,
+            86   Helicoverpa_armigera_GST32,
+            87   Helicoverpa_armigera_GST33,
+            88   Helicoverpa_armigera_GST34,
+            89   Helicoverpa_armigera_GST35,
+            90   Helicoverpa_armigera_GST36,
+            91   Helicoverpa_armigera_GST37,
+            92   Helicoverpa_armigera_GST38,
+            93   Helicoverpa_armigera_GST39,
+            94   Helicoverpa_armigera_GST4,
+            95   Helicoverpa_armigera_GST40,
+            96   Helicoverpa_armigera_GST41,
+            97   Helicoverpa_armigera_GST42,
+            98   Helicoverpa_armigera_GST43,
+            99   Helicoverpa_armigera_GST44,
+            100  Helicoverpa_armigera_GST45,
+            101  Helicoverpa_armigera_GST46,
+            102  Helicoverpa_armigera_GST47,
+            103  Helicoverpa_armigera_GST48,
+            104  Helicoverpa_armigera_GST49,
+            105  Helicoverpa_armigera_GST5,
+            106  Helicoverpa_armigera_GST50,
+            107  Helicoverpa_armigera_GST51,
+            108  Helicoverpa_armigera_GST52,
+            109  Helicoverpa_armigera_GST6,
+            110  Helicoverpa_armigera_GST7,
+            111  Helicoverpa_armigera_GST8,
+            112  Helicoverpa_armigera_GST9,
+            113  Homo_sapiens_GSTA3,
+            114  Homo_sapiens_GSTO2,
+            115  Homo_sapiens_GSTT1,
+            116  Homo_sapiens_GSTT2,
+            117  Homo_sapiens_GSTT4,
+            118  Homo_sapiens_GSTome,
+            119  Homo_sapiens_GSTsig,
+            120  Homo_sapiens_GSTthe,
+            121  Homo_sapiens_GSTzeta,
+            122  Homo_sapiens_MGST1,
+            123  Lucilia_cuprina_GSTT1,
+            124  Manduca_sexta_GST2,
+            125  Manduca_sexta_GSTT1,
+            126  Musca_domestica_GST,
+            127  Musca_domestica_GSTT1,
+            128  Musca_domestica_GSTT2,
+            129  Musca_domestica_GSTT3,
+            130  Musca_domestica_GSTT4,
+            131  Musca_domestica_GSTthe,
+            132  Plutella_xylostella_GST1,
+            133  Plutella_xylostella_GST10,
+            134  Plutella_xylostella_GST11,
+            135  Plutella_xylostella_GST12,
+            136  Plutella_xylostella_GST13,
+            137  Plutella_xylostella_GST14,
+            138  Plutella_xylostella_GST15,
+            139  Plutella_xylostella_GST16,
+            140  Plutella_xylostella_GST17,
+            141  Plutella_xylostella_GST18,
+            142  Plutella_xylostella_GST19,
+            143  Plutella_xylostella_GST2,
+            144  Plutella_xylostella_GST20,
+            145  Plutella_xylostella_GST3,
+            146  Plutella_xylostella_GST4,
+            147  Plutella_xylostella_GST5,
+            148  Plutella_xylostella_GST6,
+            149  Plutella_xylostella_GST7,
+            150  Plutella_xylostella_GST8,
+            151  Plutella_xylostella_GST9,
+            152  Spodoptera_littoralis_GST1,
+            153  Spodoptera_littoralis_GST10,
+            154  Spodoptera_littoralis_GST11,
+            155  Spodoptera_littoralis_GST12,
+            156  Spodoptera_littoralis_GST13,
+            157  Spodoptera_littoralis_GST14,
+            158  Spodoptera_littoralis_GST15,
+            159  Spodoptera_littoralis_GST16,
+            160  Spodoptera_littoralis_GST17,
+            161  Spodoptera_littoralis_GST2,
+            162  Spodoptera_littoralis_GST3,
+            163  Spodoptera_littoralis_GST4,
+            164  Spodoptera_littoralis_GST5,
+            165  Spodoptera_littoralis_GST6,
+            166  Spodoptera_littoralis_GST7,
+            167  Spodoptera_littoralis_GST8,
+            168  Spodoptera_littoralis_GST9;
+      TREE PAUP_1 = [&R] (((((((((1:34.0,(30:9.0,126:12.0):45.0):29.0,10:53.0):14.0,(((((15:28.0,23:48.0):10.0,(57:16.0,124:45.0):3.0):5.0,(136:4.0,144:2.0):47.0):6.0,((((67:3.0,71:0.0):2.0,90:3.0):45.0,((((82:0.0,110:0.0):29.0,(88:17.0,153:25.0):6.0):5.0,((86:0.0,95:0.0):5.0,(106:2.0,112:2.0):0.0):40.0):12.0,(157:46.0,165:49.0):10.0):8.0):12.0,111:54.0):12.0):24.0,52:52.0):28.0):28.0,((84:7.0,85:10.0):73.0,119:87.0):12.0):29.0,((59:51.0,142:40.0):14.0,(((61:36.0,((83:0.0,100:1.0):3.0,91:4.0):32.0):16.0,(68:3.0,78:1.0):40.0):21.0,((87:3.0,94:2.0):31.0,155:36.0):9.0):22.0):46.0):43.0,27:116.0):21.0,((((42:29.0,(108:19.0,168:22.0):10.0):16.0,43:33.0):31.0,122:61.0):38.0,113:155.0):23.0):20.0,((((((((((2:52.0,(3:50.0,(4:21.0,5:19.0):17.0):8.0):12.0,6:83.0):11.0,((((((28:3.0,31:5.0):0.0,((29:0.0,39:1.0):2.0,41:1.0):1.0):4.0,40:34.0):11.0,(123:11.0,(127:0.0,131:0.0):5.0):8.0):11.0,((128:1.0,129:1.0):31.0,130:43.0):15.0):14.0,((((32:26.0,35:26.0):8.0,34:35.0):15.0,33:47.0):3.0,(36:48.0,37:47.0):16.0):23.0):17.0):18.0,((((11:41.0,49:35.0):5.0,(((143:0.0,151:8.0):4.0,150:3.0):7.0,145:40.0):28.0):22.0,(72:10.0,80:39.0):28.0):18.0,((21:48.0,((55:11.0,(76:9.0,159:5.0):8.0):7.0,(139:39.0,149:6.0):13.0):14.0):18.0,51:57.0):10.0):17.0):17.0,(7:72.0,(22:34.0,56:36.0):37.0):19.0):54.0,((((13:28.0,148:29.0):5.0,70:34.0):13.0,44:28.0):55.0,(((((18:54.0,(60:49.0,(((69:0.0,73:0.0):15.0,102:23.0):24.0,125:41.0):14.0):14.0):18.0,103:67.0):16.0,((134:6.0,146:3.0):4.0,137:8.0):58.0):14.0,(((((19:62.0,(98:20.0,99:23.0):35.0):23.0,(46:55.0,50:56.0):20.0):20.0,(104:21.0,161:38.0):54.0):17.0,((45:49.0,((96:1.0,97:6.0):33.0,160:16.0):15.0):25.0,(62:0.0,89:0.0):69.0):40.0):16.0,((54:64.0,((((65:2.0,75:1.0):9.0,(66:2.0,107:4.0):7.0):35.0,((156:40.0,158:31.0):19.0,166:42.0):14.0):24.0,152:30.0):6.0):17.0,(((133:1.0,140:1.0):1.0,138:5.0):4.0,141:4.0):52.0):20.0):20.0):23.0,38:87.0):16.0):28.0):13.0,(9:61.0,26:56.0):55.0):14.0,(8:56.0,(((63:1.0,101:1.0):35.0,163:19.0):21.0,135:41.0):27.0):54.0):14.0,(16:94.0,58:46.0):19.0):20.0,((53:43.0,(79:2.0,105:4.0):46.0):64.0,(((115:1.0,120:0.0):59.0,117:84.0):22.0,116:76.0):42.0):39.0):21.0):0.0,(((((((12:9.0,20:1.0):49.0,(47:59.0,(((81:5.0,93:19.0):0.0,92:1.0):45.0,164:40.0):11.0):15.0):20.0,147:64.0):51.0,(((14:25.0,48:19.0):10.0,132:27.0):19.0,((74:0.0,109:1.0):21.0,162:14.0):16.0):63.0):31.0,(114:65.0,118:57.0):46.0):37.0,25:120.0):38.0,(((17:7.0,154:6.0):57.0,121:65.0):32.0,(24:36.0,((64:1.0,77:5.0):30.0,167:26.0):19.0):38.0):47.0):77.0);
+
+
+
+END;

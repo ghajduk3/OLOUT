@@ -1,0 +1,90 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:47 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Sereno P.C., Tan L., Brusatte S.L., Kriegstein H.J., Xijin Z., & Cloward K. 2009.
+Tyrannosaurid skeletal design first evolved at small body size. Science, 326: 418-422.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S13242]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=15;
+        TAXLABELS
+            Albertosaurus
+            Compsognathidae
+            Daspletosaurus
+            Dilong
+            Eotyrannus
+            Gorgosaurus
+            Guanlong
+            Maniraptora
+            Ornitholestes
+            Ornithomimosauria
+            Raptorex
+            Stokesosaurus
+            Tarbosaurus
+            Tyrannosaurus
+            Xiongguanlong
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M14023]
+
+	TITLE Character_Matrix;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=101;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2" MISSING=? GAP= -;
+
+MATRIX
+[                             10        20        30        40        50        60        70        80        90        100 ]
+[                              .         .         .         .         .         .         .         .         .         . ]
+Albertosaurus         111112111100011111110010001011111111101211100111111111111111211??111111111111111112111111111111111111
+Compsognathidae       00000000000000?000000?0000000000?0000000?0????????00000000002000000000100010100000000000000?000000000
+Daspletosaurus        11111211111101110101101110101111111100121111111111111111111121???111111111111111112111111111111111111
+Dilong                101?1000?00000?000?00?1000100000000000010????01101100011000110???000000000????00?0??0???????000?00100
+Eotyrannus            ??1?1?10?????0?????????????????????????????????????????????????????????0?00?00???0???????????????????
+Gorgosaurus           11111211110001111111001000101111111110121110001101111111111121?11111111111111111112111111111111111111
+Guanlong              1010000??00000?000?00?1000100000000000000????01111000011000110???0000000000000000001010?000?000?00000
+Maniraptora           000000000000000000000?00000000000000000000000?0000000000000000000000000000?00000000000000000000000000
+Ornitholestes         0???0000?10000?000?00?0000000000?0100002???0?000??0000?0000020?????????000??0?????000?00000?001100000
+Ornithomimosauria     000000000000000000000?000000000000000000000000?000000000000000000000000000000000000000000000000000000
+Raptorex              101011111100011100?1?010001000?111010012??0????1?11110111011101110101111111111??1?1011111111111111111
+Stokesosaurus         ??????????????????????????????????????????????????????????????????????????????????110100000000000????
+Tarbosaurus           111112111111111100?1111111111111111101221111111111111111111121?11111111111111111112111111111111111111
+Tyrannosaurus         111112111111111100?1111111111111111101221111111111111111111121111111111111111111112111111111111111111
+Xiongguanlong         1???010??0??01?000?1?01??0??00?0?00???02?????01????????1???110?????????????????????1?????????????????
+;
+END;
+
+BEGIN TREES;
+      TITLE Analysis_results;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Maniraptora,
+            2    Ornithomimosauria,
+            3    Ornitholestes,
+            4    Compsognathidae,
+            5    Guanlong,
+            6    Dilong,
+            7    Eotyrannus,
+            8    Stokesosaurus,
+            9    Xiongguanlong,
+            10   Raptorex,
+            11   Gorgosaurus,
+            12   Albertosaurus,
+            13   Daspletosaurus,
+            14   Tarbosaurus,
+            15   Tyrannosaurus;
+      TREE Figure_4B = [&R] (1,(2,((3,4),(5,(6,7,8,9,(10,((11,12),(13,(14,15)))))))));
+
+
+
+END;

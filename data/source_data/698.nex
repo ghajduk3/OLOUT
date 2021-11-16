@@ -1,0 +1,152 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:38 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Loconte H., & Estes J. 1989. Phylogenetic systematics of Berberidaceae and Ranunculales
+(Magnoliidae). Systematic Botany, 14: 565-579.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S104]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=35;
+        TAXLABELS
+            Achlys
+            Akebia
+            Berberis
+            Bongardia
+            Boquila
+            Caltha
+            Caulophyllum
+            Circaeaster
+            Decaisnea
+            Diphylleia
+            Dysosma
+            Epimedium
+            Eranthis
+            Gymnospermium
+            Helleborus
+            Holboellia
+            Hydrastis
+            Jeffersonia
+            Kingdonia
+            Lardizabala
+            Leontice
+            Mahonia
+            Nandina
+            Outgroup_to_Ranunculales
+            Penianthus
+            Plagiorhegma
+            Podophyllum
+            Ranzania
+            Sargentodoxa
+            Sinofranchetia
+            Sinopodophyllum
+            Sphenocentrum
+            Stauntonia
+            Trollius
+            Vancouveria
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M1551]
+
+	TITLE Table_1;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=40;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2 3 4" MISSING=? GAP= -;
+
+MATRIX
+[                                    10        20        30        40]
+[                                     .         .         .         .]
+Achlys                       100112000?0000?0??100021002202000000?003
+Akebia                       2001020000120000210000010001111100001000
+Berberis                     000101100000000301110100102002?000001012
+Bongardia                    1101120000000014111000210123021000001003
+Boquila                      200102000122000111001001001001010000?00?
+Caltha                       1001010000000100200000310001001001000001
+Caulophyllum                 1001020000000002011000111023020000101001
+Circaeaster                  10010101000001002?00002100?403031?00?000
+Decaisnea                    0000020001120000110010010011001000001000
+Diphylleia                   1011010001000010111000?10020001000001003
+Dysosma                      101101000100001011000021002000120000?003
+Epimedium                    1001021001000104011000210122001000011003
+Eranthis                     110102000001010120000031000100100100?001
+Gymnospermium                1101020000021002111000111023020000111001
+Helleborus                   1001020000000101200000?10001001001000001
+Holboellia                   200102000012000111000001001011110000?000
+Hydrastis                    1000010001010000200000210001000000000000
+Jeffersonia                  1001120010010110111000210022001000011003
+Kingdonia                    10011101000101012?000021000403031?00?00?
+Lardizabala                  200102000022000111001001001011110000?000
+Leontice                     1101020000021002111000111023020000101001
+Mahonia                      000102100000000301110100102002?000001012
+Nandina                      000102000000000001000001102000000000?000
+Outgroup_to_Ranunculales     ?0?0??000???0?0?00?0???0?0??0???000?0???
+Penianthus                   000100000120000100000001001000000000?110
+Plagiorhegma                 1001110010010010111000210022001000011003
+Podophyllum                  10110100010100101?0000210020001200001003
+Ranzania                     100102000000000301110?00102000120000?002
+Sargentodoxa                 200102000022000111000001000003020000?00?
+Sinofranchetia               200102000012000111000001001000110000?00?
+Sinopodophyllum              1011010001010010110000?10020001200001003
+Sphenocentrum                000100000120000000000001000000000000?110
+Stauntonia                   200102000012000111001001001011110000?000
+Trollius                     100101000000010120000021000100100100?001
+Vancouveria                  1001120001000004011000210122001000011003
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb4823;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Outgroup_to_Ranunculales,
+            2    Sphenocentrum,
+            3    Penianthus,
+            4    Hydrastis,
+            5    Circaeaster,
+            6    Kingdonia,
+            7    Trollius,
+            8    Caltha,
+            9    Eranthis,
+            10   Helleborus,
+            11   Decaisnea,
+            12   Sinofranchetia,
+            13   Boquila,
+            14   Sargentodoxa,
+            15   Akebia,
+            16   Holboellia,
+            17   Stauntonia,
+            18   Lardizabala,
+            19   Nandina,
+            20   Caulophyllum,
+            21   Gymnospermium,
+            22   Leontice,
+            23   Ranzania,
+            24   Berberis,
+            25   Mahonia,
+            26   Epimedium,
+            27   Vancouveria,
+            28   Jeffersonia,
+            29   Plagiorhegma,
+            30   Achlys,
+            31   Bongardia,
+            32   Diphylleia,
+            33   Dysosma,
+            34   Podophyllum,
+            35   Sinopodophyllum;
+      TREE Fig._5 = [&R] (19,((20,(21,22)),((23,(24,25)),((32,(33,(34,35))):1.0,((30,31),((26,27),(28,29)))))))Berberidaceae;
+      TREE Fig._4 = [&R] (11,(12,((13,14),(15,16,(17,18)))))18ceae;
+      TREE Fig._3 = [&R] (4,((5,6),(7,8,(9,10))))Ranunculaceae;
+
+
+
+END;

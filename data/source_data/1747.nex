@@ -1,0 +1,34 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:50 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Wojciechowski M., Sanderson M., Baldwin B.G., & Donoghue M.J. 1993. Monophyly of
+aneuploid Astragalus (Fabaceae): Evidence from nuclear ribosomal DNA internal transcribed
+spacer sequences. American Journal of Botany, 80: 711-722.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S236]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=0;
+        TAXLABELS
+            ;
+END;
+
+BEGIN TREES;
+      TITLE Tb4958;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+      TREE Fig._3A = [&R] (((((Astragalus_alpinus,((((((Astragalus_asterias,Astragalus_tribuloides),Astragalus_pulchellus),Astragalus_chaborasicus),Astragalus_cicer),Astragalus_adsurgens,Astragalus_agrestis),(Astragalus_nuttallianus,((Astragalus_bisulcatus,Astragalus_scopulorum),('Astragalus_oöcalycis',Astragalus_cremnophylax),(Astragalus_humillimus,((Astragalus_lentiginosus,Astragalus_purshii),Astragalus_utahensis),Astragalus_aretioides),Astragalus_brandegei,Astragalus_monumentalis,Astragalus_hallii),Astragalus_thurberi))),((Astragalus_hamosus,Astragalus_canadensis),(Astragalus_corrugatus,Astragalus_lobophorus))),((Oxytropis_campestris,Oxytropis_lambertii),Oxytropis_deflexa)),Caragana),Clianthus);
+      TREE Fig._2 = [&R] ((((Astragalus_alpinus,(((((Astragalus_asterias,Astragalus_tribuloides),Astragalus_pulchellus),Astragalus_chaborasicus),Astragalus_cicer),Astragalus_agrestis,Astragalus_adsurgens,(Astragalus_nuttallianus,(Astragalus_bisulcatus,Astragalus_scopulorum),('Astragalus_oöcalycis',Astragalus_cremnophylax),(Astragalus_humillimus,((Astragalus_lentiginosus,Astragalus_purshii),Astragalus_utahensis),Astragalus_aretioides),Astragalus_brandegei,Astragalus_monumentalis,Astragalus_hallii,Astragalus_thurberi)),(Astragalus_hamosus,Astragalus_canadensis),(Astragalus_corrugatus,Astragalus_lobophorus)),((Oxytropis_campestris,Oxytropis_lambertii),Oxytropis_deflexa)),Caragana),Clianthus);
+      TREE Fig._3B = [&R] ((((((Astragalus_alpinus,(Astragalus_corrugatus,Astragalus_lobophorus)),(Astragalus_hamosus,Astragalus_canadensis)),(((((((Astragalus_asterias,Astragalus_tribuloides),Astragalus_pulchellus),Astragalus_chaborasicus),Astragalus_cicer),Astragalus_adsurgens),(Astragalus_nuttallianus,((Astragalus_bisulcatus,Astragalus_scopulorum),('Astragalus_oöcalycis',Astragalus_cremnophylax),(Astragalus_humillimus,((Astragalus_lentiginosus,Astragalus_purshii),Astragalus_utahensis),Astragalus_aretioides),Astragalus_brandegei,Astragalus_monumentalis,Astragalus_hallii),Astragalus_thurberi)),Astragalus_agrestis)),((Oxytropis_campestris,Oxytropis_lambertii),Oxytropis_deflexa)),Caragana),Clianthus);
+
+
+
+END;

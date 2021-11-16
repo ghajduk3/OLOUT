@@ -1,0 +1,225 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:40 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Potter D., & Doyle J. 1994. Phylogeny and systematics of Sphenostylis and Nesphostylis
+(Leguminosae: Phaseoleae) based on morphological and chloroplast DNA data.
+Systematic Botany, 19: 389-406.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S180]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=18;
+        TAXLABELS
+            Lablab_purpureus
+            Macrotyloma_axillare_var._axill
+            Nesphostylis_bracteata
+            Nesphostylis_holosericea
+            Nesphostylis_lanceolata
+            Sphenostylis_angustifolia
+            Sphenostylis_briartii
+            Sphenostylis_erecta_erecta_Mala
+            Sphenostylis_erecta_erecta_Zair
+            Sphenostylis_erecta_obtusifolia
+            Sphenostylis_marginata
+            Sphenostylis_schweinfurthii
+            Sphenostylis_stenocarpa_cultse
+            Sphenostylis_stenocarpa_culttu
+            Sphenostylis_stenocarpa_wildGa
+            Sphenostylis_stenocarpa_wildTa
+            Sphenostylis_stenocarpa_wildZi
+            Sphenostylis_zimbabweensis
+            ;
+END;
+
+BEGIN TAXA;
+        TITLE  Taxa2;
+        DIMENSIONS NTAX=18;
+        TAXLABELS
+            Lablab_purpureus
+            Macrotyloma_axillare_var._axill
+            Nesphostylis_bracteata
+            Nesphostylis_holosericea
+            Nesphostylis_lanceolata
+            Sphenostylis_angustifolia
+            Sphenostylis_briartii
+            Sphenostylis_erecta_erecta_Mala
+            Sphenostylis_erecta_erecta_Zair
+            Sphenostylis_erecta_obtusifolia
+            Sphenostylis_marginata
+            Sphenostylis_schweinfurthii
+            Sphenostylis_stenocarpa_cultse
+            Sphenostylis_stenocarpa_culttu
+            Sphenostylis_stenocarpa_wildGa
+            Sphenostylis_stenocarpa_wildTa
+            Sphenostylis_stenocarpa_wildZi
+            Sphenostylis_zimbabweensis
+            ;
+END;
+
+BEGIN TAXA;
+        TITLE  Taxa3;
+        DIMENSIONS NTAX=14;
+        TAXLABELS
+            Lablab_purpureus
+            Macrotyloma_axillare_var._axill
+            Nesphostylis_holosericea
+            Sphenostylis_angustifolia
+            Sphenostylis_erecta_erecta_Mala
+            Sphenostylis_erecta_erecta_Zair
+            Sphenostylis_erecta_obtusifolia
+            Sphenostylis_schweinfurthii
+            Sphenostylis_stenocarpa_cultse
+            Sphenostylis_stenocarpa_culttu
+            Sphenostylis_stenocarpa_wildGa
+            Sphenostylis_stenocarpa_wildTa
+            Sphenostylis_stenocarpa_wildZi
+            Sphenostylis_zimbabweensis
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M261]
+
+	TITLE Table_4a;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=16;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2 3 4" MISSING=? GAP= -;
+
+MATRIX
+Lablab_purpureus                    0000000000000?00
+Macrotyloma_axillare_var._axill     0010010010021011
+Nesphostylis_bracteata              0000000021112021
+Nesphostylis_holosericea            0100000021112010
+Nesphostylis_lanceolata             01000000211120??
+Sphenostylis_angustifolia           0010101130012131
+Sphenostylis_briartii               1010100030012111
+Sphenostylis_erecta_erecta_Mala     0001111030012121
+Sphenostylis_erecta_erecta_Zair     0001111030012121
+Sphenostylis_erecta_obtusifolia     0001111030012121
+Sphenostylis_marginata              00011011300121??
+Sphenostylis_schweinfurthii         0001111030012121
+Sphenostylis_stenocarpa_cultse      1001101130012141
+Sphenostylis_stenocarpa_culttu      1001101130012141
+Sphenostylis_stenocarpa_wildGa      1001101130012131
+Sphenostylis_stenocarpa_wildTa      1001101130012131
+Sphenostylis_stenocarpa_wildZi      1001101130012131
+Sphenostylis_zimbabweensis          0010101130012131
+;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M271]
+
+	TITLE Table_4b;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=53;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1" MISSING=? GAP= -;
+
+MATRIX
+[                                           10        20        30        40        50   ]
+[                                            .         .         .         .         .   ]
+Lablab_purpureus                    000000000000000000000000?00???000?0000000000000000000
+Macrotyloma_axillare_var._axill     000001000000000010000010?01000011?0000000000000000000
+Nesphostylis_holosericea            0000000100000000100010100?1000000?0000000001000001000
+Sphenostylis_angustifolia           10100101110000011000100000101000000011011010010010011
+Sphenostylis_erecta_erecta_Mala     0011110100000110110110001010000001?110001101101100100
+Sphenostylis_erecta_erecta_Zair     0011110100010110110100001011000001?110101101101100100
+Sphenostylis_erecta_obtusifolia     0011111100000110110110001?10000001?110001101101100100
+Sphenostylis_schweinfurthii         0011100100000110110110100011000100?110001101101100100
+Sphenostylis_stenocarpa_cultse      11100101101010011010110000101100001011011110010010011
+Sphenostylis_stenocarpa_culttu      10100101101010011010110101101100000011011110010010011
+Sphenostylis_stenocarpa_wildGa      10100101101010011010110000101100000011011110010010011
+Sphenostylis_stenocarpa_wildTa      10100101101000011010110000101100000011011110010010011
+Sphenostylis_stenocarpa_wildZi      10100101101000011010110000101100000011011010010010011
+Sphenostylis_zimbabweensis          1010010111000001100010000010101000?011011010010010011
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb4906;
+      LINK TAXA = Taxa2;
+         TRANSLATE
+            1    Lablab_purpureus,
+            2    Macrotyloma_axillare_var._axill,
+            3    Nesphostylis_bracteata,
+            4    Nesphostylis_holosericea,
+            5    Nesphostylis_lanceolata,
+            6    Sphenostylis_angustifolia,
+            7    Sphenostylis_briartii,
+            8    Sphenostylis_erecta_erecta_Mala,
+            9    Sphenostylis_erecta_erecta_Zair,
+            10   Sphenostylis_erecta_obtusifolia,
+            11   Sphenostylis_marginata,
+            12   Sphenostylis_schweinfurthii,
+            13   Sphenostylis_stenocarpa_cultse,
+            14   Sphenostylis_stenocarpa_culttu,
+            15   Sphenostylis_stenocarpa_wildGa,
+            16   Sphenostylis_stenocarpa_wildTa,
+            17   Sphenostylis_stenocarpa_wildZi,
+            18   Sphenostylis_zimbabweensis;
+      TREE Fig._1B = [&R] (1,(2,((3,(4,5)),(7,((8,9,10,12),(11,(((15,16,17),(13,14)),(6,18))))))));
+      TREE Fig._1C = [&R] (1,(2,(3,(4,5))Nesphostylis,(7,(11,6,18,(8,9,10,12),((15,16,17),(13,14))))Sphenostylis));
+      TREE Fig._1A = [&R] (1,((3,(4,5)),(2,(7,(6,18,(11,(8,9,10,12),((15,16,17),(13,14))))))));
+
+
+
+END;
+BEGIN TREES;
+      TITLE Tb4908;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Lablab_purpureus,
+            2    Macrotyloma_axillare_var._axill,
+            3    Nesphostylis_holosericea,
+            4    Sphenostylis_angustifolia,
+            5    Sphenostylis_erecta_erecta_Mala,
+            6    Sphenostylis_erecta_erecta_Zair,
+            7    Sphenostylis_erecta_obtusifolia,
+            8    Sphenostylis_schweinfurthii,
+            9    Sphenostylis_stenocarpa_cultse,
+            10   Sphenostylis_stenocarpa_culttu,
+            11   Sphenostylis_stenocarpa_wildGa,
+            12   Sphenostylis_stenocarpa_wildTa,
+            13   Sphenostylis_stenocarpa_wildZi,
+            14   Sphenostylis_zimbabweensis,
+            15   Nesphostylis_bracteata,
+            16   Nesphostylis_lanceolata,
+            17   Sphenostylis_briartii,
+            18   Sphenostylis_marginata;
+      TREE Fig._3A = [&R] (1,2,((15,(3,16)),(17,((8,(5,6,7)),(18,(4,14),(13,(12,(11,(10,9)))))))));
+      TREE Fig._3B = [&R] (1,2,(3,((8,(5,6,7)),((4,14),(13,(12,(11,(10,9))))))));
+
+
+
+END;
+BEGIN TREES;
+      TITLE Tb4907;
+      LINK TAXA = Taxa3;
+         TRANSLATE
+            1    Lablab_purpureus,
+            2    Macrotyloma_axillare_var._axill,
+            3    Nesphostylis_holosericea,
+            4    Sphenostylis_angustifolia,
+            5    Sphenostylis_erecta_erecta_Mala,
+            6    Sphenostylis_erecta_erecta_Zair,
+            7    Sphenostylis_erecta_obtusifolia,
+            8    Sphenostylis_schweinfurthii,
+            9    Sphenostylis_stenocarpa_cultse,
+            10   Sphenostylis_stenocarpa_culttu,
+            11   Sphenostylis_stenocarpa_wildGa,
+            12   Sphenostylis_stenocarpa_wildTa,
+            13   Sphenostylis_stenocarpa_wildZi,
+            14   Sphenostylis_zimbabweensis;
+      TREE Fig._2 = [&R] (1,(2,(3,((8,(6,(5,7))),((4,14),(13,(12,(11,10,9))))))));
+
+
+
+END;

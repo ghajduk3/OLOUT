@@ -1,0 +1,69 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:46 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Anderberg A. 1986. The genus Pegolettia (Compositae, Inuleae). Cladistics, 2: 158-186.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S224]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=9;
+        TAXLABELS
+            Pegolettia_baccaridifolia
+            Pegolettia_gariepina
+            Pegolettia_lanceolata
+            Pegolettia_oxyodonta
+            Pegolettia_pinnatilobata
+            Pegolettia_plumosa
+            Pegolettia_retrofracta
+            Pegolettia_senegalensis
+            Pegolettia_tenuifolia
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M517]
+
+	TITLE Table_2;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=19;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1" MISSING=? GAP= -;
+
+MATRIX
+Pegolettia_baccaridifolia     1111111100010000111
+Pegolettia_gariepina          1111111100010000111
+Pegolettia_lanceolata         1110000001010000000
+Pegolettia_oxyodonta          1111110000000000000
+Pegolettia_pinnatilobata      1111111111111111000
+Pegolettia_plumosa            1111111101111100000
+Pegolettia_retrofracta        1111111110000000000
+Pegolettia_senegalensis       1111111111111111000
+Pegolettia_tenuifolia         1111111011100000000
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb4942;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Pegolettia_lanceolata,
+            2    Pegolettia_oxyodonta,
+            3    Pegolettia_baccaridifolia,
+            4    Pegolettia_gariepina,
+            5    Pegolettia_retrofracta,
+            6    Pegolettia_tenuifolia,
+            7    Pegolettia_plumosa,
+            8    Pegolettia_pinnatilobata,
+            9    Pegolettia_senegalensis;
+      TREE Fig._2 = [&R] (1,(2,((3,4),(5,(6,(7,(8,9)))))));
+
+
+
+END;

@@ -1,0 +1,563 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:37 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Friel J.P. 1994. A Phylogenetic Study of the Neotropical Banjo Catfishes (Teleostei:
+Siluriformes: Aspredinidae)., Durham, Duke University.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S12895]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=129;
+        TAXLABELS
+            Acanthicus_histrix
+            Acanthobunocephalus
+            Acanthobunocephalus_nicoi_n._sp
+            Acrochordonichthys_melanogaster
+            Akysis
+            Akysis_leucorhynchus
+            Akyssidae
+            Amaralia
+            Amaralia_N._SPECIES
+            Amaralia_hypsiura
+            Amblyceps_laticeps
+            Amblyceps_mangois
+            Amblycipitidae
+            Amblydoras
+            Amphiliidae
+            Amphilius_atesuensis
+            Aspredinichthys
+            Aspredinichthys_filamentosus
+            Aspredinichthys_tibicen
+            Aspredinidae_ANC
+            Aspredo
+            Aspredo_aspredo
+            Bagarius_bagarius
+            Belonoglanis_tenius
+            Breitensteinia_insignis
+            Bunocephalus
+            Bunocephalus_N._SPECIES_1
+            Bunocephalus_N._SPECIES_2
+            Bunocephalus_N._SPECIES_3
+            Bunocephalus_N._SPECIES_5
+            Bunocephalus_SPECIES
+            Bunocephalus_aleuropsis
+            Bunocephalus_amaurus
+            Bunocephalus_cf._knerii
+            Bunocephalus_chamaizelus
+            Bunocephalus_colombianus
+            Bunocephalus_coracoideus
+            Bunocephalus_doriae
+            Bunocephalus_knerii
+            Bunocephalus_larai
+            Bunocephalus_n._sp._4
+            Bunocephalus_verrucosus
+            Chaetostoma_sp.
+            Conta_conta
+            Diplomystidae
+            Doradoids
+            Doumea_alula
+            Dupouyichthys
+            Dupouyichthys_sapito
+            Erethistes_pusillus
+            Ernstichthys
+            Ernstichthys_SPECIES
+            Ernstichthys_anduzei
+            Ernstichthys_intonsus
+            Ernstichthys_megistus
+            Euchiloglanis_hodgarti
+            Exostoma_labiatum
+            Gagata_cenia
+            Gagata_nangra
+            Glyptothorax
+            Glyptothorax_laosensis
+            Glyptothorax_ribeiroi
+            Glyptothorax_shawi
+            Hara_hara
+            Hara_jordoni
+            Hemidoras_carinatus
+            Hoplomyzon
+            Hoplomyzon_N._SPECIES
+            Hoplomyzon_SPECIES
+            Hoplomyzon_atrizona
+            Hoplomyzon_cf._papillatus
+            Hoplomyzon_papillatus
+            Hoplomyzon_sexpapilostoma
+            Hypsidoridae
+            Hypsidoris_farsonensis
+            Laguvia_shawi
+            Leptodoras
+            Liobagrus_andersoni
+            Liobagrus_anguillicauda
+            Liobagrus_formosanus
+            Liobagrus_mediadiposalis
+            Liobagrus_obesus
+            Liobagrus_reini
+            Liposarcus
+            Lophiosilurus_alexandri
+            Loricaria_sp.
+            Loricariinae
+            Loricarioids
+            Megalodoras_irwini
+            Microglanis_poecilus
+            Nangra_nangra
+            Olivaicichtys_viedmensis
+            Oreoglanis_labiatum
+            Orinocodoras_eigenmanni
+            Oxydoras_niger
+            Panaque
+            Parakysis_verrucosa
+            Phractura_lindica
+            Platydoras_costatus
+            Platystacus
+            Platystacus_cotylephorus
+            Pseudecheneis_sulcatus
+            Pseudobunocephalus
+            Pseudobunocephalus_SPECIES
+            Pseudobunocephalus_amazonicus
+            Pseudobunocephalus_bifidus
+            Pseudobunocephalus_cf._bifidus
+            Pseudobunocephalus_iheringii
+            Pseudobunocephalus_lundbergi_N._SPECIES
+            Pseudobunocephalus_rugosus
+            Pseudopimelodines
+            Pseudopimelodus
+            Pseudopimelodus_apurensis
+            Pseudopimelodus_zungaro
+            Pterobunocephalus
+            Pterobunocephalus_SPECIES
+            Pterobunocephalus_depressus
+            Pterobunocephalus_dolichurus
+            Pterodoras_angeli
+            Sisoridae
+            Sturisoma
+            Xiurenbagrus_xiurenensis
+            Xyliphius
+            Xyliphius_cf._lepturus
+            Xyliphius_cf._melanopterus
+            Xyliphius_kryptos
+            Xyliphius_lepturus
+            Xyliphius_magdalenae
+            Xyliphius_melanopterus
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M13390]
+
+	TITLE Character_Matrix;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=127;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2 3 4 5" MISSING=? GAP= -;
+	CHARSTATELABELS
+		1  Mesethmoid_medial_notch_and_cornua,
+		2  Dorsal_processes_of_mesethmoid,
+		3  Ethmoid_cartilage,
+		4  Skull_contact_with_eye,
+		5  Epiphyseal_bar,
+		6  'Supraoccipital-frontal contact',
+		7  Posterior_cranial_fontanel,
+		8  Pterotic_laminar_processes,
+		9  Supraoccipital_process,
+		10  Knobby_skull_ornamentation,
+		11  Vomer,
+		12  Premaxillae_shape,
+		13  Premaxillae_knobs,
+		14  Premaxillary_teeth,
+		15  Premaxillae_position,
+		16  Dentary_symphysis,
+		17  Symphysial_ossification,
+		18  Mandibular_lateralis_canal,
+		19  Dentary_teeth,
+		20  'Ascending process of Meckel''s cartilage',
+		21  Coronomeckelian,
+		22  Hyomandibula_contact_with_neurocranium,
+		23  Anterior_process_of_hyomandibula,
+		24  Metapterygoid,
+		25  Endopterygoid,
+		26  Posterior_cartilage_of_palatine,
+		27  Shape_of_posterior_end_of_palatine,
+		28  Suprapreopercles,
+		29  Opercle_shape,
+		30  'Opercle-interopercle connection',
+		31  Opercular_apertures,
+		32  Dorsohyal,
+		33  Anterohyal_lamina,
+		34  Lateral_end_of_anterohyal,
+		35  Lateral_end_of_posterohyal,
+		36  Interhyal,
+		37  Modal_number_of_branchiostegal_rays,
+		38  Urohyal_shape,
+		39  First_pharyngobranchial,
+		40  Second_pharyngobranchlal,
+		41  Fourth_pharyngobranchial,
+		42  Fifth_epibranchial,
+		43  Gill_rakers,
+		44  First_hypobranchial,
+		45  Second_hypobranchial,
+		46  Third_hypobranchial,
+		47  Second_basibranchial,
+		48  Third_basibranchial,
+		49  Lower_pharyngeal_tooth_plates,
+		50  Dorsal_lamina_of_Weberian_apparatus,
+		51  Os_suspensorium,
+		52  Contact_between_parapophyses_of_fourth_and_fifth_centra,
+		53  Origin_of_parapophysis_of_the_fifth_centrum,
+		54  Orientation_of_parapophysis_of_fifth_centrum,
+		55  Length_of_parapophysis_of_fifth_centrum,
+		56  Distal_end_of_parapophysis_of_fifth_centrum,
+		57  Horizontal_lamina_on_centra,
+		58  Vertebral_armor,
+		59  'Pre-anal-fin plates',
+		60  Neural_spines,
+		61  Height_of_neural_spines,
+		62  Distal_tips_of_neural_spines,
+		63  Bifid_hemal_spines,
+		64  Hemal_canal_formation,
+		65  Connections_between_abdominal_vertebrae,
+		66  Interdigitating_connections_between_vertebrae,
+		67  Parapophyses_for_ribs,
+		68  Ribs,
+		69  Spinelet_erector_muscle_canals,
+		70  Anterior_nuchal_plate,
+		71  Middle_nuchal_plate_ornamentaton,
+		72  Posterior_nuchal_plate_processes,
+		73  Dorsal_spinelet,
+		74  Dorsal_spine,
+		75  Dorsal_spine_length,
+		76  'Modal number of dorsal-fin rays',
+		77  Dorsal_fin_adnate,
+		78  'Anal-fin adnate',
+		79  'Modal number of anal-fin rays',
+		80  'Modal number of principal caudal-fin rays',
+		81  'Expanded bases of caudal-fin rays',
+		82  'Length of outer caudal-fin rays',
+		83  'Procurrent caudal-fin rays',
+		84  Hypurapophysis,
+		85  'Supracleithra-cranium connection',
+		86  Supracleithra_ornamentation,
+		87  Humeral_process_of_cleithrum,
+		88  Anterior_margin_of_coracoid,
+		89  Posterior_processes_of_coracoids,
+		90  Mesocoracoid_arch,
+		91  VAD_process_of_pectoral_spine,
+		92  Pectoral_spine_shape,
+		93  'Pre-axial serrations of pectoral spine',
+		94  'Modal number of pectoral-fin rays',
+		95  Modal_number_of_pectoral_radials,
+		96  Anterior_insertion_of_hypaxial_muscles,
+		97  Ventral_musculature_of_pectoral_girdle,
+		98  Ventral_division_of_arrector_dorsalis,
+		99  Basipterygium_anterior_arms,
+		100  Basipteryitum_lateral_cartilage,
+		101  Basipterygium_posterior_cartilage,
+		102  Posterior_margin_of_basipterygium,
+		103  'Pelvic-pectoral girdle contact',
+		104  Length_of_lateral_line,
+		105  Lateral_line_ossicles,
+		106  Infraorbital_lateralis_canal,
+		107  Accessory_nasal_bones,
+		108  Hook_on_antorbital_bone,
+		109  Accessory_canal_in_pterotic,
+		110  Maxillary_barbels_adnate,
+		111  Accessory_maxillary_barbels,
+		112  Mental_barbel_bases,
+		113  Bifid_mental_barbels,
+		114  Accessory_pairs_of_mental_barbels,
+		115  Anterior_nares,
+		116  Papillae_on_anterior_nares,
+		117  Papillae_on_lower_jaw,
+		118  Jaw_occlusion,
+		119  Testis_morphology,
+		120  Egg_carrying_behavior,
+		121  Cotylephores,
+		122  Shape_of_unculi,
+		123  Unculiferous_tubercle_rows,
+		124  Saddle_pigmentation_pattern,
+		125  Alarm_cells_&_fright_reaction,
+		126  Adipose_fin,
+		127  Oophagy_specialization,
+		;
+
+MATRIX
+[                                                   10        20        30        40        50        60        70        80        90        100       110       120       ]
+[                                                    .         .         .         .         .         .         .         .         .         .         .         .       ]
+Acanthicus_histrix                          00000000000000000001100001300000000000120001000000?1?00000000000000101000000001000000000000000000200000000000000000000000100000
+Acanthobunocephalus                         ???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????
+Acanthobunocephalus_nicoi_n._sp             1011001210100000020001000111211110001312010220011101101110010011201111000002000111300002121015112111100101000001001000000111110
+Acrochordonichthys_melanogaster             0010000000000000000101000010000000000012010100000000100000000000000111001001000000000000010002000000000000000002000001000300?00
+Akysis                                      0010000000000000000101000010000000000012010100000000100000000000000111001001000000000000010002000000000000000002000001000300?00
+Akysis_leucorhynchus                        0010000000000000000101000010000000000012010100000000100000000000000111001001000000000000010002000000000000000002000001000300?00
+Akyssidae                                   ???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????
+Amaralia                                    ???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????
+Amaralia_N._SPECIES                         1011010211100000020001000011211110002112010120001101101020010011201101102103010210200102121004012110110010000001001001000111111
+Amaralia_hypsiura                           1011010211100000020001000011211110002112010120001101101020010011201101102103010210200102121004012110110010000001001001000111111
+Amblyceps_laticeps                          0010000010000000000001000010000000000012010000000000100000000000000111000000001000000000000001000000000000000002000000000000?00
+Amblyceps_mangois                           0010000010000000000001000010000000000012010000000000100000000000000111000000001000000000000001000000000000000002000000000000?00
+Amblycipitidae                              ???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????
+Amblydoras                                  0000000010000000000000000010000000000211000000000000000000000000000100001000001000001000101000010100000000000002001000000100000
+Amphiliidae                                 ???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????
+Amphilius_atesuensis                        00000000000000000001010001200001000000110001100000?1000000000000000101002100001000001000000000000000000000000002001000000100000
+Aspredinichthys                             ???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????
+Aspredinichthys_filamentosus                0111000410120000110101130011221110001212010120000101101020010111201101012121112110300002121011012110100000111011011001111111110
+Aspredinichthys_tibicen                     0111000410120000110101130011221110001212010120000101101020010111201101012121112110300002121011012110100000111011011001111111110
+Aspredinidae_ANC                            1011000210100000020001000011201100001012000120001100101000010001201101000001000110000002121014012110100000000001001000000111110
+Aspredo                                     ???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????
+Aspredo_aspredo                             0011000410120000110101130011221110001212010120000101101020010111201101012111112110300012121012012110100000101211001001111110110
+Bagarius_bagarius                           0010000000000000000101000010000000000012000100000000100000000000000111001000000000000000000000000000000000000002000000000300000
+Belonoglanis_tenius                         00000000000000000001010001200001000000110001100000?1000000000000000101002100001010000100000000000000000000000002001000000100000
+Breitensteinia_insignis                     0010000000000000000101000010000000000012010100000000100000000000000111001001000000000000010002000000000000000002000001000300?00
+Bunocephalus                                ???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????
+Bunocephalus_N._SPECIES_1                   1011000210100000020001000011211110001112010120001101101020010011201101102101110110000002121014012110110010000001001001000111110
+Bunocephalus_N._SPECIES_2                   1011000210100000020001000011211110001112010120001101101020010011201101102101110110000002121014012110110010000001001001000111110
+Bunocephalus_N._SPECIES_3                   1011000210100000020001000011211110001112010120001101101020010011201101102101110110000002121014012110110010000001001001000111110
+Bunocephalus_N._SPECIES_5                   1011000210100000020001000011211110001112010120001101101020010011201101102101110110000002121014012110110010000001001001000111110
+Bunocephalus_SPECIES                        1011000210100000020001000011211110001112010120001101101020010011201101102101110110000002121014012110110010000001001001000111110
+Bunocephalus_aleuropsis                     1011000210100000020001000011211110001112010120001101101020010011201101102101110110000002121014012110110010000001001001000111110
+Bunocephalus_amaurus                        1011000210100000020001000011211110001112010120001101101020010011201101102101110110000002121014012110110010000001001001000111110
+Bunocephalus_cf._knerii                     1011000210100000020001000011211110001112010120001101101020010011201101102101110110000002121014012110110010000001001001000111110
+Bunocephalus_chamaizelus                    1011000210100000020001000011211110001112010120001101101020010011201101102101110110000002121014012110110010000001001001000111110
+Bunocephalus_colombianus                    1011000210100000020001000011211110001112010120001101101020010011201101102101110110000002121014012110110010000001001001000111110
+Bunocephalus_coracoideus                    1011000210100000020001000011211110001112010120001101101020010011201101102101110110000002121014012110110010000001001001000111110
+Bunocephalus_doriae                         1011000210100000020001000011211110001112010120001101101020010011201101102101110110000002121014012110110010000001001001000111110
+Bunocephalus_knerii                         1011000210100000020001000011211110001112010120001101101020010011201101102101110110000002121014012110110010000001001001000111110
+Bunocephalus_larai                          1011000210100000020001000011211110001112010120001101101020010011201101102101110110000002121014012110110010000001001001000111110
+Bunocephalus_n._sp._4                       1011000210100000020001000011211110001112010120001101101020010011201101102101110110000002121014012110110010000001001001000111110
+Bunocephalus_verrucosus                     1011000210100000020001000011211110001112010120001101101020010011201101102101110110000002121014012110110010000001001001000111110
+Chaetostoma_sp.                             00000000000000000001000001000000000000120001000000?1?00000000000000101000000001000000000000000000200000000000000000000000100000
+Conta_conta                                 0010000000000000000101000010000000000012000100000000100000000000000111001000000000000000000000000000000000000002000000000300000
+Diplomystidae                               ???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????
+Doradoids                                   ???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????
+Doumea_alula                                00000000000000000001010001200001000000110001100000?1000000000000000101002100001010000100000000000000000000000002001000000100000
+Dupouyichthys                               ???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????
+Dupouyichthys_sapito                        0011000211120101021211021011211111012412110331111111101002110011211201112100110210111003121103011111201030000101001101000112110
+Erethistes_pusillus                         0010000000000000000101000010000000000012000100000000100000000000000111001000000000000000000000000000000000000002000000000300000
+Ernstichthys                                ???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????
+Ernstichthys_SPECIES                        0011000211120101021211021011211111012412110331111111101102210011211201112100110210111003121103011111201030000101001101000112110
+Ernstichthys_anduzei                        0011000211120101021211021011211111012412110331111111101102210011211201112100110210111003121103011111201030000101001101000112110
+Ernstichthys_intonsus                       0011000211120101021211021011211111012412110331111111101102210011211201112100110210111003121103011111201030000101001101000112110
+Ernstichthys_megistus                       0011000211120101021211021011211111012412110331111111101102210011211201112100110210111003121103011111201030000101001101000112110
+Euchiloglanis_hodgarti                      0010000000000000000101000010000000000012000100000000100000000000000111001000000000000000000000000000000000000002000000000300000
+Exostoma_labiatum                           0010000000000000000101000010000000000012000100000000100000000000000111001000000000000000000000000000000000000002000000000300000
+Gagata_cenia                                0010000000000000000101000010000000000012000100000000100000000000000111001000000000000000000000000000000000000002000000000300000
+Gagata_nangra                               0010000000000000000101000010000000000012000100000000100000000000000111001000000000000000000000000000000000000002000000000300000
+Glyptothorax                                0010000000000000000101000010000000000012000100000000100000000000000111001000000000000000000000000000000000000002000000000300000
+Glyptothorax_laosensis                      0010000000000000000101000010000000000012000100000000100000000000000111001000000000000000000000000000000000000002000000000300000
+Glyptothorax_ribeiroi                       0010000000000000000101000010000000000012000100000000100000000000000111001000000000000000000000000000000000000002000000000300000
+Glyptothorax_shawi                          0010000000000000000101000010000000000012000100000000100000000000000111001000000000000000000000000000000000000002000000000300000
+Hara_hara                                   0010000000000000000101000010000000000012000100000000100000000000000111001000000000000000000000000000000000000002000000000300000
+Hara_jordoni                                0010000000000000000101000010000000000012000100000000100000000000000111001000000000000000000000000000000000000002000000000300000
+Hemidoras_carinatus                         0000000010000000000000000010000000000211000000000000000000000000000100001000001000001000101000010100000000000002001000000100000
+Hoplomyzon                                  ???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????
+Hoplomyzon_N._SPECIES                       0011000211121101020211021011211111012412110331111111101001310011211201112100110210111003121003011111201030000201001101000112110
+Hoplomyzon_SPECIES                          0011000211121101020211021011211111012412110331111111101001310011211201112100110210111003121003011111201030000201001101000112110
+Hoplomyzon_atrizona                         0011000211121101020211021011211111012412110331111111101001310011211201112100110210111003121003011111201030000201001101000112110
+Hoplomyzon_cf._papillatus                   0011000211121101020211021011211111012412110331111111101001310011211201112100110210111003121003011111201030000201001101000112110
+Hoplomyzon_papillatus                       0011000211121101020211021011211111012412110331111111101001310011211201112100110210111003121003011111201030000201001101000112110
+Hoplomyzon_sexpapilostoma                   0011000211121101020211021011211111012412110331111111101001310011211201112100110210111003121003011111201030000201001101000112110
+Hypsidoridae                                ???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????
+Hypsidoris_farsonensis                      00?0000000000000000??0?0??0000??000?00???????????0000000000000000000?000?000??10000000000000010???0??00??0000????????????????0?
+Laguvia_shawi                               0010000000000000000101000010000000000012000100000000100000000000000111001000000000000000000000000000000000000002000000000300000
+Leptodoras                                  0000000010000000000000000010000000000211000000000000000000000000000100001000001000001000101000010100000000000002001000000100000
+Liobagrus_andersoni                         0010000010000000000001000010000000000012010000000000100000000000000111000000001000000000000001000000000000000002000000000000?00
+Liobagrus_anguillicauda                     0010000010000000000001000010000000000012010000000000100000000000000111000000001000000000000001000000000000000002000000000000?00
+Liobagrus_formosanus                        0010000010000000000001000010000000000012010000000000100000000000000111000000001000000000000001000000000000000002000000000000?00
+Liobagrus_mediadiposalis                    0010000010000000000001000010000000000012010000000000100000000000000111000000001000000000000001000000000000000002000000000000?00
+Liobagrus_obesus                            0010000010000000000001000010000000000012010000000000100000000000000111000000001000000000000001000000000000000002000000000000?00
+Liobagrus_reini                             0010000010000000000001000010000000000012010000000000100000000000000111000000001000000000000001000000000000000002000000000000?00
+Liposarcus                                  00000000000000000001000001000000000000120001000000?1?00000000000000101000000001000000000000000000200000000000000000000000100000
+Lophiosilurus_alexandri                     0000000000000000000000000011000110000011000000000000000000000000000100000000001000000000001001000000000000000002001000000101000
+Loricaria_sp.                               00000000000000000001000001000000000000120001000000?1?00000000000000101000000001000000000000000000200000000000000000000000100000
+Loricariinae                                00000000000000000001000001000000000000120001000000?1?00000000000000101000000001000000000000000000200000000000000000000000100000
+Loricarioids                                ???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????
+Megalodoras_irwini                          0000000010000000000000000010000000000211000000000000000000000000000100001000001000001000101000010100000000000002001000000100000
+Microglanis_poecilus                        0000000000000000000000000011000110000011000000000000000000000000000100000000001000000000001001000000000000000002001000000101000
+Nangra_nangra                               0010000000000000000101000010000000000012000100000000100000000000000111001000000000000000000000000000000000000002000000000300000
+Olivaicichtys_viedmensis                    0000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000?00000000000000000000000000000000?00
+Oreoglanis_labiatum                         0010000000000000000101000010000000000012000100000000100000000000000111001000000000000000000000000000000000000002000000000300000
+Orinocodoras_eigenmanni                     0000000010000000000000000010000000000211000000000000000000000000000100001000001000001000101000010100000000000002001000000100000
+Oxydoras_niger                              0000000010000000000000000010000000000211000000000000000000000000000100001000001000001000101000010100000000000002001000000100000
+Panaque                                     00000000000000000001000001000000000000120001000000?1?00000000000000101000000001000000000000000000200000000000000000000000100000
+Parakysis_verrucosa                         0010000000000000000101000010000000000012010100000000100000000000000111001001000000000000010002000000000000000002000001000300?00
+Phractura_lindica                           00000000000000000001010001200001000000110001100000?1000000000000000101002100001010000100000000000000000000000002001000000100000
+Platydoras_costatus                         0000000010000000000000000010000000000211000000000000000000000000000100001000001000001000101000010100000000000002001000000100000
+Platystacus                                 ???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????
+Platystacus_cotylephorus                    0011000410120000110101130011221110001212010120000101101120010111201101012111112310300002121012012110100000101001001001111111110
+Pseudecheneis_sulcatus                      0010000000000000000101000010000000000012000100000000100000000000000111001000000000000000000000000000000000000002000000000300000
+Pseudobunocephalus                          ???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????
+Pseudobunocephalus_SPECIES                  1011000211100000020001010021201100011012201110001100111000011001201101102101000111000002121014012110100100000001001000000111110
+Pseudobunocephalus_amazonicus               1011000211100000020001010021201100011012201110001100111000011001201101102101000111000002121014012110100100000001001000000111110
+Pseudobunocephalus_bifidus                  1011000211100000020001010021201100011012201110001100111000011001201101102101000111000002121014012110100100000001001000000111110
+Pseudobunocephalus_cf._bifidus              1011000211100000020001010021201100011012201110001100111000011001201101102101000111000002121014012110100100000001001000000111110
+Pseudobunocephalus_iheringii                1011000211100000020001010021201100011012201110001100111000011001201101102101000111000002121014012110100100000001001000000111110
+Pseudobunocephalus_lundbergi_N._SPECIES     1011000211100000020001010021201100011012201110001100111000011001201101102101000111000002121014012110100100000001001000000111110
+Pseudobunocephalus_rugosus                  1011000211100000020001010021201100011012201110001100111000011001201101102101000111000002121014012110100100000001001000000111110
+Pseudopimelodines                           ???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????
+Pseudopimelodus                             0000000000000000000000000011000110000011000000000000000000000000000100000000001000000000001001000000000000000002001000000101000
+Pseudopimelodus_apurensis                   0000000000000000000000000011000110000011000000000000000000000000000100000000001000000000001001000000000000000002001000000101000
+Pseudopimelodus_zungaro                     0000000000000000000000000011000110000011000000000000000000000000000100000000001000000000001001000000000000000002001000000101000
+Pterobunocephalus                           ???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????
+Pterobunocephalus_SPECIES                   0011000310100000020111000011211110001112010120001101101120011011201101012101111110000002121014012110100000000001001001110111110
+Pterobunocephalus_depressus                 0011000310100000020111000011211110001112010120001101101120011011201101012101111110000002121014012110100000000001001001110111110
+Pterobunocephalus_dolichurus                0011000310100000020111000011211110001112010120001101101120011011201101012101111110000002121014012110100000000001001001110111110
+Pterodoras_angeli                           0000000010000000000000000010000000000211000000000000000000000000000100001000001000001000101000010100000000000002001000000100000
+Sisoridae                                   ???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????
+Sturisoma                                   00000000000000000001000001000000000000120001000000?1?00000000000000101000000001000000000000000000200000000000000000000000100000
+Xiurenbagrus_xiurenensis                    0010000010000000000001000010000000000012010000000000100000000000000111000000001000000000000001000000000000000002000000000000?00
+Xyliphius                                   ???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????
+Xyliphius_cf._lepturus                      0010000110100111020011000010211111102112010120001111101020010011201101012101100110100003121004012110100000100001001111000210110
+Xyliphius_cf._melanopterus                  0010000110100111020011000010211111102112010120001111101020010011201101012101100110100003121004012110100000100001001111000210110
+Xyliphius_kryptos                           0010000110100111020011000010211111102112010120001111101020010011201101012101100110100003121004012110100000100001001111000210110
+Xyliphius_lepturus                          0010000110100111020011000010211111102112010120001111101020010011201101012101100110100003121004012110100000100001001111000210110
+Xyliphius_magdalenae                        0010000110100111020011000010211111102112010120001111101020010011201101012101100110100003121004012110100000100001001111000210110
+Xyliphius_melanopterus                      0010000110100111020011000010211111102112010120001111101020010011201101012101100110100003121004012110100000100001001111000210110
+;
+END;
+
+BEGIN TREES;
+      TITLE Results;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Diplomystidae,
+            2    Hypsidoridae,
+            3    Amblycipitidae,
+            4    Sisoridae,
+            5    Akyssidae,
+            6    Amphiliidae,
+            7    Loricarioids,
+            8    Pseudopimelodines,
+            9    Doradoids,
+            10   Aspredinidae_ANC,
+            11   Pseudobunocephalus,
+            12   Acanthobunocephalus,
+            13   Bunocephalus,
+            14   Amaralia,
+            15   Pterobunocephalus,
+            16   Platystacus,
+            17   Aspredo,
+            18   Aspredinichthys,
+            19   Xyliphius,
+            20   Hoplomyzon,
+            21   Dupouyichthys,
+            22   Ernstichthys,
+            23   Olivaicichtys_viedmensis,
+            24   Hypsidoris_farsonensis,
+            25   Amblyceps_laticeps,
+            26   Amblyceps_mangois,
+            27   Liobagrus_andersoni,
+            28   Liobagrus_anguillicauda,
+            29   Liobagrus_formosanus,
+            30   Liobagrus_mediadiposalis,
+            31   Liobagrus_obesus,
+            32   Liobagrus_reini,
+            33   Xiurenbagrus_xiurenensis,
+            34   Bagarius_bagarius,
+            35   Conta_conta,
+            36   Erethistes_pusillus,
+            37   Euchiloglanis_hodgarti,
+            38   Exostoma_labiatum,
+            39   Gagata_cenia,
+            40   Gagata_nangra,
+            41   Glyptothorax_laosensis,
+            42   Glyptothorax_ribeiroi,
+            43   Glyptothorax_shawi,
+            44   Glyptothorax,
+            45   Hara_hara,
+            46   Hara_jordoni,
+            47   Laguvia_shawi,
+            48   Nangra_nangra,
+            49   Oreoglanis_labiatum,
+            50   Pseudecheneis_sulcatus,
+            51   Acrochordonichthys_melanogaster,
+            52   Akysis_leucorhynchus,
+            53   Akysis,
+            54   Breitensteinia_insignis,
+            55   Parakysis_verrucosa,
+            56   Amphilius_atesuensis,
+            57   Belonoglanis_tenius,
+            58   Doumea_alula,
+            59   Phractura_lindica,
+            60   Acanthicus_histrix,
+            61   Chaetostoma_sp.,
+            62   Loricariinae,
+            63   Loricaria_sp.,
+            64   Panaque,
+            65   Liposarcus,
+            66   Sturisoma,
+            67   Lophiosilurus_alexandri,
+            68   Microglanis_poecilus,
+            69   Pseudopimelodus_apurensis,
+            70   Pseudopimelodus,
+            71   Pseudopimelodus_zungaro,
+            72   Amblydoras,
+            73   Hemidoras_carinatus,
+            74   Leptodoras,
+            75   Megalodoras_irwini,
+            76   Orinocodoras_eigenmanni,
+            77   Oxydoras_niger,
+            78   Platydoras_costatus,
+            79   Pterodoras_angeli,
+            80   Pseudobunocephalus_amazonicus,
+            81   Pseudobunocephalus_bifidus,
+            82   Pseudobunocephalus_cf._bifidus,
+            83   Pseudobunocephalus_iheringii,
+            84   Pseudobunocephalus_lundbergi_N._SPECIES,
+            85   Pseudobunocephalus_rugosus,
+            86   Pseudobunocephalus_SPECIES,
+            87   Acanthobunocephalus_nicoi_n._sp,
+            88   Bunocephalus_aleuropsis,
+            89   Bunocephalus_amaurus,
+            90   Bunocephalus_chamaizelus,
+            91   Bunocephalus_colombianus,
+            92   Bunocephalus_coracoideus,
+            93   Bunocephalus_doriae,
+            94   Bunocephalus_knerii,
+            95   Bunocephalus_cf._knerii,
+            96   Bunocephalus_larai,
+            97   Bunocephalus_N._SPECIES_1,
+            98   Bunocephalus_N._SPECIES_2,
+            99   Bunocephalus_N._SPECIES_3,
+            100  Bunocephalus_n._sp._4,
+            101  Bunocephalus_N._SPECIES_5,
+            102  Bunocephalus_SPECIES,
+            103  Bunocephalus_verrucosus,
+            104  Amaralia_N._SPECIES,
+            105  Amaralia_hypsiura,
+            106  Pterobunocephalus_depressus,
+            107  Pterobunocephalus_dolichurus,
+            108  Pterobunocephalus_SPECIES,
+            109  Platystacus_cotylephorus,
+            110  Aspredo_aspredo,
+            111  Aspredinichthys_filamentosus,
+            112  Aspredinichthys_tibicen,
+            113  Xyliphius_kryptos,
+            114  Xyliphius_lepturus,
+            115  Xyliphius_cf._lepturus,
+            116  Xyliphius_magdalenae,
+            117  Xyliphius_melanopterus,
+            118  Xyliphius_cf._melanopterus,
+            119  Hoplomyzon_atrizona,
+            120  Hoplomyzon_N._SPECIES,
+            121  Hoplomyzon_papillatus,
+            122  Hoplomyzon_cf._papillatus,
+            123  Hoplomyzon_sexpapilostoma,
+            124  Hoplomyzon_SPECIES,
+            125  Dupouyichthys_sapito,
+            126  Ernstichthys_anduzei,
+            127  Ernstichthys_intonsus,
+            128  Ernstichthys_megistus,
+            129  Ernstichthys_SPECIES;
+      TREE 'Fig. 3+' = [&R] (1,(2,(11,(12,((13,14),((15,(16,(17,18))),(19,(20,(21,22)))))))));
+      TREE 'Fig. 2+' = [&R] (1,(2,((3,(4,5)),(6,7),(8,(9,10)))));
+      TREE 'Fig. 1+' = [&R] (1,(2,((6,7),(3,(4,5)),(8,(9,(11,(12,((13,14),((15,(16,(17,18))),(19,(20,(21,22))))))))))));
+
+
+
+END;

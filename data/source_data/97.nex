@@ -1,0 +1,132 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:30 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Rieseberg L. 1991. Homoploid reticulate evolution in Helianthus (Asteraceae): Evidence
+from ribosomal genes. American Journal of Botany, 78: 1218-1237.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S182]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=29;
+        TAXLABELS
+            Helianthus_annuus
+            Helianthus_anomalus_1
+            Helianthus_anomalus_2
+            Helianthus_argophyllus
+            Helianthus_atrorubens
+            Helianthus_bolanderi
+            Helianthus_debilis_cucumerifoli
+            Helianthus_debilis_debilis
+            Helianthus_debilis_silvestris
+            Helianthus_debilis_tardiflorus
+            Helianthus_debilis_vestitus
+            Helianthus_deserticola_1
+            Helianthus_deserticola_2
+            Helianthus_exilis
+            Helianthus_maximiliani
+            Helianthus_neglectus
+            Helianthus_niveus_canescens
+            Helianthus_niveus_niveus
+            Helianthus_niveus_tephrodes
+            Helianthus_paradoxus_1
+            Helianthus_paradoxus_2
+            Helianthus_petiolaris_fallax
+            Helianthus_petiolaris_fallax_1
+            Helianthus_petiolaris_fallax_2
+            Helianthus_petiolaris_petiolari
+            Helianthus_porteri
+            Helianthus_praecox_hirtus
+            Helianthus_praecox_praecox
+            Helianthus_praecox_runyonii
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M290]
+
+	TITLE Table_3;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=41;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2 3" MISSING=? GAP= -;
+
+MATRIX
+[                                           10        20        30        40 ]
+[                                            .         .         .         . ]
+Helianthus_annuus                   00000000010010001001010100101010001100022
+Helianthus_anomalus_1               00000000010010001001010100101010001100001
+Helianthus_anomalus_2               10100000000000110101011101111001020000011
+Helianthus_argophyllus              00000000010010001001010100101010101100022
+Helianthus_atrorubens               11000100010000001011000001001000000000000
+Helianthus_bolanderi                10000000010000000001000100001000001100022
+Helianthus_debilis_cucumerifoli     10100000011001000101111101111001000010011
+Helianthus_debilis_debilis          10101000011001000101111001111001000010011
+Helianthus_debilis_silvestris       10100010011001000101111101111001000010011
+Helianthus_debilis_tardiflorus      10100000011001000101111001111001000010011
+Helianthus_debilis_vestitus         10100001011001000101111001111001000010011
+Helianthus_deserticola_1            10100000100000110101011101111001020002011
+Helianthus_deserticola_2            00000000010010001001010100101010001100022
+Helianthus_exilis                   10000000010000000001000100101000001100022
+Helianthus_maximiliani              11000000000000001000000101001000000000001
+Helianthus_neglectus                10100000000000110101011101101001020000011
+Helianthus_niveus_canescens         10100000010000110101011101101001020000011
+Helianthus_niveus_niveus            10110000010100011101011101101001000000011
+Helianthus_niveus_tephrodes         10110000010000110101011111101001010000011
+Helianthus_paradoxus_1              10100000000000110101011101111001030000111
+Helianthus_paradoxus_2              00000000010010001001010100101010001100022
+Helianthus_petiolaris_fallax        10100000000000110101011101111001020000011
+Helianthus_petiolaris_fallax_1      ?????????????????????????????????????????
+Helianthus_petiolaris_fallax_2      ?????????????????????????????????????????
+Helianthus_petiolaris_petiolari     10100000000000110101011101111001020001011
+Helianthus_porteri                  11010000010000000000000101100100000000011
+Helianthus_praecox_hirtus           10100000011001100101111101111001000010011
+Helianthus_praecox_praecox          10100000011001100101111101111001000010011
+Helianthus_praecox_runyonii         10100000011001100101111101111001000010011
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb4910;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Helianthus_atrorubens,
+            2    Helianthus_maximiliani,
+            3    Helianthus_porteri,
+            4    Helianthus_niveus_niveus,
+            5    Helianthus_niveus_tephrodes,
+            6    Helianthus_niveus_canescens,
+            7    Helianthus_neglectus,
+            8    Helianthus_petiolaris_fallax,
+            9    Helianthus_anomalus_2,
+            10   Helianthus_debilis_cucumerifoli,
+            11   Helianthus_debilis_debilis,
+            12   Helianthus_debilis_silvestris,
+            13   Helianthus_debilis_tardiflorus,
+            14   Helianthus_debilis_vestitus,
+            15   Helianthus_praecox_hirtus,
+            16   Helianthus_praecox_praecox,
+            17   Helianthus_praecox_runyonii,
+            18   Helianthus_petiolaris_petiolari,
+            19   Helianthus_deserticola_1,
+            20   Helianthus_paradoxus_1,
+            21   Helianthus_argophyllus,
+            22   Helianthus_annuus,
+            23   Helianthus_deserticola_2,
+            24   Helianthus_paradoxus_2,
+            25   Helianthus_bolanderi,
+            26   Helianthus_exilis,
+            27   Helianthus_anomalus_1,
+            28   Helianthus_petiolaris_fallax_1,
+            29   Helianthus_petiolaris_fallax_2;
+      TREE Fig._8 = [&R] (((1,2),3),(((4,(5,(6,(7,(8,18,9,19,20))))),((11,13,14),(15,16,17),10,12)),((22,21,27,23,24),25,26)));
+
+
+
+END;

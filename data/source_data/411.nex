@@ -1,0 +1,119 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:36 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Thayer M.K. 1997. Proglypholoma aenigma gen. et sp. nov., Glypholoma spp. nov. and
+new records, and a phylogenetic analysis of Glypholomatinae (Coleoptera: Staphylinidae).
+Annales Zoologici, 47(1/2): 157-174.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S731]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=10;
+        TAXLABELS
+            Glypholoma_chepuense
+            Glypholoma_germaini
+            Glypholoma_pecki
+            Glypholoma_pustuliferum
+            Glypholoma_rotundulum
+            Glypholoma_temporale
+            Glypholoma_tenuicorne
+            Microsilpha_spp
+            Nitidotachinus
+            Proglypholoma_aenigma
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M2303]
+
+	TITLE Table_2;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=40;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2 3 4 5 6 7" MISSING=? GAP= -;
+	CHARSTATELABELS
+		1  'body outline, dorsal view' / elongate oblong oval,
+		2  'dorsal contour (transverse section)' / mod._convex sl._convex very_convex,
+		3  epistomal_suture_stem / present absent,
+		4  anteoc._pits_or_grooves / 'broad- shallow' 'narrow-elongate' absent,
+		5  antennal_form / filiform clavate,
+		6  antenna_#_club_segments / 0 3 4 5 6,
+		7  'antenna - # glabrous basal segments' / 2 4 5 6 7,
+		8  pronotum_widest / near_back behind_middle middle before_middle,
+		9  pronotal_lateral_margin_explanate / basally entire_length,
+		10  #_elytral_striae / 0 11 '<11',
+		11  elytral_striae / impressed_between_punctures not_impressed_between_punctures absent,
+		12  elytral_apex_color_compared_to_disk / concolorous abruptly_paler,
+		13  elytral_pustules / absent present,
+		14  elytral_pale_spots / absent present,
+		15  elytral_intervals_with_fine_punctures / absent present 'striae absent-no interv',
+		16  elytral_epipl_keel_length_vs._elytral_length / _0.6 ' 0.64-0.69' _0.8 _1.0,
+		17  elytra_cover_abdomen_through_tergite / 3 4 5 6,
+		18  prosternal_carina / absent present,
+		19  prosternal_surface / punctate rugose smooth,
+		20  mesosternal_punctation / present absent,
+		21  metasternal_antecoxal_suture / short long absent,
+		22  procoxal_mesal_groove / absent present,
+		23  metacoxal_posterior_face / oblique vertical slightly_excavate distinctly_excavate,
+		24  metafemoral_length_vs._metacoxal_length / much_greater_than greater_than less_than,
+		25  tibial_external_spines / present absent,
+		26  metatarsal_length_vs._metatibial_length / 0.56 'sl < 0.6' 0.6 0.61 0.67 0.7 0.71 0.76,
+		27  'metatarsus, length of tarsomere 5 vs 1-4 together' / '>= 0.5' '=< 0.4',
+		28  length_of_empodial_setae_vs._length_of_claws / greater_than equal_to less_than,
+		29  'first well-sclerotized abdominal tergite' / 3 4 5 6,
+		30  abdominal_spiracles_in_tergites_on_segments / '3-8' '4-8' '5-8',
+		31  sternite_8_projections_lateral_to_median_defensive_gland_projection / absent narrow transversely_elongate,
+		32  male_tergite_9_mediodorsal_connection / absent narrow wide,
+		33  male_tergite_9_shortest_dorsal_length_vs._lateral_length / '0 (tergite 9 divided)' '0.03-0.08' 0.1 0.15 0.27,
+		34  'male sternite internal anterior "button"' / absent present,
+		35  anterior_part_of_male_stenite_9 / not_between_anterior_projections forming_wide__connection_between_projections forming_narrow_connection_between_projections,
+		36  aedeagus_with_bellows_action / 'dorsal-ventral' 'lateral-lateral' 'anterior-posterior',
+		37  parameres_with_subapical_setae / present absent,
+		38  aedeagus_with_apex_of_median_lobe / not_digitiform digitiform,
+		39  aedeagal_basal_piece / absent narrow wide,
+		40  teeth_on_aedeagal_internal_sac / 'even-sized' 'mixed-sized' absent,
+		;
+
+MATRIX
+[                                   10        20        30        40]
+[                                    .         .         .         .]
+Glypholoma_chepuense        1002142111001000200001310202322?????????
+Glypholoma_germaini         1011132111001011?010?12206011??111200120
+Glypholoma_pecki            1012114211010011310101320401221111201110
+Glypholoma_pustuliferum     1001133211011111201001320201112111201010
+Glypholoma_rotundulum       2202114001010111310101310100121121200020
+Glypholoma_temporale        1012121111011011201111320500221131200110
+Glypholoma_tenuicorne       011200100111000020010132151111?111200110
+Microsilpha_spp             2202124000200021200010110702211000011022
+Nitidotachinus              0001000000100013000020000310000000021011
+Proglypholoma_aenigma       0100001302101002100000201002201240110101
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb5909;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Glypholoma_germaini,
+            2    Proglypholoma_aenigma,
+            3    Glypholoma_chepuense,
+            4    Glypholoma_rotundulum,
+            5    Glypholoma_tenuicorne,
+            6    Glypholoma_temporale,
+            7    Glypholoma_pecki,
+            8    Glypholoma_pustuliferum,
+            9    Microsilpha_spp,
+            10   Nitidotachinus;
+      TREE Fig._32 = [&R] (10,(9,((((((8,1),3),6),(7,4)),5)Glypholoma,2)));
+      TREE Fig._32_inset = [&R] (10,(9,(((((8,(3,1)),6),(7,4)),5)Glypholoma,2)Glypholomatinae));
+
+
+
+END;

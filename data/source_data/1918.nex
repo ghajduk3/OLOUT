@@ -1,0 +1,151 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:52 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Powell J., Crayn D., Gadek P.A., Quinn C., Morrison D., & Chapman A. 1996. A re-assessment
+of relationships within Epacridaceae. Annals of Botany, 77: 305-315.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S264]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=26;
+        TAXLABELS
+            Andersonia_A
+            Andersonia_B
+            Archeria
+            Astroloma
+            Budawangia
+            Cosmelia
+            Dracophyllum_A
+            Dracophyllum_B
+            Dracophyllum_C
+            Epacris
+            Erica
+            Gaultheria
+            Lebetanthus
+            Lysinema
+            Melichrus
+            Needhamiella
+            Oligarrhena
+            Prionotes
+            Richea_A
+            Richea_B
+            Rupicola
+            Sphenotoma
+            Sprengelia
+            Styphelia
+            Vaccinium
+            Woollsia
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M761]
+
+	TITLE Table_3;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=25;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2 3" MISSING=N GAP= -;
+	CHARSTATELABELS
+		1  habit / shrub climber,
+		2  leaf_scars / present absent,
+		3  hairs / multicellular unicellular 'uni + multi',
+		4  leaf_insertion / 'non-sheathing' sheathing,
+		5  leaf_venation / 'campto-actino' parallel,
+		6  fibre_caps / adaxial_plus_abaxial abaxial_onl,
+		7  caps_contact / not_reaching_epidermis reaching_same_epidermis reaching_opposite_epidermis,
+		8  nodal_anatomy / unilacunar multilacunar,
+		9  pith_composition / homgenous heterogenous,
+		10  stomatal_type / anomocytic paracytic cyclocytic 'anomo- + para-cytic',
+		11  stomatal_distribution / abaxial_only 'abaxial + adaxial',
+		12  flowers_pedicellate_above_upper / present absent,
+		13  petal_fusion_type / fused splitting_at_base,
+		14  aestivation / imbricate valvate,
+		15  anther_no._cf._petal_no. / twice_petals equal_to_petals less_than_petals,
+		16  anther_coherence / free_from_style cohering_around_style,
+		17  anther_cell_no. / '2-celled' '1-celled',
+		18  filament_insertion_in_corolla / free epipetalous,
+		19  anther_dehiscence / pores longitudinal_slits,
+		20  no._ovules_per_cell / '2-many' 1,
+		21  placentation / axile apical,
+		22  nectary / present absent,
+		23  fruit_type / capsule drupe berry,
+		24  inflorescence_type / anthotelic blastotelic reduced_anthotelic,
+		25  leaf_margin / serrate entire,
+		;
+
+MATRIX
+[                          10        20        30    ]
+[                           .         .         .    ]
+Andersonia_A       0111112002110110001000021
+Andersonia_B       0110112002110110001000021
+Archeria           0010010000000010111000021
+Astroloma          0010011000010010111110121
+Budawangia         0010010000010010111001021
+Cosmelia           0111112000110010111000021
+Dracophyllum_A     0011101111110010111000021
+Dracophyllum_B     0011101111000010111000001
+Dracophyllum_C     0011101111010010111000001
+Epacris            0010010000010010111000021
+Erica              00000000000N0000000000001
+Gaultheria         00000000{01}3{01}000000000000{01}0
+Lebetanthus        1020010000010010001000020
+Lysinema           0010010000011010101000021
+Melichrus          00101110000100101111001N1
+Needhamiella       0010111000110010111110111
+Oligarrhena        0010111000010120111110121
+Prionotes          1020010000000010001000020
+Richea_A           0011101111010110101001021
+Richea_B           0011101111010110101000001
+Rupicola           0010010000010011111001021
+Sphenotoma         0011101111010010111000021
+Sprengelia         0111112002111011101001021
+Styphelia          0010011000010010111110121
+Vaccinium          {01}000000001{01}000000000003{01}0
+Woollsia           0010010000010010101000021
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb4994;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Erica,
+            2    Gaultheria,
+            3    Vaccinium,
+            4    Richea_A,
+            5    Richea_B,
+            6    Sphenotoma,
+            7    Dracophyllum_A,
+            8    Dracophyllum_B,
+            9    Dracophyllum_C,
+            10   Cosmelia,
+            11   Sprengelia,
+            12   Andersonia_A,
+            13   Andersonia_B,
+            14   Prionotes,
+            15   Lebetanthus,
+            16   Archeria,
+            17   Epacris,
+            18   Woollsia,
+            19   Lysinema,
+            20   Rupicola,
+            21   Budawangia,
+            22   Needhamiella,
+            23   Oligarrhena,
+            24   Astroloma,
+            25   Styphelia,
+            26   Melichrus;
+      TREE Fig_3 = [&R] (1,((2,3),((((((((4,5),6,7,(8,9)),(10,(11,(12,13)))),((22,23,(24,25)),26)),17,(20,21)),16),(18,19)),(14,15))));
+      TREE Fig_1 = [&R] ((2,3,((((((4,5),6,7,8,9)Richea_clade,(10,(11,(12,13)))10_clade),((22,23,(24,25)),26)25_clade),16,17,18,19,(20,21)),14,15)),1);
+
+
+
+END;

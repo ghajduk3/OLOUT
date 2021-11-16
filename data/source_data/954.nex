@@ -1,0 +1,172 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:42 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Freudenstein J., & Doyle J. 1994. Plastid DNA, morphological variation, and the Phylogenetic
+Species Concept: The Corallorhiza maculata (Orchidaceae) Complex. Systematic
+Botany, 19: 273-290.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S125]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=42;
+        TAXLABELS
+            Corallorhiza_maculata_1870
+            Corallorhiza_maculata_1875
+            Corallorhiza_maculata_1885
+            Corallorhiza_maculata_1887
+            Corallorhiza_maculata_1898
+            Corallorhiza_maculata_1952
+            Corallorhiza_maculata_1995
+            Corallorhiza_maculata_2014
+            Corallorhiza_maculata_2020
+            Corallorhiza_maculata_2035
+            Corallorhiza_maculata_2043
+            Corallorhiza_maculata_2044
+            Corallorhiza_maculata_2046
+            Corallorhiza_maculata_2058
+            Corallorhiza_maculata_2095
+            Corallorhiza_maculata_2112
+            Corallorhiza_maculata_2118
+            Corallorhiza_maculata_2122
+            Corallorhiza_maculata_2123
+            Corallorhiza_maculata_2125
+            Corallorhiza_maculata_2126
+            Corallorhiza_maculata_2128
+            Corallorhiza_maculata_2131
+            Corallorhiza_maculata_2147
+            Corallorhiza_maculata_2165
+            Corallorhiza_maculata_2184
+            Corallorhiza_maculata_2194
+            Corallorhiza_maculata_2202
+            Corallorhiza_maculata_2203
+            Corallorhiza_maculata_2207
+            Corallorhiza_maculata_2209
+            Corallorhiza_maculata_2243
+            Corallorhiza_maculata_2245
+            Corallorhiza_maculata_2250
+            Corallorhiza_maculata_2287
+            Corallorhiza_maculata_2348
+            Corallorhiza_maculata_2416
+            Corallorhiza_maculata_2437
+            Corallorhiza_maculata_T190
+            Corallorhiza_mertensiana
+            Corallorhiza_sp_nov
+            Corallorhiza_trifida
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M2093]
+
+	TITLE Table_5;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=21;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2" MISSING=? GAP= -;
+
+MATRIX
+[                                      10        20 ]
+[                                       .         . ]
+Corallorhiza_maculata_1870     11111100110100101?200
+Corallorhiza_maculata_1875     100010000001001000110
+Corallorhiza_maculata_1885     100010000001001000111
+Corallorhiza_maculata_1887     100010000001001000110
+Corallorhiza_maculata_1898     101010010001?01???200
+Corallorhiza_maculata_1952     101010010001001001200
+Corallorhiza_maculata_1995     11111100110100101?200
+Corallorhiza_maculata_2014     11111100110100101?200
+Corallorhiza_maculata_2020     11111100110100101?200
+Corallorhiza_maculata_2035     101010010001001001200
+Corallorhiza_maculata_2043     11111100110100101?200
+Corallorhiza_maculata_2044     101010010001011001200
+Corallorhiza_maculata_2046     11111100110100101?200
+Corallorhiza_maculata_2058     11111100110100101?200
+Corallorhiza_maculata_2095     101010010001001001200
+Corallorhiza_maculata_2112     101010010001?01???200
+Corallorhiza_maculata_2118     11111100110100101?200
+Corallorhiza_maculata_2122     101010010001011001200
+Corallorhiza_maculata_2123     11111100110100101?200
+Corallorhiza_maculata_2125     11111100110100101?200
+Corallorhiza_maculata_2126     11111100110100101?200
+Corallorhiza_maculata_2128     101010010001011001200
+Corallorhiza_maculata_2131     11111100110100101?200
+Corallorhiza_maculata_2147     11111100110100101?200
+Corallorhiza_maculata_2165     100000000010100000000
+Corallorhiza_maculata_2184     10000000001???????000
+Corallorhiza_maculata_2194     100000000001001000000
+Corallorhiza_maculata_2202     100000000010100000000
+Corallorhiza_maculata_2203     100000000010100000000
+Corallorhiza_maculata_2207     100000000010100000000
+Corallorhiza_maculata_2209     11111100110100101?200
+Corallorhiza_maculata_2243     11111100110100101?200
+Corallorhiza_maculata_2245     11111110010100101?200
+Corallorhiza_maculata_2250     11111110010100101?200
+Corallorhiza_maculata_2287     100010000001001000110
+Corallorhiza_maculata_2348     11111100110100101?200
+Corallorhiza_maculata_2416     11111100110100101?200
+Corallorhiza_maculata_2437     11111100110100101?200
+Corallorhiza_maculata_T190     100010000001001000111
+Corallorhiza_mertensiana       100010000001001100001
+Corallorhiza_sp_nov            100000000001001000000
+Corallorhiza_trifida           000000000000000000000
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb4845;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Corallorhiza_trifida,
+            2    Corallorhiza_maculata_1870,
+            3    Corallorhiza_maculata_1875,
+            4    Corallorhiza_maculata_1885,
+            5    Corallorhiza_maculata_1887,
+            6    Corallorhiza_maculata_1898,
+            7    Corallorhiza_maculata_1952,
+            8    Corallorhiza_maculata_1995,
+            9    Corallorhiza_maculata_2014,
+            10   Corallorhiza_maculata_2020,
+            11   Corallorhiza_maculata_2035,
+            12   Corallorhiza_maculata_2043,
+            13   Corallorhiza_maculata_2044,
+            14   Corallorhiza_maculata_2046,
+            15   Corallorhiza_maculata_2058,
+            16   Corallorhiza_maculata_2095,
+            17   Corallorhiza_maculata_2112,
+            18   Corallorhiza_maculata_2118,
+            19   Corallorhiza_maculata_2122,
+            20   Corallorhiza_maculata_2123,
+            21   Corallorhiza_maculata_2125,
+            22   Corallorhiza_maculata_2126,
+            23   Corallorhiza_maculata_2128,
+            24   Corallorhiza_maculata_2131,
+            25   Corallorhiza_maculata_2147,
+            26   Corallorhiza_maculata_2165,
+            27   Corallorhiza_maculata_2184,
+            28   Corallorhiza_maculata_2194,
+            29   Corallorhiza_maculata_2202,
+            30   Corallorhiza_maculata_2203,
+            31   Corallorhiza_maculata_2207,
+            32   Corallorhiza_maculata_2209,
+            33   Corallorhiza_maculata_2243,
+            34   Corallorhiza_maculata_2245,
+            35   Corallorhiza_maculata_2250,
+            36   Corallorhiza_maculata_2287,
+            37   Corallorhiza_maculata_2348,
+            38   Corallorhiza_maculata_2416,
+            39   Corallorhiza_maculata_2437,
+            40   Corallorhiza_maculata_T190,
+            41   Corallorhiza_mertensiana,
+            42   Corallorhiza_sp_nov;
+      TREE Fig._3 = [&R] ((1,((26,27,29,30,31),(28,42,(41,(3,5,36,(4,40)),((6,7,11,16,17,(13,19,23)),((34,35),(2,8,9,10,12,14,18,20,33,37,38,15,21,22,24,25,32,39))))))Corallorhiza_maculata));
+
+
+
+END;

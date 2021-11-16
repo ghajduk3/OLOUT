@@ -1,0 +1,432 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:36 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Vandemark G., Martinez O., Pecina V., & Alvarado M. 2000. Assessment of genetic relationships
+among isolates of Macrophomina phaseolina using a simplified AFLP technique
+and two different methods of analysis. Mycologia, 92(4): 656-664.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S631]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=24;
+        TAXLABELS
+            Macrophomina_phaseolina_iso_1
+            Macrophomina_phaseolina_iso_105
+            Macrophomina_phaseolina_iso_11
+            Macrophomina_phaseolina_iso_117
+            Macrophomina_phaseolina_iso_12
+            Macrophomina_phaseolina_iso_18
+            Macrophomina_phaseolina_iso_24
+            Macrophomina_phaseolina_iso_40
+            Macrophomina_phaseolina_iso_43
+            Macrophomina_phaseolina_iso_53
+            Macrophomina_phaseolina_iso_54
+            Macrophomina_phaseolina_iso_64
+            Macrophomina_phaseolina_iso_65
+            Macrophomina_phaseolina_iso_67
+            Macrophomina_phaseolina_iso_70
+            Macrophomina_phaseolina_iso_73
+            Macrophomina_phaseolina_iso_77
+            Macrophomina_phaseolina_iso_8
+            Macrophomina_phaseolina_iso_84
+            Macrophomina_phaseolina_iso_87
+            Macrophomina_phaseolina_iso_91
+            Macrophomina_phaseolina_iso_92
+            Macrophomina_phaseolina_iso_94
+            Macrophomina_phaseolina_iso_96
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M3620]
+
+	TITLE AFLP_of_Macrophomina_phaseolina;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=312;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1" MISSING=? GAP= -;
+	CHARSTATELABELS
+		1  'primer pair (80%AT) 1, locus 1' / band_is_absent band_is_present,
+		2  'primer pair (80%AT) 1, locus 2' / band_is_absent band_is_present,
+		3  'primer pair (80%AT) 1, locus 3' / band_is_absent band_is_present,
+		4  'primer pair (80%AT) 1, locus 4' / band_is_absent band_is_present,
+		5  'primer pair (80%AT) 1, locus 5' / band_is_absent band_is_present,
+		6  'primer pair (80%AT) 1, locus 6' / band_is_absent band_is_present,
+		7  'primer pair (80%AT) 1, locus 7' / band_is_absent band_is_present,
+		8  'primer pair (80%AT) 1, locus 8' / band_is_absent band_is_present,
+		9  'primer pair (80%AT) 1, locus 9' / band_is_absent band_is_present,
+		10  'primer pair (80%AT) 1, locus 10' / band_is_absent band_is_present,
+		11  'primer pair (80%AT) 1, locus 11' / band_is_absent band_is_present,
+		12  'primer pair (80%AT) 1, locus 12' / band_is_absent band_is_present,
+		13  'primer pair (80%AT) 1, locus 13' / band_is_absent band_is_present,
+		14  'primer pair (80%AT) 1, locus 14' / band_is_absent band_is_present,
+		15  'primer pair (80%AT) 1, locus 15' / band_is_absent band_is_present,
+		16  'primer pair (80%AT) 1, locus 16' / band_is_absent band_is_present,
+		17  'primer pair (80%AT) 1, locus 17' / band_is_absent band_is_present,
+		18  'primer pair (80%AT) 1, locus 18' / band_is_absent band_is_present,
+		19  'primer pair (80%AT) 1, locus 19' / band_is_absent band_is_present,
+		20  'primer pair (80%AT) 1, locus 20' / band_is_absent band_is_present,
+		21  'primer pair (80%AT) 2, locus 1' / band_is_absent band_is_present,
+		22  'primer pair (80%AT) 2, locus 2' / band_is_absent band_is_present,
+		23  'primer pair (80%AT) 2, locus 3' / band_is_absent band_is_present,
+		24  'primer pair (80%AT) 2, locus 4' / band_is_absent band_is_present,
+		25  'primer pair (80%AT) 2, locus 5' / band_is_absent band_is_present,
+		26  'primer pair (80%AT) 2, locus 6' / band_is_absent band_is_present,
+		27  'primer pair (80%AT) 2, locus 7' / band_is_absent band_is_present,
+		28  'primer pair (80%AT) 2, locus 8' / band_is_absent band_is_present,
+		29  'primer pair (80%AT) 2, locus 9' / band_is_absent band_is_present,
+		30  'primer pair (80%AT) 2, locus 10' / band_is_absent band_is_present,
+		31  'primer pair (80%AT) 2, locus 11' / band_is_absent band_is_present,
+		32  'primer pair (80%AT) 2, locus 12' / band_is_absent band_is_present,
+		33  'primer pair (80%AT) 2, locus 13' / band_is_absent band_is_present,
+		34  'primer pair (80%AT) 2, locus 14' / band_is_absent band_is_present,
+		35  'primer pair (80%AT) 2, locus 15' / band_is_absent band_is_present,
+		36  'primer pair (80%AT) 2, locus 16' / band_is_absent band_is_present,
+		37  'primer pair (80%AT) 2, locus 17' / band_is_absent band_is_present,
+		38  'primer pair (80%AT) 2, locus 18' / band_is_absent band_is_present,
+		39  'primer pair (80%AT) 2, locus 19' / band_is_absent band_is_present,
+		40  'primer pair (80%AT) 3, locus 1' / band_is_absent band_is_present,
+		41  'primer pair (80%AT) 3, locus 2' / band_is_absent band_is_present,
+		42  'primer pair (80%AT) 3, locus 3' / band_is_absent band_is_present,
+		43  'primer pair (80%AT) 3, locus 4' / band_is_absent band_is_present,
+		44  'primer pair (80%AT) 3, locus 5' / band_is_absent band_is_present,
+		45  'primer pair (80%AT) 3, locus 6' / band_is_absent band_is_present,
+		46  'primer pair (80%AT) 3, locus 7' / band_is_absent band_is_present,
+		47  'primer pair (80%AT) 3, locus 8' / band_is_absent band_is_present,
+		48  'primer pair (80%AT) 3, locus 9' / band_is_absent band_is_present,
+		49  'primer pair (80%AT) 3, locus 10' / band_is_absent band_is_present,
+		50  'primer pair (80%AT) 3, locus 11' / band_is_absent band_is_present,
+		51  'primer pair (80%AT) 3, locus 12' / band_is_absent band_is_present,
+		52  'primer pair (80%AT) 3, locus 13' / band_is_absent band_is_present,
+		53  'primer pair (80%AT) 3, locus 14' / band_is_absent band_is_present,
+		54  'primer pair (80%AT) 3, locus 15' / band_is_absent band_is_present,
+		55  'primer pair (80%AT) 3, locus 16' / band_is_absent band_is_present,
+		56  'primer pair (80%AT) 3, locus 17' / band_is_absent band_is_present,
+		57  'primer pair (80%AT) 3, locus 18' / band_is_absent band_is_present,
+		58  'primer pair (80%AT) 3, locus 19' / band_is_absent band_is_present,
+		59  'primer pair (80%AT) 3, locus 20' / band_is_absent band_is_present,
+		60  'primer pair (80%AT) 4, locus 1' / band_is_absent band_is_present,
+		61  'primer pair (80%AT) 4, locus 2' / band_is_absent band_is_present,
+		62  'primer pair (80%AT) 4, locus 3' / band_is_absent band_is_present,
+		63  'primer pair (80%AT) 4, locus 4' / band_is_absent band_is_present,
+		64  'primer pair (80%AT) 4, locus 5' / band_is_absent band_is_present,
+		65  'primer pair (80%AT) 4, locus 6' / band_is_absent band_is_present,
+		66  'primer pair (80%AT) 4, locus 7' / band_is_absent band_is_present,
+		67  'primer pair (80%AT) 4, locus 8' / band_is_absent band_is_present,
+		68  'primer pair (80%AT) 4, locus 9' / band_is_absent band_is_present,
+		69  'primer pair (80%AT) 4, locus 10' / band_is_absent band_is_present,
+		70  'primer pair (80%AT) 4, locus 11' / band_is_absent band_is_present,
+		71  'primer pair (80%AT) 4, locus 12' / band_is_absent band_is_present,
+		72  'primer pair (80%AT) 4, locus 13' / band_is_absent band_is_present,
+		73  'primer pair (80%AT) 4, locus 14' / band_is_absent band_is_present,
+		74  'primer pair (80%AT) 4, locus 15' / band_is_absent band_is_present,
+		75  'primer pair (80%AT) 4, locus 16' / band_is_absent band_is_present,
+		76  'primer pair (80%AT) 4, locus 17' / band_is_absent band_is_present,
+		77  'primer pair (80%AT) 4, locus 18' / band_is_absent band_is_present,
+		78  'primer pair (60%AT) 5, locus 1' / band_is_absent band_is_present,
+		79  'primer pair (60%AT) 5, locus 2' / band_is_absent band_is_present,
+		80  'primer pair (60%AT) 5, locus 3' / band_is_absent band_is_present,
+		81  'primer pair (60%AT) 5, locus 4' / band_is_absent band_is_present,
+		82  'primer pair (60%AT) 5, locus 5' / band_is_absent band_is_present,
+		83  'primer pair (60%AT) 5, locus 6' / band_is_absent band_is_present,
+		84  'primer pair (60%AT) 5, locus 7' / band_is_absent band_is_present,
+		85  'primer pair (60%AT) 5, locus 8' / band_is_absent band_is_present,
+		86  'primer pair (60%AT) 5, locus 9' / band_is_absent band_is_present,
+		87  'primer pair (60%AT) 5, locus 10' / band_is_absent band_is_present,
+		88  'primer pair (60%AT) 5, locus 11' / band_is_absent band_is_present,
+		89  'primer pair (60%AT) 5, locus 12' / band_is_absent band_is_present,
+		90  'primer pair (60%AT) 5, locus 13' / band_is_absent band_is_present,
+		91  'primer pair (60%AT) 5, locus 14' / band_is_absent band_is_present,
+		92  'primer pair (60%AT) 5, locus 15' / band_is_absent band_is_present,
+		93  'primer pair (60%AT) 5, locus 16' / band_is_absent band_is_present,
+		94  'primer pair (60%AT) 5, locus 17' / band_is_absent band_is_present,
+		95  'primer pair (60%AT) 5, locus 18' / band_is_absent band_is_present,
+		96  'primer pair (60%AT) 5, locus 19' / band_is_absent band_is_present,
+		97  'primer pair (60%AT) 5, locus 20' / band_is_absent band_is_present,
+		98  'primer pair (60%AT) 5, locus 21' / band_is_absent band_is_present,
+		99  'primer pair (60%AT) 6, locus 1' / band_is_absent band_is_present,
+		100  'primer pair (60%AT) 6, locus 2' / band_is_absent band_is_present,
+		101  'primer pair (60%AT) 6, locus 3' / band_is_absent band_is_present,
+		102  'primer pair (60%AT) 6, locus 4' / band_is_absent band_is_present,
+		103  'primer pair (60%AT) 6, locus 5' / band_is_absent band_is_present,
+		104  'primer pair (60%AT) 6, locus 6' / band_is_absent band_is_present,
+		105  'primer pair (60%AT) 6, locus 7' / band_is_absent band_is_present,
+		106  'primer pair (60%AT) 6, locus 8' / band_is_absent band_is_present,
+		107  'primer pair (60%AT) 6, locus 9' / band_is_absent band_is_present,
+		108  'primer pair (60%AT) 6, locus 10' / band_is_absent band_is_present,
+		109  'primer pair (60%AT) 6, locus 11' / band_is_absent band_is_present,
+		110  'primer pair (60%AT) 6, locus 12' / band_is_absent band_is_present,
+		111  'primer pair (60%AT) 6, locus 13' / band_is_absent band_is_present,
+		112  'primer pair (60%AT) 6, locus 14' / band_is_absent band_is_present,
+		113  'primer pair (60%AT) 6, locus 15' / band_is_absent band_is_present,
+		114  'primer pair (60%AT) 6, locus 16' / band_is_absent band_is_present,
+		115  'primer pair (60%AT) 6, locus 17' / band_is_absent band_is_present,
+		116  'primer pair (60%AT) 6, locus 18' / band_is_absent band_is_present,
+		117  'primer pair (60%AT) 6, locus 19' / band_is_absent band_is_present,
+		118  'primer pair (60%AT) 6, locus 20' / band_is_absent band_is_present,
+		119  'primer pair (60%AT) 6, locus 21' / band_is_absent band_is_present,
+		120  'primer pair (60%AT) 7, locus 1' / band_is_absent band_is_present,
+		121  'primer pair (60%AT) 7, locus 2' / band_is_absent band_is_present,
+		122  'primer pair (60%AT) 7, locus 3' / band_is_absent band_is_present,
+		123  'primer pair (60%AT) 7, locus 4' / band_is_absent band_is_present,
+		124  'primer pair (60%AT) 7, locus 5' / band_is_absent band_is_present,
+		125  'primer pair (60%AT) 7, locus 6' / band_is_absent band_is_present,
+		126  'primer pair (60%AT) 7, locus 7' / band_is_absent band_is_present,
+		127  'primer pair (60%AT) 7, locus 8' / band_is_absent band_is_present,
+		128  'primer pair (60%AT) 7, locus 9' / band_is_absent band_is_present,
+		129  'primer pair (60%AT) 7, locus 10' / band_is_absent band_is_present,
+		130  'primer pair (60%AT) 7, locus 11' / band_is_absent band_is_present,
+		131  'primer pair (60%AT) 7, locus 12' / band_is_absent band_is_present,
+		132  'primer pair (60%AT) 7, locus 13' / band_is_absent band_is_present,
+		133  'primer pair (60%AT) 7, locus 14' / band_is_absent band_is_present,
+		134  'primer pair (60%AT) 7, locus 15' / band_is_absent band_is_present,
+		135  'primer pair (60%AT) 8, locus 1' / band_is_absent band_is_present,
+		136  'primer pair (60%AT) 8, locus 2' / band_is_absent band_is_present,
+		137  'primer pair (60%AT) 8, locus 3' / band_is_absent band_is_present,
+		138  'primer pair (60%AT) 8, locus 4' / band_is_absent band_is_present,
+		139  'primer pair (60%AT) 8, locus 5' / band_is_absent band_is_present,
+		140  'primer pair (60%AT) 8, locus 6' / band_is_absent band_is_present,
+		141  'primer pair (60%AT) 8, locus 7' / band_is_absent band_is_present,
+		142  'primer pair (60%AT) 8, locus 8' / band_is_absent band_is_present,
+		143  'primer pair (60%AT) 8, locus 9' / band_is_absent band_is_present,
+		144  'primer pair (60%AT) 8, locus 10' / band_is_absent band_is_present,
+		145  'primer pair (60%AT) 8, locus 11' / band_is_absent band_is_present,
+		146  'primer pair (60%AT) 8, locus 12' / band_is_absent band_is_present,
+		147  'primer pair (60%AT) 8, locus 13' / band_is_absent band_is_present,
+		148  'primer pair (60%AT) 8, locus 14' / band_is_absent band_is_present,
+		149  'primer pair (60%AT) 8, locus 15' / band_is_absent band_is_present,
+		150  'primer pair (60%AT) 8, locus 16' / band_is_absent band_is_present,
+		151  'primer pair (60%AT) 8, locus 17' / band_is_absent band_is_present,
+		152  'primer pair (60%AT) 8, locus 18' / band_is_absent band_is_present,
+		153  'primer pair (60%AT) 8, locus 19' / band_is_absent band_is_present,
+		154  'primer pair (60%AT) 8, locus 20' / band_is_absent band_is_present,
+		155  'primer pair (60%AT) 8, locus 21' / band_is_absent band_is_present,
+		156  'primer pair (60%AT) 8, locus 22' / band_is_absent band_is_present,
+		157  'primer pair (60%AT) 8, locus 23' / band_is_absent band_is_present,
+		158  'primer pair (60%AT) 8, locus 24' / band_is_absent band_is_present,
+		159  'primer pair (60%AT) 8, locus 25' / band_is_absent band_is_present,
+		160  'primer pair (40%AT) 9, locus 1' / band_is_absent band_is_present,
+		161  'primer pair (40%AT) 9, locus 2' / band_is_absent band_is_present,
+		162  'primer pair (40%AT) 9, locus 3' / band_is_absent band_is_present,
+		163  'primer pair (40%AT) 9, locus 4' / band_is_absent band_is_present,
+		164  'primer pair (40%AT) 9, locus 5' / band_is_absent band_is_present,
+		165  'primer pair (40%AT) 9, locus 6' / band_is_absent band_is_present,
+		166  'primer pair (40%AT) 9, locus 7' / band_is_absent band_is_present,
+		167  'primer pair (40%AT) 9, locus 8' / band_is_absent band_is_present,
+		168  'primer pair (40%AT) 9, locus 9' / band_is_absent band_is_present,
+		169  'primer pair (40%AT) 9, locus 10' / band_is_absent band_is_present,
+		170  'primer pair (40%AT) 9, locus 11' / band_is_absent band_is_present,
+		171  'primer pair (40%AT) 9, locus 12' / band_is_absent band_is_present,
+		172  'primer pair (40%AT) 9, locus 13' / band_is_absent band_is_present,
+		173  'primer pair (40%AT) 9, locus 14' / band_is_absent band_is_present,
+		174  'primer pair (40%AT) 9, locus 15' / band_is_absent band_is_present,
+		175  'primer pair (40%AT) 9, locus 16' / band_is_absent band_is_present,
+		176  'primer pair (40%AT) 9, locus 17' / band_is_absent band_is_present,
+		177  'primer pair (40%AT) 9, locus 18' / band_is_absent band_is_present,
+		178  'primer pair (40%AT) 9, locus 19' / band_is_absent band_is_present,
+		179  'primer pair (40%AT) 9, locus 20' / band_is_absent band_is_present,
+		180  'primer pair (40%AT) 9, locus 21' / band_is_absent band_is_present,
+		181  'primer pair (40%AT) 9, locus 22' / band_is_absent band_is_present,
+		182  'primer pair (40%AT) 9, locus 23' / band_is_absent band_is_present,
+		183  'primer pair (40%AT) 9, locus 24' / band_is_absent band_is_present,
+		184  'primer pair (40%AT) 9, locus 25' / band_is_absent band_is_present,
+		185  'primer pair (40%AT) 9, locus 26' / band_is_absent band_is_present,
+		186  'primer pair (40%AT) 9, locus 27' / band_is_absent band_is_present,
+		187  'primer pair (40%AT) 9, locus 28' / band_is_absent band_is_present,
+		188  'primer pair (40%AT) 9, locus 29' / band_is_absent band_is_present,
+		189  'primer pair (40%AT) 10, locus 1' / band_is_absent band_is_present,
+		190  'primer pair (40%AT) 10, locus 2' / band_is_absent band_is_present,
+		191  'primer pair (40%AT) 10, locus 3' / band_is_absent band_is_present,
+		192  'primer pair (40%AT) 10, locus 4' / band_is_absent band_is_present,
+		193  'primer pair (40%AT) 10, locus 5' / band_is_absent band_is_present,
+		194  'primer pair (40%AT) 10, locus 6' / band_is_absent band_is_present,
+		195  'primer pair (40%AT) 10, locus 7' / band_is_absent band_is_present,
+		196  'primer pair (40%AT) 10, locus 8' / band_is_absent band_is_present,
+		197  'primer pair (40%AT) 10, locus 9' / band_is_absent band_is_present,
+		198  'primer pair (40%AT) 10, locus 10' / band_is_absent band_is_present,
+		199  'primer pair (40%AT) 10, locus 11' / band_is_absent band_is_present,
+		200  'primer pair (40%AT) 10, locus 12' / band_is_absent band_is_present,
+		201  'primer pair (40%AT) 10, locus 13' / band_is_absent band_is_present,
+		202  'primer pair (40%AT) 10, locus 14' / band_is_absent band_is_present,
+		203  'primer pair (40%AT) 10, locus 15' / band_is_absent band_is_present,
+		204  'primer pair (40%AT) 10, locus 16' / band_is_absent band_is_present,
+		205  'primer pair (40%AT) 10, locus 17' / band_is_absent band_is_present,
+		206  'primer pair (40%AT) 10, locus 18' / band_is_absent band_is_present,
+		207  'primer pair (40%AT) 10, locus 19' / band_is_absent band_is_present,
+		208  'primer pair (40%AT) 11, locus 1' / band_is_absent band_is_present,
+		209  'primer pair (40%AT) 11, locus 2' / band_is_absent band_is_present,
+		210  'primer pair (40%AT) 11, locus 3' / band_is_absent band_is_present,
+		211  'primer pair (40%AT) 11, locus 4' / band_is_absent band_is_present,
+		212  'primer pair (40%AT) 11, locus 5' / band_is_absent band_is_present,
+		213  'primer pair (40%AT) 11, locus 6' / band_is_absent band_is_present,
+		214  'primer pair (40%AT) 11, locus 7' / band_is_absent band_is_present,
+		215  'primer pair (40%AT) 11, locus 8' / band_is_absent band_is_present,
+		216  'primer pair (40%AT) 11, locus 9' / band_is_absent band_is_present,
+		217  'primer pair (40%AT) 11, locus 10' / band_is_absent band_is_present,
+		218  'primer pair (40%AT) 11, locus 11' / band_is_absent band_is_present,
+		219  'primer pair (40%AT) 11, locus 12' / band_is_absent band_is_present,
+		220  'primer pair (40%AT) 11, locus 13' / band_is_absent band_is_present,
+		221  'primer pair (40%AT) 11, locus 14' / band_is_absent band_is_present,
+		222  'primer pair (40%AT) 12, locus 1' / band_is_absent band_is_present,
+		223  'primer pair (40%AT) 12, locus 2' / band_is_absent band_is_present,
+		224  'primer pair (40%AT) 12, locus 3' / band_is_absent band_is_present,
+		225  'primer pair (40%AT) 12, locus 4' / band_is_absent band_is_present,
+		226  'primer pair (40%AT) 12, locus 5' / band_is_absent band_is_present,
+		227  'primer pair (40%AT) 12, locus 6' / band_is_absent band_is_present,
+		228  'primer pair (40%AT) 12, locus 7' / band_is_absent band_is_present,
+		229  'primer pair (40%AT) 12, locus 8' / band_is_absent band_is_present,
+		230  'primer pair (40%AT) 12, locus 9' / band_is_absent band_is_present,
+		231  'primer pair (40%AT) 12, locus 10' / band_is_absent band_is_present,
+		232  'primer pair (40%AT) 12, locus 11' / band_is_absent band_is_present,
+		233  'primer pair (40%AT) 12, locus 12' / band_is_absent band_is_present,
+		234  'primer pair (40%AT) 12, locus 13' / band_is_absent band_is_present,
+		235  'primer pair (40%AT) 12, locus 14' / band_is_absent band_is_present,
+		236  'primer pair (40%AT) 12, locus 15' / band_is_absent band_is_present,
+		237  'primer pair (40%AT) 12, locus 16' / band_is_absent band_is_present,
+		238  'primer pair (40%AT) 12, locus 17' / band_is_absent band_is_present,
+		239  'primer pair (40%AT) 12, locus 18' / band_is_absent band_is_present,
+		240  'primer pair (40%AT) 12, locus 19' / band_is_absent band_is_present,
+		241  'primer pair (40%AT) 12, locus 20' / band_is_absent band_is_present,
+		242  'primer pair (40%AT) 12, locus 21' / band_is_absent band_is_present,
+		243  'primer pair (80%AT) 13, locus 1' / band_is_absent band_is_present,
+		244  'primer pair (80%AT) 13, locus 2' / band_is_absent band_is_present,
+		245  'primer pair (80%AT) 13, locus 3' / band_is_absent band_is_present,
+		246  'primer pair (80%AT) 13, locus 4' / band_is_absent band_is_present,
+		247  'primer pair (80%AT) 13, locus 5' / band_is_absent band_is_present,
+		248  'primer pair (80%AT) 13, locus 6' / band_is_absent band_is_present,
+		249  'primer pair (80%AT) 13, locus 7' / band_is_absent band_is_present,
+		250  'primer pair (80%AT) 13, locus 8' / band_is_absent band_is_present,
+		251  'primer pair (80%AT) 13, locus 9' / band_is_absent band_is_present,
+		252  'primer pair (80%AT) 13, locus 10' / band_is_absent band_is_present,
+		253  'primer pair (80%AT) 13, locus 11' / band_is_absent band_is_present,
+		254  'primer pair (80%AT) 13, locus 12' / band_is_absent band_is_present,
+		255  'primer pair (80%AT) 13, locus 13' / band_is_absent band_is_present,
+		256  'primer pair (80%AT) 13, locus 14' / band_is_absent band_is_present,
+		257  'primer pair (80%AT) 13, locus 15' / band_is_absent band_is_present,
+		258  'primer pair (80%AT) 13, locus 16' / band_is_absent band_is_present,
+		259  'primer pair (80%AT) 13, locus 17' / band_is_absent band_is_present,
+		260  'primer pair (80%AT) 13, locus 18' / band_is_absent band_is_present,
+		261  'primer pair (80%AT) 13, locus 19' / band_is_absent band_is_present,
+		262  'primer pair (80%AT) 13, locus 20' / band_is_absent band_is_present,
+		263  'primer pair (80%AT) 13, locus 21' / band_is_absent band_is_present,
+		264  'primer pair (80%AT) 13, locus 22' / band_is_absent band_is_present,
+		265  'primer pair (80%AT) 13, locus 23' / band_is_absent band_is_present,
+		266  'primer pair (60%AT) 14, locus 1' / band_is_absent band_is_present,
+		267  'primer pair (60%AT) 14, locus 2' / band_is_absent band_is_present,
+		268  'primer pair (60%AT) 14, locus 3' / band_is_absent band_is_present,
+		269  'primer pair (60%AT) 14, locus 4' / band_is_absent band_is_present,
+		270  'primer pair (60%AT) 14, locus 5' / band_is_absent band_is_present,
+		271  'primer pair (60%AT) 14, locus 6' / band_is_absent band_is_present,
+		272  'primer pair (60%AT) 14, locus 7' / band_is_absent band_is_present,
+		273  'primer pair (60%AT) 14, locus 8' / band_is_absent band_is_present,
+		274  'primer pair (60%AT) 14, locus 9' / band_is_absent band_is_present,
+		275  'primer pair (60%AT) 14, locus 10' / band_is_absent band_is_present,
+		276  'primer pair (60%AT) 14, locus 11' / band_is_absent band_is_present,
+		277  'primer pair (60%AT) 14, locus 12' / band_is_absent band_is_present,
+		278  'primer pair (60%AT) 14, locus 13' / band_is_absent band_is_present,
+		279  'primer pair (60%AT) 14, locus 14' / band_is_absent band_is_present,
+		280  'primer pair (60%AT) 14, locus 15' / band_is_absent band_is_present,
+		281  'primer pair (60%AT) 14, locus 16' / band_is_absent band_is_present,
+		282  'primer pair (60%AT) 14, locus 17' / band_is_absent band_is_present,
+		283  'primer pair (60%AT) 14, locus 18' / band_is_absent band_is_present,
+		284  'primer pair (60%AT) 14, locus 19' / band_is_absent band_is_present,
+		285  'primer pair (60%AT) 14, locus 20' / band_is_absent band_is_present,
+		286  'primer pair (60%AT) 14, locus 21' / band_is_absent band_is_present,
+		287  'primer pair (60%AT) 14, locus 22' / band_is_absent band_is_present,
+		288  'primer pair (60%AT) 14, locus 23' / band_is_absent band_is_present,
+		289  'primer pair (60%AT) 14, locus 24' / band_is_absent band_is_present,
+		290  'primer pair (40%AT) 15, locus 1' / band_is_absent band_is_present,
+		291  'primer pair (40%AT) 15, locus 2' / band_is_absent band_is_present,
+		292  'primer pair (40%AT) 15, locus 3' / band_is_absent band_is_present,
+		293  'primer pair (40%AT) 15, locus 4' / band_is_absent band_is_present,
+		294  'primer pair (40%AT) 15, locus 5' / band_is_absent band_is_present,
+		295  'primer pair (40%AT) 15, locus 6' / band_is_absent band_is_present,
+		296  'primer pair (40%AT) 15, locus 7' / band_is_absent band_is_present,
+		297  'primer pair (40%AT) 15, locus 8' / band_is_absent band_is_present,
+		298  'primer pair (40%AT) 15, locus 9' / band_is_absent band_is_present,
+		299  'primer pair (40%AT) 15, locus 10' / band_is_absent band_is_present,
+		300  'primer pair (40%AT) 15, locus 11' / band_is_absent band_is_present,
+		301  'primer pair (40%AT) 15, locus 12' / band_is_absent band_is_present,
+		302  'primer pair (40%AT) 15, locus 13' / band_is_absent band_is_present,
+		303  'primer pair (40%AT) 15, locus 14' / band_is_absent band_is_present,
+		304  'primer pair (40%AT) 15, locus 15' / band_is_absent band_is_present,
+		305  'primer pair (40%AT) 15, locus 16' / band_is_absent band_is_present,
+		306  'primer pair (40%AT) 15, locus 17' / band_is_absent band_is_present,
+		307  'primer pair (40%AT) 15, locus 18' / band_is_absent band_is_present,
+		308  'primer pair (40%AT) 15, locus 19' / band_is_absent band_is_present,
+		309  'primer pair (40%AT) 15, locus 20' / band_is_absent band_is_present,
+		310  'primer pair (40%AT) 15, locus 21' / band_is_absent band_is_present,
+		311  'primer pair (40%AT) 15, locus 22' / band_is_absent band_is_present,
+		312  'primer pair (40%AT) 15, locus 23' / band_is_absent band_is_present,
+		;
+
+MATRIX
+[                                           10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170       180       190       200       210       220       230       240       250       260       270       280       290       300       310  ]
+[                                            .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .  ]
+Macrophomina_phaseolina_iso_1       11010111011010100000100111011101110110010001110111100100000011110101001100000001011010001000000000010111110111000000010100010111100110011110?0000000?????1?????111010000000101000001110010111101111111110010000011110100111001011001000111100100000101110001000101000000000001100010010110100101001110010111011100010000
+Macrophomina_phaseolina_iso_105     100000000100??1001001000110101010101001101010100011000000001010100010000001001100110100101000010001100111000111100000101000100000100000100010000010000011111010110010000000001000000100000111001000011110000000010110000110101000?11000111000100001110111001010010000000000010000011010010000000001010000111010010110100
+Macrophomina_phaseolina_iso_11      10010100011010100001110011011101000100001001110001000001010000011101010010001010111110000100000100110011110001000000100110010011100000010100?0000000?????1?????101010000011101000000000100111001001011110000000011110011110001000101000111000100010000111011000010000000000000000011010010100001000010010111110110010000
+Macrophomina_phaseolina_iso_117     100101010110101000101000110111010101000100010110111000001001110110010000000001100101100000000000000100110101111000000101100101?11000100101000000001001111111111111010010000101000010100010111111100111110001010011110100110101010001000111100101101100101001000000010001000000000111010010100101001010000111010011010000
+Macrophomina_phaseolina_iso_12      11010111011010100000100111011101110110010001110111100100000011110101001100000011011010001000000000010111110111000000010110010111100110011110?0000000?????1?????111010000000101000001110010111101111111110000000011110100111001011001000111110100000101110001000101000000000001100010010110100101001110010111011100010000
+Macrophomina_phaseolina_iso_18      11010111011010100000100111011101110110010001110111100100000011110101001100000?????????????????????010111110111000000010110010111100110011110?0000000?????1?????111010000000101000001110010111101111111110000000011110100111001011001000111110000000101110001000101000000000001100010010110100101001110010111011100010000
+Macrophomina_phaseolina_iso_24      10010101011010100000100011011101010100010001111011100000000111010001000000000110010110000000000000010001010111100000010110010101100010010100?0000000?????1?????111010010000101000010100010111111?00111110001010011110100110101010001000111100101101100101001000000010001000000000011010010100101001010000111010011010000
+Macrophomina_phaseolina_iso_40      100001101110101000001000110101010001001010010101010000010000010111010000000010101111100000000010001100111100010000000001100100011000010101001001000000001110010111010000001101000001000000111001?000111100101?0011110000110001000101000111000100100110111001001000000000001100000011010001110101000110010111010110010000
+Macrophomina_phaseolina_iso_43      100001000101101000001001110101010101010000010?011100000010010101000100100000011001101000000100000001010111010110000100010001001010000001000000000001000111111001111100000011010001001000001111000000111100000000000100?011010100000100011100011010110011100100110000000000000000001101000?100010001010001111010100010000
+Macrophomina_phaseolina_iso_53      10010101011010100000100011011101010100000000000001001000000100011001001000000110010110001100101000010011010111010000100110010111100010010000?0000000?????1?????111010000000101010001100011111111100101110000010011010100110101010001000110100010000000100001000010000000000000001111010010100101001010001111010001010000
+Macrophomina_phaseolina_iso_54      1101011001101010000010001101110111011001000111011110010000001111010100110000001101101000100000000001011111011100000001011001011110011001101000000000111111111111110100000001010000011100101111011111111100000000111101001110010110010001111101000001011100010001010000000????????????????????????01110010111011100010000
+Macrophomina_phaseolina_iso_64      110101100110101000001001110111011101100100011101111001000000111101010011000000110110100010000000000101111101110000000101000101111001100111100000000011111111111111010000000101000001110010111101111111110000000011110100111001011001000111110100100101110001000101000000000001100010010110100101001110010111011100010000
+Macrophomina_phaseolina_iso_65      10010101?1101010000010001101100101010001000101011110000110001101010100000000001001101000001001000001001111011110000001010001010110011?0101001000000010111111110111010000000101000001110011111101?10111110001000010010100110101010001000111100101000100110001000010001100000000000011010010100101001010000111011010010000
+Macrophomina_phaseolina_iso_67      110101000110011110001010001101?100111?0000110000111100100010000000110000010010000100101010000101000110000010000101100011010110000100001000010111100000010101000010010101100111101100101000100000100010111100101001001000100000100001111101001100000000000101000000100000110000010010101000101000110001110011010000111111
+Macrophomina_phaseolina_iso_70      100101010110101000101000110111010101000100010000111010001001000110010010000001100101100011001010001100010101110?00000101100101111000100100000000000001101111111111010000000101010001100011111111100101110000010011110000110101010001000110100010101110101001000110000000000000000111010011100101000010001111010001010000
+Macrophomina_phaseolina_iso_73      11010110011010100000100111011101110110010001110111100100000011110101001100000011001010001000000000010111110111000000010110010111100110011100000000001111111111111101000000010100000111001011110111111111000000001111010011100101100100011111010000010111000100010?000000000001100010010110100101001110010111011100010000
+Macrophomina_phaseolina_iso_77      100101000110101000001000110101010001101110010100010000011100010111011100000010100111110001000000000100110100010?00000101100100011001000101001000000000001110010101010000011101000001000?011110011001111100100000110100111100010001010001110001000?0100111001100010000000000000000011010000100101001010010111110110010000
+Macrophomina_phaseolina_iso_8       100101010110101000001000110111010101000100011100111000000001010110010000000001100101100000000000010100110101111000000101001100001000000100000000000101001111111110010010000001000000100010111111010011110000000010110100110101010001000111100101101100100001000000010011000000000011010110000000001010000111011011010000
+Macrophomina_phaseolina_iso_84      100101000110101000011100110111010001001110011100010000010100000111011100100010100111110001000000001100111100010000001001100100011000000101001000000000011110010101010000011101000?00000100111001101011110010000011110011110001000001000111000101010000111011100010000000000000000011010010100101000010010111110110110000
+Macrophomina_phaseolina_iso_87      100100010110101000101000110111010101000100010100111000001001010111010000000001100111100001000000000100110101111100000101100101111001100101000000001001111111111111010010000001000010100011111111110111110000010011110100110111000001000111110101001100111001000010010001000000000111010010100101001010000111011011010000
+Macrophomina_phaseolina_iso_91      110111100110101000?0100111011101110110010001?1011110010010000111010100110000001101101000100000000001011?11011100000001011001011110011001111000000000111111111111110100000001010000011100111111011111111100000100111101001110010110010001111101000001011100010001010000000????10??11001???????????01110010111011100010000
+Macrophomina_phaseolina_iso_92      1011010001000111100010100011001100010001000100001111000000?0000000110?00010100000000101000000001100110010011100010100001010100000110001000011111100010010101000010011101100111101100100000100000100010111100101101101000100000101101111101001000000000000101000000100100110000010010101000001001010101100011010110011011
+Macrophomina_phaseolina_iso_94      110100100110101000001001110111011101100100011101111001000000011101010011000000110110100010000000000101111101110000000101100101111001100111000000000010111111111111010000000101000001110010111101111111110000000011110100111001000001000111110100000101110001000101000000000001100110010110100101001110010111011100010000
+Macrophomina_phaseolina_iso_96      00110110011001111000101000110011000110010011000011110000000010000011000001000000000010100000?00100011000000110010110001101011000010100100001011100001011010100001001010110011110110010100010000000011011110010110100?000100000101001111101101100000000000101000000100100110000010010101000101000110101100011010000011011
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb5710;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Macrophomina_phaseolina_iso_1,
+            2    Macrophomina_phaseolina_iso_11,
+            3    Macrophomina_phaseolina_iso_12,
+            4    Macrophomina_phaseolina_iso_18,
+            5    Macrophomina_phaseolina_iso_24,
+            6    Macrophomina_phaseolina_iso_53,
+            7    Macrophomina_phaseolina_iso_54,
+            8    Macrophomina_phaseolina_iso_64,
+            9    Macrophomina_phaseolina_iso_65,
+            10   Macrophomina_phaseolina_iso_67,
+            11   Macrophomina_phaseolina_iso_73,
+            12   Macrophomina_phaseolina_iso_84,
+            13   Macrophomina_phaseolina_iso_91,
+            14   Macrophomina_phaseolina_iso_92,
+            15   Macrophomina_phaseolina_iso_94,
+            16   Macrophomina_phaseolina_iso_117,
+            17   Macrophomina_phaseolina_iso_70,
+            18   Macrophomina_phaseolina_iso_40,
+            19   Macrophomina_phaseolina_iso_77,
+            20   Macrophomina_phaseolina_iso_87,
+            21   Macrophomina_phaseolina_iso_96,
+            22   Macrophomina_phaseolina_iso_8,
+            23   Macrophomina_phaseolina_iso_43,
+            24   Macrophomina_phaseolina_iso_105;
+      TREE Fig._4 = [&R] (((((((((16,5),20),22),9),(17,6)),(((((((4,3),11),8),7),1),15),13)),(((12,2),19),18)),(24,23)),((21,10),14));
+
+
+
+END;

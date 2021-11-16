@@ -1,0 +1,84 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:36 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Kenrick P., & Crane P. 1991. Water-conducting cells in early fossil land plants:
+Implications for the early evolution of tracheophytes. Botanical Gazette, 152(3):
+335-356.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S102]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=12;
+        TAXLABELS
+            Aglaophyton
+            Coleochaete
+            Cooksonia_pertoni
+            Huvenia
+            Nothia
+            Rhynia
+            Stockmansella
+            hornworts
+            liverworts
+            lycophyte_clade
+            mosses
+            nonlycophyte_clade
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M1394]
+
+	TITLE Table_2;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=29;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2" MISSING=? GAP= -;
+
+MATRIX
+[                              10        20         ]
+[                               .         .         ]
+Aglaophyton            1?1????1?1111100000000?000000
+Coleochaete            000000?0000000000000000000000
+Cooksonia_pertoni      ??1????1???1??00000000?000000
+Huvenia                ?????????11111000011111001010
+Nothia                 1?1????1?1111?00100000?000000
+Rhynia                 ??1????1???1?1000011111001010
+Stockmansella          ??1????1???1?100001?111001010
+hornworts              11111111000000000000000000000
+liverworts             11111100000000000000000000000
+lycophyte_clade        11111111111121001100011110100
+mosses                 11111111111000000000000000000
+nonlycophyte_clade     111??111110121110000011110001
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb4821;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Coleochaete,
+            2    liverworts,
+            3    hornworts,
+            4    mosses,
+            5    Cooksonia_pertoni,
+            6    Nothia,
+            7    Aglaophyton,
+            8    Rhynia,
+            9    Stockmansella,
+            10   Huvenia,
+            11   lycophyte_clade,
+            12   nonlycophyte_clade;
+      TREE Fig._26_B = [&R] (2,(3,(4,(5,6,7,(8,9,10)8ceae,(11,12)))))Embryophytes;
+      TREE Fig._26_C = [&R] (2,(3,(4,(5,6,7,(8,9,10)8ceae,11,12))))Embryophytes;
+      TREE Fig._26_A = [&R] (2,(3,(4,(5,6,7,((8,9,10)8ceae,(11,12)Eutracheophytes)Tracheophytes)Polysporangiophytes))Stomatophytes)Embryophytes;
+
+
+
+END;

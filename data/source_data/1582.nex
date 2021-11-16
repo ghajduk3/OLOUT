@@ -1,0 +1,206 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:49 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Smith V. 1999. Basal ischnoceran louse phylogeny (Phthiraptera: Ischnocera: Goniodidae
+and Heptapsogasteridae). Systematic Entomology, 25(1): 73-94.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S408]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=31;
+        TAXLABELS
+            Auricotes_meinertzhageni
+            Austrokelloggia_intermedia
+            Campanulotes_bidentatus
+            Chelopistes_meleagridis
+            Coloceras_damicorne
+            Cuclotocephalus_secundus
+            Discocorpus_c.cephalosus
+            Goniocotes_gallinae
+            Goniodes_pavonis
+            Heptapsogaster_mandibularis
+            Kelloggia_brevipes
+            Kodocephalon_suborbiculatus
+            Labicotes_kourii
+            Lamprocorpus_hirsutus
+            Megaginus_e.emarginatus
+            Megapeostus_asymmetricus
+            Nitzschiella_castroi
+            Nitzschielloides_campanulatus
+            Nothocotus_parvithorax
+            Ornicholax_alienus
+            Pachyskelotes_orthopleurus
+            Passonomedea_hopkinsi
+            Patellinirmus_novaeseelandiae
+            Pectenosoma_v.verrucosa
+            Physconella_kelloggi
+            Physconelloides_ceratoceps
+            Pterocotes_aberrans
+            Rhoplacoceras_carrikeri
+            Stephanius_affinis
+            Strongylocotes_complanatus
+            Trichodopeostus_spinosus
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M2121]
+
+	TITLE ;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=62;
+	FORMAT DATATYPE=Standard SYMBOLS= "1 2 3 4" MISSING=? GAP= -;
+	CHARSTATELABELS
+		1  frons_shape / broadly_convex narrowly_convex more_or_less_flat,
+		2  m.c._width / very_thin medium_to_thick laterally_thickened_but_absent,
+		3  indentations_in_m.c._internal / indentations_absent_or_poorly 'present and deep (well develop',
+		4  nodi_emanating_from_m.c._betwe / absent present,
+		5  'nodus number (if applicable) b' / single_nodus single_pair double_pair triple_pair,
+		6  preantennal_nodus_size / very_small enlarged,
+		7  preantennal_nodus_shape / 'distinctly bulbous (constricte' not_bulbous,
+		8  medial_dorsal_suture_in_preant / absent present,
+		9  ventral_carina / 'indistinct, developed greatest' forms_a_complete_arc_which_is forms_two_separate_unfused_str,
+		10  male_antennae / monomorphic heteromorphic,
+		11  scape / smaller_than_pedicel_or_of_a_s significantly_larger_than_pedi,
+		12  excrescence_on_the_lateral_mar / absent present,
+		13  F.1_shape / 'unmodified (neither curved or' 'gently curved (not club shaped' 'club shaped (expanded at the d',
+		14  subterminal_attachment_of_F._I / absent present,
+		15  apical_compression_of_F._II_an / absent present,
+		16  temple_margins / rounded 'angular (not projecting signif' 'pointed (projecting significan',
+		17  temporal_carina / absent_or_not_apparent temporal_carina_initiated_from 'present as a thickened band (n',
+		18  'ocular seta (o.s)' / a_micro_thorny_seta_or_very_sh 'short to medium length (normal' 'thick and long (well developed',
+		19  'preocular seta (p.o.s.)' / 'thorny seta (micro or macro)' not_thorny,
+		20  MTS_1_and_MTS_3 / both_macro_setae one_or_both_not_macro_setae,
+		21  MTS_2 / absent present,
+		22  MTS_2_condition / micro_seta 'well developed thorny, normal',
+		23  MTS_4_condition / absent present_at_least_as_a_normal_s,
+		24  'post temporal setae (p.t.s.) <' / absent present,
+		25  pterothoracic_lateral_margins / more_or_less_smooth_or_slightl distinctly_serrated_edge,
+		26  ventral_pterothoracic_setae_in / absent present,
+		27  two_distinct_setal_pairs_both / absent 'present (must be clearly paire',
+		28  intermediate_to_median_setae_o / greatly_reduced_or_absent 'well developed (normal to macr',
+		29  pterothorax_and_abdominal_segm / completely_separate medially_fused completely_fused,
+		30  mesofural_pit / small_and_poorly_developed 'large and well developed (usua',
+		31  abdominal_segment_II / not_deeply_embedded_within_abd deeply_embedded_within_abdomin,
+		32  abdominal_segment_II_margin / completely_enclosed_by_pteroth partially_enclosed_by_pterotho,
+		33  medial_division_of_abdominal_s / 'absent (complete)' 'present (bi-lobed)',
+		34  abdominal_segment_II_size / little_changed_in_size_when_co considerably_smaller_when_comp,
+		35  abdominal_segment_II_and_III / completely_separate partially_or_completely_fused,
+		36  abdominal_segments_II_and_III / smooth covered_in_small_pits,
+		37  setae_on_the_posterior_lateral / one_pair two_pairs more_than_two_pairs absent,
+		38  'single postero-lateral setae,' / short_thin_spine_not_significa well_developed,
+		39  'two postero-lateral setae, bot' / outer_setal_pair_larger_than_i inner_setal_pair_larger_than_o both_setae_of_roughly_equal_si,
+		40  male_intermediate_turgal_setae / absent present,
+		41  setal_number_on_the_posterior / one_pair two_pairs more_than_two_pairs,
+		42  tergoplurites / fused_medially broken_medially,
+		43  tergoplurites_broken_medially / separated_by_a_narrow_gap separated_by_a_wide_gap,
+		44  Small_dorsal_pits_on_cuticular / absent present,
+		45  polygonal_marks_over_the_cutic / absent 'very faint, confined to the la' 'distinct, present over the plu',
+		46  male_setal_type_down_the_colum / 'homogeneous (same setal type e' 'heterogeneous (different setal',
+		47  column_of_intermediate_sternal / absent_or_incomplete present_at_least_over_segments,
+		48  Intermediate_to_submedian_terg / absent present_at_least_on_abdominal,
+		49  additional_setae_on_the_ventra / absent present,
+		50  male_abdominal_segment_IX / not_extending_prominently_beyo 'composed of a prominent lobe (',
+		51  weakly_bilobed_setal_bearing_p / absent present,
+		52  single_pair_of_sclerites_later / absent 'present (may be greatly expand',
+		53  discrete_setal_bearing_lobes_o / absent weakly_developed prominent greatly_modified,
+		54  vulval_margin / setal_fringe_absent fringed_by_one_or_more_rows_of,
+		55  vulval_margin_setal_fringe_num / single double,
+		56  additional_setae_on_the_latera / absent present,
+		57  lateral_edge_vulval_margin_set / patch_or_row_of_normal_to_micr two_or_three,
+		58  male_external_genitalia_length / does_not_protrude_into_abdomin extends_into_the_abdomen_at_le,
+		59  basal_apodeme_lateral_strut_sc / thickly_sclerotized_leaving_a thickly_sclerotized_leaving_a thinly_sclerotized_leaving_a_w thinly_sclerotized_leaving_a_n,
+		60  male_external_genitalia / 'simple, principly composed of' 'complex, composed of a basal a',
+		61  genital_sac_sclerotisation / not_visible lightly_sclerotised heavily_sclerotised,
+		62  genital_sac_sclerites / small_roughly_circular_sclerit medium_to_large_irregularly_sh,
+		;
+
+MATRIX
+[                                         10        20        30        40        50        60  ]
+[                                          .         .         .         .         .         .  ]
+Auricotes_meinertzhageni          1221-21121-----221111-1111211212111111-1122111111222121??2411-
+Austrokelloggia_intermedia        2212222121-----2122222221111112122122-122222111111113221-2121-
+Campanulotes_bidentatus           1211-22121-----21311211111211212111111-2222111111222121222411-
+Chelopistes_meleagridis           1211-22222221213122221221221121211113--23221112222211211-1?21-
+Coloceras_damicorne               1211-222221131221211211111211212111111-222211121222111?2222132
+Cuclotocephalus_secundus          2211-12121-----113212122121-3122121112-13211122121111211-1121-
+Discocorpus_c.cephalosus          1311-21211-----111212222121-2122121112-221-1312121111211-1121-
+Goniocotes_gallinae               1211-21121-----22111212211211212111111-21221121112221211-2411-
+Goniodes_pavonis                  1211-222222222122221212212221212111111-212211122212111-212221-
+Heptapsogaster_mandibularis       121242121221121311222222221-2122121112-21211322121111211-1121-
+Kelloggia_brevipes                2211-22121-----2122222221111112122122-122222111111113221-1121-
+Kodocephalon_suborbiculatus       1221-222222111122221212111211212111111-11221111112211221-24232
+Labicotes_kourii                  1111-21?2??????21122222112211212111112-112111?111????211-?????
+Lamprocorpus_hirsutus             121242121221321311222222221-2122121112-211-1312121111211-1121-
+Megaginus_e.emarginatus           2211-21111-----111212122121-3122121112-221-1112121111??1-1121-
+Megapeostus_asymmetricus          121222121221121331222222221-2122122112-211-1312121111????1121-
+Nitzschiella_castroi              1211-2212211312211111-111121121211112-3?22211?21122211?2224122
+Nitzschielloides_campanulatus     1211-22121-----211111-111121121211112-322221112112221212224122
+Nothocotus_parvithorax            221231211221321212212222121-3122121111-121-1122121111211-1121-
+Ornicholax_alienus                2211-22121-----2122222221111122122122-122222111111113221-1121-
+Pachyskelotes_orthopleurus        1111-122222222121111212212221212111111-112211?1112211221-22221
+Passonomedea_hopkinsi             1111-12222212212121121221222121211114--23221112222211212122221
+Patellinirmus_novaeseelandiae     1211-22221-----21211212111211212111111-21221111211111212223132
+Pectenosoma_v.verrucosa           1211-21111-----111222222221-212212112-2222213111111111-1-1121-
+Physconella_kelloggi              3211-2212221121113112222121-1121122111-11211121111113211-1321-
+Physconelloides_ceratoceps        1221-22121-----231111-1111211212111111-222211111122211?222411-
+Pterocotes_aberrans               121222121221221313222222221-2122122112-231-1312221111----1121-
+Rhoplacoceras_carrikeri           1111-22222211112112221221211221211213--131-1212222121----2121-
+Stephanius_affinis                1221-22121-----22211212211211212111111-21221112212221221-2?11-
+Strongylocotes_complanatus        2212122121-----2311222221111122122112-12322212111111421212121-
+Trichodopeostus_spinosus          1211-2112221121311222222221-2222121111-221-1212121222211-2411-
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb5281;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Discocorpus_c.cephalosus,
+            2    Heptapsogaster_mandibularis,
+            3    Lamprocorpus_hirsutus,
+            4    Megapeostus_asymmetricus,
+            5    Pectenosoma_v.verrucosa,
+            6    Pterocotes_aberrans,
+            7    Rhoplacoceras_carrikeri,
+            8    Trichodopeostus_spinosus,
+            9    Cuclotocephalus_secundus,
+            10   Megaginus_e.emarginatus,
+            11   Nothocotus_parvithorax,
+            12   Physconella_kelloggi,
+            13   Austrokelloggia_intermedia,
+            14   Kelloggia_brevipes,
+            15   Ornicholax_alienus,
+            16   Strongylocotes_complanatus,
+            17   Chelopistes_meleagridis,
+            18   Auricotes_meinertzhageni,
+            19   Goniocotes_gallinae,
+            20   Goniodes_pavonis,
+            21   Passonomedea_hopkinsi,
+            22   Pachyskelotes_orthopleurus,
+            23   Patellinirmus_novaeseelandiae,
+            24   Stephanius_affinis,
+            25   Kodocephalon_suborbiculatus,
+            26   Physconelloides_ceratoceps,
+            27   Campanulotes_bidentatus,
+            28   Nitzschiella_castroi,
+            29   Nitzschielloides_campanulatus,
+            30   Coloceras_damicorne,
+            31   Labicotes_kourii;
+      TREE Fig._13_Strict = [&R] ((((((1,(((9,(12,((13,14,15),16)Strongylocotinae)),11),10)),5),((2,3),(4,6))),8),7)Heptapsogasteridae,(17,((18,(19,24),26,27,(28,29)),23,30),20,21,22,25,31)Goniodidae);
+      TREE Fig._13_Adams = [&R] ((((((1,(((9,(12,((13,14,15),16)Strongylocotinae)),11),10)),5),((2,3),(4,6))),8),7)Heptapsogasteridae,(17,(((((18,26),(28,29)),(19,24),27),23,30),25,31),(20,21,22))Goniodidae);
+      TREE Fig._14_Island_1_Strict = [&R] ((((((1,(((9,(12,((13,14,15),16)Strongylocotinae)),11),10)),5),((2,3),(4,6))),8),7)Heptapsogasteridae,(17,((((((18,26),(28,29)),27),(19,24)),23),30),20,21,22,25,31)Goniodidae);
+      TREE Fig._14_Island_2_Strict = [&R] ((((((1,(((9,(12,((13,14,15),16)Strongylocotinae)),11),10)),5),((2,3),(4,6))),8),7)Heptapsogasteridae,(17,((((((18,(19,24)),26),(28,29)),27),30),23),20,21,22,25,31)Goniodidae);
+      TREE Fig._15_Clados_Style = [&R] (7,(8,((5,(1,(10,(11,(9,(12,(16,(13,(14,15)))Strongylocotinae)))))),((2,3),(4,6)))),((17,(20,(21,22))),(31,(25,(30,(23,((27,((18,26),(28,29))),(19,24)))))))Goniodidae);
+
+
+
+END;

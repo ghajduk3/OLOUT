@@ -1,0 +1,58 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:50 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Luteyn J. 1991. A synopsis of the genus Didonica (Ericaceae: Vaccinieae) with two
+new species. Systematic Botany, 16: 587-597.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S113]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=5;
+        TAXLABELS
+            Didonica_crassiflora
+            Didonica_panamensis
+            Didonica_pendula
+            Didonica_subsessilis
+            Outgroup_to_Didonica
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M1943]
+
+	TITLE Table_2;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=19;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2" MISSING=? GAP= -;
+
+MATRIX
+Didonica_crassiflora     0110120111100111001
+Didonica_panamensis      0000000100001000111
+Didonica_pendula         1000001000001000111
+Didonica_subsessilis     0111111111110010001
+Outgroup_to_Didonica     0000000000000000000
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb4832;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Outgroup_to_Didonica,
+            2    Didonica_subsessilis,
+            3    Didonica_crassiflora,
+            4    Didonica_panamensis,
+            5    Didonica_pendula;
+      TREE Fig._3 = [&R] ((1,((4,5),(2,3))Didonica));
+
+
+
+END;

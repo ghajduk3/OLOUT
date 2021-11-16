@@ -1,0 +1,364 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:36 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Cundall D., Wallach V., & Rossman D. 1993. The systematic relationships of the snake
+genus Anomochilus. Zoological Journal of the Linnean Society, 109: 275-299.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S373]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=18;
+        TAXLABELS
+            Acrochordidae
+            Anguimorpha
+            Aniliidae
+            Anomalepididae
+            Anomochilus
+            Boinae
+            Bolyeriidae
+            Colubroidea
+            Cylindrophiinae
+            Dibamidae
+            Erycinae
+            Leptotyphlopidae
+            Loxocemidae
+            Pythonidae
+            Tropidophiidae
+            Typhlopidae
+            Uropeltinae
+            Xenopeltidae
+            ;
+END;
+
+BEGIN TAXA;
+        TITLE  Taxa2;
+        DIMENSIONS NTAX=18;
+        TAXLABELS
+            Acrochordidae
+            Anguimorpha
+            Aniliidae
+            Anomalepididae
+            Anomochilus
+            Boinae
+            Bolyeriidae
+            Colubroidea
+            Cylindrophiinae
+            Dibamidae
+            Erycinae
+            Leptotyphlopidae
+            Loxocemidae
+            Pythonidae
+            Tropidophiidae
+            Typhlopidae
+            Uropeltinae
+            Xenopeltidae
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M2036]
+
+	TITLE Table_2;
+	LINK TAXA = Taxa2;
+	DIMENSIONS NCHAR=65;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2 3" MISSING=? GAP= -;
+	CHARSTATELABELS
+		1  Premaxilla._Articulation_to_nas / ascending_process_between_horiz transversely_expanded_ascending processus_nasalis_extends_betwe absent,
+		2  Premaxilla._Processus_nasalis / absent_or_present_as_a_keel_not well_developed_and_lying_betwee,
+		3  Premaxilla._Vomerine_process / overlaps_vomer_ventrally 'meets vomer (or septomaxilla)' does_not_meet_vomer,
+		4  Premaxilla._Teeth / present absent,
+		5  Nasals._Nasofrontal_articulatio / nasals_overlap_frontals_dorsall frontals_overlap_nasals_dorsall dorsal_surfaces_of_nasals_and_f,
+		6  Vomeronasal_cupola / fenestrated_medially not_fenestrated_medially,
+		7  Frontals._Interolfactory_pillar / absent frontal_flanges_present_unfused frontal_flanges_fused_with_no_f,
+		8  Prefrontal / Limited_to_anterior_orbital_reg sutured_between_frontal_nasal_a movably_articulated_to_frontal,
+		9  Postorbital / present absent,
+		10  Supraorbital / absent present,
+		11  Parietal._Supraorbital_process / not_enlarged enlarged_extending_along_at_lea,
+		12  Frontoparictal_suture / partially_open_potentially_mobi closed_immobile,
+		13  'Frontal-prefrontal sutures' / widely_separated_medially not_widely_separated_medially,
+		14  Prootic._Laterosphenoid / absent present_and_separating_V2_and_V,
+		15  Exoccipital._Fenestra_pseudorot / absent present,
+		16  Supratemporal / present absent,
+		17  Parasphenoid._Interchoanal_proc / absent present,
+		18  Palatine._Teeth / absent present,
+		19  Palatine._Subvomerine_process / absent present,
+		20  Choanal_process_articulation_ca / simple complex absent,
+		21  Articulation_with_maxilla / suture interlocking_joint_preventing_l simple_gliding_joint no_articulation,
+		22  Ectoptcrygoid. / Present_and_in_contact_with_bot present_but_not_in_contact_with present_but_in_contact_with_nei absent,
+		23  Pterygoid._Teeth / present absent,
+		24  Caudal_end_with_quadratoarticul / closely distantly,
+		25  Quadrate._Proximal_end / posterior_head_of_cephalic_cond no_association_of_cephalic_cond,
+		26  Quadrate._Proximal_articulation / associated_with_squamosal_and_s associated_with_supratemporal_o associated_with_otic_elements_d,
+		27  Quadrate._Position_of_proximal / 'dorsal near parietal- prooticsu' 'ventral nearer prootic-basisphe',
+		28  Maxilla._Association_with_prema / close_suture_or_schizarthrosis close_short_ligamentous_attachm loose,
+		29  Dentary._Length / greater_than_35%_of_skull less_than_35%_of_skull,
+		30  Coronoid / present_and_extending_dorsal_to present_but_not_extending absent,
+		31  Splenial._Caudal_edge / lies_anterior_to_caudal_edge_of lies_caudal_to_caudal_edge_of_d absent,
+		32  Compound_bone._Retroarticular_p / short_and_unmodified short_but_with_dorsal_spatulate long,
+		33  Stapes / associated_with_tympanum_indire associated_with_posterior_tip_o associated_with_dorsal_halfofqu associated_with_ventral_half_of,
+		34  Mandible._Length / '80-100% of skull length' less_than_80%_of_skull_length more_than_100%_of_skull_length,
+		35  'Hyoid archmedial (basihyal) and' / _elements_present all_lateral_elements_lost medial_and_lateral_elements_los,
+		36  Median_basihyal_element / present_in_adult_uniting_cornua absent_in_adult_cornua_separate,
+		37  First_branchial_arch_elements / present absent_replaced_by_caudal_exten,
+		38  Pelvic_vestiges / present absent,
+		39  Adductor_mandibulae_externus_pa / from_both_braincase_and_tempora from_braincase_only from_temporal_tendon_only,
+		40  Adductor_mandibulae_externus_pa / coronoid_process_or_dorsal_edge coronoid_process_plus_dorsal_ed primarily_ventrolateral_surface,
+		41  Levator_anguli_oris / present present_with_suborbital_origin absent,
+		42  Adductor_mandibulae_externus_pa / prominent reduced_or_absent,
+		43  Adductor_mandibulae_externus_pa / prominent reduced_or_absent,
+		44  Pterygoideus._Origin / single double_meaning_separation_of_ec,
+		45  Rctractor_vomeris / absent present,
+		46  Retractor_pterygoidei._Origin / posterolateral_to_Vidian_nerve anteromedial_to_Vidian_nerve,
+		47  Intermandibularis_anterior / undivided_and_deep undivided_and_superficial divided,
+		48  Intermandibularis_anterior._Ins / none on_oral_mucosa_and_tongue_sheat on_interramal_pad,
+		49  Intermandibularis_posterior_par / present absent,
+		50  Omokyoideus / present absent,
+		51  Tracheal_entry_into_right_lung / subterminal_to_cranial_end_of_l terminal_at_cranial_end_of_lung,
+		52  Left_lung_complex / present absent,
+		53  Liver._Posterior_extension / absent present,
+		54  Pancreas._Limb_extending_to_spl / present absent,
+		55  Reproductive_mode / oviparous viviparous,
+		56  Ileocolic_caecum / present absent,
+		57  Eye / cornea_covered_by_eyelids_or_sp cornea_Iying_beneath_one_or_mor,
+		58  Heart._Distance_from_snout / '>35% SVL (snout-vent length)' '26-35% SVL' '< 26% SVL',
+		59  Right_lung._Distance_of_midpoin / '>44% SVL' '38-44% SVL' '<38% SVL',
+		60  Liver._Total_length / '<24% SVL' '24-32% SVL' '>32% SVL',
+		61  Liver._Distance_of_midpoint_fro / '> 60% SVL' '50-60% SVL' '<50% SVL',
+		62  'Liver-gall bladder interval' / '< - 2% (i.e. a greater negative' 2_to_7%_SVL '> 7% SVL',
+		63  Call_bladder._Distance_of_midpo / '<64% SVL' '64-75% SVL' '>75% SVL',
+		64  Right_kidney._Distance_of_midpo / '<86% SVL' '86-90% SVL' '>90% SVL',
+		65  Left_kidney._Distance_from_caud / '> 10% SVL' '6-10% SVL' '<6% SVL',
+		;
+
+MATRIX
+[                            10        20        30        40        50        60        70        80        90        100       110       120       130       140        ]
+[                             .         .         .         .         .         .         .         .         .         .         .         .         .         .        ]
+Acrochordidae        30012120000001000112200011020200121011122111002201100011000011000
+Anguimorpha          {02}0000000000{01}00000{01}0000{01}000000000000000???0?00000000000{01}00{02}{012}{012}{02}0{01}{012}{02}
+Aniliidae            21000010101101100111200001010120101010010000110011000010121122{12}12
+Anomalepididae       1001{01}00000000000000030110212101211210{01}1001100?000011000{01}111{12}21{01}{12}2
+Anomochilus          00010012101001?01011121001110101101010100000010010111101{01}22222222
+Boinae               0011{02}112000111000110200011020100321{01}10122110102111000{01}1{01}010022100
+Bolyeriidae          21112?10000101000110100011020100201{01}11122110112101100?0?0{12}{01}0{12}11{01}1
+Colubroidea          {013}001{02}120{01}0{01}1{01}1000{01}1{02}{23}0{01}011020200{23}{02}101112{02}1111022{01}1{01}{01}{01}1{01}{01}0{012}{012}{012}{012}2{012}{012}{012}
+Cylindrophiinae      21010010001101101111100001010100101010{02}10000010010{01}00010011112122
+Dibamidae            00100?00100000010000001012100020310000???1?00?001011000?10020??22
+Erycinae             21210122000101000110100011020100321{01}10122110102111000{01}1001{01}02{12}000
+Leptotyphlopidae     1011100110000001000021110211100011100{01}1000100?000111{01}000122{12}2{12}1{12}1
+Loxocemidae          2100001001110100011010000101010010101012000?010011000000010122000
+Pythonidae           21100112010111000{01}12100011020100221{01}10122100101111000000010022000
+Tropidophiidae       21012?{12}000010100?11010001102020022101{01}122110{01}{01}210111011101002{12}0{01}{01}
+Typhlopidae          100110011000000100002311021210121110001020100?00011{01}{01}00{01}1{01}{01}{012}21{012}{012}{12}
+Uropeltinae          210100121010011110111010021{01}0101101011210000010010{01}{01}0{01}1011{01}{01}111{012}1
+Xenopeltidae         21100010101111000110200001010100101011121000010011000000010122101
+;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M2038]
+
+	TITLE 'Table 2 51-65';
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=15;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2" MISSING=? GAP= -;
+	CHARSTATELABELS
+		1  Tracheal_entry_into_right_lung / subterminal_to_cranial_end_of_l terminal_at_cranial_end_of_lung,
+		2  Left_lung_complex / present absent,
+		3  Liver._Posterior_extension / absent present,
+		4  Pancreas._Limb_extending_to_spl / present absent,
+		5  Reproductive_mode / oviparous viviparous,
+		6  Ileocolic_caecum / present absent,
+		7  Eye / cornea_covered_by_eyelids_or_sp cornea_Iying_beneath_one_or_mor,
+		8  Heart._Distance_from_snout / '>35% SVL (snout-vent length)' '26-35% SVL' '< 26% SVL',
+		9  Right_lung._Distance_of_midpoin / '>44% SVL' '38-44% SVL' '<38% SVL',
+		10  Liver._Total_length / '<24% SVL' '24-32% SVL' '>32% SVL',
+		11  Liver._Distance_of_midpoint_fro / '> 60% SVL' '50-60% SVL' '<50% SVL',
+		12  'Liver-gall bladder interval' / '< - 2% (i.e. a greater negative' 2_to_7%_SVL '> 7% SVL',
+		13  Call_bladder._Distance_of_midpo / '<64% SVL' '64-75% SVL' '>75% SVL',
+		14  Right_kidney._Distance_of_midpo / '<86% SVL' '86-90% SVL' '>90% SVL',
+		15  Left_kidney._Distance_from_caud / '> 10% SVL' '6-10% SVL' '<6% SVL',
+		;
+
+MATRIX
+[                            10        20        30        40        50        ]
+[                             .         .         .         .         .        ]
+Acrochordidae        100011000011000
+Anguimorpha          0000{01}00{02}{012}{012}{02}0{01}{012}{02}
+Aniliidae            000010121122{12}12
+Anomalepididae       11000{01}111{12}21{01}{12}2
+Anomochilus          111101{01}22222222
+Boinae               000{01}1{01}010022100
+Bolyeriidae          100?0?0{12}{01}0{12}11{01}1
+Colubroidea          {01}{01}{01}1{01}{01}0{012}{012}{012}{012}2{012}{012}{012}
+Cylindrophiinae      {01}00010011112122
+Dibamidae            11000?10020??22
+Erycinae             000{01}1001{01}02{12}000
+Leptotyphlopidae     11{01}000122{12}2{12}1{12}1
+Loxocemidae          000000010122000
+Pythonidae           000000010022000
+Tropidophiidae       11011101002{12}0{01}{01}
+Typhlopidae          1{01}{01}00{01}1{01}{01}{012}21{012}{012}{12}
+Uropeltinae          {01}{01}0{01}1011{01}{01}111{012}1
+Xenopeltidae         000000010122101
+;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M2037]
+
+	TITLE 'Table 2 1-38';
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=38;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2 3" MISSING=? GAP= -;
+	CHARSTATELABELS
+		1  Premaxilla._Articulation_to_nas / ascending_process_between_horiz transversely_expanded_ascending processus_nasalis_extends_betwe absent,
+		2  Premaxilla._Processus_nasalis / absent_or_present_as_a_keel_not well_developed_and_lying_betwee,
+		3  Premaxilla._Vomerine_process / overlaps_vomer_ventrally 'meets vomer (or septomaxilla)' does_not_meet_vomer,
+		4  Premaxilla._Teeth / present absent,
+		5  Nasals._Nasofrontal_articulatio / nasals_overlap_frontals_dorsall frontals_overlap_nasals_dorsall dorsal_surfaces_of_nasals_and_f,
+		6  Vomeronasal_cupola / fenestrated_medially not_fenestrated_medially,
+		7  Frontals._Interolfactory_pillar / absent frontal_flanges_present_unfused frontal_flanges_fused_with_no_f,
+		8  Prefrontal / Limited_to_anterior_orbital_reg sutured_between_frontal_nasal_a movably_articulated_to_frontal,
+		9  Postorbital / present absent,
+		10  Supraorbital / absent present,
+		11  Parietal._Supraorbital_process / not_enlarged enlarged_extending_along_at_lea,
+		12  Frontoparictal_suture / partially_open_potentially_mobi closed_immobile,
+		13  'Frontal-prefrontal sutures' / widely_separated_medially not_widely_separated_medially,
+		14  Prootic._Laterosphenoid / absent present_and_separating_V2_and_V,
+		15  Exoccipital._Fenestra_pseudorot / absent present,
+		16  Supratemporal / present absent,
+		17  Parasphenoid._Interchoanal_proc / absent present,
+		18  Palatine._Teeth / absent present,
+		19  Palatine._Subvomerine_process / absent present,
+		20  Choanal_process_articulation_ca / simple complex absent,
+		21  Articulation_with_maxilla / suture interlocking_joint_preventing_l simple_gliding_joint no_articulation,
+		22  Ectoptcrygoid. / Present_and_in_contact_with_bot present_but_not_in_contact_with present_but_in_contact_with_nei absent,
+		23  Pterygoid._Teeth / present absent,
+		24  Caudal_end_with_quadratoarticul / closely distantly,
+		25  Quadrate._Proximal_end / posterior_head_of_cephalic_cond no_association_of_cephalic_cond,
+		26  Quadrate._Proximal_articulation / associated_with_squamosal_and_s associated_with_supratemporal_o associated_with_otic_elements_d,
+		27  Quadrate._Position_of_proximal / 'dorsal near parietal- prooticsu' 'ventral nearer prootic-basisphe',
+		28  Maxilla._Association_with_prema / close_suture_or_schizarthrosis close_short_ligamentous_attachm loose,
+		29  Dentary._Length / greater_than_35%_of_skull less_than_35%_of_skull,
+		30  Coronoid / present_and_extending_dorsal_to present_but_not_extending absent,
+		31  Splenial._Caudal_edge / lies_anterior_to_caudal_edge_of lies_caudal_to_caudal_edge_of_d absent,
+		34  Mandible._Length / '80-100% of skull length' less_than_80%_of_skull_length more_than_100%_of_skull_length,
+		35  'Hyoid archmedial (basihyal) and' / _elements_present all_lateral_elements_lost medial_and_lateral_elements_los,
+		36  Median_basihyal_element / present_in_adult_uniting_cornua absent_in_adult_cornua_separate,
+		37  First_branchial_arch_elements / present absent_replaced_by_caudal_exten,
+		38  Pelvic_vestiges / present absent,
+		;
+
+MATRIX
+[                            10        20        30        40        50        60        70  ]
+[                             .         .         .         .         .         .         .  ]
+Acrochordidae        30012120000001000112200011020200121011
+Anguimorpha          {02}0000000000{01}00000{01}0000{01}000000000000000
+Aniliidae            21000010101101100111200001010120101010
+Anomalepididae       1001{01}00000000000000030110212101211210{01}
+Anomochilus          00010012101001?01011121001110101101010
+Boinae               0011{02}112000111000110200011020100321{01}10
+Bolyeriidae          21112?10000101000110100011020100201{01}11
+Colubroidea          {013}001{02}120{01}0{01}1{01}1000{01}1{02}{23}0{01}011020200{23}{02}1011
+Cylindrophiinae      21010010001101101111100001010100101010
+Dibamidae            00100?00100000010000001012100020310000
+Erycinae             21210122000101000110100011020100321{01}10
+Leptotyphlopidae     1011100110000001000021110211100011100{01}
+Loxocemidae          21000010011101000110100001010100101010
+Pythonidae           21100112010111000{01}12100011020100221{01}10
+Tropidophiidae       21012?{12}000010100?11010001102020022101{01}
+Typhlopidae          10011001100000010000231102121012111000
+Uropeltinae          210100121010011110111010021{01}0101101011
+Xenopeltidae         21100010101111000110200001010100101011
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb5168;
+      LINK TAXA = Taxa2;
+         TRANSLATE
+            1    Anguimorpha,
+            2    Dibamidae,
+            3    Anomalepididae,
+            4    Typhlopidae,
+            5    Leptotyphlopidae,
+            6    Aniliidae,
+            7    Cylindrophiinae,
+            8    Uropeltinae,
+            9    Anomochilus,
+            10   Xenopeltidae,
+            11   Loxocemidae,
+            12   Pythonidae,
+            13   Boinae,
+            14   Erycinae,
+            15   Bolyeriidae,
+            16   Tropidophiidae,
+            17   Acrochordidae,
+            18   Colubroidea;
+      TREE Fig._2 = [&R] (1,(2,((5,(3,4)Typhlopoidea)Scolecophidia,(9,(8,(7,(6,(10,(11,(12,(13,14),(15,(16,(17,18)Caenophidia)))))))))Alethinophidia)Serpentes))Squamata;
+
+
+
+END;
+BEGIN TREES;
+      TITLE Tb5167;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Colubroidea,
+            2    Acrochordidae,
+            3    Tropidophiidae,
+            4    Bolyeriidae,
+            5    Erycinae,
+            6    Boinae,
+            7    Pythonidae,
+            8    Loxocemidae,
+            9    Xenopeltidae,
+            10   Anomochilus,
+            11   Uropeltinae,
+            12   Cylindrophiinae,
+            13   Aniliidae,
+            14   Leptotyphlopidae,
+            15   Typhlopidae,
+            16   Anomalepididae,
+            17   Dibamidae,
+            18   Anguimorpha;
+      TREE Fig._3 = [&R] (18,(17,(14,(16,15))),((9,8,(13,(12,(11,10)))Anilioidea),((7,(6,5))Booidea,(4,3,(2,1)))));
+
+
+
+END;
+BEGIN TREES;
+      TITLE Tb5169;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Colubroidea,
+            2    Acrochordidae,
+            3    Tropidophiidae,
+            4    Bolyeriidae,
+            5    Erycinae,
+            6    Boinae,
+            7    Pythonidae,
+            8    Loxocemidae,
+            9    Xenopeltidae,
+            10   Anomochilus,
+            11   Uropeltinae,
+            12   Cylindrophiinae,
+            13   Aniliidae,
+            14   Leptotyphlopidae,
+            15   Typhlopidae,
+            16   Anomalepididae,
+            17   Dibamidae,
+            18   Anguimorpha;
+      TREE Fig._4 = [&R] (18,(13,(17,16,15,14,10)),(12,(9,((11,4),(6,(5,(8,7),(2,(3,1))))))));
+
+
+
+END;

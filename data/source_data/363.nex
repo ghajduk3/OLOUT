@@ -1,0 +1,123 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:36 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Les D., & Sheridan D. 1990. Hagstrom's concept of phylogenetic relationships in Potamogeton
+L. (Potamogetonaceae). Taxon, 39: 41-58.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S234]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=26;
+        TAXLABELS
+            Alpini
+            Amblyophyllii
+            Amplifolii
+            Colorati
+            Compressi
+            Crispi
+            Densi
+            Filiformes
+            Hybridi
+            Javanici
+            Lucentes
+            Monogyni
+            Monticoli
+            Muricati
+            Natantes
+            Nodosi
+            Ochreati
+            Oxyphylli
+            Pectinati
+            Perfoliati
+            Polygoni
+            Praelongi
+            Pusilli
+            Sclerocarpi
+            Serrulati
+            Vaginati
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M130]
+
+	TITLE Table_2;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=29;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2 3 4 5" MISSING=? GAP= -;
+
+MATRIX
+[                         10        20         ]
+[                          .         .         ]
+Alpini            22001120000001000221302111232
+Amblyophyllii     23010100100033011403434521000
+Amplifolii        21001120001000000031202101232
+Colorati          12001121112020000121212011232
+Compressi         03011120011001200403433321010
+Crispi            41001120011004000403434122020
+Densi             22011020000104000403431122122
+Filiformes        13010100100033011403434521000
+Hybridi           21101120110001000222302121022
+Javanici          31001120011005000312224421012
+Lucentes          21001121101044000122012211132
+Monogyni          21001120010005100403432421010
+Monticoli         01001120001004000403434421010
+Muricati          21101120110002000231302111232
+Natantes          21001121101031000030104501002
+Nodosi            21001120000001000132202101232
+Ochreati          01101120003004100403433121010
+Oxyphylli         03011120010004000403433321010
+Pectinati         43010111112034111403434521000
+Perfoliati        03001120002001000403430121331
+Polygoni          01001120000001100403433421010
+Praelongi         21001121112030000403431021331
+Pusilli           23011120110005000403432221110
+Sclerocarpi       01101120100023000122302111012
+Serrulati         01011120001011000403433422010
+Vaginati          13010111110032111403434521000
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb4956;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Alpini,
+            2    Amblyophyllii,
+            3    Amplifolii,
+            4    Colorati,
+            5    Compressi,
+            6    Crispi,
+            7    Densi,
+            8    Filiformes,
+            9    Hybridi,
+            10   Javanici,
+            11   Lucentes,
+            12   Monogyni,
+            13   Monticoli,
+            14   Muricati,
+            15   Natantes,
+            16   Nodosi,
+            17   Ochreati,
+            18   Oxyphylli,
+            19   Pectinati,
+            20   Perfoliati,
+            21   Polygoni,
+            22   Praelongi,
+            23   Pusilli,
+            24   Sclerocarpi,
+            25   Serrulati,
+            26   Vaginati;
+      TREE Fig._4 = [&R] ((((((((((((((8,2),(26,19)),23),18),5),25),21),17),13),(12,10)),6),(20,22)),((9,(24,(15,(11,4)))),(((16,3),14),1))),7)Potamogeton;
+
+
+
+END;

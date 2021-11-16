@@ -1,0 +1,100 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:41 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Judd W. 1989. Taxonomic studies in the Miconieae (Melastomataceae). III. Cladistic
+analysis of axillary-flowered taxa. Annals of the Missouri Botanical Garden, 76:
+476-495.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S164]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=17;
+        TAXLABELS
+            Bellucia
+            Calophysoides
+            Clidemia
+            Henriettea
+            Henriettella
+            Huilaea
+            Killipia
+            Kirkbridea
+            Llewelynia
+            Loreya
+            Maieta
+            Mecranium
+            Miconia
+            Myriaspora
+            Outgroup_to_axillary_Miconieae
+            Pentossaea
+            Sagraea
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M2346]
+
+	TITLE Table_1;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=42;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1" MISSING=? GAP= -;
+
+MATRIX
+[                                          10        20        30        40  ]
+[                                           .         .         .         .  ]
+Bellucia                           011000000011000100010001000000100100010101
+Calophysoides                      0101000011010100111000000000000000010001??
+Clidemia                           0101000001010100101000000000000000010001??
+Henriettea                         011001000001100000000000000001100000000110
+Henriettella                       011001000001100010000000000001100000000110
+Huilaea                            0101000000010001000000000000000000000001??
+Killipia                           1101100000010100101010000000000010000001??
+Kirkbridea                         0110010000010000101000000000011010000001??
+Llewelynia                         0110010000011000000100000011011000001001??
+Loreya                             011000000001000000010000000000100100010101
+Maieta                             010100001101010000100000000000000011000100
+Mecranium                          010110100001011010000100000000010000000100
+Miconia                            0001100100000100101000100000000000100001??
+Myriaspora                         011000000001000000010000010000100100011101
+Outgroup_to_axillary_Miconieae     000100000000010000000000000000000000000100
+Pentossaea                         0101000000010100101000000000100000000001??
+Sagraea                            010100000001011010100000000000000000000100
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb4888;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Mecranium,
+            2    Sagraea,
+            3    Killipia,
+            4    Pentossaea,
+            5    Huilaea,
+            6    Maieta,
+            7    Calophysoides,
+            8    Clidemia,
+            9    Henriettea,
+            10   Henriettella,
+            11   Llewelynia,
+            12   Kirkbridea,
+            13   Loreya,
+            14   Bellucia,
+            15   Myriaspora,
+            16   Miconia,
+            17   Outgroup_to_axillary_Miconieae;
+      TREE Fig._1D = [&R] ((((1,2),3),4,(8,(6,7))),5);
+      TREE Fig._1A = [&R] ((((1,2),3,4,(8,(6,7))),5),((13,15,14),(12,(10,9,11))))Miconieae;
+      TREE Fig._1B = [&R] (((1,2,3,4,(8,(6,7))),5),((13,15,14),(12,10,9,11)));
+      TREE Fig._1C = [&R] (((1,2),3,4,(8,(6,7))),5)Miconieae;
+
+
+
+END;

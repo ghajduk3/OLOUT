@@ -1,0 +1,124 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:38 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Parsons W.L., & Parsons K.M. 2009. A new ankylosaur (Dinosauria: Ankylosauria) from
+the Lower Cretaceous Cloverly Formation of central Montana. Canadian Journal
+of Earth Sciences, 46(10): 721-738.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S13235]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=26;
+        TAXLABELS
+            Ankylosaurus
+            Cedarpelta
+            Edmontonia_longiceps
+            Edmontonia_rugosidens
+            Euoplocephalus
+            Gargoyleosaurus
+            Gastonia
+            Gobisaurus
+            Huayangosaurus
+            Hungarosaurus
+            Minmi
+            Panoplosaurus
+            Pawpawsaurus
+            Pinacosaurus_grangeri
+            Pinacosaurus_mesphistoce
+            Saichania
+            Sauropelta
+            Scelidosaurus
+            Shamosaurus
+            Silvisaurus
+            Struthiosaurus
+            Talarurus
+            Tarchia
+            Tatankacephalus
+            Tianzhenosaurus
+            Tsagantegia
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M14012]
+
+	TITLE Character_Matrix;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=63;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2 3 4" MISSING=? GAP= -;
+
+MATRIX
+[                                    10        20        30        40        50        60   ]
+[                                     .         .         .         .         .         .   ]
+Ankylosaurus                 11012222101111121001210?110111111101111111111?11?111?1?10????11
+Cedarpelta                   0?01111?000?0??010????1???000??0?100?000?11?1????1??????0????11
+Edmontonia_longiceps         0010101411000001111?100001110??10111?010011111??11??????????111
+Edmontonia_rugosidens        00101014110000011111100001110??10111?0100111111111??1???????111
+Euoplocephalus               1101222200111112110121111111111111011101111110?12111112101?0101
+Gargoyleosaurus              00000221011010100000010000101???0?0??010?1111???11???????????01
+Gastonia                     0100022101101112100?10100??11110100111?0?11?????21?2?1111???101
+Gobisaurus                   000101110000011210112011?11011110?011110111??????????????????01
+Huayangosaurus               0000000010000000000??00000000?100000010000000??00000?010?00?000
+Hungarosaurus                ???02?1?0???0?11001?0?0????0??????0??0?????11?1121030??10???11?
+Minmi                        0001122??0?0?012?01????????0??1?000001???11??????1???0??0?1???1
+Panoplosaurus                0010001411100001111?1?00??010??101101010111111??110300?11?10111
+Pawpawsaurus                 0010122111100000011000000?01001001100010?11??????????????????11
+Pinacosaurus_grangeri        1001222??0?1111210112111111010111001010111111021211201210111101
+Pinacosaurus_mesphistoce     1011222??01111021?1??111?1?????????1???1?1111??1211??11???1?101
+Saichania                    10012223001111121011211111101011110111111111?1212112?1210111101
+Sauropelta                   0000101??100??????1????????????001110010??1110?0?10300111?1????
+Scelidosaurus                00000000000000??001000??0?????1??????0?0?001111?10000000000?000
+Shamosaurus                  100121120010001210?12011??0010?1??01?11011111???21?211????1??01
+Silvisaurus                  011010110100000000110000??0101100?100011?111??1011?????????01?1
+Struthiosaurus               ??10000??100????????????????????01000110??1??0012??3?0?1010?1??
+Talarurus                    ?0012222?011?????????????11?10110101??0?111?1?212112?12101111??
+Tarchia                      100122230011111210112111?110111111011?0111111??0?112?121011??01
+Tatankacephalus              0110122??111?1?20001111??110101001?11?1?111??????????????????11
+Tianzhenosaurus              10012223101110?210????10???0100010011101?11??0?1?11???1?0???101
+Tsagantegia                  000112110011111210112?11?100110111011111111??????????????????01
+;
+END;
+
+BEGIN TREES;
+      TITLE Analysis_results;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Huayangosaurus,
+            2    Scelidosaurus,
+            3    Tatankacephalus,
+            4    Gargoyleosaurus,
+            5    Cedarpelta,
+            6    Pawpawsaurus,
+            7    Hungarosaurus,
+            8    Edmontonia_rugosidens,
+            9    Silvisaurus,
+            10   Sauropelta,
+            11   Panoplosaurus,
+            12   Minmi,
+            13   Euoplocephalus,
+            14   Ankylosaurus,
+            15   Gastonia,
+            16   Gobisaurus,
+            17   Pinacosaurus_grangeri,
+            18   Saichania,
+            19   Shamosaurus,
+            20   Tarchia,
+            21   Talarurus,
+            22   Tianzhenosaurus,
+            23   Tsagantegia,
+            24   Edmontonia_longiceps,
+            25   Pinacosaurus_mesphistoce,
+            26   Struthiosaurus;
+      TREE Figure_18 = [&R] (1,(2,(4,7,26,(5,(12,(16,19,(23,(3,15),(17,18,20,21,22,25,(13,14)))))),(9,10,(6,(11,(8,24)))))));
+
+
+
+END;

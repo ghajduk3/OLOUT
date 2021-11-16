@@ -1,0 +1,170 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:37 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Coddington J. 1991. Cladistics and spider classification: Araneomorph phylogeny and
+the monophyly of orb weavers (Araneae: Araneomorphae; Orbiculariae). Acta Zoologica
+Fennica, 190: 75-87.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S635]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=19;
+        TAXLABELS
+            Araneus
+            Callobius
+            Deinopis
+            Dictyna
+            Frontinella
+            Gaucelmus
+            Helophora
+            Hypochilus
+            Kukulcania
+            Latrodectus
+            Leucauge
+            Loxosceles
+            Octonoba
+            Oecobius
+            Psechrus
+            Stegodyphus
+            Thaida
+            Theridiosoma
+            Titanoeca
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M3625]
+
+	TITLE Turku;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=61;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2 3" MISSING=? GAP= -;
+	CHARSTATELABELS
+		1  ALS_maj._ampullate_# / many 2 1,
+		2  ALS_ampullate_nubbin / abs pres,
+		3  ALS_pyriform_margin / otherwise sharp,
+		4  ALS_ampullates / dispersed clustered,
+		5  PMS_aciniform_brush / pres abs,
+		6  PMS_aciniform_# / many 3 2,
+		7  PMS_minor_amp._nubbins / abs 2 1 lost,
+		8  PMS_minor_amp._# / multiple 1,
+		9  PMS_minor_amp._position / med_or_anterior posterior,
+		10  PMS_paracribellum / abs pres,
+		11  PMS_cylindrical_# / 2_or_less many,
+		12  PLS_aciniforms / random elongate_rows,
+		13  PLS_mod._spig. / abs pres pseudofl. flag.,
+		14  PLS_aggregates / abs pres huge,
+		15  'PLS paracribellar(s)' / abs pres,
+		16  PLS_cylindrical_# / 2_or_less many,
+		17  Aciniform_A / pres abs,
+		18  Cribellum / entire divided,
+		19  Cribellum / pres lost,
+		20  Gut / straight 'M-shaped',
+		21  Heart_ostia_# / 4 3_or_2,
+		22  Endosternite_extension / pres abs,
+		23  5th_endosternite_invagination / pres abs,
+		24  Cheliceral_lamina / abs pres,
+		25  'Tegulum-subtegulum' / free fused,
+		26  Conductor / pres abs,
+		27  Tracheae / abs few_stout_trunks branched,
+		28  Tarsal_trichob._row / abs pres,
+		29  Metatarsal_trichobothria / '1-2' '>2',
+		30  Spinneret_cuticle / annulate ridged squamate,
+		31  Calamistral_rows / 2 1,
+		32  Tapetum / primitive canoe grate abs,
+		33  Paracymbium / abs pres,
+		34  Petiole_fused_to_subtegulum / abs pres,
+		35  Embolus_stalk / abs pres,
+		36  Araneoid_radix / abs pres,
+		37  Female_genitalia / haplogyne entelegyne,
+		38  Labium / 'Length > width' 'width > length',
+		39  Gnathocoxal_sex_glands / abs pres,
+		40  Macrosetal_comb / abs pres,
+		41  Tarsus_IV_comb / abs pres,
+		42  Duct_levator_muscle / abs pres,
+		43  Duct_sphincter / abs pres,
+		44  Hair / plumose pseudoserrate serrate,
+		45  Juxtaposed_lateral_eyes / abs pres,
+		46  Clypeus / low high,
+		47  Male_palpal_tibia / no_apophyses w_apophyses,
+		48  Abdominal_tubercles / abs pres,
+		49  Serrate_accessory_claw_setae / abs pres,
+		50  Frame_construction / abs pres,
+		51  Radius_construction / abs doubled CRed,
+		52  Hub_construction / abs pres,
+		53  Temporary_spiral_construction / abs pres,
+		54  Sticky_spiral_construction / abs pres,
+		55  SS_localization / abs oL1 iL1,
+		56  SS_wrap_attack / abs pres,
+		57  'NS-SS grip' / otherwise w_L4,
+		58  L4_SS_shift / abs pres,
+		59  Cribellate_silk / otherwise puffed,
+		60  Wrap_attack / absent pres,
+		61  Combing_leg_support / fixed_L3 mobile_L4,
+		;
+
+MATRIX
+[                        10        20        30        40        50        60 ]
+[                         .         .         .         .         .         . ]
+Araneus          211100111?0031?00?111110001002?111111110011210001121111011?1?
+Callobius        1001?00101001010?10111100011110100001000000000100000000000001
+Deinopis         0111000101102001?001111000100113000010010??100011121111011111
+Dictyna          2101?00101000010?00111100020011100001000000000100000000000001
+Frontinella      210112311?0131?01?1????0001002?1111111100??2110010000000???0?
+Gaucelmus        210111211?0032?0??1????0001002?1100011001??2110010000001???0?
+Helophora        210112311?0131?01?1????0001002?1111111100??2110010000000???0?
+Hypochilus       0000?00000000000?00000000000000000000000000000000000000000000
+Kukulcania       0000?00000?0000??10111111110111000000000000000000000000000000
+Latrodectus      210111311?0032?01?1????0001002?1100011001112110010000001???0?
+Leucauge         211111211?0131?01?1????0001002?110001100011211001121112011?0?
+Loxosceles       200???0????000????111111111001?000000000000?0000000000000000?
+Octonoba         2111000101102001000111100020011300001001011100011111111011111
+Oecobius         000??00000000000?101111000?0010000001100000000000000000000001
+Psechrus         1001?00100001000?10111100011111200001000000000100000000000001
+Stegodyphus      0000??00001?1001?101111000?001130000100000000000000000000000?
+Thaida           1001?00001000010?000011000000110000000000000000000000000??00?
+Theridiosoma     211111211?0131?0??1????0001002?1100011000??211001121112011?0?
+Titanoeca        1001?00100001010?10111100011111100001000000000100000000000001
+;
+END;
+
+BEGIN ASSUMPTIONS;
+	WTSET * CURRENT = 1: 1-61 ;
+	WTSET  CURRENT = 1: 1-61 ;
+END;
+BEGIN TREES;
+      TITLE Tb5718;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Latrodectus,
+            2    Gaucelmus,
+            3    Frontinella,
+            4    Helophora,
+            5    Theridiosoma,
+            6    Leucauge,
+            7    Araneus,
+            8    Octonoba,
+            9    Deinopis,
+            10   Dictyna,
+            11   Psechrus,
+            12   Titanoeca,
+            13   Callobius,
+            14   Stegodyphus,
+            15   Oecobius,
+            16   Kukulcania,
+            17   Loxosceles,
+            18   Thaida,
+            19   Hypochilus;
+      TREE Fig._x = [&R] (19,(18,((17,16),(15,(14,(((13,12),11),(10,((9,8),(7,((6,5),((4,3),(2,1))))))))))));
+
+
+
+END;

@@ -1,0 +1,317 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:50 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Weitzman S.H., & Menezes N.A. 1998. "Relationships of the tribes and genera of the
+Glandulocaudiinae (Ostariophysi: Characiformes: Characidae), with a description
+of a new genus." In: Malabarba L.R., Reis R.E., Vari R.E., Lucena Z.M., & Lucena
+C.A., eds. Phylogeny and Classification of Neotropical Fishes. pp. 171-192. Porto
+Alegre, Edipucrs.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S12940]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=72;
+        TAXLABELS
+            Acrobrycon
+            Acrobrycon_Sp
+            Acrobrycon_ipanquianus
+            Argopleura
+            Argopleura_Sp.
+            Argopleura_chocoensis
+            Argopleura_diquensis
+            Argopleura_magdalenensis
+            Chrysobrycon
+            Corynopoma
+            Corynopoma_riisei
+            Diapoma
+            Diapoma_speculiferum
+            Diapoma_terofali
+            Gephyrocharax
+            Gephyrocharax_Sp
+            Gephyrocharax_atricaudatus_
+            Gephyrocharax_caucanus
+            Gephyrocharax_chocoensis
+            Gephyrocharax_intermedius
+            Gephyrocharax_major
+            Gephyrocharax_melanocheir
+            Gephyrocharax_sinensis
+            Gephyrocharax_valenci
+            Gephyrocharax_venezuelae
+            Gephyrocharax_whaleri
+            Glandulocauda
+            Glandulocauda_melanogenys
+            Glandulocauda_melanopleura
+            Hysteronotus
+            Hysteronotus_Sp.
+            Hysteronotus_hesperus
+            Hysteronotus_megalostomus
+            Hysteronotus_myersi
+            Iotabrycon
+            Iotabrycon_praecox
+            Landonia
+            Landonia_latidens
+            Mimagoniates
+            Mimagoniates_barberi
+            Mimagoniates_inequalis
+            Mimagoniates_lateralis
+            Mimagoniates_microlepis
+            Mimagoniates_rheocharis
+            Mimagoniates_sylvicola
+            Phenacobrycon
+            Phenacobrycon_henni
+            Planaltina
+            Planaltina_myersi
+            Planaltina_sp
+            Pseudocorynopoma
+            Pseudocorynopoma_doriae
+            Pseudocorynopoma_heterandria
+            Pterobrycon
+            Pterobrycon_landoni
+            Pterobrycon_myrnae
+            Ptychocharax
+            Ptychocharax_rhyacophila
+            Scopaeocharax
+            Scopaeocharax_Sp
+            Scopaeocharax_atopodus
+            Scopaeocharax_rhinodus
+            Tyttocharax
+            Tyttocharax_Sp._A
+            Tyttocharax_Species_B
+            Tyttocharax_madeirae
+            Tyttocharax_sp
+            Xenurobrycon
+            Xenurobrycon_heterodon
+            Xenurobrycon_macropus
+            Xenurobrycon_polyancistrus
+            Xenurobrycon_pteropus
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M13457]
+
+	TITLE Character_Matrix;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=51;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2 3" MISSING=? GAP= -;
+	CHARSTATELABELS
+		1  'A relatively thin-skinned pouch or sac opening posteriorly to environment occurs on ventral caudal-fin lobe',
+		2  Insemination,
+		3  Pouch_scale,
+		4  'Scales of dorsal caudal-fin lobe',
+		5  Scales_of_ventral_caudal_lobe,
+		6  'Posterior terminal lateral-line tube',
+		7  Distinct_lobes_extending_posteriorly_from_posterior_border_of_pouch_scale,
+		8  'Scales bordering and supporting main portion of postero-lateral border of caudal pouch opening',
+		9  'Caudal-fin ray pump utilizing at least principal caudal-fin rays 10 and 11',
+		10  'Pouch scales of ventral caudal-fin lobe in females equivalent or nearly so in size and development with those in males',
+		11  'Scales of ventral caudal-fin lobe',
+		12  Parhypural_and_hypural_one,
+		13  'Proximal tips of medial first, second and sometimes third pelvic fin rays project anteriorly somewhat further than laterally adjacent rays',
+		14  'Connective tissue between pouch scale''s mid to distal region and caudal fin rays',
+		15  Number_of_pouch_scale_radii,
+		16  'Lateral line and lateral-line tube',
+		17  Caudal_interradialis_musculature,
+		18  'Scales covering dorsal border or region of caudal-fin pouch',
+		19  Ossified_posterior_portion_of_ossified_posterior_pelvic_process,
+		20  Location_of_pelvic_bone,
+		21  Supraorbital_sensory_canal_in_adults_of_both_sexes,
+		22  'Latero-sensory canal of posttemporal bone of both sexes',
+		23  Anteroventral_limb_or_process_of_postemporal_bone,
+		24  Premaxillary_teeth_in_adults_of_both_sexes,
+		25  Cusps_of_anterior_jaw_teeth_of_both_sexes,
+		26  Dorsal_laminar_process_of_anguloarticular_bone,
+		27  'Proximal portions of principal caudal-fin rays',
+		28  Caudal_fin_rays_11,
+		29  'Distal halves of principal caudal-fin rays 7-10',
+		30  'Principal caudal-fin rays 11 to 14',
+		31  'Principal caudal-fin rays 1-8 and 16-19 plus largest ventral procurrent ray',
+		32  Pouch_scales,
+		33  'Interadialis muscle fibers extending from mid-base of caudal fin to principal fin ray 10',
+		34  'Interradialis muscle fibers of ventral caudal-fin lobe',
+		35  'Number of anal-fin rays',
+		36  'Cartilaginous portion of pelvic-fin posterior process',
+		37  Anterior_tip_of_pelvic_bone_of_sexually_mature_males,
+		38  Anterior_tip_of_pelvic_bone_of_immatures_and_females,
+		39  Divergence_of_medial_two_fin_rays_of_pelvic_fin,
+		40  Two_premaxillary_tooth_rows_in_adults_of_both_sexes,
+		41  Anterior_few_teeth_of_maxilla_of_both_sexes,
+		42  Number_of_maxillary_teeth_in_adults_of_both_sexes,
+		43  'Caudal-fin rays 10 and especially 11 hypertrophied distally at attachment site of pouch scale ligament',
+		44  'Distance between base of caudal-fin rays 10 and 11 excluding unciform process',
+		45  Anteroventral_notch_and_lobe_of_pouch_scale,
+		46  'Anal-fin size',
+		47  Sperm_nuclei,
+		48  Sperm_storage_area_in_testes,
+		49  Sperm_ultrastructure,
+		50  Distribution_of_pouch_scale_radii,
+		51  Vertical_extent_of_pouch_scale,
+		;
+
+MATRIX
+[                                        10        20        30        40        50 ]
+[                                         .         .         .         .         . ]
+Acrobrycon                       ???????????????????????????????????????????????????
+Acrobrycon_Sp                    110010010110000001000000000000000000000000000011100
+Acrobrycon_ipanquianus           110010010110000001000000000000000000000000000011100
+Argopleura                       ???????????????????????????????????????????????????
+Argopleura_Sp.                   112012020011110010000000000000000000000000000021100
+Argopleura_chocoensis            112012020011110010000000000000000000000000000021100
+Argopleura_diquensis             112012020011110010000000000000000000000000000021100
+Argopleura_magdalenensis         112012020011110010000000000000000000000000000021100
+Chrysobrycon                     ???????????????????????????????????????????????????
+Corynopoma                       ???????????????????????????????????????????????????
+Corynopoma_riisei                112010020010000000000000000000000000000000000121111
+Diapoma                          ???????????????????????????????????????????????????
+Diapoma_speculiferum             110010010110000101000000000000000000000000000011100
+Diapoma_terofali                 110010010110000101000000000000000000000000000011100
+Gephyrocharax                    ???????????????????????????????????????????????????
+Gephyrocharax_Sp                 112010020010000000000000000000000000000000000021111
+Gephyrocharax_atricaudatus_      112010020010000000000000000000000000000000000021111
+Gephyrocharax_caucanus           112010020010000000000000000000000000000000000021111
+Gephyrocharax_chocoensis         112010020010000000000000000000000000000000000021111
+Gephyrocharax_intermedius        112010020010000000000000000000000000000000000021111
+Gephyrocharax_major              112010020010000000000000000000000000000000000021111
+Gephyrocharax_melanocheir        112010020010000000000000000000000000000000000021111
+Gephyrocharax_sinensis           112010020010000000000000000000000000000000000021111
+Gephyrocharax_valenci            112010020010000000000000000000000000000000000021111
+Gephyrocharax_venezuelae         112010020010000000000000000000000000000000000021111
+Gephyrocharax_whaleri            112010020010000000000000000000000000000000000021111
+Glandulocauda                    ???????????????????????????????????????????????????
+Glandulocauda_melanogenys        010100001000000100000000000000000000000000000021200
+Glandulocauda_melanopleura       010100001000000100000000000000000000000000000021200
+Hysteronotus                     ???????????????????????????????????????????????????
+Hysteronotus_Sp.                 112011120010000000000000000000000000000000000021100
+Hysteronotus_hesperus            112012020010000000000000000000000000000000000021100
+Hysteronotus_megalostomus        112011120010000000000000000000000000000000000021100
+Hysteronotus_myersi              112012020010000000000000000000000000000000000021100
+Iotabrycon                       ???????????????????????????????????????????????????
+Iotabrycon_praecox               112010020011111110111111100000000000000000000021100
+Landonia                         ???????????????????????????????????????????????????
+Landonia_latidens                010001000000000000000000000000000000000000000021?00
+Mimagoniates                     ???????????????????????????????????????????????????
+Mimagoniates_barberi             010100002000000100000000000000000000000001000021200
+Mimagoniates_inequalis           010100002000000100000000000000000000000001000021200
+Mimagoniates_lateralis           010100002000000100000000000000000000000001000021200
+Mimagoniates_microlepis          010100002000000100000000000000000000000001000021200
+Mimagoniates_rheocharis          010100002000000100000000000000000000000001000021200
+Mimagoniates_sylvicola           010100002000000100000000000000000000000001000021200
+Phenacobrycon                    ???????????????????????????????????????????????????
+Phenacobrycon_henni              111010020010000000000000000000000000000000000021100
+Planaltina                       ???????????????????????????????????????????????????
+Planaltina_myersi                111110020110000001000000000000000000000000000001000
+Planaltina_sp                    111110020110000001000000000000000000000000000001000
+Pseudocorynopoma                 ???????????????????????????????????????????????????
+Pseudocorynopoma_doriae          112010120010000000000000000000000000000000000021100
+Pseudocorynopoma_heterandria     112010120010000000000000000000000000000000000021100
+Pterobrycon                      ???????????????????????????????????????????????????
+Pterobrycon_landoni              112010020000000000000000000000000000000000000121112
+Pterobrycon_myrnae               112010020000000000000000000000000000000000000121112
+Ptychocharax                     ???????????????????????????????????????????????????
+Ptychocharax_rhyacophila         112010020011111010001000000000000000000000000021100
+Scopaeocharax                    ???????????????????????????????????????????????????
+Scopaeocharax_Sp                 113010020011131120121111111111111111121112111021100
+Scopaeocharax_atopodus           113010020011131120121111111111111111121112111021100
+Scopaeocharax_rhinodus           113010020011131120121111111111111111121112111021100
+Tyttocharax                      ???????????????????????????????????????????????????
+Tyttocharax_Sp._A                113010020011131120121111111111111111111112111021100
+Tyttocharax_Species_B            113010020011131120121111111111111111111112111021100
+Tyttocharax_madeirae             113010020011131120121111111111111111111112111021100
+Tyttocharax_sp                   113010020011131120121111111111111111111112111021100
+Xenurobrycon                     ???????????????????????????????????????????????????
+Xenurobrycon_heterodon           113010020011121120131111111211111111211112000021100
+Xenurobrycon_macropus            113010020011121120131111111211111111211112000021100
+Xenurobrycon_polyancistrus       113010020011121120131111111211111111211112000021100
+Xenurobrycon_pteropus            113010020011121120131111111211111111211112000021100
+;
+END;
+
+BEGIN TREES;
+      TITLE Glandulocaudiinae;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Landonia,
+            2    Glandulocauda,
+            3    Mimagoniates,
+            4    Phenacobrycon,
+            5    Planaltina,
+            6    Acrobrycon,
+            7    Diapoma,
+            8    Chrysobrycon,
+            9    Hysteronotus,
+            10   Pseudocorynopoma,
+            11   Gephyrocharax,
+            12   Pterobrycon,
+            13   Corynopoma,
+            14   Argopleura,
+            15   Ptychocharax,
+            16   Iotabrycon,
+            17   Xenurobrycon,
+            18   Tyttocharax,
+            19   Scopaeocharax,
+            20   Hysteronotus_megalostomus,
+            21   Hysteronotus_Sp.,
+            22   Acrobrycon_ipanquianus,
+            23   Argopleura_chocoensis,
+            24   Argopleura_diquensis,
+            25   Argopleura_magdalenensis,
+            26   Argopleura_Sp.,
+            27   Corynopoma_riisei,
+            28   Diapoma_speculiferum,
+            29   Diapoma_terofali,
+            30   Gephyrocharax_atricaudatus_,
+            31   Gephyrocharax_caucanus,
+            32   Gephyrocharax_chocoensis,
+            33   Gephyrocharax_intermedius,
+            34   Gephyrocharax_major,
+            35   Gephyrocharax_melanocheir,
+            36   Gephyrocharax_sinensis,
+            37   Gephyrocharax_Sp,
+            38   Gephyrocharax_valenci,
+            39   Gephyrocharax_venezuelae,
+            40   Gephyrocharax_whaleri,
+            41   Glandulocauda_melanogenys,
+            42   Glandulocauda_melanopleura,
+            43   Hysteronotus_hesperus,
+            44   Hysteronotus_myersi,
+            45   Iotabrycon_praecox,
+            46   Landonia_latidens,
+            47   Mimagoniates_barberi,
+            48   Mimagoniates_inequalis,
+            49   Mimagoniates_lateralis,
+            50   Mimagoniates_microlepis,
+            51   Phenacobrycon_henni,
+            52   Planaltina_myersi,
+            53   Pseudocorynopoma_doriae,
+            54   Pseudocorynopoma_heterandria,
+            55   Pterobrycon_landoni,
+            56   Pterobrycon_myrnae,
+            57   Scopaeocharax_atopodus,
+            58   Scopaeocharax_rhinodus,
+            59   Tyttocharax_madeirae,
+            60   Tyttocharax_Sp._A,
+            61   Tyttocharax_Species_B,
+            62   Xenurobrycon_heterodon,
+            63   Planaltina_sp,
+            64   Acrobrycon_Sp,
+            65   Xenurobrycon_polyancistrus,
+            66   Tyttocharax_sp,
+            67   Scopaeocharax_Sp,
+            68   Ptychocharax_rhyacophila,
+            69   Mimagoniates_sylvicola,
+            70   Mimagoniates_rheocharis,
+            71   Xenurobrycon_macropus,
+            72   Xenurobrycon_pteropus;
+      TREE 'Fig. 1+' = [&R] (1,(2,3),((5,(6,7)),((4,(9,10),(11,(13,12))),(8,(14,(15,(16,(17,(18,19)))))))));
+
+
+
+END;

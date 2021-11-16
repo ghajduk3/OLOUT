@@ -1,0 +1,111 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:39 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Bell P.R., & Evans D.C. 2010. Revision of the status of Saurolophus (Hadrosauridae)
+from California, USA. Canadian Journal of Earth Sciences, 47: 14171426.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S13114]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=22;
+        TAXLABELS
+            Amurosaurus
+            Anatotitan
+            Aralosaurus
+            Bactrosaurus
+            Brachylophosaurus
+            Charonosaurus
+            Corythosaurus
+            Edmontosaurus
+            Gryposaurus
+            Hypacrosaurus
+            Jaxartosaurus
+            Kerberosaurus
+            LACM_slash_CIT_2852
+            Lambeosaurus
+            Maiasaura
+            Olorotitan
+            Parasaurolophus
+            Prosaurolophus
+            Sahaliyania
+            Saurolophus
+            Tsintaosaurus
+            Wulagasaurus
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M13827]
+
+	TITLE Character_Matrix;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=56;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2 3" MISSING=? GAP= -;
+
+MATRIX
+[                               10        20        30        40        50      ]
+[                                .         .         .         .         .      ]
+Amurosaurus             01011101???????????01110100011101111111?111??11111111000
+Anatotitan              00100000130100112000100011101311110113113101011001112000
+Aralosaurus             ?1?00100?????????0?0101?10001??011111???????????????????
+Bactrosaurus            00000000000000000000000000000000000000000000000000000000
+Brachylophosaurus       00100000110100101001100110001221110112122101011001112001
+Charonosaurus           11011112???????????01110100111101111111??111111111111110
+Corythosaurus           01011111101011020120111010001110111111112111111111111000
+Edmontosaurus           00100000130100112000100011101311110113113101011001112000
+Gryposaurus             00100000120100101000100011001311110111112101011001112000
+Hypacrosaurus           01011111101011020120111010001110111111112111111111111000
+Jaxartosaurus           01001101???????????0110010001???????????????????????????
+Kerberosaurus           001?1000????????2??0100011?0131111011???2?0??11????????0
+LACM_slash_CIT_2852     ????????02??0????00?????????131111?1?211310??1?????????0
+Lambeosaurus            01011111101011020110111010001110111111112111111111111000
+Maiasaura               00100000110100001001100110001221110111122101011001112001
+Olorotitan              0101111110101102012011??10??11101111111?2111111111111000
+Parasaurolophus         11011122101010020110111010011110111111112111111111111110
+Prosaurolophus          00101000120100112002100011001311110112112101011001112000
+Sahaliyania             ?10?1111???????????011??10??11101?11111?211????111111???
+Saurolophus             001010001201001120021000110013111101121131?101100111200?
+Tsintaosaurus           0100110010??0????030110010001110111111111111111111111000
+Wulagasaurus            ?00?????????????????????10?????1?1???11????????00???2???
+;
+END;
+
+BEGIN TREES;
+      TITLE Analysis_results;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Bactrosaurus,
+            2    Aralosaurus,
+            3    Tsintaosaurus,
+            4    Jaxartosaurus,
+            5    Amurosaurus,
+            6    Corythosaurus,
+            7    Hypacrosaurus,
+            8    Olorotitan,
+            9    Lambeosaurus,
+            10   Parasaurolophus,
+            11   Charonosaurus,
+            12   Sahaliyania,
+            13   Wulagasaurus,
+            14   Maiasaura,
+            15   Brachylophosaurus,
+            16   Gryposaurus,
+            17   Kerberosaurus,
+            18   Saurolophus,
+            19   Prosaurolophus,
+            20   Anatotitan,
+            21   Edmontosaurus,
+            22   LACM_slash_CIT_2852;
+      TREE Figure_10 = [&R] (1,(9,(13,(14,15),(16,((17,(19,18)),(21,20))))));
+
+
+
+END;

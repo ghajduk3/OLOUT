@@ -1,0 +1,627 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:38 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Fisher M., Koenig G., White T., & Taylor J. 2002. Molecular and phenotypic description
+of Coccidioides posadasii sp. nov., previously recognized as the non-California
+population of Coccidioides immitis. Mycologia, 94(1): 73-84.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S834]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=175;
+        TAXLABELS
+            Coccidioides_immitis_10BA
+            Coccidioides_immitis_10SD
+            Coccidioides_immitis_11BA
+            Coccidioides_immitis_12BA
+            Coccidioides_immitis_12SD
+            Coccidioides_immitis_13BA
+            Coccidioides_immitis_13SD
+            Coccidioides_immitis_14BA
+            Coccidioides_immitis_14SD
+            Coccidioides_immitis_15BA
+            Coccidioides_immitis_15M1
+            Coccidioides_immitis_15SD
+            Coccidioides_immitis_16BA
+            Coccidioides_immitis_16SD
+            Coccidioides_immitis_17BA
+            Coccidioides_immitis_17TX
+            Coccidioides_immitis_18BA
+            Coccidioides_immitis_18SD
+            Coccidioides_immitis_19BA
+            Coccidioides_immitis_19SD
+            Coccidioides_immitis_1BA
+            Coccidioides_immitis_1EV
+            Coccidioides_immitis_1M1
+            Coccidioides_immitis_1MO
+            Coccidioides_immitis_1SD
+            Coccidioides_immitis_20BA
+            Coccidioides_immitis_20SD
+            Coccidioides_immitis_21BA
+            Coccidioides_immitis_21SD
+            Coccidioides_immitis_22BA
+            Coccidioides_immitis_22SD
+            Coccidioides_immitis_23BA
+            Coccidioides_immitis_23SD
+            Coccidioides_immitis_24BA
+            Coccidioides_immitis_25BA
+            Coccidioides_immitis_26BA
+            Coccidioides_immitis_27BA
+            Coccidioides_immitis_28BA
+            Coccidioides_immitis_29BA
+            Coccidioides_immitis_2BA
+            Coccidioides_immitis_2EV
+            Coccidioides_immitis_2M1
+            Coccidioides_immitis_30BA
+            Coccidioides_immitis_31BA
+            Coccidioides_immitis_32BA
+            Coccidioides_immitis_33BA
+            Coccidioides_immitis_3BA
+            Coccidioides_immitis_3EV
+            Coccidioides_immitis_3M3
+            Coccidioides_immitis_4BA
+            Coccidioides_immitis_4EV
+            Coccidioides_immitis_4M3
+            Coccidioides_immitis_4SD
+            Coccidioides_immitis_5BA
+            Coccidioides_immitis_5EV
+            Coccidioides_immitis_5M3
+            Coccidioides_immitis_5SD
+            Coccidioides_immitis_6BA
+            Coccidioides_immitis_6EV
+            Coccidioides_immitis_7BA
+            Coccidioides_immitis_7M1
+            Coccidioides_immitis_7SD
+            Coccidioides_immitis_8BA
+            Coccidioides_immitis_8M3
+            Coccidioides_immitis_8SD
+            Coccidioides_immitis_9BA
+            Coccidioides_posadasii_10AZ
+            Coccidioides_posadasii_10M1
+            Coccidioides_posadasii_10M2
+            Coccidioides_posadasii_10SA
+            Coccidioides_posadasii_10TX
+            Coccidioides_posadasii_11AZ
+            Coccidioides_posadasii_11M1
+            Coccidioides_posadasii_11SA
+            Coccidioides_posadasii_11SD
+            Coccidioides_posadasii_11TX
+            Coccidioides_posadasii_12AZ
+            Coccidioides_posadasii_12M1
+            Coccidioides_posadasii_12SA
+            Coccidioides_posadasii_12TX
+            Coccidioides_posadasii_13AZ
+            Coccidioides_posadasii_13M1
+            Coccidioides_posadasii_13SA
+            Coccidioides_posadasii_13TX
+            Coccidioides_posadasii_14AZ
+            Coccidioides_posadasii_14M1
+            Coccidioides_posadasii_14SA
+            Coccidioides_posadasii_14TX
+            Coccidioides_posadasii_15AZ
+            Coccidioides_posadasii_15TX
+            Coccidioides_posadasii_16AZ
+            Coccidioides_posadasii_16M1
+            Coccidioides_posadasii_16TX
+            Coccidioides_posadasii_17AZ
+            Coccidioides_posadasii_17M1
+            Coccidioides_posadasii_17SD
+            Coccidioides_posadasii_18AZ
+            Coccidioides_posadasii_18M1
+            Coccidioides_posadasii_18TX
+            Coccidioides_posadasii_19AZ
+            Coccidioides_posadasii_19TX
+            Coccidioides_posadasii_1AZ
+            Coccidioides_posadasii_1M2
+            Coccidioides_posadasii_1M3
+            Coccidioides_posadasii_1SA
+            Coccidioides_posadasii_1SL
+            Coccidioides_posadasii_1TX
+            Coccidioides_posadasii_20AZ
+            Coccidioides_posadasii_20TX
+            Coccidioides_posadasii_21AZ
+            Coccidioides_posadasii_21TX
+            Coccidioides_posadasii_22AZ
+            Coccidioides_posadasii_22TX
+            Coccidioides_posadasii_23AZ
+            Coccidioides_posadasii_23TX
+            Coccidioides_posadasii_24AZ
+            Coccidioides_posadasii_24TX
+            Coccidioides_posadasii_25AZ
+            Coccidioides_posadasii_25TX
+            Coccidioides_posadasii_26AZ
+            Coccidioides_posadasii_27AZ
+            Coccidioides_posadasii_28AZ
+            Coccidioides_posadasii_29AZ
+            Coccidioides_posadasii_2AZ
+            Coccidioides_posadasii_2M2
+            Coccidioides_posadasii_2M3
+            Coccidioides_posadasii_2SA
+            Coccidioides_posadasii_2SD
+            Coccidioides_posadasii_2SL
+            Coccidioides_posadasii_2TX
+            Coccidioides_posadasii_30AZ
+            Coccidioides_posadasii_31AZ
+            Coccidioides_posadasii_3AZ
+            Coccidioides_posadasii_3M1
+            Coccidioides_posadasii_3M2
+            Coccidioides_posadasii_3SA
+            Coccidioides_posadasii_3SD
+            Coccidioides_posadasii_3SL
+            Coccidioides_posadasii_3TX
+            Coccidioides_posadasii_4AZ
+            Coccidioides_posadasii_4M1
+            Coccidioides_posadasii_4M2
+            Coccidioides_posadasii_4SA
+            Coccidioides_posadasii_4SL
+            Coccidioides_posadasii_4TX
+            Coccidioides_posadasii_5AZ
+            Coccidioides_posadasii_5M1
+            Coccidioides_posadasii_5M2
+            Coccidioides_posadasii_5SA
+            Coccidioides_posadasii_5TX
+            Coccidioides_posadasii_6AZ
+            Coccidioides_posadasii_6M1
+            Coccidioides_posadasii_6M2
+            Coccidioides_posadasii_6M3
+            Coccidioides_posadasii_6SA
+            Coccidioides_posadasii_6SD
+            Coccidioides_posadasii_6TX
+            Coccidioides_posadasii_7AZ
+            Coccidioides_posadasii_7M2
+            Coccidioides_posadasii_7M3
+            Coccidioides_posadasii_7SA
+            Coccidioides_posadasii_7TX
+            Coccidioides_posadasii_8AZ
+            Coccidioides_posadasii_8M1
+            Coccidioides_posadasii_8M2
+            Coccidioides_posadasii_8SA
+            Coccidioides_posadasii_8TX
+            Coccidioides_posadasii_9AZ
+            Coccidioides_posadasii_9M1
+            Coccidioides_posadasii_9M2
+            Coccidioides_posadasii_9SA
+            Coccidioides_posadasii_9SD
+            Coccidioides_posadasii_9TX
+            Coccidioides_posadasii_CH
+            Coccidioides_posadasii_RS
+            ;
+END;
+
+BEGIN TAXA;
+        TITLE  Taxa2;
+        DIMENSIONS NTAX=10;
+        TAXLABELS
+            Coccidioides_immitis_BA_CA
+            Coccidioides_immitis_M_CA
+            Coccidioides_immitis_SD_CA
+            Coccidioides_posadasii_AZ_NCA
+            Coccidioides_posadasii_M1_NCA
+            Coccidioides_posadasii_M2_NCA
+            Coccidioides_posadasii_M3_NCA
+            Coccidioides_posadasii_SA_NCA
+            Coccidioides_posadasii_SD_NCA
+            Coccidioides_posadasii_TX_NCA
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M273]
+
+	TITLE 'Cocci deltamu^2';
+	LINK TAXA = Taxa2;
+	DIMENSIONS NCHAR=1;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1" MISSING=? GAP= -;
+
+MATRIX
+Coccidioides_immitis_BA_CA        ?
+Coccidioides_immitis_M_CA         ?
+Coccidioides_immitis_SD_CA        ?
+Coccidioides_posadasii_AZ_NCA     ?
+Coccidioides_posadasii_M1_NCA     ?
+Coccidioides_posadasii_M2_NCA     ?
+Coccidioides_posadasii_M3_NCA     ?
+Coccidioides_posadasii_SA_NCA     ?
+Coccidioides_posadasii_SD_NCA     ?
+Coccidioides_posadasii_TX_NCA     ?
+;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M91]
+
+	TITLE All_taxa_microsat;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=9;
+	FORMAT DATATYPE=Standard SYMBOLS= "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z 0" MISSING=? GAP= -;
+
+MATRIX
+Coccidioides_immitis_10BA       EKODKGDJL
+Coccidioides_immitis_10SD       FHPBLGDJD
+Coccidioides_immitis_11BA       DLOBGGFJF
+Coccidioides_immitis_12BA       FGUBLGDJP
+Coccidioides_immitis_12SD       GFPBIG?JD
+Coccidioides_immitis_13BA       DGOBKGDHJ
+Coccidioides_immitis_13SD       GHQFKGDJC
+Coccidioides_immitis_14BA       CEODDGDJM
+Coccidioides_immitis_14SD       HHNB?GDJK
+Coccidioides_immitis_15BA       EGPBGGDJC
+Coccidioides_immitis_15M1       GIOFLGDJJ
+Coccidioides_immitis_15SD       H?PBKG?JD
+Coccidioides_immitis_16BA       DKADKGDJL
+Coccidioides_immitis_16SD       EHQFKGDJO
+Coccidioides_immitis_17BA       EFTDFGDJE
+Coccidioides_immitis_17TX       FLCAKGDJK
+Coccidioides_immitis_18BA       EJOEMGDJM
+Coccidioides_immitis_18SD       BFEBDGDJC
+Coccidioides_immitis_19BA       EGOBKGDMQ
+Coccidioides_immitis_19SD       BHOFKGDJM
+Coccidioides_immitis_1BA        FFOBFGDJL
+Coccidioides_immitis_1EV        GGODKGCJK
+Coccidioides_immitis_1M1        EFV?LH?KC
+Coccidioides_immitis_1MO        FJODIGBJP
+Coccidioides_immitis_1SD        CHQCCGDJC
+Coccidioides_immitis_20BA       CEADKGDJK
+Coccidioides_immitis_20SD       BHOFKGDJM
+Coccidioides_immitis_21BA       CEODDGDJM
+Coccidioides_immitis_21SD       DHQDKGDJO
+Coccidioides_immitis_22BA       FFNDGGDKL
+Coccidioides_immitis_22SD       GHQFKGDJO
+Coccidioides_immitis_23BA       EIOBGGDJD
+Coccidioides_immitis_23SD       G?QFKGDHL
+Coccidioides_immitis_24BA       EKUBKGDJE
+Coccidioides_immitis_25BA       FLDBLGDJK
+Coccidioides_immitis_26BA       FFPBHGDKO
+Coccidioides_immitis_27BA       EFVELGDKP
+Coccidioides_immitis_28BA       DFABBGDJJ
+Coccidioides_immitis_29BA       CGPBBGDKK
+Coccidioides_immitis_2BA        DGNBF??JK
+Coccidioides_immitis_2EV        BFPBKGDJD
+Coccidioides_immitis_2M1        GHQF?GDJO
+Coccidioides_immitis_30BA       BGBDEGDJJ
+Coccidioides_immitis_31BA       FKCBGGDJM
+Coccidioides_immitis_32BA       EGQBG?DMJ
+Coccidioides_immitis_33BA       EEQBKGDKJ
+Coccidioides_immitis_3BA        F?OBFGDJL
+Coccidioides_immitis_3EV        CFPBKEDJA
+Coccidioides_immitis_3M3        EIRFKGDJP
+Coccidioides_immitis_4BA        CENBKG?KK
+Coccidioides_immitis_4EV        DHPBIGDJD
+Coccidioides_immitis_4M3        FLPBKGCJO
+Coccidioides_immitis_4SD        FFSBLGDM?
+Coccidioides_immitis_5BA        FFQBKGCJJ
+Coccidioides_immitis_5EV        DFPBKGDJD
+Coccidioides_immitis_5M3        BFODKGDJC
+Coccidioides_immitis_5SD        GHCFLGDJO
+Coccidioides_immitis_6BA        FGNBIGDJK
+Coccidioides_immitis_6EV        CF?BKGDJO
+Coccidioides_immitis_7BA        EIOMIGDKK
+Coccidioides_immitis_7M1        GHPFJG?JO
+Coccidioides_immitis_7SD        CFPBLGDJD
+Coccidioides_immitis_8BA        ELP?GGD?E
+Coccidioides_immitis_8M3        GKOBKGDJK
+Coccidioides_immitis_8SD        EGPBLGDJL
+Coccidioides_immitis_9BA        DGNDIGDJL
+Coccidioides_posadasii_10AZ     ABKICEDGI
+Coccidioides_posadasii_10M1     ABLKBGDFF
+Coccidioides_posadasii_10M2     ACMMBQ?FN
+Coccidioides_posadasii_10SA     ACHKAIDHJ
+Coccidioides_posadasii_10TX     ACRKAIDEJ
+Coccidioides_posadasii_11AZ     ABKICEHMD
+Coccidioides_posadasii_11M1     A?LJBP?FF
+Coccidioides_posadasii_11SA     ACHKAIDHJ
+Coccidioides_posadasii_11SD     ABLJAGDHH
+Coccidioides_posadasii_11TX     ABRKAIDEJ
+Coccidioides_posadasii_12AZ     ABIIAGEBH
+Coccidioides_posadasii_12M1     ABLJBODFF
+Coccidioides_posadasii_12SA     ACHKAIDFH
+Coccidioides_posadasii_12TX     ABHKAIBED
+Coccidioides_posadasii_13AZ     ABKICEHMD
+Coccidioides_posadasii_13M1     ABMGAEIFB
+Coccidioides_posadasii_13SA     ACMKAIDFH
+Coccidioides_posadasii_13TX     ACWKAEBEH
+Coccidioides_posadasii_14AZ     ABIIAGBIH
+Coccidioides_posadasii_14M1     ABSKAIDEJ
+Coccidioides_posadasii_14SA     ACMKAGHEE
+Coccidioides_posadasii_14TX     ACLIAAHFF
+Coccidioides_posadasii_15AZ     ABYIACBIH
+Coccidioides_posadasii_15TX     A?L?AAHFF
+Coccidioides_posadasii_16AZ     ABMJAGHFH
+Coccidioides_posadasii_16M1     ABIKAI?E?
+Coccidioides_posadasii_16TX     ACL?CIDFH
+Coccidioides_posadasii_17AZ     ABKHCGHFH
+Coccidioides_posadasii_17M1     ABKKANDDJ
+Coccidioides_posadasii_17SD     ABGJCIGMF
+Coccidioides_posadasii_18AZ     ABLHCE?EF
+Coccidioides_posadasii_18M1     ABXJAGDHH
+Coccidioides_posadasii_18TX     ACIKACBMD
+Coccidioides_posadasii_19AZ     ABLJCEDFH
+Coccidioides_posadasii_19TX     ABIKAIBEJ
+Coccidioides_posadasii_1AZ      ABMIAGHFD
+Coccidioides_posadasii_1M2      ABKKAIDHJ
+Coccidioides_posadasii_1M3      ABLKACHIJ
+Coccidioides_posadasii_1SA      ACHKAIDHJ
+Coccidioides_posadasii_1SL      ACIIAMIFG
+Coccidioides_posadasii_1TX      ACIKAIDEJ
+Coccidioides_posadasii_20AZ     ABKICEHFH
+Coccidioides_posadasii_20TX     ABRKAEBHJ
+Coccidioides_posadasii_21AZ     ABKIAGHFH
+Coccidioides_posadasii_21TX     ABWKAIDEH
+Coccidioides_posadasii_22AZ     ABMIAGHFD
+Coccidioides_posadasii_22TX     ABLKAEDFJ
+Coccidioides_posadasii_23AZ     ABKICNHFH
+Coccidioides_posadasii_23TX     ABLKAIBEJ
+Coccidioides_posadasii_24AZ     ABILCGBFH
+Coccidioides_posadasii_24TX     ABRKAEBHJ
+Coccidioides_posadasii_25AZ     ABJLAEHHH
+Coccidioides_posadasii_25TX     ACH?CGHFG
+Coccidioides_posadasii_26AZ     ABILCEHFH
+Coccidioides_posadasii_27AZ     AAJICNHMH
+Coccidioides_posadasii_28AZ     ABLIAJHHH
+Coccidioides_posadasii_29AZ     ABIIAMIFF
+Coccidioides_posadasii_2AZ      ABHICEIFH
+Coccidioides_posadasii_2M2      ABLKAIDHK
+Coccidioides_posadasii_2M3      ABKKANDEJ
+Coccidioides_posadasii_2SA      ACKIAIDHJ
+Coccidioides_posadasii_2SD      ACGIAGIHD
+Coccidioides_posadasii_2SL      ACIIAMIFG
+Coccidioides_posadasii_2TX      ACHHAIAED
+Coccidioides_posadasii_30AZ     ABFKC?HFD
+Coccidioides_posadasii_31AZ     ACHIKEHHG
+Coccidioides_posadasii_3AZ      ABMJAKDEF
+Coccidioides_posadasii_3M1      ABSKAIDHJ
+Coccidioides_posadasii_3M2      ABKKAIDHJ
+Coccidioides_posadasii_3SA      ACHKAIDHJ
+Coccidioides_posadasii_3SD      ACHKAEDEJ
+Coccidioides_posadasii_3SL      ACIIAMIFG
+Coccidioides_posadasii_3TX      ACMLAGDFD
+Coccidioides_posadasii_4AZ      ABKJAEHFH
+Coccidioides_posadasii_4M1      ABZ?COFFD
+Coccidioides_posadasii_4M2      ABXKAIBEJ
+Coccidioides_posadasii_4SA      ACHJAIDEJ
+Coccidioides_posadasii_4SL      ICIIAMIHH
+Coccidioides_posadasii_4TX      ACRKAEBHJ
+Coccidioides_posadasii_5AZ      ABHIANBFF
+Coccidioides_posadasii_5M1      ABXJCBDLD
+Coccidioides_posadasii_5M2      ABKKAEBHJ
+Coccidioides_posadasii_5SA      ACHKAIDEJ
+Coccidioides_posadasii_5TX      ABLKAEDFJ
+Coccidioides_posadasii_6AZ      ABMIAGHFD
+Coccidioides_posadasii_6M1      AB?KBFD??
+Coccidioides_posadasii_6M2      ABWKANDEJ
+Coccidioides_posadasii_6M3      ABYJACDAJ
+Coccidioides_posadasii_6SA      ACHJAIDEJ
+Coccidioides_posadasii_6SD      ADGJCGIFF
+Coccidioides_posadasii_6TX      ACSKAIDEJ
+Coccidioides_posadasii_7AZ      ABHKCGGCB
+Coccidioides_posadasii_7M2      ACHKBEDEJ
+Coccidioides_posadasii_7M3      ABYJACDAJ
+Coccidioides_posadasii_7SA      ABKJAIDHJ
+Coccidioides_posadasii_7TX      ACIKAIBEJ
+Coccidioides_posadasii_8AZ      ABHICNHFD
+Coccidioides_posadasii_8M1      ABRIBIDEH
+Coccidioides_posadasii_8M2      ABIIBIDCJ
+Coccidioides_posadasii_8SA      ABHKAIDHJ
+Coccidioides_posadasii_8TX      ACIKAEDEJ
+Coccidioides_posadasii_9AZ      ABIICMHFJ
+Coccidioides_posadasii_9M1      ABLKBE?EH
+Coccidioides_posadasii_9M2      ABLIBD?IJ
+Coccidioides_posadasii_9SA      ABHKAIDFH
+Coccidioides_posadasii_9SD      ABKLCLDEB
+Coccidioides_posadasii_9TX      ACLKAIBEJ
+Coccidioides_posadasii_CH       A?RKAEDEJ
+Coccidioides_posadasii_RS       CE0BNGDJF
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb6146;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Coccidioides_posadasii_RS,
+            2    Coccidioides_immitis_8M3,
+            3    Coccidioides_posadasii_7M3,
+            4    Coccidioides_posadasii_6M3,
+            5    Coccidioides_immitis_5M3,
+            6    Coccidioides_immitis_4M3,
+            7    Coccidioides_immitis_3M3,
+            8    Coccidioides_posadasii_2M3,
+            9    Coccidioides_posadasii_1M3,
+            10   Coccidioides_posadasii_10M2,
+            11   Coccidioides_posadasii_9M2,
+            12   Coccidioides_posadasii_8M2,
+            13   Coccidioides_posadasii_7M2,
+            14   Coccidioides_posadasii_6M2,
+            15   Coccidioides_posadasii_5M2,
+            16   Coccidioides_posadasii_4M2,
+            17   Coccidioides_posadasii_3M2,
+            18   Coccidioides_posadasii_2M2,
+            19   Coccidioides_posadasii_1M2,
+            20   Coccidioides_posadasii_18M1,
+            21   Coccidioides_posadasii_17M1,
+            22   Coccidioides_posadasii_16M1,
+            23   Coccidioides_immitis_15M1,
+            24   Coccidioides_posadasii_14M1,
+            25   Coccidioides_posadasii_13M1,
+            26   Coccidioides_posadasii_12M1,
+            27   Coccidioides_posadasii_11M1,
+            28   Coccidioides_posadasii_10M1,
+            29   Coccidioides_posadasii_9M1,
+            30   Coccidioides_posadasii_8M1,
+            31   Coccidioides_immitis_7M1,
+            32   Coccidioides_posadasii_6M1,
+            33   Coccidioides_posadasii_5M1,
+            34   Coccidioides_posadasii_4M1,
+            35   Coccidioides_posadasii_3M1,
+            36   Coccidioides_immitis_2M1,
+            37   Coccidioides_immitis_1M1,
+            38   Coccidioides_immitis_1MO,
+            39   Coccidioides_immitis_33BA,
+            40   Coccidioides_immitis_32BA,
+            41   Coccidioides_immitis_31BA,
+            42   Coccidioides_immitis_30BA,
+            43   Coccidioides_immitis_29BA,
+            44   Coccidioides_immitis_28BA,
+            45   Coccidioides_immitis_27BA,
+            46   Coccidioides_immitis_26BA,
+            47   Coccidioides_immitis_25BA,
+            48   Coccidioides_immitis_24BA,
+            49   Coccidioides_immitis_23BA,
+            50   Coccidioides_immitis_22BA,
+            51   Coccidioides_immitis_21BA,
+            52   Coccidioides_immitis_20BA,
+            53   Coccidioides_immitis_19BA,
+            54   Coccidioides_immitis_18BA,
+            55   Coccidioides_immitis_17BA,
+            56   Coccidioides_immitis_16BA,
+            57   Coccidioides_immitis_15BA,
+            58   Coccidioides_immitis_14BA,
+            59   Coccidioides_immitis_13BA,
+            60   Coccidioides_immitis_12BA,
+            61   Coccidioides_immitis_11BA,
+            62   Coccidioides_immitis_10BA,
+            63   Coccidioides_immitis_9BA,
+            64   Coccidioides_immitis_8BA,
+            65   Coccidioides_immitis_7BA,
+            66   Coccidioides_immitis_6BA,
+            67   Coccidioides_immitis_5BA,
+            68   Coccidioides_immitis_4BA,
+            69   Coccidioides_immitis_3BA,
+            70   Coccidioides_immitis_2BA,
+            71   Coccidioides_immitis_1BA,
+            72   Coccidioides_immitis_6EV,
+            73   Coccidioides_immitis_5EV,
+            74   Coccidioides_immitis_4EV,
+            75   Coccidioides_immitis_3EV,
+            76   Coccidioides_immitis_2EV,
+            77   Coccidioides_immitis_1EV,
+            78   Coccidioides_posadasii_31AZ,
+            79   Coccidioides_posadasii_30AZ,
+            80   Coccidioides_posadasii_29AZ,
+            81   Coccidioides_posadasii_28AZ,
+            82   Coccidioides_posadasii_27AZ,
+            83   Coccidioides_posadasii_26AZ,
+            84   Coccidioides_posadasii_25AZ,
+            85   Coccidioides_posadasii_24AZ,
+            86   Coccidioides_posadasii_23AZ,
+            87   Coccidioides_posadasii_22AZ,
+            88   Coccidioides_posadasii_21AZ,
+            89   Coccidioides_posadasii_20AZ,
+            90   Coccidioides_posadasii_19AZ,
+            91   Coccidioides_posadasii_18AZ,
+            92   Coccidioides_posadasii_17AZ,
+            93   Coccidioides_posadasii_16AZ,
+            94   Coccidioides_posadasii_15AZ,
+            95   Coccidioides_posadasii_14AZ,
+            96   Coccidioides_posadasii_13AZ,
+            97   Coccidioides_posadasii_12AZ,
+            98   Coccidioides_posadasii_11AZ,
+            99   Coccidioides_posadasii_10AZ,
+            100  Coccidioides_posadasii_9AZ,
+            101  Coccidioides_posadasii_8AZ,
+            102  Coccidioides_posadasii_7AZ,
+            103  Coccidioides_posadasii_6AZ,
+            104  Coccidioides_posadasii_5AZ,
+            105  Coccidioides_posadasii_4AZ,
+            106  Coccidioides_posadasii_3AZ,
+            107  Coccidioides_posadasii_2AZ,
+            108  Coccidioides_posadasii_1AZ,
+            109  Coccidioides_posadasii_4SL,
+            110  Coccidioides_posadasii_3SL,
+            111  Coccidioides_posadasii_2SL,
+            112  Coccidioides_posadasii_1SL,
+            113  Coccidioides_posadasii_25TX,
+            114  Coccidioides_posadasii_24TX,
+            115  Coccidioides_posadasii_23TX,
+            116  Coccidioides_posadasii_22TX,
+            117  Coccidioides_posadasii_21TX,
+            118  Coccidioides_posadasii_20TX,
+            119  Coccidioides_posadasii_19TX,
+            120  Coccidioides_posadasii_18TX,
+            121  Coccidioides_immitis_17TX,
+            122  Coccidioides_posadasii_16TX,
+            123  Coccidioides_posadasii_15TX,
+            124  Coccidioides_posadasii_14TX,
+            125  Coccidioides_posadasii_13TX,
+            126  Coccidioides_posadasii_12TX,
+            127  Coccidioides_posadasii_11TX,
+            128  Coccidioides_posadasii_10TX,
+            129  Coccidioides_posadasii_9TX,
+            130  Coccidioides_posadasii_8TX,
+            131  Coccidioides_posadasii_7TX,
+            132  Coccidioides_posadasii_6TX,
+            133  Coccidioides_posadasii_5TX,
+            134  Coccidioides_posadasii_4TX,
+            135  Coccidioides_posadasii_3TX,
+            136  Coccidioides_posadasii_2TX,
+            137  Coccidioides_posadasii_1TX,
+            138  Coccidioides_immitis_23SD,
+            139  Coccidioides_immitis_22SD,
+            140  Coccidioides_immitis_21SD,
+            141  Coccidioides_immitis_20SD,
+            142  Coccidioides_immitis_19SD,
+            143  Coccidioides_immitis_18SD,
+            144  Coccidioides_posadasii_17SD,
+            145  Coccidioides_immitis_16SD,
+            146  Coccidioides_immitis_15SD,
+            147  Coccidioides_immitis_14SD,
+            148  Coccidioides_immitis_13SD,
+            149  Coccidioides_immitis_12SD,
+            150  Coccidioides_posadasii_11SD,
+            151  Coccidioides_immitis_10SD,
+            152  Coccidioides_posadasii_9SD,
+            153  Coccidioides_immitis_8SD,
+            154  Coccidioides_immitis_7SD,
+            155  Coccidioides_posadasii_6SD,
+            156  Coccidioides_immitis_5SD,
+            157  Coccidioides_immitis_4SD,
+            158  Coccidioides_posadasii_3SD,
+            159  Coccidioides_posadasii_2SD,
+            160  Coccidioides_immitis_1SD,
+            161  Coccidioides_posadasii_14SA,
+            162  Coccidioides_posadasii_13SA,
+            163  Coccidioides_posadasii_12SA,
+            164  Coccidioides_posadasii_11SA,
+            165  Coccidioides_posadasii_10SA,
+            166  Coccidioides_posadasii_9SA,
+            167  Coccidioides_posadasii_8SA,
+            168  Coccidioides_posadasii_7SA,
+            169  Coccidioides_posadasii_6SA,
+            170  Coccidioides_posadasii_5SA,
+            171  Coccidioides_posadasii_4SA,
+            172  Coccidioides_posadasii_3SA,
+            173  Coccidioides_posadasii_2SA,
+            174  Coccidioides_posadasii_1SA,
+            175  Coccidioides_posadasii_CH;
+      TREE Fig._2 = [&R] (((((((((((((((175,(158,130)),13),((((((174,172),165),164),170),(171,169)),(((137,132),128),(127,24)))),(173,(((168,(19,17)),(167,35)),18))),(((131,129),((119,22),(115,16))),126)),((133,116),((21,8),14))),(((166,163),162),117)),(((134,(118,114)),15),125)),(106,(4,3))),(136,120)),(((((122,90),91),(((32,28),29),(27,26))),(30,12)),(11,9))),((((((161,(135,((((108,103),87),93),88))),((124,123),104)),25),(((150,20),(84,81)),((97,95),94))),(((((107,(105,(92,(89,86)))),(85,83)),(((101,79),34),100)),(99,(98,96))),82)),((159,((((112,111),110),80),109)),(113,78)))),(((155,144),33),(152,102))),10),((((((160,(((((156,31),(((148,(139,36)),145),140)),138),(142,141)),(23,7))),((((143,5),55),42),(((77,2),(63,(62,56))),(((58,51),52),1)))),((((((((157,60),(71,69)),41),(121,47)),(((((154,151),((149,74),(146,(76,73)))),(75,72)),44),(67,6))),(((147,66),70),(68,43))),(((((153,57),64),49),48),((59,53),(40,39)))),(50,46))),61),((65,54),38)),(45,37)));
+
+
+
+END;
+BEGIN TREES;
+      TITLE Tb6147;
+      LINK TAXA = Taxa2;
+         TRANSLATE
+            1    Coccidioides_immitis_M_CA,
+            2    Coccidioides_immitis_BA_CA,
+            3    Coccidioides_immitis_SD_CA,
+            4    Coccidioides_posadasii_M3_NCA,
+            5    Coccidioides_posadasii_M2_NCA,
+            6    Coccidioides_posadasii_M1_NCA,
+            7    Coccidioides_posadasii_AZ_NCA,
+            8    Coccidioides_posadasii_TX_NCA,
+            9    Coccidioides_posadasii_SD_NCA,
+            10   Coccidioides_posadasii_SA_NCA;
+      TREE Fig._3 = [&R] (10,(9,((8,(((6,4),((3,1),2)Coccidioides_immitis),5)),7)))Coccidioides;
+
+
+
+END;

@@ -1,0 +1,97 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:46 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Ramirez M. 1995. A phylogenetic analysis of the subfamilies of Anyphaenidae (Arachnida,
+Araneae). Entomologica Scandinavica, 26(4): 361-384.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S396]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=10;
+        TAXLABELS
+            Amaurobioides
+            Anyphaena
+            Arachosia
+            Coptoprepes
+            Ferrieria
+            Gayenna
+            Malenella
+            Outgroup_to_Anyphaenidae
+            Sanogasta
+            Wulfila
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M2087]
+
+	TITLE Table_1;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=20;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2" MISSING=? GAP= -;
+	CHARSTATELABELS
+		1  position_of_tracheal_spiracle / 'posteriorly situated, close to' separated_from_spinnerets_up_to 'well advanced, closer to the ep',
+		2  anyphaenid_tracheal_pattern / absent present,
+		3  length_of_lateral_tracheae / short_branches long_branches,
+		4  position_of_first_thick_lateral / separated_from_origin_of_latera contiguous_to_origin_of_lateral,
+		5  claw_tuft_hairs / moderately_flattened_setae spatulate_setae,
+		6  orientation_of_claw_tuft_setae / 'flat sides up- and downwards' ridged_side_directed_outwards,
+		7  number_of_retromarginal_chelice / two three four_or_more.,
+		8  thickened_female_palp / absent present,
+		9  patch_of_blunt_hairs_on_female / absent present,
+		10  AME_much_smaller_than_ALE / absent present,
+		11  number_of_tibial_apophyses / one two_or_more none.,
+		12  'spine-like retrolateral tibial' / absent present,
+		13  'sclerotized, often protruding,' / absent present,
+		14  tegulum_with_a_deep_notch_occup / absent present,
+		15  presence_of_median_apophysis / present absent,
+		16  shape_of_median_apophysis / moderately_thick slender,
+		17  grooved_conductor / absent present,
+		18  shape_of_amaurobioidine_paramed / 'thick, not closely associated w' thin_closely_associated_with_me,
+		19  'female copulatory ducts thin, l' / absent present,
+		20  presence_of_amaurobioidine_seco / absent present,
+		;
+
+MATRIX
+[                                    10        20        30        40 ]
+[                                     .         .         .         . ]
+Amaurobioides                11001110000111001001
+Anyphaena                    21111120001010000-00
+Arachosia                    21111100002-11010111
+Coptoprepes                  11001120000{01}11001001
+Ferrieria                    11001120000111001001
+Gayenna                      11001100002-11010011
+Malenella                    110010211110001-0-00
+Outgroup_to_Anyphaenidae     {012}0--00{012}000{012}000{01}{01}{01}-00
+Sanogasta                    11001100002-11010111
+Wulfila                      21111120011010000-00
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb5245;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Malenella,
+            2    Wulfila,
+            3    Anyphaena,
+            4    Coptoprepes,
+            5    Amaurobioides,
+            6    Ferrieria,
+            7    Gayenna,
+            8    Arachosia,
+            9    Sanogasta,
+            10   Outgroup_to_Anyphaenidae;
+      TREE Fig._35 = [&R] (1,((2,3)Anyphaeninae,((4,5,6),(7,(8,9)))Amaurobioidinae))Anyphaenidae;
+
+
+
+END;

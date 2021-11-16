@@ -1,0 +1,645 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:49 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Prendini L. 2000. Phylogeny and classification of the superfamily Scorpionoidea Latreille
+1802 (Chelicerata, Scorpiones): an exemplar approach. Cladistics, 16: 1-78.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S652]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=37;
+        TAXLABELS
+            Bioculus
+            Bothriurus
+            Brachistosternus
+            Buthidae
+            Cazierius
+            Centromachetes
+            Cercophonius
+            Chaerilus
+            Cheloctonus
+            Chiromachetes
+            Chiromachus
+            Didymocentrus
+            Diplocentrus
+            Habibiella
+            Hadogenes
+            Hemiscorpius
+            Heterometrus
+            Heteronebo
+            Heteroscorpion
+            Iomachus
+            Liocheles
+            Lisposoma
+            Nebo
+            Oiclus
+            Opisthacanthus
+            Opistophthalmus
+            Orobothriurus
+            Pandinus
+            Phoniocercus
+            Scorpio
+            Tarsoporosus
+            Tehuankea
+            Thestylus
+            Timogenes
+            Urodacus
+            Urophonius
+            Vachonia
+            ;
+END;
+
+BEGIN TAXA;
+        TITLE  Taxa2;
+        DIMENSIONS NTAX=71;
+        TAXLABELS
+            Bioculus_caboensis
+            Bioculus_comondae
+            Bothriurus_bonariensis
+            Bothriurus_coriaceus
+            Brachistosternus_alienus
+            Brachistosternus_ehrenbergii
+            Brachistosternus_ferrugineus
+            Cazierius_gundlachii
+            Cazierius_scaber
+            Centromachetes_obscurus
+            Centromachetes_pocockii
+            Centruroides_gracilis
+            Cercaphonius_queenslandae
+            Cercophonius_squama
+            Chaeritus_granosus
+            Cheloctonus_crassimanus
+            Cheloctonus_jonesii
+            Chiromachetes_fergusoni
+            Chiromachetes_tirupati
+            Chiromachus_ochropus
+            Didymocentrus_hasethi
+            Didymocentrus_lesueurn
+            Diplocentrus_gertschi
+            Diplocentrus_mexicanus
+            Habibiella_gaillardi
+            Hadogenes_tityrus
+            Hadogenes_troglodytes
+            Hemiscorpius_lepturus
+            Hemiscorpius_maindroni
+            Heterometrus_spinifer
+            Heterometrus_swammerdami
+            Heteronebo_granti
+            Heteronebo_jamaicae
+            Heteroscorpion_goodmani
+            Heteroscorpion_opisthacanthoides
+            Iomachus_laeviceps
+            Iomachus_politus
+            Liocheles_australasiae
+            Liocheles_waigiensis
+            Lisposoma_elegans
+            Lisposoma_josehermana
+            Nebo_hierichonticus
+            Nebo_poggesii
+            Oiclus_purvesii
+            Opisthacanthus_elatus
+            Opisthacanthus_madagascariensis
+            Opisthacanthus_validus
+            Opistophfhalmus_boehmi
+            Opistophthalmus_capensis
+            Opistophthalmus_holmi
+            Orobothriurus_alticola
+            Orobothriurus_crassimanus
+            Palaeocheloctonus_pauliani
+            Pandinus_cavimanus
+            Pandinus_dictator
+            Pandinus_imperator
+            Phoniocercus_piclus
+            Phoniocercus_sanmartini
+            Scorpio_maurus_kruglovi
+            Scorpio_maurus_mogadorensis
+            Tarsoporosus_flavus
+            Tehuankea_moyanoi
+            Thestylus_glasioui
+            Timogenes_dorbignyi
+            Timogenes_mapuche
+            Torsoporosus_kugleri
+            Urodacus_novaehollandiae
+            Urodacus_yaschenkoi
+            Urophonius_granulatus
+            Urophonius_iheringii
+            Vachonia_martinezi
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M2591]
+
+	TITLE Table_3;
+	LINK TAXA = Taxa2;
+	DIMENSIONS NCHAR=115;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2 3 4" MISSING=? GAP= -;
+	CHARSTATELABELS
+		1  'Carapace, Lateral ocelli, number of pairs' / more_than_three three two,
+		2  Median_ocular_tubercle / raised shallow.,
+		3  Median_notch / absent shallow strongly_excavated,
+		4  Median_longitudinal_furrow / 'broad, shallow, without suture' 'narrow, suturiform.',
+		5  Median_longitudinal_furrow / 'well-developed' obsolete.,
+		6  'Antero-ocular depression' / absent present.,
+		7  Posterior_sutures / absent present.,
+		8  'Nongranular surfaces of prosoma, mesosoma, metasoma, and legs' / smooth distinctly_punctate.,
+		9  'Sternum, Sternum shape' / subtriangular subpentagonal transverse equilateral_pentagonal.,
+		10  'Chelicerae, Cheliceral movable finger, number of subdistal teeth' / one two.,
+		11  'Cheliceral movable finger, distal external and distal internal teeth' / 'subequal, with distal external tooth only slightly smaller than' 'unequal, with distal external tooth considerably smaller than d',
+		12  'Cheliceral fingers, secondary serrations' / absent present.,
+		13  'Cheliceral coxae, scaphotrix (stridulatory setae) on dorsointernal surfaces' / absent present.,
+		14  'Cheliceral coxae, trichopae (chemoreceptive lamelliform setae) on internal surfa' / absent present.,
+		15  'Pedipalp Ornamentation, Patella, dorsal surface' / 'flat, dorsomedian, and dorsoexternal carinae in same axis' 'convex, dorsomedian carina raised above horizontal axis of dors',
+		16  'Patella, dorsoexternal carina' / distinct obsolete.,
+		17  'Patella, externomedian carina' / continuous_from_proximal_to_distal_edges 'discontinuous, interrupted two-thirds along.',
+		18  'Patella, anterior process' / absent present.,
+		19  'Chela, number of carinae' / 8. 10.,
+		20  'Chela (male), dorsal secondary carina' / distinct obsolete.,
+		21  'Chela (female), dorsal secondary carina' / distinct obsolete.,
+		22  'Chela, dorsal secondary carina' / 'extending full way across dorsal surface, subdigital carina ves' dorsal_secondary_carina_extending_part_way_across_dorsal_surfac,
+		23  'Chela, digital carina' / distinct obsolete.,
+		24  'Chela, disproportionate development of dorsal secondary and external secondary c' / absent present.,
+		25  'Chela, disproportionate development of external secondary carina only, relative' / absent present.,
+		26  'Chela, ventroexternal carina' / distinct obsolete.,
+		27  'Chela, ventroexternal carina' / 'parallel to longitudinal axis of chela, distal edge connected t' 'parallel to longitudinal axis of chela, distal edge disconnecte' 'oblique to longitudinal axis of chela, distal edge disconnected' 'oblique to longitudinal axis of chela, distal edge disconnected',
+		28  'Chela, ventromedian carina' / vestigial_or_obsolete distinct,
+		29  'Chela, ventrointernal carina' / 'more strongly developed than internomedian carina, which may be' equally_or_less_strongly_developed_than_internomedian_carina.,
+		30  'Chela, ventrointernal carina' / 'equally or more strongly developed than internomedian carina, w' 'less strongly developed than internomedian carina, often obsole',
+		31  'Chela (male), secondary sexual structure' / absent 'hook-like apophysis' 'semicircular, rimmed depression',
+		32  'Chela (male), hook-like secondary sexual structure with granular ridge at base o' / present absent.,
+		33  'Chela fingers, number of rows of primary denticles' / single 'double, often fused at the base' multiple,
+		34  'Chela fingers, dentate margin' / entire markedly_scalloped.,
+		35  'Chela (male), lobe of movable finger' / 'absent or at most weakly developed, close to base movable finge' 'welldeveloped, almost midway along movable finger (if dentate m' 'well-developed, almost midway along movable finger, with a dist',
+		36  'Chela (male, also applicable in females with welldeveloped lobe on movable finge' / absent present.,
+		37  'Chela (female), lobe of movable finger' / 'absent or at most weakly developed, close to base of movable fi' 'well-developed, almost midway along movable finger, with distin',
+		38  'Chela (female), sharp conical tooth at base of movable finger and corresponding' / absent present.,
+		39  'Trichobothria, Femur, number e r' / one two four,
+		40  'Femur, position 7 i' / internal dorsal.,
+		41  'Patella, position 7. d2' / dorsal internal.,
+		42  Patella_v_7 / absent three_prolaterals three_or_more_retrolaterals,
+		43  'Patella, number v r' / absent single_row_of_3 'single row of 4-20' 'two or more rows, with more than 30.',
+		44  'Patella, position distal v 7' / ventral external.,
+		45  'Patella, number e r' / 7. '13, rarely 12' 14_or_more,
+		46  'Chela, number i r' / one two three_or_more,
+		47  'Chela, position r- it' / basal_or_midfinger distal.,
+		48  'Chela, position r- ib and it' / basal midfinger.,
+		49  'Chela, number V r. 1' / 2. 4. 5. 6_or_more,
+		50  'Chela, distance between r- V2 and V3' / normal widely_separated.,
+		51  'Chela, position r Db' / external_surface dorsal_surface.,
+		52  'Chela, position 7-Dt' / 'manus, at proximal end' 'manus, mid-length or slightly less than mid-length' 'manus, distal half, near base of fixed finger' proximal_end_of_fixed_finger,
+		53  'Chela, external surface with accessory 7' / absent '10-15' more_than_20,
+		54  'Chela, position 7- Eb3' / 'in line with Ebl-Eb2 axis' 'distal to Ebl-Eb2 axis.',
+		55  'Chela, position 7 Est' / distal midpalm.,
+		56  'Chela, position 7-Et2' / external_surface ventral_surface.,
+		57  'Chela, number d 7-' / two four,
+		58  'Chela, position 7. db' / fixed_finger manus.,
+		59  'Chela, position r db' / dorsal internal.,
+		60  'Chela, position 7 dsb' / 'below db-dst axis' 'in line with db-dst axis.',
+		61  'Chela, position of 7- eb' / proximal_region_of_fixed_finger 'manus, behind point of articulation between fixed and movable f',
+		62  'Chela, position of 7. esb' / 'manus, behind point of articulation between fixed and movable f' 'midway along fixed finger, in line with eb-est-et axis.',
+		63  'Legs, Retrolateral pedal spurs' / present absent.,
+		64  Prolateral_pedal_spurs / present absent.,
+		65  'Telotarsi, laterodistal lobes' / 'truncated, base of median dorsal lobe flush' 'rounded, notches at base of median dorsal lobe' 'secondarily truncated, notches at base of median dorsal lobe',
+		66  'Telotarsi, laterally flattened' / absent present.,
+		67  'Telotarsi 1, numerous pores ventrally and prolaterally' / absent present.,
+		68  'Telotarsi, well-developed ventromedian row of setae' / spiniform setiform absent,
+		69  'Telotarsi 1-1V, ventrosubmedian setae distribution' / 'setiform on I-IV' 'setiform on 1 or 1-11, spiniform on 111-IV' 'spiniform (or secondarily setiform) on I-IV',
+		70  'Telotarsi, ventrosubmedian setae type' / stout_spiniform slender_spiniform few_secondarily_setiform numerous_secondarily_setiform,
+		71  'Telotarsi IV, prolateral row of ventrosubmedian spiniform setae' / present absent.,
+		72  'Basitarsi 1-11, retrolateral row of macrochaete setae' / absent spiniform 'setiform, sand comb',
+		73  'Basitarsi 1-11, reduction in the number of macrochaete setae in the retrolateral' / absent present,
+		74  Stridulatory_surface_on_opposing_surfaces_of_coxae_of_pedipalps_and_first_walkin / absent partially_developed fully_developed,
+		75  Stridulatory_surface_on_opposing_surfaces_of_coxae_of_pedipalps_and_first_walkin / 'rasp on pedipalpal coxa, scraper on coxa of first walking leg' 'scraper on pedipalpal coxa, rasp on coxa of first walking leg.',
+		76  'Maxillary lobes, shape of first pair' / roundedtruncate_anteriorly tapering_anteriorly.,
+		77  'Reproductive Anatomy, Embryonic development' / apoikogenic katoikogenic.,
+		78  Ovariuterine_follicles / sessile stalked.,
+		79  Testis / straight coiled.,
+		80  'Genital opercula (female)' / separated loosely_joined fused,
+		81  'Genital opercula (male)' / separated loosely_joined.,
+		82  'Hemispermatophore and Paraxial Organ, Hemispermatophore' / flagelliform fusiform lamelliform,
+		83  'Hernispermatophore, truncal flexure' / absent present.,
+		84  'Paraxial organ, internobasal reflection of sperm duct' / absent present.,
+		85  'Paraxial organ, internal wall of sperm duct' / simple with_semilunar_shelf.,
+		86  'Hemispermatophore, distal lamina' / smooth with_prominent_crest.,
+		87  'Hemispermatophore, distal lamina' / simple with_complex_differentiation.,
+		88  'Hemispermatophore, lamellar hook and median lobe' / separate fused.,
+		89  'Hemispermatophore, position of lamellar hook' / basal distal,
+		90  'Hemispermatophore, lamellar hook' / single double,
+		91  'Hemispermatophore, spines in capsular region' / absent present.,
+		92  'Hemispermatophore, sclerotised mating plug' / absent present.,
+		93  'Mesosoma, Pretergites Ill to V1 with stridulatory granules' / absent present.,
+		94  'Metasoma, Metasomal segments 1-1V, dorsoventrally compressed' / absent present.,
+		95  'Metasomal segments 1-1V, carinae' / paired_ventrosubmedian_carinae single_ventromedian_carina.,
+		96  'Metasomal segments 1-1V, carinae' / 'more strongly developed on 111-IV than 1-11' 'more strongly developed on 1-11 than 111-IV.',
+		97  'Metasomal segment 1, ventrosubmedian carinae with circular configuration' / absent present.,
+		98  'Metasomal segment V, ventrolateral carinae' / continuous_from_proximal_to_distal_edges 'discontinuous, interrupted in distal region.',
+		99  'Metasomal segment V, ventromedian carina distal portion' / straight bifurcating breaking_up_into_numerous_granules,
+		100  'Metasomal segment V, transverse carina' / absent 'bothriurid type 1, discontinuous and merging proximally with ve' 'bothriurid type 11, continuous, not merging proximally with ven',
+		101  'Metasomal segment V, transverse carina' / absent 'diplocentrid type, partially developed' 'diplocentrid type, fully developed',
+		102  'Metasomal segment 11, ventral surface with numerous spiniform granules' / absent present.,
+		103  'Metasomal segment V (male), dorsal surface with paired androvestigia (glands)' / absent present.,
+		104  'Telson, Vesicle (male), dorsal surface with androvestigia (glands)' / absent single paired,
+		105  Aculeus / 'long, shallowly curved' 'very short, sharply curved.',
+		106  Subaculear_tubercle / absent distinct.,
+		107  'Vesicle (male), laterally compressed' / absent present.,
+		108  'Vesicle (female), laterally compressed' / absent present.,
+		109  'Vesicle (male), elongated with pair of distal lobes' / absent present.,
+		110  'Vesicle, anterodorsal lateral lobes (sensu San Martin and Gambardella, 1974)' / present absent.,
+		111  'Vesicle, ventral surface' / with_two_or_more_longitudinal_granular_carinae_extending_toward 'with transverse row of granules at proximal edge, remainder smo' without_granules,
+		112  'Vesicle, ventral surface with semicircular carina' / absent present.,
+		113  Venom_glands / complex simple.,
+		114  Venom_pigment / opalescent reddish.,
+		115  'Behaviour, Mesosomal percussion' / absent present.,
+		;
+
+MATRIX
+[                                            10        20        30        40        50        60        70        80        90        100       110        ]
+[                                             .         .         .         .         .         .         .         .         .         .         .        ]
+Bioculus_caboensis                   1020000110100011101110100011100-0000000012101100200300001011011020002000-0-0110202110001--0000010000200011000010010
+Bioculus_comondae                    2020000110100011101110100011100-0000000012101100200300001011011020002000-0-0110202110001--0000010000200011000010010
+Bothriurus_bonariensis               1000100020100011101110100130101100000000021011003-000001110000000001100100-0001112111100000000010001000100000000000
+Bothriurus_coriaceus                 1000100020100011101110100130101100000000021011003-000001110000000001100100-0001112111100000000010001000100000000000
+Brachistosternus_alienus             1000000021100011101110100130101100000000021011003-0000011100000001010--200-00011121111000010000-0000001000000000000
+Brachistosternus_ehrenbergii         1000000021100011101110100130101100000000022011003-0000011100000001010--200-00011121111000010000-0000001000000000000
+Brachistosternus_ferrugineus         1000000021100011101110100130101100000000021011004-0000011100000001010--200-00011121111000010000-0000001000000000000
+Cazierius_gundlachii                 1020000010100011101110100011100-0000000012101100200300001011011020002000-0-0110202110001--0000010000200011000000010
+Cazierius_scaber                     1020000010100011101110100011100-0000000012101100200300001011011020002000-0-0110202110001--0000010000200011000000010
+Centromachetes_obscurus              1000000021100011101110100130101120000000021011003-000001110000000001200100-0001112111100000000010000000000000000000
+Centromachetes_pocockii              1000000021100011101110100130101120000000021011003-000001110000000001200100-0001112111100000000010000000000000000000
+Centruroides_gracilis                000000000000000000000000000---0-00000010000000--1---0000000---0000000--0-0-00000000000-0000000000000000000000000000
+Cercaphonius_queenslandae            1000000021100001101110100130101020000000021011003-0000011100000000011000-0-0001112111100000000010010000000000000000
+Cercophonius_squama                  1000000021100001101110100130101020000000021011003-0000011100000000011000-0-0001112111100000000010010000000000000000
+Chaeritus_granosus                   200000001000001000000000000-000-00000020011001000---0000000---0000000--0-0-00000010000-0000000000000000000000000100
+Cheloctonus_crassimanus              1111001110000000101110000010110-0010000002101100210100101011101000002000-0-1110202110000000000000000000010110120100
+Cheloctonus_jonesii                  1111001110000000101110000010110-0010000002101100210100101011101000002000-0-1110202110000000000000000000010110120100
+Chiromachetes_fergusoni              112100111000000111111000001011??10?1100002101100210100101011101000022000-0-111?2??????0???000000000000001011?120100
+Chiromachetes_tirupati               112100111000000111111000001011??10??000002101100210100101011101000022000-0-111?2??????0???000000000000001011?120100
+Chiromachus_ochropus                 1121001110000001111110000010110-1011100002101100210100101011101000022300-0-1110202110000000000000000000010110120100
+Didymocentrus_hasethi                1020000110100011101010010030100-0000000012101100200300001011011020002000-0-0110202110001--0000010000200011000010010
+Didymocentrus_lesueurn               1020000110100011101010010030100-0000000012101100200300001011011020002000-0-0110202110001--0000010000200011000010010
+Diplocentrus_gertschi                1020000110100011101010000021100-0000000012101100200300001011011020002000-0-0110202110001--0000010000200011000010010
+Diplocentrus_mexicanus               1020000010100011101010000021100-0000000012101100200300001011011020002000-0-0110202110001--0000010000200011000010010
+Habibiella_gaillardi                 1121001110000000111000000010000-1000000002102101211300001011011000002100-0-0110202110000000000100000000010101100100
+Hadogenes_tityrus                    1111001110000001111110101010110-10110000022021004-0120-01001101000002000-0-1110102110000010000000000010010110120100
+Hadogenes_troglodytes                1111001110000001111110101010110-10101000022021004-0120-01001101000002000-0-1110102110000010000000000010010110100100
+Hemiscorpius_lepturus                1121001110000000111000000010000-1000000002101101211300001011011000002100-0-0110202110000000000100000000010101100100
+Hemiscorpius_maindroni               1121001110000000111000000010000-1000000002101101211300001011011000002100-0-0110202110000000000100000000010101100100
+Heterometrus_spinifer                1021001010100011101111100011100-01100000121011002012000010110110100220011210110202110000000000000000000000000100000
+Heterometrus_swammerdami             1021001010100011101111100011100-01100000121011002012000010110110100220011210110202110000000000000000000000000100000
+Heteronebo_granti                    1020000010100010101000000011100-0000000012101100200300001011011020002000-0-0110202110001--0000010000100011000000010
+Heteronebo_jamaicae                  1020000010100010101000000011100-0000000012101100200300001011011020002000-0-0110202110001--0000010000100011000000010
+Heteroscorpion_goodmani              2021001110100000111000000010000-20000000022021004-0000001001011000002000-0-0110202110000000000100000000000110100100
+Heteroscorpion_opisthacanthoides     2021001110100000111000000010000-20000000022021004-0000001001011000002000-0-0110202110000000000100000000000110100100
+Iomachus_laeviceps                   1121001130000001111110000010110-101?000002101100210100101011101000002200-0-1110202110000100000000000000010110120100
+Iomachus_politus                     1121001130000001101110000010110-1020010002101100210100101001101000002200-0-1110202110000100000000000000010110120100
+Liocheles_australasiae               1121001130000001111110000010110-1011000002101100210101101001101000022200-0-1110202110000100000000000010010110120100
+Liocheles_waigiensis                 1121001130000001111110000010110-1011000002101100210101101001101000022200-0-1110202110000100000000000000010110120100
+Lisposoma_elegans                    1000000011100000101110100130100-0000000002111100200000011100001000012000-0-00002021110001000000000-0000000000020000
+Lisposoma_josehermana                1000000011100000101110100130100-0000000002111100200000011100001000012000-0-00002021110001000000000-0000000000020000
+Nebo_hierichonticus                  1021001010100001101110000010000-0100000002101110200300001011011010002000-0-0110202110001--0000000000000011000000010
+Nebo_poggesii                        1021001010100001101110000010000-0100000002101110200300001011011010002000-0-0110202110001--0000000000000011000000010
+Oiclus_purvesii                      2020000010100011101110100011100-0000000012101100200300001011011120002000-0-0110202110001--0000010000200011000000010
+Opisthacanthus_elatus                1121001110000001111110000010110-1021010002101100210000101011101000002000-0-1110202110000100000000000000010110120100
+Opisthacanthus_madagascariensis      1121001110000001111110000010110-1010100002101100210100101011101000002000-0-1110202110010000000000000000010110120100
+Opisthacanthus_validus               1111001110000000101110000010110-1010{01}00002101100210100101011101000002000-0-1110202110000000000000000000010110100100
+Opistophfhalmus_boehmi               1011001010101111101111000011100-010000001210210020120000101101101002201100-0110202110000000000010020000000000100000
+Opistophthalmus_capensis             1011011010101111101111000011100-010000001210210020120000101101101002201200-0110202110000000000000000000000000100000
+Opistophthalmus_holmi                1011011010101011101111000011100-01000000122021004-120000101101101002201200-01102021100000000000000-0000000000100000
+Orobothriurus_alticola               1000100021100011101110100130101100000000021011003-000001110000000001200100-0001112111100000000010000000100000000000
+Orobothriurus_crassimanus            1000100021100011101110100130101100000000021011003-000001110000000001200100-0001112111100000000010001000100000000000
+Palaeocheloctonus_pauliani           1121001110000001111110000010110-0010100002101100210100101011101000002000-0-1110202110010000000000000000010110120100
+Pandinus_cavimanus                   1021001010100011101111100011100-01100000123022004-12000010110110100220011200110202110000000000000000000000000100000
+Pandinus_dictator                    1021001010100011101111100011100-01100000123021002012000010110110100220011200110202110000000000000000000000000100000
+Pandinus_imperator                   1021001010100011101111100011100-01100000123022004-12000010110110100220011200110202110000000000000000000000000100000
+Phoniocercus_piclus                  1000000021100001101110100130101000000000021011003-0000011100001000012200-0-00011121111000000000000-0000000000000000
+Phoniocercus_sanmartini              1000000021100001101110100130101000000000021011003-0000011100001000012200-0-00011121111000000000000-0000000000000000
+Scorpio_maurus_kruglovi              1011001010100011101111000011100-01000001121011002012000010110110100220010100110202110000000000010020000000000100001
+Scorpio_maurus_mogadorensis          1011001010100011101111000011100-01000001121011002012000010110110100220010100110202110000000000010020000000000100001
+Tarsoporosus_flavus                  1020000010100011101000000011100-0000000012101100200300001011011020102000-0-0110202110001--0001010000200011000000010
+Tehuankea_moyanoi                    1000000021100001101110100130101100000000021011003-000001110000000001100??0-000?1121111000000000-0000000000000000000
+Thestylus_glasioui                   1000000021100001101110100130100-0000000002101100200000011100001000012000-0-00001121111000000000110-0000000000020000
+Timogenes_dorbignyi                  1000100020100011101110100130102-00000000021011004-000001110000000001100200-00011121111000000100-01-2001000000001000
+Timogenes_mapuche                    1000100020100011101110100130102-00000000022021004-000001110000000001100200-00011121111000000100-01-2001200000001000
+Torsoporosus_kugleri                 1020000010100011101000000011100-0000000012101100200300001011011020102000-0-0110202110001--0001010000200011000000010
+Urodacus_novaehollandiae             2021001010100000101000000010000-20000000022021004-0010-0100101101002200100-0110202110000000100100010000000000100000
+Urodacus_yaschenkoi                  2021001010110000101000000010000-20000000022021004-0010-0100101101002200200-0110202110000000100100010000000000100000
+Urophonius_granulatus                1000000021100001101110100130101020000000021011003-0000011100000000011000-0-0001112111100000000010010000100000000000
+Urophonius_iheringii                 1000000021100001101110100130101020000000021011003-0000011100000000011000-0-0001112111100000000010010000100000000000
+Vachonia_martinezi                   2000100020100011101110100130102-00000010023021004-000001110000100001100200-000?1121111000000000-01-2000000000000000
+;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M2638]
+
+	TITLE Table_4;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=47;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1" MISSING=? GAP= -;
+	CHARSTATELABELS
+		1  '(26). Carapace Median longitudinal furrow (a)' / 'broad, shallow (0)' 'suturiform (1).',
+		2  '(27). Median longitudinal furrow (b)' / 'suturiform (0)' 'broad, shallow-reversal (1).',
+		3  '(28). Sternum Shape (a)' / 'subpentagonal (0)' 'subtriangular (1).',
+		4  '(29). Sternum Shape (b)' / 'subpentagonal (0)' 'transverse (1).',
+		5  '(30). Sternum Shape (c)' / 'subpentagonal (0)' 'equilateral pentagonal (1).',
+		6  '(31). Chelicerae, Number of subdistal teeth' / '1 (0)' '2 (1).',
+		7  '(43). Pedipalp Ornamentation, Chela, male (a)' / 'no secondary sexual structures (0)' 'with secondary sexual structures (1).',
+		8  '(44). Chela, male (b)' / 'with hook-like structure (0)' 'with rimmed depression (1).',
+		9  '(45). Number of primary finger rows' / 'single (0)' 'multiple (1).',
+		10  '(49). Trichobothria, Femur, number of e t.' / 'one (0)' 'two or more (1).',
+		11  '(51). Patella, position of t d2' / 'dorsal (0)' 'internal (1).',
+		12  '(52). Patella, v t (a)' / 'absent (0)' 'three or more retrolaterals present (1).',
+		13  '(53). Patella, v t (b)' / 'all ventral (0)' 'one or more positioned externally (1).',
+		14  '(60). Patella, e t' / '7 (0)' '13 or more (1).',
+		15  '(69). Chela, number of i t.' / 'two (0)' 'one (1).',
+		16  '(70). Chela, position of r it' / 'basal (0)' 'distal (1).',
+		17  '(72). Chela, positions of i t.' / 'basal (0)' 'midfingerhemiscorpiines (1).',
+		18  '(75). Chela, number of V t.' / 'four (0)' 'five or more (1).',
+		19  '(79). Chela, distance between t V2 and V3' / 'normal (0)' 'widely separated (1).',
+		20  '(84). Chela, position of t-Dt (b)' / 'basal (0)' 'distalscorpionoids (1).',
+		21  '(85). Chela, position of t. DC-(c)' / 'distal (0)' 'midpalm (1).',
+		22  '(86). Chela, position of t- Est' / 'distal (0)' 'midpalm (1).',
+		23  '(87). Chela, position of t Et2' / 'external (0)' 'ventral (1).',
+		24  '(90). Legs, Retrolateral pedal spurs' / 'present (0)' 'absent-scorpionoids (1).',
+		25  '(92). Laterodistal lobes of telotarsi' / 'truncated (0)' 'rounded (1).',
+		26  '(93). Ventrosubmedian setae on telotarsi (a)' / 'setiform (0)' 'spiniform (1).',
+		27  '(94). Ventrosubmedian setae on telotarsi (b)' / 'spiniform (1)' 'secondarily setiform (1).',
+		28  '(95). Stridulatory organ' / 'mostly lacking (0)' 'on coxae of first leg and pedipalp (1).',
+		29  '(96). Length of first pair of maxillary lobes' / 'equal to second pair (0)' 'longer than second pair (1).',
+		30  '(101). Reproductive Anatomy, Type of embryonic development' / 'apoikogenic (0)' 'katoikogenic (1).',
+		31  '(103). Position of follicles on ovariuterus' / 'sessile (0)' 'stalked (1).',
+		32  '(104). Testis' / 'straight (0)' 'coiled (1).',
+		33  '(105). Genital opercula, female (a)' / 'separated (0)' 'loosely joined (1).',
+		34  '(107). Genital opercula, female (c)' / 'loosely joined (0)' 'fused (1).',
+		35  '(109). Genital opercula, male' / 'separated (0)' 'loosely joined (1).',
+		36  '(110). Hemispermatophore and Paraxial Organ, Hernispermatophore type (a)' / 'fusiform (0)' 'flagelliform (1).',
+		37  '(111). Hemispermatophore type (b)' / 'fusiform (0)' 'lamelliform (1).',
+		38  '(114). Truncal flexure (a)' / 'lacking (0)' 'mostly developed (1).',
+		39  '(117). Mating plug (a)' / 'gelatinous (0)' 'sclerotised (1).',
+		40  '(120). Internobasal reflection of sperm duct' / 'lacking (0)' 'well developed (1).',
+		41  '(121). Internal outer wall of sperm duct' / 'simple (0)' 'with semilunar shelf (1).',
+		42  '(122). Distal lamina' / 'smooth (0)' 'with prominent crest (1).',
+		43  '(123). Lamellar hook and median lobe' / 'separate (0)' 'fused (1).',
+		44  '(132). Metasoma, Ventral keels of segments I-IV (a)' / 'paired (0)' 'single-scorpionoids (1).',
+		45  '(134). Transverse ventral keel on segment V' / 'lacking (0)' 'well developed (1).',
+		46  '(135). Subaculear tubercle' / 'lacking (0)' 'well developed (1).',
+		47  '(136). Venom gland type' / 'complex (0)' 'simple (1).',
+		;
+
+MATRIX
+[                            10        20        30        40       ]
+[                             .         .         .         .       ]
+Bioculus             11000000001101000001000101000110110011010010110
+Bothriurus           00010010000101000100001001000001101011011100100
+Brachistosternus     00010110000101000100001001000001101011011100000
+Buthidae             00100000010000100000000000000000000100000000000
+Cazierius            11000000001101000001000101000110110011010010110
+Centromachetes       00010110100101000100001001000001101011011100000
+Cercophonius         00010110100101000100001001000001101011011100000
+Chaerilus            00000000010000000000000000000000000000000000000
+Cheloctonus          10000000000101000011110101001110110011010000001
+Chiromachetes        1000000010010100001111010100111011001?0???00001
+Chiromachus          10000000100101000011110101101110110011010000001
+Didymocentrus        11000000001101000001000101000110110011010010110
+Diplocentrus         11000000001101000001000101000110110011010010110
+Habibiella           10000000100101001011000101000110110011010001001
+Hadogenes            100000001001010000?11?0101001110100011010000001
+Hemiscorpius         10000000100101001011000101000110110011010001001
+Heterometrus         10000000001101000001000111011110110011010000000
+Heteronebo           11000000001101000001000101000110110011010010010
+Heteroscorpion       100000000001010000?000010100?110110011010001001
+Iomachus             10001000100101000011110101101110110011010000001
+Liocheles            10001000100101000011110101101110110011010000001
+Lisposoma            00010100000111000000001101000000100011011000000
+Nebo                 10000000000101010001000101000110110011010010010
+Oiclus               11000000001101000001000101000110110011010010110
+Opisthacanthus       10000000100101000011110101001110110011010000001
+Opistophthalmus      10000000001101000001000111001110110011010000000
+Orobothriurus        00010110000101000100001001000001101011011100000
+Pandinus             10000000001101000001000111011110110011010000000
+Phoniocercus         00010110000101000100001101000001101011011100000
+Scorpio              10000000001101000001000111001110110011010000000
+Tarsoporosus         11000000001101000001000101000110110011010010110
+Tehuankea            0001011000010100010000100100000?101011011100000
+Thestylus            0001010000010100000000110100000?101011011100000
+Timogenes            00010011000101000100001001000001101011011100100
+Urodacus             100000001001010000?0000111000110110011110001000
+Urophonius           00010110100101000100001001000001101011011100000
+Vachonia             0001001100010100010000110100000?101011011100100
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb5752;
+      LINK TAXA = Taxa2;
+         TRANSLATE
+            1    Didymocentrus_lesueurn,
+            2    Didymocentrus_hasethi,
+            3    Chiromachus_ochropus,
+            4    Chiromachetes_fergusoni,
+            5    Chiromachetes_tirupati,
+            6    Cheloctonus_jonesii,
+            7    Cheloctonus_crassimanus,
+            8    Chaeritus_granosus,
+            9    Cercophonius_squama,
+            10   Cercaphonius_queenslandae,
+            11   Centruroides_gracilis,
+            12   Centromachetes_pocockii,
+            13   Centromachetes_obscurus,
+            14   Cazierius_scaber,
+            15   Cazierius_gundlachii,
+            16   Brachistosternus_ferrugineus,
+            17   Vachonia_martinezi,
+            18   Urophonius_iheringii,
+            19   Urophonius_granulatus,
+            20   Urodacus_yaschenkoi,
+            21   Urodacus_novaehollandiae,
+            22   Torsoporosus_kugleri,
+            23   Timogenes_mapuche,
+            24   Timogenes_dorbignyi,
+            25   Thestylus_glasioui,
+            26   Tehuankea_moyanoi,
+            27   Tarsoporosus_flavus,
+            28   Scorpio_maurus_mogadorensis,
+            29   Scorpio_maurus_kruglovi,
+            30   Phoniocercus_sanmartini,
+            31   Phoniocercus_piclus,
+            32   Pandinus_imperator,
+            33   Pandinus_dictator,
+            34   Pandinus_cavimanus,
+            35   Palaeocheloctonus_pauliani,
+            36   Orobothriurus_crassimanus,
+            37   Orobothriurus_alticola,
+            38   Opistophthalmus_holmi,
+            39   Opistophthalmus_capensis,
+            40   Opistophfhalmus_boehmi,
+            41   Opisthacanthus_validus,
+            42   Opisthacanthus_madagascariensis,
+            43   Opisthacanthus_elatus,
+            44   Oiclus_purvesii,
+            45   Nebo_poggesii,
+            46   Nebo_hierichonticus,
+            47   Iomachus_politus,
+            48   Lisposoma_josehermana,
+            49   Lisposoma_elegans,
+            50   Liocheles_waigiensis,
+            51   Liocheles_australasiae,
+            52   Iomachus_laeviceps,
+            53   Heteroscorpion_opisthacanthoides,
+            54   Heteroscorpion_goodmani,
+            55   Heteronebo_jamaicae,
+            56   Heterometrus_swammerdami,
+            57   Heterometrus_spinifer,
+            58   Heteronebo_granti,
+            59   Hemiscorpius_maindroni,
+            60   Hemiscorpius_lepturus,
+            61   Hadogenes_troglodytes,
+            62   Hadogenes_tityrus,
+            63   Bioculus_caboensis,
+            64   Habibiella_gaillardi,
+            65   Diplocentrus_mexicanus,
+            66   Diplocentrus_gertschi,
+            67   Brachistosternus_ehrenbergii,
+            68   Brachistosternus_alienus,
+            69   Bothriurus_coriaceus,
+            70   Bothriurus_bonariensis,
+            71   Bioculus_comondae;
+      TREE Fig._6 = [&R] ((((((((((((51,50),47),52),43),((4,3),5)),(((7,6),41),(62,61)),(42,35)),(64,60,59)),54,53),(21,20)),((((63,71),15,14,44),(((2,1),66),65),((58,55),(27,22))),(46,45)),((((32,34),33),(57,56)),(((39,38),40),(29,28)))),(((((((((((24,23),17),70,69),36),37),(67,68,16),(13,12)),26),((18,19),10,9)),(31,30)),25),(49,48))),8,11);
+
+
+
+END;
+BEGIN TREES;
+      TITLE Tb5750;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Centromachetes,
+            2    Bothriurus,
+            3    Chaerilus,
+            4    Buthidae,
+            5    Diplocentrus,
+            6    Didymocentrus,
+            7    Cazierius,
+            8    Bioculus,
+            9    Vachonia,
+            10   Brachistosternus,
+            11   Urophonius,
+            12   Timogenes,
+            13   Thestylus,
+            14   Tehuankea,
+            15   Phoniocercus,
+            16   Orobothriurus,
+            17   Lisposoma,
+            18   Cercophonius,
+            19   Urodacus,
+            20   Scorpio,
+            21   Pandinus,
+            22   Opistophthalmus,
+            23   Heterometrus,
+            24   Hemiscorpius,
+            25   Habibiella,
+            26   Opisthacanthus,
+            27   Liocheles,
+            28   Iomachus,
+            29   Hadogenes,
+            30   Chiromachus,
+            31   Chiromachetes,
+            32   Cheloctonus,
+            33   Heteroscorpion,
+            34   Nebo,
+            35   Tarsoporosus,
+            36   Oiclus,
+            37   Heteronebo;
+      TREE Fig._1a = [&R] ((((((((35,36,7,8,6,5),37),34),((21,23),22,20)),19),(((((28,27),30),31,32,26,29),(24,25)),33)),((((10,((9,12),2),(11,18,1),14,16),15),13),17)),3,4);
+
+
+
+END;
+BEGIN TREES;
+      TITLE Tb5751;
+      LINK TAXA = Taxa2;
+         TRANSLATE
+            1    Didymocentrus_lesueurn,
+            2    Didymocentrus_hasethi,
+            3    Chiromachus_ochropus,
+            4    Chiromachetes_fergusoni,
+            5    Chiromachetes_tirupati,
+            6    Cheloctonus_jonesii,
+            7    Cheloctonus_crassimanus,
+            8    Chaeritus_granosus,
+            9    Cercophonius_squama,
+            10   Cercaphonius_queenslandae,
+            11   Centruroides_gracilis,
+            12   Centromachetes_pocockii,
+            13   Centromachetes_obscurus,
+            14   Cazierius_scaber,
+            15   Cazierius_gundlachii,
+            16   Brachistosternus_ferrugineus,
+            17   Vachonia_martinezi,
+            18   Urophonius_iheringii,
+            19   Urophonius_granulatus,
+            20   Urodacus_yaschenkoi,
+            21   Urodacus_novaehollandiae,
+            22   Torsoporosus_kugleri,
+            23   Timogenes_mapuche,
+            24   Timogenes_dorbignyi,
+            25   Thestylus_glasioui,
+            26   Tehuankea_moyanoi,
+            27   Tarsoporosus_flavus,
+            28   Scorpio_maurus_mogadorensis,
+            29   Scorpio_maurus_kruglovi,
+            30   Phoniocercus_sanmartini,
+            31   Phoniocercus_piclus,
+            32   Pandinus_imperator,
+            33   Pandinus_dictator,
+            34   Pandinus_cavimanus,
+            35   Palaeocheloctonus_pauliani,
+            36   Orobothriurus_crassimanus,
+            37   Orobothriurus_alticola,
+            38   Opistophthalmus_holmi,
+            39   Opistophthalmus_capensis,
+            40   Opistophfhalmus_boehmi,
+            41   Opisthacanthus_validus,
+            42   Opisthacanthus_madagascariensis,
+            43   Opisthacanthus_elatus,
+            44   Oiclus_purvesii,
+            45   Nebo_poggesii,
+            46   Nebo_hierichonticus,
+            47   Iomachus_politus,
+            48   Lisposoma_josehermana,
+            49   Lisposoma_elegans,
+            50   Liocheles_waigiensis,
+            51   Liocheles_australasiae,
+            52   Iomachus_laeviceps,
+            53   Heteroscorpion_opisthacanthoides,
+            54   Heteroscorpion_goodmani,
+            55   Heteronebo_jamaicae,
+            56   Heterometrus_swammerdami,
+            57   Heterometrus_spinifer,
+            58   Heteronebo_granti,
+            59   Hemiscorpius_maindroni,
+            60   Hemiscorpius_lepturus,
+            61   Hadogenes_troglodytes,
+            62   Hadogenes_tityrus,
+            63   Bioculus_caboensis,
+            64   Habibiella_gaillardi,
+            65   Diplocentrus_mexicanus,
+            66   Diplocentrus_gertschi,
+            67   Brachistosternus_ehrenbergii,
+            68   Brachistosternus_alienus,
+            69   Bothriurus_coriaceus,
+            70   Bothriurus_bonariensis,
+            71   Bioculus_comondae;
+      TREE Fig._2 = [&R] (((((((((((2,1)Didymocentrus,66),65),((58,55)Heteronebo,(27,22)Tarsoporosus)),((63,71)Bioculus,15,14,44))Diplocentrinae,(46,45)Nebinae)Diplocentridae,((((32,34),33)Pandinus,(57,56)Heterometrus),(((39,38),40)Opistophthalmus,(29,28)Scorpio_maurus))Scorpionidae),((((((((((51,50)Liocheles,47),52),43),((4,3),5)),(42,35)),(62,61)Hadogenes),(7,6)Cheloctonus),41)Ischnuridae,(64,60,59)Hemiscorpiidae)),((21,20)Urodacidae,(54,53)Heteroscorpionidae)),((((((((((((24,23)Bothriurinae,17),70,69),36),37),(13,12)Centromachetes),(67,68,16)Brachistosterninae),26),((18,19)Urophonius,10,9)),(31,30)Phoniocercus),25),(49,48)Lisposoma)Bothriuridae),8,11)Scorpiones;
+
+
+
+END;

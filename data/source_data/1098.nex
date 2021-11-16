@@ -1,0 +1,166 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:46 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Kurzweil H., Linder H., & Chesselet P. 1991. The phylogeny and evolution of the Pterygodium-Corycium
+complex (Coryciinae, Orchidaceae). Plant Systematics and Evolution,
+175: 161-223.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S169]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=40;
+        TAXLABELS
+            Ceratandra_atrata
+            Ceratandra_bicolor
+            Ceratandra_globosa
+            Ceratandra_grandiflora
+            Ceratandra_harveyana
+            Ceratandra_venosa
+            Corycium_alticola
+            Corycium_bicolorum
+            Corycium_bifidum
+            Corycium_carnosum
+            Corycium_crispum
+            Corycium_deflexum
+            Corycium_dracomontanum
+            Corycium_excisum
+            Corycium_flanaganii
+            Corycium_ingeanum
+            Corycium_microglossum
+            Corycium_nigrescens
+            Corycium_orobanchoides
+            Corycium_tricuspidatum
+            Disperis
+            Evotella_rubiginosa
+            Pterygodium_acutifolium
+            Pterygodium_alatum
+            Pterygodium_caffrum
+            Pterygodium_catholicum
+            Pterygodium_connivens
+            Pterygodium_cooperi
+            Pterygodium_cruciferum
+            Pterygodium_hallii
+            Pterygodium_hastatum
+            Pterygodium_inversum
+            Pterygodium_leucanthum
+            Pterygodium_magnum
+            Pterygodium_newdigatae
+            Pterygodium_pentherianum
+            Pterygodium_platypetalum
+            Pterygodium_schelpei
+            Pterygodium_ukingense
+            Pterygodium_volucris
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M816]
+
+	TITLE Table_4;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=56;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2" MISSING=9 GAP= -;
+
+MATRIX
+[                                    10        20        30        40        50      ]
+[                                     .         .         .         .         .      ]
+Ceratandra_atrata            01000111101110111011111110100999111111111111119101011101
+Ceratandra_bicolor           00001101111110111011111110101001111111111111119111011111
+Ceratandra_globosa           01000110101110111011111110110999111111111111119101011109
+Ceratandra_grandiflora       01000110101110101011111110190999111111111111119101011101
+Ceratandra_harveyana         00001101111110111011111110101011111111111111119111011119
+Ceratandra_venosa            01011101111110111011111110101001111111111111119111001111
+Corycium_alticola            11111111011111111110111111111190111111110100100011101119
+Corycium_bicolorum           11111111011112111110111111111190111111110100111111101119
+Corycium_bifidum             11111111011012111111111111111190111011111011119111101111
+Corycium_carnosum            11111111011110111111111111111190111111111111119111100109
+Corycium_crispum             11111111011112111110111111111190111111110100101111101119
+Corycium_deflexum            11111111011112111110111111111190111111110100101111101111
+Corycium_dracomontanum       11111111011011111110111111111190111111110100100011101110
+Corycium_excisum             11111111011112111110111111111190111111110100111111101111
+Corycium_flanaganii          11111111101011111011111111111190111011111111119111101119
+Corycium_ingeanum            11111111011112110110111111111190111111110100001111101119
+Corycium_microglossum        11111111011012111111111111111190111011111011119111101119
+Corycium_nigrescens          11111111011011111110111111111190111111110100100011101110
+Corycium_orobanchoides       11111111011112110110111111111190111111110100011111101111
+Corycium_tricuspidatum       11111111011110111110111111111190111111110100100011101119
+Disperis                     19111191111100111111111111111091111111111111119111111119
+Evotella_rubiginosa          10011101111110101011911110911191011111111111119111100119
+Pterygodium_acutifolium      10111101111100111111111111011190010101111111119111101111
+Pterygodium_alatum           19111101111110111111011101111190011101111111119111100119
+Pterygodium_caffrum          10111101111110111111001101111190001101111111119111101119
+Pterygodium_catholicum       10111101111100111111111111011190010101111111119111101119
+Pterygodium_connivens        10111101111110111111111111111190011101101111119111101119
+Pterygodium_cooperi          10111001111110111101110111111190011111011111119110101019
+Pterygodium_cruciferum       10111101111110111111111111111190011101101111119111101119
+Pterygodium_hallii           11111111110110111011111111111190011100111111119111101111
+Pterygodium_hastatum         10111101111100111111111111111190011101011111119111101119
+Pterygodium_inversum         11111111110110111011111111111190011100111111119111101119
+Pterygodium_leucanthum       10111101111110111111011111111190010101111111119111101119
+Pterygodium_magnum           11111011111110111111911111911191011111111111119111100111
+Pterygodium_newdigatae       10111101111100111111111111011190010101111111119111101119
+Pterygodium_pentherianum     10111101111110111111001101111190001101111111119111101111
+Pterygodium_platypetalum     10111101111100111111111111011190011101111111119111101111
+Pterygodium_schelpei         10111011111110011101111011111190011111011111119110101019
+Pterygodium_ukingense        10111001111110111101110111111190011111011111119110101019
+Pterygodium_volucris         10111011111110011101111011111190011111011111119110101019
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb4893;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Disperis,
+            2    Ceratandra_atrata,
+            3    Ceratandra_grandiflora,
+            4    Ceratandra_globosa,
+            5    Ceratandra_bicolor,
+            6    Ceratandra_harveyana,
+            7    Ceratandra_venosa,
+            8    Evotella_rubiginosa,
+            9    Pterygodium_magnum,
+            10   Pterygodium_inversum,
+            11   Pterygodium_hallii,
+            12   Pterygodium_volucris,
+            13   Pterygodium_schelpei,
+            14   Pterygodium_cooperi,
+            15   Pterygodium_ukingense,
+            16   Pterygodium_caffrum,
+            17   Pterygodium_alatum,
+            18   Pterygodium_pentherianum,
+            19   Pterygodium_acutifolium,
+            20   Pterygodium_catholicum,
+            21   Pterygodium_newdigatae,
+            22   Pterygodium_platypetalum,
+            23   Pterygodium_cruciferum,
+            24   Pterygodium_connivens,
+            25   Pterygodium_hastatum,
+            26   Pterygodium_leucanthum,
+            27   Corycium_microglossum,
+            28   Corycium_bifidum,
+            29   Corycium_flanaganii,
+            30   Corycium_carnosum,
+            31   Corycium_bicolorum,
+            32   Corycium_excisum,
+            33   Corycium_orobanchoides,
+            34   Corycium_ingeanum,
+            35   Corycium_deflexum,
+            36   Corycium_crispum,
+            37   Corycium_tricuspidatum,
+            38   Corycium_nigrescens,
+            39   Corycium_dracomontanum,
+            40   Corycium_alticola;
+      TREE Fig._20 = [&R] (1,((8,(7,((6,5),(2,(3,4))))Ceratandra),((((((39,38),40,37),(34,33),36,35,32,31),(29,(27,28))),30)Corycium,((((15,14),(12,13)),9),((11,10),(26,(23,24),(17,(16,18)),(25,(22,(19,20,21))))))Pterygodium)));
+
+
+
+END;

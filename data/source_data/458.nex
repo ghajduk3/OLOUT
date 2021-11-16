@@ -1,0 +1,254 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:36 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Stasz T., Nixon K., Harman G., Weeden N., & Kuter G. 1989. Evaluation of phenetic
+species and phylogenetic relationships within the genus Trichoderma by cladistic
+analysis of isozyme polymorphism. Mycologia, 81: 391-403.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S299]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=64;
+        TAXLABELS
+            Trichoderma_hamatum_HM01
+            Trichoderma_hamatum_HM02
+            Trichoderma_hamatum_HM03
+            Trichoderma_hamatum_HM04
+            Trichoderma_hamatum_HM05
+            Trichoderma_hamatum_HM06
+            Trichoderma_hamatum_HM07
+            Trichoderma_hamatum_HM08
+            Trichoderma_hamatum_HM09
+            Trichoderma_hamatum_HM10
+            Trichoderma_hamatum_HM12
+            Trichoderma_hamatum_HM13
+            Trichoderma_hamatum_HM14
+            Trichoderma_hamatum_HM15
+            Trichoderma_hamatum_HM16
+            Trichoderma_harzianum_HZ01
+            Trichoderma_harzianum_HZ02
+            Trichoderma_harzianum_HZ03
+            Trichoderma_harzianum_HZ04
+            Trichoderma_harzianum_HZ06
+            Trichoderma_harzianum_HZ07
+            Trichoderma_harzianum_HZ08
+            Trichoderma_harzianum_HZ09
+            Trichoderma_harzianum_HZ11
+            Trichoderma_harzianum_HZ13
+            Trichoderma_harzianum_HZ16
+            Trichoderma_harzianum_HZ18
+            Trichoderma_harzianum_HZ19
+            Trichoderma_harzianum_HZ20
+            Trichoderma_harzianum_HZ21
+            Trichoderma_harzianum_HZ22
+            Trichoderma_koningii_KN01
+            Trichoderma_koningii_KN02
+            Trichoderma_koningii_KN03
+            Trichoderma_koningii_KN04
+            Trichoderma_koningii_KN05
+            Trichoderma_koningii_KN06
+            Trichoderma_koningii_KN07
+            Trichoderma_koningii_KN08
+            Trichoderma_koningii_KN09
+            Trichoderma_koningii_KN10
+            Trichoderma_koningii_KN11
+            Trichoderma_pseudokoningii_PS01
+            Trichoderma_pseudokoningii_PS02
+            Trichoderma_pseudokoningii_PS04
+            Trichoderma_pseudokoningii_PS05
+            Trichoderma_pseudokoningii_PS06
+            Trichoderma_pseudokoningii_PS07
+            Trichoderma_pseudokoningii_PS08
+            Trichoderma_pseudokoningii_PS09
+            Trichoderma_viride_TV02
+            Trichoderma_viride_TV03
+            Trichoderma_viride_TV06
+            Trichoderma_viride_TV07
+            Trichoderma_viride_TV08
+            Trichoderma_viride_TV09
+            Trichoderma_viride_TV10
+            Trichoderma_viride_TV11
+            Trichoderma_viride_TV12
+            Trichoderma_viride_TV13
+            Trichoderma_viride_TV14
+            Trichoderma_viride_TV15
+            Trichoderma_viride_TV16
+            Trichoderma_viride_TV17
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M1540]
+
+	TITLE Table_II;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=16;
+	FORMAT DATATYPE=Standard SYMBOLS= "A B C D E F G H I J K L" MISSING=? GAP= -;
+	CHARSTATELABELS
+		1  AAT,
+		2  ALAT,
+		3  GPI,
+		4  TPI,
+		5  SOD,
+		6  LGG,
+		7  GL,
+		8  FUM,
+		9  GLU,
+		10  PPASE,
+		11  PGM,
+		12  ALDO,
+		13  ACON,
+		14  PGD,
+		15  IDH,
+		16  PGK,
+		;
+
+MATRIX
+Trichoderma_hamatum_HM01            CDAEBFAECBBGEACA
+Trichoderma_hamatum_HM02            EABEACCJBBDDCDBA
+Trichoderma_hamatum_HM03            CFBHCCDH?EHGJCCA
+Trichoderma_hamatum_HM04            CGBGCEBGDCHHJFHC
+Trichoderma_hamatum_HM05            CFBHBEDHCEIGJCCA
+Trichoderma_hamatum_HM06            CHBHBEDHHEHFJCCA
+Trichoderma_hamatum_HM07            CHBHBB?H?EHGJCCA
+Trichoderma_hamatum_HM08            CHBHBE?H?EHGJCCA
+Trichoderma_hamatum_HM09            CHBHBEDH?EHGJCCA
+Trichoderma_hamatum_HM10            EACEBBBIBBDDCBAA
+Trichoderma_hamatum_HM12            CFBHBEDHCEHGJCCA
+Trichoderma_hamatum_HM13            CFBHBEDHCEHGJCCA
+Trichoderma_hamatum_HM14            CEAEBEAECBBDFBCB
+Trichoderma_hamatum_HM15            EABEABCJBBDDCDBA
+Trichoderma_hamatum_HM16            EABEABCJBBDDCDBA
+Trichoderma_harzianum_HZ01          EBCEBEBECBCCHCEA
+Trichoderma_harzianum_HZ02          EBAEBBBCBBCCHDEC
+Trichoderma_harzianum_HZ03          EBCBBEBEECECHCEA
+Trichoderma_harzianum_HZ04          CCDGBEBIFCFGJDGD
+Trichoderma_harzianum_HZ06          EBCCBBBCBBECHDEC
+Trichoderma_harzianum_HZ07          EBCEBBBCBBCBHDEC
+Trichoderma_harzianum_HZ08          EBCEBEBHBBGCHCEB
+Trichoderma_harzianum_HZ09          EBCEBE?HBBGCHCEB
+Trichoderma_harzianum_HZ11          EBCEBBBEABCCHDEC
+Trichoderma_harzianum_HZ13          CBEGC?BECCIEHDGB
+Trichoderma_harzianum_HZ16          ADDGCFBDCCIEHDGB
+Trichoderma_harzianum_HZ18          EBCEBEBBCBCCHCEB
+Trichoderma_harzianum_HZ19          EBCCBBBCBBECHDEC
+Trichoderma_harzianum_HZ20          CECABCBICBAEBCGA
+Trichoderma_harzianum_HZ21          EBCCBBACBBECHDEC
+Trichoderma_harzianum_HZ22          CDEGCEBEDCIEHDGB
+Trichoderma_koningii_KN01           CHEGBFCHDEHFHEFB
+Trichoderma_koningii_KN02           BFDGBFBHBEIGHEGB
+Trichoderma_koningii_KN03           CCDICGADGCIEKCEB
+Trichoderma_koningii_KN04           BEDGBEBHDEIGHEGB
+Trichoderma_koningii_KN05           CADIABEHBAGAEDGB
+Trichoderma_koningii_KN06           CHEGBF?HDEHFHEFB
+Trichoderma_koningii_KN07           CHEGBFCHDEHFHEFB
+Trichoderma_koningii_KN08           BEDGBECHCEIGJEEB
+Trichoderma_koningii_KN09           CBDGCEBDDCIEHDGC
+Trichoderma_koningii_KN10           CHEGBFCHDEHFHEFB
+Trichoderma_koningii_KN11           ABDGBBBGABCCLCIB
+Trichoderma_pseudokoningii_PS01     EBCGBEBLDBGAJEHC
+Trichoderma_pseudokoningii_PS02     BFDGBDCHEEIGJE?B
+Trichoderma_pseudokoningii_PS04     BEDGCDBFECIEHDEB
+Trichoderma_pseudokoningii_PS05     BEDGCDBFECIEHDEB
+Trichoderma_pseudokoningii_PS06     EBAGBEBJBBGAJEIC
+Trichoderma_pseudokoningii_PS07     CBBDCCALABFFGEHB
+Trichoderma_pseudokoningii_PS08     ABBDBAAKBBFFIF?B
+Trichoderma_pseudokoningii_PS09     ABBDBAAKBBFFEE?B
+Trichoderma_viride_TV02             BHDHCEBEACHEHDGB
+Trichoderma_viride_TV03             CGDHCEBEBCHEHAGB
+Trichoderma_viride_TV06             BHDHCEBEACHEHDGB
+Trichoderma_viride_TV07             CBDGCEBIFCFGJDGC
+Trichoderma_viride_TV08             BECICGCABCJEJCEB
+Trichoderma_viride_TV09             BHDHCEBEBCHEHDGB
+Trichoderma_viride_TV10             BECICGCABCJEJCEB
+Trichoderma_viride_TV11             BGDICFCAACJEJCEB
+Trichoderma_viride_TV12             BHDHCEAEBCHEHDGB
+Trichoderma_viride_TV13             BHDHCEAEBCHEHDGB
+Trichoderma_viride_TV14             BGDICGBAACJEJCGB
+Trichoderma_viride_TV15             ECDGCFBEDCIEHDGB
+Trichoderma_viride_TV16             CCEGCEBECCIEHDGB
+Trichoderma_viride_TV17             CDDGCEBEDCIEHDGB
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb5049;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Trichoderma_hamatum_HM01,
+            2    Trichoderma_hamatum_HM03,
+            3    Trichoderma_hamatum_HM04,
+            4    Trichoderma_hamatum_HM05,
+            5    Trichoderma_hamatum_HM06,
+            6    Trichoderma_hamatum_HM07,
+            7    Trichoderma_hamatum_HM08,
+            8    Trichoderma_hamatum_HM09,
+            9    Trichoderma_hamatum_HM12,
+            10   Trichoderma_hamatum_HM13,
+            11   Trichoderma_hamatum_HM14,
+            12   Trichoderma_hamatum_HM02,
+            13   Trichoderma_hamatum_HM10,
+            14   Trichoderma_hamatum_HM15,
+            15   Trichoderma_hamatum_HM16,
+            16   Trichoderma_harzianum_HZ01,
+            17   Trichoderma_harzianum_HZ02,
+            18   Trichoderma_harzianum_HZ03,
+            19   Trichoderma_harzianum_HZ04,
+            20   Trichoderma_harzianum_HZ06,
+            21   Trichoderma_harzianum_HZ07,
+            22   Trichoderma_harzianum_HZ08,
+            23   Trichoderma_harzianum_HZ09,
+            24   Trichoderma_harzianum_HZ11,
+            25   Trichoderma_harzianum_HZ13,
+            26   Trichoderma_harzianum_HZ16,
+            27   Trichoderma_harzianum_HZ18,
+            28   Trichoderma_harzianum_HZ19,
+            29   Trichoderma_harzianum_HZ20,
+            30   Trichoderma_harzianum_HZ21,
+            31   Trichoderma_harzianum_HZ22,
+            32   Trichoderma_koningii_KN01,
+            33   Trichoderma_koningii_KN02,
+            34   Trichoderma_koningii_KN03,
+            35   Trichoderma_koningii_KN04,
+            36   Trichoderma_koningii_KN05,
+            37   Trichoderma_koningii_KN06,
+            38   Trichoderma_koningii_KN07,
+            39   Trichoderma_koningii_KN08,
+            40   Trichoderma_koningii_KN09,
+            41   Trichoderma_koningii_KN10,
+            42   Trichoderma_koningii_KN11,
+            43   Trichoderma_pseudokoningii_PS01,
+            44   Trichoderma_pseudokoningii_PS02,
+            45   Trichoderma_pseudokoningii_PS04,
+            46   Trichoderma_pseudokoningii_PS05,
+            47   Trichoderma_pseudokoningii_PS06,
+            48   Trichoderma_pseudokoningii_PS07,
+            49   Trichoderma_pseudokoningii_PS08,
+            50   Trichoderma_pseudokoningii_PS09,
+            51   Trichoderma_viride_TV02,
+            52   Trichoderma_viride_TV03,
+            53   Trichoderma_viride_TV06,
+            54   Trichoderma_viride_TV07,
+            55   Trichoderma_viride_TV08,
+            56   Trichoderma_viride_TV09,
+            57   Trichoderma_viride_TV10,
+            58   Trichoderma_viride_TV11,
+            59   Trichoderma_viride_TV12,
+            60   Trichoderma_viride_TV13,
+            61   Trichoderma_viride_TV14,
+            62   Trichoderma_viride_TV15,
+            63   Trichoderma_viride_TV16,
+            64   Trichoderma_viride_TV17;
+      TREE Fig._1 = [&R] ((12,13,(15,14)),(((20,28),30),17,21,(24,(42,(((((50,49),48),(47,43)),(23,22)),27,(16,18,(29,(11,1),(((((7,5,8),6),2,(10,9)),4),(39,(35,((((37,32,38,41),44),33),((46,45),(26,((((((57,55),58),61),34),62),((((54,19),3),40),((((25,63),31),64),(36,52,(51,56,(53,59,60)))))))))))))))))));
+
+
+
+END;

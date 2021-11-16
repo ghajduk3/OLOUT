@@ -1,0 +1,718 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:46 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Siebert D.J. 1987. Interrelationships among families of the order Cypriniformes (Teleostei).,
+New York City, City University of New York.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S12932]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=210;
+        TAXLABELS
+            _Epalzeorhynchos_kalopterus
+            Abramis_ballerus
+            Abramis_brama
+            Acanthophthalmus_kuhli
+            Acanthopsis_choirorhynchos
+            Acanthorhodeus_guichenoti
+            Acheilognathus_intermedius
+            Acrocheilus_alutaceus
+            Agosia_chrysogaster
+            Alburnus_alburnus
+            Aopidoparia
+            Aphyocypris_chinensis
+            Balanteocheilus_melanopterus
+            Barbus_ablades
+            Barbus_barbus
+            Barbus_conchonius_
+            Barbus_matsudai
+            Barilius_barna
+            Barilius_ubangensis
+            Beaufortia_leveretti
+            Beaufortia_zebroides
+            Blicca_bjoerkna
+            Botia_macracanthus
+            Botia_modesta
+            Botia_purpurea
+            Botiinae
+            Brachydanio_albolineatus
+            Campostoma_anomalum
+            Capoeta_damascina
+            Carpiodes_carpio
+            Carpiodes_cyprinus
+            Carpiodes_sp
+            Carpiodes_velifer
+            Catostomidae
+            Catostomus_bernardini
+            Catostomus_catostomus
+            Catostomus_columbianus
+            Catostomus_commersoni
+            Catostomus_insignis
+            Catostomus_occidentalis
+            Catostomus_wigginsi
+            Chela_anomalurus
+            Chela_oxygastroides
+            Chelaethiops_elongatus
+            Chondrostoma_nasus
+            Chondrostoma_ohridanus
+            Cirrhinus_chinensis
+            Clinostomus_elongatus
+            Cobitidinae
+            Cobitis_aurata
+            Cobitis_taenia
+            Couesius_plumbeus
+            Crossostoma_davidi
+            Ctenopharyngodon_idella
+            Culter_alburnus
+            Cycleptus_elongatus
+            Cyclocheilichthys_armatus
+            Cyprinidae
+            Cyprinion_irregulare
+            Cyprinus_carpio
+            Dangila_festiva
+            Danio_aequipinnatus
+            Danio_malabaricus
+            Dionda_episcopa
+            Ellopostoma
+            Ellopostominae
+            Elopichthys_bambusa
+            Engraulicypris_sardella
+            Ericymba_buccata
+            Erimyzon_oblongus
+            Erimyzon_sucetta
+            Ermichthys_acros
+            Esomus_metalicus
+            Exoglossum_maxillingua
+            Garra_rossica
+            Gastromyzon_borneensis
+            Gastromyzontini
+            Gila_atraria
+            Gila_ditaenia
+            Gila_orcuttii
+            Gila_robusta
+            Glaniopsis_denudata
+            Gnathopogon_caerulescens
+            Gobio_gobio
+            Gobiobotia_puppenheimi
+            Gyrinocheilidae
+            Gyrinocheilus_aymonieri
+            Gyrinocheilus_sp
+            Hampala_macrolepidota
+            Hemibarbus_barbus
+            Hemiculter_leucisculus
+            Hemitrema_flammea
+            Hesperoleucas_symmetricus
+            Homaloptera_amphisquamata
+            Homaloptera_orthogoniata
+            Homalopterini
+            Hybognathus_nuchalis
+            Hybopsis_biguttatus
+            Hybopsis_micropogon
+            Hypentelium_etowanum
+            Hypentelium_nigricans
+            Hypentelium_roanokense
+            Hypophthalmichthys_molitrix
+            Ictiobus_bubalus
+            Ictiobus_labiosus
+            Ictiobus_meridionalis
+            Ictiobus_sp
+            Ischikauia_hainanensis
+            Labeo_erythrurus
+            Labeo_niloticus
+            Lavinia_exilicauda
+            Lefua_echigonia
+            Lepidocephalichthys_berdmorei
+            Lepidocephalus_hasselti
+            Lepidocephalus_thermalis
+            Leptobotia_fasciata
+            Leptocypris_niloticus
+            Lepturichthys_fimbriata
+            Leucaspius_delineatus
+            Leuciscus_leuciscus
+            Lobocheilus_bo
+            Meda_fulgida
+            Microphysogobio_labeoides
+            Minytrema_melanops
+            Mirogrex_terraesanctae
+            Misgurnus_anguillicaudatus
+            Misgurnus_mizolepis
+            Moralius_chrysophekadion
+            Moroco_steindachneri
+            Moxostoma_anisurum
+            Moxostoma_ariommum
+            Moxostoma_cervinum
+            Moxostoma_erythrurum
+            Mylocheilus_caurinus
+            Mystacoleucus_marginatus
+            Myxocyprinus_asiaticus
+            Noemacheilinae
+            Noemacheilus_barbatulus
+            Noemacheilus_posteroventralis
+            Noemacheilus_pulcher
+            Noemacheilus_senlangoricus
+            Noemacheilus_stoliczkai
+            Notemingonus_crysoleucas
+            Notropis_atherinoides
+            Notropis_bellus
+            Notropis_spilopterus
+            Ochetobius_elongatus
+            Opsariichthys_bidens
+            Opsariichthys_uncirostris
+            Opsopoedus_emiliae
+            Osteochilus_melanopleurus
+            Osteochilus_salsburyi
+            Outgroup
+            Oxygaster_hypophthalmus
+            Oxygaster_oxygastroides
+            Pachychilon_pictum
+            Pantosteus_clarki
+            Paracrossocheilus_acerus
+            Paracrossocheilus_vittatus
+            Pelecus_cultratus
+            Phenacobius_mirabilus
+            Phoxinus_erythrogaster
+            Phoxinus_phoxinus
+            Plagopterus_argentissimus
+            Platygobio_gracilis
+            Pseudogastromyzon_myersi
+            Pseudogobio_esocinus
+            Pseudoperilampus_hainanensis
+            Pseudorasbora_parva
+            Psilorhynchus_balitora
+            Psilorhynchus_gracilis
+            Psilorhynchus_sucatio
+            Ptychocheilus_grandis
+            Ptychocheilus_oregonensis
+            Puntius_filamentosus
+            Rasbora_daniconius
+            Rasbora_helfrichi
+            Rasbora_pauciperforta
+            Rasbora_steineri
+            Rhinichthys_cataractae
+            Rhinogobio_typus
+            Rhodeus_sericeus
+            Rhodeus_sinensis
+            Rhyncocypris_variegatus
+            Richardsonius_balteatus
+            Richardsonius_egregius
+            Rutilus_rutilus
+            Sarcocheilichthys_variegatus
+            Saurogobio_dumerilli
+            Scardinius_erythrophthalmus
+            Semotilus_atromaculatus
+            Spinibarbus_hollandi
+            Squalidus_intermedius
+            Squaliobarbus_curriculus
+            Thoburnia_atripinnis
+            Thoburnia_hamiltoni
+            Thoburnia_rhothoecum
+            Thynnichthys_thynnoides
+            Tinca_tinca
+            Tor_putitora
+            Tor_tambora
+            Tribolodon_hakuensis
+            Vaillantella_euepiptera
+            Vanmanenia_caldwelli
+            Varicorhinus_robustus
+            Varicorhinus_tamusuiensis
+            Xenocypris_davidi
+            Xyrauchen_texanus
+            Zacco_platypus
+            Zacco_spilurus
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M13446]
+
+	TITLE Character_Matrix;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=41;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1" MISSING=? GAP= -;
+	CHARSTATELABELS
+		1  Absence_of_infrapharyngobranchial_uncinate_processes,
+		2  Absence_of_epibranchial_I_and_II_uncinate_processes,
+		3  Absence_of_infrapharyngobranchial_1,
+		4  Consolidation_of_the_infrapharyngobranchial_series,
+		5  Absence_of_infrapharyngobranchial_IV,
+		6  Medial_tips_of_epibranchial_I_and_II_modified,
+		7  Epibranchial_I_and_IV_largest_of_the_epibranchial_series,
+		8  Anterior_corner_of_the_head_of_epibranchial_1_twisted_ventrad,
+		9  Overlap_of_infrapharyngobranchial_II_by_infrapharyngobranchial_III,
+		10  Absence_of_epibranchial_III_uncinate_process,
+		11  Efferent_artery_flange_on_epibranchial_IV,
+		12  Directly_medial_orientation_of_epibranchials,
+		13  Absence_of_basihyal_tooth_plate,
+		14  Absence_of_basibranchial_1,
+		15  Cartilaginous_hypobranchial_III,
+		16  Sublingual_ossifications,
+		17  Segmentation_of_copula_3,
+		18  Basibranchial_4_ossified,
+		19  Basibranchial_4_keeled,
+		20  Rectus_communis_I_process_on_hypobranchial_I,
+		21  'Y-shaped basihyal',
+		22  'T-shaped basibranchial 2',
+		23  Single_row_of_ceratobranchial_V_teeth,
+		24  Transversus_ventralis_V_process_on_ceratobranchial_V,
+		25  Anterolateral_process_of_the_lateral_ethmoid,
+		26  'Suborbital spine ["lateral ethmoid is modified into a movable, erectile suborbital spine" Siebert, page 119]',
+		27  '2nd pre-ethmoid',
+		28  Prepalatine,
+		29  Mesioprepalatine,
+		30  Ossified_palatomaxillary_elements,
+		31  'Infraorbital laterosensory canal - preopercular sensory canal connection',
+		32  Infraorbital_1_largest_of_the_infraorbital_series,
+		33  Preopercular_laterosensory_canal_free_from_the_preoperculum,
+		34  Reduction_of_infraorbital_2_and_3,
+		35  Enlarged_pleural_ribs,
+		36  Gas_bladder_division,
+		37  'Y-shaped tripus',
+		38  Supraethmoid,
+		39  'Shoulder girdle [From Sawada 1982 character 37: relationship between mesocoracoid and cleithrum]',
+		40  Transverse_shelf_on_2nd_neural_arch,
+		41  Subtemporal_fossa_discrete,
+		;
+
+MATRIX
+[                                         10        20        30        40 ]
+[                                          .         .         .         . ]
+_Epalzeorhynchos_kalopterus       11100000100010000000000000000000000000001
+Abramis_ballerus                  11100000100010000000000000000000000000001
+Abramis_brama                     11100000100010000000000000000000000000001
+Acanthophthalmus_kuhli            11100011001011011111001101110101010001010
+Acanthopsis_choirorhynchos        11100011011011011111001101110101010001010
+Acanthorhodeus_guichenoti         11100000100010000000000000000000000000001
+Acheilognathus_intermedius        11100000100010000000000000000000000000001
+Acrocheilus_alutaceus             11100000100010000000000000000000000000001
+Agosia_chrysogaster               11100000100010000000000000000000000000001
+Alburnus_alburnus                 11100000100010000000000000000000000000001
+Aopidoparia                       11100000100010000000000000000000000000001
+Aphyocypris_chinensis             11100000100010000000000000000000000000001
+Balanteocheilus_melanopterus      11100000100010000000000000000000000000001
+Barbus_ablades                    11100000100010000000000000000000000000001
+Barbus_barbus                     11100000100010000000000000000000000000001
+Barbus_conchonius_                11100000100010000000000000000000000000001
+Barbus_matsudai                   11100000100010000000000000000000000000001
+Barilius_barna                    11100000100010000000000000000000000000001
+Barilius_ubangensis               11100000100010000000000000000000000000001
+Beaufortia_leveretti              11111111011111011110111110100111111110110
+Beaufortia_zebroides              11111111011111011110111110100111111110110
+Blicca_bjoerkna                   11100000100010000000000000000000000000001
+Botia_macracanthus                11100011101011011111001101111101010001010
+Botia_modesta                     11100011101011011111001101111101010001010
+Botia_purpurea                    11100011101011011111001101111101010001010
+Botiinae                          ?????????????????????????????????????????
+Brachydanio_albolineatus          11100000100010000000000000000000000000001
+Campostoma_anomalum               11100000100010000000000000000000000000001
+Capoeta_damascina                 11100000100010000000000000000000000000001
+Carpiodes_carpio                  10000000000010111010001010111011010000010
+Carpiodes_cyprinus                10000000000010111010001010111011010000010
+Carpiodes_sp                      10000000000010111010001010111011010000010
+Carpiodes_velifer                 10000000000010111010001010111011010000010
+Catostomidae                      ?????????????????????????????????????????
+Catostomus_bernardini             10000000000010111010001010111011010000010
+Catostomus_catostomus             10000000000010111010001010111011010000010
+Catostomus_columbianus            10000000000010111010001010111011010000010
+Catostomus_commersoni             10000000000010111010001010111011010000010
+Catostomus_insignis               10000000000010111010001010111011010000010
+Catostomus_occidentalis           10000000000010111010001010111011010000010
+Catostomus_wigginsi               10000000000010111010001010111011010000010
+Chela_anomalurus                  11100000100010000000000000000000000000001
+Chela_oxygastroides               11100000100010000000000000000000000000001
+Chelaethiops_elongatus            11100000100010000000000000000000000000001
+Chondrostoma_nasus                11100000100010000000000000000000000000001
+Chondrostoma_ohridanus            11100000100010000000000000000000000000001
+Cirrhinus_chinensis               11100000100010000000000000000000000000001
+Clinostomus_elongatus             11100000100010000000000000000000000000001
+Cobitidinae                       ?????????????????????????????????????????
+Cobitis_aurata                    11100011011011011111001101110101010001010
+Cobitis_taenia                    11100011011011011111001101110101010001010
+Couesius_plumbeus                 11100000100010000000000000000000000000001
+Crossostoma_davidi                11111111011111011110111110100111111110110
+Ctenopharyngodon_idella           11100000100010000000000000000000000000001
+Culter_alburnus                   11100000100010000000000000000000000000001
+Cycleptus_elongatus               10000000000010111010001010111011010000010
+Cyclocheilichthys_armatus         11100000100010000000000000000000000000001
+Cyprinidae                        ?????????????????????????????????????????
+Cyprinion_irregulare              11100000100010000000000000000000000000001
+Cyprinus_carpio                   11100000100010000000000000000000000000001
+Dangila_festiva                   11100000100010000000000000000000000000001
+Danio_aequipinnatus               11100000100010000000000000000000000000001
+Danio_malabaricus                 11100000100010000000000000000000000000001
+Dionda_episcopa                   11100000100010000000000000000000000000001
+Ellopostoma                       11100111001111011110111110100101010110011
+Ellopostominae                    ?????????????????????????????????????????
+Elopichthys_bambusa               11100000100010000000000000000000000000001
+Engraulicypris_sardella           11100000100010000000000000000000000000001
+Ericymba_buccata                  11100000100010000000000000000000000000001
+Erimyzon_oblongus                 10000000000010111010001010111011010000010
+Erimyzon_sucetta                  10000000000010111010001010111011010000010
+Ermichthys_acros                  11100000100010000000000000000000000000001
+Esomus_metalicus                  11100000100010000000000000000000000000001
+Exoglossum_maxillingua            11100000100010000000000000000000000000001
+Garra_rossica                     11100000100010000000000000000000000000001
+Gastromyzon_borneensis            11111111011111011110111110100111111110110
+Gastromyzontini                   ?????????????????????????????????????????
+Gila_atraria                      11100000100010000000000000000000000000001
+Gila_ditaenia                     11100000100010000000000000000000000000001
+Gila_orcuttii                     11100000100010000000000000000000000000001
+Gila_robusta                      11100000100010000000000000000000000000001
+Glaniopsis_denudata               11111111011111011110111110100111111110110
+Gnathopogon_caerulescens          11100000100010000000000000000000000000001
+Gobio_gobio                       11100000100010000000000000000000000000001
+Gobiobotia_puppenheimi            11100000100010000000000000000000000000001
+Gyrinocheilidae                   ?????????????????????????????????????????
+Gyrinocheilus_aymonieri           10000000000011100000000010110011010000010
+Gyrinocheilus_sp                  10000000000011100000000010110011010000010
+Hampala_macrolepidota             11100000100010000000000000000000000000001
+Hemibarbus_barbus                 11100000100010000000000000000000000000001
+Hemiculter_leucisculus            11100000100010000000000000000000000000001
+Hemitrema_flammea                 11100000100010000000000000000000000000001
+Hesperoleucas_symmetricus         11100000100010000000000000000000000000001
+Homaloptera_amphisquamata         11111111011111011110111110110111111110111
+Homaloptera_orthogoniata          11111111011111011110111110110111111110111
+Homalopterini                     ?????????????????????????????????????????
+Hybognathus_nuchalis              11100000100010000000000000000000000000001
+Hybopsis_biguttatus               11100000100010000000000000000000000000001
+Hybopsis_micropogon               11100000100010000000000000000000000000001
+Hypentelium_etowanum              10000000000010111010001010111011010000010
+Hypentelium_nigricans             10000000000010111010001010111011010000010
+Hypentelium_roanokense            10000000000010111010001010111011010000010
+Hypophthalmichthys_molitrix       11100000100010000000000000000000000000001
+Ictiobus_bubalus                  10000000000010111010001010111011010000010
+Ictiobus_labiosus                 10000000000010111010001010111011010000010
+Ictiobus_meridionalis             10000000000010111010001010111011010000010
+Ictiobus_sp                       10000000000010111010001010111011010000010
+Ischikauia_hainanensis            11100000100010000000000000000000000000001
+Labeo_erythrurus                  11100000100011000000000000000000000000001
+Labeo_niloticus                   11100000100011000000000000000000000000001
+Lavinia_exilicauda                11100000100010000000000000000000000000001
+Lefua_echigonia                   11111011011011011110001110110101110110010
+Lepidocephalichthys_berdmorei     11100011011011011111001101110101010001010
+Lepidocephalus_hasselti           11100011011011011111001101110101010001010
+Lepidocephalus_thermalis          11100011011011011111001101110101010001010
+Leptobotia_fasciata               11100011101011011111001101111101010001010
+Leptocypris_niloticus             11100000100010000000000000000000000000001
+Lepturichthys_fimbriata           11111111011111011110111110110111111110111
+Leucaspius_delineatus             11100000100010000000000000000000000000001
+Leuciscus_leuciscus               11100000100010000000000000000000000000001
+Lobocheilus_bo                    11100000100010000000000000000000000000001
+Meda_fulgida                      11100000100010000000000000000000000000001
+Microphysogobio_labeoides         11100000100010000000000000000000000000001
+Minytrema_melanops                10000000000010111010001010111011010000010
+Mirogrex_terraesanctae            11100000100010000000000000000000000000001
+Misgurnus_anguillicaudatus        11100011011011011111001101110101010001010
+Misgurnus_mizolepis               11100011011011011111001101110101010001010
+Moralius_chrysophekadion          11100000100010000000000000000000000000001
+Moroco_steindachneri              11100000100010000000000000000000000000001
+Moxostoma_anisurum                10000000000010111010001010111011010000010
+Moxostoma_ariommum                ?????????????????????????????????????????
+Moxostoma_cervinum                10000000000010111010001010111011010000010
+Moxostoma_erythrurum              10000000000010111010001010111011010000010
+Mylocheilus_caurinus              11100000100010000000000000000000000000001
+Mystacoleucus_marginatus          11100000100010000000000000000000000000001
+Myxocyprinus_asiaticus            10000000000010111010001010111011010000010
+Noemacheilinae                    ?????????????????????????????????????????
+Noemacheilus_barbatulus           11111011011011011110001110110101110110010
+Noemacheilus_posteroventralis     11111011011011011110001110110101110110010
+Noemacheilus_pulcher              11111011011011011110001110110101110110010
+Noemacheilus_senlangoricus        11111011011011011110001110110101110110010
+Noemacheilus_stoliczkai           11111011011011011110001110110101110110010
+Notemingonus_crysoleucas          11100000100010000000000000000000000000001
+Notropis_atherinoides             11100000100010000000000000000000000000001
+Notropis_bellus                   11100000100010000000000000000000000000001
+Notropis_spilopterus              11100000100010000000000000000000000000001
+Ochetobius_elongatus              11100000100010000000000000000000000000001
+Opsariichthys_bidens              11100000100010000000000000000000000000001
+Opsariichthys_uncirostris         11100000100010000000000000000000000000001
+Opsopoedus_emiliae                11100000100010000000000000000000000000001
+Osteochilus_melanopleurus         11100000100010000000000000000000000000001
+Osteochilus_salsburyi             11100000100010000000000000000000000000001
+Outgroup                          00000000000000000000000000000000000000000
+Oxygaster_hypophthalmus           11100000100010000000000000000000000000001
+Oxygaster_oxygastroides           11100000100010000000000000000000000000001
+Pachychilon_pictum                11100000100010000000000000000000000000001
+Pantosteus_clarki                 10000000000010111010001010111011010000010
+Paracrossocheilus_acerus          11100000100010000000000000000000000000001
+Paracrossocheilus_vittatus        11100000100010000000000000000000000000001
+Pelecus_cultratus                 11100000100010000000000000000000000000001
+Phenacobius_mirabilus             11100000100010000000000000000000000000001
+Phoxinus_erythrogaster            11100000100010000000000000000000000000001
+Phoxinus_phoxinus                 11100000100010000000000000000000000000001
+Plagopterus_argentissimus         11100000100010000000000000000000000000001
+Platygobio_gracilis               11100000100010000000000000000000000000001
+Pseudogastromyzon_myersi          11111111011111011110111110100111111110110
+Pseudogobio_esocinus              11100000100010000000000000000000000000001
+Pseudoperilampus_hainanensis      11100000100010000000000000000000000000001
+Pseudorasbora_parva               11100000100010000000000000000000000000001
+Psilorhynchus_balitora            11100000100010000000000000000000000000001
+Psilorhynchus_gracilis            11100000100010000000000000000000000000001
+Psilorhynchus_sucatio             11100000100010000000000000000000000000001
+Ptychocheilus_grandis             11100000100010000000000000000000000000001
+Ptychocheilus_oregonensis         11100000100010000000000000000000000000001
+Puntius_filamentosus              11100000100010000000000000000000000000001
+Rasbora_daniconius                11100000100010000000000000000000000000001
+Rasbora_helfrichi                 11100000100010000000000000000000000000001
+Rasbora_pauciperforta             11100000100010000000000000000000000000001
+Rasbora_steineri                  11100000100010000000000000000000000000001
+Rhinichthys_cataractae            11100000100010000000000000000000000000001
+Rhinogobio_typus                  11100000100010000000000000000000000000001
+Rhodeus_sericeus                  11100000100010000000000000000000000000001
+Rhodeus_sinensis                  11100000100010000000000000000000000000001
+Rhyncocypris_variegatus           11100000100010000000000000000000000000001
+Richardsonius_balteatus           11100000100010000000000000000000000000001
+Richardsonius_egregius            11100000100010000000000000000000000000001
+Rutilus_rutilus                   11100000100010000000000000000000000000001
+Sarcocheilichthys_variegatus      11100000100010000000000000000000000000001
+Saurogobio_dumerilli              11100000100010000000000000000000000000001
+Scardinius_erythrophthalmus       11100000100010000000000000000000000000001
+Semotilus_atromaculatus           11100000100010000000000000000000000000001
+Spinibarbus_hollandi              11100000100010000000000000000000000000001
+Squalidus_intermedius             11100000100010000000000000000000000000001
+Squaliobarbus_curriculus          11100000100010000000000000000000000000001
+Thoburnia_atripinnis              10000000000010111010001010111011010000010
+Thoburnia_hamiltoni               10000000000010111010001010111011010000010
+Thoburnia_rhothoecum              10000000000010111010001010111011010000010
+Thynnichthys_thynnoides           11100000100010000000000000000000000000001
+Tinca_tinca                       11100000100010000000000000000000000000001
+Tor_putitora                      11100000100010000000000000000000000000001
+Tor_tambora                       11100000100010000000000000000000000000001
+Tribolodon_hakuensis              11100000100010000000000000000000000000001
+Vaillantella_euepiptera           11100011101011011111001101111101010001010
+Vanmanenia_caldwelli              11111111011111011110111110100111111110110
+Varicorhinus_robustus             11100000100010000000000000000000000000001
+Varicorhinus_tamusuiensis         11100000100010000000000000000000000000001
+Xenocypris_davidi                 11100000100010000000000000000000000000001
+Xyrauchen_texanus                 10000000000010111010001010111011010000010
+Zacco_platypus                    11100000100010000000000000000000000000001
+Zacco_spilurus                    11100000100010000000000000000000000000001
+;
+END;
+
+BEGIN TREES;
+      TITLE Cypriniformes;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Botiinae,
+            2    Catostomidae,
+            3    Cobitidinae,
+            4    Cyprinidae,
+            5    Ellopostominae,
+            6    Gastromyzontini,
+            7    Gyrinocheilidae,
+            8    Homalopterini,
+            9    Noemacheilinae,
+            10   Outgroup,
+            11   Gyrinocheilus_aymonieri,
+            12   Gyrinocheilus_sp,
+            13   Lefua_echigonia,
+            14   Noemacheilus_barbatulus,
+            15   Noemacheilus_posteroventralis,
+            16   Noemacheilus_pulcher,
+            17   Noemacheilus_senlangoricus,
+            18   Noemacheilus_stoliczkai,
+            19   Ellopostoma,
+            20   Homaloptera_amphisquamata,
+            21   Homaloptera_orthogoniata,
+            22   Lepturichthys_fimbriata,
+            23   Beaufortia_zebroides,
+            24   Beaufortia_leveretti,
+            25   Crossostoma_davidi,
+            26   Gastromyzon_borneensis,
+            27   Glaniopsis_denudata,
+            28   Pseudogastromyzon_myersi,
+            29   Vanmanenia_caldwelli,
+            30   Acanthophthalmus_kuhli,
+            31   Acanthopsis_choirorhynchos,
+            32   Cobitis_aurata,
+            33   Cobitis_taenia,
+            34   Lepidocephalichthys_berdmorei,
+            35   Lepidocephalus_hasselti,
+            36   Lepidocephalus_thermalis,
+            37   Misgurnus_anguillicaudatus,
+            38   Misgurnus_mizolepis,
+            39   Botia_macracanthus,
+            40   Botia_modesta,
+            41   Botia_purpurea,
+            42   Leptobotia_fasciata,
+            43   Vaillantella_euepiptera,
+            44   Carpiodes_carpio,
+            45   Carpiodes_cyprinus,
+            46   Carpiodes_sp,
+            47   Carpiodes_velifer,
+            48   Cycleptus_elongatus,
+            49   Ictiobus_bubalus,
+            50   Ictiobus_labiosus,
+            51   Ictiobus_meridionalis,
+            52   Ictiobus_sp,
+            53   Myxocyprinus_asiaticus,
+            54   Catostomus_bernardini,
+            55   Catostomus_catostomus,
+            56   Catostomus_columbianus,
+            57   Catostomus_commersoni,
+            58   Catostomus_insignis,
+            59   Catostomus_occidentalis,
+            60   Catostomus_wigginsi,
+            61   Erimyzon_oblongus,
+            62   Erimyzon_sucetta,
+            63   Hypentelium_etowanum,
+            64   Hypentelium_nigricans,
+            65   Hypentelium_roanokense,
+            66   Minytrema_melanops,
+            67   Moxostoma_anisurum,
+            68   Moxostoma_cervinum,
+            69   Moxostoma_erythrurum,
+            70   Pantosteus_clarki,
+            71   Thoburnia_atripinnis,
+            72   Thoburnia_hamiltoni,
+            73   Thoburnia_rhothoecum,
+            74   Xyrauchen_texanus,
+            75   Abramis_ballerus,
+            76   Abramis_brama,
+            77   Acanthorhodeus_guichenoti,
+            78   Acheilognathus_intermedius,
+            79   Acrocheilus_alutaceus,
+            80   Agosia_chrysogaster,
+            81   Alburnus_alburnus,
+            82   Aopidoparia,
+            83   Aphyocypris_chinensis,
+            84   Balanteocheilus_melanopterus,
+            85   Barbus_ablades,
+            86   Barbus_barbus,
+            87   Barbus_conchonius_,
+            88   Barbus_matsudai,
+            89   Barilius_barna,
+            90   Barilius_ubangensis,
+            91   Blicca_bjoerkna,
+            92   Brachydanio_albolineatus,
+            93   Campostoma_anomalum,
+            94   Capoeta_damascina,
+            95   Chela_anomalurus,
+            96   Chela_oxygastroides,
+            97   Chelaethiops_elongatus,
+            98   Chondrostoma_nasus,
+            99   Chondrostoma_ohridanus,
+            100  Cirrhinus_chinensis,
+            101  Clinostomus_elongatus,
+            102  Couesius_plumbeus,
+            103  Ctenopharyngodon_idella,
+            104  Culter_alburnus,
+            105  Cyclocheilichthys_armatus,
+            106  Cyprinion_irregulare,
+            107  Cyprinus_carpio,
+            108  Dangila_festiva,
+            109  Danio_aequipinnatus,
+            110  Danio_malabaricus,
+            111  Dionda_episcopa,
+            112  Elopichthys_bambusa,
+            113  Engraulicypris_sardella,
+            114  _Epalzeorhynchos_kalopterus,
+            115  Ericymba_buccata,
+            116  Ermichthys_acros,
+            117  Esomus_metalicus,
+            118  Exoglossum_maxillingua,
+            119  Garra_rossica,
+            120  Gila_atraria,
+            121  Gila_ditaenia,
+            122  Gila_orcuttii,
+            123  Gila_robusta,
+            124  Gnathopogon_caerulescens,
+            125  Gobio_gobio,
+            126  Gobiobotia_puppenheimi,
+            127  Hampala_macrolepidota,
+            128  Hemibarbus_barbus,
+            129  Hemiculter_leucisculus,
+            130  Hemitrema_flammea,
+            131  Hesperoleucas_symmetricus,
+            132  Hybognathus_nuchalis,
+            133  Hybopsis_biguttatus,
+            134  Hybopsis_micropogon,
+            135  Hypophthalmichthys_molitrix,
+            136  Ischikauia_hainanensis,
+            137  Labeo_erythrurus,
+            138  Labeo_niloticus,
+            139  Lavinia_exilicauda,
+            140  Leptocypris_niloticus,
+            141  Leucaspius_delineatus,
+            142  Leuciscus_leuciscus,
+            143  Lobocheilus_bo,
+            144  Meda_fulgida,
+            145  Microphysogobio_labeoides,
+            146  Mirogrex_terraesanctae,
+            147  Moralius_chrysophekadion,
+            148  Moroco_steindachneri,
+            149  Mylocheilus_caurinus,
+            150  Mystacoleucus_marginatus,
+            151  Notemingonus_crysoleucas,
+            152  Notropis_atherinoides,
+            153  Notropis_bellus,
+            154  Notropis_spilopterus,
+            155  Ochetobius_elongatus,
+            156  Opsariichthys_bidens,
+            157  Opsariichthys_uncirostris,
+            158  Opsopoedus_emiliae,
+            159  Osteochilus_melanopleurus,
+            160  Osteochilus_salsburyi,
+            161  Oxygaster_hypophthalmus,
+            162  Oxygaster_oxygastroides,
+            163  Pachychilon_pictum,
+            164  Paracrossocheilus_acerus,
+            165  Paracrossocheilus_vittatus,
+            166  Pelecus_cultratus,
+            167  Phenacobius_mirabilus,
+            168  Phoxinus_erythrogaster,
+            169  Phoxinus_phoxinus,
+            170  Plagopterus_argentissimus,
+            171  Platygobio_gracilis,
+            172  Ptychocheilus_grandis,
+            173  Ptychocheilus_oregonensis,
+            174  Pseudogobio_esocinus,
+            175  Pseudoperilampus_hainanensis,
+            176  Pseudorasbora_parva,
+            177  Psilorhynchus_balitora,
+            178  Psilorhynchus_gracilis,
+            179  Psilorhynchus_sucatio,
+            180  Puntius_filamentosus,
+            181  Rasbora_daniconius,
+            182  Rasbora_helfrichi,
+            183  Rasbora_pauciperforta,
+            184  Rasbora_steineri,
+            185  Rhinichthys_cataractae,
+            186  Rhinogobio_typus,
+            187  Rhodeus_sericeus,
+            188  Rhodeus_sinensis,
+            189  Rhyncocypris_variegatus,
+            190  Richardsonius_balteatus,
+            191  Richardsonius_egregius,
+            192  Rutilus_rutilus,
+            193  Saurogobio_dumerilli,
+            194  Sarcocheilichthys_variegatus,
+            195  Scardinius_erythrophthalmus,
+            196  Semotilus_atromaculatus,
+            197  Spinibarbus_hollandi,
+            198  Squalidus_intermedius,
+            199  Squaliobarbus_curriculus,
+            200  Thynnichthys_thynnoides,
+            201  Tinca_tinca,
+            202  Tor_putitora,
+            203  Tor_tambora,
+            204  Tribolodon_hakuensis,
+            205  Varicorhinus_robustus,
+            206  Varicorhinus_tamusuiensis,
+            207  Xenocypris_davidi,
+            208  Zacco_platypus,
+            209  Zacco_spilurus,
+            210  Moxostoma_ariommum;
+      TREE 'Fig. 77+' = [&R] (10,(4,(7,(2,((1,3),(9,(5,(6,8))))))));
+
+
+
+END;

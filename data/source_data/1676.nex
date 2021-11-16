@@ -1,0 +1,96 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:49 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Meerow A. 1987. A monograph of Eucrosia (Amaryllidaceae). Systematic Botany, 12:
+460-492.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S336]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=11;
+        TAXLABELS
+            Eucrosia_aurantiaca
+            Eucrosia_bicolor
+            Eucrosia_dodsonii
+            Eucrosia_eucrosioides
+            Eucrosia_mirabilis
+            Eucrosia_stricklandii
+            Eucrosia_tubiflora
+            Outgroup_to_Amaryllidaceae
+            Phaedranassa
+            Rauhia
+            Stenomesson
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M855]
+
+	TITLE Table_6;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=18;
+	FORMAT DATATYPE=Standard SYMBOLS= "A B C D E 0 1 2 3 4 5 F G H J K L M N P Q R S T U V" MISSING=? GAP= -;
+	CHARSTATELABELS
+		1  Leaf_vernation / revolute involute,
+		2  Leaves / sessile_or_petiolate petiolate,
+		3  Petiole / short polymorphic long,
+		4  Lamina / lorate_to_lanceolate 'lanceolate to elliptic-lanceola' broadly_ovate_or_elliptic,
+		5  Abaxial_cuticle / striate 'striate (Type Vll)' 'smooth or striate (Type Vll)' smooth,
+		6  Stomatal_distribution / amphistomatic hypostomatic,
+		7  Scape_pith / completely_solid distally_hollow,
+		8  Anthesis / not_synchronous synchronous,
+		9  Flowers / ²10 polymorphic '>10',
+		10  Flowers / actinomorphic_rarely_zygomorphi weakly_zygomorphic strongly_zygomorphic,
+		11  Flowers / green yellow_red_or_orange,
+		12  Tube / longer_than_tepals nearly_equaling_sepals shorter_than_tepals,
+		13  Staminal_cup / conspicuous_or_rarely_ret_duced reduced 'absent (stamens free)',
+		14  Stamens_inserted / at_perianth_throat_rarely_below below_throat,
+		15  Stamens / 'not long-declinate' polymorphic 'Iong-declinate',
+		16  Globose_nectar_glands / absent present,
+		17  Pollen_longest_equatorial_diam / '>60 um' polymorphic '<60 um',
+		18  Exine / uniformly_reticulate 'reticulate but tectate-perforat' 'tectate-perforrate but fossulat' 'uniformly verrucate-fossulate',
+		;
+
+MATRIX
+Eucrosia_aurantiaca            ABCCBBBBCCBCBACBAC
+Eucrosia_bicolor               ABACBBBAABBCAACBCD
+Eucrosia_dodsonii              BBCCCABAABBBBBCAAB
+Eucrosia_eucrosioides          ABCCBBBACCBCBACBAD
+Eucrosia_mirabilis             ABCC?BBBCCACBACB??
+Eucrosia_stricklandii          ABACBBBAABBCAAABCA
+Eucrosia_tubiflora             ?B????BAABBACBAAAB
+Outgroup_to_Amaryllidaceae     AAAAAAAAAAAAAAAAAA
+Phaedranassa                   ABBBDABABABCCAAACA
+Rauhia                         BBACCABABAACCABACA
+Stenomesson                    AAAAAAAABABAAAAABA
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb5112;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Eucrosia_aurantiaca,
+            2    Eucrosia_bicolor,
+            3    Eucrosia_dodsonii,
+            4    Eucrosia_eucrosioides,
+            5    Eucrosia_mirabilis,
+            6    Eucrosia_stricklandii,
+            7    Eucrosia_tubiflora,
+            8    Rauhia,
+            9    Phaedranassa,
+            10   Stenomesson,
+            11   Outgroup_to_Amaryllidaceae;
+      TREE Fig._50 = [&R] ((((((((1,5),4),(3,7)),2),6)Eucrosia,(8,9)),10)Amaryllidaceae,11);
+
+
+
+END;

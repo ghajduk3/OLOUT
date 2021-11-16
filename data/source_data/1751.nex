@@ -1,0 +1,160 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:50 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Werren J., Richards S., Desjardins C.A., Niehuis O., Gadau J., & Colbourne J.K. 2010.
+Functional and Evolutionary Insights from the Genomes of Three Parasitoid Nasonia
+Species. Science, 327(5963): 343-348.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S10521]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=38;
+        TAXLABELS
+            Canary_Poxvirus_10
+            Canary_Poxvirus_15
+            Canary_Poxvirus_27
+            Canary_Poxvirus_33
+            Canary_Poxvirus_9
+            Cotesia_Congregata
+            Cow_Poxvirus_14
+            Fowl_Poxvirus_11
+            Fowl_Poxvirus_18
+            Fowl_Poxvirus_21
+            Monkey_Poxvirus_3
+            Myxoma_Virus_1
+            Myxoma_Virus_4
+            Myxoma_Virus_5
+            Nasonia_vitripennis_1
+            Nasonia_vitripennis_10
+            Nasonia_vitripennis_2
+            Nasonia_vitripennis_3
+            Nasonia_vitripennis_4
+            Nasonia_vitripennis_5
+            Nasonia_vitripennis_6
+            Nasonia_vitripennis_7
+            Nasonia_vitripennis_8
+            Nasonia_vitripennis_9
+            Orientia_Tsutsugamushi_Boryong_1
+            Orientia_Tsutsugamushi_Ikeda_1
+            Orientia_Tsutsugamushi_Ikeda_11
+            Orientia_Tsutsugamushi_Ikeda_2
+            Orientia_Tsutsugamushi_Ikeda_5
+            Orientia_Tsutsugamushi_Ikeda_9
+            Rabbit_Fibroma_Virus_2
+            Sheep_Poxvirus_3
+            Wolbachia_F
+            Wolbachia_symbiont_anannasae
+            Wolbachia_symbiont_simulans
+            Wolbachia_symbiont_vitripennis_A
+            Wolbachia_symbiont_vitripennis_B
+            Yaba_monkey_tumor_virus_1
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M5522]
+
+	TITLE Pranc_Domains;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=179;
+	FORMAT DATATYPE=Protein SYMBOLS= "A C D E F G H I K L M N P Q R S T V W Y" MISSING=? GAP= -;
+
+MATRIX
+[                                            10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170         ]
+[                                             .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         ]
+Canary_Poxvirus_10                   EN-NDIFKLIKDDCIKEINILKSITL---NK-FHSSDI-FIRYNTD-I-CLLTRFIQH--PKIIEL--DKK--LYAYKSIV--NERKIKA-TYRYYQIKKVLTVLP---------F-----SGYFSILPFDVLVYILEFIYDNNMLVLMRAL------------------------SLK
+Canary_Poxvirus_15                   G-ISPVHNAILLNCQKELDYLKTQYL---ANNYTLCDF-ILDK-DDNSL---ARFFKHPK--LSKI--KTLN---FYKSIG--EKNIMI-SSNRYMLLSKASDFI-----S---------K-CIIKNIPTDISLHICKLLTNEELKKIIN----------------------------Y
+Canary_Poxvirus_27                   LENVRIYKRIKDQCEKEILMLRNTKL---CN-GVIAD--IILTENN---HNLTRFIRN--PNFNAL--IHNFNFKVYKKLI--NNVIMSA-RSRFMLMNRSVNLI---------QN-----HEIFGKLPEDVLWNISKYLEADDVKTLENVLFTQ---------------L----NVKK
+Canary_Poxvirus_33                   QS-DDTFRRIWSRCNEELKDISKIRIN--MF-YSLDI--FITSKNM---NLLHRLVNN--PIMKEI--NTWH-FCNYGDRL--RTSVSLA-TDRHEILEKSRSKLDEIL------Y-----TSDWYKLPPDIKLSILEFIDNNELSKIYN----------------------------Y
+Canary_Poxvirus_9                    D-SVSILKSYKEKAENDISNMKKFRL---SYRYTLLDL-FKY-GKTNII--NRFYN-H--HAVNTL--KNYFT--IYYHFI--RYEIQEA-IEKNFLMNCMYELINSIL----SDN----GNIYWFKLPVETRYMILSNIDNASMRYTLKK--------------------------QI
+Cotesia_Congregata                   YFDNVTI--VEHEIYLCLESMKKDKVG--ASNITFWHL-LTSPWDRM-----IHHACNRDVRELC-IDNYKDKYPPYFHIL--KKRINDAV-KRSKLLEKSAE----------------EAFTLFKTLPFTCCQKILNYFSDDNLEKFYSFYS-------------------------L
+Cow_Poxvirus_14                      ESISQRYNDYIDLCNQELNEMKKIMV---GGN-TMFSL-IFTDHGAKII---HRYANNPE--LREY--YESK---QNKIYVEAYDIISNAIVKHDR-IHKTIES-----VD--D------N-TYISNLPYDIKFKIFE-----------------------------------------
+Fowl_Poxvirus_11                     INSKSRLKDVFEKCKIELRRINSESI----RTYNILDL-CLKPSKNLDENILARHSR---KILGLY--DNAI---FYKYLL--KELADTA-SQRAEAIESAMRVIDEKI----TGD-----ETKWNWLPHEIKYNILEYIGNKELDIASM----------------------------K
+Fowl_Poxvirus_18                     Q-TDKYLLRVYHECKNQVSKMGEIKL---GDGFTMIDI-YKN-RRSIHVNFLARYAMQ--LSTIDL--REVP---IYRKYL--EILINPA-IKRHKILNAAKDTMNNIL----HRK----EKFYWNLLPVEIKFNILEYLNSKDLISLIHSNTVN---E--------IDLS----HIFI
+Fowl_Poxvirus_21                     K-DNKRLQRIAIHCLKDIEKMKQVSI---NSRFTLFDL-FVNNN-VDLL---LRCINKDNRFIVNF--DKKLT--VFNILY--TDFIDTF-MSRHVLLNKASKVLEDLFLD--NDS----NTSSWNNLPNEIKDHIFTYINNDELKIMTGS--------------------------KT
+Monkey_Poxvirus_3                    EKYGKVLH-DLDTYIKDVQVLKSTSIT--NN-ITLYD--TIINNKS---EFPIRRVND--KQLINL--IKSNT---YHNLI--EKVIKNT-LEKYTLTNIVLEYMISSR-----SQ-----SSYLSRIPNEILLEILYKLDMYDLRNLYTRYMRENDITE--YHIENTRSV----STQT
+Myxoma_Virus_1                       LEVQLAFPDIVYEYENSLETMRNETI---GS-YSVYDF-VFCRSRG---IVPVSVIKH--PSFMKF--QTSI---LYGPTI--RSIILNS-LEFDAWVNEAVDVLNVYC-----R-----KRNYWGRLPVELQKNILQYLTSYQIKYILCFKKKT---------------R----RFFI
+Myxoma_Virus_4                       GYISVDFKRVVDVCEEDIISMKHDVL---DK-VSVYDL-VFGKNN----TMPMRYVRD--YRVTRY--MNSV---IYGGRV--KTIINNS-VERDKQMRNILIALEVYC-----R------NTLWHTLPVEIRAHIVDKLPSHEVRTLAENLTVF---K-----------R----EKLI
+Myxoma_Virus_5                       VHIYDYFREFVDECIRERDAMKADVL----DAVSVFDT-AFG-----LV--ARPRWKH--VRILSK--YVRGV---YGDRV--KKILRSL-HKRRFKTDRLVRRI--AD----LCG----PDGLWTRLPIEVRYSVVDYLTDDEIHDLFVK-------------------------IHA
+Nasonia_vitripennis_1                V-NSEKLNLFYRDCQAELTKMKENKVC-DN--ISMYKV-LTKSMNTV-----VGYTRNENLSKILELDFYANEFPIYYQML--RERFYKAE-SRKQLLESSMATFRSLVK----------P---F-SLPDLVTNEILSYLTIEDLVSLK----------------------------IT
+Nasonia_vitripennis_10               QQVNNVENDILLKCEYEVKKMKSIKL--N-SYSTLYDI-LFKDPNEM-----ALYVENENFKNIVQASNFKSEFPQYRYLL--ELQLRKGK-TRSELMNPAKEAL-EFIL----------G----VSLPDACSERIFRYLCNRNLKDLIKAQN-----------------------SHN
+Nasonia_vitripennis_2                -YLDDKQKLFQEKCQSEVCSIKELKI--N-NYVTVYDV-LVKDVTEV-----ARYTKNENIQMICEILDNPLRFPIYGSMI--VNRLRKAV-RRETFLDKAKESL-NILS----------Q----YGLPDSCTENVIIYLSNEDLKNLCNILVKSDSKSN--SAEQD-GSAKV--LLNL
+Nasonia_vitripennis_3                WKDVERDDEFSTICADELNRMKSVRI--D-NYSSLYNI-IFKGANEM-----ASHVRNETLKQIVESSDFDKTFYLYGYLI--KLQIKRGL-AREKLMKPALEAL-ESIT----------G----ISLPAGCAETILKYLINDELKDLIRA--------------------------KL
+Nasonia_vitripennis_4                -LVEIKNKNHTNDCRAEIKKLKSIRI--D-KSCTLYDL-LLKNTDEM-----ANRVKNTIFKKIL-SSAIDTDFPIYGFLL--KVQYRSGI-KRRNYLNFAKEALAELIP----------K----IPLPDSCSESIFKYLSNADLDNLIKANEVGY-------------------VNYN
+Nasonia_vitripennis_5                VVESACNKAFLEKCREDIGKLKVVMI--D-RYASFYDL-LFLNANEV-----AVRVKNEDFRKSV-RTNCKLNFTLYNDII--VKQFVKGM-VRSILLESAKEYL-SFII----------R----VDLPDPCSENILSHLKNEDLCNLALAF-------------------------EK
+Nasonia_vitripennis_6                IDALEEFKSHFLVCLNELLSIKEETCC--N--TSLMNF-LVKDIFAL-----AKLARHKQVVDKFKAITNAKNYPIYFKKL--EENIEKAA-DRWELIRQVKDLLCKLKY--------------F-QLLYDVLDNIVENFSNDELSNFIAASNTE---------------------TTI
+Nasonia_vitripennis_7                KQK-CRLQLFYDQCQNELANMKNKKIY-DN--ISYYDI-LTKSTNTM-----VSYARNKNLTSAFESSDYLNAFPIYSLMM--HKNYERGK-VKKQLLEVGSIALKFLFKN--NTE--Q-K--VPVELPYVVNREILNYLDLKDLRILSALCHPSPTQ-----------------KVSR
+Nasonia_vitripennis_8                --GKTGYNDWLSRCFDELRTMSQTKIG-ES-RVFFYDV-LVASANEA-----LIYSKNKNLIEAFQAEKTA--FPLYQGMM--EAKIERGI-ERRKLIERATVLLMSDIL--------V-Q---FDLLSDDCYENILSYCSNEDLIRLI-----------------------------G
+Nasonia_vitripennis_9                R-SKKWLQELKSGCEDELVKMKESILC-EN--FSMYAL-LTKSVFSL-----AVCLRNEKIVEYFMVEDVEGKYPIYCDML--RIRFDLAL-KRKKLLDSARSALDLVFRN----I--V-KELGYETLPDIVVQKILDYCNLRDLSKITD--------------------------ILK
+Orientia_Tsutsugamushi_Boryong_1     --EISSLNAFEQQCHAEIKQMKFFCVG-SSG-FSFFDM-FVLKKDIN-----TIARCA-NNLAIVE---HMYKFDMHFSLI--EEAVEEGK-VRAKMLHGAVESIDEIFES--NQDNRQESPTSWLQLPPELKLMILENLSNNDLIKLQHTNE---------VEAEAGGAHAI--YEKE
+Orientia_Tsutsugamushi_Ikeda_1       --ESEDLKELEQQCHKEIEEIRSISVG-ENG-KSFFDI-FVLQKDIN-----TLARCA-NNPNIVL---CQDKFSMYSSFI--EKFIKEVK-ARAKLLQGAVESMDEIFES--NQDSHQESHISWFHLPQEVRLMVLENLSNTDLTKLQSLQ---------------KQFLCL--YL-S
+Orientia_Tsutsugamushi_Ikeda_11      ---SEQLKELEQQCHKEIEEMCSISVG-SSSCLSFFDI-FVLKKDMN-----ILARCA-NNPDIVR---HQNKFSMYSPFI--EKSIEEGE-KRAKLLQGAVESIDEIFES--NQDASQKSQTSWSHLPPEVRFMILENLDNDDLTKIQRTDVAEAGEAGAEVEAEVGGAHAI--Y--E
+Orientia_Tsutsugamushi_Ikeda_2       --NSNLLAKFQQECCKEIEKMKSTYVN-ESG-LSVWDI-FILQKDKQ-----ELIRCSYQHNDIIK---LMNEFCMYSPFI--VKSIVEAT-GRTKLLQGAAESMDEIFES--NHDASQEGHTSWLYLPPELKLMILENLSTNDLIKLQQFDE---------AEALLKGAYAL--YEGE
+Orientia_Tsutsugamushi_Ikeda_5       ---NQSLNEIWQNCQKEIQKMKDTIVC-ESENTSLFDM-F-MDSDLD-----KIARST-NYRHIRH--KFEKEFCTYSPFI--EKAIE----SRTLMLQNAVESIDEIFEP--NQDDS----TSWLHLPLEMKFMVLEYCSKDDLTKLQHHEE-----------VEIAGGNVM--HKES
+Orientia_Tsutsugamushi_Ikeda_9       --ESEQLKELEQQCHNEIEEMMSISVG-ENG-KSFFDI-FVLQKDIN-----TLARCA-NNPDIVL---CQDKFFMYSSFI--EKSIKEGK-ARAKMLQGAVESIDEIFES--NQDANQKSQISWLHLPLEVRMMILENLSNTDLTKLQHNDTAEA-----DAEAELEGAYAI--YEEE
+Rabbit_Fibroma_Virus_2               LEVQLMFPNIVYEYENSLKAMRSETI---GS-HSIYDL-VFRRSHS---IVPINVTKH--PSFTKF--QTSI---LYGAKI--RRIILDS-LEFDACVNEAVDVLNVYC-----K-----KRNYWGSLPIEIQKNILQHLTTYQIKYILCFKKKK---------------R----KFFI
+Sheep_Poxvirus_3                     TKAFIYFDDFIEKCTKSSNYIHNTYI---NN-ETIFQL-CFNKK-Y-IP---ISVINN-NKKLLKK--HTKLF--YYGNIL--KKNIEKS-KKYYENIYKVLCYISNS-C---D------TCSYWNTIPLEIKFKIVNNLSLNDIEMFFFE--------------------------NK
+Wolbachia_F                          ---------------------KSEKI--NNPNISFYDI-LVKGTSSL-----AIYMRNENIVQVLKSDDYKTKFPIYASMI--ESHFRKGM-ERKELLEQGNKIFHFLFNNFPE-------------LPYDCTEKIFSYLSNEDLRILM------------------------------
+Wolbachia_symbiont_anannasae         --ISGEISGFQDECEEEIARMKSEKI--NNPNISFYDI-LAKGTSSL-----AIYMRNENIVQVLKSDDYKTKFPIYASMI--ESHFRKGM-ERKELLEQGNKIFHFLFNNFPE-------------LPYDCTEKIFSYLSNEDLRILIDACNPLSISN----PNTNINNVVITSSTSQ
+Wolbachia_symbiont_simulans          -----------DDCVCEILQMKTDEI--KD-SLPLYEF-VTNNFNIH-----VLY-NNQLSVR-LAKIDYSIRYPIYNDII--LDKVKPFL-ERADLLNKLSKIQFYTKLDVADQD----AKEKKIILDHDSTYNITEYLYNDNLLNFIVAFDDSNKRTF--QSLSPLNNLVEPGT--R
+Wolbachia_symbiont_vitripennis_A     --ISGEISGFQDECEEEIARMKSEKI--NNPNISFYGI-LAKGTSSL-----AIYMRDENIVQVLKSDDYKTKFPIYASMI--ESHFRKGM-ERKELLEQGNKIFHFLFNNFPE-------------LPYDCTEKIFSYLSNEDLRILI------------------------------
+Wolbachia_symbiont_vitripennis_B     --ISGEISGFQDECEEEIARMKSEKI--NNPNISFYGI-LAKGTSSL-----AIYMRDENIVQVLKSDDYKTKFPIYASMI--ESHFRKGM-ERKELLEQGNKIFHFLFNNFPE-------------LPYDCTEKIFSYLSNEDLRILI------------------------------
+Yaba_monkey_tumor_virus_1            RY-IC-MYKFINECIREINVIKNVKIG--YRNYSIFN--ILKNYNI---NLAVDYIDN--SYLYNF---VT--LKHYGQSI--KDIIERA-LYRKSLILDKIKKMDSIC------K-----NTHWFFIPMEIKLKIIKNIEDRYLE---------------------------------
+;
+END;
+
+BEGIN TREES;
+      TITLE Pranc_domains_ML_TB;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Cotesia_Congregata,
+            2    Myxoma_Virus_4,
+            3    Fowl_Poxvirus_18,
+            4    Myxoma_Virus_1,
+            5    Canary_Poxvirus_33,
+            6    Rabbit_Fibroma_Virus_2,
+            7    Sheep_Poxvirus_3,
+            8    Fowl_Poxvirus_21,
+            9    Fowl_Poxvirus_11,
+            10   Canary_Poxvirus_15,
+            11   Canary_Poxvirus_9,
+            12   Monkey_Poxvirus_3,
+            13   Canary_Poxvirus_27,
+            14   Myxoma_Virus_5,
+            15   Canary_Poxvirus_10,
+            16   Yaba_monkey_tumor_virus_1,
+            17   Cow_Poxvirus_14,
+            18   Orientia_Tsutsugamushi_Ikeda_11,
+            19   Orientia_Tsutsugamushi_Ikeda_9,
+            20   Orientia_Tsutsugamushi_Ikeda_1,
+            21   Orientia_Tsutsugamushi_Ikeda_5,
+            22   Orientia_Tsutsugamushi_Ikeda_2,
+            23   Orientia_Tsutsugamushi_Boryong_1,
+            24   Nasonia_vitripennis_1,
+            25   Nasonia_vitripennis_2,
+            26   Nasonia_vitripennis_3,
+            27   Nasonia_vitripennis_4,
+            28   Nasonia_vitripennis_5,
+            29   Nasonia_vitripennis_6,
+            30   Nasonia_vitripennis_7,
+            31   Nasonia_vitripennis_8,
+            32   Nasonia_vitripennis_9,
+            33   Nasonia_vitripennis_10,
+            34   Wolbachia_symbiont_simulans,
+            35   Wolbachia_symbiont_vitripennis_A,
+            36   Wolbachia_symbiont_vitripennis_B,
+            37   Wolbachia_symbiont_anannasae,
+            38   Wolbachia_F;
+      TREE Fig._4 = [&R] ((((((1,(29,34)),(((24,32),30),(((35,36),37),38))),31),(25,(((26,33),27),28))),((((18,23),(19,20)),22),21)),(((5,9),8),(((3,11),((10,13),15)),(((2,14),(4,6)),(17,((7,12),16))))));
+
+
+
+END;

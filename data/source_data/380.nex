@@ -1,0 +1,66 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:36 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Soares-porto L.M. 1993. "Monophyly and interrelationships of the Centromochlinae
+(Siluriformes: Auchenipteridae)." In: Malabarba L.R., Reis R.E., Vari R.P., Lucena
+Z.M., & Lucena C.A., eds. Phylogeny and Classification of Neotropical Fishes.
+pp. 331-350. Porto Alegre, Edipucrs.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S12934]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=42;
+        TAXLABELS
+            Ageneiosus
+            Asterophysus_batrachus
+            Auchenipterus_nuchalis
+            Centromochlus_concolor
+            Centromochlus_existimatus
+            Centromochlus_heckelii
+            Centromochlus_perugiae
+            Centromochlus_punctatus
+            Centromochlus_reticulatus
+            Centromochlus_romani
+            Centromochlus_schultzi
+            Centromochlus_stroudi
+            Chiloglanis_disneyi
+            Chiloglanis_polypogon
+            Entomocorus_benjamini_
+            Entomocorus_gameroi
+            Epapterus_dispilurus
+            Glanidium_albescens
+            Glanidium_cesarpintoi
+            Glanidium_leopardus
+            Glanidium_melanopterum
+            Glanidium_ribeiroi
+            Hemisynodontis_membranaceus
+            Liosomadoras_oncinus
+            Parauchenipterus_galeatus
+            Pseudauchenipterus_affinis
+            Pseudauchenipterus_jequitinhonhae
+            Pseudauchenipterus_nodosus
+            Pseudotatia_parva
+            Pseudotatia_parva_
+            Synodontis_brichardi
+            Synodontis_clarias
+            Tatia_aulopygia
+            Tatia_boemia
+            Tatia_brunnea
+            Tatia_creutzbergi
+            Tatia_gyrina
+            Tatia_intermedia
+            Tatia_neivai
+            Tatia_strigata
+            Tocantinsia_piresi
+            Wertheimeria_maculata
+            ;
+END;
+

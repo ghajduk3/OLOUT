@@ -1,0 +1,209 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:40 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Linder H., & Kellogg E. 1995. "Phylogenetic patterns in the commelinid clade." In:
+Rudall P., Cribb P., Cutler D., & Humphries C., eds. Monocotyledons: systematics
+and evolution. pp. 473-496. Kew, Royal Botanic Gardens.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S627]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=55;
+        TAXLABELS
+            Aechmea
+            Aegilops
+            Ananas
+            Anigozanthos
+            Avena
+            Bambusa
+            Calamus
+            Calathea
+            Campelia
+            Carex
+            Caryota
+            Cenchrus
+            Chamaedorea
+            Commelina
+            Costus
+            Cyperus
+            Drymophloeus
+            Elegia
+            Flagellaria
+            Globba
+            Glomeropitcairnia
+            Hechtia
+            Hedychium
+            Heliconia
+            Hordeum
+            Juncus
+            Lachnocaulon
+            Maranta
+            Musa
+            Neurachne
+            Nypa
+            Oryza
+            Oxychloe
+            Pennisetum
+            Phenakospermum
+            Philydrum
+            Phoenix
+            Pontederia
+            Prionium
+            Puccinella
+            Puya
+            Ravenala
+            Riedelea
+            Serenoa
+            Sparganium
+            Stegolepis
+            Strelitzia
+            Tapeinocheilos
+            Tillandsia
+            Tradescantia
+            Triticum
+            Typha
+            Xanthorrhoea
+            Zebrina
+            Zingiber
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M3618]
+
+	TITLE ;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=1;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1" MISSING=? GAP= -;
+
+MATRIX
+Aechmea               ?
+Aegilops              ?
+Ananas                ?
+Anigozanthos          ?
+Avena                 ?
+Bambusa               ?
+Calamus               ?
+Calathea              ?
+Campelia              ?
+Carex                 ?
+Caryota               ?
+Cenchrus              ?
+Chamaedorea           ?
+Commelina             ?
+Costus                ?
+Cyperus               ?
+Drymophloeus          ?
+Elegia                ?
+Flagellaria           ?
+Globba                ?
+Glomeropitcairnia     ?
+Hechtia               ?
+Hedychium             ?
+Heliconia             ?
+Hordeum               ?
+Juncus                ?
+Lachnocaulon          ?
+Maranta               ?
+Musa                  ?
+Neurachne             ?
+Nypa                  ?
+Oryza                 ?
+Oxychloe              ?
+Pennisetum            ?
+Phenakospermum        ?
+Philydrum             ?
+Phoenix               ?
+Pontederia            ?
+Prionium              ?
+Puccinella            ?
+Puya                  ?
+Ravenala              ?
+Riedelea              ?
+Serenoa               ?
+Sparganium            ?
+Stegolepis            ?
+Strelitzia            ?
+Tapeinocheilos        ?
+Tillandsia            ?
+Tradescantia          ?
+Triticum              ?
+Typha                 ?
+Xanthorrhoea          ?
+Zebrina               ?
+Zingiber              ?
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb5706;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Xanthorrhoea,
+            2    Caryota,
+            3    Nypa,
+            4    Serenoa,
+            5    Calamus,
+            6    Chamaedorea,
+            7    Phoenix,
+            8    Drymophloeus,
+            9    Philydrum,
+            10   Anigozanthos,
+            11   Pontederia,
+            12   Commelina,
+            13   Campelia,
+            14   Tradescantia,
+            15   Zebrina,
+            16   Ravenala,
+            17   Strelitzia,
+            18   Phenakospermum,
+            19   Heliconia,
+            20   Musa,
+            21   Costus,
+            22   Tapeinocheilos,
+            23   Maranta,
+            24   Calathea,
+            25   Zingiber,
+            26   Globba,
+            27   Hedychium,
+            28   Riedelea,
+            29   Stegolepis,
+            30   Glomeropitcairnia,
+            31   Aechmea,
+            32   Ananas,
+            33   Puya,
+            34   Tillandsia,
+            35   Hechtia,
+            36   Lachnocaulon,
+            37   Prionium,
+            38   Juncus,
+            39   Carex,
+            40   Oxychloe,
+            41   Cyperus,
+            42   Sparganium,
+            43   Typha,
+            44   Flagellaria,
+            45   Elegia,
+            46   Bambusa,
+            47   Oryza,
+            48   Neurachne,
+            49   Cenchrus,
+            50   Pennisetum,
+            51   Avena,
+            52   Puccinella,
+            53   Hordeum,
+            54   Triticum,
+            55   Aegilops;
+      TREE Fig._3 = [&R] (1,(2,(3,(4,(5,(6,(7,8)))))),((((9,10),(11,(12,(13,(14,15))))),((16,(17,18)),(19,(20,((21,22),((23,24),((26,25),(27,28)))))))),(((((32,31),(33,(34,35))),30),29),(36,((37,(38,(39,(40,41)))),((42,43),(44,(45,((46,47),((48,(49,50)),((51,52),(53,(54,55)))))))))))));
+
+
+
+END;

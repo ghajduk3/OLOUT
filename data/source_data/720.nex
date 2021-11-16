@@ -1,0 +1,117 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:38 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Conant D., Stein D., Valinski A., & Sudarsanam P. 1994. Phylogenetic implications
+of chloroplast DNA variation in the Cyatheaceae. I. Systematic Botany, 19: 60-72.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S148]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=24;
+        TAXLABELS
+            Alsophila_abbottii
+            Alsophila_amintae
+            Alsophila_brooksii
+            Alsophila_bryophila
+            Alsophila_fulgens
+            Alsophila_jimeneziana
+            Alsophila_minor
+            Alsophila_portoricensis
+            Alsophila_urbanii
+            Alsophila_woodwardioides
+            Cnemidaria_horrida
+            Cyathea_andina
+            Cyathea_arborea
+            Cyathea_caracasana
+            Cyathea_furfuracea
+            Cyathea_parvula
+            Cyathea_tenura
+            Lophosoria_quadripinnata
+            Sphaeropteris_cooperi
+            Sphaeropteris_insignis
+            Sphaeropteris_medullaris
+            Trichipteris_armata
+            Trichipteris_borinquena
+            Trichipteris_procera
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M3566]
+
+	TITLE Table_2;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=58;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1" MISSING=? GAP= -;
+
+MATRIX
+[                                    10        20        30        40        50        ]
+[                                     .         .         .         .         .        ]
+Alsophila_abbottii           0000000000010100010100000010001000101101100000101000000010
+Alsophila_amintae            0000000000010100010100000010001000101101100000101000000010
+Alsophila_brooksii           0000000000010100010100000010001000101101100000101000000010
+Alsophila_bryophila          0000000000010100010100000010001000101101100000101000000010
+Alsophila_fulgens            0000000000010100010100000010001100101101100000101000000010
+Alsophila_jimeneziana        0000000000010100010100000010001100101101100000101000000010
+Alsophila_minor              0000000000010100010100000010001000101101100000101000000010
+Alsophila_portoricensis      0000000000010100010100000010001000101101100000101000000010
+Alsophila_urbanii            0000000000010100010100000010001000101101100000101000000010
+Alsophila_woodwardioides     0000000000010100010100000010001100101101100000101000000010
+Cnemidaria_horrida           1111101110101010101000100001100011000000001110000101000101
+Cyathea_andina               1111111110101010101000100001100011000000001110000001010101
+Cyathea_arborea              1101001110101010101000100001100001000000001111000011100101
+Cyathea_caracasana           1111001011101010101000101001100011000000001110000001001001
+Cyathea_furfuracea           1111001010101010101000101001100011000000001110000001000101
+Cyathea_parvula              1111001010101010101000100101100011000000001111000101010001
+Cyathea_tenura               1111001011101010101000101001100011000000001110000001001001
+Lophosoria_quadripinnata     0000000000000000000000000000000000000000000000000000000000
+Sphaeropteris_cooperi        1011100000000001101001110000010001010010011000010001010000
+Sphaeropteris_insignis       1011000000000001101001010000010001010010011000010001010000
+Sphaeropteris_medullaris     1011000000000001101001110000000001010010011000010001000000
+Trichipteris_armata          1111001110101010101000100101100001000000011110000011110101
+Trichipteris_borinquena      1111101010101010101010100001100011000000001111000001010001
+Trichipteris_procera         1111101010101010101010100001110011000000001111001001010101
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb4870;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Alsophila_abbottii,
+            2    Alsophila_amintae,
+            3    Alsophila_brooksii,
+            4    Alsophila_bryophila,
+            5    Alsophila_fulgens,
+            6    Alsophila_jimeneziana,
+            7    Alsophila_minor,
+            8    Alsophila_portoricensis,
+            9    Alsophila_urbanii,
+            10   Alsophila_woodwardioides,
+            11   Cnemidaria_horrida,
+            12   Cyathea_andina,
+            13   Cyathea_arborea,
+            14   Cyathea_caracasana,
+            15   Cyathea_furfuracea,
+            16   Cyathea_parvula,
+            17   Cyathea_tenura,
+            18   Sphaeropteris_cooperi,
+            19   Sphaeropteris_insignis,
+            20   Sphaeropteris_medullaris,
+            21   Trichipteris_armata,
+            22   Trichipteris_borinquena,
+            23   Trichipteris_procera,
+            24   Lophosoria_quadripinnata;
+      TREE Fig._3 = [&R] (((1,2,3,4,(5,6,10),7,8,9),(((((11,12),(13,21)),((14,17),15)),(16,(22,23))),((18,19),20))),24);
+
+
+
+END;

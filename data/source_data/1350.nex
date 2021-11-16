@@ -1,0 +1,433 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:46 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Frasier C., Albert V., & Struwe L. 2006. Amazonian lowland, white sand areas as ancestral
+regiosn for South American biodiversity: biogeographic and phylogenetic
+patterns in Potalia (Angiospermae: Gentianaceae). Organisms Diversity & Evolution,
+null.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S1682]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=13;
+        TAXLABELS
+            Anthocleista_amplexicaulis
+            Anthocleista_grandiflora
+            Anthocleista_scandens
+            Anthocleista_schweinfurthii
+            Anthocleista_vogelii
+            Fagraea_berteroana
+            Potalia_amara_1
+            Potalia_amara_2
+            Potalia_elegans
+            Potalia_maguireorum
+            Potalia_resinifera_1
+            Potalia_resinifera_2
+            Potalia_resinifera_3
+            ;
+END;
+
+BEGIN TAXA;
+        TITLE  Taxa2;
+        DIMENSIONS NTAX=9;
+        TAXLABELS
+            Anthocleista_amplexicaulis
+            Anthocleista_grandiflora
+            Anthocleista_scandens
+            Anthocleista_schweinfurthii
+            Potalia_amara
+            Potalia_elegans
+            Potalia_resinifera_1
+            Potalia_resinifera_2
+            Potalia_resinifera_3
+            ;
+END;
+
+BEGIN TAXA;
+        TITLE  Taxa3;
+        DIMENSIONS NTAX=15;
+        TAXLABELS
+            Anthocleista_amplexicaulis
+            Anthocleista_grandiflora
+            Anthocleista_scandens
+            Anthocleista_schweinfurthii
+            Anthocleista_vogelii
+            Fagraea_berteroana
+            Potalia_amara
+            Potalia_chocoensis
+            Potalia_coronata
+            Potalia_crassa
+            Potalia_elegans
+            Potalia_maguireorum
+            Potalia_resinifera
+            Potalia_turbinata
+            Potalia_yanamonoensis
+            ;
+END;
+
+BEGIN TAXA;
+        TITLE  Taxa4;
+        DIMENSIONS NTAX=15;
+        TAXLABELS
+            Anthocleista_amplexicaulis
+            Anthocleista_grandiflora
+            Anthocleista_scandens
+            Anthocleista_schweinfurthii
+            Anthocleista_vogelii
+            Fagraea_berteroana
+            Potalia_amara
+            Potalia_chocoensis
+            Potalia_coronata
+            Potalia_crassa
+            Potalia_elegans
+            Potalia_maguireorum
+            Potalia_resinifera
+            Potalia_turbinata
+            Potalia_yanamonoensis
+            ;
+END;
+
+BEGIN TAXA;
+        TITLE  Taxa5;
+        DIMENSIONS NTAX=15;
+        TAXLABELS
+            Anthocleista_amplexicaulis
+            Anthocleista_grandiflora
+            Anthocleista_scandens
+            Anthocleista_schweinfurthii
+            Anthocleista_vogelii
+            Fagraea_berteroana
+            Potalia_amara
+            Potalia_chocoensis
+            Potalia_coronata
+            Potalia_crassa
+            Potalia_elegans
+            Potalia_maguireorum
+            Potalia_resinifera
+            Potalia_turbinata
+            Potalia_yanamonoensis
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M871]
+
+	TITLE ITS_Potalia;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=657;
+	FORMAT DATATYPE=DNA SYMBOLS= "A C G T" MISSING=? GAP= -;
+
+MATRIX
+[                                       10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170       180       190       200       210       220       230       240       250       260       270       280       290       300       310       320       330       340       350       360       370       380       390       400       410       420       430       440       450       460       470       480       490       500       510       520       530       540       550       560       570       580       590       600       610       620       630       640       650       660       670       680 ]
+[                                        .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         . ]
+Anthocleista_amplexicaulis      TCGAATCCTGCGAAGCAGACGACCCGCGAACTTGTTTAACCCACGGGCGTCGGGACGTGGGGAACCGCGGACCGGCGCCCCTCGCACGGCGTCGATCTCTGGTCGCTCGTCGGGCGAAAAACTAAACCGGGGCGTGGAAAGGCGCCAAGGAAAACGAGAAAAGGATGGCCCGCCTCTCGATGCCCCGTACGCGGTGCGCGCGGGAGGAGCACGGGCGCCTGTA?GAAACCGATACGACTCTCGGCAACGGATATCTCGGCTCCCGCATCGATGAAGAACGTAGCGAACTGCGATACTTGGTGTGAATTGCAGAATCCCGTGAACCATCGAGTCTTTGAAC?GCAAGTTGCGCCCGAAGCCATCCGGCCGAGGGCACGTCTGCCTGGGCGTCACGCATCG?GTCGCCCCACCCAA?CCCCGTGCACCTCCATCGGTCGCGGGGG??ACTG?AAGG?GGGGGCGGAAAATGGCTTCCCGTGCCCCTGGCGCGGCTGGCCTAAATACGAGTCTCTTGTGACGGATGCGACGACAAGTGGTGGTTGAATGCCTCAACTCGGGTGCTGTCGCGCGAGGCCCCGTCAGGAGAGGAGACTGCCCCGACCCTG?CAGCATGTGTCGCCACGACGCATGCCACGACCGCGA?CCCCA?GTCAGGCG
+Anthocleista_grandiflora        TCGAATCCTGCGAAGCAGACGACCCGCGAACTTGTTTAACCCACGGGCGCCGGGACGTTGGGAACCGCGGACCGGCGCCCCGCGCA?GGCGTC?A?CTCCGGTC?CTCGCCGGGC?AAAAACTAAACCGGGGCGC?GAAA?GCCCC?AGGAAAACGAGAAAAGGATGGCCCGCCTCCCGACGCCCCGTACGCGGGGCGCGCGGGGGGAACACGGGCCCCTGTA?GAAACTGGTACGACTGTCGGCAACGGATATCTCGGCTCCCGCATCGATGAAGAACGTAGCGAACTGCGATACTTGGTGTGAACTGCAGAATCCCGTGAACCATCGAGTCTTTGAAC?GCAAGTTGCGCCCGAAGCCATCCGGCCGAGGGCACGTCTGCCTGGGCGTCACGCATCGCGTCCCCCCCCCCAA?CCCCGTGCACCTCCGTCGGTCGCGGGGGGGACTGAAAGG?GGGGGCGGAAGATGGCTTCCCGTGCCCCTGGCGCGGCTGGCCTAAATACGAGTCCCTTGCGACGGACGCGACGACAAGTGGTGGTTGAATGCCTCAACTCGGGCGCTGTCGCGCGAGGCCCCGTCGGGAGAGGAGACTGCCCCGACCCTGTAAGCGTGCGTCGCCGTGACGCGTGCCACGACCGCGA?CCCCAGGTCAGGCG
+Anthocleista_scandens           TCGAATCCTGCGAAGCGGACGACCCGCGAACCTGTTTAACCCACGGGCGCCGGGACGTGGGGAACCGCGGACCGGCGCCCCGCGCACGGCGTCGATCTCCGGTCGCTCGTCGGGCGAGAAACCAAACCGGGGCGCGGAAAGGCGCCAAGGAAAACGAGAAAAGGACCGCCCGCCTCCCGACGCCCCGTACGCGGTGCGCGCGGGGGGAGCACGGGCGCCCGAA?GAAACCGATACGACTCTCGGCAACGGATATCTCGGCTCCCGCATCGATGAAGAACGTAGCGAACTGCGATACTTGGTGTGAATTGCAGAATCCCGTGAACCATCGAGTCTTTGAAC?GCAAGTTGCGCCCGAAGCCATCCGGCCGAGGGCACGTCTGCCTGGGCGTCACGCATCGCGTCGCCCCCCCCAAACCCCGCGCGCCTC?GTCGGTCGCGGGGGGGACTGAAAGGTGGGGGCGGAAGATGGCTTCCCGTGCCCCTGGCGCGGCTG?CCTAAACACGAGTCCCTTGTGACGGACGCGACGGCAAGTGGTGGTTGAATGCCTCGACTCGGGTGCCGTCGCGCGAGGCCCCGTCGGGAGGGGAGACTGCCCCGACCCTGTAAGCGTGCGCCGACGTGACGCATGCCACGACCGCGA?CCCCAGGTCAGGCG
+Anthocleista_schweinfurthii     TCGA?TCCTGCGAAGCAGACGACCCGCGAACTTGTTTAACCCACGGGCGCCGGGACGTGGGGAACCGCGGACCGGCGCCCCGCGCACGGCGTCGATCTCCGGTCGCTCGCCGGGCGAGAAACTAAACCGGGGCGCGGAAAGGCGCCAAGGAAAACGAGAAAAGGATGGCCCGCCTCCCGACGCCCCGTACGCGGGGCGCGCGGGGGGAGCACGGGCGCCTGT??GAAACTGATACGACTCTCGGCAACGGATATCTCGGCTCCCGCATCGATGAAGAACGTAGCGAACTGCGATACTTGGTGTGAA???C???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????
+Anthocleista_vogelii            TCGAATCCTGCGAAGCAGACGACCCGTGAACTTGTTTAACCCACGGGCGTCGGGACGTGGGGAATCGCTGACCGGCACCCCGCGCA?GGTGTCGATCTCTGGTCGCTCGTCGGGCAAAAAACTAAACCGGGGCGTGGAAAAGCGCCAAGGACAATGAGAAAAGGATGGCCCGCCTCTCGGTGCCCCTTA?GCGGTGCATGCGGGAGGAGCACGGGCGCCTGTA?GAAACTAATACGACTCTCGGCAACAGATATCTCGGCTCCCGCATCGATGAAGAACGTAGCGAACTGCGATACTTGGTGTGAATTGCAGAATCCCGTGAACCATCGAGTCTTTGAA?TGCAAGTTGCGCCGGAAGCCATCCGGCC?AGGGCATGTCTGCCTGGGCATCACACATCGTGTCCACCCCCC?AA?CCCCGTGCAC?TCCTTTGGTCGCGGGG??AACTG?AAGG??GGGGTGGAAAATGGCTTCCCGTGCCCCTTGCGCGGTTGGCCTAAATTTGAGTCCCTTGCGACGGATGCAACGACAAGTGGTGGTTGAATGCCTCAACTCGGGTGCTGTC?????A???????TCAGGAGAGGAGACTGCCCCGACCCTGT?AGCATGTGGTGCCATGATGCATGCCACGACCGTGAA?CCCAGGTCAGGTG
+Fagraea_berteroana              {CT}?GAATC{AC}TGCGAAGCAGACGACCCGTGAACTTGTTTAACCCACGGGCGTCGGGACGTGGGGAACCGCGGACCGGCGCCCCGCGCACGGCGTCGGCCATTGGTCGCTCGTCGGGCGAGAAACTAAACCCGGGCGCAGAAAAGCGCCAAGGAAAACGAGAAAAGGATGGCCTGCCTCTCGACGCCCCGTACGCGGTGTGCGCGAGGGGAGCACGGGCACCTCTACGAAACTAAAACGACTCTCGGCAACGGATATCTCGGCTCTCGCATCGATGAAGAACGTAGCGAACTGCGATACTTGGTGTGAATTGCAGAATCCCGTGAACCATCGAGTCTTTGAAC?GCAAGTTGCGCCCGAAGCCATCC{AG}GCCGAGGGCACGTCTGCCTGGGC{AG}TCACGCATCGCGTCGCCCCCCC?AA?CCCCGTGAACCTCCATCGGTTGCGGGC??{AG}ACTGGA?GG???GGGCGGAAAATGGCTTCCTGTGCCCCTGGC{AG}{CT}GGCTGGCCTAAATGCGAGTCCCTTGCGACGGACGCGA{CT}GACAAGTGGTGGTTGATTGTCTCAACTCGAGTGCTGTCGCGCGAGGCCCCGTCGAAAGAGGAGACTCCCCCGACCCTG?CAGCATGTGTCGCCATGACGCGTGTCACGA?????????????????????
+Potalia_amara_1                 TCGAATCCAGCGAAGCGGACGACCCGCGGACTTGTTTAACCGACGGGCGTCGGGACGTGGGGAACCGCGGACCGTCGCCCCCCGCACGGCGTCGATCTCCGGTCGCTCGTCGTGTTGAAACCTAAACCCGGGCGCCGAAAAGCGCCAAGGAAATCGAGAAAAGGACGGCCTGCCTCCCGACGCCCCATACGTGGTGCGCGCGGGAGGAGCGCGGGCGCCCATA?GAAACCGAAACGACTCTCGGCAACGGATATCTCGGCTCTCGCATCGATGAAGAACGTAGCGAACTGCGATACTTGGTGTGAATTGCAGAATCCCGTGAACCATCGAGTCTTTGAAC?GCAAGTTGCGCCCGAAGCCATCCGGCCGAGGGCACGTCTGCCTGGGCGTCACGCATCGCGTCGCCCCCCC??AGCCCCGTGCGCCTCCGTCGGTTGCAGGCGG??CTGGA?GG???GGACGGAAAATGGCTTCCCGTGCCCCTGGCGTGGCTGGCCGAAATGCGAGTCCCTCGCGACGGACGCGACGACGGGTGGTGGTTGAATCCCTCGGCTCGAGCGCCGTCGCGCGAGTCCCCGTCGGAAGAGGAGACTGCCCCGACCCCG?GAGCATGCGTCCCCACGACGCGTGCCACGACC??GA??CCCAGGTCA?GCG
+Potalia_amara_2                 TCGAATCCAGCGAAGCGGACGACCCGCGGACTTGTTTAACCGACGGGCGTCGGGACGTGGGGAACCGCGGACCGTCGCCCCCCGCACGGCGTCGATCTCCGGTCGCTCGTCGTGTTGAAACCTAAACCCGGGCGCCGAAAAGCGCCAAGGAAATCGAGAAAAGGACGGCCTGCCTCCCGACGCCCCATACGTGGTGCGCGCGGGAGGAGCGCGGGCGCCCATA?GAAACCGAAACGACTCTCGGCAACGGATATCTCGGGTCTCGCATCGAT?????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????
+Potalia_elegans                 TCGAATCCTGCGAAGCGGAC?ACCCGCGGACTTGTTTAACCGACGGGCGTCGGGACGTGGGGAACCGCAGACCGGCGCCCCACACACGGCGTCGATCTCGGGTCGCTC?TCGTGGTAAAA?CTAAACCCGGGCGCCGAAA????CCATGGAAATCGAAAAA??GACGGCCTGCCTCCCGACGCCCCGTACGTGGTGCGTGCGGGAGGAGCACGGGCGCCTGT???AAACCGAAACGACTCTCGGCAAC?GATATC?CGGCTCTCGCATCGATGAAGAACGTAGCGAACTGCGATACTTGGTGTGAATTGCAGAATCCCGTGAACCATCGAGTCTTTGAACTGCAAGTTGCGCGCGAAGCCATCCGGCCGAGGGCACGTCTGCTTGGGCGTCA?GCATCG?GTCGTGC??CC?AAG?CCCGTGCACCTCTATCCGTTGCGGGTGG??CTGGA?GGA??GGGTGGAAAATGGCTTCCCATGCCCCTGGCGTGGCTGGCCGAAATGCGAGTCCTTCGCGACGGACGCGACGA?GGGTGGTGGTTGAATCCCTTGGCTCGAGCGCTGTCGCGCGAGTCCCCGTCGG?AGAGGAGACTGCCCCGACCCTG?GAGCATGCGTCCCCACGACGCGTGCCACGACCGCGA?CCCCA?GTCAGGCG
+Potalia_maguireorum             TCGAAT?CCGCGAAGCGGACGACCCGCGGACCTGTTTAACCGACGGGCGTCGGGACGTGGGGAACCGCGGACCGTCGCCCCCCGCACCGCGTCGATCTCCGGTCGCTCGTCGT?CTAAAACCCAAACCCGGGCGCCGAAAAGCGCCAAGGAAATCGAGAAAAGGACGGCCTGCCTCCCGACGCCCCGTATGGGGTGCGCGCGGGAGGAGCACGGGCGCCCGTA?GAAACCGAAACGACTCTCGGCAACGGATATCTCGG?TCTCGAATCGATGAA?AACGTAGC?A???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????
+Potalia_resinifera_1            TCGAATCCCGCGAAGCGGACGACCCGCGGACATGTTTAACCGACGGGCGTCGGGACGTGGGGAACCGCGGACCGTCGCCCCCCGCATGGCGTCGATCTCCGGTCGCTCGTCGTGCTAAAACCTAAACCCGGGCGCCGAAAAGCGCCAAGGAAATCGAGAAAAGGACGGCCTGCCTCCCGACGCCACGTACGCGGTGCGCGCGGGAGGAGCACGGGCGCCTGTG?GAAACCGAAACGACTCTCGGCAACGGATATCTCGGCTCTCGCATCGATGAAGAACGTAGCGAACTGCGATACTTGGTGTGAATTGCA?AATCCCGTGAACCATCGAGTCTTTGAAC?GCAAGTTGCGCCCGAAGCCATCCGGCCGAGGGCACGTCTGCCTGGGCGTCACGCATCGCGTCGCCCCCCC??ATCCCCGTGCACCTCCGTCGGTTGCAAGCGG??CTGGA?GG???GGGCGGAAAATGGCTTCCCGTGCCCCTGGCGTGGCTGGCCGAAATGCGAGTCCCTCGCGACGGACGCGACGACGGGTGGTGGTTGAATCCCTCGGCTCGAGCGCCGTCGCGC??GTCCCCGTCGGAAGAGGAGACTGCCCCGACCCCG?GAGCATGCGTCCCCACGACGCGTGCCACGACCGCGA?CCCCAGGTCAGGCG
+Potalia_resinifera_2            TCGAATCCCGCGAAGCGGACGACCCGCGGACTTGTTTAACCGACGGGCGTCGGGACGTGGGGAACCGCGGACCGTCGCCCCCCGCACGGCGTCGATCTCCGGTCGCTCGTCGTGCTAAAACCTAAACCCGGGCGCCGAAAAGCGCCAAGGAAATCGAGAAAAGGACGGCCTGCCTCCCGACGCCACGTACGTGGTGCGCGCGGGGGGAGCACGGGCGCCCGTG?GAAACCGAAACGACTCTCGGCAACGGATATCTCGGCTCTCGCATCGATGAAGAACGTAGCGAACTGCGATACTTGGTGTGAATTGCAGAATCCCGTGAACCATCGAGTCTTTGAAC?GCAAGTTGCGCCCGAAGCCATCCGGCCGAGGGCACGTCTGCCTGGGCGTCACGCATCGCGTCGCCCCCCC??ATCCCCGTGCACCTCCGTCGGTTGCAAGCGG??CTGGA?GG???GGGCGGAAAATGGCTTCCCGTGCCCCTGGCGTGGCTGGCCGAAATGCGAGTCCCTCGCGACGGACGCGACGACGGGTGGTGGTTGGATCCCTCGGCTCGAGCGCCGTCGCGC??CTCCCCGTCGGAAGAGGAGACTGCCCCGACCCCG?GAGCATGCGTCCCCACGACGCGTGCCACGACCGCGA?CCCCA?GTCAGGCG
+Potalia_resinifera_3            TCGAATCCCGCGAAGCGGACGACCCGCGGACTCGTTTAACCGACGGGCGTCGGGACGTGGGGAACCGCGGACCGTCGCCCCCCGCATGGCGTCGATCTCCGGTCGCTCGTCGTGCTAAAACCTAAACCCGGGCGCCGAAAAGCGCCAAGGAAATCGAGAAAAGGACGGCCTGCCTCCCGACGCCACGTACGCGGTGCGCGCGGGGGGAGCACGGGCGCCTGTG?GAAACCGAAACGACTCTCGGCAACGGATATCTCGGCT?????ATCGATGAAGAACGTAGC?AACTGCGATACTTGGTGTGAATTGCAGAATCCCGTGAACCATCGAGTCTTTGAAC?GCAAGTTGCGCCCGAAGCCATCCGGCCGAGG?CACGTCTGCCTGGGCGTCACGCATCGCGTCGCCCCCCC??ATCCCCGTGCACCTCCGTCGGTTGCAAGCGG??CTGGA?GG???GGGCGGAAAATGGCTTCCCGTGCCCCTGGCGTGGCTGGCCGAAATGCGAGTCCCTCGCGACGGACGCGACGACGGGTGGTGGTTGAGTCCCTCGGCTCGAGCGCCGTCGAGC??GTCCCCGTCGGAAGAGGAGACTGCCCCGACCCCG?GAGCATGCGTCCCCACGACGCGTGCCACGACCGCGA?CCCCAGGTCAGGCG
+;
+END;
+
+BEGIN CODONS;
+CODONPOSSET * CodonPositions (CHARACTERS = ITS_Potalia) = 
+		N: 1-657;
+CODONPOSSET  CodonPositions (CHARACTERS = ITS_Potalia) = 
+		N: 1-657;
+END;
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M875]
+
+	TITLE Combined_data_Bayes;
+	LINK TAXA = Taxa3;
+	DIMENSIONS NCHAR=1137;
+	FORMAT DATATYPE=DNA SYMBOLS= "A C G T" MISSING=? GAP= -;
+
+MATRIX
+[                                       10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170       180       190       200       210       220       230       240       250       260       270       280       290       300       310       320       330       340       350       360       370       380       390       400       410       420       430       440       450       460       470       480       490       500       510       520       530       540       550       560       570       580       590       600       610       620       630       640       650       660       670       680       690       700       710       720       730       740       750       760       770       780       790       800       810       820       830       840       850       860       870       880       890       900       910       920       930       940       950       960       970       980       990       1000       1010       1020       1030       1040       1050       1060       1070       1080       1090       1100       1110       1120       1130       1140       1150       1160 ]
+[                                        .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         . ]
+Anthocleista_amplexicaulis      TTTGGGAAGT?CCT?TGTGTTGCACCCC??TTTTGCATTTTTTAT?TTTCC?CCATCTATTTCCCGAGGCCC?GTTGCT?GCTGTTCAGGACGAAGGGCCGGCCGACCCCAG?ATCG?GGTGCGGGCCCCCGGTAGCTTGA?TGGCCGTCCCGATG?GACGTTGTTGAAGCGAAGGGACGCGCGAAGGG?CCAAACCGTCTGGATAGAAAGGTTTGTGACGGAACCAGTTGGAAAACGGTGAGATGGAGGTGAAACTTTGG??ATTTTCCACTCTCCCAAATGC?CACACCCGTCCGTATTCGACCTTGTTTCACATACGGAGTGATCGGCGTATGCGAGCGG?CAACTGCAACGTCGTGCATTTGCTGTG?CGACCTCGCT??GCTGCTGATGCTTCTCGCAGGAACAAATAAATTCGTGGTAGGCAAAATGATGGGTGCGATCATACC?AG?GC?A?AATCGAATCCTGCGAAGCAGACGACCCGCGAACTTGTTTAACCCACGGGCGTCGGGACGTGGGGAACCGCGGACCGGCGCCCCTCGCACGGCGTCGATCTCTGGTCGCTCGTCGGGCGAAAAACTAAACCGGGGCGTGGAAAGGCGCCAAGGAAAACGAGAAAAGGATGGCCCGCCTCTCGATGCCCCGTACGCGGTGCGCGCGGGAGGAGCACGGGCGCCTGTA?GAAACCGATACGACTCTCGGCAACGGATATCTCGGCTCCCGCATCGATGAAGAACGTAGCGAACTGCGATACTTGGTGTGAATTGCAGAATCCCGTGAACCATCGAGTCTTTGAAC?GCAAGTTGCGCCCGAAGCCATCCGGCCGAGGGCACGTCTGCCTGGGCGTCACGCATCG?GTCGCCCCACCCAA?CCCCGTGCACCTCCATCGGTCGCGGGGG??ACTG?AAGG?GGGGGCGGAAAATGGCTTCCCGTGCCCCTGGCGCGGCTGGCCTAAATACGAGTCTCTTGTGACGGATGCGACGACAAGTGGTGGTTGAATGCCTCAACTCGGGTGCTGTCGCGCGAGGCCCCGTCAGGAGAGGAGACTGCCCCGACCCTG?CAGCATGTGTCGCCACGACGCATGCCACGACCGCGA?CCCCA?GTCAGGCGCACCCCAACA{AC}C?ACAAAA
+Anthocleista_grandiflora        TTTGGGAAGT?CC??TG?GTTGC?CCCC??TTTTGCAATTTTTAA?TTTCC?CCAGTTACTTCCCGCTGCCC?GTTGCT??CTTTTATGGGCGAGGGGCCGGCCGTCCCCTGCATCA?GGTGCGGGTCCCCCGTAGCTTGA?TGGCCTTCCCGGCGGGACGTGGTTGATGCGAAGGGATACGCGAAAGG?CC?TGCCGGCCGGATAGAAAGGTAGGTGACGGAACCGCT?GGAAAA?GGTGAGATGGATGAGAAACCTTGG?GATTTTCCGTTCT?CCAA?TGCAGACACCCGGCCGCAATCGACCAAGTTTCACATACGGAGAGATCGGCGTAC?CGAGCGG?CGACAGGAACGTCGGGCATTTGCTGTGGCGACCTCGCC??GATGCTGCTGCCTCTCGCAGGTACAAATAA?TTCGGGG?GCGTAAAAA?ATGGGTGC?ATC?TACCCA?CACTAAAATCGAATCCTGCGAAGCAGACGACCCGCGAACTTGTTTAACCCACGGGCGCCGGGACGTTGGGAACCGCGGACCGGCGCCCCGCGCA?GGCGTC?A?CTCCGGTC?CTCGCCGGGC?AAAAACTAAACCGGGGCGC?GAAA?GCCCC?AGGAAAACGAGAAAAGGATGGCCCGCCTCCCGACGCCCCGTACGCGGGGCGCGCGGGGGGAACACGGGCCCCTGTA?GAAACTGGTACGACTGTCGGCAACGGATATCTCGGCTCCCGCATCGATGAAGAACGTAGCGAACTGCGATACTTGGTGTGAACTGCAGAATCCCGTGAACCATCGAGTCTTTGAAC?GCAAGTTGCGCCCGAAGCCATCCGGCCGAGGGCACGTCTGCCTGGGCGTCACGCATCGCGTCCCCCCCCCCAA?CCCCGTGCACCTCCGTCGGTCGCGGGGGGGACTGAAAGG?GGGGGCGGAAGATGGCTTCCCGTGCCCCTGGCGCGGCTGGCCTAAATACGAGTCCCTTGCGACGGACGCGACGACAAGTGGTGGTTGAATGCCTCAACTCGGGCGCTGTCGCGCGAGGCCCCGTCGGGAGAGGAGACTGCCCCGACCCTGTAAGCGTGCGTCGCCGTGACGCGTGCCACGACCGCGA?CCCCAGGTCAGGCGCACCCC?CACAAAACAAAA
+Anthocleista_scandens           TTTGGGAAGT?CCT?TGTGTTGC?CCCC??TTTTTCAATTTT?AAGTTTCGACTGCTACATCCCGCTGGCC??GTTGCT?ACTTTTC???????GGGGCGGGCGGGCCCC?GCATCA?GGCGCGGGA?CCCCATAGATTCA?TGGCCGTCCAGGCGGGACG?GCTGGAAACGAAGGGACGCGCGAACGG?CCTTCCCGGCCGGATAGAAATGCAGG?GACGGAACCGGCCGGAAAACGATGAGATAGATGAGAAACTCCGGCG?TTTTCCATTCTCCCGA?AGCGGACACCAGACCGTATCCGATCA?GTTTCACGTACGCAGCGAACTGCGTCCGCGAGCGG?CA?TTGGAACGTCGGGCATTTGCTGTGG?GACCTCGG???GATTCTGCTTCCTCTC?CGGGAACAAAGAAATTCGCGGCACGCAAAACGATGGG?G?GATCATACC?A?C?C?A?AATCGAATCCTGCGAAGCGGACGACCCGCGAACCTGTTTAACCCACGGGCGCCGGGACGTGGGGAACCGCGGACCGGCGCCCCGCGCACGGCGTCGATCTCCGGTCGCTCGTCGGGCGAGAAACCAAACCGGGGCGCGGAAAGGCGCCAAGGAAAACGAGAAAAGGACCGCCCGCCTCCCGACGCCCCGTACGCGGTGCGCGCGGGGGGAGCACGGGCGCCCGAA?GAAACCGATACGACTCTCGGCAACGGATATCTCGGCTCCCGCATCGATGAAGAACGTAGCGAACTGCGATACTTGGTGTGAATTGCAGAATCCCGTGAACCATCGAGTCTTTGAAC?GCAAGTTGCGCCCGAAGCCATCCGGCCGAGGGCACGTCTGCCTGGGCGTCACGCATCGCGTCGCCCCCCCCAAACCCCGCGCGCCTC?GTCGGTCGCGGGGGGGACTGAAAGGTGGGGGCGGAAGATGGCTTCCCGTGCCCCTGGCGCGGCTG?CCTAAACACGAGTCCCTTGTGACGGACGCGACGGCAAGTGGTGGTTGAATGCCTCGACTCGGGTGCCGTCGCGCGAGGCCCCGTCGGGAGGGGAGACTGCCCCGACCCTGTAAGCGTGCGCCGACGTGACGCATGCCACGACCGCGA?CCCCAGGTCAGGCGAAACAAAAACAA?AC??AA
+Anthocleista_schweinfurthii     TTTGGGAA?T?CCT?TGTGTTGC?CCCC??TTTTGCAATTTTTGA?TTT?C?CCAGTT?CTTCCCGTTGCCC?GTTGCT?ACTTTAATGGG?GAGGGGCCGGCCTTCCCCTGCATCA?GGTGCGGGTCCCCCGTAGCTTGA?TTGCCGTCCCGGCGGGACGTGGTTGATGCGAAGGGAGACGCGAAAGG?CC?TGCCGGCCGGATAGAAAGGTAGGTGACGGAACCGCT?GGAAAAAGGCGAGATGGATGAGAAACCTTGG?GATTTTCCGTTCTCCCAAATGCACACACCCGGCCGTAATCCGCCAAGTTTCACATACGGAGAGATCGGCATACACGAGCGGGCGACAGGAACGTCGGGCATTTGCTGTGGCGACCTCGCC??GATGCTGCTGCCTCTCGCAGG?ACAAATAAATTCGGGG?GCGTAAAAA?ATGGG?G?GATC?TACC?AGC?C?AAAATCGA?TCCTGCGAAGCAGACGACCCGCGAACTTGTTTAACCCACGGGCGCCGGGACGTGGGGAACCGCGGACCGGCGCCCCGCGCACGGCGTCGATCTCCGGTCGCTCGCCGGGCGAGAAACTAAACCGGGGCGCGGAAAGGCGCCAAGGAAAACGAGAAAAGGATGGCCCGCCTCCCGACGCCCCGTACGCGGGGCGCGCGGGGGGAGCACGGGCGCCTGT??GAAACTGATACGACTCTCGGCAACGGATATCTCGGCTCCCGCATCGATGAAGAACGTAGCGAACTGCGATACTTGGTGTGAA???C???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????CACCCCACACAAAAC?AAA
+Anthocleista_vogelii            -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------TCGAATCCTGCGAAGCAGACGACCCGTGAACTTGTTTAACCCACGGGCGTCGGGACGTGGGGAATCGCTGACCGGCACCCCGCGCA?GGTGTCGATCTCTGGTCGCTCGTCGGGCAAAAAACTAAACCGGGGCGTGGAAAAGCGCCAAGGACAATGAGAAAAGGATGGCCCGCCTCTCGGTGCCCCTTA?GCGGTGCATGCGGGAGGAGCACGGGCGCCTGTA?GAAACTAATACGACTCTCGGCAACAGATATCTCGGCTCCCGCATCGATGAAGAACGTAGCGAACTGCGATACTTGGTGTGAATTGCAGAATCCCGTGAACCATCGAGTCTTTGAA?TGCAAGTTGCGCCGGAAGCCATCCGGCC?AGGGCATGTCTGCCTGGGCATCACACATCGTGTCCACCCCCC?AA?CCCCGTGCAC?TCCTTTGGTCGCGGGG??AACTG?AAGG??GGGGTGGAAAATGGCTTCCCGTGCCCCTTGCGCGGTTGGCCTAAATTTGAGTCCCTTGCGACGGATGCAACGACAAGTGGTGGTTGAATGCCTCAACTCGGGTGCTGTC?????A???????TCAGGAGAGGAGACTGCCCCGACCCTGT?AGCATGTGGTGCCATGATGCATGCCACGACCGTGAA?CCCAGGTCAGGTGCACCCCAAACAAAACAAAA
+Fagraea_berteroana              -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------{CT}?GAATC{AC}TGCGAAGCAGACGACCCGTGAACTTGTTTAACCCACGGGCGTCGGGACGTGGGGAACCGCGGACCGGCGCCCCGCGCACGGCGTCGGCCATTGGTCGCTCGTCGGGCGAGAAACTAAACCCGGGCGCAGAAAAGCGCCAAGGAAAACGAGAAAAGGATGGCCTGCCTCTCGACGCCCCGTACGCGGTGTGCGCGAGGGGAGCACGGGCACCTCTACGAAACTAAAACGACTCTCGGCAACGGATATCTCGGCTCTCGCATCGATGAAGAACGTAGCGAACTGCGATACTTGGTGTGAATTGCAGAATCCCGTGAACCATCGAGTCTTTGAAC?GCAAGTTGCGCCCGAAGCCATCC{AG}GCCGAGGGCACGTCTGCCTGGGC{AG}TCACGCATCGCGTCGCCCCCCC?AA?CCCCGTGAACCTCCATCGGTTGCGGGC??{AG}ACTGGA?GG???GGGCGGAAAATGGCTTCCTGTGCCCCTGGC{AG}{CT}GGCTGGCCTAAATGCGAGTCCCTTGCGACGGACGCGA{CT}GACAAGTGGTGGTTGATTGTCTCAACTCGAGTGCTGTCGCGCGAGGCCCCGTCGAAAGAGGAGACTCCCCCGACCCTG?CAGCATGTGTCGCCATGACGCGTGTCACGA?????????????????????AAAAACACACAAAAAAAAA
+Potalia_amara                   TTTGGGAAGT?CCT?TGTGTT?C?CCC?ACTTTTGAAATTTT?GA?CTATTCACAAACTTTTCCTACGGCCCGGTTGCAGAATTTTTGCGGTT?GAATGCTTCGAAGTCCGGCCTGG?CATAAACTCCAACAGAGGCTTGAAGAGTTTTTC?GGCAGTAGATGGTGCAACGTTCGACTCGTGC?AAAGGAACAGGATGTCCGAAAGGAAACGTTGGCGACGGAATCCATAGGAGGAGCCGAGAATCGAGCAAAATGTTTAAAGAGTTTTTGCCGTCATCAAGGCACACGCACGCCCTTGTTCATCCATGCTTTGCATACAGAGTTATCCGCTCAAGCTTACGG?CATATCA?GGGAATG??CTTTTCGTT????ATTCCG?GAAAACGCTCGAG???TTCGAAAACACAAATACTTTTTGGAAAATCAAACTTACGGG?G?GATCATACC?AG?GC?AAAATCGAATCCAGCGAAGCGGACGACCCGCGGACTTGTTTAACCGACGGGCGTCGGGACGTGGGGAACCGCGGACCGTCGCCCCCCGCACGGCGTCGATCTCCGGTCGCTCGTCGTGTTGAAACCTAAACCCGGGCGCCGAAAAGCGCCAAGGAAATCGAGAAAAGGACGGCCTGCCTCCCGACGCCCCATACGTGGTGCGCGCGGGAGGAGCGCGGGCGCCCATA?GAAACCGAAACGACTCTCGGCAACGGATATCTCGGGTCTCGCATCGAT?????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????ACCCAAC{AC}CCCCCCACCC{AC}
+Potalia_chocoensis              --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ACCCAA?A????CCACCCC
+Potalia_coronata                --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ACCAACCACGCCCCACCCC
+Potalia_crassa                  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ACCCAA?A????CCCCCCA
+Potalia_elegans                 TTTGGGAAGT?CCTCTGTGTTGC?CCCTAGTTTTGCAATTTT?GA?CAATTCTCAAACTTTTT?TACGGCCCCGTTGCCGAGTTTTGGCGGTT?GAATGCCCCGATGTCCGGCCTGG?CATAAACTCCCACAGAGACTTGAAGAGT?TTTC?GGCAGCAGATGG?GCAAGTTTCGACTCGTGC?AAGGGAACAGGCTGTCCGAATGGAAACGTTGGCGACGGAACCGATAGGAGGAGCCGATGATCAAGCAAAA?GTTTAAAGAGTTTTCGCAGTCATCAAGGCACACGC?CGCTCGTGTTCAGCCATGCTTTGCATACTGAGTTATCCGCTCATGCTTACGA?CATATCATGGGAAGGTGGTTTTTGTTGACGATTCCGTG??AATTTCCGAG???T?CGAAAACACAAATAACTTT?GGAAAAGCAGATTGACGGGTGCGATCATACC?AGC?CTA?AATCGAATCCTGCGAAGCGGAC?ACCCGCGGACTTGTTTAACCGACGGGCGTCGGGACGTGGGGAACCGCAGACCGGCGCCCCACACACGGCGTCGATCTCGGGTCGCTC?TCGTGGTAAAA?CTAAACCCGGGCGCCGAAA????CCATGGAAATCGAAAAA??GACGGCCTGCCTCCCGACGCCCCGTACGTGGTGCGTGCGGGAGGAGCACGGGCGCCTGT???AAACCGAAACGACTCTCGGCAAC?GATATC?CGGCTCTCGCATCGATGAAGAACGTAGCGAACTGCGATACTTGGTGTGAATTGCAGAATCCCGTGAACCATCGAGTCTTTGAACTGCAAGTTGCGCGCGAAGCCATCCGGCCGAGGGCACGTCTGCTTGGGCGTCA?GCATCG?GTCGTGC??CC?AAG?CCCGTGCACCTCTATCCGTTGCGGGTGG??CTGGA?GGA??GGGTGGAAAATGGCTTCCCATGCCCCTGGCGTGGCTGGCCGAAATGCGAGTCCTTCGCGACGGACGCGACGA?GGGTGGTGGTTGAATCCCTTGGCTCGAGCGCTGTCGCGCGAGTCCCCGTCGG?AGAGGAGACTGCCCCGACCCTG?GAGCATGCGTCCCCACGACGCGTGCCACGACCGCGA?CCCCA?GTCAGGCGACCAAC{AC}ACGCCCCACAAA
+Potalia_maguireorum             -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------TCGAAT?CCGCGAAGCGGACGACCCGCGGACCTGTTTAACCGACGGGCGTCGGGACGTGGGGAACCGCGGACCGTCGCCCCCCGCACCGCGTCGATCTCCGGTCGCTCGTCGT?CTAAAACCCAAACCCGGGCGCCGAAAAGCGCCAAGGAAATCGAGAAAAGGACGGCCTGCCTCCCGACGCCCCGTATGGGGTGCGCGCGGGAGGAGCACGGGCGCCCGTA?GAAACCGAAACGACTCTCGGCAACGGATATCTCGG?TCTCGAATCGATGAA?AACGTAGC?A???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????ACAAAACACTCCCCACACA
+Potalia_resinifera              TTTGGGAAGT?CCT?TGTGTTGCACCCTATTTTTGAAATTTT?GA?CTATTCCCAAACTTTTTCTACGGCCCCGTTGCCGAATTTTTGCGGTT?GAATGCTTTGAAGTCCGGCCTGG?CATAAATTCATACAAAGACTGGAATAGTTTTGC?GGGTT?AAATGGTGCAAATTTCGACTCGTGC?AAG?GATCAGGCTGTCCGAATGGAAACGTTGGCGACGGAACCGATAGGAGAAGTCGACAATCGAGCAAAATGTTTAAAGAGTTTTCGCTGTCATCAAGGCACACGCACGCCCATGTACATCCATGCTTTGCATACTGAGTTATCCGCTCATTCTTACGG?CATATCATGGGAATG?GCTTTTCTTTGGCGATTTC?TG??AATGCTCGAG???CTCCAAAACACAAACAATTTTTGGAAATGCACACCGACGGG?GCGATCATACC?AGC?CTA?AGTCGAATCCCGCGAAGCGGACGACCCGCGGACATGTTTAACCGACGGGCGTCGGGACGTGGGGAACCGCGGACCGTCGCCCCCCGCATGGCGTCGATCTCCGGTCGCTCGTCGTGCTAAAACCTAAACCCGGGCGCCGAAAAGCGCCAAGGAAATCGAGAAAAGGACGGCCTGCCTCCCGACGCCACGTACGCGGTGCGCGCGGGAGGAGCACGGGCGCCTGTG?GAAACCGAAACGACTCTCGGCAACGGATATCTCGGCTCTCGCATCGATGAAGAACGTAGCGAACTGCGATACTTGGTGTGAATTGCA?AATCCCGTGAACCATCGAGTCTTTGAAC?GCAAGTTGCGCCCGAAGCCATCCGGCCGAGGGCACGTCTGCCTGGGCGTCACGCATCGCGTCGCCCCCCC??ATCCCCGTGCACCTCCGTCGGTTGCAAGCGG??CTGGA?GG???GGGCGGAAAATGGCTTCCCGTGCCCCTGGCGTGGCTGGCCGAAATGCGAGTCCCTCGCGACGGACGCGACGACGGGTGGTGGTTGAATCCCTCGGCTCGAGCGCCGTCGCGC??GTCCCCGTCGGAAGAGGAGACTGCCCCGACCCCG?GAGCATGCGTCCCCACGACGCGTGCCACGACCGCGA?CCCCAGGTCAGGCGACCCAAC{AC}C{CG}{AC}CCC{AC}CCC{AC}
+Potalia_turbinata               --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ACCCAACCCCCCCC{AC}CCCC
+Potalia_yanamonoensis           --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ACCCAACACGC?CCCCCCC
+;
+END;
+
+BEGIN SETS;
+	CHARSET morphology (CHARACTERS = Combined_data_Bayes) =  1119-1137;
+	CHARSET 5S_NTS (CHARACTERS = Combined_data_Bayes) =  1-461;
+	CHARSET ITS (CHARACTERS = Combined_data_Bayes) =  462-1118;
+END;
+BEGIN CODONS;
+CODONPOSSET * CodonPositions (CHARACTERS = Combined_data_Bayes) = 
+		N: 1-1137;
+CODONPOSSET  CodonPositions (CHARACTERS = Combined_data_Bayes) = 
+		N: 1-1137;
+END;
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M874]
+
+	TITLE Morphology;
+	LINK TAXA = Taxa4;
+	DIMENSIONS NCHAR=19;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2 3" MISSING=? GAP= -;
+	CHARSTATELABELS
+		1  Plant_branching_type / 'monopodial, unbranched' 'sympodial, candelabra-shaped',
+		2  Interpetiolar_structures / axillary_scales_present_at_the_leaf_bases ocreas_present_around_the_stems_at_the_leaf_bases,
+		3  Leaf_shape / 'elliptic, widest in the middle' 'obovate-oblanceolate, widest above the middle',
+		4  Secondary_veins_on_leaves / straight curved,
+		5  Auricles_at_leaf_bases / absent present,
+		6  Inflorescence_size / less_than_20_cm_long over_20_cm_long,
+		7  'Color of inflorescence branches, pedicels, and peduncles' / green yellow_to_orange,
+		8  Orientation_of_sepals_in_fruit / appressed spreading,
+		9  Flower_size / over_20_mm_long up_to_20_mm_long,
+		10  Corolla_color / violet 'white, yellow, orange' 'green, often with yellow tube and lobe margins' 'dark green, not with yellow tube and margins',
+		11  Corolla_lobe_orientation_at_anthesis / spreading erect erect_and_incurved,
+		12  Anthers_with_sterile_apical_appendages / absent present,
+		13  Infructescence_persistence / breaking_at_nodes not_breaking_apart_at_nodes,
+		14  Fruit_size / over_20_mm_long up_to_20_mm_long,
+		15  Fruit_apex_shape / pointed_to_apiculate truncate_to_rounded,
+		16  Placenta_shape / 'placenta prominent, bilobed and inrolled' 'placenta small and simple, not inrolled',
+		17  Pericarp / evenly_thick thicker_at_apex,
+		18  Sterile_apical_part_on_fruit / absent present,
+		19  Thickened_horizontal_ring_on_fruit / absent present,
+		;
+
+MATRIX
+[                                       10        20        30    ]
+[                                        .         .         .    ]
+Anthocleista_amplexicaulis      1011110010{01}1?010000
+Anthocleista_grandiflora        101111?101000010000
+Anthocleista_scandens           000100000100?01??00
+Anthocleista_schweinfurthii     101111010100001?000
+Anthocleista_vogelii            1011110001000010000
+Fagraea_berteroana              0000010101000000000
+Potalia_amara                   0111001{01}1111110111{01}
+Potalia_chocoensis              011100?0????1101111
+Potalia_coronata                0110011012111101111
+Potalia_crassa                  011100?0????1111110
+Potalia_elegans                 011001{01}012111101000
+Potalia_maguireorum             0100001013111101010
+Potalia_resinifera              0111001{01}1{12}{01}111{01}111{01}
+Potalia_turbinata               01110011111111{01}1111
+Potalia_yanamonoensis           01110010121?1111111
+;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M873]
+
+	TITLE '5S-NTS Potalia';
+	LINK TAXA = Taxa2;
+	DIMENSIONS NCHAR=461;
+	FORMAT DATATYPE=DNA SYMBOLS= "A C G T" MISSING=? GAP= -;
+
+MATRIX
+[                                       10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170       180       190       200       210       220       230       240       250       260       270       280       290       300       310       320       330       340       350       360       370       380       390       400       410       420       430       440       450       460 ]
+[                                        .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         . ]
+Anthocleista_amplexicaulis      TTTGGGAAGT?CCT?TGTGTTGCACCCC??TTTTGCATTTTTTAT?TTTCC?CCATCTATTTCCCGAGGCCC?GTTGCT?GCTGTTCAGGACGAAGGGCCGGCCGACCCCAG?ATCG?GGTGCGGGCCCCCGGTAGCTTGA?TGGCCGTCCCGATG?GACGTTGTTGAAGCGAAGGGACGCGCGAAGGG?CCAAACCGTCTGGATAGAAAGGTTTGTGACGGAACCAGTTGGAAAACGGTGAGATGGAGGTGAAACTTTGG??ATTTTCCACTCTCCCAAATGC?CACACCCGTCCGTATTCGACCTTGTTTCACATACGGAGTGATCGGCGTATGCGAGCGG?CAACTGCAACGTCGTGCATTTGCTGTG?CGACCTCGCT??GCTGCTGATGCTTCTCGCAGGAACAAATAAATTCGTGGTAGGCAAAATGATGGGTGCGATCATACC?AG?GC?A?AA
+Anthocleista_grandiflora        TTTGGGAAGT?CC??TG?GTTGC?CCCC??TTTTGCAATTTTTAA?TTTCC?CCAGTTACTTCCCGCTGCCC?GTTGCT??CTTTTATGGGCGAGGGGCCGGCCGTCCCCTGCATCA?GGTGCGGGTCCCCCGTAGCTTGA?TGGCCTTCCCGGCGGGACGTGGTTGATGCGAAGGGATACGCGAAAGG?CC?TGCCGGCCGGATAGAAAGGTAGGTGACGGAACCGCT?GGAAAA?GGTGAGATGGATGAGAAACCTTGG?GATTTTCCGTTCT?CCAA?TGCAGACACCCGGCCGCAATCGACCAAGTTTCACATACGGAGAGATCGGCGTAC?CGAGCGG?CGACAGGAACGTCGGGCATTTGCTGTGGCGACCTCGCC??GATGCTGCTGCCTCTCGCAGGTACAAATAA?TTCGGGG?GCGTAAAAA?ATGGGTGC?ATC?TACCCA?CACTAAAA
+Anthocleista_scandens           TTTGGGAAGT?CCT?TGTGTTGC?CCCC??TTTTTCAATTTT?AAGTTTCGACTGCTACATCCCGCTGGCC??GTTGCT?ACTTTTC???????GGGGCGGGCGGGCCCC?GCATCA?GGCGCGGGA?CCCCATAGATTCA?TGGCCGTCCAGGCGGGACG?GCTGGAAACGAAGGGACGCGCGAACGG?CCTTCCCGGCCGGATAGAAATGCAGG?GACGGAACCGGCCGGAAAACGATGAGATAGATGAGAAACTCCGGCG?TTTTCCATTCTCCCGA?AGCGGACACCAGACCGTATCCGATCA?GTTTCACGTACGCAGCGAACTGCGTCCGCGAGCGG?CA?TTGGAACGTCGGGCATTTGCTGTGG?GACCTCGG???GATTCTGCTTCCTCTC?CGGGAACAAAGAAATTCGCGGCACGCAAAACGATGGG?G?GATCATACC?A?C?C?A?AA
+Anthocleista_schweinfurthii     TTTGGGAA?T?CCT?TGTGTTGC?CCCC??TTTTGCAATTTTTGA?TTT?C?CCAGTT?CTTCCCGTTGCCC?GTTGCT?ACTTTAATGGG?GAGGGGCCGGCCTTCCCCTGCATCA?GGTGCGGGTCCCCCGTAGCTTGA?TTGCCGTCCCGGCGGGACGTGGTTGATGCGAAGGGAGACGCGAAAGG?CC?TGCCGGCCGGATAGAAAGGTAGGTGACGGAACCGCT?GGAAAAAGGCGAGATGGATGAGAAACCTTGG?GATTTTCCGTTCTCCCAAATGCACACACCCGGCCGTAATCCGCCAAGTTTCACATACGGAGAGATCGGCATACACGAGCGGGCGACAGGAACGTCGGGCATTTGCTGTGGCGACCTCGCC??GATGCTGCTGCCTCTCGCAGG?ACAAATAAATTCGGGG?GCGTAAAAA?ATGGG?G?GATC?TACC?AGC?C?AAAA
+Potalia_amara                   TTTGGGAAGT?CCT?TGTGTT?C?CCC?ACTTTTGAAATTTT?GA?CTATTCACAAACTTTTCCTACGGCCCGGTTGCAGAATTTTTGCGGTT?GAATGCTTCGAAGTCCGGCCTGG?CATAAACTCCAACAGAGGCTTGAAGAGTTTTTC?GGCAGTAGATGGTGCAACGTTCGACTCGTGC?AAAGGAACAGGATGTCCGAAAGGAAACGTTGGCGACGGAATCCATAGGAGGAGCCGAGAATCGAGCAAAATGTTTAAAGAGTTTTTGCCGTCATCAAGGCACACGCACGCCCTTGTTCATCCATGCTTTGCATACAGAGTTATCCGCTCAAGCTTACGG?CATATCA?GGGAATG??CTTTTCGTT????ATTCCG?GAAAACGCTCGAG???TTCGAAAACACAAATACTTTTTGGAAAATCAAACTTACGGG?G?GATCATACC?AG?GC?AAAA
+Potalia_elegans                 TTTGGGAAGT?CCTCTGTGTTGC?CCCTAGTTTTGCAATTTT?GA?CAATTCTCAAACTTTTT?TACGGCCCCGTTGCCGAGTTTTGGCGGTT?GAATGCCCCGATGTCCGGCCTGG?CATAAACTCCCACAGAGACTTGAAGAGT?TTTC?GGCAGCAGATGG?GCAAGTTTCGACTCGTGC?AAGGGAACAGGCTGTCCGAATGGAAACGTTGGCGACGGAACCGATAGGAGGAGCCGATGATCAAGCAAAA?GTTTAAAGAGTTTTCGCAGTCATCAAGGCACACGC?CGCTCGTGTTCAGCCATGCTTTGCATACTGAGTTATCCGCTCATGCTTACGA?CATATCATGGGAAGGTGGTTTTTGTTGACGATTCCGTG??AATTTCCGAG???T?CGAAAACACAAATAACTTT?GGAAAAGCAGATTGACGGGTGCGATCATACC?AGC?CTA?AA
+Potalia_resinifera_1            TTTGGGAAGT?CCT?TGTGTTGCACCCTATTTTTGAAATTTT?GA?CTATTCCCAAACTTTTTCTACGGCCCCGTTGCCGAATTTTTGCGGTT?GAATGCTTTGAAGTCCGGCCTGG?CATAAATTCATACAAAGACTGGAATAGTTTTGC?GGGTT?AAATGGTGCAAATTTCGACTCGTGC?AAG?GATCAGGCTGTCCGAATGGAAACGTTGGCGACGGAACCGATAGGAGAAGTCGACAATCGAGCAAAATGTTTAAAGAGTTTTCGCTGTCATCAAGGCACACGCACGCCCATGTACATCCATGCTTTGCATACTGAGTTATCCGCTCATTCTTACGG?CATATCATGGGAATG?GCTTTTCTTTGGCGATTTC?TG??AATGCTCGAG???CTCCAAAACACAAACAATTTTTGGAAATGCACACCGACGGG?GCGATCATACC?AGC?CTA?AG
+Potalia_resinifera_2            TTTGGGAAGT?CCT?TGTGTTGCACCCTATTTTTGAAATTTT?GA?CTATTCCCAAAATTTTT?TACGGCCCCGTTGCCGAATTTTTGCGGTT?GA?TGCTTTGAAATCCGGCC?GGACATAAATTCATACAAAGACTGAAATAGTTTTGT?GGGTT?AAATGGTGCAAATTTCGACTCGTGC?AACGGATCAGGCTGTCCGAATGGAAACGTTGGCGACGGAACCGATAGGAGAAGTCGA?AATCGAGCAAAATGTTTAAAG?GTTTTCGCTGTCATCAAGGCACACGCACGCCCATGTACATCCATGCTTTGCATACTGAGTTATCCGCT?ATGCTTACGG?CATATCATGGGAAGGTGCTTTTCTTTGGCGATTTCGTG??AATGCTCGAG???CTCCAAAACACAAACAATTTTTGGAAATGCACACTGACGGGTGCGATCATACC?AGC?CTA?A?
+Potalia_resinifera_3            TTTGGGAAGT?CCT?TGTGTTGC?CCCTATTTTTGAAATTTT?GA?CTATTCCCAAACTTTTTCTAC?GCCCCGTTGCCGAATTTTTGCGGTT?GAATGCTTTGAAGTCCGGCCTGG?CATAAATTCATACAAAGACTGGAATAGTTTTGC?GGGTT?AAATGGTGCAAATTTCGACTCGTGC?AAG?GATCAGGCTGTCCGAATGGAAACGTTGGCGACGGAACCGATAGGAGAAGTCGACAATCGAGCAAAATGTTTAAAGAGTTTTCGCTGTCATCAAGGCACACGCACGCCCAT?TACATCCATGCTTTGCATACTGAGTTATCCGCTCATTCTTACGG?CATATCATGGGAA?GTGCTTTTCTTTGGCGATTTCGTG??AATGCTCGAG???CTCCAAAACACAAACAATTTTTGGAAATGCACACCGACGGGTGCGATCATACC?AGCGC?ACAG
+;
+END;
+
+BEGIN CODONS;
+CODONPOSSET * CodonPositions (CHARACTERS = '5S-NTS Potalia') = 
+		N: 1-461;
+CODONPOSSET  CodonPositions (CHARACTERS = '5S-NTS Potalia') = 
+		N: 1-461;
+END;
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M870]
+
+	TITLE Combined_data;
+	LINK TAXA = Taxa5;
+	DIMENSIONS NCHAR=1137;
+	FORMAT DATATYPE=Standard SYMBOLS= "A C G T" MISSING=? GAP= -;
+	CHARSTATELABELS
+		658  Plant_branching_type / 'monopodial, unbranched' 'sympodial, candelabra-shaped',
+		659  Interpetiolar_structures / axillary_scales_present_at_the_leaf_bases ocreas_present_around_the_stems_at_the_leaf_bases,
+		660  Leaf_shape / 'elliptic, widest in the middle' 'obovate-oblanceolate, widest above the middle',
+		661  Secondary_veins_on_leaves / straight curved,
+		662  Auricles_at_leaf_bases / absent present,
+		663  Inflorescence_size / less_than_20_cm_long over_20_cm_long,
+		664  'Color of inflorescence branches, pedicels, and peduncles' / green yellow_to_orange,
+		665  Orientation_of_sepals_in_fruit / appressed spreading,
+		666  Flower_size / over_20_mm_long up_to_20_mm_long,
+		667  Corolla_color / violet 'white, yellow, orange' 'green, often with yellow tube and lobe margins' 'dark green, not with yellow tube and margins',
+		668  Corolla_lobe_orientation_at_anthesis / spreading erect erect_and_incurved,
+		669  Anthers_with_sterile_apical_appendages / absent present,
+		670  Infructescence_persistence / breaking_at_nodes not_breaking_apart_at_nodes,
+		671  Fruit_size / over_20_mm_long up_to_20_mm_long,
+		672  Fruit_apex_shape / pointed_to_apiculate truncate_to_rounded,
+		673  Placenta_shape / 'placenta prominent, bilobed and inrolled' 'placenta small and simple, not inrolled',
+		674  Pericarp / evenly_thick thicker_at_apex,
+		675  Sterile_apical_part_on_fruit / absent present,
+		676  Thickened_horizontal_ring_on_fruit / absent present,
+		;
+
+MATRIX
+[                                       10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170       180       190       200       210       220       230       240       250       260       270       280       290       300       310       320       330       340       350       360       370       380       390       400       410       420       430       440       450       460       470       480       490       500       510       520       530       540       550       560       570       580       590       600       610       620       630       640       650       660       670       680       690       700       710       720       730       740       750       760       770       780       790       800       810       820       830       840       850       860       870       880       890       900       910       920       930       940       950       960       970       980       990       1000       1010       1020       1030       1040       1050       1060       1070       1080       1090       1100       1110       1120       1130       1140       1150       1160 ]
+[                                        .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         . ]
+Anthocleista_amplexicaulis      TCGAATCCTGCGAAGCAGACGACCCGCGAACTTGTTTAACCCACGGGCGTCGGGACGTGGGGAACCGCGGACCGGCGCCCCTCGCACGGCGTCGATCTCTGGTCGCTCGTCGGGCGAAAAACTAAACCGGGGCGTGGAAAGGCGCCAAGGAAAACGAGAAAAGGATGGCCCGCCTCTCGATGCCCCGTACGCGGTGCGCGCGGGAGGAGCACGGGCGCCTGTA?GAAACCGATACGACTCTCGGCAACGGATATCTCGGCTCCCGCATCGATGAAGAACGTAGCGAACTGCGATACTTGGTGTGAATTGCAGAATCCCGTGAACCATCGAGTCTTTGAAC?GCAAGTTGCGCCCGAAGCCATCCGGCCGAGGGCACGTCTGCCTGGGCGTCACGCATCG?GTCGCCCCACCCAA?CCCCGTGCACCTCCATCGGTCGCGGGGG??ACTG?AAGG?GGGGGCGGAAAATGGCTTCCCGTGCCCCTGGCGCGGCTGGCCTAAATACGAGTCTCTTGTGACGGATGCGACGACAAGTGGTGGTTGAATGCCTCAACTCGGGTGCTGTCGCGCGAGGCCCCGTCAGGAGAGGAGACTGCCCCGACCCTG?CAGCATGTGTCGCCACGACGCATGCCACGACCGCGA?CCCCA?GTCAGGCGCACCCCAACA{AC}C?ACAAAATTTGGGAAGT?CCT?TGTGTTGCACCCC??TTTTGCATTTTTTAT?TTTCC?CCATCTATTTCCCGAGGCCC?GTTGCT?GCTGTTCAGGACGAAGGGCCGGCCGACCCCAG?ATCG?GGTGCGGGCCCCCGGTAGCTTGA?TGGCCGTCCCGATG?GACGTTGTTGAAGCGAAGGGACGCGCGAAGGG?CCAAACCGTCTGGATAGAAAGGTTTGTGACGGAACCAGTTGGAAAACGGTGAGATGGAGGTGAAACTTTGG??ATTTTCCACTCTCCCAAATGC?CACACCCGTCCGTATTCGACCTTGTTTCACATACGGAGTGATCGGCGTATGCGAGCGG?CAACTGCAACGTCGTGCATTTGCTGTG?CGACCTCGCT??GCTGCTGATGCTTCTCGCAGGAACAAATAAATTCGTGGTAGGCAAAATGATGGGTGCGATCATACC?AG?GC?A?AA
+Anthocleista_grandiflora        TCGAATCCTGCGAAGCAGACGACCCGCGAACTTGTTTAACCCACGGGCGCCGGGACGTTGGGAACCGCGGACCGGCGCCCCGCGCA?GGCGTC?A?CTCCGGTC?CTCGCCGGGC?AAAAACTAAACCGGGGCGC?GAAA?GCCCC?AGGAAAACGAGAAAAGGATGGCCCGCCTCCCGACGCCCCGTACGCGGGGCGCGCGGGGGGAACACGGGCCCCTGTA?GAAACTGGTACGACTGTCGGCAACGGATATCTCGGCTCCCGCATCGATGAAGAACGTAGCGAACTGCGATACTTGGTGTGAACTGCAGAATCCCGTGAACCATCGAGTCTTTGAAC?GCAAGTTGCGCCCGAAGCCATCCGGCCGAGGGCACGTCTGCCTGGGCGTCACGCATCGCGTCCCCCCCCCCAA?CCCCGTGCACCTCCGTCGGTCGCGGGGGGGACTGAAAGG?GGGGGCGGAAGATGGCTTCCCGTGCCCCTGGCGCGGCTGGCCTAAATACGAGTCCCTTGCGACGGACGCGACGACAAGTGGTGGTTGAATGCCTCAACTCGGGCGCTGTCGCGCGAGGCCCCGTCGGGAGAGGAGACTGCCCCGACCCTGTAAGCGTGCGTCGCCGTGACGCGTGCCACGACCGCGA?CCCCAGGTCAGGCGCACCCC?CACAAAACAAAATTTGGGAAGT?CC??TG?GTTGC?CCCC??TTTTGCAATTTTTAA?TTTCC?CCAGTTACTTCCCGCTGCCC?GTTGCT??CTTTTATGGGCGAGGGGCCGGCCGTCCCCTGCATCA?GGTGCGGGTCCCCCGTAGCTTGA?TGGCCTTCCCGGCGGGACGTGGTTGATGCGAAGGGATACGCGAAAGG?CC?TGCCGGCCGGATAGAAAGGTAGGTGACGGAACCGCT?GGAAAA?GGTGAGATGGATGAGAAACCTTGG?GATTTTCCGTTCT?CCAA?TGCAGACACCCGGCCGCAATCGACCAAGTTTCACATACGGAGAGATCGGCGTAC?CGAGCGG?CGACAGGAACGTCGGGCATTTGCTGTGGCGACCTCGCC??GATGCTGCTGCCTCTCGCAGGTACAAATAA?TTCGGGG?GCGTAAAAA?ATGGGTGC?ATC?TACCCA?CACTAAAA
+Anthocleista_scandens           TCGAATCCTGCGAAGCGGACGACCCGCGAACCTGTTTAACCCACGGGCGCCGGGACGTGGGGAACCGCGGACCGGCGCCCCGCGCACGGCGTCGATCTCCGGTCGCTCGTCGGGCGAGAAACCAAACCGGGGCGCGGAAAGGCGCCAAGGAAAACGAGAAAAGGACCGCCCGCCTCCCGACGCCCCGTACGCGGTGCGCGCGGGGGGAGCACGGGCGCCCGAA?GAAACCGATACGACTCTCGGCAACGGATATCTCGGCTCCCGCATCGATGAAGAACGTAGCGAACTGCGATACTTGGTGTGAATTGCAGAATCCCGTGAACCATCGAGTCTTTGAAC?GCAAGTTGCGCCCGAAGCCATCCGGCCGAGGGCACGTCTGCCTGGGCGTCACGCATCGCGTCGCCCCCCCCAAACCCCGCGCGCCTC?GTCGGTCGCGGGGGGGACTGAAAGGTGGGGGCGGAAGATGGCTTCCCGTGCCCCTGGCGCGGCTG?CCTAAACACGAGTCCCTTGTGACGGACGCGACGGCAAGTGGTGGTTGAATGCCTCGACTCGGGTGCCGTCGCGCGAGGCCCCGTCGGGAGGGGAGACTGCCCCGACCCTGTAAGCGTGCGCCGACGTGACGCATGCCACGACCGCGA?CCCCAGGTCAGGCGAAACAAAAACAA?AC??AATTTGGGAAGT?CCT?TGTGTTGC?CCCC??TTTTTCAATTTT?AAGTTTCGACTGCTACATCCCGCTGGCC??GTTGCT?ACTTTTC???????GGGGCGGGCGGGCCCC?GCATCA?GGCGCGGGA?CCCCATAGATTCA?TGGCCGTCCAGGCGGGACG?GCTGGAAACGAAGGGACGCGCGAACGG?CCTTCCCGGCCGGATAGAAATGCAGG?GACGGAACCGGCCGGAAAACGATGAGATAGATGAGAAACTCCGGCG?TTTTCCATTCTCCCGA?AGCGGACACCAGACCGTATCCGATCA?GTTTCACGTACGCAGCGAACTGCGTCCGCGAGCGG?CA?TTGGAACGTCGGGCATTTGCTGTGG?GACCTCGG???GATTCTGCTTCCTCTC?CGGGAACAAAGAAATTCGCGGCACGCAAAACGATGGG?G?GATCATACC?A?C?C?A?AA
+Anthocleista_schweinfurthii     TCGA?TCCTGCGAAGCAGACGACCCGCGAACTTGTTTAACCCACGGGCGCCGGGACGTGGGGAACCGCGGACCGGCGCCCCGCGCACGGCGTCGATCTCCGGTCGCTCGCCGGGCGAGAAACTAAACCGGGGCGCGGAAAGGCGCCAAGGAAAACGAGAAAAGGATGGCCCGCCTCCCGACGCCCCGTACGCGGGGCGCGCGGGGGGAGCACGGGCGCCTGT??GAAACTGATACGACTCTCGGCAACGGATATCTCGGCTCCCGCATCGATGAAGAACGTAGCGAACTGCGATACTTGGTGTGAA???C???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????CACCCCACACAAAAC?AAATTTGGGAA?T?CCT?TGTGTTGC?CCCC??TTTTGCAATTTTTGA?TTT?C?CCAGTT?CTTCCCGTTGCCC?GTTGCT?ACTTTAATGGG?GAGGGGCCGGCCTTCCCCTGCATCA?GGTGCGGGTCCCCCGTAGCTTGA?TTGCCGTCCCGGCGGGACGTGGTTGATGCGAAGGGAGACGCGAAAGG?CC?TGCCGGCCGGATAGAAAGGTAGGTGACGGAACCGCT?GGAAAAAGGCGAGATGGATGAGAAACCTTGG?GATTTTCCGTTCTCCCAAATGCACACACCCGGCCGTAATCCGCCAAGTTTCACATACGGAGAGATCGGCATACACGAGCGGGCGACAGGAACGTCGGGCATTTGCTGTGGCGACCTCGCC??GATGCTGCTGCCTCTCGCAGG?ACAAATAAATTCGGGG?GCGTAAAAA?ATGGG?G?GATC?TACC?AGC?C?AAAA
+Anthocleista_vogelii            TCGAATCCTGCGAAGCAGACGACCCGTGAACTTGTTTAACCCACGGGCGTCGGGACGTGGGGAATCGCTGACCGGCACCCCGCGCA?GGTGTCGATCTCTGGTCGCTCGTCGGGCAAAAAACTAAACCGGGGCGTGGAAAAGCGCCAAGGACAATGAGAAAAGGATGGCCCGCCTCTCGGTGCCCCTTA?GCGGTGCATGCGGGAGGAGCACGGGCGCCTGTA?GAAACTAATACGACTCTCGGCAACAGATATCTCGGCTCCCGCATCGATGAAGAACGTAGCGAACTGCGATACTTGGTGTGAATTGCAGAATCCCGTGAACCATCGAGTCTTTGAA?TGCAAGTTGCGCCGGAAGCCATCCGGCC?AGGGCATGTCTGCCTGGGCATCACACATCGTGTCCACCCCCC?AA?CCCCGTGCAC?TCCTTTGGTCGCGGGG??AACTG?AAGG??GGGGTGGAAAATGGCTTCCCGTGCCCCTTGCGCGGTTGGCCTAAATTTGAGTCCCTTGCGACGGATGCAACGACAAGTGGTGGTTGAATGCCTCAACTCGGGTGCTGTC?????A???????TCAGGAGAGGAGACTGCCCCGACCCTGT?AGCATGTGGTGCCATGATGCATGCCACGACCGTGAA?CCCAGGTCAGGTGCACCCCAAACAAAACAAAA-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Fagraea_berteroana              {CT}?GAATC{AC}TGCGAAGCAGACGACCCGTGAACTTGTTTAACCCACGGGCGTCGGGACGTGGGGAACCGCGGACCGGCGCCCCGCGCACGGCGTCGGCCATTGGTCGCTCGTCGGGCGAGAAACTAAACCCGGGCGCAGAAAAGCGCCAAGGAAAACGAGAAAAGGATGGCCTGCCTCTCGACGCCCCGTACGCGGTGTGCGCGAGGGGAGCACGGGCACCTCTACGAAACTAAAACGACTCTCGGCAACGGATATCTCGGCTCTCGCATCGATGAAGAACGTAGCGAACTGCGATACTTGGTGTGAATTGCAGAATCCCGTGAACCATCGAGTCTTTGAAC?GCAAGTTGCGCCCGAAGCCATCC{AG}GCCGAGGGCACGTCTGCCTGGGC{AG}TCACGCATCGCGTCGCCCCCCC?AA?CCCCGTGAACCTCCATCGGTTGCGGGC??{AG}ACTGGA?GG???GGGCGGAAAATGGCTTCCTGTGCCCCTGGC{AG}{CT}GGCTGGCCTAAATGCGAGTCCCTTGCGACGGACGCGA{CT}GACAAGTGGTGGTTGATTGTCTCAACTCGAGTGCTGTCGCGCGAGGCCCCGTCGAAAGAGGAGACTCCCCCGACCCTG?CAGCATGTGTCGCCATGACGCGTGTCACGA?????????????????????AAAAACACACAAAAAAAAA-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Potalia_amara                   TCGAATCCAGCGAAGCGGACGACCCGCGGACTTGTTTAACCGACGGGCGTCGGGACGTGGGGAACCGCGGACCGTCGCCCCCCGCACGGCGTCGATCTCCGGTCGCTCGTCGTGTTGAAACCTAAACCCGGGCGCCGAAAAGCGCCAAGGAAATCGAGAAAAGGACGGCCTGCCTCCCGACGCCCCATACGTGGTGCGCGCGGGAGGAGCGCGGGCGCCCATA?GAAACCGAAACGACTCTCGGCAACGGATATCTCGGGTCTCGCATCGAT?????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????ACCCAAC{AC}CCCCCCACCC{AC}TTTGGGAAGT?CCT?TGTGTT?C?CCC?ACTTTTGAAATTTT?GA?CTATTCACAAACTTTTCCTACGGCCCGGTTGCAGAATTTTTGCGGTT?GAATGCTTCGAAGTCCGGCCTGG?CATAAACTCCAACAGAGGCTTGAAGAGTTTTTC?GGCAGTAGATGGTGCAACGTTCGACTCGTGC?AAAGGAACAGGATGTCCGAAAGGAAACGTTGGCGACGGAATCCATAGGAGGAGCCGAGAATCGAGCAAAATGTTTAAAGAGTTTTTGCCGTCATCAAGGCACACGCACGCCCTTGTTCATCCATGCTTTGCATACAGAGTTATCCGCTCAAGCTTACGG?CATATCA?GGGAATG??CTTTTCGTT????ATTCCG?GAAAACGCTCGAG???TTCGAAAACACAAATACTTTTTGGAAAATCAAACTTACGGG?G?GATCATACC?AG?GC?AAAA
+Potalia_chocoensis              ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ACCCAA?A????CCACCCC-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Potalia_coronata                ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ACCAACCACGCCCCACCCC-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Potalia_crassa                  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ACCCAA?A????CCCCCCA-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Potalia_elegans                 TCGAATCCTGCGAAGCGGAC?ACCCGCGGACTTGTTTAACCGACGGGCGTCGGGACGTGGGGAACCGCAGACCGGCGCCCCACACACGGCGTCGATCTCGGGTCGCTC?TCGTGGTAAAA?CTAAACCCGGGCGCCGAAA????CCATGGAAATCGAAAAA??GACGGCCTGCCTCCCGACGCCCCGTACGTGGTGCGTGCGGGAGGAGCACGGGCGCCTGT???AAACCGAAACGACTCTCGGCAAC?GATATC?CGGCTCTCGCATCGATGAAGAACGTAGCGAACTGCGATACTTGGTGTGAATTGCAGAATCCCGTGAACCATCGAGTCTTTGAACTGCAAGTTGCGCGCGAAGCCATCCGGCCGAGGGCACGTCTGCTTGGGCGTCA?GCATCG?GTCGTGC??CC?AAG?CCCGTGCACCTCTATCCGTTGCGGGTGG??CTGGA?GGA??GGGTGGAAAATGGCTTCCCATGCCCCTGGCGTGGCTGGCCGAAATGCGAGTCCTTCGCGACGGACGCGACGA?GGGTGGTGGTTGAATCCCTTGGCTCGAGCGCTGTCGCGCGAGTCCCCGTCGG?AGAGGAGACTGCCCCGACCCTG?GAGCATGCGTCCCCACGACGCGTGCCACGACCGCGA?CCCCA?GTCAGGCGACCAAC{AC}ACGCCCCACAAATTTGGGAAGT?CCTCTGTGTTGC?CCCTAGTTTTGCAATTTT?GA?CAATTCTCAAACTTTTT?TACGGCCCCGTTGCCGAGTTTTGGCGGTT?GAATGCCCCGATGTCCGGCCTGG?CATAAACTCCCACAGAGACTTGAAGAGT?TTTC?GGCAGCAGATGG?GCAAGTTTCGACTCGTGC?AAGGGAACAGGCTGTCCGAATGGAAACGTTGGCGACGGAACCGATAGGAGGAGCCGATGATCAAGCAAAA?GTTTAAAGAGTTTTCGCAGTCATCAAGGCACACGC?CGCTCGTGTTCAGCCATGCTTTGCATACTGAGTTATCCGCTCATGCTTACGA?CATATCATGGGAAGGTGGTTTTTGTTGACGATTCCGTG??AATTTCCGAG???T?CGAAAACACAAATAACTTT?GGAAAAGCAGATTGACGGGTGCGATCATACC?AGC?CTA?AA
+Potalia_maguireorum             TCGAAT?CCGCGAAGCGGACGACCCGCGGACCTGTTTAACCGACGGGCGTCGGGACGTGGGGAACCGCGGACCGTCGCCCCCCGCACCGCGTCGATCTCCGGTCGCTCGTCGT?CTAAAACCCAAACCCGGGCGCCGAAAAGCGCCAAGGAAATCGAGAAAAGGACGGCCTGCCTCCCGACGCCCCGTATGGGGTGCGCGCGGGAGGAGCACGGGCGCCCGTA?GAAACCGAAACGACTCTCGGCAACGGATATCTCGG?TCTCGAATCGATGAA?AACGTAGC?A???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????ACAAAACACTCCCCACACA-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Potalia_resinifera              TCGAATCCCGCGAAGCGGACGACCCGCGGACATGTTTAACCGACGGGCGTCGGGACGTGGGGAACCGCGGACCGTCGCCCCCCGCATGGCGTCGATCTCCGGTCGCTCGTCGTGCTAAAACCTAAACCCGGGCGCCGAAAAGCGCCAAGGAAATCGAGAAAAGGACGGCCTGCCTCCCGACGCCACGTACGCGGTGCGCGCGGGAGGAGCACGGGCGCCTGTG?GAAACCGAAACGACTCTCGGCAACGGATATCTCGGCTCTCGCATCGATGAAGAACGTAGCGAACTGCGATACTTGGTGTGAATTGCA?AATCCCGTGAACCATCGAGTCTTTGAAC?GCAAGTTGCGCCCGAAGCCATCCGGCCGAGGGCACGTCTGCCTGGGCGTCACGCATCGCGTCGCCCCCCC??ATCCCCGTGCACCTCCGTCGGTTGCAAGCGG??CTGGA?GG???GGGCGGAAAATGGCTTCCCGTGCCCCTGGCGTGGCTGGCCGAAATGCGAGTCCCTCGCGACGGACGCGACGACGGGTGGTGGTTGAATCCCTCGGCTCGAGCGCCGTCGCGC??GTCCCCGTCGGAAGAGGAGACTGCCCCGACCCCG?GAGCATGCGTCCCCACGACGCGTGCCACGACCGCGA?CCCCAGGTCAGGCGACCCAAC{AC}C{CG}{AC}CCC{AC}CCC{AC}TTTGGGAAGT?CCT?TGTGTTGCACCCTATTTTTGAAATTTT?GA?CTATTCCCAAACTTTTTCTACGGCCCCGTTGCCGAATTTTTGCGGTT?GAATGCTTTGAAGTCCGGCCTGG?CATAAATTCATACAAAGACTGGAATAGTTTTGC?GGGTT?AAATGGTGCAAATTTCGACTCGTGC?AAG?GATCAGGCTGTCCGAATGGAAACGTTGGCGACGGAACCGATAGGAGAAGTCGACAATCGAGCAAAATGTTTAAAGAGTTTTCGCTGTCATCAAGGCACACGCACGCCCATGTACATCCATGCTTTGCATACTGAGTTATCCGCTCATTCTTACGG?CATATCATGGGAATG?GCTTTTCTTTGGCGATTTC?TG??AATGCTCGAG???CTCCAAAACACAAACAATTTTTGGAAATGCACACCGACGGG?GCGATCATACC?AGC?CTA?AG
+Potalia_turbinata               ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ACCCAACCCCCCCC{AC}CCCC-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Potalia_yanamonoensis           ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ACCCAACACGC?CCCCCCC-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb8091;
+      LINK TAXA = Taxa4;
+         TRANSLATE
+            1    Potalia_yanamonoensis,
+            2    Potalia_turbinata,
+            3    Potalia_resinifera,
+            4    Potalia_maguireorum,
+            5    Potalia_elegans,
+            6    Potalia_crassa,
+            7    Potalia_coronata,
+            8    Potalia_chocoensis,
+            9    Potalia_amara,
+            10   Anthocleista_vogelii,
+            11   Anthocleista_schweinfurthii,
+            12   Anthocleista_scandens,
+            13   Anthocleista_grandiflora,
+            14   Anthocleista_amplexicaulis,
+            15   Fagraea_berteroana;
+      TREE Figs._2A_and_4 = [&R] (15,((12,(14,10,(13,11))),(5,4,(7,(9,8,6,3,2,1)))));
+
+
+
+END;
+BEGIN TREES;
+      TITLE Tb8093;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Potalia_amara_2,
+            2    Potalia_maguireorum,
+            3    Anthocleista_schweinfurthii,
+            4    Potalia_resinifera_3,
+            5    Potalia_resinifera_2,
+            6    Potalia_resinifera_1,
+            7    Potalia_elegans,
+            8    Potalia_amara_1,
+            9    Anthocleista_scandens,
+            10   Anthocleista_grandiflora,
+            11   Anthocleista_vogelii,
+            12   Anthocleista_amplexicaulis,
+            13   Fagraea_berteroana;
+      TREE Fig._2C = [&R] (13,(((9,(10,3)),(12,11)),(7,((2,(8,1)),(5,(6,4))))));
+
+
+
+END;
+BEGIN TREES;
+      TITLE Tb8090;
+      LINK TAXA = Taxa3;
+         TRANSLATE
+            1    Potalia_yanamonoensis,
+            2    Potalia_turbinata,
+            3    Potalia_crassa,
+            4    Potalia_coronata,
+            5    Potalia_chocoensis,
+            6    Potalia_maguireorum,
+            7    Anthocleista_vogelii,
+            8    Fagraea_berteroana,
+            9    Anthocleista_scandens,
+            10   Anthocleista_amplexicaulis,
+            11   Anthocleista_grandiflora,
+            12   Anthocleista_schweinfurthii,
+            13   Potalia_elegans,
+            14   Potalia_amara,
+            15   Potalia_resinifera;
+      TREE Combined_Bayes = [&R] (8,((15,14,13,6,5,4,3,2,1),((10,7),(9,(12,11)))));
+
+
+
+END;
+BEGIN TREES;
+      TITLE Tb8092;
+      LINK TAXA = Taxa2;
+         TRANSLATE
+            1    Anthocleista_grandiflora,
+            2    Anthocleista_schweinfurthii,
+            3    Potalia_elegans,
+            4    Potalia_amara,
+            5    Potalia_resinifera_2,
+            6    Potalia_resinifera_1,
+            7    Anthocleista_scandens,
+            8    Anthocleista_amplexicaulis,
+            9    Potalia_resinifera_3;
+      TREE Fig._2B = [&R] ((8,(7,(2,1))),((4,3),(5,(9,6))));
+
+
+
+END;
+BEGIN TREES;
+      TITLE Tb8094;
+      LINK TAXA = Taxa5;
+         TRANSLATE
+            1    Potalia_yanamonoensis,
+            2    Potalia_turbinata,
+            3    Potalia_crassa,
+            4    Potalia_coronata,
+            5    Potalia_chocoensis,
+            6    Potalia_amara,
+            7    Potalia_maguireorum,
+            8    Anthocleista_schweinfurthii,
+            9    Potalia_resinifera,
+            10   Potalia_elegans,
+            11   Anthocleista_scandens,
+            12   Anthocleista_grandiflora,
+            13   Anthocleista_vogelii,
+            14   Anthocleista_amplexicaulis,
+            15   Fagraea_berteroana;
+      TREE Fig._3 = [&R] (15,((10,(7,(4,(9,6,5,3,2,1)))),((14,13),(11,(12,8)))));
+
+
+
+END;

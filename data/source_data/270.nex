@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Server error</title>
+<style>
+body {font-family: Helvetica,sans-serif;}
+table#footer td { padding: 5px; }
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<div class="row">
+<div class="col-md-12">
+
+<h1>Server error</h1>
+
+<div style="font-size: 150%">
+
+<p>The server encountered an internal error and was
+unable to complete your request.
+
+<p>Either the server is overloaded or there is an error in the application.</p>
+
+<p>If this error persists please contact us at
+<a href="mailto:info@archive.org">info@archive.org</a></p>
+
+</div>
+</div>
+
+</div>
+
+
+<div class="row">
+<div class="col-md-12">
+<p>&nbsp;</p>
+<p>For help and assistance please email info@archive.org</p>
+<table id="footer">
+<tr>
+<td><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAeCAYAAADZ7LXbAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAsZJREFUeNq8ls9rE0EUxzOzG5O0sSLiRRBBBCkqePAHePAoKOhFERU8eDA5evHmTfAo9hrxHyj4LwgqHkTFHxeRevFQERWxlKSbpMmu3ydvyrevO1SxdeDD7L5k3pvvvJm344qiqMRau92WzoEJMA3OgR3gMXgKfoJhbHyn0/ndpxHnHl0D7AVHwHFwFBzQMRLsJXgDXoF34AcYlPlzogROa3jeCXaDQ+CwOp7WYOu1rxroNXgL3oNvYEGUulardVVndhDsi6n7y9YDc+AZmBGHkpSRGh7pGuf/ECABsjKToAv6EmRe1zqPOHfaFxF72W/SqtpnKeVhM9oWyWmqSbqvxjHw9CerzNPMC33PVZWjMSENnyQ/YXedwMsN8Bx7+x5tZVF5S53dBIsU8LZulBnwguznwSXwEL5meWYnwUVwBY6naIDsODmR18F+sm8H18BlcMwoPQ0ugLPwVeUgVUpmQoNkl2R6yCaMfVmfGybZKT0nHGSSem8GeQ1eJ3tKzmtm+wZ7M/jyWkLCH+slSpKSIDzjRiRIbSVIyQ+1PwjC/6sZhXUK7nm5HPXOOAu2hrFXTT7D+NRs81X7ftUP5pw4kysfqQRF2en3lf/QfEk9cpG6NSb7yKgsq2drgriI3FCRxbZk7OGcLJvlWhPc6wyDg4H5ug0p8MgoGdEYtgdf/TDh1DgYm6I4pGXKyD6gb7tVMjYTrHgUsYIcdE2QZXofR5z1jZIeTSrnnGTkqDAzHqktMwqXSrZwTgoH9pwMqKx4EyQsaxJRWDdKMnOQV07nnH5gPhj583oD2Qq+k31Br0KJjmEl8v4FfAyq5LayR78nU2rs0RI4DeD0g8WVoamzXTQ7T8rMNlX0GTxJ9Y71gBJpD2i+jt2VXCoKVSl3sFOpSr9Lh26jWqoXvF3ycEdvFfkmlC35mp5JNdFNcw42sjZ2fwkwABhv2do4gyhjAAAAAElFTkSuQmCC"/></td>
+<td>This service is an initiative of the <a
+href="https://archive.org">Internet Archive</a>, a 501(c)(3) non-profit,<br>
+building a digital library of Internet sites and other cultural artifacts in
+digital form.</td>
+</tr>
+</table>
+</div>
+</div>
+
+</div>
+
+</body>
+</html>

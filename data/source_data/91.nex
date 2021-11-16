@@ -1,0 +1,239 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:29 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Govindaraju D., Lewis P., & Cullis C. 1992. Phylogenetic analysis of pines using
+ribosomal DNA restriction fragment length polymorphisms. Plant Systematics and Evolution,
+179: 141-153.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S327]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=33;
+        TAXLABELS
+            Larix_decidua
+            Picea_pungens
+            Pinus_aristata
+            Pinus_armandii
+            Pinus_attenuata
+            Pinus_ayacahuite
+            Pinus_banksiana
+            Pinus_cembra
+            Pinus_contorta
+            Pinus_coulteri
+            Pinus_densiflora
+            Pinus_echinata
+            Pinus_edulis
+            Pinus_elliotti
+            Pinus_flexilis
+            Pinus_jeffreyi
+            Pinus_koraiensis
+            Pinus_lambertiana
+            Pinus_leiophylla
+            Pinus_mugo
+            Pinus_muricata
+            Pinus_nigra
+            Pinus_peuce
+            Pinus_ponderosa
+            Pinus_pumila
+            Pinus_radiata
+            Pinus_resinosa
+            Pinus_rigida
+            Pinus_sabiniana
+            Pinus_strobus
+            Pinus_sylvestris
+            Pinus_taeda
+            Tsuga_canadensis
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M3505]
+
+	TITLE Table_2;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=50;
+	FORMAT DATATYPE=Standard SYMBOLS= "+ , -" MISSING=? GAP= ";
+	CHARSTATELABELS
+		1  pBG35_EcoRI / present ',' absent,
+		2  pBG35_EcoRI / present ',' absent,
+		3  pBG35_EcoRI / present ',' absent,
+		4  pBG35_EcoRI / present ',' absent,
+		5  pBG35_EcoRI / present ',' absent,
+		6  pBG35_HindIII / present ',' absent,
+		7  pBG35_HindIII / present ',' absent,
+		8  pBG35_HindIII / present ',' absent,
+		9  pBG35_HindIII / present ',' absent,
+		10  pBG35_HindIII / present ',' absent,
+		11  pBG35_Eco_RV / present ',' absent,
+		12  pBG35_Eco_RV / present ',' absent,
+		13  pBG35_Eco_RV / present ',' absent,
+		14  pBG35_Eco_RV / present ',' absent,
+		15  pBG35_Eco_RV / present ',' absent,
+		16  pBG35_Bam_H1 / present ',' absent,
+		17  pBG35_Bam_H1 / present ',' absent,
+		18  pBG35_Bam_H1 / present ',' absent,
+		19  pBG35_Bam_H1 / present ',' absent,
+		20  phage_21_Eco_RI / present ',' absent,
+		21  phage_21_Eco_RI / present ',' absent,
+		22  phage_21_Eco_RI / present ',' absent,
+		23  phage_21_Eco_RI / present ',' absent,
+		24  phage_21_Eco_RI / present ',' absent,
+		25  phage_21_Hind_III / present ',' absent,
+		26  phage_21_Hind_III / present ',' absent,
+		27  phage_21_Hind_III / present ',' absent,
+		28  phage_21_Hind_III / present ',' absent,
+		29  phage_21_Hind_III / present ',' absent,
+		30  phage_21_Eco_RV / present ',' absent,
+		31  phage_21_Eco_RV / present ',' absent,
+		32  phage_21_Eco_RV / present ',' absent,
+		33  phage_21_Eco_RV / present ',' absent,
+		34  phage_21_Bam_H1 / present ',' absent,
+		35  phage_21_Bam_H1 / present ',' absent,
+		36  phage_21_Bam_H1 / present ',' absent,
+		37  plasmid_1938_Eco_RI / present ',' absent,
+		38  plasmid_1938_Eco_RI / present ',' absent,
+		39  plasmid_1938_Eco_RI / present ',' absent,
+		40  plasmid_1938_Eco_RI / present ',' absent,
+		41  plasmid_1938_Eco_RI / present ',' absent,
+		42  plasmid_1938_Hind_III / present ',' absent,
+		43  plasmid_1938_Hind_III / present ',' absent,
+		44  plasmid_1938_Hind_III / present ',' absent,
+		45  plasmid_1938_Hind_III / present ',' absent,
+		46  plasmid_1938_Eco_RV / present ',' absent,
+		47  plasmid_1938_Eco_RV / present ',' absent,
+		48  plasmid_1938_Bam_H1 / present ',' absent,
+		49  plasmid_1938_Bam_H1 / present ',' absent,
+		50  plasmid_1938_Bam_H1 / present ',' absent,
+		;
+
+MATRIX
+[                             10        20        30        40        50]
+[                              .         .         .         .         .]
+Larix_decidua         ---+--?-----+--+-------?-----+----+--+--------++--
+Picea_pungens         +-----?-+-+--------+---?--+--+---+--------+--++---
+Pinus_aristata        ---++-+-+-+--+-+------++-+-+--++-+---+--+--+-+-+--
+Pinus_armandii        ---+++-+--+--+--+++---++-+-+-+----++-+--+-+--+--++
+Pinus_attenuata       +-+--+---+-++-++----++--+-+-+-++++--++---+--++++--
+Pinus_ayacahuite      ---+++-+--+--+--+++---++-+-+-+----++-+--+-+--+--++
+Pinus_banksiana       -++--+---+-++-++----++--+-+-+-++++--+--+-++--+++--
+Pinus_cembra          ----++-+--+--+--+++---++-+-+-+----++-+--+-+--+--++
+Pinus_contorta        -++--+---+-++-++----++--+-+-+-++++--+--+-++--+++--
+Pinus_coulteri        +--+-+---+-++--+----+-+-+-+-+-++-+---+---++--+++--
+Pinus_densiflora      +--+---+--+--+-+---+--+----+-+---+--+-+--+--++-+--
+Pinus_echinata        -++--+---+-++-++----++--+-+-+-++++--+-+--++--+++--
+Pinus_edulis          ---++-+-+-+--+-+------++-+-+--++--++-+--+--+--++--
+Pinus_elliotti        -++--+---+-++-++----++--+-+-+-++++--+-+--++--+++--
+Pinus_flexilis        ---+++-+--+--+--+++---++-+-+-+----++-+--+-+--+--++
+Pinus_jeffreyi        -+---+---+-++--+----+-+-+-+-+-++-+--+--+-+---+++--
+Pinus_koraiensis      ----++-+--+--+--+++---++-+-+-+----++-+--+-+--+--++
+Pinus_lambertiana     ---+++-+--+--+--+++---++-+-+-+----++-+--+-+--+--++
+Pinus_leiophylla      +-+--+---+-++-++----++--+-+-+-++++--++---+--++++--
+Pinus_mugo            +--+---+--+--+-+---+--+----+-+---+--+-+--+--++-+--
+Pinus_muricata        +-+--+---+-++-++----++--+-+-+-++++--++---+--++++--
+Pinus_nigra           +--+---+--+--+-+---+--+----+-+---+--+-+--+--++-+--
+Pinus_peuce           ---+++-+--+--+--+++---++-+-+-+----++-+--+-+--+--++
+Pinus_ponderosa       -+---+---+-++--+----+-+-+-+-+-++-+--+--+-+---+++--
+Pinus_pumila          ----++-+--+--+--+++---++-+-+-+----++-+--+-+--+--++
+Pinus_radiata         +-+--+---+-++-++----++--+-+-+-++++--++---+--++++--
+Pinus_resinosa        +--+---+--+--+-+---+--+----+-+---+--+-+--+--++-+--
+Pinus_rigida          -++--+---+-++-++----++--+-+-+-++++--+-+--++--+++--
+Pinus_sabiniana       +--+-+---+-++--+----+-+-+-+-+-++-+---+---++--+++--
+Pinus_strobus         ---+++-+--+--+--+++---++-+-+-+----++-+--+-+--+--++
+Pinus_sylvestris      +--+---+--+--+-+---+--+----+-+---+--+-+--+--++-+--
+Pinus_taeda           -++--+---+-++-++----++--+-+-+-++++--+-+--++--+++--
+Tsuga_canadensis      ---+--?-+------????----?--+--+---???---------+----
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb5100;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Picea_pungens,
+            2    Larix_decidua,
+            3    Tsuga_canadensis,
+            4    Pinus_koraiensis,
+            5    Pinus_pumila,
+            6    Pinus_cembra,
+            7    Pinus_strobus,
+            8    Pinus_lambertiana,
+            9    Pinus_flexilis,
+            10   Pinus_ayacahuite,
+            11   Pinus_peuce,
+            12   Pinus_armandii,
+            13   Pinus_edulis,
+            14   Pinus_aristata,
+            15   Pinus_resinosa,
+            16   Pinus_nigra,
+            17   Pinus_mugo,
+            18   Pinus_sylvestris,
+            19   Pinus_densiflora,
+            20   Pinus_taeda,
+            21   Pinus_rigida,
+            22   Pinus_echinata,
+            23   Pinus_elliotti,
+            24   Pinus_ponderosa,
+            25   Pinus_jeffreyi,
+            26   Pinus_sabiniana,
+            27   Pinus_coulteri,
+            28   Pinus_banksiana,
+            29   Pinus_contorta,
+            30   Pinus_radiata,
+            31   Pinus_attenuata,
+            32   Pinus_muricata,
+            33   Pinus_leiophylla;
+      TREE Fig._3 = [&R] ((((((4,6,5),(12,11,10,9,8,7)),(13,14)),(19,18,17,16,15)),(((((20,23,22,21),(29,28)),(33,32,31,30)),(25,24)),(27,26))),3,2,1);
+
+
+
+END;
+BEGIN TREES;
+      TITLE Tb5099;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Picea_pungens,
+            2    Larix_decidua,
+            3    Tsuga_canadensis,
+            4    Pinus_koraiensis,
+            5    Pinus_pumila,
+            6    Pinus_cembra,
+            7    Pinus_strobus,
+            8    Pinus_lambertiana,
+            9    Pinus_flexilis,
+            10   Pinus_ayacahuite,
+            11   Pinus_peuce,
+            12   Pinus_armandii,
+            13   Pinus_edulis,
+            14   Pinus_aristata,
+            15   Pinus_resinosa,
+            16   Pinus_nigra,
+            17   Pinus_mugo,
+            18   Pinus_sylvestris,
+            19   Pinus_densiflora,
+            20   Pinus_taeda,
+            21   Pinus_rigida,
+            22   Pinus_echinata,
+            23   Pinus_elliotti,
+            24   Pinus_ponderosa,
+            25   Pinus_jeffreyi,
+            26   Pinus_sabiniana,
+            27   Pinus_coulteri,
+            28   Pinus_banksiana,
+            29   Pinus_contorta,
+            30   Pinus_radiata,
+            31   Pinus_attenuata,
+            32   Pinus_muricata,
+            33   Pinus_leiophylla;
+      TREE Fig._2 = [&R] (((((4,6,5),(12,11,10,9,8,7)),(13,14)),(19,18,17,16,15),(((((20,23,22,21),(29,28)),(33,32,31,30)),(25,24)),(27,26)))Pinus,3,2,1);
+
+
+
+END;

@@ -1,0 +1,891 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:36 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Wang C., Moeller M., & Cronk Q. 2003. Phylogenetic position of Titanotrichum oldhamii
+(Gesneriaceae) inferred from four different genes. Systematic Botany, null.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S1066]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=28;
+        TAXLABELS
+            Antirrhinum_majus
+            Besleria_labiosa
+            Calceolaria_arachnoidea
+            Chrysothemis_pulchella
+            Cyrtandra_apiculata
+            Didymocarpus_citrinus
+            Epithema_benthamii
+            Epithema_taiwanense
+            Fieldia_australis
+            Gesneria_humilis
+            Jovellana_punctata
+            Kohleria_eriantha
+            Loxostigma_sp.
+            Mitraria_coccinea
+            Napeanthus_reitzii
+            Nicotiana_tabacum
+            Paulownia_tomentosa
+            Peltanthera_floribunda
+            Ramonda_myconi
+            Rehmannia_glutinosa
+            Rhynchoglossum_hologlossum
+            Schizanthus_x_wisetonensis
+            Scrophularia_canina
+            Sinningia_schiffneri
+            Streptocarpus_holstii
+            Tetranema_mexicana
+            Titanotrichum_oldhamii
+            Whytockia_sasakii
+            ;
+END;
+
+BEGIN TAXA;
+        TITLE  Taxa2;
+        DIMENSIONS NTAX=28;
+        TAXLABELS
+            Antirrhinum_majus
+            Besleria_labiosa
+            Calceolaria_arachnoidea
+            Chrysothemis_pulchella
+            Cyrtandra_apiculata
+            Didymocarpus_citrinus
+            Epithema_benthamii
+            Epithema_taiwanense
+            Fieldia_australis
+            Gesneria_humilis
+            Jovellana_punctata
+            Kohleria_eriantha
+            Loxostigma_sp.
+            Mitraria_coccinea
+            Napeanthus_reitzii
+            Nicotiana_tabacum
+            Paulownia_tomentosa
+            Peltanthera_floribunda
+            Ramonda_myconi
+            Rehmannia_glutinosa
+            Rhynchoglossum_hologlossum
+            Schizanthus_x_wisetonensis
+            Scrophularia_canina
+            Sinningia_schiffneri
+            Streptocarpus_holstii
+            Tetranema_mexicana
+            Titanotrichum_oldhamii
+            Whytockia_sasakii
+            ;
+END;
+
+BEGIN TAXA;
+        TITLE  Taxa3;
+        DIMENSIONS NTAX=28;
+        TAXLABELS
+            Antirrhinum_majus
+            Besleria_labiosa
+            Calceolaria_arachnoidea
+            Chrysothemis_pulchella
+            Cyrtandra_apiculata
+            Didymocarpus_citrinus
+            Epithema_benthamii
+            Epithema_taiwanense
+            Fieldia_australis
+            Gesneria_humilis
+            Jovellana_punctata
+            Kohleria_eriantha
+            Loxostigma_sp.
+            Mitraria_coccinea
+            Napeanthus_reitzii
+            Nicotiana_tabacum
+            Paulownia_tomentosa
+            Peltanthera_floribunda
+            Ramonda_myconi
+            Rehmannia_glutinosa
+            Rhynchoglossum_hologlossum
+            Schizanthus_x_wisetonensis
+            Scrophularia_canina
+            Sinningia_schiffneri
+            Streptocarpus_holstii
+            Tetranema_mexicana
+            Titanotrichum_oldhamii
+            Whytockia_sasakii
+            ;
+END;
+
+BEGIN TAXA;
+        TITLE  Taxa4;
+        DIMENSIONS NTAX=36;
+        TAXLABELS
+            Antirrhinum_majus_cyc
+            Antirrhinum_majus_dich
+            Besleria_labiosa_Gcyc1
+            Calceolaria_arachnoidea_Ccyc1
+            Calceolaria_arachnoidea_Ccyc2
+            Chrysothemis_pulchella_Gcyc1
+            Cyrtandra_apiculata_Gcyc1
+            Cyrtandra_apiculata_Gcyc2
+            Didymocarpus_citrinus_Gcyc1C
+            Didymocarpus_citrinus_Gcyc1D
+            Epithema_benthamii_Gcyc1
+            Epithema_benthamii_Gcyc2
+            Fieldia_australis_Gcyc1E
+            Fieldia_australis_Gcyc1F
+            Gesneria_humilis_Gcyc1
+            Jovellana_punctata_Ccyc2
+            Kohleria_eriantha_Gcyc1
+            Loxostigma_sp._Gcyc1C
+            Loxostigma_sp._Gcyc1D
+            Mitraria_coccinea_Gcyc1E
+            Napeanthus_reitzii_Gcyc1
+            Nicotiana_tabacum_cyc1
+            Nicotiana_tabacum_cyc2
+            Paulownia_tomentosa_Pcyc1
+            Paulownia_tomentosa_Pcyc2
+            Ramonda_myconi_Gcyc1
+            Ramonda_myconi_Gcyc2
+            Schizanthus_x_wisetonensis_cyc1
+            Schizanthus_x_wisetonensis_cyc2
+            Scrophularia_canina_Scyc1
+            Scrophularia_canina_Scyc2
+            Sinningia_schiffneri_Gcyc1
+            Streptocarpus_holstii_Gcyc1A
+            Streptocarpus_holstii_Gcyc1B
+            Tetranema__mexicanum_Tcyc2
+            Titanotrichum_oldhamii_Gcyc1
+            ;
+END;
+
+BEGIN TAXA;
+        TITLE  Taxa5;
+        DIMENSIONS NTAX=36;
+        TAXLABELS
+            Antirrhinum_majus_cyc
+            Antirrhinum_majus_dich
+            Besleria_labiosa_Gcyc1
+            Calceolaria_arachnoidea_Ccyc1
+            Calceolaria_arachnoidea_Ccyc2
+            Chrysothemis_pulchella_Gcyc1
+            Cyrtandra_apiculata_Gcyc1
+            Cyrtandra_apiculata_Gcyc2
+            Didymocarpus_citrinus_Gcyc1C
+            Didymocarpus_citrinus_Gcyc1D
+            Epithema_benthamii_Gcyc1
+            Epithema_benthamii_Gcyc2
+            Fieldia_australis_Gcyc1E
+            Fieldia_australis_Gcyc1F
+            Gesneria_humilis_Gcyc1
+            Jovellana_punctata_Ccyc2
+            Kohleria_eriantha_Gcyc1
+            Loxostigma_sp._Gcyc1C
+            Loxostigma_sp._Gcyc1D
+            Mitraria_coccinea_Gcyc1E
+            Napeanthus_reitzii_Gcyc1
+            Nicotiana_tabacum_cyc1
+            Nicotiana_tabacum_cyc2
+            Paulownia_tomentosa_Pcyc1
+            Paulownia_tomentosa_Pcyc2
+            Ramonda_myconi_Gcyc1
+            Ramonda_myconi_Gcyc2
+            Schizanthus_x_wisetonensis_cyc1
+            Schizanthus_x_wisetonensis_cyc2
+            Scrophularia_canina_Scyc1
+            Scrophularia_canina_Scyc2
+            Sinningia_schiffneri_Gcyc1
+            Streptocarpus_holstii_Gcyc1A
+            Streptocarpus_holstii_Gcyc1B
+            Tetranema__mexicanum_Tcyc2
+            Titanotrichum_oldhamii_Gcyc1
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M689]
+
+	TITLE 'CYC_Table 2,3';
+	LINK TAXA = Taxa4;
+	DIMENSIONS NCHAR=1020;
+	FORMAT DATATYPE=DNA SYMBOLS= "A C G T" MISSING=? GAP= -;
+
+MATRIX
+[                                           10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170       180       190       200       210       220       230       240       250       260       270       280       290       300       310       320       330       340       350       360       370       380       390       400       410       420       430       440       450       460       470       480       490       500       510       520       530       540       550       560       570       580       590       600       610       620       630       640       650       660       670       680       690       700       710       720       730       740       750       760       770       780       790       800       810       820       830       840       850       860       870       880       890       900       910       920       930       940       950       960       970       980       990       1000       1010       1020]
+[                                            .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .]
+Antirrhinum_majus_cyc               ATGCTAGGTTTCGACAAGCCGAGCAAAACCCTTGATTGGCTGCTCACTAAGTCGAAAACCGCTATCAAAGAGCTT---------GTGCAGTCTAAA------------------------AGTACT---------AAGAGCAAC---------TCTTCCTCCCCTTGTGAT---GATTGTGAG---GAAGTTGTGTCTGTA---------------GAT------TCTGAGAATGTGACA------------GAT---CATTCAAAGGGGAAA---TCACTG------AAGGCT---------------------AACAACAAATGTAAAGAA---GCAATGGATTCACATCAAGCAGCA---------GCCAAAGAGTCGAGGGCGAAGGCGAGAGCGAGAGCTAGGGAAAGAACTAAGGAGAAGATGTGTATCAAACAACTGAATGAAGCTATA------------------------------------------GTACTG---------------AGGAACCAT---CAATTTGAAGTT------------TCGGGTACCCGT------------------------------------------------------------------------------GAG------------------GCG---------------------------------TTTGTT------------------------------CATCCA------GTTTTCGGGTTTCATCAGCAAAAC---------------------------------TATGGC---AACGCATCTCAT---------------------------------------------------------GAGAACTGGGAT---CAGAGTAACCTTTCT---------------------------------------------------TCGCAGTCGAACCAGCTATGCGCCATTTTG------AATCAGCACAAGTTCATA
+Antirrhinum_majus_dich              ATGCTAGGTTTTGACAAGCCTAGCAAAACCCTTGATTGGCTGCTCACGAAGTCGAAGGAAGCTATTAAGGAGCTC---------GTGCAGTCGAAA------------------------AGCTCG---------AAAAGTAAT------ATTTCTAATTCTCCTTCT------GAATGTGATCAAGAGGTTTTGTCTGCG---------------GACTTGCCT---------------TATATT---------GGATCATCAAAAGGAAAAGCTGCAGTAGGGCTAAATTCT------------------------AACAAATGTAAAGGG---GGAAGGGAC------------GCGGTGGATCTTGCGAAGGAGTCGAGGGCGAAGGCGAGAGCGAGGGCTAGGGAAAGAACTAAGGAGAAAATGTGCATCAAACAGCTTAATCAAGAA---AGAAAC---AAGAGC---TATGAG---TGG---AACCCCTCAGTTCTA---TTTCAGTCAAAG---AGTAGTCAACAATTTGAAGTT------------TCAGGTCCCTCA---------------------------------------------------------------------ACTAAT---------------------------------TATGAAGAACTAAATCAA---GAATCCATCATGATCAAGAGGAAGTTGAAG------CAGAACCACCCT---TCAATGTTTGGGTTT---CAACCTGAA------------------------------------------------------------------------------------------------------AATGCCACTGAGAATTGGGATTATTACAGTAACTTTACC---------------------------------------------------TCACAGTCCAACCAGCTATGTGCCATTTTG------GATCAGCATAAGTTCATA
+Besleria_labiosa_Gcyc1              ATGCTAGGTTTTGACAAGCCAAGCAAAACCCTTGAGTGGGTGCTAAAGAAATCAAAGGCCGGGATTAAAGAATTG---------GTGCAGACAAAAGAAAATAGTGGGAATGCTAATGCCAGTGCTAGTGCTGCTAAGAGC------------ATTTCTTCGCCTTCT------GAGTGT------GAGGTGGTGTCTGCAGGA---AATTACGGCGAAGCCCCTTACGAAAACGGGAGCTACGTGGCGTGTGCTGCGGATTCAAGGAAGAAA---------------------------------------------------------------------GATCCACAGAAGAATGTGTTGAATCTTGCTAAAATGTCGAGAGCCAAGGCGAGGGCGAGGGCGAGGGAAAGAACGAGAGAGAAAATGTGCATAAAGAAGTTTAATGAATCA---AGGAACAATATGTGTGGCCCTGATCATTTGATCAACCCTTCAAGCTCATCAATTCATTCA---AGAAAC---GATATGTTTGAAGTTTGT------CCCATG---AGTAAT------------------------------------------------------------------------------GTGGCATCTTCTGCTGCAGCAGCTCCAAAT---GAAGACCTAATTCAA---GAATCCATTGTCATCAAAAGGATGTTGAAG------------CACCCGTCTTCGTTCTTCGGATTT---CAACAAAACCTT---ATTATTTCAAGAGATTTG------AACTGCACT---CTCCCATCTCCT------------------------------------------------AATGTGAGTGACAATTGGGAT---ATTAGTAGCTTTAAC---------------------------------------------------TCACAGTCAAAT---CTATGTGACATTTTG------GATCAGCACAAATTCATA
+Calceolaria_arachnoidea_Ccyc1       ATGCTAGGTTTCGACAAGCCGAGTAAAACTCTCGAGTGGCTATTGACCAAGTCAAAATCCGCCATTAAGGAG------------------ACGAAA---GAG---------------------------------AAGTGT---------ACTTCTTCCTCACCGTCT------GAATGT------------GTTTCTGCAGGT---AAC---GGTGAA---------------------TTTTTA------------GATTCAAAGGGAAAA---TCT------------------------------------------------AAAGGATCTGGAAAAGAG------------GCGTTGAATCTCGCAAAAGAGTCGAGGGACAAGGAGAGAGCGAGAGCTAGGGAAAGAACGAGGGAGAAAATGAACTTAAAAAAGCTCGACGAATCG---------------------------------------------------------------------AAC---CAAGTTTTTGAT---------------------------------------------------------------------------------CACTTTCCATCG---AGTAGT---------------------------ACTGCT---GAAGATCTTATTCGA---GAATCGATTCTCGTAAAGAGGATGATGAGA------------CACCCT---TCGATTTTCGGGTTC---CAGCAAAACGAT---ACCGTTTCAAGACAT------TCAAATTTTAATAATTTTCAATCTCAT------------------------------------------------AATGTGAATGAGAATTGGGAT---TTGAGCAACTTGAAC---------------------------------------------------TCACAATCCAAC---TTATCGGACATTTTG------GATCAGCACAAATTCATA
+Calceolaria_arachnoidea_Ccyc2       ATGCTAGGTTTCGACAAGCCGAGCAAAACCCTCGATTGGCTACTCACGAAATCGAAAGCTGCCATTAAAGAGCTG---------GTGCAGAACAAG---CAA---------------------GGAACTGAT---AAGAAC---------------------ATTTAT------GAATGTGAC---GAGGTT---------------------------------ATAGAAAATGGGAAC------------------ATATCGAAGAGGAAA---TCT------------------------------------------AAATGTAAGGGAGTAGTAAAAGATCCC---------GCGTTGAATAGTGTGAAAGAATCGAGGGATAAGGCGAGAGCGAGGGCTAGGGAAAGAACAAGAGAGAAAGTAAATGCGAAAAAAATCGATGAGTGC---AGAAATAATATGTGTTCTTCTGAT---TTG------------------------------------AAC---AATATGTTC---------------------AGTAGCAAT---------------------------------------------------------TTTTCGTTA---CCTAAT---GAA---------------GCTGTGGTAACT---GAAGATTTTACTCAA---GAATCGATTCTCATCAAGAGGATGATGAAA------------AACCCT---TCGATTTTTGGGTTT---CAGCAAAACATC---GGCGGT------------------------AGT---TTTCCGTGTCCTAAT---------------------------------------------AATGTCGGCGAGAACTGGGAT---ATGAGTAGCTTAAAC---------------------------------------------------TCACAAACCAAT---TTGTGTGACATTTTG------GATCAGCACAAATTCATA
+Chrysothemis_pulchella_Gcyc1        ATGCTAGGTTTCGACAAGCCAAGTAAAACCCTTGACTGGTTACTCACTAAATCTAAAGCAGCCATTAAGGAGCTG---------GTGCAGGCTAAG---AAAAGT------------GGGAGTGGGAGTGCT---AAGAGC------------ATTTCTTCCCCTTCT------GAATGC------GAGGTAGTGTCTGCAGGA---AAT---GGTGAAACT---TTCGAAAATGGCAGCTATTTG------GATGCTGATTCAAAGAAGAAA---TCACTGCCCGTGAATCCT---------------------AACTACAAGTGTAAAGAATATTCAAAAGATCCACAGCAGTCTGCATTAAATCTTGCTAAAGTATCAAGGGCTAAGGCAAGGGCAAGGGCCAGAGAAAGAACAAGAGAGAAAATGTGCATCAAGAAGCTTAATGAATCA---AGAAGC---ATGGAT---CCTGAT---TTG---AACCCTTCAAACCAA---ATTCAG---------------------------------------------------------------------------------------------------CCTACCCTCCACTGTCCCTTA---ACTAATAATGTA------------CCTGCTGCGACGACT---GAAGATTTAATTCAA---GAATCTATTGTCATTAAAAGGATGTTGAAA---------CAGTACCCT---CCATTTTTTGGATTT---CAACAAAACCTT---ATCATTTCAAGGGATTTG------AACTGCCAT---CTCCCTTCTCCT------------------------------------------------AATATCAACGACAATTGGGAT---ATCAATAGCTTAACC---------------------------------------------------TCACAATCCAAC---CTGTGTGACATTTTG------GATCAGCACAAATTCATA
+Cyrtandra_apiculata_Gcyc1           ATGCTAGGTTTCGACAAGCCAAGTAAAACACTTGAGTGGTTGTTAACGAAATCGAAAGTAGCCATTAAAGATCTG---------GTTCACACAAAG---AAAAGT------------------TCTAGTGCT---AGGAGC------------ACTTCTTCCCCTTCT------GAATGC------GGAGTAGTGTTA---------AAT---GGTGAAGCT---TTTGAAAATGGGAGTTGTTTATTA---GGTGCAGATTTGAAAAGAAAA---TCGGTATCGATGAATGCT------------------------AACAAATGTAAAGGA---GCTAAAGATCCAACACAGAGTGCATCAACTCTAGCTAAAGAATCAAGGGCTAAGGCAAGAGCAAGGGCTAGGGAAAGAACCAAGGAGAAAATGTGCATCAAGAAGCAAAATGAATCA---AGAAAC---ATGTGT---TCTAAT---TTA---AATCCTTCCGTCCCA---ATTCAG------AGAAAC---AATTTGTTTGAAGTTTGCAGA---CCCTTTGCATCTAAT---------------------------------------------AGTATTCTTCATTGTCCCATA---ACTAAT---GAAGCAACTGCCTCTACAGTAGCAGCAACTCATGAAGACCTAATTCAA---GAATCCAATGTCATTAAAAGGATGCTGAGG---------CACCACTCT---TCGTTTTTCGGGTTC------------------------------------------CATTGCAGT---CTCCCATCTCCT------------------------------------------------AATGTTAATGAGAATTGGGAT---GTTAGCAGCTTAACC---------------------------------------------------TCACAATCCAAC---TTTTGTGACATTTTG------GATCAGCACAAATTCATA
+Cyrtandra_apiculata_Gcyc2           ATGCTAGGTTTCGACAAGCCAAGTAAAACCCTTGAATGGCTGCTTACAAAATCAAAAACAGCAATTAAGGAGCTG---------GTGCAGATAAAG---AAAAGT---------GATGCCCCTACTTGCACTAATAAGAGA------------ATTTCGTCCCCTTCA------GGGTGC------GAGGTA---------------ATA---GAG---------TTGGAAAATGGGAACTACTTA------GACGCGGATTATAATGGGAAC---TTGGTCCCGGCCAATACT------------------------TACAGATGTAGAAGA---GCAAAAGATGCACAGCAGGATGTATGGAACCTTGCCAAAGACTCGAGGGCTAAGGCAAGAACAAGGGCTAGGGAAAGAACGAGAGAAAAAATGTGCATGAAGAAGCTTACTGAATCA---AGCAAC---ATGGCT---TCTGAC---TTG---AACCTTTCAATCCCA---AGTCAGGCT---AGAAAA---AGTTTCTCAGAAGTTTGCAAAGTACCCCCT---TCTAAT---------------------------------------ACTGAGCCTAGGCTCCATTTTCCCTTA---ACCAAT------------------ACAGCTGCTGCAACT---GAAGACCTAATTCAA---GAATCCCTTGTCATCAGAAGGATGTTGAAG------------CACAAT---TCGATGCTCGGGTTT---CAGCAAAAC---------------------------------------------------------------------------------------------------------GTAAATCAAAATTGGGAT---ATTAGCAGCTTAACA---------------------------------------------------GCACGATCCAAC---CTATGTGACATTTTG------GATCAGCACAAATTCATA
+Didymocarpus_citrinus_Gcyc1C        ATGCTAGGTTTCGACAAGCCAAGTAAAACACTTGACTGGTTATTAACGAAATCGAAGGTAGCCATTAAAGATCTG---------CTTCATACAAAG---AAAAGT------------------TCTAGTGCT---AGGAGC------------ACTTCTTCGCCTTCT------GAATGC---------GTAGGGTTA---------AAT---GGTAAAGAT---TTTGAATATGGGAGTCGTTTATTA---CCTGCGGATTCAAAGAGAAAA---TCTGAGTTGATGAATGCG------------------------AACAAATGTAAAGGA---GCTAAAGATCCAACACAGAGTGCATCAACTCTATCTAAAGAATCAAGGGCTAAGGCAAGAGCAAGGGCTAGGGAAAGAACGAAGGAGAAAATGTGCATCAAGAAGCTAAATGAATCA---AGAAAC---CTG------------------------------------------------------AAC---AGTTTGTTCGAAGTTCATAGA---CCATCTTCATCTAAC---------------------------------------AGCCAGCCTATTCTTCATTGTCCCATA---TCCAAT---GAAGCTACTGCTGCCACAGTGGCAGCAACT---GAACACCTAATTCAA---GAATCCAATGTCGTTAAAAGGATGTTGAGGCACCATTATTATCACCCT---TCTTTTTTCGGGTTT------------------------------------------CATTGCAGT---TTCCCATCTCCA------------------------------------------------------AATGAGAATTGGGAT---GTTAGCAGTTTAACC---------------------------------------------------TCGCAAACCAAC---TTTTGTGACATTTTG------GATCAGCACAAATTCATA
+Didymocarpus_citrinus_Gcyc1D        ATGCTAGGTTTCGACAAGCCAAGTAAAACACTTGAGTGGTTGTTAACGAAATCGAAAGTAGCCATTAAAGATCTG---------GTTCACGCAAAG---AAAAGT------------------TCTAGTGCT---AGGGGC------------ACTTCTTCCCCTTCT------GAATGC------GAAGTAGTGTTA---------AAT---GGTGAAGCT---TTTGAAAATGGGACTTGTTTAGTA---GGTGCAGATTCGAAGAGAAAA---TGGGTATCGATTAACGCT------------------------AACAAATGTAAAGGA---GCTAAAGATCCGTCACAGAGTGCATCAACTCTAGCTAAAGAATCAAGGGCTAAGGCAAGAGCAAGGGCTAGGGAAAGAACCAAGGAGAAAATGTGCATCAAGCAGCTAAATGAATCA---AGAAAC---ATGGGT---TCTATT---TTA---AATCCTTCAGTTCCG---ATTCAG------AGGAAC---AATTTGTTTGAAGTGTGCAGA---CCATCAGCATCTAAT---------------------------------------------AGTATTCTTCTTTGTCCCATA---ACTAGT---GAAGCAACTACTGCTACAGTAGCAGCAACTCATGAAGACCTAATTCAA---GACTCCAATGTCATTAAAAGGATGCTGAGG---------CACCACTCT---TCGTTTTTCGGGTTC------------------------------------------CATTGCAGC---CTTCCAGCTCCT------------------------------------------------AATGTCAATGAGGATTGGAAT---GTTAGCAGCTTAACC---------------------------------------------------TCACAATCCAAC---TTTTGTGACATTTTG------GATCAGCACAAATTCATA
+Epithema_benthamii_Gcyc1            ATGCTAGGTTTCGACAAGCCTAGCAAAACCCTTGAGTGGCTTCTAACAAAGTCCAAAGCAGCAATCAAGGATCTT---------GTGCTCTCCAAA---AAATGT------------GCAAGTTCTAGTGCT---AAGAGC------------ACTTCCTCCCCTTCT------GAA------------GTGGTG------------AAT---GGGGAGGAT---TTTGAGACTGGGAATTCTTTAGTG------GCCGATTCGAAGAGGAAG---TTGGTGGTTACG---------------------------------AGATGTAGAGGA---GGTAAAGATCCGCAACTAGCTGTGCCAAATCATGAAAAAGAGTCGAGGGCAAAGGCCAGAGCGAGGGCCATGGAAAGGACCAAGGAGAAAATGTGCATGAAGAAGCTCAATGAAACA---AGAAAC---TTGGGG---CCTGAT---GTG---AACCCTGCAATGCCA---ATGCAG---------------------------------------------------------------------------------------------------CCAATTTTCCAGTGTCCCTTG---ACAAAT---GAA------------GCTGCATCCAAC------GAAGACCTAATTCAA---GAATCTTTCACCGTTAGGAGAATGTCGAAG---------CATCAGCCG------TTTTTCGGGTTT---CAACAA---------------------------------------------------------------------------------------------------------------AATGAGAACTGGGAT---ATAACCAGTTTACCC---------------------------------------------------TCACAATCCAAT---CTTTGTGACATTTTG------GATCAGCACAAATTCATA
+Epithema_benthamii_Gcyc2            ATGCTAGGTTTCGACAAGCCAAGTAAAACACTCGAGTGGCTGCTCACGAAATCAAAAGCAGCCATTAATGAGCTC---------GTGCAGATGAAA---AAAAGT---------ACTACTAGTACTAGTACT------AGT---------------------GCTCGT------GAATGC------CAGGCACCATCAACAGGA---AATGATACTCAAGCT---TTAGAAAACGGA---------------------------------------------------------------------------------AACAAATGTAAGAGG---GGGAAAGATTTACCA---------TTGAATGTTGCTAAAGAATCAAGGGTTAAAGCAAGAGCAAGGGCTAGAGAAAGAACACAGGAGAAAATGTGCATAAAAAAGCTTAATGAATCG---AGAAAC---TTG---TCTTCGGGT---CTC---CACTCTTCAGACCCA---ATTCAGTCA---AGAAAT------------------------------------------------------------------------------------------------------CACTTG---AACAAT---ATA------------TCGGCTGCATCAAGT---GATGATCTAATTCAA---GAATCAGTTCTCATCAAAAGGATGTTGAAG------------GACCCT---TCATTTTTCGGGTTC---CAAGAAAACCTT---ATCATTTCCAGAGATTTG------AGTTACAGT---ATCCCTTACGAT------------------------------------------------AGTGCCAATGAGAATTGGGAT---ATCAGTACCTTAAGC---------------------------------------------------GAACAATCCAAC------------ATTTTG------GATCAGCACAAATTCATA
+Fieldia_australis_Gcyc1E            ATGCTAGGTTTCGACAAGCCAAGTAAAACCCTTGAGTGGCTGCTCACGAAATCGAAAGCAGCCATTAAGGAGCTG---------ATGCAGACGAAG---AAAAGA------------GCCAGTGCTAGTGCT---AAGAGC------------ATTTCTTCCCCTTCT------GAATGC------GAGGTCGTGTCTGCAGGA---AAT---GGTGAAGCT---TTCGAAAATGGGAACTATTTA------GATGCAGATTCAAAGAGGAAA---TCGGTACTGCTGAATGCT------------------------TACAAATGTAAAGAA---GCAAAAGATCCACAGCAGGCTGCATTAAATCTTGCTAAAGTATCAAGGGCTAAAGCAAGAGCAAGGGCTAGAGAAAGAACAAGAGAGAAAATGTGCATCAAAAAGCTTAACGAATCA---AGAAAC---TTGGAT---CCTGAT---TTG---AACCCCTCAAACCCA---ATTCAGTTC---AGAAAC---AATCTATTCGAAATTTGCAAATTA---TCTGCTTCTAAT---------------------------------------AGCGAGCCTATCCTTCATTGTCCCTTA---ACTAAT---GTA------------GCTGCTGCAGCAACT---GAAGACCTAATTCAA---GAATCCATTGTCATCAAAAGGATGCTGAAG------------CACCCT---TCATTTTTTGGATTT---CAACAAAACCTT---ATCATTTCAAGAGATTTG------AACTGCAGT---CTCCCATCTCCT------------------------------------------------AATATCAATGATAATTGGGAT---ATCAGTAGCTTAACC---------------------------------------------------TCACAATCCAAC---CTATGTGACATTTTG------GATCAGCACAAATTCATA
+Fieldia_australis_Gcyc1F            ATGCTAGGTTTCGACAAGCCAAGTAAGACCCTTGAGTGGCTGCTCACGAAATCGAAATCAGCCATTAAGGAGCTG---------GTTCAGACAAAG---AAAAGT------------GGCAGTGCTAGTGCT---AAGAGC------------ATTTCTTCCCCTTCT------GAATCC------GAGGTAGTGTCTGCAGGA---AAT---GGTGAAGCT---TTCGAAAATGGGAACTATGTT------GGTGCAGAT---------------GACCGTCCGTTAAACTACCAAAAAAACTTCAAGTTGAATGCTTACAATTGTAAAGAA---GCAAAAGATCCACAGCAGGCTGCAATTAATCTAGCCAAAGTTTCAAGGTCTAAAGCAAGAGCAAGGGCTAGAGAAAGAACAAGAGAGAAAATGTGCATCAAGAATCTTAACGAATCG---AGAAAC---ATGGAT---CTTGAT---TTG---AACCCCTCA---ACA---ATTCAGTCT---AGAAAC---AATCTATTTGAAGTTTGCAAATTA---TCTGCTTCTAAC---------------------------------------ATCCAGCCTCTTCTCCATTGTCCCTTA---ACTAAT---GAA------------ACTGCTGCCGCAACT---GAAGACCTAATTCAA---GAATCCATTGTCATCAAAAGGATGTTGAAG------------CATCCT---TCGTTTTTTGGATTT---CAACAAAACCTT---ACCATTTCAAGAGATTTG------AACTGCAGT---CTCCCATCTCCT------------------------------------------------AATATCAATGATAATTGGGAT---ATTAATAGCTTAACC---------------------------------------------------TCACAATCCAAC---ATATGTGACATTTTG------GATCAGCACAAATTCATA
+Gesneria_humilis_Gcyc1              ATGCTAGGTTTCGACAAGCCAAGTAAAACCCTTGACTGGTTGCTCTCTAAATCTAAAGCAGCCATTAAGGAGCTG---------GTGCAGGCTAAG---AAAAGT------------GGGAGTGGTAGTGCT---AAGTGC------------ATTTCTTCCCCTTCT------GAATGC------GAGGTAGTGTCTGCAGGA---ACT---GGTGAAACT---TTCGAAAATGTCAGCTATTTG------GATGCGGATTCAAAGAAGAAA---TCACTGTCCCTGAATCCT---------------------ATTTACAAGTGTAAAGAATATTCAAAAGATCCACAGCAGTCTGCATTAAATCTTGCTAAAGTATCAAGGGCTAAGGCAAGAGCAAGGGCCAGAGAAAGAACAAGAGAGAAAATGTGCATCAAGAAGCTTAATGAATCA---AGAAAC---ATGGAC---CCTGAT---TTG---AACCCTTCAAACCAA---ATTCAG---------------------------------------------------------------------------------------------------CCTACCCTCCACTGTCCCTTA---ACTAATAGTGTA------------CCTGCTGCAACAACT---GAAGATTTAATTCAA---GAATCCATTGTCATTAAAAGGATGTTGAAA---------CAGTATCCT---TCATTTTTTGGATTT---CAACAAAACCTT---ATCATGTCAAGGGATTTG------AACTGCAAT---CTCCCTTCACCT------------------------------------------------AATATCAACGATAATTGGGAT---ATCAATAGCTTAACC---------------------------------------------------TCACAGTCCAAC---CTGTGTGACATTTTG------GATCAGCACAAATTCATA
+Jovellana_punctata_Ccyc2            ATGCTAGGTTTCGACAAGCCAAGTAAGACCTTGGAGTGGCTACTCACGACATCGAAAGCAGACATTAAAGAGCTG---------GTGCAGACCAAG---CAA---------------------AGTACTGCT---AAGAAC---------------------ATTTCT------GAATGT------GAAGCTGTGTCA---------AAT---GGAGAAGTT---CTTGAAAATGGGAACTGTGTATGG------GCAGATTTGAAGAGGAAA---TCT------------------------------------------AAATGTATAGGA---GTAAATGATCCC---------GCATTAAATCTTGCGAAAGAATCGAGGGATAAAGCTAGAGCAAGGGCTAGGGAAAGAACAAGAGAGAAAGTAAACGCGAAAAAACTCGACGAATGC---AGAAGAAATATGGGTTCTTCTGAT---TTG------------------------------------AAC---AATCTGTTT---------------------------AATACC---------------------------------------------------CATTTTCCGTTA---CCTAAT---GAA---------------GCTGCAGCAACT---GAAGATTTTACTCAA---GAATCCGTTCTCATCAAAAGGATGATGAAA------------CTCCCT---TCTATTTTCGGGTTT---CAGCAGAACCTT---AGCAGT------------------------AGT---TTCCCATGTTCT------------------------------------------------AATGTGGGTGAGAATTGGGAT---ATTAGTAACTTAAAC---------------------------------------------------TCACAATCCAAT---CGGTGTGACATTTTG------GATCAGCACAAATTCATA
+Kohleria_eriantha_Gcyc1             ATGCTAGGTTTCGACAAGCCAAGTAAAACCCTTGACTGGTTGCTCACTAAATCTAAAGCAGCCATTAAGGAGCTG---------GTGCAGGCTAAG---AAAAGT------------GGGAGTGGTAGTGCT---AAGAGC------------ATTTCTTCCCCTTCT------GAATGT------GAGGTAGTGTCTGCAGGA---ACT---GGTGAAACT---TTCGAAAATGGCAGCTATTTG------GATGCGGATTCAAAGAAGAAA---TCACTGCCCCTGAATTCT---------------------AATTACAACTGTAAAGAATATTCAAAAGATCCACAGCAGTCTGCATTAAATCTTGCTAAAGTATCAAGGGCCAAGGCAAGAGCAAGGGCCAGAGAAAGAACAAGAGAGAAAATGAGCATCAAGAAGCTTAATGAATCA---AGAAAC---ATGAAC---CCTGAT---TTG---AACCCTTCAAACCAA---ATTCAG---------------------------------------------------------------------------------------------------CCTACCCTCCACTGTCCCTTA---ACTAATAGTGTA------------CCTGCTGCAACAAAT---GAAGATTTAATTCAA---GAATCCATTGTCATTAAAAGGATGTTGAAA---------CAGTACCCG---TCATTTTTTGGATTT---CAACAAAACCTT---ATCATTTCAAGGGATTTG------AACTGCAAT---CTCCCTTCACCT------------------------------------------------AATATCAACTATAATTGGGAT---GTCAATAGCTTAACT---------------------------------------------------TCACAGTCCAAC---CTGTGTGACATTTTG------GATCAGCACAAATTCATA
+Loxostigma_sp._Gcyc1C               ATGCTAGGTTTCGACAAGCCAAGTAAAACACTTGAGTGGTTGTTAACGAAATCGAAAGCAGCCATTAAAGATCTG---------GTTCATACAAAG---AAGAGT------------------TCTAGTTCT---AGGAGC------------ACTTCTTCGCCTTCT------GAATGC------GAAGTAGTGTTA---------AAT---CGTGAAGCT---TTTGAATTTGGGAGTTGTTTATTA---CCTGCGGATTCGAAGAGAAAA---TCAGTGTTGATGAATGCT------------------------AACAAATGTAAAGGA---GCTAAAGATCCAACACAGAGTGCATCAACTCTGGCTAAAGAATCAAGGGCTAAGGCAAGAGCAAGGGCAAGGGAAAGAACGAAGGAAAAAATGGGCATCAAGAAGCTAAATGAATCA---AGAAAC---ATG------------------------------------------------------AAC---AATTTGTTTGAAGTTTGCAGA---CCATCTGCATCTAAT---------------------------------------ATCCAGCCTATTCTTCATTGTCCCATT---ACCAAT---GAAGCTACTGCTGACACAGTAGTAGCAACT---AAACACCTAATTCAA---GAATCCAATGTCGTTAAAAGGATGCTGAGG---------CACCACCCT---TCGTTTTTCGGGTTT------------------------------------------CATTGCAGT---CTCCCATCAACT------------------------------------------------AATGTCAATGATAATTGGGAT---GTCAGCAGTTTAACC---------------------------------------------------TCACAATCCAAC---TTTTGTGACATTTTG------GATCAGCACAAATTCATA
+Loxostigma_sp._Gcyc1D               ATGCTAGGTTTCGACAAGCCAAGTAAAACACTTGAGTGGTTGTTAACGAAATCGAAAGTAGCCATTAAAGATCTG---------GTTCACACAAAG---AAAAGT------------------TCTAGTGCT---AGGAGC------------ACTTCTTCCCCTTCT------GAATGC------GAAGTAGTGTTA---------AAT---GATGAGGCT---TTTGAAAATGGGAGTTATTTATTA---GGTGCAGATTCGAAGAGAAAA---TGGGTATCGATGAATGCT------------------------AACAAATGTAAAGGA---GCTAAAGATCCAACTCAGAGTGCATCAACTCTAGCTAAAGAATCAAGGGCTAAGGCAAGAGCAAGGGCTAGGGAAAGAACCAAGGAGAAAATGTGCATCAAGAAGCTAAATGAATCA---AGAAAC---ATGGGT---TCTAAT---TTA---AATCCTTCAGTCCCA---ATTCAG------AGGAAC---AATTTGTTTGAAGTTTGCAGA---CCATCTGCATCTAAT---------------------------------------------AGTTTTCTTCATTGTTCCATA---ACTAAT---GAAGCAACTGCTGCTACAGTAGCAGCAACTCATGAAGACCTAATTCAA---GAATCCAATGTCATTAAAAGGATGCTGAGG---------CACCACTCT---TCGTTTTTCGGGTTA------------------------------------------TATTGCAGT---CTCCCATCTCCT------------------------------------------------AATGTCAATGAGAATTGGGAT---GCTAGCAGCTTAACC---------------------------------------------------TCACAATCCAAC---TTTTGTGACATTTTG------GATCAGCACAAATTCATA
+Mitraria_coccinea_Gcyc1E            ATGCTAGGTTTCGACAAGCCAAGTAAAACCCTTGAGTGGCTGCTCACGAAATCGAAAGCAGCCATTAAGGAGCTG---------GTGCAGACGAAG---AAAAGT------------GCCAGTGCTAGTGCT---AAGAGC------------ATTTCTTCCCCTTCT------GAATGC------GAGGTCGTGTCTGCAGGA---AAT---GGTGAAGCT---TTCGAAAATGGGAACTATTTA------GGTGCAGATTCAAACAGGAAA---TCGGTACTGCTGAATGCT------------------------TACAAATGTAAAGAA---GCAAAAGATCCACAGCAGCCTGCATTAAATCTTGCTAAAGTATCAAGGGCTAAAGCAAGAGCAAGGGCTAGAGAAGGAACAAGAGAGAAAATGTGCATCAAGAAGCTTAACGAATCA---AGATAC---ATGGAT---CCTGAT---TCG---AACCCCTCAAACCCA---ATTCAGTCC---AGAAAC---AATCTAATCGAAATTTGCAAATCA---TCTGCTTCTAAT---------------------------------------AGCGAGCCTATCCTCCATTGTCCCTTA---ACTAAT---GTA------------GCTGCTGCATCAACT---GAAGACCTAATTCAA---GAATCCATTGTCATCAAAAGGATGCTGAAG------------CACCCT---TCGTTTTTTGGATAT---CAACAAAACCTT---ATCATTTCAAGAGATTTG------AACTGCAGT---CTCCCATCTCCT------------------------------------------------AATATCAATGATAATTGGGAT---ATCAGTAGCTTAACC---------------------------------------------------TCACAATCCAAC---CTATGTGACATTTTG------GATCAGCACAAATTCATA
+Napeanthus_reitzii_Gcyc1            ATGCTAGGTTTTGACAAGCCAAGCAAAACCCTTGAATGGCTGCTCACGAAATCGAAAGCAGCCATTAAGGAGCTG---------GTGCACACAAAG---AAAAGT------------GCCAGTGCCAGTGCT---AAGAGC------------AATTCTTCCCCTTCT------GAATGC------GAGGTAGTGTCTGCAGGA---AAT---GGCGAAGCT---TTTGATTATGGAAACTATTTA------GGTGCAGATTCAAAGAAGAAA---TCAGCGCTTATGAATGCT------------------------TACAAATGTAAAGGA---CCAAAAGATCCACAGCAGGCTGCATTAAATCTTGCTAAAGAATCCAGGGCTAAAGCAAGAGCAAGGGCTAGAGAAAGAACAAGAGAAAAAATGAGCATCAAGAAGCTTAACGAATCA---ATAAAC---TTGGTC---CCTGAT---TTG---AACCCCTCAAACCCA---ATTCAGTCT---ACAAAC---AATCCATTTGAC------------------------------------------------------------------------------CTCCATTGTCCCTTA---ACTAAT---GTA------------GCTGCACCAGAAACT---GAAGACCTAATTCAA---GAATCCATAGTCATCAAAAGGATGTTGAAG------------CACCCT---TCATTTTTTGGTTTC---CAACAAAACCTT---ATCATTTCAAGAGATTTG------AACTGCAGC---CTCCCATCTGCT------------------------------------------------AATATCAATGAGAATTGGGAT---ATTAGTAGCATAACC---------------------------------------------------TCACAATCCAAC---CTATGCGACATTTTG------GATCAGCACAAATTCATA
+Nicotiana_tabacum_cyc1              ATGCTTGGTTTTGACAAACCAAGTAAAACCCTTGATTGGCTATTCACAAAGTCCAAATTAGCCATTGAAGAGCTGACTACT---GCTCAGATCAAA---ATCACCAGC---CCTAATGAGTCGTCAGCAGCAAAGAAAAGTACT---TCATCTATTAAT------------TCAGAATGTGAG---GACGTTGTTCTTGCA------------------------------------------------------------------------------------------------------------------AGAGCAAAACAAGAGGAG------------------GCTATACTTAATTTGGTTGCGAGAGAGTCAAGGGCAAAGGCTAGAGCAAGAGCTAGGGAAAGAACAATCAAGAAAATCTGGGCCCAAATT------GAAGCC---AAACTTAAC------------------------TCATCATCAGTAGTA---------------AAGGAGCAGACTAAGATTGAT------------------------------------------------------------GAAATT---------------------------------------------------------------------AAAGAAATG---ATTCAC---GGATCTGTACTTGTGGAAAGGAAGAATATC---------------------------------------------------------------AAGTCTTCTTCCTCAACTTGGGTTTTCATCACCCGAATCTCAGTGGTACTGAAGAGGCTACAGCTAATTCGAACTACAATAGCTCCTCTTCTACCCGAAATTGGGATC------------------ATGATG------------------------------------------------------------------------TTA---ATCGAACAA------------
+Nicotiana_tabacum_cyc2              ATACTAGGTTTTGACAAACCAAGCAAAACGCTGGATTGGCTTTTCACTAACTCGAAACTAGCCATTGAGGAGCTCGCTAATTGGTCAACTCAT------CAGGATCATCACCCAAAG---ATTGCAGGAGCAACGAAGTCGAGCTGCAATGAGACCGCCAAGGATTGTGCTTCACAGTGTGAA---GACCTGGCCATAACA---------------------------ACAAAT---------------------GAGGGTTCGGAAAGAAAG------------------------------------------CCCAAAAGAGCAAAAGAA---AAGAAAGAAGTAAAAGATGATCTTGTCCTAGTTGCAAGAGAGTCAAGGGCGAAGGCAAGAGCAAGAGCTAGGGAAAGAACAATCAAGAAAATGTGGAGTAGAATT------GAAACTAGCCAGAGGTCA------ACTTCTCAG---TTG---ATCAGATCTAGTTTT------------------CACCCAAATTTC------------------------------------------------------------TCTGCTCCTATA------------------------------------------------------------------------------------------GAGTCA------------------------------------------------------------------------TCAACTACCTACTATGGTAGCTCTTCTTTCAAC---------------------------------------------------------------------------ACTGAGAATTTGGAC------AAAGGCACAACT---TCAGAA---CTTCAA------------GGTCGCTGG---------------------AAACAATTG---GACTCATGTCACAGCAACCAA------------
+Paulownia_tomentosa_Pcyc1           ATGCTAGGTTTCGACAAGCCAAGCAAAACTCTTGATTGGCTGCTCACCAAATCAAAAACAGCCATTAAGCACCTG---------GTGCAGACGAAG---CAACAC------------ACCACTGCTGGTGCC---AAGAGT------------GTTTCTTCTCCTTCT------GAATGT------GAGGTAGAGTCTGAAGGA---AAT---GGGGAGGCT---TTTGAAAATGGGAAATCTTTA------GGGGCAGATTCAAAAGGAAAA---TCAGTTATGATGAAAGCT------------------------AACAAACATAAAGGA---GGAAAGGATCCACAGCAGGCCGCATTAAATCTTGCAAAAGAGTCGAGGGTAAAGGCAAGAGCAAGGGCTAGGGAAAGAACAAGAGAGAAATTGTGCATCAAGCAGCTCAATGAATCC---AGAAAC---ACGGGC---TATGAT---TTG---AACCCCTCCATCCCA---ATTCAGTAT---ATGAAC---AATCAACTTGAAGTTTGCAAAATA---TCAGGTTCTACTAGC------------------AAGGTGGATGCTGGAATT------------CTCCATTGTCCCCCA---ACTTAT---GAA------------------GCAGCAACTCATGAAGACCTAATTCAA---GAATCCATTGTGATCAAAAGGAAGGTGAAG------------CATCCC---TCAATCTTCGGATTT---CAGCCAAACCAT---ATCATTTCTAGAGATTCGAGTTCAAACTACAGT---ATCCCATCTCCTTAT---------------------------------------------AACTCCACTGAGAATTGGGAT---ATAAGTAACTTTACC---------------------------------------------------TCACAATCCAAC---ATATGTGCCATTTTG------GATCAGCACAAATTCATA
+Paulownia_tomentosa_Pcyc2           ATGCTAGGTTTCGACAAGCCAAGCAAAACTCTTGATTGGCTGCTTACGAAATCAAAAGCAGCCATTAAAGAGCTG---------GTGCAGACGAAA---CAAAAC------------GCCAGTGCTAGTGCT---AAGAGTAGT------------TCTTCATCCTCT------GAATGT------GAGTTACTCTCTTCTGTAGGAAAT---GGGGATGTT---TTTGAATATGGGAACTCTTTA------GGAGCAGGTTCAAAGAGGAAG---TTT---GGT---------------------------------AACAAACATAAAGGA---GCAAAGGATCCACAGCAGGCAGCATCAAATCTTGCCAAAGAGTCAAGGGCAAAGGCAAGAGCAAGGGCTAGGGAAAGAACAAGAGAGAAAATGTGCATCAAGCAGCTCAATGGAGCC---AGGAAC---ACGGGT---TCTGAT---TTG---AACCCCTCCATCCCA---ATGCAATAT---AGGAAC---AATCAACTTGAAGTTTTTCAGTTATCTGCGGGTTCTAGTAGCAACAACTTATCCTGCTTGAAGGCGAATGCTGGAATTCGTGAGCCTATCTTCCATTGTCCCCTA---ACTAAT---GAA------------------GCAGCTACT---GAAGACCTAATTCAA---GAATCTATTGTGATCAAACGGAAGTCGAAG------------AATCCA---TCATTTTTCGGGTTT---CAGCAAAACCTT---ATTGTTTCGAGAGATTTGAGTTCAAACTACGGT---ATCCCATCTGCT------------------------------------------------AATACCACTGAGAATTGGGAT---ATTTGTAGCTTCACC---------------------------------------------------TCACAATCCAAC---CTGTGCGCCATTTTG------GATCAGCACAAATTCATA
+Ramonda_myconi_Gcyc1                ATGCTAGGTTTCGACAAGCCAAGTAAAACCCTCGACTGGTTGTTAACCAAATCGAAAGTGGCCATCAAAGATCTG---------GTGCATACAAAG---AAAAGTTCTAGT------CCTAGTGCTAGTGCT---AGGGGC------------ATTTCTTCCCCTTCC------GAGTGC------GAAGTAGTGTTA---------AAT---GGTGAA---------------------------------------GATTCGAAGAAGAAA---------------------------------------------------AGTAAAGAA---GCAAAGGATCCAACGCAGATTGCATCAACACTAGCTAAAGAATCAAGGGCTAAGGCAAGAGCAAGGGCTAGGGAAAGAACAAAGGAGAAAATGTGCATCAAAAAGTTGAACGAATCA---GGGAAA---ATGGTT---TCTCAT---CTA---AGTCCTACAATC---------------------------------------------------------------------------------------------------------------CCAATT---CATTGCCCAATCATGACTGAT---GAA------------------GCAACTAAT------GACATGATTCAA---GAATCCAATCTCATTAAAAGGATGATGAGG---------CCGCACCCT---TCGATTTTCGGGTTT------------------------------------------CATCGC------------------------------------------------------------------GATGTCAATGAGAATTGGGAT---ATCAGCAGCTTAACA------------------------------------------------TCGTCACAATCCAAC---TTCTGTGACATTTTG------GATCAGCACAAATTCATA
+Ramonda_myconi_Gcyc2                ATGCTAGGTTTCGACAAGCCAAGTAAAACCCTTGAATGGCTTCTTACAAAATCGAAAGCAGCCATTAAGGAGCTT---------GTGCAGATGAAG---AAAAAT---------GACTCCACTACTTGCACTAATATGAGT---------GTTGTTTCTTCCCCTTCA------GACTGC------GAT---------------------------------------------GGGAACTACATA------GATCCGGATTCTAATGCA------------CCGGCCAATTATTTTGCT------------------TACGGTTGTGGAAGA---ACAAAAGATCCACAGCAGGATGTAATGAACCTTGCCAAAGAATCGAGGGCTAAGGCGAGGGCGAGGGCTAGGGAAAGAACTAGAGAGAAAATGTGCAAGAAGAAGCTTAATGATTCT---AGAAAC---ATGGCCTCTCCTTCTAGCCTC---AATTTTCCCTTAGCT---------------AATAAT---------------------------------------------------------------------------------------------------------------ACAGCT---GCT------------GCTGCTGCTGCAACT---GAAGAACTGATTCAT---GAATCTCTTGTCATCAGAAGGATGTTGAAG------CAAAACCAT------TCAAATTTCGGGTTT---CACCAAAAC---------------------------------------------------------------------------------------------------------TTAAATCAGAATTGGGAT---ATGAGCAACTTAACA---------------------------------------------------GCACAATCCGAA---CTATGTGACATTTTG------GATCAGCACAAATTCATA
+Schizanthus_x_wisetonensis_cyc1     ATGTTAGGTTTTGACAAACCAAGCAAAACGCTGGATTGGCTCTTCACAAACTCCAAACTAGCCATTGATGATCTC---------------------------------------------ATCACTCGCGCG---AAATCT---------GCTATTTCA---------------CAATGT---CATGAGGAAACCATT------------------------------AATGAAGCAAAC---------------CCTCCTGCCAAAACCAAA------ACAAGTAGTCATGAC---------------------------CACCAAAAACAGGAGGCTAAAACA------------CTTCATGTCCTCGCGAGAGAGTCGAGGGACAAGGCTAGAGCAAGAGCTAGGGAAAGAACAATCAACAAACTGTGGCCTCGA---CTTGTTGGTGGC---AAGAAA---------------------------TCTAACTCATCATTG---------------AAGGAGCATACACAGATGGAT---------------------------------------------------------AAACCAATTTGT------------------------------------------------------------------------------------------------------------------------------GTCAAACCCTCTTTAATCTTGGGTTTTCATGGCCAGAATCTCACTACTGCTCCAAAAGGGTCTATTTCAAACTACAGT---AACTGTTTTTCTAAT---------------------------------------------------ACCCAGAATTGGGAT---GTTAGTAACACTTTGATGAGCTCCAGTTTAAGTGCTGCAATGACTACCAGTGCTAATAATTACTCATCACAA---------GTATTTCAAAGTTGC------GATCAG------------
+Schizanthus_x_wisetonensis_cyc2     ATGCTAGGTTTTGAAAAACCCAGCAAAACGCTGGATTGGCTCTTCACAAACTCCAAACTAGCCATTGAAGTTCTC---------------------------------------------TCTGCCAGG------AAAAACCCAGCTTCTTCTATTTCA---------------CAATGTGAGCAAAAGCCTCCTGTG---------------GATCAAATAGCC---AAATCA---------------------------------------------------AGTACTGGT------------------------AAAAAACAAAAACAG---GTCAAGACACATGATCAGGCTACAGTTCTT---GCAAGGGAGTCAAGGGCTAGGGCAAGAGCAAGAGCTAGAGAAAGAACAATCAACAAAATGTGGACCCGAATTGTTACTGGG------AAGAGATCA------------------------------------TTATCATGT------------CCCCAC------ATGGAT------------------------------------------------------ATACAACCACTTTGTGATTAC------------------------------------------------------------AAAAGAGCT---------TGTGATTCA---GCAATTAAAGAAATGATGATC------------AAACCCTGGGTCATTCTTGGGTTT---------------------TCACCCAAATCTCAGTCCTCCAATCATGGGTTTTTCTGCTGCTGCTAC---------------------------------------------ACTACTACT---------------------------------------------------------------------------------------------------------ACATTA------------------------
+Scrophularia_canina_Scyc1           ATGCTAGGTTTCGACAAGCCAAGCAGGACTCTTGATTGGCTGCTAACGGAATCGAAACCCGCCATTAAGGAACTCGCT---------------------------------------GCTAGTGGTCGTGGTAATAAGAGTCGC---------ATTTCTTCCCCTTCTGAT---CAATGT------GAAGTGGTCTCAGTC---------------------------GAAAACGCCAGCTCA------GATTCGAAGAGCACTAAAGGGAAA---------------------------------------------------------------------GAGCCACGTCATCAGCTGGCAGATCTTGCTAAAGAGTCAAGGGCAAAGGCAAGGGCAAGGGCTAGCGAAAGAACAAGAGAGAAAATGTGTATCAAGCAGATTAATGGCGCT---ACAAAC---ACCACTCTTCATGAA------------------------------------------CACCAAATTCCATTTAGGGTT---------------AGTAGTAAT---------------------------------------------------------------------------------------------------AGTAGTACT---GGAAATCAT------CATGAG---------------GGGATGGTTAAT---------------------TCGATTTTCGAGTTT---CAGCAAAATCTC---TTTGTTTCTAGAGATTTCACTTCAAACCACAACATGAATCCTACTCAT---------------------------------------------------------GAAAATTGGGAT------------------------------------------------------------------------------------GTTTGTGCCATTTTG------GATCAGCACAAATTCATA
+Scrophularia_canina_Scyc2           ATGCTAGGTTTCGACAAGCCAAGCAAAACCCTCGATTGGCTACTTACGGAGTCAAAAGCCTCGATTAAAGACCTC---------ATCTTGAAGAAA---AAATCT---------------------------CAAAACGGTGTA------GTTTCATCTTCTCCTTTT------GAATGT------GAGGTAATTTCTTCTAGA---AAC---------------TTAGAA---------------------------CATTCAAACCGAAAA---TCGATATGTTTA------------------------------------------------------------------------------AGTGCTAAAGAGATGAGAGTCAAAGCAAGAGCAAGAGCTAGGGAAAGAACAAGAGAGAAAATGTGTATCAAACAGCTTAATGAAGCTATTAGAAGAAAT---GGA---TATGAT---TTG---AGCCCTTCAATTCCA---ATTCATTATAATATGAATAATAATAAC---------------------------------TGTAATAATGGT---------------------GGAATTTCGGAATCAATCTTCGATTATCCGATC---AATTAT---GAA---------------GCATCATCAAATCATGAAGACCTAATT---CATGAATCCATTTTAATAAGGAGGAAATTTAAG---------CAATATCCTCCATCAATTTTCGGGTTT---CAACACAACCTT---ATATTTTCTCGGGATTCAAGTTCGAAC------------GCTACTCCA------------------------------------------------TTTACTACACAATCC---GAC------------------------------------------------------------------------------------GTTTGGGCCATTTTG------GATCAGCACAAATTCATA
+Sinningia_schiffneri_Gcyc1          ATGCTAGGTTTCGACAAGCCAAGTAAAACCTTAGACTGGTTGTTAATTAAATCGAAAGCAGCCATTAAGGAGCTG---------GTGCAGGCTAAG---AAAAGT------------GGGAGT------GCT---AAGAGC------------ATTTCTTCCCCTTCT------GAATGC------GAGGTAGTGTTTGCAGGA---AAT---GGTGAAACT---TTTGAAAATGGCAGCTATTTG------GATGCGGAATCAAAGAAGAAA---TCCATGCCCCTGAATCCT---------------------AATTACAAGTGTAAAGAATATTCAAAAGATCCACAGCAGTCTGCATTAAATCTTGCTAAAGTATCAAGGGCTAAGGCAAGAGCAAGGGCCAGAGAAAGAACAAAGGAGAAAATGTGCATCAAGAAGCTTAATGAATCA---AGAAAC---ATGGAT---CCTGAT---TTG---AACCCTTCAAACCAA---ATTCAG---------------------------------------------------------------------------------------------------CCCACCCTCCACTGTCACTTA---ACTAATAATGTA------------TCTGCTGCAACAACT---GAAGATTTAATTCAA---GAATCCATTGTTTTTAAAAGGATGTTGAAA---------CAGTACCCT---TCATTTTTTGGATTT---CAACAAAACCTT---ATCATTTCAAGGGATTTG------AACTGCAAT---CTCCCTTCTCCT------------------------------------------------AATATCAACGATAATTGGGAT---ATCAATAGCTTAACC---------------------------------------------------TCACAATCCAAC---CTGTGTGACATTTTG------GATCAGCACAAATTCATA
+Streptocarpus_holstii_Gcyc1A        ATGCTAGGTTTCGACAAGCCCAGTAAGACACTCGACTGGCTGTTGACGAAATCAAAAGTCGCCATCAAAGATCTG---------GTGCTTAACAAG---ACGAGT------------------TCCAGCTCT---AGAAGC------------ACTTCCTCCCCTTCA------GAATGT------GAAGTAGTATTG---------AAT---GGTGAGGCT---TTTGAAGATGGGAACTGCTTACCA---CACCCGGATTCG---AGAAAA---TCGTCGTCGATGAATGCC------------------------AAAAAATGT------------AAAGATCCAGCACAGAGGGCATCAAAGCTAGCTAAAGAGTCAAGGGCTAAGGCTAGAGCAAGGGCTAGAGAAAGAACAAAGGAGAAAATGTGCATCAAGAAGCTGAATGAATCA---AGAAAC---ATG---------------------------------------------------AACAAC---AATTTTTTT---------------------GCATCTGAT---------------------------------------AGTCACCCTGTTTTTCATTGCCCCATA---ACTAAT---GAAGCTACT---------------GCAACACATGAAGACCTAATTCAA---GAATCCAGTGTCATTAAAAGGATGCTGAGG---------CATCACCAGTCGTCGTTTTTCGGGTTT------------------------------------------CAATTCGGT---TTACCATCTCCT------------------------------------------------TATGTCAATGAGAACTGGGAT---GTTGGCAGCTTAACA---------------------------------------------------TCCCAATCCAAT---TTGTGTGACATTTTG------GATCAGCACAAATTCATA
+Streptocarpus_holstii_Gcyc1B        ATGCTAGGTTTCGACAAGCCGAGTAAGACACTCGACTGGCTGTTGACGAAATCAAAAGTCGCCATCAAAGATCTG---------GTTCTTACCAAT---AAGAGC------------------TCTAGCTCT---AGGAGC------------CCTTCCTCCCCTTCA------GAATGT------GAAGTTGCGTTG---------AAT---GATGAAGCT---TTTCAAGATGGGAGCTGCTTACTA---CCCCCAGATTCCAAGAGGAAT---TCGGCATCGACA------------------------------------------------GCTAGAGATCCAGCACAGAGTGCATCAACTCTAGCTAAAGAATCAAGGGCTAAGGCAAGAGCAAGGGCTAGGGAAAGAACAAAGGAGAAACTGTGCATCAAGAAGCTGAATGAATCC---AGAAAC---ATG---------------------------------------------------AACAAC---AATCTGTTT---------------------ACATCTAAC---------------------------------------AGCCAACCTGTTCTTCACTGCCCCATA---ACTAAT---GAAGCTACT---------------GCAACTCAACAAGACCTAATTCAA---GAATCCAGTGTCATTAAAAGGATGCTGAGG---------CACCACCAG---TCGTTTTTCGGGTTT------------------------------------------CATTGTGCCGCCCTACCGTCTCCT------------------------------------------------GATGTCAATGAGAACTGGGAT---GCTGGCAGCTTAACC---------------------------------------------------TCACAATCCAAC---TTGTGTGACATTTTG------GATCAGCACAAATTCATA
+Tetranema__mexicanum_Tcyc2          ATGCTAGGTTTCGACAAGCCAAGCAAAACCCTTGATTGGCTGCTCACGAAATCGAAGGCAGCCATTAAGGAGCTG---------GTGCAGTCCAAA------------------------------AGTGCT---AAAAGT---------GCGTCTTCTTCCCCATCT------GAATGTGAG---GAGGTGGTTTCTGCCGGAGGAAAT---GGGGAGGCT---TCTGAGAATGGGAACTATTTG------GGAGCAGATTCAAAAGGGAAA---TCGGTGCTGCTGAGCTCT------------------------AACAAATGCAAAGGA---GCAAAGGATTCACAGCAGGCTGCATTGAATCTTGCGAAAGAGTCGAGGGCAAAGGCAAGAGCAAGGGCCAGAGAAAGAACCAAGGAAAAAATGTGCATCAAGCAGCTCAATGAAGCC---AGAAAC---AAGGGTTCTTCAGAC---TGG---AATCCCTCCATCCTA---ATTCAGTCCAAGCACCATCAT---CAATTTGAAGTT------------TCAGGAAGCCGC------------------------------------------GAGCCGATCCTCCATTACCCCCTA---GCTTAT---GAA------------------GCTGCAACT---GAAGACCTAATTCATCATGAATCCATTATGATCAAGAGGAAGTTGAAG------------CACCCT---TCCATTTCTGCGCTTCATCAACAAAATCTC---AGCGGTTCGAGAAATTTGAATTCAAACTGCAGT---ATCCCTTCTGCT------------------------------------------------AGTGCCACTGAGAATTGGGAT---TATAGTAACTTTATC---------------------------------------------------GCACAGTCCAACCAGCTATGTGCCATTTTG------GATCAGCACAAATTCATA
+Titanotrichum_oldhamii_Gcyc1        ATGCTAGGTTTCGACAAGCCAAGTAAAACCCTTGAGTGGCTGCTCACGAAATCGAAAGCAGCCATTAAGGAGCTG---------GTGCAGACGAAG---AAAAGTACC------------AGTGCTAGTGCT---AAGAGC------------ATTTCTTCCCCTTCT------GAATGC------GAGGTAGTGTCTGCAGGA---CAT---GGTGAAACT---TTCGAAAATAGGAACTATTTA------GGAGCAGATTCAAAGAAGAAA---TCAGTACTGCTGAATTCT------------------------TACAAATGTAAAGAA---GCAAAAGATCCACAGCAGGCTGCATTAAATCTTGCTAAAGTATCAAGGGCTAAGGCAAGAGCAAGGGCTAGAGAAAGAACAAGAGAGAAAATGTGCATCAAAAAGCTTAACGAATCA---AGAAAC---ATGGGT---CCTGAT---TTG---AACCCA------------ATTCAGTCT---AGAAAC---AATCTATTTGAAGCTTGCAAATTA---TCTGCTTCTAAT---------------------------------------AGCGATCCTATCCTTCATTGTCCCTTA---ACTAAT---GTA------------GCCGCTGCAGCAACT---GAAGACCTAATTCAA---GAATCCATAGTCATCAAAAGGATGTTGAAG------------CACCCT---TCATTTTTTGGGTTT---CAGCAAAACCTT---ATCATTTCAAGAGATTTG------AACTGCAGT---ATCCCATCTCCT------------------------------------------------AACGTCAATGATAATTTCGAT---ATCAGTAGCTTAACC---------------------------------------------------TCACAATCCAAC---CTATGTGACATTTTG------GATCAGCACAAATTCATA
+;
+END;
+
+BEGIN CODONS;
+CODONPOSSET * CodonPositions (CHARACTERS = 'CYC_Table 2,3') = 
+		1: 1-1018\3,
+		2: 2-1019\3,
+		3: 3-1020\3;
+CODONPOSSET  CodonPositions (CHARACTERS = 'CYC_Table 2,3') = 
+		1: 1-1018\3,
+		2: 2-1019\3,
+		3: 3-1020\3;
+END;
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M690]
+
+	TITLE 'AtpB Table 2,3';
+	LINK TAXA = Taxa2;
+	DIMENSIONS NCHAR=946;
+	FORMAT DATATYPE=DNA SYMBOLS= "A C G T" MISSING=? GAP= -;
+
+MATRIX
+[                                      10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170       180       190       200       210       220       230       240       250       260       270       280       290       300       310       320       330       340       350       360       370       380       390       400       410       420       430       440       450       460       470       480       490       500       510       520       530       540       550       560       570       580       590       600       610       620       630       640       650       660       670       680       690       700       710       720       730       740       750       760       770       780       790       800       810       820       830       840       850       860       870       880       890       900       910       920       930       940         ]
+[                                       .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         ]
+Antirrhinum_majus              GTGAAAATTATCGAATTCAAAC------TAAATGTCTGATAGCACGTCGATCAGTTAATTCAATA-----AGAAATGGAAGTTAGCACTCGATT-TCGTTATCGTTGGTGCCATCCA-AT----CGAATCCAATTCAATTGTTTACTTATT-CAA----------------CAAGTGAATTTGCAAGCTCAACCAACCTG-----------TTTTGAAAGTAGCAAGTGGATGAATAAGGATCTTGAGAAAGTTTTTCATTTGTCTATCATTATA--------GACAATCCCATCTAT-------------ATTATATAAAAT-------------ATTTTATGGAATTCGAACCCAAACTCGATTTACA----------------TTACGATTAATTA-TTTC-----TATCGTATT------GGCTCTTC-TT-------ATTTTTT-------ATTT------CAGTCTATT------GATTTACGCCTATA-------GCCTGCCTATTT-TTTTCATTTTTTTT--------CTACCCTTT---CAT-------------------TTCATACACGAATTCCGACTATTTTCACATCTA--GGATTTACATATACAACATATATCACTGTCAAGAGGGAATTTCTTATTAGTTAGTTT----AGGTATTTCGATTTCAAAAAAAA----GGTCAAAAAAAAA---TGGGG--TTGCGCTATATATATGAAAGAGTATACAATAATGATGTGTTTGGTAAATCAAATACCATGGTCTAATAATCAAACATTCTGATTAGTTGATAATATTAGT-GTTA--------GTTGGGAAGTTTGTGAAAGATTCCTGTGAAAGGTTTCATTAACGCCTAATTCATTCGTGTCGAGTAGACCTTGTTATTGTCAGAATTCTTAATTCATGAGTTGTAGGGAGGGATTT
+Besleria_labiosa               GTGAAAATTATCGAATTCAAAA------TAAGTGTCCGATAGCATGTCAATGAGTTAATTCAATA-----AGAAATGGGAGTTAGCACTCGATT-TCGTT------GGTGCCATCCA-AT----CGAATCCAATTCAATTGTTTACTTATT-CAA----------------TGAGTGAATTTGCAAGCTCAACCAAGCTA-----------TTTTGAGAATTTCAAGTGTATGAATAAGGATCTTGAGAAAGTTTTTCATTTGTCTATCATTATA--------GACAATCCCATCTAT-------------ATTATATAAAAT-------------ATTCTATGGAATTCGAACCTGAACTCTATTTACA----------------TTACGATTCATTA-TTTCTATCTTATCTTATT------GGCTCTTC-TT-------ATTGTTT--TGTTTATTT------CAGCATATG------GATTTACGCCTATA-------GCCTATTCTTTT-----CGTTTTTTT---------ATACCCTTT---CAT-------------------TTCATAGGCGAATTCCGCCTATTTTCACATCTA--GGATTTACATATACAACATATATCACTGTCAAGAGGGAATTTATTATTAGTTAGGTT----TAGTATTTCGATTAAAAA-GA------GGTCAAAAATAAAAA-TGGGG--TTGCGCTATATATATGAAAGAGTATACAATAATGATGTGTTTGGTAAATCAAATACCATGGTCTAATAATCAAACATTCTGATTAGTTGATAATATTAGT-ATTA--------GTTGGGAAGTTTGTGAAAGATTCCTGTGAAAAGTTTCATTAACGCCTAATTCATTCTTGTCGAGTAGACCTTGTTGTTGTCAGAATTCTTAATTCATGAGTTGTAGGGAGGGATTT
+Calceolaria_arachnoidea        GTGAAAATTTGCGAATTCAAAATAAATATAAATGTCCGATAGCACGTCGATCAGTTAATTCAACA-----AGGAATGGGAGTTAGCACTTGATT-TCGTT------GGTGCCATCTA-AT----CGAATCCAATTCAATTGTTTACTTATT-CAA----------------TGAGTGAATTTGCAAGCTCAACCAAGCTA-----------TTTCAAAAATGTAAAGTGAATTAATAAAGATCTTGCGAAAGTTTTTCGTTTGTCTATCATTATA--------GACAATCCCGTTTAG-------------ATTATATAAAATATTCTATTAAAATATTCTATGGAATTAGAACCTGAACTCTATTTATA----------------TTACGATTCATTA-TTTC-----TATCTTATT------GGCTCTTC-TT-------ATTTTAT-------ATTT------CAGCATATG------GATTTACGCCTATT--------------CTTTT-----CGTTTTTTTTTTTT----ATACCCTTT---CAT-------------------TTCATAGACGAATTCCGCCTATTTTGACATCTATAGGATTTACATATACAACATATATCACTGTCAAGAGTTAATTTCTTATTAGTTAGGTT----CGGTATTTCGATTCCAAAAAA------GGTAAAAAATAAAAA-TGGGG--TTGCGCTATATATATGAAAGAGTATACAATAATGATGTGTTTGGTAAATCAAATACCATGGTCTAATAATCAAACATTCTGATTAGTTGATAATATTAGT-ATTA--------GTTGGGAAGTTTGTGAAAGATTCGTGTGAAAAGTTTCATTAACGCCTAATTCATTCGTGTCGAGTAGACCTTGTTGTTGTCAGAATTCTTAATTCATGAGTTGTAGGGAGGGATTT
+Chrysothemis_pulchella         GTGAAAATTATCGAATTCCAAA------TAAGTGTCTGATAGCACGTCGATCAGTTAATTCAATA-----AGAAATGGGAGTTAGCACTCGATT-TCGTT------GGTGCCATCCA-AT----CAACTCCAATTCAATTGTTTACTTATT-CAA----------------TGAGTGAATTTGCAAGCTCAACCAAGCTA-----------TTTTGAAAATTTCAAGTGTATGAATAAGGATCTTGAGAAAGTTTTTCATTTGTCTATCATTATA--------GACAATCCCATCTAT-------------ATTATATAAAAT-------------ATTCTATGGAATTCGAACCTGAACTCTATTTACA----------------TTACGATTCATTA-TTTC-----TATCTTATT------GGCTCTTC-TT-------ATTGTTT-------ATTT------CAGCATATG------GATTTACGCCTATA-------GCTTATTCTTTT-----CGTTTTTTT---------ATACCCTTT---CAT-------------------TTCATAGACGAATTCCGCCTATTTTCACATCTA--GGATTTACATATACAACATATATCACTGTCAAGAGGGAATTTATTATTAGCTAGGTT----AAGTATTTCGCTTAAAAAAAA------GGTCAAAAAGAAAAA-TGGGG--TTGCGCTGTATATATGAAAGAGTATACAATAATGATGTGTTTGGTAAATCAAATACCATGGTCTAATAATCAAACATTCTGATTAGTTGATAATATTAGT-ATTA--------GTTGGGAAGTTTGTGAAAGATTCCTGTGAAAAGTTTCATTAACGCCTAATTCATTCTTGTCGAGTAGACCTTGTTGTTGTCAGAATTCTTAATTCATGAGTTGTAGGGAGGGATTT
+Cyrtandra_apiculata            GTGAAAATTATCGAATTCAAAA------TAAGTGTCCGATAGCACGTCGATCAGTTAATTTAATA-----AGAAATGGGAGTTTGCACTCGATT-TCGTT------GGTGCTAGCCA-AT----CGACTACAATTCAATTGTTTACTTATTTCAA----------------GGAGTGAATTTACAAGCTCAATCAAGCTT-----------TTTTGAAAATCTCAAGGGTATGAATAAGGATCTTGAGAAAATTTTTCATTTGTATATCATTATA--------GACAATCCCATCTAT-------------ATTATAAAAAAT-------------AGTCTATGGAATTCGAACCTGAACTCTATTTACT------------------------CATTA-TTTC-----TATCTTATT------GGCTCTTC-TT-------ATTGTTT-------ATTT------CAGCATATC------GATTTACGACTATA-------GCCTATTCTTTT-----CGTTTGTTT---------ATACAGTTTT--TAT-------------------TTCATAGACGAATTCCGCCTATTTTCACATCTA--GGATTTACATATACAACATATATCACTGTCAAGAGAGAATTTATTATTAGTTAGGTT----AAGTATTTCGATTAAAAAAA-----------------------GGGGG--TTGCGCTATAGATATGAAAGAGTATACAATAATGATGTGTTTGGAAAATCAAAAACCATGGTCTAATAATCAAACATTCTGATTAGTTGATAATATTAGC-ATTA--------GTTGGGAAGTTTGTGAAAGATTCCTGTGAAAAGTTTCATTAACGCCTAATTCATTCTTGTCGAGTAGACCTTGTTGTTGTCAGAATTCTTAATTCATGAGTTGTAGGGAGGTATTT
+Didymocarpus_citrinus          GTGAAAATTATCGAATACAAAA------TAAGTGTCCGATAGCACGTCGATCAGTTAATTTAATA-----AGAAATGGGAGGTAGCACTCGATT-TCGTT------GGTGCTATCCA-AT----CGAATGCAATTCAATTGTTGACTTATTTCAA----------------GGAGTGAATTTACAAGCTCAATCAAGCTT-----------TTTTGAAAATCTCAAGGGTATGAATAAGGATCTTGAGAAAATTTTTCATTTGTATATCATTATA--------GACAATCCCATCGAT-------------ATTATATAAAAT-------------AGTCTATGGAATTCGAACCTGAACTCTATTTACTCATTATTT-CTATCTT-----ATTCATTA-TTTC-----TATCTTAGT------GGCTCTTC-TT-------ATTGTTT-------ATTT------CAGCATATC------GATTTTCGACTATA-------GCCTATTCTTTT-----CGTTTGTTT---------ATACAGTTTT--CAT-------------------TTCATAGACGAATTCCGCCTATTTTCACATCTA--AGATTTACATATACAACATATATCACTGTCAAGAGAGAATTTATTATTAGTTAGGTT----AAGTATTTCGATTAAAAAAA-----------------------GGGGG--TTGCGCTATAGATATGAAAGAGTATACAATAATGATGTGTTTGGTAAATCAAAAACCATGGTCTAATAATCAAACATTCTGATTAGTTGATAATATTAGC-ATTA--------GTTGGGAAGTTTGTGAAAGATTCCTGTGAAAAGTTTCATTAACGCCTAATTCATTCTTGTCGAGTAGACCTTGTTGTTGTCAGAATTCTTAATTCATGAGTTGTAGGGAGGTATTT
+Epithema_benthamii             GTGAAAATTATCGAATTCAAAATAAAATTAAGTGGCCAATAGCACGTCGATCAGTTAATTCAATA----AAATAATGGGAGTTAGTACTCGATTGTTGTT------GGTGCTATCCATAT----CCAATCAAATTCAATTGTTTACTTATT-CAA----------------TGAGTTAATTTGAAAGCTCAACCAACCAA-----------TTTTGGAAATTTCAAGTGTATGCATAAGGATCTTGAGAAAGTTTGTCATTTGTCTATTATTATAGAAT---AGACAATCCCATTTTT-----------TTTTATAATAGAATATTTTATATTTTATTTTTATGGAATTCGAACCTGAACTCTATTTACA---------TTACG--TTACGATTTATTA-TTTT-----TATCTTATT------TGCTCTTC-TT-------AATTGTTCTTGTTTATTT------CAGCATATGGATATGGATTTACGCCTATAGCC---AGCCTAT-CTT-------CGTTT{AT}C?T?????????CTACCCTTT---CAT-------------------TTCAT-GACGAATTCTGCCTATTTTCACATCTA--GGATTTACATATACAACATATACCACTGTCAAGAGGGAATTTCTTATTCGTTAGGTT----AAGTATTTCGATTAAAAATAAAAAAA-GGTCAAAAAGAAAAA-TGGGG--TTGCGCTATAGATATGAACGGGTATACAATAATGATGTGTTTGGGAAATCAAATAGCATGGTCTAATAATCAAACATTCTGATTAGTTGATAATATTAGT-ATTGGAGTATTAGTTGGGAAGTTTGTGAAAGATTCCTATGAAAAGTTTCATTAACGCCTAATTCATTCTTTTCGAGTAGACCTTGTTGTTGTCAGAATTCTTAATTCATGAGTTGTAGGGAGGGATTT
+Epithema_taiwanense            GTGAAAA?TCTCGAGTTCAAAATAAAATTAAGTGG?CAATAGCACGTCGATCAGTTAATTCAATA-----AAAAATGGGAGTTAGCACTCGATT-TTGTT------GGTGCTATCCA-AT----CCAATCAAATTCAATTGTTTACTTATT-CAA----------------TGAGTGAATTTGAAAGCTCAACCAACCTA-----------TTTAGGAAATTTCAAGTG?ATG?AT??GGATCTTAAGAAAGTTTGTCTTTAGTCTATTATTATTCAAT?ATAGACAATCCCTTTTATTATATTATATTAAATTATATAAAATAT--------AATATTCTATGGAATTCGAACCTGAACTCTATTTACA---------TTACG--TTACGATTCATTA-TTTT-----T--------------TGCTCTTC-TT-------AATTGTT----ATTGTTT------CAGCATATGGATATGGATTTACGGCTATAGCC---AGCCTATTCTTTT-----CGTTTTTT----------CTACCCTTT---CAT-------------------TTCAT-GACGAATTCTGCCTATTTTCACATCTA--GGATTTACATATACAACATATACCACTGTCAAGAGGGAATTTCTTATTCGTTAGGTT----AAGTATTTCGATTAAAAATAAAAAAA-GGTCAAAAAGAAAAA-TGGGG--TTGCGCTATAGATATGAACGGGTATACAATAATGATGTGTTTGGGAAATCAAATAGCATGGTCTAATAATCAAACATTCTGATTAGTTGATAATATTAGT-ATTGGAGTATTAGTTGGGAAGTTTGTGAAAGATTCCTATGAAAAGTTTCATTAACGCCTAATTCATTCTTTTCGAGTAGACCTTGTTGTTGTCAGAATTCTTAATTCATGAGTTGTAGGGAGGGATTT
+Fieldia_australis              GTGAAAATTATCGAATTCAAAA------TAAGTGTCCGATAGCACGTCGATCAGTTAATTCAATA-----AGAAATGGGAGTTAGCACTCGATT-TCGTT------GGTGCCATCCA-AT----CGAATCCAATTCAATTGTTTACTTATG-AAA----------------TGAGTGAATTTGCAAGCTCAACCAAGCTA-----------TTTTGAAAATTTCAAGTGTATGAATAAGGATCTTGATAAAGTTTTTCATTTGTCTATCATTATA--------GACAATCCCATCTAT-------------ATTATAGAAAAT-------------ATTCTATTATATTCGAACCTGAACTCTATTTACA----------------TTACGATTCATTA-TTTC-----TATCTTATT------GGCTCTTC-TT-------ATTGCTT-------ATTT------CAGCATATG------GATTTACGCCTATA-------GCCTATGATTTT-----CGTTTTTTT---------ATACCC------CAT------------------------AGACGAATTCCGCCTATTTTCACATCTA--GGATTTACATATACAACATATATCACTGTCAAGAGGGAATTTCTTATTAGTTAGGTT----AAGTATTTCGATTCAAAAAAA------GTTCAAAAAGAAAAA-GGGGG--TTGCGCTATATATATGAAAGAGTATACAATAATGATGTGTTTGGTAAATCAAATACCATGGTCTAAGAATCAAACATTCTGATTAGTTGATAATATTAGT-ATTA--------GTTGGGAAGTTTGTGAAAGATTCCTGTGAAAAGTTTCATTAACGCCTAATTGATTCTTGTCGAGTAGACCTTGTTGTTGTCAGAATTCTTAATTCATGAGTTGTAGGGAGGGATTT
+Gesneria_humilis               GTGAAAATCATCGAATTCCAAA------TAAGTGTCCGATAGCACGTCGATCAGTTAATTCAATA-----AGAAATGGGAGTTAGCACTCGATT-TCGTT------GGTGCCATCCA-AT----CAACTCCAATTCAATTGTTTACTTATT-CAA----------------TGAGGGAATTTGCAAGCTCAACCAAGCTA-----------TTTTGAAAATTTCAAGTGGATGAATAAGGATCTTGAGAAAGTTTTTCATTTGTCTATCATTATA--------GACAATCCCATCTAT-------------ATTATATAAAAT-------------ATTGTATGGAATTCGAACCTGAACTCTATTTACA----------------TTACGATTCATTA-TTTC-----TATCTTATT------GGCTCTTC-TT-------ATTGTTT-------ATTT------CAGCATATG------GATTTACGCCTATA-------GCTTATTCTTTT-----CGTTTTTTG---------ATACCCTTT---CAT-------------------TTCATAGACGAATTCCGCCTATTTTCACATCTA--GGATTTACATATCCAACATATATCACTGTCAAGAGGGAATTTCTTATTAGCTAGGTT----AAGTATTTCGCTTAAAAAAAAA-----GGTCAAAAA{GT}AAAAA-TGGGG--TTGCGCTATATATATGAAAGAGTATACAATAATGATGTGTTTGGTAAATCAAATACCATGGTCTAATAATCAAACATTCTGATTAGTTGATAATATTAGT-ATTA--------GTTGGGAAGTTTGTGAAAGATTCCTGTGAAAAGTTTCATTAACGCCTAATTCATTCTTGTCGAGTAGACCTTGTTGTTGTCAGAATTCTTAATTCATGAGTTGTAGGGAGGGATTT
+Jovellana_punctata             GTGAAAATTTGCGAATTCAAAA------TAAATGTCCGATAGCACGTCGATCAGTTAATTCAACA-----AGGAATGGGAGTTAGCACTCGATT-TCGTT------GGTGCCATCCA-AT----CGAATCCAATTCAATTGTTTACTTATT-CAA----------------TGAGTGAATTTGCAAGCTCAACCAAGCTA-----------TTTCAAAAATGTAAAGTGAATGAATAAAGATCTTGAGAAAGTTTTTCGTTTGTCTATCATTATA--------GACAATCCCATTTAG-------------ATTATATAAAAT-------------ATTCTATGGAATTAGAACCTGAACTCTATTTATA----------------TTACGATTCATTA-TTTC-----TATCTTATT------GGCTCTTC-TT-------ATTTTTT-------ATTT------CAGCATATG------GATTTACGCCTATT--------------CTTTT-----CGTTTTTTTTTTTTTTT-ATACCCTTT---CAT-------------------TTCATAGACGAATTCCGCCTATTTTCACATCTATAGGATTTACATATACAACATATATCACTGTCAAGAGTGAATTTCTTATTAGTTAGGTT----AGGTATTTCGATTCCAAAAAA------GGTAAAAAAGAAAAA-TGGGG--TTGCGCTATATATATGAAAGAGTATACAATAATGATGTGTTTGGTAAATCAAATACCATGGTCTAATAATCAAACATTCTGATTAGTTGATAATATTAGT-ATTA--------GTTGGGAAGTTTGTGAAAGATTCGTGTGAAAAGTTTCATTAACGCCTAATTCATTCGTGTCGAGTAGACCTTGTTGTTGTCAGAATTCTTAATTCATGAGTTGTAGGGAGGGATTT
+Kohleria_eriantha              GTGAAAATTATCGAATTCCAAA------TAAGTGTCCGATAGCACGTCGATCGGTTAATTCAATA-----AGAAATGGGAGTTAGCACTAGATT-TCGTT------GGTGCCATCCA-AT----CAACTCCAATTCAATTGTTTACTTATT-CAA----------------TGAGTGAATTTGCAAGCTCAACCAAGCTA-----------TTTTGAAAATTTCAAGTGTATGAATAAGGATCTTGAGAAAGTTTTTCATTTGTCTATCATTATA--------GACAATCCTATCTAT-------------ATTATATAAACT-------------ATTCTACGGAATTCGAACCTGAACTCTATTTACA----------------TTACGATTCATTA-TTTC-----TATCTTATT------GGCTCTTC-TT-------ATTGTTT-------ATTT------CAGCATATG------GATTTACGCCTATA-------GCTTATTCTTTT-----CGTTTTTTT---------ATACCCTTT---CAT-------------------TTCATAGACGAATTCCGCCTTTTTTCACATCTA--GGATTTACATATACAACATATATCACTGTCAAGAGGGAATTTATTATTAGCTAGGTT----AAGTATTTCGCTTAAAAAAAAA-----GGTCAAAAAGAAAAA-TGGGG--TTGCGCTATATATATGAAAGAGTATACAATAATGATGTGTTTGGTAAATCAAATACCATGGTCTAATAATCAAACATTCTGATTAGTTGATAATATTAGT-ATTA--------GTTGGGAAGTTTGTGAAAGATTCCTGTGAAAAGTTTCATTAACGCCTAATTCATTCTTGTCGAGTAGACCTTGTTGTTGTCAGAATTCTTAATTCATGAGTTGTAGGGAGGGATTT
+Loxostigma_sp.                 GTGAAAATTATCGAATTCAAAA------TAAGTGTCCGATAGCACATCGATCAGTTAATTTAATA-----AGAAATGGGAGTTAGCACTCGATT-TCGTT------GGTACTATCCA-AT----CGAATACAATTCGATTGTTTACTTATTTCAA----------------GGAGTGAATTTACAAGCGCAATCAAGCTT-----------TTTTGAAAATCTCAAGGGTATGAATAAGGATCTTGAGAAAATTTTTCATTTGTATATCATTATA--------GACAATCCCATCTAT-------------ATTATATAAAAT-------------AGTCTATGGAATTCGAACCTGAACTCTATTTACTCATTATTT-CTATCTT-----ATTCATTA-TTTC-----TATCTTATT------GGCTCTTC-TT-------ATTGTTT-------ATTT------CAGCATATC------GATTTACGACTACAGCCTATAGCCTATTCTTTTCTTTTCGTTTGTTT---------ATACAGTTTT--CAT-------------------TTCATAGACGAATTCCGCCTATTTTCACATCTA--GGATTTACATATACAACATATATCACTGTCAAGAGAGAATTTCTTATTAGTTAGGTT----AAGTATTTCGATTAAAAAAAA----------------------GGGGGG-TTGCGCTATAGATATGAAAGAGTATACAATAATGATGTGTTTGGTAAATCAAAAACCATGGTCTAATAATCAAACATTCTGATTAGTTGATAATATTAGC-ATTA--------GTTGGGAAGTTTGTGAAAGATTCCTGTGAAAAGTTTCATTAACGCCTAATTCATTCTTGTCGAGTAGACCTTGTTGTTGTCAGAATTCTTAATTCATGAGTTGTAGGGAGGTATTT
+Mitraria_coccinea              GTGAAAATTATCGAATTCCAAA------TAAGTGTCCGATAGCACGTCGATCAGTTAATTCAATA-----AGAAAAGGGAGTTAGCACTAGATT-TCGTT------GGTGCCATCCA-AT----CAACTCCAATTCAATTGTTTACTTATT-CAA----------------TGAGTGAATTTGCAAGCTCAACCAAGCTA-----------TTTTAAAAATTTCAAGTGTATGAATAAGGATCTTGAGAAAGTTTTTCATTTGTCTATCATTATA--------GACAATCCCATCTAT-------------ATTATATAAAAT-------------ATTCTATGGAATTCGAACCTGAACTCTATTTACA----------------TTACGATTCATTA-TTTC-----TATCTTATT------GGCTCTTC-TT-------ATTGTTT-------ATTT------CAGCATATG------GATTTACGCCTATA-------GCTTATTCTTTT-----CGTTTTTTT---------ATACCCTTT---CAT-------------------TTCATAGACGAATTCCGCCTTTTTTCACATCTA--GGATTTACATATACAACATATATCACTGTCAAGAGGGAATTTATTATTAGCTAGGTT----AAGTATTTCGCTTAAAAAAAA------GGTCAAAAATAAAAA-TGGGG--TTGCGCTATATATATGAAAGAGTATACAATAATGATGTGTTTGGTAAATCAAATACCATGGTCTAATAATCAAACATTCTGATTAGTTGATAATATTAGT-ATTA--------GTTGGGAAGTTTGTGAAAGATTCCTGTGAAAAGTTTCATTAACGCCTAATTCATTCTTGTCGAGTAGACCTTGTTGTTGTCAGAATTCTTAATTCATGAGTTGTAGGGAGGGATTT
+Napeanthus_reitzii             GTGAAAATTATCGAATTCAAAAAAAAA-TAAGTGTCCGATAGCACGTCGATCGGTTAATTCAATA-----AGAAATGGGAATTAGGACTCGATT-TCGTT------GGTGCCATCCA-AT----CGAATCCAATTCAATTGTTTACTTATT-CAA----------------TGAGTGAATTTGAAAGCTCAACCAAGCTA-----------TTTTGAAAATCTCAAGTGTATTAATAAGGATCTTGAGAAAGTTTTTCATTTGTCTATCATTATA--------GACAATCCCATCTAT-------------ATTATATAAAAT-------------ATTCTATGGAATTCGAACCTGAACTCTATTTTCA----------------TTACGATTCATTA-TTTC-----TATCTTATT------GGTTCTTC-TT-------ATTGTTT-------ATTT------CAGCATATG------GATTTACGCCTATA-------GCCTATTCTTTT-----CGTTTTTTT---------ATACCCGTT---CAG-------------------TTCATAGACGAATTCCGCCTATTTTCACATCTA--GGATTTACATATACAACATATATCACTGTCAAGAGGGAATTTTTTATTAGTTAGGTT----AAGTATTTCGATTAAAAAAAG------GGTCAAAAAGAAAAAATGGGG--TTGCGCTATATATATGAAAGAGTATACAATAATGATGTGTTTGGTAAATCAAATACCATG-TCTAATAATAAAACATTCTGATTAGTTGATAATATTAGT-ATTA--------GTTAGGAAGTTTGTGAAAGATTCCTGTGAAAAGTTTCATTAACGC?TAATTCATTCTTGTCGAGTAGACCTTGTTGTTGTCAGAATTCTTAATTCATGAGTTGTAGGGAGGGATTT
+Nicotiana_tabacum              GCAAAAATTATCGAATTCAAAA------TAAATGTCCGCTAGCACGTCGATCGGTTAATTCAATA-------AAATGGGAATTAGCACTCGATT-TCGTT------GGCACCATGCA-AT----TGAA-CCGATTCAATTGTTTACTTATT-CACTGAGAC----------TGAGTGAATTTGCAAGCCCACCCAACCTATTTT---AA--TTTT-AAAATCTCAAGTGGATGAATCAGAATCTTGAGAAAGTCTTTCATTTGTCTATCATTATA--------GACAATCCCATCCAT-------------ATTATCT------------------ATTCTATGGAATTCGAACCTGAACTTTATTTTCT---------ATTTCTATTACGATTCATTA-TTTG-----TATCTAATT------GGCTCCTC-TTCTTATTTATTTTTG-------ATTTCAATTTCAGCATATC------GATTTATGCCTA---------GCCTATTCTTTTCTTTGTGTTTTTCTTTCTTTTTTATA-CCTTT---CAT----------------AGATTCATAGAGGAATTCCGTATATTTTCACATCTA--GGATTTACATATACAACATATACCACTGTCAAGGGGGAAGTTCTTATTATTTAGGTTAGTCAGGTATTTCCATTTCAAAAAAAAAAAAAGTAAAAAAGAAAAA-TTGGG--TTGCGCTATATATATGAAAGAGTATACAATAATGATGTATTTGGCAAATCAAATACCATGGTCTAATAATCAAACATTCTGATTAGTTGATAATATTAGT-ATTA--------GTTGGAAATTTTGTGAAAGATTCCTATGAAAAGTTTCATTAACACGGAATT----CGTGTCGAGTAGACCTTGTTGTTGTGAGAATTCTTAATTCATGAGTTGTAGGGAGGGATTT
+Paulownia_tomentosa            ??????????TCGAATTCAAAA------TAAATGTCCGATAGCACATCGATCAGTTAATTCAATA-----AGAAATGGGAGTTAGCACTCGATT-TCGTT------GGTGCCATCCA-AT----CGAATCCAATTCAATTGTTTACTTATT-CAATTTTATTCAATTTCAATGAGTGAATTTGCAAGCTCAACCAAGCTA-----------TTTTGAAAATTTCAAGTGGATGAATAAGGATCTTGAGAAAGTTTTTCATTTGTCTATCATTATA--------GACAATCCCATCTAT-------------ATTATATAAAAT-------------ATTCTATGGAATTCGAACCCGAACTCTATTTACA----------------TTACGATTCATTA-TTTC-----TATCTTATT------GGCTCTTC-TT-------AGTTTTT-------ATTT------CAGCATATTCTATT-GATTTACGCCTATA-------GCCTATTCTTTT-----CGTTTTTTT---------ATACCCTTT---CAT-------------------TTCATAGATGAATTACGCCTATTTTCACATCTA--GGATTTACATATACAACATATACCACTGTCAAGAGGGAATTTCTTATTAGTTAGGTT----AGGTATTTCGATTCCAAAAAA------GGTCAAAAAGAAAAA-TGGGG--TTGCGTTATATATATGAAAGAGTATACAATAATGATGTGTTTGGTAAATCAAATACCATGGTCTAATAATCAAACATTCTGATTAGTTGATAATATTAGT---------------TGGGAAGTTTGTGAAAGATTCCTGTGAAAGGTTTCATTAACGCCTAATTCATTCGTGTCGAGTAGACCTTGTTGTTGTCAGAATTCTTAATTCATGAGTTGTAGGGAGGGATTT
+Peltanthera_floribunda         GTGAAAATTATCGAATTCAAAA------TAAATGTCCGATAACACGCCGATCAGTTAATTCAATA-----AGAAATGGGAGTTAGCACTCGATT-TCGTT------GGTGCCATCCA-AT----CGAATCCAATTCAATTGTTTACTTATT-CAA----------------TGAATGAATTTGCAAACTCAATCAAGCTA-----------TTTTGAAAATTTCAAGTGGATGAATAGGGATCTTGAGAAAGTTTTTCATTTGGCTATCATTATA--------GCCAATCCCATCTAT-------------ATTATATAAAAT-------------ATTCTATGGAATTCGAACCTGAACTCTATTTACA----------------TTACGATTCATTA-TTTC-----TATCTTATT------GGCTCTTC-TT-------ATTTTTTATT-ATTATTT------CAGCATATG------GATTTACGCCTATA-------GCCTATTCTTTT-----CGTTTTTTT---------ATACCCTTT---CAT-------------------TTCATAGATGAATTCCGCCTATTTTCACATCTA--GGATTTACATATACAACATAGATCACTGTCAAGAGGGAATTTCTTATTAGTTAGGTT----AGGTATTTCGATTCCAAAAGA------GGTCAAAAATAAAAA-TGGGG--TTGCGCTATATATATGAAAGAGTATACAATAATGATGTGTTTGGTAAATCAAATACCATGGTCTAATAATCAAACATTCTGATTAGTTGATAATATTAGT-ATTA--------GTTGGGAAGTTTGTGAACGATTCCTGTGAAAAGTTTCATTAACGCCTAATTCATTCGTGTCGAGTAGACCTTGTTGTTGTCAGAATTCTTAATTCATGAGTTGTAGGGAGGGATTT
+Ramonda_myconi                 GTGAAAATTATCGAATTCAAAAT-----TTAGTGTCCGATAGCACGTCGATCAGTTAATTCAATTCAATAAGAAATGGGAGTTAGCACTCGATT-TCGTT------GGTGCTATCCA-AT----CGAATCCAATTCAATTGTTTACTTATTTCAA----------------GGAGTTAATTTACAAGCTCAACCAAGCTT-----------TTTTGAAAATCTCAAGGGTATGAATAAGGATCTTGAGAAAGTTTTTCATTTGTCTATCATTATA--------GACAATCTCATATATAATATAT------ATTATATAAAAT-------------ATTCTATGGAATTCGAACCTGAACTCTATTTACA----------------TTACGATTCATTA-TTTC-----TATCTTATT------GGCTCTTC-TT-------ATTGTTT-------ATTT------CAGCATATC------GATTTACGACTATA-------GCCTATTCTTTT-----CGTTTTTTT---------ATAC-GTTTT--CAT-------------------TTCATAGACGAATTCCGCCTATTTTCACATCTA--GGATTTACATATACAACATATATCACTGTCAAGAGAGAATTTATTATTAGTTAGGCT----AAGTATTTCGATTAAAAAAAA----------------------TGGGG--TTGCGCTATAGATATGAAAGAGTATACAATAATGATGTGTTTGGTAAATCAAAAACCATGGTCTAATAATCAAACATTCTGATTAGTTGATAATATTAGC-ATTA--------GTTGGGAAGTTTGTGAAAGATTCCTGTGAAAAGTTTCATTAACGCCTAATTCATTCTTGTCGAGTAGACCTTGTTGTTGTCAGAATTCTTAATTCATGAGTTGTAGGGAGGGATTT
+Rehmannia_glutinosa            GTGAAAATTATCGAATTAAAAA------TAAATGTCCGATAGCACGTTGATCAGTTAATTCAATA-----AAAAATGGGAATTAGCACTCGATT-T----------------------------CGAATCCAATTCAATTGTTTACTTATT-CAA----------------TGAGGGAATTTGCAAGCTCAACCAAGCTA-----------TTTTAAAAATTTCAAGGGGATGAATAAGGATCTTGAGAAAGTTTTTCATTTGTCTATCATTATA--------GACAATCCCGTCTAT-------------ATTATAGAAAAT-------------ATTCTATGGAATTCGAACCCGAACTCTATTTACA----------------TTACGATTCATTA-TTTC-----TATCTTATT------GGCTCTTC-TT-------ATTTTTG-------ATTT------CAGCATATT------GATTTATACATATA-------GCCTATTCTTTT-----CGGTTTTTT---------ATACCCTTT---CGT-------------------TTCAGAGATGAATTGCGCCTATTTTCACATCTA--GGATTTACATATACAACATATACCACTGTCAAGGGGGAATTTCTTATTAGTTAGGTT----AGGTATTTTGATTCCAAAAA-------GGTCAAAAATAAAAA-TGGGG--TTGCGCTATATATATGAAAGAGTATACAATAATGATGTGTTTGGTAAATCAAATACCATGGTCTAAGAATCAAACATTCTGATTAGTTGATAATATTAGT-ATTA--------GTTGGGAAGTTTGTGAAAGATTCCTGTGAAAGGTTTCATTAACGCCTAATTCATTCGTGTCGAGTAGACCTTGTTGTTGTCAGAATTCTTAATTCATGAGTTGTAGGGAGGGATTT
+Rhynchoglossum_hologlossum     GTGAAAATTATCGAATTCAAAAT-----AAAGTGTCCAAGAGCACATCGATCAGTTAATTCGCTA-----AGAAATGGAAGTTAGCACTCGATT-TTGTT------GGTGCTGT----------TGAATCCAATTTAATTGTTTACTTATT-CAA----------------TGAGTGAATTTGAAAGTTCGACGAAGCTA-----------TTTTGAAAATTGCAAGTGTCTGAATAGGGATCTTGATAAAGTTTTTCATTTGTCTATCATTATA--------GACAATCCCTTATAT-------------ATTATATAAAAT-------------CATATATGGAATTCGAACCCGAACTCTATTTAGA----------------TTACGATTCCATA-TTTC-----TATCTTATT------GGCTCTTCATT-------ATTGTTT-------ATTT------CAACATATG------GATTTACGTCTCTAACCTA-AGCCTATTCTTTT-----CGTTTTTTT---------ATACCCT---------------------------TTCATAGAGGAATTCCGCCTATTTTCACATCTA--GGATTTACATATACAACATATATCACTGTCAAGAGGGAATTTTTTATTAGTTAGGTT----AAATATTTTGATGAAAAAAAAAAA------------GAAC---TGGGG--TTGCGCTATATATAGGAAAGGGTATACAATAATGATGTGTTTGGTAAATCAAATGGCATGGTCTAATAATCAAACATTCTGAGTAGTTGATAATATTAGTAATTAATACTG--GTTGGGAAGTTTGTGAAAGATTCCTATGAAAAGTTTCATTAACGCCCAATTCATTCTTGTCGAGTAGACCTTGTTGTTGTCAGAATTCTTAATTCATGAGTTGTAGGGAGGGATTT
+Schizanthus_x_wisetonensis     ???????GTATCTAATTAAAAA------GAAATGTCCGCTAGCACGTCGATCGGTTAATTCAATA-------AAATGGGAATTAGCACTCGATT-TCGTT------GGCACCATGCA-AT----TGAA-CCAATTAAATTGTTTACTTATT-TAATGAGAC----------TGAGTGAATTTGCAAGCTCACCCAATTGATTTTTTTACCTTTTTTTTGATCTCAAGTGGATGAATTAGAATCTTGATAAAGTCTTTCATTTGTCTATCATT-----------------CCCATCCAT-------------ATTATAT-------------------------GGAATTCGAACCTGAACTTTATTTTCAATATTTTCCATTTCTATTACGATTCATTA-TTTG-----TATCTAATT------AGCTCTTC-TT-------ATTTTTT-------TTTT------CAGCATATC------GATTTAT--------------GCCTAGCCTATTCTTTGCGTTTTTCTGTCTTTTTTATA-CCTTT---CAT----------------AGATTCATAGAGGAATGCCGTAGATTTTCACATCTA--GGATTTACATATACAACATATACCACTGTCAAGGGAGAATTTTTTATTATTTAGGTTAGTTAGGTATTTCCATTTCAAAAAAAA----GGTAAAAAATCAA---TTGGG--TTGCGCTATATATATGAAAGAGTATACAATAATGATGTATTTGGCAAATAAAATACCATGGTCTAATAATCAAACATTCTGATTAGTTGATAATATTAGT-ATTA--------GTTAGCAATTTTGTGAAAGATTCCTGTGAAAAG---------CGCCGAATT----CGTGTCGAGTAGACCTTGTTGTTGTGAGAATTCTTAATTCATGAGTTGTAGGGAGGGATTT
+Scrophularia_canina            GTGAAAATTATCAAATTCAAAA------TAAAGGTCCGATAGCACGTCGATCAGTTAATTCAATA-----AGAAATGGGAGTTAGCACTCGATT-TCGTT------GGTACCATCCA-AT----CGAATCCAATTCAATTGTTTACTTATT-CAA----------------TGAATGAATTTGCAAGCTCAACCAAGCTA-----------GTTTGAAAATTTCAAGTGGATGAATAAGGATCTTGAGAAAGTTTTTCATTTGTCTATCATTATA--------GACAATCCCATCTAT-------------ATTATATAAAAT-------------ATTCTATTGAATTCGAACCCGAACTATATTTACA----------------TTACGATTCGTTA-TTTC-----TATCTTATT------GGCTCTTC-TT-------CTTTTTT-------ATTT------CAGCATATT------GGTTTACGCATATA-------GCCTATTTTTTT-----CGTTTTTT----------ATACACTTT---CAT-------------------TTCATAGACGAATTCCGCCTATTTTCACATCTA--GGATTTACATATACAACATATACCACTGTCAAGAGGGAATTTCTTATTCGTTAGGTT----AGGTATTTTGATTTCAAAAAA------GGTCAAAAAGAAAAA-TGGGG--TTGCGCTATATATATGAAAGAGTATACAATAATGATGTGTTTGGTAAATCAAATACCATGGTCTAATAATCAAACATTCTGATTAGTTGATAATATTAGT-ATTA--------GTTGGGAAGTTTGTGAAAGATTCCTGTGAAAAGTTTCACTAACGCCTAATTCATTCGTGTCGAGTAGACCTTGTTGTTGTCAGAATTCTTAATTCATGAGTTATAGGGAGGGATTT
+Sinningia_schiffneri           GTGAAAATTCTCGAATTCCAAA------TAAGTGTCCGATAGCACGTCGATCAGTTAATTCAATA-----AGAAATGGGAGTTAGCACTCGATT-TCGTT------GGTGCCATCCA-ATCAACCAACTCCAATTCAATTGTTTACTTATT-CAA----------------TCAGTGAATTTGCAAGCTCAACCAAGCTA-----------TTTTGAGAATTTCAAGTGTATGAATAAGGATCTTGAGAAAGTTTTTCATTTGTCTATCATTATA--------GACAATCCCATCTAT-------------ATTATATAAAAT-------------ATTCTATGGAATTCGAACCTGAACTCTATTTACA----------------TTACGATTCATTA-TTTC-----TATCTTATT------GGCTCTTC-TT-------ATTGTTT-------ATTT------CAGCATATG------GATTTAGGCCTATA-------GCTTATTCTTTT-----CGTTTTTTT---------ATACCCTTT---CAT-------------------TTCATAGACGAATTCCGCCTATTTTCACATCTA--GGATTTACATATACAACGTATATCACTGTCAAGAGGGAATTTATTATTAGCTAGGTT----AAGTATTTCGCTTAAAAAAGA------GGTCAAAAAGAAAAA-TGGGG--TTGCGCTATATATATGAAAGAGTATACAATAATGATGTGTTTGGTAAATCAAATACCATGGTCTAATAATCAAACATTCTGATTAGTTGATAATATTAGT-ATTA--------GTTGGGAAGTTTGTGAAAGATTCCTGTGAAAAGTTTCATTAACGCCTAATTCGTTCTTGTCGAGTAGACCTTGTTGTTGTCAGAATTCTTAATTCATGAGTTGTAGGGAGGGATTT
+Streptocarpus_holstii          GTGAAAATTTTCGAATTTAAAA------TAAGTGTCCGATAGCACGTCGATCAGTTAATTTAATA-----AGAAATGGGAGTTAGCACTCGATT-TCGTT------GGTGCTATCCA-AT----CGAATCCAATTCAATTGTTTACTTATTTGAA----------------GGAGTTAATTTACAAGCTCAACCAAGCTT-----------TTTTGAAAATCCCAAGGG--------AGGATCTTGAGAAAATTTTTCATTTGTCTATCATTATA--------GAAAATCCCATCTAT-------------ATTATATAAAAT-------------AGTCTATGGAATTCGAACCTGAACTATATTTACA----------------TTACGATTCATTA-TTTC-----TATCTTATT------GGCTCTTC-TT-------ATTGTTT-------ATTT------CAGCATATC------GATTTACGACTATA-------GCCTATATTTT-----------GTTT---------ATAC-GTTTT--CAT------------------------AGACGAATTCCGCCTATTTTCACATCTA--GGATTTACATATACAACATATATCACTGTCAAGAGATAATTTCTTATTAGTTAACTT----AAATATTTCAATAAAAAAAAAA---------------------GGGGGGGTTGCGCTATAGATATGAAAGAATATAGAATAATGATGTGTTTGGTAAATCAAAAACCAAGGTCTAATAATCAAACATTCTGATTAGTTGCTAATATTAGC-ATTA--------GTTGGGGAGTTTGTAAAAGATTCCTGTGAAAAGTTTCATTAACGCCTAATTCATTCTTGTCGAGTAGACCTTGTTGTTGTCAGAATTCTTAATTCATGAGTTGTAGGGAGGTTTTT
+Tetranema_mexicana             GTGAAAATTATCGAATTCAAAA------GAAATGTCTGATAGCACGTCGATCAGTTAATTCAATA-----AGAAATGGGAGTTAGTACTCAATT-TCGTT------GGTGCCATCCA-AT----CGAATCCAATTCAATTGTTTACTTATT-TAA----------------TAAGTGAATTTGAAAGCTCAACCAAGCTA-----------TTTTGAAAACGTCAAGTGGAT-------GATCTTGAGAAAGTTTTTGATTTGTCTATCATTATA--------GACAATCCCATCTAT-------------ATTATATAAAAT-------------ATTCTATGGAATTCGAACCCGAACTCTATTTACA----------------TTACGATTCATTA-TTTC-----TATCTTATTCTTATTGGCTCTTCGT--------ATTTTTT-------ATTT------CAGCATATT------GATTTACGCCTATA-------GCCTATTCTTTT-----CGTTTTTTT---------ATATCTTTT---CGTTTTTTTTATACCCTTTCATTTCCTAGACGAATTCCGCCTATTTTCACATCTA--GGATTTACATATACAACATATACCACTGTCAAGAGGGAATTTCTTATTAGTTAGGTT----AGGTATTTTGATTCCAAAAA-------GGTCAAAAAGAAAAA-TGGGG--TTGCGCTATATATATGAAAGAGTATACAATAATGATGTGTTTGGTAAATCAAATGCCGTGGTCTAATAATCAAACATTCTGATTAGTTGATAATATTAGT-ATTA--------GTTGGGAAGTTTGTGAAAGATTCCTGTGAAAAGTTTCATTAACGCCTAATTCATTCGTGTCGAGTAGACCTTGTTGTTGTCAGAATTCTTAATTCATGAGTTGTAGGGAGGGATTT
+Titanotrichum_oldhamii         GTGAAAATCATCGAATTCAAAA------TAAGTGTCCGATAGCACGTCGATCAGTTAATTCAATA-----CGAAATGGGAGTTAGCACTCGATT-TCGTT------GGTGCCATCCA-AT----CGAATCCAATTCAATTGTTTACTTATT-CAA----------------TGAGTGAATTTGCAAGCTCAACCAAGCTA-----------TTTTGAAAATTTCAAGTGTATGAATAAGGATCTTGAGAAAGTTTTTCATTTGTCTATCATTATA--------GACAATCCCATATAT-------------ATTATATAAAAT-------------ATTCTATGGAATTCGAACCTGAACTCTATTTACA----------------TTACGATTTATTA-TTTC-----TATCTTATT------GGCTCTTC-TT-------ATTGTTT-------ATTT------CAGCATATG------GATTTACGCCTATA-------GCCTATTCTTTT-----CGTTTTTTT---------ATACCCTTT---CAT-------------------TTCATAGATGAATTCCGCCTATTTTCACATCTA--GGATTTACATATACAACATATATCACTGTCAAGAGGGAATTTCTTATTAGTTAGGTT----AAGTATTTCGATTAAAAAAAA------GGTCAAAAAGGAAAA-TGGGG--TTGCGCTATATATATGAAAGAGTATACAATAATGATGTGTTTGGTAAATCAAATACCATGGTCTAATAATCAAACATTCTGATTAGTTGATAATATTAGT-ATTA--------GTTGGGAAGTTTGTGAAAGATTCCTGTGAAAAGTTTCATTAACGCCTAATTCATTCTTGTCGAGTAGACCTTGTTGTTGTCAGAATTCTTAATTCATGAGTTGTAGGGAGGGATTT
+Whytockia_sasakii              GTGAAAATTATCGAATTCAAAAT-----TAAGTGTCCAATAGCGCGTTGATCAGTTAATTCAATA-----AGAAATGGGAGTTAGCACTCAATC-TTTTT------GGTGCTATCCA-AT----CGAATCCAATTCAATTGTTTACTTATT-CAA----------------TGAGTGAATTTGAAAGCTCAACCAAGCTC-----------TTTTGAAAATTTCAAGTGTAT------GGATCTTGATTAAGTTTGTCCTTTGTCTATTATTATA--------GACAATCCCATTTTT-------------TTTATATAAAAT-------------ATTCTATGGAATTCGAACTCGAACTCTATTTACA----------------TTACGATTCATTAATTTA-----TATCTTGTT------TGCTCTTC-TT-------ATTGTTT-------ATTT------CAGCATATG------GATTTACGCCTATA-------GCCTATTCTTTTCTTTTCGTTTTTTT---------ATACCCTTT-GACAT-------------------TTCATCGACGAATTCCGCCTTTTTTCACATCTA--GGATTTACATATACAACATATACCACTGTCAAGTGGGAATTTATTATTACTTAGGTT----AAGTATTTCGATTAAAAAAAA------GGTAAAAAATAAAAA-TGGGG--TTGCGCTATAGATATGAAAGGGTATACAATAATGATGTGTTTGGTAAATCAAATGGCATGGTCTAATAATCAAACATTCTGATTAGTTGATAATATTAGT-ATTG--------GTTGGGAAGTTTTTGAAAGATTCCTATGAAAAGTTTCATTAACGCCTAATTCATTCTTGTCGAGTAGACCCTGTTGTTGTCAGAATTCTTAATTCATGAGTTGTAGGGAGGGATTT
+;
+END;
+
+BEGIN CODONS;
+CODONPOSSET * CodonPositions (CHARACTERS = 'AtpB Table 2,3') = 
+		N: 1-946;
+CODONPOSSET  CodonPositions (CHARACTERS = 'AtpB Table 2,3') = 
+		N: 1-946;
+END;
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M694]
+
+	TITLE 'trnLF Table 2, 3';
+	LINK TAXA = Taxa2;
+	DIMENSIONS NCHAR=1037;
+	FORMAT DATATYPE=DNA SYMBOLS= "A C G T" MISSING=? GAP= -;
+
+MATRIX
+[                                      10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170       180       190       200       210       220       230       240       250       260       270       280       290       300       310       320       330       340       350       360       370       380       390       400       410       420       430       440       450       460       470       480       490       500       510       520       530       540       550       560       570       580       590       600       610       620       630       640       650       660       670       680       690       700       710       720       730       740       750       760       770       780       790       800       810       820       830       840       850       860       870       880       890       900       910       920       930       940       950       960       970       980       990       1000       1010       1020       1030       1040]
+[                                       .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .]
+Antirrhinum_majus              TATGGAAACCTACTAA-GTGATAACTTTCAA-TTCAGAGAAACCCCGGAATTAAGAAAAA--TGGGCAATCCTGAGCCAAATCCT-GTTTTCT-----CAAAACAAAGGTTCA-AAAGCGAAAAAA----GGGATAGGTGCAGAGACTCAATGGAAGCTGTTCTAACAAATGGAGTTGACTGTGTTGGTA------GAGGAATCTTTCCATCAAAACTTCAGAAAAGA-----------TGAAGGATAAATCTAT--------CTATTGAATACTAT---------ATCAAA-------------TTATTAATGATGGCCCGAATCTGTATC-TGTATTTTTCTA-TATTAAAAA-TGGAAGAATTGGTGTGAATTGATTCCACATTGAATAAAGAATGGAATA------TTCATTCATTAAATCATTCACTCCATAGTCTGGTAGAT-----CTTTTAAAGAAC------TGATTAATCGGACGAGAATAAAGATAGAGTCCCATTCTACATGTCAATACCGGCAACAATGAAATTTATAGTAAGAGGAAAATCCGTCGACTTTAAAAATCGTGAGGGTTCAAGTCCCTCTATCCCCAAAAA---------GGGCC----------------------------------TTTATCCTATCCC---------TTTTTT------------AGTGGTTC-----TCCTTTATCTTTCTCATT---------CTTTTAGAAACGTATTG-GGGCGTAAATGACTTTATCTTATCACA-----TGTGATATAGAA--TGCACATACAAATTAA---------GCAAGGAATCCCTATGTGAATGATT--CAC-AATC-----AATAGCATTACTCACACT----GAAACTTACAAAGACGTCTTTTTGAAAATCCAAGAAATTACATACAGG------ACTTGAGCAAAACTTTCCAATCCCC-CTTGTACCTTT-----AATTGACATAGACCCCAGTCATCTCATAAAATGAGCATGGGATGCTAGATTGGAAATGG
+Besleria_labiosa               TATGGAAACCTACTAA-GTGATAACTTTCAAATTCAGAGAAACCCCGGAATTAATAAAAA--TGGGCAATCCTGAGCCAAATCCT-GTTTTCT-----CAAAACAAAGGTTCAGAAAGCGAAAA----GGGGGATAGGTGCAGAGACTCAATGGAAGCTGTTCTAACAAATGGAGTTGACTGCGTTGGTA------GAGGAATCTTTCCATCGAAACTTCAGAAAGGA-----------TGAAGGATAAACGTAT--------CTATTGAATACTAT---------ATCAAA-------------TGATTAATAACGGTCCGAATCTGTATC-TGTATTTTTGTA-TATAAAAAA-TGGAAGAATTGGTGTGAATTGATTCCACATTGAAGAAAGAATCGAATA------TTCATTCATCAAATCATTCACTTCATAGTCCGATAGAT-----CTTTTAAAGAAC------TTATTAATCGGACGAGAATAAAGATAGAGTCCCGCTCTACATGTCAATACCGGCAACAATGAAACTTATAGTAAGAGGAAAATCCGTCGACTTTAAAAATCGTGAGGGTTCAAGTCCCTCTATCCCCAAAAAA----------GCCTAG-----TTGA----CTCCCAAAATA-------TTTATCCTATCCCC--------TTTTTTCGTT--------AGCGGTTCAAAATTCCTTTATCTTTCTAATT---------GTTTTACAAATGTATTT-GGGCGTAAATGACTTTCTCTTATCACA-----TGTGATATAGAA--TACACATCCAAATTAA---------GCAAGGAATCCCCATTGGAATGATT--CAC-AATC-----AATAGCATTACTCATACT----GAAACTTACAAAGTCGTCTTTTTGAAGATCCAAGAGAT----TACAGG------ACTTGGAGAAAACTTTGTAATCTTCCCTTGTCCCTTT-----AATTGACATAGACCCCAGTCATCTCATAAAATGAGGATGGGATGCTACATTGGGAATGG
+Calceolaria_arachnoidea        TATGGAAACCTACTAA-GTGATAACTTTCAAATTCAGAGAAACCCCGGAATTAATAAAAA--TGGGCAATCCTGAGCCAAATCCT-GCTTTCT-----CAAAACAAAGGTTCAGAAAGCGAAAAA-----GGGATAGGTGCAGAGACTCAATGGAAGCTGTTCTAACAAATGGAGTTGACTGCGTTGGTA------GAGAAATCTTTCCATCGAAACTTCAGAAAGGA-----------TGAAGGATCAACGTAT--------CTATTGAATATTGA--ATACTATATCAAAAAAA--TGGATTAATATTAATGATAGCCCGAATGTGTATC-GGTATTTTTTTA-TATGAAAAA-TGGAAGAATTAGTATGAATTGATTCCACATTGAAGAAAGAATCGAATA------TTCATTTATCAAATCAGTCACTCCATAGTCTGATAGAT-----CTTTTCAAGAAA------TGATTAATCGGACGAGGATAAAGATAGAGTCCCGTTCTACATGTCAATACCGGCAACAATGAAATTTATAGTAAGAGGAAAATCCGTCGACTTTAAAAATCGTGAGGGTTCAAGTCCCTCTATCCCCAAAAAAA----------CCTAT-----TTGA----CTCACCAAATA-------TTTATCCTATCCCC--------TTTTTTCGTT--------AGCGGTTCAAAATTCCTTTATCTTTCTC------------------CAAACGTATTT-GGGCGTAAATGACTTTCTCTTATCACC-----TGTGATATAGAA--TACACATCCAAATTAA---------GCAAGGAATCCCTATTTGAATGATT--AAC-AATC-----AATAGCATTACTCATACT----AAAACTTACAAAGTCGTC-----------CCAAGAGAT----TACAGC------ACTTGGAGAAAACTTTAAAATC-CCCCTTGTCCCTTT-----AATTGACATAGACCC-AGCCATCTAATAAAATGAGGATGGGATGCTACATGGGGAATGG
+Chrysothemis_pulchella         TATGGAAACCTACTAA-GTGATAACTTTCAAATTCAGAGAAACCCCGGAATTAATAAAAA--TGGGCAATCCTGAGCCAAATCCT-GTTTTTT-----CAAAACAAAGGTTCAGAAAGCGAAAAA------GGATAGGTGCAGAGACTCAATGGAAGCTGTTCTAACAAATGGAGTTGACTGCATTGGTATTGGTAGAGGAATCTTTCCATCGAAACTTCAGAAAGGA-----------TGAAGGATAAACGTAT--------CTATTGAATACTAT---------ATCAAC-------------TGATTAATAACGGCCCGAATCTCTATCATATCTTTTTGTA-TATGAAAAA-TGGAAGAATTGGTGTGAATTGATTCCACATTGAAGAAAGAATCGAATA------TTCATGCATCAAATCATTCACTCCATAGTCCGATAGATCTTTTCTTTTAAAGAAC------TTATTAATCGGACGAGAATAAAGATAGAGTCCCGTTCTACATGTCAATACCGGCAACAACGAAACTTATAGTAAGAGGAAAATCCGTCGACTTTTAAAATCGGGAGGGTTCAAGTCCCTCTATCCCCAAAAAA----------GCCTAT-----TTGA----CTCCAAAAATA-------TTTATCCTATCCCC---------TTTTTCGTT--------AGCAGTTCAAAATTCCTTTATCTTTCTAATT---------GTTTTACAA-TGTATTGGGGCCGTAAATGACTTTCTCTTATCACA-----TGTGATATAGAA--GACACATCCAAATTAA---------GCAAGGAATCCCTATTGGAATGATT--CCC-AATC-----AATAGCATTACTCATACT----GAAACTTACAAAGTGGTCTTTTTGAAGATCCAAGAGAT----TACAGG------ACTTGGAGAAAACTTTGTAATCTTCCCTTGTCCCTTT-----AATTGACATAGACCCCAGTCACCTCATAAAATGAGGATGGGATGTTACAGTGGGAATGG
+Cyrtandra_apiculata            TATGGAAACCTACTAA-GTGAAGACTTTCAAATTCAGAGAAACCCTGGAATTAATAAAAA--TGGGCAATCCTGAGCCAAATCCT-GTTTTCT-----CAAAACAAGGGTTCAGAGAGCGAAAAA----GAGGATAGGTGCAGAGACTCAATGGAAGCTGTTCTAACAAATGGAGTTGACCGCGTTGGTA------GAAGAAT--------TGAAACTTCAGAAAGGA-----------TGAAGGATAAACGTAT--------CTATTGAATACTAT-------------------------TGATGATTAATAATGGCCCGAATCTGTATC-TGGGTTTTTGTA-TATGAAAAA-TAGAAGAATTGGTGTGAATTGATTTCACATTGATAAAAGAATCGAATA------TTCATTAATCAAATCATTCACTCCACAGTCCGATAGAT-----CTCTTAAAGAAC------TTATTATTCGGACGAGAATAAAGATAGAGTCCCGTT{CT}TACATGTCAATACCGGCAACAATGAAACTTATAGTAAGAGGAAAATCCGTCGACTTTAAAAATCGTGAGGGTTCAAGTCCCTCTATCCCCAAAAAAA---------TCCTAT--A-ATTGA----CTCCCAAAATA-------TTTATCCTATCCGC--------TTTGTTCGTT--------AACGGTTCAAAATTCCTTTATCTTTCTAATT---------CTTTTACAAATGTCTTT-AGTCGTAAATGACTTTCTCTTCTCACA-----TGTGATATAGAA--TATACATTCAAA------------------GAATCCTTATTGGAATAATT--CAC-AATC-----AATAGTTTTACGCATACC----GATACTTACAAAGTTGTCTTTTTAAAGATCCAAGAGAT----TAGAGG------ACTTGGAGAAAACTTTGTAATTTTCCCTTGTCCCTTT-----AATTGACATAGACCCCAGTCCTCTAATAAAATGAGGATGGGATGCTACATTGGGAATGG
+Didymocarpus_citrinus          TATGGAAACCTACTAA-GTGAAGACTTTCAAATTCAGAGAAACCCTGGAATTAAGAAAAA--TGGGCAATCCTGAGCCAAATCCT-GTTTTCT-----CAAAACAAGGGTTCAGAGAGCGAAAAA----GAGGATAGGTGCAGAGACTCAATGGAAGCTGTTCTAACAAATGGAGTTGACCGCGTTGGTA------GAA-AAT--------TGAAACTTCAGAAAGGA-----------TGAAGGATAAAGGTAT--------CTATTGAATACTAT-------------------------TGATGATTAATAATGGCCCGAATCCATATC-TGGGTTTTTGTA-TATGAAAAA-TAGAAGAATTGGTGTGAATTGATTTCACATTGATAAAAGAATCGAATA------TTCATTAATCAAATCATTCACTCCACAGTCCGATAGAT-----CTCTTAAAGAAC------TTATTATTCGGACGAGAATAAAGATAGAGTCCCGTTCTACATGTCAATACCGGCAACAATGAAACTTATAGTAAGAGGAAAATCCGTCGACTTTAAAAATCGTGAGGGTTCAAGTCCCTCTATCCCCAAAAAAA---------TCCTAG--A-ATTGA----CTCCCAAAAAA-------TTTATCCTATCCGC--------TTTGTTCGTT--------AACGGTTCAAAATTCCTTTATCTTTCTAATT---------CTTTTACAAATGTCTTT-GGTCGTAAATGACTTTCTCGTCTCACA-----TGTGATATAGAA--TATACATTCAAA------------------GAATCCTTATTGGAATAATT--CAC-AATC-----AATAGCATTACGTATACT----GATACTTACAAAGTCGTCTTTTTAAAGATCGAAGAGAT----TAGAGG------ATTGGGAGAAAACTTTGTAATTTTCTCTTGTCCCTTT-----AATTGACATAGACCCCAGTCCTCTAATAAAATGGGGATGGGATGCTACATTGGGAATGG
+Epithema_benthamii             TATGGAAACCTACTAA-GTGAAAACTTTCAAATTCAGAGAAACCCCGGAATTAAAAAAGA--TGGGCAATCCTGAGCCAAATCCT-GTTTTCT-----CAAAACAAAGCTTCAGAGAGCGAAAAA----GAGGATAGGTGCAGAGACTCAATGGAAGCTGTTCTAACAAATGGAGTTGATTGTGTTGGGA------AAGGAATCGTTCCATCAAAACTTCAGAAAGGC-----------TGAAGGATAAACGTAT--------CTATTGAATACTAT---------ATCAAA-------------TGATTAATACCAGCCCCACTCTGTATC-TGG-TTTTTGTA-TATGAAAAA-TGGAAGAATTGATGTGAATTGATTCC------AAGAAAGAATCGAATACGAATATTCATTCATCAAATTATTCACTCCATAGTCCAATAGAT-----CTTTTAAAGAAC------TTATTAATCGGACGAGAATAAAGATAGAGTCCCGTTCTACATGTCAATACCGGCAACAATGAAACTTATAGTAAGAGGAAAATCCGTCGACTTTAAAAATCGTGAGGGTTCAAGTCCCTCTATCCCCAAAAAAA---------GCCTAT----TTTGA----TTACCAAAATA-------TTTATACTATCCCCC----------TTT--------AGTTAAGGGTTAAGAATCCCTTTTTG------------------------------TATTT-GGGCGTAAAAAACTTTCTCTTATCACA----------------------CTTTGCAAATTAA---------TCAAGGAATCTCTATT-----GATT--CAGTAATC-----AATAGCATTACT----------GAAACTTACAAAGTCGTCTTTTTGAAGATCTAAGAGAT----TAAAGG------ACTTGGAGAAAACTTTGTAATCTTCCCCTGTTCCTTT-----AATTGACATAGACCCCCGTCCTCTAATAAAATGAGGGTGGGCTGCTCTATTGGG?A?GG
+Epithema_taiwanense            TATGGAAACCTACTAA-GTGAAAACTTTCAAATTCAGAGAAACCCCGGAATTCAAAAAGA--TGGGCAATCCTGAGCCAAATCCT-GTTTTCT-----CAAAACAAAGCTTCAGAGAGCGAAAAA----GAGGATAGGTGCAGAGACTCAATGGAAGCTGTTCTAACAAATGGAGTTGACTGCGTTGGGA------AAGGAATCGTTCCATCAAAACTTCAGAAAGGA-----------TGAAGGATAAACGTAT--------CTATTGAATACTAT---------ATCAAA-------------TGATTAATACCGGCCCCACTCTGTATC-TGG-TTTTTGTA-TATGAAAAA-TGGAAGAATTGATGTGAATTGATTCC------AAGAAAGAATCGAATACGAATATTCATTCATCAAATCATTCACTCCATAGTCCAATAGAT-----CTTTTAAAGAAC------TTATTAATCGGACGAGAATAAAGATAGAGTCCCGTTCTACATGTCAATACCGGCAACAATGAAACTTATAGTAAGAGGAAAATCCGTCGACTTTAAAAATCGTGAGGGTTCAAGTCCCTCTATCCCCAAAAAAA---------GCCTAT-----TTGA----TTACCAAAATA-------TTTATACTATCCCCC-------TTTTGTCGTTTT--AGTTAACGGTTAAGAATCCCTTTTTGTTTGTATTT---------------------TATTT-GGGCGTAAAAAACTTTCTCTTATCACA----------------------CTTTGCAAATTAA---------TCAAGGAATCTCTATT-----GATT--CAGTAATC-----AATAGCATTACT----------GAAACTTACAAAGTCGTCTTTTTGAAGATCTAAGAGAT----TAAAGG------ACTTGGAGAAAACTTTGTAATCTTCCCCTGTTCCTTT-----AATTGACATAGACCCCCGTCCTCTAATAAAATGAGGGTGGACTGCTCTATTGGGAATGG
+Fieldia_australis              TATGGAAACCTACTAA-GTGATAACTTTCAAATGAAGAGAAACCCCGGAATTAATAAAAA--AGGGCAATCCTGAGCCAAATCCT-GTTTTCT-----CAAAACAAAGGTTCAGAAAGCTCAAAA----GGGGATAGGTGCAGAGACTCAATGGAAGCTGTTCTAACAAATGGAGTTGACTGCGTTGGTA------GAGGAATCTTTCCATCGAAACTTCAGAAAGGA-----------TGAAGGATAAACGTAT--------CTATTGAATATTAT---------ATCAAA-------------TGATTAATAACGGCCCGAATCTGTATC-TGTATTTTTGTA-TATGAAAAA-TGGAAGAATTGGTGTGAATTGATTCCACATTGAAGAAAGAATCGAATA------TTCATGAATCAAATAATGAACTCCATAGTCCGATAGAT-----CTTTTAAAGAAC------TTATTAATCGGACGAGAATAAAGATAGAGTCCCGTTCTACATGTCAATACCGGCAACAATGAAACTTATAGTCAGAGGAAAATCCGTCGACTTTCAAAATCGTGAGGGTTCAAGTCCCTCTATCCCCAAAAAA----------GCCTAT-----T{GT}GA----TTCCCAAAATCTTTAATCTTTATCCTATCCCC--------TTTTTTCGTT--------AGCGGTTCAAAATGCGTTTCTCTTTCTAATT---------GTTTTACAAATGTATTT-GGGCGTAAATGACTTTCTCTTATCACA-----TGTGATATAGAA--TACACATCCAAATTAA---------GCAAGGAATCCCTATTTATTTGATT--CAC-AATC-----AACAGCATTACTCATACT----GAAACTTACAAAGTCGTCTTTTTGAAGATCCAAGAGAT----TACAGG------ACTTGGAGAAAACTTTGTAATCTTCCCTTGTCCCTTT-----AATTGACATAGACCCCAGTCACCTCATAAAATGAGGATGGGGTGCTACATTGGGAATGG
+Gesneria_humilis               TATGGAAACCTACTAA-GTGATAACTTTCAAATTCAGAGAAACCCCGGAATTAATAAAAA--TGGGCAATCCTGAGCCAAATCCT-GTTTTCT-----CAAAACAAAGGTTCAGAAAGCGAAAAA----GGGGATAGGTGCAGAGACTCAATGGAAGCTGTTCTAACAAATGGAGTTGACTGCATTGGTA------GAGGAATCTTTC-------------------------------------------------------CT-TTGAATACTAT---------ATCAAA-------------TGATTAATAACGGCCCGAATCTGTATCATATCTTTTTGTA-TATGAAAAA-TGGAAGAATTGGTGTGAATTGATTCCACATTGAAGAAAGAATCGAATA------TTGATTCATCAAATCATTCACTCCATAGTCCGATAGATCTTTTCTTTTAAAGAAC------TTATAAATCGGACGAGAATAAAGATAGAGTCCCGTTCTACATGTCAATACCGGCAACAATGAAACTTATAGTAAGAGGAAAATCCGTCGACTTTAAAAATCGTGAGGGTTCAAGTCCCTCTATCCCCAAAAAA----------GCCTAT-----TTGA----CTCCAAAAATA-------TTTATCCTATCCCC--------TTTTTTCGTT--------AGCAGTTCAAAATTCCTTTATCTTT----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------TACAGG------ACTTGGAGAAAACTTTG-AATCTTCCCTTGTCCCTTT-----AATTGACATAGACCCCAGTCACATCATAAAATGATGATGGGGTGTTACATTGGGAATGG
+Jovellana_punctata             TATGGAAACCTACTAA-ATGATAACTTTCAAATTCAGAGAAACCCCGGAATTAATAAAAA--TGGGCAATCCTGAGCCAAATCCT-GTTTTCT-----CAAAACAAAGGTTCAGAAAGCGAAAAAA----GGGATAGGTGCAGAGACTCAATGGAAGCTGTTCTAACAAATGGAGTTGACTGCGTTGGTA------GAGGAATCTTTCCATCGAAACTTCAGAAAGGA-----------TGAAGGATCGACGTAT--------CTATTGAATATTGA--ATACTATATCAAAATAAAATAGATTAATATTAATGATGGCCAAAATCTGTATC-GGTATTTT-TTA-TATGAAAAA-TGGAAGAATTAGTATGAATTGATTCCACATTGAAGAAAGAATCGAATA------TTCATTTATCAAATCATTCACTCCATAGTCTGATAGAT-----CTTTTCAAGAAA------TGATTAATCGGACGAGGATAAAGATAGAGTCCCGTTCTACATGTCAATACCGGCAACAATGAAATTTATAGTAAGAGGAAAATCCGTCGACTTTAAAAATCGTGAGGGTTCAAGTCCCTCTATCCCCAAAAAA-----------CCTAT-----TTGA----CTCCCAAAATA-------TTTCTCCTATCCCC--------TTTTTTCGTT--------AGCGGTTCAAAATTCCTTTATCTTTCTC------------------CAAACGTATTT-GGGCGTAAATGACTTTCTCTTATCACA-----TGTGATATAGAA--TACACATCCAAATTAA---------GCAAGGAATCCCTATTTGAATGATT--CAC-AATC-----AATAGCATTACTCATACT----GAAACTTTAAAAGTCGTCTTTTTGAAGATCCAAGAGAT----TACAGG------ACTTGGAGAAAACTTTATAATC-CCTCTTGTCCCTTT-----AATTGACATAGACCC-AGCCATCTAATAAAATGAGGATGGGATGCTACATGGGGAATGG
+Kohleria_eriantha              TATGGAAACCTACTAA-GTGATAACTTTCAAATTCAGAGAAACCCCGGAATTAATAAAAA--TGGGCAATCCTGAGCCAAATCCT-GTTTTCT-----CAGATCAAAGGTTCAGAAAGCGAAAA----GGGGGATAGGTGCAGAGACTCAATGGAAGCTGTTCTAACAAATGGAGTTGACTGCATTGGTA------GAGGAATCTTTCTTTCGAAACTTCAGAAAGGA-----------TGAAGGATAAACGTAT--------CTATTGAATACTAT---------ATCAAA-------------TGATTAATAACGGCCCGAATCTGTATCATATCTTTTTGTA-TATGAAAAA-CGGAAGAATTGGTGTGAATTGATTCCACATTGAAGAAAGAATCGAATA------TTGATTCATCAAATCATTCACTCCATAGTCCGATAGATGTTTTCTTTTAAAGAATTTATTAATATTAATCGGACGAGAATAAAGATAGAGTCCCGTTCTACATGTCAATACCGGCAACAATGAAACTTATAGTAAGAGGAAAATCCGTCGACTTTAAAAATCGTGAGGGTTCAAGTCCCTCTATCCCCAAAAAA----------GCCTAT-----TTGA----CTCCAAAAGAA-------TTTATCCTACCCCCCCCCTTTTTTTTTTTGTT--------AGCAGTTCAAAATTCCTTTATCTTTCTAATT---------GTTTTACAAATGTATTT-GGGCGTAAATGACTTTCTCTTATCACA-----TGTGATATAGAA--GAAACATCCAAATTAA---------GCAAGGAATCCCTATTGGAATGATG--CAC-AATC-----AATAGCATTACTCATACT----GAAACTTACAAAGTCGTCTTTTTGAAGATCCAAGAGAT----TACAGGTACAGGACTTGGAGAAAACTTTGTAATCTTCCCTTGTCCCTTT-----AATTGACATAGACCCCAGTCACATCATAAAATGATGATGGGA?G???C???????????
+Loxostigma_sp.                 TATGGAAACCTACTAA-GTGAAGACTTTCAAATTCAGAGAAACCCTGGAATTAATAAAAA--TGGGCAATCCTGAGCCAAATCCT-GTTTTCT-----CAAAACAAGGGTTCAGAGAGCGAAAAAAA----GGATAGGTGCAGAGACTCAATGGGAGCTGTTCTAACAAATGGAGTTGACCGCGTTGGTA------GAAGAAT--------TTAAACTTCAGAAAGGA-----------TGAAGGATAAACGTAT--------CTATTGAATACTAT-------------------------TGATGATTAATAATGGCCCGAATCCGTATC-TGGGTTTTTGTA-TATGAAAAA-TAGAAGAATTGGTGTGAATTGATTTCACATTGATAAAAGAATCGAATA------TTAATTAATCAAATCATTCACTCCACAGTCCGATAGAT-----CTCTTAAAGAAC------TTATTATTCGGACGAGAATAAAGATAGAGTCCCGTTCTACATGTCAATACCGGCAACAATGAAACTTATAGTAAGAGGAAAATCCGTCGACTTTAAAAATCGTGAGGGTTCAAGTCCCTCTATCCCCAAAAAAA---------TCCTAT--A-ATTGA----CTCCCAAAATA-------TTTATCCTATCCGC--------TTTGTTCATT--------AACGGTTCAAAATTCCTTTATCTTTCTAATT---------CTTTTAGAAATGTCTTT-GGTCGTAAATGACTTTATCTTCTCACA-----TGTGATATAGAA--TATACATTCAAA------------------GAATCCTTATTGGAATAATT--CAC-AATC-----AATAGCATTACGCATACT----GATACTTACAAAGTTGTCTTTTTAAAGATCCAAGAGAT----TAGAGG------ATTTGGAGAAAACTTTGTAATTTTCCCTTGTCCCTTT-----AATTGACATAGACCCCAGTCCTCTAATAAAATGAGGATGGGATGCTACATTAGGAATGG
+Mitraria_coccinea              TATGGAAACCTACTAA-GTGATAACTTTCAAATTCAGAGAAACCCCGGAATTAATAAAAA--TGGGCAATCCTGAGCCAAATCCT-GTTTTCT-----CAAAAAAAAGGTTCAGAAAGCGAAAAA----GGGGATAGGTGCAGAGACTCAATGGAAGCTGTTCTAACAAATGGAGTTGATTGCGTTGGTA------GAGGAATCTTTCCATCGAAACTTCAGAAAGGA-----------TGAAGGATAAACGTAT--------CTATTGAATATTAT---------ATCAAA-------------TGATTAATAACGGCCCGAATCTGTATC-TGTATTTTTGTA-TATGAAAAA-TGGAAGAATTGGTGTGAATTGATTCCACATTGAAGAAAGAATCGAATA------TTCATTCATCAAATAATTCACTCCATAGTCCGATAGAT-----CTTTTAAAGAAC------TTATTAATCGGACGAGAATAAAGATAGAGTCCCGTTCTACATGTCAATACCGGCAACAATGAAACTTATAGTAAGAGGAAAATCCGTCGACTTTAAAAATCGTGAGGGTTCAAGTCCCTCTATCCCCAAAAAA----------GCCTAT-----TTGA----TTCCCAAAATCTTTAATCTTTATCCTATCCCC--------TTTTTTCGTT--------AGCGGTTCAAAATGCGTTTATCTTTCTAATT---------GTTTTACAAATGTATTT-GGGCGTAAATGACTTTCTCTTATCACA-----TGTGATATAGAA--TACACATCCAAATTAA---------GCAAGGAATCCCTATTGGAATGATT--CAC-AATC-----AACAGCACTACTCATACT----GAAACTTACAAAGTCGTCTTTTTGAAGATCCAAGAGAT----TACAGG------ACTTGGAGAAAACTTTGTAATCTTCCCTTGTCCCTTT-----AATTGACATAGACCCCAGTCACCTCATAAAATGAGGATGGGGCGCTACATTGGGAATGG
+Napeanthus_reitzii             TATGGAAACCTACTAA-GTGATAACTTTCAAATTCAGAGAAACCCCGGAATTAATAAAAA--TGGGCAATCCTGAGCCAAATCCT-GTTTTCT-----CAAAACAAAGGTTCAGAAAGCGAAAAA----GGGGATAGGTGCAGAGACTCGATGGAAGCTGTTCTAACAAATGGAGTTGACTGCGTTGGTA------GAGGAATCTTTCCATCGAAACTTCAGAAAGGA-----------TGAAGGATAAACGTAT--------CTATTGAATACTAT---------ATCAAA-------------TGATTAATAACGGCCCGAATCTGTATC-TGTATCTTTGTA-TATGAAAAA-TGGAAGAATTGGTGTGAATTGATTCCACATTGAAGAAAGAATCGAATA------TTCATTCATCAAATCGTTCACTCCATAGTCCGATAGAT-----CTTTTAACGAAT------TTATTAATCGGACGAGAATAAAGATAGAGTCCCGTTCTACATGTCAATACCGGCAACAATGAAACTTATAGTAAGAGGAAAATCCGTCGACTTT?AAAATCGTGAGGGTTCAAGTCCCTCTATCCCCAAAAAAA---------GCCTAT-----TTGA----CTCCCAAAATA-------TTTATCCTATCCCC--------TTTTTTCGTT--------AGTGGTTCAAAATTCCTTTATCTTTCTAATT---------GTTTTACAAATGTATTT-GGGCATAAATGACTATCTCTTATCACA-----TGTGATATAGAA--TACACATCCAAATTAA---------GAAAGGAATCCCTATTGGAATGATT--CAC-AATC-----AATAGCATTACTCATACT----GAAACTTACAAAGTCGTCTTTTTGAAGATCCAAGAGAT----TACAGG------ACTTGGAGAAAACTTTGTAATCTTCCCTTGTCCTTTT-----AATTGACATAGACCCCAGTCATCTCATAAAATGAGGATGGGATGCTACATTGGGAATGG
+Nicotiana_tabacum              TATGGAAACTTACTAA-GTGATCACTTTCAAATTCAGAGAAACCCTGGAATTAACAAAAA--TGGGCAATCCTGAGCCAAATCCT-GTTTTCCGAAAACAAA-CAAAGGTTCA------GAAAAAAA----GGATAGGTGCAGAGACTCAATGGAAGCTATTCTAACAAATGGAGTTAAATGCGTTGGTA------GAGGAATCTTTACATCGAAACTTCAGAAAGAAAAAGAATGAAGTGAAGGATAAACGTATATACATACGTATTGAATACTAT---------ATCAAA-------ATCAAATGATTAATGATGACCCGAATCTGTAT------TTTTTC---TATAAAAAA-TAGAAGAATTGGTGTGAATCGATTCTACATTGAAGAAAGAATCGAATA------TTCATTGATCAAACCATTCACTCCATAGTCTGATAGAT-----CTTTTGAAGAAC------TGATTAATCGGACGAGAATAAAGATAGAGTCCCGTTCTACATGTCAATACCGGCAACAATGAAATTTATCGTAAGAGGAAAATCCGTCGACTTTAAAAATCGTGAGGGTTCAAGTCCCTCTATCCCCAAAAA-----------GACTAT-----TTCA----CTCCCCAACTA-------TTTATCCGACCCCC-----------TTTCCTT--------AGCGGTTCCAAATTCCTT-ATCTTTCTCATTCACTCTATTCTTTTAGAAATGGATTT-GAGCGTAAATGGCTTTCTCTTATCACAAGTCTTGTGATATATATGATACACATAGAAATGAACGTCTTTGAGCAAGGAATCCCTAGTTGAATGATT--CCC-TATC-----AATATCATTACTCATACT----GAAACTTACAAAGTCATCTTTTTGAAGATCGAAGAAAT----TCCCCG------GCTTTGAGAAAATTTT-TAATCTACTTTTGTCCTTGT-----AATTGACATAGACCCCAGTTCTCTAATAAAATGAGGAT-----ACTACATTGGGAATAG
+Paulownia_tomentosa            TATGGAAACCTACTAA-GTGATAACTTTCAAATTCAGAGAACCCCCGGAATTAAGAAAAA--TGGGCAATCCTGAGCCAAATCCT-GTTTTCT-----CAAAACAAAGGTTCAGAAAACGAAAAAAAAAA-GGATAGGTGCAGAGACTCAATGGAAGCTGTTCTAACAAATGGAGTTGACTGCGTTGGTA------GAGGAATCTTTCCATCGAAACTTCAGAAAGGA-----------TGACGGATAAACGTAT--------CTATTGAATACTAT---------ATCAAA-------------TGATTAATGATGGCCCGAATCTGTATC-TGTATTTT-TTAATATGAAAAAATGAAAGAATTGGTGTGAATTGATTCCACATTGAAGAAAAAGTTGAATA------TTCATTCATCAAATCATTCACTCCATAGTCCGATAGAT-----CTTTTAAAGAAC------TGATTAATCGGACGAGAATAAAGATAGAGTCCCATTCTACATGTCAATACCGGCAACAAGGAAATTTATAGTAAGAGGAAAATCCGTCGACTTTAAAAATCGTGAGGGTTCAAGTCCCTCTATCCCCAAAAAAA---------GCCTAT-----TTGATTGACTTCCAAAATA-------TTTATCCTATCCCC--------TTTTTTCGTT--------AGCGGTTCCAAATTCCTTTATCTTTCTGATT---------CTTTGACAAACGTATTG-GGGTGTAAATGACTTTCTCTTATCACA-----TGTGATATAGAA--TACACATCCAAATTAA---------GAAAGGAATTCCTATTTGAATGATT--CAC-AATC-----AATAGCATTACTCATACT----GAAACTTAGAAAGTCGTCTTTTTGAAGATCCAAGAAAT----TACAGG------ACTTGGAGAAAACTTTATAATCCCCCCTTGTCCCTTTAATTTAATTGACATAGACCCCAGTCCTCTAATAAAATGAGGATGGGATGCTCCCTTGGGCATGG
+Peltanthera_floribunda         TATGGAAACCTACTAA-GTGATAACTTTCAAATTCAGAGAAACCCCGGAATTAATAAAAA--TGGGCAATCCTGAGCCAAATCCT-GTTTTCT-----CAAAACAAAGGTTCAGAAAGTGAAAAAAA----GGATAGGTGCAGAGACTCAATGGAAGCTGTTCTAACAAATGGAGTTGACTGCGTTGGTA------GAGGAATCTTTCCATCAAAACTTCAGAAAGGA-----------TGAAGGATAAACGTAT--------CTATTGAATACTAT---------ATCAAA------TATCAAATGATTAATGATGGTCCAAATCTGTATC-TGTATTTTTTTA-TATGAAAAA-TGGAAGAATTGGTGTGAAGTGATTCCACATTGAAGAAAGAATCCAATA------TTCATTCATCAAATCATTCACTCCATAGCCTGATAGAT-----CTTTTAAAGAAC------TGATTAATCGGACGAGAATAAAGATAGAGTCCCGTTCTACATGTCAATACCGGCAACAATGAAATTTATAGTAAGAGGAAAATCCGTCGACTTTCAAAATCGTGAGGGTTCAAGTCCCTCTATCCCCAAAAAAA---------GCCTAT-----TTGA----CTCCCAAAATA-------TTTATCCTATCCCC--------TTTTTTCGTT--------AGCGGTTCAAAATTCCTTTATCTTTCTCATT---------CTTTTACAAACGTATTT-GGGCGTAAATGACTTTCGCTTATCACA-----TGTGATATAGAA--TACACATCCAAATTAA---------GCAAGGAATCCCTATTTGATTGATT--CAC-AATC-----AATAGCATTACTCATACT----GAAACTTACAAAGTCGTCTTTTTGAAGATCCAAGAGAT----TACAGG------ACTTGGAGAAAACTTTGTAATCCCCCCTTGTCCCTTT-----AATTGACATAGACCCCAGTCATCTAATAAAATGAGGATGGGATGCTACA??????????
+Ramonda_myconi                 TATGGAAACCTACTAA-GTGAAGACTTTCAAATTCAGAGAAACCCTGGAATTAATAAAAA--TGGGCAATCCTGAGCCAAATCCT-GTTTTCT-----CAAAACAAGGGTTCAGAGAGCGAAAAA----GAGGATAGGTGCAGAGACTCAATGGAAGCTGTTCTAACAAATGGAGTTGACTGCGTTGGTA------GAGGAAT--------CGAAACTTCAGAAAGGA-----------TGAAGGATAAACGTAT--------CTATTGAATACTAT-------------------------TGATGATTAATAATGGCCCGAATCTGTATC-TGATTTTTTGTA-TATGAAAAA-TGGAAGAATTGGTGTGAATTGATTTCACATTGATAAAAGAATCGAATA------TTCATTGATCAAATCATTCACTCCATAGTCCGATAGAT-----CTCTTAAAGAACTTATTATTATTATTCGGACGAGAATAAAGATAGAGTCCCGTTCTACATGTCAATACCGGCAACAATGAAACTTATAGTAAGAGGAAAATCCGTCGACTTTAAAAATCGTGAGGGTTCAAGTCCCTCTATCCCCAAAAAAA---------GCCTATCCATATTGA----CTCCCAAAATA-------TTTATCCTATCCGC--------TTTGTTCGTT--------AACGGTTCAAAATTCCTTTATCTTTCTAATT---------CTTTTACAAATGTCTTT-GGGCGTAAATGACTTTCTCTTATCACA-----TGTGATATGGAA--TACACATTCAAATGAA---------GCAAGGAATCCCTATTGGAATAATT--CAC-AATC-----AATAGCATTACGCATACT----GACACTTACAAAGTCGTCTTTTTAAAGATCCAAGAGG-----------------ACTTGGAGCAAACTTTGTAATTTTCCCTTGTCCCTTT-----AATTGACATAGACCCCAGTCCTATAATAAAATGAGGATGGGATGCTACATTGGGAATGG
+Rehmannia_glutinosa            TATGGAAACCTACTAA-GTGATAACTTTCAAATTCAGAGAAACCCAGGAATTAAGAAAAA--TGGGCAATCCTGAGCCAAATCCT-GTTTTCT-----CAAAACAAAGGTTCAAAAAACGAAAA-TAAA-GGGATAGGTGCAGAGACTCAATGGAAGATGTTCTAACAAATGGGGTTGACTGCGTTGGTA------GAGGAATCTTTCCACCGAAACTTCAGAAAGGA-----------TAAAGGATAAACGTAT--------CTATTGAATACTAT---------ATCAAA-------------TGATTAATGATGGCCCGAATCTGTATC-TGTATTTT-GTAATATGAAAAA-TGAAAGAATTGGTGTGAATTGATTCCACATTGAAGAAAGAATCAAATA------TTCATTCATCAAATTATTCACTCCATAGTCCGATAGAT-----CTTTTAAAGAAC------TGATTAATCGGACGAGAATAAAGATAGAGTCCCATTCTACATGTCAATATCGACAACAATGAAATTTCTAGTAAGAGGAAAATCCGTCGACTTTAAAAATCGTGAGGGTTCAAGTCCCTCTATCCCCAAAAAA----------GCCTAT-----TTGA----CTCCCAAAATA-------TTTATCCTATCCCCC--------TTTTTTGTT--------AGCGGTTCCAAGTTCCTTTATCTTTCTGATT---------CTTTG-CAAACATATTT-GGGCGTAAATGACTTTCTCTTATCACA-----TGTGATATAGAA--TACACATCCAAATGAA---------GCAAGGAATTCCTATTTGAATGATT--CAC-AGTC-----AATAGCCTTACTCATACT----GAAACTTAGAAAGTCGTCCTTTTGAAGATCCAAGAAAT----TACAGG------ACTTGGAGAAAACTTTGTAATCCCCTCTTGTCCCTTT-----AATTGACATAGACCACAGTTATCTAATAAAATGAGGATGGGATACTACATTGGGAATGG
+Rhynchoglossum_hologlossum     TATGGAAACCTACTAAAGTGATAATTTTCAAATTCAGAGAAACCCTGGAATTAATAAAAA--TGGGCAATCCTGAGCCAAATCCT-GTTTGCT-----CAAAACAAAGGTTCAGCGAGCGAAAA-----GA-GATAGGTGCAGAGACTCAACGGAAGCTGTTCTAACAAATGGAGTTGACTGCGTTGGTA------GAGGAATCGTTCCATCGAAACTTCAGAAAGGA-----------TGAAGGATAAACGTAT--------CTAGTGAATACTATTAATACTATATCAAA-------------TAATTCCTAATGGCCCTATTCTGTATC-TGTATTTTTGTA-TATGAAAA--TACAAAAATTGGTCAGAATTGATTCCCCATTGAAGAAAGAATCGACTA------TTCATTCATCAAATAATTTACTTCATAGTCCGATAGAT-----CTTTTAAAGAAT------TTATTACTTGGACGAGAATAAAGATAGAGTCCCGTTTTACATGCCAATACCGGCAACAATGAAACTTATAGTAAGAGGAAAATCCGTTGACTTTCAAAATCGTGAGGGTTCAAGTCCCTCTATCCCCAAAAAACCCCTAAAAGGCCTGT-----TTGA----TTCCCAAAATA-------------GTAAACCCCCCC--TTTATTTTCGTTTTCACATTAGCGGTTCAAAATCCCTTTATCTC----------------CTTTT------GTATTT-GGGCGGAAAAAACTTTCTCTTCTGACA-----TGTGATATAGAA--TCCCCATCCAACTTAA---------GCAAGGAATCCTTATTGGAATGATT--CAT-AATCAATAGAATAGCATTACTCATAAT----GAAACGCACAAAGTCTTCTTTTTGAAGATCCAAGAGAT----TCGAGG------ACTTGAAGAAAACTTTGTAATCTTCCCTTGTCCCTTT-----AATTGACATAGATCTCAGTCCTCTAATAAAATGGGGGTGAAATGCTACATTGGGAATGG
+Schizanthus_x_wisetonensis     TATGAGAACTTACTAA-GTGTTCACTTTCAAATTCAGAGAAACCCTGGAATTAACAAAAA--TGGGCAATCCTGAGCCAAATCCT-GTTTTACAAAAACAAA-CAAAGGTTCA------GAAAAAAA----GGATAGGTGCAGAGACTCAATGGAAGCTATTCTAAAAAATGGAGTGAAATGCGTTGGTA------GAGGAATCTTTACATCGAAACTTCAGAAAGAAAAAGAATGAAGTGAAGGATAAAGGTATATACATACGTATATAATACTAT---------ATCAAA-------------TGATTAATGACGACCCAAATCCGTAT--------TTTTTA-TAAACAAAA-TAGAAGAAGTAGTGTGACTCGATTCTACATTGAAAAAAGAATAGAATA------TTCATTGATCAAACCATTCACTCCATAGTCTGATAGAT-----CTTTTGAAGAAC------TGATTAATCGGACGAGAATAAAGATAGAGTCCCGTTCTACATGTCAATACCGGCAACAATGAAATTTTTAGTAAGAGGAAAATCCGTCGACTTTAAAAATCGTGAGGGTTCAAGTCCCTCTATCCCCAAAAA-----------GACTAT-----TTCA----CTCCCCAACTA-------TTTATCCGACCCC-----------TTTTCCTT--------CGCGGTTCCCAATTCCTT-AGCTTTCTCATTCACTCTATTCTTTTACAAATGGATCT-GAGCGGAAATGGTTTTCTCTTATTACAAGTCTTGTGATATATATGATACACATAGAAATCAAAAGCTTTGAACAAGGAATCCCTAGTTGAATGATT--CCC-GATC-----AATATCATTACTCATACT----GAAACTTACAAAGTCATCTTTTTGAAGATCGAAGAAAT----TCCCCG------CCTTTGATAAAATTTTGTAATCGACTTTTGTCCTTTT-----AATTGACATAGACCCCAGTTCTCTAATAAAATGAGGAT-----ACTGCATTGGGAATAG
+Scrophularia_canina            TATGGAAACCTACTAA-GTGATAACTTTCAAATTCAGAGAAACCCCGGAATTAATAAAAA--TGGGCAATCCTGAGCCAAATCCT-GTTTTCT-----CAAAACAAAGGTTCAGAAGGCGAAAAA------GGATAGGTGCAGAGACTCAATGGAAGCTGTTCTAACAAATGGAGTTGACTGCGTTGGTA------GAGAAATCTTTCCATCGAAACTTCAGAAAGGG-----------TGACGGATAAACGTAT--------CTATTGAATACTAT---------ATCAAA-------------TGATTAATGATGGCCCGAATCTTTATC-TTTATTTTTTTA-TATGAAAAA-TAGAAAAATTGATGTGAATTTATTCCACATTGAAGAAAGAATCAAATA-AAATATTAATTCATCAAATCATTCACTCCATAGTCTGATAGTT-----CTTTTAAAGAAC------TGATTAATCGGACGAGAATAAAGATAGAGTCCCATTCTACATGTCAATACCGGCAACAATGAAATTTATAGTAAGAGGAAAATCCGTCGACTTTAAAAATCGTGAGGGTTCAAGTCCCTCTATCCCCAAAAAAA---------GCC-AT-----TTGA----CTCCCAAAATA-------TTTATCCTATCCCCC--------TTTTTCGTT--------AGGAGTTTCAAATTCCTTTATCTTTCTGATT---------CTTTTACAAACGTATTT-GGGCGTAAATGAATTTCTTTTATCACA-----TATGATATAGAA--TAGACATCCAAATTAA---------GCAAGGAATCCCTATTTTAATCATG--CAC-AATC-----AATAGCATTACTCATACTTACTGAAACTTACAAAGTAGTCTTTTTGAAGATCCAAGAAAT----TACAGG------ACTTGGAGAAAACGTTGTAATCCCCCCTTGTCTCTTT-----AATTGACATAGACTCCAGTAATCTAATAAAATGAGAATGGGATGCTACATTTGGAATGG
+Sinningia_schiffneri           TATGGAAACCTACTAA-GTGATAACTTTCAAATTCAGAGAAACCCCGGAATTAATAAAAA--TGGGCAATCCTGAGCCAAATCCT-GTTTTCT-----CAAAACAAAGGTTCAGAAAGCGAAAAA----GGGGATAGGTGCAGAGACTCAATGGAAGCTGTTCTAACAAATGGAGTTGACTGCATTGGTA------GAGGAATCTTTCCATCGAAACCTCAGAAAGGA-----------TGAAGGAGAAACGTAT--------CTATTGAATACTAT---------ATCAAA-------------TGATTAATAATGGCCCGAATCTCTATCATATCTTTTTGTA-TATGAAAAA-TGGAAGAATTGGTATGAATTGATTCCACATTGAAGAAAGAATCGAATA------TTCATTCATCAAATCATTCACTCCATAGTCCGATAGTTCTTTTCTTTTAAAGAAC------TTATTAATCGGACGAGAATAAAGATAGAGTCCCGTTCTACATGTCAATACCGGCAACAATGAAACTTATAGTAAGAGGAAAATCCGTCGACTTTAAAAATCGTGAGGGTTCAAGTCCCTCTATCCCCAAAAAA----------GCCTAT-----TTGA----CTCCAAAAATA-------TTTATCCTATCCCC--------TTTTTTCGTT--------AGCAGTTCAAAATTCCTTTATCTTTCTAATT---------GTTTTACAAATGTATTT-GGGCGTAAATGACTTTCTCTTATCACA-----TGTGATATAGAA--GACACATCCAAATTAA---------GCAAGGAATCCCTATTGGAATGATT--CAC-AATC-----AATAGCATTACTCATACT----GAAACTTACAAAGTCGTCTTTTTGAAGATCCAAGAGAT----TACAGG------ACTTGGAGAAAACTTTGTAATCTTCCCTTGTCCCTTT-----AATTGACATAGACCCCAGTCACATCCTAAAATGAGGATGGGATGTTACATTGGGAATGG
+Streptocarpus_holstii          TATGGAAACCTACTAA-GTGAAGACTTTCAAATTCAGAGAAACCCTGGAATTAATAAAAA--TGGGCAATCCTGAGCCAAATCCTTGTTTTCT-----CAAAACAAGGGTTCAGAGAGCGAAAAA----GAGGATAGGTGCAGAGACTCAATGGAAGCTGTTCTAACAAATGGAGTTGACTGCGTTGGTA------GAGGAAT--------TGAAACTTCAGAAAGGA-----------TG------AAACGTAT--------CTATTGAATACTAT-------------------------TGATCATTAATAATGGCCCACATCTGTATC-TGGGTTTTTGTA-TATGAAAAA-TGGAAGAATTGGTGTGAATTGATTTCACATTGATAAAAGAATCGAATA------TTCATTGATCAAATCATTGACCCGATAGTCCGATAGAT-----CTCTTAAAGAAT------TGATTATTCGGACGAGAATAAAGATAGAGTCCCGTTCTACATGTCAATACCGACAACAATGAAACTTATAGTAAGAGGAAAATCCGTCGACTTTTAAAATCGTGAGGGTTCAAGTCCCTCTATCCCCAAAAAAA---------TCCTAT--A-ATTGA----CTCCCAAAATA-------TTTATCCTATCCGC--------TTTTTTCGTT--------AATGGTTCAAAATTCCTTTATCTTTCTAATT---------CTTTTAGAAATGTTTTT-GGGCGTAAATGACTTTCTCTT-------------TGATATAGAA--TACACATTCAAATAAA---------GCAAGGAATCCCTATTGGAATAATTTTCAC-AATC-----AATAGCATTACGCATACT----GACACTTAGAAAGTCGTCTTTTTAAAGATCCAAGAGAT----TCGAGA------ACTTGGAGAAAACTTTGTAATTTTCTTTTGTTCCTTT-----AATTGACATAGACTCCAGTCCTCTAATAAAATGAGGATGGGATAATACATTAGGAATGG
+Tetranema_mexicana             TATGGAAACCTACTAA-GTGATAACTTTCAAATTCAGAGAAACCCCGGAATTAATAAAAA--TGGGCAATCCTGAGCCAAATCCT-GTCTTCT-----CAAAACAAAGGTTCAGAAAGCGAAAAAA----GGGATAGGTGCAGAGACTCAATGGAAGCTTTTCTAACAAATGGAGTTGACTGCGTTGGTA------GAGGAATCTTTCCATCGAAACTTCAGAAAGGA-----------TGAAGGATAAACGTAT--------CTATTGAATACTAT---------ATCAAA-------------TGATTAATGATGGCCCGAATCTGTATC-TGTATTTTTTTA-TATGAAAAA-TGGAAGAATTGGTGTGAATTGATTCCACATTGATGAAAGAATCGAATA------TTCATTCATCAAATCATTCACTCCATAGTCTGATAGAT-----CTTTTAAAGAAC------TGATTAATCGGACGAGAATAAAGATAGAGTCCCATTCTACATGTCAATACCGGCAACAATGAAATTTATAGTAAGAGGAAAATCCGTCGACTTTAAAAATCGTGAGGGTTCAAGTCCCTCTATCCCCAAAAA----------GGCCTAT-----TTGA-----------------------------TATCCCCC--------TTTTTCGTT--------AGCGGTTCAAAATTCCTTTATCTTTCTCATT---------CTTTTACAAACGTATTG-GGGCGTAAATGACTTTCTCTTATCACA-----TGTGATATAGAA--TACACATCCAAATTTA---------GCAAGGAATCCCTATGTGAATGATT--CAC-AATC-----AATAGCATTACTCATACT----GAAACTTACAAAGTCGTCTTTTTGAAGATCCAAGAAA-------CAGG------ACTTGGAGAAAACTTTGTGATCCCCCCTTGTCCCTTT-----AATTGACATAGACCCCAGTCATCTAATAAAATGAGGATGGGATGCTACATTGGGAATGG
+Titanotrichum_oldhamii         TATGGAAACCTACTAA-GTGATAACTTTCAAATTCAGAGAAACCCCGGAATTAATAAAAA--TGGGCAATCCTGAGCCAAATCCT-GTTTTCT-----CAAAACAAAGGTTCAGAAAGCGAAA--------GGATAGGTGCAGAGACTCAATGGAAGCTGTTCTAACAAATGGAGTTGACTGCGTTGGTA------GAGGAATCTTTCCATCGAAACTTCAGAAAGGA-----------TGAAGGATAAACGTAT--------CTATTGAATACTAT---------ATCAAA-------------TGATTAATAACGGCCCGAATCTGTATC-TGTATTTTTGTA-TATCAAAAA-TGGAAGAATTGGTGTGAATTGATTCCACATTGAAGAAAGAATCGAATA------TTCATTCATCAAATCATTAACTCCATAGTCCGATAGTT-----CTTTTAAAGAAC------TTATTAATCGGACGAGAATAAAGATAGAGTCCCATTCTACATGTCAATACCGGCAACAATGAAACTTATAGTAAGAGGAAAATCCGTCGACTTTAAAAATCGTGAGGGTTCAAGTCCCTCTATCCCCAAAAAAA---------GCCTAT-----TTGA----CTCCCAAAATA-------TTTATCCTATCCCC---------TTTTTCGTT--------AGCGGTTCAAAATTCTTTTATCTTTCTAATT---------GTTTTACAAATGTATTT-GGGCGTAAACGACTTTCTCTTATCACA-----TGTGATATAGAA--TACACATCCAAATTAA---------GCAAGGAATCCCTATTGGAATGATT--CAC-AATC-----AATAGCATTACTCATACT----GAAACTTACAAAGTCATCTTTTTGAAGATCCAAGAGATTACATACAGG------ACTTGGAGAAAACTTTGTAATCTTCCCTTGTCCCTTT-----AATTGACATAGACCCCAGTCATCTCATAAAATGAGGATGGTATGCTACATTGGGAATGG
+Whytockia_sasakii              TATGGAAACCTACTAA-GTGAAAACTTTCAAATTCAGAGAAACCCCGGAATTAAAAAAAAAATGGGCAATCCTGAGCCAAATCCT-GTTTTCT-----CAAAACAAAGGTTCAGAGGGTGAAAAA----GAGGATAGGTGCAGAGACTCAATGGAAGGTGTTCTAACAAATGGAGTTGACTGCGTTGGGA------GAGGAATCGTTCCATCGAAACTTCAGACAGGA------------------TAAGCGTAT--------CTATTAAATACTAT---------ATCAAC-------------TGATTAATAATGGCCCGATTCTGTATC-TGGAGTTTTGTA-TATGAGAAA-TGGAAGAATT----------GATTCCACATTGAAGAAAGAATCGAATA------TTCATTCATCAAATCATTTACTCCAAAGTCCGATAGTT-----CTTTTAAAGAAC------TTATTAATCGGACGAGAATAAAGATAGAGTCCCATTCTACATGTCAATACCGGCAACAATGAAACTTATAGTAAGAGGAAAATCCGTCGACTTTAAAAATCGTGAGGGTTCAAGTCCCTCTATCCCCAAAAAAA---------GCCTGT-----TTGA----TTCCCAAAATG-------TTTATCCTATCCCC--------TTTCTTCGTTTT--CGTTAGCGGTTTAAAATCCCCTT-----------------------------------TTT-GGG-GTAAATAACTTTCTCATATCACA------------T-GAA--TACCCATCCAAATTAA---------GAAAGGAATCTCTATTGTAATGATT--CAC-AATC-----AATAGCATTACTCATACT----GAAATTTACAAAGTAGTCTTTTTGAAAATCTAAGAGAT----TAGAGG------GCTTGGAGAAAACTTTGTAATCTTTCCTTGTCCTTTT-----AATTGACATAGATCCCAGTCCTCTAATAAAATGAGGGTGGGCTGCTAGATTGGGAATGG
+;
+END;
+
+BEGIN CODONS;
+CODONPOSSET * CodonPositions (CHARACTERS = 'trnLF Table 2, 3') = 
+		N: 1-1037;
+CODONPOSSET  CodonPositions (CHARACTERS = 'trnLF Table 2, 3') = 
+		N: 1-1037;
+END;
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M136]
+
+	TITLE '26S Table 2,3';
+	LINK TAXA = Taxa2;
+	DIMENSIONS NCHAR=1200;
+	FORMAT DATATYPE=DNA SYMBOLS= "A C G T" MISSING=? GAP= -;
+
+MATRIX
+[                                      10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170       180       190       200       210       220       230       240       250       260       270       280       290       300       310       320       330       340       350       360       370       380       390       400       410       420       430       440       450       460       470       480       490       500       510       520       530       540       550       560       570       580       590       600       610       620       630       640       650       660       670       680       690       700       710       720       730       740       750       760       770       780       790       800       810       820       830       840       850       860       870       880       890       900       910       920       930       940       950       960       970       980       990       1000       1010       1020       1030       1040       1050       1060       1070       1080       1090       1100       1110       1120       1130       1140       1150       1160       1170       1180       1190       1200      ]
+[                                       .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .      ]
+Antirrhinum_majus              GTGACCTTATGTCAGGCGGGACTACCCGTTGAGTTTAAGCATATCAATAAGTGGAGGAAAAGAAACTTACAAGGATTCCCCTAGTAACGGCGAGAGAACCGGGAACAGCGCATCTTGAAAATCGGGCGAC-TTTGCCATCCGAATTGTAATCTGAAGAAGCGTCCTCATTGGCAGACCAGGCCCAAGTCCCTTGGAAAGAGGGGCCGAAGTGGGTGAGAGCACCGTCATACCCGGACCCTGTCGCACCACGAGTCGCTATCGGCAAATCGAGTTGTTTGGGAATGCAACCCTAATTGGACGGTAAATTCCGTCCAAGGCTAAATACGGTAGAGACACCGATAGCAAACAAGTATCGCGAGGGAAAGATGAAAAGGACTTTGAAAAGAGAGTCAAAGAGTGCTTGAAATTGTTGTGAGAGAAATGTATGGGGGCTGGGGTTGCGTTTCGGTCGGATGCGAAACTGCGA-GAGACGATCCGCCGATCAACACGGGGCGAGGACCAGCACGGATTGAGGCGGCAGCCAAAGCTGGGGCTCTTGATACGCTCGTGGAATGCCGCCGCCC-GATT-GTGGCAAGACA-ACGCGCGCC-TC-TAACGTGTTT-CGGCGACTGCATGCTCTGAGCGCTGGCCTGCGGGCTCCCCATTCGACCCGTCTTGAAACACGGACCAAGGAGTCTGACATGTGTGCGAGTCAACGGGTGCGAAAACCCGCAAGGCGCAAGGAAGCTGACTGGCGCGATCCCCCTTGAGGGGTGCAACGCCGACCGACCTTGATCTTCTGAGAAGGGTTCGAGT--GAGCATACCTGTCGGGACCCGAAAGATGGTGAACTATGCCTGAGCGGGGCGAAGCCAGAGGAAACTCTGGTGGAGGCCCGCAGCGATACTGACGTGCAAATCGTTCGTCTGACTTGGGTATAGGGGCGAAAGACTAATCGAACCATCTAGTAGCTGGTTCCCTCCGAAGTTTCCCTCAGGATAGCTGGAGCTCGAGCGCGAGTTCTATCGGGTAAAGCCAATGATTAGAGGCATCGGGGGCGCAACGCCCTCGACCTATTCTCAAACTTTAAATAGGTAGGACGGCGCGGCTGCTTTGTTGAGCCGCGCCAAGGAATCGAGAGCTCCAAGTGGGCCATTTTTGGTAAGCAGAACTGGCGATGCGGGATGAACCGGAAGCCGGGTTACGGTGCCCAACT
+Besleria_labiosa               GCGACCC-AGGTCAGGCGGGATCACCCGCTGAGTTTAAGCATATCAATAAGCGGAGGAAAAGAAACTTACAAGGATTCCCCTAGTAACGGCGAGCGAACCGGGAATAGCCCAACTTGAGAATCGGGCGGC-TTTGTCGCTTGAATTGTAGTCTGGAGAAGCGTCCTCAGCGGCGGACCGGGCCCAAGTCCCCTGGAAAGGGGCGCCGGAGAGGGTGAGAGCCCCGTCGTGCCCGGACCCTGTCGCACCACGAGGCGCTGTCGGCGAGTCGGGTTGTTTGGGAATGCAGCCCCAATCGGGCGGTAAATTCCGTCCAAGGCTAAATATGGACGAGAGACCGATAGCGAACAAGTACCGCGAGGGAAAGATGAAAAGGACTTTGAAAAGAGAGTCAAAGAGTGCTTGAAATTGTCGGGAGGGAAGCGGATGGGGACCGGCGATGCGTCCCGGTCGGATGTGGAACGGCGA-GAGCCGGTCCGCCGATCGACTCGGGCCGTGGACCAGCACGGATTGAGGCGGCGGCCAAAGCCCGAGCAGTTGATATGCTCGAGGAATACCGTCGCCCTGATC-GTGG-CGGACA-GCGCGCGCC-TC-TGGCGTGCTT-CGGCAACTGCGCGCTCCCAGTGCTGGCCTGCGGGCTCCCCATTCGACCCGTCTTGAAACACGGACCAAGGAGTCTGACATGTGTGCGAGTCAACGGGCAAGAAAACCCGTAAGGCGCAAGGAAGCTGACTGGCGCGATCCCCTTTGAGGGGTGCAACGCCGACCGACCTTGATCTTCTGAGAAGGGTTCGAGT--GAGCATACCTGTCGGGACCCGAAAGATGGTGAACTATGCCTGAGCGGGGCGAAGCCAGAGGAAACTCTGGTGGAGGCCCGCAGCGATACTGACGTGCAAATCGTTCGTCTGACTTGGGTATAGGGGCGAAAGACTAATCGAACCGTCTAGTAGCTGGTTCCCTCCGAAGTTTCCCTCAGGATAGCTGGAGCTCGAGTGCGAGTTCTATCGGGTAAAGCCAATGATTAGAGGCATCGGGGGCGCAACGCCCTCGACCTATTCTCAAACTTTAAATAGGTAGGACGGCGTGGCTGCTCTGTTGAGCTGCGCCAGGGAATCGAGAGCTCCAAGTGGGCCATTTTTGGTAAGCAGAACTGGCGATGCGGGATGAACCGGAAGCCGGGTTACGGTGCCCAACT
+Calceolaria_arachnoidea        GCGACCCCAGGTCAGGCGGGATAACCCGCTGAGTTTAAGCATATCAATAAGCGGAGGAAAAGAAACTTACGAGGATTCCCCTAGTAACGGCGAGCGAACCGGGAATAGCCCAACTTGAGAATCGGACGAC-CTTGTCGTCCGAATTGTAGTCTGGAGAAGCGTCCTCAGCGGCGGACCGAGCCCAAGTCCCCTGGAAAGGGGCGCCGGAGAGGGTGAGAGCCCCGTTGTGCTCGGACCCTGTCGCACCACGAGGCGCTGTCGGCGAGTCGGGTTGTTTGGGAATGCAGCCCCAATCGGGCGGTAAATTCCGTCCAAGGCTAAATACGGGCGAGAGACCGATAGCGAACAAGTACCGCGAGGGAAAGATGAAAAGGACTTTGAAAAGAGAGTCAAAGAGTGCTTGAAATTGTCGGGAGGGAAGCGGATGGGGGCCGGCGATGCGTCCCGGTCGGATGTGGAACGGCAA-CAGCCGGTCTGCCAATCGACTCGGGCCGTGGACCAGCGCGGATTGAGGCGGCGGCCAAAGCCCGTGCAGTAGACATGCTCGTGGAACGCCGTTGCCTCGATC-GTGG-CGGACA-GCTCGCGCC-CT-AGGCGTGCCT-CGGCAACTGCGTGCTCCCGGTGCTGGCCAGTGGGCTCCCCATTCGACCCGTCTTGAAACACGGACCAAGGAGTCTGACATGTGTGCGAGTCAACGGATTATAAAACCCGTAAGGCACAAGGAAGCTGACTGGCGCGATCCCCCCCGAGGGGTGCAACGCCGACCGACCTTGATCTTTTGAGAAGGGTTCGAGT--GAGCATACCTGTCGGGACCCGAAAGATGGTGAACTATGCCTGAGCGGGGCGAAGCCAGAGGAAACTCTGGTGGAGGCCCGCAGCGATACTGACGTGCAAATCGTTCGTCTGACTTGGGTATAGGGGCGAAAGACTAATCGAACCATCTAGTAGCTGGTTCCCTCCGAAGTTTCCCTCAGGATAGCTGGAGCTCGAGCGCGAGTTCTATCGGGTAAAGCCAATGATTAGAGGCATCGGGGGCGCAACGCCCTCGACCTATTCTCAAACTTTAAATAGGTAGGACGGCGCGGCTGCTTCGTTGAGCCGCGCCAGGGAATCGAGAGCTCCAAGTGGGCCATTTTTGGTAAGCAGAACTGGCGATGCGGGATGAACCGGAAGCCGGGTTACGGTGCCCAACT
+Chrysothemis_pulchella         GCGACCC-AGGTCAGGCGGGATCACCCGCTGAGTTTAAGCATATCAATAAGCGGAGGAAAAGAAAATTACAAGGATTCCCTTAGTAACGGCGAGCGAACCGGGAATAGCCCAACTTGAGAATCGGGCGGC-TTCGTCGTTCGAATTGTAGTCTGGAGAAGCGTCCTCAGCGGCGGACCGGGCCCAAGTCCCCTGGAAAGGGGCGCCAGAGAGGGTGAGAGCCCCGTCGTGCCCGGACCCTGTCGCACCACGAGGCGCTGTCGGCGAGTCGGGTTGTTTGGGAATGCAGCCCCAATCGGGCGGTAAATTCCGTCCAAGGCTAAATACGGGCGAGAGACCGATAGCGAACAAGTACCGCGAGGGAAAGATGAAAAGGACTTTGAAAAGAGAGTCAAAGAGTGCTTGAAATTGTCGGGAGGGAAGCGGATGGGGACCGGCGATGCGTCCCGGTCGGATGTGGAACGGCGA-GAGCCGGTCTGCCGATCGACTCGGGACGTGGACCAGTGCGGATTGAGGTGGCGGCCAAAGCCCGGGCAGTTGATATGCTCGAGGAATGCCGTCTCCCTGATC-GTGG-CGGACA-GCGCGCGCC-TT-AGGCGTGCTC-CGGCAACTGCGCGCTCCCGGTGCTGGCCTGTGGGCTCCCCATTCGACCCGTCTTGAAACACGGACCAAGGAGTCTGACATGTGTGCGAGTCAACGGGCAAGAAAACCCGTAAGGCGCAAGGAAGCTGACTGGCGCGATCCCCCTCGAGGGGTGCAACGCCGACCGACCTTGATCTTCTGAGAAGGGTTCGAGT--GAGCATACCTGTCGGGACCCGAAAGATGGTGAACTATGCCTGAGCGGGGCGAAGCCAGAGGAAACTCTGGTGGAGGCCCGCAGCGATACTGACGTGCAAATCGTTCGTCTGACTTGGGTATAGGGGCGAAAGACTAATCGAACCGTCTAGTAGCTGGTTCCCTCCGAAGTTTCCCTCAGGATAGCTGGAGCTCGAGTGCGAGTTCTATCGGGTAAAGCCAATGATTAGAGGCATCGGGGGCGCAACGCCCTCGACCTATTCTCAAACTTTAAATAGGTAGGACGGCGCGGCTGCTCTGTTGAGCCGCGCCAGGGAATCGAGAGCTCCAAGTGGGCCATTTTTGGTAAGCAGAACTGGCGATGCGGGATGAACCGGAAGCCGGGTTACGGTGCCCAACT
+Cyrtandra_apiculata            GCGACCCCAGGTCAGGCGGGATCACCGGCTGAGTTTAAGCATATCAATAAGCGGAGGAAAAGAAACTTACAAGGATTCCCTTAGTAACGGCGAGCGAACCGGGAATAGCCCAACTTGAGAATCGGGCGAC-CACGTCGCTCGAATTGTAGTCTGGAGAAGCGTCCTCAGCGGCGGACCAGGCCCAAGTCCCCTGGAAAGGGGCGCCAGAGAGGGTGAGAGCCCCGTCGTGCCCGGACCCTGTCGCACCACGAGGCGCTGTCGGCGAGTCGGGTTGTTTGGGAATGCAGCCCCAATCGGGCGGTAAATTCCGTCCAAGGCTAAATACGGGCGAGAGACCGATAGCGAACAAGTACCGCGAGGGAAAGATGAAAAGGACTTTGAAAAGAGAGTGAAAGAGTGCTTGAAATTGTCGGGAGGGAAGCGGATGGGGGCCGGCGATGCGGCCCGGTCGGATGTGGAACGGTGA-GAGCCGGTCTGCCGATCGACTCGGGGCGTGGACCAGCACGGATCGGGTGGGCGGCCAAAGCCCGGGCAGTTGATATGCCCGCGGAATGCCGTCGCCCCGATC-ATGG-CGGACA-GCACGCGCCATC-AGGCGTGCCT-CGGCGACTGCGTGCTCCTGGTGCTGGCCTGTGGGCTCCCCATTCGACCCGTCTTGAAACACGGACCAAGGAGTCTGACATGTGTGCGAGTCAACGGGTGAGAAAACCCGCGAGGCGCAAGGAAGCTGACTGGCGCGAGCCCCTCGGAGGGGTGCAACGCCGACCGACCTTGATCTTCTGAGAAGGGTTCGAGT--GAGCATACCTGTCGGGACCCGAAAGATGGTGAACTATGCCTGAGCGGGGCGAAGCCAGAGGAAACTCTGGTGGAGGCCCGCAGCGATACTGACGTGCAAATCGTTCGTCTGACTTGGGTATAGGGGCGAAAGACTAATCGAACCGTCTAGTAGCTGGTTCCCTCCGAAGTTTCCCTCAGGATAGCTGGAGCTCGAGCGCGAGTTCTATCGGGTAAAGCCAATGATTAGAGGCATCGGGGGCGCAACGCCCTCGACCTATTCTCAAACTTTAAATAGGTAGGACGGCGTGGCTGCTCCGTTGAGCCACGCCAAGGAATCGAGAGCTCCAAGTGGGCCATTTTTGGTAAGCAGAACTCGTCGATGCGCGATGAAC?????????????????????????
+Didymocarpus_citrinus          GCGACCCCAGGTCAGGCGGGAACACCCGCTGAGTTTAAGCATATCAATAAGCGGAGGAAAAGAAACTTACAAGGATTCCCTTAGTAACGGCGAGCGAACCGGGAATAGCCCAACTTGAGAATCGAGAGAC-CAAGTCGCTCGAATTGTAGTCTGTAGAAGCGTCCTCAGAGGCGGACCGGGCCCAAGTCCCCTGGAAAGGGGCGCCAGAGAGGGTGAGAGCCCCGTCGTGCCCGGACCCTGTCGCACCACGAGGCGCTGTCGGCGAGTCGGGTTGTTTGGGAATGCAGCCCCAATCGGGCGGTAAATTCCGTCCAAGGCTAAATATGGGTGAGAGACCGATAGCGAACAAGTACCGCGAGGGAAAGATGAAAAGGACTTTGAAAAGAGAGTCAAAGAGTGCTTGAAATTGTCGGGAGGGAAGCGGATGGGGGCCGGCGATGCGTCCCGGTCGGATGTGGAACGGTGA-GAGCCGGTCTGCCGATCGACTCGGGGTGTGGACCAGCACGGATCGGGTTGGCGGCCAAAGTCCGGGCAGTTGATATGCTTGTGGAATGCCGTCGCCTCGATT-GTGG-AGGACA-GCACGCGCCATA-AGGCGTGCCT-CGGCGACTGCGTGCTCTCGGTGCTGGCTTGTGGGCTCCCCATTCGACCCGTCTTGAAACACGGACCAAGGAGTCTGACATGTGTGCGAGTCAACGGGTGAGAAAACCTGTAAGGCGCAAGGAAGCTGACTGGCGCGATCCCCTAAGAGGGGTGCAACGCTGACCGACCTTGATCTTCTGAGAAGGGTTCGAGT--GAGCATACCTGTCGGGACCCGAAAGATGGTGAACTATGCCTGAGCGGGGCGAAGCCAGAGGAAACTCTGGTGGAGGCCCGCAGCGATACTGACGTGCAAATCGTTCGTCTGACTTGGGTATAGGGGCGAAAGACTAATCGAACCGTCTAGTAGCTGGTTCCCTCCGAAGTTTCCCTCAGGATAGCTGGAGCTCGAGTGCGAGTTCTATCGGGTAAAGCCAATGATTAGAGGCATCGGGGGCGTAACGCCCTCGACCTATTCTCAAACTTTAAATAGGTAGGACGGTGTGGCTGCTCCATTGAGCCATGCCAAGGAATCGAGAGCTCCAAGTGGGCCATTTTTGGTAAGCAGAACTGGCGATGCGGGATGAACCGGAAGCCGGGTTACGGTGCCCAACT
+Epithema_benthamii             GAGGCCCCAGGTCAGGCGGGATGACCCGCTGAGTTTAAGCATATCAATAAGCGGAGGAGAAGAAACTTACATGGATTCCCTTAGTAACGGCGAGCGAACTGGGAATAGCTCAACTTGAGAATCGTGCGGCTTTTGCTGCTCGAATTGTAGTCTGTAGAAGCTTCCTCAGCTGCGGACCGGGCTCAAGTCCCCTGGAAAGGGGCGCCGGAGAGGGTGAGAGCCCCGTTGTGCCCGGACCCTGTTGCATCACGAGGAGTTGTCGGCGAGTCGGGTTGTTTGGGAATGCAGCCCTAATAGGGCGGTAAATTTCGTCCAAGGCTAAATACTGGCGAGAGACCGATAGCGAACAAGTACCGCGAGGGAAAGATGAAAAGGACTTTGAAAATAGTGTCAAAGAGTGCTTGAAATTGTCGGGAGGGAAGCGAATGGGGGCCGGCGATGCGCTCCGGTCGGATGTGGAACGGCTG-TTGCCGGTCTGCCGATTGACTCGGGGCGTGGCCCAGCACGGATTGGGGTGGCGGCCGAAGCCCGAGCACTTGAAATGCTCGAGGAATGCCGTTGCCTTGATT-GTGG-CTGGCT-GCTCGCGCC-TT-TGGCGTGCCC-CGGCAACTGCGTGCTCCAGGTGCTGGCCAGCGGGCCCCCCATTCGGCCCGTCTTGAAACACGGACCAAGGAGTCTGACATGTGTGCGAGTCCACGGGCTACAAAACCTGTAAGGCGCAAGGAAGCTGACTGGCGTGATCCCCT-TGAGGGTTGCAACGCTGACCGACCTTGATCTTCAGAGAAGGGTTCGAGT--GAGCATACCTGTCGGGACCCGAAAGATGGTGAACTATGCCTGAGCGGGGCGAAGCCAGAGGAAACTCTGGTGGAGGCCCGCAGCGATACTGACGTGCAAATCGTTCGTCTGACTTGGGTATAGGGGCGAAAGACTAATCGAACCGTCTAGTAGCTGGTTCCCTCCGAAGTTTCCCTCAGGATAGCTGGAGCTTGAATGAGAGTTCTATCGGGTAAAGCCAATGACTAGAGGCATCGGGGGCGCAACGCCCTCGACCTATTCTCAAACTTTAAATAGGTAGGACGGTGCGGCTGCTCAGATGAGCCGCACCTAGGAATCGATTGCTCCAAGTGGGCCATTTTTGGTAAGCAGAACTGGCGATGCGGGATGAACCGGAAGCCGGGTTACGGTGCCCAACT
+Epithema_taiwanense            GAGGCCCCAGGTCAGGCGGGATGACCCGCTGAGTTTAAGCATATCAATAAGCGGAGGAGAAGAGACTTACATGGATTCCCCTAGTAACGGCGAGCGAACTGGGAATAGCTCAACTTGAGAATCGGGCGGCTCTTGCTGCTCGAATTGTAGTCTGTAGAAGCTTCCTCAGCTGCGGACCGGGCCCAAGTCCCCTGGAAAGGGGCGCCGGAGAGGGTGAGAGCCCCGTTGTGCCCGGACCCTGTTGCATCACGAGGAGTTGTCGGCGAGTCGGGTTGTTTGGGAATGCAGCCCTAATAGGGCGGTAAATTCCGTCCAAGGCTAAATACTGGCGAGAGACCGATAGCGAACAAGTACCGCGAGGGAAAGATGAAAAGGACTTTGAAAAGAGAGTCAAAGAGTGCTTGAAATTGTCGGGAGGGAAGCGAATGGGGGCCGGCGATGCGCTCCGGTCGGATGTGGAACGGTTG-TTGCCGGTCTGCCGATTGACTCGGTGCGTGGCCCAGCACGGATTGAGGTGGCGGCCAAAGCCTGAGCACTTGAAATGCTCGAGGAATGCCGTTGCCTTGATT-GTGG-CTGGCA-GCTCGCGCC-CT-TGGCGTGCCC-CGGCAACTGCGTGCTCCAGGTGCTGGCCAGCGGGCCCCCCATTCGGCCCGTCTTGAAACACGGACCAAGGAGTCTGACATGTGTGCGAGTCCGCGGGCTAGAAAACCTGTAAGGCGCAAGGAAGCTGACTGGCGTGATCCCCT-TGAGGGTTGCAACGCTGACCGACCTTGATCTTCAGAGAAGGGTTCGAGT--GAGCATACCTGTCGGGACCCGAAAGATGGTGAACTATGCCTGAGCGGGGCGAAGCCAGAGGAAACTCTGGTGGAGGCCCGCAGCGATACTGACGTGCAAATCGTTCGTCTGACTTGGGTATAGGGGCGAAAGACTAATCGAACCGTCTAGTAGCTGGTTCCCTCCGAAGTTTCCCTCAGGATAGCTGGAGCTTGAATGAGAGTTCTATCGGGTAAAGCCAATGACTAGAGGCATCGGGGGCGCAACGCCCTCGACCTATTCTCAAACTTTAAATAGGTAGGACGGTGCGGCTGCTCAGATGAGCCGCGCCAAGGAATCGATTGCTCCAAGTGGGCCATTTTTGGTAAGCAGAACTGGCGATGCGGGATGAACCGGAAGCCGGGTTACGGTGCCCAACT
+Fieldia_australis              GCGACCC-AGGTCAGGCGGGATCACCCGCTGAGTTTAAGCATATCAATAAGCGGAGGAAAAGAAACTTACAAGGATTCCCCTAGTAACGGCGAGCGAACCGGGAATAGCCCAACTTGAGAATCGGGCGGC-TTTGTCGTTCGAATTGTAGTCTGGAGAAGCGTCCTCAGCGGCGGACCGGGCCTAAGTCCCCTGGAAAGGGGCGCCGGAGAGGGTGAGAGCCCCGTTGTGTCCGGACCCTGTCGCACCACGAGGCGCTGTCGGCGAGTCGGGTTGTTTGGGAATGCAGCCCTAATCGGGCGGTAAATTCCGTCCAAGGCTAAATATGGGCGAGAGACCGATAGCAAACAAGTACCGCGAGGGAAAGATGAAAAGGACTTTGAAAAGAGAGTCAAAGAGTGCTTGAAATTGTCGGGAGGGAAGCGGATGGGGACCGGCGATGCGTCCCGGTCGGATGTGGAACGGCGA-GAGCCGGTCTGCCGATCGACTCGGGGCGTGGACCAGTGCGGATTGAGGCGGCGGCCAAAGCCCGGGCAGTCGATATGCTCGAGGAATGCCGTCGCTTTGATC-GTGG-CGGACA-GCGCGCGCCCTT-TGGCGTGCTT-CGGCAACTGCGTGCTCCCGGTGCTGGCCTGTGGGCTCCCCATTCGACCCGTCTTGAAACACGGACCAAGGAGTCTGACATGTGTGCGAGTCAACGGGCAAGAAAACCCGCAAGGCGCAAGGAAGCTGACTGGCGCGATCCCCCTGGAGGGGTGCAACGCCGACCGACCTTGATCTTTTGAGAAGGGTTCGAGT--GAGCATACCTGTCGGGACCCGAAAGATGGTGAACTATGCCTGAGCGGGGCGAAGCCAGAGGAAACTCTGGTGGAGGCCCGCAGCGATACTGACGTGCAAATCGTTCGTCTGACTTGGGTATAGGGGCGAAAGACTAATCGAACCGTCTAGTAGCTGGTTCCCTCCGAAGTTTCCCTCAGGATAGCTGGAGCTCAAGTGCGAGTTCTATCGGGTAAAGCCAATGATTAGAGGCATCGGGGGCGCAATGCCCTCGACCTATTCTCAAACTTTAAATAGGTAGGACGGTGCGGCTGCTCTGTTGAGCCGTGCCAGGGAATCGAGAGCTCCAAGTGGGCCATTTTTGGTAAGCAGAACTGGCGATGCGGGATGAACCGGAAGCCGGGTTACGGTGCCCAACT
+Gesneria_humilis               GCGACCC-AGGTCAGGCGGGATCACCCGCTGAGTTTAAGCATATCAATAAGCGGAGGAAAAGAAACTTACAAGGATTCCCCTAGTAACGGCGAGCGAACCGGGAATAGCCCACCTTGAGAATCGGGCGAC-CATGTCGTTCGAATTGTAGTCTGGAGAAGCGTCCTCAGCGGCGGACCGGGCCCAAGTCCCCTGGAAGGGGGCGCCGGAGAGGGTGAGAGCCCCGTCGTGCCCGGACCCTGTCGCACCACGAGGCGCTGTCGGCGAGTCGGGTTGTTTGGGAATGCAGCCCCAATCGGGCGGTAAATTCCGTCCAAGGCTAAATACGGGCGAGAGACCGATAGCGAACAAGTACCGCGAGGGAAAGATGAAAAGGACTTTGAAAAGAGAGTCAAAGAGTGCTTGAAATTGTCGGGAGGGAAGCGGATGGGGACCGGCGATGCGTCCCGGTCGGATGTGGAACGGCGA-GAGCCGGTCTGCCGATCGACTCGGGATGTGGACCAGTGCGGATTGAGGTGGCGGCCAAAGCCCGAGCAGTTGATATGCTCGAGGAATGCCGTCGCCCCAATC-GTGG-CGGACA-GCGCGCGCC-TT-CGGCGTGCCCCCGGCAACTGCGCGCTCCCGGTGCTGGCCTGCGGGCTCCCCATTCGACCCGTCTTGAAACACGGACCAAGGAGTCTGACATGTGTGCGAGTCAACGGGCAAGAAAACCCGTAAGGCGCAAGGAAGCTGACTGGCGCGATCCCCCTCGAGGGGTGCAACGCCGACCGACCTTGATCTTCTGAGAAGGGTTCGAGT--GAGCATACCTGTCGGGACCCGAAAGATGGTGAACTATGCCTGAGCGGGGCGAAGCCAGAGGAAACTCTGGTGGAGGCCCGCAGCGATACTGACGTGCAAATCGTTCGTCTGACTTGGGTATAGGGGCGAAAGACTAATCGAACCGTCTAGTAGCTGGTTCCCTCCGAAGTTTCCCTCAGGATAGCTGGAGCTCGAGTGCGAGTTCTATCGGGTAAAGCCAATGATTAGAGGCATCGGGGGCGCAACGCCCTCGACCTATTCTCAAACTTTAAATAGGTAGGACGGTGCGGCTGCTCTGTTGAGCCGTGCCAGGGAATCGAGAGCTCCAAGTGGGCCATTTTTGGTAAGCAGAACTGGCGATGCGGGATGAACCGGAAGCCGGGTTACGGTGCCCAACT
+Jovellana_punctata             GCGACCCCAGGTCAGGCGGGATAACCCGCTGAGTTTAAGCATATCAATAAGCGGAGGAAAAGAAACTTACGAGGATTCCCCTAGTAACGGCGAGCGAACCGGGAATAGCCCAACTTGAGAATCGGACGAC--TTGTCGTCTGAATTGTAGTCTGGAGAAGCGTCCTCAGCGGCGGACCGAGCCCAAGTCCCCTGGAAAGGGGCGCCGGAGAGGGTGAGAGCCCCGTTGTGCTCGGACCCTGTCGCACCACGAGGCGCTGTCGGCGAGTCGGGTTGTTTGGGAATGCAGCCCCAATCGGGCGGTAAATTCCGTCCAAGGCTAAATACGGGCGAGAGACCGATAGCGAACAAGTACCGCGAGGGAAAGATGAAAAGGACTTTGAAAAGAGAGTCAAAGAGTGCTTGAAATTGTCGGGAGGGAAGCGGATGGGGGCCGGCGATGCGTCCCGGTCGGATGTGGAACGGCGA-CAGCCGGTCTGCCAATCGACTCGGGACGTGGACCAGCACGGATTGAGGCGGCGGCCAAAGCCCGAGCAGTAGACATGCTCGTGGAATGCCGTTGCCTCGATT-GTGG-CGGACA-GCTCGCGCC-CT-TGGCGTGCCT-CGGCAACTGCGTGCTCCCGGTGCTGGCCAGTGGGCTCCCCATTCGACCCGTCTTGAAACACGGACCAAGGAGTCTGACATGTGTGCGAGTCAACGGATGATAAAACCCGTAAGGCACAAGGAAGCTGACTGGCGCGATCCCCC-CGAGGGGTGCAACGCCGACCGACCTTGATCTTTTGAGAAGGGTTCGAGT--GAGCATACCTGTCGGGACCCGAAAGATGGTGAACTATGCCTGAGCGGGGCGAAGCCAGAGGAAACTCTGGTGGAGGCCCGCAGCGATACTGACGTGCAAATCGTTCGTCTGACTTGGGTATAGGGGCGAAAGACTAATCGAACCATCTAGTAGCTGGTTCCCTCCGAAGTTTCCCTCAGGATAGCTGGAGCTCGAGCGCGAGTTCTATCGGGTAAAGCCAATGATTAGAGGCATCGGGGGCGCAACGCCCTCGACCTATTCTCAAACTTTAAATAGGTAGGACGGCGCGGCTGCTTTGTTGAGCCGCGCCAGGGAATCGAGAGCTCCAAGTGGGCCATTTTTGGTAAGCAGAACTGGCGATGCGGGATGAACCGGAAGCCGGGTTACGGTGCCCAACT
+Kohleria_eriantha              ?CGACCC-AGGTCAGGCGGGATCACCCGCTGAGTTTAAGCATATCAATAAGCGGAGGAAAAGAAACTTACAAGGATTCCCCTAGTAACGGAGAGCGAACCGGGAATAGCCCAACTTGAGAATCGGGCGAC-TTCGTCGTTCGAATTGTAGTCTGGAGAAGCGTCCTCAGCGGCGGACTGGGCCCAAGTCCCCTGGAAAGGGGCGCCGGAGAGGGTGAGAGCCCCGTCGTGCCCGGACCCTGTCGCACCACGAGGCGCTGTCGGCGAGTCGGGTTGTTTGGGAATGCAGCCCCAATCGGGCGGTAAATTCCGTCCAAGGCTAAATACGGGCGAGAGACCGATAGCGAACAAGTACCGCGAGGGAAAGATGAAAAGGACTTTGAAAAGAGAGTCAAAGAGTGCTTGAAATTGTCGGGAGGGAAGCGAATGGGGACCGGCGATGCGTCCCGGTCGGATGTGGAACGGCGA-GAGCCGGTCTGCCGATCGACTCGGGGCGTGGACCAGTGCGGATTGAGGTGGCGGCCAAAGCCCGAGCAATTGACATGCTCGTGGAATGCCGTTGCCCCGATC-GTGG-CGGACA-GCGCGCGCC-TT-TGGCGTGCCC-CGGCAACTGCGCGCTCCCGGTGCTGGCCTGTGGGCTCCCCATTCGACCCGTCTTGAAACACGGACCAAGGAGTCTGACATGTGTGCGAGTCAACGGGCAAGAAAACCCGTAAGGCGCAAGGAAGCTGACTGGCGCGATCCCCCTTGAGGGGTGCAACGCCGACCGACCTTGATCTTCTGAGAAGGGTTCGAGT--GAGCATACCTGTCGGGACCCGAAAGATGGTGAACTATGCCTGAGCGGGGCGAAGCCAGAGGAAACTCTGGTGGAGGCCCGCAGCGATACTGACGTGCAAATCGTTCGTCTGACTTGGGTATAGGGGCGAAAGACTAATCGAACCGTCTAGTAGCTGGTTCCCTCCGAAGTTTCCCTCAGGATAGCTGGAGCTCAAGTGCGAGTTCTATCGGGTAAAGCCAATGATTAGAGGCATCGGGGGCGCAACGCCCTCGACCTATTCTCAAACTTTAAATAGGTAGGACAGTGCGGCTGCTCTGTTGAGCCGTGCTAGGGAATCGAGAGCTCCAAGTGGGCCATTTTTGGTAAGCAGAACTGGCGATGCGGGATGAACCGGAAGCCGGGTTACGGTGCCCAACT
+Loxostigma_sp.                 GCGACCCCAGGTCAGGCGGGATCACCCGCTGAGTTTAAGCATATCAATAAGCGGAGGAAAAGAAACTTACAAGGATTCCCTTAGTAACGGCGAGCGAACCGGGAATAGCCCAACTTGATAATCGGGCGAC-CACGTCACTCGAATTGTAGTCTGGAGAAGCGTCCTCAGCGGCGGACCGGGCCCAAGTCCC?TGGAAAGGGGCGCCAGAGAGGGTGAGAGCCCCGTCGTGCCCGGACCCTGTCGCACCACGAGGCGCTGTCGGCGAGTCGGGTTGTTTGGGAATGCAGCCCCAATCGGGCGGTAAATTCCGTCCAAGGCTAAATACGGGCGAGAGACCGATAGCGAACAAGTACCGCGAGGGAAAGATGAAAAGGACTTTGAAAAGAGAGTCAAAGAGTGCTTGAAATTGTCGGGAGGGAAGCGGATGGGGACCGGCGATGCGCCCCGGTCGGATGTGGAACGGTGA-GAGCCGGTCCGCCGATCGACTCGGGGTGTGGACCAGCACGGATCGGGTGGGTGGCCAAAGCCCGAGCAATCGACATGCCCGCGGAATGCCGTCGCCTCGATC-GTGG-CGGACA-GCACGCGCCATC-AGGCGTGCCT-CGGCGACTGCGTGCTCCCGGTGCTGGCCTGTGGGCTCCCCATTCGACCCGTCTTGAAACACGGACCAAGGAGTCTGACATGTGTGCGAGTCAACGGGCGATGAAACCCGTGAGGCGCAAGGAAGCTGACTGGCGCGATCCCCCCGGAGGGGTGCAACGCCGACCGACCTTGATCTTCTGAGAAGGGTTCGAGT--GAGCATACCTGTCGGGACCCGAAAGATGGTGAACTATGCCTGAGCGGGGCGAAGCCAGAGGAAACTCTGGTGGAGGCCCGCAGCGATACTGACGTGCAAATCGTTCGTCTGACTTGGGTATAGGGGCGAAAGACTAATCGAACCGTCTAGTAGCTGGTTCCCTCCGAAGTTTCCCTCAGGATAGCTGGAGCTCGAGGGCGAGTTCTATCGGGTAAAGCCAATGATTAGAGGCATCGGGGGCGCAACGCCCTCGACCTATTCTCAAACTTTAAATAGGTAGGACGGCGCGGCTGCTCGATTGAGCCGCGCCAGGGAATCGAGAGCTCCAAGTGGGCCATTTTTGGTAAGCAGAACTGGCGATGCGGGATGAACCGGAAGCCGGGTTACGGTGCCCAACT
+Mitraria_coccinea              GCGACCC-AGGTCAGGCGGGATCACCCGCTGAGTTTAAGCATATCAATAAGCGGAGGAAAAGAAACTTACAAGGATTCCCCTAGTAACGGCGAGCGAACCGGGAATAGCCCAACTTGAGAATCGGGCGAC-TTTGTCGTTCGAATTGTAGTCTGGAGAAGCGTCCTCAGCGGCGGACCGGGCCTAAGTCCCCTGGAAAGGGGCGCCGGAGAGGGTGAGAGCCCCGTTGTGTCCGGACCCTGTCGCACCACGAGGCGCTGTCGGCGAGTCGGGTTGTTTGGGAATGCAGCCCTAATCGGGCGGTAAATTCCGTCCAAGGCTAAATACGGGCGAGAGACCGATAGCAAACAAGTACCGCGAGGGAAAGATGAAAAGGACTTTGAAAAGAGAGTCAAAGAGTGCTTGAAATTGTCGGGAGGGAAGCGGATGGGGACCGGCGATGCGTCCCGGTCGGATGTGGAACGGCGA-GAGCCGGTCTGCCGATCGACTCGGGGCGTGGACCAGTGCGGATTGAGGCGGCGGCCAAAGCCCGGGCAGTTGATATGCTCGAGGAATGCCGTCGCTTCGATC-GTGG-CGGACA-GCGCGCGCC-TT-TGGCGTGCTT-CGGCAACTGCGTGCTCCCGGTGCTGGCCTGTGGGCTCCCCATTCGACCCGTCTTGAAACACGGACCAAGGAGTCTGACATGTGTGCGAGTCAACGGGCAAGAAAACCCGTAAGGCGCAAGGAAGCTGACTGGCGCGATCCCCCTTGAGGGGTGCAACGCCGACCGACCTTGATCTTTTGAGAAGGGTTCGAGT--GAGCATACCTGTCGGGACCCGAAAGATGGTGAACTATGCCTGAGCGGGGCGAAGCCAGAGGAAACTCTGGTGGAGGCCCGCAGCGATACTGACGTGCAAATCGTTCGTCTGACTTGGGTATAGGGGCGAAAGACTAATCGAACCGTCTAGTAGCTGGTTCCCTCCGAAGTTTCCCTCAGGATAGCTGGAGCTCAAGTGCGAGTTCTATCGGGTAAAGCCAATGATTAGAGGCATCGGGGGCGCAATGCCCTCGACCTATTCTCAAACTTTAAATAGGTAGGACGGTGCGGCTGCTCTGTTGAGCCGTGCCAGGGAATCGAGAGCTCCAAGTGGGCCATTTTTGGTAAGCAGAACTGGCGATGCGGGATGAACCGGAAGCCGGGTTACGGTGCCCAACT
+Napeanthus_reitzii             GCGACCC-AGGTCAGGCGGGATCACCCGCTGAGTTTAAGCATATCAATAAGCGGAGGAAAAGAAACTTACGAGGATTCCCCTAGTAACGGCGAGCGAACCGGGAATAGCCCAACTTGAGAATCGGGCGGC-TCTGCCGTTCGAATTGTAGTCTGGAGAAGCGTCCTCAGCGGCGGACCGGGCCCGAGTCCCCTGGAAAGGGGCGCCGGAGAGGGTGAGAGCCCCGTCGTGCCCGGACCCTGTCGCACCACGAGGCGCTGTCGGCGAGTCGGGTTGTTTGGGAATGCAGCCCCAATCGGGCGGTAAATTCCGTCCAAGGCTAAATACGGGCGAGAGACCGATAGCGAACAAGTACCGCGAGGGAAAGATGAAAAGGACTTTGAAAAGAGAGTCAAAGAGTGCTTGAAATTGTCGGGAGGGAAGCGGATGGGGACCGGCGATGCGTCCCGGTCGGATGTGGAACGGCGA-GAGCCGGTCCGCCGATCGACTCGGGGTGTGGACCAGCGCGGATTGAGGTGGCGGCCAAAGCCCGGGCAGTTGACATGCTCGAGGAATGCCGTCTCCCCGATC-GTGG-CGGACA-GTACGCGCC-CT-CGGCGTGCTT-CGGCAACTGCGTGCTCCCGGCGCTGGCCTGCGGGCTCCCCATTCGACCCGTCTTGAAACACGGACCAAGGAGTCTGACATGTGTGCGAGTCAACGGGCAAGAAAACCCGTAAGGCGCAAGGAAGCTGACTGGCGCGATCCCCCTCGAGGGTTGCAACGCCGACCGACCTTGATCTTCTGAGAAGGGTTCGAGT--GAGCACACCCGTCGGGACCCGAAAGATGGTGAACTATGCCTGAGCGGGGCGAAGCCAGAGGAAACTCTGGTGGAGGCCCGCAGCGATACTGACGTGCAAATCGTTCGTCTGACTTGGGTATAGGGGCGAAAGACTAATCGAACCGTCTAGTAGCTGGTTCCCTCCGAAGTTTCCCTCAGGATAGCTGGAGCTCGAGTGCGAGTTCTATCGGGTAAAGCCAATGATTAGAGGCATCGGGGGCGCAACGCCCTCGACCTATTCTCAAACTTTAAATAGGTAGGACGGCGCGGCTGCTCCGTTGAGCCGTGCCGGGGAATCGAGAGCTCCAAGTGGGCCATTTTTGGTAAGCAGAACTGGCGATGCGGGATGAACCGGAAGCCGGGTTACGGTGCCCAACT
+Nicotiana_tabacum              ??????????????????????TACCCGCTGAGTTTAAGCATATCAATAAGCGGAGGAAAAGAAACTTACAAGGATTCCCCTAGTAACGGCGAGCGAACCGGGAACAGCCCAGCCTTAGAATCGGGCGGC-TCCGCCGTTCGAATTGTAGTCTGGAGAAGCGTCCTCAGCGGCGGACCGGGCCCAAGTCCCCTGGAAGGGGGCGCCAGAGAGGGTGAGAGCCCCGTTGTGCCCGGACCCTGTCGCACCACGAGGCGCTGTCTACGAGTCGGGTTGTTTGGGAATGCAGCCCAAATCGGGCGGTGAATTCCGTCCAAGGCTAAATACGGGCGAGAGACCGATAGCGAACAAGTACCGCGAGGGAAAGATGAAAAGGACTTTGAAAAGAGAGTCAAAGAGTGCTTGAAATTGTCGGGAGGGAAGCGGATGGGGGCCGGCGATGCGCCCCGGTCGGATGTGGAACGGTGACGAGCCGGTCCGCCGATCGACTCGGGGCGTGGACCAGCGTGGATTGGGGGGGCGGCCAAAGCCCGGGCTTTCGATACGCCCGTGGAACGCCGTCTCCTTGATT-GTGG-TAGGCA-GCGCGCGCC-TC-CGGCGTGCTT-CGGCATCTGCGCGCTCCGGACGCTGGCCTGTGGGCTCCCCATTCGACCCGTCTTGAAACACGGACCAAGGAGTCTGACATGTGTGCGAGTCAACGGGCGAGTAAACCCGTAAGGCGTAAGGAAGCTGATTGGTGGGATCCCCC-TGAGGGGTGCACCGCCGACCGACCTTGATCTTCTGTGAAGGGTTCGAGTGTGAGCATACCTGTCGGGACCCGAAAGATGGTGAACTATGCCTGAGCGGGGCGAAGCCAGAGGAAACTCTGGTGGAGGCCCGCAGCGATACTGACGTGCAAATCGTTCGTCTGACTTGGGTATAGGGGCGAAAGACTAATCGAACCGTCTAGTAGCTGGTTCCCTCCGAAGTTTCCCTCA?GATAGCTGGAGCTCGCGTGCGAGTTCTATCGGGTAAAGCCAATGATTAGAGGCATCGGGGGCGCAACGCCCTCGACCTATTCTCAAACTTTAAATAGGTAGGACGGTGCGGCTGCTTTGTTGAGCCGCACCACGGAATCAAGAGCTCCAAGTGGGCCATTTTTGGTAAGCAGAACTGGCGATGCGGGATGAACCGGAAGCCGGGTTACGGTGCCAAACT
+Paulownia_tomentosa            ACGACCCCAGGTCAGGCGGGACTACCCACTGAGTTTAAGCATATCAATAAGCGGAGGAAAAGAAACATACAAGGATTCTCCTACTAACGCCGAACGAATCGAGAATAGCCCAACTTGAGAATCGGGTGGC-TTCGCCGTTCGAATTGTAGTCTGGAGAAGCATTCTCAGCAGCGGACTGGGCCCAAGTCCCCTGGAAAGGGGTGCCGGAGAGGGTGAGAGCCCCATCGCGCCCAGAGCCTGTCGCACCACGAGGTGCTGTCGGCGAGTCGGGTTGTTTGGGAATGCAGCCCTAATCGGGCGGTAAATTCTGTCCAAGGCTAAATACGGGCGAGAGACCGATAGCGAACAAGTACCACGAGGGAAAGATAAAAAGGACTTTGAAAAGAGAGTCAAAGAGTGCTTGAAATTGTCGGGAGGGAAGTGGATGGGGGCCAGCGATGCGTCCCGATCGGATGTGGAACAACAA-GAACCGGTCCGCCGATCGACTCGGGGTGTGGACCAACGCAGATTGAGGCGATGGCCAAAGCCCGAGCAGTTGATATGCTCGTGGAATGCCATCGTCCCGATC-GTGT-CGGATA-GCGCACCCC-TC-GGGCATGCTT-CGGCAACTGCATGCTCCCAGTGCTGGCCGGCGGGCTCTCCATTCGACCCGTCTTGAAACACGGACCAAGGAGTCTGACATGTGTGCGAGTCAACGGGCTAGTAAACCCGTAAGGCGCAAGGAAGCTGACCGGCGCGATCCCCCCCGAGGGGTGCAACGCCGACCGACCTTGATCTTCTGAGAAGGGTTCGAGT--GAGCATACCTGTCGGGACCCGAAAGATGGTGAACTATGCCTGAGCGGGGCGAAGCCAGAGGAAACTCTGGTGGAGGCCCGCAGCGATACTGACGTGCAAATCGTTCGTCTGACTTGGGTATAGGGGCGAAAGACTAATCGAACCGTCTAGTAGCTGGTTCCCTCCGAAGTTTCCCTCAGGATAGCTGGAGCTCGAGCGCGAGTTCTATCGGGTAAAGCCAATGATTAGAGGCATCGGGGGCGCAACGCCCTCGACCTATTCTCAAACTTTAAATAGGTAGGACGGCGCGGCTGCTTCGTTGAGCCGCGCCAGGGAATCGAGAGCTCCAAGTGGGCCATTTTTGGTAAGCAGAACTGGCGATGCGGGATGAACCGGAAGCCGGGTTACGGTGCCCAACT
+Peltanthera_floribunda         GCGACCCCAGGTCAGGCGGGATCACCCGCTGAGTTTAAGCATATCAATAAGCGGAGGAAAAGAAACTTACAAGGATTCCCCTAGTAACGGCGAGCGAACCGGGAATAGCCCAACTTGAGAATCGGGCGGC-TTTGTCGTTCGAATTGTAGTCTGGAGAAGCGTCCTCAGCGGCGGACCGGGCCCAAGTCCCCTGGAAAGGGGCGCCAGAGAGGGTGAGAGCCCCGTTGTGCCCGGACCCTGTCGCACCACGAGGCGCTGTCGGCGAGTCGGGTTGTTTGGGAATGCAGCCCCAATCGGGCGGTAAATTCCGTCCAAGGCTAAATACGGGCGAGAGACCGATAGCGAACAAGTACCGCGAGGGAAAGATGAAAAGGACTTTGAAAAGAGAGTCAAAGAGTGCTTGAAATTGTCGGGAGGGAAGCGGATGGGGGCCGGCGATGCGTCCCGGTCGGATGTGGAACGGCGA-GAGCCGGTCCGTCGATAGACTCGGGGCGTGGACCAGCGCGGATTGAGGCGGCGGCCAAAGCCCGGGCAGTTGATATGCCCGCGGAATGCCGTCGTCCCGATC-GTGG-CGGACA-GCGCGCGCC-TT-TGGCGTGCCT-CGGCAACTGCGTGCTCCCGGCGCTGGCCTGCGGGCTCCCCATTCGACCCGTCTTGAAACACGGACCAAGGAGTCTGACATGTGTGCGAGTCAACGGGCTAGAAAACCCGTAAGGCGCAAGGAAGCTGACTGGCGTGATCCCCCCCGAGGGGTGCAACGCCGACCGACCTTGATCTTCTGAGAAGGGTTCGAGT--GAGCATACCTGTCGGGACCCGAAAGATGGTGAACTATGCCTGAGCGGGGCGAAGCCAGAGGAAACTCTGGTGGAGGCCCGCAGCGATACTGACGTGCAAATCGTTCGTCTGACTTGGGTATAGGGGCGAAAGACTAATCGAACCGTCTAGTAGCTGGTTCCCTCCGAAGTTTCCCTCAGGATAGCTGGAGCTCGAGTGCGAGTTCTATCGGGTAAAGCCAATGATTAGAGGCATCGGGGGCGCAACGCCCTCGACCTATTCTCAAACTTTAAATAGGTAGGACGGCGCGGCTGCTCCGTTGAGCCGTGCCAAGGAATCGAGAGCTCCAAGTGGGCCATTTTTGGTAAGCAGAACTGGCGATGCGGGATGAACCGGAAGCCGGGTTACGGTGGCCAACT
+Ramonda_myconi                 GCGACCCCAGGTCAGGCGGGATCACCCGCTGAGTTTAAGCATATCAATAAGCGGAGGAAAAGAAACTTACAAGGATTCCCTTAGTAACGGCGAGCGAACCGGGAATAGCCCAACTTGAGAATCGGGCGAT-CATGTCGTTCGAATTGTAGTCTGGAGAAGCGTCCTCAGCGGCGGACCGGGCCGAAGTCCCCTGGAAAGGGGCGCCAGAGAGGGTGAGAGCCCCGTCGTGCTCGGACCCTGTCGCACCACGAGGCGCTGTCGGCGAGTCGGGTTGTTTGGGAATGCAGCCCCAATCGGGCGGTAAATTCCGTCCAAGGCTAAATACGGGCGAGAGACCGATAGCGAACAAGTACCGCGAGGGAAAGATGAAAAGGACTTTGAAAAGAGAGTCAAAGAGTGCTTGAAATTGTCGGGAGGGAAGCGAATGGGGACCGGCGATGCGTCCCGGTCGGATGTGGAACGGTGA-GAGCCGGTCCGCCGATCGACTCGGGGTGTGGACCAGCACGGATCGGGTCGGCGGCCAAAGCCCGAGCAGTTGATATGCCCGTGGAATGTCGTCGCCCTGATT-GTGG-CGGATA-GCATGCGCCATA-TGGCGTGCCT-CGGCGACTGCATGCTCCCGGTGCTGGCCTGTGGGCTCCCCATTCGACCCGTCTTGAAACACGGACCAAGGAGTCTGACATGTGTGCGAGTCAACGGGTGAGAAAACCCGTAAGGCGCAAGGAAGCTGACTGGCATGATCCCCC-TGAGGGGTGCAATGCCGACCGACCTTGATCTTCTGAGAAGGGTTCGAGT--GAGCATACCTGTCGGGACCCGAAAGATGGTGAACTATGCCTGAGCGGGGCGAAGCCAGAGGAAACTCTGGTGGAGGCCCGCAGCGATACTGACGTGCAAATCGTTCGTCTGACTTGGGTATAGGGGCGAAAGACTAATCGAACCGTCTAGTAGCTGGTTCCCTCCGAAGTTTCCCTCAGGATAGCTGGAGCTCGAGGGCGAGTTCTATCGGGTAAAGCCAATGATTAGAGGCATCGGGGGCGCAACGCCCTCGACCTATTCTCAAACTTTAAATAGGTAGGACGGTGTGGCTGCTTTGTTGAGCCACGCCAGGGAATCGAGAGCTCCAAGTGGGCCATTTTTGGTAAGCAGAACTGGCGATGCGGGATGAACCGGAAGCCGGGTTACGGTGCCCAACT
+Rehmannia_glutinosa            GCGACCCCAGGTCAGGCGGGATTACCCGCTGAGTTTAAGCATATCAATAAGCGGAGGAAAAGAAACTTACAAGGATTCCCCTAGTAACGGCGAGCGAACCGGGAATAGCCCAACTTGAGAATCGGGCGGC-TTTGCCGTCCGAATTGTAGTCTGGAGAAGCGTCCTCAGCGGCGGACCGGGCCCAAGTCCCCTGGAAAGGGACGCCGGAGAGGGTGAGAGCCCCGTCGTGCCCGGACCCTGTCGCACCACGAGGCGCTGTCGGCGAGTCGGGTTGTTTGGGAATGCAGCCCCAATCGGGCGGTAAATTCCGTCCAAGGCTAAATACGGGCGAGAGACCGATAGCGAACAAGTACCGCGAGGGAAAGATGAAAAGGACTTTGAAAAGAGAGTCAAAGAGTGCTTGAAATTGTCGGGAGGGAAGCGGATGGGGGCCGGCGATGCGTCCCGGTCGGATGTGGAACGGCGA-GACCCGGTCCGCCGATCGACTCGGGGCGCGGACCAGCACGGATTGAGGCGGCGGCCAAAGCCCGGGCAGTTGATATGCCCGTGGAATGCCGTCGCCCCGATCAGTGG-CAGACA-GCGCGCGCC-TT-TGGCGTGCTT-CGGCAACTGCGTGCTCCC????????????????????CCATTCGACCCGTTCTGAAACACGGACCAAGGAGTCTGACATGTGTGCGAGTCAACGGGCTAGTAAACCCGTAAGGCGTAAGGAAGCTGACTGGCGCGATCCCCCCCGAGGGGTGCAACGCCGACCGACCTTGATCTTCTGAGAAGGGTTCGAGT--GAGCATACCTGTCGGGACCCGAAAGATGGTGAACTATGCCTGAGCGGGGCGAAGCCAGAGGAAACTCTGGTGGAGGCCCGCAGCGATACTGACGTGCAAATCGTTCGTCTGACTTGGGTATAGGGGCGAAAGACTAATCGAACCGTCTAGTAGCTGGTTCCCTCCGAAGTTTCCCTCAGGATAGCTGGAGCTCGAGTGCGAGTTCTATCGGGTAAAGCCAATGATTAGAGGCATCGGGGGCGCAACGCCCTCGACCTATTCTCAAACTTTAAATAGGTAGGACGGCGTGGCTGCTTTGTTGAGCCACGCCAGGGAATCGAGAGCTCCAAGTGGGCCATTTTTGGTAAGCAGAACTGGCGATGCGGGATGAACCGGAAGCCGGGTTACGGTGCCCAACT
+Rhynchoglossum_hologlossum     GCGACCCCAGGTCAGGCGGGATCACCCGCTGAGTTTAAGCATATCAATAAGCGGAGGAAAAGAAACTTACAAGGATTCCCCTAGTAACGGCGAGCGAACCGGGAAACGCCCAACATGAGAATCTTGCGGCCTGCGCCGTTTGAATTGTAGTCTGTAGAAGTGTCCTCAGCGGCGGACCGAGCTTAAGTCCCCTGGAAAGGGGCGCCGGAGAGGGTGAGAGCCCCGTTGTGCTCGGACCCTGTCGCACCACGAGGCGCTGTCGGCGAGTCGGGTTGTTTGGGAATGCAGCCCTAATCGGGTGGTAAATTCCGTCCAAGGCTAAATACGGGCGAGAGACCGATAGCGAACAAGTACCGCGAGGGAAAGATGAAAAGGACTTTGAAAAGAGAGTCAAAGAGTGCTTGAAATTGTCGGGAGGGAAGCGGATGGGGGCCGGCGATGCGTCCCGGTCGTATGCGGAACGGCGA-GAGCCGGTCCGCCGATCGACTCGGGGTGTGGACCAGCACGGATTGATGCGGCGGCCAAAGCCCGTGCGGTCGATATGCACG-GGAACGCCGTCGCCTCGATC-GTGG-GTGACA-GCATGCGCC-TC-CGGCGTGCCA-CGGCAACTGCATGCTCCAGGTGCTGGCTTGCGGGCTCCCCATTCGACCCGTCTTGAAACACGGACCAAGGAGTCTGACATGTGTGCGAGTCAACGGGCGAGTAAACCCGTAAGGCGCAAGGAAGCTGACCGGCGTGATCCCCCCCGCGGGGTGCAACGCCGACCGACCTTGATCTTCTGAGAAGGGTTCGAGT--GAGCATACCTGTCGGGACCCGAAAGATGGTGAACTATGCCTGAGCGGGGTGAAGCCAGAGGAAACTCTGGTGGAGGCCCGCAGCGATACTGACGTGCAAATCGTTCGTCTGACTTGGGTATAGGGGCGAAAGACTAATCGAACCGTCTAGTAGCTGGTTCCCTCCGAAGTTTCCCTCAGGATAGCTGGAGCTCGAGCGCGAGTTCTATCGGGTAAAGCCAATGATTAGAGGCCTCGGGGGCGCAATGCCCTCGACCTATTCTCAAACTTTAAATAGGTAGGACGGTGCGGCTGCTCCGGTGAGCCGCACCAGGGAATCGAGAGCTCCAAGTGGGCCATTTTTGGTAAGCAGAACTGGCGATGCGGGATGAACCGGAAGCCGGGTTACGGTGCCCAACT
+Schizanthus_x_wisetonensis     GCGACCCCAGGTCAGGCGGGACTACCCGCTGAGTTTAAGCATATCAATAAGCGGAGGAAAAGAAACTTACAAGGATTCCCTTAGTAACGGCGAGCGAACCGGGAACAGCCCAGCCTTAGAATCGGGCGGC-TCCGTCGTCCGAATTGTAGTCTGGAGAAGCGTCCTCAGCGGCGGACCGGGCCCAAGTCCCCTGGAAGGGGGCGCCAGAGAGGGTGAGAGCCCCGTTGTGCCCGGACCCTGTCGCACCACGAGGCGCTGTCTACGAGTCGGGTTGTTTGGGAATGCAGCCCCAATCGGGCGGTGAATTCCGTCCAAGGCTAAATACGGGCGAGAGACCGATAGCGAACAAGTACCGCGAGGGAAAGATGAAAAGGACTTTGAAAAGAGAGTCAAAGAGTGCTTGAAATTGTCGGGAGGGAAGCGGATGGGGGCCGGCGATGCGCCCCGGTCGGATGTGGAACGGTGATGAGCCGGTCCGCCGATCGACTCGGGGCGCGGACCAGCGTGGATTGGGGGGGCGGCCAAAGCCCGGGCTCTTGATACGCCCGTGGAACGCCGTCTCCTCGATT-GTGG-TAGGCA-GCGCGCGCC-TT-TGGCGTGCTT-CGGCATCTGCGCGCTCCGGACGCTGGCCTGTGGGCTCCCCATTCGACCCGTCTTGAAACACGGACCAAGGAGTCTGACATGTGTGCGAGTCAACGGGCAAGTAAACCCGTAAGGCGCAAGGAAGCTGATTGGCGGGATCCCCC-TGAGGGGTGCACCGCCGACCGACCTTGATCTTCTGTGAAGGGTTCGAGTGTGAGCATACCTGTCGGGACCCGAAAGATGGTGAACTATGCCTGAGCGGGGCGAAGCCAGAGGAAACTCTGGTGGAGGCCCGCAGCGATACTGACGTGCAAATCGTTCGTCTGACTTGGGTATAGGGGCGAAAGACTAATCGAACCGTCTAGTAGCTGGTTCCCTCCGAAGTTTCCCTCAGGATAGCTGGAGCTCGCGTGTGAGTTCTATCGGGTAAAGCCAATGATTAGAGGCATCGGGGGCGCAACGCCCTCGACCTATTCTCAAACTTTAAATAGGTAGGACGGCGTGGCTGCTTTGTTGAGCCACGCCTTGGAATCAAGAGCTCCAAGTGGGCCATTTTTGGTAAGCAGAACTGGCGATGCGGGATGAACCGGAAGCCGGGTTACGGTGCCCAACT
+Scrophularia_canina            GCGACCCCAGGTCAGGCGGGATTACCCGCTGAGTTTAAGCATATCAATAAGCGGAGGAAAAGAAACTTACAAGGATTCCCCTAGTAACGGCGAGCGAACCGGGAATAGCCCAACTTGAGAATCGGGCGGC-TTCGCCGTCCGAATTGTAGTCTGGAGAAGCGTCCTCAGCGGCGGACCGGGCTCAAGTCCCCTGGAAAGGGGCGCCG{AG}AGAGGGTGAGAGCCCCGTCGTGCCCGGACCCTGTCGCATCACGAGGCGCTGTCGGCGAGTCGGGTTGTTTGGGAATGCAGCCCTAATCGGGCGGTAAATTCCGTCCAAGGCTAAATACGGGCGAGAGACCGATAGCGAACAAGTACCGCGAGGGAAAGATGAAAAGGACTTTGAAAAGAGAGTCAAAGAGTGCTTGAAATTGTCGGGAGGGAAGCGGATGGGGGCCGGCGATGCGTCCCGGTCGGATGTGGAACGGCGA-AAGCCGGTCCGCCGATCGACTCGGGGCGCGGACCAGCGCGGATTGAGGCGGCGGCCAAAGCCCGGGCAGTTGATATGCCCGTGGAATGCCGTCGCCCCGATC-GTGG-CGGACA-GCGCGCGCC-CT-CGGCGTGCTT-CGGCAACTGCG{CT}GCTCCCGGTGCTGGCCAGTGGGCTCCCCATTCGACCCGTCTTGAAACACGGACCAAGGAGTCTGACATGTGTGCGAGTCAACGGGCTAGTAAACCCGTAAGGCGCAAGGAAGCTGACTGGCGCGATCCCCCTCGAGGGGTGCAACGCCGACCGACCTTGATCTTCTGAGAAGGGTTCGAGT--GAGCATACCTGTCGGGACCCGAAAGATGGTGAACTATGCCTGAGCGGGGCGAAGCCAGAGGAAACTCTGGTGGAGGCCCGCAGCGATACTGACGTGCAAATCGTTCGTCTGACTTGGGTATAGGGGCGAAAGACTAATCGAACCATCTAGTAGCTGGTTCCCTCCGAAGTTTCCCTCAGGATAGCTGGAGCTCGAGCGCGAGTTCTATCGGGTAAAGCCAATGATTAGAGGCATCGGGGGCGCAACGCCCTCGACCTATTCTCAAACTTTAAATAGGTAGGACGGCGTGGCTGCTTCGTTGAGCCGCGCCAAGGAATCGAGAGCTCCAAGTGGGCCATTTTTGGTAAGCAGAACTGGCGATGCGGGATGAACCGGAAGCCGGGTTACGGTGCCCAACT
+Sinningia_schiffneri           GCGACCC-AGGTCAGGCGGGATTACCCGCTGAGTTTAAGCATATCAATAAGCGGAGGAAAAGAAACTTACAAGGATTCCCCTAGTAACGGCGAGCGAACCGGGAATAGCCCAACTTGAGAATCGGGCGAC-TTCGTCGTTCGAATTGTAGTCTGGAGAAGCGTCCTCAGCGGCGGACCGGGCCCAAGTCCCCTGGAAAGGGGCGCCAGAGAGGGTGAGAGCCCCGTCGTGCCCGGACCCTGTCGCACCACGAGGCGCTGTCGGCGAGTCGGGTTGTTTGGGAATGCAGCCCCAATCGGGCGGTAAATTCCGTCCAAGGCTAAATATGGGCGAGAGACCGATAGCGAACAAGTACCGCGAGGGAAAGATGAAAAGGACTTTGAAAAGAGAGTCAAAGAGTGCTTGAAATTGTCGGGAGGGAAGCGGATGGGGACCGGCGATGCGTCTCGGTCGGATGTGGAACGGCGA-GAGCCGGTCTGCCGATCGACTCGGGACGTGGACCAGTGCGGATTGAGGTGGCGGCCAAAGCCCGGGCAGTTGATATGCTTGAGGAATGCCGTCACCGCGATC-GTGG-CGGACA-GCGCGCGCC-TT-AGGCGTGCCA-CGGCAACTGCGCGCTCCCGGTGCTGGCCTGCGGGCTCCCCATTCGACCCGTCTTGAAACACGGACCAAGGAGTCTGACATGTGTGCGAGTCAACGGGCAAGAAAACCCGTAAGGCGCAAGGAAGCTGACTGGCGTGATCCCTCTTGAGGGGTGCAACGCTGACCGACCTTGATCTTCTGAGAAGGGTTCGAGT--GAGCATACCTGTCGGGACCCGAAAGATGGTGAACTATGCCTGAGCGGGGCGAAGCCAGAGGAAACTCTGGTGGAGGCCCGCAGCGATACTGACGTGCAAATCGTTCGTCTGACTTGGGTATAGGGGCGAAAGACTAATCGAACCGTCTAGTAGCTGGTTCCCTCCGAAGTTTCCCTCAGGATAGCTGGAGCTCGAGTGCGAGTTCTATCGGGTAAAGCCAATGATTAGAGGCATCGGGGGCGCAACGCCCTCGACCTATTCTCAAACTTTAAATAGGTAGGACGGTGCGGCTGCTCTGTTGAGCCGTGCTAGGGAATCGAGAGCTCCAAGTGGGCCATTTTTGGTAAGCAGAACTGGCGATGCGGGATGAACCGGAAGCCGGGTTACGGTGCCCAACT
+Streptocarpus_holstii          GCGACCCCAGGTCAGGCGGGATCACCCGCTGAGTTTAAGCATATCAATAAGCGGAGGAAAAGAAACTTACAAGGATTCCCCTAGTAACGGCGAGCGAACCGGGAATAGCCCAACTTGATAATCGGGCGAC-CATGTCGTTCGAATTGTAGTCTGGAGAAGCGTCCTCAGCGGCGGACCGGGCCCAAGTCCCCTGGAAAGGGGCGCCAGAGAGGGTGAGAGCCCCGTCGTGCCCGGACCCTGTCGCACCACGAGGCGCTGTCGGCGAGTCGGGTTGTTTGGGAATGCAGCCCCAATCGGGCGGTAAATTCCGTCCAAGGCTAAATACGGGCGAGAGACCGATAGCGAACAAGTACCGCGAGGGAAAGATGAAAAGGACTTTGAAAAGAGAGTCAAAGAGTGCTTGAAATTGTCGGGAGGGAAGCGGATGGGGACCGGCGATGCGCCCCGGTCGGATGTGGAACGGTGA-GAGCCGGTCCGCCGATCGGCTCGGGGTGTGGACCAGTACGGATCGGGTCGGCGGCCAAAGCCCGGGCAGTTGATATGCCCGTGGAATGCCGTCGCCTCGATC-GTGG-CGGACA-GCACGCGCCTTC-TGGCGTGCCT-CGGCGACTGCGTGCTCCCGGTGCTGGCTTGTGGGCTCCCCATTCGACCCGTCTTGAAACACGGACCAAGGAGTCTGACATGTGTGCGAGTCAACGGGTGAGAAAACCCGTAAGGCGCAAGGAAGCTGACTGGCGTGATCCCCCCCGAGGGGTGCAACGCTGACCGACCTTGATCTTCTGAGAAGGGTTCGAGT--GAGCATACCTGTCGGGACCCGAAAGATGGTGAACTATGCCTGAGCGGGGCGAAGCCAGAGGAAACTCTGGTGGAGGCCCGCAGCGATACTGACGTGCAAATCGTTCGTCTGACTTGGGTATAGGGGCGAAAGACTAATCGAACCGTCTAGTAGCTGGTTCCCTCCGAAGTTTCCCTCAGGATAGCTGGAGCTCGAGTGTGAGTTCTATCGGGTAAAGCCAATGATTAGAGGCATCGGGGACGCAACGTCCTCGACCTATTCTCAAACTTTAAATAGGTAGGACGGCGTGGCTGCTCCGTTGAGCCACTCCAAGGAATCGAGAGCTCCAAGTGGGCCATTTTTGGTAAGCAGAACTGGCAATGCGGGATGAACCGGAAGCCGGGTTACGGTGCCCAACT
+Tetranema_mexicana             GCGAACCCAGGTCAGGCGGGACTACCCGCTGAGTTTAAGCATATCAATAAGCAGAGAAAAAGAAACTTACAAGGATTTCCCTAGTAACGGCGAGCGAATTGGGAATAGCCCAACTTGAGAATCGGGCGGC-TTTGCCATTCGAATTATAGTCTAGAGAAGCGACCTCAGCGGCAGATCGGGCCCAAGTCCCCTGGAAAAATACACCAGAGAGGGTGCGAGCCCCGTTGTGCCCGGACCCTGTCGCACCACAAGGCATTGTCGGCGAGTCGGGTTGTTTGGGAATGCAACCCCAATTGGGTGGTAAATTCCGTCCAAGGCTAAATACGAGCGAGAGACCGATAGCAAACAAGTACCGCGAGGGAAAGATAAAAAGGACTTTGAAAAGAGACTCAAAGGGTGCTTGAAATTGTCGGGAGGGAAACGGATAGGTGCCGCCGATGCGCCCCGATCGGATGTGGAACGACGA-GAGCCGGTCTGCCGATCGACTCAGGGCGTAGACCAACGCGGATTGATACGAAGGCCAAAGCCCGAATTGTTGATACGCCCGTGGAATGTCGTCGTCCCGATC-GTGG-CAGAAA-GTGCACATC-TC-TGGCGTGCTC-CGACAACTACGTGCTCCCGGCGCTGGCCTGCGGGCTCCCCATTCGACCCGTCTTGAAACACGGACCAAGGAGTCTGACATGTGTGCGAGTCAACGGGTGCGAAAACCCGTAAGGCGCAAGGAAGCTGACTGGCGCGATCCCCCTGGAGGGGTGCAGTGCCGACCGACCTTGATCTTCTGAGAAGGGTTCGAGT--GAGCATACCTGTCGGGACCCGAAAGATGGTGAACTATGCCTGAGCGGGGCGAAGCCAGAGGAAACTCTGGTGGAGGCCCGCAGCGATACTGACGTGCAAATCGTTCGTCTGACTTGGGTATAGGGGCGAAAGACTAATCGAACCGTCTAGTAGCTGGTTCCCTCCGAAGTTTCCCTCAGGATAGCTGGAGCTCGAGCGCGAGTTCTATCGGGTAAAGCCAATGATTAGAGGCATCGGGGGCGCAACGCCCTCGACCTATTCTCAAACTTTAAATAGGTAGGACGGCGCGGCTGCTTTGTTGAGCCGTGCCAGGGAATCGAGAGCTCCAAGTGGGCCATTTTTGGTAAGCAGAACTGGCGATGCGGGATGAACCGGAAGCCGGGTTACGGTGCCCAACT
+Titanotrichum_oldhamii         GCGACCCCAGGTCAGGTGGGATTACCCGCTGAGTTTAAGTATATCAATAAGTGGAGGAAAACAAACTTACAAGGATTCCCCTAGTAACGGCGAGCAAACCGGGAATAGCCCAACTTGAGAATCCGGCGAC-CCTGTTACCTGAATTGTAATCTGGAGAAGCGTCCTCAGCGGAGGACCGGGACCAAGTCCCCTGGAAAGGGGTGCTAGAGAGGGTGAAAGCCCCGTTATGCCTAAACCCTGTCGCACCACAAGGCACTGTCGGCGAGTCGGGTTGTTTGGGAATGCAGCCCCAATCGGGTGGTAAATTCTGTTCAAGGCTAAATACGGGCGAGAGACCGATAGCGAACAAGTACCGTGAGGGAAAGATGAAAAGGACTTTGAAAAGAGAATCAAAGAGTGCTTGAAATTGTCGGGAGGGAAGCGAATGGGGACCGGTGATGCAGCTCGGTCAGATGTGGAACGGCGA-GAGCTGGTCCGCCAATTAACTCGGGATATGGACCAGCACGGATTGGTGCGGCGGCCAAAGCCTGGGCGGTTGATATGCTTGAGGAACGCCGTCGCGCCGATC-GTGG-TGGACATGCGCGCGC--TTACGGCGTGCTT-TGGCAACTGCGTGCTCCTGGCGCTGGCCTGCGGGCTCCCCATTCGACCCGTCTTGAAACACGGACCAAGGAGTCTGACATGTGTGCGAGTCAACGGGCCAGAAAACCCGTAAGGCGCAAGGAAGCTGACTGGCGCGATCCCCCCAGAGGGGTGCAACGCTGACCGACCTTGATCTTCTGAGAAGGGTTCGAGT--GAGCATACCTGTCGGGACCCGAAAGATGGTGAACTATGCCTGAGCGGGGCGAAGCCAGAGGAAACTCTGGTGGAGGCCCGCAGCGATACTGACGTGCAAATCGTTCGTCTGACTTGGGTATAGGGGCGAAAGACTAATCGAACCGTCTAGTAGCTGGTTCCCTCCGAAGTTTCCCTCAGGATAGCTGGAGCTCGAGCGCGAGTTCTATCGGGTAAAGCCAATGATTAGAGGCATCGGGGGCGCAACGCCCTCGACCTATTCTCAAACTTTAAATAGGTAGGACGGCGCGGCTGCTCCGTTGAGCCGCGCCAGGGAATCGAGAGCTCCAAGTGGGCCATTTTTGGTAAGCAGAACTGGCGATGCGGGAATGAACCGGAGGCCGGTTACGGTGCCCAACT
+Whytockia_sasakii              GCGATCCCAGGTCAGGCGGGATCACCCGCTGAATTTAAGCATATCAATAAGCGGAGGAAAAGAAACTTACAAGGATTCCCTTAGTAACGGCGAGCGAACCGGGAATGGCCCAACTTGAGAATCGGATGAC-CTTGTCGTTCGAATTGTAGTCTGGAGAAGCGTCCTCAGCGGCGGACCGTGCCCAAGTCCCCTGGAAAGGGGCGTCAGAGAGGGTGAGAGCCCCGTTGTGCACGGACCCTGTCGCATCACGAGGTGCTGTCGGCGAGTCGGGTTGTTTGGGAATGCAGCCCTAATTGGGCGGTAAATTCCGTCCAAGGCTAAATATAGGAGGGAGACCGATAGCGAACAAGTACCGCGAGGGAAAGATGAAAAGGACTTTGAAAAGAGAGTCAAAGAGTGCTTGAAATTGTCGGGAGGGAAGCGGATGGGGGCCGGCGATGCGACCCGGTCGGATGTGGAACGGTGA-GAGCCGGTCTGCCGATCGACTCGGGTTGTGGACCAGCACGGATTGAGGTGGCGGCCAAAGCCCAAGCAGTCGATATGCTTGAGGAATGCCGTAGCTTCGATT-GTGG-CGGACA-GCTCGCGCC-TT-TGGCGTGCCT-CGGCTACTGCGAGCTCCCGGTGTTGGCTTGTGGGCTCCCCATTCGACCCGTCTTGAAACACGGACCAAGGAGTCTGACATGTGTGCGAGTCAACGGGTGATGAAACTCGTAAGGCGAAAGGAAGCTGACTGGTGTGATCCCCT-CGATGGGTGCAACGCCGACCGACCTTGATCTTTTGAGATGGGTTCGAGT--GAGCATACCTGTCGGGACCCGAAAGATGGTGAACTATGCCTGAGCGGGGCGAAGCCAGAGGAAACTCTGGTGGAGGCCCGCAGCGATACTGACGTGCAAATCGTTCGTCTGACTTGGGTATAGGGGCGAAAGACTAATCGAACCATCTAGTAGCTGGTTCCCTCCGAAGTTTCCCTCAGGATAGCTGGAGCTCGAGTGCGAGTTCTATCGGGTAAAGCCAATGATTAGAGGCATCGGGGGCGCAACGCCCTCGACCTATTCTCAAACTTTAAATAGGTAGGACGGTGCGGCTGCTTTGATGAGCTGCACCAAGGAATCGAGAGCTCCAAGTGGGCCATTTTTGGTAAGCAGAACTGGCGATGCGGGATGAACCGGAAGCCGGGTTACGGTGCCCAACT
+;
+END;
+
+BEGIN CODONS;
+CODONPOSSET * CodonPositions (CHARACTERS = '26S Table 2,3') = 
+		N: 1-1200;
+CODONPOSSET  CodonPositions (CHARACTERS = '26S Table 2,3') = 
+		N: 1-1200;
+END;
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M693]
+
+	TITLE 'CYCPROT Table 2, 3';
+	LINK TAXA = Taxa5;
+	DIMENSIONS NCHAR=340;
+	FORMAT DATATYPE=Protein SYMBOLS= "A C D E F G H I K L M N P Q R S T V W Y" MISSING=? GAP= -;
+
+MATRIX
+[                                           10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170       180       190       200       210       220       230       240       250       260       270       280       290       300       310       320       330       340]
+[                                            .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .]
+Antirrhinum_majus_cyc               MLGFDKPSKTLDWLLTKSKTAIKEL---VQSK--------ST---KSN---SSSPCD-DCE-EVVSV-----D--SENVT----D-HSKGK-SL--KA-------NNKCKE-AMDSHQAA---AKESRAKARARARERTKEKMCIKQLNEAI--------------VL-----RNH-QFEV----SGTR--------------------------E------A-----------FV----------HP--VFGFHQQN-----------YG-NASH-------------------ENWD-QSNLS-----------------SQSNQLCAIL--NQHKFI
+Antirrhinum_majus_dich              MLGFDKPSKTLDWLLTKSKEAIKEL---VQSK--------SS---KSN--ISNSPS--ECDQEVLSA-----DLP-----YI---GSSKGKAAVGLNS--------NKCKG-GRD----AVDLAKESRAKARARARERTKEKMCIKQLNQE-RN-KS-YE-W-NPSVL-FQSK-SSQQFEV----SGPS-----------------------TN-----------YEELNQ-ESIMIKRKLK--QNHP-SMFGF-QPE----------------------------------NATENWDYYSNFT-----------------SQSNQLCAIL--DQHKFI
+Besleria_labiosa_Gcyc1              MLGFDKPSKTLEWVLKKSKAGIKEL---VQTKENSGNANASASAAKS----ISSPS--EC--EVVSAG-NYGEAPYENGSYVACAADSRKK-----------------------DPQKNVLNLAKMSRAKARARARERTREKMCIKKFNES-RNNMCGPDHLINPSSSSIHS-RN-DMFEVC--PM-SN--------------------------VASSAAAAPN-EDLIQ-ESIVIKRMLK----HPSSFFGF-QQNL-IISRDL--NCT-LPSP----------------NVSDNWD-ISSFN-----------------SQSN-LCDIL--DQHKFI
+Calceolaria_arachnoidea_Ccyc1       MLGFDKPSKTLEWLLTKSKSAIKE------TK-E-----------KC---TSSSPS--EC----VSAG-N-GE-------FL----DSKGK-S----------------KGSGKE----ALNLAKESRDKERARARERTREKMNLKKLDES-----------------------N-QVFD---------------------------HFPS-SS---------TA-EDLIR-ESILVKRMMR----HP-SIFGF-QQND-TVSRH--SNFNNFQSH----------------NVNENWD-LSNLN-----------------SQSN-LSDIL--DQHKFI
+Calceolaria_arachnoidea_Ccyc2       MLGFDKPSKTLDWLLTKSKAAIKEL---VQNK-Q-------GTD-KN-------IY--ECD-EV-----------IENGN------ISKRK-S--------------KCKGVVKDP---ALNSVKESRDKARARARERTREKVNAKKIDEC-RNNMCSSD-L------------N-NMF-------SSN-------------------FSL-PN-E-----AVVT-EDFTQ-ESILIKRMMK----NP-SIFGF-QQNI-GG--------S-FPCPN---------------NVGENWD-MSSLN-----------------SQTN-LCDIL--DQHKFI
+Chrysothemis_pulchella_Gcyc1        MLGFDKPSKTLDWLLTKSKAAIKEL---VQAK-KS----GSGSA-KS----ISSPS--EC--EVVSAG-N-GET-FENGSYL--DADSKKK-SLPVNP-------NYKCKEYSKDPQQSALNLAKVSRAKARARARERTREKMCIKKLNES-RS-MD-PD-L-NPSNQ-IQ---------------------------------PTLHCPL-TNNV----PAATT-EDLIQ-ESIVIKRMLK---QYP-PFFGF-QQNL-IISRDL--NCH-LPSP----------------NINDNWD-INSLT-----------------SQSN-LCDIL--DQHKFI
+Cyrtandra_apiculata_Gcyc1           MLGFDKPSKTLEWLLTKSKVAIKDL---VHTK-KS------SSA-RS----TSSPS--EC--GVVL---N-GEA-FENGSCLL-GADLKRK-SVSMNA--------NKCKG-AKDPTQSASTLAKESRAKARARARERTKEKMCIKKQNES-RN-MC-SN-L-NPSVP-IQ--RN-NLFEVCR-PFASN---------------SILHCPI-TN-EATASTVAATHEDLIQ-ESNVIKRMLR---HHS-SFFGF--------------HCS-LPSP----------------NVNENWD-VSSLT-----------------SQSN-FCDIL--DQHKFI
+Cyrtandra_apiculata_Gcyc2           MLGFDKPSKTLEWLLTKSKTAIKEL---VQIK-KS---DAPTCTNKR----ISSPS--GC--EV-----I-E---LENGNYL--DADYNGN-LVPANT--------YRCRR-AKDAQQDVWNLAKDSRAKARTRARERTREKMCMKKLTES-SN-MA-SD-L-NLSIP-SQA-RK-SFSEVCKVPP-SN-------------TEPRLHFPL-TN------TAAAT-EDLIQ-ESLVIRRMLK----HN-SMLGF-QQN-----------------------------------VNQNWD-ISSLT-----------------ARSN-LCDIL--DQHKFI
+Didymocarpus_citrinus_Gcyc1C        MLGFDKPSKTLDWLLTKSKVAIKDL---LHTK-KS------SSA-RS----TSSPS--EC---VGL---N-GKD-FEYGSRLL-PADSKRK-SELMNA--------NKCKG-AKDPTQSASTLSKESRAKARARARERTKEKMCIKKLNES-RN-L------------------N-SLFEVHR-PSSSN-------------SQPILHCPI-SN-EATAATVAAT-EHLIQ-ESNVVKRMLRHHYYHP-SFFGF--------------HCS-FPSP------------------NENWD-VSSLT-----------------SQTN-FCDIL--DQHKFI
+Didymocarpus_citrinus_Gcyc1D        MLGFDKPSKTLEWLLTKSKVAIKDL---VHAK-KS------SSA-RG----TSSPS--EC--EVVL---N-GEA-FENGTCLV-GADSKRK-WVSINA--------NKCKG-AKDPSQSASTLAKESRAKARARARERTKEKMCIKQLNES-RN-MG-SI-L-NPSVP-IQ--RN-NLFEVCR-PSASN---------------SILLCPI-TS-EATTATVAATHEDLIQ-DSNVIKRMLR---HHS-SFFGF--------------HCS-LPAP----------------NVNEDWN-VSSLT-----------------SQSN-FCDIL--DQHKFI
+Epithema_benthamii_Gcyc1            MLGFDKPSKTLEWLLTKSKAAIKDL---VLSK-KC----ASSSA-KS----TSSPS--E----VV----N-GED-FETGNSLV--ADSKRK-LVVT-----------RCRG-GKDPQLAVPNHEKESRAKARARAMERTKEKMCMKKLNET-RN-LG-PD-V-NPAMP-MQ---------------------------------PIFQCPL-TN-E----AASN--EDLIQ-ESFTVRRMSK---HQP--FFGF-QQ-------------------------------------NENWD-ITSLP-----------------SQSN-LCDIL--DQHKFI
+Epithema_benthamii_Gcyc2            MLGFDKPSKTLEWLLTKSKAAINEL---VQMK-KS---TTSTST--S-------AR--EC--QAPSTG-NDTQA-LENG---------------------------NKCKR-GKDLP---LNVAKESRVKARARARERTQEKMCIKKLNES-RN-L-SSG-L-HSSDP-IQS-RN----------------------------------HL-NN-I----SAASS-DDLIQ-ESVLIKRMLK----DP-SFFGF-QENL-IISRDL--SYS-IPYD----------------SANENWD-ISTLS-----------------EQSN----IL--DQHKFI
+Fieldia_australis_Gcyc1E            MLGFDKPSKTLEWLLTKSKAAIKEL---MQTK-KR----ASASA-KS----ISSPS--EC--EVVSAG-N-GEA-FENGNYL--DADSKRK-SVLLNA--------YKCKE-AKDPQQAALNLAKVSRAKARARARERTREKMCIKKLNES-RN-LD-PD-L-NPSNP-IQF-RN-NLFEICKL-SASN-------------SEPILHCPL-TN-V----AAAAT-EDLIQ-ESIVIKRMLK----HP-SFFGF-QQNL-IISRDL--NCS-LPSP----------------NINDNWD-ISSLT-----------------SQSN-LCDIL--DQHKFI
+Fieldia_australis_Gcyc1F            MLGFDKPSKTLEWLLTKSKSAIKEL---VQTK-KS----GSASA-KS----ISSPS--ES--EVVSAG-N-GEA-FENGNYV--GAD-----DRPLNYQKNFKLNAYNCKE-AKDPQQAAINLAKVSRSKARARARERTREKMCIKNLNES-RN-MD-LD-L-NPS-T-IQS-RN-NLFEVCKL-SASN-------------IQPLLHCPL-TN-E----TAAAT-EDLIQ-ESIVIKRMLK----HP-SFFGF-QQNL-TISRDL--NCS-LPSP----------------NINDNWD-INSLT-----------------SQSN-ICDIL--DQHKFI
+Gesneria_humilis_Gcyc1              MLGFDKPSKTLDWLLSKSKAAIKEL---VQAK-KS----GSGSA-KC----ISSPS--EC--EVVSAG-T-GET-FENVSYL--DADSKKK-SLSLNP-------IYKCKEYSKDPQQSALNLAKVSRAKARARARERTREKMCIKKLNES-RN-MD-PD-L-NPSNQ-IQ---------------------------------PTLHCPL-TNSV----PAATT-EDLIQ-ESIVIKRMLK---QYP-SFFGF-QQNL-IMSRDL--NCN-LPSP----------------NINDNWD-INSLT-----------------SQSN-LCDIL--DQHKFI
+Jovellana_punctata_Ccyc2            MLGFDKPSKTLEWLLTTSKADIKEL---VQTK-Q-------STA-KN-------IS--EC--EAVS---N-GEV-LENGNCVW--ADLKRK-S--------------KCIG-VNDP---ALNLAKESRDKARARARERTREKVNAKKLDEC-RRNMGSSD-L------------N-NLF---------NT-----------------HFPL-PN-E-----AAAT-EDFTQ-ESVLIKRMMK----LP-SIFGF-QQNL-SS--------S-FPCS----------------NVGENWD-ISNLN-----------------SQSN-RCDIL--DQHKFI
+Kohleria_eriantha_Gcyc1             MLGFDKPSKTLDWLLTKSKAAIKEL---VQAK-KS----GSGSA-KS----ISSPS--EC--EVVSAG-T-GET-FENGSYL--DADSKKK-SLPLNS-------NYNCKEYSKDPQQSALNLAKVSRAKARARARERTREKMSIKKLNES-RN-MN-PD-L-NPSNQ-IQ---------------------------------PTLHCPL-TNSV----PAATN-EDLIQ-ESIVIKRMLK---QYP-SFFGF-QQNL-IISRDL--NCN-LPSP----------------NINYNWD-VNSLT-----------------SQSN-LCDIL--DQHKFI
+Loxostigma_sp._Gcyc1C               MLGFDKPSKTLEWLLTKSKAAIKDL---VHTK-KS------SSS-RS----TSSPS--EC--EVVL---N-REA-FEFGSCLL-PADSKRK-SVLMNA--------NKCKG-AKDPTQSASTLAKESRAKARARARERTKEKMGIKKLNES-RN-M------------------N-NLFEVCR-PSASN-------------IQPILHCPI-TN-EATADTVVAT-KHLIQ-ESNVVKRMLR---HHP-SFFGF--------------HCS-LPST----------------NVNDNWD-VSSLT-----------------SQSN-FCDIL--DQHKFI
+Loxostigma_sp._Gcyc1D               MLGFDKPSKTLEWLLTKSKVAIKDL---VHTK-KS------SSA-RS----TSSPS--EC--EVVL---N-DEA-FENGSYLL-GADSKRK-WVSMNA--------NKCKG-AKDPTQSASTLAKESRAKARARARERTKEKMCIKKLNES-RN-MG-SN-L-NPSVP-IQ--RN-NLFEVCR-PSASN---------------SFLHCSI-TN-EATAATVAATHEDLIQ-ESNVIKRMLR---HHS-SFFGL--------------YCS-LPSP----------------NVNENWD-ASSLT-----------------SQSN-FCDIL--DQHKFI
+Mitraria_coccinea_Gcyc1E            MLGFDKPSKTLEWLLTKSKAAIKEL---VQTK-KS----ASASA-KS----ISSPS--EC--EVVSAG-N-GEA-FENGNYL--GADSNRK-SVLLNA--------YKCKE-AKDPQQPALNLAKVSRAKARARAREGTREKMCIKKLNES-RY-MD-PD-S-NPSNP-IQS-RN-NLIEICKS-SASN-------------SEPILHCPL-TN-V----AAAST-EDLIQ-ESIVIKRMLK----HP-SFFGY-QQNL-IISRDL--NCS-LPSP----------------NINDNWD-ISSLT-----------------SQSN-LCDIL--DQHKFI
+Napeanthus_reitzii_Gcyc1            MLGFDKPSKTLEWLLTKSKAAIKEL---VHTK-KS----ASASA-KS----NSSPS--EC--EVVSAG-N-GEA-FDYGNYL--GADSKKK-SALMNA--------YKCKG-PKDPQQAALNLAKESRAKARARARERTREKMSIKKLNES-IN-LV-PD-L-NPSNP-IQS-TN-NPFD--------------------------LHCPL-TN-V----AAPET-EDLIQ-ESIVIKRMLK----HP-SFFGF-QQNL-IISRDL--NCS-LPSA----------------NINENWD-ISSIT-----------------SQSN-LCDIL--DQHKFI
+Nicotiana_tabacum_cyc1              MLGFDKPSKTLDWLFTKSKLAIEELTT-AQIK-ITS-PNESSAAKKST-SSIN----SECE-DVVLA--------------------------------------RAKQEE------AILNLVARESRAKARARARERTIKKIWAQI--EA-KLN--------SSSVV-----KEQTKID--------------------EI-----------------------KEM-IH-GSVLVERKNI---------------------KSSSSTWVFITRISVVLKRLQLIRTTIAPLLPEIGI------MM------------------------L-IEQ----
+Nicotiana_tabacum_cyc2              ILGFDKPSKTLDWLFTNSKLAIEELANWSTH--QDHHPK-IAGATKSSCNETAKDCASQCE-DLAIT---------TN-------EGSERK--------------PKRAKE-KKEVKDDLVLVARESRAKARARARERTIKKMWSRI--ETSQRS--TSQ-L-IRSSF------HPNF--------------------SAPI------------------------------ES------------------------STTYYGSSSFN-------------------------TENLD--KGTT-SE-LQ----GRW-------KQL-DSCHSNQ----
+Paulownia_tomentosa_Pcyc1           MLGFDKPSKTLDWLLTKSKTAIKHL---VQTK-QH----TTAGA-KS----VSSPS--EC--EVESEG-N-GEA-FENGKSL--GADSKGK-SVMMKA--------NKHKG-GKDPQQAALNLAKESRVKARARARERTREKLCIKQLNES-RN-TG-YD-L-NPSIP-IQY-MN-NQLEVCKI-SGSTS------KVDAGI----LHCPP-TY-E------AATHEDLIQ-ESIVIKRKVK----HP-SIFGF-QPNH-IISRDSSSNYS-IPSPY---------------NSTENWD-ISNFT-----------------SQSN-ICAIL--DQHKFI
+Paulownia_tomentosa_Pcyc2           MLGFDKPSKTLDWLLTKSKAAIKEL---VQTK-QN----ASASA-KSS----SSSS--EC--ELLSSVGN-GDV-FEYGNSL--GAGSKRK-F-G-----------NKHKG-AKDPQQAASNLAKESRAKARARARERTREKMCIKQLNGA-RN-TG-SD-L-NPSIP-MQY-RN-NQLEVFQLSAGSSSNNLSCLKANAGIREPIFHCPL-TN-E------AAT-EDLIQ-ESIVIKRKSK----NP-SFFGF-QQNL-IVSRDLSSNYG-IPSA----------------NTTENWD-ICSFT-----------------SQSN-LCAIL--DQHKFI
+Ramonda_myconi_Gcyc1                MLGFDKPSKTLDWLLTKSKVAIKDL---VHTK-KSSS--PSASA-RG----ISSPS--EC--EVVL---N-GE-------------DSKKK-----------------SKE-AKDPTQIASTLAKESRAKARARARERTKEKMCIKKLNES-GK-MV-SH-L-SPTI-------------------------------------PI-HCPIMTD-E------ATN--DMIQ-ESNLIKRMMR---PHP-SIFGF--------------HR----------------------DVNENWD-ISSLT----------------SSQSN-FCDIL--DQHKFI
+Ramonda_myconi_Gcyc2                MLGFDKPSKTLEWLLTKSKAAIKEL---VQMK-KN---DSTTCTNMS---VVSSPS--DC--D---------------GNYI--DPDSNA----PANYFA------YGCGR-TKDPQQDVMNLAKESRAKARARARERTREKMCKKKLNDS-RN-MASPSSL-NFPLA-----NN-------------------------------------TA-A----AAAAT-EELIH-ESLVIRRMLK--QNH--SNFGF-HQN-----------------------------------LNQNWD-MSNLT-----------------AQSE-LCDIL--DQHKFI
+Schizanthus_x_wisetonensis_cyc1     MLGFDKPSKTLDWLFTNSKLAIDDL---------------ITRA-KS---AIS-----QC-HEETI----------NEAN-----PPAKTK--TSSHD---------HQKQEAKT----LHVLARESRDKARARARERTINKLWPR-LVGG-KK---------SNSSL-----KEHTQMD-------------------KPIC------------------------------------------VKPSLILGFHGQNLTTAPKGSISNYS-NCFSN-----------------TQNWD-VSNTLMSSSLSAAMTTSANNYSSQ---VFQSC--DQ----
+Schizanthus_x_wisetonensis_cyc2     MLGFEKPSKTLDWLFTNSKLAIEVL---------------SAR--KNPASSIS-----QCEQKPPV-----DQIA-KS-----------------STG--------KKQKQ-VKTHDQATVL-ARESRARARARARERTINKMWTRIVTG--KRS------------LSC----PH--MD------------------IQPLCDY--------------------KRA---CDS-AIKEMMI----KPWVILGF-------SPKSQSSNHGFFCCCY---------------TTT-----------------------------------TL--------
+Scrophularia_canina_Scyc1           MLGFDKPSRTLDWLLTESKPAIKELA-------------ASGRGNKSR---ISSPSD-QC--EVVSV---------ENASS--DSKSTKGK-----------------------EPRHQLADLAKESRAKARARASERTREKMCIKQINGA-TN-TTLHE--------------HQIPFRV-----SSN---------------------------------SST-GNH--HE-----GMVN-------SIFEF-QQNL-FVSRDFTSNHNMNPTH-------------------ENWD----------------------------VCAIL--DQHKFI
+Scrophularia_canina_Scyc2           MLGFDKPSKTLDWLLTESKASIKDL---ILKK-KS---------QNGV--VSSSPF--EC--EVISSR-N-----LE---------HSNRK-SICL--------------------------SAKEMRVKARARARERTREKMCIKQLNEAIRRN-G-YD-L-SPSIP-IHYNMNNNN-----------CNNG-------GISESIFDYPI-NY-E-----ASSNHEDLI-HESILIRRKFK---QYPPSIFGF-QHNL-IFSRDSSSN----ATP----------------FTTQS-D----------------------------VWAIL--DQHKFI
+Sinningia_schiffneri_Gcyc1          MLGFDKPSKTLDWLLIKSKAAIKEL---VQAK-KS----GS--A-KS----ISSPS--EC--EVVFAG-N-GET-FENGSYL--DAESKKK-SMPLNP-------NYKCKEYSKDPQQSALNLAKVSRAKARARARERTKEKMCIKKLNES-RN-MD-PD-L-NPSNQ-IQ---------------------------------PTLHCHL-TNNV----SAATT-EDLIQ-ESIVFKRMLK---QYP-SFFGF-QQNL-IISRDL--NCN-LPSP----------------NINDNWD-INSLT-----------------SQSN-LCDIL--DQHKFI
+Streptocarpus_holstii_Gcyc1A        MLGFDKPSKTLDWLLTKSKVAIKDL---VLNK-TS------SSS-RS----TSSPS--EC--EVVL---N-GEA-FEDGNCLP-HPDS-RK-SSSMNA--------KKC----KDPAQRASKLAKESRAKARARARERTKEKMCIKKLNES-RN-M-----------------NN-NFF-------ASD-------------SHPVFHCPI-TN-EAT-----ATHEDLIQ-ESSVIKRMLR---HHQSSFFGF--------------QFG-LPSP----------------YVNENWD-VGSLT-----------------SQSN-LCDIL--DQHKFI
+Streptocarpus_holstii_Gcyc1B        MLGFDKPSKTLDWLLTKSKVAIKDL---VLTN-KS------SSS-RS----PSSPS--EC--EVAL---N-DEA-FQDGSCLL-PPDSKRN-SAST----------------ARDPAQSASTLAKESRAKARARARERTKEKLCIKKLNES-RN-M-----------------NN-NLF-------TSN-------------SQPVLHCPI-TN-EAT-----ATQQDLIQ-ESSVIKRMLR---HHQ-SFFGF--------------HCAALPSP----------------DVNENWD-AGSLT-----------------SQSN-LCDIL--DQHKFI
+Tetranema__mexicanum_Tcyc2          MLGFDKPSKTLDWLLTKSKAAIKEL---VQSK----------SA-KS---ASSSPS--ECE-EVVSAGGN-GEA-SENGNYL--GADSKGK-SVLLSS--------NKCKG-AKDSQQAALNLAKESRAKARARARERTKEKMCIKQLNEA-RN-KGSSD-W-NPSIL-IQSKHHH-QFEV----SGSR--------------EPILHYPL-AY-E------AAT-EDLIHHESIMIKRKLK----HP-SISALHQQNL-SGSRNLNSNCS-IPSA----------------SATENWD-YSNFI-----------------AQSNQLCAIL--DQHKFI
+Titanotrichum_oldhamii_Gcyc1        MLGFDKPSKTLEWLLTKSKAAIKEL---VQTK-KST----SASA-KS----ISSPS--EC--EVVSAG-H-GET-FENRNYL--GADSKKK-SVLLNS--------YKCKE-AKDPQQAALNLAKVSRAKARARARERTREKMCIKKLNES-RN-MG-PD-L-NP----IQS-RN-NLFEACKL-SASN-------------SDPILHCPL-TN-V----AAAAT-EDLIQ-ESIVIKRMLK----HP-SFFGF-QQNL-IISRDL--NCS-IPSP----------------NVNDNFD-ISSLT-----------------SQSN-LCDIL--DQHKFI
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb6644;
+      LINK TAXA = Taxa2;
+         TRANSLATE
+            1    Scrophularia_canina,
+            2    Rehmannia_glutinosa,
+            3    Peltanthera_floribunda,
+            4    Calceolaria_arachnoidea,
+            5    Jovellana_punctata,
+            6    Besleria_labiosa,
+            7    Napeanthus_reitzii,
+            8    Titanotrichum_oldhamii,
+            9    Fieldia_australis,
+            10   Mitraria_coccinea,
+            11   Kohleria_eriantha,
+            12   Chrysothemis_pulchella,
+            13   Sinningia_schiffneri,
+            14   Gesneria_humilis,
+            15   Rhynchoglossum_hologlossum,
+            16   Whytockia_sasakii,
+            17   Epithema_taiwanense,
+            18   Epithema_benthamii,
+            19   Ramonda_myconi,
+            20   Streptocarpus_holstii,
+            21   Didymocarpus_citrinus,
+            22   Cyrtandra_apiculata,
+            23   Loxostigma_sp.,
+            24   Paulownia_tomentosa,
+            25   Tetranema_mexicana,
+            26   Antirrhinum_majus,
+            27   Nicotiana_tabacum,
+            28   Schizanthus_x_wisetonensis;
+      TREE atpB_MP = [&R] (28,(27,(((((26,(3,(4,5),((6,7,(8,((15,(16,(17,18))),(19,(20,((21,22),23))))),((10,11),12,13,14)),9))),24),25),1),2)));
+
+
+
+END;
+BEGIN TREES;
+      TITLE Tb6652;
+      LINK TAXA = Taxa2;
+         TRANSLATE
+            1    Scrophularia_canina,
+            2    Rehmannia_glutinosa,
+            3    Peltanthera_floribunda,
+            4    Calceolaria_arachnoidea,
+            5    Jovellana_punctata,
+            6    Besleria_labiosa,
+            7    Napeanthus_reitzii,
+            8    Titanotrichum_oldhamii,
+            9    Fieldia_australis,
+            10   Mitraria_coccinea,
+            11   Kohleria_eriantha,
+            12   Chrysothemis_pulchella,
+            13   Sinningia_schiffneri,
+            14   Gesneria_humilis,
+            15   Rhynchoglossum_hologlossum,
+            16   Whytockia_sasakii,
+            17   Epithema_taiwanense,
+            18   Epithema_benthamii,
+            19   Ramonda_myconi,
+            20   Streptocarpus_holstii,
+            21   Didymocarpus_citrinus,
+            22   Cyrtandra_apiculata,
+            23   Loxostigma_sp.,
+            24   Paulownia_tomentosa,
+            25   Tetranema_mexicana,
+            26   Antirrhinum_majus,
+            27   Nicotiana_tabacum,
+            28   Schizanthus_x_wisetonensis;
+      TREE combined_ML = [&R] (28,(27,((26,25),(((24,2),1),((3,((6,7,(8,((9,10),(((11,14),13),12)))),((15,(16,(17,18))),(19,(20,((21,23),22)))))),(4,5))))));
+
+
+
+END;
+BEGIN TREES;
+      TITLE Tb6645;
+      LINK TAXA = Taxa3;
+         TRANSLATE
+            1    Antirrhinum_majus,
+            2    Besleria_labiosa,
+            3    Calceolaria_arachnoidea,
+            4    Chrysothemis_pulchella,
+            5    Cyrtandra_apiculata,
+            6    Didymocarpus_citrinus,
+            7    Epithema_benthamii,
+            8    Epithema_taiwanense,
+            9    Fieldia_australis,
+            10   Gesneria_humilis,
+            11   Jovellana_punctata,
+            12   Kohleria_eriantha,
+            13   Loxostigma_sp.,
+            14   Mitraria_coccinea,
+            15   Napeanthus_reitzii,
+            16   Nicotiana_tabacum,
+            17   Paulownia_tomentosa,
+            18   Peltanthera_floribunda,
+            19   Ramonda_myconi,
+            20   Rehmannia_glutinosa,
+            21   Rhynchoglossum_hologlossum,
+            22   Schizanthus_x_wisetonensis,
+            23   Scrophularia_canina,
+            24   Sinningia_schiffneri,
+            25   Streptocarpus_holstii,
+            26   Tetranema_mexicana,
+            27   Titanotrichum_oldhamii,
+            28   Whytockia_sasakii;
+      TREE trnL_ML = [&R] (22,(16,(((1,26),(18,(3,11),((2,15,27,((9,14),((12,10),(4,24)))),((21,(28,(8,7))),(19,(25,((6,13),5))))))),((17,20),23))));
+
+
+
+END;
+BEGIN TREES;
+      TITLE Tb6651;
+      LINK TAXA = Taxa2;
+         TRANSLATE
+            1    Scrophularia_canina,
+            2    Rehmannia_glutinosa,
+            3    Peltanthera_floribunda,
+            4    Calceolaria_arachnoidea,
+            5    Jovellana_punctata,
+            6    Besleria_labiosa,
+            7    Napeanthus_reitzii,
+            8    Titanotrichum_oldhamii,
+            9    Fieldia_australis,
+            10   Mitraria_coccinea,
+            11   Kohleria_eriantha,
+            12   Chrysothemis_pulchella,
+            13   Sinningia_schiffneri,
+            14   Gesneria_humilis,
+            15   Rhynchoglossum_hologlossum,
+            16   Whytockia_sasakii,
+            17   Epithema_taiwanense,
+            18   Epithema_benthamii,
+            19   Ramonda_myconi,
+            20   Streptocarpus_holstii,
+            21   Didymocarpus_citrinus,
+            22   Cyrtandra_apiculata,
+            23   Loxostigma_sp.,
+            24   Paulownia_tomentosa,
+            25   Tetranema_mexicana,
+            26   Antirrhinum_majus,
+            27   Nicotiana_tabacum,
+            28   Schizanthus_x_wisetonensis;
+      TREE 3gene_combined = [&R] (28,(27,((26,25),(((24,2),1),((3,(((6,8),(7,((9,10),((11,14),(12,13))))),((15,(16,(17,18))),(19,(20,(21,(22,23))))))),(4,5))))));
+
+
+
+END;
+BEGIN TREES;
+      TITLE Tb6646;
+      LINK TAXA = Taxa3;
+         TRANSLATE
+            1    Antirrhinum_majus,
+            2    Besleria_labiosa,
+            3    Calceolaria_arachnoidea,
+            4    Chrysothemis_pulchella,
+            5    Cyrtandra_apiculata,
+            6    Didymocarpus_citrinus,
+            7    Epithema_benthamii,
+            8    Epithema_taiwanense,
+            9    Fieldia_australis,
+            10   Gesneria_humilis,
+            11   Jovellana_punctata,
+            12   Kohleria_eriantha,
+            13   Loxostigma_sp.,
+            14   Mitraria_coccinea,
+            15   Napeanthus_reitzii,
+            16   Nicotiana_tabacum,
+            17   Paulownia_tomentosa,
+            18   Peltanthera_floribunda,
+            19   Ramonda_myconi,
+            20   Rehmannia_glutinosa,
+            21   Rhynchoglossum_hologlossum,
+            22   Schizanthus_x_wisetonensis,
+            23   Scrophularia_canina,
+            24   Sinningia_schiffneri,
+            25   Streptocarpus_holstii,
+            26   Tetranema_mexicana,
+            27   Titanotrichum_oldhamii,
+            28   Whytockia_sasakii;
+      TREE Tita_trnL = [&R] (22,(16,(((((1,26),((17,20),23)),(3,11)),18),((2,15,27,((9,14),(((12,10),24),4))),((21,(28,(8,7))),(19,(25,((6,13),5))))))));
+
+
+
+END;
+BEGIN TREES;
+      TITLE Tb6643;
+      LINK TAXA = Taxa2;
+         TRANSLATE
+            1    Scrophularia_canina,
+            2    Rehmannia_glutinosa,
+            3    Peltanthera_floribunda,
+            4    Calceolaria_arachnoidea,
+            5    Jovellana_punctata,
+            6    Besleria_labiosa,
+            7    Napeanthus_reitzii,
+            8    Titanotrichum_oldhamii,
+            9    Fieldia_australis,
+            10   Mitraria_coccinea,
+            11   Kohleria_eriantha,
+            12   Chrysothemis_pulchella,
+            13   Sinningia_schiffneri,
+            14   Gesneria_humilis,
+            15   Rhynchoglossum_hologlossum,
+            16   Whytockia_sasakii,
+            17   Epithema_taiwanense,
+            18   Epithema_benthamii,
+            19   Ramonda_myconi,
+            20   Streptocarpus_holstii,
+            21   Didymocarpus_citrinus,
+            22   Cyrtandra_apiculata,
+            23   Loxostigma_sp.,
+            24   Paulownia_tomentosa,
+            25   Tetranema_mexicana,
+            26   Antirrhinum_majus,
+            27   Nicotiana_tabacum,
+            28   Schizanthus_x_wisetonensis;
+      TREE atpB_ML = [&R] (28,(27,(((26,(24,2)),(25,1)),(3,(4,5),((6,7,8,(((10,11),12,13),14),((15,(16,(17,18))),(19,(20,((21,22),23))))),9)))));
+
+
+
+END;
+BEGIN TREES;
+      TITLE Tb6642;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Whytockia_sasakii,
+            2    Titanotrichum_oldhamii,
+            3    Tetranema_mexicana,
+            4    Streptocarpus_holstii,
+            5    Sinningia_schiffneri,
+            6    Scrophularia_canina,
+            7    Schizanthus_x_wisetonensis,
+            8    Rhynchoglossum_hologlossum,
+            9    Rehmannia_glutinosa,
+            10   Ramonda_myconi,
+            11   Peltanthera_floribunda,
+            12   Paulownia_tomentosa,
+            13   Nicotiana_tabacum,
+            14   Napeanthus_reitzii,
+            15   Mitraria_coccinea,
+            16   Loxostigma_sp.,
+            17   Kohleria_eriantha,
+            18   Jovellana_punctata,
+            19   Gesneria_humilis,
+            20   Fieldia_australis,
+            21   Epithema_taiwanense,
+            22   Epithema_benthamii,
+            23   Didymocarpus_citrinus,
+            24   Cyrtandra_apiculata,
+            25   Chrysothemis_pulchella,
+            26   Calceolaria_arachnoidea,
+            27   Besleria_labiosa,
+            28   Antirrhinum_majus;
+      TREE Tita_26S = [&R] (7,(13,((28,3),(((12,9),6),((11,(((27,2),(14,((20,15),((17,19),(25,5))))),((8,(1,(21,22))),(10,(4,(23,(24,16))))))),(26,18))))));
+
+
+
+END;
+BEGIN TREES;
+      TITLE Tb6648;
+      LINK TAXA = Taxa4;
+         TRANSLATE
+            1    Kohleria_eriantha_Gcyc1,
+            2    Loxostigma_sp._Gcyc1C,
+            3    Loxostigma_sp._Gcyc1D,
+            4    Mitraria_coccinea_Gcyc1E,
+            5    Napeanthus_reitzii_Gcyc1,
+            6    Nicotiana_tabacum_cyc1,
+            7    Nicotiana_tabacum_cyc2,
+            8    Paulownia_tomentosa_Pcyc1,
+            9    Paulownia_tomentosa_Pcyc2,
+            10   Ramonda_myconi_Gcyc1,
+            11   Ramonda_myconi_Gcyc2,
+            12   Schizanthus_x_wisetonensis_cyc1,
+            13   Schizanthus_x_wisetonensis_cyc2,
+            14   Scrophularia_canina_Scyc1,
+            15   Scrophularia_canina_Scyc2,
+            16   Sinningia_schiffneri_Gcyc1,
+            17   Streptocarpus_holstii_Gcyc1A,
+            18   Streptocarpus_holstii_Gcyc1B,
+            19   Tetranema__mexicanum_Tcyc2,
+            20   Titanotrichum_oldhamii_Gcyc1,
+            21   Antirrhinum_majus_cyc,
+            22   Antirrhinum_majus_dich,
+            23   Besleria_labiosa_Gcyc1,
+            24   Calceolaria_arachnoidea_Ccyc1,
+            25   Calceolaria_arachnoidea_Ccyc2,
+            26   Chrysothemis_pulchella_Gcyc1,
+            27   Cyrtandra_apiculata_Gcyc1,
+            28   Cyrtandra_apiculata_Gcyc2,
+            29   Didymocarpus_citrinus_Gcyc1C,
+            30   Didymocarpus_citrinus_Gcyc1D,
+            31   Epithema_benthamii_Gcyc1,
+            32   Epithema_benthamii_Gcyc2,
+            33   Fieldia_australis_Gcyc1E,
+            34   Fieldia_australis_Gcyc1F,
+            35   Gesneria_humilis_Gcyc1,
+            36   Jovellana_punctata_Ccyc2;
+      TREE CYC_ML = [&R] (12,(((13,7),6),(14,(15,(((21,22),19),(((24,36),25),((32,(((11,16),((28,(23,20)),(5,(((33,26),34),4)))),(31,(((10,17),(18,2)),((29,3),27))))),(1,(35,30)))))),9,8)));
+
+
+
+END;
+BEGIN TREES;
+      TITLE Tb6649;
+      LINK TAXA = Taxa4;
+         TRANSLATE
+            1    Kohleria_eriantha_Gcyc1,
+            2    Loxostigma_sp._Gcyc1C,
+            3    Loxostigma_sp._Gcyc1D,
+            4    Mitraria_coccinea_Gcyc1E,
+            5    Napeanthus_reitzii_Gcyc1,
+            6    Nicotiana_tabacum_cyc1,
+            7    Nicotiana_tabacum_cyc2,
+            8    Paulownia_tomentosa_Pcyc1,
+            9    Paulownia_tomentosa_Pcyc2,
+            10   Ramonda_myconi_Gcyc1,
+            11   Ramonda_myconi_Gcyc2,
+            12   Schizanthus_x_wisetonensis_cyc1,
+            13   Schizanthus_x_wisetonensis_cyc2,
+            14   Scrophularia_canina_Scyc1,
+            15   Scrophularia_canina_Scyc2,
+            16   Sinningia_schiffneri_Gcyc1,
+            17   Streptocarpus_holstii_Gcyc1A,
+            18   Streptocarpus_holstii_Gcyc1B,
+            19   Tetranema__mexicanum_Tcyc2,
+            20   Titanotrichum_oldhamii_Gcyc1,
+            21   Antirrhinum_majus_cyc,
+            22   Antirrhinum_majus_dich,
+            23   Besleria_labiosa_Gcyc1,
+            24   Calceolaria_arachnoidea_Ccyc1,
+            25   Calceolaria_arachnoidea_Ccyc2,
+            26   Chrysothemis_pulchella_Gcyc1,
+            27   Cyrtandra_apiculata_Gcyc1,
+            28   Cyrtandra_apiculata_Gcyc2,
+            29   Didymocarpus_citrinus_Gcyc1C,
+            30   Didymocarpus_citrinus_Gcyc1D,
+            31   Epithema_benthamii_Gcyc1,
+            32   Epithema_benthamii_Gcyc2,
+            33   Fieldia_australis_Gcyc1E,
+            34   Fieldia_australis_Gcyc1F,
+            35   Gesneria_humilis_Gcyc1,
+            36   Jovellana_punctata_Ccyc2;
+      TREE TITACYC_MP = [&R] (12,((13,6),(7,(14,(15,((9,((21,(22,19)),(((24,36),25),((32,(11,28)),((23,(5,((20,(33,4)),(34,((26,(1,35)),16))))),(31,(10,(((17,18),(29,2)),((30,3),27))))))))),8))))));
+
+
+
+END;
+BEGIN TREES;
+      TITLE Tb6647;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Whytockia_sasakii,
+            2    Titanotrichum_oldhamii,
+            3    Tetranema_mexicana,
+            4    Streptocarpus_holstii,
+            5    Sinningia_schiffneri,
+            6    Scrophularia_canina,
+            7    Schizanthus_x_wisetonensis,
+            8    Rhynchoglossum_hologlossum,
+            9    Rehmannia_glutinosa,
+            10   Ramonda_myconi,
+            11   Peltanthera_floribunda,
+            12   Paulownia_tomentosa,
+            13   Nicotiana_tabacum,
+            14   Napeanthus_reitzii,
+            15   Mitraria_coccinea,
+            16   Loxostigma_sp.,
+            17   Kohleria_eriantha,
+            18   Jovellana_punctata,
+            19   Gesneria_humilis,
+            20   Fieldia_australis,
+            21   Epithema_taiwanense,
+            22   Epithema_benthamii,
+            23   Didymocarpus_citrinus,
+            24   Cyrtandra_apiculata,
+            25   Chrysothemis_pulchella,
+            26   Calceolaria_arachnoidea,
+            27   Besleria_labiosa,
+            28   Antirrhinum_majus;
+      TREE 26S_ML = [&R] (7,(13,((28,3),(((12,6),((11,((((26,18),1),((10,16),((4,23),24))),(8,(21,22)))),(27,(14,(2,((20,15),(((17,19),5),25))))))),9))));
+
+
+
+END;
+BEGIN TREES;
+      TITLE Tb6650;
+      LINK TAXA = Taxa5;
+         TRANSLATE
+            1    Antirrhinum_majus_cyc,
+            2    Antirrhinum_majus_dich,
+            3    Besleria_labiosa_Gcyc1,
+            4    Calceolaria_arachnoidea_Ccyc1,
+            5    Calceolaria_arachnoidea_Ccyc2,
+            6    Chrysothemis_pulchella_Gcyc1,
+            7    Cyrtandra_apiculata_Gcyc1,
+            8    Cyrtandra_apiculata_Gcyc2,
+            9    Didymocarpus_citrinus_Gcyc1C,
+            10   Didymocarpus_citrinus_Gcyc1D,
+            11   Epithema_benthamii_Gcyc1,
+            12   Epithema_benthamii_Gcyc2,
+            13   Fieldia_australis_Gcyc1E,
+            14   Fieldia_australis_Gcyc1F,
+            15   Gesneria_humilis_Gcyc1,
+            16   Jovellana_punctata_Ccyc2,
+            17   Kohleria_eriantha_Gcyc1,
+            18   Loxostigma_sp._Gcyc1C,
+            19   Loxostigma_sp._Gcyc1D,
+            20   Mitraria_coccinea_Gcyc1E,
+            21   Napeanthus_reitzii_Gcyc1,
+            22   Nicotiana_tabacum_cyc1,
+            23   Nicotiana_tabacum_cyc2,
+            24   Paulownia_tomentosa_Pcyc1,
+            25   Paulownia_tomentosa_Pcyc2,
+            26   Ramonda_myconi_Gcyc1,
+            27   Ramonda_myconi_Gcyc2,
+            28   Schizanthus_x_wisetonensis_cyc1,
+            29   Schizanthus_x_wisetonensis_cyc2,
+            30   Scrophularia_canina_Scyc1,
+            31   Scrophularia_canina_Scyc2,
+            32   Sinningia_schiffneri_Gcyc1,
+            33   Streptocarpus_holstii_Gcyc1A,
+            34   Streptocarpus_holstii_Gcyc1B,
+            35   Tetranema__mexicanum_Tcyc2,
+            36   Titanotrichum_oldhamii_Gcyc1;
+      TREE TITACYC_PROT = [&R] (28,(29,((23,(30,(31,((25,((1,(2,35)),(((4,16),5),((12,(27,8)),(((3,(36,((13,20),(14,((6,(17,15)),32))))),21),(11,((((26,(33,34)),((10,19),7)),9),18))))))),24)))),22)));
+
+
+
+END;

@@ -1,0 +1,117 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:48 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+An-ming L. 1990. A preliminary cladistic study of the families of the superorder
+Lamiiflorae. Biological Journal of the Linnean Society, 103: 39-57.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S140]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=23;
+        TAXLABELS
+            Acanthaceae
+            Bignoniaceae
+            Buddlejaceae
+            Callitrichaceae
+            Gesneriaceae
+            Globulariaceae
+            Hippuridaceae
+            Hydrostachyaceae
+            Lamiaceae
+            Lentibulariaceae
+            Martyniaceae
+            Mendonciaceae
+            Myoporaceae
+            Nelsoniaceae
+            Pedaliaceae
+            Phrymaceae
+            Plantaginaceae
+            Retziaceae
+            Scrophulariaceae
+            Selaginaceae
+            Thunbergiaceae
+            Trapellaceae
+            Verbenaceae
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M2219]
+
+	TITLE Table_2;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=29;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1" MISSING=? GAP= -;
+
+MATRIX
+[                            10        20         ]
+[                             .         .         ]
+Acanthaceae          01101000110000000000000100011
+Bignoniaceae         01000000000000000000000100011
+Buddlejaceae         01010000010000000000000000001
+Callitrichaceae      111??111?10100001100101100111
+Gesneriaceae         0101000001000110000??10100000
+Globulariaceae       01000000100000010??0100110001
+Hippuridaceae        111??010?111100101101011??011
+Hydrostachyaceae     111??111?1110110000??1110001?
+Lamiaceae            01100000010000001101000100111
+Lentibulariaceae     11001000110101100000000000011
+Martyniaceae         1100000011000110000??10100011
+Mendonciaceae        01101000010000000101000?01011
+Myoporaceae          01000000000000000?00000101011
+Nelsoniaceae         1100100011000110000??10100001
+Pedaliaceae          11000000110000000000000100011
+Phrymaceae           11100000010000010111000110011
+Plantaginaceae       01001000010100000000001100001
+Retziaceae           00100000000001000000000?00001
+Scrophulariaceae     01000000000000000000000000001
+Selaginaceae         01000000100000000110100100001
+Thunbergiaceae       01101000010000000100000?00011
+Trapellaceae         11100000110010010100100?10011
+Verbenaceae          01000000010000001101000100011
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb4862;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Hydrostachyaceae,
+            2    Callitrichaceae,
+            3    Lamiaceae,
+            4    Phrymaceae,
+            5    Verbenaceae,
+            6    Hippuridaceae,
+            7    Mendonciaceae,
+            8    Thunbergiaceae,
+            9    Nelsoniaceae,
+            10   Acanthaceae,
+            11   Martyniaceae,
+            12   Trapellaceae,
+            13   Pedaliaceae,
+            14   Lentibulariaceae,
+            15   Plantaginaceae,
+            16   Retziaceae,
+            17   Selaginaceae,
+            18   Globulariaceae,
+            19   Scrophulariaceae,
+            20   Buddlejaceae,
+            21   Gesneriaceae,
+            22   Myoporaceae,
+            23   Bignoniaceae;
+      TREE Fig._2D = [&R] (16,(23,22,21,20,19,15,14,13,11,10,9,(18,17),(8,(7,((5,3),(4,(12,(6,(2,1)))))))));
+      TREE Fig._2C = [&R] (16,(19,((23,22),(18,17),((20,21),(15,((10,(13,(14,(11,9)))),(8,(7,((5,3),(4,(12,(6,(2,1)))))))))))));
+      TREE Fig._2B = [&R] (16,(19,((23,22),(18,17),((20,21),(15,((13,(14,(11,9))),(10,(8,(7,((5,3),(4,(12,(6,(2,1))))))))))))));
+      TREE Fig._2A = [&R] (16,(19,20,((18,17),(23,22,((13,(14,(11,(9,21)))),(15,(10,(8,(7,((5,3),(4,(12,(6,(2,1))))))))))))))Lamiiflorae;
+
+
+
+END;

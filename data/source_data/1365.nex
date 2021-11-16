@@ -1,0 +1,93 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:47 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Eldenäs P. 1990. The genus Perralderia Cosson (Asteraceae-Inuleae-Inulinae). Botanical
+Journal of the Linnean Society, 102: 157-173.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S2345]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=15;
+        TAXLABELS
+            Iphonia_anthemidifolia
+            Iphonia_arachnoidea
+            Iphonia_aucheri
+            Iphonia_grantioides
+            Iphonia_horrida
+            Iphonia_maris.mortui
+            Iphonia_mucronata
+            Iphonia_phillipsiae
+            Iphonia_scabra
+            Iphonia_senecionoides
+            Iphonia_teretifolia
+            Perralderia_coronopifolia_coron
+            Perralderia_coronopifolia_purpu
+            Perralderia_garamantum
+            Perralderia_paui
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M4099]
+
+	TITLE Table_2;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=31;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2 3 4 5 6 7 8 9" MISSING=- GAP= -;
+
+MATRIX
+[                                           10        20        30 ]
+[                                            .         .         . ]
+Iphonia_anthemidifolia              1111110111100000009040110001011
+Iphonia_arachnoidea                 1100001000100000001111011001011
+Iphonia_aucheri                     1100001000100000001111011001011
+Iphonia_grantioides                 1111101000100000009011000000011
+Iphonia_horrida                     1111110110011100009030100990011
+Iphonia_maris.mortui                1111110110001111119030100990011
+Iphonia_mucronata                   1111110110011111119030100990011
+Iphonia_phillipsiae                 1100001000100000000020100100011
+Iphonia_scabra                      1111110110011000009030100990011
+Iphonia_senecionoides               1100001000100000000020100000011
+Iphonia_teretifolia                 1100001000100000000000100000011
+Perralderia_coronopifolia_coron     0001001001101000010030100991111
+Perralderia_coronopifolia_purpu     0001001001101000010040100991111
+Perralderia_garamantum              0001001001100000011040100111011
+Perralderia_paui                    0000001001100000011030100111011
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb9565;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Iphonia_senecionoides,
+            2    Iphonia_phillipsiae,
+            3    Iphonia_teretifolia,
+            4    Iphonia_aucheri,
+            5    Iphonia_arachnoidea,
+            6    Iphonia_grantioides,
+            7    Iphonia_anthemidifolia,
+            8    Iphonia_scabra,
+            9    Iphonia_horrida,
+            10   Iphonia_mucronata,
+            11   Iphonia_maris.mortui,
+            12   Perralderia_paui,
+            13   Perralderia_garamantum,
+            14   Perralderia_coronopifolia_coron,
+            15   Perralderia_coronopifolia_purpu;
+      TREE Fig._3 = [&R] (6,3,1,2,(4,5),(12,13)Perralderia,(7,(8,(9,(10,11)))));
+      TREE 'Fig. 4 A-C' = [&R] (12,(13,(14,15)));
+      TREE 'Fig. 4 D-H' = [&R] ((12,13),(14,15));
+      TREE Fig._2 = [&R] ((6,(4,5)),(3,(1,2),(((12,13),(14,15)),(7,(8,(9,(10,11)))))));
+
+
+
+END;

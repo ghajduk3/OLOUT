@@ -1,0 +1,370 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:49 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Kirkbride jr J. 2005. A phylogeny of CucumisÀúCucumella (Cucurbitaceae) based on
+morphological characters. Systematic Botany, 30.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S1285]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=47;
+        TAXLABELS
+            Cucumella_aetheocarpa
+            Cucumella_aspera
+            Cucumella_bryoniifolia
+            Cucumella_cinerea
+            Cucumella_clavipetiolata
+            Cucumella_engleri
+            Cucumella_jeffreyana
+            Cucumella_kelleri
+            Cucumella_reticulata
+            Cucumella_ritchiei
+            Cucumella_silentvalleyi
+            Cucumis_aculeatus
+            Cucumis_africanus
+            Cucumis_anguria
+            Cucumis_baladensis
+            Cucumis_canoxyi
+            Cucumis_carolinus
+            Cucumis_dipsaceus
+            Cucumis_ficifolius
+            Cucumis_globosus
+            Cucumis_hastatus
+            Cucumis_heptadactylus
+            Cucumis_hirsutus
+            Cucumis_humifructus
+            Cucumis_hystrix
+            Cucumis_insignis
+            Cucumis_jeffreyanus
+            Cucumis_kalahariensis
+            Cucumis_meeusei
+            Cucumis_melo
+            Cucumis_metuliferus
+            Cucumis_myriocarpus
+            Cucumis_prolatior
+            Cucumis_prophetarum
+            Cucumis_pubituberculatus
+            Cucumis_pustulatus
+            Cucumis_quintanilhae
+            Cucumis_rigidus
+            Cucumis_rostratus
+            Cucumis_sacleuxii
+            Cucumis_sagittatus
+            Cucumis_sativus
+            Cucumis_thulinanus
+            Cucumis_x_hytivus
+            Cucumis_zeyheri
+            Mukia_maderaspatana
+            Oreosyce_africana
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M2760]
+
+	TITLE 'Cucumis-Cucumella';
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=122;
+	FORMAT DATATYPE=Standard SYMBOLS= "1 2 3 4 5 6 7 8 9 A B C D E F G H I J" MISSING=? GAP= -;
+	CHARSTATELABELS
+		1  'plants -habit' / vines herbs subshrubs,
+		2  'plants -life cycle' / annual perennial,
+		3  'plants -condition of taproot' / without_a_woody_rootstock with_a_woody_rootstock,
+		4  'plants -reproductive strategy' / monoecious dioecious andromonoecious,
+		5  'stems -aculeate or not' / not_aculeate aculeate,
+		6  'stems -pubescence type' / glabrous glabrate hispid hispidulous villous pilose hirsute 'antrorse-strigose' 'retrorse-strigose' scabrous setose lanate puberulent,
+		7  'stem hairs -length in mm' / 0.1_to_1_mm_long 1.1_to_4.4_mm_long,
+		8  'petioles -aculeate or not' / not_aculeate aculeate,
+		9  'petioles -pubescence type unif' / pubescence_a_single_type_on_ea pubescence_2_different_types_u pubescence_3_different_types_i,
+		10  'petioles -pubescence type' / glabrous hispid hispidulous villous pilose lanate hirsute 'antrorse-strigose' 'retrorse-strigose' setose scabrous,
+		11  'leaf blades -lobation' / entire trilobate pentalobate heptalobate '3-palmately lobed' '5-palmately lobed',
+		12  'leaf blades -condition of marg' / with_the_margin_entire with_the_margin_serrate,
+		13  'leaf blades -overall shape' / elliptic_in_outline narrowly_ovate_in_outline ovate_in_outline broadly_ovate_in_outline very_broadly_ovate_in_outline shallowly_ovate_in_outline narrowly_triangular_in_outline triangular_in_outline,
+		14  'leaf blades -shape of base' / acute_at_the_base broadly_acute_at_the_base obtuse_at_the_base subtruncate_at_the_base truncate_at_the_base subcordate_at_the_base cordate_at_the_base sagittate_at_the_base hastate_at_the_base,
+		15  'leaf blades -basal sinus, pres' / with_a_basal_sinus without_a_basal_sinus,
+		16  'leaf blades -basal sinus, dept' / 0_to_1_cm_deep 1.1_to_5_cm_deep,
+		17  'leaf blades -shape of apex' / narrowly_acute_at_the_apex acute_at_the_apex broadly_acute_at_the_apex acuminate_at_the_apex broadly_acuminate_at_the_apex obtuse_at_the_apex,
+		18  'leaf blades -pubescence type o' / hispid_on_the_upper_surface hispidulous_on_the_upper_surfa villous_on_the_upper_surface pilose_on_the_upper_surface hirsute_on_the_upper_surface 'antrorse-strigose on the upper' scabrous_on_the_upper_surface,
+		19  'leaf blades -vein pubescence t' / glabrous_on_the_veins_below hispid_on_the_veins_below hispidulous_on_the_veins_below villous_on_the_veins_below pilose_on_the_veins_below hirsute_on_the_veins_below 'antrorse-strigose on the veins' scabrous_on_the_veins_below,
+		20  'leaf blades -intervenium pubes' / glabrous_on_the_intervenium_be glabrate_on_the_intervenium_be hispid_on_the_intervenium_belo hispidulous_on_the_intervenium hirsute_on_the_intervenium_bel pilose_on_the_intervenium_belo scabrous_on_the_intervenium_be 'antrorse-strigose on the inter',
+		21  'leaf blades -pubescence on mar' / 'antrorse-ciliate on the margin' not_ciliate_on_the_margins,
+		22  'central leaf-blade lobe -lobat' / entire pinnatifid,
+		23  'central leaf-blade lobe -shape' / narrowly_elliptic_in_outline elliptic_in_outline broadly_elliptic_in_outline transversely_broadly_elliptic narrowly_linear_in_outline narrowly_oblong_in_outline narrowly_ovate_in_outline ovate_in_outline broadly_ovate_in_outline very_broadly_ovate_in_outline shallowly_ovate_in_outline very_shallowly_ovate_in_outlin narrowly_obovate_in_outline obovate_in_outline narrowly_triangular_in_outline broadly_triangular_in_outline very_broadly_triangular_in_out shallowly_triangular_in_outlin triangular_in_outline,
+		24  'central leaf-blade lobe -shape' / narrowly_acute_at_the_apex acute_at_the_apex broadly_acute_at_the_apex acuminate_at_the_apex broadly_acuminate_at_the_apex obtuse_at_the_apex,
+		25  'lateral leaf-blade lobes -symm' / assymmetrical symmetrical,
+		26  'lateral leaf-blade lobes -shap' / narrowly_elliptic_in_outline elliptic_in_outline broadly_elliptic_in_outline transversely_elliptic_in_outli linear_in_outline narrowly_oblong_in_outline broadly_oblong_in_outline square_in_outline ovate_in_outline broadly_ovate_in_outline very_broadly_ovate_in_outline shallowly_ovate_in_outline very_shallowly_ovate_in_outlin narrowly_obovate_in_outline obovate_in_outline broadly_triangular_in_outline very_broadly_triangular_in_out shallowly_triangular_in_outlin very_shallowly_triangular_in_o,
+		27  'lateral leaf-blade lobes -shap' / narrowly_acute_at_the_apex acute_at_the_apex broadly_acute_at_the_apex broadly_acuminate_at_the_apex obtuse_at_the_apex,
+		28  'tendrils -presence or absence' / present absent,
+		29  'tendrils -pubescence type' / glabrous glabrate hispid hispidulous hirsute pilose 'antrorse-strigose' 'retrorse-strigose' setose scabrous,
+		30  'male inflorescences -type' / modified_compound_dichasial paniculate racemose fasciculate a_solitary_flower,
+		31  'male inflorescences -number of' / '1 to 5 -flowered' '6 to 23 -flowered',
+		32  'male inflorescences -peduncle' / pedunculate sessile,
+		33  'pedicel -male flowers - shape' / terete_in_cross_section sulcate_in_cross_section,
+		34  'pedicel -male flowers - pubesc' / glabrous glabrate hispid hispidulous hirsute villous pilose 'antrorse-strigose' 'retrorse-strigose' scabrous,
+		35  'hypanthium -male flowers - sha' / infundibular campanulate,
+		36  'hypanthium -male flowers - hei' / 0.5_to_5_mm_long 5.1_to_8.8_mm_long,
+		37  'hypanthium -male flowers - pub' / glabrate hispid hispidulous hirsute villous pilose 'antrorse-strigose' scabrous,
+		38  'calyx lobes -male flowers - sh' / linear_in_outline narrowly_oblong_in_outline oblong_in_outline narrowly_triangular_in_outline triangular_in_outline broadly_triangular_in_outline,
+		39  'calyx lobes -male flowers - le' / 0.4_to_0.9_mm_long 1_to_3.8_mm_long 3.9_to_7.2_mm_long,
+		40  'calyx lobes -male flowers - wi' / 0.1_to_0.5_mm_wide 0.6_to_1.2_mm_wide,
+		41  'calyx lobes -male flowers - pu' / glabrous glabrate hispid hispidulous hirsute villous pilose puberulent 'antrorse-strigose' scabrous,
+		42  'corolla -male flowers - pubesc' / glabrous_outside hispid_outside hispidulous_outside hirsute_outside villous_outside pilose_outside puberulent_outside 'antrorse-strigose outside' scabrous_outside glabrate_outside,
+		43  'corolla -male flowers - pubesc' / glabrous_inside puberulent_inside papillose_inside,
+		44  'corolla tube -male flowers - h' / 0.1_to_0.9_mm_long 1_to_2_mm_long 2.1_to_10_mm_long,
+		45  'corolla tube -male flowers - d' / 2_to_2.9_mm_in_diam 3_to_6.9_mm_in_diam 7_to_11_mm_in_diam,
+		46  'corolla tube -male flowers - e' / glabrous_outside hispid_outside hispidulous_outside hirsute_outside pilose_outside puberulent_outside 'antrorse-strigose outside' glabrate_outside,
+		47  'corolla lobes -male flowers -' / elliptic_in_outline broadly_elliptic_in_outline oblong_in_outline ovate_in_outline broadly_ovate_in_outline very_broadly_ovate_in_outline shallowly_ovate_in_outline narrowly_obovate_in_outline obovate_in_outline broadly_triangular_in_outline broadly_obovate_in_outline,
+		48  'corolla lobes -male flowers -' / narrowly_acute_at_the_apex acute_at_the_apex broadly_acute_at_the_apex obtuse_at_the_apex mucronate_at_the_apex,
+		49  'corolla lobes -male flowers -' / 1.5_to_4_mm_long 4.1_to_6.5_mm_long 6.6_to_11_mm_long 11.1_to_24_mm_long,
+		50  'corolla lobes -male flowers -' / 1_to_2.5_mm_wide 2.6_to_6_mm_wide 6.1_to_20_mm_wide,
+		51  'corolla lobes -male flowers -' / glabrous_outside glabrate_outside hispid_outside hispidulous_outside hirsute_outside villous_outside pilose_outside puberulent_outside 'antrorse-strigose outside' scabrous_outside,
+		52  'corolla lobes -male flowers -' / glabrous_inside puberulent_inside papillose_inside,
+		53  'filaments -male flowers - shap' / terete_in_cross_section radially_compressed_in_cross_s,
+		54  'filaments -male flowers - leng' / 0.2_to_0.9_mm_long 1_to_1.2_mm_long,
+		55  'anther thecae -male flowers -' / free connate,
+		56  'anther thecae -male flowers -' / sigmoid 'straight, without bends, or s',
+		57  'anther thecae -male flowers -' / 0.9_to_1.3_mm_long 1.4_to_3.5_mm_long 3.6_to_4_mm_long,
+		58  'anther thecae -male flowers -' / glabrous hispidulous puberulous puberulent papillose,
+		59  'anther connective -male flower' / elliptic narrowly_oblong oblong broadly_oblong transversely_broadly_oblong ovate narrowly_obovate obovate broadly_obovate,
+		60  'anther connective -male flower' / smooth_at_the_apex puberulous_at_the_apex papillate_at_the_apex fimbriate_at_the_apex crenulate_at_the_apex,
+		61  'disc -male flowers - shape' / cylindrical trilobate consisting_of_3_papillae fungiform,
+		62  'pedicel -female flower - shape' / terete_in_outline sulcate_in_outline,
+		63  'pedicel -female flower - lengt' / 0.4_to_4_mm_long 4.1_to_35_mm_long 36_to_100_mm_long,
+		64  'pedicel -female flower - pubes' / glabrate hispid hispidulous hirsute villous pilose puberulous 'antrorse-strigose' 'retrorse-strigose' setose scabrous,
+		65  'pedicel -female flower - overa' / cylindrical flaring_upwards_from_a_narrowe,
+		66  'hypanthium -female flower - pr' / not_distinctly_ridged distinctly_ridged,
+		67  'the lower -female flower - amo' / 0.66_of_hypanthium_fused_to_th 0.75_of_hypanthium_fused_to_th 0.80_of_hypanthium_fused_to_th 0.83_of_hypanthium_fused_to_th,
+		68  'fused portion of hypanthium -f' / ellipsoid cylindrical ovoid obturbinate,
+		69  'fused portion of hypanthium -f' / 2_to_14.9_mm_long 15_to_19_mm_long,
+		70  'fused portion of hypanthium -f' / not_aculeate aculeate,
+		71  'fused portion of hypanthium -f' / glabrous hirsute hispid hispidulous villous pilose lanate puberulent antrorse_sericeous retrorse_sericeous scabrous,
+		72  'aculei -female flower, lower p' / soft stiff,
+		73  'aculei -female flower, lower p' / 0.6_to_0.8_mm_long 0.9_to_2.5_mm_long 2.6_to_4_mm_long,
+		74  hyaline_bristle_at_apex_of_acu / 0.3_to_0.9_mm_long 1_to_2.4_mm_long,
+		75  hyaline_bristle_at_apex_of_acu / 0.2_to_0.5_times_as_long_as_th 0.6_to_7_times_as_long_as_the 7.1_to_9.5_times_as_long_as_th,
+		76  'the upper -female flower - amo' / 0.33_of_hypanthium_free_from_th 0.25_of_hypanthium_free_from_th 0.2_of_hypanthium_free_from_th 0.17_of_hypanthium_free_from_th,
+		77  'free portion of hypanthium -fe' / glabrous_outside hispid_outside hispidulous_outside hirsute_outside villous_outside pilose_outside puberulent_outside 'antrorse-strigose outside' scabrous_outside,
+		78  'free portion of hypanthium -fe' / glabrous_inside puberulent_inside,
+		79  'calyx lobes -female flower - s' / narrowly_elliptic_in_outline linear_in_outline narrowly_oblong_in_outline narrowly_obovate_in_outline narrowly_triangular_in_outline triangular_in_outline,
+		80  'calyx lobes -female flower - l' / 0.4_to_0.5_mm_long 0.6_to_5.6_mm_long 5.7_to_12_mm_long,
+		81  'calyx lobes -female flower - p' / glabrate hispid hispidulous hirsute puberulent villous pilose 'antrorse-strigose' scabrous,
+		82  'corolla -female flower - pubes' / hispid_outside hispidulous_outside hirsute_outside pilose_outside puberulent_outside 'antrorse-strigose outside' scabrous_outside,
+		83  'corolla -female flower - pubes' / glabrous_inside puberulent_inside papillose_inside,
+		84  'corolla tube -female flower -' / 0.1_to_0.9_mm_long 1_to_2_mm_long 2.1_to_11_mm_long,
+		85  'corolla tube -female flower -' / 0.5_to_0.9_mm_in_diam 1_to_5.5_mm_in_diam 5.6_to_8_mm_in_diam,
+		86  'corolla tube -female flowers -' / glabrous_outside hispid_outside hispidulous_outside hirsute_outside pilose_outside puberulent_outside 'antrorse-strigose outside' scabrous_outside,
+		87  'corolla lobes -female flower -' / elliptic_in_outline broadly_elliptic_in_outline oblong_in_outline ovate_in_outline broadly_ovate_in_outline transversely_broadly_ovate obovate_in_outline broadly_obovate_in_outline,
+		88  'corolla lobes -female flower -' / broadly_acute_at_the_apex acute_at_the_apex acuminate_at_the_apex obtuse_at_the_apex mucronate_at_the_apex,
+		89  'corolla lobes -female flower -' / 0.8_to_4.9_mm_long 5_to_15_mm_long 15.1_to_31_mm_long,
+		90  'corolla lobes -female flowers' / glabrous_outside glabrate_outside hispid_outside hispidulous_outside hirsute_outside pilose_outside puberulent_outside 'antrorse-strigose outside' scabrous_outside,
+		91  'corolla lobes -female flowers' / glabrous_inside hispidulous_inside puberulent_inside papillose_inside,
+		92  staminodes_separating_from_the / 0.4_to_0.9_mm_above_the_ovary 1_to_3.2_mm_above_the_ovary,
+		93  'staminodes -female flower - pu' / glabrous puberulent,
+		94  'disc -female flowers - height' / 0.2_to_0.9_mm_long 1_to_2_mm_long 2.1_to_2.4_mm_long,
+		95  'disc -female flowers - diamete' / 0.4_to_0.5_mm_in_diam 0.6_to_2_mm_in_diam 2.1_to_4.5_mm_in_diam,
+		96  'stigma -female flower - height' / 0.5_to_1.4_mm_long 1.5_to_2.5_mm_long 2.6_to_4.8_mm_long,
+		97  'stigma -female flower - lobati' / entire sublobate lobate,
+		98  'stigma -female flower - number' / 'with 3 finger-like projections' 'with 4 finger-like projections' 'with 5 finger-like projections' 'with 6 finger-like projections' 'with 9 finger-like projections',
+		99  'finger-like stigmatic projecti' / smooth papillate,
+		100  'pedicel -fruit - shape in tran' / terete_in_cross_section sulcate_in_cross_section,
+		101  'pedicel -fruit - length in cm' / 0.2_to_1.9_cm_long 2_to_25_cm_long,
+		102  'pedicel -fruit - pubescence ty' / glabrous glabrate hispid hispidulous hirsute pilose puberulous 'antrorse-strigose' 'retrorse-strigose' setose scabrous,
+		103  'pedicel -fruit - overall shape' / cylindrical flaring_upwards_from_a_narrowe,
+		104  'fruit -coloration - single or' / monochromous bicolored_with_longitudinal_st,
+		105  'fruit -coloration - basal colo' / green red yellow white brown orange,
+		106  'fruit -coloration - longitudin' / with_light_green_longitudinal with_dark_green_longitudinal_s with_yellow_longitudinal_strip with_brown_longitudinal_stripe with_white_longitudinal_stripe with_purple_longitudinal_strip with_orange_longitudinal_strip,
+		107  'fruit -shape' / ellipsoid globose cylindrical ovoid obovoid 'spindle-shaped' 'narrowly spindle-shaped',
+		108  'fruit -length in cm' / 0.5_to_1.9_cm_long 2_to_9_cm_long 9.1_to_100_cm_long,
+		109  'fruit -pericarp thickness' / with_the_pericarp_moderately_t with_the_pericarp_thin,
+		110  'fruit -surface - aculeate or n' / not_aculeate aculeate,
+		111  'fruit -surface - pubescence ty' / glabrous glabrate hispidulous hirsute pilose puberulent 'retrorse-strigose' hispid,
+		112  'fruit -apex shape' / blunt_at_the_apex rostrate_at_the_apex,
+		113  'aculei -fruit - shape' / terete laterally_compressed_near_the,
+		114  'aculei -fruit - hyaline bristl' / with_hyaline_bristle_persisten with_hyaline_bristle_lost,
+		115  'aculei -fruit - height in mm' / 0.3_to_2.4_mm_long 2.5_to_10_mm_long 10.1_to_22_mm_long,
+		116  'aculei -fruit - diameter in mm' / 0.2_to_0.6_mm_in_diam 0.7_to_2_mm_in_diam 2.1_to_5.6_mm_in_diam,
+		117  'seeds -shape' / elliptic ovate,
+		118  'seeds -length in mm' / 2_to_7.1_mm_long 7.2_to_20_mm_long,
+		119  'seeds -width in mm' / 1_to_3.9_mm_wide 4_to_13_mm_wide,
+		120  'seeds -thickness in mm' / 0.5_to_0.7_mm_thick 0.8_to_2_mm_thick 2.1_to_5_mm_thick,
+		121  'seeds -surface - sculpturing' / smooth_without_evident_surface with_a_band_of_punctations_aro alveolate,
+		122  'seeds -margin' / emarginate marginate_with_the_broad_margi,
+		;
+
+MATRIX
+[                                    10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170       180       190       200       210       220       230       240       250       260       270       280       290       300       310       320       330       340       350       360       370       380      ]
+[                                     .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .      ]
+Cucumella_aetheocarpa        2221131118{34}25711{23}67811{DE}{23}1{EF}2175121811{37}2219322231{45}2242111224--211811241211{12}1223?2285???61{45}?7?????????228113-1112121211211111
+Cucumella_aspera             322{12}1A111B32571{12}{36}78{127}11{HI}{36}1{HI}{35}1A{24}{12}22A218{14}21A821172{245}1192111224811{12}2B111{12}11B----19232972{12}2812{12}93211223122{12}B12421{12}12111111{12}11{12}11
+Cucumella_bryoniifolia       2221141113{36}2{45}71{12}{2356}23421{234HI}{2356}1{2CI}{235}14{45}1214213{12}214321{12}31{12}{12}{12}32111223{78}142231111114----13132321123112412113234222412{16}{57}1221{23}1----211111
+Cucumella_cinerea            {123}2211{49}111{39}{36}2{46}71{12}{236}23421{BH}{236}1{CI}{235}143{12}214213{125}{12}{12}472{12}{12}6{129}{23}{12}{12}8211122381{14}1{12}312{12}3114----{12}32{35}2322{12}237314322121311214116-4{12}2132----211221
+Cucumella_clavipetiolata     2??21A111B315711{236}788223{236}{12}{ABC}{235}1A{45}121A211211A71126B41281?112249111{12}B1113113----1912297112871191211223422{12}B1???{12}{12}2181----211211
+Cucumella_engleri            22211{34}112{23}12471161242------14512142135{12}1432123{14}2{12}142111224{56}141231213113----13252322123{25}{12}143111223222{12}412??1{12}21{38}2----111221
+Cucumella_jeffreyana         {12}2211{34}{12}12{23}3{12}{45}71{12}{123}12{34}21{BGI}{13}{12}{CHI}{23}1{34}{34}{12}{12}14213{14}2{12}4321232{35}224211122431112{23}1241113----422{45}2222123{17}1{12}43211323{14}221{34}112-{67}21182----111221
+Cucumella_kelleri            {12}22218111812132-{36}1232------1{137}{23}2213213{24}{12}1433113{14}211431112245111121223114----232523231235{25}144211213121131???421182----211221
+Cucumella_reticulata         222215111412{34}711{136}3422------2-{34}{12}21621542{12}6A2118{12}311221112243111151113115----152526121221{25}23321122312???????12???2??????????
+Cucumella_ritchiei           2??116?11432471125?5?1H2{12}I{23}12411?521541??5????421?6??1121??1????111111?----1??51???????????????131????1??????1?2----211???
+Cucumella_silentvalleyi      1??1161115325711{36}56521J{36}1J{35}12{34}{12}215214{14}215{14}1???{45}2{12}1{15}1111224311?2?111111?----1??52???????????????331????1????2?1?2----211112
+Cucumis_aculeatus            22212{13}12-1{256}2{34}{47}{12}1{23}12321{89}{23}1{9C}311{35}1213213221{24}{13}1111{89}{23}2{12}{12}1111121{23}111{12}21113121{12}2{12}213132{13}21111{28}4{12}41211223422{12}2113-121211121{12}111211
+Cucumis_africanus            22211A111B{36}24711{35}787212{35}{12}2{45}1A3{12}21A1{12}842{12}A31{23}23{567}3{12}241212121{23}3122B111{12}12112121312232{12}{23}2321{12}4221{12}{23}{23}3422{12}{48}124{34}{13}2121122{12}{23}111211
+Cucumis_anguria              211113{12}11{2A}{256}{12}{346}71{12}{23}22421{13}{23}{12}{23}{35}193{12}{12}14113421432223{25}3{12}2822{12}1121{23}312{12}{2A}211{12}1211{23}{12}{12}131{25}2322223{78}{12}24221{12}{23}2{12}?122{3A}2{12}{13}1{15}2121112{12}2111211
+Cucumis_baladensis           2?121{7D}1112624711256521221221?512??2{12}412?572??6124?82??11?5851?2?1111112----14?22452??6143??2132334??2?1212221111----111?11
+Cucumis_canoxyi              222114?11312{45}71162242------2-412?511412?5?????{39}42?52??11??331?{12}311{12}1121?{23}12{12}4122432??4{37}425321123342?2?111-1212111?2?111?11
+Cucumis_carolinus            2??119111{89}5247113{67}7{78}21{39A}31{DI}31{28}{35}1222{12}2{13}42{12}{124}723362{45}43822211{23}48312{23}{13}1111221121118252152{23}362{45}{23}73212333422221????212111222111211
+Cucumis_dipsaceus            21111{34}{12}11{23}{12}{12}{34}71{12}{36}{12}242{12}{19AB}{36}1{1CD}51{24}{45}12141{12}3{12}{23}143122392{23}24111212154122{23}1121{12}2112222312232122372241211223312{12}{34}113-{12}212111121111211
+Cucumis_ficifolius           222124{12}21362{34}{67}11{36}6342{12}{23}{36}1{34}{35}14{45}1214213{24}214{37}1{12}2{36}{89}{45}22{48}12111238311231121121122{23}232{23}2322{12}23{24}{15}{12}43211223{34}22{12}41{12}{13}1{12}21211121{12}111211
+Cucumis_globosus             2221191119{56}23{247}{12}1{23}78721{17}{23}1{19}{23}1A5121A118121A{37}?116??324????1?????22311111211{12}1213?2292?123???4????????????1212221211????122311
+Cucumis_hastatus             22?11A?11B22{38}{56}{12}?{26}787218{26}1{9A}{25}1A512?A2{12}812?A?2???{13}2{123}?A2??11?3851?{12}41111121????14?2243???4{13}215?213122{12}??{12}?113-121211121?111211
+Cucumis_heptadactylus        22121{27}111761352-16{17}121511511{25}3{12}2182{12}4{45}22211{12}11{57}{23}1{12}122211238211{12}41113121?{12}121416215112141111--??23512{12}51213{14}{12}1211112211{12}211
+Cucumis_hirsutus             22221{67}{12}11{57}{156}2{1234}{3467}{12}{12}{136}45621{69}{23}1{678I}315{13}{12}1172{12}6{14}{23}{12}741{123}{123}4{4A}{13}{23}{23}5112{12}1236311261113116----1615{23}{57}51{23}{23}6{12}{12}211{12}212{23}{12}{24}{12}22{56}12{25}2{12}211{15}1----2{12}2{23}11
+Cucumis_humifructus          211115211462471{12}445621{BC}41D{35}11---1121612177221645{23}282111124611116111311A----162{23}2752{12}265517321--231122111{34}-{124}21111----122211
+Cucumis_hystrix              2??118111932{34}7121{26}{37}{48}21{GH}1{12}{GI}{135}17{34}{12}218{12}{12}{37}221981217{12}{45}1291121124831118111{13}121{12}{23}221{38}23286{12}{23}272{45}1832123231211811{13}-{15}212121211211111
+Cucumis_insignis             22?114?112{56}1471121?322111{12}{25}1?412??2124213?????4221?????1??????3?2121221232122?523?????122???????????2?2211121211??{23}?111211
+Cucumis_jeffreyanus          22?1191119{56}2{34}711{236}678212{236}1{3AB}{35}18{45}121{349}2{12}{23}{14}2{12}{34}42???{13}?3?{589}221112483112{49B}111112112221{23}2{23}2{28}3???41{45}{12}{58}?211223422{12}{29}12{14}1{12}21211122{23}111211
+Cucumis_kalahariensis        222216{12}115{56}24{26}2-{23}45622{12}{23}26216{45}121712713297233612{34}3822211346311{12}6111112112121822385223612273221333321{12}61246{13}2121122{12}2111211
+Cucumis_meeusei              22211{89}111{89}62{34}611{23}{67}7{78}2{12}{12}{23}12{23}1{78}5121{89}{12}12522472{12}262{45}{12}28211112483112{89}21111212211182328521261{45}2732113{23}3{34}21{12}{89}21{13}-{12}2121112{12}{23}111211
+Cucumis_melo                 {12}12{13}1{39C}{12}11{2369}{12356}{12}{45}{17}{12}{12}{236}{124}{235}{346}2{12}{269B}{236}1{6ACD}{135}1{348}{24}{12}21{49}{12}1{36}{14}21{2347}{167}{12}{12}2{156}{125}{245}{123}{12}{178}{12}{12}111{12}4{18}{13}{13}2{12}{39}111111{679A}----1{36}{12}{126}2{157}{45}{12}{12}2{67}{1248}{45}{12}7{13}{12}1{12}2{12}3{134}{12}2{12}{149}1{12}{12345}{12345}{12345}{23}11{15}1----{12}{12}{12}211
+Cucumis_metuliferus          21211{6B}211A{256}2{346}712{24}12321{28}{24}1{CDI}31{23}412131121213212221{45}{23}2312{12}112331112211111212322122222122322{45}2332223234222311{23}-1{23}121112{23}{23}2{12}{12}211
+Cucumis_myriocarpus          212119113{789}62{345}{67}1{12}{1236}6{37}{48}2{12}{12}{1236}1{234}{35}17{245}{12}21{48}{12}1{37}{14}2{12}{49}{37}{12}{123}2{36}{12}{345}{12}2{48}{12}111124831{12}2{39}11{12}312112{12}2{12}32{25}2352{12}26{12}{145}{12}73{12}112{12}3{134}2{12}{12}{49}1{12}{136}{13456}{12}{12}121112{12}1111211
+Cucumis_prolatior            2??117{12}11762312-15652111{12}1115{45}12152141{12}1441124112251211124831??????????????????????????????????????12512161212111233111211
+Cucumis_prophetarum          {23}2211{489}111{389}{1256}{12}{345}{357}{12}1{236}2342{12}{123}{236}{12}{14}{235}1{478}{345}{12}21{489}113{236}{12}143122{34}{145}4{12}{12}4111112{12}{23}311{23}{389}111{13}12{18}{12}{12}{12}2131{234}2321{12}23{14}{245}{12}42211223321{12}{489}121{15}{12}212{13}11{12}{12}{12}111211
+Cucumis_pubituberculatus     22211A?12B523{56}{12}?{26}7872{12}6{26}{12}2{25}1A{45}12?A1{12}812?A9????{13}4{34}?A???11?48{34}1?{23}B11{12}1{12}28????{12}{27}?229?????{37}42??213131--???1?1?2212611?1?111?11
+Cucumis_pustulatus           22211{49}{12}11{39}{156}24711{36}2342{12}{239B}{36}1{3CD}{35}1{47}{45}121{48}213{24}2{12}432{12}23{12}{45}{23}242111124831{12}2{38}21211212{12}{12}2232325221232{45}243211333422242{12}31{13}2121112{12}{23}111211
+Cucumis_quintanilhae         21?11{49}{12}11{389}{156}2471{12}{36}{67}37212{36}2351{478}{35}121422{37}{14}{23}{12}{49}7{12}{23}361{45}{34}32111112283113{38}111{13}121?21118?{25}385?3362437?????????22211{13}-12121112{23}2111211
+Cucumis_rigidus              3222181118{56}1{34}{156}{12}1623421{23}61{2C}52-{45}12182{12}7{14}2{12}982127{24}{45}{123}{12}9221{12}124{23}31128111112122121{18}2{25}28621271{45}1831213333221811?-{12}21211222{12}111211
+Cucumis_rostratus            2??116211532471{12}245621F21I{23}16{45}1217216121332{12}232{45}{12}24221112483122611312211{23}2{23}36?2215?1261{45}27?????????2261???621112----111211
+Cucumis_sacleuxii            21?116{12}115{23}2571{12}{236}45621{89B}{236}1C{235}16{45}1217{12}16{14}217{67}2{12}2{56}9{345}{23}2{78}22111248312{23}6112{12}121?{12}{12}226?227{45}?22{56}7{15}2{67}3????????126121{15}{13}21211121{12}111211
+Cucumis_sagittatus           {23}2211{68}{12}12{58}{123}25{79}12{36}22{34}21B{36}1{1C}317{345}{12}21{78}11{37}{14}2{12}{49}{37}2{23}2{36}1{45}{123}242111124{28}311{12}{68}111111{789}----12222{23}{12}2323{12}{45}{12}{34}32112233211{68}1{12}{13}12211{345}1----111211
+Cucumis_sativus              21111{39}{12}11{29}{34}24712{12}12321{GHI}{12}{12}I31{47}{45}{12}2{12}{34}226{12}{23}17{67}133{56}1{45}{34}{23}{78}11111248311{12}{23}112{13}1{12}{12}122226{12}127{45}13{23}{56}2{45}2{67}1211{23}33122{12}{34}1{12}{1345}{15}{13}{23}1111----{12}2{12}211
+Cucumis_thulinanus           2???1{49}112{39}62{34}81126{37}{48}2212{12}1{12}1{47}51214213421432{12}232{25}{12}2421111248311231111121?{12}1213??????????????????????????13-12127112{23}3111211
+Cucumis_x_hytivus            111116{12}11532{45}712{12}4561{12}{GHI}{12}{12}G{12}164{12}21721613{12}762{23}255{35}22722211{23}13341261123121122{23}262138423356{45}263212333222{12}611{13}-{13}{23}1211122321121{12}
+Cucumis_zeyheri              22211{89}111{89}62{34}711{12}{27}{37}{47}22{12}{12}1{23}314{45}12142{12}322{12}432{12}23{19}{235}{23}242111124831123111112112{12}2132{23}2322{12}23{12}{45}1432112{123}3421{12}41{12}{13}112121112{123}2111211
+Mukia_maderaspatana          {12}1{12}11{348}{12}11{238}{25}{12}{2345}{89}1{12}{13}{26}{37}721{79A}31{AB}{35}{12}{47}4221{48}21{37}{245}{12}1{49}{38}{12}11{37}{15}{45}11{49}{12}2{12}1214{36}1411811{24}3119----{24}815{12}8211236{15}14111121{23}121{12}81{12}{246}221{12}1{14}1----211{23}32
+Oreosyce_africana            {12}11119{12}119{34}{12}471{12}{12}67821{GH}{12}1{IJ}3174{12}2182{12}71219831{12}71{45}{12}2932112{23}445422{47}11131211{12}{12}2111{25}2863{123}271{45}284211223{14}22{12}{57}116-{24}{12}121111112112{23}{12}
+;
+END;
+
+BEGIN SETS;
+	CHARSET notnum (CHARACTERS = 'Cucumis-Cucumella') =  1-6 8-15 17-30 32-35 37-38 41-43 46-48 51-53 55-56 58-62 64-68 70-72 76-79 81-83 86-88 90-91 93 97-100 102-107 109-114 117 121-122;
+	CHARSET num (CHARACTERS = 'Cucumis-Cucumella') =  7 16 31 36 39-40 44-45 49-50 54 57 63 69 73-75 80 84-85 89 92 94-96 101 108 115-116 118-120;
+END;
+BEGIN TREES;
+      TITLE Tb7156;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Oreosyce_africana,
+            2    Mukia_maderaspatana,
+            3    Cucumis_zeyheri,
+            4    Cucumis_x_hytivus,
+            5    Cucumis_thulinanus,
+            6    Cucumis_sativus,
+            7    Cucumis_sagittatus,
+            8    Cucumis_sacleuxii,
+            9    Cucumis_rostratus,
+            10   Cucumis_rigidus,
+            11   Cucumis_quintanilhae,
+            12   Cucumis_pustulatus,
+            13   Cucumis_pubituberculatus,
+            14   Cucumis_prophetarum,
+            15   Cucumis_prolatior,
+            16   Cucumis_myriocarpus,
+            17   Cucumis_metuliferus,
+            18   Cucumis_melo,
+            19   Cucumis_meeusei,
+            20   Cucumis_kalahariensis,
+            21   Cucumis_jeffreyanus,
+            22   Cucumis_insignis,
+            23   Cucumis_hystrix,
+            24   Cucumis_humifructus,
+            25   Cucumis_hirsutus,
+            26   Cucumis_heptadactylus,
+            27   Cucumis_hastatus,
+            28   Cucumis_globosus,
+            29   Cucumis_ficifolius,
+            30   Cucumis_dipsaceus,
+            31   Cucumis_carolinus,
+            32   Cucumis_canoxyi,
+            33   Cucumis_baladensis,
+            34   Cucumis_anguria,
+            35   Cucumis_africanus,
+            36   Cucumis_aculeatus,
+            37   Cucumella_silentvalleyi,
+            38   Cucumella_ritchiei,
+            39   Cucumella_reticulata,
+            40   Cucumella_kelleri,
+            41   Cucumella_jeffreyana,
+            42   Cucumella_engleri,
+            43   Cucumella_clavipetiolata,
+            44   Cucumella_cinerea,
+            45   Cucumella_bryoniifolia,
+            46   Cucumella_aspera,
+            47   Cucumella_aetheocarpa;
+      TREE Fig._2A = [&R] (1,((((((((16,((((((35,(32,(13,27))),28),14),((34,30),((22,17),36))),3,5,((29,12),((((41,42),(40,39)),44),45))),(((((26,15,25),20),33),(8,9)),((24,18),6)))),11),(31,21)),19,(7,47)),10),23),(46,43)),(38,37)),2);
+
+
+
+END;
+BEGIN TREES;
+      TITLE Tb7157;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Oreosyce_africana,
+            2    Mukia_maderaspatana,
+            3    Cucumis_zeyheri,
+            4    Cucumis_x_hytivus,
+            5    Cucumis_thulinanus,
+            6    Cucumis_sativus,
+            7    Cucumis_sagittatus,
+            8    Cucumis_sacleuxii,
+            9    Cucumis_rostratus,
+            10   Cucumis_rigidus,
+            11   Cucumis_quintanilhae,
+            12   Cucumis_pustulatus,
+            13   Cucumis_pubituberculatus,
+            14   Cucumis_prophetarum,
+            15   Cucumis_prolatior,
+            16   Cucumis_myriocarpus,
+            17   Cucumis_metuliferus,
+            18   Cucumis_melo,
+            19   Cucumis_meeusei,
+            20   Cucumis_kalahariensis,
+            21   Cucumis_jeffreyanus,
+            22   Cucumis_insignis,
+            23   Cucumis_hystrix,
+            24   Cucumis_humifructus,
+            25   Cucumis_hirsutus,
+            26   Cucumis_heptadactylus,
+            27   Cucumis_hastatus,
+            28   Cucumis_globosus,
+            29   Cucumis_ficifolius,
+            30   Cucumis_dipsaceus,
+            31   Cucumis_carolinus,
+            32   Cucumis_canoxyi,
+            33   Cucumis_baladensis,
+            34   Cucumis_anguria,
+            35   Cucumis_africanus,
+            36   Cucumis_aculeatus,
+            37   Cucumella_silentvalleyi,
+            38   Cucumella_ritchiei,
+            39   Cucumella_reticulata,
+            40   Cucumella_kelleri,
+            41   Cucumella_jeffreyana,
+            42   Cucumella_engleri,
+            43   Cucumella_clavipetiolata,
+            44   Cucumella_cinerea,
+            45   Cucumella_bryoniifolia,
+            46   Cucumella_aspera,
+            47   Cucumella_aetheocarpa;
+      TREE Fig._2B = [&R] (1,((((((((16,((((((35,(32,(13,27))),28),14),((34,30),(36,17))),3,5,((29,12),((((41,42),(40,39)),44),45))),((((((((((26,25),15),20),33),22),8),4),9),6),(24,18)))),11),(31,21)),19,(7,47)),10),23),(46,43)),(38,37)),2);
+
+
+
+END;

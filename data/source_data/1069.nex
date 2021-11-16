@@ -1,0 +1,86 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:45 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Sieber-canavesi F., Petrini O., & Sieber T. 1991. Endophytic Leptostroma species
+on Picea abies, Abies alba, and Abies balsamea: a cultural, biochemical, and numerical
+study. Mycologia, 83: 89-96.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S298]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=3;
+        TAXLABELS
+            Leptostroma_on_Abies_alba
+            Leptostroma_on_Abies_balsamea
+            Leptostroma_on_Picea_abies
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M1520]
+
+	TITLE Table_III;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=29;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2" MISSING=? GAP= -;
+	CHARSTATELABELS
+		1  WP1 / 0 28,
+		2  WP2 / 0 4,
+		3  WP3 / 0 5,
+		4  PE1 / 0 5,
+		5  PE2 / 0 1,
+		6  PE3 / 0 9,
+		7  PE4 / 0 14,
+		8  PE5 / 0 1,
+		9  PE6 / 0 1,
+		10  PE7 / 0 2,
+		11  PE8 / 0 1 2,
+		12  PE9 / 0 1,
+		13  PL1 / 0 7,
+		14  PL2 / 0 1,
+		15  PL3 / 0 2,
+		16  PL4 / 0 1 8,
+		17  PL5 / 0 9,
+		18  PL6 / 0 3,
+		19  PL7 / 0 1,
+		20  PL8 / 0 2,
+		21  PL9 / 0 1,
+		22  PL10 / 0 1,
+		23  PL11 / 0 1,
+		24  A1 / 1 17,
+		25  A2 / 2 3 10,
+		26  A3 / 0 1,
+		27  A4 / 0 1,
+		28  A5 / 0 1,
+		29  A6 / 0 1,
+		;
+
+MATRIX
+[                                         10        20         ]
+[                                          .         .         ]
+Leptostroma_on_Abies_alba         01001000011001000001010010000
+Leptostroma_on_Abies_balsamea     00101001002100010010111001100
+Leptostroma_on_Picea_abies        10010110100010121100000120011
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb5048;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Leptostroma_on_Abies_alba,
+            2    Leptostroma_on_Abies_balsamea,
+            3    Leptostroma_on_Picea_abies;
+      TREE Fig._4 = [&R] (3,(1,2))Leptostroma;
+
+
+
+END;

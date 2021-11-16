@@ -1,0 +1,321 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:47 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Rodman J., Oliver M., Nakamura R., Mcclammer J., & Bledsoe A. 1984. A taxonomic analysis
+and revised classification of Centrospermae. Systematic Botany, 9: 297-323.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S358]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=20;
+        TAXLABELS
+            Aizoaceae
+            Amaranthaceae
+            Basellaceae
+            Berberidaceae
+            Cactaceae
+            Caryophyllaceae
+            Chenopodiaceae
+            Didiereaceae
+            Dilleniaceae
+            Illiciaceae
+            Lardizabalaceae
+            Menispermaceae
+            Molluginaceae
+            Nyctaginaceae
+            Phytolaccaceae
+            Plumbaginaceae
+            Polygonaceae
+            Portulacaceae
+            Ranunculaceae
+            Schisandraceae
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M1954]
+
+	TITLE Table_2;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=79;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2 3" MISSING=? GAP= -;
+	CHARSTATELABELS
+		1  1._Bound_ferulic_acid_in_unlign / absent present,
+		2  2._Betalains / absent present,
+		3  3._Anthocyanins / present absent,
+		4  4._Proanthocyanidins / present absent,
+		5  5._Myricetin / absent present,
+		6  6._Isoflavones / absent present,
+		7  7._Methylated_flavonols / absent present,
+		8  '8. 8-hydroxy flavonols' / absent present,
+		9  '9. 6-hydroxy flavonols' / absent present,
+		10  '10. 5-methoxy flavonols' / absent present,
+		11  11._Flavonol_sulfates / absent present,
+		12  '12. Luteolin and-or apigenin' / absent present,
+		13  13._Methylated_flavones / absent present,
+		14  14._Raphides_of_calcium_oxalate / absent present,
+		15  '15. 6-hydroxy flavones' / absent present,
+		16  '16. C-glycosylflavones' / absent present,
+		17  17._Chalcones / absent present,
+		18  18._Dihydroflavonols / absent present,
+		19  19._Crassulacean_acid_metabolis / absent present_in_at_least_some_specie,
+		20  20._C._photosynthesis / absent present_in_some_species,
+		21  '21. Sieve-element plastic type' / starch protein,
+		22  #22 / ._Plastid_subtype '/' not_applicable globular,
+		23  22._Protein_inclusion / lacking_in_plastid_or_if_presen inclusion_globular,
+		24  23._Protein_inclusion / lacking_or_if_present_not_polyg inclusion_polygonal,
+		25  24._Protein_inclusion / lacking_and_plastic_without_per inclusion_lacking_but_plastic_w,
+		26  25._Floral_symmetry / always_actinomorphic sometimes_zygomorphic,
+		27  26._Floral_sexuality / hermaphroditic unisexual,
+		28  27._Apparent_sepal_number / not_equal_to_two equal_to_two,
+		29  #28 / ._Number_of_apparent_petals '/' more_than_ten four_to_ten,
+		30  28._Petals / present absent,
+		31  29._Number_of_apparent_petals / more_than_ten less_than_ten,
+		32  30._Number_of_stamens / more_than_ten ten_or_fewer,
+		33  31._Number_of_carpers / more_than_five five_or_fewer,
+		34  32._Gynoecium / apocarpous syncarpous_including_pseudoapoc,
+		35  #33 / ._Ovule_placentation '/' marginal basal,
+		36  33._Ovule_placentation / 'marginal, exile, or free-centra' basal,
+		37  34._Ovule_placentation / marginal_or_basal 'exile or free-central',
+		38  35._Floral_hypanthium / absent present,
+		39  36._Embryo_orientation / usually_not_campylotropous usually_so,
+		40  37._Number_of_integuments / always_bitegmic sometimes_unitegmic,
+		41  38._Arillate_seed / absent present,
+		42  39._Starchy_endosperm / present absent,
+		43  40._Perisperm / absent usually_present,
+		44  #41 / ._Pollen_apertures '/' colpate_or_corporate_exclusivel colpate_and_porate_mixed_in_fam,
+		45  41._Aperture_types / mixed_in_family single_type_characteristic_for,
+		46  42._Aperture_type / mostly_colpate_or_corporate mostly_porate,
+		47  43._Number_of_pores / absent_or_few more_than_six,
+		48  #44 / ._Number_of_colpi '/' not_applicable both_three_and_more_than_three,
+		49  44._Colpi_condition / variable_in_family tricolpate_or_tricolporate_almo,
+		50  45._Colpi_condition / variable_in_family 'pantocolpate (polyrugate) almos',
+		51  46._Zonocolpate / absent present,
+		52  47._Pollen_apertures / simple compound,
+		53  48._Pollen_surface_scabrate / absent present,
+		54  49._Pollen_surface_granular / absent present,
+		55  50._Pollen_surface_spinulose_or / absent present,
+		56  '51. Pollen surface punctate-per' / present absent,
+		57  52._Exine_reticulate / present absent,
+		58  53._Exine_verrucate / absent present,
+		59  54._Exine_striate / present absent,
+		60  55._Pollen_units / monads monads_and_tetrads,
+		61  56._Pollen_nuclear_condition_at / binucleate trinucleate,
+		62  #57 / ._Seed_structure '/' exotestal_with_minute_embryo 'with well-developed embryo',
+		63  57._Seed_structure / exotestal_with_minute_embryo_or 'exotestal with well-developed e',
+		64  58._Endosperm_development / nuclear cellular,
+		65  #59 / ._Initiation_of_stamen_primo '/' centripetal centrifugal,
+		66  59._Initiation_of_stamen_primor / centripetal centrifugal,
+		67  60._Nodal_vascular_traces / 'multi- or trilacunar' unilacunar,
+		68  61._Anomalous_secondary_growth / absent present,
+		69  62._Pitting_of_imperforate_trac / bordered simple,
+		70  '63. Chromosome base number x= 7' / present absent,
+		71  '64. Chromosome base number x =' / present absent,
+		72  '65. Chromosome base number x =' / absent present,
+		73  '66. Chromosome base number x =' / absent present,
+		74  '67. Chromosome base number x =' / absent present,
+		75  '68. Base number x = 12 or appar' / absent present,
+		76  #69 / ._Embryogeny_type '/' 'onagrad and-or asterad type' caryophyllad_alone_or_mixed_wit,
+		77  69._Embryogeny / otherwise caryophyllad_alone_or_mixed_wit,
+		78  70._Embryogeny / otherwise 'chenopodiad and-or solanad type',
+		79  71._Quinones_in_vegetative_tiss / absent present,
+		;
+
+MATRIX
+[                           10        20        30        40        50        60        70         ]
+[                            .         .         .         .         .         .         .         ]
+Aizoaceae           1110101010000100001111100000000001201110111010021000001010101110111111110002010
+Amaranthaceae       1111010000000011000113001100211111110010011211100100001000101110211111110002010
+Basellaceae         1111000000000001000011100001101111110010011010030100011000101110211011100012010
+Berberidaceae       0000101000000000000000000000000110000000100000010000011000010110000000000000000
+Cactaceae           1111001000000000001011100100000001110110011100110000001000111110111011100102010
+Caryophyllaceae     1000001000010001110012010000101111201010011100110000001000101110211100111111100
+Chenopodiaceae      1111111010101001000113001100211111110010011211100100001010101110211111110002010
+Didiereaceae        1110100000000001001011100011101111110010111010030110001010111110211011100012010
+Dilleniaceae        0010101001000100010000000000101000000000100000010001100000000200110101000010000
+Illiciaceae         0010000000000000000000000000000000000000000010021000000100100001001000100000000
+Lardizabalaceae     0000000000000000000000000010101110000000000010021000000010000111000000000000000
+Menispermaceae      0011000000001000000000000100101110000001000000021001010000100110000100100000000
+Molluginaceae       1001000000000101000111100000211111201010111000010000001010101110211111110001100
+Nyctaginaceae       1110000000000101000111100100211111110011011100110000001000101110111111110000000
+Phytolaccaceae      1110001000000101000011100100211111110010011100110000001010101110111101110001100
+Plumbaginaceae      0000101001110001100000000000101111110000000000010010000101101110210110000002011
+Polygonaceae        0000101111111011100000000000211111110001000100110001101000001000210111101110001
+Portulacaceae       1110000000010001001111100101101111110010011100110000001010101110211011111011100
+Ranunculaceae       0000001100010001000000000100000000000001000100110010001000000000000000010000001
+Schisandraceae      0000100000000000000000000010000000000000000000010000000100100001001000100000000
+;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M1965]
+
+	TITLE Table_2;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=64;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2 3" MISSING=? GAP= -;
+	CHARSTATELABELS
+		1  1._Bound_ferulic_acid_in_unlign / absent present,
+		2  2._Betalains / absent present,
+		3  3._Anthocyanins / present absent,
+		4  4._Proanthocyanidins / present absent,
+		5  5._Myricetin / absent present,
+		6  6._Isoflavones / absent present,
+		7  7._Methylated_flavonols / absent present,
+		8  '8. 8-hydroxy flavonols' / absent present,
+		9  '9. 6-hydroxy flavonols' / absent present,
+		10  '10. 5-methoxy flavonols' / absent present,
+		11  11._Flavonol_sulfates / absent present,
+		12  '12. Luteolin and-or apigenin' / absent present,
+		13  13._Methylated_flavones / absent present,
+		14  14._Raphides_of_calcium_oxalate / absent present,
+		15  '15. 6-hydroxy flavones' / absent present,
+		16  '16. C-glycosylflavones' / absent present,
+		17  17._Chalcones / absent present,
+		18  18._Dihydroflavonols / absent present,
+		19  19._Crassulacean_acid_metabolis / absent present_in_at_least_some_specie,
+		20  20._C._photosynthesis / absent present_in_some_species,
+		21  '21. Sieve-element plastic type' / starch protein,
+		22  #22 / ._Plastid_subtype '/' not_applicable globular,
+		23  25._Floral_symmetry / always_actinomorphic sometimes_zygomorphic,
+		24  26._Floral_sexuality / hermaphroditic unisexual,
+		25  27._Apparent_sepal_number / not_equal_to_two equal_to_two,
+		26  #28 / ._Number_of_apparent_petals '/' more_than_ten four_to_ten,
+		27  30._Number_of_stamens / more_than_ten ten_or_fewer,
+		28  31._Number_of_carpers / more_than_five five_or_fewer,
+		29  32._Gynoecium / apocarpous syncarpous_including_pseudoapoc,
+		30  33._Ovule_placentation / marginal basal 'exile or free-central',
+		31  35._Floral_hypanthium / absent present,
+		32  36._Embryo_orientation / usually_not_campylotropous usually_so,
+		33  37._Number_of_integuments / always_bitegmic sometimes_unitegmic,
+		34  38._Arillate_seed / absent present,
+		35  39._Starchy_endosperm / present absent,
+		36  40._Perisperm / absent usually_present,
+		37  #41 / ._Pollen_apertures '/' colpate_or_corporate_exclusivel colpate_and_porate_mixed_in_fam,
+		38  43._Number_of_pores / absent_or_few more_than_six,
+		39  #44 / ._Number_of_colpi '/' not_applicable both_three_and_more_than_three,
+		40  46._Zonocolpate / absent present,
+		41  47._Pollen_apertures / simple compound,
+		42  48._Pollen_surface_scabrate / absent present,
+		43  49._Pollen_surface_granular / absent present,
+		44  50._Pollen_surface_spinulose_or / absent present,
+		45  '51. Pollen surface punctate-per' / present absent,
+		46  52._Exine_reticulate / present absent,
+		47  53._Exine_verrucate / absent present,
+		48  54._Exine_striate / present absent,
+		49  55._Pollen_units / monads monads_and_tetrads,
+		50  56._Pollen_nuclear_condition_at / binucleate trinucleate,
+		51  #57 / ._Seed_structure '/' exotestal_with_minute_embryo 'with well-developed embryo',
+		52  58._Endosperm_development / nuclear cellular,
+		53  59._Initiation_of_stamen_primor / centripetal centrifugal not_applicable,
+		54  60._Nodal_vascular_traces / 'multi- or trilacunar' unilacunar,
+		55  61._Anomalous_secondary_growth / absent present,
+		56  62._Pitting_of_imperforate_trac / bordered simple,
+		57  '63. Chromosome base number x= 7' / present absent,
+		58  '64. Chromosome base number x =' / present absent,
+		59  '65. Chromosome base number x =' / absent present,
+		60  '66. Chromosome base number x =' / absent present,
+		61  '67. Chromosome base number x =' / absent present,
+		62  '68. Base number x = 12 or appar' / absent present,
+		63  69._Embryogeny_type / 'onagrad and-or asterad type' caryophyllad_alone_or_mixed_wit 'solanad and-or chenopodiad type',
+		64  71._Quinones_in_vegetative_tiss / absent present,
+		;
+
+MATRIX
+[                           10        20        30        40        50        60    ]
+[                            .         .         .         .         .         .    ]
+Aizoaceae           1110101010000100001111000000121101110020000101010110111111100020
+Amaranthaceae       1111010000000011000113100211110100112100000100010110211111100020
+Basellaceae         1111000000000001000011001111110100110030001100010110210111000120
+Berberidaceae       0000101000000000000000000011000001000010001100001010000000000000
+Cactaceae           1111001000000000001011100000111100111110000100011110110111001020
+Caryophyllaceae     1000001000010001110012000111120100111110000100010110211001111110
+Chenopodiaceae      1111111010101001000113100211110100112100000101010110211111100020
+Didiereaceae        1110100000000001001011011111110101110031000101011110210111000120
+Dilleniaceae        0010101001000100010000000100000001000010110000000020101010000100
+Illiciaceae         0010000000000000000000000000000000000020000010010001010001000000
+Lardizabalaceae     0000000000000000000000010111000000000020000001000011000000000000
+Menispermaceae      0011000000001000000000100111000010000020101000010010001001000000
+Molluginaceae       1001000000000101000111000211120101110010000101010110211111100010
+Nyctaginaceae       1110000000000101000111100211110110111110000100010110111111100000
+Phytolaccaceae      1110001000000101000011100211110100111110000101010110111011100010
+Plumbaginaceae      0000101001110001100000000111110000000011000010110110201100000021
+Polygonaceae        0000101111111011100000000211110010001110110100000100201111011101
+Portulacaceae       1110000000010001001111101111110100111110000101010110210111110110
+Ranunculaceae       0000001100010001000000100000000010001111000100000000000000100001
+Schisandraceae      0000100000000000000000010000000000000010000010010001010001000000
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb5144;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Portulacaceae,
+            2    Phytolaccaceae,
+            3    Nyctaginaceae,
+            4    Molluginaceae,
+            5    Didiereaceae,
+            6    Chenopodiaceae,
+            7    Caryophyllaceae,
+            8    Cactaceae,
+            9    Basellaceae,
+            10   Amaranthaceae,
+            11   Aizoaceae,
+            12   Polygonaceae,
+            13   Plumbaginaceae,
+            14   Dilleniaceae,
+            15   Schisandraceae,
+            16   Ranunculaceae,
+            17   Menispermaceae,
+            18   Lardizabalaceae,
+            19   Illiciaceae,
+            20   Berberidaceae;
+      TREE Fig._9 = [&R] (13,(12,(7,((9,5),(1,((8,11),(3,(2,(4,(10,6))))))))));
+      TREE Fig._8 = [&R] (13,(12,(7,((8,11),((9,5),(1,(3,(2,(4,(10,6))))))))));
+      TREE Fig._6 = [&R] ((13,12),((7,4),((2,3),((10,6),((8,11),(1,(9,5)))))));
+      TREE Fig._7 = [&R] ((13,12),(7,(4,(2,3,((10,6),((8,11),(1,(9,5))))))));
+      TREE Fig._4 = [&R] ((19,15),(18,(17,((20,16),(14,(13,(12,(7,((1,((11,8)Cactianae,(9,5)))Portulacares,(2,3,(4,(10,6)Amaranthares)))Chenopodiineae)Centrospermae))Dicotyledonae)))))Angiospermae;
+      TREE Fig._10 = [&R] ((13,12),((8,11),((9,5),((1,7),(3,(2,(4,(10,6))))))));
+
+
+
+END;
+BEGIN TREES;
+      TITLE Tb5143;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Portulacaceae,
+            2    Phytolaccaceae,
+            3    Nyctaginaceae,
+            4    Molluginaceae,
+            5    Didiereaceae,
+            6    Chenopodiaceae,
+            7    Caryophyllaceae,
+            8    Cactaceae,
+            9    Basellaceae,
+            10   Amaranthaceae,
+            11   Aizoaceae,
+            12   Polygonaceae,
+            13   Plumbaginaceae,
+            14   Dilleniaceae,
+            15   Schisandraceae,
+            16   Ranunculaceae,
+            17   Menispermaceae,
+            18   Lardizabalaceae,
+            19   Illiciaceae,
+            20   Berberidaceae;
+      TREE Fig._1 = [&R] (((((((20,18),(19,15)),17),16),14),(13,12)),(((((10,6),(4,(3,2)Nyctaginares)),((9,5),1)),(11,8)),7));
+      TREE Fig._2 = [&R] (12,((((((20,((19,15),18)),17),16),14),13),(((((10,6),((4,(3,2)),1)),(9,5)),(11,8)),7)));
+
+
+
+END;

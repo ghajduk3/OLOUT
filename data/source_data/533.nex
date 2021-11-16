@@ -1,0 +1,88 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:36 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Hufford L., & Crane P. 1989. "A preliminary phylogenetic analysis of the 'lower'
+Hamamelidae." In: Crane P., & Blackmore S., eds. Evolution, Systematics, and Fossil
+History of the Hamamelidae. pp. 175-192. Oxford, United Kingdom, null.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S105]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=14;
+        TAXLABELS
+            Altingia
+            Cercidiphyllum
+            Corylopsis
+            Degeneria
+            Disanthus
+            Eucommia
+            Euptelea
+            Exbucklandia
+            Myrothamnus
+            Platanus
+            Rhodoleia
+            Tetracentron
+            Trochodendron
+            Winteraceae
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M996]
+
+	TITLE Table_2;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=70;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2 3 4 5" MISSING=? GAP= -;
+
+MATRIX
+[                          10        20        30        40        50        60        70]
+[                           .         .         .         .         .         .         .]
+Altingia           002011132?03110?121?112010101102000041111?122?211222141112210110111110
+Cercidiphyllum     112111?111011101012111203011101222003001001021011111141101201020110001
+Corylopsis         01201114212?1101100?001220110000000041111?213?011110020?10011210111110
+Degeneria          0?1000?00?031?000?0000000000??0?0011300000002?000000000210200120?00???
+Disanthus          012011?0110?11010101011320101010111140111?111?01111002001001121011?110
+Eucommia           0130101521011202002?102?301000021100400?101?4?212110101100?????1000001
+Euptelea           013010?221211102000100203011001202001001000011011111141000201001001001
+Exbucklandia       002011041?00110?120?11102011001232??41111?111?011110020212211110111110
+Myrothamnus        1020010111211200012?0100111110102100501?11102?111111131100201020110001
+Platanus           011011122110110?1211?1003110000210??001??01031011110020000201121001110
+Rhodoleia          002011102003110?02011112201100020000411110212?011110040012211010111110
+Tetracentron       0121010111020011000?010111100000000051101?1010111111010001200100000001
+Trochodendron      0010000120020010100100010011000100000110111020111111010?01200100000010
+Winteraceae        0?2000000?0300000?000000001111001111000000000001200212000011102???0?1?
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb4824;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Degeneria,
+            2    Winteraceae,
+            3    Trochodendron,
+            4    Tetracentron,
+            5    Euptelea,
+            6    Cercidiphyllum,
+            7    Myrothamnus,
+            8    Eucommia,
+            9    Platanus,
+            10   Altingia,
+            11   Rhodoleia,
+            12   Disanthus,
+            13   Corylopsis,
+            14   Exbucklandia;
+      TREE Fig._x = [&R] (1,(2,((3,4),(((6,7),(5,8)),(9,(((10,11),14),(12,13)))))));
+
+
+
+END;

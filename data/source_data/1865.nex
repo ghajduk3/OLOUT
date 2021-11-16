@@ -1,0 +1,301 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:51 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Schafer S.A. 1987. Osteology of Hypotomus plecostomus (Linnaeus), with a phylogenetic
+analysis of the loricariid subfamilies (Pisces: Siluroidei). Contributions
+in Science, (394): 1-31.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S12918]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=74;
+        TAXLABELS
+            Acanthopoma_bondi
+            Ancistrinae
+            Ancistrus_chagresi
+            Ancistrus_cirrhosus
+            Astroblepidae
+            Astroblepus_boulengeri
+            Astroblepus_festae
+            Astroblepus_grixalvae
+            Astroblepus_longifilis
+            Astroblepus_simonsii
+            Callichthyidae
+            Callichthys_callichthys
+            Chaetostoma_anomalus
+            Chaetostoma_fischeri
+            Cochliodon_cochliodon
+            Corydoras_aeneus
+            Corydoras_paleatus
+            Corydoras_punctatus
+            Corymbophanes_andersoni
+            Decapogon
+            Diplomystes_viedmensis
+            Dolichancistrus_atratoensis
+            Dolichancistrus_cobrensis
+            Dolichancistrus_pediculatus
+            Exastilithoxus_fimbriatus
+            Farlowella
+            Hemiancistrus_megacephalus
+            Henonemus
+            Hoplosternum_magdalenae
+            Hypoptopoma
+            Hypoptopomatinae
+            Hypostominae
+            Hypostomus
+            Hypostomus_plecostomus
+            Isorineloricaria_spinosissima
+            Kronichthys
+            Kronichthys_heylandi
+            Lamontichthys_filamentosus
+            Lasiancistrus_caucanus
+            Lasiancistrus_mayoloi
+            Leptoancistrus_canensis
+            Limatulichthys_punctatus
+            Lipopterichthys_carrioni
+            Lithogenes_villosus
+            Lithogeninae
+            Lithoxus_bovalli
+            Lithoxus_lithoides
+            Loricaria
+            Loricariichthys
+            Loricariichthys_labialis
+            Loricariinae
+            Megalancistrus
+            Microlepidogaster_leucofrenatus
+            Monistiancistrus_carachama
+            Nematogenys_inermis
+            Neoplecostominae
+            Neoplecostomus_microps
+            Otocinclus
+            Oxyropsis_wrightianum
+            Panaque_purusiensis
+            Peckoltia_niveata
+            Phractura_scaphrorhynchura
+            Pogonopomoides_parahybae
+            Pseudorinelepis_genibarbus
+            Pseudostegophilus_nemurus
+            Pterygoplichthys
+            Pterygoplichthys_gibbiceps
+            Rhinelepis_agassizi
+            Rhineloricaria_jubata
+            Rhineloricaria_lanceolata
+            Scoloplax_dicra
+            Sturisoma
+            Trichomycterus
+            Trichomycterus_oroyae
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M13421]
+
+	TITLE Hypotomus_plecostomus_matrix;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=30;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2 3" MISSING=? GAP= -;
+	CHARSTATELABELS
+		1  Dorsal_margin_of_the_metapterygoid_contacts_the_lateral_ethmoid,
+		2  Sutural_contact,
+		3  Supracleithrum,
+		4  Preopercle,
+		5  Shape_and_positional_relations_of_the_operculum,
+		6  'Dermal plates between the opercle and the canal-bearing plate at the ventral margin of the preopercle',
+		7  Lateral_cheek_plates,
+		8  Cheek_odontodes,
+		9  Accessory_epibranchial_flange,
+		10  'Defensive dorsal-fin spine',
+		11  Bifid_neural_spines,
+		12  'Pre-ural vertebral centra',
+		13  Vertebral_centra,
+		14  'Posteroventral process of the proximal portion of the pectoral-fin spine',
+		15  Pectoral_girdle,
+		16  Fibers_of_the_arrector_ventralis_muscle,
+		17  Articulation,
+		18  Dermal_plates_posterior_to_the_anus,
+		19  Caudal_peduncle,
+		20  Dermal_scutation_and_horizontal_supracaudal_plates,
+		21  Posterior_margins_of_the_hypural_elements_of_the_caudal_skeleton,
+		22  'Branched pectoral-fin rays',
+		23  Mesethmoid_disk,
+		24  '"Connecting bone" (Bailey and Baskin, 1976) between the transverse process of the second dorsal-fin proximal radial element and the distal portion of the rib on the sixth centrum',
+		25  Palatine_of_callichthyids_and_astroblepids,
+		26  'The second of two secondary pectoral-fin radials',
+		27  Bifid_cusps,
+		28  Expanded_anterior_margin_of_the_anterohyals,
+		29  Bifid_hemal_spines,
+		30  Lateropterygium_element,
+		;
+
+MATRIX
+[                                           10        20        30]
+[                                            .         .         .]
+Acanthopoma_bondi                   ??????????????????????????????
+Ancistrinae                         ??????????????????????????????
+Ancistrus_chagresi                  212013211031000013011222112102
+Ancistrus_cirrhosus                 212013211031000013011222112102
+Astroblepidae                       ??????????????????????????????
+Astroblepus_boulengeri              000000000010000000000011001011
+Astroblepus_festae                  000000000010000000000011001011
+Astroblepus_grixalvae               000000000010000000000011001011
+Astroblepus_longifilis              000000000010000000000011001011
+Astroblepus_simonsii                000000000010000000000011001011
+Callichthyidae                      ??????????????????????????????
+Callichthys_callichthys             00?000000000000000000000000000
+Chaetostoma_anomalus                212013211031000013011222112102
+Chaetostoma_fischeri                212013211031000013011222112102
+Cochliodon_cochliodon               212002101031000013011222112102
+Corydoras_aeneus                    00?000000000000000000000000000
+Corydoras_paleatus                  00?000000000000000000000000000
+Corydoras_punctatus                 00?000000000000000000000000000
+Corymbophanes_andersoni             212002101031000013011222112102
+Decapogon                           00?000000000000000000000000000
+Diplomystes_viedmensis              ??????????????????????????????
+Dolichancistrus_atratoensis         212013211031000013011222112102
+Dolichancistrus_cobrensis           212013211031000013011222112102
+Dolichancistrus_pediculatus         212013211031000013011222112102
+Exastilithoxus_fimbriatus           212013211031000013011222112102
+Farlowella                          101001100132110121122222112112
+Hemiancistrus_megacephalus          212013211031000013011222112102
+Henonemus                           ??????????????????????????????
+Hoplosternum_magdalenae             00?000000000000000000000000000
+Hypoptopoma                         101101100020001222010222112112
+Hypoptopomatinae                    ??????????????????????????????
+Hypostominae                        ??????????????????????????????
+Hypostomus                          212002101031000013011222112102
+Hypostomus_plecostomus              212002101031000013011222112102
+Isorineloricaria_spinosissima       212002101031000013011222112102
+Kronichthys                         212002101031000013011222112102
+Kronichthys_heylandi                212002101031000013011222112102
+Lamontichthys_filamentosus          101001100132110121122222112112
+Lasiancistrus_caucanus              212013211031000013011222112102
+Lasiancistrus_mayoloi               212013211031000013011222112102
+Leptoancistrus_canensis             212013211031000013011222112102
+Limatulichthys_punctatus            101001100132110121122222112112
+Lipopterichthys_carrioni            212013211031000013011222112102
+Lithogenes_villosus                 ??????????????????????????????
+Lithogeninae                        ??????????????????????????????
+Lithoxus_bovalli                    212013211031000013011222112102
+Lithoxus_lithoides                  212013211031000013011222112102
+Loricaria                           101001100132110121122222112112
+Loricariichthys                     101001100132110121122222112112
+Loricariichthys_labialis            101001100132110121122222112112
+Loricariinae                        ??????????????????????????????
+Megalancistrus                      212002101031000013011222112102
+Microlepidogaster_leucofrenatus     101101100020001222010222112112
+Monistiancistrus_carachama          212002101031000013011222112102
+Nematogenys_inermis                 ??????????????????????????????
+Neoplecostominae                    ??????????????????????????????
+Neoplecostomus_microps              ??????????????????????????????
+Otocinclus                          101101100020001222010222112112
+Oxyropsis_wrightianum               101101100020001222010222112112
+Panaque_purusiensis                 212013211031000013011222112102
+Peckoltia_niveata                   212013211031000013011222112102
+Phractura_scaphrorhynchura          ??????????????????????????????
+Pogonopomoides_parahybae            212002101031000013011222112102
+Pseudorinelepis_genibarbus          212002101031000013011222112102
+Pseudostegophilus_nemurus           ??????????????????????????????
+Pterygoplichthys                    212002101031000013011222112102
+Pterygoplichthys_gibbiceps          212002101031000013011222112102
+Rhinelepis_agassizi                 212002101031000013011222112102
+Rhineloricaria_jubata               101001100132110121122222112112
+Rhineloricaria_lanceolata           101001100132110121122222112112
+Scoloplax_dicra                     ??????????????????????????????
+Sturisoma                           101001100132110121122222112112
+Trichomycterus                      ??????????????????????????????
+Trichomycterus_oroyae               ??????????????????????????????
+;
+END;
+
+BEGIN TREES;
+      TITLE Hypotomus_plecostomus;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Callichthyidae,
+            2    Astroblepidae,
+            3    Hypoptopomatinae,
+            4    Loricariinae,
+            5    Hypostominae,
+            6    Ancistrinae,
+            7    Lithogeninae,
+            8    Neoplecostominae,
+            9    Diplomystes_viedmensis,
+            10   Phractura_scaphrorhynchura,
+            11   Nematogenys_inermis,
+            12   Acanthopoma_bondi,
+            13   Henonemus,
+            14   Pseudostegophilus_nemurus,
+            15   Trichomycterus_oroyae,
+            16   Trichomycterus,
+            17   Scoloplax_dicra,
+            18   Callichthys_callichthys,
+            19   Corydoras_aeneus,
+            20   Corydoras_paleatus,
+            21   Corydoras_punctatus,
+            22   Decapogon,
+            23   Hoplosternum_magdalenae,
+            24   Astroblepus_boulengeri,
+            25   Astroblepus_festae,
+            26   Astroblepus_grixalvae,
+            27   Astroblepus_longifilis,
+            28   Astroblepus_simonsii,
+            29   Ancistrus_chagresi,
+            30   Ancistrus_cirrhosus,
+            31   Chaetostoma_anomalus,
+            32   Chaetostoma_fischeri,
+            33   Dolichancistrus_atratoensis,
+            34   Dolichancistrus_cobrensis,
+            35   Dolichancistrus_pediculatus,
+            36   Exastilithoxus_fimbriatus,
+            37   Hemiancistrus_megacephalus,
+            38   Lasiancistrus_caucanus,
+            39   Lasiancistrus_mayoloi,
+            40   Leptoancistrus_canensis,
+            41   Lipopterichthys_carrioni,
+            42   Lithoxus_bovalli,
+            43   Lithoxus_lithoides,
+            44   Panaque_purusiensis,
+            45   Peckoltia_niveata,
+            46   Cochliodon_cochliodon,
+            47   Corymbophanes_andersoni,
+            48   Hypostomus_plecostomus,
+            49   Hypostomus,
+            50   Isorineloricaria_spinosissima,
+            51   Kronichthys,
+            52   Kronichthys_heylandi,
+            53   Megalancistrus,
+            54   Monistiancistrus_carachama,
+            55   Pogonopomoides_parahybae,
+            56   Pterygoplichthys_gibbiceps,
+            57   Pterygoplichthys,
+            58   Pseudorinelepis_genibarbus,
+            59   Rhinelepis_agassizi,
+            60   Hypoptopoma,
+            61   Microlepidogaster_leucofrenatus,
+            62   Otocinclus,
+            63   Oxyropsis_wrightianum,
+            64   Farlowella,
+            65   Lamontichthys_filamentosus,
+            66   Limatulichthys_punctatus,
+            67   Loricaria,
+            68   Loricariichthys_labialis,
+            69   Loricariichthys,
+            70   Rhineloricaria_lanceolata,
+            71   Rhineloricaria_jubata,
+            72   Sturisoma,
+            73   Lithogenes_villosus,
+            74   Neoplecostomus_microps;
+      TREE Fig._21 = [&R] (2,(7,(8,(3,(4,(5,6))))));
+      TREE Fig._15 = [&R] (1,(2,(3,(4,(5,6)))));
+
+
+
+END;

@@ -56,7 +56,6 @@ def get_evaluation_results():
 
 if __name__ == '__main__':
     stat = sorted(collect_stats_all_data(), key=lambda x:x[1])
-    # print(len(stat))
 
     branch_df = pd.DataFrame(stat, columns=['file_name', 'avg_branch_factor'])
     evaluation_data_df = get_evaluation_results()

@@ -1,0 +1,91 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:48 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Tucker S., & Douglas A. 1993. Utility of ontogenetic and conventional characters
+in determining phylogenetic relationships of Saururaceae and Piperaceae (Piperales).
+Systematic Botany, 18: 614-641.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S110]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=14;
+        TAXLABELS
+            Anemopsis
+            Cabomba
+            Chloranthus
+            Gymnotheca
+            Houttuynia
+            Lactoris
+            Macropiper
+            Magnolia
+            Peperomia
+            Piper
+            Pothomorphe
+            Saruma
+            Saururus
+            Zippelia
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M906]
+
+	TITLE Table_1;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=35;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2 3 4" MISSING=? GAP= -;
+
+MATRIX
+[                       10        20        30        40       ]
+[                        .         .         .         .       ]
+Anemopsis       01001111101201202101001111010011101
+Cabomba         01?12?0000200013002??00002012000001
+Chloranthus     0{01}000010000001101000??1102000321300
+Gymnotheca      01011110111{12}012121011011100100111?1
+Houttuynia      0101111110121121110{01}000111010011101
+Lactoris        00111000000000100010?000020000?0000
+Macropiper      10111020102101220100020?11102421201
+Magnolia        00000?0000?000000010?0000?000100000
+Peperomia       1111212010210122010002010?001221211
+Piper           1{01}1{01}21101021012{02}010002011110{12}421211
+Pothomorphe     11111020102101230100020?11101421201
+Saruma          01012000010000121020000?100100?0100
+Saururus        01011110111111210100100100010001001
+Zippelia        111111101011012201000101100004212?1
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb4829;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Chloranthus,
+            2    Magnolia,
+            3    Lactoris,
+            4    Cabomba,
+            5    Saruma,
+            6    Anemopsis,
+            7    Houttuynia,
+            8    Gymnotheca,
+            9    Saururus,
+            10   Zippelia,
+            11   Piper,
+            12   Peperomia,
+            13   Pothomorphe,
+            14   Macropiper;
+      TREE Fig._4b = [&R] (1,(((2,3),(5,4)),((((6,7),8),9),(10,((11,12),(13,14))))));
+      TREE Fig._5 = [&R] (((6,7),(8,9)),(10,((11,12),(13,14))));
+      TREE Fig._4a = [&R] (1,(((2,3),(5,4)),((((6,7),8),(10,((11,12),(13,14)))),9)piperales));
+      TREE Fig._2 = [&R] (((1,2,4,3,5),((6,7,8,9),(10,(11,12,14,13)))piperales));
+
+
+
+END;

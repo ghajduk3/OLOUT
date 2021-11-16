@@ -1,0 +1,144 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:41 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Cutler E., & Gibbs P. 1985. A phylogenetic analysis of higher taxa in the phylum
+Sipuncula. Systematic Zoology, 34: 162-173.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S315]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=17;
+        TAXLABELS
+            Antillesoma
+            Apionsoma
+            Aspidosiphon
+            Cloeosiphon
+            Golfingia
+            Lithacrosiphon
+            Nephasoma
+            Onchnesoma
+            Phascolion
+            Phascolopsis
+            Phascolosoma
+            Siphonomecus
+            Siphonosoma
+            Sipunculus
+            Themiste
+            Thysanocardia
+            Xenosiphon
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M1195]
+
+	TITLE Table_1;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=18;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 P" MISSING=? GAP= -;
+	CHARSTATELABELS
+		1  Tentacular_arrangement,
+		2  Tentacular_arrangement,
+		3  Tentacular_arrangement,
+		4  Rings_of_introverted_hooks,
+		5  Nephridia_#,
+		6  Coelomic_extensions,
+		7  'Introvert/trunk junction',
+		8  Postesophageal_loop,
+		9  Anus_location,
+		10  Anal_shield,
+		11  Anal_shield,
+		12  Anal_shield,
+		13  Longitudinal_muscle_bands,
+		14  #_retractor_muscles,
+		15  #_retractor_muscles,
+		16  Post._attach._of_spindle_muscle,
+		17  Post._attach._of_spindle_muscle,
+		18  Contractile_vessel_villi,
+		;
+
+MATRIX
+[                          10        20    ]
+[                           .         .    ]
+Antillesoma        100000000000100101
+Apionsoma          100100000000000100
+Aspidosiphon       100100100001{01}01100
+Cloeosiphon        100100000100001100
+Golfingia          001000000000000000
+Lithacrosiphon     100100100011101100
+Nephasoma          001000000000001000
+Onchnesoma         001010001000010010
+Phascolion         00101000{01}00001001{01}
+Phascolopsis       001000000000100000
+Phascolosoma       100100000000100100
+Siphonomecus       001001000000101100
+Siphonosoma        00100100000010010{01}
+Sipunculus         001001010000100000
+Themiste           011000000000001001
+Thysanocardia      001000000000001001
+Xenosiphon         001001000000100000
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb5080;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Lithacrosiphon,
+            2    Aspidosiphon,
+            3    Cloeosiphon,
+            4    Phascolosoma,
+            5    Apionsoma,
+            6    Antillesoma,
+            7    Thysanocardia,
+            8    Themiste,
+            9    Golfingia,
+            10   Nephasoma,
+            11   Phascolion,
+            12   Onchnesoma,
+            13   Phascolopsis,
+            14   Xenosiphon,
+            15   Sipunculus,
+            16   Siphonomecus,
+            17   Siphonosoma;
+      TREE Fig._2 = [&R] ((((1,2),3)2idae,((6,4),5)4tidae)Phascolosomida,((((9,(10,7))Golfingiidae,(11,12)11idae),8)9formes,(13,((16,17),(15,14)))Sipunculiformes)Sipunculida)Sipuncula;
+      TREE Fig._3B = [&R] ((((1,2),3),(6,4),5),(((7,8),10),(11,12),9,(13,(14,(16,17),15))));
+      TREE Fig._3A = [&R] ((((1,2),3),(6,4),5),(((7,8),10,(11,12)),9,(13,(14,(16,17),15))));
+
+
+
+END;
+BEGIN TREES;
+      TITLE Tb5081;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Lithacrosiphon,
+            2    Aspidosiphon,
+            3    Cloeosiphon,
+            4    Phascolosoma,
+            5    Apionsoma,
+            6    Antillesoma,
+            7    Thysanocardia,
+            8    Themiste,
+            9    Golfingia,
+            10   Nephasoma,
+            11   Phascolion,
+            12   Onchnesoma,
+            13   Phascolopsis,
+            14   Xenosiphon,
+            15   Sipunculus,
+            16   Siphonomecus,
+            17   Siphonosoma;
+      TREE Fig._4A = [&R] ((((((17,16),(14,15)),13),((10,(8,7)),9)),(12,11)),(6,(((5,4),3),(2,1))));
+
+
+
+END;

@@ -1,0 +1,177 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:37 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Lee C., Mccool B., Moore J., Hillis D.M., & Gilbert L. 1992. Phylogenetic study of
+heliconiine butterflies based on morphology and restriction analysis of ribosomal
+RNA genes. Zoological Journal of the Linnean Society, 106: 17-31.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S360]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=11;
+        TAXLABELS
+            Agraulis_vanillae
+            Dyas_julia
+            Heliconius_chantonia
+            Heliconius_cydno_gustavi
+            Heliconius_erato
+            Heliconius_hecale
+            Heliconius_hewitsoni
+            Heliconius_ismenius
+            Heliconius_melpomene
+            Heliconius_pachinus
+            Heliconius_sara
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M1995]
+
+	TITLE Table_1b;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=15;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2 3 4 5 6" MISSING=? GAP= -;
+	CHARSTATELABELS
+		1  25._hind_wing_cell / open closed,
+		2  26._androconial_scale_placement / on_veins_only 'on veins + wing membrane',
+		3  27._androconia_on_male_hind_win / presence absence,
+		4  28._metathoracic_legs_pretarsal / developed vestigial,
+		5  29._prothoracic_leg$_number_of / five four,
+		6  30._stink_club_of_female$_scale / 'hair-like' flat cone,
+		7  31._signa_of_female_bursa_copul / present absent,
+		8  32._chromosome_number / thirty_one twenty_one,
+		9  33._pupal_spines / absent present,
+		10  34._pupal_head_projections / short long,
+		11  35._larval_head_scold_length_di / '<.4' '.9-1.5' '> 1.8',
+		12  36._pupal_abdominal_segments_be / 'segments 3+5' segment_3 'segments 3+4' 'segments 3+4+6' 'segments 3+4+6+7',
+		13  '37. pupal thoracic (T) and abdo' / non 'segments 3T+1A' 'segments 1-3T+1-2A',
+		14  38._larval_head_colour / 'black-orange' 'brown-white' orange 'black-white' yellow black,
+		15  39._male_clasper / type_one type_two type_three type_four type_five type_six,
+		;
+
+MATRIX
+Agraulis_vanillae            111221111121115
+Dyas_julia                   112112111122226
+Heliconius_chantonia         222113222225344
+Heliconius_cydno_gustavi     222113122124332
+Heliconius_erato             222113222224353
+Heliconius_hecale            222113122133331
+Heliconius_hewitsoni         222113222213164
+Heliconius_ismenius          222113122133331
+Heliconius_melpomene         222113122123332
+Heliconius_pachinus          222113122124332
+Heliconius_sara              222113222213364
+;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M1987]
+
+	TITLE Table_1;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=17;
+	FORMAT DATATYPE=Standard SYMBOLS= "- +" MISSING=? GAP= #;
+
+MATRIX
+Agraulis_vanillae            +---++---+-+-++-?
+Dyas_julia                   ++?----+-+?--?---
+Heliconius_chantonia         +-+-----+-+------
+Heliconius_cydno_gustavi     +++-+----+-+++-++
+Heliconius_erato             +-++--+--+-+-----
+Heliconius_hecale            ?++-+----+---+--+
+Heliconius_hewitsoni         +++------++-+-+-+
+Heliconius_ismenius          ?++-+----+---+-++
+Heliconius_melpomene         ?++-+----+------+
+Heliconius_pachinus          +++-+----+-+++-++
+Heliconius_sara              ?++------+------+
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb5147;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Heliconius_hecale,
+            2    Heliconius_ismenius,
+            3    Heliconius_pachinus,
+            4    Heliconius_cydno_gustavi,
+            5    Heliconius_melpomene,
+            6    Heliconius_erato,
+            7    Heliconius_hewitsoni,
+            8    Heliconius_sara,
+            9    Heliconius_chantonia,
+            10   Dyas_julia,
+            11   Agraulis_vanillae;
+      TREE Fig._6 = [&R] (11,(10,(((9,6),8,7),((5,(2,1)),(4,3)))Heliconius))Heliconiinae;
+
+
+
+END;
+BEGIN TREES;
+      TITLE Tb5149;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Heliconius_hecale,
+            2    Heliconius_ismenius,
+            3    Heliconius_pachinus,
+            4    Heliconius_cydno_gustavi,
+            5    Heliconius_melpomene,
+            6    Heliconius_erato,
+            7    Heliconius_hewitsoni,
+            8    Heliconius_sara,
+            9    Heliconius_chantonia,
+            10   Dyas_julia,
+            11   Agraulis_vanillae;
+      TREE Fig._5B = [&R] (11,(6,(9,(7,(8,(5,(((4,3),2),1)))))));
+
+
+
+END;
+BEGIN TREES;
+      TITLE Tb5148;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Heliconius_hecale,
+            2    Heliconius_ismenius,
+            3    Heliconius_pachinus,
+            4    Heliconius_cydno_gustavi,
+            5    Heliconius_melpomene,
+            6    Heliconius_erato,
+            7    Heliconius_hewitsoni,
+            8    Heliconius_sara,
+            9    Heliconius_chantonia,
+            10   Dyas_julia,
+            11   Agraulis_vanillae;
+      TREE Fig._5C = [&R] (11,(10,((9,6,(8,7)),5,4,3,(2,1))));
+
+
+
+END;
+BEGIN TREES;
+      TITLE Tb5150;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Heliconius_hecale,
+            2    Heliconius_ismenius,
+            3    Heliconius_pachinus,
+            4    Heliconius_cydno_gustavi,
+            5    Heliconius_melpomene,
+            6    Heliconius_erato,
+            7    Heliconius_hewitsoni,
+            8    Heliconius_sara,
+            9    Heliconius_chantonia,
+            10   Dyas_julia,
+            11   Agraulis_vanillae;
+      TREE Fig._5A = [&R] (11,((9,6),7,((((8,5),1),2),4,3)));
+
+
+
+END;

@@ -1,0 +1,38 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:45 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Baldwin B.G. 1992. Phylogenetic utility of the internal transcribed spacers of nuclear
+ribosomal DNA in plants: An example from the Compositae. Molecular Phylogenetics
+and Evolution, 1: 3-16.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S235]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=0;
+        TAXLABELS
+            ;
+END;
+
+BEGIN TREES;
+      TITLE Tb4957;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+      TREE Fig._2A = [&R] (Arnica_mollis,Hulsea_algida,((Adenothamnus_validus,((Raillardiopsis_scabrida,(((Raillardiopsis_muirii,Madia_elegans),Madia_stebbinsii),(Wilkesia_gymnoxiphium,Argyroxiphium_caliginis,(Dubautia_menziesii,Dubautia_arborea)))),Madia_bolanderi)),Raillardella_pringlei));
+      TREE Fig._2B = [&R] (Arnica_mollis,Hulsea_algida,((Adenothamnus_validus,((Raillardiopsis_scabrida,(((Raillardiopsis_muirii,Madia_elegans),Madia_stebbinsii),((Wilkesia_gymnoxiphium,Argyroxiphium_caliginis),(Dubautia_menziesii,Dubautia_arborea)))),Madia_bolanderi)),Raillardella_pringlei));
+      TREE Fig._2C = [&R] (Arnica_mollis,Hulsea_algida,(Adenothamnus_validus,(Raillardella_pringlei,((Raillardiopsis_scabrida,(((Raillardiopsis_muirii,Madia_elegans),Madia_stebbinsii),(Wilkesia_gymnoxiphium,Argyroxiphium_caliginis,(Dubautia_menziesii,Dubautia_arborea)))),Madia_bolanderi))));
+      TREE Fig._2D = [&R] (Arnica_mollis,Hulsea_algida,(Adenothamnus_validus,(Raillardella_pringlei,((Raillardiopsis_scabrida,(((Raillardiopsis_muirii,Madia_elegans),Madia_stebbinsii),((Wilkesia_gymnoxiphium,Argyroxiphium_caliginis),(Dubautia_menziesii,Dubautia_arborea)))),Madia_bolanderi))));
+      TREE Fig._2E = [&R] (Arnica_mollis,Hulsea_algida,((Adenothamnus_validus,Raillardella_pringlei),((Raillardiopsis_scabrida,(((Raillardiopsis_muirii,Madia_elegans),Madia_stebbinsii),(Wilkesia_gymnoxiphium,Argyroxiphium_caliginis,(Dubautia_menziesii,Dubautia_arborea)))),Madia_bolanderi)));
+      TREE Fig._2F = [&R] (Arnica_mollis,Hulsea_algida,((Adenothamnus_validus,Raillardella_pringlei),((Raillardiopsis_scabrida,(((Raillardiopsis_muirii,Madia_elegans),Madia_stebbinsii),((Wilkesia_gymnoxiphium,Argyroxiphium_caliginis),(Dubautia_menziesii,Dubautia_arborea)))),Madia_bolanderi)));
+      TREE Fig._3 = [&R] (Arnica_mollis,Hulsea_algida,(Adenothamnus_validus,Raillardella_pringlei,((Raillardiopsis_scabrida,(((Raillardiopsis_muirii,Madia_elegans),Madia_stebbinsii),(Wilkesia_gymnoxiphium,Argyroxiphium_caliginis,(Dubautia_menziesii,Dubautia_arborea)))),Madia_bolanderi)));
+
+
+
+END;

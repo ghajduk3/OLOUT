@@ -1,0 +1,82 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:38 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Kim K., & Mabry T. 1991. Phylogenetic and evolutionary implications of nuclear ribosomal
+DNA variation in dwarf dandelions (Krigia, Lactuceae, Ateraceae). Plant
+Systematics and Evolution, 177: 53-69.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S206]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=12;
+        TAXLABELS
+            Krigia_biflora_Bd
+            Krigia_biflora_Bt
+            Krigia_cespitosa.gracilis_C
+            Krigia_cespitosa.gracilis_G
+            Krigia_cespitosa.gracilis_G.C
+            Krigia_dandelion
+            Krigia_montana
+            Krigia_occidentalis
+            Krigia_virginica_Vd
+            Krigia_virginica_Vt
+            Krigia_wrightii
+            Pyrrhopappus_carolinianus
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M499]
+
+	TITLE Table_3;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=50;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1" MISSING=? GAP= -;
+
+MATRIX
+[                                         10        20        30        40        50]
+[                                          .         .         .         .         .]
+Krigia_biflora_Bd                 00001111000001001001001000000010000101101000110001
+Krigia_biflora_Bt                 00001111000001001001001001000010000101101000110010
+Krigia_cespitosa.gracilis_C       00111110110010011010001100001000001111000011001000
+Krigia_cespitosa.gracilis_G       00111110110010011010001100001000001111000011001000
+Krigia_cespitosa.gracilis_G.C     00111110110010011010001100001000001111000011001000
+Krigia_dandelion                  00001111100000111001011000000000000111100000010100
+Krigia_montana                    00001111100100111001011000000000000111100000010100
+Krigia_occidentalis               01100111110000011111100110000000100011110100000000
+Krigia_virginica_Vd               10001111100000111001011000000100000111100000010100
+Krigia_virginica_Vt               00001111100000110001011000000100000111100000010100
+Krigia_wrightii                   00111001101010011001001000110001111110100000000100
+Pyrrhopappus_carolinianus         00001111100000011001001000000000001111100000010000
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb4937;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Krigia_dandelion,
+            2    Krigia_montana,
+            3    Krigia_biflora_Bd,
+            4    Krigia_biflora_Bt,
+            5    Krigia_virginica_Vd,
+            6    Krigia_virginica_Vt,
+            7    Krigia_occidentalis,
+            8    Krigia_wrightii,
+            9    Krigia_cespitosa.gracilis_G,
+            10   Krigia_cespitosa.gracilis_G.C,
+            11   Krigia_cespitosa.gracilis_C,
+            12   Pyrrhopappus_carolinianus;
+      TREE Fig._5 = [&R] (12,((((5,6),1,2),(3,4)),(8,(7,(9,10,11)))));
+
+
+
+END;

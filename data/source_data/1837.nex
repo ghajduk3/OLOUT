@@ -1,0 +1,176 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:51 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Schilthuizen M., & Gittenberger E. 1996. "Allozyme variation in some Cretan Albinaria
+(Gastropoda): Paraphyletic species as natural phenomena." In: Taylor J., eds.
+Origin and evolutionary radiation of the Mollusca. pp. 301-311. Oxford, United
+Kingdom, Oxford University Press.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S388]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=38;
+        TAXLABELS
+            Albinaria_christae
+            Albinaria_corrugata_corrugata_4
+            Albinaria_corrugata_corrugata_7
+            Albinaria_corrugata_corrugata_8
+            Albinaria_corrugata_inflata_028
+            Albinaria_corrugata_inflata_107
+            Albinaria_corrugata_inflata_147
+            Albinaria_corrugata_inflata_172
+            Albinaria_cretensis_1073
+            Albinaria_cretensis_1099
+            Albinaria_cretensis_1183
+            Albinaria_cretensis_1189
+            Albinaria_discolor_moderata
+            Albinaria_grisea_grisea
+            Albinaria_h._aphrodite_x_holtzi
+            Albinaria_hippolya_arthuriana
+            Albinaria_hippolyti_aphrodite_2
+            Albinaria_hippolyti_aphrodite_3
+            Albinaria_hippolyti_aphrodite_4
+            Albinaria_hippolyti_aphrodite_7
+            Albinaria_hippolyti_hippolyti
+            Albinaria_hippolyti_holtzi_1033
+            Albinaria_hippolyti_holtzi_1125
+            Albinaria_hippolyti_holtzi_1240
+            Albinaria_idaea_1040
+            Albinaria_idaea_1077
+            Albinaria_idaea_1078
+            Albinaria_moreletuana_1121
+            Albinaria_scopulosa_macrodera
+            Albinaria_spratti_1014
+            Albinaria_spratti_1018
+            Albinaria_spratti_1025
+            Albinaria_spratti_1049
+            Albinaria_spratti_1094
+            Albinaria_spratti_1230
+            Albinaria_sublamellosa_307
+            Albinaria_terebra
+            Isabellarua_lophaechena
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M2072]
+
+	TITLE Table_26.2;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=15;
+	FORMAT DATATYPE=Standard SYMBOLS= "1 2 3 4 5 6 7 8 9 a b c d" MISSING=? GAP= -;
+	CHARSTATELABELS
+		1  sAat,
+		2  mAat,
+		3  Ao,
+		4  Est,
+		5  Gpi,
+		6  Hk,
+		7  Iddh,
+		8  Lap,
+		9  sMdh,
+		10  mMdh,
+		11  Mpi,
+		12  Pgdh,
+		13  Pgm,
+		14  mldhp,
+		15  sldhp,
+		;
+
+MATRIX
+Albinaria_christae                  121141113141334
+Albinaria_corrugata_corrugata_4     4511411c7311157
+Albinaria_corrugata_corrugata_7     341141178223131
+Albinaria_corrugata_corrugata_8     321141128222159
+Albinaria_corrugata_inflata_028     321341177181157
+Albinaria_corrugata_inflata_107     32134117628345a
+Albinaria_corrugata_inflata_147     3213411a6123151
+Albinaria_corrugata_inflata_172     3211411b6183157
+Albinaria_cretensis_1073            4212411a9311131
+Albinaria_cretensis_1099            821131195111131
+Albinaria_cretensis_1183            621141175111131
+Albinaria_cretensis_1189            421241173171431
+Albinaria_discolor_moderata         321141313163116
+Albinaria_grisea_grisea             322241165153115
+Albinaria_h._aphrodite_x_holtzi     421141173171131
+Albinaria_hippolya_arthuriana       321141123122141
+Albinaria_hippolyti_aphrodite_2     421141413111441
+Albinaria_hippolyti_aphrodite_3     421141134111131
+Albinaria_hippolyti_aphrodite_4     321141173111131
+Albinaria_hippolyti_aphrodite_7     421141333112131
+Albinaria_hippolyti_hippolyti       621141173113151
+Albinaria_hippolyti_holtzi_1033     121141124113131
+Albinaria_hippolyti_holtzi_1125     331151153111431
+Albinaria_hippolyti_holtzi_1240     521141144111141
+Albinaria_idaea_1040                423143383381151
+Albinaria_idaea_1077                631143593223351
+Albinaria_idaea_1078                631143123383357
+Albinaria_moreletuana_1121          321131122231133
+Albinaria_scopulosa_macrodera       111111111111111
+Albinaria_spratti_1014              621151133121149
+Albinaria_spratti_1018              62114117312113b
+Albinaria_spratti_1025              621141123121447
+Albinaria_spratti_1049              621241173121137
+Albinaria_spratti_1094              621151123123438
+Albinaria_spratti_1230              621241173121337
+Albinaria_sublamellosa_307          321141179114351
+Albinaria_terebra                   724143673121151
+Isabellarua_lophaechena             222222212121222
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb5230;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Isabellarua_lophaechena,
+            2    Albinaria_discolor_moderata,
+            3    Albinaria_scopulosa_macrodera,
+            4    Albinaria_grisea_grisea,
+            5    Albinaria_christae,
+            6    Albinaria_hippolya_arthuriana,
+            7    Albinaria_h._aphrodite_x_holtzi,
+            8    Albinaria_hippolyti_aphrodite_4,
+            9    Albinaria_hippolyti_aphrodite_2,
+            10   Albinaria_hippolyti_aphrodite_7,
+            11   Albinaria_hippolyti_aphrodite_3,
+            12   Albinaria_hippolyti_holtzi_1125,
+            13   Albinaria_hippolyti_holtzi_1240,
+            14   Albinaria_hippolyti_holtzi_1033,
+            15   Albinaria_hippolyti_hippolyti,
+            16   Albinaria_sublamellosa_307,
+            17   Albinaria_cretensis_1183,
+            18   Albinaria_cretensis_1073,
+            19   Albinaria_cretensis_1099,
+            20   Albinaria_cretensis_1189,
+            21   Albinaria_terebra,
+            22   Albinaria_spratti_1014,
+            23   Albinaria_spratti_1018,
+            24   Albinaria_spratti_1094,
+            25   Albinaria_spratti_1230,
+            26   Albinaria_spratti_1049,
+            27   Albinaria_spratti_1025,
+            28   Albinaria_idaea_1077,
+            29   Albinaria_idaea_1078,
+            30   Albinaria_idaea_1040,
+            31   Albinaria_moreletuana_1121,
+            32   Albinaria_corrugata_inflata_172,
+            33   Albinaria_corrugata_inflata_028,
+            34   Albinaria_corrugata_inflata_107,
+            35   Albinaria_corrugata_inflata_147,
+            36   Albinaria_corrugata_corrugata_4,
+            37   Albinaria_corrugata_corrugata_7,
+            38   Albinaria_corrugata_corrugata_8;
+      TREE Fig._26.3 = [&R] (((((((((5,9,12),19),(((11,10),13),14)),(8,((7,(20,18)),((((((27,24),22),(26,25)),23)Albinaria_spratti,17),15)))),6),(((30,(29,28))Albinaria_idaea,21),(16,((32,(33,(34,35)))Albinaria_corrugata_inflata,(36,(38,(37,31))))))),3),2),4,1)Albinaria;
+
+
+
+END;

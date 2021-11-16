@@ -1,0 +1,106 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:38 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Sanchez J. 2005. Systematics of the bubblegum corals (Cnidaria: Octocorallia: Paragorgiidae)
+with description of new species from New Zealand and the Eastern Pacific.
+Zootaxa, null.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S1357]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=17;
+        TAXLABELS
+            Paragorgia_alisonae
+            Paragorgia_aotearoa
+            Paragorgia_arborea
+            Paragorgia_coralloides
+            Paragorgia_johnsoni
+            Paragorgia_kaupeka
+            Paragorgia_maunga
+            Paragorgia_regalis
+            Paragorgia_splendens
+            Paragorgia_stephencairnsi
+            Paragorgia_tapachtli
+            Paragorgia_wahine
+            Paragorgia_whero
+            Paragorgia_yutlinux
+            Sibogagorgia_dennisgordoni
+            Sibogagorgia_tautahi
+            Sibogagorgia_weberi
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M1432]
+
+	TITLE Sclerites;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=8;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2 3 4" MISSING=? GAP= -;
+	CHARSTATELABELS
+		1  Terminal_branch_width / '< 4mm' '> 5 mm',
+		2  Conenchyme_colour / Colourless pink red 'Colourless and dark (purple) autozooid apertures',
+		3  Surface_sclerites_form / 'Symmetrical (all rays equal)' 'Asymmetrical (some larger or differentiated rays present)',
+		4  'Surface sclerites rays =warts' / Globular_and_fused 'smooth (unfused)' Grooved Lobulated '> 5 lobes',
+		5  'Surface sclerites length div width - coded' / '<1.3' '1.5 < X < 1.65' '> 1.66',
+		6  'Surface sclerites ornamentation - dominant forms' / '6-radiates' '7-radiates' '8-radiates',
+		7  Medulla_spindles / 'Smooth (few or no ornamentation)' Ornate,
+		8  Autozooid_tentacles_sclerites / Absent Ornate_blunt_sclerites,
+		;
+
+MATRIX
+Paragorgia_alisonae            02041211
+Paragorgia_aotearoa            02011211
+Paragorgia_arborea             12020011
+Paragorgia_coralloides         01102211
+Paragorgia_johnsoni            02011211
+Paragorgia_kaupeka             01122111
+Paragorgia_maunga              02122211
+Paragorgia_regalis             01122111
+Paragorgia_splendens           01042211
+Paragorgia_stephencairnsi      03031111
+Paragorgia_tapachtli           01102211
+Paragorgia_wahine              01042211
+Paragorgia_whero               01042211
+Paragorgia_yutlinux            03031111
+Sibogagorgia_dennisgordoni     10022200
+Sibogagorgia_tautahi           10032200
+Sibogagorgia_weberi            10031200
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb7316;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Sibogagorgia_dennisgordoni,
+            2    Sibogagorgia_tautahi,
+            3    Sibogagorgia_weberi,
+            4    Paragorgia_wahine,
+            5    Paragorgia_stephencairnsi,
+            6    Paragorgia_yutlinux,
+            7    Paragorgia_aotearoa,
+            8    Paragorgia_maunga,
+            9    Paragorgia_kaupeka,
+            10   Paragorgia_alisonae,
+            11   Paragorgia_regalis,
+            12   Paragorgia_coralloides,
+            13   Paragorgia_tapachtli,
+            14   Paragorgia_whero,
+            15   Paragorgia_splendens,
+            16   Paragorgia_johnsoni,
+            17   Paragorgia_arborea;
+      TREE Fig._5B = [&R] ((17,(((((16,7),(6,5)),10),(15,14,4)),(((13,12),(11,9)),8))),((3,2),1));
+      TREE Fig._5A = [&R] ((17,((((16,7,(6,5)),10),(15,14,4)),(((13,12),(11,9)),8))),((3,2),1));
+
+
+
+END;

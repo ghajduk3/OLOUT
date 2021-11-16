@@ -1,0 +1,70 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:36 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Smith G., & Van wyk B. 1991. Generic relationships in the Alooideae (Asphodelaceae).
+Taxon, 40: 557-581.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S185]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=9;
+        TAXLABELS
+            Aloe
+            Astroloba
+            Chortolirion
+            Gasteria
+            Haworthia
+            Kniphofia
+            Lomatophyllum
+            Outgroup_to_Alooideae
+            Poellnitzia
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M314]
+
+	TITLE Table_3;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=16;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1" MISSING=? GAP= -;
+
+MATRIX
+Aloe                      1110101100000001
+Astroloba                 1011111111011111
+Chortolirion              0010111111111111
+Gasteria                  1011111100011101
+Haworthia                 1011111111111111
+Kniphofia                 0000001100000000
+Lomatophyllum             11101011000?0001
+Outgroup_to_Alooideae     0000000000000000
+Poellnitzia               1010111100011001
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb4913;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Outgroup_to_Alooideae,
+            2    Kniphofia,
+            3    Aloe,
+            4    Astroloba,
+            5    Chortolirion,
+            6    Gasteria,
+            7    Haworthia,
+            8    Lomatophyllum,
+            9    Poellnitzia;
+      TREE Fig._2 = [&R] (2,((3,8),(9,(6,(4,(7,5))))))Asphodelaceae;
+
+
+
+END;

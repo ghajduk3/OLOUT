@@ -1,0 +1,222 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:36 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Valdivia E.R., Hertweck K.L., Cho S., & Walker J.C. 2011. "DVL RTFL." In: Kastin
+A.J., eds. Handbook of Biologically Active Peptides. pp. . , .
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S11894]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=59;
+        TAXLABELS
+            Arabidopsis_thaliana_DVL1_AY254203
+            Arabidopsis_thaliana_DVL10_BK001753
+            Arabidopsis_thaliana_DVL11_BK001754
+            Arabidopsis_thaliana_DVL12_BK001755
+            Arabidopsis_thaliana_DVL13_BK001756
+            Arabidopsis_thaliana_DVL14_BK001757
+            Arabidopsis_thaliana_DVL15_BK001758
+            Arabidopsis_thaliana_DVL16_BK001759
+            Arabidopsis_thaliana_DVL17_BK001760
+            Arabidopsis_thaliana_DVL18_BK001761
+            Arabidopsis_thaliana_DVL19_BK001762
+            Arabidopsis_thaliana_DVL2_AY254318
+            Arabidopsis_thaliana_DVL20_BK001763
+            Arabidopsis_thaliana_DVL21_BK001764
+            Arabidopsis_thaliana_DVL3_AY254319
+            Arabidopsis_thaliana_DVL4_AY254320
+            Arabidopsis_thaliana_DVL5_AY254321
+            Arabidopsis_thaliana_DVL6_BK001749
+            Arabidopsis_thaliana_DVL7_BK001750
+            Arabidopsis_thaliana_DVL8_BK001751
+            Arabidopsis_thaliana_DVL9_BK001752
+            Boechera_divaricarpa_BO1_EU180847
+            Brassica_rapa_B1_AC232448
+            Brassica_rapa_B2_AC172858
+            Brassica_rapa_B3_AC232554
+            Brassica_rapa_B4_AC189502
+            Brassica_rapa_B5_AC189561
+            Brassica_rapa_B6_AC155338
+            Brassica_rapa_B7_AC189253
+            Capsella_rubella_CA1_EU162611
+            Cleome_spinosa_C1_DQ415921
+            Cleome_spinosa_C2_DQ415920
+            Cleome_spinosa_C3_EU162609
+            Gossypium_hirsutum_G1_DQ908115
+            Medicago_truncatula_M1_AC146865
+            Medicago_truncatula_M2_AC151708
+            Medicago_truncatula_M3_AC165275
+            Medicago_truncatula_M4_AC153725
+            Medicago_truncatula_M5_AC183753
+            Medicago_truncatula_M6_AC135467
+            Medicago_truncatula_M7_AC135796
+            Medicago_truncatula_M8_AC130652
+            Populus_trichocarpa_P1_EF145617
+            Populus_trichocarpa_P2_CU223542
+            Populus_trichocarpa_P3_AC182686
+            Populus_trichocarpa_P4_AC209266
+            Vitis_vinifera_V1_AM475881
+            Vitis_vinifera_V10_AM452285
+            Vitis_vinifera_V11_AM471004
+            Vitis_vinifera_V12_AM457029_
+            Vitis_vinifera_V13_AM458632
+            Vitis_vinifera_V2_AM424116
+            Vitis_vinifera_V3_AM437671
+            Vitis_vinifera_V4_AM431090
+            Vitis_vinifera_V5_AM455871
+            Vitis_vinifera_V6_AM446221
+            Vitis_vinifera_V7_AM460100
+            Vitis_vinifera_V8_AM450640
+            Vitis_vinifera_V9_AM449096
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M10236]
+
+	TITLE DVL_Genes;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=164;
+	FORMAT DATATYPE=Protein SYMBOLS= "A C D E F G H I K L M N P Q R S T V W Y" MISSING=- GAP= -;
+
+MATRIX
+[                                               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160    ]
+[                                                .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .    ]
+Arabidopsis_thaliana_DVL1_AY254203      ------------------------------------------------------MEMKRVMMSSA------------------------------ERSKEK-KRSIS---------------RRLGKYMKEQKGRIYIIRRCMVMLLCSHD-------------
+Arabidopsis_thaliana_DVL10_BK001753     --------------------------------------------------------MCLFMSNS----------------------------SLPTKPNRKT--RFGDR---------------CLLMAKQQRTRLYILRRCVSMLLCWHDHS----ISD----
+Arabidopsis_thaliana_DVL11_BK001754     ------------------------------------MASSSSLTRS-----GSVHLDEKWKLSKKDGGASRITRSSSTS-------------SSSFNGKKQGRCAFT---------------RKCARLVKEQRARFYIMRRCVIMLICWRDN---YSDS-----
+Arabidopsis_thaliana_DVL12_BK001755     --------------------------------------------------------MIVK---------------------------------LMGSNKDLHRQAKNNNN-----------KLTPNRSLKETRSRLYIIRRCLVMLLCWREPR----D------
+Arabidopsis_thaliana_DVL13_BK001756     MEEK--WKLSKKD--------------------TTASSSSS--KSKFSRSFST---SASSTKSPIFVRSSSTKCSVPSS-------------SSSSSSSSSISRSFSRKERRSSSSSSSSITQKYSSLAKEQKARFYIMRRCVAMLVCWHKHG----DS-----
+Arabidopsis_thaliana_DVL14_BK001757     --------------------------------------------------------MAGTVVL------------------------------RCCTSVTKVR-TWKRC----------------SKQIKEQRARLYIIWKCAVFLLSSHD-------------
+Arabidopsis_thaliana_DVL15_BK001758     MDVEKLWNHTKKDSIFQTTHFSSSSKPFFTRSFSTKTSSSPSSKSHFTRSFSTKPSSSSSSSDLIFRRSFSAKPKTSKSLLLSRSCSTKSSADLSSKS-SSLSRILSKKG--------ASVTGKCFKVAKEHKSRFYIIKRCVLMLVCWHKHS-----------
+Arabidopsis_thaliana_DVL16_BK001759     --------------------------------------------------------MAPEENGT-----------------------------------CEPCKTFG---------------QKCSHVVKKQRAKFYILRRCIAMLVCWHDQ---NHDRKDS--
+Arabidopsis_thaliana_DVL17_BK001760     --------------------------------------------------------MGQCSSATKMR-------------------------RKRKREEECCRESMERRN------------KGCLAMVKERRSRFYIARRCILMLLCWHKYA----NS-----
+Arabidopsis_thaliana_DVL18_BK001761     MDDENLWKVVKKDSIFETTHFS--SKPVFTRSFSTKTSSS-SSKPVFTRSFSTKPTSYSSS-EPIFRRSFSAKPTSSKSPFLSRSGSTKCPVDTSSTSKCSISRSLSQKG--------ASVTRKCRNMAKEHKSRFYIMKRCVLMLVCWHKHA----CDS----
+Arabidopsis_thaliana_DVL19_BK001762     --------------------------------------------------------MAGLKRKFN------------------------------------KGHAFT---------------SKCVSLVKEQRARLYILRRCATMLCCWYIH----GDE-----
+Arabidopsis_thaliana_DVL2_AY254318      -------------------------------------------------------------MESI------------------------------MSLKRKEKKSQS---------------RRLGKYLKEQKGRIYIIRRCVMMLLCSHD-------------
+Arabidopsis_thaliana_DVL20_BK001763     --------------------------------------------------------MG-EENSTS--------------------------------GTCKPSKTFK---------------AKCSHMVRKQRAKFYILGRCLAMLVCGRGR---DRERDRILI
+Arabidopsis_thaliana_DVL21_BK001764     --------------------------------------------------------MLVSNISGK----------------------------LMSQLMEKMKERLE----------------KMKRTVRQQRAKLHIIRICITMLLSSDDYS-----------
+Arabidopsis_thaliana_DVL3_AY254319      ------------------------------------------------------------------------------------------------MKGTKKKTPCN---------------KKLGGYLKEQKGRLYIIRRCVVMLICWHD-------------
+Arabidopsis_thaliana_DVL4_AY254320      ----------------------------------------------------------------M------------------------------KMGGSKRRVS-S---------------KGLGAVLKEQRAKLYIIRRCVVMLLCWHD-------------
+Arabidopsis_thaliana_DVL5_AY254321      -----------------------------------------------------------MKTTGS------------------------------SVGGTKRKMW-S---------------RGVGGVVREQKAKLYIIRRCVVMLLCWHD-------------
+Arabidopsis_thaliana_DVL6_BK001749      ------------------------------------------------------------------------------------------------MGVLKRRVSSS---------------RGLGGVLREQRAKLYIIKRCVVMLLCWQD-------------
+Arabidopsis_thaliana_DVL7_BK001750      -----------------------------------------------------MREKYTKEEAVK------------------------------NWEKKKNKPSSP---------------KGVGEFLKKKKGRFYIIGKCITMLLCSHK-------------
+Arabidopsis_thaliana_DVL8_BK001751      ---------------------------------------MSRLRNS-----------AQLQLSKKES---LGDNGGALN-------------TTRSSRQKQGKYGFT---------------RKCGRLVKEQRARFYIMRRCVVMLICWTDHNNNNSDHS----
+Arabidopsis_thaliana_DVL9_BK001752      MDEK--WRLSKKDALA-----------------ASCSSSSTSSKSKFSRSFST---SASSSKAPAFVRSSSTKCSVPS------------------SSSSSISRSSSKKE-------KGSITQKYSSLAKEQKGRFYIMRRCVAMLVCWHKH-----DS-----
+Boechera_divaricarpa_BO1_EU180847       MEEK--WKLSKKE--------------------TTASSSSSC-KSKFSRSFST---SASSTKSPIFVRSSSTKCSVPSS-------------SSSSSSSSSISRSFSRKERRSSSSSSSSITQKYSSLAKEQKARFYIMRRCVAMLVCWHKHG----DS-----
+Brassica_rapa_B1_AC232448               ------------------------------------------------------------------------------------------------MGVLKRRVSNS---------------RGLGGVLREQRARLYIIKRCVVMLLCWQD-------------
+Brassica_rapa_B2_AC172858               ------------------------------------------------------------MGSSQ------------------------------SMGGSKRRVS-S---------------RGLGAVLKEQRAKLYIIRRCVVMLLCWND-------------
+Brassica_rapa_B3_AC232554               ------------------------------------------------------METKRVMMSS-------------------------------ERSKQK-KRSIC---------------RRLGKHIKEQKGRIYIIRRCVVMLLCWHD-------------
+Brassica_rapa_B4_AC189502               --------------------------------------------------------MK-EENCTS--------------------------------RACERCKTFG---------------EKCSHKVKKQRGKFYILARCIAMLVCGRER---DHDRDRVSN
+Brassica_rapa_B5_AC189561               --------------------------------------------------------MAPEENST-----------------------------------CEPCKTFG---------------QKCSHVVKKQRTKFYILRRCIAMLVCWRDN---SHDRNDS--
+Brassica_rapa_B6_AC155338               --------------------------------------------------------------------------------------------------------SSS------------SITQKYSSLAKEQKGRFYIMRRCVAMLVCWHKH-----DS-----
+Brassica_rapa_B7_AC189253               --------------------------------------------------------MAEFKRKFN------------------------------------KGHAFT---------------SKCVSLVKEQRARLYILRRCATMLCCWYIH----GDE-----
+Capsella_rubella_CA1_EU162611           MEEK--WKLSKKE--------------------TTASSSSSSSKSMFSRSFST---SASSTKSPIFVRSSSTKCSIPSS-------------SSSSSS--SISRSFSRKERRSSSSSSSSITQKYSSLAKEQKARFYIMRRCVAMLVCWHKHG----DS-----
+Cleome_spinosa_C1_DQ415921              -------------------------------------------------------------MESV------------------------------RNSSEK-KTSYS---------------RRLGKYMREQKGRIYIIRSCVAMLLCWHD-------------
+Cleome_spinosa_C2_DQ415920              -------------------------------------------------------------MERI------------------------------R-SSEE-KKSYS---------------RRLGKYLREQKGRIYIISRCVVMLLCWHD-------------
+Cleome_spinosa_C3_EU162609              -----------------------------------------------------------------------------------------------------MSRSLSRKE------SGSSITQKYSSLAKEQKARFYIMRRCVAMLVCWHKHG----DS-----
+Gossypium_hirsutum_G1_DQ908115          -------------------------------------------------MSSLCLNMAASGCS------------------------------PKVTGIPKLR-LWRRC----------------SRLVKEQRTRFYIIWRCTVLLLRWED-------------
+Medicago_truncatula_M1_AC146865         --------------------------------------------------------MAATASV------------------------------FSMKGSSKVRSLGRYS----------------SKQVRQQRARLYIIWRCTVLLLCWND-------------
+Medicago_truncatula_M2_AC151708         --------------------------------------------------------MDNSYSKT--Y-------------------------PSNCEELANS--SLKKR---------------FLKRAKEERSRLYILKRCIIMLLCWHKYE----QY-----
+Medicago_truncatula_M3_AC165275         ---------------------------------------------------------------------------------------------MGECG---SKRGQK--------------DWRFGKRLKEYRGRFYIMRRCLVMLLCWHKYG-----------
+Medicago_truncatula_M4_AC153725         ------------------------------------------------------MAMAAEKINNTNQ------ITETNH-------------QQQEEQTCFPCKTFV---------------QKCDHFVKNQRAKFYIFRRCIMLLLCWNES---SSD------
+Medicago_truncatula_M5_AC183753         MDEK--RKTSSK--------------------------------SLFSRSSST---RSSTSNSSLLR-------------------------SSSSSSKCNLQRSFSQKN-------PSSIGRKCTNLAKEQKARFYIMRRCVAMLVCWHKHG----DN-----
+Medicago_truncatula_M6_AC135467         MDEK--WKLSKKE---------------------KSSNTSSTKSSLFSRSCST---RGSSSNSPLLLKSFS-----QKS-------------SSTSNNSGNLSRSYSQKN-------PS-IGKKCTNIAKEQKARFYIMRRCVAMLVCWHKHG----D------
+Medicago_truncatula_M7_AC135796         --------------------------------------------------------MAEFQNLKYKQ--------------------------GEKVATKKKRNGIS---------------SKCASLVKEQRARLYIVRRCATMLLCWYIQ----GED-----
+Medicago_truncatula_M8_AC130652         ------------------------------------MASSSSMESATPQPQPPLYFDEKWKLSKKEG--STRSKSSSSS-------------FIKNTSTTQRKCAFA---------------RKCARLVKEQRARFYIMRRCVTMLICWRD----YSDS-----
+Populus_trichocarpa_P1_EF145617         ----------------------------------------------------------MKMMSGA------------------------------TMGESKKKISC----------------RRLGGYLRQQKGRLYIIRRCVVMLVCWHD-------------
+Populus_trichocarpa_P2_CU223542         -----------------------------------------------------------MKMNSA------------------------------RMGSSKRRIP-S---------------KGLGAVLREQRARLYIIRRCVVMLICWHD-------------
+Populus_trichocarpa_P3_AC182686         ------------------------------------------------------MVMKPENITSFG----------------------------DQLRVRDSCRSLG---------------ERCCRVVKELRARFYILRRCVAMLLCSNEV---NEET-----
+Populus_trichocarpa_P4_AC209266         --------------------------------------------------------MAGKEKSET------------------------------QLHGCEPCRSFG---------------QKCSHLVKKQRGKFYIVRRCIAMLICWHER---ERGEP----
+Vitis_vinifera_V1_AM475881              ------------------------------------------------------MSVSIFLPTT----------------------------HSGRKTGRKS--SLRKR---------------CFTMVKQQKTRFYILGRCVSMLLCWHDHS----LGD----
+Vitis_vinifera_V10_AM452285             MDDK--WKASKK-----------------------------------EGSSSR---SSASSNAPLMR---------SCS-------------QKTTCSKSPLMRSFSQKS-------SS-ITRKCSNLAKEQKAKFYIIKRCVSMLVSSNKHG----DS-----
+Vitis_vinifera_V11_AM471004             --------------------------------------------------------MVEFQHHHRRC--------------------------GVKGPTKTKGHGFT---------------RKCASLVKEQRAKIYILRRCATMLLCWYIQ----GD------
+Vitis_vinifera_V12_AM457029_            --------------------------------------------------------MVMNEESTSFC------N----------------------RHVSNPCRSFG---------------RRCSRLVKEQRARFYILRRCVTMLVCWHEC---GDP------
+Vitis_vinifera_V13_AM458632             ---------------------------------------------------------------------------------------------MRNSS--QRRCSFT---------------RKCASLVKEQRARFYIVRRCVTMLICWRE----YSDS-----
+Vitis_vinifera_V2_AM424116              --------------------------------------------------------MAQH---------------------------------LPLC-MPKLR-SWRQCR------------RWCSKHIREQRGRLYIIWRCVVILLRWNE-------------
+Vitis_vinifera_V3_AM437671              --------------------------------------------------------MATT---------------------------------FSMR-SPKLR-SWQRC----------------SKHVREQRARLYIIWRCTVILLCWHD-------------
+Vitis_vinifera_V4_AM431090              --------------------------------------------------------MG-----------------------------------MNVCNVYLKKRRDG--------------EVPRCRVLAEKRARLYIIRRCLLMLLCWKETA----D------
+Vitis_vinifera_V5_AM455871              --------------------------------------------------------MEGKAEEKKGGE------------------------STEFAATASSKKRRGKVF-----------RVPKGGHLKEKRARLYIIRRCILMLICWKERA----D------
+Vitis_vinifera_V6_AM446221              --------------------------------------------------------MGQCYSATPTQ-------------------------GSHCHHEESS--SLKKR---------------CLAKAKEQRSRLYILRRCVIMLLCWHKYG----KY-----
+Vitis_vinifera_V7_AM460100              --------------------------------------------------------MGMKMMSST------------------------------TSDGSKRRLSS----------------GKLGGFLREQKGRLYIISRCVVMLLCWH--------------
+Vitis_vinifera_V8_AM450640              -----------------------------------------------------------MKMSSA------------------------------TMGGSKRRLS-N---------------KGLGGVLREQRARLYIIRRCVVMLLCWHD-------------
+Vitis_vinifera_V9_AM449096              ----------------------------------------MALNKVVFNQNKKDQDMGCFYTES----------------------------REERKMEESS--SFRKR---------------SAGMAKEYRSRFYILRRCVAMLLCWHKYA----K------
+;
+END;
+
+BEGIN TREES;
+      TITLE DVL_Result;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Arabidopsis_thaliana_DVL20_BK001763,
+            2    Brassica_rapa_B4_AC189502,
+            3    Brassica_rapa_B5_AC189561,
+            4    Arabidopsis_thaliana_DVL16_BK001759,
+            5    Medicago_truncatula_M4_AC153725,
+            6    Populus_trichocarpa_P4_AC209266,
+            7    Vitis_vinifera_V12_AM457029_,
+            8    Populus_trichocarpa_P3_AC182686,
+            9    Medicago_truncatula_M7_AC135796,
+            10   Vitis_vinifera_V11_AM471004,
+            11   Brassica_rapa_B7_AC189253,
+            12   Arabidopsis_thaliana_DVL19_BK001762,
+            13   Medicago_truncatula_M8_AC130652,
+            14   Vitis_vinifera_V13_AM458632,
+            15   Arabidopsis_thaliana_DVL11_BK001754,
+            16   Arabidopsis_thaliana_DVL8_BK001751,
+            17   Arabidopsis_thaliana_DVL15_BK001758,
+            18   Arabidopsis_thaliana_DVL18_BK001761,
+            19   Medicago_truncatula_M5_AC183753,
+            20   Medicago_truncatula_M6_AC135467,
+            21   Vitis_vinifera_V10_AM452285,
+            22   Arabidopsis_thaliana_DVL9_BK001752,
+            23   Brassica_rapa_B6_AC155338,
+            24   Boechera_divaricarpa_BO1_EU180847,
+            25   Arabidopsis_thaliana_DVL13_BK001756,
+            26   Capsella_rubella_CA1_EU162611,
+            27   Cleome_spinosa_C3_EU162609,
+            28   Vitis_vinifera_V1_AM475881,
+            29   Arabidopsis_thaliana_DVL10_BK001753,
+            30   Medicago_truncatula_M2_AC151708,
+            31   Vitis_vinifera_V6_AM446221,
+            32   Arabidopsis_thaliana_DVL17_BK001760,
+            33   Vitis_vinifera_V9_AM449096,
+            34   Vitis_vinifera_V4_AM431090,
+            35   Vitis_vinifera_V5_AM455871,
+            36   Arabidopsis_thaliana_DVL12_BK001755,
+            37   Medicago_truncatula_M3_AC165275,
+            38   Populus_trichocarpa_P1_EF145617,
+            39   Vitis_vinifera_V7_AM460100,
+            40   Arabidopsis_thaliana_DVL3_AY254319,
+            41   Cleome_spinosa_C1_DQ415921,
+            42   Cleome_spinosa_C2_DQ415920,
+            43   Brassica_rapa_B3_AC232554,
+            44   Arabidopsis_thaliana_DVL1_AY254203,
+            45   Arabidopsis_thaliana_DVL2_AY254318,
+            46   Populus_trichocarpa_P2_CU223542,
+            47   Vitis_vinifera_V8_AM450640,
+            48   Brassica_rapa_B2_AC172858,
+            49   Arabidopsis_thaliana_DVL4_AY254320,
+            50   Arabidopsis_thaliana_DVL5_AY254321,
+            51   Brassica_rapa_B1_AC232448,
+            52   Arabidopsis_thaliana_DVL6_BK001749,
+            53   Arabidopsis_thaliana_DVL7_BK001750,
+            54   Gossypium_hirsutum_G1_DQ908115,
+            55   Medicago_truncatula_M1_AC146865,
+            56   Vitis_vinifera_V2_AM424116,
+            57   Vitis_vinifera_V3_AM437671,
+            58   Arabidopsis_thaliana_DVL14_BK001757,
+            59   Arabidopsis_thaliana_DVL21_BK001764;
+      TREE NJT = [&R] ((((((((((30:0.21257155,31:0.03028795):0.11512663,32:0.23880007):0.07874699,(28:0.17456497,29:0.22445162):0.10613336):0.05469334,33:0.17513082):0.10810034,(17:0.22437428,18:0.07327175):0.162204):0.07739261,((19:4.4007E-4,20:0.03947822):0.05231623,(27:6.1454E-4,(26:4.0953E-4,(25:3.0702E-4,(24:3.0702E-4,(22:5.0E-7,23:5.0E-7):0.04051748):3.0752E-4):3.0752E-4):4.1003E-4):0.03044456):0.04856268):0.11912454,7:0.04451657):0.01995191,(((13:0.00556992,15:0.03466304):0.04751182,16:0.12999872):0.07342981,(14:0.04834922,(9:0.02850278,(10:0.11236083,(11:5.0E-7,12:5.0E-7):0.15113301):0.01339277):0.19888672):0.04771915):0.04839152):0.02267437,((((54:0.2679619,55:0.19406817):0.10619896,(56:0.16310158,58:0.42268678):0.02801034):0.02159312,57:0.03474555):0.34947499,((((34:0.30308646,35:0.1149122):0.16727359,36:0.27480631):0.13566936,37:0.33045599):0.09726971,((((((51:0.00233219,52:0.04463341):0.1067222,47:0.01931122):0.03844542,50:0.14677855):0.03167461,46:0.11990677):0.0095001,(48:0.04609784,49:0.00502536):0.05455847):0.08218527,(((38:0.09821727,39:0.1025255):0.02994659,40:0.09231043):0.07792174,(43:0.03968994,((41:0.10703355,42:0.08656746):0.07611408,(53:0.44947451,(44:0.09299383,45:0.04312129):0.04918656):0.0585168):0.05651359):0.05828541):0.11425659):0.0178068):0.02569316):0.16543769):0.03201973,(6:0.09959134,(5:0.44230031,(4:0.04172308,(3:0.00661433,(1:0.08869318,2:0.15370539):0.15622017):0.0925437):0.12004974):0.06310552):0.14321213,(8:0.20125235,(21:0.24198454,59:0.99837452):0.12888029):0.13010319);
+
+
+
+END;

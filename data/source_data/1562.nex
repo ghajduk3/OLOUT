@@ -1,0 +1,187 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:49 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Donoghue M.J., & Doyle J. 1989. "Phylogenetic analysis of angiosperms and the relationships
+of Hamamelidae." In: Crane P., & Blackmore S., eds. Evolution, Systematics,
+and Fossil History of the Hamamelidae. pp. 17-45. Oxford, United Kingdom,
+null.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S95]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=28;
+        TAXLABELS
+            Amborella
+            Annonaceae
+            Aritolochiaceae
+            Austrobaileya
+            Calycanthaceae
+            Canellaceae
+            Chloranthaceae
+            Cobombaceae
+            Degeneria
+            Eupomatia
+            Hamamelidales
+            Himantandraceae
+            Illicium
+            Lactoris
+            Liliopsida
+            Magnoliaceae
+            Monimiaceae
+            Myristicaceae
+            Nelumbo
+            Nymphaeaceae
+            Outgroup_to_angiosperms
+            Piperaceae
+            Ranunculaceae
+            Saururaceae
+            Schisandraceae
+            Trimeniaceae
+            Trochodendrales
+            Winteraceae
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M439]
+
+	TITLE Appendix;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=54;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2 3" MISSING=? GAP= -;
+	CHARSTATELABELS
+		1  radicle / persists replaced,
+		2  habit / woody herbaceous,
+		3  Vessels / absent throughout roots_only,
+		4  perforations / scalariform simple,
+		5  phloem / simple stratified,
+		6  Sieve_plastids / S_type P_type,
+		7  'U-sclerids' / absent present,
+		8  'B-sclerids' / absent present,
+		9  pith / simple septate,
+		10  oil_cells / absent present,
+		11  laticifers / absent present,
+		12  alkaloids / absent present,
+		13  nodes / trilac 'uni-1t' 'uni-2t',
+		14  nodes / 'tri-uni' multi,
+		15  phyllotaxy / spiral distich opposite,
+		16  stipules / absent adnate,
+		17  'Leafshape/ven' / 'ellipt-obov' ovate palmate,
+		18  lf_blade / not_pelt peltate,
+		19  Chlor_teeth / absent present,
+		20  stomates / para latero anomo tetra,
+		21  inflor / cymose solitary spike,
+		22  perianth / spiral '2-whorles' '1-whorl' absent,
+		23  calyptra / absent present,
+		24  'peri-num' / 'not-three' three,
+		25  'stamen-num' / 'not-three' three,
+		26  stamens / free connate,
+		27  stamens / laminar filament,
+		28  Inner_staminode / absent present,
+		29  pollen_unit / monads tetrads,
+		30  'pol-symmetry' / boatshaped globose,
+		31  Apertures / monosulc tricolpate,
+		32  'pol-size' / large medium small,
+		33  exine / granular 'tect-coll',
+		34  exine / 'smooth-fov' reticulate,
+		35  apertures / smooth verrucate,
+		36  'tectal-spinules' / absent present,
+		37  'extra-endexine' / absent present,
+		38  'carpel-num' / more one,
+		39  hypanthium / absent present,
+		40  ovules / more '1-apical' '1-basal',
+		41  ovule / anatropous orthotrop,
+		42  fruit / 'dry-dehisc' berry drupe 'dry-indeh',
+		43  seed / 'not-operc' operculate,
+		44  testa / 'not-multi' multiplic,
+		45  sarcotesta / absent present,
+		46  'exotest-pallis' / absent present,
+		47  mesotesta / 'not-fib' fibrous,
+		48  mesotesta / 'not-scler' sclerotic,
+		49  tegmen / 'not-fib' fibrous,
+		50  endosperm / cellular nuclear,
+		51  'endo/perisperm' / 'endo-only' both neither,
+		52  rumination / absent present,
+		53  cotyledons / 'not-fused' fused,
+		54  chromosomes / '6-8' '12-14(+)' '10-11',
+		;
+
+MATRIX
+[                                   10        20        30        40        50    ]
+[                                    .         .         .         .         .    ]
+Amborella                   000000100?0?2010101100000000010100?100?1120100000?0001
+Annonaceae                  00111101110100100000?00100000000?00000000?00?010000100
+Aritolochiaceae             ??110??0010?001?2002?1011010010111?0?01000010000000?00
+Austrobaileya               001000000100102?1001100000010101101010000100100?0?010?
+Calycanthaceae              001101?001001020100010000001010010?0101003000000002?02
+Canellaceae                 00100100010?00000001?001?1?00101?0000000010?01000?0?01
+Chloranthaceae              0??0?000?10?102?0011230???0001011111?101110?0000000000
+Cobombaceae                 11?0?000001??0?02102110110100000000?1000031101000010?1
+Degeneria                   001011001100011000001001000100000000010001001000000101
+Eupomatia                   00100100010?011000001?1?0001010100000010010000100?0102
+Hamamelidales               001000?000000?0??0112200001001111?1?10000001000?0?000?
+Himantandraceae             001?10001100000000001?1?000101010000?001010?0?000?0101
+Illicium                    001000010100200000?01000000001111100?00200000101000001
+Lactoris                    00110000010?10112002?20110?01101?00?00000001000001000?
+Liliopsida                  1120??0000?001???????101101000011?0000000?0???000?00??
+Magnoliaceae                00101?01110101??000010??000000000000000000001000000001
+Monimiaceae                 00100?1001012020?0??0000001?010100?110?1020?0000000001
+Myristicaceae               00101001110000100000020101?00001??1?01020000??00010101
+Nelumbo                     1120?0000011???121021000001001101110100103010000012?10
+Nymphaeaceae                1100?001001000012002100000??000000001000001101000?1011
+Outgroup_to_angiosperms     0000?0????00??00?00???0000??00010000000???00????????00
+Piperaceae                  0?1??000010?01?12003230?10100102?0???002120100001?1001
+Ranunculaceae               0?10?0?000010?002012?001?0?001111?1?10000?0?01000100?0
+Saururaceae                 0110?000010001112003230?101001021010100010010000101001
+Schisandraceae              0010?00101002000001010000?0001111100100001010101000001
+Trimeniaceae                00100000?1001020001000000000010110111101010101000?0000
+Trochodendrales             000000??00000?0?20112200001001111110100000010000?0000?
+Winteraceae                 00000001?10?00000000?0?000001101110010000?0101000?0001
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb4812;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Outgroup_to_angiosperms,
+            2    Magnoliaceae,
+            3    Winteraceae,
+            4    Degeneria,
+            5    Eupomatia,
+            6    Himantandraceae,
+            7    Annonaceae,
+            8    Canellaceae,
+            9    Myristicaceae,
+            10   Austrobaileya,
+            11   Amborella,
+            12   Trimeniaceae,
+            13   Chloranthaceae,
+            14   Calycanthaceae,
+            15   Monimiaceae,
+            16   Lactoris,
+            17   Saururaceae,
+            18   Piperaceae,
+            19   Aritolochiaceae,
+            20   Nymphaeaceae,
+            21   Cobombaceae,
+            22   Nelumbo,
+            23   Illicium,
+            24   Schisandraceae,
+            25   Ranunculaceae,
+            26   Trochodendrales,
+            27   Hamamelidales,
+            28   Liliopsida;
+      TREE Fig._3.1 = [&R] (1,(((((((2,7),9),4),6),5),8),((((15,11),(12,13)),(10,14))laurales,(((24,23),3)Winterales,(((27,26),(25,22))eudicots,((16,19),((18,17)piperales,((20,21),28)))))))angiosperms);
+
+
+
+END;

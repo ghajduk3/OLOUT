@@ -1,0 +1,128 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:52 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Alverson A., Beszteri B., Julius M.L., & Theriot E.C. 2010. Resolving the identity
+crisis of a model species: The marine diatom Thalassiosira pseudonana is the freshwater
+diatom Cyclotella nana. BMC Evolutionary Biology, .
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S11009]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=25;
+        TAXLABELS
+            Conticribra_tricircularis
+            Cyclotella_meneghiniana
+            Spicaticribra_kingstonii
+            Thalassiosira_brunii
+            Thalassiosira_californica
+            Thalassiosira_cedarkeyensis
+            Thalassiosira_elliptipora
+            Thalassiosira_flexuosa
+            Thalassiosira_gessneri
+            Thalassiosira_grunowii
+            Thalassiosira_hyperborea
+            Thalassiosira_kanayae
+            Thalassiosira_lacustris
+            Thalassiosira_marujamica
+            Thalassiosira_orientalis
+            Thalassiosira_perispinosa
+            Thalassiosira_praeyabei
+            Thalassiosira_pseudonana
+            Thalassiosira_sp._A
+            Thalassiosira_sp._B
+            Thalassiosira_temperei
+            Thalassiosira_transitoria
+            Thalassiosira_weissflogii
+            Thalassiosira_yabei
+            Tryblioptychus_cocconeiformis
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M7094]
+
+	TITLE Alverson_et_al_Morphology_Matrix;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=32;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2 3 4" MISSING=? GAP= -;
+
+MATRIX
+[                                         10        20        30  ]
+[                                          .         .         .  ]
+Conticribra_tricircularis         0?1011210???10102010010130000020
+Cyclotella_meneghiniana           0110112121110001?000010130000000
+Spicaticribra_kingstonii          0?1001210???00011000010130000020
+Thalassiosira_brunii              20130000300200102110010000000100
+Thalassiosira_californica         00001120302100112001110000000000
+Thalassiosira_cedarkeyensis       011100021?3200112010010030002100
+Thalassiosira_elliptipora         10001111302200102020010000000000
+Thalassiosira_flexuosa            00001111302200102030111000000000
+Thalassiosira_gessneri            0003?11241?20020101101013?000010
+Thalassiosira_grunowii            00001111302200102030110000000000
+Thalassiosira_hyperborea          00030001300200102010110010000000
+Thalassiosira_kanayae             2003000230021010211?110010000000
+Thalassiosira_lacustris           0003001241?200101011000131001010
+Thalassiosira_marujamica          00020111310200101010010000000020
+Thalassiosira_orientalis          0?02011131?200101010010000000020
+Thalassiosira_perispinosa         00020101302200102010110020000001
+Thalassiosira_praeyabei           00020111300200102010010000000000
+Thalassiosira_pseudonana          0?11?1212??10000?010010130000020
+Thalassiosira_sp._A               00020111300201101010010130000010
+Thalassiosira_sp._B               00020111300200101010010000000000
+Thalassiosira_temperei            20030001300200102110010010000000
+Thalassiosira_transitoria         20130001300200102110110010100000
+Thalassiosira_weissflogii         2?00111130220010?010000130000020
+Thalassiosira_yabei               00101121300200102000010000010000
+Tryblioptychus_cocconeiformis     200300011?0200100010030001000200
+;
+END;
+
+BEGIN TREES;
+      TITLE Alverson_et_al_Tpseudonana;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Thalassiosira_weissflogii,
+            2    Thalassiosira_sp._A,
+            3    Thalassiosira_sp._B,
+            4    Thalassiosira_brunii,
+            5    Thalassiosira_californica,
+            6    Thalassiosira_cedarkeyensis,
+            7    Thalassiosira_elliptipora,
+            8    Thalassiosira_flexuosa,
+            9    Thalassiosira_gessneri,
+            10   Thalassiosira_grunowii,
+            11   Thalassiosira_hyperborea,
+            12   Thalassiosira_kanayae,
+            13   Thalassiosira_lacustris,
+            14   Thalassiosira_marujamica,
+            15   Thalassiosira_orientalis,
+            16   Thalassiosira_perispinosa,
+            17   Thalassiosira_praeyabei,
+            18   Thalassiosira_temperei,
+            19   Thalassiosira_transitoria,
+            20   Thalassiosira_yabei,
+            21   Tryblioptychus_cocconeiformis,
+            22   Spicaticribra_kingstonii,
+            23   Conticribra_tricircularis,
+            24   Thalassiosira_pseudonana,
+            25   Cyclotella_meneghiniana;
+      TREE PAUP_2 = [&R] (1,(((2,(9,13)),((3,(((((((4,(6,21)),18),19),12),11),16),(((5,(8,10)),7),20),17)),(14,15))),(((22,25),24),23)));
+      TREE PAUP_1 = [&R] (1,(((2,(9,13)),((3,(((((((4,(6,21)),18),19),12),11),16),(((5,(8,10)),7),20),17)),14,15)),(((22,25),24),23)));
+      TREE PAUP_8 = [&R] (1,(((2,(9,13)),((3,((((((4,(6,21)),18),12,19),11),16),(((5,(8,10)),7),20),17)),(14,15))),(((22,25),24),23)));
+      TREE PAUP_7 = [&R] (1,(((2,(9,13)),((3,((((((4,(6,21)),18),12,19),11),16),(((5,(8,10)),7),20),17)),14,15)),(((22,25),24),23)));
+      TREE PAUP_5 = [&R] (1,(((2,(9,13)),((3,((((((4,(6,21)),19),12,18),11),16),(((5,(8,10)),7),20),17)),14,15)),(((22,25),24),23)));
+      TREE PAUP_6 = [&R] (1,(((2,(9,13)),((3,((((((4,(6,21)),19),12,18),11),16),(((5,(8,10)),7),20),17)),(14,15))),(((22,25),24),23)));
+      TREE PAUP_3 = [&R] (1,(((2,(9,13)),((3,(((((((4,(6,21)),19),18),12),11),16),(((5,(8,10)),7),20),17)),14,15)),(((22,25),24),23)));
+      TREE PAUP_4 = [&R] (1,(((2,(9,13)),((3,(((((((4,(6,21)),19),18),12),11),16),(((5,(8,10)),7),20),17)),(14,15))),(((22,25),24),23)));
+
+
+
+END;

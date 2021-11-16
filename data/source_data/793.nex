@@ -1,0 +1,78 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:38 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Bell P.R. 2011. Redescription of the skull of Saurolophus osborni Brown 1912 (Ornithischia:
+Hadrosauridae). Cretaceous Research, 32(1): 30-44.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S13027]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=11;
+        TAXLABELS
+            Bactrosaurus_johnsoni
+            Brachylophosaurus_canadensis
+            Edmontosaurus_annectens
+            Gryposaurus_notabilis
+            Hypacrosaurus_altispinus
+            Iguanodon_bernissartensis
+            Kerberosaurus_manakini
+            Lambeosaurus_lambei
+            Maiasaura_peeblesorum
+            Prosaurolophus_maximus
+            Saurolophus_osborni
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M13695]
+
+	TITLE Character_Matrix;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=44;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2 3" MISSING=? GAP= -;
+
+MATRIX
+[                                        10        20        30        40    ]
+[                                         .         .         .         .    ]
+Bactrosaurus_johnsoni            00000000000000000000000000000000000000000000
+Brachylophosaurus_canadensis     00100000110100101201100110001221110111212210
+Edmontosaurus_annectens          00100000130100112000100011101311110211311310
+Gryposaurus_notabilis            00100000120100101000100011001311110011111210
+Hypacrosaurus_altispinus         01011111101011020120111010001110111211111211
+Iguanodon_bernissartensis        00000000000000000000000000000000000000000000
+Kerberosaurus_manakini           001?1000????????2??0100011?01311110?11???2?0
+Lambeosaurus_lambei              01011111101011020110111010001110111211111211
+Maiasaura_peeblesorum            00100000110100001002100110001221110011112210
+Prosaurolophus_maximus           00101000120100112001100011001311110011211210
+Saurolophus_osborni              101110221201001122021210??00132111001121?210
+;
+END;
+
+BEGIN TREES;
+      TITLE Results;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Iguanodon_bernissartensis,
+            2    Bactrosaurus_johnsoni,
+            3    Lambeosaurus_lambei,
+            4    Hypacrosaurus_altispinus,
+            5    Maiasaura_peeblesorum,
+            6    Brachylophosaurus_canadensis,
+            7    Gryposaurus_notabilis,
+            8    Kerberosaurus_manakini,
+            9    Prosaurolophus_maximus,
+            10   Edmontosaurus_annectens,
+            11   Saurolophus_osborni;
+      TREE Figure_14 = [&R] (1,(2,((3,4),((5,6),(7,(10,(8,9,11)))))));
+
+
+
+END;

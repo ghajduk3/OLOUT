@@ -1,0 +1,94 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:51 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Di vietro L., Daghino S., Abbà S., & Perotto S. 2014. Gene expression and role in
+cadmium tolerance of two PLAC8 containing proteins identified in the ericoid mycorrhizal
+fungus Oidiodendron maius. Fungal Biology, .
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S15256]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=16;
+        TAXLABELS
+            Amorphotheca_resinae_JGI_105806
+            Amorphotheca_resinae_JGI_51940
+            Arabidopsis_thaliana_PCR1_GeneBank_AEE29238
+            Botryotinia_fuckeliana_GeneBank_FQ790352
+            Botrytis_cinerea_JGI_1253
+            Botrytis_cinerea_JGI_14694
+            Chalara_longipes_JGI_350586
+            Glarea_lozoyensis_JGI_1275
+            Glarea_lozoyensis_JGI_9295
+            Homo_sapiens_
+            Meliniomyces_bicolor_JGI_528752
+            Meliniomyces_bicolor_JGI_543603_
+            Meliniomyces_variabilis_JGI_188587
+            Oidiodendron_maius_FCR1_GeneBank_AEH59227
+            Oidiodendron_maius_FCR2_GeneBank_KJ158156
+            Sclerotinia_sclerotiorum_JGI_6131
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M20516]
+
+	TITLE Leot_PLAC8_ALNM;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=227;
+	FORMAT DATATYPE=Protein SYMBOLS= "A C D E F G H I K L M N P Q R S T V W Y *" MISSING=? GAP= -;
+
+MATRIX
+[                                                       10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170       180       190       200       210       220       ]
+[                                                        .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .       ]
+Amorphotheca_resinae_JGI_105806                 MIALF-------------------------------------------------YPDPPNTC------------SNCTLSCVV-PCVQYGKTQWRLSQIVKGGDPHDSGWRRSERCNSSCWAWCGIHSFLCFGFVATGFQRNRIRAIYGIDG---DCLSDFLLAYLCLPCVTMQNDREVRAR---------------------------------------------
+Amorphotheca_resinae_JGI_51940                  MSEIK-----------------QQPAAQPQPA----------YAKHQNVTGTEEWSNGIFDCFENS------PDNLCLKGTFC-PCFVYGKTQARL---------RDPSLATYERVNTDCITFVGANYLCGLAWVITFLKRGEIRQKYGIKG---DPVTDCLVSAFCNCCAVIQQEKEVVHKQFTGAIE-------QGYQAPQPMTTNQ*-----------------
+Arabidopsis_thaliana_PCR1_GeneBank_AEE29238     MEAQL----------------------------------------HAKPHAQGEWSTGFCDCFS--------DCRNCCITLCC-PCITFGQVAEIV---------DRGS----KSCCAAGALYMLIDLITSCGRMYACFYSGKMRAQYNIKG---DGCTDCLKHFCCNLCALTQQYRELKHRGFDMSLGWAGNAEKQQNQGGVAMGAPAFQGGMTR-----------
+Botryotinia_fuckeliana_GeneBank_FQ790352        MAEKIIQLEPTMEQQPLAIPQDQQPQEQPPPS----------SYSSPNVVEQSEWSNSIWNCFS--------PSSLCLKAFFC-PCFVYGKTQHRLN--------KDPNLMGYSRFNNDCFIWAGAQ-WCGLGAIFTTLQRRQIRTEYGIGKAGEGEVKDIALSWCCHCCVLMQQEKEVIMRNQGSDVFS------QGYQRTEPMAMAQTD----------------
+Botrytis_cinerea_JGI_1253                       MS--------------LNSQNGQIVSGIASPQ----------AHFVLNPQSHTFDYSSQTNALE--------SSG--LKAFFC-PCFVYGKTQHRLN--------KDPNLMGYSRFNNDCFIWAGAQ-WCGLGAIFTTLQRRQIRTEYGIGKAGEGEVKDIALSWCCHCCVLMQQEKEVIMRNQGSDVFS------QGYQRTEPMAMAQTD----------------
+Botrytis_cinerea_JGI_14694                      MP--------------------------------------------------TAYKNSFWACCS--------PFDLCIKTCCC-PCFVSGRNHHRI---------EHGNDDDYSTCNGWCCGWYSLATIGGFSFILQMLDRQKMQQQHGLEG---NACTGCMGSCCCACCELMQTSKELDYILLEKNAGA------KGYQPQPGMVADPQTGAFN------------
+Chalara_longipes_JGI_350586                     MSDVKE----------PETVVSTQPATQAQPTT---------LSKLQASTGSEQWHDDIFNCFEG-------PDNLCLKATFC-SCFVYGKLAHRT---------RDPTLTGYNRFNVDCLIFP----FCGIGYVLQFLKRLEVREKYDIKG---DLVTDVLFSACCACCSLIQVEKEVIARQSGASS--------EGYVAPDTMVAAPQ*----------------
+Glarea_lozoyensis_JGI_1275                      MP--------------------------------------------------NEWKNGLCSCM---------PCGLCMKSYFC-PCILVGQNHARI---------HKGTQK---------------------------------EDACNLEG---GGCGACCKSFWCGCCMNIQMSKELDYIQLQQQQ--------GGYASNQGMVAKPQQYHG-------------
+Glarea_lozoyensis_JGI_9295                      MAEPKQQ---------PAAPVTQQPKALAGVPT---------MEEARATTGSEEWQSGIFECFEG-------EDLLCLKTTFC-SCFTYGKTMHRS---------REPSMATYERINNDCLMFVAANCF-SLGWFLTFLKRGELRESYNLKG---DHVTDCLLSAFCGCCTLIQHEKEVIAKQRAAGLVS------QGYQAPAGMTTGQ*-----------------
+Homo_sapiens_                                   MQAQA------------PVVVVTQPGVGPGPAP-----------------QNSNWQTGMCDCFS--------DCGVCLCGTFCFPCL---------------------GCQVAADMNECC--------LCGTSVAM----RTLYRTRYGIPG---SICDDYMATLCCPHCTLCQIKRDINRRRAMRTF---------------------------------------
+Meliniomyces_bicolor_JGI_528752                 MP--------------------------------------------------RPYHNSLFSCS---------TDGSLLEACCC-PCVVYGRNHSRI---------VHGNREDYSSCNPWCIAWCCLCCCGNWGWVLQIIDRKDMQKKHKLEG---GTCGLCCTPLLCQCCELIQTGKELDYIQQLESV---------GYRAQPNMTTELRNREAL*-----------
+Meliniomyces_bicolor_JGI_543603_                MSETKA----------PETVVSQQPAGQAQP-T---------LSKLQAQTGTEEWHDDIFNCFEG-------PDNLCLKATFC-SCFVYGKLAHRM---------RDPTLTDYNRFNVDCLIFP----FCGIGYVLQFLKRLEARETYNIKG---DLVTDVLFSACCACCSLIQVEKEVIARQSGSSS--------AGYVAPSSMVAAPQ*----------------
+Meliniomyces_variabilis_JGI_188587              MSEVKE----------PETVVSTQPPAQAQPTT---------LSKLQATTGSEEWHDDIFNCFEG-------PDNLCLKATFC-SCFVYGKLAHRT---------RDPTLTGYNRFNVDCLIFP----FCGIGYVLQFLKRLEVREKYNIKG---DLVTDVLFSACCACCSLIQVEKEVIARQSGASA--------EGYVAPATMVAAPQ*----------------
+Oidiodendron_maius_FCR1_GeneBank_AEH59227       MSEIQEQAPIE-----TKQAITEAPASQAQPVAQPQQRPDGFLAQHRVETGSNEWKDGLLDCFSNA------PDNLCLKGFCC-PCFVYGKTQARL---------RDPEMKDYERFNTDCLMFVGAN-YCGLSWLFPFFRRTDIRTMYDIRG---NVLGDCGSAFCCLPCTLIQNEKEVIHRQTLPTTDK------AGYQAVADMNAGQQ-----------------
+Oidiodendron_maius_FCR2_GeneBank_KJ158156       MP--------------------------------------------------RPYDTPPLICCSLCGGHAKFSASLCFKGICC-PCVVYGRNRYRN---------AKGTDDGFSSCNGHCMAWCGLCLLGHWGWILQCRTREDMQEKHNLNG---TGCSNCLLSCCCSCCEVIQTSKELDFIKMMQDVSSANAAHNAGYKLQDNMIAEPQSNPIVEAPNHFAPDDD*
+Sclerotinia_sclerotiorum_JGI_6131               MS--------------------------------------------------TAYKNSFWACCT--------PFDLGLKTCFC-PCFVSGRNHHRI---------EYGNDDDYSSCNGWCCGWCGLAVIGGFSFVLQMLDRQKMQKQHGLEG---NACTGCMGSCCCACCELMQTSKELDYILLEKNAGT------KGYQALPGMVASPQPGAFS------------
+;
+END;
+
+BEGIN TREES;
+      TITLE Leot_PLAC8_ALNM;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Oidiodendron_maius_FCR1_GeneBank_AEH59227,
+            2    Glarea_lozoyensis_JGI_9295,
+            3    Amorphotheca_resinae_JGI_51940,
+            4    Meliniomyces_variabilis_JGI_188587,
+            5    Chalara_longipes_JGI_350586,
+            6    Meliniomyces_bicolor_JGI_543603_,
+            7    Botryotinia_fuckeliana_GeneBank_FQ790352,
+            8    Botrytis_cinerea_JGI_1253,
+            9    Glarea_lozoyensis_JGI_1275,
+            10   Sclerotinia_sclerotiorum_JGI_6131,
+            11   Botrytis_cinerea_JGI_14694,
+            12   Meliniomyces_bicolor_JGI_528752,
+            13   Oidiodendron_maius_FCR2_GeneBank_KJ158156,
+            14   Amorphotheca_resinae_JGI_105806,
+            15   Homo_sapiens_,
+            16   Arabidopsis_thaliana_PCR1_GeneBank_AEE29238;
+      TREE tree_1 = [&R] ((9:0.69453,((10:0.08534,11:0.06341)0.96:0.34493,(12:0.52314,13:0.57605)0.84:0.17475)0.89:0.33539)0.96:0.50986,(15:1.12972,16:1.25079)0.64:0.22875,(14:1.35062,((7:1.5E-4,8:0.28235)0.99:0.71284,(1:0.54693,(3:0.20223,((6:0.07626,(4:0.01238,5:0.03618)0.74:0.01525)1:0.32211,2:0.35791):0.10703)0.66:0.09592)0.66:0.16884)0.85:0.25291)0.82:0.26405);
+
+
+
+END;

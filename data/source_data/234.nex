@@ -1,0 +1,223 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:36 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Sytsma K., & Smith J. 1988. DNA and morphology: comparisons in the Onagraceae. Annals
+of the Missouri Botanical Garden, 75: 1217-1237.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S310]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=15;
+        TAXLABELS
+            Clarkia
+            Fuchsia_arborescens
+            Fuchsia_boliviana
+            Fuchsia_excorticata
+            Fuchsia_jimenezii
+            Fuchsia_lycioides
+            Fuchsia_magellanica
+            Fuchsia_nigricans
+            Fuchsia_pachyrrhiza
+            Fuchsia_paniculata
+            Fuchsia_regia
+            Fuchsia_splendens
+            Fuchsia_thymifolia
+            Fuchsia_tillettiana
+            Fuchsia_verrucosa
+            ;
+END;
+
+BEGIN TAXA;
+        TITLE  Taxa2;
+        DIMENSIONS NTAX=10;
+        TAXLABELS
+            Clarkia_amoena
+            Clarkia_biloba
+            Clarkia_cylindrica
+            Clarkia_dudleyana
+            Clarkia_epilobioides
+            Clarkia_lewisii
+            Clarkia_lingulata
+            Clarkia_modesta
+            Clarkia_rostrata
+            Heterogaura_heterandra
+            ;
+END;
+
+BEGIN TAXA;
+        TITLE  Taxa3;
+        DIMENSIONS NTAX=14;
+        TAXLABELS
+            Clarkia_amoena
+            Clarkia_biloba
+            Clarkia_bottae
+            Clarkia_brewerii
+            Clarkia_concinna
+            Clarkia_imbricata
+            Clarkia_lassenensis
+            Clarkia_mildrediae
+            Clarkia_rostrata
+            Clarkia_unguiculata
+            Clarkia_virgata
+            Clarkia_williamsonii
+            Clarkia_xantiana
+            Epilobium_brachycarpum
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M1047]
+
+	TITLE Table_1;
+	LINK TAXA = Taxa2;
+	DIMENSIONS NCHAR=55;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1" MISSING=? GAP= -;
+
+MATRIX
+[                                  10        20        30        40        50     ]
+[                                   .         .         .         .         .     ]
+Clarkia_amoena             1100010110110100010110001001101000100011000100101100100
+Clarkia_biloba             1001111010110100110110001011010100101111010101111111001
+Clarkia_cylindrica         0110010100101011011110011000101011100011100000100100110
+Clarkia_dudleyana          1100000110100100010111001001101100000010010100001111101
+Clarkia_epilobioides       0100010111000000000000100101111000110001001110101000110
+Clarkia_lewisii            0110010100111011001110011000101011100011100000100100110
+Clarkia_lingulata          1001111010110100110110001011000100101111010101111111001
+Clarkia_modesta            1000010010110100010111001001101100100011000100101111101
+Clarkia_rostrata           0100010111000000000000100101111000110001001110101000110
+Heterogaura_heterandra     1100000110110100010111001001101100000010000100001111101
+;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M1058]
+
+	TITLE Table_2;
+	LINK TAXA = Taxa3;
+	DIMENSIONS NCHAR=23;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1" MISSING=? GAP= -;
+
+MATRIX
+[                                  10        20   ]
+[                                   .         .   ]
+Clarkia_amoena             00110001000000000000000
+Clarkia_biloba             00111001000010000000000
+Clarkia_bottae             00010001001011000100000
+Clarkia_brewerii           01100001011011110010000
+Clarkia_concinna           01100000011010010010000
+Clarkia_imbricata          00100001000010011001111
+Clarkia_lassenensis        00110001000000000000000
+Clarkia_mildrediae         00110110100110000000000
+Clarkia_rostrata           00111001000010000000000
+Clarkia_unguiculata        00111001000010000000000
+Clarkia_virgata            00110111100110000000000
+Clarkia_williamsonii       00100001000010011001111
+Clarkia_xantiana           10110001000011100100000
+Epilobium_brachycarpum     11111001000010000001110
+;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M1069]
+
+	TITLE Table_3;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=46;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1" MISSING=? GAP= -;
+
+MATRIX
+[                               10        20        30        40      ]
+[                                .         .         .         .      ]
+Clarkia                 0010001000000101100000101000110000000110011010
+Fuchsia_arborescens     0010000000000001100000001000110001000110010010
+Fuchsia_boliviana       0010001100000001100000001010110000000110010010
+Fuchsia_excorticata     1110001010000101000000110000110000000110011010
+Fuchsia_jimenezii       0011101000100111110111101001111100011100101001
+Fuchsia_lycioides       0010001000011001100000001100010010010110010010
+Fuchsia_magellanica     0010001000001001101000001100010000010110010000
+Fuchsia_nigricans       0010001000000000100000001000110000100110010110
+Fuchsia_pachyrrhiza     0010001000000001100000001000110000000110010010
+Fuchsia_paniculata      0010001000000001100000001000110001000110010010
+Fuchsia_regia           0010001000001001100000001100010000010110010010
+Fuchsia_splendens       0010001001000001100000001000110000000110010010
+Fuchsia_thymifolia      0000011000000001100000001000100000000010010010
+Fuchsia_tillettiana     0010001000000000100000001000110000010111010010
+Fuchsia_verrucosa       0010001000000001100000001000110000000110010010
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb5066;
+      LINK TAXA = Taxa2;
+         TRANSLATE
+            1    Clarkia_amoena,
+            2    Clarkia_epilobioides,
+            3    Clarkia_rostrata,
+            4    Clarkia_lewisii,
+            5    Clarkia_cylindrica,
+            6    Clarkia_dudleyana,
+            7    Heterogaura_heterandra,
+            8    Clarkia_modesta,
+            9    Clarkia_lingulata,
+            10   Clarkia_biloba;
+      TREE Fig._3 = [&R] (((2,3),(4,5)),((6,7),(8,(9,10))))Clarkia;
+
+
+
+END;
+BEGIN TREES;
+      TITLE Tb5068;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Clarkia,
+            2    Fuchsia_splendens,
+            3    Fuchsia_thymifolia,
+            4    Fuchsia_boliviana,
+            5    Fuchsia_nigricans,
+            6    Fuchsia_verrucosa,
+            7    Fuchsia_tillettiana,
+            8    Fuchsia_jimenezii,
+            9    Fuchsia_lycioides,
+            10   Fuchsia_magellanica,
+            11   Fuchsia_regia,
+            12   Fuchsia_arborescens,
+            13   Fuchsia_paniculata,
+            14   Fuchsia_excorticata,
+            15   Fuchsia_pachyrrhiza;
+      TREE Fig._10 = [&R] (((((2,4,5,6,3,15,(12,13)),7,(9,10,11)),8),14)Fuchsia,1);
+
+
+
+END;
+BEGIN TREES;
+      TITLE Tb5067;
+      LINK TAXA = Taxa3;
+         TRANSLATE
+            1    Epilobium_brachycarpum,
+            2    Clarkia_biloba,
+            3    Clarkia_rostrata,
+            4    Clarkia_xantiana,
+            5    Clarkia_unguiculata,
+            6    Clarkia_bottae,
+            7    Clarkia_concinna,
+            8    Clarkia_brewerii,
+            9    Clarkia_imbricata,
+            10   Clarkia_williamsonii,
+            11   Clarkia_amoena,
+            12   Clarkia_lassenensis,
+            13   Clarkia_virgata,
+            14   Clarkia_mildrediae;
+      TREE Fig._8A = [&R] ((((3,2),5,4,6,(7,8),(11,12),(13,14)),(9,10))Clarkia,1);
+      TREE Fig._8B = [&R] ((((3,2),5),(4,6),(11,12),(13,14)),((7,8),(9,10)))Clarkia;
+
+
+
+END;

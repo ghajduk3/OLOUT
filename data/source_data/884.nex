@@ -1,0 +1,115 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:40 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Mishler B. 1990. Reproductive biology and species distinctions in the moss genus
+Tortula, as represented in Mexico. Systematic Botany, 15: 86-97.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S106]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=23;
+        TAXLABELS
+            Amphidiacea
+            Andicola
+            Bartramii
+            Bogotensis
+            Brevipes
+            Californica
+            Chisosa
+            Eckeliae
+            Fragilis
+            Heteroloma
+            Inermis
+            Leiostoma
+            Mniifolia
+            Mucronifolia
+            Obtussima
+            Pagorum
+            Papillosa
+            Polyseta
+            Princeps
+            Quitoensis
+            Rhizophylla
+            Ruralis
+            Stanfordensis
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M1092]
+
+	TITLE Table_2;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=36;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2 3 4 5" MISSING=9 GAP= -;
+
+MATRIX
+[                         10        20        30      ]
+[                          .         .         .      ]
+Amphidiacea       110000100091000011001010000101000000
+Andicola          000001111013011111010010010001000010
+Bartramii         100000001113111001010010100999999999
+Bogotensis        000001011013011111010010010001000010
+Brevipes          110000101003000001000911100011111010
+Californica       010000000003000000900111100011111010
+Chisosa           100000001292211001013010100999999999
+Eckeliae          110010100091000001000011100999999999
+Fragilis          190000901192011001010010100001001010
+Heteroloma        111010000091000001100011100011000000
+Inermis           110000101192000001000111100011111010
+Leiostoma         011101101092000001000110100290999999
+Mniifolia         011100000091000000900011100001001000
+Mucronifolia      110000100092000010900111100011111010
+Obtussima         100000101013011101010910100001101011
+Pagorum           100000000003010001014010100001101010
+Papillosa         100000002103000012902010100101101010
+Polyseta          011001001091000001000110100190999999
+Princeps          100000101113011101010910100091101011
+Quitoensis        000001000090000000900011100001001199
+Rhizophylla       000001000091000000900001001999999999
+Ruralis           100000101113011101010000010001101011
+Stanfordensis     011101001092000001000011100190999999
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb4825;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Ruralis,
+            2    Obtussima,
+            3    Princeps,
+            4    Andicola,
+            5    Bogotensis,
+            6    Fragilis,
+            7    Chisosa,
+            8    Bartramii,
+            9    Pagorum,
+            10   Papillosa,
+            11   Amphidiacea,
+            12   Polyseta,
+            13   Leiostoma,
+            14   Stanfordensis,
+            15   Brevipes,
+            16   Inermis,
+            17   Mucronifolia,
+            18   Californica,
+            19   Rhizophylla,
+            20   Quitoensis,
+            21   Eckeliae,
+            22   Heteroloma,
+            23   Mniifolia;
+      TREE Fig._1B = [&R] (((((((4,5),1),2,3),6,7,8),9,10),(15,17,18,16)),((11,21,22),((19,20),(23,(14,(12,13))))));
+      TREE Fig._1A = [&R] ((((((((4,5),1),(2,3)),(6,7),8),9),10),((16,(17,18)),15)),((22,(11,21)),((19,20),(23,(14,(12,13))))))Tortula;
+
+
+
+END;

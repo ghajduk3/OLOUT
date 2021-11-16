@@ -1,0 +1,234 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:45 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Griswold C., Coddington J., Hormiga G., & Scharff N. 1998. Phylogeny of the orb-web
+building spiders (Araneae, Orbiculariae: Deinopoidea, Araneoidea). Zoological
+Journal of the Linnean Society, 123(1): 1-99.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S321]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=31;
+        TAXLABELS
+            Anapis
+            Anelosimus
+            Argiope
+            Chileotaxus
+            Deinopis
+            Dipoena
+            Epeiroypus
+            Euyopis
+            Gertschanapis
+            Glenognatha
+            Leucage
+            Linyphia
+            Maymena
+            Meringa
+            Meta
+            Metepeira
+            Mysmena
+            Nephila
+            Nephilenges
+            Nesticus
+            Pahora
+            Patu
+            Patu_Queensland
+            Pimoa
+            Steatoda
+            Synotaxus
+            Tekella
+            Tetragnatha
+            Theridiosoma
+            Uloborus
+            lsicabu
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M1261]
+
+	TITLE Appendix_2;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=93;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2 3 4 5 6 7" MISSING=? GAP= -;
+	CHARSTATELABELS
+		1  Male_palpal_tibia / normal with_spiniform_macrosetae with_one_or_more_spurs,
+		2  Cymbium_of_male_palp / dorsal mesal,
+		3  Cymbium_distal_notch / absent present,
+		4  Cymbium / entire constricted,
+		5  Cymbium / entire expanded_retrolaterally,
+		6  Cymbium_retromarginal_groove / absent present,
+		7  'Paracymbium (PC)' / absent present,
+		8  Paracymbium_attachment / integral flexible intersegmental,
+		9  Paracymbium_form / hook squat elongate cup '-' shaped Linyphiid Pimoid,
+		10  Retromedian_process_on_cymbium / absent present,
+		11  Cymbial_hook_near_alveolar_marg / absent present,
+		12  'Bulb-cymbium lock mechanism' / absent present,
+		13  Reservoir / normal enlarged,
+		14  'Conductor (C)' / present absent,
+		15  Conductor / simple complex,
+		16  'Median apophysis (MA)' / present absent,
+		17  Tegular_processes / subterminal terminal,
+		18  Additional_tegular_processes / absent present,
+		19  Conductor_and_embolus / separate conductor_wraps_embolus,
+		20  Araneid_radix / absent present,
+		21  Embolus_base / exposed invaginated_in_tegulum,
+		22  'Embolus-tegulum membrane' / absent present,
+		23  'Embolus-tegulum orientation' / parallel 90_degrees,
+		24  Female_genitalia / entelegyne haplogyne,
+		25  Spermathecae / separate connate,
+		26  Spermathecae / two four,
+		27  AME / present reduced_or_absent,
+		28  PME_tapetum / present absent,
+		29  PME_tapetum / normal narrow,
+		30  Male_lateral_eyes / separate juxtaposed,
+		31  Clypeus_height / less_than_AME_diameter greater_than_AME_diameter,
+		32  Male_size / greater_than_or_equal_to_0.5_fe less_than_0.3_female,
+		33  Size_of_male_vs. / female_chelicerae same larger,
+		34  Fangs / normal elongate_in_the_hadrotarsine_fa,
+		35  Paturon / normal short,
+		36  Cheliceral_teeth_origin / sessile from_mound,
+		37  Ectal_surface_of_male_chelicera / smooth with_stridulating_file,
+		38  Chelicerae / free fused,
+		39  Cheliceral_boss / smooth striated,
+		40  Labium / simple with_spur,
+		41  Labium / 'Length>width' 'length <' '=' _width,
+		42  Sternal_pits / absent present,
+		43  Sternum_posterior_apex / pointed truncate,
+		44  Caudal_gut_caeca / absent present,
+		45  Abdominal_stridulating_file / absent present,
+		46  Deinopoid_abdominal_tubercles / absent present,
+		47  Dorsal_scutum_on_male_abdomen / absent present,
+		48  Anterior_book_lungs / present modified,
+		49  Booklung_cover / grooved smooth,
+		50  Posterior_tracheal_spiracle / narrow broad,
+		51  Setae / plumose serrat,
+		52  Female_palp_size / normal reduced_to_absent,
+		53  Female_palpal_claw / present absent,
+		54  Female_palpal_claw / attenuate palmate,
+		55  Femur_basally_thickened / no yes,
+		56  Femoral_sclerotized_spot / absent present,
+		57  Male_metatarsus_I_megaspine / absent present,
+		58  Femur_IV_trichobothria / absent present,
+		59  Femoral_macrosetae / present absent,
+		60  'Patella-tibia autospasy' / absent present,
+		61  Tibia_IV_dorsal_trichobothrium / normal greater_than_3_times_tibia_diam,
+		62  Tarsus_IV_comb / deinopoid_type lacking theridiid_type,
+		63  Tarsus_IV_median_claw / normal elongate,
+		64  Sustentaculum / absent present,
+		65  Colulus / large_triangular_and_fleshy reduced_to_less_than_one_half_l,
+		66  Cribellum / present lost,
+		67  Spinneret_stridulating_structur / absent present,
+		68  ALS_major_ampullate_gland_spigo / many one,
+		69  ALS_piriform_gland_spigot_bases / normal reduced,
+		70  PMS_acinform_gland_spigot_brush / present absent,
+		71  PMS_minor_ampullate_gland_nubbi / zero one two,
+		72  PMS_mAP_spigot_position / median '-' anterior posterior,
+		73  PMS_cylindrical_gl. / spigot_number many one zero,
+		74  PLS_CY_spigot_number / many two one,
+		75  PLS_basal_CY_spigot_base / normal enlarged,
+		76  PLS_mesal_CY_spigot_position / central peripheral,
+		77  PLS_fagelliform_gland_spigot / absent present,
+		78  PLS_aggregate_gland_spigot / absent present huge,
+		79  Spinneret_cuticle / ridged squamate,
+		80  Web / orb sheet gumfoot Synotaxus,
+		81  Web_posture / legs_1_2_extended legs_1_2_flexed,
+		82  Frame / two '-' dimensional three '-' dimensional,
+		83  Radii / cut_and_reeled twice_attached_to_frame doubled,
+		84  Radial_anastomosis / absent present,
+		85  Accessory_radii / absent present,
+		86  'Temporary non-sticky spiral' / removed_from_finished_web remains_in_finished_web,
+		87  Sticky_silk_spiral_localization / oLI iLI oL4,
+		88  'Post-SS hub loops' / absent present,
+		89  'Hub bite-out' / absent present,
+		90  Hub / closed open,
+		91  Eggsac_doubly_attached / absent present,
+		92  'Wrap-bite attack' / present absent,
+		93  Theridiid_sticky_silk_wrap_atta / absent present,
+		;
+
+MATRIX
+[                           10        20        30        40        50        60        70        80        90   ]
+[                            .         .         .         .         .         .         .         .         .   ]
+Anapis              0000000---0000010000100100100110100100-1101?001100111-0000100100?101112111111110110110111011-
+Anelosimus          0000000---1100000100000000000110000000-0100?00000010000000100200110111011101121-1---------001
+Argiope             010000100000000000010100000011110000000010000000101000000000010101010011110011101000000010000
+Chileotaxus         00000110300000111000000000000110000000-0101?000000100010001001000101112122-11111?---------???
+Deinopis            0000000---000001000000000001-000000000-0000?01001000000000000000-0000000000?0000000000000-000
+Dipoena             0000000---1100000100000001000110011000-0101?00000010010000100200111111011101121-1---------001
+Epeiroypus          0000001000000000000000001000011000000000111?000000101-00000011100101111111011110110000111011-
+Euyopis             0000000---1100010000000001000110011000-0101?00000010010000100200111111012101121-1---------?01
+Gertschanapis       0000000---0001-1-0-0000100100110000100-1101?00110011--00001001000101111111111110?1?110111011?
+Glenognatha         0001001120001001101001010001-11010000000101?000000100000011001000101011111111110000?001?0-???
+Leucage             000000100000000110100100000001100000000010010000001000000100010001010111110111100000001011000
+Linyphia            00000012400001-110000100000001101000100010000000001000000001010001011101111111111---------01-
+Maymena             0010000---0001-1-0-0000000000110000000-0100?000000101-01100001100101111111011110110110111011-
+Meringa             10000110300000111000000000000110000000-0101?100000100010001001000101110-22-11111?---------0??
+Meta                000000106000000110100100000001100000000010000000101000000000010001010011110111100000001011000
+Metepeira           0100001000000000000101000000110000000000100?0000101000000000010101010011110011101000000010000
+Mysmena             0010000---0001-1-0-0100000000110000000-0101?000100101-01101001100101111111011110110110111011-
+Nephila             0000001010000001101001100000011100000010000?001010100000000001000101011111011110101001200-01-
+Nephilenges         0000001010000001101001100000011100000010100?001010100000000001000101011111011110101001200-01-
+Nesticus            0000001070000000010000000000011000000000100?0000101000000010020001011111110112121---------001
+Pahora              20000110300000111000000000000110000000-0001?100000100010001001000101110122-111111---------0??
+Patu                0000000---0001-1-0-0000000100110000101-0101?00010011--000010011011011111111111101101101110?1-
+Patu_Queensland     0000000---0001-1-0-0000000100110000101-0101?00010011--00001001101101111111111110?1?1101110?1?
+Pimoa               00001010500000000100000000000110000010-0100?0000001000000001010001011101111111111---------01?
+Steatoda            0000000---110000010000000000011000000000100?0000001000000010020001011101110112121---------001
+Synotaxus           00000110300000111000000000000110000000-0101?0000001000000010010001011111110112131---------001
+Tekella             00001010310000010000000000000110000000-0101?000001101-00001001000101110112-111111---------0??
+Tetragnatha         0001001120001001101001010101-1101000000010010000001000000100010001010111110111100000001011010
+Theridiosoma        0000001000000000000000001000011000000000111?000000101-00000011100101111111011110110100111011-
+Uloborus            0000000---000000000000000001-000000000-0000?01000000000001000000-001000000000000002000000-000
+lsicabu             00001010310000010000000000000110000000-0101?000001101-10001001000101110112-111111---------0??
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb5087;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Deinopis,
+            2    Uloborus,
+            3    Metepeira,
+            4    Argiope,
+            5    Tetragnatha,
+            6    Glenognatha,
+            7    Leucage,
+            8    Meta,
+            9    Nephila,
+            10   Nephilenges,
+            11   Patu_Queensland,
+            12   Patu,
+            13   Anapis,
+            14   Gertschanapis,
+            15   Mysmena,
+            16   Maymena,
+            17   Theridiosoma,
+            18   Epeiroypus,
+            19   Linyphia,
+            20   Pimoa,
+            21   Dipoena,
+            22   Euyopis,
+            23   Anelosimus,
+            24   Steatoda,
+            25   Nesticus,
+            26   lsicabu,
+            27   Tekella,
+            28   Synotaxus,
+            29   Chileotaxus,
+            30   Meringa,
+            31   Pahora;
+      TREE Fig._7 = [&R] ((1,2)Deinopoidea,((3,4),(((((5,6)Tetragnathinae,7),8),(9,10)Nephilinae)Tetragnathidae,(((((14,13)Anapidae,(11,12)Symphytognathidae),(15,16)Mysmenidae),(17,18)17tidae)symphytognathoidea,((20,19)Linyphioidea,(((((22,21)Hadrotarsinae,23),24)Theridiidae,25)Theridioidea,((26,27)Cyatholipidae,(28,(29,(30,31)))Synotaxidae)Cyatholipoidea)))))Araneoidea)Orbiculariae;
+
+
+
+END;

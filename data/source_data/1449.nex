@@ -1,0 +1,647 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:48 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Armbruster J.W. 2004. Phylogenetic relationships of the suckermouth armoured catfishes
+(Loricariidae) with emphasis on the Hypostominae and the Ancistrinae. Zoological
+Journal of the Linnean Society, 141(1): 1-80.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S12851]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=128;
+        TAXLABELS
+            Acanthicus_hystrix
+            Ancistrus_pirareta
+            Ancistrus_sp.
+            Astroblepus_spp._4
+            Baryancistrus_niveatus
+            Chaetostoma_anomala
+            Chaetostoma_pearsei
+            Chaetostoma_platyrhynchus
+            Chaetostoma_sovichthys
+            Chaetostoma_stannii
+            Cordylancistrus_torbesensis
+            Corydoras_spp._4
+            Corymbophanes_andersoni
+            Corymbophanes_kaiei
+            Crossoloricaria_sp.
+            Crossoloricaria_venezuelae
+            Dekeyseria_pulcher
+            Dekeyseria_scaphirhyncha
+            Delturus_anguillicaudatus
+            Dianema_longibarbis
+            Dolichancistrus_cobrensis
+            Dolichancistrus_pediculatus
+            Exastilithoxus_fimbriatus
+            Exastilithoxus_sp.
+            Glyptoperichthys_gibbiceps
+            Glyptoperichthys_lituratus
+            Glyptoperichthys_punctatus
+            Harttia_sp.
+            Hemiancistrus_holostictus
+            Hemiancistrus_landoni
+            Hemiancistrus_maracaiboensis
+            Hemiancistrus_megacephalus
+            Hemiancistrus_panamensis
+            Hemiancistrus_sp.
+            Hemiancistrus_sp._Brazil
+            Hemipsilichthys
+            Hemipsilichthys_bahianus
+            Hemipsilichthys_cameroni
+            Hemipsilichthys_nudulus
+            Hemipsilichthys_sp.
+            Hemipsilichthys_splendens
+            Hisonotus_sp.
+            Hoplosternum_littorale
+            Hypancistrus_inspector
+            Hypancistrus_zebra
+            Hypoptopoma_sp.
+            Hypostomus_albopunctatus
+            Hypostomus_ammophilus
+            Hypostomus_bolivianus
+            Hypostomus_boulengeri
+            Hypostomus_cochliodon
+            Hypostomus_commersoni
+            Hypostomus_cordovae
+            Hypostomus_emarginatus_1
+            Hypostomus_emarginatus_2
+            Hypostomus_francisci
+            Hypostomus_hemicochliodon
+            Hypostomus_hondae
+            Hypostomus_micromaculatus
+            Hypostomus_plecostomoides
+            Hypostomus_plecostomus
+            Hypostomus_plecostomus_2
+            Hypostomus_punctatus
+            Hypostomus_robinii
+            Hypostomus_sp._Round_Snout_1
+            Hypostomus_sp._Round_Snout_2
+            Hypostomus_spinosissimus
+            Hypostomus_squalinus
+            Hypostomus_unicolor
+            Isbrueckerichthys_alipionis
+            Isbrueckerichthys_duseni
+            Ixinandria_montebelloi
+            Kronichthys_sp._1
+            Kronichthys_sp._2
+            Lamontichthys_llanero
+            Lasiancistrus_maracaiboensis
+            Lasiancistrus_sp.
+            Leporacanthicus_galaxias
+            Leptoancistrus_canensis
+            Liposarcus_multiradiatus
+            Liposarcus_pardalis
+            Lithogenes_villosus
+            Lithoxancistrus_orinoco
+            Lithoxus_bovallii
+            Lithoxus_lithoides
+            Loricaria_cataphracta
+            Loricariichthys_brunneus
+            Megalancistrus_gigas
+            Microlepidogaster_sp.
+            Nannoptopoma_spectabile
+            Neblinichthys_pilosus
+            Neblinichthys_roraima
+            Neoplecostomus_microps
+            Neoplecostomus_paranensis
+            Otocinclus_vestitus
+            Otocinclus_vittatus
+            Panaque_albomaculatus
+            Panaque_maccus
+            Panaque_nigrolineatus
+            Panaque_pariolispos
+            Parancistrus_aurantiacus
+            Pareiorhina_rudolphi
+            Pareiorhina_sp.
+            Parotocinclus_britskii
+            Peckoltia_oligospila
+            Peckoltia_sp._1
+            Peckoltia_sp._2
+            Peckoltia_sp._Big_Spot
+            Peckoltia_ucayalensis
+            Pogonopoma_parahybae
+            Pogonopoma_wertheimeri
+            Pseudacanthicus_leopardus
+            Pseudancistrus_barbatus
+            Pseudancistrus_brevispinis
+            Pseudancistrus_sp.
+            Pseudancistrus_sp._Gold_Spot
+            Pseudolithoxus_anthrax
+            Pseudorinelepis_genibarbis
+            Pterygoplichthys_etentaculatus
+            Pterygoplichthys_zuliaensis
+            Rhinelepis_aspera
+            Rineloricaria_rupestris
+            Schizolecis_guentheri
+            Spectracanthicus_murinus
+            Spectracanthicus_punctatissimus
+            Sturisoma_festivum
+            Sturisomatichthys_citurensis
+            Upsilodus_victori
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M13269]
+
+	TITLE Loricariidae;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=215;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2 3 4" MISSING=? GAP= -;
+	CHARSTATELABELS
+		1  Anterohyal_shape / greatest_width_less_than_half_of_length greatest_width_greater_than_half_of_length,
+		2  Anterohyal_shape / anterior_edge_flat_or_with_a_single_hump anterior_edge_sinusoidal,
+		3  Basibranchial_2 / ossified cartilaginous absent,
+		4  'Basibranchial 3, shape' / elongate 'short and wide, almost square',
+		5  Number_of_branchiostegals / four three,
+		6  Mesial_facing_process_on_branchiostegal_3 / absent present,
+		7  'Length of accessory process of ceratobranchial 1 (ordered)' / absent less_than_length_of_main_body_of_ceratobranchial same_length_as_ceratobranchial,
+		8  'Width of accessory process of ceratobranchial 1 (ordered)' / absent thin wide,
+		9  Width_of_ceratobranchial_3 / approximately_same_width_as_other_ceratobranchials at_least_twice_the_width_of_the_other_ceratobranchials,
+		10  Shape_of_ceratobranchial_5 / 'thin, uniform width' wide,
+		11  Posteromedial_invagination_of_ceratobranchial_5 / absent present,
+		12  Connections_of_ceratobranchial_5 / absent present,
+		13  Posterolateral_process_on_ceratobranchial_5 / absent present,
+		14  Accessory_process_on_first_epibranchial / absent thin broad,
+		15  Mesial_surface_of_epibranchial_1 / rounded forms_a_blade,
+		16  'Anterior-facing process on epibranchial 4 located basally to the gill rakers' / absent_or_short very_long,
+		17  Posterior_shelf_of_epibranchial_4 / absent present,
+		18  Gill_rakers_on_epibranchial_4 / absent present,
+		19  Anteromesial_projections_on_hypohyal / absent present,
+		20  Width_of_hypohyal / 'wide; greatest width approximately equal to or greater than length' 'narrow, greatest width less than length',
+		21  'Hypohyal, spindle-shaped' / no yes,
+		22  Hypobranchial_1 / 'rectangular to square, sometimes thinner at one end' 'fan-shaped, lateral end much wider than the mesial end',
+		23  Hypobranchial_1 / short_and_stout elongated,
+		24  Hypobranchial_2 / short_and_stout elongated,
+		25  Infrapharyngobranchial_4 / no_process with_lateral_process,
+		26  Interhyal / on_or_behind_hyomandibula contacts_the_cartilaginous_section_between_the_hyomandibula_and_the_quadrate contacts_bony_part_of_quadrate,
+		27  Interhyal / large medium very_small_or_absent,
+		28  Interhyal / ventral dorsal,
+		29  Upper_pharyngeal_jaw / without_invagination_in_shelf with_invagination_in_shelf,
+		30  Upper_pharyngeal_tooth_plate / 'round, teeth uniformly distributed' 'with a mesial shelf and a raised bulbous area, teeth restricted to bulbous area and posterior edge of shelf',
+		31  'Upper pharyngeal tooth plate, shelf lateral to the bulbous section' / absent present,
+		32  Lateral_edge_of_posterohyal / 'pointed, forming pouch with a lateral wall (Fig. 8AâC, E)' 'Lateral wall of pouch absent or reduced so that the posterohyal forms a half cylinder (Fig. 8D)',
+		33  Contact_of_mesial_surface_of_hyomandibula_with_quadrate_posteroventrally / none project_toward_one_another_or_sutured,
+		34  'Hyomandibula sutured to pterotic-supracleithrum posterior to cartilaginous condyle of hyomandibula' / absent present,
+		35  Hyomandibula_contacts_prootic / yes 'no, pterotic-supracleithrum only',
+		36  Anterior_margin_of_hyomandibula_sutured_to_posterior_metapterygoid_along_entire_length / 'yes, no notch between the two' 'no, slight to large notch between the two',
+		37  Opercular_condyle_of_hyomandibula_on_a_process_extended_beyond_posterior_margin / absent present,
+		38  Length_of_opercular_condyle_of_hyomandibula / short long,
+		39  'Thin, posterior process on hyomandibula just dorsal to opercle' / absent present,
+		40  Posterior_part_of_hyomandibula_beyond_opercle / not_well_developed developed_into_a_shelf,
+		41  Posterior_process_of_hyomandibula_incorporated_within_hyomandibula / either_absent_or_not_incorporated present,
+		42  Posterior_region_of_hyomandibula_greatly_deflected / absent present,
+		43  Ridge_on_mesial_side_of_hyomandibula_located_anterodorsally / present absent,
+		44  'Levator arcus palatini crest (ordered)' / absent short tall,
+		45  Levator_arcus_palatini_crest_of_hyomandibula / 'without strong dorsal upswing, straight' with_strong_dorsal_upswing,
+		46  Hyomandibula_deflected_beyond_posterior_margin / not_deflected deflected,
+		47  'Process on preoperculo-hyomandibular ridge' / absent present,
+		48  'Preoperculo-hyomandibular ridge continuous' / yes 'no, ridge branches',
+		49  'Ridge on hyomandibula (contiguous with ridge on quadrate)' / absent present,
+		50  Zipperlike_connection_of_metapterygoid_to_lateral_ethmoid / absent present,
+		51  Anterior_connection_between_metapterygoid_and_lateral_ethmoid / absent present,
+		52  Metapterygoid_channel / absent dorsal_surface_of_metapterygoid_split_and_forming_slight_furrow 'dorsal surface of metapterygoid split to the anterior process of the metapterygoid and forming a channel (ordered)',
+		53  Lateral_wall_of_metapterygoid_channel / absent long_and_rounded_along_entire_length triangular 'broad ridge, perpendicular to metapterygoid' just_a_slight_ridge,
+		54  Walls_of_metapterygoid_channel / 'lateral wall slightly smaller to just slightly larger than mesial wall, or absent' lateral_wall_taller,
+		55  Walls_of_metapterygoid_channel / 'lateral wall slightly smaller to just slightly larger than mesial wall, or absent' mesial_wall_much_taller,
+		56  Section_of_metapterygoid_dorsal_to_the_anterior_process / short very_tall,
+		57  Articulating_surface_between_metapterygoid_and_lateral_ethmoid / absent 'present, not directlyconnected to wall of metapterygoid' 'present, directly connected via a straight ridge',
+		58  Anterior_process_on_metapterygoid / pointed_or_absent 'spoon-shaped, straight' 'spoon-shaped, angled ventrally' 'curved, wider anteriorly than posteriorly (Corydoras only)',
+		59  Ventromesial_process_of_palatine / short long,
+		60  Palatine / elongate 'with mesial flap, very wide',
+		61  Orientation_of_preopercle / horizontal almost_vertical,
+		62  'Exit of preopercular latero-sensory canal' / posterior_to_posteroventral_edge_of_quadrate anterior_to_posteroventral_edge_of_quadrate 'latero-sensory canal does not enter preopercle',
+		63  'Preopercular latero-sensory canal extended posteriorly' / no yes,
+		64  Quadrate / thin wide very_wide,
+		65  Ventral_process_on_quadrate_for_articulation_with_canal_plate / absent present,
+		66  Quadrate_with_flap_extending_below_symplectic_foramen / absent present,
+		67  Articulating_condyle_of_quadrate / 'thin, pointed' 'wide, blunt',
+		68  Longitudinal_ridge_running_the_length_of_the_quadrate_laterally / absent present,
+		69  Angle_of_dentaries / oblique acute_or_right_angle,
+		70  Angle_of_maxilla / angled_dorsally_to_slightly_angled_ventrally 'well angled ventrally, almost forming right angle',
+		71  Shape_of_maxilla / 'long, narrow, uniformly wide' resembling_a_bowling_pin,
+		72  Premaxilla_with_cartilaginous_connection_to_mesethmoid / no yes,
+		73  Interopercular_sesamoid / absent present,
+		74  'Interoperculo-mandibular ligament' / present absent,
+		75  'Shape of ancistrine opercle (ordered)' / oval_or_triangular 'sickle-shaped (Peckoltia-type)' 'barshaped (Ancistrus-type)',
+		76  Double_attachment_of_opercle / absent present,
+		77  'Maximum forward position of opercle (ordered)' / below_hyomandibula to_posteroventral_corner_of_quadrate to_posterodorsal_corner_of_quadrate,
+		78  'Hatchet-shaped opercle' / absent present,
+		79  Opercle / supports_odontodes does_not_support_odontodes,
+		80  Suprapreopercle / absent present,
+		81  'Number of rows of plates between suprapreopercle and exposed portion of opercle (ordered)' / none one two_to_three,
+		82  Canal_plate / absent present,
+		83  'Canal plate, number and size' / one_large one_small two_small,
+		84  Canal_plate / 'exposed, supporting odontodes' 'covered in skin or plates, not supporting odontodes',
+		85  Contact_of_canal_plate_with_suspensorium / '(0) absent' present,
+		86  Canal_in_canal_plate / unbranched branched,
+		87  'Preopercular latero-sensory canal leaves preopercle at first exit and enters a plate' / no yes,
+		88  'Number of cheek plates between the canal plate and opercle (ordered)' / none one two_to_four five_or_more,
+		89  IO6 / forms_only_the_posteroventral_corner_of_the_orbit forms_entire_ventral_border_of_orbit,
+		90  IO4 / absent contacts_orbit_through_much_of_its_posterior_edge contact_with_orbit_slight_or_absent,
+		91  'Number of infraorbitals (ordered)' / two five_to_six seven_to_ten,
+		92  Lateral_line / does_not_continue_beyond_hypural_plate continues_into_the_elongated_plate_covering_base_of_the_caudal_rays,
+		93  Ridge_formed_by_Baudelotâs_ligament / does_not_form_more_than_a_slightly_rounded_ridge forms_a_shelf,
+		94  Contact_between_frontal_and_orbit / present absent,
+		95  Shape_of_lateral_ethmoid / square_to_triangular triangular_with_ventrolateral_corner_greatly_expanded,
+		96  Nasal_capsule / completely_encased_ventrally_by_the_lateral_ethmoid open_ventrally anterior_to_the_lateral_ethmoid,
+		97  Ridge_on_lateral_ethmoid / absent rounded_or_moderately_tall tall,
+		98  Pouch_on_ventral_surface_of_lateral_ethmoid / absent present,
+		99  Posterior_contact_with_metapterygoid / contacting_posterior_margin_of_lateral_ethmoid separated_from_posterior_margin_of_lateral_ethmoid,
+		100  'Mesethmoid disk (ordered)' / absent reduced developed,
+		101  'Mesethmoid disk, relative placement' / anterior_to_main_body_of_mesethmoid extends_beyond_anterior_margin_of_main_body,
+		102  Mesethmoid_flares_anteriorly / no yes,
+		103  Mesethmoid_anterior_edge_serrate / absent present,
+		104  'Mesethmoid continued as a long blade anterior to disk (or well beyond the jaws in species without a disk)' / no yes,
+		105  Size_of_nasal / very_thin elongate_but_wide 'very large, almost square',
+		106  Parasphenoid_on_orbitosphenoid / 'narrow, tall' 'wide, slightly raised to flat',
+		107  'Pterotic-supracleithrum expanded anteroposteriorly' / no yes,
+		108  'Shape of pterotic-supracleithrum' / 'square to oval, widest medially' 'trapezoidal, widest at ventral margin',
+		109  'Perforations in pterotic-supracleithrum' / 'many, small' very_large complex 'only a few, large perforations',
+		110  'Anterior process of pterotic-supracleithrum' / absent present,
+		111  'Anterior process of pterotic-supracleithrum separated mesially from main body, connected by a strut (ordered)' / process_absent_to_just_slightly_deflected process_deflected_with_small_gap gap_large,
+		112  Forward_extent_of_anterior_process / process_absent_or_less_than_halfway_through_orbit halfway_through_the_orbit_or_greater,
+		113  Bifurcation_of_anterior_process_of_pteroticsupracleithrum / process_absent_or_pointed present,
+		114  'Strut of the pterotic-supracleithrum directed ventrally so that it is visible from below' / absent present,
+		115  'Dorsomesial process on pterotic-supracleithrum' / absent present,
+		116  Sphenotic / with_or_without_a_thin_ventral_process 'ventral process wide, at least half as wide as main body of sphenotic',
+		117  'Sphenotic, external contact with posteriormost infraorbital' / present absent,
+		118  Supraoccipital_crest / absent_or_broad_and_rounded tall_and_narrow,
+		119  Anteriorly_directed_transverse_processes_on_eighth_vertebra / absent_or_short_and_broad 'long and pointed, passing between capitulum and tuberculum of rib of sixth vertebral centrum',
+		120  Number_of_vertebrae_from_first_normal_neural_spine_behind_dorsal_fin_to_spine_under_preadipose_plate / three_to_eight nine_and_above,
+		121  'Number of vertebrae from first normal neural spine behind dorsal fin up to, but not including, hypural plate (ordered)' / 16â20 12â15 8â11,
+		122  Bifid_haemal_spines / absent present,
+		123  Hypurals / two_halves_same_length lower_half_longer_than_upper,
+		124  Posterior_margin_of_the_hypural_plate / 'straight, or straight but offset' a_posteriorly_directed_point,
+		125  'First neural spine, positioning' / 'below first dorsal-fin pterygiophore' 'in front of first dorsal-fin pterygiophore',
+		126  Perforations_in_bifid_neural_spines / absent present,
+		127  Trifid_neural_spines_posterior_to_dorsal_fin / absent present,
+		128  Distal_margin_of_the_rib_of_the_sixth_vertebral_centrum / about_same_width_as_rest_of_rib flared_out_distally_so_that_the_tip_is_much_wider_than_the_shaft,
+		129  Ribs_beyond_enlarged_rib_of_the_sixth_vertebral_centrum / thin absent thick,
+		130  Weberian_complex_centrum / 'relatively short, square' 'elongated, rectangular',
+		131  Distal_margin_of_transverse_process_of_Weberian_complex_centrum / 'thin, about the same width distally as proximally or narrowing distally' 'widened, flared distally',
+		132  Distal_margin_of_transverse_process_of_Weberian_complex_centrum / wide_or_rounded pointed,
+		133  Tip_of_transverse_process_of_Weberian_complex_centrum / clearly_distinguishable_from_pteroticsupracleithrum 'anterior edge nearly indistinguishable from pterotic-supracleithrum',
+		134  Transverse_process_of_Weberian_complex_centrum / not_or_only_moderately_perforated_distally perforated_distally_with_large_foramina,
+		135  Tip_of_transverse_processes_of_Weberian_complex_centrum / at_least_partially_contacting_the_pteroticsupracleithrum not_contacting_the_pteroticsupracleithrum,
+		136  'Lateral processes of tripus (LPT)' / absent_or_short long,
+		137  Adipose_fin / present absent,
+		138  Preadipose_plates / three_or_more 0â2,
+		139  Connecting_bone / absent a_tendon ossified,
+		140  'Connecting bone/tendon' / flat cylindrical,
+		141  'Connecting bone, contact with nuchal plate' / none 'connects with the transverse process of the second dorsal-fin pterygiophore and/or the nuchal plate',
+		142  'Number of dorsal-fin rays' / six_or_seven eight_or_more,
+		143  'Dorsal-fin membrane continues posteriorly' / for_a_short_distance contacts_the_preadipose_plate,
+		144  'Chain-link of proximal dorsal spine to second dorsal-fin pterygiophore' / absent present,
+		145  'Number of dorsal-fin radial elements with transverse processes (ordered)' / five_to_six one_to_four none,
+		146  Nuchal_plate / present 'absent. In callichthyids and most loricariids, the nuchal plate is present and acts in the functioning of the dorsal-fin spine locking mechanism (state 0). In Astroblepus, Lithogenes and Hemipsilichthys nudulus,',
+		147  Nuchal_plate / exposed covered_entirely_by_skin_or_plates,
+		148  Spinelet / 'V-shaped' reduced_and_rectangular_or_absent,
+		149  Spinelet / 'exposed, covered with odontodes' covered_with_skin,
+		150  'Number of branched anal-fin rays (ordered)' / six five four three zero,
+		151  'First anal-fin pterygiophore with a lateral ridge posterior to the widened anterior surface' / absent present,
+		152  Adductor_fossa / incomplete complete,
+		153  Adductor_fossa / deep_to_midline nearly_flat_anteromesially,
+		154  'Adductor fossa, exposure (ordered)' / exposed only_partially_exposed completely_covered_in_bone,
+		155  Shape_of_cleithrum / rectangular trapezoidal,
+		156  Shape_of_posterior_margin_of_the_exposed_cleithrum / mostly_straight_and_tall tapers_posteriorly_to_a_point,
+		157  Shape_of_exposed_cleithral_process / large reduced,
+		158  Posterior_process_of_coracoid / distal_end_much_wider_than_shaft distal_end_about_as_wide_as_shaft 'elongated, thin, pointed',
+		159  Posterior_process_of_coracoid / short very_elongate,
+		160  Posterior_section_of_coracoid / 'angled upwards mesially, tall' 'straight, short',
+		161  Lateral_strut_of_coracoid / thin wide,
+		162  Lateral_strut_of_coracoid / 'at least partially exposed, bearing odontodes' 'covered in skin or plates, does not bear odontodes',
+		163  Passage_of_arrector_ventralis_through_a_channel / present absent,
+		164  Space_between_posterior_process_of_coracoid_strut_and_posterior_process_of_coracoid / large absent_to_small,
+		165  Suture_of_pectoral_girdle / strong weak_or_absent,
+		166  'Pectoral-fin spines greatly elongated in males' / no yes,
+		167  Anterolateral_processes / curved_such_that_they_meet_or_nearly_meet_at_the_midline 'slightly angled, do not converge at midline' straight,
+		168  Anterolateral_processes_fused_to_anteromesial_processes / yes no,
+		169  Anterolateral_process_of_the_basipterygium / thin wide_through_entire_length,
+		170  Anteromesial_processes / present absent,
+		171  Fenestra_present_anterior_to_cartilaginous_section / absent present,
+		172  Ventral_ridge_of_the_basipterygium / tall short_to_absent,
+		173  Posteroventral_ridge_of_the_basipterygium / absent present,
+		174  'Posterior process of the basipterygium (Armbruster, 1998b)' / rounded pointed,
+		175  Lateropterygium_of_pelvic_girdle / absent 'wedge-shaped' thin triangular_with_ventral_part_widest 'disk-shaped',
+		176  'Two rows of the first pelvic-fin ray' / fused separated,
+		177  'First pelvic-fin rays greatly widened in adults' / absent present,
+		178  Central_buccal_papilla / absent_or_small large,
+		179  Buccal_papillae / not_numerous 'numerous, present behind upper jaw',
+		180  Single_papilla_located_behind_each_dentary / absent present,
+		181  Barbel / free adnate,
+		182  Number_of_barbels / two_to_three one,
+		183  Hypertrophied_odontodes_on_cheeks / absent present_in_nuptial_males present_regardless_of_season_or_sex,
+		184  'Evertible cheek plates (ordered)' / absent slightly_evertible fully_evertible,
+		185  One_or_two_extremely_hypertrophied_odontodes_on_cheek / absent present,
+		186  Whiskerlike_odontodes / absent present,
+		187  Fleshy_pad_covering_odontodes_on_cheeks_of_nuptial_males / absent present,
+		188  Hypertrophied_odontodes_along_snout_margin_anterior_to_cheek_spines / absent present,
+		189  Optic_notch / absent present._,
+		190  Position_of_pectoral_fins_in_relation_to_first_pelvicfin_ray_when_depressed_parallel_to_body_axis / above_and_separated_from_ray even_with_or_resting_on_top_of_ray,
+		191  'Number of caudal-fin rays' / 10_or_12 14,
+		192  Postdorsal_ridge / absent present,
+		193  Lips_forming_suckerlike_disk / absent present,
+		194  'Numerous small plates behind pterotic-supracleithrum' / no yes,
+		195  Contact_between_plates_prior_to_anal_fin / present absent,
+		196  Number_of_plate_rows_at_thinnest_part_of_caudal_peduncle / none two three five_or_more,
+		197  Number_of_predorsal_plates / none two_to_three four_or_more,
+		198  Keeling_of_plates / plates_absent_or_unkeeled_to_moderately_keeled 'very well-developed keel',
+		199  Hypertrophied_odontodes_on_bodies_of_nuptial_males / absent present,
+		200  Extremely_elongated_odontodes_on_top_of_the_snout / absent present,
+		201  Snout / naked_from_just_anterior_to_nares_down_to_lip covered_with_plates,
+		202  Snout / naked_or_with_many_plates one_or_two_solid_plates,
+		203  Abdominal_plating / absent present,
+		204  Teeth_in_nuptial_males / bicuspid_or_unicuspid_in_all_individuals unicuspid_and_elongated_only_in_nuptial_males,
+		205  Teeth / viliform 'spoon-shaped' 'large, but not spoon-shaped. ',
+		206  Fleshy_appendages_around_both_jaws / absent present,
+		207  Lower_lip_fimbriate / no yes,
+		208  'Fleshy tentacles on snout (ordered)' / absent sheath_partially_detached_from_odontode sheath_long_and_well_separated_from_odontode 'very long, odontodes missing',
+		209  'Tentacules on pectoral fins (ordered)' / absent 'small, partially detached from odontodes' 'large, free from odontodes and longer than them',
+		210  Oesophagus / bent straight,
+		211  'U-shaped diverticulum (ordered)' / absent 'expandable, loosely attached to abdominal wall' 'expandable, firmly attached to abdominal wall' 'retroperitoneal, swim bladder-like',
+		212  Diverticulum_nearly_completing_a_ring / absent present,
+		213  Stomach_greatly_expanded_and_connected_to_the_abdominal_wall_by_a_connective_tissue_sheet / no yes,
+		214  Stomach_expanded_such_that_it_extends_anteriorly_to_the_pectoral_girdle_and_intestine_exits_dorsally_from_expanded_region / no yes,
+		215  Swim_bladder / restricted_to_a_small_area_anterior_to_the_rib_of_the_sixth_vertebral_centrum 'extremely large, extending as far as or beyond the rib of the sixth vertebral centrum',
+		;
+
+MATRIX
+[                                           10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170       180       190       200       210       220       ]
+[                                            .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .       ]
+Acanthicus_hystrix                  10000022011001011101001000100100110000000002000000122000200011010001000000100001211010030111100010020000001011210000000?{12}{01}100001211001101120010010000100000102100111001110101020000001220001011010131100101000000000001
+Ancistrus_pirareta                  00100022010001011101100002101101110100110102000100122000200011000100000001212001211010020110100011021000200001200001001110100000200001000120000010000200000102000111000100101020000001220000011010122000000000032000000
+Ancistrus_sp.                       00100022010001011101100002101101110100110102000100122000200011000100000001212001211010020110100021021000200001200000001120100000200001000120000010100200000102000111000100101020000001220000011010122000000000032000000
+Astroblepus_spp._4                  1000000000000000000110110000000000000000000000000000000000000001001000000100001100???0000210000200010000000000000000000001000000200000000121000021?1?000100012010111101100010141000001000000000010100000000000000000000
+Baryancistrus_niveatus              10100022010001011101000002100100110100000002000000122000200011010100000001100001111010030120100021020000100001200000001120100000200000000120001010000200000001010111001100101020000001220000011010131000100000000000000
+Chaetostoma_anomala                 01000122010001111101100002000100100101100002000000121010200011021110000001211001111110020110100021020100000001000000000120100000200001000120010010101100000012010110001110101020100101220000011010132000000000000000000
+Chaetostoma_pearsei                 01000122010001111101100002000100100101100002000000121010200011011111000001212001111110020110100021020100000001000000000120100000200001000120010010101100000002010110001110101020100101220000011010132000000000000000000
+Chaetostoma_platyrhynchus           01000122011001111101100002000100100101100002000000121010200011021110000001211001111110020110100021020100000001000000000120100000200001000120010010101300000002010110001110101020100001220000011010132000100000001000000
+Chaetostoma_sovichthys              01000122010001111101100002000100100101100002000000121010200011011110000001210001111110020110100021020100000001000000000110100000200001100120010010101200000002010110001110101020100101220000011010132000000000000000000
+Chaetostoma_stannii                 01000122010001111101100002000100100101100002000000121010200011021110000001210001111110020110100021020100000001000000000110100000200001000120010010101200000002010110000110101020100101220000011010132000000000000000000
+Cordylancistrus_torbesensis         000001220000010111000000020011001101011001020000001210002000110111100000012110011111100201{12}0100021020100000001100001000120100000200101100120010010101100000002010110002110101020100001220000011010132000100000000000000
+Corydoras_spp._4                    0000000000000000000000000110000000000000000100000000000003000101000000000000000000???00?000000000000?000000030000000000010000000001000000010000000000000110000000000000000010000000000000000000000011000000000000000000
+Corymbophanes_andersoni             10100021000001111100000001101000010100000002010000122000210001110100000001000001011010010110100011010100100001000000000111100000000000101020000010000100000002010111001110101020000001000000001110122000100000000000000
+Corymbophanes_kaiei                 10100021000001111100000001100000010100000001010000122000210001110100000001000001011010010110100011010000100001000000000111100001000000001020000010000200000001010111000110101020000001000000001110122000100000000000000
+Crossoloricaria_sp.                 00010000111112000000000001010000010100000000000001124010200100010000100101000001011000020111100021020010110101000001000?0101101020000010112010010001?1001010120101100000?0000000001001000000100010021000101001000000000
+Crossoloricaria_venezuelae          00010000111112000000010001010000010100000000000001124010200100010000100100000001011000020111100021010010110101000000000?0101101020000010112010010001?1001010020001100000?0000000001001000000100010021000101001000000000
+Dekeyseria_pulcher                  00100022010001011101000000100100010100100101000000122001200011010100000001211001211010030110100011020000100001200000001110101000000001000120000010000100001102010111002110111020000001220001011010121100100000011000000
+Dekeyseria_scaphirhyncha            0010002201{01}0010111000000001001000101001001010000001220002000110001000000012100011110100301{12}0100011020100100001200000000120101000000001{01}001200000100001000011020{01}0111002110101020000001220001011010121100100000011000000
+Delturus_anguillicaudatus           1010001100100100010100100001110000010000000100000011000000000002010000001000000110???0010120000011020000100000000010000120000001200001100020011010100100000102010110102101010020000001100001001110132000100000000000000
+Dianema_longibarbis                 1000000000000000000000000110000000100000000100000000000000000102000000000000000000???00?000000000000?0000100300000000010100000000000000000100000000000000100000010000000?0000000000000000000000000011000000000000000000
+Dolichancistrus_cobrensis           00000121010001011101000002001100110101100102000000121010200011011110000001211001111110020110100021020100000001100001000121101000200001100120010010101100000012010110011110101020000001221001011010132000100000000000000
+Dolichancistrus_pediculatus         0100012201000101110110000200{01}100110101100102000000121010200011011110000001211001111110020110100021020100000001100001000121101000200001100120010010101{12}00000012010110011110101020000001221001011010132000100000000000000
+Exastilithoxus_fimbriatus           0110?01100000000010000100010000101010011100210010011000010001101000110100121?0010110100?012010002100?000100001200001000121101000200001100120000010000100000012010110000010000020000001220000001010122000100020100000000
+Exastilithoxus_sp.                  0?100011000000000101101000100001010100111002?00100110000100011010?0110100121000101101002011010002100?000100001200001000111101000200001100120000010100100000012010110000010000020000001220000011010122000100020100?000?0
+Glyptoperichthys_gibbiceps          1010002101{01}0010011000000002001001101000000110000001220012000000101000000000000012110000301201100100200001000011000000111201000000000000001200100{01}0000200000000000011001100101020000001220000011010131000101000000000100
+Glyptoperichthys_lituratus          10100021010001001100000000200100110100000011000000122001100000010100000000000001211000030120110010020000100001100000011120100000000000000120010000000200000000000111001100111020000001220000011010131000101000000000100
+Glyptoperichthys_punctatus          00100022010001001101000000200100110100000001000000122000100000010100010001000011211000030120110010020000100001100001001120100000200000000120010000000200000000000011001100101020000001220000011010131100101000000000100
+Harttia_sp.                         10000011011000001101000001011100000100000001000000122000200000010000000010000001110000010111100010020010100001100000000?01011010000001001120000000010100000102111101002100100020000001000000000010021000101000000000000
+Hemiancistrus_holostictus           10100022011001001101000002100100110100000011000000122000200000010100010000000101211000030110110010020000100001110000001110100000000010000120000010000200000000000111001100101020000001220000011010131000101000000000100
+Hemiancistrus_landoni               101000220110010011010000021011001101000001020000001220002000110101010100011000011110100301101000100200001000012000000011101000000000000001200000100002000000000001110011001010200000012200000110101310?0101000000000000
+Hemiancistrus_maracaiboensis        10100022011001001101000002100100110100000011000000122000200000010100000000000001211000030110110010020000100001110000001110100000000010000120000010000200000000000111001100101020000001220000011010131000101000000000100
+Hemiancistrus_megacephalus          001000220110000111011000021001001011000000010000001220012100110101000000011000011110100301101000110210000000012000000011201000000000010001200000100002000000010001110011101010200000012200000110101310?0100000000?????0
+Hemiancistrus_panamensis            1010002201100100110100000210010011010000000100000012200010000001010100000000000121100003011011001002000010000111000000111010{01}000000000000120000010000200000000000111001100101020000001220000011010131000101000000000100
+Hemiancistrus_sp.                   000000220100010111010000021001001101000001020{01}0000122010210011011100000001101011111010030110100010020000100001210000001120100000200000000120000010000200000102000111000100101020000001220000011010131000101000000000000
+Hemiancistrus_sp._Brazil            ???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????
+Hemipsilichthys                     10210021000000011101001000201100001100000011010000121010100000110000000001000000010000020110100121020000100001000000000111001000000001100120100010010100000012011101000110010020100001?000?0001010132000100000000000000
+Hemipsilichthys_bahianus            10200021000001011101001000101100001100000001000000122000100000110000000000000001110011010110100121020000100001000000000111001100000001100120100010010100000002011101000100010020000001100011001010122000100000000000000
+Hemipsilichthys_cameroni            10100021000001011101000000101100001100000001000000122000200000110000000001000001011011010110100121020000100000000000000111001101000001100120000010010101000002010110000100010020100011100011001010122000100000000000000
+Hemipsilichthys_nudulus             10200011000001011101001100101100000100000001100000121000200002110010000001000000010011000110100121020100100000000000000?2000100020000010100??00021?1?{23}00000102010111001100001020100001100011001010130000100000000000000
+Hemipsilichthys_sp.                 10200021000001011101100000101100001100000001000000122000200000110000000001000001111011000110100120020000100000000000000111001100000001100120000010010101000002010111000110010020000011100011001010122000100000000000000
+Hemipsilichthys_splendens           10200021000001011101000000101100001100000001000000121000200000110010000001000000111011010110100121020100100000000000000110001100000001100020000010010101000102010111000100000020100011100011001010122000100000000000000
+Hisonotus_sp.                       ???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????
+Hoplosternum_littorale              1000000000000000100000000110000000000000000100000000000000000102000000000000000000???00?000010000000?0000100300000000010100000000000000000100000000000000100000010000000?0000000000000000000000000011000000000000000000
+Hypancistrus_inspector              ???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????
+Hypancistrus_zebra                  101000220110010111010000021011001101000001020000100240102000010101011000011000112110?0030110100000021000100001210000001?20100000000000000120000010000200000101000111000100101020000001220000011010131000101020000000000
+Hypoptopoma_sp.                     0020001101000011110000000020110000010000001000000012110000000011000000000100000101000010011010111002001020000000000000011100110010000010012010000001?100020000001001000100000020000001000000001010022000111000000000000
+Hypostomus_albopunctatus            10100022010001001101000002100100110100000002000000122000200000010100000001000101111000020120110011020000100001110000001110100000000110000120000010000200000101000111001110101020000001010000011010132000101000000000000
+Hypostomus_ammophilus               00210021010001011100001100200100110100000001000000122000100000010100000001000101{12}11000020221110010120000100001010000001000100000000110000120000010000200000101000111001100101020011001010000011010131010101100000000000
+Hypostomus_bolivianus               10100022011001001101000002100100110100000002000000122000200000010100000001000101111000020110110010020000100001110000001110100000000110000120000010000200000101000111001100101020000001010000011010131000101000000000000
+Hypostomus_boulengeri               10100022010001001101000012100100110100000001000000122000200000010100010001000101111000020110110010020000100001110000001110100000000000000120000010000200000100000111001100101020000001010000011010131000101000000000000
+Hypostomus_cochliodon               101000220100011011010000{01}2100100110000000002010000122000200000010100110001000101111000020110110020020000100001110000001110100000000110010120000010000200000100000111001100101020000001010000011010131000101010000000000
+Hypostomus_commersoni               00200022010001001100000012100100110100000001000000122000100000010100010001000101111000020110110020020000100001110000001110100000000000000120000010000200000101000111001100101020010001010000011010131010101000000?????0
+Hypostomus_cordovae                 10100022010001001101000012100100110100000002000000122000200000010100000000000101111000020110110020020000100001110000001110100000000111000120000010000200000101000111001100101020000001010000011010131000101000000000000
+Hypostomus_emarginatus_1            00100022010001111100001002100100110100000001000000122000100000010100000000000101111000020121110000120000100001110000001110100000000110000120000010000200000100000111001100101020010001010000011010131010101000000000000
+Hypostomus_emarginatus_2            00100022010001111100001002100100110100000001000000122000100000010100000001000101111000020221110010120000100001110000001000100000000110000120000010000200000101000111001100101020010001010000011010131010101000000000000
+Hypostomus_francisci                101000220100010011010000{01}2100100110101000002010000122000200000010100000001000101111000020120110010020000100001010000001110100000000110000120000010000200000101000111001100101020000001010000011010131000101000000000000
+Hypostomus_hemicochliodon           10100022011001001101000012100100110100000002010000122000200000010101100000000101211000020110110020020000100001110000001110100000000110000120000010000200000100000111001100101020000001010000011010131000101000000000000
+Hypostomus_hondae                   10000022010001001101000012100100110000000002010000122000200000010101110000000101211000020110110010020000100001110000001110100000000110010120000010000200000100000111001100101020000001010000011010131000101010000000000
+Hypostomus_micromaculatus           10100022011001001101000012100100110100000001000000122000200000010100000000000101111000020110110010020000100001010000001120100000000110000120000010000200000100000111001100101020000001010000011010131000101000000000000
+Hypostomus_plecostomoides           10100022010001001101000012100100110000000002010000122000200000010101110000000101211000020110110020020000100001110000001{01}10100000000110000120000010000200000100000111001100101020000001010000011010131000101010000000000
+Hypostomus_plecostomus              10100022010001001101000012100100110100000002000000122000200000010101000000000101111000020110110010020000100001010000001110100000000110000120000010000200000100000111001100101020000001010000011010131000101000000000000
+Hypostomus_plecostomus_2            10100022010001001101000012100100110100000002000000122000200000010100000000000101111000020110110020020000100001010000001110100000000110000120000010000200000100000011001100101020000001010000011010131000101000000000000
+Hypostomus_punctatus                10100022011001001101000002100100110100000002000000122000200000010101000001000101111000020110110010020000100001010000001{01}1010000000011000012000001000020000010{01}000111001100101020000001010000011010131000101000000000000
+Hypostomus_robinii                  10000022011001001101000012100100110100000001000000122000200000010100010000000101111000020110110010020000100001010000001110100000000110000120000010000200000100000111001100101020000001010000011010131000101000000000000
+Hypostomus_sp._Round_Snout_1        10100022011001001101000002100100110100000002010000122000200000010100000001000101111010020110110010020000100001110000001120100000000111000120000010000200000101000111001100101020000001010000011010131000101000000000000
+Hypostomus_sp._Round_Snout_2        10100022010001001101000012100100110100000001000000122000200000010100000000000101111000020110110010020000100001110000001110100000000{01}10000120000010000200000101000111001100101020000001010000011010131000101000000000000
+Hypostomus_spinosissimus            ???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????
+Hypostomus_squalinus                00100022010001111100001001200100110100000011000000122000100000010100000001000101111000020121110010120000100001110000001000100000000110000120000010000200000100000111001100101020010001010000011010131010101000000000000
+Hypostomus_unicolor                 00210021010001011100001100200100110100000001000000122000100000010100000001000101111000020221110010120000100001010000001000100000000110000120000010000200000101000111001100101020011001010000011010131010101100000000000
+Isbrueckerichthys_alipionis         0021001100000101110000000010110000010000000210000012100010000011000000001000000111200111011010012102000010000000000000011100110000000110012010001001?101000012010110000110010020100011100011001011132000101000000000000
+Isbrueckerichthys_duseni            0021002100000101110000000010110000010000000210000012100010000011000000000100000111200111011010012102000010000000000000000100110000000110012010001001?101000012010110000100010020100011100011001011132000101000000000000
+Ixinandria_montebelloi              00000000000000000100001001010000000100000001000001100000000101010000100101000001010000010111100021020000100100000000000?01011010000000001120000100010100001102010101001100100030000001100001100010022000101000000000000
+Kronichthys_sp._1                   10200011000001011101000000201100000100000001000000121000200000110000000001000100010000010110100121020000100001000000{01}001110011000000011001201000{01}00101000001020101110000?0010020100001000000001010122000100000000000000
+Kronichthys_sp._2                   102000210000010111010010002011000001000000010000001210002000101100000000010001000100000101101001210200001000010000001001110011000000011001201000100101000001020101110000?0010020100001000000001010122000100000000000000
+Lamontichthys_llanero               01000011011000001100000001010100100100000001000000122100200000010000000001000001110000020111100010020010100001000000000?01011010000001001120000100010100000002001001002100000020000001000000000010021000101000000000000
+Lasiancistrus_maracaiboensis        001010220110010111011000021011011101001101010001001220002000110011000000012120012110100311101{01}0010020000100001201100101120100001200001000120000010000100000102000111000100101020000001220101011010122000100000022000000
+Lasiancistrus_sp.                   00101022011001011101100002101101110100110101000100122000200011001100000001212001211010031110110010020000100001201100101120100001200001000120000010000100000102000111000100101020000001220101011010122000100000022000000
+Leporacanthicus_galaxias            10000011000001010101001000100000110000000002010010122000100000010011101000100001110010030221100020021000100001110000010120100000200001000120010010000100000102000111000100101020000001220001011010132100100020000000000
+Leptoancistrus_canensis             11000122000001111101100002000100110101100102100100121010200011011110000001211001111110020110100021020100000001100001000?20100000200001101020010010101400000012010110000100101020100001221001011110132000100000000000000
+Liposarcus_multiradiatus            002000210100010011010000{01}0200100110100000011000000122001100000010100000001000001211000030120110010120000200001000000001120100000000000000120010000000200000000000111001100101020000001020000011010131000101000000000100
+Liposarcus_pardalis                 00200021010001001101000000200100110100000011000000122001100000010100000001000001211000030120110010020000200001100000001120100000000100000120010010000200000000000011001100101020000001020000011010131000101000000000100
+Lithogenes_villosus                 00??000000000000000000000011000001010000000210001010000000000001000000001000001000???0000211000011010000000001000001000001000100200100000121000021?1?000100012010101100110010021000001000000001010120000000000000000000
+Lithoxancistrus_orinoco             0100102201{01}001011101100002000100101100000001010000122000210000010100000001100001011010030110100011020000000001200000101120100{01}00200001100120000010000100000002010110001110101020000101220001011010132000100000011000000
+Lithoxus_bovallii                   00200011000000000100001000100001010100111101001100110000120011011111101001211001111010020110000011011000110001200001000111101001200001100120000010000100101012010110000100100020000001220000011010122000100020000100010
+Lithoxus_lithoides                  0020001100000000010000100010000101010{01}1111010011001100001200110111111010012120011110100201100000210110001000012000010001{12}1101001200001100120000010000100101012010110000100100020000001220000011010122000100020000100010
+Loricaria_cataphracta               00000000111112000000010001010000000100000000000001124010200110010000100100000001011000020111100021020000110101000000000?0101101000000010112010011001?1001010020111000000?0100030001001000000100010021000101001000000000
+Loricariichthys_brunneus            00000000110002000100010011010000010100000001000001124011000111010000100100000001011000010121100021020000110101000001000?0101101000010000112010010001?100101002011101001100001000000001000000100010022000101000000000000
+Megalancistrus_gigas                10000021011001001101000001100100010100000002010010124010200011010001100001100001211010030120100011021000101011210000100120100001211000100120010010000100000002000111001100101020000001220001011010131100101020000000001
+Microlepidogaster_sp.               00200011000000111100000000201100000100000011000000121010200000110000000001000001010000110110101111020010101021000000000?110011000010011011200000000101000200000010010000?0000020000001000000001010021000111000000000000
+Nannoptopoma_spectabile             0020001100000011110000100020000000110000001000000012110000000011000000000100000101000010011010111002001020002000000000011100110000000110112010001001?1000200000010010000?0000120000001000000001010022000111000000000000
+Neblinichthys_pilosus               10100022010001111101000002101101110110100101010000122000200011011100000001211001111010030110100021020000100001200000001120100001200001000120000010000100000002000111000110101020000001220001011010122011100000011000000
+Neblinichthys_roraima               10100022010001?1110100000???1101010110100101010000122000200011011100000001210001111010030110100011020000100001200000001110100001200001100120000010000100000002010111000100101020000001220001011010122011100000011000000
+Neoplecostomus_microps              002000110000000111000010001000000001000000020000001000001000001100000000100001011100010101101000210200001000000000010001{01}1001001000001100120100010010111000012010110000110011010100011000000001010122000101000000000000
+Neoplecostomus_paranensis           002000110000000111000010001000000{01}01000000020000001220002000001100000000100001011100011101101000210200001000000000010001{01}1001001000001100120100010010111000012010110000110011010100011000000001011122000101000000000000
+Otocinclus_vestitus                 00200011011001111100000000201100001100000010000000000000000002120000000001000000010000110110101100020010201020000000000?11001101001000101120000010000100020100101001000100010020000001000000001010022000111000000101000
+Otocinclus_vittatus                 00200021011001111100000000201100001100000010000000000000000002120000000001000000010000110110101100020010201020000000000?1100110100100{01}101120000010000100020100101001000100010020000001000000001010022000111000000101000
+Panaque_albomaculatus               00100022011001111101000002001100110000000102010000121000200001010111110001100011111010030120110020121000100001210000101120100000200000010120000010000200000000000111000100101020000001220000011010131010101010000000000
+Panaque_maccus                      001000220110011111010000021011001100000001020100001210002000010101111100011000111110100301{12}01100201210001000012100001011{12}010{01}000200100010120000010000200000100000111000100101020000001220000011010131010101010000000000
+Panaque_nigrolineatus               000000220100011111000000021001001100000001020100001220002000110101111000011000111110100312101100201210001010012100001011{12}0100000010100000120000010000200000100000111001100101020000001220000011010131000101010000000001
+Panaque_pariolispos                 10000022011001101101000002100100110000000102010000110000200001010111110001100011211010030110110010121000100001210000001110100100200110000120000010000200000101000111000110101020000001220000011010131000101020000000000
+Parancistrus_aurantiacus            10000022011001001101010001101100010100010101000100122010100001010101100001100011211010030110100010021000100011201001001120100000200000000120001010000200000000000111000100101020000001220000011010131010101000001000000
+Pareiorhina_rudolphi                10200011000000011101001000101100000100000011000000122000200000110000000001000100012010110110100121020000100000000000000?11001100000001101120100010010100000102010111000100010020100001000000001011122000100000000000000
+Pareiorhina_sp.                     10200011000001011101001000201100000000000002{01}00000122000200010110000000001000100110001010110100121020000100000000000000?110011000000011011201000100101011000120101101000?0010020100011000000001011122000100000000000000
+Parotocinclus_britskii              002000110000001111000000002011000001000000010000001210102000101100000000010000000100100101101011110200101000210000000001110011010010011001200000100001000200010010010000?0000020000001000000001010022000101000000000000
+Peckoltia_oligospila                10200022011001011101000002101100110100000102000000122000200011011100000001100011111010030120110010020000100001210000001120100000200010000120000010000200000101000111000100101020000001220000011010131010101000000000000
+Peckoltia_sp._1                     10000022011001111101000002101100110100000102000000122000200000010101110001100011111000030120110010021000100001210000001120100000000010000120000010000200000100000111000100101020000001220000011010131010101000000000000
+Peckoltia_sp._2                     10000022011001111101000002101100110100000101000000122000200000010101110001100011111000030120110010021000100001210000101110100000200000000120000010000200000100000111000100101020000001220000011010131010101000000000000
+Peckoltia_sp._Big_Spot              ???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????
+Peckoltia_ucayalensis               00100022011001101100000002101100110101000101010000122000200000010101100001100011111010030121110020121000100001210000001110100000200100000120000010000200000100000011000100101020100001220000011010131010101000000000000
+Pogonopoma_parahybae                00200022010001001101000010100110001000000001000000122100101011010000000010000001110000020110110010120000210001000000000?11100000101000101120000010000100000101001001002110111120000001000000011011131000101000000130000
+Pogonopoma_wertheimeri              10200022010001001111000010100110001100000001000000122100101011010000000010000001010000020110110010120000210001000000000111100000101000000120000010000100000101000011002110111120000001200001001011131000101000000130000
+Pseudacanthicus_leopardus           10000021010001101101000001100100010000000002000010122000200000010001110000100001111010020120100020021000100011100000001120100000000001100120010010000100000102010111001100101020000001220001011010131100101020000000000
+Pseudancistrus_barbatus             10100022011001011101100002100100101100000001010000122001210000010100000001100001111000030120100021020000000001110000101120100001200001000120000010000100000102010111001110111020000001210001011010131000100000010000000
+Pseudancistrus_brevispinis          ???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????
+Pseudancistrus_sp.                  10100022011001011101100002100100101100000001010000122001210000010100000001100001111010030110100011020000000001110000101120100101200001000120000010000100000102010111002110111020000001210001011010131000100000010000000
+Pseudancistrus_sp._Gold_Spot        ???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????
+Pseudolithoxus_anthrax              00100022010001011101000002000101010100110101000100122000200011010100000001212001{12}11010030110100011020000100001201000001120100000200001000120000010000100000102000111000100101020000001220001011010121000100000011000000
+Pseudorinelepis_genibarbis          00200022011001001101000000200110{01}01100000001000100122000201000020000000001000001011000020110110010020000210001000000000?20100000100000001120000010000100000000001001001110111020000001200001001010131000101000000110000
+Pterygoplichthys_etentaculatus      101000220100011011010000002001001101000000110000001220001000000101000000010000012110000301101100100200002000011000000011201000000001100001200100{01}0000200000000000111001100101020000001220000011010131000101000000000100
+Pterygoplichthys_zuliaensis         00200022011001001100000000200100110100000011000000122001100000010100000001000001211000030110110010020000200001100000001120100000000000000120010000000200000000000011001100101020000001220000011010031000101000000000100
+Rhinelepis_aspera                   10200022010001001111001010100110000100000001000000122000201011010000000001000001012000020110110010120000210000000000000120100000100000101120000010000100101001000011001110101020000001000000001011131000101000000120000
+Rineloricaria_rupestris             00000000100002000100001001010000000100000001000001100000000111000000100101000001010000010111100021020000100100000000000?01011010000000001120000100010100001102010101001100100030000001100001100010022000101000000000000
+Schizolecis_guentheri               00200011000000011100000000200000000100000001000000121000200000110000000001000000010000010110100121020010100021100000000?1100100000100110112010001001?1010101020110010000?0010020000001000000001010022000101000000000000
+Spectracanthicus_murinus            10100022000001011101000002100100010000000102010000123010210000010111101001000101111000020110100011021000100001010000101120100000200001000120001010000300000101000111000100101020000001010000011010132000100020000000000
+Spectracanthicus_punctatissimus     1010{01}0220000010111010000021001001100000001020100001220102100000101011100011000011110100301{12}0100011021000100001110000001120100001200{01}01{01}00120001010000200000102000111000100101020000001220000011010131000101020000000000
+Sturisoma_festivum                  00000011011001001100000002010100000100000011000000122000200000010000000001000001010010010111100020020001100001000000000?01011010000100001120100100010100000102001000001100001030000001100001000010022000101000000000000
+Sturisomatichthys_citurensis        00000011011001001100000002010100000100000011000000122000200000010000000001000001010010010111100020020001100001000000000?01011010000100001120100100010100000102001001002100101020000001100001000010022000101000000000000
+Upsilodus_victori                   1010001100000100010110100001110000010000000100000011000000000002010000001000000110???0010110000021020000100000000010000100000101200101100020000010110001000012010110102101000020000001100001001110132000100000000000000
+;
+END;
+
+BEGIN TREES;
+      TITLE Loricariidae;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Acanthicus_hystrix,
+            2    Ancistrus_pirareta,
+            3    Ancistrus_sp.,
+            4    Astroblepus_spp._4,
+            5    Baryancistrus_niveatus,
+            6    Chaetostoma_anomala,
+            7    Chaetostoma_pearsei,
+            8    Chaetostoma_platyrhynchus,
+            9    Chaetostoma_sovichthys,
+            10   Chaetostoma_stannii,
+            11   Cordylancistrus_torbesensis,
+            12   Corydoras_spp._4,
+            13   Corymbophanes_andersoni,
+            14   Corymbophanes_kaiei,
+            15   Crossoloricaria_sp.,
+            16   Crossoloricaria_venezuelae,
+            17   Dekeyseria_pulcher,
+            18   Dekeyseria_scaphirhyncha,
+            19   Delturus_anguillicaudatus,
+            20   Dianema_longibarbis,
+            21   Dolichancistrus_cobrensis,
+            22   Dolichancistrus_pediculatus,
+            23   Exastilithoxus_fimbriatus,
+            24   Exastilithoxus_sp.,
+            25   Glyptoperichthys_gibbiceps,
+            26   Glyptoperichthys_lituratus,
+            27   Glyptoperichthys_punctatus,
+            28   Harttia_sp.,
+            29   Hemiancistrus_holostictus,
+            30   Hemiancistrus_landoni,
+            31   Hemiancistrus_maracaiboensis,
+            32   Hemiancistrus_megacephalus,
+            33   Hemiancistrus_panamensis,
+            34   Hemiancistrus_sp.,
+            35   Hemiancistrus_sp._Brazil,
+            36   Hemipsilichthys,
+            37   Hemipsilichthys_bahianus,
+            38   Hemipsilichthys_cameroni,
+            39   Hemipsilichthys_nudulus,
+            40   Hemipsilichthys_sp.,
+            41   Hemipsilichthys_splendens,
+            42   Hisonotus_sp.,
+            43   Hoplosternum_littorale,
+            44   Hypancistrus_inspector,
+            45   Hypancistrus_zebra,
+            46   Hypoptopoma_sp.,
+            47   Hypostomus_albopunctatus,
+            48   Hypostomus_ammophilus,
+            49   Hypostomus_bolivianus,
+            50   Hypostomus_boulengeri,
+            51   Hypostomus_cochliodon,
+            52   Hypostomus_commersoni,
+            53   Hypostomus_cordovae,
+            54   Hypostomus_emarginatus_1,
+            55   Hypostomus_emarginatus_2,
+            56   Hypostomus_francisci,
+            57   Hypostomus_hemicochliodon,
+            58   Hypostomus_hondae,
+            59   Hypostomus_micromaculatus,
+            60   Hypostomus_plecostomoides,
+            61   Hypostomus_plecostomus,
+            62   Hypostomus_plecostomus_2,
+            63   Hypostomus_punctatus,
+            64   Hypostomus_robinii,
+            65   Hypostomus_sp._Round_Snout_1,
+            66   Hypostomus_sp._Round_Snout_2,
+            67   Hypostomus_spinosissimus,
+            68   Hypostomus_squalinus,
+            69   Hypostomus_unicolor,
+            70   Isbrueckerichthys_alipionis,
+            71   Isbrueckerichthys_duseni,
+            72   Ixinandria_montebelloi,
+            73   Kronichthys_sp._1,
+            74   Kronichthys_sp._2,
+            75   Lamontichthys_llanero,
+            76   Lasiancistrus_maracaiboensis,
+            77   Lasiancistrus_sp.,
+            78   Leporacanthicus_galaxias,
+            79   Leptoancistrus_canensis,
+            80   Liposarcus_multiradiatus,
+            81   Liposarcus_pardalis,
+            82   Lithogenes_villosus,
+            83   Lithoxancistrus_orinoco,
+            84   Lithoxus_bovallii,
+            85   Lithoxus_lithoides,
+            86   Loricaria_cataphracta,
+            87   Loricariichthys_brunneus,
+            88   Megalancistrus_gigas,
+            89   Microlepidogaster_sp.,
+            90   Nannoptopoma_spectabile,
+            91   Neblinichthys_pilosus,
+            92   Neblinichthys_roraima,
+            93   Neoplecostomus_microps,
+            94   Neoplecostomus_paranensis,
+            95   Otocinclus_vestitus,
+            96   Otocinclus_vittatus,
+            97   Panaque_albomaculatus,
+            98   Panaque_maccus,
+            99   Panaque_nigrolineatus,
+            100  Panaque_pariolispos,
+            101  Parancistrus_aurantiacus,
+            102  Pareiorhina_sp.,
+            103  Pareiorhina_rudolphi,
+            104  Parotocinclus_britskii,
+            105  Peckoltia_oligospila,
+            106  Peckoltia_sp._1,
+            107  Peckoltia_sp._2,
+            108  Peckoltia_sp._Big_Spot,
+            109  Peckoltia_ucayalensis,
+            110  Pogonopoma_parahybae,
+            111  Pogonopoma_wertheimeri,
+            112  Pseudacanthicus_leopardus,
+            113  Pseudancistrus_barbatus,
+            114  Pseudancistrus_brevispinis,
+            115  Pseudancistrus_sp.,
+            116  Pseudancistrus_sp._Gold_Spot,
+            117  Pseudolithoxus_anthrax,
+            118  Pseudorinelepis_genibarbis,
+            119  Pterygoplichthys_etentaculatus,
+            120  Pterygoplichthys_zuliaensis,
+            121  Rhinelepis_aspera,
+            122  Rineloricaria_rupestris,
+            123  Schizolecis_guentheri,
+            124  Spectracanthicus_murinus,
+            125  Spectracanthicus_punctatissimus,
+            126  Sturisoma_festivum,
+            127  Sturisomatichthys_citurensis,
+            128  Upsilodus_victori;
+      TREE 'Figs. 36-38' = [&R] ((12,(20,43)),((4,82),((19,128),(((((((93,94),(70,71)),102),103),((73,74),(36,(((((46,90),(95,96)),42),104),123)))),(37,(40,(38,(39,41))))),((((((16,15),86),87),(72,122)),((28,75),(126,127))),((13,14),((((111,110),121),118),((((((((48,69),55,68),54),67),(((((51,58),60),57),53,(59,64),61,62),66)),((47,56),(49,65,63))),(52,50)),(((33,(29,31)),((((80,81),120),(25,26),27),119)),((((((((1,88),112),78),(125,124)),45,((44,101),((((97,98),(99,100)),109),(106,107)))),34,105,108),((((((2,3),(76,77)),117),((((6,7,(9,10),8),((21,22),79)),11),((23,24),(85,84))),(17,18),(91,92)),(32,116,(83,(115,113)),114)),5),30),35))))))))));
+
+
+
+END;

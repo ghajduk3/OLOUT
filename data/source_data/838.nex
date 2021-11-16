@@ -1,0 +1,163 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:40 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Carmaran C., Romero A., & Giussani L. 2006. An approach towards a new phylogenetic
+classification in Diatrypaceae. Fungal Diversity, null.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S1571]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=27;
+        TAXLABELS
+            Cryptosphaeria_lignyota
+            Cryptosphaeria_sulcata
+            Diatrype_albopruinosa
+            Diatrype_chlorosarcha
+            Diatrype_disciformis
+            Diatrype_flavovirens
+            Diatrype_patagonica
+            Diatrype_phaselina
+            Diatrype_sp
+            Diatrype_spilomea
+            Diatrype_stigmoides
+            Echinomyces_obesa
+            Eutypa_lata
+            Eutypa_lejoplaca
+            Eutypa_leptoplaca
+            Eutypa_spinosa
+            Eutypella_arecae
+            Eutypella_atropae
+            Eutypella_aulacostroma
+            Eutypella_canodisca
+            Eutypella_cerviculata
+            Eutypella_comosa
+            Eutypella_gliciridae
+            Eutypella_leprosa
+            Eutypella_scoparia
+            Kretzchmaria_clavus
+            Kretzchmaria_sigmoidea
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M1221]
+
+	TITLE Diatrypaceae;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=36;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2 3 4 5 6 7 8 9" MISSING=? GAP= -;
+
+MATRIX
+[                                   10        20        30        40        50 ]
+[                                    .         .         .         .         . ]
+Cryptosphaeria_lignyota     010000001010001100010010111{01}11010000
+Cryptosphaeria_sulcata      010000000010011100010010012321000000
+Diatrype_albopruinosa       00001100101012110001001011{12}{23}21010000
+Diatrype_chlorosarcha       00101001{01}010{01}21100010010111{12}11010200
+Diatrype_disciformis        000011001010021100010010111{01}11010000
+Diatrype_flavovirens        001000101010021100010010111011010100
+Diatrype_patagonica         001001000010021100010010112211010000
+Diatrype_phaselina          001000100010021010000110111111010?00
+Diatrype_sp                 001000100010021100010010012321000100
+Diatrype_spilomea           000101001110{01}2110001001011{01}011010000
+Diatrype_stigmoides         000101001010{01}2110001001011{01}{01}11010000
+Echinomyces_obesa           00000100{01}011221001001010{01}10011020000
+Eutypa_lata                 100000001010110100010010011011010100
+Eutypa_lejoplaca            10000000{01}110{01}21100010010{01}1{01}011010100
+Eutypa_leptoplaca           100000000010121100010010111011010100
+Eutypa_spinosa              10000000101112110001001011{01}{01}11010100
+Eutypella_arecae            001001000001111001001010011011010100
+Eutypella_atropae           001000001000021100010010111011010200
+Eutypella_aulacostroma      0010010000{01}0{01}21100010010111{01}11010200
+Eutypella_canodisca         001001001010021100010010112321000000
+Eutypella_cerviculata       0010010010{01}1{01}21100010010{01}1{01}{01}11010200
+Eutypella_comosa            1000000010{01}1{12}21001001010{01}10{01}11010200
+Eutypella_gliciridae        010000001001221001000010011011010000
+Eutypella_leprosa           0010010010{01}0{01}21100010010111{12}11010000
+Eutypella_scoparia          0100000010{01}1{12}21001001010{01}10011010200
+Kretzchmaria_clavus         0000000000100200001000011034201-1111
+Kretzchmaria_sigmoidea      0000000000100200001000011034201-1111
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb7830;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Eutypella_arecae,
+            2    Eutypella_gliciridae,
+            3    Eutypa_leptoplaca,
+            4    Eutypella_canodisca,
+            5    Diatrype_sp,
+            6    Eutypa_lata,
+            7    Eutypella_aulacostroma,
+            8    Eutypella_leprosa,
+            9    Diatrype_stigmoides,
+            10   Diatrype_spilomea,
+            11   Eutypa_spinosa,
+            12   Eutypa_lejoplaca,
+            13   Eutypella_comosa,
+            14   Eutypella_scoparia,
+            15   Eutypella_cerviculata,
+            16   Diatrype_chlorosarcha,
+            17   Diatrype_disciformis,
+            18   Echinomyces_obesa,
+            19   Eutypella_atropae,
+            20   Diatrype_patagonica,
+            21   Cryptosphaeria_lignyota,
+            22   Cryptosphaeria_sulcata,
+            23   Diatrype_flavovirens,
+            24   Diatrype_albopruinosa,
+            25   Diatrype_phaselina,
+            26   Kretzchmaria_sigmoidea,
+            27   Kretzchmaria_clavus;
+      TREE Fig._21A = [&R] (27,(26,(25,24,23,21,20,19,17,16,15,12,11,8,7,6,3,(4,(22,5)),(18,14,13,2,1),(10,9))));
+      TREE Fig._20 = [&R] (27,(26,(25,((((23,(19,(15,(7,(16,(8,(20,(24,(4,(22,5)))))))))),(21,(17,(10,9)))),(6,(12,(11,3)))),(2,(1,(13,(18,14))))))));
+
+
+
+END;
+BEGIN TREES;
+      TITLE Tb7831;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Eutypella_arecae,
+            2    Eutypella_gliciridae,
+            3    Eutypa_leptoplaca,
+            4    Eutypella_canodisca,
+            5    Diatrype_sp,
+            6    Eutypa_lata,
+            7    Eutypella_aulacostroma,
+            8    Eutypella_leprosa,
+            9    Diatrype_stigmoides,
+            10   Diatrype_spilomea,
+            11   Eutypa_spinosa,
+            12   Eutypa_lejoplaca,
+            13   Eutypella_comosa,
+            14   Eutypella_scoparia,
+            15   Eutypella_cerviculata,
+            16   Diatrype_chlorosarcha,
+            17   Diatrype_disciformis,
+            18   Echinomyces_obesa,
+            19   Eutypella_atropae,
+            20   Diatrype_patagonica,
+            21   Cryptosphaeria_lignyota,
+            22   Cryptosphaeria_sulcata,
+            23   Diatrype_flavovirens,
+            24   Diatrype_albopruinosa,
+            25   Diatrype_phaselina,
+            26   Kretzchmaria_sigmoidea,
+            27   Kretzchmaria_clavus;
+      TREE Fig._21B = [&R] (27,(26,(25,((23,21,19,17,15,7,(24,20,16,8,(4,(22,5))),(12,11,6,3),(10,9)),(2,(1,(18,14,13)))))));
+
+
+
+END;

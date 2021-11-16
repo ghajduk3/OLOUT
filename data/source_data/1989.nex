@@ -1,0 +1,205 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:53 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Hernández-ledesma P., Flores olvera H., & Ochoterena H. 2010. Cladistic analysis
+and taxonomic synopsis of Anulocaulis (Nyctaginaceae) based on morphological data.
+Systematic Botany, .
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S10350]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=25;
+        TAXLABELS
+            A.annulatus
+            A.eriosolenus
+            A.hintoniorum
+            A.leiosolenus_var._gypsogenus
+            A.leiosolenus_var._howardii
+            A.leiosolenus_var._lasianthus
+            A.leiosolenus_var._leiosolenus
+            A.reflexus
+            B.alata
+            B.anisophylla
+            B.coccinea
+            B.diffusa
+            B.erecta
+            B.gracillima
+            B.spicata
+            B.xantii
+            Co.arabicus
+            Co.brandegeei
+            Co.plumbagineus
+            Co.scandens
+            Cy.crassifolia
+            Cy.gypsophiloides
+            M.glabrifolia
+            N.capitata
+            O.hypogaea
+            ;
+END;
+
+BEGIN TAXA;
+        TITLE  Taxa2;
+        DIMENSIONS NTAX=25;
+        TAXLABELS
+            Anulocaulis_annulatus
+            Anulocaulis_eriosolenus
+            Anulocaulis_hintoniorum
+            Anulocaulis_leiosolenus_gypsogenus
+            Anulocaulis_leiosolenus_howardii
+            Anulocaulis_leiosolenus_lasianthus
+            Anulocaulis_leiosolenus_leiosolenus
+            Anulocaulis_reflexus
+            Boerhavia_alata
+            Boerhavia_anisophylla
+            Boerhavia_coccinea
+            Boerhavia_diffusa
+            Boerhavia_erecta
+            Boerhavia_gracillima
+            Boerhavia_spicata
+            Boerhavia_xantii
+            Commicarpus_arabicus
+            Commicarpus_brandegeei
+            Commicarpus_plumbagineus
+            Commicarpus_scandens
+            Cyphomeris_crassifolia
+            Cyphomeris_gypsophiloides
+            Mirabilis_glabrifolia
+            Nyctaginia_capitata
+            Okenia_hypogaea
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M5179]
+
+	TITLE 'Hernandez-Ledesma et al- Character Matrix';
+	LINK TAXA = Taxa2;
+	DIMENSIONS NCHAR=41;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2 3 4 5 6 7" MISSING=? GAP= -;
+	CHARSTATELABELS
+		1  Duration / annual perennial,
+		2  Mucilaginous_rings_on_stems / absent present,
+		3  Leaf_arrangement / evenly_distributed_along_the_stem concentrated_on_the_lower_half,
+		4  Leaf_consistency / herbaceous succulent 'leathery-succulent',
+		5  Leaf_margin / entire sinuate_to_undulate crenulate,
+		6  Leaf_apex_angle / acute obtuse,
+		7  Pustules_on_leaves / absent present,
+		8  Inflorescence_ramification / absent present,
+		9  Ramification_pattern / monopodial sympodial,
+		10  Minimum_flowering_unit_arrangement / umbelliform racemiform monochasium,
+		11  Pedicel_subtending_the_flowers / absent present,
+		12  Number_of_bracts_subtending_a_single_flower / 1. 2. 3. 4. 5.,
+		13  Floral_bract_texture / herbaceous chartaceous scarious,
+		14  Floral_bract_shape / lanceolate ovate widely_ovate,
+		15  Pustules_on_floral_bracts / absent present,
+		16  Bracts_persistence_in_mature_fruits / deciduous persistent_not_accrescent persistent_accrescent,
+		17  Perianth_limb_color / white_to_pink violet_to_magenta 'reddish-orange' 'yellow-green',
+		18  Perianth_shape / campanulate 'funnel-shaped',
+		19  'Chasmogamous flower length (mm)' / '0.1-6.2' '6.2-12.5' '12.5-20.0' '20.0-26.8' '26.8-31.8' '31.8-38.0',
+		20  Perianth_indumentum / absent present,
+		21  Perianth_pubescence / puberulent villous,
+		22  Stigma_surface / smooth papillate,
+		23  'Anther width (mm)' / '0.2-1.1' '1.3-2.3',
+		24  'Exerted portion of the filaments (mm)' / '0.2-9.5' '12.0-40.0_',
+		25  Fruit_shape / turbinate biturbinate fusiform obovoid_to_obpyramidal claviform ellipsoid,
+		26  'Fruit length (mm)' / '2.3-4.4' '4.4-7.0' '7.0-9.6',
+		27  'Fruit width (mm)' / '0.4-2.0' '2.0-3.4' '3.4-4.9' '4.9-7.4',
+		28  Fruit_symmetry_in_the_transverse_plane / bilateral asymmetric,
+		29  Fruit_symmetry_in_the_longitudinal_plane / symmetric asymmetric,
+		30  Fruit_rib_number / '4-5' 10,
+		31  Ribs_profile_in_polar_view / triangular 'round-obtuse' linear,
+		32  Equatorial_crest_on_the_fruit / absent present,
+		33  Hyaline_glands_on_fruits / absent present,
+		34  Verrucose_glands__on_fruits / absent present,
+		35  Mucilage_on_wet_fruits / absent present,
+		36  Tubercles_on_wet_fruit / absent present,
+		37  Raphides_on_fruit / absent present,
+		38  Stalk_in_fruit / absent present,
+		39  Fruit_orientation_with_pespect_to_the_stalk / straight inclined,
+		40  Raphides_in_cotyledons / absent present,
+		41  'chromosomal Number (N)' / 12. 13. 20. 22. 24. 26. 27. 58.,
+		;
+
+MATRIX
+[                                               10        20        30        40        50        60]
+[                                                .         .         .         .         .         .]
+Anulocaulis_annulatus                   11{01}22{01}11000{12}2{02}110111100020100120000000-04
+Anulocaulis_eriosolenus                 {01}1122111020{34}2211011110000011012000{01}101004
+Anulocaulis_hintoniorum                 11122{01}11120322111121000021100120000100-0?
+Anulocaulis_leiosolenus_gypsogenus      11122111020022110150-0111130011100100100?
+Anulocaulis_leiosolenus_howardii        11122111020022111140-0111120011100100100?
+Anulocaulis_leiosolenus_lasianthus      1112211102002211014100111120011100100100?
+Anulocaulis_leiosolenus_leiosolenus     11122111020021110150-01111200111001001004
+Anulocaulis_reflexus                    11122111020022110120-01{01}1120011100100100?
+Boerhavia_alata                         000110{01}1100{01}2{01}100000-0003001000000100100?
+Boerhavia_anisophylla                   10{01}2101112{01}{12}2201101100003001001000100100?
+Boerhavia_coccinea                      10000001100{01}2{02}0010010000{34}001001010101100{05}
+Boerhavia_diffusa                       1010{01}{01}0110002200100100003001001010101100{1567}
+Boerhavia_erecta                        0{01}0000{01}1100{012}20100000-00030010000001011005
+Boerhavia_gracillima                    10101001120220101001000040010010101011{01}0?
+Boerhavia_spicata                       0{01}0010{01}1110020100000-00030010010001011005
+Boerhavia_xantii                        0{01}011011110{01}2{01}100000-{01}003001000000101100?
+Commicarpus_arabicus                    10001001101{123}0000011100004101011011{01}011112
+Commicarpus_brandegeei                  10001001101000000111000041010110{01}1001111?
+Commicarpus_plumbagineus                10001001101{12}00000111000042010110110011112
+Commicarpus_scandens                    10001001101{12}00003100-0004201011001001111?
+Cyphomeris_crassifolia                  11011{01}00-1102000111101004201111000111110{13}
+Cyphomeris_gypsophiloides               11010000-11020001110-10042011110001111103
+Mirabilis_glabrifolia                   101{01}0001120412021011010030010010101110-0?
+Nyctaginia_capitata                     1001{12}0{01}0-00-0{012}12213110{01}{01}01{13}1011000101100?
+Okenia_hypogaea                         000{01}{01}{01}{01}0--0221{01}01131{01}00052300--000000110?
+;
+END;
+
+BEGIN TREES;
+      TITLE 'Hernandez-Ledesma-et al SB 09-25';
+      LINK TAXA = Taxa2;
+         TRANSLATE
+            1    Mirabilis_glabrifolia,
+            2    Nyctaginia_capitata,
+            3    Okenia_hypogaea,
+            4    Boerhavia_alata,
+            5    Boerhavia_anisophylla,
+            6    Boerhavia_coccinea,
+            7    Boerhavia_diffusa,
+            8    Boerhavia_erecta,
+            9    Boerhavia_gracillima,
+            10   Boerhavia_spicata,
+            11   Boerhavia_xantii,
+            12   Commicarpus_arabicus,
+            13   Commicarpus_brandegeei,
+            14   Commicarpus_plumbagineus,
+            15   Commicarpus_scandens,
+            16   Cyphomeris_crassifolia,
+            17   Cyphomeris_gypsophiloides,
+            18   Anulocaulis_annulatus,
+            19   Anulocaulis_eriosolenus,
+            20   Anulocaulis_hintoniorum,
+            21   Anulocaulis_leiosolenus_gypsogenus,
+            22   Anulocaulis_leiosolenus_howardii,
+            23   Anulocaulis_leiosolenus_lasianthus,
+            24   Anulocaulis_leiosolenus_leiosolenus,
+            25   Anulocaulis_reflexus;
+      TREE tree_04 = [&R] (1,((5,((20,((25,(22,23,(21,24))),(18,19))),(2,3))),(9,(7,(6,(((16,17),(13,(15,(12,14)))),(10,(8,(4,11)))))))));
+      TREE tree_08 = [&R] (1,((9,(7,(6,((16,17),(13,(12,(14,15)))),(10,(8,(4,11)))))),(5,((20,((25,(22,23,(21,24))),(18,19))),(2,3)))));
+      TREE tree_07 = [&R] (1,((5,((19,(18,(20,(25,(22,23,(21,24)))))),(2,3))),(9,(7,(6,(((16,17),(15,(14,(12,13)))),(10,(8,(4,11)))))))));
+      TREE tree_06 = [&R] (1,((5,((20,((25,(22,23,(21,24))),(18,19))),(2,3))),(9,(7,(6,(((16,17),(15,(14,(12,13)))),(10,(8,(4,11)))))))));
+      TREE tree_03 = [&R] (1,((9,(7,(6,((16,17),(13,(12,(14,15)))),(10,(8,(4,11)))))),(5,(((25,(22,23,(21,24))),(20,(18,19))),(2,3)))));
+      TREE tree_05 = [&R] (1,((5,((19,(18,(20,(25,(22,23,(21,24)))))),(2,3))),(9,(7,(6,(((16,17),(13,(15,(12,14)))),(10,(8,(4,11)))))))));
+      TREE tree_10 = [&R] (1,((5,((18,19,20,(25,(22,23,(21,24)))),(2,3))),(9,(7,(6,((16,17),(12,13,14,15)),(10,(8,(4,11))))))));
+      TREE tree_09 = [&R] (1,((9,(7,(6,((16,17),(13,(12,(14,15)))),(10,(8,(4,11)))))),(5,((19,(18,(20,(25,(22,23,(21,24)))))),(2,3)))));
+      TREE tree_02 = [&R] (1,((5,(((25,(22,23,(21,24))),(20,(18,19))),(2,3))),(9,(7,(6,(((16,17),(15,(14,(12,13)))),(10,(8,(4,11)))))))));
+      TREE tree_01 = [&R] (1,((5,(((25,(22,23,(21,24))),(20,(18,19))),(2,3))),(9,(7,(6,(((16,17),(13,(15,(12,14)))),(10,(8,(4,11)))))))));
+
+
+
+END;

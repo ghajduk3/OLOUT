@@ -1,0 +1,67 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:48 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Morton J. 1995. Taxonomic and phylogenetic divergence among five Scutellospora species
+based on comparative developmental sequences. Mycologia, 87: 127-137.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S296]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=6;
+        TAXLABELS
+            Gigaspora_rosea
+            Scutellospora_coralloidea
+            Scutellospora_fulgida
+            Scutellospora_gregaria
+            Scutellospora_persica
+            Scutellospora_verrucosa
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M2735]
+
+	TITLE not_presented;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=3;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2 3 4 5" MISSING=? GAP= -;
+	CHARSTATELABELS
+		1  Spore_size / Ancestral 'Ancestral + 100' 'Ancestral + 175',
+		2  Laminae_color / Ancestral Yellow 'Yellow + Magenta' 'Cyan + Magenta',
+		3  Outer_layer_ornamentations / Ancestral '+ warts <1 um' '+ warts <.5 um' '+ flattened warts' '+ large rounded war',
+		;
+
+MATRIX
+Gigaspora_rosea               ???
+Scutellospora_coralloidea     233
+Scutellospora_fulgida         000
+Scutellospora_gregaria        234
+Scutellospora_persica         122
+Scutellospora_verrucosa       111
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb5046;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Scutellospora_fulgida,
+            2    Scutellospora_verrucosa,
+            3    Scutellospora_persica,
+            4    Scutellospora_coralloidea,
+            5    Scutellospora_gregaria,
+            6    Gigaspora_rosea;
+      TREE Fig._24A = [&R] (6,(1,(2,(3,(4,5))))Scutellospora);
+      TREE Fig._24B = [&R] (6,(1,(3,(2,(4,5)))));
+
+
+
+END;

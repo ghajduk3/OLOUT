@@ -1,0 +1,79 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:29 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Bruyns P., & Linder H. 1991. A revision of Microloma R. Br. (Asclepiadaceae-Asclepiadeae).
+Botanische Jahrbücher für Systematik, Pflanzengeschichte und Pflanzengeographie,
+112: 453-527.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S147]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=11;
+        TAXLABELS
+            Astephanus
+            Microloma_armatum
+            Microloma_calycinum
+            Microloma_hereroense
+            Microloma_incanum
+            Microloma_longitubum
+            Microloma_namaquense
+            Microloma_penicillatum
+            Microloma_poicilanthum
+            Microloma_sagittatum
+            Microloma_tenuifolium
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M2688]
+
+	TITLE Table_1;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=23;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2" MISSING=? GAP= -;
+
+MATRIX
+[                                  10        20   ]
+[                                   .         .   ]
+Astephanus                 1001100101??20000011000
+Microloma_armatum          0010?01?11?11110001?010
+Microloma_calycinum        10011001100111111110211
+Microloma_hereroense       10011001100111111110111
+Microloma_incanum          00110101100111111112111
+Microloma_longitubum       0010?01111?111200011011
+Microloma_namaquense       11011000101000111101101
+Microloma_penicillatum     00100101100111111110111
+Microloma_poicilanthum     000?100101?120000010000
+Microloma_sagittatum       10011101101111111111111
+Microloma_tenuifolium      11011000101000011100101
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb4869;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Astephanus,
+            2    Microloma_poicilanthum,
+            3    Microloma_armatum,
+            4    Microloma_longitubum,
+            5    Microloma_hereroense,
+            6    Microloma_calycinum,
+            7    Microloma_sagittatum,
+            8    Microloma_incanum,
+            9    Microloma_penicillatum,
+            10   Microloma_namaquense,
+            11   Microloma_tenuifolium;
+      TREE Fig._21 = [&R] (1,2,((4,3),((9,8),((5,6),(7,(10,11))))))Microloma;
+
+
+
+END;

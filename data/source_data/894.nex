@@ -1,0 +1,138 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:40 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Ladiges P., Humphries C., & Brooker M. 1987. Cladistic and biogeographic analysis
+of western Australian species of Eucalyptus L'Herit., informal subgenus Monocalyptus
+Pryor & Johnson. Australian Journal of Botany, 35: 251-281.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S233]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=30;
+        TAXLABELS
+            Eucalyptus_acies
+            Eucalyptus_acmenoides
+            Eucalyptus_aff.diversifolia
+            Eucalyptus_aquilina
+            Eucalyptus_brevistylis
+            Eucalyptus_buprestium
+            Eucalyptus_calcicola
+            Eucalyptus_coronata
+            Eucalyptus_diversifolia
+            Eucalyptus_erectifolia
+            Eucalyptus_exilis
+            Eucalyptus_insularis
+            Eucalyptus_jacksonii
+            Eucalyptus_johnsoniana
+            Eucalyptus_lateritica
+            Eucalyptus_ligulata
+            Eucalyptus_marginata
+            Eucalyptus_megacarpa
+            Eucalyptus_pachyloma
+            Eucalyptus_patens
+            Eucalyptus_pendens
+            Eucalyptus_pilularis
+            Eucalyptus_planchoniana
+            Eucalyptus_preissiana
+            Eucalyptus_rubiginosa
+            Eucalyptus_sepulcralis
+            Eucalyptus_staeri
+            Eucalyptus_suberea
+            Eucalyptus_todtiana
+            Outgroup_to_Monocalyptus
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M630]
+
+	TITLE Appendix_I;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=51;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2" MISSING=? GAP= -;
+
+MATRIX
+[                                       10        20        30        40        50 ]
+[                                        .         .         .         .         . ]
+Eucalyptus_acies                101101010000000111102010100000110111120100001010100
+Eucalyptus_acmenoides           000001100001002101001000011000200010010001000000101
+Eucalyptus_aff.diversifolia     000001000000000101102000100000110011010110000000110
+Eucalyptus_aquilina             102201010000000011102010000000011111010100111011210
+Eucalyptus_brevistylis          000001000012221000001000011100200010000001000100101
+Eucalyptus_buprestium           112101000000000011102000000000200011010001000100211
+Eucalyptus_calcicola            101101110000000011102010000000110011010000002100101
+Eucalyptus_coronata             101201010000000011102010100000011011010100122011210
+Eucalyptus_diversifolia         000001000000000101102000000000200011010100000010101
+Eucalyptus_erectifolia          011101000000000011102000000000200011010100000100101
+Eucalyptus_exilis               101101000000010011102100000001200011010101000100101
+Eucalyptus_insularis            100001000000000011102000000000100011011001000100001
+Eucalyptus_jacksonii            000001000010001001001000011000100010000001000000101
+Eucalyptus_johnsoniana          011101001000000011101000000100100011010101000100101
+Eucalyptus_lateritica           011101000000000011101000000000200011010101000100101
+Eucalyptus_ligulata             101101010000000011102010000000210011010100001100101
+Eucalyptus_marginata            102211001000010011001001011000210010010001000100101
+Eucalyptus_megacarpa            101101010000000011002010000000010011010100011010110
+Eucalyptus_pachyloma            011101000000000101102000000000200011010110000010110
+Eucalyptus_patens               000001000000000101001000000000200011010001000000101
+Eucalyptus_pendens              101201000000010011112100000001200111010101000100101
+Eucalyptus_pilularis            000000000000002102001000011000200011010001000000101
+Eucalyptus_planchoniana         102200000000000011001010011000110111010101001100102
+Eucalyptus_preissiana           001101010100000111102010100010010111120101000011211
+Eucalyptus_rubiginosa           000000001001112002001000000000100000010000000000100
+Eucalyptus_sepulcralis          102201000000010011112100000001110111010101000100212
+Eucalyptus_staeri               102211001000010011001001011000210111010101000000101
+Eucalyptus_suberea              000001000000000011100000000000200011010001000100101
+Eucalyptus_todtiana             012101001000000011101000000000100011010101000100101
+Outgroup_to_Monocalyptus        000000000000000001000000000000100000010000000000100
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb4955;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Outgroup_to_Monocalyptus,
+            2    Eucalyptus_suberea,
+            3    Eucalyptus_patens,
+            4    Eucalyptus_brevistylis,
+            5    Eucalyptus_jacksonii,
+            6    Eucalyptus_rubiginosa,
+            7    Eucalyptus_acmenoides,
+            8    Eucalyptus_pilularis,
+            9    Eucalyptus_planchoniana,
+            10   Eucalyptus_preissiana,
+            11   Eucalyptus_insularis,
+            12   Eucalyptus_acies,
+            13   Eucalyptus_megacarpa,
+            14   Eucalyptus_aquilina,
+            15   Eucalyptus_coronata,
+            16   Eucalyptus_ligulata,
+            17   Eucalyptus_calcicola,
+            18   Eucalyptus_marginata,
+            19   Eucalyptus_staeri,
+            20   Eucalyptus_sepulcralis,
+            21   Eucalyptus_exilis,
+            22   Eucalyptus_pendens,
+            23   Eucalyptus_johnsoniana,
+            24   Eucalyptus_buprestium,
+            25   Eucalyptus_todtiana,
+            26   Eucalyptus_pachyloma,
+            27   Eucalyptus_lateritica,
+            28   Eucalyptus_erectifolia,
+            29   Eucalyptus_diversifolia,
+            30   Eucalyptus_aff.diversifolia;
+      TREE 'Fig. 1 (i)' = [&R] (6,(((5,4),(7,8)),(3,(29,(30,26)),(2,(11,(24,(28,(27,(25,23))),(21,(22,20)),(16,(17,((13,(14,15)),(12,10)))),((18,19),9)))))));
+      TREE 'Fig. 1 (ii)' = [&R] (6,(((5,4),(7,8)),(3,(29,(30,26)),(2,(11,(24,(28,(27,(25,23))),21,22,20,(16,(17,((13,(14,15)),(12,10)))),((18,19),9)))))));
+      TREE Fig._3 = [&R] (6,(((5,4),(7,8)),((3,(29,(30,26))),(2,(11,((24,(28,(27,(25,23)))),((21,(22,20)),((16,(17,((13,(14,15)),(12,10)))),((18,19),9)))))))));
+
+
+
+END;

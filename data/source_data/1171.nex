@@ -1,0 +1,290 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:46 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Hickey L., & Taylor D. 1991. The leaf architecture of Ticodendron and the application
+of foliar characters in discerning its relationships. Annals of the Missouri
+Botanical Garden, 78: 105-130.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S159]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=19;
+        TAXLABELS
+            Acsmithia
+            'Alnus {1}'
+            'Alnus {2}'
+            Brunellia
+            Canacomyrica
+            Castanea
+            Castanopsis
+            Ceratopetalum
+            Cunonia
+            Davidsonia
+            Fagopsis
+            Myrica
+            'Nothofagus {1}'
+            'Nothofagus {2}'
+            Outgroup_to_Amentiferae
+            Platycarya
+            Pterocarya
+            Rhoiptelea
+            Ticodendron
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M2304]
+
+	TITLE Table_3;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=70;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2 3 4 5 6 7 8" MISSING=? GAP= -;
+	CHARSTATELABELS
+		1  Leaf_organization / pinnate_compound simple.,
+		2  Leaf_arrangement / opposite alternate.,
+		3  Margin / toothed_in_one_order toothed_in_more_than_one_order.,
+		4  'Tooth shape (apical and basal m' / concave_convex convex_convex concave_concave concave_acuminate acuminate_acuminate concave_straight.,
+		5  Sinus_shape / angular smooth.,
+		6  Position_of_principal_vein_of_t / lateral_toward_apical_sinus medial Ticodendron_NA Betulaceae_NA Fagopsis_NA Fagaceae_NA.,
+		7  Course_of_principal_vein_of_too / epically_deflected nothofagoid_principal_displaced Ticodendron_NA Betulaceae_NA Fagopsis_NA Fagaceae_NA.,
+		8  The_presence_of_veins_associate / both_admedial_and_accessory only_admedial only_accessory Ticodendron_NA Betulaceae_NA Fagopsis_NA Fagaceae_NA.,
+		9  Strength_of_admedial_vein_of_to / same_vein_order lower_vein_order Betulaceae_NA Ticodendron_NA Fagopsis_NA Cunoniaceae_NA Fagaceae_NA.,
+		10  Course_of_conjunctal_veins_clos / none single in_alternate_pairs Ticodendron_NA Betulaceae_NA Fagopsis_NA Fagaceae_NA.,
+		11  'Major vein(s) closest to sinus' / admedial accessory_or_branch principal admedial_and_accessory Ticodendron_NA Betulaceae_NA 'nothofagoid: branch from princi' Fagopsis_NA Fagaceae_NA.,
+		12  Position_of_principal_vein_of_t / Cunoniaceae_NA Nothofagus_NA Brunelliaceae_NA medial.,
+		13  Course_of_principal_vein_of_too / Cunoniaceae_NA Brumelliaceae_NA Nothofagus_NA straight epically_deflected basally_deflected.,
+		14  Presence_of_veins_associated_wi / Cunoniaceae_NA Brumelliaceae_NA Nothofagus_NA both_admedial_and_accessory only_accessory.,
+		15  Strength_of_ademedial_vein_of_t / Cumoniaceae_NA Nothofagus_NA Brunelliaceae_NA Betulaceae_NA Fagopsis_NA lower_vein_order same_vein_order.,
+		16  Course_of_conjumctal_veins_of_t / Cunoniaceae_NA Brumelliaceae_NA Nothofagus_NA m_opposite_pairs in_alternate_pairs none.,
+		17  Fusion_of_principal_and_conjumc / Cunoniaceae_NA Nothofagus_NA Fagopsis_NA Brumelliaceae_NA Fagaceae_NA separate fused.,
+		18  Termmation_of_medial_vein_at_ap / splayed attenuate tapered truncated bulbous.,
+		19  Smus_bracing_of_teeth / not_braced braced_by_convergent_thickened,
+		20  'Major vein(s) closest to sinus' / Cunoniaceae_NA Brunelliaceae_NA Nothofagus__NA acmedial accessory_or_branch conjunctal_or_branch admedial_and_accessory.,
+		21  Glandularity_of_tooth_apex / glandular_dark glandular_translucent nonglandular.,
+		22  Apical_morphology_of_teeth_m_cl / setaceous simple type.,
+		23  Characteristics_of_the_leaf_bas / doesnt_encircle_axis_stipules_d encircles_the_axis_and_forms_sh,
+		24  Presence_of_wmgs_on_the_petiole / has_stipules has_both_wmgs_and_stipules no_wmgs_or_stipules.,
+		25  Stipules_deciduous_below_the_se / yes_always_deciduous no_not_usually_deciduous Juglandaceae_NA Myricaceae_NA.,
+		26  Petiob_attachment / envhrged_base_without_stipules enlarged_base_with_portion_of_s without_enhrged_base.,
+		27  Petiole_scar / '3(4) trace-3 lacunar' arc_of_more_than_4_traces no_scars_visible.,
+		28  Stipule_base / not_wider_than_attachment wider_than_attachment luglandaceae_NA Myricaceae_NA.,
+		29  Principal_venation / pinnate_semicraspedodromous craspedodromous.,
+		30  Angle_of_origin_of_lower_basal / with_two_pairs_at_a_lower_angle with_basal_no_different_in_angl with_basal_pair_at_a_lower_angl basal_vein_at_highest_angle_wit actinodromous.,
+		31  Areoles / incomplete imperfect well_developed.,
+		32  Margmal_venaion / incomplete_spiked mcompletely_looped looped.,
+		33  Number_of_deuterals / greater_than_18 1ess_than_or_equal_to_18.,
+		34  'Number of deuterals + opadials' / '19-28' 1ess_than_or_equal_to_18 greater_than_28.,
+		35  'Number of deuterals + opadials' / greater_than_60 '41-60' less_than_or_equal_to_40.,
+		36  Trichome_type / simple 'glanduhr-peltate and simple' 'glandular-peltate' 'T-shaped' Cumoniaceae_NA.,
+		37  Stomate_type / paracytic anomocyic variable.,
+		38  Dehision_of_tooth_tip_in_young / nondeciduous deciduous none.,
+		39  Shape_of_tooth_tip_m_young_expa / short_stout elongate_capitate short_capitate elongate_simple Rhoiptelea_NA Myrica_NA.,
+		40  Direction_of_apex_of_tooth_tip / pointing_abaxially pointing_adaxially in__plane_of_lamina.,
+		41  Branching_of_twigs / straight 'slightly zig-zag' 'zig-zag.',
+		42  Axillary_buds / 'in plane of leaf base(s)' 'out of phne of leaf base(s).',
+		43  Uniformity_of_course_of_basal_s / no nearly_so yes.,
+		44  Existence_of_comb_vein / present absent.,
+		45  The_existence_of_mtersecondarie / 'common (greater than 40%)' 'few (3 to 5)' 'rare (1 or 2)' 'none (never any).',
+		46  Branching_of_secondaries / 'rare (1 or 2)' 'few (3 to 5)' 'common (greater than 40%)' 'none (never any).',
+		47  Base_of_a_number_of_leaves_asym / none common.,
+		48  In_type_1_teeth / principal_vein_originates_from Ticodendron_NA Fagaceae_NA Betulaceae_NA Fagopsis_NA.,
+		49  Pollen_shape / prolate_spherical suboblate_spherical oblate.,
+		50  Pollen_aperture / corporate porate colpate.,
+		51  Pollen_sculpturing_and_density / reticulate spinulose_moderate spinulose_few striate spinulose_many verrucate 'psilate-perforate.',
+		52  'Exine type tectate/perforate' / columellate 'columellate-granular.',
+		53  Exme_proportions / sexme_greater_than_or_equal_to sexine_greater_than_nexme sexine_much_greater_than_nexine,
+		54  Vessels / scalariform_with_many_bars scahriform_with_few_bars simple_and_scalariform_with_mod simple_and_scahriform_with_few simple,
+		55  Imperforate_type / 'tracheids and-or fiber-tracheid' tracheids_and_fibers_with_borde fibers_with_bordered_pits fibers_without_bordered_pits.,
+		56  Axile_parenchyma / diffuse banded both other.,
+		57  Rays / 'heterogeneous 1-3+ seriate' 'heterogeneous 1-2 seriate' 'homogeneous 1-2 seriate.',
+		58  Ray_crystals / no yes.,
+		59  'Bract-bracteole complex off mai' / yes only_bract no.,
+		60  'Bract-bracteole complex fused' / no yes Brunelliaceae__NA.,
+		61  Main_inflorescence_axis / 'branched (panicle cymose)' 'simple unbranched (unbranched c',
+		62  Structure_m_exile_of_bracteoles / 'inflorescence axis (complex cym' flower licodendron_variable_dependent nothing Davidsonia_NA.,
+		63  Gynoecium / 'apocarpous lateral-admedial' two_syncarpous_and_ascidate_car two_syncarpous_and_ascidate_car three_syncarpous_ascidate_attac two_syncarpous_a_coplicate_late two_syncarpous,
+		64  Ovule_integuments / apobitegmic apounitegmic hemiunitegmic hemibitegmic.,
+		65  Ovule_morphology / bitegmic_hemianatropous bitegmic_anatropous unitegmic_orthotropous unitegmic_hemianatropous unitegmic_anatropous.,
+		66  Stamen_attachment_and_tip / basal_with_apical_extension basal_without_apical_extension dorsiventrally_fixed_without_ap dorsiventrally_fixed_with_apica,
+		67  Flowers / bisexual_or_reduced_bisexual unisexual.,
+		68  'Perianth other than bract-bract' / yes_two_whorls no yes_one_whorl.,
+		69  Endosperm / yes no_or_scanty.,
+		70  Ovary / superior 'inferior or semi-inferior.',
+		;
+
+MATRIX
+[                                   10        20        30        40        50        60        70]
+[                                    .         .         .         .         .         .         .]
+Acsmithia                   10021100101000000000210000000010020?0000000000100060000000000000100200
+'Alnus {1}'                 111100001003335550131210010102211001102221000010214110102?011112401211
+'Alnus {2}'                 111103342453343350141210010111211111102221213313??????????????????????
+Brunellia                   01020000000343635216211001??00220000110010103321000002330?000003130200
+Canacomyrica                111100000103336350161102302302110001125100101100??????????????????????
+Castanea                    110505566683336342060210100013220001101221003312003013101?000033020211
+Castanopsis                 110015566683336352062200100011220001101221202312??????????????????????
+Ceratopetalum               0000000250200000030000000000021011241001000033000200020201000010030200
+Cunonia                     000000025020000002100010010002020004?130000000002040000000001140020000
+Davidsonia                  011301011003335351162100120113200200011000002200100?222000120413120210
+Fagopsis                   11010445457354452214211001?1112?111?????2121330400500?????0111???011??
+Myrica                      1104000010034364601621023003012210011252202011001141202001001151211211
+'Nothofagus {1}'            110100100061221213022101001100221002111021010300211103301?0111?2401211
+'Nothofagus {2}'            111010001023436350152201001112221112101021213000??????????????????????
+Outgroup_to_Amentiferae     0000000000000000000000000000000000000000000000000000000000000000000000
+Platycarya                  0112000000033363611621022202102202011121100002101141242101001351201211
+Pterocarya                  0110000100033363541611022202001210011121100122101141242101001351200211
+Rhoiptelea                  0112000001034363521621001101001102011040100001102141200000000113000210
+Ticodendron                 1102122333435363520521100101111211031130212033112141200001011212301111
+;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M2293]
+
+	TITLE Table_2;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=48;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2 3 4 5 6 7 8" MISSING=? GAP= -;
+	CHARSTATELABELS
+		1  Leaf_organization / pinnate_compound simple.,
+		2  Leaf_arrangement / opposite alternate.,
+		3  Margin / toothed_in_one_order toothed_in_more_than_one_order.,
+		4  'Tooth shape (apical and basal m' / concave_convex convex_convex concave_concave concave_acuminate acuminate_acuminate concave_straight.,
+		5  Sinus_shape / angular smooth.,
+		6  Position_of_principal_vein_of_t / lateral_toward_apical_sinus medial Ticodendron_NA Betulaceae_NA Fagopsis_NA Fagaceae_NA.,
+		7  Course_of_principal_vein_of_too / epically_deflected nothofagoid_principal_displaced Ticodendron_NA Betulaceae_NA Fagopsis_NA Fagaceae_NA.,
+		8  The_presence_of_veins_associate / both_admedial_and_accessory only_admedial only_accessory Ticodendron_NA Betulaceae_NA Fagopsis_NA Fagaceae_NA.,
+		9  Strength_of_admedial_vein_of_to / same_vein_order lower_vein_order Betulaceae_NA Ticodendron_NA Fagopsis_NA Cunoniaceae_NA Fagaceae_NA.,
+		10  Course_of_conjunctal_veins_clos / none single in_alternate_pairs Ticodendron_NA Betulaceae_NA Fagopsis_NA Fagaceae_NA.,
+		11  'Major vein(s) closest to sinus' / admedial accessory_or_branch principal admedial_and_accessory Ticodendron_NA Betulaceae_NA 'nothofagoid: branch from princi' Fagopsis_NA Fagaceae_NA.,
+		12  Position_of_principal_vein_of_t / Cunoniaceae_NA Nothofagus_NA Brunelliaceae_NA medial,
+		13  Course_of_principal_vein_of_too / Cunoniaceae_NA Brumelliaceae_NA Nothofagus_NA straight epically_deflected basally_deflected.,
+		14  Presence_of_veins_associated_wi / Cunoniaceae_NA Brumelliaceae_NA Nothofagus_NA both_admedial_and_accessory only_accessory.,
+		15  Strength_of_ademedial_vein_of_t / Cumoniaceae_NA Nothofagus_NA Brunelliaceae_NA Betulaceae_NA Fagopsis_NA lower_vein_order same_vein_order.,
+		16  Course_of_conjumctal_veins_of_t / Cunoniaceae_NA Brumelliaceae_NA Nothofagus_NA m_opposite_pairs in_alternate_pairs none.,
+		17  Fusion_of_principal_and_conjumc / Cunoniaceae_NA Nothofagus_NA Fagopsis_NA Brumelliaceae_NA Fagaceae_NA separate fused.,
+		18  Termmation_of_medial_vein_at_ap / splayed attenuate tapered truncated bulbous.,
+		19  Smus_bracing_of_teeth / not_braced braced_by_convergent_thickened,
+		20  'Major vein(s) closest to sinus' / Cunoniaceae_NA Brunelliaceae_NA Nothofagus__NA acmedial accessory_or_branch conjunctal_or_branch admedial_and_accessory.,
+		21  Glandularity_of_tooth_apex / glandular_dark glandular_translucent nonglandular.,
+		22  Apical_morphology_of_teeth_m_cl / setaceous simple type.,
+		23  Characteristics_of_the_leaf_bas / doesnt_encircle_axis_stipules_d encircles_the_axis_and_forms_sh,
+		24  Presence_of_wmgs_on_the_petiole / has_stipules has_both_wmgs_and_stipules no_wmgs_or_stipules.,
+		25  Stipules_deciduous_below_the_se / yes_always_deciduous no_not_usually_deciduous Juglandaceae_NA Myricaceae_NA.,
+		26  Petiob_attachment / envhrged_base_without_stipules enlarged_base_with_portion_of_s without_enhrged_base.,
+		27  Petiole_scar / '3(4) trace-3 lacunar' arc_of_more_than_4_traces no_scars_visible.,
+		28  Stipule_base / not_wider_than_attachment wider_than_attachment luglandaceae_NA Myricaceae_NA.,
+		29  Principal_venation / pinnate_semicraspedodromous craspedodromous.,
+		30  Angle_of_origin_of_lower_basal / with_two_pairs_at_a_lower_angle with_basal_no_different_in_angl with_basal_pair_at_a_lower_angl basal_vein_at_highest_angle_wit actinodromous.,
+		31  Areoles / incomplete imperfect well_developed.,
+		32  Margmal_venaion / incomplete_spiked mcompletely_looped looped.,
+		33  Number_of_deuterals / greater_than_18 1ess_than_or_equal_to_18.,
+		34  'Number of deuterals + opadials' / '19-28' 1ess_than_or_equal_to_18 greater_than_28.,
+		35  'Number of deuterals + opadials' / greater_than_60 '41-60' less_than_or_equal_to_40.,
+		36  Trichome_type / simple 'glanduhr-peltate and simple' 'glandular-peltate' 'T-shaped' Cumoniaceae_NA.,
+		37  Stomate_type / paracytic anomocyic variable.,
+		38  Dehision_of_tooth_tip_in_young / nondeciduous deciduous none.,
+		39  Shape_of_tooth_tip_m_young_expa / short_stout elongate_capitate short_capitate elongate_simple Rhoiptelea_NA Myrica_NA.,
+		40  Direction_of_apex_of_tooth_tip / pointing_abaxially pointing_adaxially in__plane_of_lamina.,
+		41  Branching_of_twigs / straight 'slightly zig-zag' 'zig-zag.',
+		42  Axillary_buds / 'in plane of leaf base(s)' 'out of phne of leaf base(s).',
+		43  Uniformity_of_course_of_basal_s / no nearly_so yes.,
+		44  Existence_of_comb_vein / present absent.,
+		45  The_existence_of_mtersecondarie / 'common (greater than 40%)' 'few (3 to 5)' 'rare (1 or 2)' 'none (never any).',
+		46  Branching_of_secondaries / 'rare (1 or 2)' 'few (3 to 5)' 'common (greater than 40%)' 'none (never any).',
+		47  Base_of_a_number_of_leaves_asym / none common.,
+		48  In_type_1_teeth / principal_vein_originates_from Ticodendron_NA Fagaceae_NA Betulaceae_NA Fagopsis_NA.,
+		;
+
+MATRIX
+[                                   10        20        30        40        ]
+[                                    .         .         .         .        ]
+Acsmithia                   10021100101000000000210000000010020?000000000010
+'Alnus {1}'                 111100001003335550131210010102211001102221000010
+'Alnus {2}'                 111103342453343350141210010111211111102221213313
+Brunellia                   01020000000343635216211001??00220000110010103321
+Canacomyrica                111100000103336350161102302302110001125100101100
+Castanea                    110505566683336342060210100013220001101221003312
+Castanopsis                 110015566683336352062200100011220001101221202312
+Ceratopetalum               000000025020000003000000000002101124100100003300
+Cunonia                     000000025020000002100010010002020004?13000000000
+Davidsonia                  011301011003335351162100120113200200011000002200
+Fagopsis                   11010445457354452214211001?1112?111?????21213304
+Myrica                      110400001003436460162102300301221001125220201100
+'Nothofagus {1}'            110100100061221213022101001100221002111021010300
+'Nothofagus {2}'            111010001023436350152201001112221112101021213000
+Outgroup_to_Amentiferae     000000000000000000000000000000000000000000000000
+Platycarya                  011200000003336361162102220210220201112110000210
+Pterocarya                  011000010003336354161102220200121001112110012210
+Rhoiptelea                  011200000103436352162100110100110201104010000110
+Ticodendron                 110212233343536352052110010111121103113021203311
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb4882;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    'Alnus {2}',
+            2    'Alnus {1}',
+            3    'Nothofagus {2}',
+            4    'Nothofagus {1}',
+            5    Castanea,
+            6    Castanopsis,
+            7    Myrica,
+            8    Canacomyrica,
+            9    Rhoiptelea,
+            10   Platycarya,
+            11   Pterocarya,
+            12   Davidsonia,
+            13   Cunonia,
+            14   Ceratopetalum,
+            15   Acsmithia,
+            16   Brunellia,
+            17   Fagopsis,
+            18   Ticodendron,
+            19   Outgroup_to_Amentiferae;
+      TREE Fig._24 = [&R] (19,(15,((14,(16,(5,12))),(17,(13,(9,((7,(10,11)),(4,2,18))))))));
+      TREE Fig._23 = [&R] (19,(15,((14,(16,(5,12))),(17,(13,(9,(((10,11),7),((4,2),18))))))));
+      TREE Fig._20 = [&R] (19,((13,14),(15,(16,((5,12),(9,((7,(11,10)),(4,(2,(17,18))))))))));
+      TREE Fig._22 = [&R] (19,((13,14),(15,(16,(9,(12,(11,10))),(4,2,5,7,17,18)))));
+      TREE Fig._21 = [&R] (19,((13,14),(15,(16,((9,(12,(11,10))),(4,((2,5),(7,(17,18)))))))));
+
+
+
+END;
+BEGIN TREES;
+      TITLE Tb4883;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    'Alnus {2}',
+            2    'Alnus {1}',
+            3    'Nothofagus {2}',
+            4    'Nothofagus {1}',
+            5    Castanea,
+            6    Castanopsis,
+            7    Myrica,
+            8    Canacomyrica,
+            9    Rhoiptelea,
+            10   Platycarya,
+            11   Pterocarya,
+            12   Davidsonia,
+            13   Cunonia,
+            14   Ceratopetalum,
+            15   Acsmithia,
+            16   Brunellia,
+            17   Fagopsis,
+            18   Ticodendron,
+            19   Outgroup_to_Amentiferae;
+      TREE Fig._19 = [&R] (19,((13,14),(15,(((((11,10),12),9),16),('Nothofagus_{1}',(((('Alnus_{2}','Alnus_{1}'),(5,6)),(8,7)),('Nothofagus_{2}',(Fagopsis,18))))))));
+
+
+
+END;

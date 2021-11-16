@@ -1,0 +1,174 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:51 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Hormiga G., Eberhard W., & Coddington J. 1995. Web-construction behaviour in Australian
+Phonognatha and the phylogeny of nephiline and tetragnathid spiders (Araneae:
+Tetragnathidae). Australian Journal of Zoology, 43: 313-364.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S257]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=22;
+        TAXLABELS
+            Araneus
+            Argiope
+            Azilia
+            Chrysometa
+            Clitaetra
+            Dolichognatha
+            Epeirotypus
+            Glenognatha
+            Herennia
+            Leucauge
+            Linyphia
+            Meta
+            Metellina
+            Nephila
+            Nephilengys
+            Nesticus
+            Pachygnatha
+            Phonognatha
+            Pimoa
+            Steatoda
+            Tetragnatha
+            Uloborus
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M691]
+
+	TITLE Table_1;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=60;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2 3 4 5 6" MISSING=? GAP= -;
+	CHARSTATELABELS
+		1  Dorsal_abdominal_scutum_of_male / absent present,
+		2  Cheliceral_stridulatory_striae / absent present,
+		3  Lateral_eyes_of_male / separate touchin,
+		4  PME_tapeta / absent present,
+		5  PLE_tapeta / absent present,
+		6  Clypeus / '< AME diameter' 2_AME_diameter,
+		7  Dorsal_femoral_trichobothria / present absent,
+		8  Patella_tibia_autospasy / absent present,
+		9  Sustentaculum / absent present,
+		10  Theridiid_tarsal_comb / absent present,
+		11  Caudal_gut_caeca / absent present,
+		12  Booklung_cover / smooth grooved,
+		13  Spiracle / post advanced,
+		14  Size_of_male / '> 0-5 female' '< 0 4 female',
+		15  male_v._female_cheliceral_size / same larger smaller,
+		16  Cheliceral_boss / smooth striae,
+		17  Cheliceral_boss_striae / '< 20' '> 25',
+		18  Cheliceral_denticles / absent present,
+		19  Palpal_patella_macrosetae / 1 0 2,
+		20  Cymbium / entire constricted,
+		21  Cymbium / dorsal mesal,
+		22  Paracymbium / absent integral intersegmental articulated,
+		23  Paracymbium_base / sclerotised_like_cymbium less_so,
+		24  Paracymbium_morphology / 'short basal structure, hook sha' 'longer than wide and finger-lik' flat_and_r,
+		25  Paracymbium_secondary_process / absent procurved complex,
+		26  Paracymbium_apophysis / absent anterior folding basal several,
+		27  Tegular_sclerites / subterminal apical,
+		28  Reservoir / normal enlarged,
+		29  Reservoir / spiraled switchback,
+		30  Median_apophysis / present absent,
+		31  'Conductor + embolus' / separate conductor_wraps_embolus,
+		32  Conductor_with_sigmoid_distal_e / absent present,
+		33  'Embolus-tegulum orientation' / parallel 90¡,
+		34  Araneid_radix / absent present,
+		35  Stipes / absent present,
+		36  Distal_hematodocha / absent present,
+		37  Metine_embolic_apophysis / absent present,
+		38  'Embolus-tegulum membrane' / absent present,
+		39  Theridiid_tegular_apophysis / absent present,
+		40  Epigynum / present lost,
+		41  Fertilization_ducts / present absent,
+		42  Web_posture / extended L12s_flexed,
+		43  Web_architecture / orb sheet gum_foot,
+		44  Hub_against_substrate / absent present,
+		45  'Hub bite-out' / absent present,
+		46  Hub / closed open,
+		47  'Hub loop-no sticky spiral shift' / gradual abrupt,
+		48  Radii_construction / singly_attached twice,
+		49  Radii_construction / not_cut_and_reeled cut_and_reeled,
+		50  'Non-sticky spiral' / removed remains,
+		51  'Non-sticky contact in 1 st stic' / present absent,
+		52  Sticky_spiral_location / oLl iLl oL4,
+		53  'Wrap-bite attack' / present absent,
+		54  ALS_piriform_gland_spigot_bases / normal reduced,
+		55  PMS_nubbin / present absent,
+		56  PMS_aciniforms / extensive reduced,
+		57  PLS_CY_size / same enlarged,
+		58  PLS_base_CY_position / central peripheral,
+		59  PLS_triad / separate embrace_flagel,
+		60  PLS_aggregate_spigot / normal widened,
+		;
+
+MATRIX
+[                         10        20        30        40        50        60]
+[                          .         .         .         .         .         .]
+Araneus           0011101010010020-1201100000000000111010001001000100000000010
+Argiope           0011111010010100-1001100000000000110010001001000100000000010
+Azilia            0000001000?00000-0000100001011?0000001000000101010?1?0000100
+Chrysometa        0011111000?00010-00001102410011000001100010011101011?0010100
+Clitaetra         000??01000?000010100011202101110100001000??1?????????0010110
+Dolichognatha     0000001000?00010-01001001010111000001100010010101011?0010100
+Epeirotypus       0011111000?0000--1100100000010000000000001001010101111010100
+Glenognatha       0010110000?01010-01103-1011101100000010110000--010-1?0011100
+Herennia          1011?11000?1010111000112021011111000010001010-0101?2?0010110
+Leucauge          0011110000100000-000010000101110000001000?001110101100010100
+Linyphia          0111111100000010-00002-3001001--00000100011---------11111100
+Meta              0011111000010000-0000100201011100000110000001110101100010100
+Metellina         0011111000?00010-000010010100110000011000000111??????0010100
+Nephila           1011111000?1010111000112021011101000010001000-0101?210010110
+Nephilengys       1011?11000?1010111000112021011111000010001010-01011210010110
+Nesticus          0011111001?10000-10001060400100000000010012---------?1010101
+Pachygnatha       0010110000101010-01103-101110110000001011?0011???????0111100
+Phonognatha       0011101000?10010-1000104020001100000010001010-00?102?0010100
+Pimoa             0111111100?0000--00001050000100000000000011---------11111100
+Steatoda          0011111001?00000-00000----00000000000010012---------11110101
+Tetragnatha       0000010000100010-00103-1011101100000010110001110101110010100
+Uloborus          0000000000?0000--10000--0-0000000000000000000-000000001000-0
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb4981;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Uloborus,
+            2    Araneus,
+            3    Argiope,
+            4    Linyphia,
+            5    Pimoa,
+            6    Steatoda,
+            7    Nesticus,
+            8    Epeirotypus,
+            9    Phonognatha,
+            10   Clitaetra,
+            11   Nephila,
+            12   Herennia,
+            13   Nephilengys,
+            14   Azilia,
+            15   Dolichognatha,
+            16   Meta,
+            17   Chrysometa,
+            18   Metellina,
+            19   Leucauge,
+            20   Tetragnatha,
+            21   Glenognatha,
+            22   Pachygnatha;
+      TREE Fig._30 = [&R] (1,((2,3)Araneidae,((((4,5),(6,7)),8),((9,(10,(11,(12,13))))Nephilinae,((14,15),((16,(17,18)),(19,(20,(21,22))Tetragnathinae))))Tetragnathidae))Araneoidea)Orbiculariae;
+
+
+
+END;

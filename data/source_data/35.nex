@@ -1,0 +1,133 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:27 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Hugot J. 2002. "New evidence of Hystricognath Rodents monophyly from the phylogeny
+of their pinworms,." In: Page R., eds. Tangled trees: Phylogeny, cospeciation,
+and coevolution. pp. 144-173. Chicago, Chicago University Press.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S700]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=21;
+        TAXLABELS
+            Acanthoxyurus_beecrofti
+            Helminthoxys_abrocomae
+            Helminthoxys_caudatus
+            Helminthoxys_effilatus
+            Helminthoxys_freitasi
+            Helminthoxys_gigantea
+            Helminthoxys_pujoli
+            Helminthoxys_quentini
+            Helminthoxys_tiflophila
+            Helminthoxys_urichi
+            Helminthoxys_velizy
+            Hilgertia_hilgerti
+            Petronema_shortridgei
+            Protozoophaga_obesa
+            Wellcomia_branickii
+            Wellcomia_carolodominici
+            Wellcomia_compar
+            Wellcomia_decorata
+            Wellcomia_dolichotis
+            Wellcomia_roussillhoni
+            Wellcomia_sauvisy
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M3676]
+
+	TITLE ;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=22;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2 3 4 5" MISSING=? GAP= -;
+	CHARSTATELABELS
+		1  oviduct / generalized_type 'tooth-brush epithelium',
+		2  spermatheca / dilatation_of_oviduct 'S-shaped' Wellcomia_type,
+		3  vagina / non_evaginated evaginated_type_1 evaginated_type_2,
+		4  impaired_uterus / strong_muscular muscles_atrophied secretory petronema_type,
+		5  eggs / round_sharp spherical oval bean_shaped lemon_shaped globular_operculated,
+		6  cephalic_papillae / square rectangular trapezoidal grouped_laterally grouped_backward,
+		7  lips / developed reduced absent,
+		8  pseudolips / absent present_uncovering_teeth present_covering_teeth 'tongue-like extensions' Protozoophaga_type,
+		9  interlabia / absent triangular_blade,
+		10  oesophageal_bulb / spherical elongated 'pear-shaped',
+		11  area_rugosa_1 / slots small_crests medium_crests large_crests,
+		12  area_rugosa_2 / 'pseudo-mamelons type 3' 'pseudo-mamelons type 6',
+		13  area_rugosa_3 / 'soft-mamelon absent' 'soft-mamelon present',
+		14  area_rugosa_4 / secretory_slots_absent secretory_slots_present,
+		15  body_striation / weak large,
+		16  tail_tip / long_and_sharp short_and_conical,
+		17  female_tail / ornamentation_absent ornamentation_present,
+		18  genital_papillae / square_pedunculated 'square non-pedunculated' lined_pedunculated 'lined non-pedunculated',
+		19  gubernaculum_corpus / Syphacia_type globulus lengthened_narrow lengthened_narrow_short atrophied,
+		20  acc.hook / Syphacia_type 'rough-surfaced' 'v- shaped symetric' 'v- shaped asymmetric' trifurcated atrophied,
+		21  lateral_wings / rounded triangular triangular_reduced atrophied double_crested,
+		22  cervical_wings / absent Petronema_type Acanthoxyurus_type Helminthoxys_type Wellcomia_type,
+		;
+
+MATRIX
+[                                    10        20     ]
+[                                     .         .     ]
+Acanthoxyurus_beecrofti      1100311000{01}-0000000042
+Helminthoxys_abrocomae       12004322012-0100012223
+Helminthoxys_caudatus        12005322012-0100032403
+Helminthoxys_effilatus       12005322012-0110032423
+Helminthoxys_freitasi        1200?322022-0100012313
+Helminthoxys_gigantea        12004322022-0100012313
+Helminthoxys_pujoli          12005322012-0100032403
+Helminthoxys_quentini        12002322012-0100013230
+Helminthoxys_tiflophila      12002322012-0100013230
+Helminthoxys_urichi          1201?123002-0100012210
+Helminthoxys_velizy          12005322012-0110032423
+Hilgertia_hilgerti           00100000000-0000000000
+Petronema_shortridgei        12034411001-0100012011
+Protozoophaga_obesa          12021024003-00010045?0
+Wellcomia_branickii          1222322110301001121100
+Wellcomia_carolodominici     1222322110301000121100
+Wellcomia_compar             1222322110300000121110
+Wellcomia_decorata           1222322110301000121100
+Wellcomia_dolichotis         12222121003-0000021114
+Wellcomia_roussillhoni       1202222110310001021100
+Wellcomia_sauvisy            1202222110310001021100
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb5838;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Helminthoxys_urichi,
+            2    Helminthoxys_tiflophila,
+            3    Helminthoxys_quentini,
+            4    Helminthoxys_velizy,
+            5    Helminthoxys_effilatus,
+            6    Helminthoxys_pujoli,
+            7    Helminthoxys_caudatus,
+            8    Helminthoxys_freitasi,
+            9    Helminthoxys_gigantea,
+            10   Helminthoxys_abrocomae,
+            11   Protozoophaga_obesa,
+            12   Wellcomia_sauvisy,
+            13   Wellcomia_roussillhoni,
+            14   Wellcomia_dolichotis,
+            15   Wellcomia_decorata,
+            16   Wellcomia_compar,
+            17   Wellcomia_carolodominici,
+            18   Wellcomia_branickii,
+            19   Petronema_shortridgei,
+            20   Acanthoxyurus_beecrofti,
+            21   Hilgertia_hilgerti;
+      TREE Fig._1 = [&R] (21,(20,((11,(14,((13,12),(16,(18,17,15))))Wellcomia),(19,(1,((3,2),((9,8),(10,((7,6),(5,4))))))Helminthoxys))));
+
+
+
+END;

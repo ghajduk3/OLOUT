@@ -1,0 +1,121 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:45 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Molina A., Acedo C., & Llamas F. 2008. Taxonomy and new taxa in Eurasian Carex (Section
+Phaestoglochin, Cyperaceae). Systematic Botany, 33(2): 237-250.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S2032]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=10;
+        TAXLABELS
+            Carex_foliosa
+            Carex_muricata_ashokae
+            Carex_muricata_cesanensis
+            Carex_muricata_muricata
+            Carex_omeyica
+            Carex_otrubae
+            Carex_pairae
+            Carex_polyphylla
+            Carex_spicata_andresii
+            Carex_spicata_spicata
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M3137]
+
+	TITLE Carex_divulsa_aggragate;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=44;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2 3 4 5" MISSING=? GAP= -;
+	CHARSTATELABELS
+		1  Awn_glume / '-' '+',
+		2  Auricle_leaf_blade / '-' '+',
+		3  Lower_spikes_branched / '-' '+',
+		4  Spikes_contiguous / '+' '-',
+		5  Basal_sheaths_purplish_tinged / '-' '+',
+		6  Perigynium_beak_color / green brown,
+		7  Lowest_spike_branched / '-' '+',
+		8  Margins_of_perigynium_beak / smooth scabrid,
+		9  Ripe_achene_brown / '-' '+',
+		10  Scarious_margin_of_female_glume / '-' laterally complete,
+		11  Shape_spike / globular 'globular-elliptic' elliptic oblong,
+		12  Apex_of_female_glume / 'rounded-obtuse' acute apiculate acuminate,
+		13  Color_glume / hyaline 'gold-beige' light_brown dark_brown purplish_brown,
+		14  Shape_perigynium / rounded oval ovate trullate oblong obovate,
+		15  Apex_of_beak / bidentate bifid variable,
+		16  Shape_achene / rounded oval ovate pentagonal obovate,
+		17  Culm_outline / rounded obtusely_trigonous sharply_trigonous winged,
+		18  Shape_inflorescence / lobulate oblong elliptic,
+		19  Shape_female_glume / oval ovate obovate,
+		20  Perigynium_base_corky / '-' little '+',
+		21  Apex_ligule / rounded subacute acute,
+		22  'Veins perigynium body (abaxial)' / '-' up_to_middle all_body,
+		23  'Veins perigynium body (adaxial)' / '-' up_to_middle all_body,
+		24  Distribution_denticles_beak / '-' only_beak up_to_summit over_one_third_body only_summit,
+		25  Position_of_perigynium / erect 'erect-patent' patent very_patent,
+		26  Winged_margin_of_perigynium_body / '-' from_summit_to_body all_over_body wing_variable,
+		27  Orientation_of_spike / lesser_40_deg '40-50 deg' more_than_50_deg,
+		28  L_longest_ligule / '< 3.5 mm' '> 3.5  mm',
+		29  L_longest_inflorescence / up_to_30_mm '30-50 mm' '50-70 mm' '> 70 mm',
+		30  'Maximum distance between 2sd-3th spikes' / '< 5-6 mm' '> 6 mm',
+		31  No._branches_first_order / '< 10' '> 10',
+		32  No._male_flowers_I2 / '< 10' '10-20' '> 20',
+		33  L_perigynium / '< 3 mm' '3-4.5 mm' '> 4.5 mm',
+		34  W_perigynium / '< 2.25 mm' '> 2.25 mm',
+		35  L_perigynium_beak / '< 0.9 mm' '0.9-1.25 mm' '> 1.25 mm',
+		36  'No. denticles beak/mm' / '-' '< 10' '> 10',
+		37  L_female_glume / '< 3 mm' '3-4 mm' '> 4 mm',
+		38  Distance_from_base_to_widest_point_of_perigynium / '< 1.25 mm' '1.25-1.4 mm' '1.4-1.6 mm' '> 1.6 mm',
+		39  L_achene / '< 2 mm' '2-2.5 mm' '> 2.5 mm',
+		40  'L perigynium/L  glume' / '1.0-1.3' '1.3-1.5' '> 1.5',
+		41  'L perigynium/W perigynium' / '< 2.0' '2.0-2.2' '> 2.2',
+		42  'L perigynium/L beak' / '< 4.0' '> 4.0',
+		43  'L perigynium/L achene' / '< 1.9' '1.9-2.1' '> 2.1',
+		44  'L perigynium/Distance from base to widest point of perigynium' / '< 3.25' '3.25-3.75' '> 3.75',
+		;
+
+MATRIX
+[                                     10        20        30        40        50      ]
+[                                      .         .         .         .         .      ]
+Carex_foliosa                 111100110231151410002{01}{01}301003112000202001010
+Carex_muricata_ashokae        00000101100231111100000332201000212213222010
+Carex_muricata_cesanensis     00000101000233111100021332200000211213210100
+Carex_muricata_muricata       0000010100023000110001133220000{01}110201110100
+Carex_omeyica                 00000001001231021100011210101000210223200100
+Carex_otrubae                 11100111002022023112221220012212212120101022
+Carex_pairae                  000001{01}10{01}03220111200102201000{01}{01}100212100100
+Carex_polyphylla              00100111?22322{01}12101021220103012211213211010
+Carex_spicata_andresii        00001100111342022211220010110000212022201010
+Carex_spicata_spicata         00001101111342{01}32112221210111000212222202011
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb8987;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Carex_foliosa,
+            2    Carex_polyphylla,
+            3    Carex_otrubae,
+            4    Carex_spicata_spicata,
+            5    Carex_spicata_andresii,
+            6    Carex_omeyica,
+            7    Carex_pairae,
+            8    Carex_muricata_muricata,
+            9    Carex_muricata_cesanensis,
+            10   Carex_muricata_ashokae;
+      TREE Fig._4 = [&R] (1,(3,(2,((4,5),(6,(7,(8,(9,10))))))));
+
+
+
+END;

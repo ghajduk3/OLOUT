@@ -1,0 +1,99 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:40 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Goldblatt P. 1990. Systematics of Lapeirousia (Iridaceae-Ixioideae) in tropical Africa.
+Annals of the Missouri Botanical Garden, 77: 430-484.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S153]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=18;
+        TAXLABELS
+            Fastigiata
+            Lapeirousia
+            Lapeirousia_abyssinica
+            Lapeirousia_angolensis
+            Lapeirousia_avasmontana
+            Lapeirousia_bainesii
+            Lapeirousia_coerulea
+            Lapeirousia_erythrantha
+            Lapeirousia_gracilis
+            Lapeirousia_masukuensis
+            Lapeirousia_otaviensis
+            Lapeirousia_rivularis
+            Lapeirousia_sandersonii
+            Lapeirousia_schimperi
+            Lapeirousia_setifolia
+            Lapeirousia_teretifolia
+            Savannosiphon
+            Sophronia
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M3681]
+
+	TITLE Table_3;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=26;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1" MISSING=? GAP= ";
+
+MATRIX
+[                                   10        20      ]
+[                                    .         .      ]
+Fastigiata                  10000011010110000000000000
+Lapeirousia                 11111110100100000000000000
+Lapeirousia_abyssinica      10000010111100000000000010
+Lapeirousia_angolensis      10000011111100000010001000
+Lapeirousia_avasmontana     10000011011100000011010000
+Lapeirousia_bainesii        10000011111101001010100100
+Lapeirousia_coerulea        10000011011100000000100010
+Lapeirousia_erythrantha     10000011111100000000000001
+Lapeirousia_gracilis        10000011111101001000100000
+Lapeirousia_masukuensis     10000011111100001010010000
+Lapeirousia_otaviensis      10000011111101001000100100
+Lapeirousia_rivularis       10000011111100010000000001
+Lapeirousia_sandersonii     10000011111100001011010000
+Lapeirousia_schimperi       10000011111101101101100100
+Lapeirousia_setifolia       10000011111110000000000010
+Lapeirousia_teretifolia     10000011111100000010001000
+Savannosiphon               00000010100100000000000000
+Sophronia                   11011110100100000000000000
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb4876;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Savannosiphon,
+            2    Lapeirousia,
+            3    Sophronia,
+            4    Fastigiata,
+            5    Lapeirousia_coerulea,
+            6    Lapeirousia_avasmontana,
+            7    Lapeirousia_setifolia,
+            8    Lapeirousia_abyssinica,
+            9    Lapeirousia_angolensis,
+            10   Lapeirousia_teretifolia,
+            11   Lapeirousia_erythrantha,
+            12   Lapeirousia_rivularis,
+            13   Lapeirousia_masukuensis,
+            14   Lapeirousia_sandersonii,
+            15   Lapeirousia_gracilis,
+            16   Lapeirousia_otaviensis,
+            17   Lapeirousia_bainesii,
+            18   Lapeirousia_schimperi;
+      TREE Fig._3 = [&R] (1,((2,3),(4,(5,6,(7,8,(9,10),11,12,(13,14),(15,(16,17,18))))Paniculata)));
+
+
+
+END;

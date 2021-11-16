@@ -1,0 +1,181 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:38 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Soreng R., Davis J., & Doyle J. 1990. A phylogenetic analysis of chloroplast DNA
+restriction site variation in Poaceae subfam. Pooideae. Plant Systematics and Evolution,
+172: 83-97.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S187]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=45;
+        TAXLABELS
+            Arctagrostis_latifolia
+            Arctagrostis_poaeoides
+            Arrhenatherum_elatius
+            Avena_sativa
+            Bellardiochloa_violacea
+            Brachypodium_pinnatum
+            Briza_media
+            Briza_minor
+            Bromus_inermis
+            Catabrosa_aquatica
+            Chascolytrum_erectum
+            Chascolytrum_subaristata
+            Dactylis_glomerata
+            Danthonia_californica
+            Deschampsia_cespitosa
+            Festuca_arundinacea
+            Festuca_pratensis
+            Glyceria_grandis
+            Glyceria_striata
+            Hordeum_vulgare
+            Leucopoa_karatavica
+            Leucopoa_sclerophylla
+            Lolium_multiflorum
+            Melica_altissima
+            Melica_cupanii
+            Microbriza_poaemorpha
+            Oryza_sativa_A
+            Oryza_sativa_B
+            Pennisetum_americanum
+            Piptatherum_miliaceum
+            Poa_lanigera
+            Poa_palustris
+            Puccinellia_distans
+            Puccinellia_gigantea
+            Schizachne_purpurascens
+            Sclerochloa_dura
+            Secale_cereale
+            Sesleria_coerulea
+            Sorghum_bicolor
+            Stipa_barbata
+            Stipagrostis_uniplumis
+            Torreychloa_pauciflora
+            Torreyochloa_erecta
+            Triticum_aestivum
+            Zea_mays
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M334]
+
+	TITLE Table_2;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=91;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1" MISSING=- GAP= ";
+
+MATRIX
+[                                    10        20        30        40        50        60        70        80        90 ]
+[                                     .         .         .         .         .         .         .         .         . ]
+Arctagrostis_latifolia       0110110000100110010100001010001000110100011000011000000011000100111011100000000000001000001
+Arctagrostis_poaeoides       0110110000100110010100001010001000110100011000011000000011000100111011100000000000001000001
+Arrhenatherum_elatius        0110110000101110010100001010001000100100101100011100000011000110011011100000100001001101011
+Avena_sativa                 -----------------101000010100010001001001011001011----------0110001011000------------------
+Bellardiochloa_violacea      0110110000100111010000001010001000110100001000011000000011000100111011100000000000001000000
+Brachypodium_pinnatum        0110110001101100010110001100001000110100001000010000000110010100011001100100100100001000011
+Briza_media                  0110110000101110010100001010001000100100101100011100000011000110011011100000100001001101011
+Briza_minor                  0110110000101110010100001010001000100100101100011100000011000110011011100000100001001101011
+Bromus_inermis               0100110001100110010110011011011000000100000000010000000011010100011001110100100100001000011
+Catabrosa_aquatica           0110110000100111010100000010001100110100011000001000000011000100011011100000100000000010011
+Chascolytrum_erectum         0110110000101110010100101010001000100100101100011100000011001110011011100000100001001101010
+Chascolytrum_subaristata     0110110000101110010100101010001000100100101100011100000011001110011011100000100001001101010
+Dactylis_glomerata           0110110000100110010100001010001000110100001000011000000011000100111011100000000000001000001
+Danthonia_californica        0111100100001100000011000110101000000100001000101011011010010000001001100100100010010000010
+Deschampsia_cespitosa        0110110000101110010100001010001000100100101100011100000011001110011011100000100001001101010
+Festuca_arundinacea          0110010000100111010100001010001000110100001000010000000011000100111011100001100000101000010
+Festuca_pratensis            --------------------------------------------------0000001100-------------------------------
+Glyceria_grandis             1110110000000110001110101100101000110110001000101000000110000100011001100010101100001000110
+Glyceria_striata             1110110000000110000110101100101000110110001000101000100110000100011001100010101100001000110
+Hordeum_vulgare              010011-----------10100011011011000000000000000000000000011010100010111000------------------
+Leucopoa_karatavica          0110010000100111010100001010001000110100001000010000000011000100111011100001100000101000010
+Leucopoa_sclerophylla        0110010000100111010100001010001000110100001000010000000011000100111011100001100000101000010
+Lolium_multiflorum           --------------------------------------------------0000001100-------------------------------
+Melica_altissima             1010110000010110001110101100000000110110001000101000100010000100010001100010101100000000110
+Melica_cupanii               1010110000010110001110101100000000110110001000101000100100000100010001100010101100000000110
+Microbriza_poaemorpha        011011-----------10100101010001000100100101000011100000011001110011011100000100001001101010
+Oryza_sativa_A               ------------------------------1000100100001000001000001010010000010010001------------------
+Oryza_sativa_B               0111100000101100010010001011101000100100001000001000001010010000010011001000100100000001010
+Pennisetum_americanum        ------01000010000-------------------------------------------0000011001100------------------
+Piptatherum_miliaceum        0110110010001110110110001110100000000100001000011000010010000100011001100000110100001000011
+Poa_lanigera                 0110111000100110010100001010001000110101011000011000100011010100111011100000000000001000001
+Poa_palustris                0110111000100010010100001010001000110101011000001000000011010100111011100000000000001000001
+Puccinellia_distans          0110110000100111010100000010001100110100010000001000000011000100011011100000100000000010011
+Puccinellia_gigantea         0110110000100111010100000010001100110100010000001000000011000100011011100000100000000010011
+Schizachne_purpurascens      -----------------00110101100000000110110001000001000100110000100011001100010101100000000110
+Sclerochloa_dura             0110110000100111010100000010001100110100011000001000000011000100011011100000100000000010011
+Secale_cereale               -----------------101000110110110000001000000100100----------0100011111000------------------
+Sesleria_coerulea            0110110000100111010100001010001000110100011000001000000010000100111011100000100000001000011
+Sorghum_bicolor              ------------------------------10110011000010011010----------0001011000111------------------
+Stipa_barbata                0110110010001110110110001110100000000100001000011000000010000100001001100000110100001000011
+Stipagrostis_uniplumis       0111100001001100010011001110001000000000001000101011011010010000011011100100011010010000010
+Torreychloa_pauciflora       0110110000101110010100001010001000100100101100011100000011100010011011100000000001001101010
+Torreyochloa_erecta          0110110000101110010100001010001000100100101100011100000011100010011011100000000001001101010
+Triticum_aestivum            -----------------101000110110110000001000000100100----------0100011111000------------------
+Zea_mays                     ------------------------------1011101100001001101001001000010001011000111------------------
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb4915;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Danthonia_californica,
+            2    Arrhenatherum_elatius,
+            3    Deschampsia_cespitosa,
+            4    Briza_minor,
+            5    Chascolytrum_erectum,
+            6    Torreyochloa_erecta,
+            7    Brachypodium_pinnatum,
+            8    Bromus_inermis,
+            9    Glyceria_grandis,
+            10   Glyceria_striata,
+            11   Melica_altissima,
+            12   Melica_cupanii,
+            13   Arctagrostis_poaeoides,
+            14   Bellardiochloa_violacea,
+            15   Catabrosa_aquatica,
+            16   Dactylis_glomerata,
+            17   Festuca_arundinacea,
+            18   Leucopoa_sclerophylla,
+            19   Poa_lanigera,
+            20   Poa_palustris,
+            21   Puccinellia_distans,
+            22   Sclerochloa_dura,
+            23   Sesleria_coerulea,
+            24   Piptatherum_miliaceum,
+            25   Stipa_barbata,
+            26   Hordeum_vulgare,
+            27   Stipagrostis_uniplumis,
+            28   Oryza_sativa_A,
+            29   Oryza_sativa_B,
+            30   Sorghum_bicolor,
+            31   Zea_mays,
+            32   Pennisetum_americanum,
+            33   Avena_sativa,
+            34   Briza_media,
+            35   Chascolytrum_subaristata,
+            36   Microbriza_poaemorpha,
+            37   Torreychloa_pauciflora,
+            38   Schizachne_purpurascens,
+            39   Arctagrostis_latifolia,
+            40   Festuca_pratensis,
+            41   Leucopoa_karatavica,
+            42   Lolium_multiflorum,
+            43   Puccinellia_gigantea,
+            44   Secale_cereale,
+            45   Triticum_aestivum;
+      TREE Fig._2 = [&R] ((1,((9,(10,(11,12)))Meliceae,((25,24),((7,(8,26))Triticodae,((4,2,(6,(5,3)))Aveneae,(((17,18),(14,(16,(39,(19,20))))),(23,(21,22,15)))Poeae))))Pooideae));
+
+
+
+END;

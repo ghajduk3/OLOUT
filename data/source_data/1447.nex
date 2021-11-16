@@ -1,0 +1,464 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:48 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Taber S. 1998. "The world of harvester ants." In: , eds. The world of harvester ants.
+pp. null. College Station, Texas, Texas A&M University Press.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S339]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=59;
+        TAXLABELS
+            Ephebomyrmex_abdominalis
+            Ephebomyrmex_angustus
+            Ephebomyrmex_brevibarbis
+            Ephebomyrmex_cunicularius
+            Ephebomyrmex_imberbiculus
+            Ephebomyrmex_laevigatus
+            Ephebomyrmex_laevinodis
+            Ephebomyrmex_mayri
+            Ephebomyrmex_naegelii
+            Ephebomyrmex_odoratus
+            Ephebomyrmex_pima
+            Ephebomyrmex_saucius
+            Ephebomyrmex_schmitti
+            Ephebomyrmex_sylvestris
+            Ephebomyrmex_tenuipubens
+            Hylomyrma_reitteri
+            Pogonomyrmex_anzensis
+            Pogonomyrmex_apache
+            Pogonomyrmex_atratus
+            Pogonomyrmex_badius
+            Pogonomyrmex_barbatus
+            Pogonomyrmex_bicolor
+            Pogonomyrmex_bigbendensis
+            Pogonomyrmex_bispinosus
+            Pogonomyrmex_brevispinosus
+            Pogonomyrmex_bruchi
+            Pogonomyrmex_californicus
+            Pogonomyrmex_carbonarius
+            Pogonomyrmex_catanlilensis
+            Pogonomyrmex_coarctatus
+            Pogonomyrmex_comanche
+            Pogonomyrmex_desertorum
+            Pogonomyrmex_guatemaltecus
+            Pogonomyrmex_huachucanus
+            Pogonomyrmex_inermis
+            Pogonomyrmex_laticeps
+            Pogonomyrmex_lobatus
+            Pogonomyrmex_longibarbis
+            Pogonomyrmex_magnacanthus
+            Pogonomyrmex_marcusi
+            Pogonomyrmex_maricopa
+            Pogonomyrmex_meridionalis
+            Pogonomyrmex_micans
+            Pogonomyrmex_montanus
+            Pogonomyrmex_occidentalis
+            Pogonomyrmex_pronotalis
+            Pogonomyrmex_rastratus
+            Pogonomyrmex_rugosus
+            Pogonomyrmex_salinus
+            Pogonomyrmex_snellingi
+            Pogonomyrmex_sp.
+            Pogonomyrmex_subdentatus
+            Pogonomyrmex_subnitidus
+            Pogonomyrmex_tenuispina
+            Pogonomyrmex_texanus
+            Pogonomyrmex_theresiae
+            Pogonomyrmex_uruguayensis
+            Pogonomyrmex_vermiculatus
+            Pogonomyrmex_wheeleri
+            ;
+END;
+
+BEGIN TAXA;
+        TITLE  Taxa2;
+        DIMENSIONS NTAX=10;
+        TAXLABELS
+            Pogonomyrmex_anergismus
+            Pogonomyrmex_apache
+            Pogonomyrmex_barbatus
+            Pogonomyrmex_bicolor
+            Pogonomyrmex_colei
+            Pogonomyrmex_desertorum
+            Pogonomyrmex_occidentalis
+            Pogonomyrmex_rugosus
+            Pogonomyrmex_texanus
+            Pogonomyrmex_wheeleri
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M883]
+
+	TITLE Table_A3a;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=97;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2 3 4 a" MISSING=? GAP= -;
+	CHARSTATELABELS
+		1  Dimensions_of_head_capsule / width_not_exceeding_length width_exceeding_length,
+		2  Shape_of_head_capsule / sides_of_head_not_converging_st sides_of_head_behind_eyes_conv,
+		3  'Cephalic rugae (divergence)' / rugae_diverging_toward_occipita rugae_roughly_parallel,
+		4  'Cephalic rugae (coarseness)' / rugae_coarse rugae_fine,
+		5  'Cephalic rugae (density)' / rugae_widely_spaced 'rugae closely spaced (dense)',
+		6  'Cephalic rugae (circumocular wh' / whorls_absent whorls_incomplete_or_occasional whorls_present_and_complete,
+		7  'Cephalic rugae (occipital corne' / rugae_present 'rugae absent, weak striae prese',
+		8  'Cephalic rugae (conspicuous ret' / reticulation_absent reticulation_covering_part_but reticulation_covering_most_or_a,
+		9  Cephalic_areolation / high_density medium_density lower_density low_density,
+		10  Eye_position / eye_anterior_to_the_midpoint_of 'eye centered, or slightly poste',
+		11  Eye_shape / contour_angular_or_roughly_stra contour_convex_or_rounded,
+		12  'Frontal lobe (contour shape)' / angular_or_straight convex_or_rounded,
+		13  'Frontal depression (depth)' / 'deep (walls steep)' 'shallow (walls not steep)',
+		14  'Lateral clypeal projections (de' / prominent moderately_developed absent_or_inconspicuous,
+		15  'Clypeus (anterior margin)' / convex roughly_straight moderately_excised deeply_excised,
+		16  'Clypeus (anterior margin)' / bidentate not_bidentate,
+		17  'Clypeus (anterior margin)' / median_triangular_tooth_absent median_triangular_tooth_present,
+		18  'Clypeus (surface contour)' / 'surface raised, appearing to bu' 'surface flattened, not appearin',
+		19  Antenna_scape_length / surpassing_midpoint_between_pos not_surpassing_the_posterior_ed,
+		20  'Antenna (scape thickness)' / thick thin_or_slender,
+		21  'Antenna (scape rugosity)' / rugae_extensive rugae_moderate_to_weak rugae_absent,
+		22  'Antenna (scape base, curvature)' / scape_bent_or_strongly_curved_n scape_straight_or_smoothly_curv,
+		23  'Antenna (scape base, developmen' / 'weakly developed, hardly exceed' moderately_developed_but_not_tr 'strongly developed, trumpet-sha',
+		24  'Antenna (scape base, depression' / depression_absent_or_very_weak depression_distinct_but_not_dee depression_deep,
+		25  'Mandible (number of teeth)' / 'less than 7 (5-6)' '7 (rarely 8)',
+		26  'Mandible (tooth configuration)' / basal_tooth_not_offset_from_bas basal_tooth_offset_from_basal_m,
+		27  'Mandible (tooth development)' / 'counting from apical tooth, no.' 'counting from apical tooth, no.',
+		28  'Mandible (contour of basal marg' / weakly_to_strongly_convex straight_or_slightly_concave,
+		29  'Psammophore (development)' / absent_to_very_weak moderately_developed 'strongly developed, with long a',
+		30  'Maxillary palps (number of segm' / four five,
+		31  'Labial palps (number of segment' / three four,
+		32  Color_of_head / yellow_or_red_to_reddish_brown black_to_blackish_brown,
+		33  'Pronotal declivity (length)' / short long,
+		34  'Thoracic rugae (coarseness)' / coarse fine,
+		35  'Thoracic rugae (dorsal reticula' / absent_or_very_sparse conspicuous_and_extensive,
+		36  'Humeri (shape)' / rounded angular,
+		37  'Femur of forelegs (shape)' / 'strongly incrassate (swollen)' not_incrassate_or_only_weakly_i,
+		38  Mesopropodeal_depression / absent_or_inconspicuous conspicuous,
+		39  'Propodeum (basal face)' / steeply_inclined almost_horizontal,
+		40  Propodeal_spines / present absent,
+		41  'Propodeal spines (connecting ke' / keel_represented_at_best_by_a_r conspicuous_keel_present,
+		42  'Metasternal flanges (developmen' / massive moderately_developed absent_or_very_wea,
+		43  Color_of_alitrunk / yellow_or_red_to_reddish_brown black_to_blackish_brown,
+		44  'Setae (color)' / clear 'dark (brownish yellow to blacki',
+		45  'Setae (shape)' / thin_or_fine thick_or_coarse,
+		46  'Node of petiole (shape, in dors' / 'elongate, bullet- shaped to alm' not_strongly_elongated_but_robu almost_oval,
+		47  'Node of petiole (rugosity)' / high_density medium_density low_density,
+		48  'Node of petiole (areolation)' / high_density medium_density low_density,
+		49  'Node of petiole (anterior nippl' / absent present,
+		50  'Peduncle of petiole (ventral pr' / absent_or_very_weak moderately_developed_or_with_so strongly_developed,
+		51  'Peduncle of petiole (setae)' / setae_absent setae_present,
+		52  'Peduncle of petiole (dorsolater' / groove_absent groove_present,
+		53  'Node of postpetiole (rugosity)' / high_density medium_density low_density,
+		54  'Node of postpetiole (areolation' / high_density medium_density low_density,
+		55  'Node of postpetiole (shape, in' / not_robust 'robust (conspicuously wider tha',
+		56  'Postpetiole (ventral process)' / absent_or_weakly_developed strongly_developed,
+		57  'Basal segment of gaster (dorsal' / absent confined_to_base_near_insertion covering_most_or_all_of_segment,
+		58  'Basal segment of gaster (dorsal' / surface_mostly_smooth_and_shiny surface_shagreened 'surface areolate, at least near',
+		59  Color_of_gaster / yellow_or_red_to_reddish_brown black_to_blackish_brown,
+		60  'Worker size class(es)' / monomorphic weakly_polymorphic strongly_polymorphic,
+		61  Worker_length / 'small (usually 4-6 mm)' 'large (usually 6 mm or longer)',
+		62  'Alitrunk contour (dorsal surfac' / outline_uneven_due_to_distinctl 'outline even, scutellum not dis',
+		63  'Wing venation (cubital cell of' / type_A type_B type_C type_D_or_E,
+		64  Stem_of_furcula_of_sting_appara / stem_absent_or_weak stem_moderately_developed stem_long_and_prominent,
+		65  'Female reproductive caste (morp' / typical_gyne ergatogyne_or_intercaste,
+		66  'Occipital margin (keel)' / conspicuous_keel_present keel_absent,
+		67  'Vertex (shape)' / not_flattened flattened,
+		68  'Antenna (scape length, exclude' / shorter_than_combined_lengths_o longer_than_combined_lengths_of,
+		69  'Antenna (scape, pilosity)' / scape_without_numerous_long_hai scape_with_numerous_long_hairs,
+		70  'Antenna (first flagellum segmen' / 'less than 4-5 times the length' '4-5 times longer than pedicel',
+		71  'Mandible (number of teeth)' / maximum_number_of_teeth_4 both_4_and_5_teeth_reported minimum_number_of_teeth_5,
+		72  'Mandible (contour of basal marg' / not_concave concave,
+		73  Color_of_alitrunk / yellow_to_brown black_to_blackish_brown,
+		74  Luster_of_alitrunk / shiny dull,
+		75  'Mayrian furrow (development)' / deep absent_or_indistinct,
+		76  'Forewing (pilosity)' / hairy not_hairy,
+		77  Alitrunk_pilosity / 'setae short, sparse' 'setae long, dense',
+		78  'Ninth sternite (lateral process' / processes_absent processes_present,
+		79  Piney_habitat_preference / 'no restriction to, or preferenc' 'restricted to, or preferring, p',
+		80  Nest_superstructure / mature_nest_without_gravel_or_p mature_nest_always_or_usually_w,
+		81  'Gyne (dorsum of petiole)' / dorsum_of_petiole_without_media dorsum_of_petiole_with_median_l,
+		82  Biome_preference / restricted_to_or_usually_found usually_found_in_such_mesic_hab typically_found_in_semiarid_to,
+		83  Altitude_preference / never_or_uncommonly_found_in_mo restricted_to_or_usually_found,
+		84  Soil_preference / avoiding_or_not_preferring_sand restricted_to_or_preferring_san,
+		85  Nest_microhabitat / always_or_usually_concealed always_or_usually_exposed,
+		86  'Nest depth (mature colonies)' / 'shallow (1 meter or less)' 'deep (greater than 1 meter)',
+		87  'Foraging behavior (mature colon' / 'individual (solitary) only' individual_only_or_both_individ both_individual_and_group,
+		88  Foraging_schedule / primarily_diurnal both_nocturnal_and_diurnal,
+		89  'Colony size (mature)' / 'small (tens to hundreds)' 'large (over one thousand)',
+		90  Diet / seeds_minor_part_of_diet 'seeds commonly consumed, but ar' diet_entirely_of_seeds,
+		91  Aggression / does_not_sting_readily stings_readily,
+		92  Defense_posture / disturbed_ants_stay_in_motion_a disturbed_ants_become_motionles,
+		93  Nest_plugging / nest_not_plugged_as_part_of_dai nest_plugged_as_part_of_daily_r,
+		94  Colony_emigration / 'common (several times per year)' 'rare (less than once per year)',
+		95  Gyny_level / monogynous at_least_occasionally_polygynou,
+		96  Time_of_nuptial_flight / morning afternoon_or_evening,
+		97  Mating_site / on_low_or_flat_ground on_elevated_objects,
+		;
+
+MATRIX
+[                                      10        20        30        40        50        60        70        80        90       ]
+[                                       .         .         .         .         .         .         .         .         .       ]
+Ephebomyrmex_abdominalis       0000000200000221000000100?010000001000?01001110002010011100001??0??????????0??00?10?00???2???????
+Ephebomyrmex_angustus          000000020000?20100001011?0010111001000000010112012012011001001??0??????????0??00?001000?0?????0??
+Ephebomyrmex_brevibarbis       0000000?0?0111110?011?100?011001?0100110101111???2012?00001010??00100??01?000?00?21??10?1110?????
+Ephebomyrmex_cunicularius      01000000000??1011?0000100?010000001011100?01110?110110?0010010??101000?011000?0????0?00?0110?????
+Ephebomyrmex_imberbiculus      0000000200000011001000100?0100000010000010011101020110110?000101?010001011000000?2???0010100??10?
+Ephebomyrmex_laevigatus        010000?0?000?201000011100?0101111??000?0001101220?00221100100???0?????????????00?0?1??0??????????
+Ephebomyrmex_laevinodis        0000000100000011001000100?010000?0100001?00101110201211100000?????????????????00?201?????????????
+Ephebomyrmex_mayri             01001002?0010?00100000200?010001?01010?00011100?11010?01121010??10101????1?00??0?20?00000000?0???
+Ephebomyrmex_naegelii          0000000200000021000000100?000000001001?010011?010201001110000???00100010?1000?00?10?100?01???????
+Ephebomyrmex_odoratus          0000001030000201000010210??101100??0000000010022100?221100000???00?0??1?110???00?00??00?0?00?????
+Ephebomyrmex_pima              000000010000?211001000100?010000001100001001111001012011010001210010012011000000?20??0000?00?????
+Ephebomyrmex_saucius           ?000000000000001000000100?00000000100000000111011101111100000?????????????????00?20?0????20??????
+Ephebomyrmex_schmitti          0000000100001101000000100?01000??010000000?11110020120110??00???0?????????????00?????????1???????
+Ephebomyrmex_sylvestris        0000000210000201100000100?000??0001000101000000112010111100?0?????????????????0??0????0??????????
+Ephebomyrmex_tenuipubens       00000?02000002210?0000100?010000?0100010100111000201101100000?????????????????00?????????????????
+Hylomyrma_reitteri             000000002000011000?000000?000000000000000000000100000100100000??0000101000000?00?00?0?0??????????
+Pogonomyrmex_anzensis          0000020021011210010111000?01100010001101?20011100000201001001?????????????????0??2000???0????????
+Pogonomyrmex_apache            1011101031110030010121221010200011001001?10011110210201101001031010110001011110002??11?00101?????
+Pogonomyrmex_atratus           00000001000?1120010111001001100100111010011011000200001110101?????????????????00?2???????????????
+Pogonomyrmex_badius            0100000000011220010111201001200000001001?100110011001000010210310101002011110100?2011120110010000
+Pogonomyrmex_barbatus          10111000?111012001112121111020001??01010010011?00210101101001030010110200011110112?01121121001010
+Pogonomyrmex_bicolor           10111000211?022?011021101?10200011000010010011100210101101?01030010110001011110002011a2?1?01??0??
+Pogonomyrmex_bigbendensis      1011101031111110011121000?10200011001011?10011110210211001001?????????????????00?2?0?????????????
+Pogonomyrmex_bispinosus        000000010001?020011001200?001??0101?10?002001?0?0200?011010010??001000?011000?00?1??1?0??????????
+Pogonomyrmex_brevispinosus     000000000101122001?1111010011000100010???100110010011011010010200101101100?11100?20110??0?00?????
+Pogonomyrmex_bruchi            10111010101?0021011011200?001?0010110000120a10000200?0110?011?????????????????00?10??????????????
+Pogonomyrmex_californicus      00000200?1011210010121001001200010001101?1001111110?200001?010020101100010?11100?2?11?01121010?01
+Pogonomyrmex_carbonarius       ?0000000000?112001011100?000200100111000111011010200011122101???0?????????????00????????0????????
+Pogonomyrmex_catanlilensis     00000002000011200101110010002??100111000011011000200001122001?????????????????00?2???????????????
+Pogonomyrmex_coarctatus        ?01110?0201?0121011011210?00100010?11000020010100200?011010210??0?????????????00?100?10?02????0?1
+Pogonomyrmex_comanche          00000200010112?001012100110020001000110001001101110?101?010010?20101100000?11100?2011?0011001?0?1
+Pogonomyrmex_desertorum        10111000111?022001112110101020001?001?10010011100210201?01001030010110?01011110002?11?2002000??11
+Pogonomyrmex_guatemaltecus     0010000200011220010001100?01200010110001?00111010201111100000???0?????????????00?2?11????2???????
+Pogonomyrmex_huachucanus       0000000100001220011111100?001000?0100010?100110112001111000001310010012011?00000?2100???0100??1??
+Pogonomyrmex_inermis           0000000200001120010001100?002000001?1001?200100?0201?00101001?????????????????00?2??10???2???????
+Pogonomyrmex_laticeps          100000011?0?1020010111100?002000?01?10?002001?0?0200001101?01???1?????????????00?2111???0????????
+Pogonomyrmex_lobatus           ?01110?01010002?010011200?00100010?11000010010100200101101011?????????????????00?10010???2???????
+Pogonomyrmex_longibarbis       000001010?0?122001011100?0002??0001?101?0??011010200011122?010??0000001001000?00?21?1???0????????
+Pogonomyrmex_magnacanthus      000?0200110112?0010121001001200011001101?100112010002011010000120101101000111100?2011?000200?????
+Pogonomyrmex_marcusi           101110102010002101101121?00010?0101100000100100002001011010010??00100??011001?00?211000?02????1??
+Pogonomyrmex_maricopa          ?00?0200010?121001012110100020001?00110?010011201100201?0100100201011010?011110??2??1?001?10???01
+Pogonomyrmex_meridionalis      ?000000000011110011111000?002???00111010011011000100001112?01?????????????????00?2???????????????
+Pogonomyrmex_micans            10111000201?012?011?11210?0010001011?000010010000200101101011?????????????????00??0?10??02???????
+Pogonomyrmex_montanus          0000010001011220010121101001200010?011000100111010001011010010??011?101000111?10?21?10001110???1?
+Pogonomyrmex_occidentalis      0000000001011220010121201101200010001110010011101000?011010010100101102100111101021011111110110?1
+Pogonomyrmex_pronotalis        00000002000?1220010111001000200100111000011011000200001100001?????????????????00?21??????????????
+Pogonomyrmex_rastratus         1000000000001?20010111?00?00200000111010001011000200001122001???0?????????????00?2???0??0????????
+Pogonomyrmex_rugosus           10?0000011110120011121211110200?1010111001?011??0210?01101?010300101102000111101121?11111110?1010
+Pogonomyrmex_salinus           00000100010112?0010121201001200010001100010011?0110??011010010?001011010?0?111???211112012?0?10?1
+Pogonomyrmex_snellingi         10001200100?122001?121001?012??01000111?010011111100101000001?????????????????0??201?????????????
+Pogonomyrmex_sp.               00000100210112100101210010002??011001001?1001?2100002100000?00??010110?000111?0??21??????????????
+Pogonomyrmex_subdentatus       00000000010112200101212010012000100010000100110012001011010010200101101110?11100?211????0200?????
+Pogonomyrmex_subnitidus        00000100?10112200101211010012000100011100100111010001011010010100101101010?11100?21111111110???0?
+Pogonomyrmex_tenuispina        10111000211?0020011121221010200011001010010011100110201?01001?????????????????00?20???2012?0?????
+Pogonomyrmex_texanus           1011101021110030011121221010200011001??1?10011100210201?0100103?0101100010111?0012?01?0?020???0??
+Pogonomyrmex_theresiae         00000000100?1220010111000?012??00011100?020011010200011110000?????????????????0???0??????????????
+Pogonomyrmex_uruguayensis      000000000000??20011001100?002000101??00002001000020??01101001?????????????????00??0?????02????0??
+Pogonomyrmex_vermiculatus      0000000?0?001?20010111?0?000200?001110?00??0110?0?000?11???01???0010000001000?00????100?02???????
+Pogonomyrmex_wheeleri          10111000111001210111112211102000110010100100111002101011010010??010110?010111?01120?1?2?1?10?????
+;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M894]
+
+	TITLE Table_A3b;
+	LINK TAXA = Taxa2;
+	DIMENSIONS NCHAR=81;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2 3 4 a" MISSING=? GAP= -;
+	CHARSTATELABELS
+		1  Dimensions_of_head_capsule / width_not_exceeding_length width_exceeding_length,
+		2  Shape_of_head_capsule / sides_of_head_not_converging_st sides_of_head_behind_eyes_conve,
+		3  'Cephalic rugae (divergence)' / rugae_diverging_toward_occipita rugae_roughly_parallel,
+		4  'Cephalic rugae (coarseness)' / rugae_coarse rugae_fine,
+		5  'Cephalic rugae (density)' / rugae_widely_spaced 'rugae closely spaced (dense)',
+		6  'Cephalic rugae (circumocular wh' / whorls_absent whorls_incomplete_or_occasional whorls_present_and_complete,
+		7  'Cephalic rugae (occipital corne' / rugae_present 'rugae absent, weak striae prese',
+		8  'Cephalic rugae (conspicuous ret' / reticulation_absent reticulation_covering_part_but reticulation_covering_most_or_a,
+		9  Cephalic_areolation / high_density medium_density lower_density low_density,
+		10  Eye_position / eye_anterior_to_the_midpoint_of 'eye centered, or slightly poste',
+		11  Eye_shape / contour_angular_or_roughly_stra contour_convex_or_rounded,
+		12  'Frontal lobe (contour shape)' / angular_or_straight convex_or_rounded,
+		13  'Frontal depression (depth)' / 'deep (walls steep)' 'shallow (walls not steep)',
+		14  'Lateral clypeal projections (de' / prominent moderately_developed absent_or_inconspicuous,
+		15  'Clypeus (anterior margin)' / convex roughly_straight moderately_excised deeply_excised,
+		16  'Clypeus (anterior margin)' / bidentate not_bidentate,
+		17  'Clypeus (anterior margin)' / median_triangular_tooth_absent median_triangular_tooth_present,
+		18  'Clypeus (surface contour)' / 'surface raised, appearing to bu' 'surface flattened, not appearin',
+		19  Antenna_scape_length / surpassing_midpoint_between_pos not_surpassing_the_posterior_ed,
+		20  'Antenna (scape thickness)' / thick thin_or_slender,
+		21  'Antenna (scape rugosity)' / rugae_extensive rugae_moderate_to_weak rugae_absent,
+		22  'Antenna (scape base, curvature)' / scape_bent_or_strongly_curved_n scape_straight_or_smoothly_curv,
+		23  'Antenna (scape base, developmen' / 'weakly developed, hardly exceed' moderately_developed_but_not_tr 'strongly developed, trumpet-sha',
+		24  'Antenna (scape base, depression' / depression_absent_or_very_weak depression_distinct_but_not_dee depression_deep,
+		25  'Mandible (number of teeth)' / 'less than 7 (5-6)' '7 (rarely 8)',
+		26  'Mandible (tooth configuration)' / basal_tooth_not_offset_from_bas basal_tooth_offset_from_basal_m,
+		27  'Mandible (tooth development)' / 'counting from apical tooth, no.' 'counting from apical tooth, no.',
+		28  'Mandible (contour of basal marg' / weakly_to_strongly_convex straight_or_slightly_concave,
+		29  'Psammophore (development)' / absent_to_very_weak moderately_developed 'strongly developed, with long a',
+		30  'Maxillary palps (number of segm' / four five,
+		31  'Labial palps (number of segment' / three four,
+		32  Color_of_head / yellow_or_red_to_reddish_brown black_to_blackish_brown,
+		33  'Pronotal declivity (length)' / short long,
+		34  'Thoracic rugae (coarseness)' / coarse fine,
+		35  'Thoracic rugae (dorsal reticula' / absent_or_very_sparse conspicuous_and_extensive,
+		36  'Humeri (shape)' / rounded angular,
+		37  'Femur of forelegs (shape)' / 'strongly incrassate (swollen)' not_incrassate_or_only_weakly_i,
+		38  Mesopropodeal_depression / absent_or_inconspicuous conspicuous,
+		39  'Propodeum (basal face)' / steeply_inclined almost_horizontal,
+		40  Propodeal_spines / present absent,
+		41  'Propodeal spines (connecting ke' / keel_represented_at_best_by_a_r conspicuous_keel_present,
+		42  'Metasternal flanges (developmen' / massive moderately_developed absent_or_very_weak,
+		43  Color_of_alitrunk / yellow_or_red_to_reddish_brown black_to_blackish_brown,
+		44  'Setae (color)' / clear 'dark (brownish yellow to blacki',
+		45  'Setae (shape)' / thin_or_fine thick_or_coarse,
+		46  'Node of petiole (shape, in dors' / 'elongate, bullet- shaped to alm' not_strongly_elongated_but_robu almost_oval,
+		47  'Node of petiole (rugosity)' / high_density medium_density low_density,
+		48  'Node of petiole (areolation)' / high_density medium_density low_density,
+		49  'Node of petiole (anterior nippl' / absent present,
+		50  'Peduncle of petiole (ventral pr' / absent_or_very_weak moderately_developed_or_with_so strongly_developed,
+		51  'Peduncle of petiole (setae)' / setae_absent setae_present,
+		52  'Peduncle of petiole (dorsolater' / groove_absent groove_present,
+		53  'Node of postpetiole (rugosity)' / high_density medium_density low_density,
+		54  'Node of postpetiole (areolation' / high_density medium_density low_density,
+		55  'Node of postpetiole (shape, in' / not_robust 'robust (conspicuously wider tha',
+		56  'Postpetiole (ventral process)' / absent_or_weakly_developed strongly_developed,
+		57  'Basal segment of gaster (dorsal' / absent confined_to_base_near_insertion covering_most_or_all_of_segment,
+		58  'Basal segment of gaster (dorsal' / surface_mostly_smooth_and_shiny surface_shagreened 'surface areolate, at least near',
+		59  Color_of_gaster / yellow_or_red_to_reddish_brown black_to_blackish_brown,
+		60  'Worker size class(es)' / monomorphic weakly_polymorphic strongly_polymorphic,
+		61  Worker_length / 'small (usually 4-6 mm)' 'large (usually 6 mm or longer)',
+		62  'Alitrunk contour (dorsal surfac' / outline_uneven_due_to_distinctl 'outline even, scutellum not dis',
+		63  'Wing venation (cubital cell of' / type_A type_B type_C type_D_or_E,
+		64  Stem_of_furcula_of_sting_appara / stem_absent_or_weak stem_moderately_developed stem_long_and_prominent,
+		65  'Female reproductive caste (morp' / typical_gyne ergatogyne_or_intercaste,
+		66  'Occipital margin (keel)' / conspicuous_keel_present keel_absent,
+		67  'Vertex (shape)' / not_flattened flattened,
+		68  'Antenna (scape length, exclude' / shorter_than_combined_lengths_o longer_than_combined_lengths_of,
+		69  'Antenna (scape, pilosity)' / scape_without_numerous_long_hai scape_with_numerous_long_hairs,
+		70  'Antenna (first flagellum segmen' / 'less than 4-5 times the length' '4-5 times longer than pedicel',
+		71  'Mandible (number of teeth)' / maximum_number_of_teeth_4 both_4_and_5_teeth_reported minimum_number_of_teeth_5,
+		72  'Mandible (contour of basal marg' / not_concave concave,
+		73  Color_of_alitrunk / yellow_to_brown black_to_blackish_brown,
+		74  Luster_of_alitrunk / shiny dull,
+		75  'Mayrian furrow (development)' / deep absent_or_indistinct,
+		76  'Forewing (pilosity)' / hairy not_hairy,
+		77  Alitrunk_pilosity / 'setae short, sparse' 'setae long, dense',
+		78  'Ninth sternite (lateral process' / processes_absent processes_present,
+		79  Piney_habitat_preference / 'no restriction to, or preferenc' 'restricted to, or preferring, p',
+		80  Nest_superstructure / mature_nest_without_gravel_or_p mature_nest_always_or_usually_w,
+		81  'Gyne (dorsum of petiole)' / dorsum_of_petiole_without_media dorsum_of_petiole_with_median_l,
+		;
+
+MATRIX
+[                                     10        20        30        40        50        60        70        80 ]
+[                                      .         .         .         .         .         .         .         . ]
+Pogonomyrmex_anergismus       1011101021110220010121200?10200011011??0010111110210111100000030010110200011010?1
+Pogonomyrmex_apache           10111010311101300111212210102000?10?0??1?1001111011021110100103101011000101111000
+Pogonomyrmex_barbatus         101?1000211101200111212111?02000?10????0010011110210?1110100103001011020001111011
+Pogonomyrmex_bicolor          10111000211?022001112120101?200?110?1??001001101011011110100103001011000101111000
+Pogonomyrmex_colei            1011101021000220010121210?1?2000110?1??001011?10001010110000003?0101102000110?0?1
+Pogonomyrmex_desertorum       10111010211?02200111211010102000110????001001111021?11110?00003001011000101111000
+Pogonomyrmex_occidentalis     000000000101122001112120?10?2000?00????001001110110010110?00101001011021001111010
+Pogonomyrmex_rugosus          10101000211?02200111212111002001?10????0011011?101?0?1110??0103001011020?01111011
+Pogonomyrmex_texanus          10111010211101300111212210102000?1?????1?100111102102111010010??0101100110111?001
+Pogonomyrmex_wheeleri         10111000211101200111212111102??0110?1??00100111102101111000010??0101101000111?011
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb5115;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Hylomyrma_reitteri,
+            2    Ephebomyrmex_abdominalis,
+            3    Ephebomyrmex_angustus,
+            4    Ephebomyrmex_brevibarbis,
+            5    Ephebomyrmex_cunicularius,
+            6    Ephebomyrmex_imberbiculus,
+            7    Ephebomyrmex_laevigatus,
+            8    Ephebomyrmex_laevinodis,
+            9    Ephebomyrmex_mayri,
+            10   Ephebomyrmex_naegelii,
+            11   Ephebomyrmex_odoratus,
+            12   Ephebomyrmex_pima,
+            13   Ephebomyrmex_saucius,
+            14   Ephebomyrmex_schmitti,
+            15   Ephebomyrmex_sylvestris,
+            16   Ephebomyrmex_tenuipubens,
+            17   Pogonomyrmex_anzensis,
+            18   Pogonomyrmex_apache,
+            19   Pogonomyrmex_atratus,
+            20   Pogonomyrmex_badius,
+            21   Pogonomyrmex_barbatus,
+            22   Pogonomyrmex_bicolor,
+            23   Pogonomyrmex_bigbendensis,
+            24   Pogonomyrmex_bispinosus,
+            25   Pogonomyrmex_brevispinosus,
+            26   Pogonomyrmex_bruchi,
+            27   Pogonomyrmex_californicus,
+            28   Pogonomyrmex_carbonarius,
+            29   Pogonomyrmex_catanlilensis,
+            30   Pogonomyrmex_coarctatus,
+            31   Pogonomyrmex_comanche,
+            32   Pogonomyrmex_desertorum,
+            33   Pogonomyrmex_guatemaltecus,
+            34   Pogonomyrmex_huachucanus,
+            35   Pogonomyrmex_inermis,
+            36   Pogonomyrmex_laticeps,
+            37   Pogonomyrmex_lobatus,
+            38   Pogonomyrmex_longibarbis,
+            39   Pogonomyrmex_magnacanthus,
+            40   Pogonomyrmex_marcusi,
+            41   Pogonomyrmex_maricopa,
+            42   Pogonomyrmex_meridionalis,
+            43   Pogonomyrmex_micans,
+            44   Pogonomyrmex_montanus,
+            45   Pogonomyrmex_occidentalis,
+            46   Pogonomyrmex_pronotalis,
+            47   Pogonomyrmex_rastratus,
+            48   Pogonomyrmex_rugosus,
+            49   Pogonomyrmex_salinus,
+            50   Pogonomyrmex_snellingi,
+            51   Pogonomyrmex_subdentatus,
+            52   Pogonomyrmex_subnitidus,
+            53   Pogonomyrmex_tenuispina,
+            54   Pogonomyrmex_texanus,
+            55   Pogonomyrmex_theresiae,
+            56   Pogonomyrmex_uruguayensis,
+            57   Pogonomyrmex_vermiculatus,
+            58   Pogonomyrmex_wheeleri,
+            59   Pogonomyrmex_sp.;
+      TREE Fig._6.1 = [&R] (((((2,((((((3,(7,11)),(4,(5,9))),13),14),((6,8),12)),16)),10),15)Ephebomyrmex,((((((((((((((17,(39,59)),(27,41)),(31,50)),49),(44,52)),(((((((18,23),54),(22,32),53),58),21),48),45)),25),51),20),34),(((((19,46),29),28,38,42,47,57),55),36)),((24,(26,(((30,43),40),37))),56)),35),33)Pogonomyrmex),1);
+
+
+
+END;
+BEGIN TREES;
+      TITLE Tb5116;
+      LINK TAXA = Taxa2;
+         TRANSLATE
+            1    Pogonomyrmex_occidentalis,
+            2    Pogonomyrmex_anergismus,
+            3    Pogonomyrmex_apache,
+            4    Pogonomyrmex_barbatus,
+            5    Pogonomyrmex_bicolor,
+            6    Pogonomyrmex_colei,
+            7    Pogonomyrmex_desertorum,
+            8    Pogonomyrmex_rugosus,
+            9    Pogonomyrmex_texanus,
+            10   Pogonomyrmex_wheeleri;
+      TREE Fig._6.11 = [&R] ((((2,6),(((3,9),7),5),4,10),8),1)Pogonomyrmex;
+
+
+
+END;

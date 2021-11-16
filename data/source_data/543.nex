@@ -1,0 +1,65 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:36 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Strauss S., Doerksen A., & Byrne J. 1990. Evolutionary relationships of Douglas-fir
+and its relative (genus Pseudostuga) from DNA restriction fragment analysis.
+Canadian Journal of Botany, 68: 1502-1510.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S188]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=6;
+        TAXLABELS
+            Larix_occidentalis
+            Pseudotsuga_japonica
+            Pseudotsuga_macrocarpa
+            Pseudotsuga_menziesii
+            Pseudotsuga_sinensis
+            Pseudotsuga_wilsoniana
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M343]
+
+	TITLE Appendix;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=38;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1" MISSING=? GAP= -;
+
+MATRIX
+[                                  10        20        30        ]
+[                                   .         .         .        ]
+Larix_occidentalis         0-01----1--------------1-----------0--
+Pseudotsuga_japonica       00111100010001111110000110000110100110
+Pseudotsuga_macrocarpa     0100-010111100000101111100011001000001
+Pseudotsuga_menziesii      01001010101100000001111100011001100101
+Pseudotsuga_sinensis       10110101010011111110000011100110111110
+Pseudotsuga_wilsoniana     10110101010011111110000011100110111110
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb4916;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Pseudotsuga_macrocarpa,
+            2    Pseudotsuga_menziesii,
+            3    Pseudotsuga_japonica,
+            4    Pseudotsuga_wilsoniana,
+            5    Pseudotsuga_sinensis,
+            6    Larix_occidentalis;
+      TREE Fig._5B = [&R] (((1,2),(3,(4,5)))Pseudotsuga,6);
+      TREE Fig._5A = [&R] ((1,(2,(3,(4,5))))Pseudotsuga,6);
+
+
+
+END;

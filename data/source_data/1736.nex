@@ -1,0 +1,135 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:50 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Agnolin F.L. 2007. Brontornis burmeisteri Moreno & Mercerat, un Anseriformes (Aves)
+gigante del Mioceno Medio de Patagonia, Argentina. Revista del Museo Argentino
+de Ciencias Naturales, n.s., 9(1): 15-25.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S11368]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=12;
+        TAXLABELS
+            Anatoidea
+            Anhimidae
+            Anseranatidae
+            Brontornis
+            Diatryma
+            Dromornithidae
+            Galliformes
+            Paraphysornis
+            Phorusrhacos
+            Rallidae
+            Tinamidae
+            Tolmodus
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M8377]
+
+	TITLE Agnolin_07_birds;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=51;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2 3" MISSING=? GAP= -;
+	CHARSTATELABELS
+		1  Premaxilar / lateralmente_comprimido_y_dorsoventralmente_alto 'lateralmente expandido y dorso-ventralmente aplanado (Cracraft, 1988)',
+		2  Proceso_labial_del_premaxilar / delgado 'dorsoventralmente alto (Andors, 1992)',
+		3  Septo_internarial / imperforado 'perforado (Andors, 1992)',
+		4  'îrbitas, en vista lateral' / cercanas_al_plano_dorsal_del_crneo alejadas_del_plano_dorsal_del_crneo,
+		5  Proceso_zigomtico / presente 'ausente (Andors, 1992)',
+		6  Porcin_libre_del_lacrimal / ausente_o_reducida 'presente y bien desarrollada (Andors, 1992)',
+		7  Cresta_para_el_msculo_aductor_externo_articular_muy_bien_desarrollada_y_desplazada_al_borde_inferior_del_postorbital / ausente presente,
+		8  Segunda_barra_yugal_fusionada_al_proceso_postorbital_para_formar_un_proceso_esfenotemporal_completo / ausente 'presente (Dzerzhinsky, 1995)',
+		9  Superficie_ventral_del_proceso_postorbital / lisa_o_levemente_excavada 'fuertemente excavada (Ericson, 1997)',
+		10  Proceso_paraoccipital_separado_del_proceso_tico_por / una_concavidad_poco_profunda_o_una_linea_recta una_amplia_concavidad_redondeada,
+		11  Fosa_temporal / amplia_y_ubicada_psterodorsalmente reducida_y_desplazada_psteroventralmente,
+		12  Fontanelas_occipitales / presentes 'ausentes (Andors, 1992)',
+		13  Basipterigoides_medialmente_expandido_en_una_lmina_transversal / ausente 'presente (Andors, 1992)',
+		14  Procesos_basipterigoideos_pedicelados / ausentes 'presentes_(Murray_and_Megirian,_1998)',
+		15  'Pterigoides, con el extremo posterior para su articulacin para el cuadrado cilindrico' / ausente 'presente (Cracraft and Clarke, 2001)',
+		16  Articulacin_rostropterigoidea / ausente 'presente (Cracraft and Clarke, 2001)',
+		17  'Margen dorsal del cuadrado, en vista lateral' / cncavo 'recto (Ericson, 1997)',
+		18  Numero_de_cndilos_distales_del_cuadrado / tres 'dos_(Cracraft,_1988)',
+		19  Cndilo_articular_medial_del_cuadrado / longitud_anteroposterior_comparada_con_el_ancho_lateromedial_subiguales 'comprimido anteroposteriormente y expandido lateromedialmente (Andors, 1992)',
+		20  Cuadrado_con_faceta_caudal_para_el_yugal_muy_amplia / ausente 'presente (Murray and Megirian, 1998)',
+		21  Proceso_orbital_del_cuadrado / presenta_una_gran_incisura_ventral 'incisura ventral obsoleta o ausente (Andors, 1992)',
+		22  Proceso_orbital_del_cuadrado / delgado dorsoventralmente_extendido,
+		23  Cuadrado_con_el_proceso_para_el_origen_del_msculo_mandibular_profundo_externo / ausente 'presente (Andors, 1992)',
+		24  Proceso_pterigoideo_del_cuadrado / 0 'dorsoventralmente reducido, protruyente y redondeado' 'dorsoventralmente amplio, protruyente y eliptico' 'dorsoventralmente reducido, poco desarrollado y re-dondeado',
+		25  Proceso_pterigoideo_del_cuadrado / orientado_horizontalmente dirigido_dorsalmente,
+		26  Lmina_interna_de_los_palatinos / presente_y_bien_desarrollada 'obsoleta_(Ericson,_1997)',
+		27  Sinfisis_mandibular / 'anteroposteriormente_extensa_y_relativamente_elongada_(abarca_ms_del_35_%_de_la_longitud_mandibular_total)' 'anteroposteriormente_comprimida_y_lateromedialmente_amplia_(abarca_me-nos_del_35_%_de_la_longitud_mandibular_total)',
+		28  Proceso_mandibular_medial / subigual_en_toda_su_longitud 'bien_expandido_distalmente_(Andors,_1992)',
+		29  Proceso_retroarticular_de_la_mandibula / corto_y_posteriormente_trunco 'lateralmente_comprimido_y_posteriormente_agudo_(Andors,_1992)',
+		30  Receso_cnico_de_la_mandibula / ausente_o_superficial 'profundo_(Andors,_1992)',
+		31  Foramen_procoracoides_del_coracoides / ausente_o_presente_pero_pobremente_desarrollado presente_y_muy_amplio,
+		32  Cuello_coracoidal / subcilindrico 'lateralmente expandido (Woolfenden, 1961)',
+		33  Porcin_esternal_del_coracoides_fuertemente_expandida / ausente 'presente (Andors, 1992)',
+		34  Esternn_fuertemente_pneumatizado_en_su_cara_visceral / ausente 'presente (Livezey, 1986)',
+		35  Trabecula_medial_del_extremo_distal_del_esternn / aguda_y_bien_proyectada_posteriormente 'ancha, subcuadrangular y poco proyectada posteriormente',
+		36  Acromion_de_la_escpula / agudo_y_elongado 'acortado (Andors, 1992)',
+		37  Extremo_distal_del_humero_comprimido_anteroposteriormente_y_expandido_lateromedialmente / ausente 'presente (Olson, 1999)',
+		38  Extremo_distal_del_radio / de_ancho_subigual_al_de_la_difisis_sea fuertemente_expandido_distalmente,
+		39  Receso_iliaco / profundo 'superficial (Andors, 1992)',
+		40  Fosa_renal_de_la_pelvis / profunda 'superficial (Andors, 1992)',
+		41  Cresta_iliaca_caudal / aguda_y_bien_desarrollada 'pobremente definida (Andors, 1992)',
+		42  Surco_intercondilar_distal_del_tibiotarso / estrecho_y_profundo 'amplio y poco profundo (Andors, 1992)',
+		43  Cndilo_medial_del_tibiotarso_anteroposteriormente_elongado / ausente 'presente (Andors, 1992)',
+		44  Cndilo_interno_del_tibiotarso_fuertemente_dirigido_medialmente / ausente 'presente (Alvarenga, 1982)',
+		45  Tamao_del_cndilo_medial_comparado_con_el_lateral / 'cndilo lateral mayor que el medial (Bourdon, 2005)' 'cndilo lateral menor que el medial, o subiguales en tamao (Bourdon, 2005)',
+		46  Prominencia_intercotilar_proximal_del_tarsometatarso / estrecha_y_baja 'amplia y profunda (Andors, 1992)',
+		47  Fosa_parahipotarsal_del_tarsometatarso / amplia 'pequea (Ericson, 1997)',
+		48  Ubicacin_de_la_apertura_distal_del_canal_extensor_del_tibiotarso / medial 'centralizada_(Ericson,_1997)',
+		49  Trclea_II_del_tarsometatarso / ubicada_prcticamente_a_la_misma_altura_o_ms_abajo_que_la_trclea_IV 'posicionada proximalmente (Ericson, 1997)',
+		50  Falanges_ungueales / 'agudas, ventralmente curvadas y de seccin subtriangular' 'agudas, ventralmente curvadas y de seccin subcircular' 'redondeadas, ventralmente planas y de seccin subtriangular (Dolgopol de Sez, 1927)',
+		51  Falanges_ungueales_con_expansiones_proximolaterales / ausentes presentes,
+		;
+
+MATRIX
+[                          10        20        30        40        50 ]
+[                           .         .         .         .         . ]
+Anatoidea          111011011010111111111111111110001000001111111111110
+Anhimidae          011111111111111111111111111111111111111111111101010
+Anseranatidae      111111111110111111111111111111111111111111111101010
+Brontornis         ?????????????????110?1?11?1??????0???????111110-001
+Diatryma           0100010010011010111011130001101010?0001111111101001
+Dromornithidae     0100010?101111?0111111111?11??1?-00??01111111101001
+Galliformes        000000000000000011000012000010000000000000000000010
+Paraphysornis      0????0??????0??0?00000010?0100000??010???0001000010
+Phorusrhacos       0????0????????0??00???????0100000???0????0001000010
+Rallidae           000000000000000000000000000000000000000000000000000
+Tinamidae          000000000000000000000000000000000000000000000000000
+Tolmodus           000000000000?00000000001000100000??0000000001000010
+;
+END;
+
+BEGIN TREES;
+      TITLE Agnolin_07_birds;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Tinamidae,
+            2    Rallidae,
+            3    Paraphysornis,
+            4    Tolmodus,
+            5    Phorusrhacos,
+            6    Galliformes,
+            7    Diatryma,
+            8    Brontornis,
+            9    Dromornithidae,
+            10   Anhimidae,
+            11   Anseranatidae,
+            12   Anatoidea;
+      TREE Fig._1 = [&R] ((1,2),((4,5,3),(6,(7,(8,(9,(12,(11,10))))))));
+
+
+
+END;

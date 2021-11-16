@@ -1,0 +1,88 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:48 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Eriksson R. 1994. Phylogeny of Cyclanthaceae. Plant Systematics and Evolution, 190:
+31-47.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S112]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=13;
+        TAXLABELS
+            Asplundia_sg_Asplundia
+            Asplundia_sg_Choanopsis
+            Carludovica
+            Chorigyne
+            Cyclanthus
+            Dianthoveus
+            Dicranopygium
+            Evodianthus
+            Ludovia
+            Schultesiophytum
+            Sphaeradenia
+            Stelestylis
+            Thoracocarpus
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M1846]
+
+	TITLE Table_1;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=63;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1" MISSING=? GAP= -;
+
+MATRIX
+[                                   10        20        30        40        50        60   ]
+[                                    .         .         .         .         .         .   ]
+Asplundia_sg_Asplundia      011110011111110000000001001000101000000000000011110110110010000
+Asplundia_sg_Choanopsis     011110011111110000000001001000100010000000000011110110110010000
+Carludovica                 001110011111110000000100011001100000000001000011110111100000000
+Chorigyne                   11?????0111110?1?00000010010101110000000001110???0?00001110001?
+Cyclanthus                  000000000000000000000000000000000000000000000000000000000000000
+Dianthoveus                 0011101111111100010000001110001001010111100100???0?011110000000
+Dicranopygium               0111100111111100000000010110?0101000000000000011110000000000001
+Evodianthus                 001111111111110001000000011000100110100110010001110110110010000
+Ludovia                     1111100011111011001110011010001000000000001000?1?11000000000000
+Schultesiophytum            0100000111110100000000110110?00000010000000100?1?00000001000000
+Sphaeradenia                111111001111101110000001001000110000000000100101101000011000000
+Stelestylis                 111111001111101110000001001000111000000000100011101000011101100
+Thoracocarpus               0111100111111100000000010011001000100000000000?1?10011100010000
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb4831;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Cyclanthus,
+            2    Schultesiophytum,
+            3    Dicranopygium,
+            4    Carludovica,
+            5    Evodianthus,
+            6    Dianthoveus,
+            7    Thoracocarpus,
+            8    Asplundia_sg_Choanopsis,
+            9    Asplundia_sg_Asplundia,
+            10   Ludovia,
+            11   Sphaeradenia,
+            12   Stelestylis,
+            13   Chorigyne;
+      TREE Fig._3C = [&R] ((((12,13,11),10),(5,6),4,8,9,7,3,2),1)Cyclanthaceae;
+      TREE Fig._3B = [&R] ((((((12,13),11),10),(5,6),4,8,9,7,3),2),1);
+      TREE Fig._3A = [&R] ((((((12,13),11),10),(((5,6),4),8,9,7),3),2),1);
+      TREE Fig._2B = [&R] ((((((12,13),11),10),((((5,6),4),((8,9),7)),3)),2),1);
+      TREE Fig._2A = [&R] ((((((12,13),11),10),(((5,6),4),8,9,7),3),2),1);
+
+
+
+END;

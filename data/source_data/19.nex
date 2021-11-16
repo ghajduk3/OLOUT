@@ -1,0 +1,549 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:27 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Gaubert P., Wozencraft W., Cordeiro-estrela P., & Veron G. 2005. Mosaics of Convergences,
+Noise and Misleading Morphological Phylogenies: what's in a Viverrid-like
+Carnivoran?. Systematic Biology, 54(6): 865-894.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S1330]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=44;
+        TAXLABELS
+            Arctictis_binturong
+            Arctogalidia_trivirgata
+            Bassariscus_astutus
+            Canis_aureus
+            Chrotogale_owstoni
+            Civettictis_civetta
+            Cryptoprocta_ferox
+            Cynogale_bennettii
+            Diplogale_hosei
+            Eupleres_goudotii
+            Felis_bengalensis
+            Fossa_fossana
+            Galidia_elegans
+            Genetta_abyssinica
+            Genetta_angolensis
+            Genetta_genetta
+            Genetta_johnstoni
+            Genetta_maculata
+            Genetta_servalina
+            Genetta_thierryi
+            Genetta_tigrina
+            Genetta_victoriae
+            Hemigalus_derbyanus
+            Herpestes_ichneumon
+            Hyaena_brunnea
+            Lynx_lynx
+            Macrogalidia_musschenbr
+            Mungos_mungo
+            Nandinia_binotata
+            Osbornictis_piscivora
+            Paguma_larvata
+            Paradoxurus_herma
+            Paradoxurus_jerdoni
+            Paradoxurus_zeylonensis
+            Poiana_richardsoni
+            Prionodon_linsang
+            Prionodon_pardicolor
+            Proteles_cristatus
+            Ursus_americanus
+            Viverra_civettina
+            Viverra_megaspila
+            Viverra_tangalunga
+            Viverra_zibetha
+            Viverricula_indica
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M1389]
+
+	TITLE Appendices_I_and_II;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=349;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2 3 4" MISSING=? GAP= -;
+	CHARSTATELABELS
+		1  'Maxilla, infraorbital foramen (position of the anterior opening of the infraorbi' / 'clearly anterior to the antorbital rim (i.e., long)' 'slightly anterior to antorbital rim (i.e., short)' 'ventral to the antorbital rim (i.e., very short).',
+		2  'Maxilla, infraorbital foramen, overall size' / small large.,
+		3  'Maxilla, infraorbital foramen, shape' / 'oval (dorsoventrally elongated)' round.,
+		4  'Maxilla, infraorbital foramen' / 'dorsal and-or posterior to the P3-P4 area' 'dorsal to the P3-P2 area.',
+		5  'Maxilla, infraorbital foramen, ventral border' / posterior_to_dorsal_border ventral_to_dorsal_border anterior_to_dorsal_border.,
+		6  'Maxilla, infraorbital foramen, ventral border, relative position' / dorsal_to_P3 dorsal_to_P4.,
+		7  'Maxilla, infraorbital foramen, dorsal border' / dorsal_to_P3 dorsal_to_P2 dorsal_to_P4.,
+		8  'Maxilla, anterior alveolar foramen - A small foramen that lies within the infrao' / within_the_infraorbital_canal within_the_orbit.,
+		9  'Maxilla, antorbital fossa - The antorbital fossa is on the rostrum and directly' / absent present.,
+		10  'Maxilla, nasolabialis fossa - This fossa lies on the ventral root of anterior su' / absent present.,
+		11  'Nasals, proportional dimensions - Length measured at suture; width measured as w' / '> 2x as long as wide' '< 2x as long as wide.',
+		12  'Nasals, posterior extension between frontals' / extends_posteriorly_to_the_level_of_the_posteriormost_extension_of_the_maxilla does_not_extend_posteriorly_to_the_level_of_the_posteriormost_extension_of_the_maxilla extends_posteriorly_beyond_the_level_of_the_posteriormost_extension_of_the_maxilla.,
+		13  'Nasals, width' / widest_anteriorly_and_narrowing_posteriorly 'near parallel sides from maxilla-frontal suture' 'secondary widening at frontal-maxilla suture.',
+		14  'Nasals and frontals, midline depression' / present_in_both present_in_nasals_only 'absent (in both).',
+		15  Maxilloturbinals / small 'large and branching, excluding nasoturbinals from narial opening.',
+		16  'Frontals, inflation anterior to the postorbital processes' / absent slight large.,
+		17  'Rostrum, dorsal profile' / concave 'straight (or nearly straight)' convex.,
+		18  'Rostrum, trough - This is caused by the retraction of the nasals, creating a s' / 'rostrum extends anterior to maxilla-premaxilla palatal suture' 'rostrum is retracted slightly posterior to maxilla-premaxilla palatal suture.',
+		19  'Palate, anterior palatine foramina (= posterior palatine foramina of Crouch, 196' / 'adjacent to P4-M1' adjacent_to_P3 adjacent_to_P2 adjacent_to_P1.,
+		20  'Palatine-maxilla, anterior palatine foramina' / 'located at palatine-maxilla suture' located_well_anterior_in_the_maxilla.,
+		21  'Palate, width, posterior to the canines - Measured as the buccal width at the ca' / significantly_wider_than_width_measured_at_canines nearly_equal_to_width_at_canines.,
+		22  'Palate, tooth rows, lingual edge' / nearly_parallel divergent.,
+		23  Palatal_surface / flat_or_slightly_concave distinct_longitudinal_depression extreme_vaulting.,
+		24  'Palatine-maxilla suture' / medial_or_posterior_to_P4 'medial to P3-P4' medial_to_P3 'medial to P3-P2.',
+		25  'Palatine, mesopterygoid palate - The mesopterygoid palatal region is here unders' / 'absent, or posterior border of the palate anterior to the posterior edge of the last teeth' 'present, short (width > length)' 'present, long (width < length).',
+		26  'Palatine, relative size (excluding mesopterygoid)' / midline_length_nearly_equal_in_length_to_maxilla_midline midline_length_less_than_midline_length_of_maxilla midline_length_greater_than_midline_length_of_maxilla.,
+		27  'Palatine, relative size (including mesopterygoid)' / midline_length_nearly_equal_in_length_to_maxilla_midline midline_length_less_than_midline_length_of_maxilla midline_length_greater_than_midline_length_of_maxilla.,
+		28  'Palatine, mesopterygoid region' / 'flat-absent' 'slightly concave (depressed along midline).',
+		29  'Palatine, mesopterygoid region - To understand this feature, the palate must be' / does_not_extend_posteriorly_to_a_point_that_would_line_up_with_the_supraorbital_processes extends_posteriorly_to_a_point_that_would_line_up_with_the_supraorbital_processes extends_posteriorly_to_a_point_that_would_line_up_posterior_with_the_supraorbital_processes.,
+		30  'Palatine, post palatal notch - This refers to the anterior emargination between' / postpalatal_notch_present postpalatal_notch_absent.,
+		31  'Palatine, extension of palate posterior to the tooth row - This refers to the po' / absent_or_vestigal 'present, small (smaller than the length of the last tooth)' 'present, large (longer than the length of the last tooth).',
+		32  'Premaxilla, incisive foramina (= anterior palatine foramina of Crouch, 1969) - S' / 'oblong, long' 'oblong, short or rounded.',
+		33  'Premaxilla-maxilla suture (midline) (Qiu, 1987)' / posterior_to_canines medial_to_canines.,
+		34  'Premaxilla, Stenos foramen (posterior edge) - Stenos foramen appears in some ma' / absent medial_to_the_posterior_edge_of_the_incisive_foramina posterior_to_the_posterior_edge_of_the_incisive_foramina.,
+		35  'Vomer, attachment to palate' / attached_to_anterior_end_of_palatine 'not attached to palatine (attached to maxilla).',
+		36  'Orbit, anterior margin - Coding based on holding the palate horizontal-level.' / dorsal_to_P4 'dorsal to P3-P4' dorsal_to_P3 'dorsal to P3-P2' posterior_to_P4.,
+		37  'Alisphenoid, foramen rotundum - Serves for the passage of the maxillary division' / posteriorly_separated_from_opening_of_sphenorbital_fissure closely_adjacent_to_opening_of_sphenorbital_fissure.,
+		38  'Alisphenoid, foramen rotundum' / lateral_to_sphenorbital_fissure ventral_to_sphenorbital_fissure.,
+		39  'Alisphenoid, (alar) canal (Flynn et al., 1988) - Work by Novacek (1977, 1986) an' / present absent._Serves_for_the_passage_of_the_maxillary_artery.,
+		40  'Alisphenoid-frontal muscle ridge' / absent present.,
+		41  'Alisphenoid, optic foramen interorbital connection - In some species, there is a' / partially_blocked clearly_open closed.,
+		42  'Frontal, supraorbital process' / 'small process (maximum tip to tip distance across supraorbitals less than 125% the width of the postorbital constriction)' small_ridge_or_protuberance 'long process (greater than 125 % the width of the postorbital constriction)' 'long process, joins jugal' absent.,
+		43  'Frontal-parietal suture (at midline) - Baseline is a vertical line through the g' / posterior_to_anterior_edge_of_glenoid_fossa at_level_of_anterior_edge_of_glenoid_fossa anterior_to_anterior_edge_of_glenoid_fossa.,
+		44  'Frontal, temporal crest - Serves for the attachment of m. temporalis that raises' / 'present, single, well defined, Y-shaped' absent_or_small 'present, double, nearly parallel' 'double, lyre shaped.',
+		45  'Frontal, postorbital region (width)' / '> interorbital region' approximately_equal_to_interorbital_region '< interorbital region.',
+		46  'Frontal, interorbital inflation' / absent variable_degrees_of_inflation.,
+		47  'Frontal, postorbital inflation' / absent variable_degrees_of_moderate_inflation greatly_inflated.,
+		48  'Postorbital constriction position - The postorbital constriction would be the po' / immediately_posterior_to_supraorbital_processes considerably_posterior_to_the_supraorbital_processes.,
+		49  Jugal / reaches_lacrimal does_not_reach_lacrimal.,
+		50  'Jugal-maxilla, posterioventral process - Serves for the attachment of the masset' / absent 'present, weak' 'present, strong.',
+		51  'Jugal, dorsal postorbital process' / 'present, short process' small_bump_or_ridge absent 'present, long' 'present, long, joining supraorbital process of frontal.',
+		52  'Jugal, exposure on interorbital surface' / large_interior_exposure predominately_confined_to_exterior_surface.,
+		53  Lacrimal / 'large, extends ventral and dorsal to naso lacrimal foramen' 'reduced, does not extend dorsal to naso lacrimal foramen' 'reduced, does not extend ventral or dorsal to nasolacrimal foramen' 'large, extends dorsal, ventral and rostral to foramen.',
+		54  'Lacrimal, inferior oblique muscle fossa' / 'separate from nasolacrimal foramen, at lacrimal-maxilla suture' 'separate from nasolacrimal foramen, in maxilla. The fossa serves for the attachment of the m. obliquus ventralis which rotates the eye.',
+		55  Inferior_oblique_muscle_fossa / single double.,
+		56  'Orbitosphenoid, anterior process' / 'long, directed anterodorsally' 'long, directed anteroventrally, nearly reaching sphenopalatine foramen' 'short, directed anteroventrally' absent.,
+		57  'Orbitosphenoid, shape' / 'reduced, oblong, restricted to area around optic foramen and the process anterior to it' 'irregular, with wing directly dorsal to optic foramen.',
+		58  'Orbitosphenoid, sphenorbital fissure size' / less_than_two_times_the_size_of_the_foramen_rotundum more_than_three_times_the_size_of_the_foramen_rotundum smaller_than_the_size_of_the_foramen_rotundum.,
+		59  'Maxilla, intraorbital wing' / 'absent-vestigial' 'present (small).',
+		60  'Maxilla, posterior border of zygomatic process' / 'at plane posterior to P4-M1' 'at plane of P4-M1.',
+		61  'Maxilla, anterior edge of orbit' / 'posterior to P3-P4' 'at the plane of P3-P4' 'anterior to P3-P4.',
+		62  'Maxilla, orbital process - The maxilla expands outward in a horizontal plane in' / expanded_in_orbital_region_and_forming_a_horizontal_shelf not_expanded_in_orbital_region.,
+		63  'Palatine, orbital process' / not_expanded_in_orbital_region greatly_expanded_in_orbital_region_and_forming_a_horizontal_shelf.,
+		64  'Palatine, sphenopalatine foramen - Serves for the passage of the sphenopalatine' / near_equal_in_size_to_palatine_canal less_than_two_times_the_size_of_the_palatine_canal greater_than_twice_as_large_as_the_palatine_canal.,
+		65  'Palatine, location of the sphenopalatine foramen (= orbitonasal foramen of Butle' / dorsal_to_M2 dorsal_to_P4 dorsal_to_M1 anterior_to_P4 posterior_to_M2.,
+		66  'Palatine, sphenopalatine foramen - Serves for the passage of the sphenopalatine' / confluent closely_adjacent_to_posterior_opening_of_palatine_canal clearly_separate.,
+		67  'Palatine, orbital wing' / 'reaches lacrimal, broad contact' 'reaches lacrimal, narrow contact.',
+		68  'Palatine, orbital exposure' / straight_or_concave_orbital_wall convex_or_inflated_orbital_wall.,
+		69  'Pterygoid, epipterygoid processes - Serves for the attachment of m. pterygoid me' / absent_or_weakly_defined 'present, forming narrow ridge' 'present, triangular process.',
+		70  'Pterygoid, hamular process' / descends_considerably_ventral_to_the_palate approximately_at_the_level_of_the_palate.,
+		71  'Alisphenoid, foramen ovale (position) - Comparisons made to the posteriormost ed' / anterior_to_glenoid_fossa medial_to_glenoid_fossa posterior_to_glenoid_fossa.,
+		72  'Alisphenoid canal, anterior opening (foramen rotundum) - Comparisons made while' / posterior_to_pterygoids dorsal_to_pterygoids anterior_to_pterygoids.,
+		73  'Basioccipital, hypoglossal foramen (= condyloid foramen of Hunt, 1987; Flynn et' / distinctly_separate_from_posterior_lacerate_foramen closely_adjacent confluent_with_posterior_lacerate_foramen.,
+		74  'Basioccipital, posterior lacerate foramen (= jugular) - Serves for the passage o' / large small.,
+		75  'Basioccipital, muscle fossa - Serves for the insertion of m. rectus capitis vent' / present 'absent-weakly defined.',
+		76  'Basioccipital, m. longus capitis rugosity' / present absent.,
+		77  'Basioccipital, contact with entotympanic bullae' / bassioccipital_appressed_and_protrudes_ventrally_against_bullae bassioccipital_does_not_protrude_against_bullae.,
+		78  'Basioccipital width (between bullae at midpoint)' / narrower_than_pterygoid_width approximately_equal_to_pterygoid_width wider_than_pterygoid_width.,
+		79  'Basisphenoid, medial lacerate foramen - Serves for the passage of the ascending' / covered_by_bullae 'anteriomedial to bullae (e.g. Herpestes).',
+		80  'Basisphenoid, posterior opening of the vidian canal - In the space between the p' / 'present, posterior to pterygoids' 'present, medial to posterior edge of pterygoids' absent.,
+		81  'Squamosal, postglenoid foramen (Hough, 1948; Neff, 1983; Flynn et al., 1988) - F' / 'present, lateral to bullae on medial edge of the infrasquamosal fossa' 'vestigial-absent.',
+		82  'Squamosal, postglenoid process - Reference point is posteriormost surface of gle' / closely_appressed_to_auditory_bulla adjacent_to_auditory_bulla well_separated_from_auditory_bulla.,
+		83  'Squamosal, infrasquamosal fossa - The infrasquamosal fossa is the portion of the' / 'present, narrow' 'present, wide' absent.,
+		84  'Squamosal, lateral extension' / both_1_and_2 'expanded laterally, only dorsal to the external auditory meatus connecting the mastoid region with the zygomatic arch' expanded_laterally_and_only_dorsal_to_the_mastoid absent.,
+		85  'Ectotympanic-entotympanic division - In the viverrids, the point of contact betw' / not_externally_visible 'externally visible, without clear suture' 'externally visible, with clear suture.',
+		86  'Ectotympanic, ring, medial expansion (Hunt, 1987; Neff, 1983)' / 'moderate inflation and-or chambering' slight_chambering_or_inflation extremely_large.,
+		87  'Ectotympanic, ring, lateral expansion (external auditory meatus) (Hunt, 1987; Ne' / a_simple_C_shaped_ring_with_no_significant_lateral_expansion bowl 'lateral outgrowths along rim nearly or completely meet along midline, forming flattened extension' meatal_tube_formed_that_scrolls_anteriorly_lateral_to_most_lateral_part_of_ectotympanic_ring.,
+		88  'Ectotympanic, ring, inclination' / inclined nearly_vertical.,
+		89  'Ectotympanic, inflation, form' / medially_expanded_and_inflated_C_shape 'slightly flattened, fan shape' more_extensive_flattened_fan_shape.,
+		90  'Ectotympanic, direct ventral inflation to meatal tube' / absent present.,
+		91  'Ectotympanic, septum (Hunt, 1987)' / 'complete (i.e., touches petrosal)' partial absent.,
+		92  'Ectotympanic, styliform process - Anteromedial and ventral to the eustachian tub' / present reduced absent.,
+		93  'Ectotympanic, eustachian tube' / 'wide (nerve sulcus and tube widely separate)' 'narrow (pterygoid nerve sulcus and eustachian tube closely adjacent).',
+		94  'Ectotympanic, anteromedial process - The anteromedial process is on the anterome' / present absent.,
+		95  'Ectotympanic, external auditory meatus' / level_with_nuchal_crest far_forward_of_nuchal_crest.,
+		96  'Entotympanic, relative inflation (Hunt, 1987)' / depth_greater_than_ectotympanic_ring depth_approximately_equal_to_ectotympanic_ring 'entotympanic covered by ectotympanic, chambered' entotympanic_not_inflated.,
+		97  'Entotympanic, ventral pseudoseptae' / absent present.,
+		98  'Entotympanic, septum' / 'anterior-posterior orientation' 'medial-lateral orientation' absent.,
+		99  'Entotympanic, septum - Hunt (1987) contrasted Nandinia with no true internal sep' / absent present.,
+		100  'Entotympanic, carotid canal, posterior opening (Flynn et al., 1988)' / confluent_with_posterior_lacerate_foramen clearly_anterior_to_posterior_lacerate_foramen 'absent (carotid canal absent).',
+		101  'Entotympanic, course of the internal carotid - Hunt (1987) coded herpestids and' / 'perbullar - between petrosal and basioccipital' 'perbullar - enclosed in entotympanic' transpromontorial_groove_in_the_entotympanic transpromontorial.,
+		102  'Entotympanic ossification - Flynn et al. (1988) listed 0 as a synapomorphy for' / ossified 'unossified (i.e. Nandinia).',
+		103  'Entotympanic, rostral (Hunt, 1987) - Hunt (1987) established polarity on this fe' / athictic_entotympanic_intervenes_between_ectotympanic_and_rostral_entotympanic bradynothictic_entotympanic_intervenes_between_ectotympanic_and_rostral_entotympanic_only_in_juveniles thictic_caudal_entotympanic_does_not_intervene_between_ectotympanic_and_rostral_entotympanic.,
+		104  'Entotympanic, lateral expansion' / no_lateral_expansion lateral_expansion_predominately_posterior_to_fenestra_cochlea 'lateral expansion extends directly lateral-anterolateral to fenestra cochlea.',
+		105  'Entotympanic, anterior extension' / large_inflated_anterior_projection small_anterior_extension anterior_extension_restricted_to_tube.,
+		106  'Entotympanic, antero-medial extension' / 'entotympanic not expanded in antero-medial direction' extension_to_the_level_of_the_meatus extension_far_forward_the_meatus.,
+		107  'Entotympanic, carotide canal, anterior opening' / horizontal vertical.,
+		108  'Petrosal, laterally directed mastoid pocket, middle ear cavity (Hunt, 1987)' / absent present.,
+		109  'Petrosal, ventral promontorial process (Hunt, 1987)' / 'vestigial-absent' 'present, small' 'present, large.',
+		110  'Petrosal, posteromedial extension (Hunt, 1989)' / 'very large, with only a small space separating the petrosal from the occipital' 'large, with a moderately larger space separating the petrosal from the occipital' 'small, with a large space separating the petrosal from the occipital' 'very small, with an extremely large space separating the petrosal from the occipital.',
+		111  'Petrosal, mastoid, petramastoid ridge - Origin of m. digastricus which opens the' / absent present.,
+		112  'Petrosal, inferior petrosal sinus (petrobasilar canal) - Closely related to the' / 'large, open' small.,
+		113  'Petrosal, subarcuate (floccular) fossa - The subarcuate (floccular) fossa is a l' / deep shallow.,
+		114  'Petrosal, fenestra cochleae (round window)' / approximately_equal_in_size_to_oval_window considerably_greater_in_size_than_oval_window.,
+		115  'Petrosal, basal whorl of cochlea' / not_distinctly_swollen distinctly_swollen.,
+		116  'Petrosal, mastoid, exposed ventrolateral process' / 'large ventrally directed mastoid process, pendulant' 'pendulant, process absent, large deltoid exposure of mastoid' 'process absent, small deltoid exposure of mastoid' process_nearly_excluded_from_ventrolateral_exterior_surface.,
+		117  'Petrosal, mastoid, occipital exposure' / present absent.,
+		118  'Petrosal, mastoid, mastoid foramen' / present absent.,
+		119  Dorsal_pseudoseptae / absent present.,
+		120  'Petrosal, fossa muscularis major (tensor tympani fossa) - Origin of m. tensor ty' / 'present, deep' 'present, shallow.',
+		121  'Petrosal, promontorium (Hunt, 1989)' / smooth faceted.,
+		122  'Paroccipital process (Neff, 1983; Hunt, 1987; Flynn et al., 1988) - Origin of m.' / 'long, cupped around posterior edge of entotympanic and extends ventrally' 'long, separate, protrudes posteriorly' 'short, cupped around posterior edge of entotympanic and does not protrude ventrally' 'very short, does not cover posterior surface' 'very short, not cupped around posterior edge of entotympanic, and protrudes posteriorly but does extend ventrally.',
+		123  'Paroccipital process, width (Petter, 1974; Veron, 1995)' / paroccipital_process_narrow_and_not_covering_all_the_posterior_surface_of_the_mastoid 'paraoccipital process very wide and covering all the posterior surface of the mastoid, so that the mastoid can not be seen in a caudal view of the skull.',
+		124  'Ossicles, malleus, anterior (long) process' / 'present, long' 'present, short.',
+		125  'Ossicles, malleus, processus gracilis and anterior lamina' / well_developed reduced.,
+		126  'Ossicles, malleus, head' / 2_facets 3_facets.,
+		127  'Ossicles, malleus, head articulation surface, upper facet' / convex flat.,
+		128  'Presphenoid, shape' / long_narrow_ridge 'wide, flat.',
+		129  Vagina_processus_hyoideus / 'confluent with stylomastoid foramen (giving the appearance of one foramen)' slightly_separate_from_stylomastoid_foramen.,
+		130  'External auditory meatus, dorsal wall' / ectotympanic squamosal.,
+		131  'Internal carotid artery (Neff, 1983)' / large small 'vestigial-absent.',
+		132  'Arterial circulation, intracranial rete (Bugge, 1978)' / absent present.,
+		133  'Arterial circulation, major a1 arterial shunt (Bugge, 1978)' / present absent.,
+		134  'Arterial circulation, major a4 arterial shunt (Bugge, 1978; Neff, 1983; Wozencra' / absent 'present, intracranial rete.',
+		135  'Arterial circulation, major anastomosis X (Bugge, 1978; Wozencraft, 1989)' / present 'vestigial-absent.',
+		136  'Arterial circulation, major anastomosis Y (Bugge, 1978; Wozencraft, 1989)' / absent present.,
+		137  'Arterial circulation, major a2 arterial shunt (Bugge, 1978; Wozencraft, 1989)' / absent 'present, intracranial rete.',
+		138  'M. sternomastoideus and m. cleidomastoideus fossa (location)' / principally_on_mastoid on_squamosal_and_mastoid principally_on_squamosal principally_on_entotympanic_bullae.,
+		139  Sternomastoideus_and_cleidomastoideus_fossa / 'vestigial-reduced' pronounced.,
+		140  'Bullar configuration (Hunt, 1987)' / anterior_migration_of_entotympanic_beneath_ectotympanic no_change_during_ontogeny 'restriction of entotympanic to posterior auditory region, septum bullae transverse or inclined' greater_restriction_of_entotympanic_to_posterior_auditory_region.,
+		141  'Exoccipital, condyloid canal (occipital venous sinus) - Serves for the passage o' / large 'small-vestigial.',
+		142  Supraoccipital / not_inflated inflated.,
+		143  'Condyles, emarginated causing the condyle to appear slightly lobed' / absent present.,
+		144  'Parietal, sagittal crest (adult males)' / 'large, single' 'small, single' small_double absent 'large, double.',
+		145  'Parietal-supraoccipital, lambdoidal crest' / not_well_produced_dorsally_or_laterally_beyond_braincase well_produced_dorsally_beyond_braincase well_produced_laterally_and_dorsally_beyond_braincase.,
+		146  'Parietal, sagittal crest' / 'present, does not extend beyond lambdoidal crest' 'present, extends beyond lambdoial crest.',
+		147  'Parietal-supraoccipital, lambdoidal crest, caudal view' / narrow_V narrow_U broad_U.,
+		148  'I2 position (posterior edge)' / in_line_with_I1_and_I3 set_back.,
+		149  'I3, form (cross section)' / 'posterior broadening of crown, oblong' incisiform caniniform.,
+		150  'I3, size' / considerably_larger_than_I1_or_I2 slightly_larger_than_I1_or_I2 equal_in_size_to_I1_or_I2.,
+		151  'I1-I3, projection' / extends_upward 'procumbent (less than 45 degrees).',
+		152  'I1-I3 formation' / in_a_gently_curved_line in_a_straight_line 'sharply curved line (I3 laterally placed).',
+		153  'I1-I3 formation' / incisors_close_together incisors_separated_from_each_other.,
+		154  'I3-C1 occlusion' / 'present, small wear facet' 'present, large wear facet' absent.,
+		155  'C1, size' / 'large (1.5 to 2.5 times as high as I3)' 'small (equal in size, or less than 1.5 times as high as I3).',
+		156  'C1, flanges' / posterior_flange_present absent anterior_and_posterior_flanges_present.,
+		157  'C1, shape' / 'conical, recurved' 'dagger like, straight.',
+		158  P1 / present 'present in young adults, but lost in many old individuals' absent.,
+		159  'P1-1, relative size' / 'small, less than half the size of P2-2 or absent' 'small, < P2-2, but more than state 0' 'approximately equal to P2-2.',
+		160  'P1, number of roots' / 1_root_or_tooth_absent '2 roots, completely or partially fused.',
+		161  P1 / present 'present in young adults, but lost in many old individuals' absent.,
+		162  'P2, number of roots' / 2. 1.,
+		163  'P2, roots' / 2. 1. absent.,
+		164  'P3, number or roots' / 2. 1. 3.,
+		165  'P3, posterolingual cingulum' / 'present, reduced' 'present, broad' 'vestigial-absent.',
+		166  'P3, lingual cusp' / absent present.,
+		167  'P3-3, size (when viewed from the buccal aspect)' / 'nearly equal to P2-2' 'considerably larger than P2-2.',
+		168  'P3, roots' / 2. 1.,
+		169  'P3, talonid' / absent present.,
+		170  'P4, number of cusps' / '> 1' 1.,
+		171  'P4, roots' / 3_separate_roots '2 roots (one anterior, one posterior).',
+		172  'P4, parastyle' / 'absent-vestigial' 'present, small (less than size of protocone)' 'present, large (near equal to protocone)' 'present, larger than protocone.',
+		173  'P4, metacone or metastylar blade' / present vestigial absent.,
+		174  'P4, lingual lobe' / occupied_by_protocone_which_is_less_than_paracone occupied_by_extremely_small_protocone_which_is_much_less_than_paracone 'occupied by large protocone which is near equal to paracone. 3 = vestigial-absent.',
+		175  'P4, talon' / 'vestigial-absent' present.,
+		176  'P4, metastyle blade' / 'long, with notch reduced to slit' 'short, with V shaped notch' 'absent-vestigial.',
+		177  'P4, posterolingual cingulum' / present vestigial absent.,
+		178  'P4, talonid' / 'absent-vestigial' present.,
+		179  'P4, posterior accessory cusps - Flynn and Galiano (1982) considered P4 well deve' / '2 cusps, linear' 1_cusp no_cusps '2 or more cusps, nonlinear.',
+		180  'Carnassial shear, P4-M1 (well defined vertical facet) (Flynn and Galiano, 1982)' / present absent.,
+		181  'P4-M1 carnassial embrasure pit' / present absent.,
+		182  'M1, shape' / rhomboidal triangular round 'rectangular (length larger than width).',
+		183  'M1, roots' / 3. 2. 1.,
+		184  'M1, hypocone' / present absent.,
+		185  'M1, buccal lobes' / asymmetrical_or_absent symmetrical.,
+		186  'M1, trigonid (or equivalent)' / 'width < length' 'width > length' 'width = length' 'vestigial-absent.',
+		187  'M1, trigonid' / 'present, considerably higher than talonid' 'present, near equal in height to talonid' vestigial absent.,
+		188  'M1, talonid' / 'present, length < length of trigonid' vestigial_or_absent 'present, length > length of trigonid' length_near_equal_length_of_trigonid.,
+		189  'M1, metaconid' / large considerably_smaller_than_paraconid absent.,
+		190  'M1, protoconid' / present absent.,
+		191  'M1, entoconid' / present absent.,
+		192  'M1, hypoconid' / present absent.,
+		193  'M1, hypoconulid' / absent present.,
+		194  'M1, small cusp between hypoconid and protoconid' / absent present.,
+		195  'M2, paracone and metacone' / 'metacone and paracone present, paracone larger' metacone_absent tooth_without_distinguishable_cusps '? =tooth absent.',
+		196  M2 / present absent.,
+		197  'M2, hypocone' / absent present '? =tooth absent.',
+		198  'M2, roots' / 3. 2. 1. '? =tooth absent.',
+		199  'M2, shape' / rhomboidal triangular round '? =tooth absent.',
+		200  M2 / present absent.,
+		201  'M2, roots' / '> 1' 1. '? =tooth absent.',
+		202  'M2, cusps' / tooth_with_cusps_but_no_clear_trigonid_or_talonid trigonid_present tooth_without_clearly_defined_cusps '? =tooth absent.',
+		203  'M2- M2 relative size' / 'considerably smaller than M1-m1' 'slightly smaller than M1-M1' '? =tooth absent.',
+		204  M3 / present absent.,
+		205  'Upper molars, cingulum' / 'present, extremely large posteriolingual extension' 'absent, if present, not complete' 'present, complete around the base of the protocone.',
+		206  'Buccal cingulum, upper molars' / 'small-not developed' enlarged.,
+		207  'Diastema, I2 - I3' / absent present.,
+		208  'Diastema, C1 - P1 (or to first postcanine tooth)' / absent present.,
+		209  'Diastema, P2 - P3 (or second and third postcanine teeth)' / small_to_absent large.,
+		210  'Diastema, P1 - P2 (or first two postcanine teeth)' / small_to_absent large.,
+		211  'Mandible, angular process' / 'present, strong' 'present, weak.',
+		212  'Mandible, mandibular symphysis' / 'strong (well fused)' 'weak (not well fused).',
+		213  'Mandible, mandibular condyle - Alveolar line defined as a line connecting the an' / considerably_elevated_above_alveolar_line slightly_above_alveolar_line at_alveolar_line below_alveolar_line.,
+		214  'Mandible, medial shelf of angular process' / 'present, small ridge' 'present, wide shelf' absent.,
+		215  'dP3, number of accessory posterior cusps' / 1. 2. 3. 0.,
+		216  dP3_talonid / present absent.,
+		217  'dP3, lingual cusp' / 'present, large' absent 'present, small.',
+		218  'dP4, buccal lobes' / slightly_asymmetrical strongly_asymmetrical symmetrical.,
+		219  'dP3, accessory lingual cusp' / absent present.,
+		220  Mental_foramina / more_than_one one_only.,
+		221  'P4, anterior accessory cusp' / absent smaller_than_posterior about_equal_to_posterior larger_than_posterior.,
+		222  'Atlas, transverse process, posterior extension - M. levator scapulae attaches to' / to_the_level_of_the_caudal_articular_surface slightly_posterior_to_the_caudal_articular_surface considerably_posterior_to_the_caudal_articular_surface.,
+		223  'Atlas, alar and atlantal (intervertebral) foramen' / 'alar foramen not complete, notch present' 'alar foramen complete, widely separate from atlantal foramen' 'alar foramen complete, closely adjacent to atlantal foramen in common groove.',
+		224  'Atlas, ventral arch, length' / equal_to_or_shorter_than_dens_of_axis longer_than_dens_of_axis.,
+		225  'Atlas, transverse foramen (vertebral artery), posterior opening' / on_dorsal_surface caudal.,
+		226  'Axis, cranial articular processes and ventral surface of dens (odontoid) process' / discrete_surfaces one_continuous_surface.,
+		227  'Axis, spinous process' / with_a_relatively_flat_dorsal_profile with_a_convex_profile.,
+		228  'Axis, caudal spine of spinous process' / absent 'present, short' 'present, long.',
+		229  'Axis, ventral keel' / 'present, small' 'absent-vestigial' 'present, large.',
+		230  'Cervical vertebrae, ventral keel on vertebrae 6 and 7' / 'vestigial-absent' present.,
+		231  'Sacral vertebrae, spinous processes' / separate_processes fused_together_into_one_straight_keel.,
+		232  Tail / 'much shorter than head-body length (15-40%)' 'shorter than head-body length (40-85%)' 'approximately equal to head-body length (85-105%)' 'much longer than head-body length (> 105%)' 'vestigial (0-15%).',
+		233  'Scapula, teres major process (axillary border) (Taylor, 1974) - A large teres ma' / 'present, small perpendicular plane to scapular plane' 'present, small, on plane of scapula' 'present, large perpendicular plane to scapular plane.',
+		234  'Scapula, metacromion-acromion processes - The m. acromiodeltoideus attaches to t' / acromion_process_larger processes_approximately_equal_in_size metacromion_process_larger.,
+		235  'Scapula, metacromion process (shape)' / deltoid square.,
+		236  'Scapula, coracoid process' / 'present, well developed' 'present, small' 'vestigial-absent.',
+		237  'Scapula, supraspinus fossa (cranial border)' / larger_than_infraspinous_fossa near_equal_in_size.,
+		238  'Scapula, overall shape' / rectangular rounded triangular.,
+		239  'Thoracic vertebrae, number' / 13 14 15 12.,
+		240  'Humerus, supracondylar (= entepicondyloid) foramen' / absent present.,
+		241  'Humerus, pectoral crest - Pectoral ridge starts proximally at the anterior edge' / slender_with_little_development_of_crest absent 'robust, with crest developed toward midpoint of distal end.',
+		242  'Humerus, deltoid crest - Deltoid crest starts proximally at the infraspinous fac' / 'robust, with crest developed towards midpoint of distal end' slender_with_little_development_of_crest absent.,
+		243  'Humerus, olecranon fossa - Allows for greater arc movement of the antebrachium.' / covered_by_membrane_or_open ossified.,
+		244  'Humerus, distal condyle' / trochlea_distal_extension_greater_than_capitulum trochlea_distal_extension_approximately_equal_to_capitulum.,
+		245  'Humerus, radial and coronoid fossas' / confluent distinct.,
+		246  'Humerus, greater tuberosity, proximal end' / 'supraspinatus fossa large with robust deltoid anterior process (near equal in size to articular surface)' 'supraspinatus fossa small, restricted to narrow ridge, anterior process small (considerably smaller than articular surface).',
+		247  'Humerus, greater tuberosity, proximal end' / 'tall, extends beyond articular surface' 'very tall, extends considerably beyond articular surface' 'short, extends only slightly beyond articular surface' 'equal, equal in height to articular surface.',
+		248  'Humerus, distal supracondyloid crest - Serves for the insertion of the extensor' / 'absent-vestigial' small 'well developed, flares out.',
+		249  'Humerus, cross section' / oval round flattened.,
+		250  'Humerus, deltoid and pectoral crest confluence' / proximal midpoint.,
+		251  'Ulna, olecranon process, medial and lateral ridges' / lateral_ridge_larger approximately_equal 'vestigial-absent.',
+		252  'Ulna, olecranon process, medial fossa with ventral-medial flange' / 'vestigial-absent' 'present, small' 'present, large.',
+		253  'Ulna, distal lateral shelf - Serves for the attachment of the anconeus.' / absent present.,
+		254  'Ulna, olecranon process' / 'large ventral process - squared off outline' 'ventral process, vestigial-absent.',
+		255  'Ulna, olecranon, inclination (Taylor, 1974)' / posterior perpendicular anterior.,
+		256  'Radius, cross section' / flattened oval round.,
+		257  'Radius, tubercle' / 'present, small' 'vestigial-absent' 'present, large.',
+		258  'Radius, distal expansion' / 'vestigial-absent' present.,
+		259  'Radius, head - articular surface' / distinct_ridge without_distinct_ridge.,
+		260  'Manus, digit 1 (hallux)' / 'present, small (< 0.5 digit 2)' 'vestigial-absent' 'present, normal (approximately = 0.5 digit 2)' 'present, large (>0.5 digit 2).',
+		261  'Ilium, ventral iliac spine (King, 1966)' / not_everted_or_extended 'everted, extended anterolaterally.',
+		262  'Pelvis, overall shape' / 'triangular (thick fusion)' 'rectangular shape (thin fusion)' rhomboidal.,
+		263  'Femur, trochanteric fossa' / restricted_to_V_shape_above_lesser_trochanter expanded_medially_from_lesser_trochanter expanded_distally_from_lesser_trochanter.,
+		264  'Femur, lesser trochanter' / 'present, small' 'present, large.',
+		265  'Femur, lesser trochanter, position - Lesser trochanter aligns with lateral edge' / intermediate_position_aligned_with_lateral_edge_of_head 'medial position, directly below head' 'lateral position, lateral to lateral edge of head.',
+		266  'Femur, cross section' / oval round flattened.,
+		267  'Tibia, cross section' / round oval triangular.,
+		268  'Tibia-fibula, proximal fusion' / absent present.,
+		269  'Calcaneum, sustentaculum tali (Robinette and Stains, 1970)' / without_secondary_shelf small_secondary_shelf.,
+		270  'Calcaneum, calcaneal tubercle or process' / 'present, symmetrical' 'present, asymmetrical.',
+		271  'Calcaneum, medial tuberosity on calcaneal tubercle' / 'present, larger than lateral tuberosity' 'vestigial-absent' approximately_equal_to_lateral_tuberosity.,
+		272  'Calcaneum, peroneal tubercle' / 'distal to astragular tubercle, small' medial_to_astragular_tubercle.,
+		273  'Calcaneum, medial articular surface' / small 'large, extending to cuboid surface.',
+		274  'Calcaneum, cuboid surface' / perpendicular_to_axis 'slight medio-lateral slope' 'sharp medio-lateral slope' dorsal_slope.,
+		275  'Calcaneum, trochlear process' / 'vestigial-absent' small large.,
+		276  'Calcaneum, posterior projection off of cuboid surface' / 'vestigial-absent' present.,
+		277  'Pes, digit 1 (pollex)' / 'vestigial-absent' 'present, small (<0.5 digit 2)' 'present, normal (approximately = 0.5 digit 2)' 'present, large (>0.5 digit 2).',
+		278  Baculum / 'long, stylized' 'small, simple' 'vestigial, absent.',
+		279  'Rhinarium, philtrum - Externally visible rhinarial tract that connects the rhina' / 'present, narrow' 'present, wide' absent.,
+		280  'Rhinarium, groove' / 'present, extends dorsal to a point medial to nares' 'present, only ventral to nares' 'present, extends dorsal and onto dorsal surface' 'absent-vestigial.',
+		281  'Rhinarium, external nares' / 'extends onto lateral surface (not visible on dorsal surface)' extends_onto_dorsal_surface restricted_to_dorsal_surface.,
+		282  'Rhinarium, dorsal exposure' / approximately_equal_to_anterior_exposure much_less_than_anterior_exposure longer_than_anterior_exposure.,
+		283  'Rhinarium, profile' / perpendicular_to_axis convex concave.,
+		284  'External pinnae, aural posteroexternal bursa' / present absent.,
+		285  'External pinnae, posterior, subbursa lobe' / absent 'present (a posterior external lobe that projects ventral to the ear bursa).',
+		286  External_pinnae / 'present, angular or pointed' 'present, rounded.',
+		287  Ear_bursa / posterior_flap_of_bursa_behind_the_rim_of_the_pinna ear_bursa_absent posterior_flap_of_the_bursa_continuous_with_the_rim_of_the_pinnae.,
+		288  'Perineal scent glands, males' / absent 'present, restricted to area between penis and anal region' incircles_base_of_penis_like_a_collar 'present, extends anterior to penis.',
+		289  Perineal_glands / absent present_in_both_sexes_or_female_only.,
+		290  'Perineal glands, male' / gland_absent hair_between_gland_and_anus hairless_between_gland_and_anus.,
+		291  'Scrotum, position' / 'closely associated with penis, common scrotal sac' 'widely separated from penis, common scrotal sac' 'widely separated from penis, separated scrotal sacs.',
+		292  Mammae / 8. 6. 4. 2.,
+		293  'Perineal scent glands, females' / absent centered_around_the_vulva 'present, restricted to the area between the vulva and anus' extends_anterior_to_the_vulva.,
+		294  'Perineal glands, female' / gland_absent hairless_between_gland_and_anus hair_between_gland_and_anus.,
+		295  Anal_glands / 'simple, open into small anal sac' open_into_anal_pouch.,
+		296  'Feet, interdigital pads (manus and pes)' / 3. 4.,
+		297  'Feet, interdigital webbing of external foot pads' / 'present, sparsely furred' 'present, well furred' 'present, without hair' absent.,
+		298  'Feet, interdigital pads' / completely_fused_together 'partially fused together, shallow grooves' 'closely adjacent to each other, deep grooves' well_separated_from_each_other.,
+		299  'Feet (manus), carpal (palmar) surface, central depression' / absent 'present, with hair' 'present, without hair.',
+		300  'Feet (manus), metacarpal pad(s)' / absent hypothenar_pad_vestigial 'hypothenar pad large, thenar pad vestigial' hypothenar_and_thenar_pads_large_and_well_developed metacarpal_pads_very_large_and_completely_fused.,
+		301  'Feet (manus), carpal pollical pad' / absent separated_from_other_carpal_pads_by_bare_skin adjacent_to_other_carpal_pads.,
+		302  'Feet (manus), carpal pollical pad, size' / '> than digital pads' about_equal_to_digital_pads '? =absent.',
+		303  'Feet (manus), metacarpal pad(s), size' / vestigial smaller_than_carpal_pads 'large, about equal to carpal pads' larger_than_carpal_pads '? =absent.',
+		304  'External pinnae, anterior surface' / lighter_than_ground_color same_as_ground_color darker_than_ground_color white_rim.,
+		305  'Feet (pes), plantar surface, central depression' / absent 'present, without hair' elongate elongate_and_with_papillae_confined_to_heel.,
+		306  'Feet (pes), metatarsal pad(s)' / 'absent-vestigial' 'connected to tarsal plantar pads (no clear separation)' partially_connect_to_plantar_pads not_connected.,
+		307  'Feet (pes), metatarsal surface (posterior to metatarsal pads)' / well_furred without_hair.,
+		308  'Feet (pes), metatarsal pad(s)' / separated_from_tarsal_pads_by_hair adjacent_to_lateral_tarsal_pad_and_hallical_pad separated_from_tarsal_pads_by_bare_skin '? =absent.',
+		309  'Feet (pes), tarsal hallical pad' / absent separated_from_other_tarsal_pads_by_hair separated_from_other_tarsal_pads_by_bare_skin adjacent_to_other_tarsal_pads.,
+		310  'Feet (pes), tarsal hallical pad, size' / '< digital pads' about_equal_to_digital_pads '> than digital pads' '? =absent.',
+		311  'Feet (pes), metatarsal pad(s), size' / vestigial small large larger_than_tarsal_pads '? =absent.',
+		312  'Head, dark face mask' / absent present.,
+		313  'Head, interoccular (between) eye patches' / absent present.,
+		314  'Head, rhinarial patch' / 'present, lighter than ground color' absent.,
+		315  'Head, suboccular eye patches' / 'present, indistinct' absent 'present, distinct.',
+		316  'Head, rostral line' / absent 'present, dark' 'present, light.',
+		317  'Head, supraoccular eye patches' / 'present, indistinct' absent 'present, distinct.',
+		318  'Neck, dorsal surface' / same_as_ground_color darker_than_ground_color clearer_than_ground_color.,
+		319  Nuchal_stripes / absent thin large.,
+		320  'Neck, dorsal hair direction' / posteriorly_directed anteriorly_directed.,
+		321  'Neck, sides' / uniform_color spotted laterally_directed_stripes.,
+		322  'Body, spots' / 'no pattern, monocolored' 'present, no pattern' arranged_into_longitudinal_lines merged_into_broad_longitudinal_lines merged_into_transverse_lines.,
+		323  'Body, pale shoulder spots' / absent present.,
+		324  'Body, dorsal crest (long dorsal hairs on mid-dorsal line)' / absent present.,
+		325  'Body, mid-dorsal stripe' / absent 'present, extends from head to base of tail' extends_from_shoulders_to_base_of_tail.,
+		326  'Body, mid-dorsal stripe, color' / 'present, same color as body spots' 'present, darker than body spots' 'present, lighter than body spots' '? =absent.',
+		327  'Body, ventral surface' / lighter_than_ground_color same_as_ground_color lighter_and_spotted.,
+		328  Feet / same_as_ground_color spotted dark.,
+		329  Legs / same_as_ground_color spotted dark.,
+		330  'Tail, tip' / darker_than_ground_color same_as_ground_color lighter_than_ground_color.,
+		331  'Tail, hair length' / long_guard_hair short_guard_hair.,
+		332  'Tail, dorsal line' / absent present.,
+		333  'External pinnae, posterior surface' / same_as_ground_color lighter_than_ground_color darker_than_ground_color darker_than_ground_color_with_white_rim darker_than_ground_color_with_white_spot.,
+		334  'External pinnae, tuft' / absent present.,
+		335  'Tail, fat storage' / absent present.,
+		336  'Tail, mobility' / not_prehensile prehensile.,
+		337  'Cowpers (bulbourethral) gland' / 'absent-vestigial' present.,
+		338  M._accessorius_pedis / present absent.,
+		339  M._rhomboideus_major / attaches_to_vertebrae attaches_to_occiput.,
+		340  'M. supinator longus (Windle and Parsons, 1897)' / single double.,
+		341  'M. semitendinosus, caudal head (Windle and Parsons, 1897)' / absent present.,
+		342  'M. soleus (Windle and Parsons, 1897)' / absent present.,
+		343  'Cruciate sulcus (Radinsky, 1971, 1975; Carlsson, 1900)' / 'present, large' 'present, small' absent.,
+		344  'Postlateral sulcus does not overlap lateral sulcus (Radinsky, 1975)' / yes 'no (overlap).',
+		345  'Presylvian sulcus (Radinsky, 1975)' / present absent.,
+		346  'Suprasylvian sulcus (Radinsky, 1975)' / complete_arch incomplete_arch.,
+		347  'Vibrissae, inter-ramal tuft' / present absent.,
+		348  'Pupil, horizontally elongated' / no yes.,
+		349  'Marker chromosome (Wurster, 1969)' / present absent.,
+		;
+
+MATRIX
+[                                   10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170       180       190       200       210       220       230       240       250       260       270       280       290       300       310       320       330       340       350  ]
+[                                    .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .  ]
+Arctictis_binturong         1000212010111102001101112021202000100000202001210010000100000101410001022001010211112100000201100011202102011300100311011010010111100000021000042020110211021100100000001000200201311201121300000020022010011010111102300200311110010002200211012011113201201120211300101110001113103112101000211112220122242033311132300110100000000?10010001011111112000000
+Arctogalidia_trivirgata     2010112000010000102101112020202100100000022020000010000100001012410101022111021011231100100101100011202002000201000311000010010001100000021000001021110001000000000000000001100201311001121300001000022010011000010100300200211011010003100211002211113101110120211302101110000113103112102000031112320122242032310132300112100002001002201020001111112000000
+Bassariscus_astutus         20001001010021111000000000001000000110001213110000100100100010002101211200110102010300300021100302010000201000010?00010?0100000001000011000011120020110012010000000020000000001000100000000300001000000000012001010000302010000011021002110011012011013101011011001302211020001100101002000000200002000102222120000?30?01020000000000?00000000110100111100000
+Canis_aureus                0000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000?00000?0??00000000000000?00000000000000000000000
+Chrotogale_owstoni          0000202010010000003100131220201012100000002020000110000100011002210110002100010011202110100201100011202001000300000311001010010001100000021001011020111202000000000201001002021001301001101200001000100010111101011112?012102?????????01???????????????????????????3???????0????1???3112122000211112120112232111110132100101202114000?00001000001111112000000
+Civettictis_civetta         00101000010100010021001110202010101010002120200000000001000110012100111221000100112111000001011000112020000012001102110010100100011000000110000110211110110100000000000000010000001001010203000011000000101120100001000020101011111021010000100101000001110000010103010100200110102?3111101000011212220121021110030020110010000021011102200130001111112000000
+Cryptoprocta_ferox          10101000111122011011010210202101001210000210211010000001000110121100201211000110122301000001000000112022110123000102010002000100001000000210000110212001000001001002201010030000201000110331201100?1???1???11001000011000000211010010002201010012110113201210010010302111010011101213013101000200011001122232121210132300110100000000?00011000001111110010000
+Cynogale_bennettii          1110112011010100113110121020200111100000102020010210200102000001011110102000020011232100200201101011202002100300000311011010010001100000021000012021111100000010000010000002021100201001111200001100102010112100010110101210212111010000010110101000002201100010010310101100102010203122222000011222210123212111030232000010200100000?12210000001111112000000
+Diplogale_hosei             110010200001000000310012122020110110000000202000011000010000100121011110210101001222210010020110001120200100030000?311001010010001100000021000011021111211000011000211000002121101301001111200001100101011112111010100?012102???1?????01???????????????????????????3???????0????10??3112122010211112120112232111110132100001000100000?00011000001111112000000
+Eupleres_goudotii           00001120110112001021001301102010121400?0141110000020310100000012000001221111021212231100000001000011202001002300010201000200010000100000021001030020120202110020000020101002000021101101000300100000001011111001110101?0020010?011010101000110011100002201?10?1?00?302012010001001003112102000000013000121012111010020000000100000000?0001000010111111200000?
+Felis_bengalensis           20101001100202012000010210201001100301100313000000400001010120021000101011001001110300010000100000123010000000000110010002000010102111001000100100111101010202002020001000030000200000210031201100?1???1???11101001000010100100010011001000012010110113201101010010001010110001000100110010000000002000010000??0000?0??01121000022002021101040001101010000100
+Fossa_fossana               0000100011011001002100131020201010110000121020000000010100001011210111222100021012231100000001000011202001002301010201000200010000100000021001011020110001010000000020000001000020100101000300000000001011112001010100??0?00101011012101020110010000000110120012000302010020002001003112102000000013000101012111000010000000201002001200010000101111111000000
+Galidia_elegans             20000101011012011021000210202101101210100201200000000003000110021000112211000212120300200000001111111021200111010101011002011000001000010302010110111101000102002000001000010000201001010002001010100100100110000000100010001010100200010110111010000001001000110002010120200000011011020010002?1113?10132212110131232100110101000000?02210000001101110111010
+Genetta_abyssinica          20111001110100011021001212202010101200001020100000100102000120021100111221000200112310000001011000112020000012000102110002100100011000000110000110111101010100000002210000010000101001010000001010000110100120000101000000101???1?????02??????0???????????????2???13?????0200???00103?0000000021111?22011123201002003220102100101300200000110000111111200000?
+Genetta_angolensis          201110011101000110210012102020101012000010202000001001020001200221001112210002001123100000010111001120200000120001021100021001000110000001100001101111010101000000022100000100001010010100000010100001101001200001010000001011201101010200111001120101320111112100130201102000100010310000000021111222011113201002003220102100101201210210010000111111200000?
+Genetta_genetta             20111001110100011021001210202010101200001020000000100102000120022100111221000200112310000001011000112020000012000102110002100100011000000110000010111101010100000002210000010000101001010000001010000110100120000101000000101120110101020011100112?1013201111121001302011020001000103100000000211112220111132010020032201021001012012?00120100001111112000000
+Genetta_johnstoni           2011100111010001102100121020201010120000102010000010010200012002210011122100020011231000000101100011202000001200010211000210010001100000011000001011110101010000000221000001000010100101000000101000011010012000110100??0?10112011010102001110011201013201111121001302011020001000103100000000211113220111132010020032201021001012002102121100001111112000000
+Genetta_maculata            20111001110100011021001210202010101200001020200000100102000120022100111221000200112310000001011{01}0011202000001200010211000210010001100000011000011011110101010000000221000001000010100101000000101000011010012000010100000010?120110101020011100112?1013201111121001302011020001000103100000000211112220111132010020032201021001012002002101100001111112000000
+Genetta_servalina           101110011101000110210012102020101012000010200000001001020001200221001112210002001123100000010110001120200000120001021100021001000110000001100000101111010101000000022100000100001010010100000010100001101001200001010000001011201101010200111001120101320111112100130201102000100010310000000021111322011113201002003220102100101100200212100000111111200000?
+Genetta_thierryi            201110011101000110210013122020101012000012202000001001020001200211001112210002001123100000010110001120200000120001021100021001000110000001100001101111010101000000022100000100001010010100000010100001101001200001010000001011201101010200111001120001310111112100130201102000100010310000000021111222011123201002003220102100101200200010110000111111200000?
+Genetta_tigrina             20111001110100011021001210202010101200001020100000100102000120022100111221000200112310000001011100112020000012000102110002100100011000000110000110111101010100000002200000010000101001010000001010000110100120000101000000101120110101020011100112?101320111112100130201102000100010310000000021111222011113201002003220102100101200200220100000111111200000?
+Genetta_victoriae           201110011101000110210011102020101012000010201000001001020001200221001112210002001123100000010110001120200000120001021100021001000110000001100001101111010101000000022100000100001010010100000010100001101001200001010000001011201101010100111001121001320111112100130201102000110010310000000021111322011113201002003220102100111100200210100000111111200000?
+Hemigalus_derbyanus         1000102010010000003100121020201101101000002320000110000100001001010111202101020012232100100201100011202001000300001311001010010001100000021000021021111211000010000211000002121101301001111200001100102011112010010100201210?22011010001000110011100103201210011210312010000102110203112122010211111120112232111110132101101202104000?00001000001111112000000
+Herpestes_ichneumon         1000001110000202203100022220200110121000032011000040000300011002100021221100021211030020000000101111102120012101010101100201100000100001030200101011110100010000000200000001000020100101000000100000010010011000000000000000111010020002011010011000000201001011000211012020000001101100121101100001001031010?11001?0??00110100000000?12000000001101110111011
+Hyaena_brunnea              0000100010000001012100011110200000010111221020000031201101111001101001012100000010200230010010020111102020011201010001?000000000002101001003100011002001000100002000101010030000001000110000201000?1???1???11100000101011011211010001000?00010200000001121000000100112010021011001000200111100100022001020010?01000?0??00110100000010?00100010001000000???000
+Lynx_lynx                   20001001000200012000010111201101100201100213010000300001010120022200100000001101110300010000100000123010000000100110010000000011102111001000100100111101010002002020101000030000200000210031201100?1???1???11101001020010100100010021004000011010110112101101010010001010110000000100110010000000002000010000??1000?0??00000000001000?00001041001101010000100
+Macrogalidia_musschenbr     110011201001000010210111212020110110000000202000001000010000101101001102210001001121210000010110001120200200130??00311011010010001100000021000002021100001000000000000000001000001201001121300001000020010011000010100101200?1??1?01??02??????????????3????11121211302000020001113103112102000201112120132242030210132300110100102000?00011000001111112000000
+Mungos_mungo                100000111000020210210002202020011012100002001000000000030000100110001122110101121103002000000010011110212001210101010110020110000010001103020001101?110000011200200221000001020120100101010000101000000001111000001020001000101010020001011011111000003201021011000201012120001002002100001111100001001032010110031221100110101004000?02001000001101110111011
+Nandinia_binotata           2000100011010100102101131220200010111000020020001010010100011012200001010?0002001022?100001211010??1210010002010000101010100010001100000011100011021110101000001000020000000000021200101000010110020022012011000011110300210312010010003101012012211113201211121201301111010002113113112102000231202310112242031310132300101101001100?10001020001111112000000
+Osbornictis_piscivora       2101100111010001102100121100201010120000122020000010010200012002110011122100020011231000000101100011202000001200010211000210010001100000011000002011110101010000000220000001000010100101000000101000011010011001010100??0?101120110101020010100102000122011111110013000110201010001031030000002???1????121032010020232201021000000000?0200002000111111100000?
+Paguma_larvata              1010112010010002102101111120202100100000002000200010000100001011410011122100010211212110000101100011202001001300100311001010010001100000021000011021100000001000000000001000000001101001121300001010022010011000010100010200312010010002200011010101113201111?20211302111020001113103112102000221112120102242031310132301122020100000?02001000001111112000000
+Paradoxurus_herma           1000112010010000102101111020201100100000022020000010000100001011010011022100010011232100000101100011202002001301100311001010010001100000021000011021100001000000000000000001000001201001121300001000020010011000010100101200212011010002200011010111013201211121211302111020011113103112102000211111120122242032210132310101010002001012101020001111112000000
+Paradoxurus_jerdoni         10001120100100001021011110202010001000000020200000100001000010110100110221000100112321000001011000112020020013011003110010100100011000000210000100211000010000000000000000010000012010011213000010000200100110000101001012002???1?????02???????????????????????????3???????0???113103112102000211111120122242031210132300101000100000?00021000001111112000000
+Paradoxurus_zeylonensis     2000112010010100102101111220201100100000022020000110000100001011010011022100010011232100000101100011202002001301100311001010010001100000021000001021100001000000000000000001000001100001121300001000020010011010010100101200212011010002200011?11111013201211121211302101020011113103112102000211111120122242032210132300110000100000?02020020001111112000000
+Poiana_richardsoni          20011000010100011021001212202010101200001023100000100102000120021100111221010200112310000001011000112020000012001102110002100100011000000100000200111101010100000000211000010000101001010000101010?1???010?11000110100??0??01?????????????????????????????????????????????????????????000010102?1?13???11223201002003220000000101100??00111000001?????????00?
+Prionodon_linsang           20011000010101002021011312202000101200001423100010100101000120121000012211010100122310000001010000112020000012001101110004100100011000000100010200111101010100010000001000000100001001010001101000?1???010?11000110100??01?0222110002012100011310210013201001121211302010000011000103100001010200002000112122010000?21?00000102004000?00111020001111112000000
+Prionodon_pardicolor        20011000010101001021011312202000101200001423100010100101000120121000012211010100122310000001010100112020000012001101110004100100011000000100010200111101010100010000001000000100101001010001101000?1???010?11000110100??0??0222110002012100011310210013201001121211302010000011000103100001010200002000112122010000?21?00000102001000?0011102000111111200000?
+Proteles_cristatus          0000112011010202012110201111202002040111?21300000030010101100001410001122111000011100030000010100111102020011201010101100200000000210100??02101201101100020100002111200101102302200111210321211100?1???1???11101110010010200011010001000010010201001001010100000100011201221011001000200111100100022001010000??0000?0??10110100004011002100030001010000??0000
+Ursus_americanus            301001010000211110000001202021000112110010122100001000020001100010010112010011010113003000221103?201000020000?010?01010?03000000010000000200101200211000000100000000000000000003001003010000201000?1???012112000001030301200001011021000001012010210013101011011001302210020001100101002010100200002000112132120000?10?00110100000000?02200000110100011100000
+Viverra_civettina           1010102011010001002100121020201010101000012020000010000100011001200011122100010011231100000101100011202000001200110211001010010001100000011000011021111001010000000000000001000000100101000300001100000010012000010100?02?100221111021010000100??00000?101?000010103010100200110102?3100102000011212220001020?00000?0??0001100002101200220112000111111200000?
+Viverra_megaspila           0010100011010001002100121020201010101000012000000010000100011001200011122100010011231100000101100011202000001200110211001010010001100000011000011021111001010010000020000001000000100101000300001100000010012000010100102010022111102101000010011000002101000001010301010020011010213100102000011212220001020?00000?0??0001120002101200220112000111111200000?
+Viverra_tangalunga          1010112011010001002100101000201010101000112020000010000100011002200011122100010011231100000101100011202001001200110211001010010001100000011000011021110001010000000000000001000000100101000300001100000010012000010100202010021111102101001010000000002111000001010301010020011010213110102000011211220011020?00000?0??0001000002101200210112000111111200000?
+Viverra_zibetha             0010100011010001002100111000201010101000112020000010000100011001210001122100010011231100000101100011202001001200110211001010010001100000011000011021111001010000000000000001000000100101000300001100000010012000010100002010122111102101000010000000002101000001010301010020011010213111102000011221220011020?00000?0??0001000002101210210112000111111200000?
+Viverricula_indica          101100010100020110210012102020101012101010200000000011010001200231000112210001001123100000020110001120200100220001021100021001000110000001100001101111000101000000000000000100000010010100030000110000001001200001010010211012111101210100001001011010210110101101030101002001100011310010100001121?220001010?01000?0??01011001002002002221000001111111000000
+;
+END;
+
+BEGIN SETS;
+	CHARSET Basicranium (CHARACTERS = Appendices_I_and_II) =  128-129;
+	CHARSET Squamosal (CHARACTERS = Appendices_I_and_II) =  81-84;
+	CHARSET Orbital_region (CHARACTERS = Appendices_I_and_II) =  37-70;
+	CHARSET Petrosal (CHARACTERS = Appendices_I_and_II) =  108-121;
+	CHARSET Cranial (CHARACTERS = Appendices_I_and_II) =  141-147;
+	CHARSET External (CHARACTERS = Appendices_I_and_II) =  279-349;
+	CHARSET Entotympanic (CHARACTERS = Appendices_I_and_II) =  96-107;
+	CHARSET Postcranium (CHARACTERS = Appendices_I_and_II) =  222-232;
+	CHARSET Pes (CHARACTERS = Appendices_I_and_II) =  269-278;
+	CHARSET Thoracic_skeleton (CHARACTERS = Appendices_I_and_II) =  233-260;
+	CHARSET Rostrum (CHARACTERS = Appendices_I_and_II) =  1-36;
+	CHARSET Paraoccipital (CHARACTERS = Appendices_I_and_II) =  122-123;
+	CHARSET Basicranial (CHARACTERS = Appendices_I_and_II) =  71-80;
+	CHARSET Pelvic_skeleton (CHARACTERS = Appendices_I_and_II) =  261-268;
+	CHARSET Auditory_bullae (CHARACTERS = Appendices_I_and_II) =  130-140;
+	CHARSET Ossicles (CHARACTERS = Appendices_I_and_II) =  124-127;
+	CHARSET Dentition (CHARACTERS = Appendices_I_and_II) =  148-221;
+	CHARSET Ectotympanic (CHARACTERS = Appendices_I_and_II) =  85-95;
+END;
+BEGIN TREES;
+      TITLE Tb7257;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Macrogalidia_musschenbr,
+            2    Paradoxurus_zeylonensis,
+            3    Hemigalus_derbyanus,
+            4    Cynogale_bennettii,
+            5    Diplogale_hosei,
+            6    Chrotogale_owstoni,
+            7    Hyaena_brunnea,
+            8    Proteles_cristatus,
+            9    Herpestes_ichneumon,
+            10   Nandinia_binotata,
+            11   Cryptoprocta_ferox,
+            12   Fossa_fossana,
+            13   Eupleres_goudotii,
+            14   Civettictis_civetta,
+            15   Viverra_zibetha,
+            16   Viverra_civettina,
+            17   Viverra_tangalunga,
+            18   Viverricula_indica,
+            19   Viverra_megaspila,
+            20   Genetta_johnstoni,
+            21   Genetta_maculata,
+            22   Genetta_thierryi,
+            23   Genetta_tigrina,
+            24   Genetta_victoriae,
+            25   Genetta_servalina,
+            26   Genetta_abyssinica,
+            27   Genetta_angolensis,
+            28   Genetta_genetta,
+            29   Osbornictis_piscivora,
+            30   Prionodon_linsang,
+            31   Prionodon_pardicolor,
+            32   Poiana_richardsoni,
+            33   Arctictis_binturong,
+            34   Arctogalidia_trivirgata,
+            35   Paguma_larvata,
+            36   Paradoxurus_herma,
+            37   Paradoxurus_jerdoni,
+            38   Mungos_mungo,
+            39   Galidia_elegans,
+            40   Felis_bengalensis,
+            41   Lynx_lynx,
+            42   Canis_aureus,
+            43   Bassariscus_astutus,
+            44   Ursus_americanus;
+      TREE Fig._2 = [&R] (42,((((11,(10,(34,((33,35),((1,(37,(36,2))),(4,(6,(3,5)))))))),(12,13),((18,(14,((15,17),(16,19)))),((29,(26,(22,(21,(23,(24,(20,25))),(27,28))))),(32,(30,31))))),(39,(9,38))),((7,8),(40,41))),(43,44));
+
+
+
+END;

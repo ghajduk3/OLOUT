@@ -1,0 +1,122 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:42 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Tibell L. 1995. The anamorph of Chaenothecopsis debilis. Mycologia, 87: 245-252.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S303]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=22;
+        TAXLABELS
+            Chaenothecopsis_asperopoda
+            Chaenothecopsis_consociata
+            Chaenothecopsis_debilis
+            Chaenothecopsis_fennica
+            Chaenothecopsis_haematopus
+            Chaenothecopsis_nana
+            Chaenothecopsis_ochroleuca
+            Chaenothecopsis_pusilla
+            Chaenothecopsis_pusiola
+            Chaenothecopsis_rubescens
+            Chaenothecopsis_sagenidii
+            Chaenothecopsis_savonica
+            Chaenothecopsis_schefflerae
+            Chaenothecopsis_tasmanica
+            Chaenothecopsis_vainoiana
+            Chaenothecopsis_viridialba
+            Chaenothecopsis_viridreagens
+            Mycocalicium_albonigrum
+            Mycocalicium_americanum
+            Mycocalicium_subtile
+            Mycocalicium_victoriae
+            Phaeocalicium_praecedens
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M1592]
+
+	TITLE Table_II;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=12;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2 3 4" MISSING=? GAP= -;
+	CHARSTATELABELS
+		1  Food_source / Saprophytic Assoc._cystococcaceous_algae Assoc._with_Trentepohlia On_exudate,
+		2  Apothecia_size / 'Medium (.6-1 mm)' 'Small (<.6 mm)' 'Large (>1.2 mm)',
+		3  Apothecia_stain / 'K+ green' 'K-' 'K+ red' 'K+ intensified red-grayish red' 'Only capitulum K+ red',
+		4  Apothecia_stain / 'H-' 'H+ intensified reddish',
+		5  Stalk_surface / Smooth Coarsely_uneven,
+		6  Ascus_apex_canal / Without_canal Narrow_canal Broad_canal_at_maturity,
+		7  Spore_shape / Ellipsoidal Broadly_ellipsoidal_to_fusiform,
+		8  Spore_septatation / 'Non-septate' 'One-septate distinct septum' 'One-septate indisitinct septum',
+		9  Spore_color / Medium_brown Pale_brown,
+		10  Spore_texture / Smooth Ornamented,
+		11  Asci_size / '>50 um long' '30-50 um long',
+		12  Stalk_hyphae_orientation / Dark_strictly_parallel Centrally_pale_periclinal_but Hyaline_intertwined_irregular,
+		;
+
+MATRIX
+Chaenothecopsis_asperopoda       321012011111
+Chaenothecopsis_consociata       100001010012
+Chaenothecopsis_debilis          003101010011
+Chaenothecopsis_fennica          021000010001
+Chaenothecopsis_haematopus       020001001111
+Chaenothecopsis_nana             011001100111
+Chaenothecopsis_ochroleuca       114002100112
+Chaenothecopsis_pusilla          101001020012
+Chaenothecopsis_pusiola          102001020012
+Chaenothecopsis_rubescens        202001100111
+Chaenothecopsis_sagenidii        211001010011
+Chaenothecopsis_savonica         101001001111
+Chaenothecopsis_schefflerae      301002001111
+Chaenothecopsis_tasmanica        101001010012
+Chaenothecopsis_vainoiana        201101010011
+Chaenothecopsis_viridialba       020011000111
+Chaenothecopsis_viridreagens     100001020012
+Mycocalicium_albonigrum          001002100010
+Mycocalicium_americanum          003000100101
+Mycocalicium_subtile             001000100010
+Mycocalicium_victoriae           0031001000?1
+Phaeocalicium_praecedens         000000000000
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb5057;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Phaeocalicium_praecedens,
+            2    Mycocalicium_subtile,
+            3    Mycocalicium_albonigrum,
+            4    Mycocalicium_americanum,
+            5    Mycocalicium_victoriae,
+            6    Chaenothecopsis_asperopoda,
+            7    Chaenothecopsis_consociata,
+            8    Chaenothecopsis_debilis,
+            9    Chaenothecopsis_fennica,
+            10   Chaenothecopsis_haematopus,
+            11   Chaenothecopsis_nana,
+            12   Chaenothecopsis_ochroleuca,
+            13   Chaenothecopsis_pusilla,
+            14   Chaenothecopsis_pusiola,
+            15   Chaenothecopsis_rubescens,
+            16   Chaenothecopsis_sagenidii,
+            17   Chaenothecopsis_savonica,
+            18   Chaenothecopsis_schefflerae,
+            19   Chaenothecopsis_tasmanica,
+            20   Chaenothecopsis_vainoiana,
+            21   Chaenothecopsis_viridialba,
+            22   Chaenothecopsis_viridreagens;
+      TREE Fig._15 = [&R] (1,9,((4,5),((2,3),((12,11),15,((21,10),(((18,6),17),(((20,8),16),(7,13,14,19,22))))))));
+
+
+
+END;

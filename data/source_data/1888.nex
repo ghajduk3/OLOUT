@@ -1,0 +1,227 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:51 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Kellogg E., & Campbell C. 1987. "Phylogenetic analyses of the Gramineae." In: Soderstrom
+T., Hilu K., Campbell C., & Barkworth M., eds. Grass systematics and evolution.
+pp. 310-322. Washington, D.C., Smithsonian Institution Press.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S623]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=61;
+        TAXLABELS
+            Afrachneria
+            Alloeochaete
+            Amphipogon
+            Aristideae
+            Arundo
+            Bambusoideae
+            Centotheceae
+            Centropodia
+            Chaetobromus
+            Chioncloa
+            Chloridoideae
+            Coelanchne
+            Cortaderia
+            Danthonia
+            Danthonidium
+            Dichaetaria
+            Diplopogon
+            Ehrharta
+            Elytrophorus
+            Eriachne
+            Erythranthera
+            Gynerium
+            Habrochloa
+            Hakonechloa
+            Heteranthoecia
+            Isachne
+            Joinvillea
+            Karroochloa
+            Lamprothyrsus
+            Micraira
+            Microlaena
+            Molinia
+            Monostachya
+            Nardus
+            Nematopoa
+            Notochloe
+            Panicoideae
+            Pappophoreae
+            Pentameris
+            Pentaschistis
+            Phaenanthoecium
+            Phragmites
+            Plectrachne
+            Plinthanthesis
+            Pooideae
+            Prionanthium
+            Pseudodanthonia
+            Pseudopentameris
+            Pyrranthera
+            Sartidia
+            Sclerodactylon
+            Styppeiochloa
+            Symplectrodia
+            Tetrarrhena
+            Thysanolaena
+            Tribolium
+            Triodia
+            Triraphis
+            Urochlaena
+            Vaseyochloa
+            Zenkeria
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M3615]
+
+	TITLE Not_Available;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=1;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1" MISSING=? GAP= -;
+
+MATRIX
+Afrachneria          ?
+Alloeochaete         ?
+Amphipogon           ?
+Aristideae           ?
+Arundo               ?
+Bambusoideae         ?
+Centotheceae         ?
+Centropodia          ?
+Chaetobromus         ?
+Chioncloa            ?
+Chloridoideae        ?
+Coelanchne           ?
+Cortaderia           ?
+Danthonia            ?
+Danthonidium         ?
+Dichaetaria          ?
+Diplopogon           ?
+Ehrharta             ?
+Elytrophorus         ?
+Eriachne             ?
+Erythranthera        ?
+Gynerium             ?
+Habrochloa           ?
+Hakonechloa          ?
+Heteranthoecia       ?
+Isachne              ?
+Joinvillea           ?
+Karroochloa          ?
+Lamprothyrsus        ?
+Micraira             ?
+Microlaena           ?
+Molinia              ?
+Monostachya          ?
+Nardus               ?
+Nematopoa            ?
+Notochloe            ?
+Panicoideae          ?
+Pappophoreae         ?
+Pentameris           ?
+Pentaschistis        ?
+Phaenanthoecium      ?
+Phragmites           ?
+Plectrachne          ?
+Plinthanthesis       ?
+Pooideae             ?
+Prionanthium         ?
+Pseudodanthonia      ?
+Pseudopentameris     ?
+Pyrranthera          ?
+Sartidia             ?
+Sclerodactylon       ?
+Styppeiochloa        ?
+Symplectrodia        ?
+Tetrarrhena          ?
+Thysanolaena         ?
+Tribolium            ?
+Triodia              ?
+Triraphis            ?
+Urochlaena           ?
+Vaseyochloa          ?
+Zenkeria             ?
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb5702;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Ehrharta,
+            2    Tetrarrhena,
+            3    Microlaena,
+            4    Dichaetaria,
+            5    Danthonidium,
+            6    Eriachne,
+            7    Plectrachne,
+            8    Triodia,
+            9    Symplectrodia,
+            10   Chloridoideae,
+            11   Vaseyochloa,
+            12   Triraphis,
+            13   Pappophoreae,
+            14   Notochloe,
+            15   Pseudodanthonia,
+            16   Lamprothyrsus,
+            17   Erythranthera,
+            18   Pyrranthera,
+            19   Hakonechloa,
+            20   Thysanolaena,
+            21   Phragmites,
+            22   Sclerodactylon,
+            23   Centotheceae,
+            24   Coelanchne,
+            25   Heteranthoecia,
+            26   Micraira,
+            27   Isachne,
+            28   Panicoideae,
+            29   Alloeochaete,
+            30   Danthonia,
+            31   Prionanthium,
+            32   Cortaderia,
+            33   Plinthanthesis,
+            34   Chioncloa,
+            35   Molinia,
+            36   Karroochloa,
+            37   Styppeiochloa,
+            38   Pseudopentameris,
+            39   Monostachya,
+            40   Pentameris,
+            41   Nematopoa,
+            42   Centropodia,
+            43   Elytrophorus,
+            44   Chaetobromus,
+            45   Urochlaena,
+            46   Arundo,
+            47   Tribolium,
+            48   Habrochloa,
+            49   Phaenanthoecium,
+            50   Zenkeria,
+            51   Pentaschistis,
+            52   Afrachneria,
+            53   Gynerium,
+            54   Bambusoideae,
+            55   Sartidia,
+            56   Aristideae,
+            57   Diplopogon,
+            58   Amphipogon,
+            59   Nardus,
+            60   Pooideae,
+            61   Joinvillea;
+      TREE Fig._28.2 = [&R] (61,((60,59),(58,57,(56,55,((((5,6),4),(3,(54,(1,2)))),(52,53,51,50,((47,48,49),(46,((44,45),43),42,41,(((37,38,39,40),36),((35,(31,30),(33,32),34,(29,(26,(28,27),((25,24),23)))),(((22,21),20),19,(18,17,16,((15,14),(13,(12,(11,10,(9,(8,7))))))))))))))))));
+
+
+
+END;

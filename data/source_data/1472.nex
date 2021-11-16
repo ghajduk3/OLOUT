@@ -1,0 +1,30 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:48 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Bremer K. 1987. Tribal interrelationships of the Asteraceae. Cladistics, 3: 210-253.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S244]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=0;
+        TAXLABELS
+            ;
+END;
+
+BEGIN TREES;
+      TITLE Tb4966;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+      TREE Fig._5 = [&R] (Campanulaceae,(Lobeliaceae,(Barnadesiinae,(Gochnatiinae_p._p.,(Arctoteae,Carlineae,Echinopsideae,Cardueae),Mutiseae_s._str.,Nassauviinae,Lactuceae,Eremothamneae,(Vernonieae,Liabeae),(Plucheinae_s._lat.,Inuleae_s._str.,(Gnaphalieae,(Astereae,Eupatorieae),(Calenduleae,Senecioneae_s._str.,Blennospermatinae,(Anthemideae,((Helenieae_s._str.,(Madieae,Heliantheae_s._str.)),(Flaveriinae_s._lat.,(Tageteae,Coreopsideae)))))))))));
+
+
+
+END;

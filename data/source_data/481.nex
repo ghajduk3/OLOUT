@@ -1,0 +1,699 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:36 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Passamaneck Y., & Martindale M. 2013. Evidence for a phototransduction cascade in
+an early brachiopod embryo. Integrative and Comparative Biology, .
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S14096]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=60;
+        TAXLABELS
+            Alloteuthis_subulata_Opsin
+            Anolis_carolinensis_P_opsin
+            Anopheles_gambiae_GPRop11
+            Anopheles_gambiae_GPRop12
+            Bos_taurus_RGR
+            Branchiostoma_belcheri_Amphiop1
+            Branchiostoma_belcheri_Amphiop2
+            Branchiostoma_belcheri_Amphiop3
+            Branchiostoma_belcheri_Opsin4
+            Branchiostoma_belcheri_Opsin5
+            Ciona_intestinalis_Opsin1
+            Cynops_pyrrhogaster_SWS1
+            Danio_rerio_VAL_opsin
+            Drosophila_melanogaster_Allatostatin
+            Drosophila_melanogaster_Tachykinin_like_receptor
+            Enteroctopus_dofleini_Opsin
+            Gallus_gallus_Blue_Cone_opsin
+            Geotria_australis_LWS
+            Geotria_australis_RhA
+            Geotria_australis_RhB
+            Geotria_australis_SWS
+            Geotria_australis_SWS2
+            Hemigrapsus_sanguineus_Rh1
+            Homo_sapiens_Encephalopsin
+            Homo_sapiens_Melanopsin
+            Homo_sapiens_NK_1_receptor
+            Homo_sapiens_Peropsin
+            Homo_sapiens_RGR
+            Homo_sapiens_Rhodopsin
+            Homo_sapiens_Somatostatin
+            Latimeria_chalumnae_Rh1
+            Latimeria_chalumnae_Rh2
+            Limulus_polyphemus_Ocellus_opsin
+            Loligo_forbesii_Opsin
+            Mizuhopecten_yessoensis_Go_rhodopsin
+            Mizuhopecten_yessoensis_Gq_rhodopsin
+            Mus_musculus_Encephalopsin
+            Mus_musculus_MLT
+            Mus_musculus_Melanopsin
+            Mus_musculus_Peropsin
+            Mus_musculus_RGR
+            Mus_musculus_Rhodopsin
+            Oncorhynchus_nerka_LWS
+            Petromyzon_marinus_Pineal_opsin
+            Petromyzon_marinus_RhA
+            Platynereis_dumerilii_C_opsin
+            Platynereis_dumerilii_R_opsin
+            Rana_catesbeiana_SWS1
+            Rattus_norvegicus_Blue_cone_opsin
+            Schistosoma_mansoni_Opsin
+            Sepia_officinalis_Opsin
+            Takifugu_rubripes_TMT_opsin
+            Terebratalia_transversa_C_opsin
+            Terebratalia_transversa_Go_opsin1
+            Terebratalia_transversa_Go_opsin2
+            Terebratalia_transversa_R_opsin
+            Todarodes_pacificus_Opsin
+            Xenopus_laevis_Green_rod_opsin
+            Xenopus_laevis_MLT
+            Xenopus_laevis_Melanopsin
+            ;
+END;
+
+BEGIN TAXA;
+        TITLE  Taxa2;
+        DIMENSIONS NTAX=19;
+        TAXLABELS
+            Albugo_laibachii_GRK
+            Branchiostoma_floridae_GRKa
+            Branchiostoma_floridae_GRKb
+            Doryteuthis_pealeii_GRKb
+            Drosophila_melanogaster_GRKa
+            Drosophila_melanogaster_GRKb
+            Enteroctopus_dofleini_GRKb
+            Mus_musculus_GRK1
+            Mus_musculus_GRK2
+            Mus_musculus_GRK3
+            Mus_musculus_GRK4_O70291
+            Mus_musculus_GRK5
+            Mus_musculus_GRK6A
+            Mus_musculus_GRK6B
+            Nematostella_vectensis_GRKa
+            Nematostella_vectensis_GRKb
+            Phytophthora_infestans_GRK
+            Terebratalia_transversa_GRKa
+            Terebratalia_transversa_GRKb
+            ;
+END;
+
+BEGIN TAXA;
+        TITLE  Taxa3;
+        DIMENSIONS NTAX=32;
+        TAXLABELS
+            Drosophila_melanogaster_TRP_NP_
+            Drosophila_melanogaster_TRP_like
+            Homo_sapiens_TRPA1_C
+            Homo_sapiens_TRPC1_A
+            Homo_sapiens_TRPC3_A
+            Homo_sapiens_TRPC4_A
+            Homo_sapiens_TRPC5_A
+            Homo_sapiens_TRPC6_A
+            Homo_sapiens_TRPC7_C
+            Homo_sapiens_TRPM1_A
+            Homo_sapiens_TRPM2_B
+            Homo_sapiens_TRPM3_C
+            Homo_sapiens_TRPM4_A
+            Homo_sapiens_TRPM5_A
+            Homo_sapiens_TRPM6_A
+            Homo_sapiens_TRPM7_A
+            Homo_sapiens_TRPM8_A
+            Homo_sapiens_TRPML1_
+            Homo_sapiens_TRPML2_
+            Homo_sapiens_TRPML3_
+            Homo_sapiens_TRPP1_A
+            Homo_sapiens_TRPP2_A
+            Homo_sapiens_TRPP3_A
+            Homo_sapiens_TRPP4_A
+            Homo_sapiens_TRPP5_A
+            Homo_sapiens_TRPV1_A
+            Homo_sapiens_TRPV2_C
+            Homo_sapiens_TRPV3_A
+            Homo_sapiens_TRPV4_C
+            Homo_sapiens_TRPV5_C
+            Homo_sapiens_TRPV6_A
+            Terebratalia_transversa_TRPC
+            ;
+END;
+
+BEGIN TAXA;
+        TITLE  Taxa4;
+        DIMENSIONS NTAX=38;
+        TAXLABELS
+            Capitella_teleta_Gv
+            Drosophila_melanogaster_CG17760
+            Drosophila_melanogaster_CG30054
+            Drosophila_melanogaster_CG40005
+            Drosophila_melanogaster_Cta
+            Drosophila_melanogaster_Dgq
+            Drosophila_melanogaster_G_ia65A
+            Drosophila_melanogaster_G_oa47A
+            Drosophila_melanogaster_G_sa60A
+            Drosophila_melanogaster_Gfa
+            Homo_sapiens_Ga11
+            Homo_sapiens_Ga12
+            Homo_sapiens_Ga13
+            Homo_sapiens_Ga14
+            Homo_sapiens_Ga15
+            Homo_sapiens_Gai1
+            Homo_sapiens_Gai2
+            Homo_sapiens_Gai3
+            Homo_sapiens_Gao
+            Homo_sapiens_Gaolf
+            Homo_sapiens_Gaq
+            Homo_sapiens_Gas
+            Homo_sapiens_Gat1
+            Homo_sapiens_Gat2
+            Homo_sapiens_Gat3
+            Homo_sapiens_Gaz
+            Lottia_gigantea_Gv
+            Mizuhopecten_yessoensis_Go
+            Mizuhopecten_yessoensis_Gq
+            Terebratalia_transversa_Ga12a
+            Terebratalia_transversa_Ga12b
+            Terebratalia_transversa_Gai
+            Terebratalia_transversa_Gao
+            Terebratalia_transversa_Gaq
+            Terebratalia_transversa_Gas1
+            Terebratalia_transversa_Gas2
+            Terebratalia_transversa_Gav
+            Tribolium_castaneum_Gv
+            ;
+END;
+
+BEGIN TAXA;
+        TITLE  Taxa5;
+        DIMENSIONS NTAX=29;
+        TAXLABELS
+            Ciona_intestinalis_Arrestin
+            Doryteuthis_pealeii_Arrestin
+            Drosophila_melanogaster_ARRA
+            Drosophila_melanogaster_ARRB
+            Drosophila_melanogaster_CG10086
+            Drosophila_melanogaster_CG1105
+            Drosophila_melanogaster_CG14696
+            Drosophila_melanogaster_CG18268
+            Drosophila_melanogaster_CG18744
+            Drosophila_melanogaster_CG18745
+            Drosophila_melanogaster_CG18747
+            Drosophila_melanogaster_CG2641
+            Drosophila_melanogaster_CG2993
+            Drosophila_melanogaster_CG3014
+            Drosophila_melanogaster_CG32683
+            Drosophila_melanogaster_CG4674
+            Drosophila_melanogaster_CG7047
+            Drosophila_melanogaster_Kurtz
+            Homo_sapiens_ARR3
+            Homo_sapiens_ARRB1
+            Homo_sapiens_ARRB2
+            Homo_sapiens_ARRDC1
+            Homo_sapiens_ARRDC2
+            Homo_sapiens_ARRDC3
+            Homo_sapiens_ARRDC4
+            Homo_sapiens_ARRDC5
+            Homo_sapiens_SAG
+            Homo_sapiens_TXNIP
+            Terebratalia_transversa_Arrestin
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M16618]
+
+	TITLE TRP;
+	LINK TAXA = Taxa3;
+	DIMENSIONS NCHAR=601;
+	FORMAT DATATYPE=Protein SYMBOLS= "A C D E F G H I K L M N P Q R S T V W Y" MISSING=? GAP= -;
+
+MATRIX
+[                                            10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170       180       190       200       210       220       230       240       250       260       270       280       290       300       310       320       330       340       350       360       370       380       390       400       410       420       430       440       450       460       470       480       490       500       510       520       530       540       550       560       570       580       590       600 ]
+[                                             .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         . ]
+Drosophila_melanogaster_TRP_NP_      -TDPMNRSALISAIEN--EN-FDLMVILLE-HN--IE---------------V-GDALLHAISEEYV---------------------EAVEELLQWEETNHK--------EG--QPYSTFTV--------DITPLILAAHRNNYEILKILLDR------G---AT---LPMPHDV--KCGCDECVTSQMTDSLRHSQSR-RKPFVKFITHSCSYMFFLMLLGAALP-GPIELAIITYIMALI---FEELKSLYSD-------------------GLFEYIMD-----LWNIVDYISNMFY---VTWILCRATAWVIVHRDL-WF-R---------------GIDP---YFPREHWHPFDPMLL--SE-GAFAAGMVFSYLKLVHIFSINPHLGPLQVSLGRMI-IDIIKFFFIYTLVLFAFGCGLNQLLWYYAELEK-----N-KCYHLHPDVADFDDQEKAC-TIWRRFSNLFE---TSQSLFWASFGLVDLVSF--DL--AGIK------------------------------------SF-TRFWALLMFGSYSVINIIVLLNMLIAMMSNSYQIISERADTE--WKFARSQLWMS
+Drosophila_melanogaster_TRP_like     -MDPLGRRALTLAIDN--EN-LEMVELLVV-MG--VE---------------T-KDALLHAINAEFV---------------------EAVELLLEHEELIYK--------EG--EPYAMFAP--------DITPLMLAAHKNNFEILRILLDR------G---AA---VPVPHDI--RCGCEECVRLTAEDSLRHSLSR-RKPFMKFLIHASSYLFFLFILILVTP-SKLELIVVMYVIGFV---WEEVQEIFAV-------------------GMKSYLRN-----MWNFIDFLRNSLY---VSVMCLRAFAYIQQATEI-AR-D---------------PQMA---YIPREKWHDFDPQLI--AE-GLFAAANVFSALKLVHLFSINPHLGPLQISLGRMV-IDIVKFFFIYTLVLFAFACGLNQLLWYFAALEK-----S-KCYVLPGGEADWGSHGDSC-MKWRRFGNLFE---SSQSLFWASFGMVGLDDF--EL--SGIK------------------------------------SY-TRFWGLLMFGSYSVINVIVLLNLLIAMMSNSYAMIDEHSDTE--WKFARTKLWMS
+Homo_sapiens_TRPA1_C                 -EGENGNTAVIIACTT--NN-SEALQILLN-KGAKPCRQLHINFMNNG-K----ATPLHLAVQNGDL---------------------EMIKMCLDNGAQIDP--------VE--KGRKIDSE--------GRSPLILATASASWNIVNLLLSK------G---AQ---VDIK----------------------------ET----------------------YLIKTCMIL---VFLSSIFGYCKEAGQIFQ--------------------QKRNYFMD-----ISNVLEWIIYTTGIIFVLPLFVEIPAH------------------------------------------------L--QW-QCGAIAVYFYWMNFLLYLQRFENCGIFIVMLEVIL-KTLLRSTVVFIFLLLAFGLSFYILLN-L----------------------------------QDPFSSPLL---SIIQTFSMMLGDINYRESFLEPYLRNEL------------------------------------AH--PVLSFAQLVSFTIFVPIVLMNLLIGLAVGDIAEVQKHASLK--RIAMQVELHTS
+Homo_sapiens_TRPC1_A                 -VDVLGRNAVTITIEN--EN-LDILQLLLD-YG--CQ---------------S-ADALLVAIDSEVV---------------------GAVDILLNHRPKRSS--------RP--TIVYSTTM--------DVAPVILAAHRNNYEILTMLLKQ------D---VS---LPKPHAV--GCECTLCSAKNKKDSLRHSRFR-HTPFMKFIIHGASYFTFLLLLNLYAL-ERIDYLLILWIIGMI---WSDIKRLWYE-------------------GLEDFLEE-----SRNQLSFVMNSLY---LATFALKVVAHNKFHD-----------------------------FADRKDWDAFHPTLV--AE-GLFAFANVLSYLRLFFMYTTSSILGPLQISMGQML-QDFGKFLGMFLLVLFSFTIGLTQLYDKGYTS----KEQK-DCVGI---F-----C--EQ-QSNDTFHSFIG---TCFALFWYIFSLAHVAIFVTRF--SYGE------------------------------------EL-QSFVGAVIVGTYNVVVVIVLTKLLVAMLHKSFQLIANHEDKE--WKFARAKLWLS
+Homo_sapiens_TRPC3_A                 -VDYMGQNALQLAVGN--EH-LEVTELLLK-KENLAR---------------I-GDALLLAISKGYV---------------------RIVEAILNHPGFAAS--------KR--LTLTRFSP--------DITPIILAAHCQKYEVVHMLLMK------G---AR---IERPHDY--FCKCGDCMEKQRHDSFSHSRSR-RSPFMKFVAHAASFIIFLGLLVFNQF-TWTEMLIMVWVLGMM---WSECKELWLE-------------------GPREYILQ-----LWNVLDFGMLSIF---IAAFTARFLAFLQATKAQ-QY-VDSYVQESDLSEVTLPPEIQYF-TYARDKWLPSDPQII--SE-GLYAIAVVLSFSRIAYILPANESFGPLQISLGRTV-KDIFKFMVLFIMVFFAFMIGMFILYSYYLGAK-----------------------------VNAAFTTVEE---SFKTLFWSIFGLSEVTSV--VL--KYDH------------------------------------KF-IENIGYVLYGIYNVTMVVVLLNMLIAMINSSYQEIEDDSDVE--WKFARSKLWLS
+Homo_sapiens_TRPC4_A                 -IDPLGRTALLIAIEN--EN-LELIELLLS-FN--VY---------------V-GDALLHAIRKEVV---------------------GAVELLLNHKKPSGE--------KQ--VPPSEFTP--------DITPIILAAHTNNYEIIKLLVQK------G---VS---VPRPHEV--RCNCVECVSSSDVDSLRHSRSR-RKPFIKFICHTASYLTFLFLLLLAPP-TIVEWMILPWVLGFI---WGEIKQMWDG-------------------GLQDYIHD-----WWNLMDFVMNSLY---LATISLKIVAFVKYSA-----------------------------LNPRESWDMWHPTLV--AE-ALFAIANIFSSLRLISLFTANSHLGPLQISLGRML-LDILKFLFIYCLVLLAFANGLNQLYFYYEETKG-----L-TCKGI---R-----C---E-KQNNAFSTLFE---TLQSLFWSIFGLINLYVT--NV--KAQH------------------------------------EF-TEFVGATMFGTYNVISLVVLLNMLIAMMNNSYQLIADHADIE--WKFARTKLWMS
+Homo_sapiens_TRPC5_A                 -MDPLGRSALLIAIEN--EN-LEIMELLLN-HS--VY---------------V-GDALLYAIRKEVV---------------------GAVELLLSYRRPSGE--------KQ--VPTSEFTP--------DITPIMLAAHTNNYEIIKLLVQK------R---VT---IPRPHQI--RCNCVECVSSSEVDSLRHSRSR-KKPFIKFICHTASYLTFLFMLLLAPP-TVVEWMILPWVLGFI---WGEIKEMWDG-------------------GFTEYIHD-----WWNLMDFAMNSLY---LATISLKIVAYVKYNG-----------------------------SRPREEWEMWHPTLI--AE-ALFAISNILSSLRLISLFTANSHLGPLQISLGRML-LDILKFLFIYCLVLLAFANGLNQLYFYYETRAI--DEPN-NCKGI---R-----C---E-KQNNAFSTLFE---TLQSLFWSVFGLLNLYVT--NV--KARH------------------------------------EF-TEFVGATMFGTYNVISLVVLLNMLIAMMNNSYQLIADHADIE--WKFARTKLWMS
+Homo_sapiens_TRPC6_A                 -VDYMGQNALQLAVAN--EH-LEITELLLK-KENLSR---------------V-GDALLLAISKGYV---------------------RIVEAILSHPAFAEG--------KR--LATTRFSH--------DVTPIILAAHCQEYEIVHTLLRK------G---AR---IERPHDY--FCKCNDCNQKQKHDSFSHSRSR-RGPFMKFVAHAASFTIFLGLLVMNCF-SWMEMLIISWVIGMI---WAECKEIWTQ-------------------GPKEYLFE-----LWNMLDFGMLAIF---AASFIARFMAFWHASKAQ-SI-IDANDTLKDLTKVTLGDNVKYY-NLARIKWDPSDPQII--SE-GLYAIAVVLSFSRIAYILPANESFGPLQISLGRTV-KDIFKFMVIFIMVFVAFMIGMFNLYSYYIGAK-----------------------------QNEAFTTVEE---SFKTLFWAIFGLSEVKSV--VI--NYNH------------------------------------KF-IENIGYVLYGVYNVTMVIVLLNMLIAMINSSFQEIEDDADVE--WKFARAKLWFS
+Homo_sapiens_TRPC7_C                 -VDYMGQNALQLAVGN--EH-LEVTELLLK-KENLAR---------------V-GDALLLAISKGYV---------------------RIVEAILNHPAFAQG--------QR--LTLTRFSH--------DITPIILAAHCQEYEIVHILLLK------G---AR---IERPHDY--FCKCNECTEKQRKDSFSHSRSR-RSPFMKFVAHAVSFTIFLGLLVVNQF-SWTEMLIMKWVLGMI---WSECKEIWEE-------------------GPREYVLH-----LWNLLDFGMLSIF---VASFTARFMAFLKATEAQ-LY-VDQHVQDDTLHNVSLPPEVAYF-TYARDKWWPSDPQII--SE-GLYAIAVVLSFSRIAYILPANESFGPLQISLGRTV-KDIFKFMVIFIMVFVAFMIGMFNLYSYYRGAK-----------------------------YNPAFTTVEE---SFKTLFWSIFGLSEVISV--VL--KYDH------------------------------------KF-IENIGYVLYGVYNVTMVVVLLNMLIAMINNSYQEIEEDADVE--WKFARAKLWLS
+Homo_sapiens_TRPM1_A                 ICDGSGRASDILSFAH--KY-CEEGGIINESLR----EQLLVTIQKTFN-YNKAQSHQLFAIIMECMKKKELVTVFRMGSEGQQDIEMAILTALLKGT-NVSA-------PDQLSLALQIFVFGPHWTPNALEQAMLDALVLDRVDFVKLLIEN------G---VN---MQHFLTIPRLE---ELYN--TRLGPPNT-LHLNAPIVKFWFYTISYLGYLLLFNYVWP-SLQEWIVISYIVSLA---LEKIREILMSEPG------------KLSQKIKVWLQE-----YWNITDLVAISTF---MIGAILRLQN----------------------------------------------QPYMGYGR-VIYCVDIIFWYIRVLDIFGVNKYLGPYVMMIGKMM-IDMLYFVVIMLVVLMSFGVARQAILHPEEK---------------------------------PSWKLARN---IFYMPYWMIYGEVFADQI--DLYAM-EIN-------PPCGENLYDEEGKRLP----------PCIP-GAWLTPALMACYLLVANILLVNLLIAVFNNTFFEVKSISNQV--WKFQRYQLIMT
+Homo_sapiens_TRPM2_B                 VVEGSGRVADVIAQVA--NL-PVSDIT-ISLIQ----QKLSVFFQEMFETFTESRIVEWTKKIQDIVRRRQLLTVFREGKDGQQDVDVAILQALLKAS-RSQDHFGHENWDHQLKLAVEIFMDEWQWKPSDLHPTMTAALISNKPEFVKLFLEN------G---VQ---LKEFVTWDTLL---YLYE--NL--DPSCLFHSTAPVVVFHLNILSYFAFLCLFAYVVP-SWCECAIYLWLFSLV---CEEMRQLFYDPDEC-----------GLMKKAALYFSD-----FWNKLDVGAILLF---VAGLTCRLIPA-----------------------------------------------TLYPGR-VILSLDFILFCLRLMHIFTISKTLGPKIIIVKRMM-KDVFFFLFLLAVWVVSFGVAKQAILIHNER---------------------------------RVDWLFRG---AVYHSYLTIFGQIPGY-I--DGVNFNPEHCSPNGTDP------------YKPKCPESDATQQRPAF-PEWLTVLLLCLYLLFTNILLLNLLIAMFNYTFQQVQEHTDQI--WKFQRHDLIEE
+Homo_sapiens_TRPM3_C                 VCDGSGRASDILAFGH--KY-SEEGGLINESLR----DQLLVTIQKTFT-YTRTQAQHLFIILMECMKKKELITVFRMGSEGHQDIDLAILTALLKGA-NASA-------PDQLSLALQIFIYGQQWPVGSLEQAMLDALVLDRVDFVKLLIEN------G---VS---MHRFLTISRLE---ELYN--TRHGPSNT-LYHNAPIVKFWFYTLAYIGYLMLFNYIWP-STQEWIVISYIFTLG---IEKMREILMSEPG------------KLLQKVKVWLQE-----YWNVTDLIAILLF---SVGMILRLQD----------------------------------------------QPFRSDGR-VIYCVNIIYWYIRLLDIFGVNKYLGPYVMMIGKMM-IDMMYFVIIMLVVLMSFGVARQAILFPNEE---------------------------------PSWKLAKN---IFYMPYWMIYGEVFADQI--DPPCGQNET-------REDGKI------IQLP----------PCKT-GAWIVPAIMACYLLVANILLVNLLIAVFNNTFFEVKSISNQV--WKFQRYQLIMT
+Homo_sapiens_TRPM4_A                 LVAGSGGAADCLAETL--ED-TLAPGS-GGARQ----GEARDRIRR---FFPKGDLEVLQAQVERIMTRKELLTVYSS-EDGSEEFETIVLKALVKAC-GSSEA---SAYLDELRLAVELFRGDIQWRSFHLEASLMDALLNDRPEFVRLLISH------G---LS---LGHFLTPMRLA---QLYS--AA--PSNSLIRNGAPVTIFMGNVVSYLLFLLLFSRVPP-GSLELLLYFWAFTLL---CEELRQGLSGGGGSLASGGPGPGHASLSQRLRLYLAD-----SWNQCDLVALTCF---LLGVGCRLTPG-----------------------------------------------LYHLGR-TVLCIDFMVFTVRLLHIFTVNKQLGPKIVIVSKMM-KDVFFFLFFLGVWLVAYGVATEGLLRPRDS---------------------------------DFPSILRR---VFYRPYLQIFGQIPQEDM--DVALMEHSNCSSEPGFW------------AHPPG--AQAGTCVSQY-ANWLVVLLLVIFLLVANILLVNLLIAMFSYTFGKVQGNSDLY--WKAQRYRLIRE
+Homo_sapiens_TRPM5_A                 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------GAPVTVFLGNVVMYFAFLFLFTYVGP-SGPEVTLYFWVFTLV---LEEIRQGFFTDEDT-----------HLVKKFTLYVGD-----NWNKCDMVAIFLF---IVGVTCRMLPS-----------------------------------------------AFEAGR-TVLAMDFMVFTLRLIHIFAIHKQLGPKIIVVERMM-KDVFFFLFFLSVWLVAYGVTTQALLHPHDG---------------------------------RLEWIFRR---VLYRPYLQIFGQIPLDEI--DEARVN---CSTHPLLL-------------------EDSPSCPSLY-ANWLVILLLVTFLLVTNVLLMNLLIAMFSYTFQVVQGNADMF--WKFQRYNLIVE
+Homo_sapiens_TRPM6_A                 VCEGTGRAADLLAFTH--KH-LADEGMLRPQVK----EEIICMIQNTFN-FSLKQSKHLFQILMECMVHRDCITIFDADSEEQQDLDLAILTALLKGT-NLSA-------SEQLNLAMHILIYEQHWKPDALEQAMSDALVMDRVDFVKLLIEY------G---VN---LHRFLTIPRLE---ELYN--TKQGPTNTLLHHSAPIVKFWFYTMAYLAFLMLFTYTQP-SVQEWLVSIYIFTNA---IEVVREICISEPG------------KFTQKVKVWISE-----YWNLTETVAIGLF---SAGFVLRWG----------------------------------------------DPPFHTAGR-LIYCIDIIFWFSRLLDFFAVNQHAGPYVTMIAKMT-ANMFYIVIIMAIVLLSFGVARKAILSPKEP---------------------------------PSWSLARD---IVFEPYWMIYGEVYAGEI--DVCSSQPSC-----------------------------------PP-GSFLTPFLQAVYLFVQYIIMVNLLIAFFNNVYLDMESISNNL--WKYNRYRYIMT
+Homo_sapiens_TRPM7_A                 VCEGTGRAADLLAYIH--KQ-TEEGGNLPDAAE----PDIISTIKKTFN-FGQNEALHLFQTLMECMKRKELITVFHIGSDEHQDIDVAILTALLKGT-NASA-------FDQLILTLHVFVYGQQWLVGSLEQAMLDALVMDRVAFVKLLIEN------G---VS---MHKFLTIPRLE---ELYN--TKQGPTNPMLFHHAPIVKFWFNTLAYLGFLMLYTFVLP-SVQEWIVIAYIFTYA---IEKVREIFMSEAG------------KVNQKIKVWFSD-----YFNISDTIAIISF---FIGFGLRFGAKWNFAN-------------------------------------AYDNHVFVAGR-LIYCLNIIFWYVRLLDFLAVNQQAGPYVMMIGKMV-ANMFYIVVIMALVLLSFGVPRKAILYPHEA---------------------------------PSWTLAKD---IVFHPYWMIFGEVYAYEI--DVCANDSVI-------PQ------------------------ICGP-GTWLTPFLQAVYLFVQYIIMVNLLIAFFNNVYLQVKAISNIV--WKYQRYHFIMA
+Homo_sapiens_TRPM8_A                 VVEGSGQIADVIASLV--E---VEDALTSSAVK----EKLVRFLPRTVSRLPEEETESWIKWLKEILECSHLLTVIKMEEAGDEIVSNAISYALYKAF-STSEQ-DKDNWNGQLKLLLEIFTNDRRWESADLQEVMFTALIKDRPKFVRLFLEN------G---LN---LRKFLTHDVLT---ELFS--NH--F-STLVYRTSPFVVFSWNVVFYIAFLLLFAYVVP-HPPELVLYSLVFVLF---CDEVRQWYVN--------------------GVNYFTD-----LWNVMDTLGLFYF---IAGIVFRLHSSN--------------------------------------------KSSLYSGR-VIFCLDYIIFTLRLIHIFTVSRNLGPKIIMLQRML-IDVFFFLFLFAVWMVAFGVARQGILRQNEQ---------------------------------RWRWIFRS---VIYEPYLAMFGQVPSD-V--DGTTYDFAHCTFTG-NE------------SKPLCVEL-DEHNLPRF-PEWITIPLVCIYMLSTNILLVNLLVAMFGYTVGTVQENNDQV--WKFQRYFLVQE
+Homo_sapiens_TRPML1_                 ------SNQLAVTFRE--EN-TIAFRHLFL-LGYSDG------AAYTREQ--L-YQAIFHAV-DQYL---------------------ALPDVSLGRYAYVRG--------GG--DP--NDTF--------DIDPMVVTDCIQVD-PPE----R-PPPPPS---DDLTLLESS----------------------------QN----------------------------------EFVGFMWRQ--RGRVISL--------------------WERLEFVN-----GWYILLVTSD---VLTISGTIMKIGIEAKNL----------------------------------ASYD------V--CS-ILLGTSTLLVWVGVIRYLTFFHNYNILIATLRVAL-PSVMRFCCCVAVIYLGYCFCGWIVLGPY----------------------------------HVKFRSLSM---VSECLFSLINGDDMFV-TFAAMQAQQGR------------------------------------SSLVWLFSQLYLYSFISLFIYMVLSLFIALITGAYDTIKHPGGAG--AEESELQAYIA
+Homo_sapiens_TRPML2_                 ------SNQLVVAFKE--DN-TVAFKHLFL-KGYSGT------SVYTQED--A-YESIFFAI-NQYH---------------------QLKDITLGTLGYGEN--------E-------NETL--------NIDNDVELDCVQLD-LQD----L-SKKPP----------DW-----------------------------RK----------------------------------RFLNFFLEK--YKRPVCD--------------------TDQWEFIN-----GWYVLVIISD---LMTIIGSILKMEIKAKNL----------------------------------TNYD------L--CS-IFLGTSTLLVWVGVIRYLGYFQAYNVLILTMQASL-PKVLRFCACAGMIYLGYTFCGWIVLGPY----------------------------------HDKFENLNT---VAECLFSLVNGDDMFA-TFAQI---QQK------------------------------------SILVWLFSRLYLYSFISLFIYMILSLFIALITDSYDTIKKFQQNG--FPETDLQEFLK
+Homo_sapiens_TRPML3_                 ------SNQMVVAFKE--EN-TIAFKHLFL-KGYMDR------AVYTQSD--V-YDQLIFAV-NQYL---------------------QLYNVSVGNHAYENK--------G-------NDTF--------DIDPEIETECFFVE-PDE----PFHIGTP-----------A-----------------------------QQ----------------------------------EFVNFFLLH--YKKEVSV--------------------SDQMEFVN-----GWYIMIIISD---ILTIIGSILKMEIQAKSL----------------------------------TSYD------V--CS-ILLGTSTMLVWLGVIRYLGFFAKYNLLILTLQAAL-PNVIRFCCCAAMIYLGYCFCGWIVLGPY----------------------------------HDKFRSLNM---VSECLFSLINGDDMFA-TFAKM---QQK------------------------------------SYLVWLFSRIYLYSFISLFIYMILSLFIALITDTYETIKQYQQDG--FPETELRTFIS
+Homo_sapiens_TRPP1_A                 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------LPL-LTSVCLLLFAVHFA---VAEARTWHRE-------------------G-RWRVLR-----LGAWARWLLVALT---AATALVRLAQ-LGAADR--QW-TRFVRG----------RPRRFTSFDQVAHVS-----SA--AR-GLAASLLFLLLVKAAQHVRFVRQWSVFGKTLCRA-LPELLGVTLGLVVLGVAYAQLAILLVSSC----------------------------------VDSLW---S---VAQALLVLCPGTG-LST-LC--------------------------------------------PAESWHLSPLLCVGLWALRLWGALRLGA------------------------------
+Homo_sapiens_TRPP2_A                 LRGLWGTRLMEESSTN--RE-KYLKSVLRE-LV----TYLLF-LIVLCI-LTYGMMSSNVYYYT------------------------RMMSQLFLDTPVSK--------TEK-----------------------------T----------------------------------------------------------RATFIDFSVYNANINLFCVVRLLVF-LAACEIIFCFFIFYYV---VEEILEIRIH--------------------KLHYFRS-----FWNCLDVVIVVLS---VVAIGINIYRTSNVEVLL-QFLE---------------DQNTFPNFEHLAYWQI-----Q--FN-NIAAVTVFFVWIKLFKFINFNRTMSQLSTTMSRCA-KDLFGFAIMFFIIFLAYAQLAYLVFGT-Q---------------------------------VDDFSTFQE---CIFTQFRIILGDINF-------A--EIE------------------------------------EA-NRVLGPIYFTTFVFFMFFILLNMFLAIINDTYSEVKSDLAQQK-AEMELSDLIRK
+Homo_sapiens_TRPP3_A                 IRGLWGTTLTENTAEN--RE-LYIKTTLRE-LL----VYIVF-LVDICL-LTYGMTSSSAYYYT------------------------KVMSELFLHTPS----------DTG-----------------------------V----------------------------------------------------------RVVFIDFSVYNANINLFCVLRLVVF-IVGCEVIFCVFIFYYV---VEEILELHIH--------------------RLRYLSS-----IWNILDLVIILLS---IVAVGFHIFRTLEVNRLMGKLLQ---------------QPNTYADFEFLAFWQT-----Q--YN-NMNAVNLFFAWIKIFKYISFNKTMTQLSSTLARCA-KDILGFAVMFFIVFFAYAQLGYLLFGT-Q---------------------------------VENFSTFIK---CIFTQFRIILGDFDY-------N--AID------------------------------------NA-NRILGPAYFVTYVFFVFFVLLNMFLAIINDTYSEVKEELAGQK-DELQLSDLLKQ
+Homo_sapiens_TRPP4_A                 ------------------------FSFIIN---HGPQQCSNFRDKHVPLTYKIIVSDLHSVGEISSVKENT--------------------------------------------LGTSTVPP--------SFLPVGMLASQYGLSLLSTLIQK------K---DF---LPAGYLL--YIVASVLNNMK--TELPLRDDR-KRRALLFLSYILTHFIFLALLLILAEI-YLYVAILIFFLAYV---VDEGCIIMQE-------------------R-ASYVRS-----VYNLLNFALKCIF---TVLIVLFLRK-HFLA-T--GI-IRFYLS----------NPEDFIPFHAVSQVD-----HI--MR-IILGFLLFLTILKTLRYSRFFYDVRLAQRAIQAA-LPGICHMAFVVSVYFFVYMAFGYLVFGQH----------------------------------EWNYSNLIH---STQTVFSYCVSAFQNTE-FS--------------------------------------------N--NRILGVLFLSSFMLVMICVLINLFQAVILSAYEEMKQPVYEE--PSD-EVEA---
+Homo_sapiens_TRPP5_A                 --------------YR--KE-VEITTTLQE-LL----LYFIF-LINLCI-LTFGMVNPHMYYLN------------------------KVMSSLFLDTSVPG--------EER-----------------------------T----------------------------------------------------------RVIFIDFSLYNANVNLFCIIRLVAF-IASCEITFCIFLFVFT---TQEVKKIKEF--------------------KSAYFKS-----IWNWLELLLLLLC---FVAVSFNTYYNVQIFLLLGQLLK---------------STEKYSDFYFLACWHI-----Y--YN-NIIAITIFFAWIKIFKFISFNKTMSQLSSTLSRCV-KDIVGFAIMFFIIFFAYAQLGFLVFGS-Q---------------------------------VDDFSTFQN---SIFAQFRIVLGDFNF-------A--GIQ------------------------------------QA-NPILGPIYFITFIFFVFFVLLNMFLAIINDTYSEVKADYSIGRRPDFELGKMIKQ
+Homo_sapiens_TRPV1_A                 -DPETGKTCLLKAMLNLHDGQNTTIPLLLE-IA----KELVN-ASYTDS-YYKGQTALHIAIERRNM---------------------ALVTLLVENGADVQA--------AA--HGDPGFYF--------GELPLSLAACTNQLGIVKFLLQN------SWQTAD---ISARDSV------------------GNTVLHA---KRIFYFNFLVYCLYMIIFTMAFR-VTGEILSVLGGVYFF---FRGIQYFL-QRRP------------S----MKT----LFVDSYSEMLFFLQSLFM---LATVVLYFSHL--------------------------------------------------KEYVASMVFSLALGWTNMLYYTRGFQQMGIYAVMIEKMILRDLCRFMFVYIVFLFGFSTAVVTLIEDGKNDSLPSESTSHRWRGP---A-----C----RPPDSSYNSLYS---TCLELFKFTIGMG---DL--EFT--ENY-------------------------------------D-FKAVFIILLLAYVILTYILLLNMLIALMGETVNKIAQESKNI--WKLQRAITILD
+Homo_sapiens_TRPV2_C                 -EGSTGKTCLMKAVLNLKDGVNACILPLLQ-ID----QPLVN-AQCTDD-YYRGHSALHIAIEKRSL---------------------QCVKLLVENGANVHA--------RA--CGRTCFYF--------GELPLSLAACTKQWDVVSYLLEN------PHQPAS---LQATDSQ------------------GNTVLHA---P-KFFLNFLCNLIYMFIFTAVML-LTGHILILLGGIYLL---VGQLWYFW-RRHV------------F----IWI----SFIDSYFEILFLFQALLT---VVSQVLCFLAI--------------------------------------------------EWYLPLLVSALVLGWLNLLYYTRGFQHTGIYSVMIQKVILRDLLRFLLIYLVFLFGFAVALVSLSQEAWRPEAPTGPNATESVQP---M-----EGQEDEGNGAQYRGILE---ASLELFKFTIGMG---EL--AFQ--EQL-------------------------------------H-FRGMVLLLLLAYVLLTYILLLNMLIALMSETVNSVATDSWSI--WKLQKAISVLE
+Homo_sapiens_TRPV3_A                 -ASDTGKTCLMKALLNINPNTKEIVRILLA-FA----GRFIN-AEYTEE-AYEGQTALNIAIERRQG---------------------DIAALLIAAGADVNA--------HA--KGAEGFYF--------GETPLALAACTNQPEIVQLLMGH------E--QTD---ITSRDSR------------------GNNILHA---KHMFFLSFCFYFFYNITLTLVLQ-LLGRMFVLIWAMCIS---VKEGIAIFLLRPS------------D----LQS----ILSDAWFHFVFFIQAVLV---ILSVFLYLFAY--------------------------------------------------KEYLACLVLAMALGWANMLYYTRGFQSMGMYSVMIQKVILHDVLKFLFVYIVFLLGFGVALASLIEKCPKDN----------------------------KDCSSYGSFSD---AVLELFKLTIGLG---DL--NIQ--QNS-------------------------------------K-YPILFLFLLITYVILTFVLLLNMLIALMGETVENVSKESERI--WRLQRARTILE
+Homo_sapiens_TRPV4_C                 -EPSTGKTCLPKALLNLSNGRNDTIPVLLD-IA----REFIN-SPFRDI-YYRGQTALHIAIERRCK---------------------HYVELLVAQGADVHA--------QA--RGRGYFYF--------GELPLSLAACTNQPHIVNYLTEN------PHKKAD---MRRQDSR------------------GNTVLHA---AVSFYINVVSYLCAMVIFTLTLR-LAGEVITLFTGVLFF---FTNIKDLFMKKCP------------G----VNS----LFIDGSFQLLYFIYSVLV---IVSAALYLAGI--------------------------------------------------EAYLAVMVFALVLGWMNALYFTRGLKLTGTYSIMIQKILFKDLFRFLLVYLLFMIGYASALVSLLNPCANMKVCNEDQT-NCTVP---T-----Y-PSC-RDSETFSTF------LLDLFKLTIGMG---DL--EML--SST-------------------------------------K-YPVVFIILLVTYIILTFVLLLNMLIALMGETVGQVSKESKHI--WKLQWATTILD
+Homo_sapiens_TRPV5_C                 -RGALGETALHIAALY--DN-LEAALVLME-AA----PELVF-EPTTCE-AFAGQTALHIAVVNQNV---------------------NLVRALLTRRASVSA--------RA--TGTNLIYF--------GEHPLSFAACVNSEEIVRLLIEH------G---AD---IRAQDSL------------------GNTVLHI------FCILAALYLLYMICFTTCIR-LVGELVSIVGAVIIL---LLEIPDIFRV-------------------GASRYFGKTILGGPFHVIIITYASLV---LVTMVMRLTNT--------------------------------------------------NGEVVPMSFALVLGWCSVMYFTRGFQMLGPFTIMIQKMIFGDLMRFCWLMAVVILGFASAFYIIFQTEDP---------------------------------TSLGQFYDYPMALFTTFEL-----FLTVI--DAPANYDV-------------------------------------D-LPFMFSIVNFAFAIIATLLMLNLFIAMMGDTHWRVAQERDEL--WRAQVVATTVM
+Homo_sapiens_TRPV6_A                 -RGAMGETALHIAALY--DN-LEAAMVLME-AA----PELVF-EPMTSE-LYEGQTALHIAVVNQNM---------------------NLVRALLARRASVSA--------RA--TGTNLIYF--------GEHPLSFAACVNSEEIVRLLIEH------G---AD---IRAQDSL------------------GNTVLHI------FCMLGAIYLLYIICFTMCIR-LVGELVTVIGAIIIL---LVEVPDIFRM-------------------GVTRFFGQTILGGPFHVLIITYAFMV---LVTMVMRLISA--------------------------------------------------SGEVVPMSFALVLGWCNVMYFARGFQMLGPFTIMIQKMIFGDLMRFCWLMAVVILGFASAFYIIFQTEDP---------------------------------EELGHFYDYPMALFSTFEL-----FLTII--DGPANYNV-------------------------------------D-LPFMYSITYAAFAIIATLLMLNLLIAMMGDTHWRVAHERDEL--WRAQIVATTVM
+Terebratalia_transversa_TRPC         -VDPLGRSGLLISIES--EN-VEMIDLLLS-YG--VE---------------I-GDALLHAINEENV---------------------EAVELLMQYQVSK-K--------KN--LAGDSFTP--------DITPIILAAHRDNYEILKILLDR------G---DH---IPKPHDV--RCSCRECIADTNEDVLRHSRSR-RKPFIKFIIHSSSYFTFLLLLILAPP-TYIECLIMCWVAGLI---WSEVKQLWDV-------------------GAKEYIQD-----MWNLLDFATNMLY---ITTITLRVIAYIKVEEEK-RV-N---------------DPRA---YLRRSDWDAFDPNLI--AE-GLFSAANIFSSLKLIYIFTVNPHLGPLQISLGRMV-VDIVKFFFVFTLVLFSFACGLNQLYWYYAAERQ-----Q-ECQSRPSGD-----C--DN-KRYKALLNLWE---IAQTLYWGIYNMIDLEHF--TL--KEDH------------------------------------YV-TQLLGKFMYGTYSLIAVVVLLNMLIAMMSNSYEMIYNQADTE--WKFARSKLWMS
+;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M16617]
+
+	TITLE opsins;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=536;
+	FORMAT DATATYPE=Protein SYMBOLS= "A C D E F G H I K L M N P Q R S T V W Y" MISSING=X GAP= -;
+
+MATRIX
+[                                                            10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170       180       190       200       210       220       230       240       250       260       270       280       290       300       310       320       330       340       350       360       370       380       390       400       410       420       430       440       450       460       470       480       490       500       510       520       530      ]
+[                                                             .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .      ]
+Alloteuthis_subulata_Opsin                           YYSLGI--FIAI-----------------------CGII-------GCAGNGIVI----YLF-TK-TKSLQ-TPANMFIINLAF--SDFTFS-----LVNGFPMMTISCFLK-HWVFGQAA-CKVYGLIGGIFGLTS---IMTMTMISIDRYNVIR--RP-------MSASKKMSH-RK--AF---IMIVFV-WIWSTIWAIGPIFGWGAYQLEGVLC-----------NCSFDY--------ITRDA--ST--RS-NIVCMYIFAFMFPIVV------------------------IFFCYFNI-VMSVSNHEKEMA---AA---------Q---A------G---A-----------------S---A---EMK----LAKISIVIVTQS------LLSWSPYA-IVALLAQ--FGP-----IE-W-------V---------T-PY---AAQLPVM------FAKASAIHNPMIYSV----SH----------------------------------------------PKFR
+Anolis_carolinensis_P_opsin                          --VAVL--MGLV------------------------VVL-------ATVVNGLVI----VVS-VR-YKRLR-SPLNYILVNLAV--ADLLVT-----SFGS-TISFANNIYG-FFVFGPTA-CEFEGFMVSLTGIVG---LWSLAILAFERYLVIC--KP---------VG-DFRF-QQRHAV---IGCAFT-WLWSLLWTLPPLFGWSSYIPEGLRT-----------SCGPNW--------YTGGN--DN--NS-YIMTLFVTCFITPLAM------------------------IIFSYANLLLTL---R----A---VA---------AQQKE------MATTQ-----------------Q---A---ERE----VTRMVVTMVMAF------LVCWLPYA-SFAMVVA--TNK-----DL-L-------I---------Q-PA---LASLPSY------FSKTATVYNPIIYVF----MN----------------------------------------------KQFR
+Anopheles_gambiae_GPRop11                            --AAVT--LFFI------------------------GFF-------GFFLNIFVI----ALM-YK-DVQLW-TPMNIILFNLVC--SDFSVS-----IIGN-PLTLTSAISH-RWLYGKSI-CVAYGFFMSLLGIAS---ITTLTVLSYERFCLIS--RP-------FAAQ-NRSK-QG--AC---LAVLFI-WSYSFALTSPPLFGWGAYVNEAANI-----------SCSVNW--------ESQTA--NA--TS-YIIFLFIFGLILPLAV------------------------IIYSYINIVLEM---R----K---NS---------A---R------VGRVN-----------------R---A---ERR----VTSMVAVMIVAF------MVAWTPYA-IFALIEQ--FGP-----PE-L-------I---------G-PG---LAVLPAL------VAKSSICYNPIIYVG----MN----------------------------------------------TQFR
+Anopheles_gambiae_GPRop12                            --SAVT--LFFI------------------------GFF-------GFFLNLFVI----ALM-CK-DMQLW-TPMNIILFNLVC--SDFSVS-----IIGN-PLTLTSAISH-RWIFGRTL-CVAYGFFMSLLGITS---ITTLTVLSYERYCLIS--RP-------FSSR-NLTR-RG--AF---LAIFFI-WGYSFALTSPPLFGWGAYVQEAANI-----------SCSVNW--------ESQTK--NA--TT-YIIFLFVFGLVVPLIV------------------------IVYSYTNIIVNM---R----E---NS---------A---R------VGRIN-----------------R---A---EQR----VTSMVAVMIVAF------MVAWTPYA-IFALIEQ--FGP-----PE-L-------I---------G-PG---LAVLPAL------VAKSSICYNPIIYVG----MN----------------------------------------------TQFR
+Bos_taurus_RGR                                       ---------VLA-----------------------VGTVLLVEALSGLSLNILTI----LSF-CK-TPELR-TPSHLLVLSLAL--ADSGISLNA-LV------AATSSLLR-RWPYGSEG-CQAHGFQGFVTALAS---ICSSAAVAWGRYHHFC--------TRSRLDW------NT--AV---SLVFFV-WLSSAFWAALPLLGWGHYDYEPLGT-----------CCTLDY--------SRGDR--NF--TS-FLFTMAFFNFLLPLFI------------------------TV---------------------------------------------VSYR-----------------L---M---EQK----LGKTSRPPVNTVLPARTLLLGWGPYA-LLYLYAT--IAD-----AT-S-------I---------S-PK---LQMVPAL------IAKAVPTVNAMNYAL----GS----------------------------------------------EMVH
+Branchiostoma_belcheri_Amphiop1                      ----AI--YITL-----------------------TGLI-------AFFGNVITI----TVFLTE-KEFRK-KQQNGFVLNLAI--ADLSVC-----VFAY-PSSAIAGYAG-RWVLGDVG-CTIYGFLCFTFALVS---MVTLCVISIYRYILIC--KP-------QYAH-LLTH-RR--TV---YVIIGT-WLYALVFTVPPLVGVKRYTYEPMQI-----------TCSLDW--------NVQHP--GE--KA-YIAAVLVIVYVLQVLI------------------------MCFCYFNIIFKSANLK----F---AA---------L---A------SEKTK-----------------K---D---TWK----TSVMCLTMVVSF------LIAWTPYA-VSSTWDI--LSA-----EDLP-------I------------I---ATILPSL------FAKSSCMMNPIIYAC----CN----------------------------------------------TKFR
+Branchiostoma_belcheri_Amphiop2                      --IMGV--YLTI-----------------------VGLV-------ATVGNATVV----LMFIMKWRQLCR-KAPNLLVINLAA--ANLCIT-----IFGY-PFSASSGYAH-QWLFPDAI-CTLYGFSCFLLSMVS---MHTLCLISAHRYITIC--RP-------EHAS-KLTM-NR--TV---LAVIGT-WLYAIAVAVPPLFNIARYTYEPSGL-----------SCTIDF--------RVTTV--AD--LV-YLGSLIVLCYVIHVAV------------------------MATCYFKIIRKFSRHR----F---RQ---------V---R------DIRTS-----------------S---F---EMG----VTMRCILMTLFY------LLSWTPYT-AVCIWTM--VGP-----PP-P-------V------------V---VSMAAAL------IAKTHCAFNPILYAF----MS----------------------------------------------EVYR
+Branchiostoma_belcheri_Amphiop3                      --IVGL--YLFV-----------------------IGII-------GTIENGITL----ATF-SK-FRSLR-SPTTMLLVHLAI--ADLGIC-----IFGY-PFSGASSLRS-HWLFGGVG-CQWYGFNGMFFGMAN---IGLLTCVAVDRYLVIC--RH-------DLVD-KVNY-NT--YG---VMAALG-WLFAAFWAALPLVGWAEYALEPSGT-----------ACTINF--------QKNDS--LY--IS-YVTSCFVLGFVVPLAV------------------------MAFCYWQ----ASCFV----S---KV---------L---K------GDIAA-----------------N---V---DWEYQNHFSKMCLAMVAAF------VVAWTPYS-VLFLFAA--FWN-----PA-D-------I---------P-AW---LTLLPPL------IAKSSALYNPIIYII----AN----------------------------------------------RRFR
+Branchiostoma_belcheri_Opsin4                        --IATG--LALI------------------------GLV-------GSMNNFVVI----LLI-GC-HRQLR-TPFNLLLLNVSV--ADLLVS-----VCGN-TLSFASAVQH-RWLWGRPG-CVWYGFANSLFGIVS---LVTLSALAFERYCVVV--RS-------SEM---LTYKSS--LG---M-IAFI-WMYSLLWTSLPLLGWSSYQFEGHSV-----------GCSVNW--------VKHNV--NN--VS-YIITLMVTCFFVPMVV------------------------VCWSYACIWRTV---R----M---SA------EMKS---E------FGNPQ-----------------N---T---GRL----VTTMVVVMIVCF------LVCWTPYT-VMALIVT--FGA-----DH-L-------V---------T-PT---ASVIPSL------VAKSSTAYNPIIYVL----MN----------------------------------------------NQFR
+Branchiostoma_belcheri_Opsin5                        --VAGV--IAII------------------------GVV-------GFVSNGAVV----VLF-LK-FPQLR-TPFNLLLLNMAV--ADLLVS-----VCGN-TLSFASAVRH-RWLWGRPG-CVWYGFANHLFGLVS---LISLAVISFLRYRMVV--KPKGPG---SSY---LTY-TK--VG---LAILFI-YLYCLLWTTLPIAGWSSYQLEGPKI-----------GCSVAW--------EEHSW--SN--TS-YIVVLFITCLFAPLLI------------------------IVYSYYRLWHKV---K----Q---GS------RNLP---A------MRKSS-----------------Q---K---EQK----IAMMVIVMITCF------MVCWLPYG-AMALVVT--FGG-----ER-L-------I---------S-HT---AAVVPSL------LAKSSTCYNPVVYFA----MN----------------------------------------------SQFR
+Ciona_intestinalis_Opsin1                            --LCVY--MTFV------------------------FLL-------SCSLNILVI----VAT-LK-NKVLR-QPLNYIIVNLAV--VDLLSG-----FVGG-FISIAANGAG-YFFWGKTM-CQIEGYFVSNFGVTG---LLSIAVMAFERYFVIC--KP---------FG-PVRF-EEKHSI---FGIVIT-WVWSMFWNTPPLIFWDGYDTEGLGT-----------SCAPNW--------FVKEK--RE--RL-FIILYFVFCFVIPLAV------------------------IMICYGKLILTL---R----Q---IA---------K-ESS------LSGGT-----------------S---P---EGE----VTKMVVVMVTAF------VFCWLPYA-AFAMYNV--VNP-----EA-Q-------I---------D-YA---LGAAPAF------FAKTATIYNPLIYIG----LN----------------------------------------------RQFR
+Cynops_pyrrhogaster_SWS1                             --QTAF--MGFV------------------------FFV-------GTPLNAIVL----IVT-VK-YKKLR-QPLNYILVNVSL--AGFTFC-----IFSV-FSVFVASSQG-YFIFGKFM-CEMEAFLGSVSGLVT---GWSLAFLAIERYIVIC--KP---------MG-NFRF-ASKHAL---MIVLTT-WVIGFSVSIGPLVGWSRYIPEGLQC-----------SCGPDW--------YTVGTKYNS--ET-YTWFLFIFCFIIPLSL------------------------ICFCYSQLLGAL---R----A---VA---------AQQQE------SATTQ-----------------K---A---ERE----VTRMVIVMVASF------CVCYVPYA-AMAMYMV--NNR-----NH-G-------L---------D-LR---LVTIPAF------FSKSACVYNPIIYSF----MN----------------------------------------------KQFR
+Danio_rerio_VAL_opsin                                --LAAL--MFVV------------------------TAL-------SLSENFTVM----LVT-FR-FQQLR-QPLNYIIVNLSL--ADFLVS-----LTGG-SISFLTNYHG-YFFLGKWA-CVLEGFAVTFFGIVA---LWSLAVLAFERFFVIC--RP---------LG-NIRL-RGKHAA---LGLVFV-WSFSFIWTVPPVLGWSSYTVSRIGT-----------TCEPNW--------YSGNF--HD--HT-FIITLFSTCFIFPLGV------------------------IIVCYCKLIRKL---R----K---VS---------NTHGR------LGNAR-----------------K---P---ERQ----VTRMVVVMIVAF------MVAWTPYA-AFSIIIT--AHP-----SM-H-------V---------D-PR---LAAIPAF------VAKTAAVYNPIIYVF----MN----------------------------------------------KQFR
+Drosophila_melanogaster_Allatostatin                 --IVPV--FFGI-----------------------IGFA-------GLLGNGLVI----LVV-VA-NQQMR-STTNLLIINLAV--SDILFV-----IFCV-PFTATDYVLP-EWPFGNVW-CKFVQYMIVVTCHCS---VYTLVLMSFDRFLAVV--HP-------VTSMSLRTE-RN--AT---LAIMCA-WITIVTTAIPVAL-SHS-----VR-IYQYHGNAGTA-CVFSTEE---EI--------WS--LVGFQVSFFLSSYVAPLTL------------------------ICFLYMGMLARLWKSA----PGCKPS---------A---E------S---R-----------------K---G---KRR----VTRMVVVVVLAF------AICWLPIH-VILVLKA--LNL-----YG-G-------S------------H---LSVI--IQIISHVVAYTNSCINPILYAF----LS----------------------------------------------DNFR
+Drosophila_melanogaster_Tachykinin_like_receptor     --IWAI--IFGL-----------------------MMFV-------AIAGNGIVL----WIV-TG-HRSMR-TVTNYFLLNLSI--ADLLMS-----SLNC-VFNFIFMLNS-DWPFGSIY-CTINNFVANVTVSTS---VFTLVAISFDRYIAIV--HP-------L---KRRTS-RR--KV---RIILVLIWALSCVLSAPCLL-YSS-----IMTKHYYNGKSRTV-CFMMWPDGRYPTS----M--AD--YA-YNLIILVLTYGIPMIV------------------------MLICYSLMGRVLWGSR----S---IGENTDRQ---M---E------S---M-----------------K---S---KRK----VVRMFIAIVSIF------AICWLPYH-LFFIYAY--HNN-----QV-A-------STKYVQHM-----Y---LGFY--W------LAMSNAMVNPLIYYW----MN----------------------------------------------KRFR
+Enteroctopus_dofleini_Opsin                          YYSVGI--FIGV-----------------------VGII-------GILGNGVVI----YLF-SK-TKSLQ-TPANMFIINLAM--SDLSFS-----AINGFPLKTISAFMK-KWIFGKVA-CQLYGLLGGIFGFMS---INTMAMISIDRYNVIG--RP-------MAASKKMSH-RR--AF---LMIIFV-WMWSIVWSVGPVFNWGAYVPEGILT-----------SCSFDY--------LSTDP--ST--RS-FILCMYFCGFMLPIII------------------------IAFCYFNI-VMSVSNHEKEMA---AA---------Q---A------G---A-----------------S---A---EMK----LAKISMVIITQF------MLSWSPYA-IIALLAQ--FGP-----AE-W-------V---------T-PY---AAELPVL------FAKASAIHNPIVYSV----SH----------------------------------------------PKFR
+Gallus_gallus_Blue_Cone_opsin                        --MAAF--MFLL------------------------IAL-------GVPINTLTI----FCT-AR-FRKLR-SHLNYILVNLAL--ANLLVI-----LVGS-TTACYSFSQM-YFALGPTA-CKIEGFAATLGGMVS---LWSLAVVAFERFLVIC--KP---------LG-NFTF-RGSHAV---LGCVAT-WVLGFVASAPPLFGWSRYIPEGLQC-----------SCGPDW--------YTTDNKWHN--ES-YVLFLFTFCFGVPLAI------------------------IVFSYGRLLITL---R----A---VA---------RQQEQ------SATTQ-----------------K---A---DRE----VTKMVVVMVLGF------LVCWAPYT-AFALWVV--THR-----GR-S-------F---------E-VG---LASIPSV------FSKSSTVYNPVIYVL----MN----------------------------------------------KQFR
+Geotria_australis_LWS                                --LTSFW-MIIV------------------------VIL-------SLFTNGLVL----VAT-LK-FKKLR-HPLNWILVNLAI--ADIGET-----IFAS-TVSVVNQIFG-YFILGHPL-CVFEGFTVSVCGITA---LWSLAIISFERWMVVC--KP---------FG-NLKF-DGKVAI---VLIIFS-WAWSAGWCAPPIFGWSRYWPHGLKT-----------SCGPDV--------FSGST--DPGVQS-YMVVLMITCCFIPLAL------------------------IIICYLQVWLAI---H----T---VA---------QQQKE------SETTQ-----------------K---A---ERD----VSRMVVVMIFAY------IFCWGPYT-FFACFAA--ANP-----GY-A-------F---------H-PL---AAALPAY------FAKSATIYNPIIYVF----MN----------------------------------------------RQFR
+Geotria_australis_RhA                                --LAAY--MFFL------------------------ILV-------GFPVNFLTL----FVT-VQ-HKKLR-TPLNYILLNLAV--SNLFMI-----LFGF-TTTMYTSMNG-YFVFGPTM-CSIEGFFATLGGEVS---LWSLVVLAIERYIVIC--KP---------MG-NFRF-GNTHAI---MGVALT-WVMALSCAAPPLLGWSRYLPEGMQC-----------SCGPDY--------YTMNPTYNN--ES-FVIYMFIVHFTIPFVI------------------------IFFSYGRLLCTV---K----E---AA---------AAQQE------SASTQ-----------------K---A---EKE----VTRMVVLMVVGF------LVCWVPYA-SVAFYIF--TNQ-----GS-D-------F---------G-AT---FMTLPAF------FAKSSALYNPVIYIL----MN----------------------------------------------KQFR
+Geotria_australis_RhB                                --ISAY--VFTL------------------------ILI-------GFPVNFMTL----FVT-FK-LKKLR-QPLNFILVNLCV--ADLLMI-----MFGF-TTTFYTAMNG-YFVFGPTG-CNIEGFFATLGGEVS---LWSLVMLAIERYIVVC--KP---------MG-NFRF-ATTHAA---LGVVFT-WVMASACAVPPLVGWSRYIPEGMQC-----------SCGPDY--------YTLNPKYYN--ES-YVIYLFLVHFLLPVTI------------------------IFFTYGRLICTV---K----E---AA---------AQQQE------SASTQ-----------------K---A---ERE----VTRMVIIMVVGF------LVCWVPYA-SFAFYLF--MNK-----GI-L-------F---------S-AT---AMTVPAF------FSKSSVLYNPIIYVL----LN----------------------------------------------KQFR
+Geotria_australis_SWS                                --QAAF--MGFV------------------------FIC-------GTPLNAIVL----VVT-IK-YKKLR-QPLNYILVNISA--AGLVFC-----LFSI-STVFVASMQG-YFFLGPTI-CALEAFFGSLAGLVT---GWSLAFLAAERYIVIC--KP---------FG-NFRF-GSKHAL---VAVGLT-WMLGLSVALPPFFGWSRYIPEGLQC-----------SCGPDW--------YTVGTKYKS--EY-YTYFLFVFCFVVPLSI------------------------IIFSYGSLLGTL---R----A---VA---------AQQQE------SASTQ-----------------K---A---ERE----VSRMVIMMVASF------CTCYVPYA-ALAVYMV--TNR-----DH-N-------I---------D-LR---FVTVPAF------FSKASCVYNPLIYSF----MN----------------------------------------------KQFR
+Geotria_australis_SWS2                               --MSAF--MLFL------------------------VLA-------GFPLNFLTV----FVT-IK-YKKLR-SHLNYILVNLAI--ANLIVV-----CCGS-TLAFYSFMHK-YFILGPLF-CKMEGFTATLGGMLS---LWSLAVLAFERCLVIC--KP---------FG-NIAF-RGTHAL---IRCGFA-WAAAIAASTPPLFGWSRYIPEGLQC-----------SCGPDW--------YTTNNKYNN--ES-YVMFLFIFCFGTPFTI------------------------IIVSYSKLILTL---R----A---AA---------AQQQE------SASTQ-----------------K---A---EKE----VSRMVVIMVGGF------LVCWLPYA-SLALWIV--FNR-----GS-P-------F---------D-LR---LATIPSV------FSKASTVYNPVIYIF----LN----------------------------------------------KQFR
+Hemigrapsus_sanguineus_Rh1                           HYLLGV--VYLF-----------------------LGVI-------SIAGNGLVI----YLY-MK-SQALK-TPANMLIVNLAL--SDLIML-----TTNF-PPFCYNCFSGGRWMFSGTY-CEIYAALGAITGVCS---IWTLCMISFDRYNIIC--NG-------FNGP-KLTQ-GK--AT---FMCGLA-WVISVGWSLPPFFGWGSYTLEGILD-----------SCSYDY--------FTRDM--NT--IT-YNICIFIFDFFLPASV------------------------IVFSYVFI-VKAIFAHEAAMR---AE---------A---E------T---Q-----------------R---A---EIR----IAKTALVNVSLW------FICWTPYA-AITIQGL--LGN-----AE-G-------I---------T-PL---LTTLPAL------LAKSCSCYNPFVYAI----SH----------------------------------------------PKFR
+Homo_sapiens_Encephalopsin                           --LALL--LGSI------------------------GLL-------GVGNNLLVL----VLY-YK-FQRLR-TPTHLLLVNISL--SDLLVS-----LFGV-TFTFVSCLRN-GWVWDTVG-CVWDGFSGSLFGIVS---IATLTVLAYERYIRVVHARV-------INFS-------W--AW---RAITYI-WLYSLAWAGAPLLGWNRYILDVHGL-----------GCTVDW--------KSKDA--ND--SS-FVLFLFLGCLVVPLGV------------------------IAHCYGHILYSI---R----M---LR---------C---V------EDLVI-----------------K---ILKYEKK----LAKMCFLMIFTF------LVCWMPYI-VICFLVV--NGH-----GH-L-------V---------T-PT---ISIVSYL------FAKSNTVYNPVIYVF----MI----------------------------------------------RKFR
+Homo_sapiens_Melanopsin                              HYTLGT--VILL-----------------------VGLT-------GMLGNLTVI----YTF-CR-SRSLR-TPANMFIINLAV--SDFLMS-----FTQA-PVFFTSSLYK-QWLFGETG-CEFYAFCGALFGISS---MITLTAIALDRYLVIT--RP-------LATFGVASK-RR--AA---FVLLGV-WLYALAWSLPPFFGWSAYVPEGLLT-----------SCSWDY--------MSFTP--AV--RA-YTMLLCCFVFFLPLLI------------------------IIYCYIFI-FRAIRETGRALQ---TQ---------R---Q------R---L-----------------Q---S---ECK----MAKIMLLVILLF------VLSWAPYS-AVALVAF--AGY-----AH-V-------L---------T-PY---MSSVPAV------IAKASAIHNPIIYAI----TH----------------------------------------------PKYR
+Homo_sapiens_NK_1_receptor                           --LWAA--AYTV-----------------------IVVT-------SVVGNVVVM----WII-LA-HKRMR-TVTNYFLVNLAF--AEASMA-----AFNT-VVNFTYAVHN-EWYYGLFY-CKFHNFFPIAAVFAS---IYSMTAVAFDRYMAII--HP-------L---QPRLS-AT--AT---KVVICVIWVLALLLAFPQGY-YST-----TETMP-----SRVV-CMIEWPE--HPNK----I--YE--KV-YHICVTVLIYFLPLLV------------------------IGYAYTVVGITLWASE----I---PGDSSDRY---H---E------Q---V-----------------S---A---KRK----VVKMMIVVVCTF------AICWLPFH-IFFLLPY--INP-----DL-Y-------LKKFIQQV-----Y---LAIM--W------LAMSSTMYNPIIYCC----LN----------------------------------------------DRFR
+Homo_sapiens_Peropsin                                --IVAT--YLIM-----------------------AGMI-------SIISNIIVL----GIF-IK-YKELR-TPTNAIIINLAV--TDIGVS-----SIGY-PMSAASDLYG-SWKFGYAG-CQVYAGLNIFFGMAS---IGLLTVVAVDRYLTIC--LP-------DVGR-RMTT-NT--YI---GLILGA-WINGLFWALMPIIGWASYAPDPTGA-----------TCTINW--------RKNDR--SF--VS-YTMTVIAINFIVPLTV------------------------MFYCYYH----VTLSI----K---HH---------T---T------SDCTL-----------------N---R---DWSDQIDVTKMSVIMICMF------LVAWSPYS-IVCLWAS--FGD-----PK-K-------I---------P-PP---MAIIAPL------FAKSSTFYNPCIYVV----AN----------------------------------------------KKFR
+Homo_sapiens_RGR                                     ---------VLA-----------------------VGMVLLVEALSGLSLNTLTI----FSF-CK-TPELR-TPCHLLVLSLAL--ADSGISLNA-LV------AATSSLLR-RWPYGSDG-CQAHGFQGFVTALAS---ICSSAAIAWGRYHHYC--------TRSQLAW------NS--AV---SLVLFV-WLSSAFWAALPLLGWGHYDYEPLGT-----------CCTLDY--------SKGDR--NF--TS-FLFTMSFFNFAMPLFI------------------------TI---------------------------------------------TSYS-----------------L---M---EQK----LGKSGHLQVNTTLPARTLLLGWGPYA-ILYLYAV--IAD-----VT-S-------I---------S-PK---LQMVPAL------IAKMVPTINAINYAL----GN----------------------------------------------EMVC
+Homo_sapiens_Rhodopsin                               --LAAY--MFLL------------------------IVL-------GFPINFLTL----YVT-VQ-HKKLR-TPLNYILLNLAV--ADLFMV-----LGGF-TSTLYTSLHG-YFVFGPTG-CNLEGFFATLGGEIA---LWSLVVLAIERYVVVC--KP---------MS-NFRF-GENHAI---MGVAFT-WVMALACAAPPLAGWSRYIPEGLQC-----------SCGIDY--------YTLKPEVNN--ES-FVIYMFVVHFTIPMII------------------------IFFCYGQLVFTV---K----E---AA---------AQQQE------SATTQ-----------------K---A---EKE----VTRMVIIMVIAF------LICWVPYA-SVAFYIF--THQ-----GS-N-------F---------G-PI---FMTIPAF------FAKSAAIYNPVIYIM----MN----------------------------------------------KQFR
+Homo_sapiens_Somatostatin                            --LVPV--LYLL-----------------------VCAA-------GLGGNTLVI----YVV-LR-FAKMK-TVTNIYILNLAV--ADVLY------MLGL-PFLATQNAAS-FWPFGPVL-CRLVMTLDGVNQFTS---VFCLTVMSVDRYLAVV--HP-------LSSARWRRP-RV--AK---LASAAA-WVLSLCMSLPLLV-FAD-----VQ--------EGGT-CNASWPE---PVG----L--WG--AV-FIIYTAVLGFFAPLLV------------------------ICLCYLLIVVKV--RA----AGVRVG---------C---V------R---R-----------------R---S---ERK----VTRMVLVVVLVF------AGCWLPFFTVNIVNLA--VALPQEPASA-G-------L------------Y---FFVV--I------LSYANSCANPVLYGF----LS----------------------------------------------DNFR
+Latimeria_chalumnae_Rh1                              --LCAY--MFLL------------------------IIL-------GFPINFLTL----LVT-FK-HKKLR-QPLNYILVNLAV--ASLFMV-----VFGF-TVTFYSSLNG-YFVLGPMG-CAMEGFFATLGGQVA---LWSLVVLAIERYIVVC--KP---------MG-NFRF-ASSHAI---MGIAFT-WIMALACAAPPLVGWSRYIPEGLQC-----------SCGPDY--------YTLNPDFHN--ES-YVMYLFLVHFLLPIII------------------------IFFTYGRLICKV---K----E---AA---------AQQQE------SASTQ-----------------K---A---EKE----VTRMVILMVIGF------LTAWVPYA-SAAFWIF--CNR-----GA-E-------F---------T-AT---LMTVPAF------FSKSSCLFNPIIYVL----LN----------------------------------------------KQFR
+Latimeria_chalumnae_Rh2                              --LAAY--MFFL------------------------ILV-------GFPINFLTL----FVT-IQ-HKKLR-TPLNYILLDLAV--ADLCMV-----FGGF-FVTMYSSMNG-YFVLGPTG-CNIEGFFATLGGQVA---LWALVVLAIERYVVVC--KP---------MS-NFRF-GENHAI---MGVIFT-WIMALSCAVPPLFGWSRYIPEGMQS-----------SCGVDY--------YTLKPEVNN--ES-FVIYMFVVHFTIPLIV------------------------IFFCYGRLVCTV---K----D---AA---------AQQQE------SATTQ-----------------K---A---EKE----VTRMVIVMVISF------LVCWVPYA-SVAAYIF--FNQ-----GS-E-------F---------G-PV---FMTAPSF------FAKSASFYNPVIYIL----LN----------------------------------------------KQFR
+Limulus_polyphemus_Ocellus_opsin                     YSILGV--AMII-----------------------LGII-------CVLGNGMVI----YLM-MT-TKSLR-TPTNLLVVNLAF--SDFCMM-----AFMM-PTMASNCFAE-TWILGPFM-CEVYGMAGSLFGCAS---IWSMVMITLDRYNVIV--RG-------MAAA-PLTH-KK--AT---LLLLFV-WIWSGGWTILPFFGWSRYVPEGNLT-----------SCTVDY--------LTKDW--SS--AS-YVIIYGLAVYFLPLIT------------------------MIYCYFFI-VHAVAEHEKQLR---ED---------Q---Q------K---Q-----------------S---A---ECR----LAKVAMMTVGLW------FMAWTPYL-IIAWAGV--FSS-----GT-R-------L---------T-PL---ATIWGSV------FAKANSCYNPIVYGI----SH----------------------------------------------PRYK
+Loligo_forbesii_Opsin                                YYSLGI--FIAI-----------------------CGII-------GCVGNGVVI----YLF-TK-TKSLQ-TPANMFIINLAF--SDFTFS-----LVNGFPLMTISCFMK-YWVFGNAA-CKVYGLIGGIFGLMS---IMTMTMISIDRYNVIG--RP-------MSASKKMSH-RK--AF---IMIIFV-WIWSTIWAIGPIFGWGAYTLEGVLC-----------NCSFDY--------ITRDT--TT--RS-NILCMYIFAFMCPIVV------------------------IFFCYFNI-VMSVSNHEKEMA---AA---------Q---A------G---A-----------------N---A---EMK----LAKISIVIVTQF------LLSWSPYA-VVALLAQ--FGP-----IE-W-------V---------T-PY---AAQLPVM------FAKASAIHNPMIYSV----SH----------------------------------------------PKFR
+Mizuhopecten_yessoensis_Go_rhodopsin                 --IIGI--FISI-----------------------CCII-------GVLGNLLII----IVF-AK-RRSVR-RPINFFVLNLAV--SDLIVA-----LLGY-PMTAASAFSN-RWIFDNIG-CKIYAFLCFNSGVIS---IMTHAALSFCRYIIIC--QY-------GYRK-KITQ-TT--VL---RTLFSI-WSFAMFWTLSPLFGWSSYVIEVVPV-----------SCSVNW--------YGHGL--GD--VS-YTISVIVAVYVFPLSI------------------------IVFSYGMILQEKVCKD----S---RK---------N---G------IRAQQ-----------------R---Y---EQR----VTFISFLMMAAF------MVAWTPYA-IMSALAIGSFNV-----EN-S-------F------------A---A--LPTL------FAKASCAYNPFIYAF----TN----------------------------------------------ANFR
+Mizuhopecten_yessoensis_Gq_rhodopsin                 HYIIGV--YITI-----------------------VGLL-------GIMGNTTVV----YIF-SN-TKSLR-SPSNLFVVNLAV--SDLIFS-----AVNGFPLLTVSSFHQ-KWIFGSLF-CQLYGFVGGVFGLMS---INTLTAISIDRYVVIT--KP-------LQASQTMTR-RK--VH---LMIVIV-WVLSILLSIPPFFGWGAYIPEGFQT-----------SCTFDY--------LTKTA--RT--RT-YIVVLYLFGFLIPLII------------------------IGVCYVLI-IRGVRRHDQKML---TN---------N---K------R---A-----------------R---S---ELR----ISKIAMTVTCLF------IISWSPYA-IIALIAQ--FGP-----AH-W-------I---------T-PL---VSELPMM------LAKSSSMHNPVVYAL----SH----------------------------------------------PKFR
+Mus_musculus_Encephalopsin                           --LALL--LGCL------------------------ALL-------GVGGNLLVL----LLY-SK-FPRLR-TPTHLFLVNLSL--GDLLVS-----LFGV-TFTFASCLRN-GWVWDAVG-CAWDGFSGSLFGFVS---ITTLTVLAYERYIRVVHARV-------INFS-------W--AW---RAITYI-WLYSLAWAGAPLLGWNRYILDIHGL-----------GCTVDW--------RSKDA--ND--SS-FVLFLFLGCLVVPVGI------------------------IAHCYGHILYSV---R----M---LR---------C---V------EDLVI-----------------K---MLRYEKK----VAKMCFLMAFVF------LTCWMPYI-VTRFLVV--NGY-----GH-L-------V---------T-PT---VSIVSYL------FAKSSTVYNPVIYIF----MN----------------------------------------------RKFR
+Mus_musculus_MLT                                     --FMFC--AMVI-----------------------TVVV-------DLIGNSMVI----LAV-TK-NKKLR-NSGNIFVASLSV--ADMLVA-----IYPY-PLMLYAMSVG-GWDLSQLQ-CQMVGLVTGLSVVGS---IFNITAIAINRYCYIC--HS-------LQYKRIFSL-RN--TC---IYLVVT-WVMTVLAVLPNMY-IGT-----IE----Y--DPRTYTCIFNY------------V--NN--PA-FTVTIVCIHFVLPLII------------------------VGYCYTKIWIKVLAAR----D---PA---------G---QNPDNQFA-------------------------E---VRN----FLTMFVIFLL-F------AVCWCPVN-VLTVLVA--VIP-----KE-MAGKIPNWL------------Y---LAAY--C------IAYFNSCLNAIIYGI----LN----------------------------------------------ESFR
+Mus_musculus_Melanopsin                              HYTLGT--VILL-----------------------VGLT-------GMLGNLTVI----YTF-CR-NRGLR-TPANMFIINLAV--SDFLMS-----VTQA-PVFFASSLYK-KWLFGETG-CEFYAFCGAVFGITS---MITLTAIAMDRYLVIT--RP-------LATIGRGSK-RR--TA---LVLLGV-WLYALAWSLPPFFGWSAYVPEGLLT-----------SCSWDY--------MTFTP--QV--RA-YTMLLFCFVFFLPLLI------------------------IIFCYIFI-FRAIRETGRACE---GQ---------W---Q------R---L-----------------Q---S---EWK----MAKVALIVILLF------VLSWAPYS-TVALVAF--AGY-----SH-I-------L---------T-PY---MSSVPAV------IAKASAIHNPIIYAI----TH----------------------------------------------PKYR
+Mus_musculus_Peropsin                                --VIAA--YLIV-----------------------AGIT-------SILSNVVVL----GIF-IK-YKELR-TPTNAVIINLAF--TDIGVS-----SIGY-PMSAASDLHG-SWKFGHAG-CQIYAGLNIFFGMVS---IGLLTVVAMDRYLTIS--CP-------DVGR-RMTT-NT--YL---SMILGA-WINGLFWALMPIIGWASYAPDPTGA-----------TCTINW--------RNNDT--SF--VS-YTMMVIVVNFIVPLTV------------------------MFYCYYH----VSRSL----R---LY---------A---A------SDCTL-----------------H---R---DWADQADVTKMSVIMILMF------LLAWSPYS-IVCLWAC--FGN-----PK-K-------I---------P-PS---MAIIAPL------FAKSSTFYNPCIYVA----AH----------------------------------------------KKFR
+Mus_musculus_RGR                                     ---------VLA-----------------------VGTVLLMEALSGISLNGLTI----FSF-CK-TPDLR-TPSNLLVLSLAL--ADTGISLNA-LV------AAVSSLLR-RWPHGSEG-CQVHGFQGFATALAS---ICGSAAVAWGRYHHYC--------TRRQLAW------DT--AI---PLVLFV-WMSSAFWASLPLMGWGHYDYEPVGT-----------CCTLDY--------SRGDR--NF--IS-FLFTMAFFNFLVPLFI------------------------TH---------------------------------------------TSYR-----------------F---M---EQK----FSRSGHLPVNTTLPGRMLLLGWGPYA-LLYLYAA--IAD-----VS-F-------I---------S-PK---LQMVPAL------IAKTMPTINAINYAL----HR----------------------------------------------EMVC
+Mus_musculus_Rhodopsin                               --LAAY--MFLL------------------------IVL-------GFPINFLTL----YVT-VQ-HKKLR-TPLNYILLNLAV--ADLFMV-----FGGF-TTTLYTSLHG-YFVFGPTG-CNLEGFFATLGGEIA---LWSLVVLAIERYVVVC--KP---------MS-NFRF-GENHAI---MGVVFT-WIMALACAAPPLVGWSRYIPEGMQC-----------SCGIDY--------YTLKPEVNN--ES-FVIYMFVVHFTIPMIV------------------------IFFCYGQLVFTV---K----E---AA---------AQQQE------SATTQ-----------------K---A---EKE----VTRMVIIMVIFF------LICWLPYA-SVAFYIF--THQ-----GS-N-------F---------G-PI---FMTLPAF------FAKSSSIYNPVIYIM----LN----------------------------------------------KQFR
+Oncorhynchus_nerka_LWS                               --VSTLW-MIIV------------------------VIL-------SVFTNGLVL----VAT-AK-FKKLQ-HPLNWILVNLAI--ADIGET-----LLAS-TISVCNQFFG-YFILGHPM-CVFEGYTVSTCGIAA---LWSLAVISWERWVVVC--KP---------FG-SVKF-DAKWAM---GGIIFS-WVWSAFWCAPPIFGWSRYWPHGLKT-----------SCGPDV--------FGGNE--DPGVKS-YMITLMITCCFFPLFV------------------------IIFCYIFVWLAI---R----A---VA---------AQQKD------SESTQ-----------------K---A---EKE----VSRMVVVMIIAY------CVCWGPYT-CFACFAA--ANP-----GY-A-------F---------H-PL---AAAIPAY------FAKSATIYNPVIYVF----MN----------------------------------------------KQFR
+Petromyzon_marinus_Pineal_opsin                      --LAAL--MGTI------------------------TAL-------SLGENFAVI----VVT-AR-FRQLR-QPLNYVLVNLAA--ADLLVS-----AIGG-SVSFFTNIKG-YFFLGVHA-CVLEGFAVTYFGVVA---LWSLALLAFERYFVIC--RP---------LG-NFRL-QSKHAV---LGLAVV-WVFSLACTLPPVLGWSSYRPSMIGT-----------TCEPNW--------YSGEL--HD--HT-FILMFFSTCFIFPLAV------------------------IFFSYGKLIQKL---K----K---AS---------ETQRG------LESTR-----------------R---A---EQQ----VTRMVVVMILAF------LVCWMPYA-TFSIVVT--ACP-----TI-H-------L---------D-PL---LAAVPAF------FSKTATVYNPVIYIF----MN----------------------------------------------KQFR
+Petromyzon_marinus_RhA                               --LAAY--MFFL------------------------ILV-------GFPVNFLTL----FVT-VQ-HKKLR-TPLNYILLNLAV--ANLFMV-----LFGF-TLTMYSSMNG-YFVFGPTM-CNFEGFFATLGGEMS---LWSLVVLAIERYIVIC--KP---------MG-NFRF-GSTHAY---MGVAFT-WFMALSCAAPPLVGWSRYLPEGMQC-----------SCGPDY--------YTLNPNFNN--ES-FVIYMFLVHFIIPFIV------------------------IFFCYGRLLCTV---K----E---AA---------AAQQE------SASTQ-----------------K---A---EKE----VTRMVVLMVIGF------LVCWVPYA-SVAFYIF--THQ-----GS-D-------F---------G-AT---FMTVPAF------FAKTSALYNPIIYIL----MN----------------------------------------------KQFR
+Platynereis_dumerilii_C_opsin                        --CAAY--LFFI------------------------ACL-------GVSLNVLVL----VLF-IK-DRKLR-SPNNFLYVSLAL--GDLLVA-----VFGT-AFKFIITARK-TLLREEDGFCKWYGFITYLGGLAA---LMTLSVIAFVRCLAVL--RL-------GSFT-GLTT-RM--GV---AAMAFI-WIYSLAFTLAPLLGWNHYIPEGLAT-----------WCSIDW--------LSDET--SD--KS-YVFAIFIFCFLVPVLI------------------------IVVSYGLIYDKV---R----K---VA---------K---T------GGSVA-----------------K---A---ERE----VLRMTLLMVSLF------MLAWSPYA-VICMLAS--FGP-----KD-L-------L---------H-PV---ATVIPAM------FAKSSTMYNPLIYVF----MN----------------------------------------------KQFR
+Platynereis_dumerilii_R_opsin                        HYAVAA--WMTF-----------------------FGIL-------GVSGNLLVV----WTF-LK-TKSLR-TAPNMLLVNLAI--GDMAFS-----AINGFPLLTISSINK-RWVWGKLW-RELYAFVGGIFGLMS---INTLAWIAIDRFYVIT--NP-------LGAAQTMTK-KR--AF---IILTII-WANASLWALAPFFGWGAYIPEGFQT-----------SCTYDY--------LTQDM--NN--YT-YVLGMYLFGFIFPVAI------------------------IFFCYLGI-VRAIFAHHAEMM---AA---------D---A------D---K-----------------K---S---EIQ----IAKVAAMTIGTF------MLSWTPYA-VVGVFGM--IKP-----HS-E-------M-------FIH-PL---LAEIPVM------MAKASARYNPIIYAL----SH----------------------------------------------PKFR
+Rana_catesbeiana_SWS1                                --QAIF--MGVV------------------------FII-------GTPLNAVVL----LVT-VK-YKKLR-QPLNYILVNISV--GGLLIC-----IFSN-FVVFINSWQG-YFFFGKAF-CAIEAFVGTLAGLVT---GWSLAFLAFERYIVIC--KP---------MG-TFTF-TSKHAL---AVVLTT-WMIGVGVSVPPFFGWSRYIPEGLQC-----------SCGPDW--------YTVGTKYHS--EY-YTWFIFVFCFIIPLTL------------------------ICYSYARLLGAL---R----A---VA---------AQQQE------SASTQ-----------------K---A---EKE----VSRMVVVMVGSF------CLCYVPYA-AMAMYMI--TNR-----NH-G-------L---------D-LR---FVTIPAF------FSKSACVYNPIIYTF----MN----------------------------------------------KQFR
+Rattus_norvegicus_Blue_cone_opsin                    --QAAF--MGFV------------------------FFA-------GTPLNATVL----VAT-LH-YKKLR-QPLNYILVNVSL--GGFLFC-----IFSV-FTVFIASCHG-YFLFGRHV-CALEAFLGSVAGLVT---GWSLAFLAFERYLVIC--KP---------FG-NIRF-NSKHAL---TVVLIT-WTIGIGVSIPPFFGWSRFIPEGLQC-----------SCGPDW--------YTVGTKYRS--EH-YTWFLFIFCFIIPLSL------------------------ICFSYFQLLRTL---R----A---VA---------AQQQE------SATTQ-----------------K---A---ERE----VSHMVVVMVGSF------CLCYVPYA-ALAMYMV--NNR-----NH-G-------L---------Y-LR---LVTIPAF------FSKSSCVYNPIIYCF----MN----------------------------------------------KQFR
+Schistosoma_mansoni_Opsin                            YYLVGI--YIGI-----------------------VGIL-------AVMGNSLVI----TLF-LL-CKQLR-TPPNMLIVSLAI--SDFSFA-----LINGFPLKTIAAFNH-RWGWGKLA-CELYGFAGSIFGFIS---LTTMAFIALDRYLVIV--QP-------FETFSRITY-GK--VI---VMIFIT-WIWSALWSIPPFFGYGSYIPEGFHT-----------SCTFDY--------LSTDL--PN--LI-FNAGLYILGFLCPVFI------------------------IIFSYYQI-VKTVRLNELELM---KK---------T---G------D---K-----------------K---A---DIE----AAKTSIILVLLY------LMSWSPYA-IVCLMTL--IGS-----RD-S-------L---------T-PF---HSELPVL------FAKTSAVYNPIVYAV----KH----------------------------------------------PKFR
+Sepia_officinalis_Opsin                              YYSLGI--FIGI-----------------------CGII-------GCTGNGIVI----YLF-TK-TKSLQ-TPANMFIINLAF--SDFTFS-----LVNGFPLMTISCFIK-KWVFGMAA-CKVYGFIGGIFGLMS---IMTMSMISIDRYNVIG--RP-------MAASKKMSH-RR--AF---LMIIFV-WMWSTLWSIGPIFGWGAYVLEGVLC-----------NCSFDY--------ITRDS--AT--RS-NIVCMYIFAFCFPILI------------------------IFFCYFNI-VMAVSNHEKEMA---AA---------Q---A------G---A-----------------S---A---EMK----LAKISIVIVTQF------LLSWSPYA-VVALLAQ--FGP-----IE-W-------V---------T-PY---AAQLPVM------FAKASAIHNPLIYSV----SH----------------------------------------------PKFR
+Takifugu_rubripes_TMT_opsin                          --VVSV-FLGFI------------------------GTF-------GLVNNLLVL----VLF-CR-YKMLR-SPINLLLMNISI--SDLLVC-----VLGT-PFSFAASTQG-RWLIGEAG-CVWYGFANSLFGVVS---LISLAVLSFERYSTMM--TP-------TEAD-PSNY-CK--VC---LGITLS-WVYSLVWTVPPLFGWSSYGPEGPGT-----------TCSVNW--------TAKTT--NS--IS-YIICLFVFCLIVPFLV------------------------IVFCYGKLLCAI---R----Q---VS------GINA---S--------TSR-----------------K---R---EQR----VLCMVVIMVICY------LLCWLPYG-VVALLAT--FGP-----PD-L-------V---------T-PE---ASIIPSV------LAKSSTVINPIIYVF----MN----------------------------------------------KQ--
+Terebratalia_transversa_C_opsin                      --IIVL--VLFV-----------------------TAIL-------GFFMNGSVL----IIF-YR-KKELR-SPTNMFIISMAF--NDLMMS-----ILGN-PFAAVSNLHH-RWIFGDAA-CVWYGFIMFFLGLNG---IYHLTAIAFDRYIVIA--KP-------LLSS-KITT-RV--AA---LAISVC-WFGAFLWSVFPVFGWSSYVEEGEHS-----------SCSINW--------ISQSI--VD--SS-YIISIFIFCFFLPILL------------------------VIFSYFHVYMTV---R----T---IA---------K---S------NTFTK-----------------KNEAV---ERK----MAKMVIIMITVF------FGSWSPYA-IVSMFVA--FGD-----GS-S-------L---------P-AA---AIAAPAI------IAKSAMIWNPIIYVL----MN----------------------------------------------VQFR
+Terebratalia_transversa_Go_opsin1                    ---------MLATTTNHNLTSLSTHLSTHDSLHMLVGGILAALVFVGVTENTTAIYFLHQMK-KN-ARQAR-PFYILL---HAMTACDILVLLTAGMM------SSISGLSR-KWLFGDAG-CKAYAFLSFFFALTNENLI---VGISLYRYIFVC--KP----HYKEFLS------TK--NVYYW--IAMS-MGYSVFWCSLPLLGFSNYELEPIGI-----------VCSANW--------QSNEL--DS--VS-YTCLIMFFCFILQAIILGKLYHEIVNKTKGLFGFAGCNSSII---------------------------------------------TKMK-----------------K---L---EKR----RNWLCLLLVLTF------IITWSPYA-IISM-------------LR-R-------I---------TGPIDKWIHAFPIL------LAKTSPVICPIIY--RFAGHDFNMSMPCSNCCNIHVHCSCLLGQDAETIVDDIAIRNLKFHGILTDHQAVK
+Terebratalia_transversa_Go_opsin2                    ---------MEVETCYRI-------------LYIIIG-------LSGTITNAYAI----RMF-WN-SPMKQ-KWYHIL---YFI--CNIGVILPS-FA------SSILLIEG-WWTI--RV-CNLYGVVAHAFGFSS---I---VAVS-----FVT--KV----TLTQSAP------SK--VV-----VLTT-VATCILLAMFPYIGLCRYVPDKHHT-----------NCFIDW--------HSNNT--T--------------CHLLLAVI-GLLFY-LVPCT----GSCLCYTTTI---------------------------------------------TTDG-----------------M---F---THA----KSKLVVSLIAMT------IVCWLPFG-VISLWEI--FAD-----VK-Y-------V---------T-PM---MEATPPI------VAKLGVTLTPLLYVLYWDGKD----------------------------------------------QKNK
+Terebratalia_transversa_R_opsin                      HILFGT--YISI-----------------------IGLL-------AVFGNGLIL----GVF-KR-CKALRLRPSSVLTISLLA--SDMAFS-----AVNGFPILTFTSYYK-KWIFGSTG-CQLYAFLGSLFGITS---INTMNLMAIERYLTIK--TN-------LYLMHSGTF-KR--NL---VFVAIA-WLWALLIALMPVLGWGRYVLEGFQT-----------TCSFDY--------LTKSA--NN--LS-YIMFLMILGFCNPLAC------------------------ITTSYAAI-FKKVNSNYKVLT---QA---------A---T------S---NGCGAGLRSGREIEEKAYR---T---ELK----IIKTAFVVTLAF------LLSWLPYT-IVAMLGL--TRY-----DY-L-------I---------S-PY---VSQIPVM------VAKTSAIYNPIIHVF----LY----------------------------------------------PKLR
+Todarodes_pacificus_Opsin                            YYSLGI--FIGI-----------------------CGII-------GCGGNGIVI----YLF-TK-TKSLQ-TPANMFIINLAF--SDFTFS-----LVNGFPLMTISCFLK-KWIFGFAA-CKVYGFIGGIFGFMS---IMTMAMISIDRYNVIG--RP-------MAASKKMSH-RR--AF---IMIIFV-WLWSVLWAIGPIFGWGAYTLEGVLC-----------NCSFDY--------ISRDS--TT--RS-NILCMFILGFFGPILI------------------------IFFCYFNI-VMSVSNHEKEMA---AA---------Q---A------G---A-----------------N---A---EMR----LAKISIVIVSQF------LLSWSPYA-VVALLAQ--FGP-----LE-W-------V---------T-PY---AAQLPVM------FAKASAIHNPMIYSV----SH----------------------------------------------PKFR
+Xenopus_laevis_Green_rod_opsin                       --ISAF--MLFT------------------------IIF-------GFPLNLLTI----ICT-VK-YKKLR-SHLNYILVNLAV--ANLIVI-----CFGS-TTAFYSFSQM-YFSLGTLA-CKIEGFTATLGGIIG---LWSLAVVAFERFLVIC--KP---------MG-NFTF-RESHAV---LGCILT-WVIGLVAAIPPLLGWSRYIPEGLQC-----------SCGPDW--------YTVNNKWNN--ES-YVLFLFCFCFGFPLAI------------------------IVFSYGRLLLAL---H----A---VA---------KQQEQ------SATTQ-----------------K---A---ERE----VTRMVIVMVVGF------LVCWLPYA-SFALWAV--THR-----GE-L-------F---------D-LR---MSSVPSV------FSKASTVYNPFIYIF----MN----------------------------------------------RQFR
+Xenopus_laevis_MLT                                   --ALAV--VLIF-----------------------TIVV-------DVLGNILVI----LSV-LR-NKKLQ-NAGNLFVVSLSI--ADLVVA-----VYPY-PVILIAIFQN-GWTLGNIH-CQISGFLMGLSVIGS---VFNITAIAINRYCYIC--HS-------LRYDKLYNQ-RS--TW---CYLGLT-WILTIIAIVPNFF-VGS-----LQ----Y--DPRIFSCTFAQ------------T--VS--SS-YTITVVVVHFIVPLSV------------------------VTFCYLRIWVLVIQVK----H---RV---------R---QDFKQKLT---Q-----------------T---D---LRN----FLTMFVVFVL-F------AVCWAPLN-FIGLAVA--INP-----FH-VAPKIPEWL------------F---VLSY--F------MAYFNSCLNAVIYGV----LN----------------------------------------------QNFR
+Xenopus_laevis_Melanopsin                            LYTIGS--FILI-----------------------IGSV-------GIIGNMLVL----YAF-YR-NKKLR-TAPNYFIINLAI--SDFLMS-----ATQA-PVCFLSSLHR-EWILGDIG-CNVYAFCGALFGITS---MMTLLAISINRYIVIT--KP-------LQSIQWSSK-KR--TS---QIIVLV-WMYSLMWSLAPLLGWSSYVPEGLRI-----------SCTWDY--------VTSTM--SN--RS-YTMMLCCCVFFIPLIV------------------------ISHCYLFM-FLAIRSTGRNVQ---KL---------S---Q------S---M-----------------K---N---EWK----MAKIAFVIIIVF------VLSWSPYA-CVTLIAW--AGH-----GK-S-------L---------T-PY---SKTVPAV------IAKASAIYNPIIYGI----IH----------------------------------------------PKYR
+;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M16620]
+
+	TITLE GRK;
+	LINK TAXA = Taxa2;
+	DIMENSIONS NCHAR=629;
+	FORMAT DATATYPE=Protein SYMBOLS= "A C D E F G H I K L M N P Q R S T V W Y" MISSING=X GAP= -;
+
+MATRIX
+[                                        10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170       180       190       200       210       220       230       240       250       260       270       280       290       300       310       320       330       340       350       360       370       380       390       400       410       420       430       440       450       460       470       480       490       500       510       520       530       540       550       560       570       580       590       600       610       620         ]
+[                                         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         ]
+Albugo_laibachii_GRK             --MDDLHDALQDAQYI-------GAVTNALRGPSAPFYTPTQAEMQHFTSFQEQAHGSDWLSLENILHQPLGFYFFSRYCE-AEHYGNAKLLFLIEITKFRLMQFDDDRLIQAKSIWTRFCTEKRLNAAQCTNHRIVSSCEVNAKSGREVANMTHHTLRCVFDELEACVLWSLEQLHLKDFLSS-VFHRRLMIFFFLQHR-PVSENDFTKLRVLGRGGFGMVNGCIKRTSAALYAIKVMNKKIIKQKHAERLCLAERKILAMI----SSPFIVCLKYAFQTSEELFLVLDLRTGGDLSFHLNRCR-----FTEHQVRFWAAQILLALEHLHEKNIAYRDLKPENILLDENGNCSLSDLGLAIEVT---PNLTGRCGTRGYWAPEMLLRDSNNQRLAYTTVVDWWSFGCLVYELLYGKCPFRTSRAKALHEDKQMAYDKATLELNPLYDPKYFSPEATDFIQKLLIRDPKKRLGA------HGVDEIRKQKFFSS--IDWARMESMSISPPFVPH-NELNAASQSDIGSFDISSMSGIHLNEQDRELYASWAY-TSADVFQKESIE------------------------YLEWEIRNGPCSLASNSQA---------------------
+Branchiostoma_floridae_GRKa      --------------------------------------MKHEVLHDC-----------DYTSVCE--KQPIGRELFRQFCK-KDAKLNRCICFMNKVTP---------------DYLGDIISSETISQCRENIQRITSEEQESLQEET----PSKN----VFNQCRSEVSKYLSGEPFENFREDKIYFSRFLQWKYLERQ-PVTKNTFRQYRVLGKGGFGEVCACQVRATGKMYACKKLEKKRIKKRKGEAMALNEKTILQKI----NSRFVVSLAYAYETKDALCLVLTIMNGGDLKFHIHSMS-DPPGFAESRAEFYAAEVLCGLQHLHQERIVYRDLKPENILLDDHGHVRISDLGLAVEIPEGEM-IRGRVGTVGYMAPEVV-KNE-----KYMFSPDWWGLGCLIYEMIEGKAPFRARKEKV----KREEVDRRVKEDTETY-SDKFSEHAKSICSALLQKDPKLRLGCVDDAMGSRADDIKTHTFFK---LNFKRLEAGMVKPEFVPDPRAVYAKDVLDIEQF--STVKGVNLDQADESFYSKFNTGSVSIPWQQEMIET---------------------ECYQELN-VLSEDGEPTPDLI-MDQPPPPPRRGFFSRTFKRQ
+Branchiostoma_floridae_GRKb      --MADLEAVLADVSYLMAME--KSKSTPAARASK-KIILPDPSVRSVMHKYLEERGEVTFDKIFN---QKIGFLLFKDYCENVIEEPVPQLQFYEETKAYEHMDEEDERLKAARHIYDTYIMKELLSCSHKFSESAVEYVQTRLLKQE----VPVD----LFEPYIEEICNSLRGEIFQKFLES-EKYTRFCQWKNLELNIQLTMNDFSVHRIIGRGGFGEVYGCRKADTGKMYAMKCLDKKRIKMKQGETLALNERIMLSLVSTGADSPFIVCMTYAFQTPDKLCFILDLMNGGDLHYHLSQHG----VFTEGEMKFYAAEIILGLEHMHSRSIVYRDLKPANILLDEHGHVRISDLGLACDFSKKKP--HASVGTHGYMAPEVLAKGQ-----AYDSSADWFSLGCMLFKLLKGHSPFRQHKTK-----DKHEIDRMTMTMDVDL-PDSLSSECKELLGGLLKRDVNDRLGC----QGRGAEEVKTLRFFKD--IDWAKVYQLKYPPPLVPPRGEVNAADAFDIGSFDEEDTKGIKLTEADQELYKNFPL-VVSERWQQEIAETVYDAVNTDADKNEAKKRA--KKMMDEKEYAEGKDCIIHGHLLKLGGPFLTAWQKRYFWLFPNR
+Doryteuthis_pealeii_GRKb         --MADLEAVLADVSYLMAME--KSKSSPAARASK-KIVLPDPSIRSVMHKHLLKNGVVTFDHIFD---QRIGFVLFKDYCNNGSDVPILEINFYEEIKKFQGMDKDEDRIKQARDIYDQFIMRELLAQCHDFTKTAVNNVQDALTKARKTKKLDVV----VFNKYKEELRRKLNKEVFSKFIES-DRYTRYLQWKNLELNINLTMNDFSVHRIIGRGGFGEVYGCRKADTGKMYAMKCLDKKRIKMKGGETLALNERIMLSLVSTG-ECPFIVCMTYAFQTPEKLCFILDLMNGGDLHYHLSQHG----VFSEQEVKFYAAEVILGLEHMHVRGVVYRDLKPANILLDESGHVRISDLGLACDFSKKKP--HASVGTHGYMAPEVLAKGV-----AYDSSADWFSFGCMLYKLLKGHSPFRQHKTK-----DKHEIDRMTMTMNVEL-PDSMSTEMKSLLEGLLKREVEERLGC----KGKGAKELKEHEFFKD--MDWNQVYQLRYPPPLIPPRGEVNAADAFDIGSFDEDDTKGIKLLDADQQLYENFTL-TVSDRWQQEITETVFETVNNETDKLETKKKP-------KREEPCEKDVIVEGEILKLGGPFLNSWQKRHLRLYPNR
+Drosophila_melanogaster_GRKa     ---MELENIVANTVYLKARE--GGSDSNKGKSKKWRKILQFPHISQC--INLKDKLDISYGYVID--QQPIGRELFRLFCENKRPVYFRYITFLDEVVKYE-IEYISNRIFIGHDIGRRFLDVETEHCNNTTANNCNAQVRNKLNSG------GKD----IFAQCVNAVKAFLAGEPFREFESS-MYFHRYLQWKWLEAQ-PITYKTFRMYRVLGKGGFGEVCACQVRATGKMYACKKLEKKRIKKRKGESMVLIEKQILQKI----NSPFVVNLAYAYETKDALCLVLTIMNGGDLKFHIYNMG-GEPGFELERARFYAAEVACGLQHLHKQGIVYRDCKPENILLDDHGHVRISDLGLAVEIPEGEM-VRGRVGTVGYMAPEVI-DNE-----KYAFSPDWFSFGCLLYEMIEGQAPFRMRKEKV----KREEVDRRVKEDPEKY-SSKFNDEAKSMCQQLLAKSIKQRLGC--RNGRMGGQDVMAHPFFHSTQLNWRRLEAGMLEPPFVPDPHAVYAKDVLDIEQF--STVKGVNIDESDTNFYTKFNTGSVSISWQNEMMET---------------------ECFRELN-VFGPEECPTPDLQINAAPEPDKA-----------
+Drosophila_melanogaster_GRKb     --MADLEAVLADVSYLMAME--KSKCTPAARASK-KLNLPDPSVRSVMYKYLEKEGELNFHKIFN---EVLGYLLFKDFCENDSEEPIQQLKFFEQIKLFEKTECYDERKKMARDIYDNFIMEEMLSHTYEYSKHAVASVQKYLLKNE----VPVD----LFEPYLEEIFTQLKGKPFKKFLES-DKFTRFCQWKNLELNIQLTMNDFSVHRIIGRGGFGEVYGCRKADTGKMYAMKCLDKKRIKMKQGEMLALNERNMLQAVSTGIDCPFIVCMTYAFHTPDKLCFILDLMNGGDLHYHLSQHG----IFSEDEMKFYAAEVILGLEHMHKRCIVYRDLKPANILLDENGHIRISDLGLACDFSKKKP--HASVGTHGYMAPEVLSKGT-----SYDSCADWFSFGCMLYKLLKGHSPFRQHKTK-----DKLEIDKMTLTMNVEL-PESFSLELKNLLEMLLQRDVSKRLGC----MGNGADEVKMHNFFCG--IDWHQVYIQKYTPPLVPPRGEVNAADAFDIGSFDEEDTKGIKLNDADQDLYKMFSL-TISERWQQEVSETVFDTVNTETDKLEQKRKLKQKQHFDADE--KESDCILHGYIKKLGGSFASLWQTKYAKLYPNR
+Enteroctopus_dofleini_GRKb       --MADLEAVLADVSYLMAME--KSKSSPAARASK-KIVLPDPSIRSVMHKHLLKNGVVTFEHIFD---QRIGYLLFKDFCNNGSDVPIAEINFYEEIKKFQTMDTDEDRIKQARDIYDQFIMRELLAQCHEYTKTAINNVQDALTKARKTKQLGNH----VFNKYKDEIRKKLNKEEFNKFLES-DRYSRYLQWKNLELNINLTMNDFSVHRIIGRGGFGEVYGCRKADTGKMYAMKCLDKKRIKLKTGETLALNERIMLSLVSTG-ECPFIVCMTYAFQTPEKLCFILDLMNGGDLHYHLSQHG----VFSEQEVRFYAAEVILGLEHMHVRGVVYRDLKPANILLDESGHVRISDLGLACDFSKKKP--HASVGTHGYMAPEVLAKGV-----AYDSSADWFSFGCMLYKLLKGHSPFRQHKTK-----DKHEIDRMTMTMNVEL-PDSMSVEMKSLLEGLLKREVEERLGC----GGKGAEELKENDFFKD--LDWNQVYQLHYTPPLIPPRGEVNAADAFDIGSFDEDDTKGIRLSESDQQLYENFTL-TVSDRWQQEITETVFDTVNAETDKLELKKKP-------KREDQIEKDVIVEGEILKLGGPFLNSWQKRHLRLYPNR
+Mus_musculus_GRK1                MDFGSLETVVANSAFIAARGSFDGSSTPSSRDKKYLAKLRLPPLSKC--EGLRDNLSLEFESLCS--EQPIGKRLFQQFLK-TDERHVPALELWKDIEDYDTAD-DDLRPQKAQAILAEYLDPQGTLFCNFLDQGMVTRVKEGPTGSQDG----------LFQPLLQATMEHLSQAPFQEYLES-LYFLRFLQWKWLEAQ-PIGEDWFLDFRVLGKGGFGEVSACQMKATGKMYACKKLNKKRLKKKKGYQGAIVEKRILTKV----HSRFIVSLAYAFETKTDLCLVMTIMNGGDVRYHIYNVDEDNPGFSEPRAIYYTAQIISGLEHLHQRRIVYRDLKPENVLLDNDGNIRISDLGLAVELKEGQNKTKGYAGTPGFMAPELL-RGE-----EYDFSVDYFALGVTLYEMIAARGPFRARGEKV----ENKELKQRIISEPVKY-PEKFSQASKDFCEQLLEKDPEKRLGF----RDGTCDALRANVLFKD--ISWRQLEAGMLIPPFIPDSRTVYAKNIQDVGAF--STVKGVVFDKADTEFFQEFASGNCSIPWQEEMIET---------------------GLFGDLN-VWRADGQMPDDMKGITTEEAAP------------
+Mus_musculus_GRK2                --MADLEAVLADVSYLMAME--KSKATPAARASK-KILLPEPSIRSVMQKYLEDRGEVTFEKIFS---QKLGYLLFRDFCLNHLEEAKPLVEFYEEIKKYEKLETEEERVVRSREIFDSYIMKELLACSHPFSKNATEHVQGHLVKKQ----VPPD----LFQPYIEEICQNLRGNVFQKFIES-DKFTRFCQWKNVELNIHLTMNDFSVHRIIGRGGFGEVYGCRKADTGKMYAMKCLDKKRIKMKQGETLALNERIMLSLVSTG-DCPFIVCMSYAFHTPDKLSFILDLMNGGDLHYHLSQHG----VFSEADMRFYAAEIILGLEHMHNRFVVYRDLKPANILLDEHGHVRISDLGLACDFSKKRP--HASVGTHGYMAPEVLQKGV-----AYDSSADCFSLGCMLFKLLRGHSPFRQHKTK-----DKHEIDRMTLTMAVEL-PDSFSPELRSLLEGLLQRDVNRRLGC----LGRGAQEVKESPFFRS--LDWQMVFLQKYPPPLIPPRGEVNAADAFDIGSFDEEDTKGIKLLDSDQELYRNFPL-TISERWQQVVAETVFDTINAETDRLEARKKAKNKQLGHEEDYALGKDCIVHGYMSKMGNPFLTQWQRRYFYLFPNR
+Mus_musculus_GRK3                --MADLEAVLADVSYLMAME--KSKTAPAARASK-KVVLPEPSIRSVMQRYLAERNEITFDKIFN---QKIGFLLFKDFCLNEIGEAVPQVKFYEEIKEYEKLDNEEDRLRRSRQMYDAYIMRELLSSTHQFSKQAVEHVQSHLSKKQ----VTAT----LFQPYIEEICESLRGDIFQKFMES-DKFTRFCQWKNVELNIHLSMNDFSVHRIIGRGGFGEVYGCRKADTGKMYAMKCLDKKRVKMKQGETLALNERIMLSLVSTG-DCPFIVCMTYAFHTPDKLCFILDLMNGGDMHYHLSQHG----VFSEKEMRFYASEIILGLEHMHTCFVVYRDLKPANILLDEYGHVRISDLGLACDFSKKKP--HASVGTHGYMAPEVLQKGT-----CYDSSADWFSLGCMLFKLLRGHSPFRQHKTK-----DKHEIDRMTLTVNVQL-PDAFSPELRSLLEGLLQRDVSQRLGC----GGGGARELKEHIFFKG--IDWQHVYLRKYPPPLIPPRGEVNAADAFDIGSFDEEDTKGIKLLDCDQDLYKNFPL-VISERWQQEVVETIYDAVNADTDKIEARRKAKNKQLGQEEDYAMGKDCIMHGYMLKLGNPFLTQWQRRYFYLFPNR
+Mus_musculus_GRK4_O70291         ---MELENFVANNLLLKARL---GFNKQTGRSKKWRELLKFPPVSMC--TELRWSIEKDFSSLCD--KQPIGRLLFRQFCD-TKPDLKRCIEFLDAVAEYEVTI-EEEQREFGLAIFSRFFKEKSEVPLPEIPPDIVKECKWNLKQNS----PSQN----VFEECAGIVCKYLSETPFEEYQES-TYFNRFLQWKWLERR-PVTKNTFRQYRVLGKGGFGEVCACQVRATGKMYACKKLEKKRIKKRKGEAMALNEKRILEKL----HSRFVVSLAYTYETKDALCLVLTIMNGGDLKYHIYNLG-D-PGFEEPRAVFYAAELCCGLEDLQRKRIVYRDLKPENILLDDHGHIRISDLGLAMEVPEGEM-VRGRVGTVGYMAPEII-NHE-----KYTFSPDWWGLGCLIYEMIAGHSPFRKYKEKV----NREELERRVKNETEEY-SERFSEDAKSICSMLLIKDPSKRLGC----QRDGVSAVKQHPIFKD--INFSRLEANMLDPPFIPDPQAIYCRNILDIGQF--SVVKGVNLDTNDEIFYAEFATGSVTIPWQNEMIES---------------------GCFKDLN--ENEDDLSSLEKYKMCSSILRPKRNFFRRLFRRT
+Mus_musculus_GRK5                -----------------------GGGKRKGKSKKWKEILKFPHISQC--EDLRRTIDRDYYSLCD--KQPIGRLLFRQFCE-TRPGLECYIQFLDLVAEYEITP-DENLGAKGKEIMTKYLTPKSPVFIAQVGQDLVSQTEKKLLQS-----PCKE----LFSACAQSVHDYLKGDPFHEYLDS-MYFDRFLQWKWLERQ-PVTKNTFRQYRVLGKGGFGEVCACQVRATGKMYACKRLEKKRIKKRKGESMALNEKQILEKV----NSQFVVNLAYAYETKDALCLVLTIMNGGDLKFHIYNMG-N-PGFEEERALFYAAEILCGLEDLHRENTVYRDLKPENILLDDYGHIRISDLGLAVKIPEGDL-IRGRVGTVGYMAPEVL-NNQ-----RYGLSPDYWGLGCLIYEMIEGQSPFRGRKEKV----KREEVDRRVLETEEVY-SSKFSEEAKSICNMLLTKDSKQRLGC----QEEGAAEVKRHPFFRN--MNFKRLEAGMLDPPFVPDPRAVYCKDVLDIEQF--STVKGVNLDHTDDDFYSKFSTGSVPIPWQNEMIET---------------------ECFKELN-VFGPNGTLSPDLNR-SQPPEPPKKGLFHRLFRRQ
+Mus_musculus_GRK6A               ---MELENIVANTVLLKARE--GGGGNRKGKSKKWRQMLQFPHISQC--EELRLSLERDYHSLCE--RQPIGRLLFREFCA-TRPELTRCTAFLDGVSEYEVTP-DEKRKACGRRLMQNFLSHTGPDLIPEVPRQLVSNCAQRLEQG-----PCKD----LFQELTRLTHEYLSTAPFADYLDS-IYFNRFLQWKWLERQ-PVTKNTFRQYRVLGKGGFGEVCACQVRATGKMYACKKLEKKRIKKRKGEAMALNEKQILEKV----NSRFVVSLAYAYETKDALCLVLTLMNGGDLKFHIYHMG-Q-AGFPEARAVFYAAEICCGLEDLHRERIVYRDLKPENILLDDHGHIRISDLGLAVHVPEGQT-IKGRVGTVGYMAPEVV-RNE-----RYTFSPDWWALGCLLYEMIAGQSPFQQRKKKI----KREEVERLVKEVAEEY-TDRFSSQARSLCSQLLSKDPAERLGC----RGGGAREVKEHPLFKK--LNFKRLGAGMLEPPFKPDPQAIYCKDVLDIEQF--STVKGVDLEPTDQDFYQKFATGSVSIPWQNEMVET---------------------ECFQELN-VFGLDGSVPPDLDWKGQPTAPPKKGLLQRLFSRQ
+Mus_musculus_GRK6B               ---MELENIVANTVLLKARE--GGGGNRKGKSKKWRQMLQFPHISQC--EELRLSLERDYHSLCE--RQPIGRLLFREFCA-TRPELTRCTAFLDGVSEYEVTP-DEKRKACGRRLMQNFLSHTGPDLIPEVPRQLVSNCAQRLEQG-----PCKD----LFQELTRLTHEYLSTAPFADYLDS-IYFNRFLQWKWLERQ-PVTKNTFRQYRVLGKGGFGEVCACQVRATGKMYACKKLEKKRIKKRKGEAMALNEKQILEKV----NSRFVVSLAYAYETKDALCLVLTLMNGGDLKFHIYHMG-Q-AGFPEARAVFYAAEICCGLEDLHRERIVYRDLKPENILLDDHGHIRISDLGLAVHVPEGQT-IKGRVGTVGYMAPEVV-RNE-----RYTFSPDWWALGCLLYEMIAGQSPFQQRKKKI----KREEVERLVKEVAEEY-TDRFSSQARSLCSQLLSKDPAERLGC----RGGGAREVKEHPLFKK--LNFKRLGAGMLEPPFKPDPQAIYCKDVLDIEQF--STVKGVDLEPTDQDFYQKFATGSVSIPWQNEMVET---------------------ECFQELN-VFGLDGSVPPDLDWKGQPTAPPKKGLLQRLFSRQ
+Nematostella_vectensis_GRKa      ---MELENIVANTVFIKARE-----SKNKGRSKKWRELLKFPHYTQC--SYLRTELAPNYIRNCE--KEPIGRELFRMFCA-QEREFQLAIDFLDLVDKYEKAD-STKRPELARDVTRLYLQPQVSKLATHACAYVIQHCLSKV----------------RFSFSFREVKDFLSDKPFAAYLDS-YYFLRYLQWKWLERQ-PVTKKTFRHYRVLGKGGFGEVCACQSKISGKMYAMKKLEKKRIKRRKGEAMALNEKTLLEKI----DSIFVVSLAYAYETKDALCMVLTLMNGGDLKFHVHNMG-N-PGFEEERAVFYAAQVTLGLIHLHSQRIVYRDLKPENLLLDDYGHVRISDLGLAVQIRNGET-IRGRVGTIGYMAPEVV-KNE-----RYTFSPDWWGLGCLIYEMIQGKSPFRARKEKV----KREEVERRVKEDQETY-SDKFTSYARSICVQTLQKDPTNRLGC------KEDEDIRNHPFFRS--VLWKQLEAGLIPPPFVPDPRAVYCKDVLDIEQF--SSVKGVRIDESDEEFYRRFASGSVPIPWQHEMIEM---------------------ECFKELNTMFLPTGEPTPDLTGEAPPEPPKKS----------
+Nematostella_vectensis_GRKb      --MADLEAVLADVSYLMAME--KSKSTPAARASK-KICLPDPSVYHVMHKYLSERNEVTFDKIFD---QRLGFLLFKEFCKCQCDEPVPQLDFYEAIKDYEKLKTQEERVQKAREIYDNFIMRELLACSHSFSESAFKHVWKYISEKE----LPSD----LFEPYMLEIRDSLRGTVFQKFLKS-DRWNRFCQWKNLELNINLTMNDFSVHRIIGRGGFGEVYGCRKADTGKMYAMKCLDKKRIKLKQGETLALNERIMLSMV----NCPFIVCMTYAFQTPDKLCFVLDLMNGGDLHYHLSQHG----VFAESEVKFYASEIILGLQHMHERKICYRDLKPANILLDEHGHVRISDLGLACDFSKKKP--HASVGTHGYMAPEVLKKGE-----AYDSCADWFSLGCMLFKLLVG---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Phytophthora_infestans_GRK       --MDELHDAIQDAQYI-------GAVTNTQRGPSAAFYNPSSNELTQFVDRQERALGNDWLGLENLLDMPLGFYFFRRFCE-AEQHGSQKLDFLVEVTKLRTLQTPEQRSMKAREIWDLFFGNEELNVASMTTNGIVPRNDKRLSSES--KISTLT----LFDELEACVLCSLEQYHLKGFRSS-AFHKRLVAFLFLQKR-RVDEDDFTVLRVLGRGGFGMVNGCIKRTSASLYAMKVMNKKMIKKKHAEKLCLAERKILAMI----SSPFVVCLKYSFQTLDELFLVLDLRTGGDLSFHLNRAR-----FSETQVRFWAAQILLGIQHLHEKNIVYRDLKPENILLDEKGNCSISDLGLAVEVT---PTLTGRCGTRGYWAPEMLLRDENGNRLVYNQTVDWWSYGCLVYELLYGKCPFRTSKAKALHEDKQQAYDKATLELTPAYDPKYFSPEAAELIQHLLIRDPTKRLGA------KGAEEIKRMRFFSS--IDWAQMEQMQIPPPFVPD-NEINAASQADIGSFDISIVKGIKVSEQEQAAYSGWDY-VCPETFQREAVE------------------------YLEWEVKHGPCTIGVNNNS---------------------
+Terebratalia_transversa_GRKa     ---MELENIVANTVYLKARE--GGGGKRKGKSKKWKEILKFPHILDC--IHTKEEISLTYKYVVN--QQPIGALMFREFCQ-KVDGFRECVTFLDAVNEYETAA-EENNTDVAKDIYTKYLDSSDRLSLAQLDDSLITKCKNCIEDNS----SSKE----LFHDCTEAVGNFLSEEPFNKFLDS-MYFKRYLQWKYLERR-SVTKNTFRMYRVLGKGGFGEVCACQVRATGKMYACKKLEKKRVKKRKGEAMALNEKQILQKV----NSRFVVSLAYAFESKEALCLVLTIMNGGDMKFHIHNMG-N-PGFDIERTVFYAAEIACGLHHLHNERIVYRDLKPENILLDDNGHVRISDLGLAVEIPDGET-IRGRVGTVGYMAPEVV-KNE-----RYTYSPDWWGLGCIIYEMILGKAPFRARKEKV----KREEVDRRVKEDTETY-SEKFCEESRSICQQLLQKDPNNRLSC------SKQDDVRSHTFFKN--IKFKRLEAGKLDPPFAPDPRAVYCKDVLDIEQF--STVKGVNLDDKDDSFYTKFNTGCVPIPWQNEMVET---------------------ECFQELN-IFGPDGEPSPDLM-EDLPPPPPRRSLFGSIFK--
+Terebratalia_transversa_GRKb     --MADLEAVLADVSYLMAME--KSKSTPAARASK-KIILPDPSVRSVMHKHLEKMGEVTFDKIFN---QKIGFLLFKEFCTQCFDEPVPQLKFYEEIITFKKLETDDERINLGKHVYDNYIMKELLSQSHTYTKEAVDHVQESLTNAQRSKILSSA----IFEPYIEEICNTLRGRIFDKFLES-EKYTRFCQWKNLELNIQLTMNDFSVHRIIGRGGFGEVYGCRKADTGKMYAMKCLDKKRIKMKGGETLALNERIMLSLVSTGEGSPFIVCMTYAFQTPEKLCFILDLMNGGDLHYHLSQHG----VFSEKEVRFYAAEVILGLEHMHNRYVVYRDLKPANILLDENGHVRISDLGLACDYSKKKP--HASVGTHGYMAPEVLGKGT-----PYDSSADWFSFGCMLFKLLKGHSPFRQHKTK-----DKHEIDRMTMTMNVEF-PDSMSSDMKSLLDGLLKRDVTERSGC----TGKGATEVKENPFFRG--IDWNQVYLQKIPPPLIPPRGEVNAADAFDIGSFDEEDTRGIKLTDADQDLYKNFPL-VVSERWQQEVAETVFETVNTETDKLELKRRQ--KPRLDELDLAGPTDCMVDGEVLKLGGPFLQTWQKKHLKLYPNR
+;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M16619]
+
+	TITLE arrestins;
+	LINK TAXA = Taxa5;
+	DIMENSIONS NCHAR=391;
+	FORMAT DATATYPE=Protein SYMBOLS= "A C D E F G H I K L M N P Q R S T V W Y" MISSING=X GAP= -;
+
+MATRIX
+[                                            10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170       180       190       200       210       220       230       240       250       260       270       280       290       300       310       320       330       340       350       360       370       380       390 ]
+[                                             .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         . ]
+Ciona_intestinalis_Arrestin          TRVFKKSSP------NGKVTAYLGKRDYVDHIDHTDPIDGVVLIDPEYVK-ER--KVFVKLL--CAFRYG-----REDL---DVLGLT--FRKDFCTTTIQVYPPLN----EGDRKPKTRLQER-LMKKLG-EHSYPFFIDIPKD-SPCSVTLQPAPGDTGKPCGVDYELKTYVWDP-EDNPDKTHKRNSVRLAIRKVQFA---PDKKGPQ-PTA---EIQKLF-----LMSDKPLCLEATLDKDLYYHGESIGVNVQVTNNSSK-TVKKVKISVRQ----IADICLFSNA--QYKCP----VAFIEADD-----QVAP-SST-LCKVYQICPLLGDNKDKRGLAL-DGQL--KHEDTNLASSTILKEGVPK-ENLGIIVQYKVKVKLVLG
+Doryteuthis_pealeii_Arrestin         AKVYKKASP------NGKLTTYLAKRDYYDHKEWQDNIDGVCVVDPDYLK-NR--KVFGLIV--VAFRYG-----REDM---DVMGVS--FRKDFAVKQMQIYPPLE-----ENQRPLTKLQAK-LLNKLG-ENAVPFHYDLPTN-TPDTVCIQPSEYDGGAPCGVDYQVTTYV--S-QNMDDKIHKRNSVSLSIRKLSYF---EFGSDEQ-PRG---EISKEF-----KFTSGAMKLECTLDKARYYSGESMNISVCVDNPTSK-KAKRIKIQIIQ----LADICLYETV--TYKSV----VTELETEE---GFPIEP-NTSGFCQVYKLRPVLEVTKRRAGLAL-NGKV--KYEDTMLAASTEDAGNVDK-ENLGVVVSYKVRIKMTLG
+Drosophila_melanogaster_ARRA         FKVFKKCSP------NNMITLYMNRRDFVDSVTQVEPIDGIIVLDDEYVRQNR--KIFVQLV--CNFRYG-----REDD---EMIGLR--FQKELTLVSQQVCPPQK------QDIQLTKMQER-LLKKLG-SNAYPFVMQMPPS-SPASVVLQQKASDESQPCGVQYFVKIFT--G-DSDCDRSHRRSTINLGIRKVQYA---PTKQGIQ-PCT---VVRKDF-----LLSPGELELEVTLDKQLYHHGEKISVNICVRNNSNK-VVKKIKAMVQQ----GVDVVLFQNG--QFRNT----IAFMETSE---GCPLNP-GSS-LQKVMYLVPTLVANCDRAGIAV-EGDI--KRKDTALASTTLIASQDAR-DAFGIIVSYAVKVKLFLG
+Drosophila_melanogaster_ARRB         VKVFKKATP------NGKVTFYLGRRDFIDHIDYCDPVDGVIVVEPDYLK-NR--KVFGQLA--TTYRYG-----REED---EVMGVK--FSKELILCREQIVPMTN------PNMEMTPMQEK-LVRKLG-SNAYPFTFHFPPN-SPSSVTLQQEGDDNGKPLGVEYTIRAFV--G-DSEDDRQHKRSMVSLVIKKLQYA---PLNRGQRLPSS---LVSKGF-----TFSNGKISLEVTLDREIYYHGEKTAATVQVSNNSKK-SVKSIKCFIVQ----HTEITMVNA---QFSKH----VAQLETKE---GCPITP-GAN-LTKTFYLIPLAANNKDRHGIAL-DGHL--KDEDVNLASSTMVQEGKSTGDACGIVISYSVRIKLNCG
+Drosophila_melanogaster_CG10086      MITFDQNEH------G---TYFTG-----------QVITGKVIVNLNKTKKLR--GIKLQISGYAQAQWR-IRRHGKAV---AIQNPK--KRSKHQYSGREDYIASTTYLMGS------EQGSN-FNMDAG-TYTYTFACPIPSH-CPSSF--------EGAYGHIRYLAKVTF----LKPGASNRTHNVGFTVLKLLDLNQETKMLREPA--SN---EAVEHFC----LMHTKPVQLKVTLQQQGYVPGQFMLIHAHVRNDSSS-DCRKLLIMLHLRATYTADTPSLRTT--SEKIM----LVKRECG------PVAH-NAQ---RTYT--ETLRIPATAPTCEH-LSKV--VRVSYEVRVVAVMNW---------LMANPRLIIPVTIG
+Drosophila_melanogaster_CG1105       ELQLDNPWN----------TYYAG-----------QTVNGQVKFTFDSPKKVR--GIIIRFLGEANTEWS---EEKSVT---TSEGKT--ENEVTQLKGHEEYFKIQYYLL------GGKNSSE-TELPPG-THTYPFTCALPPN-LPSSF--------EGEFGHVRYTIKVTL----DRPWKFDQDMKMAFTVIAPVDLNLN-PRVKEPF--KL---ELEKSFC--CFCCRSGPLAVITNIPQTGFVSGQVLPITCEVDNTSNV-NLTAVKFELRK----LVTFHTNQPR--SEKRESKVIIANLSVG------PVNG-GES---RTFTQQ--MEIPALPPTNLL-NCGI--IALDYDLHVECEVSG---------PHRNLTGKVPITLG
+Drosophila_melanogaster_CG14696      NFVFDSNPL------G---LYQAG-----------QLISGTAELITERPKTIR--SIFITINGYGETRWQ---ESEERV---GEDGKT--TKSLVTHTTTEVYYSTD------QPVYGQAGGSQ-LELPTG-KYVFPFRATIPPN-APTSF--------NGAHGQIKHEVTLTI----DRAVRYNNTFKQCFTVILPHDLNRR-LEYKEPL--QR---LESKSFWWGSIFGAHKPMIMDVSTSYSAYVPGQKIHFHLVLDNQSDV-QCMDVKVRLIK----NVSYRANSSG--AKEQL----KVTESRVADKHCGEVLK-HNK---AKFD--EFLTVPPTTPSTQS-EKDP--IRVSYTLRFIAKTFK-------LHGGGDLVMDFPITIG
+Drosophila_melanogaster_CG18268      EFNLSRAAA----------IYYNG-----------EQISGSLTVTVDGKKSFKLEGVSVTLHGVSTVHWRESLRGPPEIEHNDSTGNL--ECPKVDYNGSKVHINET-----------KKLNEV-LQLENGTFRLGDFNFQLPEN-LPATC--------RLPFGNVEYVLKVVL----ERRGTHNKCFQQRLVIRKCVELADLKPQYMETA-------------------------NMGLTLPRSVFVPGQSVSYEICSKD-----GVQDFLTRLCK----KISYTSQQPS--AKTKN----VTQVLSES------------------SELNGNLRLPLTAPIMSH-SDQLDPIQISYYIETFNSLNA--------------PIKVPIFVA
+Drosophila_melanogaster_CG18744      SRELKMSHRCEIQLDNPRGVYRAG-----------DTVNGHVYLTLSERALIK--AICLEANGYASTAWQQPQKHKNQK---KNEQPV--VVQSLDFDYRVDYFAKIDYFV------GSEAAQP-QIMEAG-TYNYGFHVKLPKN-CPGNF--------EGGHGHIRYTLQVLIHSSADRPLEVLHVRQLQIFPQNSL-----SQETRSCEIQIY---EQTPRL-----RFWMKPLHLQLQIPRQGYSPGAGISVHLKLHNPEKL-TLREAVYSLVQ----ISTYVAHLKN--KPKRL----ETKVERQTVLSSRHELHNLPRGELQNFQHLHMLQVPQTAATLTVAGCAC--LQLNYEVEVLVTTQQ---------EKRLIAARMPVIIG
+Drosophila_melanogaster_CG18745      EIDFDNNPH------G---TYFGG-----------EVLTGRVTLKLDKMKLVK--AITLNITGYAETRWI--------E---RVTTNR--RRRRRTFCGREDYIASKTFLV------GSNLSSQ-VSIEAG-IHTYNFVCLIPTE-CPSSF--------EGSHGRVRYMATVTL----VRPWKFDQSYTRCFTVLKVMDLNFDSPLLRVPA--HS---ETSKTYC--CWPCRSDPLALQLTVPQTGFVPGQNVPLSVLVTNDSHI-PVEQLLISFVM----LVTYHSKPPS--MPNTTSERLVVNTFKGD-----AVQR-NCK---KLFSYE--IRVPATPPTCFN-LCGI--IQIAYQVEVEARVKG---------CHNNEVVTIPLTIG
+Drosophila_melanogaster_CG18747      AYLTTRSHR------KQSRSFVLK---------LVALVKGCATLKCDRSKEVQ--AVLLKVVGYSITKWS---------------EKS--LGSTKLYVGREDYLSSNTYLVGSEQNNTHNNTHR-LTIEAG-VHSYNFTCQLPYQ-CPSSF--------EGRHGCIRYIVKVLL----IRPWKFDQAYTKGFTVLKMLDLNFDTPQLKSAA--HS---EGYRTFC--CGPCKTDPLKLELHLPQAGYVPGQKIPVTIVVVNNTAV-AVSEIRLSLVM----LVRYYSVSPEHSRVERL----IISRAKGE-----SVLK-QCT---RSQTI--DLPVPSTPPTCVE-LSNL--IQIAYQLEVEALVKS---------LREQQLMVMPVTVG
+Drosophila_melanogaster_CG2641       SFELDRREP----------IYYSG-----------ETVNGRAILTTTSEKSVN--EVYILFEGEAKVRWD----ERRTR---TRGGKT--EHYTEYFRGKQQYLYTR-----------TSVFGS-GNLPPG-THTYNFCIPLPLE-CPSSV--------VAQYGKIFYEVSVVI----DRQWRFNNVFKQPLTVIQTYNLNMS-PQLLMPL--VR---EDIKHFC--CWPCSSGPVLSTLTIPFGGYAPGQKIRFTLEIDNQSSGYDLNGIELKLKQ----IYKFQAQTPH--HKTREKEHSLNKSCQQE-----RVLR-LSK---KKIEGT--LAIPAVPPSSRT-EGII---SVSYQVILTISTGD---------CHVDSDFEVPIVIG
+Drosophila_melanogaster_CG2993       LISFDNNPQ------G---VYYAG-----------QELSGVVDLSVDATKRIK--GIHVTVSGYAKIRWIKKGYPRDSE---RAMCRA--YRS---YLSSRSYVLGS-----------CANNSS-IDWPAG-EYSYTFHVILPDN-LPTSF--------DGKYGQIHYEIITTI----ERAARHPKVFKLPFTVIQPLDLNAD-AIYRVPL--EI---LDRKRFW--SFCCPTGPLTVKFSTPYCGYAPGQKIHFVLYINNESSI-DIIECEVKLKQ----EVSYESHDPQ--HEYRYDKHLIARKQFGN------VLR-WSR---KVYRGY--LDLPSIPPTSVKPTCPI---SVNYSIKIIVNPTE---------FHWKLKLKIPLTIG
+Drosophila_melanogaster_CG3014       VFQLDRLNP----------VYNSG-----------EYISGRILLRTDKVKRVN--AVYVTLEGEAKVQW-------------SMSGKS----ETANYSGHQQYLHSR-----------TNVFDN-TLFRAG-VHVYVLTLRIPPD-CPSTC--------KGPYGYIAYTISLTI----DKPWGFDEVFRKPIIVVQTLDLNYN-AEFSLPV--KD---ENLKYLC--HWPCISGPICSTLTLPASGFTPLQEVPYRLEVDNQSPHYDIIGVEVSIKQHFV-FLSRKPVKRN--FYSKT----LVKELISD-----RTLR-LSK---RQYE--SSICVPMDTPRSTLNPNYI--VFLHYTLQVKLKTGY---------FHYDTDLSVPIIVG
+Drosophila_melanogaster_CG32683      QRVYKKTSP------NCVLTLYLPTREITLTGNNPSVLRGIVYVDPKAIQ-GY--RVYAQLT--LTFRYG-----REDE---EVMGLR--FCNEAIMSLHQIWPRLE----EPTPESLSPLQEA-LMKRLG-DGAHPFTLSLSSY-APPSVQLVPAKRYYGAPIGTSYDVRCFI--A-DKTDEKFHRRASVKMGVRVINIAQSPPASATPP-SCGEGGEQSKSFQEHCFLLHDGRVGLRASLDKGWYTHGEDVQVTVNIRNDSRK-TVRKVRVCAIQ----HVDVCMFNNG--KFKNV----VADSDNVTPPVDRTVAA-GAS-LNTTVTLRPQSTEPEEITGAIA-ASAI--RSPHFVMQNAQLLGGGNEERNVFAIYVSYYVKVKLTLS
+Drosophila_melanogaster_CG4674       RITLDSADR----------VYFAG-----------DIIRGEIWMNVNKRTKIR--AIKVQVTGKGKCKWM-------EILRKNSNNNE--YSRSLFYTSKEVYEHSE--------TPLPDFEPRGLELSAG-EHTFIFEVALGRQ-LPSSF--------KGSYGAIKYKMRVLI----QRPWTFDERHTIPFTVVKNMPLQ---PMQRSIP--SSLEKQVTKTIS----LFGTRPITLLALLPEDFAVRGEPLRICATVINNSTT-AVEKLRFTVLQ----YVTYYSHVPL--RVQKVECIAVATKETGS------VQK-KTE---RSFAHELLLPDGAQPTDEQM-SGVI---TIVYELRVEAVLRG---------FFKNLILNLPFKVY
+Drosophila_melanogaster_CG7047       LIIFDNTSL----------LYFPG-----------QFLSGRVLIELQDETPAL--GLHFHVVGEGVVRNG------------RRQERT--YDKENYIDFRMRLLGDV------------DQGGP-AILSPG-IHSFPFKLGLPLG-LPSTF--------LGRYGWIQFYCKAAL----RENNGIIHKNHQVFIVMNPIDLNLEKPILAQPF--TC---EVEHKLG--VVCVGGGQIKCRVSLDRGGYVPGENILVTAFISNYSNV-SIKRTKASLTE----TIEYLARGKVVQTEKRE----LAVLVRGK------IRP-GAK---DEWH--NELYVPPLPPTNLH-GCHL--IKISYDVFFVIEPKS---------MEKEIKLQLPIVLA
+Drosophila_melanogaster_Kurtz        TRVFKKSSS------NGKITVYLGKRDFVDHVTHVDPIDGVVFIDPEYVK-DR--KVFGQVL--AAFRYG-----REDL---DVLGLT--FRKDLYLAHEQIYPPMQ------LDRPMTRLQER-LIKKLG-PNAHPFYFEVPPY-CPASVSLQPAPGDVGKSCGVDYELKAFV--G-ENVEDKPHKRNSVRLTIRKVMYA---PSKVGEQ-PSI---EVSKEF-----MMKPNKIHLEATLDKELYHHGEKISVNVHVANNSNR-TVKKIKVCVRQ----FADICLFSTA--QYKSV----VAEIESED---GCQVAP-GFT-LSKVFELCPLLANNKDKWGLAL-DGQL--KHEDTNLASSTLITNPAQR-ESLGIMVHYKVKVKLLIS
+Homo_sapiens_ARR3                    SKVFKKTSS------NGKLSIYLGKRDFVDHVDTVEPIDGVVLVDPEYLK-CR--KLFVMLT--CAFRYG-----RDDL---EVIGLT--FRKDLYVQTLQVVPAES----SSPQGPLTVLQER-LLHKLG-DNAYPFTLQMVTN-LPCSVTLQPGPEDAGKPCGIDFEVKSFC--A-ENPEETVSKRDYVRLVVRKVQFA---PPEAGPG-PSA---QTIRRF-----LLSAQPLQLQAWMDREVHYHGEPISVNVSINNCTNK-VIKKIKISVDQ----ITDVVLYSLD--KYTKT----VFIQEFTE-----TVAA-NSS-FSQSFAVTPILAASCQKRGLAL-DGKL--KHEDTNLASSTIIRPGMDK-ELLGILVSYKVRVNLMVS
+Homo_sapiens_ARRB1                   TRVFKKASP------NGKLTVYLGKRDFVDHIDLVDPVDGVVLVDPEYLK-ER--RVYVTLT--CAFRYG-----REDL---DVLGLT--FRKDLFVANVQSFPPAP-----EDKKPLTRLQER-LIKKLG-EHAYPFTFEIPPN-LPCSVTLQPGPEDTGKACGVDYEVKAFC--A-ENLEEKIHKRNSVRLVIRKVQYA---PERPGPQ-PTA---ETTRQF-----LMSDKPLHLEASLDKEIYYHGEPISVNVHVTNNTNK-TVKKIKISVRQ----YADICLFNTA--QYKCP----VAMEEADD-----TVAP-SST-FCKVYTLTPFLANNREKRGLAL-DGKL--KHEDTNLASSTLLREGANR-EILGIIVSYKVKVKLVVS
+Homo_sapiens_ARRB2                   TRVFKKSSP------NCKLTVYLGKRDFVDHLDKVDPVDGVVLVDPDYLK-DR--KVFVTLT--CAFRYG-----REDL---DVLGLS--FRKDLFIATYQAFPPVP-----NPPRPPTRLQDR-LLRKLG-QHAHPFFFTIPQN-LPCSVTLQPGPEDTGKACGVDFEIRAFC--A-KSLEEKSHKRNSVRLVIRKVQFA---PEKPGPQ-PSA---ETTRHF-----LMSDRSLHLEASLDKELYYHGEPLNVNVHVTNNSTK-TVKKIKVSVRQ----YADICLFSTA--QYKCP----VAQLEQDD-----QVSP-SST-FCKVYTITPLLSDNREKRGLAL-DGKL--KHEDTNLASSTIVKEGANK-EVLGILVSYRVKVKLVVS
+Homo_sapiens_ARRDC1                  VQLFEISLS------HGRVVYSPG-----------EPLAGTVRVRLGAPLPFR--AIRVTCIGSCGVSN---------------------KANDTAWVVEEGYFNSS-----------LSLADK-GSLPAG-EHSFPFQFLLPAT-APTSF--------EGPFGKIVHQVRAAI--H-TPRFSKDHKCSLVFYILSPLNLNSI-PDIEQPN--VA---SATKKFS--YKLVKTGSVVLTASTDLRGYVVGQALQLHADVENQSGK-DTSPVVASLLQ----KVSYKAKRWI--HDVRT----IAEVEGAG------VKA-WRR---AQWH--EQILVPALPQSALP-GCSL--IHIDYYLQVSLKAPE-------------ATVTLPVFIG
+Homo_sapiens_ARRDC2                  SVQLDGATA------GVEPVFSGG-----------QAVAGRVLLELSSAARVG--ALRLRARGRAHVHWT-------ES---RSAGSS--TAYTQSYSERVEVVSHR------ATLLAPDTGET-TTLPPG-RHEFLFSFQLPPT-LVTSF--------EGKHGSVRYCIKATL----HRPWVPARRARKVFTVIEPVDIN--TPALLAPQ--AG---AREKVAR--SWYCNRGLVSLSAKIDRKGYTPGEVIPVFAEIDNGSTR-PVLP-RAAVVQ----TQTFMARGAR--KQKRA----VVASLAGE-----PVGP-GQR---ALWQG-RALRIPPVGPS-IL-HCRV--LHVDYALKVCVDIPG----------TSKLLLELPLVIG
+Homo_sapiens_ARRDC3                  TISFDCLND------SNVPVYSSG-----------DTVSGRVNLEVTGEIRVK--SLKIHARGHAKVRWT-------ES---RNAGSN--TAYTQNYTEEVEYFNHKDILIGHERDDDNSEEGF-HTIHSG-RHEYAFSFELPQTPLATSF--------EGRHGSVRYWVKAEL----HRPWLLPVKLKKEFTVFEHIDIN--TPSLLSPQ--AG---TKEKTLC--CWFCTSGPISLSAKIERKGYTPGESIQIFAEIENCSSR-MVVP-KAAIYQ----TQAFYAKGKM--KEVKQ----LVANLRGE-----SLSS-GKT---ETWNG-KLLKIPPVSPS-IL-DCSI--IRVEYSLMVYVDIPG----------AMDLFLNLPLVIG
+Homo_sapiens_ARRDC4                  GLVFEDERK------G---CYSSG-----------ETVAGHVLLEASEPVALR--ALRLEAQGRATAAWGPSTCPRASA---STAALA--VFSEVEYLNVRLSLREP-----------PAGEGI-ILLQPG-KHEFPFRFQLPSEPLVTSF--------TGKYGSIQYCVRAVL----ERPKVPDQSVKRELQVVSHVDVN--TPALLTPV--LK---TQEKMVG--CWFFTSGPVSLSAKIERKGYCNGEAIPIYAEIENCSSR-LIVP-KAAIFQ----TQTYLASGKT--KTIRH----MVANVRGN-----HIAS-GST---DTWNG-KTLKIPPVTPS-IL-DCCI--IRVDYSLAVYIHIPG----------AKKLMLELPLVIG
+Homo_sapiens_ARRDC5                  VKSIELVLP------EDR-IYLAG-----------SSIKGQVILTLNSTLVDP--IVKVELVGRGYVEWS------------EEAGASCDYSRNVICNNKADYVHKT----------KTFPVED-NWLSAG-SHTFDFHFNLPPR-LPSTF--------TSKFGHVFYFVQASC----MGREHILAKKRMYLLVQGTSTFHKETP-FQNPL--FV---EAEEKVS--YNCCRQGTVCLQIQMERNTFTPGEKVVFTTEINNQTSK-CIKTVVFALYA----HIQYEGFTPSAERRSRLDSSELLRQEANT-----PVTRFNTTKVVSTFNLPLLLSVSSSTQ-----DGEI--MHTRYELVTTVHLPW---------SLTSLKAKVPIIIT
+Homo_sapiens_SAG                     HVIFKKISR------DKSVTIYLGNRDYIDHVSQVQPVDGVVLVDPDLVK-GK--KVYVTLT--CAFRYG-----QEDI---DVIGLT--FRRDLYFSRVQVYPPVG------AASTPTKLQES-LLKKLG-SNTYPFLLTFPDY-LPCSVMLQPAPQDSGKSCGVDFEVKAFATDSTDAEEDKIPKKSSVRLLIRKVQHA---PLEMGPQ-PRA---EAAWQF-----FMSDKPLHLAVSLNKEIYFHGEPIPVTVTVTNNTEK-TVKKIKAFVEQ----VANVVLYSSD--YYVKP----VAMEEAQE-----KVPP-NST-LTKTLTLLPLLANNRERRGIAL-DGKI--KHEDTNLASSTIIKEGIDR-TVLGILVSYQIKVKLTVS
+Homo_sapiens_TXNIP                   EVVFNDPEK----------VYGSG-----------EKVAGRVIVEVCEVTRVK--AVRILACGVAKVLWM------------QGSQQC--KQTSEYLRYEDTLLLED---------QPTGENEM-VIMRPGNKYEYKFGFELPQGPLGTSF--------KGKYGCVDYWVKAFL----DRPSQPTQETKKNFEVVDLVDVN--TPDLMAPV--SA---KKEKKVS--CMFIPDGRVSVSARIDRKGFCEGDEISIHADFENTCSR-IVVP-KAAIVA----RHTYLANGQT--KVLTQ----KLSSVRGN-----HIIS-GTC---ASWRG-KSLRVQKIRPS-IL-GCNI--LRVEYSLLIYVSVPG----------SKKVILDLPLVIG
+Terebratalia_transversa_Arrestin     TRVFKKSSP------NGKITVYLGKRDFIDHISHSDPVDGVVLVDPEYLK-ER--KVYTHIL--AAFRYG-----REDL---DVLGLA--FRKDLFLSSVQVYPLEK-----DKQKPLTRLQER-LIKKLG-SNAHPFNFELPST-APASVTLQPAPGDTGKPCGVDYELKTYV--A-ESQDEKSHKRNSVRLAIRKLTYA---SAQLAPQ-PSA---EVTKEF-----MMSTGGLKLEASLDKEKYYHGESIAVNVLVDNNSNK-TVKKIKLSVYQ----VAEIMMFTKG--SYSCS----VADLTSEE---GFPIQP-SQTGFCKVYYLTPLLADNRDKRGLAL-DGKL--KHEDTNLASSTIVSDPSQK-ENLGIVVQYKVKVRLILG
+;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M16621]
+
+	TITLE 'G-alpha';
+	LINK TAXA = Taxa4;
+	DIMENSIONS NCHAR=488;
+	FORMAT DATATYPE=Protein SYMBOLS= "A C D E F G H I K L M N P Q R S T V W Y" MISSING=X GAP= -;
+
+MATRIX
+[                                           10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170       180       190       200       210       220       230       240       250       260       270       280       290       300       310       320       330       340       350       360       370       380       390       400       410       420       430       440       450       460       470       480        ]
+[                                            .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .        ]
+Capitella_teleta_Gv                 RSVEIDKQLMDMAHEDRRV--IKLLLLGAGESGKSTLVKQMKIIYTSGFSEN---------------ELMAFRPAVLDNLLFSMKFVLSGMGMLR--INLERPYNRA---NA-------QIILSCQRCYD------DH-L-----IILPN----VAVSLQSLWKDGGVRRAISRGYEF--ELNDSAIYYFENMHRLCSEKFVPTVTDVLRARVRTQGVIETCFKFR--------HCM----FRMFDVGGQRSERRKWIHCFD-NVHAIIFVAALSGYDMTLAEDPSINRLEESLRIFKQICSIPFFRRAILILFLNKMDLFTDKITRFN--------------------------RHLKYY---FHNFKG--------------------------------PIHEAQP-----AAEFIRDMFISH------A-----IE-----AGKHHVYSHVTTATDTNQVQSVFCQVVEGIVQANLSQAQLL--
+Drosophila_melanogaster_CG17760     ISREIDKFLKAEKKKARRE--LKLLVLGTGESGKTTFIKQMRIIHGKGFLDK---------------ERKQFTKNVFQNIFMAIQSMISAMDTLR--IPYGQQEHSK---LA-------DLVKSIDYKTV---------T-----RLEAP----YLNAIKTLWKDAGIKECYNRRREY--QLTDSTEYFLNDIARIERSDYQATDQDILHVRAPTTNIVEYPFNLD--------GFL----IRLVDVAGQRTERRKWIHCFS-NVTSIMFLVAMSEFDLSLAESENDNRMKESKALFHNIISFSWFQHSSVILFLNKEDLFKKKILS----------------------------THLADY---FPEYNG--------------------------------PKKDAKA-----AREFILYMFTSV------N-----PD------PYKCIYPHFTVATNTENIKFVFTAVKDTILELHLSETNLL--
+Drosophila_melanogaster_CG30054     INEEIDKQLRLEKKRSKRE--LKLLLLGACESGKSTFIKQMRIIHGSGYSDE---------------DKRGYIKLVFQNIFMAMQSMIKAMDMLK--ISYGQGEHSE---LA-------DLVMSIDYETV---------T-----TFEDP----YLNAIKTLWHDAGIQECYDRRREY--QLTDSTEYFLGDIGRIEQADYLPTNQDILRAREPTFNITVYPFELD--------GYV----LSMVDVAGQRTERRKWIHFFS-NVTSIIFLAALSEYDQFMMESENDNRLEESKALFHTIITFEWFKNASIILFLNKMDVLEEKIMY----------------------------SHLVDY---FPEYDG--------------------------------PKQDAYA-----AREYVLRMFQSI------S-----LD------TYKKIYSHFTCATDTENIKFVFAAVKDTILQCNLKESNLF--
+Drosophila_melanogaster_CG40005     ---------------------VKLLLLGAGESGKSTFLKQMRIIHGVNFDYE---------------LLLEYQSVIYQNVIIGMQVLLDAREKLN--IAWGSDGREQ---DAY------DAKLMECNSLD---------V-----PKFME----YAPPISRLWQDRGIRRAFERRREF--QISDSVSYFLDEIQRLATPDYVPTHKDILHCRKATKGVYEFCVKVQ--------NIP----FVFVDVGGQRTQRQKWTRCFDSSVTSIIFLVSSSEFDQVLAEDRKTNRLEESKNIFDTIVNNATFKGISIILFLNKTDLLEQKVCNPE--------------------------TDIRWY---YPHFNGN-------------------------------PHSVLDV------QNFILQMFMSV------R-----RS-----SSISRIYHHFTTAIDTRNINVVFNCC--LLLQRNLNALKLQ--
+Drosophila_melanogaster_Cta         KSKEIDKFLEKEKHTFRRQ--VKLLLLGAGESGKSTFLKQMRIIHGVNFDYE---------------LLLEYQSVIYQNVIRGMQVLLDAREKLN--IAWGSDGREQ---DAY------DAKLMECNSLD---------V-----PKFME----YAPPISRLWQDRGIRRAFERRREF--QISDSVSYFLDEIQRLATPDYVPTHKDILHCRKATKGVYEFCVKVQ--------NIP----FVFVDVGGQRTQRQKWTRCFDSSVTSIIFLVSSSEFDQVLAEDRKTNRLEESKNIFDTIVNNATFKGISIILFLNKTDLLEQKVCNPE--------------------------TDIRWY---YPHFNGN-------------------------------PHSVLDV------QNFILQMFMSV------R-----RS-----SSISRIYHHFTTAIDTRNINVVFNSVKDTILQRNLNALMLQ--
+Drosophila_melanogaster_Dgq         INQEIEKQLRRDKRDARRE--LKLLLLGTGESGKSTFIKQMRIIHGSGYSDE---------------DKRGYIKLVFQNIFMAMQSMIKAMDMLK--ISYGQGEHSE---LA-------DLVMSIDYETV---------T-----TFEDP----YLNAIKTLWDDAGIQECYDRRREY--QLTDSAKYYLKDLDRVAQPAYLPTEQDILRVRVPTTGIIEYPFDLE--------EIR----FRMVDVGGQRSERRKWIHCFE-NVTSIIFLVALSEYDQILFESDNENRMEESKALFRTIITYPWFQNSSVILFLNKKDLLEEKIMY----------------------------SHLVDY---FPEYDG--------------------------------PQRDAIT-----AREFILRMFVDL------N-----PD------SEKIIYSHFTCATDTENIRFVFAAVKDTILQSNLKEYNLV--
+Drosophila_melanogaster_G_ia65A     RSKNIDRALRAEGERAASE--VKLLLLGAGESGKSTIVKQMKIIHDTGYSQE---------------ECEEYRRVVFSNTVQSLMVIIRAMGRLK--IEFADPSRTD---IA-------RQFFTHASAAD------E--G-----ILLPE----IVLLMKKLWADGGVQQSFARSREY--QLNDSAGYYLNSLDRIAQPNYIPTQQDVLRTRVKTTGIIETHFSCK--------QLH----FKLFDVGGQRSERKKWIHCFE-GVTAIIFCVALSGYDLVLAEDEEMNRMIESLKLFDSICNSKWFVETSIILFLNKKDLFEEKIKR----------------------------SPLTIC---FPEYTG--------------------------------TNTFEEA------ANYIRMKFENL------N-----KR-----KDQKEIYTHLTCATDTNNVKFVFDAVTDVIIKNNLKQIGLF--
+Drosophila_melanogaster_G_oa47A     RSRLIERNLKEDGIQAAKD--IKLLLLGAGESGKSTIVKQMKIIHESGFTAE---------------DFKQYRPVVYSNTIQSLVAILRAMPTLS--IQYSNNERES---DA-------KMVFDVCQRMH------DT-E-----PFSEE----LLAAMKRLWQDAGVQECFSRSNEY--QLNDSAKYFLDDLDRLGAKDYQPTEQDILRTRVKTTGIVEVHFSFK--------NLN----FKLFDVGGQRSERKKWIHCFE-DVTAIIFCVAMSEYDQVLHEDETTNRMQESLKLFDSICNNKWFTDTSIILFLNKKDLFEEKIRK----------------------------SPLTIC---FPEYTG--------------------------------GQEYGEA------AAYIQAQFEAK------N-----KS------TSKEIYCHMTCATDTNNIQFVFDAVTDVIIANNLRGCGLY--
+Drosophila_melanogaster_G_sa60A     RSDAISRQLQKDKQLYRAT--HRLLLLGAGESGKSTIVKQMRILHVDGFSDS---------------EKKQKIDDIKKNIRDAILTITGAMSTLNPPVALEKKENEP---RV-------EYIQDYASSPD---------F-----NYPPE----FYEHTEELWKDKGVLQTYERSNEY--QLIDCAKYFLDRVSTIKNPNYTPNEQDILRCRVLTSGIFETRFQVD--------KVN----FHMFDVGGQRDERRKWIQCFN-DVTAIIFVTACSSYNMVLREDPTQNRLRESLDLFKSIWNNRWLRTISIILFLNKQDLLAEKIKAGK--------------------------SKLSEY---FSEFNKYQTPSDAI------------------------MESNDDP-EVIRAKYFIRDEFLRI------S-----TASG---DGKHYCYPHFTCAVDTENIKRVFNDCRDIIQRMHLRQYELL--
+Drosophila_melanogaster_Gfa         YPVSLDHHVLKDMAKGVRDTTVKILLLGTAESGKTTIIKQMRILHINGFTDD---------------ERREKIPEIYQNIHESILQLVGQMGVLG--IDFGSCTSER---SA-------DYILSLPGSAP---------E-----YMNEE----YCDHVTTLWNDVGIRACYDRSNEF--PLLDSAKYFLDNFVRISDAEYIPSTEDILHSRKITTGISQITFRVPIPKSMGGGEQQ----FQMYDVGGQRDQRNKWIQVFE-GIQAVLFLISCSEFDQNLREDPSQNRLQEALKLFRAVWQNRFLASAGLIVFLNKYDIMERKIRAG---------------------------KHIVDY---FPEYEDFCKRPQQ-------------------------DNCFGES---DWTKMFIKQKLVDITQEPFKR---HSRNQVDLGTSERECYYHFTVATDTRCIRDVFCDVQKMILSENVSSMGLF--
+Homo_sapiens_Ga11                   INAEIEKQLRRDKRDARRE--LKLLLLGTGESGKSTFIKQMRIIHGAGYSEE---------------DKRGFTKLVYQNIFTAMQAMIRAMETLK--ILYKYEQNKA---NA-------LLIREVDVEKV---------T-----TFEHQ----YVSAIKTLWEDPGIQECYDRRREY--QLSDSAKYYLTDVDRIATLGYLPTQQDVLRVRVPTTGIIEYPFDLE--------NII----FRMVDVGGQRSERRKWIHCFE-NVTSIMFLVALSEYDQVLVESDNENRMEESKALFRTIITYPWFQNSSVILFLNKKDLLEDKILY----------------------------SHLVDY---FPEFDG--------------------------------PQRDAQA-----AREFILKMFVDL------N-----PD------SDKIIYSHFTCATDTENIRFVFAAVKDTILQLNLKEYNLV--
+Homo_sapiens_Ga12                   RSRDIDALLARERRAVRRL--VKILLLGAGESGKSTFLKQMRIIHGREFDQK---------------ALLEFRDTIFDNILKGSRVLVDARDKLG--IPWQYSENEK---HG-------MFLMAFENKAG---------L-----PVEPATFQLYVPALSALWRDSGIREAFSRRSEF--QLGESVKYFLDNLDRIGQLNYFPSKQDILLARKATKGIVEHDFVIK--------KIP----FKMVDVGGQRSQRQKWFQCFD-GITSILFMVSSSEYDQVLMEDRRTNRLVESMNIFETIVNNKLFFNVSIILFLNKMDLLVEKVKT----------------------------VSIKKH---FPDFRGD-------------------------------PHRLEDV------QRYLVQCFDRK------------RR-----NRSKPLFHHFTTAIDTENVRFVFHAVKDTILQENLKDIMLQ--
+Homo_sapiens_Ga13                   KSKEIDKCLSREKTYVKRL--VKILLLGAGESGKSTFLKQMRIIHGQDFDQR---------------AREEFRPTIYSNVIKGMRVLVDAREKLH--IPWGDNSNQQ---HG-------DKMMSFDTRAPMAAQGMVE-T-----RVFLQ----YLPAIRALWADSGIQNAYDRRREF--QLGESVKYFLDNLDKLGEPDYIPSQQDILLARRPTKGIHEYDFEIK--------NVP----FKMVDVGGQRSERKRWFECFD-SVTSILFLVSSSEFDQVLMEDRLTNRLTESLNIFETIVNNRVFSNVSIILFLNKTDLLEEKVQI----------------------------VSIKDY---FLEFEGD-------------------------------PHCLRDV------QKFLVECFRNK------R-----RD-----QQQKPLYHHFTTAINTENIRLVFRDVKDTILHDNLKQLMLQ--
+Homo_sapiens_Ga14                   ISAEIERQLRRDKKDARRE--LKLLLLGTGESGKSTFIKQMRIIHGSGYSDE---------------DRKGFTKLVYQNIFTAMQAMIRAMDTLR--IQYVCEQNKE---NA-------QIIREVEVDKV---------S-----MLSRE----QVEAIKQLWQDPGIQECYDRRREY--QLSDSAKYYLTDIDRIATPSFVPTQQDVLRVRVPTTGIIEYPFDLE--------NII----FRMVDVGGQRSERRKWIHCFE-SVTSIIFLVALSEYDQVLAECDNENRMEESKALFKTIITYPWFLNSSVILFLNKKDLLEEKIMY----------------------------SHLISY---FPEYTG--------------------------------PKQDVRA-----ARDFILKLYQDQ------N-----PD------KEKVIYSHFTCATDTDNIRFVFAAVKDTILQLNLREFNLV--
+Homo_sapiens_Ga15                   VDQEINRILLEQKKQDRGE--LKLLLLGPGESGKSTFIKQMRIIHGAGYSEE---------------ERKGFRPLVYQNIFVSMRAMIEAMERLQ--IPFSRPESKH---HA-------SLVMSQDPYKV---------T-----TFEKR----YAAAMQWLWRDAGIRAYYERRREF--HLLDSAVYYLSHLERITEEGYVPTAQDVLRSRMPTTGINEYCFSVQ--------KTN----LRIVDVGGQKSERKKWIHCFE-NVIALIYLASLSEYDQCLEENNQENRMKESLALFGTILELPWFKSTSVILFLNKTDILEEKIPT----------------------------SHLATY---FPSFQG--------------------------------PKQDAEA-----AKRFILDMYTRMYTGCVDG-----PEGSKKGARSRRLFSHYTCATDTQNIRKVFKDVRDSVLARYLDEINLL--
+Homo_sapiens_Gai1                   RSKMIDRNLREDGEKAARE--VKLLLLGAGESGKSTIVKQMKIIHEAGYSEE---------------ECKQYKAVVYSNTIQSIIAIIRAMGRLK--IDFGDSARAD---DA-------RQLFVLAGAAE------E--G-----FMTAE----LAGVIKRLWKDSGVQACFNRSREY--QLNDSAAYYLNDLDRIAQPNYIPTQQDVLRTRVKTTGIVETHFTFK--------DLH----FKMFDVGGQRSERKKWIHCFE-GVTAIIFCVALSDYDLVLAEDEEMNRMHESMKLFDSICNNKWFTDTSIILFLNKKDLFEEKIKK----------------------------SPLTIC---YPEYAG--------------------------------SNTYEEA------AAYIQCQFEDL------N-----KR-----KDTKEIYTHFTCATDTKNVQFVFDAVTDVIIKNNLKDCGLF--
+Homo_sapiens_Gai2                   RSKMIDKNLREDGEKAARE--VKLLLLGAGESGKSTIVKQMKIIHEDGYSEE---------------ECRQYRAVVYSNTIQSIMAIVKAMGNLQ--IDFADPSRAD---DA-------RQLFALSCTAE------EQ-G-----VLPDD----LSGVIRRLWADHGVQACFGRSREY--QLNDSAAYYLNDLERIAQSDYIPTQQDVLRTRVKTTGIVETHFTFK--------DLH----FKMFDVGGQRSERKKWIHCFE-GVTAIIFCVALSAYDLVLAEDEEMNRMHESMKLFDSICNNKWFTDTSIILFLNKKDLFEEKITH----------------------------SPLTIC---FPEYTG--------------------------------ANKYDEA------ASYIQSKFEDL------N-----KR-----KDTKEIYTHFTCATDTKNVQFVFDAVTDVIIKNNLKDCGLF--
+Homo_sapiens_Gai3                   RSKMIDRNLREDGEKAAKE--VKLLLLGAGESGKSTIVKQMKIIHEDGYSED---------------ECKQYKVVVYSNTIQSIIAIIRAMGRLK--IDFGEAARAD---DA-------RQLFVLAGSAE------E--G-----VMTPE----LAGVIKRLWRDGGVQACFSRSREY--QLNDSASYYLNDLDRISQSNYIPTQQDVLRTRVKTTGIVETHFTFK--------DLY----FKMFDVGGQRSERKKWIHCFE-GVTAIIFCVALSDYDLVLAEDEEMNRMHESMKLFDSICNNKWFTETSIILFLNKKDLFEEKIKR----------------------------SPLTIC---YPEYTG--------------------------------SNTYEEA------AAYIQCQFEDL------N-----RR-----KDTKEIYTHFTCATDTKNVQFVFDAVTDVIIKNNLKECGLY--
+Homo_sapiens_Gao                    RSKAIEKNLKEDGISAAKD--VKLLLLGAGESGKSTIVKQMKIIHEDGFSGE---------------DVKQYKPVVYSNTIQSLAAIVRAMDTLG--IEYGDKERKA---DA-------KMVCDVVSRME------DT-E-----PFSAE----LLSAMMRLWGDSGIQECFNRSREY--QLNDSAKYYLDSLDRIGAADYQPTEQDILRTRVKTTGIVETHFTFK--------NLH----FRLFDVGGQRSERKKWIHCFE-DVTAIIFCVALSGYDQVLHEDETTNRMHESLMLFDSICNNKFFIDTSIILFLNKKDLFGEKIKK----------------------------SPLTIC---FPEYTG--------------------------------PNTYEDA------AAYIQAQFESK------N-----RS------PNKEIYCHMTCATDTNNIQVVFDAVTDIIIANNLRGCGLY--
+Homo_sapiens_Gaolf                  VSRGIDRMLRDQKRDLQQT--HRLLLLGAGESGKSTIVKQMRILHVNGFNPE---------------EKKQKILDIRKNVKDAIVTIVSAMSTIIPPVPLANPENQF---RS-------DYIKSIAPITD---------F-----EYSQE----FFDHVKKLWDDEGVKACFERSNEY--QLIDCAQYFLERIDSVSLVDYTPTDQDLLRCRVLTSGIFETRFQVD--------KVN----FHMFDVGGQRDERRKWIQCFN-DVTAIIYVAACSSYNMVIREDNNTNRLRESLDLFESIWNNRWLRTISIILFLNKQDMLAEKVLAGK--------------------------SKIEDY---FPEYANYTVPEDAT------------------------PDAGEDP-KVTRAKFFIRDLFLRI------S-----TATG---DGKHYCYPHFTCAVDTENIRRVFNDCRDIIQRMHLKQYELL--
+Homo_sapiens_Gaq                    INDEIERQLRRDKRDARRE--LKLLLLGTGESGKSTFIKQMRIIHGSGYSDE---------------DKRGFTKLVYQNIFTAMQAMIRAMDTLK--IPYKYEHNKA---HA-------QLVREVDVEKV---------S-----AFENP----YVDAIKSLWNDPGIQECYDRRREY--QLSDSTKYYLNDLDRVADPAYLPTQQDVLRVRVPTTGIIEYPFDLQ--------SVI----FRMVDVGGQRSERRKWIHCFE-NVTSIMFLVALSEYDQVLVESDNENRMEESKALFRTIITYPWFQNSSVILFLNKKDLLEEKIMY----------------------------SHLVDY---FPEYDG--------------------------------PQRDAQA-----AREFILKMFVDL------N-----PD------SDKIIYSHFTCATDTENIRFVFAAVKDTILQLNLKEYNLV--
+Homo_sapiens_Gas                    ANKKIEKQLQKDKQVYRAT--HRLLLLGAGESGKSTIVKQMRILHVNGFNGEGGEEDPQAARSNSDGEKATKVQDIKNNLKEAIETIVAAMSNLVPPVELANPENQF---RV-------DYILSVMNVPD---------F-----DFPPE----FYEHAKALWEDEGVRACYERSNEY--QLIDCAQYFLDKIDVIKQADYVPSDQDLLRCRVLTSGIFETKFQVD--------KVN----FHMFDVGGQRDERRKWIQCFN-DVTAIIFVVASSSYNMVIREDNQTNRLQEALNLFKSIWNNRWLRTISVILFLNKQDLLAEKVLAGK--------------------------SKIEDY---FPEFARYTTPEDAT------------------------PEPGEDP-RVTRAKYFIRDEFLRI------S-----TASG---DGRHYCYPHFTCAVDTENIRRVFNDCRDIIQRMHLRQYELL--
+Homo_sapiens_Gat1                   HSRELEKKLKEDAEKDART--VKLLLLGAGESGKSTIVKQMKIIHQDGYSLE---------------ECLEFIAIIYGNTLQSILAIVRAMTTLN--IQYGDSARQD---DA-------RKLMHMADTIE------E--G-----TMPKE----MSDIIQRLWKDSGIQACFERASEY--QLNDSAGYYLSDLERLVTPGYVPTEQDVLRSRVKTTGIIETQFSFK--------DLN----FRMFDVGGQRSERKKWIHCFE-GVTCIIFIAALSAYDMVLVEDDEVNRMHESLHLFNSICNHRYFATTSIVLFLNKKDVFFEKIKK----------------------------AHLSIC---FPDYDG--------------------------------PNTYEDA------GNYIKVQFLEL------N-----MR-----RDVKEIYSHMTCATDTQNVKFVFDAVTDIIIKENLKDCGLF--
+Homo_sapiens_Gat2                   RSKELEKKLQEDADKEAKT--VKLLLLGAGESGKSTIVKQMKIIHQDGYSPE---------------ECLEFKAIIYGNVLQSILAIIRAMTTLG--IDYAEPSCAD---DG-------RQLNNLADSIE------E--G-----TMPPE----LVEVIRRLWKDGGVQACFERAAEY--QLNDSASYYLNQLERITDPEYLPSEQDVLRSRVKTTGIIETKFSVK--------DLN----FRMFDVGGQRSERKKWIHCFE-GVTCIIFCAALSAYDMVLVEDDEVNRMHESLHLFNSICNHKFFAATSIVLFLNKKDLFEEKIKK----------------------------VHLSIC---FPEYDG--------------------------------NNSYDDA------GNYIKSQFLDL------N-----MR-----KDVKEIYSHMTCATDTQNVKFVFDAVTDIIIKENLKDCGLF--
+Homo_sapiens_Gat3                   RSKELEKKLQEDAERDART--VKLLLLGAGESGKSTIVKQMKIIHKNGYSEQ---------------ECMEFKAVIYSNTLQSILAIVKAMTTLG--IDYVNPRSAE---DQ-------RQLYAMANTLE------D--G-----GMTPQ----LAEVIKRLWRDPGIQACFERASEY--QLNDSAAYYLNDLDRITASGYVPNEQDVLHSRVKTTGIIETQFSFK--------DLH----FRMFDVGGQRSERKKWIHCFE-GVTCIIFCAALSAYDMVLVEDEEVNRMHESLHLFNSICNHKYFSTTSIVLFLNKKDIFQEKVTK----------------------------VHLSIC---FPEYTG--------------------------------PNTFEDA------GNYIKNQFLDL------N-----LK-----KEDKEIYSHMTCATDTQNVKFVFDAVTDIIIKENLKDCGLF--
+Homo_sapiens_Gaz                    RSRRIDRHLRSESQRQRRE--IKLLLLGTSNSGKSTIVKQMKIIHSGGFNLE---------------ACKEYKPLIIYNAIDSLTRIIRALAALR--IDFHNPDRAY---DA-------VQLFALTGPAE------SK-G-----EITPE----LLGVMRRLWADPGAQACFSRSSEY--HLEDNAAYYLNDLERIAAADYIPTVEDILRSRDMTTGIVENKFTFK--------ELT----FKMVDVGGQRSERKKWIHCFE-GVTAIIFCVELSGYDLKLYEDNQTSRMAESLRLFDSICNNNWFINTSLILFLNKKDLLAEKIRR----------------------------IPLTIC---FPEYKG--------------------------------QNTYEEA------AVYIQRQFEDL------N-----RN-----KETKEIYSHFTCATDTSNIQFVFDAVTDVIIQNNLKYIGLC--
+Lottia_gigantea_Gv                  RSDVIDKNLQTWAKQDSNV--IKILLLGAAEGGKSTLVKQMKIIHNDGFSKH---------------ELRSFKTAVLDNLVSSMKFVLAGMGMLR--VNLENPKNKL---YA-------QKILSCMCCYD------KEFH-----AMLPE----IYEALKSLWKDRGIRLAVSRGYEF--ELNDSAIYYFENMDRICSIKFQPSCTDVLRARVRTTGVIETCFKID--------GGV----IRMFDVGGQRSERRKWIQCFD-DVRCILFVAALSCYDLTLFEDPSVNRLVESLKLFRGIANNRFFNNTATILFLNKLDLFQDKIRHSG--------------------------RHLRYY---FPDFSG--------------------------------PDYDVDS-----AARYIQHLFTMQ------------CN-----NPSKVIYPHFTTATDTSNIQVVFQVVMDSVLRENIKAVSIL--
+Mizuhopecten_yessoensis_Go          RSRDIEKKLKEDGIQAAKD--IKLLLLGAGESGKSTIVKQMKIIHEGGFTSE---------------DNKQYKPVVYSNTIQSLVAIVRAMSTLN--IPYGDNEREEIKSDA-------KIVLDVIARME------DT-E-----PFSEE----LLAAMKRLWTDTGVQECFGRSNEY--QLNDSAKYFLDDLDRLGSKDYMPTEQDILRTRVKTTGIVEVHFSFK--------NLN----FKLFDVGGQRSERKKWIHCFE-DVTAIIFCVAMSEYDQVLHEDETTNRMQESLKLFDNICNNKWFTDTSIILFLNKKDLFEEKIKK----------------------------SSLTIC---FNEYTG--------------------------------NQTYEEA------AAYIQAQFEAK------N-----KS------SSKEIYCHQTCATDTNNIQFVFDAVTDVIIANNLRGCGLY--
+Mizuhopecten_yessoensis_Gq          INCEIEKELRKAKRDARRE--LKLLLLGTGESGKSTFIKQMRIIHGTGYSEE---------------DKRGFIKIVYQNIFMAMHSMIRAMDTIK--ISFEVADNEE---NA-------IMIRQVDYETV---------T-----TLDSQ----SVEAILSLWADAGIQECYDRRREY--QLTDSAKYYLDAVDRIAEPNYLPTLQDILRVRVPTTGIIEYPFDLD--------SII----FRMVDVGGQRSERRKWIHCFE-NVTSIMFLVALSEYDQVLVESDNENRMEESKALFRTIITYPWFQNSSVILFLNKKDLLEEKIMH----------------------------SHLVDY---FPEFDG--------------------------------QKKDAQG-----AREFILRMFVDL------N-----PD------PDKIIYSHFTCATDTENIRFVFAAVKDTILQLNLKEYNLV--
+Terebratalia_transversa_Ga12a       RSRHIDHQIDHDRDEKHRE--VQLLILGGGGSGKSTFIKQLRIHHGDGYPVE---------------ERKRMKYDVYENAIDAFHRVVKNMKELSITLEIVDNSKKY---ETLCETYPMQEILCVFPNVENGNSALRSPQLSRSRPQPSE----IPAQLLSIWEDAGFQRAFNLREKFCDPLTEAEIYFLEHFIRVSNKHYIPTVQDLLHVRKPTVGVQEHSFRVQ--------EFL----FRVIDVAGQKSQRKKWMHFFD-GVTAVIFFVALSGFNEQLEEDSAMNKLHDSLEIFEEVTRNKFLLIADFILFLNKQDLFLQKLENG---------------------------LSIRTA---FPEFKE--------------------------------KSGAVNP---DASIKYIRNKFFAT------A------------PQNKMIYPHVSCAIDIDLMKVIIDDVLQIIMEINLKKAALI--
+Terebratalia_transversa_Ga12b       QSHTIDKELSKQKLQYKRT--VKILLLGSGESGKSTFLKQMKIIHGVNFEED---------------QVQEYKTTIYSNIVKGMKVLVDARTKLN--ISWQKTSNEA---QG-------QLIYAYDNNVR------LD-E-----LQFQK----FIPALENLWQDMGIKKAYERRREF--QL------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Terebratalia_transversa_Gai         RSKQIDKTLRSDGERAARE--VELLLLGAGESGKSTIVKQMKIIHDKGYSTD---------------ECLQYKPVVFSNTVQSMIAIIRAMGQLK--IDFGYQERAD---DA-------RQLFTLAGVEE---------G-----ELSPD----LAGVMKRLWRDPGVQECFARSREY--QLNDSAEYYLNALERISLHDYIPTEQDVLRTRVKTTGIVETHFTFK--------DLH----FKMFDVGGQRSERKKWIHCFE-GVTSIIFIVALSEYDLTLAEDQEMNRMMESMKLFDSICNNKWFTDTSIILFLNKKDLFEEKIRK----------------------------SPLTVC---FPEYSG--------------------------------PNTFEDA------AAYIQLQFEKL------N-----KR-----SETKEIYVHFTCATDTNNVQFVFDAVTDVIIKNNLKDCGLF--
+Terebratalia_transversa_Gao         RNRKIEKDLKEDGLQAAKD--IKLLLLGAGESGKSTIVKQMKIIHEGGFTQE---------------DNKQFRTVVYSNTIQSLVAIARANATLN--IPFADSERES---DA-------KMVLDVISRME------DT-E-----PFSEE----LLAAMKRLWSDTGLQECFGRANEY--QLNDSANYFLDDLDRIGKPGYMPTEQDILRTRVKTTGIVEVHFSFK--------NLN----FKLFDVGGQRSERKKWIHCFE-DVTAIIFCVAMSEYDQVLHEDETTNRMQESLKLFDSICNNKWFTDTSIILFLNKKDLFENKIKK----------------------------SALTVA---FPEYTG--------------------------------KQSYEEA------AAYIQAQFEAK------N-----KS------TTKEIYCHQTCATDTTNIQFVFDAVTDVIIANNLRGCGLY--
+Terebratalia_transversa_Gaq         INQEIERQLKKDKRDARRE--LKLLLLGTGESGKSTFIKQMRIIHGVGYTDD---------------DKRSFIKIVYQNIFMAVTAMCRAMETLK--IQYKDQRNEE---HS-------ILIRNIDYETV---------T-----TMEKS----HVEAISLLWSDPGIQECYDRRREY--QLTDSAKYYLDNINRIQEPDYLPSLQDILRVRAPTTGIIEYPFDLD--------SII----FRMVDVGGQRSERRKWIHCFE-NVTSIMFLVALSEYDQVLVESDIENRMEESKALFRTIITYPWFVHSSVILFLNKKDLLDDKINH----------------------------SHLVDY---FPEFDG--------------------------------PQKDPQA-----AREFILKMFVDL------N-----PD------PDKIIYSHFTCATDTENIRFVFAAVKDTILQLNLKEYNLV--
+Terebratalia_transversa_Gas1        ANKQIEKQLQKDKQLYRAT--HRLLLLGAGESGKSTIVKQMKILHVNGFNDE---------------EKRQKIDDIRKNIXDAILTITGAMSTLNPPILLANQGNQF---RI-------DYIQDVASLPD---------F-----DYPPE----FYEHTKILWEDKGVQSCYERSNEY--QLIDCAKYFLDKVAAVSRNEYSPSEQDILRCRVLTSGIFETKFSVD--------KVN----FHMFDVGGQRDERRKWIQCFN-DVTAIIFVTACSSYNLVLREDPTQNRLKESLELFNSIWTNRWLRAISVILFLNKQDLLAEKVMASK--------------------------SKIEDW---FPQFASYTIPPDAS------------------------PDAGEQE-PVTRAKYFIRDEFLKI------S-----TQTG---NGRHYCYPHFTCAVDTENIRRVFNDCRDIIQRMHLRQYELL--
+Terebratalia_transversa_Gas2        MNKEIEKNLKRMRREESQV--HRILLLGTGESGKSTIKKQMQIIHKSGFTTE---------------ERLSHVEHIRRNIRESIITMVCSMNTLN--IELENVENEE---SK-------QYMMEVPNFYN-----------------TEE----FYAHTRRLWNDKGIQECYNRSSEY--QLIDCAKYFLDKMDEVQKHDYIPDDQDILRCRTITTQIQQIDFTIR--------EKNQNACFSAYDVGGQRGERRKWIQVFD-RSTAILFLVDIGSFDTTLREEPTKNRLLESLKIFDQVWNNRYLRNVSIILFLNKIDVLTEK--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Terebratalia_transversa_Gav         -------------------------------------------------------------------------TTVLENVVGSMKYVLNGMGLLR--INLENPKNKI---HA-------QTVLSCQRCYD------EN-Q-----IMLPF----IANAIKSLWTDRGVQLAAKRGFEY--ELNDSAIYYFENLSRLCSEKFIPNATDVLRARVRTTGIIETCFRIN--------DII----FRLFDVGGQRSERRKWIQCFD-DVRAILYVVALSGYDMTLYEDPAVNRLGESIKLFRSICNNRFFYATSMILFLNKVDLFQEKILHSK--------------------------RHMRYY---FPDYTG--------------------------------LDCDVNS-----AASFIQRKFQQQ------N-----KH------SHKVIIPHFTTATDTSNIQVVFQVVMDTIVRENLEAASL---
+Tribolium_castaneum_Gv              RSEEIDRQLGELAKQQSNV--IKILLLGAGESGKSTLVKQMKIIHADGFTHA---------------ELSSFRPTVLDNLLASMKYVLAGMGILR--INLEQQRNKS---HA-------QAVLMSRSCFD------MS-F-----TVLPN----MAASLQALWSDRGVRLAVARGYEY--ELNDSALYLFENMERICDPKYVPTPTDVLRARVRTQGIIETHFRIN--------DMI----VSMYDVGGQRSQRRKWIYCFD-DVRAVLFVVSLSGYDMTLLEDPSVNRLDESLNLFGQIVNNPFFRDASFVLFLNKFDLFREKILYSQ--------------------------RHLRLY---FPDYKG--------------------------------PDRDVDR-----GALFIQHKFVLK------N-----AD------SRKVLYPHFTTATDTANVQVVFQAVMEMVISTNLGQVTLL--
+;
+END;
+
+BEGIN TREES;
+      TITLE TRP;
+      LINK TAXA = Taxa3;
+         TRANSLATE
+            1    Drosophila_melanogaster_TRP_like,
+            2    Drosophila_melanogaster_TRP_NP_,
+            3    Homo_sapiens_TRPA1_C,
+            4    Homo_sapiens_TRPC1_A,
+            5    Homo_sapiens_TRPC3_A,
+            6    Homo_sapiens_TRPC4_A,
+            7    Homo_sapiens_TRPC5_A,
+            8    Homo_sapiens_TRPC6_A,
+            9    Homo_sapiens_TRPC7_C,
+            10   Homo_sapiens_TRPM1_A,
+            11   Homo_sapiens_TRPM2_B,
+            12   Homo_sapiens_TRPM3_C,
+            13   Homo_sapiens_TRPM4_A,
+            14   Homo_sapiens_TRPM5_A,
+            15   Homo_sapiens_TRPM6_A,
+            16   Homo_sapiens_TRPM7_A,
+            17   Homo_sapiens_TRPM8_A,
+            18   Homo_sapiens_TRPML1_,
+            19   Homo_sapiens_TRPML2_,
+            20   Homo_sapiens_TRPML3_,
+            21   Homo_sapiens_TRPP1_A,
+            22   Homo_sapiens_TRPP2_A,
+            23   Homo_sapiens_TRPP3_A,
+            24   Homo_sapiens_TRPP4_A,
+            25   Homo_sapiens_TRPP5_A,
+            26   Homo_sapiens_TRPV1_A,
+            27   Homo_sapiens_TRPV2_C,
+            28   Homo_sapiens_TRPV3_A,
+            29   Homo_sapiens_TRPV4_C,
+            30   Homo_sapiens_TRPV5_C,
+            31   Homo_sapiens_TRPV6_A,
+            32   Terebratalia_transversa_TRPC;
+      TREE TRP_con_50_majrule = [&R] (1:0.264704,2:0.346276,(((((((3:1.256431,(((18:0.201485,(19:0.318879,20:0.144747):0.195217):1.378175,21:1.516948,24:1.329647):0.387689,((22:0.239274,23:0.23721):0.196971,25:0.212108):0.931185):0.48128):0.271518,((((26:0.287176,27:0.53535):0.15165,29:0.413245):0.099438,28:0.49359):0.409918,(30:0.094896,31:0.050672):0.658158):0.52672):0.260549,(((10:0.134754,12:0.118389):0.123118,(15:0.25064,16:0.213829):0.172974):0.358079,((11:0.420518,17:0.529014):0.191835,(13:0.491641,14:0.175625):0.317603):0.39197):0.885043):0.643616,((5:0.077718,9:0.060593):0.052751,8:0.137381):0.560591):0.140512,4:0.666066):0.103216,(6:0.027648,7:0.102763):0.230885):0.200538,32:0.255684):0.255497);
+
+
+
+END;
+BEGIN TREES;
+      TITLE GRK;
+      LINK TAXA = Taxa2;
+         TRANSLATE
+            1    Phytophthora_infestans_GRK,
+            2    Albugo_laibachii_GRK,
+            3    Drosophila_melanogaster_GRKb,
+            4    Enteroctopus_dofleini_GRKb,
+            5    Doryteuthis_pealeii_GRKb,
+            6    Terebratalia_transversa_GRKb,
+            7    Mus_musculus_GRK2,
+            8    Mus_musculus_GRK3,
+            9    Branchiostoma_floridae_GRKb,
+            10   Nematostella_vectensis_GRKb,
+            11   Mus_musculus_GRK1,
+            12   Drosophila_melanogaster_GRKa,
+            13   Mus_musculus_GRK4_O70291,
+            14   Nematostella_vectensis_GRKa,
+            15   Mus_musculus_GRK5,
+            16   Mus_musculus_GRK6A,
+            17   Mus_musculus_GRK6B,
+            18   Branchiostoma_floridae_GRKa,
+            19   Terebratalia_transversa_GRKa;
+      TREE GRK_con_50_majrule = [&R] (1:0.200134,((((3:0.238057,((4:0.050006,5:0.035177)1.00:0.194155,6:0.120265)1.00:0.074611)0.90:0.044966,(7:0.107432,8:0.105493)1.00:0.089551,10:0.178621)0.55:0.040811,9:0.094062)1.00:0.786641,(11:0.830322,(12:0.358586,((13:0.385383,(16:0.001845,17:0.001844)1.00:0.241242)0.97:0.048767,15:0.174626)1.00:0.111134,14:0.459471,(18:0.287718,19:0.275464)0.51:0.044097)1.00:0.291819)1.00:0.757605)1.00:1.103053,2:0.286739);
+
+
+
+END;
+BEGIN TREES;
+      TITLE 'opsin-5M';
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Terebratalia_transversa_Go_opsin2,
+            2    Terebratalia_transversa_Go_opsin1,
+            3    Mus_musculus_RGR,
+            4    Bos_taurus_RGR,
+            5    Homo_sapiens_RGR,
+            6    Terebratalia_transversa_R_opsin,
+            7    Schistosoma_mansoni_Opsin,
+            8    Platynereis_dumerilii_R_opsin,
+            9    Mizuhopecten_yessoensis_Gq_rhodopsin,
+            10   Enteroctopus_dofleini_Opsin,
+            11   Loligo_forbesii_Opsin,
+            12   Alloteuthis_subulata_Opsin,
+            13   Sepia_officinalis_Opsin,
+            14   Todarodes_pacificus_Opsin,
+            15   Xenopus_laevis_Melanopsin,
+            16   Mus_musculus_Melanopsin,
+            17   Homo_sapiens_Melanopsin,
+            18   Limulus_polyphemus_Ocellus_opsin,
+            19   Hemigrapsus_sanguineus_Rh1,
+            20   Mus_musculus_MLT,
+            21   Xenopus_laevis_MLT,
+            22   Homo_sapiens_Somatostatin,
+            23   Drosophila_melanogaster_Allatostatin,
+            24   Homo_sapiens_NK_1_receptor,
+            25   Drosophila_melanogaster_Tachykinin_like_receptor,
+            26   Terebratalia_transversa_C_opsin,
+            27   Platynereis_dumerilii_C_opsin,
+            28   Homo_sapiens_Encephalopsin,
+            29   Mus_musculus_Encephalopsin,
+            30   Anopheles_gambiae_GPRop11,
+            31   Anopheles_gambiae_GPRop12,
+            32   Takifugu_rubripes_TMT_opsin,
+            33   Branchiostoma_belcheri_Opsin5,
+            34   Branchiostoma_belcheri_Opsin4,
+            35   Ciona_intestinalis_Opsin1,
+            36   Danio_rerio_VAL_opsin,
+            37   Petromyzon_marinus_Pineal_opsin,
+            38   Oncorhynchus_nerka_LWS,
+            39   Geotria_australis_LWS,
+            40   Anolis_carolinensis_P_opsin,
+            41   Geotria_australis_SWS,
+            42   Rana_catesbeiana_SWS1,
+            43   Rattus_norvegicus_Blue_cone_opsin,
+            44   Cynops_pyrrhogaster_SWS1,
+            45   Petromyzon_marinus_RhA,
+            46   Geotria_australis_RhA,
+            47   Latimeria_chalumnae_Rh2,
+            48   Homo_sapiens_Rhodopsin,
+            49   Mus_musculus_Rhodopsin,
+            50   Latimeria_chalumnae_Rh1,
+            51   Geotria_australis_RhB,
+            52   Geotria_australis_SWS2,
+            53   Xenopus_laevis_Green_rod_opsin,
+            54   Gallus_gallus_Blue_Cone_opsin,
+            55   Branchiostoma_belcheri_Amphiop2,
+            56   Branchiostoma_belcheri_Amphiop1,
+            57   Mizuhopecten_yessoensis_Go_rhodopsin,
+            58   Branchiostoma_belcheri_Amphiop3,
+            59   Mus_musculus_Peropsin,
+            60   Homo_sapiens_Peropsin;
+      TREE opsin_con_50_majrule = [&R] (1:0.8666791598166114,2:0.3835803275669745,((((3:0.06006838457383274,(4:0.06216606018465384,5:0.03751585531590549):0.0541498543855105):0.6842344618826676,(58:0.4077025838983336,(59:0.05809126281879778,60:0.0568995637251714):0.3200684111214618):0.167713546840811):0.1393614672826312,((((((((6:0.5249070257224521,7:0.3468517038243416):0.07488036224719656,8:0.3390300781602382):0.06416226161166166,(10:0.05027017905082964,(((11:0.01655479040699409,12:0.02532394310088233):0.03673562972571259,13:0.02414870338065487):0.01921030982584876,14:0.03627517294269025):0.1138465592256186):0.1933046159418628):0.04257084193408015,9:0.2485473247730411):0.1042903329690615,(15:0.2221093031772858,(16:0.03643015652067508,17:0.03596128499811171):0.1562804837392987):0.2469035021089338):0.05390149860174258,(18:0.411027681492844,19:0.3401241378516178):0.1963114199864864):0.1714227369222506,((20:0.2806563526854677,21:0.2607979056815578):0.5645475744791713,((22:0.497046979571417,23:0.401175976639575):0.1965744909587007,(24:0.4280362690687478,25:0.3927180125294593):0.2475922063871038):0.1363841025440738):0.2642165069562111):0.09256866570937394,(26:0.4383642661104891,(27:0.4822220177426759,(((28:0.01764385011314352,29:0.08880405557041149):0.4831933177642187,32:0.2973764564492163,(33:0.2872248647427697,34:0.1908276253984273):0.1651411939483314):0.08318920962334724,(30:0.08327414943686569,31:0.0227137861151459):0.4100943649178104,(35:0.4310094113419806,(36:0.1306993113489908,37:0.159196358889521):0.2173481503234056,((38:0.08626815992228565,39:0.08856236824225361):0.3438851120026361,(40:0.1587462432209323,((41:0.06891561011154833,(42:0.0929577616677107,(43:0.07973992835448397,44:0.07811093438673813):0.04372190783391743):0.07073093093638279):0.209910284773471,((((45:0.03206612319608503,46:0.04756241178169698):0.03544007474583842,(47:0.07436153022342155,(48:0.03044459093672729,49:0.01018579011766695):0.05650365785868387):0.07090965065703202):0.04631979582456754,(50:0.1067460396948839,51:0.08659482293406721):0.03236896245038362):0.1923899869543813,(52:0.140110455137425,(53:0.09077780090054559,54:0.1304896063148605):0.07902720868186815):0.07820531152751924):0.06343611919466217):0.1509544837448004):0.05125793292347382):0.05543374178930627):0.2797270768606784):0.0774772706494071):0.118436715453859):0.08051873710202424):0.08964998367124756):0.1045278600228003,((55:0.4332540265077043,56:0.4033732840168339):0.2008730009871817,57:0.5782155146205085):0.1130340838924135):0.289704727978331);
+
+
+
+END;
+BEGIN TREES;
+      TITLE 'G-alpha';
+      LINK TAXA = Taxa4;
+         TRANSLATE
+            1    Terebratalia_transversa_Ga12a,
+            2    Drosophila_melanogaster_Gfa,
+            3    Capitella_teleta_Gv,
+            4    Tribolium_castaneum_Gv,
+            5    Lottia_gigantea_Gv,
+            6    Terebratalia_transversa_Gav,
+            7    Terebratalia_transversa_Ga12b,
+            8    Drosophila_melanogaster_Cta,
+            9    Drosophila_melanogaster_CG40005,
+            10   Homo_sapiens_Ga12,
+            11   Homo_sapiens_Ga13,
+            12   Homo_sapiens_Gaz,
+            13   Homo_sapiens_Gat3,
+            14   Homo_sapiens_Gat1,
+            15   Homo_sapiens_Gat2,
+            16   Homo_sapiens_Gao,
+            17   Terebratalia_transversa_Gao,
+            18   Drosophila_melanogaster_G_oa47A,
+            19   Mizuhopecten_yessoensis_Go,
+            20   Drosophila_melanogaster_G_ia65A,
+            21   Terebratalia_transversa_Gai,
+            22   Homo_sapiens_Gai2,
+            23   Homo_sapiens_Gai1,
+            24   Homo_sapiens_Gai3,
+            25   Homo_sapiens_Ga15,
+            26   Drosophila_melanogaster_CG17760,
+            27   Drosophila_melanogaster_CG30054,
+            28   Homo_sapiens_Ga14,
+            29   Terebratalia_transversa_Gaq,
+            30   Mizuhopecten_yessoensis_Gq,
+            31   Drosophila_melanogaster_Dgq,
+            32   Homo_sapiens_Gaq,
+            33   Homo_sapiens_Ga11,
+            34   Terebratalia_transversa_Gas2,
+            35   Drosophila_melanogaster_G_sa60A,
+            36   Homo_sapiens_Gaolf,
+            37   Terebratalia_transversa_Gas1,
+            38   Homo_sapiens_Gas;
+      TREE 'G-alpha con 50 majrule' = [&R] (1:1.172254923221703,((7:0.3523886710697477,(10:0.2770623120883518,11:0.145515484993881):0.1248256060975119):0.06843290962869705,(8:0.002106162192574368,9:0.01773882841699368):0.3728124878303816):0.2821682988402757,(((2:0.7287433761228436,(34:0.4595992672028823,(35:0.1283140853883453,((36:0.1625775259801076,38:0.08535799985824621):0.06228358521232939,37:0.1012738183579501):0.03765168186725081):0.2725720977560999):0.1859093653370142):0.2254670619212058,(((3:0.3843183332723034,4:0.2338713432444041):0.07996698768755116,(5:0.2127676327766869,6:0.1562567793447853):0.03349433961479176):0.4957202586303655,((12:0.323675502584638,((((13:0.09862571747380947,(14:0.09907840048025128,15:0.08511015406739883):0.03032071502991627):0.2323006604429803,22:0.06912762253288976):0.0217131466502498,(23:0.01785681696232842,24:0.04417444170936229):0.02394352320253654):0.03066766877303556,(20:0.1853601933190729,21:0.1163895329402926):0.02850613011476867):0.04214632833930341):0.07519854131792035,(16:0.06945630584522229,((17:0.07596714734469465,19:0.02932643992788251):0.02749730146485161,18:0.05093084825224356):0.07127893370224705):0.1278312483361004):0.2484833362424526):0.1289048082123911):0.09464661582914141,(25:0.469128679343753,(((26:0.266992865984683,27:0.1108014287301492):0.1104552026325852,31:0.02369240583107854):0.0617452878602483,(((28:0.1455242334574701,33:0.03507598703427014):0.01947086211940107,32:0.03787738602113286):0.03994888212865647,(29:0.1011375747218798,30:0.07768633750286431):0.0473192018490091):0.02957321080957339):0.1627571252487103):0.1828133787723002):0.1112970902547243);
+
+
+
+END;
+BEGIN TREES;
+      TITLE 'Arrestin-5M';
+      LINK TAXA = Taxa5;
+         TRANSLATE
+            1    Drosophila_melanogaster_CG4674,
+            2    Homo_sapiens_ARRDC1,
+            3    Drosophila_melanogaster_CG32683,
+            4    Drosophila_melanogaster_ARRB,
+            5    Doryteuthis_pealeii_Arrestin,
+            6    Drosophila_melanogaster_ARRA,
+            7    Homo_sapiens_SAG,
+            8    Homo_sapiens_ARR3,
+            9    Drosophila_melanogaster_Kurtz,
+            10   Terebratalia_transversa_Arrestin,
+            11   Ciona_intestinalis_Arrestin,
+            12   Homo_sapiens_ARRB1,
+            13   Homo_sapiens_ARRB2,
+            14   Drosophila_melanogaster_CG18268,
+            15   Homo_sapiens_ARRDC5,
+            16   Drosophila_melanogaster_CG7047,
+            17   Homo_sapiens_TXNIP,
+            18   Homo_sapiens_ARRDC4,
+            19   Homo_sapiens_ARRDC2,
+            20   Homo_sapiens_ARRDC3,
+            21   Drosophila_melanogaster_CG14696,
+            22   Drosophila_melanogaster_CG2993,
+            23   Drosophila_melanogaster_CG3014,
+            24   Drosophila_melanogaster_CG2641,
+            25   Drosophila_melanogaster_CG18744,
+            26   Drosophila_melanogaster_CG1105,
+            27   Drosophila_melanogaster_CG10086,
+            28   Drosophila_melanogaster_CG18745,
+            29   Drosophila_melanogaster_CG18747;
+      TREE Arrestin_con_50_majrule = [&R] ((4:0.300484,(3:0.961417,6:0.37728,(9:0.16653,((5:0.582731,10:0.151656)1.00:0.083507,(11:0.168812,(13:0.119314,(12:0.051041,(7:0.357768,8:0.313475)1.00:0.117937)0.94:0.035785)0.97:0.112142)0.96:0.071176)0.96:0.082599)0.96:0.17007)0.78:0.129331)1.00:0.5779485,(15:0.892434,(2:1.001467,16:1.043548,(19:0.339141,(20:0.241808,(17:0.637418,18:0.296573)1.00:0.244314)0.99:0.140529)1.00:0.45926,(26:0.593284,((1:1.015751,(27:0.652986,(28:0.328277,29:0.579877)0.99:0.155495)0.96:0.155349):0.207476,(25:1.292695,((21:0.860201,22:0.557536)1.00:0.216822,(14:1.429106,(23:0.572437,24:0.468528)0.85:0.191618)1.00:0.31026)0.97:0.186265)0.62:0.100142)0.94:0.108665)0.78:0.234987)0.98:0.384077)1.00:0.5779485);
+
+
+
+END;

@@ -1,0 +1,123 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:36 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Graybeal A., & Cannatella D. 1995. A new taxon of Bufonidae from Peru, with descriptions
+of two new species and a review of the phylogenetic status of supraspecific
+bufonid taxa. Herpetologica, 51(2): 105-131.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S355]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=17;
+        TAXLABELS
+            Altiphrynoides_malcolmi
+            Capensibufo_rosei
+            Capensibufo_tradouwi
+            Didynamipus_sjoestedti
+            Laurentophryne_parkeri
+            Nectophryne_afra
+            Nectophryne_batesi
+            Nectophrynoides_cryptus
+            Nectophrynoides_liberiensis
+            Nectophrynoides_occidentalis
+            Nectophrynoides_tornieri
+            Nectophrynoides_viviparus
+            Outgroup_to_Bufonids
+            Spinophrynoides_osgoodi
+            Werneria_preussi
+            Wolterstortfina_mirei
+            Wolterstortfina_parvipalmata
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M1921]
+
+	TITLE ;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=24;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2" MISSING=? GAP= -;
+	CHARSTATELABELS
+		1  Ear / Present Absent,
+		2  Subarticular_tubercles / Single Tendency_to_pairing Very_ill_defined_or_modified_to,
+		3  Paratoid_glands / Present_well_developed_and_prom Present_but_small_and_inconspic Absent,
+		4  Eggs / Pigmented Unpigmented,
+		5  Clutch_size / '>500' '100-500' '<100',
+		6  Iliacus_externus / Distal_0.33_of_shaft 'Distal 0.5-0.66 of shaft' 'Distal 0.66 of shaft$ fan-like',
+		7  Tensor_fasciae_latae / 'Origin distal 0.33-0.5 ilial sh' Origin_at_level_of_sacral_diapo,
+		8  Adductor_longus / Present Absent,
+		9  Depressor_mandibulae / Origin_not_extending_anteriorly Origin_extends_entire_length_of,
+		10  Quadratojugal / Broadly_overlapped_by_maxilla_a Not_or_barely_overlapped_by_max Vestigial_separated_from_maxil,
+		11  Palatine / Fully_developed_smooth_meeting Reduced_not_meeting_maxilla Absent,
+		12  Sphenethmoid / Not_extending_forwards_beyond_c Extending_forwards_beyond_choan,
+		13  Medial_ramus_of_pterygoid / 'overlaps parasphenoid ala in a-' not_or_slightly_overlaps_parasp short_does_not_overlap_parasphe,
+		14  Medial_borders_of_frontoparieta / in_contact_or_narrowly_separate widely_separated_from_each_othe,
+		15  Presacral_vertebral_number / eight six_to_seven,
+		16  Sacrococcygeal_articulation / Bicondylar Monocondylar Fused,
+		17  Prezonal_element / Present Absent,
+		18  Coracoid_cartilages / Arciferal Modified_arciferal,
+		19  Tips_of_terminal_phalanges / Simple_or_knobbed 'Modified T-shaped' 'T-shaped',
+		20  'Occipital condyles/cervical cot' / Narrowly_separated Widely_separated,
+		21  Reproductive_biology / Egg_laying$_aquatic_larva Egg_laying$_terrestrial_larva Ovoviviparous_or_viviparous,
+		22  Preorbital_processes_on_nasal_a / Present_and_overlapping Present_not_overlapping,
+		23  Phalangeal_formulae / Normal Reduced,
+		24  Parasphenoid_alae / Smooth Ridged,
+		;
+
+MATRIX
+[                                        10        20        ]
+[                                         .         .        ]
+Altiphrynoides_malcolmi          101021110000100{01}01011000
+Capensibufo_rosei                110021000210210{01}01010200
+Capensibufo_tradouwi             01002000011021000000?100
+Didynamipus_sjoestedti           102121110211101211{01}1?210
+Laurentophryne_parkeri           12212211121120121011??00
+Nectophryne_afra                 122122111210211210110?00
+Nectophryne_batesi               12212211122121021011?100
+Nectophrynoides_cryptus          1011?1010000000{01}0011?000
+Nectophrynoides_liberiensis      102022110210201200112201
+Nectophrynoides_occidentalis     102021110110101200112201
+Nectophrynoides_tornieri         002121010000000{01}00212000
+Nectophrynoides_viviparus        00011101000{01}000100112000
+Outgroup_to_Bufonids             ????????????????????????
+Spinophrynoides_osgoodi          101001110000100{01}01100000
+Werneria_preussi                 102112110001000000000100
+Wolterstortfina_mirei            1221?211120020011011?200
+Wolterstortfina_parvipalmata     122112111200200{012}10110100
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb5140;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Outgroup_to_Bufonids,
+            2    Capensibufo_tradouwi,
+            3    Capensibufo_rosei,
+            4    Nectophrynoides_viviparus,
+            5    Nectophrynoides_tornieri,
+            6    Nectophrynoides_cryptus,
+            7    Spinophrynoides_osgoodi,
+            8    Altiphrynoides_malcolmi,
+            9    Nectophrynoides_occidentalis,
+            10   Nectophrynoides_liberiensis,
+            11   Didynamipus_sjoestedti,
+            12   Werneria_preussi,
+            13   Laurentophryne_parkeri,
+            14   Wolterstortfina_parvipalmata,
+            15   Wolterstortfina_mirei,
+            16   Nectophryne_afra,
+            17   Nectophryne_batesi;
+      TREE Fig._10 = [&R] (1,((3,2)Capensibufo,((5,4),(6,((8,7),(12,(14,(15,(17,16,13,(11,(10,9)Nectophrynoides)))))))))Bufonidae);
+
+
+
+END;

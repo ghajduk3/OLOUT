@@ -1,0 +1,56 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:50 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Cox P., Huynh K., & Stone B. 1995. "Evolution and systematics of the Pandanaceae."
+In: Rudall P., Cribb P., Cutler D., & Humphries C., eds. Monocotyledons: systematics
+and evolution. pp. 663-684. Kew, Royal Botanic Gardens.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S630]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=4;
+        TAXLABELS
+            Cyclanthus
+            Freycinetia
+            Pandanus
+            Saranga
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M2684]
+
+	TITLE ;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=1;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1" MISSING=? GAP= -;
+
+MATRIX
+Cyclanthus      ?
+Freycinetia     ?
+Pandanus        ?
+Saranga         ?
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb5709;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Saranga,
+            2    Pandanus,
+            3    Freycinetia,
+            4    Cyclanthus;
+      TREE Fig._6 = [&R] (4,(3,(2,1)));
+
+
+
+END;

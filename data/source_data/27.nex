@@ -1,0 +1,292 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:27 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Kavanagh F., & Wilson G.D. 2007. A revision of the genus Haplomesus (Isopoda: Asellota:
+Ischnomesidae) with erection of four new genera. Invertebrate Systematics,
+21: 1-49.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S1924]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=39;
+        TAXLABELS
+            Contrarimesus_curtispinis
+            Contrarimesus_franklinae
+            Cornuamesus_biscayensis
+            Cornuamesus_longiramus
+            Fortimesus_brevispinis
+            Fortimesus_concinnus
+            Fortimesus_consanguineus
+            Fortimesus_cornutus
+            Fortimesus_gigas
+            Fortimesus_profundicolus
+            Fortimesus_robustus
+            Fortimesus_scabriusculus
+            Fortimesus_thomsoni
+            Fortimesus_zuluensis
+            Gracilimesus_angustus
+            Gracilimesus_celticensis
+            Gracilimesus_corniculatus
+            Gracilimesus_gorbunovi
+            Gracilimesus_gorbunovi_sensu_Svavarsson
+            Gracilimesus_hanseni
+            Gracilimesus_insignis
+            Gracilimesus_orientalis
+            Gracilimesus_tenuispinis
+            Gracilimesus_tropicalis
+            Haplomesus_bifurcatus
+            Haplomesus_ornatus
+            Haplomesus_quadrispinosus
+            Haplomesus_quadrispinosus_sensu_Brandt
+            Heteromesus_drachi
+            Heteromesus_frigidus
+            Heteromesus_granulatus
+            Heteromesus_schmidtii
+            Heteromesus_similis
+            Heteromesus_spinosus
+            Ischnomesus_antarcticus
+            Ischnomesus_bispinosus
+            Stylomesus_hexapodus
+            Stylomesus_menziesi
+            Stylomesus_sarsi
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M2925]
+
+	TITLE Ischnomesidae_morphlogical;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=79;
+	FORMAT DATATYPE=Standard SYMBOLS= "1 2 3 4 5" MISSING=? GAP= -;
+	CHARSTATELABELS
+		1  Per.5_fusion / freely_articulated fused_with_pereonite_6,
+		2  Per.6_fusion / freely_articulated fused_with_pereonite_7,
+		3  Per.7_fusion / freely_articulated fused_with_pleonite_1,
+		4  PL_1_fusion / freely_articulated fused_with_pleotelson,
+		5  Haplomesus_segmental_artic. / 'articulation absent- no segmental demarcation' 'articulation present- rudimentary- non-functional',
+		6  Per.7_length / length_not_reduced_compared_to_pereonite_6 'length reduced- less than pereonite 6' pereonite_7_completely_undeveloped,
+		7  Head_anterolat._projections / antennae_emerging_directly_from_head squat_anterolat._projections_supporting_antennae robust_rounded_anterolat._projections_supporting_antennae 'long- thin anterolat. projections supporting antennae',
+		8  Head_lobe_on_ventrolateral_margin / absent_in_lateral_view present_in_lateral_view,
+		9  Spination_pattern_on_pers.1_to_4 / identical_for_males_and_females sexually_dimorphic,
+		10  Per.1_female_paired_dorsal_spines_or_tubercles / no_paired_dorsal_spines_or_tubercles paired_dorsal_simple_spines paired_dorsal_pedestal_spines paired_dorsal_rook_spines paired_dorsal_tubercles,
+		11  Per.1_female_anterolat._spines_length / 'elongate- length near width of pereonite 1' 'short- length near pereonite 1 length' 'tiny- length distinctly less than pereonite 1 length',
+		12  Per.1_female_paired_lateral_spines / no_lateral_spines_or_tubercles paired_lateral_simple_spines paired_lateral_pedestal_spines paired_lateral_rook_spines paired_lateral_tubercles,
+		13  Per.2_female_paired_dorsal_spines_or_tubercles / no_paired_dorsal_spines_or_tubercles paired_dorsal_simple_spines paired_dorsal_pedestal_spines paired_dorsal_rook_spines paired_dorsal_tubercles,
+		14  Per.2_female_paired_lateral_spines / no_lateral_spines_or_tubercles paired_lateral_simple_spines paired_lateral_pedestal_spines paired_lateral_rook_spines paired_lateral_tubercles,
+		15  Per.3_female_paired_dorsal_spines_or_tubercles / no_paired_dorsal_spines_or_tubercles paired_dorsal_simple_spines paired_dorsal_pedestal_spines paired_dorsal_rook_spines paired_dorsal_tubercles,
+		16  Per.3_female_paired_lateral_spines / no_lateral_spines_or_tubercles paired_lateral_simple_spines paired_lateral_pedestal_spines paired_lateral_rook_spines paired_lateral_tubercles,
+		17  Per.4_female_paired_dorsal_spines_or_tubercles / no_paired_dorsal_spines_or_tubercles paired_dorsal_simple_spines paired_dorsal_pedestal_spines paired_dorsal_rook_spines paired_dorsal_tubercles,
+		18  Per.4_female_paired_anterolat._spines_or_tubercles / no_anterolat._spines_or_tubercles anterolat._simple_spines anterolat._pedestal_spines anterolat._rook_spines anterolat._tubercles,
+		19  Per.4_female_with_posterolat._spines_or_tubercles / posterolat._spines_or_tubercles_absent posterodorsal_spines_or_tubercles,
+		20  Per.4_female_anterolat._spines_length / 'elongate- length near width of pereonite 1' 'short- length near pereonite 1 length' 'tiny- length distinctly less than pereonite 1 length',
+		21  Per.5_anterodorsal_spines_or_tubercles / anterodorsal_spines_or_tubercles_absent anterodorsal_rook_spines anterodorsal_pedestal_spines anterodorsal_simple_spines anterodorsal_tubercles,
+		22  Per.5_posterodorsal_spines_or_tubercles / no_posterodorsal_spines_or_tubercles posterodorsal_simple_spines posterodorsal_rook_spines posterodorsal_pedestal_spines posterodorsal_tubercles,
+		23  Per.5_spines_or_tubercles_lateral_row / no_lateral_row_spines_or_tubercles lateral_row_spines lateral_row_tubercles,
+		24  Per.6_dorsal_spines_or_tubercles / no_dorsal_spines_or_tubercles dorsal_simple_spines dorsal_rook_spines dorsal_pedestal_spines dorsal_tubercles,
+		25  PL_1_lateral_spines_or_tubercles / no_lateral_spines_or_tubercles lateral_simple_spines lateral_pedestal_spines lateral_rook_spines lateral_tubercles,
+		26  PLtn._dorsal_surface_axial_ridge / 'smooth arched- not separated from lateral fields' 'weakly vaulted- separated from lateral fields by shallow elongate concavities' 'strongly vaulted- separated from lateral fields by distinct indented lines',
+		27  PLtn._axial_ridge_length / axial_ridge_not_truncated axial_ridge_truncated,
+		28  PLtn._axial_ridge_distal_tip / medially_smoothly_arched 'medially incised- bilobed posteriorly' 'medially indented- hollow posteriorly',
+		29  PLtn._at_uropod_insertion / produced_from_margin indented_into_margin inflected,
+		30  PLtn._with_dorsal_spines_or_tubercles / dorsal_spines_or_tubercles_absent dorsal_tubercles dorsal_rook_spines dorsal_simple_spines dorsal_pedestal_spines,
+		31  PLtn._spines_or_tubercles_posterolat._marg. / spines_or_tubercles_absent spines_or_tubercles_present,
+		32  PLtn._type_of_spines_posterolat._marg. / simple_spines pedestal_spines rook_spines tubercles,
+		33  PLtn._terminal_margin_with_spines_or_tubercles / spines_or_tubercles_absent tubercles paired_simple_spines paired_pedestal_spines,
+		34  Antennula_num.__articles / two_or_less_articles 3_articles 4_articles 5_articles 6_or_more_articles,
+		35  Antennula_article_2_length / subequal_to_article_1_length less_than_2_times_article_1_length approximately_2_times_article_1_length greater_than_three_times_article_1_length,
+		36  Antennula_article_2_insertion / inserting_on_article_1_anteriorly anterodorsally dorsally,
+		37  Antennula_article_2_shape / 'straight- not curved at proximal insertion' strongly_curved_at_proximal_insertion,
+		38  Antennula_article_2_ventromedial_setae / 2_or_less_ventromedial_setae 3_ventromedial_setae 4_ventromedial_setae 5_ventromedial_setae 6_ventromedial_setae,
+		39  Antennula_article_2_distal_tip_shape / 'produced distally beyond insertion of next article- distal article inserting subapically' 'not produced distally- next article inserting apically',
+		40  Antennula_article_2_lateral_margin / robust_setae_absent row_robust_setae one_robust_seta,
+		41  Antennula_distal_articles_length / 'elongate- longer than article 2' subequal_to_article_2 'small- shorter than article 2' 'tiny- less than 0.3 article 2 length',
+		42  Antennula_article_3_length / article_3_longer_than_article_4 similar_length_to_article_4 'terminal- no distal articles',
+		43  Antennula_article_3_shape / 'elongate and tubular- much longer than wide' 'short and tubular- length near width' 'squat- wider than long',
+		44  Antennula_terminal_article_length / shorter_than_penultimate_article longer_than_penultimate_article,
+		45  Antenna_article_3_cuticle_smooth / smooth granulated,
+		46  Antenna_female_article_3_ventromedial_spines / no_ventromedial_spines ventromedial_spines,
+		47  Labrum_knobs / absent indistinct_low_projection present,
+		48  Maxilliped_palp_articles_width / article_2_wider_than_article_3 'articles 2-3 width subequal' article_3_wider_than_article_2,
+		49  Maxilliped_epipod_spines / epipod_spines_present epipod_spines_absent,
+		50  Per.bases_proximal_part_of_shaft / projecting_dorsally_above_shoulder dorsal_projection_absent,
+		51  Per.bases_proximal_shoulder / spines simple_spines bifid_spines rook_spines,
+		52  Per.I_shape / weakly_carposubchelate strongly_carposubchelate,
+		53  Per.I_merus_dorsal_surface / without_robust_setae with_distinctly_robust_setae,
+		54  Per.I_carpus_palm_vent._marg. / palm_or_distinctly_wider_part_absent proximally_expanded medially_expanded medially_expanded,
+		55  Per.I_carpus_vent._marg._robust_elongate_setae / 1_elongate_robust_seta 2_elongate_robust_setae row_similar_robust_setae 'fine setae only (no robust seta)',
+		56  Per.I_carpus_vent._marg._short_proximal_setae / several_setae_proximal_to_elongate_setae one_seta_proximal_to_elongate_seta setae_proximal_to_elongate_setae_absent,
+		57  Per.I_carpus_vent._marg._distal_setae_on_palm / several_distal_setae_on_palm 1_distal_seta_on_palm distal_setae_on_palm_absent,
+		58  Per.I_propodus_vent._marg._setae / several_robust_setae robust_setae_absent one_robust_seta,
+		59  Per.VII_presence / 'present- shorter than Per.VI' absent,
+		60  Pereopods_II,
+		61  PL.II_operculum_shape / broadly_triangular 'flap-like- much longer than wide' 'narrow proximal neck- almost circular posteriorly' 'narrow proximal neck- laterally convex- broadening posteriorly to rounded angles- posterior margin weakly convex' 'narrow proximal neck- laterally convex- broadening posteriorly to rounded angles- posterior margin weakly concave',
+		62  PL.II_operculum_setae / plumose_setae_absent plumose_setae_present,
+		63  Uropods_num.__articles / one_article 'two articles- protopod distinct',
+		64  Female_uropods_length_relative_to_pleotelson / extending_near_posterior_margin_of_pleotelson 'minute- not extending near posterior margin of pleotelson' 'elongate- extending beyond posterior margin of pleotelson',
+		65  Uropods_female_length_or_width / less_than_five_times_as_long_as_wide greater_than_or_equal_to_five_times_as_long_as_wide,
+		66  Uropods_female_length_or_length_of_pleotelson / less_than_0.4_length_of_pleotelson greater_than_or_equal_to_0.4_length_of_pleotelson,
+		67  Per.1_male_anterolat._spines_length / 'extremely elongate- length distinctly greater than width of pereonites' 'elongate- length near width of pereonite 1' 'short- length near length of pereonite 1' 'tiny- length distinctly less than length of pereonite 1',
+		68  Per.2_male_paired_anterolat._spines / no_paired_anterolat._spines 1_pair_of_anterolat._simple_spines 1_pair_of_anterolat._pedestal_spines 1_pair_of_anterolat._rook_spines 1_pair_of_anterolat._tubercles,
+		69  Per.3_male_paired_anterolat._spines / no_paired_anterolat._spines 1_pair_of_anterolat._simple_spines 1_pair_of_anterolat._pedestal_spines 1_pair_of_anterolat._rook_spines 1_pair_of_anterolat._tubercles,
+		70  Per.4_male_with_paired_anterolat._spines / no_paired_anterolat._spines 1_pair_of_anterolat._simple_spines 1_pair_of_anterolat._pedestal_spines 1_pair_of_anterolat._rook_spines 1_pair_of_anterolat._tubercles,
+		71  Per.4_male_length_of_anterolat._spines / 'elongate- length near width of pereonite 1' 'short- length near length of pereonite 1' 'tiny- length distinctly less than length of pereonite 1',
+		72  Per.4_male_posterolat._spines_or_tubercles / no_posterolat._spines_or_tubercles posterolat._spines_or_tubercles,
+		73  Antenna_flagellum_form_male / 'decreasing in width distally- tubular- longer than wide' 'some segments expanded- wider than long- with more setae on distal margins than juveniles or females',
+		74  PL.I_male_setae_on_distal_margin / setae_absent simple_setae blunt_setae plumose_setae,
+		75  PL.II_male_position_of_setae_on_protopod / setae_on_lateral_or_distal_margin setae_on_distal_margin_only setae_absent,
+		76  PL.II_stylet_length / 'short- reaching end of protopod' 'elongate- reaching beyond end of protopod',
+		77  PL.II_stylet_tip_shape / 'thread-like' thick_and_blunt thin_with_medial_blade,
+		78  Uropods_male_length_relative_to_pleotelson / not_extending_near_posterior_margin_of_pleotelson 'extending near posterior margin of pleotelson (+ or - 10pct)' extending_beyond_posterior_margin_of_pleotelson,
+		79  Uropods_male_length_or_pleotelson_length / less_than_0.5_length_of_pleotelson greater_than_0.5_length_of_pleotelson,
+		;
+
+MATRIX
+[                                                   10        20        30        40        50        60        70        80     ]
+[                                                    .         .         .         .         .         .         .         .     ]
+Contrarimesus_curtispinis                   22222111?121121511-111111211111-154311213212?1?322?2211331?1322312?????????????
+Contrarimesus_franklinae                    22222211?2111111123111111211111-15431321311121?22212211321114223??222231?2111??
+Cornuamesus_biscayensis                     2222124??-----------11111211112115431-2131112-?11??21123111?--1---222231?213331
+Cornuamesus_longiramus                      222211412121111111-114111211112115431321311211?11122111213115113222222211212332
+Fortimesus_brevispinis                      2222111??5325252523??1111211221-354312223112???22???????????221211-------------
+Fortimesus_concinnus                        2222111??-----------55253211241-354312212112?-?32??2112311??--1---252212?211111
+Fortimesus_consanguineus                    22221111?132121211-111111211211-154312223111???32??2212311??421111-------------
+Fortimesus_cornutus                         2222121??-----------11111211221-3543152231121-?12??221231121--1---2221-1?211111
+Fortimesus_gigas                            2222121?1131111111-111111211211-35431-223111?1?32??2112311??3112114111-11211111
+Fortimesus_profundicolus                    2222121??{25}22{25}25221-251111211221-344314223112?1?32??2212311??411111-------------
+Fortimesus_robustus                         2222111??135155151-251111211211-153312213111?1?32??2212311??421211??????121111?
+Fortimesus_scabriusculus                    2222111??1-1111111-211211211211-354312223212?1?22??2?12311?1221211-------------
+Fortimesus_thomsoni                         2222111??-----------15253211211-3?????2??????-??221211131?12--1----11232?1???11
+Fortimesus_zuluensis                        22221211?521555551-151111211211-1?431??1311?21?22??211231111??1111-------------
+Gracilimesus_angustus                       22221311?-----------111112112121144?112132121-?32212?1122331--1---3111-1?1???21
+Gracilimesus_celticensis                    222213112121111111-111111211212214431121321211?12212?1122331411111211221?111121
+Gracilimesus_corniculatus                   22221111?-----------1111121121221543112132111-?1221211132331--1---2111-12212121
+Gracilimesus_gorbunovi                      2222111??121111111-111111111212115431?21221111??2?????????????11?1-------------
+Gracilimesus_gorbunovi_sensu_Svavarsson     2222121111211111122111111111212115431121311111?22212111323114111111112111211121
+Gracilimesus_hanseni                        2222131111211111122111111211212215431121321111?12212211123314211112112112211121
+Gracilimesus_insignis                       22221211?-----------1111121121211543122131111-?12212111323?1--1---11121112???31
+Gracilimesus_orientalis                     2222111??-----------1111121121211542112131111-?12??21112232?--1---211211?211121
+Gracilimesus_tenuispinis                    22221111?1211111121111111111212115431121311111?122?2111323?1421311-------------
+Gracilimesus_tropicalis                     222213112131111111-11111121121211?431121?????1?12212?112133?411111411231?2???21
+Haplomesus_bifurcatus                       22221211?-----------11111313211-1?431221??1?1-?32??2?1122112--1---2121-11213111
+Haplomesus_ornatus                          22221211?-----------11111322211-1543122131112-?3221211122111--1---2121-112???11
+Haplomesus_quadrispinosus                   22221211?121111111-111111311211-15431321311121?32212111221113?1111-------------
+Haplomesus_quadrispinosus_sensu_Brandt      22221111?-----------11111322211-1543122131112-?2221211122321--1---1121-11213111
+Heteromesus_drachi                          1222-112?-----------111??3111?1-?34323214121?-122123?31211?1--1---4221-11112331
+Heteromesus_frigidus                        1222-11?1131111111-111111311111-12432211433-21322113?31211133213?{12}4112?21112332
+Heteromesus_granulatus                      1222-11??531111111-111111311111-12432311433-21322123?41211133213114??????????21
+Heteromesus_schmidtii                       1222-11?1532555151-111111311111-12432211433-22322123?41221123213?2-------------
+Heteromesus_similis                         1222-112?????????????????3?11????4????2?????2?122123?31211?3??1???4221-211???31
+Heteromesus_spinosus                        1222-11??4234343123211244311152244432211421122322143?41211123213?2-------------
+Ischnomesus_antarcticus                     1111-1111-----------111??1112?1-?542112111121-?1221312211111--2---3112221422231
+Ischnomesus_bispinosus                      1111-1111131111111-111111111211-15421221211111112?13221112112?23113111-11223131
+Stylomesus_hexapodus                        1122-231?131111111-111111111211-113313?14???21?22213?2121133412322-------------
+Stylomesus_menziesi                         1122-13?1-----------11111111211-1533122132112-??2??3?11213?1--2----111-1?213122
+Stylomesus_sarsi                            1122-231????????????11111211211-1?321221????2??12??31112111242232?4211-12211132
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb8705;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Stylomesus_sarsi,
+            2    Stylomesus_menziesi,
+            3    Stylomesus_hexapodus,
+            4    Contrarimesus_curtispinis,
+            5    Ischnomesus_bispinosus,
+            6    Ischnomesus_antarcticus,
+            7    Contrarimesus_franklinae,
+            8    Fortimesus_zuluensis,
+            9    Fortimesus_thomsoni,
+            10   Gracilimesus_tenuispinis,
+            11   Fortimesus_scabriusculus,
+            12   Fortimesus_robustus,
+            13   Haplomesus_quadrispinosus_sensu_Brandt,
+            14   Haplomesus_quadrispinosus,
+            15   Haplomesus_bifurcatus,
+            16   Fortimesus_profundicolus,
+            17   Haplomesus_ornatus,
+            18   Gracilimesus_orientalis,
+            19   Gracilimesus_insignis,
+            20   Gracilimesus_gorbunovi_sensu_Svavarsson,
+            21   Gracilimesus_gorbunovi,
+            22   Fortimesus_gigas,
+            23   Fortimesus_consanguineus,
+            24   Fortimesus_cornutus,
+            25   Fortimesus_concinnus,
+            26   Fortimesus_brevispinis,
+            27   Cornuamesus_longiramus,
+            28   Cornuamesus_biscayensis,
+            29   Gracilimesus_tropicalis,
+            30   Gracilimesus_corniculatus,
+            31   Gracilimesus_angustus,
+            32   Gracilimesus_celticensis,
+            33   Gracilimesus_hanseni,
+            34   Heteromesus_spinosus,
+            35   Heteromesus_similis,
+            36   Heteromesus_schmidtii,
+            37   Heteromesus_granulatus,
+            38   Heteromesus_frigidus,
+            39   Heteromesus_drachi;
+      TREE Fig._3A = [&R] ((6,5),((2,(3,1)),(((12,8),((23,(26,(24,16))),(22,(11,(25,9))))),(((21,(29,(32,31))),(18,((33,30),20,19,10))),((17,15,14,13),((7,4),((28,27),(39,(35,(38,37,36,34))))))))));
+
+
+
+END;
+BEGIN TREES;
+      TITLE Tb8706;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Stylomesus_sarsi,
+            2    Stylomesus_menziesi,
+            3    Stylomesus_hexapodus,
+            4    Contrarimesus_curtispinis,
+            5    Ischnomesus_bispinosus,
+            6    Ischnomesus_antarcticus,
+            7    Contrarimesus_franklinae,
+            8    Fortimesus_zuluensis,
+            9    Fortimesus_thomsoni,
+            10   Gracilimesus_tenuispinis,
+            11   Fortimesus_scabriusculus,
+            12   Fortimesus_robustus,
+            13   Haplomesus_quadrispinosus_sensu_Brandt,
+            14   Haplomesus_quadrispinosus,
+            15   Haplomesus_bifurcatus,
+            16   Fortimesus_profundicolus,
+            17   Haplomesus_ornatus,
+            18   Gracilimesus_orientalis,
+            19   Gracilimesus_insignis,
+            20   Gracilimesus_gorbunovi_sensu_Svavarsson,
+            21   Gracilimesus_gorbunovi,
+            22   Fortimesus_gigas,
+            23   Fortimesus_consanguineus,
+            24   Fortimesus_cornutus,
+            25   Fortimesus_concinnus,
+            26   Fortimesus_brevispinis,
+            27   Cornuamesus_longiramus,
+            28   Cornuamesus_biscayensis,
+            29   Gracilimesus_tropicalis,
+            30   Gracilimesus_corniculatus,
+            31   Gracilimesus_angustus,
+            32   Gracilimesus_celticensis,
+            33   Gracilimesus_hanseni,
+            34   Heteromesus_spinosus,
+            35   Heteromesus_similis,
+            36   Heteromesus_schmidtii,
+            37   Heteromesus_granulatus,
+            38   Heteromesus_frigidus,
+            39   Heteromesus_drachi;
+      TREE Fig._3B = [&R] ((6,5)Ischnomesus,((2,(3,1))Stylomesus,(((12,8),((23,(26,(24,16))),(25,9),22,11))Fortimesus,(((33,30),(29,(32,31)),21,20,19,18,10)Gracilimesus,((17,15,14,13)Haplomesus,((7,4)Contrarimesus,((28,27)Cornuamesus,(39,(35,(38,37,36,34)))Heteromesus)))))));
+
+
+
+END;

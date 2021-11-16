@@ -1,0 +1,249 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:53 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Crane P. 1985. Phylogenetic analysis of seed plants and the origin of angiosperms.
+Annals of the Missouri Botanical Garden, 72: 716-793.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S228]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=4;
+        TAXLABELS
+            Ephedra
+            Gnetum
+            Other_Seed_Plants
+            Welwitschia
+            ;
+END;
+
+BEGIN TAXA;
+        TITLE  Taxa2;
+        DIMENSIONS NTAX=12;
+        TAXLABELS
+            Cycadeoidea
+            Monanthesia_magnifica
+            Other_Seed_Plants
+            Vardekloeftia_sulcata
+            Wielandiella_angustifolia
+            Williamsonia_coronata
+            Williamsonia_gigas
+            Williamsonia_harrisiana
+            Williamsonia_hildae
+            Williamsonia_leckenbyi
+            Williamsonia_lignieri
+            Williamsonia_sewardiana
+            ;
+END;
+
+BEGIN TAXA;
+        TITLE  Taxa3;
+        DIMENSIONS NTAX=20;
+        TAXLABELS
+            Archaeopteris
+            Bennetitales
+            Callistophyton
+            Caytonia
+            Cordaixylon
+            Corystosperms
+            Cycads
+            Ephedra
+            Extant_Conifers
+            Ginkgo
+            Glossopterids
+            Gnetum
+            Lebachia
+            Lyginopteris
+            Medullosans
+            Mesoxylon
+            Peltasperms
+            Pentoxylon
+            Welwitschia
+            angiosperms
+            ;
+END;
+
+BEGIN TAXA;
+        TITLE  Taxa4;
+        DIMENSIONS NTAX=4;
+        TAXLABELS
+            Glossopteris.Dictyopteridium
+            Lidgettonia
+            Other_Seed_Plants
+            Ottokaria
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M555]
+
+	TITLE Table_6;
+	LINK TAXA = Taxa2;
+	DIMENSIONS NCHAR=11;
+	FORMAT DATATYPE=Standard SYMBOLS= "- +" MISSING=? GAP= N;
+
+MATRIX
+Cycadeoidea                   +++++-++---
+Monanthesia_magnifica         +++++------
+Other_Seed_Plants             -----------
+Vardekloeftia_sulcata         ++++-------
+Wielandiella_angustifolia     ++++++-----
+Williamsonia_coronata         ++++++++++-
+Williamsonia_gigas            ++++++-----
+Williamsonia_harrisiana       +++++------
+Williamsonia_hildae           ++++++----+
+Williamsonia_leckenbyi        ++++++----+
+Williamsonia_lignieri         ++++++++++-
+Williamsonia_sewardiana       +++++------
+;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M565]
+
+	TITLE Table_9;
+	LINK TAXA = Taxa3;
+	DIMENSIONS NCHAR=34;
+	FORMAT DATATYPE=Standard SYMBOLS= "- +" MISSING=? GAP= N;
+
+MATRIX
+[                           10        20        30        40   ]
+[                            .         .         .         .   ]
+Archaeopteris       +---N-N-NN---N--NNN-+N-NNN------NN
+Bennetitales        ++++++-+-++--N+-N-{-+}++{-+}++{-+}+--------
+Callistophyton      ++++++-++++--N+-N+---N-NNN------NN
+Caytonia            ++++++-++++--N+-N-++-----N------NN
+Cordaixylon         ++++++-+++--+++++----N-NNN------NN
+Corystosperms       ++++++-++++--N+-N-++++---N------N-
+Cycads              +++++++---+--N+-N----N-NNN------NN
+Ephedra             ++++++-+-+---N+--+-++N+NNN----+++N
+Extant_Conifers     ++++++-+++-++++--+---N-NNN------NN
+Ginkgo              ++++++-+-+--+N+-N----N-NNN------NN
+Glossopterids       ++++++-++++--N+-N-+------N------NN
+Gnetum              +++++N-+--+--N+--+-++N-NNN++++-++N
+Lebachia            ++++++-+++-+++-------N-NNN------NN
+Lyginopteris        +++++--+--+--N--N---+N-N-N------NN
+Medullosans         -+++++++--+--N--N----N-NNN------NN
+Mesoxylon           ++++++-+++--++-++----N-NNN------NN
+Peltasperms         ++++++-+-++--N+-N----N---N------NN
+Pentoxylon          ++++++-+-++--N+-N-{-+}++{-+}++{-+}+--------
+Welwitschia         +-+++N-+-----N+--+-++N+NNN+++++++N
+angiosperms         +-++++-+--+--N+-N++++++--N+------+
+;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M574]
+
+	TITLE Table_1;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=7;
+	FORMAT DATATYPE=Standard SYMBOLS= "- +" MISSING=? GAP= N;
+
+MATRIX
+Ephedra               ----+++
+Gnetum                ?+++-++
+Other_Seed_Plants     {-+}------
+Welwitschia           {-+}++++++
+;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M580]
+
+	TITLE Table_4;
+	LINK TAXA = Taxa4;
+	DIMENSIONS NCHAR=5;
+	FORMAT DATATYPE=Standard SYMBOLS= "- +" MISSING=? GAP= N;
+
+MATRIX
+Glossopteris.Dictyopteridium     +++++
+Lidgettonia                      ++++-
+Other_Seed_Plants                ---{-+}{-+}
+Ottokaria                        +++++
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb4947;
+      LINK TAXA = Taxa2;
+         TRANSLATE
+            1    Williamsonia_lignieri,
+            2    Williamsonia_coronata,
+            3    Williamsonia_leckenbyi,
+            4    Williamsonia_hildae,
+            5    Williamsonia_gigas,
+            6    Wielandiella_angustifolia,
+            7    Monanthesia_magnifica,
+            8    Williamsonia_harrisiana,
+            9    Williamsonia_sewardiana,
+            10   Vardekloeftia_sulcata,
+            11   Other_Seed_Plants,
+            12   Cycadeoidea;
+      TREE Fig._12 = [&R] (10,(9,8,7,(6,5,((4,3),((2,1),12)))))Bennettitales;
+
+
+
+END;
+BEGIN TREES;
+      TITLE Tb4950;
+      LINK TAXA = Taxa4;
+         TRANSLATE
+            1    Other_Seed_Plants,
+            2    Lidgettonia,
+            3    Glossopteris.Dictyopteridium,
+            4    Ottokaria;
+      TREE Fig._8 = [&R] (2,(3,4));
+
+
+
+END;
+BEGIN TREES;
+      TITLE Tb4948;
+      LINK TAXA = Taxa3;
+         TRANSLATE
+            1    Archaeopteris,
+            2    Medullosans,
+            3    Cycads,
+            4    Lyginopteris,
+            5    Cordaixylon,
+            6    Mesoxylon,
+            7    Lebachia,
+            8    Extant_Conifers,
+            9    Ginkgo,
+            10   Callistophyton,
+            11   Peltasperms,
+            12   Glossopterids,
+            13   Caytonia,
+            14   Corystosperms,
+            15   Bennetitales,
+            16   Pentoxylon,
+            17   Gnetum,
+            18   Welwitschia,
+            19   Ephedra,
+            20   angiosperms;
+      TREE Fig._20 = [&R] (1,(4,(((2,3),((((5,6),(7,8)),9),10,11,(12,(13,14)))),((15,16),(((17,18),19),20))))seed_plants);
+
+
+
+END;
+BEGIN TREES;
+      TITLE Tb4949;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Other_Seed_Plants,
+            2    Ephedra,
+            3    Welwitschia,
+            4    Gnetum;
+      TREE Fig._4 = [&R] (2,(3,4));
+
+
+
+END;

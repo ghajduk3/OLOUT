@@ -1,0 +1,142 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:46 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Manos P., Nixon K., & Doyle J. 1993. Cladistic analysis of restriction site variation
+within the chloroplast DNA inverted repeat region of selected Hamamelididae.
+Systematic Botany, 18: 551-562.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S128]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=32;
+        TAXLABELS
+            Alnus
+            Annona
+            Betula
+            Callicoma
+            Castanea
+            Casuarina
+            Cercidiphyllum
+            Chrysobalanus
+            Colombobalanus
+            Connarus
+            Corylopsis
+            Corylus
+            Cunonia
+            Disanthus
+            Erythrina
+            Euptelea
+            Fagus
+            Fothergilla
+            Hamamelis
+            Juglans
+            Leitneria
+            Liquidambar
+            Malus
+            Myrica
+            Nothofagus
+            Ostrya
+            Philadelphus
+            Platanus
+            Serjania
+            Staphylea
+            Trigonobalanus
+            Trochodendron
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M2119]
+
+	TITLE Appendix_1;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=45;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1" MISSING=? GAP= -;
+
+MATRIX
+[                          10        20        30        40     ]
+[                           .         .         .         .     ]
+Alnus              000001010010011100001000011101000001010011000
+Annona             100000001111011101000010111000001011001001000
+Betula             000001010010011100001000011101000001010011000
+Callicoma          100000010101011100001011111110011001110011001
+Castanea           001000010000010000000010011101000000110011000
+Casuarina          100001010010001100001000011101000001010011000
+Cercidiphyllum     100010010111011100111111111110111000110101001
+Chrysobalanus      100100100111010100001111111110111001110011001
+Colombobalanus     001000010010010000000010011101000000110011000
+Connarus           100100010100011100001011??????011101110011001
+Corylopsis         100010010111011100011111111110111000110101101
+Corylus            000001010010011100001000001101000001010011000
+Cunonia            100000010101001100001111111110001001110011001
+Disanthus          100010010111011100011111111110111000110101001
+Erythrina          100100000110010010001111111011000001110011000
+Euptelea           000110011111111101010111110000110011011011001
+Fagus              000000010010011000000010011101000000110011000
+Fothergilla        100010010111011100011111111110111000110101001
+Hamamelis          100010010111011100011111111110111000110101001
+Juglans            000001010010011100001000011101000001010011000
+Leitneria          110110010011010100111111111110111001010011011
+Liquidambar        100010010011110100011011111110111100110101001
+Malus              110100000010011100001011011110001001010011001
+Myrica             000001010010011100001000011101000001010011000
+Nothofagus         100100010110011100001000011110010001110011001
+Ostrya             000001010010011100001000001101000001010011000
+Philadelphus       100000110011011100011011111000110001110110000
+Platanus           100110011111010101010111110000111011101111101
+Serjania           100000010111010010001011111110011001110011011
+Staphylea          100100010011001100110011110110011011110010001
+Trigonobalanus     101000010010010000000010011101000000110011000
+Trochodendron      101010011111011100010111110110111011111111001
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb4849;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Annona,
+            2    Euptelea,
+            3    Trochodendron,
+            4    Platanus,
+            5    Liquidambar,
+            6    Cercidiphyllum,
+            7    Disanthus,
+            8    Hamamelis,
+            9    Fothergilla,
+            10   Corylopsis,
+            11   Callicoma,
+            12   Cunonia,
+            13   Leitneria,
+            14   Nothofagus,
+            15   Fagus,
+            16   Castanea,
+            17   Trigonobalanus,
+            18   Colombobalanus,
+            19   Casuarina,
+            20   Juglans,
+            21   Myrica,
+            22   Betula,
+            23   Alnus,
+            24   Corylus,
+            25   Ostrya,
+            26   Malus,
+            27   Erythrina,
+            28   Chrysobalanus,
+            29   Philadelphus,
+            30   Staphylea,
+            31   Serjania,
+            32   Connarus;
+      TREE Fig._1 = [&R] (1,(2,(4,(3,((6,8,9,10,5,7),(13,(28,((27,31),((32,(11,12)),((29,30),(26,(14,((15,(16,17,18)),(19,20,21,22,23,(24,25)))))))))))))));
+
+
+
+END;

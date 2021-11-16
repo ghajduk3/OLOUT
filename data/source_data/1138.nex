@@ -1,0 +1,88 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:46 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Hansen H. 1990. Phylogenetic studies in the Gerbera-complex (Compositae, tribe Mtisieae,
+subtribe Mutisiinae). Nordic Journal of Botany, 9: 469-495.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S158]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=15;
+        TAXLABELS
+            Chaptalia
+            Gerbera
+            Gerbera_hieracioides
+            Isanthus
+            Lasiopus
+            Leibnitzia
+            Lulia
+            Outgroup_to_Gerbera
+            Parva
+            Perdicium
+            Piloselloides
+            Pseudoseris
+            Trichocline_s.str.
+            Trichocline_spathulata
+            Uechtritzia
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M2285]
+
+	TITLE Table_6;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=15;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1" MISSING=? GAP= -;
+
+MATRIX
+Chaptalia                  111100010110111
+Gerbera                    111100000100010
+Gerbera_hieracioides       111100010100010
+Isanthus                   111100000000000
+Lasiopus                   111111111111111
+Leibnitzia                 111100010100110
+Lulia                      110000000000000
+Outgroup_to_Gerbera        000000000000000
+Parva                      111100010110110
+Perdicium                  111100010100110
+Piloselloides              111111111110111
+Pseudoseris                111111111111111
+Trichocline_s.str.         011000000000000
+Trichocline_spathulata     111100000100000
+Uechtritzia                111100000000000
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb4881;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Outgroup_to_Gerbera,
+            2    Trichocline_s.str.,
+            3    Lulia,
+            4    Trichocline_spathulata,
+            5    Gerbera_hieracioides,
+            6    Chaptalia,
+            7    Leibnitzia,
+            8    Uechtritzia,
+            9    Perdicium,
+            10   Gerbera,
+            11   Parva,
+            12   Lasiopus,
+            13   Pseudoseris,
+            14   Piloselloides,
+            15   Isanthus;
+      TREE Fig._26 = [&R] (3,2,((4,((5,(9,(11,(((12,13),14),6)),7)),10)),8,15));
+
+
+
+END;

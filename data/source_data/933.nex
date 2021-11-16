@@ -1,0 +1,239 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:42 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Verboom G., Linder H., & Barker N. 1994. Haustorial synergids: An important character
+in the systematics of Danthonioid grasses (Arundinoideae: Poaceae). American
+Journal of Botany, 81: 1601-1610.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S194]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=65;
+        TAXLABELS
+            Agrostis_interrupta
+            Anarthriaceae
+            Anisopogon_avenaceus
+            Arundo_donax
+            Centrolepidaceae
+            Centropodia_glauca
+            Chaetobromus_dregeanus
+            Chaetobromus_involucratus
+            Chionochloa_rigida
+            Cortaderia_selloana
+            Danthonia_pallida
+            Danthonia_sericea
+            Danthonia_spicata
+            Dregeochloa_pumila
+            Ecdeiocoleaceae
+            Ehrharta_pusilla
+            Eleusine_compressa
+            Elytrophorus_spicata
+            Erythranthera_australis
+            Erythranthera_pumila
+            Eustachys_petraea
+            Festuca_microstachys
+            Fingerhuthia_africana
+            Flagellariaceae
+            Joinvilleaceae
+            Karroochloa_purpurea
+            Karroochloa_schismoides
+            Karroochloa_tenella
+            Lamprothyrsus_peruvianus
+            Merxmuellera_arundinacea
+            Merxmuellera_disticha
+            Merxmuellera_dura
+            Merxmuellera_rufa
+            Merxmuellera_stricta
+            Oryzopsis_micrantha
+            Panicum_maximum
+            Pentameris_macrocalycina
+            Pentameris_thuarii
+            Pentaschistis_ampla
+            Pentaschistis_argentea
+            Pentaschistis_aristidoides
+            Pentaschistis_aristifolia
+            Pentaschistis_chippendalliae
+            Pentaschistis_eriostoma
+            Pentaschistis_pallescens
+            Pentaschistis_patula
+            Pentaschistis_pungens
+            Pentaschistis_tomentella
+            Pentaschistis_velutina
+            Phragmites_australis
+            Prionanthium_dentatum
+            Pseudopentameris_macrantha
+            Pseudosasa_japonica
+            Pyrrhanthera_exigua
+            Restionaceae
+            Rytidosperma_clelandii
+            Rytidosperma_erianthum
+            Rytidosperma_setifolium
+            Rytidosperma_vickeryi
+            Schmidtia_pappophoroides
+            Sieglingia_decumbens
+            Stipa_elmeri
+            Tribolium_obliterum
+            Urochlaena_pusilla
+            Urochloa_oligotricha
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M104]
+
+	TITLE Table_4;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=10;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2" MISSING=? GAP= -;
+
+MATRIX
+Agrostis_interrupta              001?101100
+Anarthriaceae                    00?0?01?00
+Anisopogon_avenaceus             00110111?0
+Arundo_donax                     001?0111??
+Centrolepidaceae                 0010201001
+Centropodia_glauca               0011101100
+Chaetobromus_dregeanus           2100010000
+Chaetobromus_involucratus        2100010000
+Chionochloa_rigida               2?0?0?????
+Cortaderia_selloana              2100010000
+Danthonia_pallida                2100?10010
+Danthonia_sericea                2?0?0?????
+Danthonia_spicata                2?0?0?????
+Dregeochloa_pumila               0011001100
+Ecdeiocoleaceae                  0010201000
+Ehrharta_pusilla                 0011101?00
+Eleusine_compressa               0010101?00
+Elytrophorus_spicata             001?101100
+Erythranthera_australis          2100?10000
+Erythranthera_pumila             2?0?0?????
+Eustachys_petraea                0011101100
+Festuca_microstachys             0011101100
+Fingerhuthia_africana            0011101100
+Flagellariaceae                  0010001101
+Joinvilleaceae                   0010201000
+Karroochloa_purpurea             2100010000
+Karroochloa_schismoides          2100000000
+Karroochloa_tenella              2100000000
+Lamprothyrsus_peruvianus         2?0?0?????
+Merxmuellera_arundinacea         1001100111
+Merxmuellera_disticha            2100010000
+Merxmuellera_dura                2100100000
+Merxmuellera_rufa                2101010111
+Merxmuellera_stricta             2100100000
+Oryzopsis_micrantha              0011101100
+Panicum_maximum                  0000001011
+Pentameris_macrocalycina         1011010001
+Pentameris_thuarii               0010110100
+Pentaschistis_ampla              1000000000
+Pentaschistis_argentea           0000000000
+Pentaschistis_aristidoides       1000000000
+Pentaschistis_aristifolia        0000001000
+Pentaschistis_chippendalliae     2100010000
+Pentaschistis_eriostoma          2000000010
+Pentaschistis_pallescens         1000010001
+Pentaschistis_patula             2000010000
+Pentaschistis_pungens            0011011100
+Pentaschistis_tomentella         0000011000
+Pentaschistis_velutina           2000000000
+Phragmites_australis             0?1?1?????
+Prionanthium_dentatum            0000001000
+Pseudopentameris_macrantha       2100010000
+Pseudosasa_japonica              0011101000
+Pyrrhanthera_exigua              2?0?0?????
+Restionaceae                     0010201000
+Rytidosperma_clelandii           2100?10000
+Rytidosperma_erianthum           2100??0000
+Rytidosperma_setifolium          2?0?0?????
+Rytidosperma_vickeryi            2100??0000
+Schmidtia_pappophoroides         001?0?1?00
+Sieglingia_decumbens             2?0?0?????
+Stipa_elmeri                     0011101100
+Tribolium_obliterum              2100?10000
+Urochlaena_pusilla               2100000000
+Urochloa_oligotricha             00000110?1
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb4923;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Pseudosasa_japonica,
+            2    Ehrharta_pusilla,
+            3    Stipa_elmeri,
+            4    Oryzopsis_micrantha,
+            5    Festuca_microstachys,
+            6    Agrostis_interrupta,
+            7    Elytrophorus_spicata,
+            8    Dregeochloa_pumila,
+            9    Centropodia_glauca,
+            10   Anisopogon_avenaceus,
+            11   Arundo_donax,
+            12   Phragmites_australis,
+            13   Schmidtia_pappophoroides,
+            14   Fingerhuthia_africana,
+            15   Eleusine_compressa,
+            16   Eustachys_petraea,
+            17   Panicum_maximum,
+            18   Urochloa_oligotricha,
+            19   Merxmuellera_arundinacea,
+            20   Merxmuellera_rufa,
+            21   Prionanthium_dentatum,
+            22   Pentaschistis_ampla,
+            23   Pentaschistis_argentea,
+            24   Pentaschistis_aristidoides,
+            25   Pentaschistis_aristifolia,
+            26   Pentaschistis_chippendalliae,
+            27   Pentaschistis_eriostoma,
+            28   Pentaschistis_pallescens,
+            29   Pentaschistis_patula,
+            30   Pentaschistis_pungens,
+            31   Pentaschistis_tomentella,
+            32   Pentaschistis_velutina,
+            33   Pentameris_macrocalycina,
+            34   Pentameris_thuarii,
+            35   Tribolium_obliterum,
+            36   Urochlaena_pusilla,
+            37   Chionochloa_rigida,
+            38   Danthonia_pallida,
+            39   Danthonia_sericea,
+            40   Danthonia_spicata,
+            41   Chaetobromus_dregeanus,
+            42   Chaetobromus_involucratus,
+            43   Pseudopentameris_macrantha,
+            44   Rytidosperma_clelandii,
+            45   Rytidosperma_erianthum,
+            46   Rytidosperma_setifolium,
+            47   Rytidosperma_vickeryi,
+            48   Merxmuellera_disticha,
+            49   Merxmuellera_dura,
+            50   Merxmuellera_stricta,
+            51   Karroochloa_purpurea,
+            52   Karroochloa_schismoides,
+            53   Karroochloa_tenella,
+            54   Pyrrhanthera_exigua,
+            55   Cortaderia_selloana,
+            56   Lamprothyrsus_peruvianus,
+            57   Erythranthera_australis,
+            58   Erythranthera_pumila,
+            59   Sieglingia_decumbens,
+            60   Joinvilleaceae,
+            61   Centrolepidaceae,
+            62   Restionaceae,
+            63   Anarthriaceae,
+            64   Ecdeiocoleaceae,
+            65   Flagellariaceae;
+      TREE Fig._14 = [&R] ((65,64,63,62,61,60),((1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18),((19,20)Merxmuellera,((21,22,23,24,25,26,27,28,29,30,31,32,33,34),(35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59)))));
+
+
+
+END;

@@ -1,0 +1,150 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:39 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Rodriguez F., Katinas L., Tellería M., & Crisci J. 2004. Salcedoa gen. nov, a biogeographic
+enigma in the Caribbean Mutisieae (Asteraceae). Systematic Botany, 29(4).
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S1198]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=21;
+        TAXLABELS
+            Achnopogon_virgatus
+            Chimantaea_cinerea
+            Duidaea_marahuacensis
+            Eurydochus_bracteatus
+            Glossarion_rhodanthum
+            Gochnatia_amplexifolia
+            Gochnatia_buchii
+            Gochnatia_floribunda
+            Gochnatia_magna
+            Gochnatia_palosanto
+            Gochnatia_rotundifolia
+            Gochnatia_vernonioides
+            Gochntia_glutinosa
+            Gongylolepis_benthamiana
+            Neblinaea_promontoriorum
+            Quelchia_bracteata
+            Salcedoa_mirabaliarum
+            Stenopadus_connellii
+            Stifftia_chrysantha
+            Stomatochaeta_condensata
+            Wunderlichia_mirabilis
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M2531]
+
+	TITLE Table_1;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=38;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2" MISSING=? GAP= -;
+	CHARSTATELABELS
+		1  Leaves_disposition / sparcely_distributed_or_clustered_at_the_base clustered_at_the_apices_of_the_branches,
+		2  Leaves_venation / pinnate '3-veined' '1-veined',
+		3  Number_of_capitula / '1 (or 2-3)' 'few (5-10)' very_numerous,
+		4  Condensation_of_conflorescence / lax glomerulose,
+		5  Type_of_conflorescence / 'solitary (or 2-3)' pseudocorymb pseudoraceme,
+		6  Receptacle / epaleate paleate,
+		7  Size_of_involucre / 'large (20-45 mm)' 'intermediate (10-18 mm)' 'small (2-7 mm)',
+		8  Involucral_bract_surface / pubescent glabrous,
+		9  Involucral_bract_margin / not_ciliolate ciliolate,
+		10  Involucral_bract_disposition / not_extending_into_the_peduncle extending_into_the_peduncle,
+		11  Corolla_type / 'actinomorphic (tubulose)' 'zigomorphic (bilabiate and-or ligulate)',
+		12  Corolla_incision / less_than_0.5 0.5_to_0.75,
+		13  Corolla_color / 'pale (yellow or white)' reddish,
+		14  Corolla_lobes_or_outer_lip / coiled erect,
+		15  Anther_filament_insertion / within_the_corolla_tube at_the_sinus,
+		16  Anther_thecae_disposition / not_or_slightly_exserted conspicuously_exserted,
+		17  Anther_tail_surface / hairy smooth,
+		18  Anther_tail_union / free connate,
+		19  Anther_apex / apiculate 'not apiculate (acute)',
+		20  Sclereids_in_the_style / absent present,
+		21  Style_branch_surface / smooth papillate,
+		22  Style_branch_length / 'short (0.3-0.5 mm)' 'long (ca. 1 mm)',
+		23  Style_branch_colour / cream reddish,
+		24  Style_branch_apex / rounded truncate acute_to_apiculate,
+		25  Notch_in_style_branches / absent present,
+		26  Style_branch_ribs / absent present,
+		27  Cypsela_rib_number / five '15-Oct',
+		28  Cypsela_pubescence / villose glabrescent glabrous,
+		29  Cypsela_glandular_hairs / present absent,
+		30  Cypsela_non_glandular_hairs / twin_hairs 'non twin hairs (e.g., flagelliform)',
+		31  Pappus_bristles_series / one several,
+		32  Pappus_bristles_width / capillary 'all rigid and somewhat paleaceous -- at least at the apex' half_capillary_and_half_paleaceous,
+		33  Pappus_bristles_length / half_long_and_half_short 'all short (0.5-0.7 cm)' 'all long (ca. 2 cm)',
+		34  Pappus_bristles_margin / denticulate 'plumose (at least in the apex)',
+		35  Pollen_exine_width / 'thin (4-6 µm)' 'thick (7-18 µm)',
+		36  Pollen_exine_surface / slightly_microechinate echinate,
+		37  Pollen_endoaperture$ / 'typical, with acute or ramified ends, or with horns' 'atypical, with H endoapertures totally or partially united by an equatorial endocingulus, or with vague ends',
+		38  Polar_elevations / absent present,
+		;
+
+MATRIX
+[                                    10        20        30        40 ]
+[                                     .         .         .         . ]
+Achnopogon_virgatus          10102010001001010010011110121?01101000
+Chimantaea_cinerea           100?0100000101011000111000001101001000
+Duidaea_marahuacensis        120?0010001001010011011100121?01201100
+Eurydochus_bracteatus        100?0000011010010100011100011101101100
+Glossarion_rhodanthum        100?0000001010010110011100021?01201100
+Gochnatia_amplexifolia       00101010000000000000000000000010200000
+Gochnatia_buchii             000?0000000101011000000000000010200000
+Gochnatia_floribunda         0020202100{01}000000000000000000100010000
+Gochnatia_magna              00111010000000001000000000000000000000
+Gochnatia_palosanto          00202021110000000000000000000000000000
+Gochnatia_rotundifolia       010?0011100000000000000000000000000000
+Gochnatia_vernonioides       000?0000000000000000000000000000000000
+Gochntia_glutinosa           01212020100000001000000000000002000000
+Gongylolepis_benthamiana     10101001001000010101011201111002001100
+Neblinaea_promontoriorum     10101010001001010100001100121?00001000
+Quelchia_bracteata           1011101100{01}001010000001210121?02001000
+Salcedoa_mirabaliarum        10101010011110010001000201001002001100
+Stenopadus_connellii         100?0100000010110110101200021?01000011
+Stifftia_chrysantha          00101000000000110000101200021?02001011
+Stomatochaeta_condensata     100?0100000101010100101200021?01000010
+Wunderlichia_mirabilis       100?0100000000011100101000001102011100
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb6937;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Gochnatia_vernonioides,
+            2    Gochnatia_buchii,
+            3    Gochnatia_amplexifolia,
+            4    Gochnatia_magna,
+            5    Gochnatia_floribunda,
+            6    Gochnatia_palosanto,
+            7    Gochntia_glutinosa,
+            8    Gochnatia_rotundifolia,
+            9    Achnopogon_virgatus,
+            10   Chimantaea_cinerea,
+            11   Duidaea_marahuacensis,
+            12   Eurydochus_bracteatus,
+            13   Glossarion_rhodanthum,
+            14   Gongylolepis_benthamiana,
+            15   Neblinaea_promontoriorum,
+            16   Quelchia_bracteata,
+            17   Salcedoa_mirabaliarum,
+            18   Stenopadus_connellii,
+            19   Stifftia_chrysantha,
+            20   Stomatochaeta_condensata,
+            21   Wunderlichia_mirabilis;
+      TREE Fig._4a = [&R] (1,((2,(((((((9,(11,(12,13))),15),16),(14,17)),19),(18,20)),10,21)),((3,4),((5,6,7),8))));
+      TREE Fig._5 = [&R] (1,(2,3,4,((5,6,7),8),((((9,(11,(12,13))),15),16),10,(14,17),(18,20),19,21)));
+      TREE Fig._4b = [&R] (1,(2,((3,4,(((((9,(11,(12,13))),15),16),(((10,21),(18,20)),19)),(14,17))),((5,6,7),8))));
+
+
+
+END;

@@ -1,0 +1,340 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:40 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Scharff N., & Coddington J. 1997. A phylogenetic analysis of the orb-weaving spider
+family Araneidae (Arachnida, Araneae). Zoological Journal of the Linnean Society,
+120: 355-434.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S272]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=70;
+        TAXLABELS
+            Acacesia
+            Acanthepeira
+            Aculepeira
+            Aetrocantha
+            Alpaida
+            Anepsion
+            Arachnura
+            Araneus
+            Araniella
+            Archemorus
+            Argiope
+            Arkys
+            Aspidolasius
+            Augusta
+            Austracantha
+            Bertrana
+            Caerostris
+            Cercidia
+            Chaetacis
+            Chorizopes
+            Colphepeira
+            Cyclosa
+            Cyrtarachne
+            Cyrtophora
+            Deinopis
+            Dictyna
+            Dolophones
+            Enacrosoma
+            Encyosaccus
+            Eriophora
+            Eustala
+            Gasteracantha
+            Gastroxya
+            Gea
+            Hypognatha
+            Hypsosinga
+            Isoxya
+            Kaira
+            Larinia
+            Leucauge
+            Linyphia
+            Macracantha
+            Mangora
+            Mastophora
+            Mecynogea
+            Meta
+            Metazygia
+            Metepeira
+            Micrathena
+            Neogea
+            Neoscona
+            Nephila
+            Nephilengys
+            Nuctenea
+            Pachygnatha
+            Pasilobus
+            Pimoa
+            Pronous
+            Scoloderus
+            Singa
+            Tetragnatha
+            Theridion
+            Theridiosoma
+            Togacantha
+            Uloborus
+            Verrucosa
+            Witica
+            Wixia
+            Xylethrus
+            Zygiella
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M2418]
+
+	TITLE Table_3;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=82;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2 3 4 5 6" MISSING=? GAP= -;
+	CHARSTATELABELS
+		1  Tibia_II / normal modified,
+		2  Tibia_II_macrosetae / equal_to_Tibia_I stronger,
+		3  Femoral_tubercle / absent present macrosetae,
+		4  Palp_patellar_macrosetae / absent present,
+		5  Cymbium / dorsal mesal lateral,
+		6  Paracymbium / absent present,
+		7  Globular_tegulum / absent present,
+		8  Conductor_shape / entire with_lobe,
+		9  Conductor_wraps_embolus / absent present,
+		10  Median_apophysis / present absent,
+		11  MA_bifid_prong_proximally / absent present,
+		12  MA_threadlike_spur / absent present,
+		13  MA_with_a_transparent_flap / absent present,
+		14  MA_large_with_fork / absent present,
+		15  MA_anterior_margin / smooth toothed,
+		16  Radix / absent present,
+		17  Distal_hematodocha / absent present,
+		18  Paramedian_apophysis / absent present,
+		19  Stipes / absent present,
+		20  Subterminal_apophysis / absent present,
+		21  Subterminal_apophysis / normal 'bubble-shaped',
+		22  Terminal_apophysis / absent present,
+		23  Tip_of_male_palpal_embolus / simple with_cap,
+		24  Embolus_curve / clockwise anticlockwise,
+		25  Female_genitalia / entelogyne haplogyne,
+		26  Epigynum / present absent,
+		27  Genital_tubercle / absent present,
+		28  Scape / absent present,
+		29  Scape / normal elongate,
+		30  Scape_with_pocket_near_tip / absent present,
+		31  Scape / smooth wrinkled,
+		32  Male_macrosetae_on_coxa_and_tro / normal stout,
+		33  Coxa_I_hook / absent present,
+		34  Femur_II_with_groove / absent present,
+		35  Femur_IV_trichobothria / absent present,
+		36  Tibial_autospasy / absent present,
+		37  Metatarsus_IV_trichobothria / 0_or_1 greater_than_1,
+		38  Tibiae_and_Metatarsi / normal flattened,
+		39  Serrate_accessory_claw_setae / absent present,
+		40  Sustentaculum / absent present,
+		41  Carapace / hirsute glabrous,
+		42  Female_carapace_shape / longer_than_wide wider_than_long_or_equal,
+		43  Male_carapace_shape / oval 'Gasteracantha-like' wide,
+		44  Cheliceral_margin / smooth with_stridulation_file,
+		45  Endite_tooth / absent present,
+		46  Clypeal_tooth_of_females / absent present,
+		47  Cephalon_shape_of_female / normal enlarged,
+		48  Cephalon_height_of_female / normal high,
+		49  'AME/PME separation ratio' / less_than_1 greater_than_1,
+		50  'LE-ME separation/ME separation' / less_than_1 greater_than_1,
+		51  PME_canoe_tapetum / absent present,
+		52  PME_narrow_tapetum / absent present,
+		53  PLE_canoe_tapetum / normal reduced absent,
+		54  Posterior_eye_row / straight_or_recurved procurved,
+		55  Feathery_hairs / absent present,
+		56  Abdominal_sigillae / absent present,
+		57  Abdominal_sigillae / scattered 1_row 2_rows,
+		58  Female_abdomen_with_ventral_con / absent present,
+		59  Male_abdominal_shape / normal 'star-shaped' 'U-shaped' 'heart-shaped' square round triangular,
+		60  Female_abdominal_shape / longer_than_wide wider_than_long,
+		61  Sexual_size_dimorphism / less_than_twice greater_than_twice,
+		62  Gasteracanthine_abdominal_spine / absent present,
+		63  Booklung_cover / smooth with_stridulating_file,
+		64  Booklung_cover / normal grooved,
+		65  Sclerotized_ring_around_spinner / absent with_sclerites_or_plates with_a_solid_ring,
+		66  Spiracle / unsclerotized sclerotized,
+		67  Tactile_setal_bases_on_carapace / normal 'gasteracanthine-shaped',
+		68  Cribellum / present absent,
+		69  Anterior_spinneret_piriform_bas / normal reduced,
+		70  Reduced_piriform_fields / absent present,
+		71  Posterior_median_spinneret_para / strobilate deinopoid absent,
+		72  Posterior_median_spinneret_ampu / absent present,
+		73  Posterior_median_spinnerets_wit / present absent_or_reduced,
+		74  Orb / absent present lost,
+		75  'Orb-web' / with_sticky_spiral without_sticky_spiral,
+		76  Method_of_radius_construction / 'araneid-like' 'uloborid-like' 'cyrtophorine-like' 'nephiline-like',
+		77  'Non-sticky spiral in web' / temporary persistent,
+		78  Sticky_spiral_localization / outside_first_leg inside_first_leg fourth_leg_downwards,
+		79  'Low-shear sticky spiral lines' / absent present,
+		80  Very_sticky_spiral / absent present,
+		81  Extreme_4th_leg_combing_of_span / absent present,
+		82  Rest_posture_at_hub / legs_1_and_2_flexed legs_1_and_2_extended,
+		;
+
+MATRIX
+[                         10        20        30        40        50        60        70        80  ]
+[                          .         .         .         .         .         .         .         .  ]
+Acacesia          01111100000001011001010000010001110000110000100000110000-0000001000100210100000000
+Acanthepeira      00111100000000010100-00000010000000000110000100101110000-0000001000100210100000000
+Aculepeira        11111100001000111011011000010010110000110000100010110000-000000100010021010???00?0
+Aetrocantha       00001100000000010100-0000010---0000010100110001101110001112111011111002?01???000??
+Alpaida           00111101000000010001010000010000110010110000100011110000-000000100010021010000000?
+Anepsion          0011110000000001?100-10000010000110000111000100000110000-000000100?100210?????000?
+Arachnura         00001100000000010000-0000000---0000000110000000011110000-00010010001002?0100000000
+Araneus           11111100001000011011011000010110110000110000100010110000-0000001000100210100000000
+Araniella         10111101000000010000-10000010110110000110000100011110000-000000100010021010?0?00?0
+Archemorus        0001110000000000-000-0000000---00000011010000011011?0101206100010011002012????????
+Argiope           00011100000100010010-0100000---0000000110000000000111100-0001001000100210100000000
+Arkys             0001110000000000-000-000000101000000001010200011011?0101206000010011002112????????
+Aspidolasius      0001110000000000-000-0000000---00000001101200011011100011051100100?10021010?0?000?
+Augusta           00201100000010010100-0000000---0000000100100001101110001203111010111002?01??0?00?0
+Austracantha      01101100000000010100-0000000---0110010100020101101110001111101010111002101????????
+Bertrana          01111101000000010001010000010100110000100000100010110000-0010001000100210100000000
+Caerostris        0001100000000000-000-0000000---00000111101000111011100010001100100110021010?000000
+Cercidia          01011100000000011001010000010110110000110000100010110000-000000100010021110???00??
+Chaetacis         00011101000000010000-00000010000000000101000000001110001000000112111002?010??00000
+Chorizopes        0001110000000001111101000000---0000000101000000001110000-00000000011002102-------?
+Colphepeira       00111100000000011000-100000100101100001?0000100000110000-00000010001??2??10???00??
+Cyclosa           01111101000000011000-10000010010110010110000100010110000-0000001000100210100000000
+Cyrtarachne       00011100000000010000-0000000---0000000101000000000110001000110010001002?01000?111?
+Cyrtophora        000?1100000000010000-0010000---0000000110000000010110000-00010010001012101121----0
+Deinopis          0000000???-----0-000-0000000---00000001000000000000-2010-0000001000000100100000001
+Dictyna           0000200001-----0-000-0000000---0000000000000000000100000-00000000000000000-------0
+Dolophones        0011110001000--11100-100000100100000111100001100001100011001000100?10021010?0?????
+Enacrosoma        00111101000000010000-10000010100110000110000100110110000-001000100010021010??0000?
+Encyosaccus       00011101000000010000-00000010000000000101000001111110001100110010011002?010?0?00??
+Eriophora         11111100000000011110-10000011010110010110000100011110000-0000001000100210100000000
+Eustala           01111101000000011011110000010010110000110000100000110000-0000001000100210100000000
+Gasteracantha     00001100000000010100-0000011000000001010011000110111000111211101211100210100000000
+Gastroxya         00201100000010010100-0000000---0000000100010001101110001211111010111002?01????00??
+Gea               00011100000100010010-0000000---0000000110000000000111100-0000001000100210100000000
+Hypognatha        00011100000000010000-0000000---01100001010200011111100011051000101?100211100000000
+Hypsosinga        00111100000000011010-10?00010000000000110000100100110000-000000100010021010???00??
+Isoxya            00001100000000010100-0000000---0110010110120001101110001114101010111002?010?0?00?0
+Kaira             00001100001000111000-10000010000000000110000000010110000-00010010001002101-------?
+Larinia           00111100000000011011011000010110000000110000100010110000-000000100010021010?000001
+Leucauge          0001010011-----0-000-00000010000001000101000000000100000-0000000000100211100010001
+Linyphia          0001010--1-----0-000-00000010100000100101001000000100000-00000000001102012----0000
+Macracantha       00001100000000010100-0000000---0000010110110001101110001101111012111002?0100??00?0
+Mangora           01111100000000011001010000010110110000110000100010110000-0000001000100210100000000
+Mastophora        00001100000000010000-0000000---0000010111000000001110000?00110010001002?02-----11-
+Mecynogea         0001110001-----10000-1010000---0000000110000000000110000-000000100010121011?1----0
+Meta              0001010011-----0-000-0000000---0000000101000000000100000-0000001000100210100010001
+Metazygia         01111100000000011001110000010000110000110000100010110000-0000001000100210100000000
+Metepeira         00011100001000111000-11000010010000000110000100010110000-0000001000100210100000000
+Micrathena        00011101000000010000-0000001000011000011100000000111000100000011211100210100000000
+Neogea            0001110000010000-000-0000000---0000000110000000000111100-000100100010021010???00??
+Neoscona          01111100000000011011010000010100110000111000100010110000-0000001000100210100000000
+Nephila           0001010011-----0-000-0000000---0000000101000000000100000-0001001000100211103120000
+Nephilengys       0001010011-----0-000-0000000---0000000100000000100100000-0001001000100211103120000
+Nuctenea          00011100000000011000-10000010010110000110000100010110000-0000001000100210100000000
+Pachygnatha       0001011011-----0-000-0001100---00010001010000000000-0000-000000000010020110?-?000?
+Pasilobus         0001110000000001?0?0-0000000---0000000101000000001110001100110010001002?010??-111?
+Pimoa             0001010000000000-000-0000000---0000100101001000000100000-00000000001102012----0000
+Pronous           0101110000000001000???000000---01100001?0000100000??0000-000000100010021110??0000?
+Scoloderus        01111100000000010000-00000010000110000111000000001110000-0000001000100210100000000
+Singa             00111100000000011011010000010100000000110000000010110000-000000100010021010???00?0
+Tetragnatha       0001011011-----0-000-0001100---00010001010000000000-2000-0000000000100211100010001
+Theridion         0000000000000000-000-0000000----000000101000000000100000-00000000001102012----0000
+Theridiosoma      0001010000000000-000-0010000---0000000101000000100100000-0000000000110211100010000
+Togacantha        00001100000000010100-0000000---0000010110110001101110001111111011111002?01????00??
+Uloborus          0011000000000000-000-0000000---00010001000000000000-2010-0000000000000100101000001
+Verrucosa         11111101000000011000-10000011010110000110000100111110000-001000100010021010?000000
+Witica            0000110001-----10000-0010000---0000010110000000001110000-00010010001002?0100000000
+Wixia             01111101000001011001010000010001110000110000100000110000-000000100010021010000000?
+Xylethrus         00011101000000010000-00000010000000000101000000001110001100110011111002?010?0?00?0
+Zygiella          00011100000000011010-1010000---0000000110000000010110000-000000100010021010???00??
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb5004;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Dictyna,
+            2    Uloborus,
+            3    Deinopis,
+            4    Nephila,
+            5    Nephilengys,
+            6    Meta,
+            7    Leucauge,
+            8    Pachygnatha,
+            9    Tetragnatha,
+            10   Theridiosoma,
+            11   Linyphia,
+            12   Pimoa,
+            13   Theridion,
+            14   Chorizopes,
+            15   Gasteracantha,
+            16   Aetrocantha,
+            17   Togacantha,
+            18   Gastroxya,
+            19   Augusta,
+            20   Isoxya,
+            21   Austracantha,
+            22   Macracantha,
+            23   Aspidolasius,
+            24   Caerostris,
+            25   Hypognatha,
+            26   Arkys,
+            27   Archemorus,
+            28   Encyosaccus,
+            29   Xylethrus,
+            30   Chaetacis,
+            31   Micrathena,
+            32   Mastophora,
+            33   Cyrtarachne,
+            34   Pasilobus,
+            35   Arachnura,
+            36   Witica,
+            37   Mecynogea,
+            38   Cyrtophora,
+            39   Neogea,
+            40   Argiope,
+            41   Gea,
+            42   Scoloderus,
+            43   Acanthepeira,
+            44   Anepsion,
+            45   Dolophones,
+            46   Hypsosinga,
+            47   Zygiella,
+            48   Kaira,
+            49   Metepeira,
+            50   Singa,
+            51   Larinia,
+            52   Neoscona,
+            53   Mangora,
+            54   Cercidia,
+            55   Pronous,
+            56   Aculepeira,
+            57   Araneus,
+            58   Bertrana,
+            59   Alpaida,
+            60   Enacrosoma,
+            61   Wixia,
+            62   Acacesia,
+            63   Metazygia,
+            64   Eustala,
+            65   Cyclosa,
+            66   Nuctenea,
+            67   Colphepeira,
+            68   Araniella,
+            69   Eriophora,
+            70   Verrucosa;
+      TREE Fig._82 = [&R] (1,((2,3),(((10,(13,(11,12))),((4,5),(6,(7,(8,9))))Tetragnathidae),(14,((((35,36),((37,38)Cyrtophorinae,(39,(40,41)))),((32,(33,34))Cyrtarachninae,(((25,(26,27)Arciinae),(28,(29,(30,31))Micratheninae)),((23,24),((18,19),(22,((20,21),(17,(15,16)))))Gasteracanthinae))))Argiopoidea,(42,(43,((46,(50,(47,(48,49)))),(45,(44,(67,(66,((65,(68,(69,70))),(((52,(51,(56,57))),53,(54,55)),(63,((59,(58,60)),(64,(61,62)))))))))))))Araneinae))Araneidae)Araneoidea)Orbiculariae)Araneoclada;
+
+
+
+END;

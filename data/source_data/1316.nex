@@ -1,0 +1,237 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:47 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Beutel R.G., Zimmermann D., Krauß M., Randolf S., & Wipfler B. 2010. Head morphology
+of Osmylus fulvicephalus (Osmylidae, Neuroptera) and its phylogenetic implications.
+Organisms Diversity & Evolution, .
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S10466]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=23;
+        TAXLABELS
+            Ascalaphidae
+            Berothidae
+            Chrysopidae
+            Coniopterygidae
+            Corydalidae
+            Dilaridae
+            Hemerobiidae
+            Hydraenidae
+            Ithonidae
+            Leiodidae
+            Mantispidae
+            Myrmeleontidae
+            Nemopterinae
+            Nevrorthidae
+            Nymphidae
+            Osmylidae
+            Polystoechotidae
+            Psychopsidae
+            Raphidiidae
+            Rhachiberothidae
+            Sialidae
+            Sisyridae
+            Trachypachidae
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M5382]
+
+	TITLE Osmylus_Cephalic_Characters;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=100;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2 3 4 5 6 7" MISSING=? GAP= -;
+	CHARSTATELABELS
+		1  Cervical_sclerites / absent 'present,_preepisternal' 'present,_presternal',
+		2  Orientation_of_the_mouthparts / orthognathous prognathous,
+		3  Posterodorsal_neck_sclerite / absent present,
+		4  Exposed_hemispherical_lateral_occipital_lobes / absent_or_very_slightly_convex present_and_hemispherical,
+		5  Posterolateral_occipital_furrow / absent present,
+		6  gula / asbent present,
+		7  Hypostomal_bridge / absent present,
+		8  dorsolateral_furrow / absent present,
+		9  Ventrolateral_furrow / absent present,
+		10  Frontogenal_suture / absent present,
+		11  Transverse_strengthening_line / absent present,
+		12  subdivision_of_clypeus / absent present,
+		13  Elongation_of_clypeus_and_frons / absent present,
+		14  ocelli / present absent,
+		15  Ocellar_pulvinae / present absent,
+		16  Tentorial_bridge / distinctly_developed very_thin_or_absent,
+		17  Dorsal_tentorial_arm / present absent,
+		18  M._frontolabralis / present absent,
+		19  Expanded_distal_antennomeres / absent present,
+		20  Mandibular_asymmetry / present absent,
+		21  Shortening_of_the_mesal_mandibular_wall / absent present,
+		22  Sexual_dimorphism_of_the_mandible / absent present,
+		23  'Shovel-like projection of left mandible' / absent_ present,
+		24  Molar_process_of_mesal_mandibular_edge / absent present,
+		25  Mandibular_row_of_stiff_hairs / absent present,
+		26  'M. tentorio-mandibularis/zygomaticus mandibulae' / present absent,
+		27  Mandibular_glands / absent present,
+		28  Subgalea / absent present,
+		29  'Subdivision of galea into basi- and distigalea' / absent present,
+		30  Shape_of_apical_galeomere / rounded_and_at_least_nearly_as_large_as_proximal_galeomere elongate_and_slender 'short_and_peg-like',
+		31  Vestiture_of_microtrichia_on_apical_galeomere / absent present,
+		32  Subdivision_of_M._tentoriocardinalis / absent present,
+		33  Ligular_part_of_prementum / inconspicuous_and_membranous enlarged_and_roughly_quadrangular slender_and_elongate,
+		34  Shape_of_apical_labial_palpomere / not_enlarged 'enlarged_and_axe-shaped' enlarged_and_bulbous,
+		35  Sensory_field_on_apical_labial_palpomere / absent present,
+		36  Nervus_conncetivus / present absent,
+		37  cervix,
+		38  head_shape,
+		39  orientation_mouthparts,
+		40  shape_frontoclyeus,
+		41  gula,
+		42  neck_region,
+		43  temples,
+		44  hypostomal_bridge,
+		45  frontoclypeal_sulcus,
+		46  middorsal_cervical_apodeme,
+		47  specialised_setae,
+		48  shape_tentorium,
+		49  posterior_tentorial_grooves,
+		50  tentorial_bridge,
+		51  position_anterior_pits,
+		52  number_corneae,
+		53  shape_ocular_region,
+		54  labrum,
+		55  antennomeres_1,
+		56  '+',
+		57  2_fused,
+		58  fixed_curvature,
+		59  shape_flagellum,
+		60  terminal_seta,
+		61  sensorium_of_antepenultimate_antennomere,
+		62  scales,
+		63  tricondylic_articulation,
+		64  stylet,
+		65  length_stylet,
+		66  shape_stylet,
+		67  thickness_mandible,
+		68  slender_teeth,
+		69  length_teeth,
+		70  number_teeth,
+		71  size_maxillary_groove,
+		72  width_cardo,
+		73  sulcus_cardo,
+		74  longitudinal_apodemal_ridge,
+		75  poison_channel,
+		76  galea,
+		77  palp,
+		78  M._15,
+		79  teeth_blade,
+		80  intrinsic_muscle,
+		81  postmentum,
+		82  shape_postmentum,
+		83  median_separation_prementum,
+		84  baguette,
+		85  reduced_palpomeres,
+		86  size_palpomeres,
+		87  sensory_pit,
+		88  sensory_area,
+		89  M._51,
+		90  cephalic_gland,
+		91  mesal_gland,
+		92  lateral_gland,
+		93  proportion_head_abdomen,
+		94  series_of_scoli,
+		95  hind_leg_fusion,
+		96  empodium,
+		97  scarabaeiform_larva,
+		98  urogomphi,
+		99  cryptonephridism,
+		100  habitat,
+		;
+
+MATRIX
+[                            10        20        30        40        50        60        70        80        90        100       110       120    ]
+[                             .         .         .         .         .         .         .         .         .         .         .         .    ]
+Ascalaphidae         10?0?00?????01????1??0???????????01?101020110110200021001000011001111000111?0?10100010????011000?000
+Berothidae           ?0?0100??010{01}10???0??0??????????????101000101000010501000101011100--0000111?0?11000000????100110?000
+Chrysopidae          1010100{01}01{01}001100001101110111011101?101000000000000101000100011000--00111111011000000001110001002000
+Coniopterygidae      10?0{01}0?0?0{01}0011???0??0?????{01}{01}????{02}??1110000000000012{02}110010011{01}200--0100111?1?10011101?{01}11000000?000
+Corydalidae          211001000{01}1{01}001{01}00000{01}0000000--1000?001011100000100100000010000000--00000000000-00000010000000000100
+Dilaridae            ?0???0?0?000010???0??0??????????????101000001000010{67}01000100011100--0000111?0?11000000????100100?000
+Hemerobiidae         10?01001?101011???0??0??????101?10??101000000000000401000100011000--00111111011000000021?10001002000
+Hydraenidae          2100010000000{01}1001100000010010-00001000000000001000100000000000000--00000000000-00100020000000010111
+Ithonidae            10?0???1?000011???0??0??????????????111100000001000701010000010010--0000111?0?10000000????000010?000
+Leiodidae            2100010000000110011000000??01010000?000000001001000600000000000000--00000000000-00100020000000010011
+Mantispidae          1000101000000110??0?10?????1120?101?111000001000000501000101011200--0100111?0?10000000????100110?000
+Myrmeleontidae       10001001110001101011101111?01201001?1010201101102000210010000110011110001111011010001001110110002000
+Nemopterinae         100010101011{01}1100?0010?02??01{01}0?20??101020110?1?2?0011?020-0010000--1000????0?101-0010????000000?000
+Nevrorthidae         10?0?0??????01????0??0??????????????101011100000100601000000011000--00001111010-00000001110000000100
+Nymphidae            ?0?????0?11?01????0??0??????????1?1?101020110110200{01}11001000011001101000111?0?10100000????010000?000
+Osmylidae            101110011110000000011011101110111010101000000000000101000100011300--00011111011000000001110000002000
+Polystoechotidae     ?0?0???1?100011???0??0??????????????111110000001000101010000010010--0000111?0?10000000????0000?0?000
+Psychopsidae         ?0?????1??0?01{01}???0??0??????????????101021110110200201000000011000--1000111?0?10100000????000100?000
+Raphidiidae          210001000001001100011000000?10110000001011100000100000000000000000--20000000000-00000000000000000000
+Rhachiberothidae     ?0???????????1????0?????????????????1010001010000?0-01000101011100--0000111?0?11000000?????001???000
+Sialidae             11000100000001100000110000000--0000?000000000000000100000010000000--00000000000-00000010000000000100
+Sisyridae            10???00??010011?0?0??0???????????1??111000000000000101000100011300--01000111011000000021010000001100
+Trachypachidae       010001000000011001000000010010000001001030000000100101000000000000--20000000000-00100000000000010011
+;
+END;
+
+BEGIN TREES;
+      TITLE Osmylus_TB;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Trachypachidae,
+            2    Leiodidae,
+            3    Hydraenidae,
+            4    Raphidiidae,
+            5    Corydalidae,
+            6    Sialidae,
+            7    Nevrorthidae,
+            8    Polystoechotidae,
+            9    Ithonidae,
+            10   Hemerobiidae,
+            11   Chrysopidae,
+            12   Osmylidae,
+            13   Sisyridae,
+            14   Dilaridae,
+            15   Berothidae,
+            16   Rhachiberothidae,
+            17   Mantispidae,
+            18   Coniopterygidae,
+            19   Psychopsidae,
+            20   Nymphidae,
+            21   Ascalaphidae,
+            22   Myrmeleontidae,
+            23   Nemopterinae;
+      TREE t1 = [&R] (1,((6,((7,((((13,18),(17,(14,(15,16)))),((12,(10,11)),(8,9))),(19,(23,(20,(21,22)))))),(4,5))),(2,3)));
+      TREE t2 = [&R] (1,((6,(5,(4,(7,((((13,18),(17,(14,(15,16)))),((12,(10,11)),(8,9))),(19,(23,(20,(21,22))))))))),(2,3)));
+      TREE t5 = [&R] (1,((6,(5,(4,(7,((19,(23,(20,(21,22)))),((((17,(14,(15,16))),(8,9)),(13,18)),(12,(10,11)))))))),(2,3)));
+      TREE t4 = [&R] (1,(((4,(7,((19,(23,(20,(21,22)))),((((17,(14,(15,16))),(8,9)),(13,18)),(12,(10,11)))))),(5,6)),(2,3)));
+      TREE t3 = [&R] (1,((6,(5,(4,(7,(((((13,18),(17,(14,(15,16)))),(12,(10,11))),(8,9)),(19,(23,(20,(21,22))))))))),(2,3)));
+      TREE t21 = [&R] (1,((2,3),(4,5,6,(7,((13,18,(17,(14,(15,16))),(12,(10,11)),(8,9)),(19,(23,(20,(21,22)))))))));
+      TREE t20 = [&R] (1,((6,(5,(4,(7,(((((13,18),(17,(14,(15,16)))),(8,9)),(12,(10,11))),(19,(23,(20,(21,22))))))))),(2,3)));
+      TREE t19 = [&R] (1,((6,((7,(((13,(18,(17,(14,(15,16))))),((12,(10,11)),(8,9))),(19,(23,(20,(21,22)))))),(4,5))),(2,3)));
+      TREE t18 = [&R] (1,((6,(5,(4,(7,(((13,(18,(17,(14,(15,16))))),((12,(10,11)),(8,9))),(19,(23,(20,(21,22))))))))),(2,3)));
+      TREE t17 = [&R] (1,(((4,(7,(((13,(18,(17,(14,(15,16))))),((12,(10,11)),(8,9))),(19,(23,(20,(21,22))))))),(5,6)),(2,3)));
+      TREE t16 = [&R] (1,((6,((7,((((13,(18,(17,(14,(15,16))))),(12,(10,11))),(8,9)),(19,(23,(20,(21,22)))))),(4,5))),(2,3)));
+      TREE t15 = [&R] (1,(((4,(7,((((13,(18,(17,(14,(15,16))))),(12,(10,11))),(8,9)),(19,(23,(20,(21,22))))))),(5,6)),(2,3)));
+      TREE t14 = [&R] (1,((6,(5,(4,(7,((((13,(18,(17,(14,(15,16))))),(12,(10,11))),(8,9)),(19,(23,(20,(21,22))))))))),(2,3)));
+      TREE t13 = [&R] (1,((6,(5,(4,(7,((((13,(18,(17,(14,(15,16))))),(8,9)),(12,(10,11))),(19,(23,(20,(21,22))))))))),(2,3)));
+      TREE t12 = [&R] (1,((6,((7,((((13,(18,(17,(14,(15,16))))),(8,9)),(12,(10,11))),(19,(23,(20,(21,22)))))),(4,5))),(2,3)));
+      TREE t11 = [&R] (1,(((4,(7,((19,(23,(20,(21,22)))),(((13,(18,(17,(14,(15,16))))),(8,9)),(12,(10,11)))))),(5,6)),(2,3)));
+      TREE t10 = [&R] (1,(((4,(7,(((12,(10,11)),(((13,18),(17,(14,(15,16)))),(8,9))),(19,(23,(20,(21,22))))))),(5,6)),(2,3)));
+      TREE t9 = [&R] (1,(((4,(7,((((13,18),(17,(14,(15,16)))),((12,(10,11)),(8,9))),(19,(23,(20,(21,22))))))),(5,6)),(2,3)));
+      TREE t8 = [&R] (1,(((4,(7,(((((13,18),(17,(14,(15,16)))),(12,(10,11))),(8,9)),(19,(23,(20,(21,22))))))),(5,6)),(2,3)));
+      TREE t7 = [&R] (1,((6,((7,(((((13,18),(17,(14,(15,16)))),(12,(10,11))),(8,9)),(19,(23,(20,(21,22)))))),(4,5))),(2,3)));
+      TREE t6 = [&R] (1,((6,((7,((19,(23,(20,(21,22)))),((((17,(14,(15,16))),(8,9)),(13,18)),(12,(10,11))))),(4,5))),(2,3)));
+
+
+
+END;

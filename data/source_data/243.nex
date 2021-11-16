@@ -1,0 +1,127 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:36 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Pennington R. 1995. Cladistic analysis of chloroplast DNA restriction site characters
+in Andira (Leguminosae: Dalbergieae). American Journal of Botany, 82: 526-534.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S177]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=27;
+        TAXLABELS
+            Andira_anthelmia_RTP_227_282
+            Andira_cf_vermifuga_RTP_250
+            Andira_fraxinifolia_MS
+            Andira_fraxinifolia_RTP
+            Andira_galeottiana
+            Andira_grandistipula
+            Andira_humilis_RTP_239
+            Andira_humilis_RTP_269
+            Andira_inermis_CEH_1673
+            Andira_inermis_MC_3579
+            Andira_inermis_TDP_13558
+            Andira_legalis_HCL
+            Andira_legalis_RTP
+            Andira_macrothyrsa
+            Andira_nitida
+            Andira_ormosioides
+            Andira_parviflora
+            Andira_sp_nov_1_RTP_229
+            Andira_sp_nov_1_RTP_233
+            Andira_sp_nov_2
+            Andira_sp_nov_3_RTP_292
+            Andira_sp_nov_3_RTP_301
+            Andira_surinamensis
+            Andira_unifoliolata
+            Andira_vermifuga_RTP
+            Hymenolobium_flavum
+            Hymenolobium_nitidium
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M236]
+
+	TITLE Table_3;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=38;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1" MISSING=? GAP= -;
+
+MATRIX
+[                                        10        20        30        ]
+[                                         .         .         .        ]
+Andira_anthelmia_RTP_227_282     00110010010100110100111100000110101101
+Andira_cf_vermifuga_RTP_250      00110010?1010011010011110?00?110?01101
+Andira_fraxinifolia_MS           0011001001010011010011?10?00?????01101
+Andira_fraxinifolia_RTP          00110010010100110100111100000110101101
+Andira_galeottiana               00100111011101010100110100000110001100
+Andira_grandistipula             0000011100100000011000?111110110001010
+Andira_humilis_RTP_239           00110010010100110100111100000110101101
+Andira_humilis_RTP_269           00100111011101010100110100000110011100
+Andira_inermis_CEH_1673          11101101110110100101111110100011001000
+Andira_inermis_MC_3579           ?110110111?110100001111010100011001000
+Andira_inermis_TDP_13558         1110110111?0?0100001111010100010001000
+Andira_legalis_HCL               00110010010100110100111100000110101101
+Andira_legalis_RTP               001100100101001101001111??00?110?01101
+Andira_macrothyrsa               00100111011101010100??0100?00110001100
+Andira_nitida                    00110010010100110100111100000110101101
+Andira_ormosioides               001100100101001????0111???0??????01101
+Andira_parviflora                0000011100100011?11000????01??10?01?10
+Andira_sp_nov_1_RTP_229          00100111011100010100111100000110001100
+Andira_sp_nov_1_RTP_233          00110010010100110100111100000110101101
+Andira_sp_nov_2                  0000011100100011011000?111010110001010
+Andira_sp_nov_3_RTP_292          001100100101001101??111100??0110?01101
+Andira_sp_nov_3_RTP_301          00110010010100110100111100000110101101
+Andira_surinamensis              00110010010100110100111100000110101101
+Andira_unifoliolata              0000011100100?01011000?1??010110001010
+Andira_vermifuga_RTP             00100111011101010100110100000110011100
+Hymenolobium_flavum              01101111110100??11001111001?110?00010?
+Hymenolobium_nitidium            01101111?10100?0110011?1001??????01?0?
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb4903;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Hymenolobium_flavum,
+            2    Hymenolobium_nitidium,
+            3    Andira_inermis_CEH_1673,
+            4    Andira_inermis_TDP_13558,
+            5    Andira_inermis_MC_3579,
+            6    Andira_macrothyrsa,
+            7    Andira_galeottiana,
+            8    Andira_humilis_RTP_239,
+            9    Andira_humilis_RTP_269,
+            10   Andira_cf_vermifuga_RTP_250,
+            11   Andira_vermifuga_RTP,
+            12   Andira_anthelmia_RTP_227_282,
+            13   Andira_sp_nov_1_RTP_229,
+            14   Andira_sp_nov_1_RTP_233,
+            15   Andira_fraxinifolia_RTP,
+            16   Andira_fraxinifolia_MS,
+            17   Andira_legalis_RTP,
+            18   Andira_legalis_HCL,
+            19   Andira_nitida,
+            20   Andira_sp_nov_3_RTP_292,
+            21   Andira_sp_nov_3_RTP_301,
+            22   Andira_ormosioides,
+            23   Andira_surinamensis,
+            24   Andira_sp_nov_2,
+            25   Andira_grandistipula,
+            26   Andira_parviflora,
+            27   Andira_unifoliolata;
+      TREE Fig._2 = [&R] (1,2,((3,(4,5)),((13,((6,7,(9,11)),(25,27,(24,26)))),(8,10,12,14,15,16,17,18,19,20,21,22,23))));
+      TREE Fig._1 = [&R] (1,2,((3,(4,5)),((13,(24,25,26,27),(6,7,(9,11))),(8,10,12,14,15,16,17,18,19,20,21,22,23)))Andira);
+
+
+
+END;

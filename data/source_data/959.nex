@@ -1,0 +1,90 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:42 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Hopple J., & Vilgalys R. 1994. Phylogenetic relationships among coprinoid taxa and
+allies based on data from restriction site mapping of nuclear rDNA. Mycologia,
+86: 96-107.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S291]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=14;
+        TAXLABELS
+            Agrocybe_praecox
+            Bolbitius_vitellinus
+            Coprinus_atramentarius
+            Coprinus_cinereus
+            Coprinus_comatus
+            Coprinus_cordisporus
+            Coprinus_curtus
+            Coprinus_micaceus
+            Coprinus_plicatilis
+            Montagnea_arenaria
+            Panaeolus_semiovatus
+            Podaxis_pistillaris
+            Psathyrella_gracilis
+            Stropharia_rugosoannulata
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M2757]
+
+	TITLE Fig._2;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=54;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1" MISSING=? GAP= -;
+
+MATRIX
+[                                     10        20        30        40        50    ]
+[                                      .         .         .         .         .    ]
+Agrocybe_praecox              100010100110011110010110000100001000000110110110100110
+Bolbitius_vitellinus          010000000100010100010010110101100000010011000110001110
+Coprinus_atramentarius        00000000000000110100011100001100?000010010011111000101
+Coprinus_cinereus             000000100001000101010011000001101110010110001010001100
+Coprinus_comatus              101110010110000010110000010001010000011100000100001011
+Coprinus_cordisporus          000000110101100101010111000001001?01100110001110010110
+Coprinus_curtus               010000101001100111000101000111101000010110001110010110
+Coprinus_micaceus             010000001001100111000101001111101000010110001110010110
+Coprinus_plicatilis           010000001001100101000101001111101110010110001111100110
+Montagnea_arenaria            101111110000000010110110011001011000011101000100001011
+Panaeolus_semiovatus          000000110000011010011000010100101000010110000010000110
+Podaxis_pistillaris           100100110000001010111110110101001000011100010100001011
+Psathyrella_gracilis          000000101001100101010111010001101100100110001111000110
+Stropharia_rugosoannulata     100011100000001110010000010101000001100110100110000110
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb5034;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Stropharia_rugosoannulata,
+            2    Agrocybe_praecox,
+            3    Panaeolus_semiovatus,
+            4    Bolbitius_vitellinus,
+            5    Psathyrella_gracilis,
+            6    Coprinus_cordisporus,
+            7    Coprinus_micaceus,
+            8    Coprinus_curtus,
+            9    Coprinus_plicatilis,
+            10   Coprinus_cinereus,
+            11   Coprinus_atramentarius,
+            12   Coprinus_comatus,
+            13   Montagnea_arenaria,
+            14   Podaxis_pistillaris;
+      TREE Fig._7 = [&R] (((12,13),14),((1,2),(3,(4,(10,((5,6),(11,(9,(8,7)))))))));
+      TREE Fig._8 = [&R] (((12,13),14),((1,2),(3,(4,(10,((5,6),(11,(9,(8,7)))))))));
+      TREE Fig._6 = [&R] (1,(2,(((12,13),14),3,4,((5,6),10,11,(9,(8,7))))));
+
+
+
+END;

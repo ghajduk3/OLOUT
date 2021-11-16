@@ -1,0 +1,104 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:40 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Góes-neto A., Loguercio-leite C., & Guerrero R. 2001. Morphological Cladistic Analysis
+of Tropical Hymenochaetales (Basidiomycota). Mycotaxon, 79: 467-479.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S819]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=14;
+        TAXLABELS
+            Auricularia_polytricha
+            Aurificaria_luteoumbrina
+            Datronia_caperata
+            Hymenochaete_sallei
+            Phellinus_apiahynus
+            Phellinus_extensus
+            Phellinus_gilvus
+            Phellinus_grenadensis
+            Phellinus_melleoporus
+            Phellinus_membranaceus
+            Phellinus_palmicola
+            Phellinus_rimosus
+            Phylloporia_pectinata
+            Trichaptum_byssogenum
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M238]
+
+	TITLE Table_III;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=17;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2" MISSING=? GAP= -;
+	CHARSTATELABELS
+		1  Basidiome_type / Pileate Resupinate,
+		2  Basidiome_longevity / Seasonal Perennial,
+		3  Hymenial_configuration_type / Smooth Poroid,
+		4  Context_color / Whitish Brown Yellowish_to_Reddish_Brown,
+		5  Hyphal_system / Monomitic Eudimitic Intermediate_Dimitic,
+		6  Hymenial_setae / Absent Present,
+		7  Crystal_hyphae / Absent Present,
+		8  Basidiospore_shape / Cylindric Ellipsoid Globose,
+		9  Basidiospore_wall_thickness / Thin Thickened,
+		10  Basidiospore_color / Hyaline Colored,
+		11  Nutritional_strategy / Saprobe Parasite,
+		12  Spore_color_change_in_KOH / Unchanged Olivaceous,
+		13  Clamp_connections / Present Absent,
+		14  Permanent_KOH_reaction / Negative Positive,
+		15  Encrusted_hymenial_cystidia / Absent Present,
+		16  Basidium_shape / Cylindric Clavate Subglobose,
+		17  IKI_reaction_of_spores / Negative Positive,
+		;
+
+MATRIX
+Auricularia_polytricha       00000000000000000
+Aurificaria_luteoumbrina     00122002110111020
+Datronia_caperata            00111000000000010
+Hymenochaete_sallei          00020100000011000
+Phellinus_apiahynus          01121002100011011
+Phellinus_extensus           01121102110011020
+Phellinus_gilvus             00121111000011010
+Phellinus_grenadensis        01121001110011010
+Phellinus_melleoporus        11121001110011010
+Phellinus_membranaceus       10121001110011010
+Phellinus_palmicola          10121100000011000
+Phellinus_rimosus            01121002111011020
+Phylloporia_pectinata        01122001110011020
+Trichaptum_byssogenum        00111000000000100
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb6095;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Phellinus_apiahynus,
+            2    Phellinus_melleoporus,
+            3    Phellinus_membranaceus,
+            4    Phellinus_grenadensis,
+            5    Phellinus_extensus,
+            6    Phellinus_palmicola,
+            7    Phellinus_gilvus,
+            8    Phellinus_rimosus,
+            9    Phylloporia_pectinata,
+            10   Aurificaria_luteoumbrina,
+            11   Hymenochaete_sallei,
+            12   Datronia_caperata,
+            13   Trichaptum_byssogenum,
+            14   Auricularia_polytricha;
+      TREE Fig._1 = [&R] (14,(13,(12,(((11,6),7),(((10,9,8,5),(4,(3,2))),1))Hymenochaetaceae))Homobasidiomycetes)Basidiomycota;
+
+
+
+END;

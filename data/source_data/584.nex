@@ -1,0 +1,137 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:36 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Miller J., & Coyle F. 1996. Cladistic analysis of the Atypoides plus Antrodiaetus
+lineage of mygalomorph spiders (Araneae, Antrodiaetidae). Journal of Arachnology,
+24: 201-213.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S269]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=19;
+        TAXLABELS
+            Aliatypus
+            Antrodiaetus_apachecus
+            Antrodiaetus_cerberus
+            Antrodiaetus_hageni
+            Antrodiaetus_lincolnianus
+            Antrodiaetus_montanus
+            Antrodiaetus_occultus
+            Antrodiaetus_pacificus
+            Antrodiaetus_pugnax
+            Antrodiaetus_robustus
+            Antrodiaetus_rorelzi
+            Antrodiaetus_stygius
+            Antrodiaetus_unicolor
+            Antrodiaetus_yesoensis
+            Atypoides_gertschi
+            Atypoides_gulosus
+            Atypoides_hadros
+            Atypoides_riversi
+            outgroup_to_Antrodiaetidae
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M2391]
+
+	TITLE Table_2;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=29;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2" MISSING=? GAP= -;
+	CHARSTATELABELS
+		1  Microteeth_on_female_chelicera / 'large (mean CMT > 11)' 'small (mean CMT < X)',
+		2  Ensiform_macrosetae_on_female_m / small large,
+		3  Teeth_on_retrolateral_claw_of_f / small moderate large,
+		4  Female_metatarsus_1 / relatively_short of_moderate_length relatively_long,
+		5  Male_tibia_I_prolateral_mating / absent present,
+		6  Left_arm_of_ICS_base / weak strong_and_heavily_sclerotized,
+		7  Cheliceral_apophysis / absent well_developed vestigial,
+		8  ALS_with / two_articles one_article absent,
+		9  Spermathecal_stalks / long short,
+		10  Dorsal_profile_of_ICS_tip / concave convex,
+		11  Apex_of_OCS / on_left_side_of_1CS_tip on_right_side_of_1CS_tip,
+		12  OCS / narrow_distally broad_distally,
+		13  Anterior_margin_of_bursa_copula / bilobed not_bilobed,
+		14  Ensiform_ventral_retrolateral_m / 'rarely > 30%' 'rarely < 40%',
+		15  Ensiform_prolateral_macrosetae / '> 30%' '< 30%',
+		16  Floor_of_bursa_copulatrix / weakly_sclerotized moderate_to_heavy_sclerotizatio,
+		17  Male_tibia_1 / '<< metatarsus' '< metatarsus 1' '> metatarsus 1',
+		18  Male_tibia_I_prolateral_profile / more_or_less_straight strongly_convex,
+		19  Male_tibia_I_ventral_retrolater / scattered clustered,
+		20  Male_metatarsus_I_distal_macros / present absent,
+		21  'Seta-less area on upper ectal s' / present absent,
+		22  Male_metatarsus_I_ventral_retro / absent present,
+		23  Spermathecal_bowl / large_and_heavily_sclerotized small_and_weakly_sclerotized,
+		24  OCS_surface_sculpture / 'strongly file-like to serrate' 'smooth or weakly file-like',
+		25  Male_tibia_I_prolateral_mating / 'large (macrosetae)' 'small (bristles)',
+		26  Male_palpal_tibia_in_lateral_vi / thickest_proximally cylindrical thickest_distally,
+		27  Male_palpal_tibia / short_and_thick moderate_length_and_thickness long_and_thin,
+		28  Sclerotization_of_OCS / weak_to_moderate strong,
+		29  Female_metatarsus_IV / relatively_short of_moderate_length,
+		;
+
+MATRIX
+[                                      10        20        30        40       ]
+[                                       .         .         .         .       ]
+Aliatypus                      {01}{01}0000000--00?-0100000-{01}-{12}{02}0{01}
+Antrodiaetus_apachecus         0001112211101--0100{01}?01112100
+Antrodiaetus_cerberus          00111122111011001110000000011
+Antrodiaetus_hageni            00111122111011011110110000011
+Antrodiaetus_lincolnianus      0001112211101--02000?01112201
+Antrodiaetus_montanus          0011112211101101111{01}100000011
+Antrodiaetus_occultus          ????1122?110?00?110100?00001?
+Antrodiaetus_pacificus         001111221110{01}01{01}000{01}000000011
+Antrodiaetus_pugnax            001111221110110{01}1110{01}10000011
+Antrodiaetus_robustus          00111122111010110000000000011
+Antrodiaetus_rorelzi           1011112200010-1?0001001000011
+Antrodiaetus_stygius           0000112211101--0100{01}?01112100
+Antrodiaetus_unicolor          0011112211101100000{01}000000011
+Antrodiaetus_yesoensis         1011112211101100111100?000011
+Atypoides_gertschi             012200110001{01}1-?0000?010-1112
+Atypoides_gulosus              00?000000--00?-01000?0-0-1200
+Atypoides_hadros               101010111001000?1000?00000010
+Atypoides_riversi              012200110001{01}0-10000?000-0011
+outgroup_to_Antrodiaetidae     001000000--00?-0100000-0-0001
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb5001;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Aliatypus,
+            2    Atypoides_gulosus,
+            3    outgroup_to_Antrodiaetidae,
+            4    Atypoides_hadros,
+            5    Atypoides_riversi,
+            6    Atypoides_gertschi,
+            7    Antrodiaetus_rorelzi,
+            8    Antrodiaetus_pacificus,
+            9    Antrodiaetus_robustus,
+            10   Antrodiaetus_unicolor,
+            11   Antrodiaetus_occultus,
+            12   Antrodiaetus_yesoensis,
+            13   Antrodiaetus_cerberus,
+            14   Antrodiaetus_montanus,
+            15   Antrodiaetus_hageni,
+            16   Antrodiaetus_pugnax,
+            17   Antrodiaetus_lincolnianus,
+            18   Antrodiaetus_stygius,
+            19   Antrodiaetus_apachecus;
+      TREE Fig._4B = [&R] (4,((5,6),(7,(9,(8,(10,(11,17)))))));
+      TREE Fig._3 = [&R] (4,((5,6),(7,(8,(9,(10,((11,(12,13,(14,(15,16)))),(17,(18,19)))))))Antrodiaetus))Mygalomorphae;
+      TREE Fig._4C = [&R] (4,((5,6),(7,((8,9),(10,(11,17))))));
+      TREE Fig._4A = [&R] (4,((5,6),(7,((8,9),10,(11,17)))))Antrodiaetidae;
+
+
+
+END;

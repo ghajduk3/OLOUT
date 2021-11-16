@@ -1,0 +1,93 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:40 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Taylor D., & Hickey L. 1992. Phylogenetic evidence for the herbaceous origin or angiosperms.
+Plant Systematics and Evolution, 180: 137-156.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S109]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=16;
+        TAXLABELS
+            Amborellaceae
+            Aristolochiaceae
+            Austrobaileyaceae
+            Barclayaceae
+            Chloranthaceae
+            Degeneriaceae
+            Dioscoreaceae
+            Lactoridaceae
+            Lardizabalaceae
+            Magnoliaceae
+            Myristicaceae
+            Outgroup_to_angiosperms
+            Piperaceae
+            Saururaceae
+            Smilacaceae
+            Winteraceae
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M1655]
+
+	TITLE Table_1;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=29;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2 3 4 5" MISSING=? GAP= -;
+
+MATRIX
+[                                   10        20         ]
+[                                    .         .         ]
+Amborellaceae               01010011?0120001000000?002000
+Aristolochiaceae            00000000000000210110111000000
+Austrobaileyaceae           0011000110000011022121?000000
+Barclayaceae                11000000100101000100002323000
+Chloranthaceae              0?000000000000101000000000000
+Degeneriaceae               0?01?111002110111220212000000
+Dioscoreaceae               0?000210012311100011212400000
+Lactoridaceae               0111020010220021012021?000000
+Lardizabalaceae             210000?0001?0011000000103?000
+Magnoliaceae                00001010001200101122212000000
+Myristicaceae               01001011000000111010211000000
+Outgroup_to_angiosperms     00000000000000000000000000000
+Piperaceae                  00000100001200100000000000000
+Saururaceae                 0?000010002101100001002200000
+Smilacaceae                 1?000110?1142112010?00?50?001
+Winteraceae                 01000011000000011120211010000
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb4828;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Outgroup_to_angiosperms,
+            2    Chloranthaceae,
+            3    Piperaceae,
+            4    Aristolochiaceae,
+            5    Saururaceae,
+            6    Lardizabalaceae,
+            7    Barclayaceae,
+            8    Amborellaceae,
+            9    Myristicaceae,
+            10   Winteraceae,
+            11   Austrobaileyaceae,
+            12   Magnoliaceae,
+            13   Lactoridaceae,
+            14   Dioscoreaceae,
+            15   Degeneriaceae,
+            16   Smilacaceae;
+      TREE Fig._2 = [&R] (1,(2,(3,(((6,8),((5,14),(16,7))),(12,((10,(15,9)),(4,(11,13)))))))angiosperms);
+
+
+
+END;

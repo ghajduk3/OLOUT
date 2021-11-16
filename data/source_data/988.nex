@@ -1,0 +1,127 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:44 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Surve-iyer R., Adams G., Iezzoni A., & Jones A. 1995. Isozyme detection and variation
+in Leucostoma species from Prunus and Malus. Mycologia, 87: 471-482.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S300]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=16;
+        TAXLABELS
+            Leucostoma_cincta_1.8
+            Leucostoma_cincta_12.14
+            Leucostoma_cincta_15
+            Leucostoma_cincta_16
+            Leucostoma_cincta_17
+            Leucostoma_cincta_18
+            Leucostoma_cincta_19.20
+            Leucostoma_cincta_21
+            Leucostoma_cincta_22
+            Leucostoma_cincta_23
+            Leucostoma_cincta_24
+            Leucostoma_cincta_25
+            Leucostoma_cincta_9.11
+            Leucostoma_persoonii_26.45
+            Leucostoma_persoonii_46.54
+            Leucostoma_persoonii_55.56
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M1550]
+
+	TITLE Table_III;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=8;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2 3 4 5 6 7 8 9 A B C D E" MISSING=? GAP= -;
+	CHARSTATELABELS
+		1  Malic_enzyme,
+		2  'Glucose-phosphate isomerase',
+		3  Phosphoglucomutase,
+		4  Isocitrate_dehydrogenase,
+		5  'Glucose-6-phosphate dehydrogena',
+		6  Mannitol_dehydrogenase,
+		7  Glutamate_dehydrogenase,
+		8  '6-Phosphogluconate dehydrogenas',
+		;
+
+MATRIX
+Leucostoma_cincta_1.8          AABAABBA
+Leucostoma_cincta_12.14        BAABBAAB
+Leucostoma_cincta_15           BBABBAAB
+Leucostoma_cincta_16           BBBBBAAB
+Leucostoma_cincta_17           BBBBBAAA
+Leucostoma_cincta_18           BBBAAAAB
+Leucostoma_cincta_19.20        BBBBAAAB
+Leucostoma_cincta_21           BABBAAAB
+Leucostoma_cincta_22           BBBABAAB
+Leucostoma_cincta_23           BBAAAAAB
+Leucostoma_cincta_24           BBBBABBB
+Leucostoma_cincta_25           BBBBBBBB
+Leucostoma_cincta_9.11         AABBABBA
+Leucostoma_persoonii_26.45     CCCCCCCC
+Leucostoma_persoonii_46.54     DDDCCCCD
+Leucostoma_persoonii_55.56     EECCCDCD
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb5050;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Leucostoma_cincta_1.8,
+            2    Leucostoma_cincta_9.11,
+            3    Leucostoma_cincta_12.14,
+            4    Leucostoma_cincta_15,
+            5    Leucostoma_cincta_16,
+            6    Leucostoma_cincta_17,
+            7    Leucostoma_cincta_18,
+            8    Leucostoma_cincta_19.20,
+            9    Leucostoma_cincta_21,
+            10   Leucostoma_cincta_22,
+            11   Leucostoma_cincta_23,
+            12   Leucostoma_cincta_24,
+            13   Leucostoma_cincta_25,
+            14   Leucostoma_persoonii_26.45,
+            15   Leucostoma_persoonii_46.54,
+            16   Leucostoma_persoonii_55.56;
+      TREE Fig._1A = [&R] ((14,15,16),((1,2),((12,13),((((8,7),9),10,11),(3,(6,(4,5)))))));
+      TREE Fig._1B = [&R] ((14,15,16)Leucostoma_persoonii,((1,2),((12,13),(((8,9),(7,11)),((3,4),(6,(10,5))))Leucostoma_cincta)))Leucostoma;
+
+
+
+END;
+BEGIN TREES;
+      TITLE Tb5051;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Leucostoma_cincta_1.8,
+            2    Leucostoma_cincta_9.11,
+            3    Leucostoma_cincta_12.14,
+            4    Leucostoma_cincta_15,
+            5    Leucostoma_cincta_16,
+            6    Leucostoma_cincta_17,
+            7    Leucostoma_cincta_18,
+            8    Leucostoma_cincta_19.20,
+            9    Leucostoma_cincta_21,
+            10   Leucostoma_cincta_22,
+            11   Leucostoma_cincta_23,
+            12   Leucostoma_cincta_24,
+            13   Leucostoma_cincta_25,
+            14   Leucostoma_persoonii_26.45,
+            15   Leucostoma_persoonii_46.54,
+            16   Leucostoma_persoonii_55.56;
+      TREE Fig._2 = [&R] (14,((15,16),((1,2),((12,13),((8,9),(((7,11),10),((3,4),(6,5)))Leucostoma_cincta)))))Leucostoma;
+
+
+
+END;

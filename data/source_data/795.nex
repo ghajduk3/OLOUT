@@ -1,0 +1,204 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:38 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Ball G., & Maddison D. 1987. Classification and evolutionary aspects of the species
+of the New World genus Amblygnathus Dejean, with description of Platymetopsis,
+new genus, and notes about selected species of Selenophorus Dejean (Coleoptera:
+Carabidae: Harpalini). Transactions of the American Entomological Society, 113(3):
+189-307.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S348]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=29;
+        TAXLABELS
+            Amblygnathus_bicolor
+            Amblygnathus_braziliensis
+            Amblygnathus_cephalotes
+            Amblygnathus_corvinus
+            Amblygnathus_darlingtoni
+            Amblygnathus_evansi
+            Amblygnathus_fricki
+            Amblygnathus_geminatus
+            Amblygnathus_gigas
+            Amblygnathus_gilvipes_gilvipes
+            Amblygnathus_gilvipes_peruanus
+            Amblygnathus_interior
+            Amblygnathus_iripennis
+            Amblygnathus_janthinus
+            Amblygnathus_lucidus
+            Amblygnathus_mexicanus
+            Amblygnathus_panamensis
+            Amblygnathus_puncticollis
+            Amblygnathus_reichardti
+            Amblygnathus_subtinctus
+            Amblygnathus_suturalis
+            Amblygnathus_tikal
+            Amblygnathus_whiteheadi
+            Amblygnathus_woodruffi
+            Amblygnathus_xingu
+            Selenophorus_amaroides
+            Selenophorus_ellipticus
+            Selenophorus_ruficollis
+            Selenophorus_seriatoporus
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M1833]
+
+	TITLE Table_17;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=28;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1 2 3 4 5 6" MISSING=? GAP= -;
+	CHARSTATELABELS
+		1  median_lobe_ventral_flange / absent present,
+		2  elytral_microsculpture / isodiametric transverse,
+		3  body_length / '4.5-6.2mm' '6.3-7.0mm' '7.7-11.0mm' '>12.0mm',
+		4  pronotal_hind_angle / rounded subangulate angulate,
+		5  #_int_sac_spines / none one two numerous,
+		6  spine_size / absent small medium large,
+		7  spine_location / absent scattered 'ventro-med' 'ventro-bas',
+		8  prostern._process / not ridged,
+		9  head_micros. / isodiam 'iso-transverse' transverse,
+		10  elytral_intervals_with_vestitur / '7-9 + apex 1-6' '8-9 + apex 1-7' '9 + apex 1-8' '8-9' nine 'ap 1-8' zero,
+		11  head_and_pronotum_color / black rufous metal black_and_flavous,
+		12  clypeal_margin / ±_straight concave,
+		13  left_mandible_apex / normal broad,
+		14  spermatheca / short_curve long_coil,
+		15  male_lamina_width / broad narrow,
+		16  lamina_length / long moderate short absent,
+		17  lamina_apex_direction / straight right dorsal,
+		18  apex_shape / pointed blunt,
+		19  median_lobe_apex_form / very_short mod_straight long sinuate,
+		20  median_lobe_dorsal_flange / not bilobed,
+		21  dorsal_flange / absent very_small small large,
+		22  female_tergum_8_setae / absent present,
+		23  sac_microtrichia / normal enlarged,
+		24  leg_color / flavous black,
+		25  median_lobe_venter_sculpture / smooth serrate,
+		26  elytral_color / black metallic bicolored,
+		27  median_lobe_venter_form / tapered spatulate,
+		28  pronotal_base / constricted moderate broadened,
+		;
+
+MATRIX
+[                                          10        20        ]
+[                                           .         .        ]
+Amblygnathus_bicolor               01022120101111120?0011100011
+Amblygnathus_braziliensis          1101113016011112011020101001
+Amblygnathus_cephalotes            1121000010010110013021010001
+Amblygnathus_corvinus              0121112014010110012020011002
+Amblygnathus_darlingtoni           01011120100111120?0011100011
+Amblygnathus_evansi                0100222013011101101011000001
+Amblygnathus_fricki                010122201001110020101?000001
+Amblygnathus_geminatus             0101112010011112011021100001
+Amblygnathus_gigas                 1131000010010110013021010001
+Amblygnathus_gilvipes_gilvipes     01011120100111?3??1021100001
+Amblygnathus_gilvipes_peruanus     01011120100111?3??1021100001
+Amblygnathus_interior              0100222010011100102011000001
+Amblygnathus_iripennis             0101132010011100101020000001
+Amblygnathus_janthinus             1121000026210110012021000100
+Amblygnathus_lucidus               1121000024210110012021010101
+Amblygnathus_mexicanus             0100222010011100102030000001
+Amblygnathus_panamensis            0101222010011100001011000001
+Amblygnathus_puncticollis          0100222020011101101011000001
+Amblygnathus_reichardti            1121000024210110012021010101
+Amblygnathus_subtinctus            0102222010011102011011000001
+Amblygnathus_suturalis             1111112021311112011020101201
+Amblygnathus_tikal                 0102212012011102011021000001
+Amblygnathus_whiteheadi            01022120120111?3??1?01000001
+Amblygnathus_woodruffi             0101222020011101101011000001
+Amblygnathus_xingu                 110111201601111201012?100001
+Selenophorus_amaroides             1101000115000000101020000001
+Selenophorus_ellipticus            1001000102000000101020000001
+Selenophorus_ruficollis            0102311006100000101020000001
+Selenophorus_seriatoporus          1010331003000001101020000001
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb5132;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Amblygnathus_janthinus,
+            2    Amblygnathus_lucidus,
+            3    Amblygnathus_reichardti,
+            4    Amblygnathus_gigas,
+            5    Amblygnathus_cephalotes,
+            6    Amblygnathus_corvinus,
+            7    Amblygnathus_bicolor,
+            8    Amblygnathus_darlingtoni,
+            9    Amblygnathus_geminatus,
+            10   Amblygnathus_suturalis,
+            11   Amblygnathus_braziliensis,
+            12   Amblygnathus_xingu,
+            13   Amblygnathus_gilvipes_peruanus,
+            14   Amblygnathus_gilvipes_gilvipes,
+            15   Amblygnathus_whiteheadi,
+            16   Amblygnathus_subtinctus,
+            17   Amblygnathus_tikal,
+            18   Amblygnathus_puncticollis,
+            19   Amblygnathus_woodruffi,
+            20   Amblygnathus_fricki,
+            21   Amblygnathus_panamensis,
+            22   Amblygnathus_evansi,
+            23   Amblygnathus_interior,
+            24   Amblygnathus_mexicanus,
+            25   Amblygnathus_iripennis,
+            26   Selenophorus_ruficollis,
+            27   Selenophorus_amaroides,
+            28   Selenophorus_ellipticus,
+            29   Selenophorus_seriatoporus;
+      TREE Fig._72 = [&R] (29,(26,((28,27),((25,(24,(((23,(22,(19,18))),20),(21,((17,15),16))))),(((12,(11,10)),((14,13),(9,(8,7)))),(6,((5,4),(3,(2,1)))))))));
+      TREE Fig._71 = [&R] (29,(26,((28,27),((((((((25,24,23,(22,(19,18)),20),21),(17,15),16),8,7),(14,13),9),10),(12,11)),(6,((5,4),(3,2,1)))))));
+
+
+
+END;
+BEGIN TREES;
+      TITLE Tb5133;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Amblygnathus_janthinus,
+            2    Amblygnathus_lucidus,
+            3    Amblygnathus_reichardti,
+            4    Amblygnathus_gigas,
+            5    Amblygnathus_cephalotes,
+            6    Amblygnathus_corvinus,
+            7    Amblygnathus_bicolor,
+            8    Amblygnathus_darlingtoni,
+            9    Amblygnathus_geminatus,
+            10   Amblygnathus_suturalis,
+            11   Amblygnathus_braziliensis,
+            12   Amblygnathus_xingu,
+            13   Amblygnathus_gilvipes_peruanus,
+            14   Amblygnathus_gilvipes_gilvipes,
+            15   Amblygnathus_whiteheadi,
+            16   Amblygnathus_subtinctus,
+            17   Amblygnathus_tikal,
+            18   Amblygnathus_puncticollis,
+            19   Amblygnathus_woodruffi,
+            20   Amblygnathus_fricki,
+            21   Amblygnathus_panamensis,
+            22   Amblygnathus_evansi,
+            23   Amblygnathus_interior,
+            24   Amblygnathus_mexicanus,
+            25   Amblygnathus_iripennis,
+            26   Selenophorus_ruficollis,
+            27   Selenophorus_amaroides,
+            28   Selenophorus_ellipticus,
+            29   Selenophorus_seriatoporus;
+      TREE Fig._70 = [&R] ((29,(28,27)),(26,(25,(24,((((23,22),(21,20,(19,18)))18_subgroup,(17,(16,15))16_subgroup),(((14,13)Amblygnathus_gilvipes,(12,(11,10))10_subgroup,(9,(8,7))8_subgroup)10_group,(6,((5,4),(3,(2,1)))5_subgroup)5_group))))Amblygnathus));
+
+
+
+END;

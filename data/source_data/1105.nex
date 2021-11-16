@@ -1,0 +1,107 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:46 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Meerow A. 1989. Biosystematics of two sympatric species of Eucharis (Amaryllidaceae).
+Plant Systematics and Evolution, 166: 11-30.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S335]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=10;
+        TAXLABELS
+            Eucharis_candida_1
+            Eucharis_candida_2
+            Eucharis_candida_x_formosa_1
+            Eucharis_candida_x_formosa_2
+            Eucharis_formosa_1.1
+            Eucharis_formosa_1.2
+            Eucharis_formosa_1.3
+            Eucharis_formosa_2
+            Eucharis_formosa_3
+            Eucharis_formosa_4
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M1698]
+
+	TITLE Table_3;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=13;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1" MISSING=? GAP= -;
+	CHARSTATELABELS
+		1  Band_A,
+		2  Band_B,
+		3  Band_C,
+		4  Band_D,
+		5  Band_F,
+		6  Band_G,
+		7  Band_H,
+		8  Band_J,
+		9  Band_K,
+		10  Band_L,
+		11  Band_M,
+		12  Band_O,
+		13  Band_Q,
+		;
+
+MATRIX
+Eucharis_candida_1               1101010011010
+Eucharis_candida_2               1100101110110
+Eucharis_candida_x_formosa_1     1100100111000
+Eucharis_candida_x_formosa_2     0101010111000
+Eucharis_formosa_1.1             0111000101000
+Eucharis_formosa_1.2             0101000101000
+Eucharis_formosa_1.3             0101000011000
+Eucharis_formosa_2               0100100111100
+Eucharis_formosa_3               1000100011001
+Eucharis_formosa_4               0100100011000
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb5111;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Eucharis_formosa_1.1,
+            2    Eucharis_formosa_1.2,
+            3    Eucharis_formosa_1.3,
+            4    Eucharis_formosa_2,
+            5    Eucharis_formosa_3,
+            6    Eucharis_formosa_4,
+            7    Eucharis_candida_1,
+            8    Eucharis_candida_2,
+            9    Eucharis_candida_x_formosa_1,
+            10   Eucharis_candida_x_formosa_2;
+      TREE Fig._12 = [&R] (8,(5,(7,(((9,4),(6,1)),(3,(10,2))))));
+
+
+
+END;
+BEGIN TREES;
+      TITLE Tb5110;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Eucharis_formosa_1.1,
+            2    Eucharis_formosa_1.2,
+            3    Eucharis_formosa_1.3,
+            4    Eucharis_formosa_2,
+            5    Eucharis_formosa_3,
+            6    Eucharis_formosa_4,
+            7    Eucharis_candida_1,
+            8    Eucharis_candida_2,
+            9    Eucharis_candida_x_formosa_1,
+            10   Eucharis_candida_x_formosa_2;
+      TREE Fig._13 = [&R] (((1,2),7,(10,3)),(((4,8),9),5),6)Eucharis;
+
+
+
+END;

@@ -1,0 +1,128 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:38 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Larson S., & Doebley J. 1994. Restriction site variation in the chloroplast genome
+of Tripsacum (Poaceae): Phylogeny and rates of sequence evolution. Systematic
+Botany, 19: 21-34.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S172]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=27;
+        TAXLABELS
+            Elionurus_tripsacoides
+            Tripsacum_andersonii
+            Tripsacum_australe
+            Tripsacum_australe_16
+            Tripsacum_bravum
+            Tripsacum_bravum_12
+            Tripsacum_cundinamarce
+            Tripsacum_dactyloides
+            Tripsacum_dactyloides__3
+            Tripsacum_dactyloides_2
+            Tripsacum_dactyloides_4
+            Tripsacum_dactyloides_5
+            Tripsacum_dactyloides_6
+            Tripsacum_dactyloides_7
+            Tripsacum_floridanum
+            Tripsacum_intermedium
+            Tripsacum_lanceolatum
+            Tripsacum_latifolium
+            Tripsacum_laxum
+            Tripsacum_maizar
+            Tripsacum_maizar_21
+            Tripsacum_peruvianum
+            Tripsacum_pilosum
+            Tripsacum_zopilotense
+            Tripsacum_zopilotense_10
+            Zea_diploperennis
+            Zea_mays
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M847]
+
+	TITLE Table_3;
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=110;
+	FORMAT DATATYPE=Standard SYMBOLS= "0 1" MISSING=? GAP= -;
+
+MATRIX
+[                                    10        20        30        40        50        60        70        80        90        100       110]
+[                                     .         .         .         .         .         .         .         .         .         .         .]
+Elionurus_tripsacoides       00111010000110011111001010000001000001010000000110000000011001001000110110101110100111001100011111101110110010
+Tripsacum_andersonii         10000000000000000000000001000000000010000001010001001100000000000000000000000000001000010000010000000000000000
+Tripsacum_australe           00000000000000000000000001000000000010000000010001000000000000000000000000010000001001110000000000000000000000
+Tripsacum_australe_16        00000000000000000000000001000000000010000000010001000000000000000000000000010000001001110000000000000000000000
+Tripsacum_bravum             00000001000000000000000001000000000110000001010001001000000000000000000000000000001000010000000000000000000000
+Tripsacum_bravum_12          00000001000000000000000001000000000110000001010001001000000000000000000000000000001000010000000000000000000000
+Tripsacum_cundinamarce       00000000000000000000000001000000000010000000010001000000000000000100000000010000001000010000000000000000000000
+Tripsacum_dactyloides        00000000100000000000000001000000000010000000010001000000000000000100000000010000001000010000000000000000000010
+Tripsacum_dactyloides__3     00000000000000000000000001000000000010000000010001000000000000000000000000000000001000010000000000000000000001
+Tripsacum_dactyloides_2      00000000000000000000000001000000000010000000110001000000000000000000000000000000001000010000000000000000000001
+Tripsacum_dactyloides_4      00000000000000000000000001000000000010000000110001000000000000000000000000000000001000010000000000000000000001
+Tripsacum_dactyloides_5      00000000000000000000000001000000000010000000010001000000000000000000000000000000001000010000000000000000000001
+Tripsacum_dactyloides_6      00000000000000000000000001000000000010000000010001000000000000000000000000000000001000010000000000000000000001
+Tripsacum_dactyloides_7      00000000100000000000000001000010000010000000010001000000000000000100000000010000001000010000000000000000000010
+Tripsacum_floridanum         00000000100000000000000001000000000010000000010001000000000000000100000000010000001000010000000000000000000010
+Tripsacum_intermedium        10000000010000000000000001000000000010000001010001001100000000000000000000000000001000010000000000000000000000
+Tripsacum_lanceolatum        00000000000001000000000001000000000010000001010001001000000000000000000000000000001000010000000000000000000000
+Tripsacum_latifolium         00000000010000000000000101000000000010000001010001000000000000010000000000000000001000010000000000000000000000
+Tripsacum_laxum              10000000010000000000000001000000000010000001010001001100100000000000000000000000001000010000000000000000000000
+Tripsacum_maizar             00000000000000000000000001001000000010000000010001000000000010100000000000000000001000010000000000000000000000
+Tripsacum_maizar_21          00000000000000000000010001010000000010000010010001010000000000100000000000100001001000000000000000000000000000
+Tripsacum_peruvianum         10000000010000000000000001000000000010000001010001001100000000000000000000000000001000010000000000000000000000
+Tripsacum_pilosum            00000101001000000000000001100000000010000000010001000000000000000000000000000100001000010000000000000000000000
+Tripsacum_zopilotense        00000000000000000000000001000000000010000000010001000000000100100000000000100000001000000010100000000000001000
+Tripsacum_zopilotense_10     00000000100000000000000001000000000010000000010001000000000000000100000000010000001000010000000000000000000010
+Zea_diploperennis            01000001000000000000100000000100111000100000011000100001000000010010001001000000010000000001000000000011000110
+Zea_mays                     00000000000000100000100000000100100000101100001000100010000000000011000001000000010000000001000000010000000100
+;
+END;
+
+BEGIN TREES;
+      TITLE Tb4898;
+      LINK TAXA = Taxa1;
+         TRANSLATE
+            1    Tripsacum_dactyloides,
+            2    Tripsacum_dactyloides_2,
+            3    Tripsacum_dactyloides__3,
+            4    Tripsacum_dactyloides_4,
+            5    Tripsacum_dactyloides_5,
+            6    Tripsacum_dactyloides_6,
+            7    Tripsacum_dactyloides_7,
+            8    Tripsacum_floridanum,
+            9    Tripsacum_zopilotense,
+            10   Tripsacum_zopilotense_10,
+            11   Tripsacum_bravum,
+            12   Tripsacum_bravum_12,
+            13   Tripsacum_andersonii,
+            14   Tripsacum_latifolium,
+            15   Tripsacum_australe,
+            16   Tripsacum_australe_16,
+            17   Tripsacum_peruvianum,
+            18   Tripsacum_cundinamarce,
+            19   Tripsacum_intermedium,
+            20   Tripsacum_maizar,
+            21   Tripsacum_maizar_21,
+            22   Tripsacum_pilosum,
+            23   Tripsacum_lanceolatum,
+            24   Tripsacum_laxum,
+            25   Zea_mays,
+            26   Zea_diploperennis,
+            27   Elionurus_tripsacoides;
+      TREE Fig._2 = [&R] (27,((((((1,8,10,7),18),(15,16)),((2,4),3,5,6),((9,21),20),(((11,12),23,(13,(17,19,24))),14)),22)Tripsacum,(25,26)Zea));
+      TREE Fig._2 = [&R] (27,((((((1,8,10,7),18),(15,16)),((2,4),3,5,6),((9,21),20),((((11,12),23),(13,(17,19,24))),14)),22)Tripsacum,(25,26)Zea));
+
+
+
+END;

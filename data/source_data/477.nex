@@ -1,0 +1,238 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on June 15, 2021; 9:36 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Vastermark A., Rask-andersen M., Sawant R.S., Reiter J.L., Schioth H.B., & Williams
+M. 2013. Insulin receptor-like ectodomain genes and splice variants are found
+in both arthropods and human brain cDNA. Journal of Systematics and Evolution,
+.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S13882]
+
+BEGIN TAXA;
+        TITLE  Taxa1;
+        DIMENSIONS NTAX=46;
+        TAXLABELS
+            Aedes_aegypti_AAEL_INSR_L1
+            Aedes_aegypti_AAEL_INSR_L2
+            Aedes_aegypti_AAEL_TRUNC_L1
+            Aedes_aegypti_AAEL_TRUNC_L2
+            Anopheles_gambiae_AGAP_INR_L1
+            Anopheles_gambiae_AGAP_INR_L2
+            Anopheles_gambiae_AGAP_TRUNC_L1
+            Anopheles_gambiae_AGAP_TRUNC_L2
+            Culex_quinquefasciatus_CPIJ_TRUNC_L1
+            Culex_quinquefasciatus_CPIJ_TRUNC_L2
+            Danio_rerio_Dre_insra_L1
+            Danio_rerio_Dre_insra_L2
+            Danio_rerio_Dre_insrb_L1
+            Danio_rerio_Dre_insrb_L2
+            Daphnia_pulex_BR000948_DAPH_L1
+            Daphnia_pulex_BR000948_DAPH_L2
+            Daphnia_pulex_DAPH_EGFR_L1
+            Daphnia_pulex_DAPH_EGFR_L2
+            Daphnia_pulex_Dappu1_L1
+            Daphnia_pulex_Dappu1_L2
+            Daphnia_pulex_Dappu3_L1
+            Daphnia_pulex_Dappu3_L2
+            Daphnia_pulex_Dappu4_L1
+            Daphnia_pulex_Dappu4_L2
+            Drosophila_melanogaster_CG10702_L1
+            Drosophila_melanogaster_CG10702_L2
+            Drosophila_melanogaster_CG3837_L1
+            Drosophila_melanogaster_CG3837_L2
+            Drosophila_melanogaster_Dme_EGFR_L1
+            Drosophila_melanogaster_Dme_EGFR_L2
+            Drosophila_melanogaster_Dme_InR_L1
+            Drosophila_melanogaster_Dme_InR_L2
+            Glossina_morsitans_TMP002932_TSE_TRUNC_L1
+            Glossina_morsitans_TMP002932_TSE_TRUNC_L2
+            Homo_sapiens_Hsa_INSR_L1
+            Homo_sapiens_Hsa_INSR_L2
+            Homo_sapiens_Hsa_INSRR_L1
+            Homo_sapiens_Hsa_INSRR_L2
+            Tribolium_castaneum_BR000971_TRIB_L1
+            Tribolium_castaneum_BR000971_TRIB_L2
+            Tribolium_castaneum_TC010784_INSR_L1
+            Tribolium_castaneum_TC010784_INSR_L2
+            Xenopus_tropicalis_Xtr_INSR_L1
+            Xenopus_tropicalis_Xtr_INSR_L2
+            Xenopus_tropicalis_Xtr_INSRR_L1
+            Xenopus_tropicalis_Xtr_INSRR_L2
+            ;
+END;
+
+BEGIN TAXA;
+        TITLE  Taxa2;
+        DIMENSIONS NTAX=46;
+        TAXLABELS
+            Aedes_aegypti_AAEL_INSR_L1
+            Aedes_aegypti_AAEL_INSR_L2
+            Aedes_aegypti_AAEL_TRUNC_L1
+            Aedes_aegypti_AAEL_TRUNC_L2
+            Anopheles_gambiae_AGAP_INR_L1
+            Anopheles_gambiae_AGAP_INR_L2
+            Anopheles_gambiae_AGAP_TRUNC_L1
+            Anopheles_gambiae_AGAP_TRUNC_L2
+            Culex_quinquefasciatus_CPIJ_TRUNC_L1
+            Culex_quinquefasciatus_CPIJ_TRUNC_L2
+            Danio_rerio_Dre_insra_L1
+            Danio_rerio_Dre_insra_L2
+            Danio_rerio_Dre_insrb_L1
+            Danio_rerio_Dre_insrb_L2
+            Daphnia_pulex_BR000948_DAPH_L1
+            Daphnia_pulex_BR000948_DAPH_L2
+            Daphnia_pulex_DAPH_EGFR_L1
+            Daphnia_pulex_DAPH_EGFR_L2
+            Daphnia_pulex_Dappu1_L1
+            Daphnia_pulex_Dappu1_L2
+            Daphnia_pulex_Dappu3_L1
+            Daphnia_pulex_Dappu3_L2
+            Daphnia_pulex_Dappu4_L1
+            Daphnia_pulex_Dappu4_L2
+            Drosophila_melanogaster_CG10702_L1
+            Drosophila_melanogaster_CG10702_L2
+            Drosophila_melanogaster_CG3837_L1
+            Drosophila_melanogaster_CG3837_L2
+            Drosophila_melanogaster_Dme_EGFR_L1
+            Drosophila_melanogaster_Dme_EGFR_L2
+            Drosophila_melanogaster_Dme_InR_L1
+            Drosophila_melanogaster_Dme_InR_L2
+            Glossina_morsitans_TMP002932_TSE_TRUNC_L1
+            Glossina_morsitans_TMP002932_TSE_TRUNC_L2
+            Homo_sapiens_Hsa_INSR_L1
+            Homo_sapiens_Hsa_INSR_L2
+            Homo_sapiens_Hsa_INSRR_L1
+            Homo_sapiens_Hsa_INSRR_L2
+            Tribolium_castaneum_BR000971_TRIB_L1
+            Tribolium_castaneum_BR000971_TRIB_L2
+            Tribolium_castaneum_TC010784_INSR_L1
+            Tribolium_castaneum_TC010784_INSR_L2
+            Xenopus_tropicalis_Xtr_INSR_L1
+            Xenopus_tropicalis_Xtr_INSR_L2
+            Xenopus_tropicalis_Xtr_INSRR_L1
+            Xenopus_tropicalis_Xtr_INSRR_L2
+            ;
+END;
+
+BEGIN CHARACTERS;
+[! TreeBASE Matrix URI: http://purl.org/phylo/treebase/phylows/matrix/TB2:M15943]
+
+	TITLE 'Insulin receptor-like ectodomain genes and splice variants are found in both arthropods and human brain cDNA';
+	LINK TAXA = Taxa1;
+	DIMENSIONS NCHAR=133;
+	FORMAT DATATYPE=Protein SYMBOLS= "A C D E F G H I K L M N P Q R S T V W Y" MISSING=? GAP= -;
+
+MATRIX
+[                                                     10        20        30        40        50        60        70        80        90        100       110       120       130   ]
+[                                                      .         .         .         .         .         .         .         .         .         .         .         .         .   ]
+Aedes_aegypti_AAEL_INSR_L1                    CVVVEGFVHILLIDKYIDS-SFENYS---------------FPLLTEITEYLLLFRVNGLKSLRRLFPNLAVIRG---------DALVGD-YAMVIYELMHIEEIGLISLMD----ITRGGVRIEKNPKLC--
+Aedes_aegypti_AAEL_INSR_L2                    CEIIDGSLEIQLRS--RGGENIVKELENF------------LSSITEIKGYLKVVRSYPLLSLG-FLKKLKIIHGK---------GNKVSNSSLYVVENQNLQELFDHNVTI-----GEGKLFFFNNPMLC--
+Aedes_aegypti_AAEL_TRUNC_L1                   CTVITGFLQLVLIERVPHEEFVKYN----------------ISKLREVTGFVLFFHVYNLRSLRDLFPSLMVIRG---------RTLIGN-YALIFYDLPDLEEIGLKNLIA----IQDGFVFVQHCPKLC--
+Aedes_aegypti_AAEL_TRUNC_L2                   CTIINGTLQIRMN---EDHPHLIEELRRT------------LGRIQEIMGYLKVYRSNTLPSLE-FLENLEIIHG--------QWELGHGKYSLMIYENANLQKLWNYGDYPMSLKLVTGSMYFVYNPLLC--
+Anopheles_gambiae_AGAP_INR_L1                 CRVVEGFVQIMLIDKYGND-SFDNYT---------------FPLLTEITGYLLLFRVNGLQTLGQLFPNLTVIRG---------SELANN-YALVVYELMHIKELGLTSLID----IQRGGVRIEKNPNLC--
+Anopheles_gambiae_AGAP_INR_L2                 CTIIQGSLSIRLRQ--LGGENVVRELEKV------------LYSIEEIYGYLTIVRSYALMSLG-FFRNLKIIHG----------TVLNANLSLSVIDNQNLQELWNQNVTI-----KRGNVRFNDNPMLC--
+Anopheles_gambiae_AGAP_TRUNC_L1               CTVINGFLQMVLIERVPSEEFEKYS----------------CKHLREVTGYMLFFRVINLVTLRRLFPQLAVIRG---------QQLIGN-YALVFYYMENMIELGLKNLVA----IQRGFVYTLHCPQLC--
+Anopheles_gambiae_AGAP_TRUNC_L2               CTIVNGTLHIRLK---EDHPNLVDELRNG------------LSDVEEIMGNLKVFRSTFIPSLE-FLANLQIIHG--------VDVNENAKFSLMVYENSNLQRLWNFEQKTN-LRLDNGGMYFANNKLLC--
+Culex_quinquefasciatus_CPIJ_TRUNC_L1          CTVITGFLQLVLIERVPQEDFAEYR----------------FDKLREVTGFILFFRVFNLITLRDMFPNLMMIRG---------QKLIGN-YALIFYDLRDFHEIGLKNLYS----IQRGFVYSQWCPNLC--
+Culex_quinquefasciatus_CPIJ_TRUNC_L2          CTIINGTLQIRLLDDHPNVLEELRENLGGIEEIM--GYLKVYRSNTEVTGFILFFRVFNLITLRDMFPNLMMIRG---------QKLIGN-YALIFYDLRDFHEIGLKNLYS----IQRGFVYSQWCPNLC--
+Danio_rerio_Dre_insra_L1                      CTVIEGHLKILLMFTTKPE-DFRGLS---------------YPKLTVVTDYLLLFRVYGLESLSDLFPNLTVVRG---------NNLFFN-YALVLFEMLQLKEIGLHSLMN----ITRGAVRVEKNPDLC--
+Danio_rerio_Dre_insra_L2                      CTVINGSLVINIR----GGNNIAAELEAN------------LGQLEEITGYLTVRHSYALVSLS-FLRKLRIIHG---------ETQEVGNYSFYALDNQNLRQLWDWSKHN--LTIQQGRMFFHHNSKLC--
+Danio_rerio_Dre_insrb_L1                      CTVIEGHLKILLMFKTTQE-DFRGLS---------------FPKLVMVTDYLLIFRVYGLESLGSLFPNLTVIRG---------SNLFFN-YALVMFEMIQMKEIGLHSLTN----ITRGAVRIEKNPNLC--
+Danio_rerio_Dre_insrb_L2                      CTVLNGSLIIKIS----GGNSIAAELESS------------LGQLEEITGYLTIRRAYALVSLS-FLRKLHLIRG---------ETLDGGNYSFHAMDNQNLRQLWDWNKHN--LTILKGRMKFIQNGKLC--
+Daphnia_pulex_BR000948_DAPH_L1                CTYVDGNLELTWLQEESLDLTFLQHIR-------------------EVTGYVLISHVEIRRFVLPALQIIRGRTLFK-------YNTHGDEGFALIVILSKMHSLETPALRD----ILAGSCGMFNNYNLC--
+Daphnia_pulex_BR000948_DAPH_L2                CTVIEGSLAIIDHSFTGFQHIYPNFTF--------------------------------DFKNLFYFRNLEKIGGSQ-------LTE---YFSSLFIYKTSLQSLNLRSLKT----INFGSATLLGNKQLC--
+Daphnia_pulex_DAPH_EGFR_L1                    CTYVDGNLELTWLQDEHLDLTFLQHIR-------------------EVTGYVLISHVDVRRIVLPALQIIRGRTLFK-------LNVH-DEEFALVVTLSKMHNLEMPALRD----ILAGSCGLFNNYNLC--
+Daphnia_pulex_DAPH_EGFR_L2                    CTVIEGSITILDHSFAGFQQIYPNFTFGPRYPRLHPDRLEIFATLQEITGFINVQASHPEFRNLSYFRNLETIGGRQ-------LTE---YFSALYIVKTSLNSLHLRSLKM----IRAGSVTVLENKELC--
+Daphnia_pulex_Dappu1_L1                       CRVVEGFLHIVLMENLDFASDLNNRS---------------FPALREITGYLLFYRVFGLRSIGQLFPNLAVIRG---------QQLLFD-FSFVVYELMQLQEIGLKSLAE----LQRGSVLIEK-PNLC--
+Daphnia_pulex_Dappu1_L2                       CTTIDGDLEMQIK----GGDNIIQELERS------------LGSIEVIKGVLKITRSFPILSLS-FFKSLRTITGKPETLHSSGSKNFDDEYALTVQDN--LQQLWPKTQNL----TIHKKMLFHFNPKLC--
+Daphnia_pulex_Dappu3_L1                       CRVVEGFLHIVMEN-LDFASDLNNRS---------------FPALREITGYLLFYRVFGLRSIGQLFPNLAVIRG---------QQLLFD-FSFVVYELMQLQEIGLKSLAE----LQRGSVLIEKNPNLC--
+Daphnia_pulex_Dappu3_L2                       CTTIDGDLEMQIK----GGNDIIQELERS------------LGSIEVIKGVLKITRSFPILSLS-FFKSLRTITGKPETLHSSGSKNFDDEYALTVQDNQNLQQLWPKTQNL----TIHKKMLFHFNPKLC--
+Daphnia_pulex_Dappu4_L1                       CRVVEGNLHIVLMENLDFASDLNDRS---------------FPALREITGYLLFYRVLGLRSIGQLFPNLAVIRG---------QQLLFD-FSFVVY-LMHLQEIGLKSLAE----LQRGSVLIEKNPNLC--
+Daphnia_pulex_Dappu4_L2                       CTTIDGDLEMHMI----RGNNIIQELERS------------LGSIKMIKGVLKITSSFPIFSLS-FFKSLRNITGKPITIHSSGSNNFDDEYALIVQNNQNLQQLWPKTQNL----TIHKKMLFHSNPKLC--
+Drosophila_melanogaster_CG10702_L1            CTVVTGYVMITLIT-----IEQRCN-----------FSEYSYPLLTEITEFMIFTDVRGLVNITEMFPHLTVIRG---------RRLFLN-YALGVTNMHELEQLVFPKLVA----IQRGQVYIGSCPKLC--
+Drosophila_melanogaster_CG10702_L2            CQIFNGSLVITIR-----NKVNETQLYQS------------FTSMREVRGHVKVYRSSQLRSLQ-FLRNLERVHG---------DPLENRHYSFILYDNKELSELWTPSRQLE---FMEGGMFMHRNNKLC--
+Drosophila_melanogaster_CG3837_L1             CTHVVGHVRLAYVDLTDVSGNYSLDS--------------LASNVTEISDYLMVYRCTGLISLQSIFPRLRIIRG---------QELLFDQYSLVVYENRNLRELGLVELLR----IQSGFIRVESNPLLC--
+Drosophila_melanogaster_CG3837_L2             CVTINGSLTIELTNIKEK---IVDALENA------------LASVKEITGYLKVIHSAQLMSLT-FLQNLDAIRGDK---------LVENKYALYVVNNYHLEHIWPPNHLV---IIQRGTLFFHLNPRLC--
+Drosophila_melanogaster_Dme_EGFR_L1           CTYVDGNLELTWLPNENLDLSFLDNIR-------------------EVTGYILISHVDVKKVVFPKLQIIRGRTLFS-------LSVE-EEKYALFVTYSKMYTLEIPDLRD----VLNGQVGFHNNYNLC--
+Drosophila_melanogaster_Dme_EGFR_L2           CTVIDGNIRILDQTFSGFQDVYANYTMGPRYIPLDPERLEVFSTVKEITGYLNIEGTHPQFRNLSYFRNLETIHGRQ-------LMES--MFAALAIVKSSLYSLEMRNLKQ----ISSGSVVIQHNRDLC--
+Drosophila_melanogaster_Dme_InR_L1            CTVIEGFLLIDLINDASPL----NRS---------------FPKLTEVTDYIIIYRVTGLHSLSKIFPNLSVIRG---------NKLFDG-YALVVYSNFDLMDLGLHKLRS----ITRGGVRIEKNHKLC--
+Drosophila_melanogaster_Dme_InR_L2            CTIITGTEPLTISIKRESGAHVMDELKYG------------LAAVHKIQSSLMVHLTYGLKSLK-FFQSLTEISGDPP--------MDADKYALYVLDNRDLDELWGPNQTV---FIRKGGVFFHFNPKLC--
+Glossina_morsitans_TMP002932_TSE_TRUNC_L1     CTVITGYMLIVLLPRVNQRVHEVCN-----------FSKYQFPLLREITDFLIFHEVRNITTIADMFPNLTVIRG---------QRLFLN-YALGVTSMKDLNTLEFRSLIA----IQRGHVFIGTNPKLC--
+Glossina_morsitans_TMP002932_TSE_TRUNC_L2     CQILNSSVFLTIR-----NRINENDLYQS------------FADVKEIKGHLNIYKNTYLSSLK-FLKGLRKIDG---------KNSKDHHFSLTLYDNKNLRELWSPSEDLE---LTRGGMYVHANYKLC--
+Homo_sapiens_Hsa_INSR_L1                      CSVIEGHLQILLMFKTRPE-DFRDLS---------------FPKLIMITDYLLLFRVYGLESLKDLFPNLTVIRG---------SRLFFN-YALVIFEMVHLKELGLYNLMN----ITRGSVRIEKNNELC--
+Homo_sapiens_Hsa_INSR_L2                      CTVINGSLIINIR----GGNNLAAELEAN------------LGLIEEISGYLKIRRSYALVSLS-FFRKLRLIRG---------ETLEIGNYSFYALDNQNLRQLWDWSKHN--LTITQGKLFFHYNPKLC--
+Homo_sapiens_Hsa_INSRR_L1                     CSVVEGHLQILLMFTATGE-DFRGLS---------------FPRLTQVTDYLLLFRVYGLESLRDLFPNLAVIRG---------TRLFLG-YALVIFEMPHLRDVALPALGA----VLRGAVRVEKNQELC--
+Homo_sapiens_Hsa_INSRR_L2                     CTHVEGSLILNLR----QGYNLEPQLQHS------------LGLVETITGFLKIKHSFALVSLG-FFKNLKLIRG---------DAMVDGNYTLYVLDNQNLQQLGSWVAAG--LTIPVGKIYFAFNPRLC--
+Tribolium_castaneum_BR000971_TRIB_L1          CRVIDGALQIVLMENFDAT-DYINIS---------------FAKLVEITEYLLIYRVMGLTSLDLIFPKLVSIKG---------SSLFLG-HSLVVYDLPNLEEIGLQKLQS----IDNGNVKIANCPQLC--
+Tribolium_castaneum_BR000971_TRIB_L2          CTHINGSLELSLV-----GSVSLSDLERT------------LGKIVSISKYLKITRSHKLTSLQ-FFDKLRTIKG---------DQLWSRYYSFYVTKNQNLQQLFGGKFKLN---IKNGTVIFQDNPHLC--
+Tribolium_castaneum_TC010784_INSR_L1          CHVVEGFVQILLFDNVNET-ELSLLS---------------FPNLTEITDYLLLYRVNGLRSIGQLFPNLSVIRG---------RSTFYT-YSFVVFEMSSLQEIGLYSLTD----ITRGLIRIDKNPSLC--
+Tribolium_castaneum_TC010784_INSR_L2          CTHITSSLEIQIR----GGRNVVNELEES------------LGMIEEIDGYLKVVRSFPLVSLN-FLKNLKVIHG---------RQLESQKYVFVVLDNQNLQELWNWENNKT-LKIDTGRLFFHFNPKLC--
+Xenopus_tropicalis_Xtr_INSR_L1                CTVIEGHLQILLMFTSKPE-NFRGLR---------------FPKLTMITDYLLLFRVYGLESLKDLFPNLTVIRG---------THLFFN-YALVIFEMVHLKEIGLYNLMN----ITRGSVRIEKNNELC--
+Xenopus_tropicalis_Xtr_INSR_L2                CTVVNGSLIINIRGGSKYNPVIDSVMYR---------------VIYSVGFLKVEKLDRSVQGFRGITLLLLEIVT-----------LEVQLSFIYILYKVSLMVLWPVNSVK---LYVLMKIYFECNRKACLC
+Xenopus_tropicalis_Xtr_INSRR_L1               CTVIQGNLQILLMFSTKPE-DFRGLR---------------FERLTMITEYLLLFRVYGLESLRDLFPNLSIIRG---------TDLFFH-YSLVIFEMPHLRDIGLYSLTN----ILNGAVRIERNQELC--
+Xenopus_tropicalis_Xtr_INSRR_L2               CTNIEGNLILNIR----RGHNLASELQQS------------LGLIETITGFLKIKHSFALVSLS-FFKNLKLIRG---------DTMVDGNYTLYILDNQNLLQL--WTPES--LSIPVGKLYFAFNPKLC--
+;
+END;
+
+BEGIN TREES;
+      TITLE RAxML_bipartitions_INSRR;
+      LINK TAXA = Taxa2;
+         TRANSLATE
+            1    Drosophila_melanogaster_Dme_EGFR_L1,
+            2    Daphnia_pulex_BR000948_DAPH_L1,
+            3    Daphnia_pulex_DAPH_EGFR_L1,
+            4    Xenopus_tropicalis_Xtr_INSR_L2,
+            5    Drosophila_melanogaster_Dme_InR_L1,
+            6    Drosophila_melanogaster_CG3837_L1,
+            7    Tribolium_castaneum_BR000971_TRIB_L1,
+            8    Drosophila_melanogaster_CG10702_L1,
+            9    Glossina_morsitans_TMP002932_TSE_TRUNC_L1,
+            10   Anopheles_gambiae_AGAP_TRUNC_L1,
+            11   Culex_quinquefasciatus_CPIJ_TRUNC_L2,
+            12   Culex_quinquefasciatus_CPIJ_TRUNC_L1,
+            13   Aedes_aegypti_AAEL_TRUNC_L1,
+            14   Anopheles_gambiae_AGAP_INR_L1,
+            15   Aedes_aegypti_AAEL_INSR_L1,
+            16   Tribolium_castaneum_TC010784_INSR_L1,
+            17   Daphnia_pulex_Dappu4_L1,
+            18   Daphnia_pulex_Dappu3_L1,
+            19   Daphnia_pulex_Dappu1_L1,
+            20   Danio_rerio_Dre_insrb_L1,
+            21   Danio_rerio_Dre_insra_L1,
+            22   Homo_sapiens_Hsa_INSR_L1,
+            23   Xenopus_tropicalis_Xtr_INSR_L1,
+            24   Homo_sapiens_Hsa_INSRR_L1,
+            25   Xenopus_tropicalis_Xtr_INSRR_L1,
+            26   Drosophila_melanogaster_Dme_EGFR_L2,
+            27   Daphnia_pulex_BR000948_DAPH_L2,
+            28   Daphnia_pulex_DAPH_EGFR_L2,
+            29   Drosophila_melanogaster_CG3837_L2,
+            30   Drosophila_melanogaster_Dme_InR_L2,
+            31   Anopheles_gambiae_AGAP_TRUNC_L2,
+            32   Aedes_aegypti_AAEL_TRUNC_L2,
+            33   Drosophila_melanogaster_CG10702_L2,
+            34   Glossina_morsitans_TMP002932_TSE_TRUNC_L2,
+            35   Daphnia_pulex_Dappu1_L2,
+            36   Daphnia_pulex_Dappu3_L2,
+            37   Daphnia_pulex_Dappu4_L2,
+            38   Anopheles_gambiae_AGAP_INR_L2,
+            39   Aedes_aegypti_AAEL_INSR_L2,
+            40   Homo_sapiens_Hsa_INSRR_L2,
+            41   Xenopus_tropicalis_Xtr_INSRR_L2,
+            42   Homo_sapiens_Hsa_INSR_L2,
+            43   Danio_rerio_Dre_insra_L2,
+            44   Danio_rerio_Dre_insrb_L2,
+            45   Tribolium_castaneum_BR000971_TRIB_L2,
+            46   Tribolium_castaneum_TC010784_INSR_L2;
+      TREE tree_1 = [&R] (((1:1.2360325349902723E-6,(2:0.14649483708077327,3:1.2360325349902723E-6):0.39893079494446937):1.143597917854076,((4:2.1186882255026207,5:1.2360325349902723E-6):0.3458538583104924,(6:0.9089244503391531,((7:0.5869836942691835,((8:0.3317356613052964,9:0.1726371002841247):0.3554948617726925,(10:0.304938555369741,((11:0.19940604767494774,12:1.2360325347682277E-6):0.1672940388918649,13:0.20107119497815806):0.04454906128139635):0.2826403206998114):0.32737145889398):0.08603157004976092,(((14:0.16108146985791238,15:0.19031519685317422):0.212171290314501,(16:0.3086856509834921,(17:0.0284034337535104,(18:1.2360325345461831E-6,19:1.2360325345461831E-6):0.012366112219205139):0.3140362252369857):0.1084775905101445):0.08392478305578921,((20:0.12200178432574127,21:0.07293853026538644):0.05276888163530025,((22:0.07966491942782383,23:0.03701061124374938):0.038960038371079975,(24:0.24513827699208823,25:0.15621257091678764):0.08545480522447946):0.04959001477104774):0.28247885752618274):0.10743614256169609):0.08412791868850356):0.0387156870472829):0.39139014413142137):0.15404865067678827,((26:1.2360325349902723E-6,(27:0.31215713057206873,28:1.2360325349902723E-6):0.51310510600453):1.1201949928907857,(29:0.4967161943469556,(30:0.6212854998491919,(((31:0.336841078167033,32:0.3245815962460501):0.5052866195243757,(33:0.37289639832863886,34:0.4351510371262979):0.3794712482435676):0.14371501965627442,((35:1.2360325349902723E-6,(36:0.008995203195471202,37:0.14836000387901382):0.008979630644718295):0.431208056181128,((38:0.36148764257585864,39:0.24876152946711683):0.15520217520287805,((((40:0.19817832318885165,41:0.06121043413994176):0.36713127319541217,(42:1.2360325349902723E-6,(43:0.06317525776838284,44:0.22859213791481237):0.12998848884684655):0.1452459374476276):0.0957236706065916,45:0.8054098559529033):0.15816522951919287,46:0.29343154729231946):0.1120908888283676):0.023273134352175706):0.20790351624882386):0.15579965410165464):0.11027649889737812):0.2953474880184328):0.3080973013535764);
+
+
+
+END;
