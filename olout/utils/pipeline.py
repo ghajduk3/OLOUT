@@ -1,3 +1,4 @@
+import time
 import typing
 
 import matplotlib
@@ -106,10 +107,20 @@ def radial_visualization(ordered_tree: TreeNode, unordered_tree: TreeNode, tree_
     radial_layout = constants.RADIAL_VISUALIZATION_METHOD_MAPPINGS[radial_visualization_method]
 
     # Ordered tree
+    start_time_radial_layout = time.time()
     radial_layout_ordered_tree = radial_layout(ordered_tree)
     radial_points, stress = radial_layout_ordered_tree.get_radial_layout_coordinates()
-    radial_points_angle_based, stress_angle_based = radial_layout_ordered_tree.get_radial_layout_coordinates_adj_nodes_based_angle_corrections()
-    radial_points_pivot_based, stress_pivot_based = radial_layout_ordered_tree.get_radial_layout_coordinates_fixed_factor_based_angle_corrections()
+    time_radial_layout = time.time() - start_time_radial_layout
+
+
+
+    start_time_radial_layout_adj_correct = time.time()
+    radial_points_angle_based, stress_angle_based, counter_angle_based = radial_layout_ordered_tree.get_radial_layout_coordinates_adj_nodes_based_angle_corrections()
+    time_radial_layout_adj_correct = time.time() - start_time_radial_layout_adj_correct
+
+    start_time_radial_layout_fixed_correct = time.time()
+    radial_points_pivot_based, stress_pivot_based, best_correction_factor = radial_layout_ordered_tree.get_radial_layout_coordinates_fixed_factor_based_angle_corrections()
+    time_radial_layout_fixed_correct = time.time() - start_time_radial_layout_fixed_correct
 
     # Unordered tree
     radial_layout_unordered_tree = radial_layout(unordered_tree)
@@ -158,8 +169,12 @@ def radial_visualization(ordered_tree: TreeNode, unordered_tree: TreeNode, tree_
                         'radial_points_ordered_adjacent_node_based_angle_correction': transform_to_json_serializable(radial_points_angle_based),
                         'unordered_tree_stress': stress_unordered,
                         'ordered_tree_stress': stress,
-                        'ordered_tree_fixed_angle_correction_stress': stress_angle_based,
-                        'ordered_tree_adj_based_corrections_stress': stress_pivot_based,
+                        'ordered_tree_fixed_angle_correction_stress': stress_pivot_based,
+                        'ordered_tree_adj_based_corrections_stress': stress_angle_based,
+                        'execution_time_radial_layout': time_radial_layout,
+                        'execution_time_corrections_adj_based': time_radial_layout_adj_correct,
+                        'execution_time_corrections_fixed_based': time_radial_layout_fixed_correct,
+                        'ffac_best_correction_factor': best_correction_factor,
     }
     return evaluation_data
 

@@ -7,8 +7,31 @@ import numpy as np
 from olout.utils.distance_matrix import ReconstructDistanceMatrix
 import itertools
 from olout.visualizations import radial
+from olout.utils import constants
+import os
+from olout.visualizations import radial
+
 from olout.utils.pipeline import leaf_ordering_kolo, radial_visualization
 from olout.utils.evaluation_pipeline import run_single_evaluation_suite
+import rootpath
+
+FINAL_DATA_PATH = os.path.join(rootpath.detect(), 'data', 'final_data')
+EVALUATION_DATA_PATH = os.path.join(rootpath.detect(), 'data', 'evaluations')
+QUARANTINE_EVAL_DATA_PATH = os.path.join(rootpath.detect(), 'data', 'quarantine_evaluations')
+QUARANTINE_DATA_PATH = os.path.join(rootpath.detect(), 'data', 'quarantine')
+
+def load_tree_from_data_dir_name(dir_name):
+    json_file = open(os.path.join(FINAL_DATA_PATH, dir_name, 'data.json'), 'r')
+    data_json = json.load(json_file)
+    nexus_file_url, phylogenetic_newick_string, distance_matrix, tree_node_mapping = data_json.values()
+    tree, node_mapping = Parser.parse_newick_tree(phylogenetic_newick_string)
+    distance_matrix = ReconstructDistanceMatrix(tree).get_reconstructed_distance_matrix()
+    radial_layout = radial.RadialLayoutLeafCount(tree)
+    print(radial_layout.get_pair_distance(14,15))
+    print(radial_layout.get_pair_distance(10, 13))
+    print(node_mapping)
+
+
 
 
 if __name__ == "__main__":
@@ -29,7 +52,10 @@ if __name__ == "__main__":
                       [8, 9, 7, 3, 0]])
     tree_string_2 = '(4:1.000000, 3:2.000000, (2:4.000000, (1:3.000000, 0:2.000000):3.000000):2.000000);'
 
-    # ordered_tree, leaf_ordering, node_mapping = leaf_ordering_kolo(tree_string_1)
-    # radial_visualization(ordered_tree, node_mapping)
+    tree, ordered_tree, leaf_ordering, node_mapping = leaf_ordering_kolo(tree_string_2)
+    # radial_visualization(ordered_tree, tree,node_mapping, show_flag=True)
+    # radial_visualization(ordered_tree, tree, node_mapping,radial_visualization_method=constants.RADIAL_LAYOUT_LEAF_COUNT, show_flag=True)
     # print(node_mapping)
-    run_single_evaluation_suite('S104350')
+    run_single_evaluation_suite('S141443')
+    # run_single_evaluation_suite('S141443',radial_visualization_method=constants.RADIAL_LAYOUT_LEAF_COUNT)
+    # load_tree_from_data_dir_name('S118920')

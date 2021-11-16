@@ -1,7 +1,1 @@
-tree_file,todo, possible, problem
-S104650, yes, yes, no
-S105351, yes, no, perm
-S104010, yes, yes, math prob radial vis
-S104330, yes, yes, reorder_trees
-S104350, yes, yes, reorder_trees
-
+tree_file, problem

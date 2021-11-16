@@ -1,4 +1,5 @@
 import copy
+import itertools
 
 import numpy as np
 import math
@@ -50,18 +51,19 @@ class RadialLayoutLeafCount:
         self._preorder_traversal(self.tree, None, root)
 
     def get_radial_layout_coordinates(self):
-        stress_all_node_pairs = self._calculate_stress_all_leaf_node_pairs(self.coordinates)
+        print(self.levels)
+        stress_all_node_pairs = self._calculate_stress_all_node_pairs(self.coordinates)
         return self.coordinates, stress_all_node_pairs
 
     def get_radial_layout_coordinates_fixed_factor_based_angle_corrections(self):
-        corrected_coordinates = self._apply_angle_corrections_fixed_correction_factor()
-        stress_all_node_pairs = self._calculate_stress_all_leaf_node_pairs(corrected_coordinates)
-        return corrected_coordinates, stress_all_node_pairs
+        corrected_coordinates, best_correction_factor = self._apply_angle_corrections_fixed_correction_factor()
+        stress_all_node_pairs = self._calculate_stress_all_node_pairs(corrected_coordinates)
+        return corrected_coordinates, stress_all_node_pairs, best_correction_factor
 
     def get_radial_layout_coordinates_adj_nodes_based_angle_corrections(self):
-        corrected_coordinates = self._apply_angle_corrections_adjacent_node_based()
-        stress_all_node_pairs = self._calculate_stress_all_leaf_node_pairs(corrected_coordinates)
-        return corrected_coordinates, stress_all_node_pairs
+        corrected_coordinates, counter = self._apply_angle_corrections_adjacent_node_based()
+        stress_all_node_pairs = self._calculate_stress_all_node_pairs(corrected_coordinates)
+        return corrected_coordinates, stress_all_node_pairs, counter
 
     def _postorder_traversal(self, tree_node, parent_node_id, level):
         """
@@ -72,19 +74,35 @@ class RadialLayoutLeafCount:
             parent_node_id
             current_level
         """
-
         node_id = tree_node.get_id()
         self.levels[node_id] = [0, level, parent_node_id, 0]
+
         if tree_node.is_leaf():
             self.levels[node_id][0] = 1
             self.levels[node_id][3] = tree_node.get_distance()
+
         else:
             for child in tree_node.get_children():
                 child_id = child.get_id()
+                # if not child.is_leaf():
+                #     self.levels[node_id][3] += child.get_distance()
                 self._postorder_traversal(child, node_id, level + 1)
                 self.levels[node_id][0] += self.levels[child_id][0]
                 self.levels[node_id][3] += self.levels[child_id][3]
                 self.distances[child_id] = [node_id, child.get_distance()]
+
+        # node_id = tree_node.get_id()
+        # self.levels[node_id] = [0, level, parent_node_id, 0]
+        # if tree_node.is_leaf():
+        #     self.levels[node_id][0] = 1
+        #     self.levels[node_id][3] = tree_node.get_distance()
+        # else:
+        #     for child in tree_node.get_children():
+        #         child_id = child.get_id()
+        #         self._postorder_traversal(child, node_id, level + 1)
+        #         self.levels[node_id][0] += self.levels[child_id][0]
+        #         self.levels[node_id][3] += self.levels[child_id][3]
+        #         self.distances[child_id] = [node_id, child.get_distance()]
 
     def _preorder_traversal(self, tree_node, parent, root_id):
         tree_node_id = tree_node.get_id()
@@ -104,10 +122,9 @@ class RadialLayoutLeafCount:
 
     def _apply_angle_corrections_fixed_correction_factor(self):
         levels = sorted([(k,v[1]) for k,v in self.levels.items() if k != 1000], key=lambda x: x[1])
-
         all_stresses = []
         # # Skip root
-        correction_factors = [1, 1.5, 2, 2.5, 3, 5, 10, 100]
+        correction_factors = np.arange(1, 5, 0.2).tolist() + np.arange(50,53,0.2).tolist()
         for correction_factor in correction_factors:
             corrected_coordinates = self._calculate_angle_correction_coordinates(copy.deepcopy(self.coordinates), correction_factor, levels, self.tree.get_id())
             stress = self._calculate_stress_all_node_pairs(corrected_coordinates)
@@ -115,7 +132,7 @@ class RadialLayoutLeafCount:
         best_correction_factor = correction_factors[all_stresses.index(min(all_stresses, key=lambda x:abs(x)))]
         # print(all_stresses, best_correction_factor)
         # print("Interlen leaf ordering ------------------------", leaf_ordering_internal)
-        return self._calculate_angle_correction_coordinates(copy.deepcopy(self.coordinates), best_correction_factor, levels, self.tree.get_id())
+        return self._calculate_angle_correction_coordinates(copy.deepcopy(self.coordinates), best_correction_factor, levels, self.tree.get_id()), best_correction_factor
 
     def _calculate_angle_correction_coordinates(self, coordinates, correction_factor, level_order, root):
         coordinates[root] = np.array((0, 0))
@@ -131,13 +148,13 @@ class RadialLayoutLeafCount:
         leaf_ordering_internal = self.tree.post_order_internal()
         leaf_ordering_pivot = self.tree.pre_order()[0]
         root = self.tree.get_id()
-        pivot_root_distance = self._get_pair_distance(leaf_ordering_pivot, root)
+        pivot_root_distance = self.get_pair_distance(leaf_ordering_pivot, root)
         # self.corrected_coordinates[root] = np.array((cos(pi / (pivot_root_distance)), sin(pi / (pivot_root_distance))))
         corrected_coordinates[root] = np.array((0,0))
         # Skip root
         for node in leaf_ordering_internal[:-1]:
             print("current node", node, leaf_ordering_pivot)
-            dist = self._get_pair_distance(leaf_ordering_pivot, node)
+            dist = self.get_pair_distance(leaf_ordering_pivot, node)
             air_dist = RadialLayoutLeafCount._get_euclidian_distance(corrected_coordinates[leaf_ordering_pivot], corrected_coordinates[node])
             stress = dist / air_dist
             level = self.levels[node][1]
@@ -155,29 +172,74 @@ class RadialLayoutLeafCount:
     def _apply_angle_corrections_adjacent_node_based(self):
         leaf_ordering = self.tree.pre_order()
         corrected_coordinates = copy.deepcopy(self.coordinates)
-
-        for index, node in enumerate(leaf_ordering[1:]):
+        print("Pivot", leaf_ordering[0], leaf_ordering[-1], leaf_ordering)
+        previous_stress = 0
+        counter = 0
+        # while True:
+        for index, node in enumerate(leaf_ordering):
             previous_node = leaf_ordering[index-1]
-            dist = self._get_pair_distance(node, previous_node)
-            correction_factors = np.arange(1, 10, 0.2)
+            next_index = index+1 if index+1 < len(leaf_ordering) else index + 1 - len(leaf_ordering)
+            # print("Next index", next_index, len(leaf_ordering))
+            next_node = leaf_ordering[next_index]
+            dist_prev = max(abs(self.get_pair_distance(node, previous_node)), 0.00000001)
+            dist_next = max(abs(self.get_pair_distance(node, next_node)), 0.00000001)
+            correction_factors = np.arange(1, 10, 0.2).tolist() + np.arange(30, 35, 0.2).tolist() + np.arange(50, 55, 0.2).tolist() + np.arange(100, 105, 0.2).tolist()
             stresses = []
             for correction_factor in correction_factors:
                 angle = self.tau[node] + self.omega[node] / correction_factor
                 parent = self.levels[node][2]
                 corrected_coordinates[node] = corrected_coordinates[parent] + self.distances[node][
                     1] * np.array((cos(angle), sin(angle)))
-                air_dist = RadialLayoutLeafCount._get_euclidian_distance(corrected_coordinates[previous_node],
-                                                                corrected_coordinates[node])
-                stresses.append(dist / air_dist)
+                air_dist_prev = max(RadialLayoutLeafCount._get_euclidian_distance(corrected_coordinates[previous_node],
+                                                                corrected_coordinates[node]), 0.00000001)
+                air_dist_next = max(RadialLayoutLeafCount._get_euclidian_distance(corrected_coordinates[next_node],
+                                                                corrected_coordinates[node]), 0.00000001)
+                stress = abs(math.log2(air_dist_prev/dist_prev)) + abs(math.log2(air_dist_next/dist_next))
+                if math.isnan(stress):
+                    stress = 0.001
+                stresses.append(stress)
             minimum_stress_factor = correction_factors[stresses.index(min(stresses, key=lambda x:abs(x)))]
             angle = self.tau[node] + self.omega[node] / minimum_stress_factor
             parent = self.levels[node][2]
             corrected_coordinates[node] = corrected_coordinates[parent] + self.distances[node][
                 1] * np.array(
                 (cos(angle), sin(angle)))
-        return corrected_coordinates
+            # current_stress = self._calculate_stress_all_node_pairs(corrected_coordinates)
+            # if abs(current_stress - previous_stress) <= 10e-6 and counter >= 50:
+            #     print(current_stress, previous_stress, counter)
+            #     break
+            # else:
+            #     counter+=1
+            #     print("Iteration", current_stress, previous_stress)
+            #     previous_stress = current_stress
 
-    def _get_pair_distance(self, v1, v2):
+        return corrected_coordinates, counter
+
+        # for index, node in enumerate(leaf_ordering[1:]):
+        #     previous_node = leaf_ordering[index-1]
+        #     dist = max(abs(self._get_pair_distance(node, previous_node)), 0.000001)
+        #     correction_factors = np.arange(1, 10, 0.2).tolist() + np.arange(30, 35, 0.2).tolist() + np.arange(50, 55, 0.2).tolist() + np.arange(100, 105, 0.2).tolist()
+        #     stresses = []
+        #     for correction_factor in correction_factors:
+        #         angle = self.tau[node] + self.omega[node] / correction_factor
+        #         parent = self.levels[node][2]
+        #         corrected_coordinates[node] = corrected_coordinates[parent] + self.distances[node][
+        #             1] * np.array((cos(angle), sin(angle)))
+        #         air_dist = max(RadialLayoutLeafCount._get_euclidian_distance(corrected_coordinates[previous_node],
+        #                                                         corrected_coordinates[node]), 0.00001)
+        #         stress = abs(math.log2(air_dist/dist))
+        #         if math.isnan(stress):
+        #             stress = 0.001
+        #         stresses.append(stress)
+        #     minimum_stress_factor = correction_factors[stresses.index(min(stresses, key=lambda x:abs(x)))]
+        #     angle = self.tau[node] + self.omega[node] / minimum_stress_factor
+        #     parent = self.levels[node][2]
+        #     corrected_coordinates[node] = corrected_coordinates[parent] + self.distances[node][
+        #         1] * np.array(
+        #         (cos(angle), sin(angle)))
+        # return corrected_coordinates
+
+    def get_pair_distance(self, v1, v2):
         """
         Calculates branch distance between two nodes
         """
@@ -210,33 +272,48 @@ class RadialLayoutLeafCount:
 
         all_stresses = []
         # can be done in a more optimal way
-        for node in internal_leaf_ordering:
-            for adj_node in internal_leaf_ordering:
-                if node != adj_node:
-                    branch_distance = self._get_pair_distance(node, adj_node)
-                    air_distance = RadialLayoutLeafCount._get_euclidian_distance(coordinates[node], coordinates[adj_node])
-                    stress = abs(math.log2(air_distance / branch_distance))
-                    # print(f"Stress between node {node} and adj node {adj_node} is {stress}, air_distance {air_distance}, branch distance {branch_distance}")
-                    if math.isnan(stress):
-                        stress = 0
-                    all_stresses.append(stress)
+        for node,adj_node in itertools.combinations(internal_leaf_ordering,2):
+            branch_distance = max(abs(self.get_pair_distance(node, adj_node)), 0.00000001)
+            air_distance = max(RadialLayoutLeafCount._get_euclidian_distance(coordinates[node], coordinates[adj_node]), 0.00000001)
+            stress = abs(math.log2(air_distance / branch_distance))
+            # print(f"Stress between node {node} and adj node {adj_node} is {stress}, air_distance {air_distance}, branch distance {branch_distance}")
+            if math.isnan(stress):
+                stress = 0
+            all_stresses.append(stress)
         return sum(all_stresses) / len(all_stresses)
+
 
     def _calculate_stress_all_leaf_node_pairs(self, coordinates):
         leaf_ordering = self.tree.pre_order()
 
         all_stresses = []
         # can be done in a more optimal way
-        for node in leaf_ordering:
+        for index, node in enumerate(leaf_ordering[1:]):
             for adj_node in leaf_ordering:
                 if node != adj_node:
-                    branch_distance = self._get_pair_distance(node, adj_node)
-                    air_distance = RadialLayoutLeafCount._get_euclidian_distance(coordinates[node], coordinates[adj_node])
-                    all_stresses.append(abs(math.log2(air_distance / branch_distance)))
+                    branch_distance = max(abs(self.get_pair_distance(node, adj_node)),0.00001)
+                    air_distance = max(RadialLayoutLeafCount._get_euclidian_distance(coordinates[node], coordinates[adj_node]), 0.000000001)
+                    stress = abs(math.log2(air_distance / branch_distance))
+
+                    if math.isnan(stress):
+                        stress = 0
+                    all_stresses.append(stress)
 
         return sum(all_stresses) / len(all_stresses)
 
 
+    # @staticmethod
+    # def get_plotted_tree(tree, points, tree_node_mapping, figure):
+    #     tree_data = []
+    #     RadialLayoutLeafCount.plot_tree_bokeh(tree, points, figure, tree_data, root_id = tree.get_id())
+    #     x_coordinates, y_coordinates, node_labels = list(zip(*tree_data))
+    #     node_labels = [tree_node_mapping.get(node, node) for node in node_labels]
+    #     source = ColumnDataSource(data=dict(x=x_coordinates,
+    #                                         y=y_coordinates,
+    #                                         labels=node_labels))
+    #     labels = LabelSet(x='x', y='y', text='labels',
+    #                       x_offset=0, y_offset=0, source=source, render_mode='canvas')
+    #     figure.add_layout(labels)
     @staticmethod
     def get_plotted_tree(tree, points, tree_node_mapping, figure):
         tree_data = []
@@ -247,7 +324,7 @@ class RadialLayoutLeafCount:
                                             y=y_coordinates,
                                             labels=node_labels))
         labels = LabelSet(x='x', y='y', text='labels',
-                          x_offset=0, y_offset=0, source=source, render_mode='canvas')
+                          x_offset=0, y_offset=0, source=source, render_mode='canvas',text_font_size='70pt',text_color='black')
         figure.add_layout(labels)
 
     @staticmethod
@@ -260,7 +337,7 @@ class RadialLayoutLeafCount:
             child_id = child.get_id()
             child_x_coordinate, child_y_coordinate = points[child_id]
             tree_data.append((child_x_coordinate, child_y_coordinate, child_id))
-            figure.line(x=[node_x_coordinate, child_x_coordinate], y=[node_y_coordinate, child_y_coordinate])
+            figure.line(x=[node_x_coordinate, child_x_coordinate], y=[node_y_coordinate, child_y_coordinate], line_alpha = 0.9, line_width=25)
             RadialLayoutLeafCount.plot_tree_bokeh(child, points, figure, tree_data)
 
 
@@ -305,7 +382,7 @@ class RadialLayoutBranchLength(RadialLayoutLeafCount):
         corrected_coordinates[root] = np.array((0, 0))
         # # Skip root
         for node,level in levels:
-            dist = self._get_pair_distance(leaf_ordering_pivot, node)
+            dist = self.get_pair_distance(leaf_ordering_pivot, node)
             air_dist = RadialLayoutLeafCount._get_euclidian_distance(corrected_coordinates[leaf_ordering_pivot], corrected_coordinates[node])
             stress = dist / air_dist
             level = self.levels[node][1]

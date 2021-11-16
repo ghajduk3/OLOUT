@@ -74,23 +74,23 @@ class KOLO:
         return ordered_tree, optimal_ordering
 
     def __get_optimal_ordered_tree(self,v, distance_matrix):
-        print(f"----------- Permuration wrapper, root node is {v.get_id()} with children {[child.get_id() for child in v.get_children()]} ------------")
+        # print(f"----------- Permuration wrapper, root node is {v.get_id()} with children {[child.get_id() for child in v.get_children()]} ------------")
         v_children = v.get_children()
         children_number = len(v_children)
 
         if children_number >= 3:
-            print(f"There are  three children for node {v.get_id()}")
+            # print(f"There are  three children for node {v.get_id()}")
             possible_permutations = get_combinations(list(range(children_number)), math.ceil(children_number/2))
             # Calculate the score for best permutation, left and right nodes
             best_permutation = (10e10, 0, 0)
-            print('Possible permutations ', possible_permutations)
+            # print('Possible permutations ', possible_permutations)
 
             dummy_node_left = TreeNode(self.int_dummy_node,0)
             self.internal_dummy_nodes.append(self.int_dummy_node)
             self.int_dummy_node += 1
 
             if children_number > 3:
-                print("More than 3 children")
+                # print("More than 3 children")
                 dummy_node_right = TreeNode(self.int_dummy_node, 0)
                 self.internal_dummy_nodes.append(self.int_dummy_node)
 
@@ -99,11 +99,11 @@ class KOLO:
             v_copy = copy.deepcopy(v)
 
             for left_indexes, right_indexes in possible_permutations:
-                print(f"Current permutation is with left part indexes {left_indexes}, right part indexes {right_indexes}")
+                # print(f"Current permutation is with left part indexes {left_indexes}, right part indexes {right_indexes}")
                 v_variable = copy.deepcopy(v_copy)
                 left_nodes = [v_variable.get_children()[index] for index in [*left_indexes]]
                 right_nodes = [v_variable.get_children()[index] for index in [*right_indexes]]
-                print(f"Nodes within the current permutation are left nodes {[child.get_id() for child in left_nodes]}, right nodes {[child.get_id() for child in right_nodes]}")
+                # print(f"Nodes within the current permutation are left nodes {[child.get_id() for child in left_nodes]}, right nodes {[child.get_id() for child in right_nodes]}")
 
                 dummy_node_left.children = left_nodes
                 v_variable.children = [dummy_node_left]
@@ -113,13 +113,13 @@ class KOLO:
                 else:
                     v_variable.children.insert(1,right_nodes[0])
 
-                print(f"After permutation insertion v with id {v_variable.get_id()} has children {[child.get_id() for child in v_variable.get_children()]}")
+                # print(f"After permutation insertion v with id {v_variable.get_id()} has children {[child.get_id() for child in v_variable.get_children()]}")
                 self.__optimal_ordering(v_variable, distance_matrix)
 
                 best_permutation = self.__get_best_permutation(v_variable, left_nodes, right_nodes, best_permutation)
 
             score,left,right = best_permutation
-            print(f"Best permutation is with score {score}, with left nodes {[child.get_id() for child in left]} and with right nodes {[child.get_id() for child in right]}, {leaves(right[0])}")
+            # print(f"Best permutation is with score {score}, with left nodes {[child.get_id() for child in left]} and with right nodes {[child.get_id() for child in right]}, {leaves(right[0])}")
             dummy_node_left.children = left
 
             if children_number > 3:
@@ -129,10 +129,10 @@ class KOLO:
                 v.children = [right[0]]
 
             v.children.insert(0,dummy_node_left)
-            print(f"After choosing the best permutation v with id {v.get_id()} has children {[child.get_id() for child in v.get_children()]} and leaves {v.pre_order()}")
+            # print(f"After choosing the best permutation v with id {v.get_id()} has children {[child.get_id() for child in v.get_children()]} and leaves {v.pre_order()}")
 
         else:
-            print(f"with children {[child.get_id() for child in v.get_children()]}")
+            # print(f"with children {[child.get_id() for child in v.get_children()]}")
             return self.__optimal_ordering(v, distance_matrix)
 
     def __optimal_ordering(self, v, distance_matrix):
@@ -147,7 +147,7 @@ class KOLO:
             right_node = v.get_right()
             L = left_node.pre_order()
             R = right_node.pre_order()
-            print(f"Node id {v.get_id()}")
+            # print(f"Node id {v.get_id()}")
 
             self.__get_optimal_ordered_tree(left_node,distance_matrix)
             self.__get_optimal_ordered_tree(right_node, distance_matrix)

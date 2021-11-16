@@ -5,6 +5,8 @@ import typing
 
 import numpy as np
 import rootpath
+import shutil
+import signal
 
 from olout.utils import constants
 from olout.utils import pipeline
@@ -13,7 +15,16 @@ from olout.utils.utilities import write_to_json
 
 FINAL_DATA_PATH = os.path.join(rootpath.detect(), 'data', 'final_data')
 EVALUATION_DATA_PATH = os.path.join(rootpath.detect(), 'data', 'evaluations')
+QUARANTINE_EVAL_DATA_PATH = os.path.join(rootpath.detect(), 'data', 'quarantine_evaluations')
+QUARANTINE_DATA_PATH = os.path.join(rootpath.detect(), 'data', 'quarantine')
 
+class TimeoutException(Exception):   # Custom exception class
+    pass
+
+def timeout_handler(signum, frame):   # Custom signal handler
+    raise TimeoutException
+
+signal.signal(signal.SIGALRM, timeout_handler)
 
 def evaluation_suite(phylogenetic_tree: str, distance_matrix: np.ndarray, radial_visualization_method=constants.RADIAL_LAYOUT_BRANCH_LENGTH) -> typing.Dict:
     """
@@ -73,18 +84,28 @@ def run_evaluation_suites(recreate_data=False, radial_visualization_method=const
 
     eval_data_paths = sorted(os.listdir(EVALUATION_DATA_PATH))
     final_data_paths = sorted(list(set(os.listdir(FINAL_DATA_PATH)) - set(eval_data_paths)))
-    print(final_data_paths)
-    # for index, directory in enumerate(final_data_paths):
-    #     json_file = open(os.path.join(FINAL_DATA_PATH, directory, 'data.json'), 'r')
-    #     data_json = json.load(json_file)
-    #     print('-----------DIRECTORY-----------',directory)
-    #     nexus_file_url, phylogenetic_newick_string, distance_matrix, tree_node_mapping = data_json.values()
-    #     try:
-    #         evaluated_data = evaluation_suite(phylogenetic_newick_string, distance_matrix,
-    #                                           radial_visualization_method=radial_visualization_method)
-    #         # write_to_json(evaluated_data, os.path.join(EVALUATION_DATA_PATH, directory), file_name=file_name)
-    #     except Exception:
-    #         continue
+    # print(eval_data_paths.index('S143871'))
+    # 'S149010'
+    quarantine_dirs = ['S142460', 'S144450', 'S140387',  'S156650', 'S117860', 'S154520', 'S121280', 'S140171', 'S125532', 'S113120', 'S142874', 'S137600', 'S109432', 'S122121', 'S125530', 'S134496', 'S134830', 'S150510', 'S142873', 'S134491', 'S124821', 'S118360', 'S140170', 'S122120', 'S144600', 'S123691', 'S141831', 'S139471', 'S139470', 'S142875', 'S137543', 'S141444', 'S140380', 'S112360', 'S150111', 'S1403812', 'S123242', 'S127380', 'S141442', 'S118181', 'S122571', 'S129962', 'S140389', 'S144030', 'S128403', 'S128400', 'S137542', 'S128401', 'S128402', 'S154421', 'S119490', 'S158220', 'S145530']
+    for index, directory in enumerate(eval_data_paths):
+        json_file = open(os.path.join(FINAL_DATA_PATH, directory, 'data.json'), 'r')
+        data_json = json.load(json_file)
+        print('-----------DIRECTORY-----------',directory)
+        nexus_file_url, phylogenetic_newick_string, distance_matrix, tree_node_mapping = data_json.values()
+        signal.alarm(900)
+        try:
+            evaluated_data = evaluation_suite(phylogenetic_newick_string, distance_matrix,
+                                              radial_visualization_method=radial_visualization_method)
+            write_to_json(evaluated_data, os.path.join(EVALUATION_DATA_PATH, directory), file_name=file_name)
+        except TimeoutException:
+            continue  # continue the for loop if function A takes more than 5 second
+        except Exception as e:
+            print("exception", e)
+            # shutil.rmtree(os.path.join(FINAL_DATA_PATH, directory))
+            continue
+        else:
+            # Reset the alarm
+            signal.alarm(0)
 
 
 def run_single_evaluation_suite(suite_name: str, radial_visualization_method=constants.RADIAL_LAYOUT_BRANCH_LENGTH) -> None:
@@ -104,4 +125,4 @@ def run_single_evaluation_suite(suite_name: str, radial_visualization_method=con
     evaluation_suite(phylogenetic_newick_string, distance_matrix, radial_visualization_method=radial_visualization_method)
 
 if __name__ == '__main__':
-    run_evaluation_suites(radial_visualization_method=constants.RADIAL_LAYOUT_BRANCH_LENGTH, file_name='data_branch_length')
+    run_evaluation_suites(radial_visualization_method=constants.RADIAL_LAYOUT_LEAF_COUNT, file_name='data_leaf_count')
