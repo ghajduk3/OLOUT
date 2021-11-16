@@ -86,7 +86,6 @@ def run_evaluation_suites(recreate_data=False, radial_visualization_method=const
     final_data_paths = sorted(list(set(os.listdir(FINAL_DATA_PATH)) - set(eval_data_paths)))
     # print(eval_data_paths.index('S143871'))
     # 'S149010'
-    quarantine_dirs = ['S142460', 'S144450', 'S140387',  'S156650', 'S117860', 'S154520', 'S121280', 'S140171', 'S125532', 'S113120', 'S142874', 'S137600', 'S109432', 'S122121', 'S125530', 'S134496', 'S134830', 'S150510', 'S142873', 'S134491', 'S124821', 'S118360', 'S140170', 'S122120', 'S144600', 'S123691', 'S141831', 'S139471', 'S139470', 'S142875', 'S137543', 'S141444', 'S140380', 'S112360', 'S150111', 'S1403812', 'S123242', 'S127380', 'S141442', 'S118181', 'S122571', 'S129962', 'S140389', 'S144030', 'S128403', 'S128400', 'S137542', 'S128401', 'S128402', 'S154421', 'S119490', 'S158220', 'S145530']
     for index, directory in enumerate(eval_data_paths):
         json_file = open(os.path.join(FINAL_DATA_PATH, directory, 'data.json'), 'r')
         data_json = json.load(json_file)
@@ -101,7 +100,6 @@ def run_evaluation_suites(recreate_data=False, radial_visualization_method=const
             continue  # continue the for loop if function A takes more than 5 second
         except Exception as e:
             print("exception", e)
-            # shutil.rmtree(os.path.join(FINAL_DATA_PATH, directory))
             continue
         else:
             # Reset the alarm
