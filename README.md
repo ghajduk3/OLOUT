@@ -4,8 +4,8 @@
 Table of contents:
 1. [Project description](#description)
 2. [Goals](#goals)
-3. [Solution](#solutions)
-4. [Data](#data)
+3. [Data](#data)
+4. [Data transformation pipeline](#datatransform)
 
 
 <a name="description"></a>
@@ -32,6 +32,7 @@ we collected the publicly available data from the online phylogenetic tree datab
 We collected 1952 available publication data in Nexus format out of which we processed 369 phylogenetic
 trees that follow the standard Newick format notation. The source data collected in Nexus format is available in the [source data](data/source_data) directory. 
 
+<a name="datatransform"></a>
 ## Data transformation pipeline
 As described in the Thesis, publicly available phylogenetic databases
 usually store the phylogenetic trees as Newick Formatted strings without providing the original distance matrix neither the algorithm used for the construction of the phylogenetic trees. 
