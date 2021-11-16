@@ -23,7 +23,7 @@ For this purpose, we divide the problem into two subproblems:
   `Bachmaier et al.` for visualizing phylogenetic trees in 2-dimensional space, which takes into account the induced linear leaf order
     - We aim to present an evaluation metric to measure the quality of the layout in 2-dimensional space.
     - We aim to present and explore an alternative heuristic for the Radial Layout that takes into account the specifics of phylogenetic trees.
-    - We aim to introduce and explore two postprocessing algorithms applied to the Radial Layout so that the quality of the visualization layout is improved.
+    - We aim to present two postprocessing algorithms applied to the Radial Layout so that the quality of the visualization layout is improved.
 
 <a name="data"></a>
 ## Data
@@ -33,8 +33,31 @@ We collected 1952 available publication data in Nexus format out of which we pro
 trees that follow the standard Newick format notation. The source data collected in Nexus format is available in the [source data](data/source_data) directory. 
 
 ## Data transformation pipeline
+As described in the Thesis, publicly available phylogenetic databases
+usually store the phylogenetic trees as Newick Formatted strings without providing the original distance matrix neither the algorithm used for the construction of the phylogenetic trees. 
+The algorithms that infer the optimal linear leaf ordering base their procedure on the evolutionary distance between leaf nodes,
+therefore they need to reconstruct the distance matrix first.
+To tackle the above described problems, as a first contribution of the thesis we construct a
+data transformation pipeline that extracts, transforms and loads the raw phylogenetic data available from the database, [TreeBase](https://treebase.org/treebase-web/home.html).
 
-    
+The transformation pipeline that constructs the final transformed dataset and is stored in [preprocess](olout/utils/preprocess.py) python module.
+The pipeline consists of several steps:
+- Parses the raw Nexus files.
+- Extracts the phylogenetic tree in the Newick format along with the node-label mapping.
+- Extracts the URL of the publication data available at [TreeBase](https://treebase.org/treebase-web/home.html)
+- Reconstructs original distance matrix.
+- Stores the extracted and constructed data as `JSON` formatted files in the [final_data](data/final_data) directory.
+
+All the data for the 369 processed phylogenetic trees that follow the standard Newick format notation is available in the [final_data](data/final_data) directory.
+Each processed publication `JSON` file from the `final data` consists from following fields:
+  ```
+  {
+    "NEXUS_FILE_URL": "...",
+    "NEWICK_TREE": "...",
+    "DISTANCE_MATRIX": [[]],
+    "NODE_MAPPING" : [[]]
+  }
+```
 <a name="solutions"></a>
 ## Implemented algorithms 
 
