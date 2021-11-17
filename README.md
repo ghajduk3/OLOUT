@@ -84,7 +84,49 @@ To install the project, in the root of the project issue:
 ```shell script
 python setup.py install 
 ```
-## Experiment reproduction  
+## Experiment reproduction 
+To reproduce the experiments described in the Thesis we created an evaluation pipeline. As described in the Thesis
+an evaluation suite consists out of four different layouts for both available heuristics `LEAF COUNT` and `BRANCH LENGTH`:
+
+- Radial Layout of the unordered phylogenetic tree
+- Radial Layout of the optimally ordered phylogenetic tree with KOLO
+- ANBC algorithm node corrections to the Radial Layout
+- FFAC algorithm node corrections to the Radial Layout 
+
+Before running the experiments make sure that the dataset is constructed and located in [final_data](data/final_data). **Note** Final dataset is preparede and ready in this repository.
+To run the experiments issue:
+```python
+from olout.utils import  evaluation_pipeline, constants
+
+if __name__ == "__main__":
+        # Radial Layout using LEAF_COUNT as the heuristic (RLALC algorithm)
+        evaluation_pipeline.run_evaluation_suites(radial_visualization_method=constants.RADIAL_LAYOUT_LEAF_COUNT, file_name='data_leaf_count')
+        # Radial Layout using BRANCH_LENGTH as the heuristic (RLABL algorithm)
+        evaluation_pipeline.run_evaluation_suites(radial_visualization_method=constants.RADIAL_LAYOUT_BRANCH_LENGTH, file_name='data_branch_length')
+```
+
+After the experiments are successfully completed the evaluation data will be created in the [evaluations](data/evaluations) directory.
+For each phylogenetic tree from the collected dataset a new evaluation directory will be created consisting of two `json` files, `data_branch_length.json` for the layouts based on the `RLABL` algorithm
+and `data_leaf_count.json` for the layouts based on the `RLALC` algorithm. 
+
+Each evaluation file consists from the following fields:
+
+  - nodes_number
+  - number_leaves
+  - optimal_leaf_ordering 
+  - execution_time_kolo
+  - radial_points_unordered
+  - radial_points_unordered
+  - radial_points_ordered_pivot_based_angle_correction
+  - radial_points_ordered_adjacent_node_based_angle_correction
+  - unordered_tree_stress,
+  - ordered_tree_stress
+  - ordered_tree_fixed_angle_correction_stress
+  - ordered_tree_adj_based_corrections_stress
+  - execution_time_radial_layout
+  - execution_time_corrections_adj_based
+  - execution_time_corrections_fixed_based 
+  - ffac_best_correction_factor
 
 
 

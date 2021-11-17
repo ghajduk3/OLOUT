@@ -123,4 +123,4 @@ def run_single_evaluation_suite(suite_name: str, radial_visualization_method=con
     evaluation_suite(phylogenetic_newick_string, distance_matrix, radial_visualization_method=radial_visualization_method)
 
 if __name__ == '__main__':
-    run_evaluation_suites(radial_visualization_method=constants.RADIAL_LAYOUT_LEAF_COUNT, file_name='data_leaf_count')
+    run_evaluation_suites(radial_visualization_method=constants.RADIAL_LAYOUT_LEAF_COUNT, file_name='data_leaf')
