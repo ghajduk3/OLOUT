@@ -148,8 +148,11 @@ if __name__ == '__main__':
 ```
 The critical difference graphs should be generated as:
  - CD graph for both heuristic methods (RLALC and RLABL)
+
 ![Alt text](data/images/both_heuristic_CD.png)
+ 
  - CD graph for RLALC algorithm
+
 ![Alt text](data/images/leaf_count_CD.png)
 
 
