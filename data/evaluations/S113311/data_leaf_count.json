@@ -1,7 +1,7 @@
 {
-    "nodes_number": 243,
+    "number_nodes": 243,
     "number_leaves": 122,
-    "leaf_ordering_kolo": [
+    "optimal_leaf_ordering_kolo": [
         "7",
         "8",
         "6",
@@ -125,132 +125,8 @@
         "2",
         "1"
     ],
-    "execution_time_kolo": 0.2609579563140869,
-    "optimal_leaf_ordering": [
-        "7",
-        "8",
-        "6",
-        "5",
-        "4",
-        "3",
-        "11",
-        "10",
-        "9",
-        "12",
-        "13",
-        "14",
-        "16",
-        "15",
-        "18",
-        "20",
-        "19",
-        "22",
-        "21",
-        "24",
-        "25",
-        "23",
-        "30",
-        "31",
-        "38",
-        "39",
-        "36",
-        "37",
-        "35",
-        "33",
-        "34",
-        "32",
-        "26",
-        "29",
-        "28",
-        "27",
-        "17",
-        "42",
-        "43",
-        "41",
-        "44",
-        "51",
-        "52",
-        "53",
-        "50",
-        "46",
-        "45",
-        "47",
-        "56",
-        "55",
-        "48",
-        "49",
-        "54",
-        "40",
-        "57",
-        "59",
-        "58",
-        "111",
-        "106",
-        "105",
-        "113",
-        "115",
-        "112",
-        "114",
-        "109",
-        "110",
-        "108",
-        "107",
-        "104",
-        "102",
-        "103",
-        "101",
-        "117",
-        "118",
-        "119",
-        "120",
-        "122",
-        "121",
-        "116",
-        "63",
-        "62",
-        "60",
-        "61",
-        "99",
-        "74",
-        "73",
-        "75",
-        "76",
-        "77",
-        "78",
-        "88",
-        "90",
-        "89",
-        "85",
-        "87",
-        "86",
-        "95",
-        "96",
-        "97",
-        "91",
-        "92",
-        "93",
-        "94",
-        "98",
-        "84",
-        "100",
-        "71",
-        "70",
-        "69",
-        "72",
-        "68",
-        "67",
-        "66",
-        "65",
-        "64",
-        "83",
-        "79",
-        "80",
-        "82",
-        "81",
-        "2",
-        "1"
-    ],
-    "radial_points_unordered": {
+    "execution_time_kolo": 0.27244997024536133,
+    "radial_layout_points_unordered_tree": {
         "1000": [
             0,
             0
@@ -1224,7 +1100,7 @@
             -0.000647011379445262
         ]
     },
-    "radial_points_ordered_no_correction": {
+    "radial_layout_points_ordered_tree": {
         "1000": [
             0,
             0
@@ -2198,7 +2074,7 @@
             -0.0005898628899674299
         ]
     },
-    "radial_points_ordered_pivot_based_angle_correction": {
+    "radial_layout_points_ordered_tree_FFAC": {
         "1000": [
             0,
             0
@@ -3172,7 +3048,7 @@
             -0.0005898628899674299
         ]
     },
-    "radial_points_ordered_adjacent_node_based_angle_correction": {
+    "radial_layout_points_ordered_tree_ANBC": {
         "1000": [
             0,
             0
@@ -4146,12 +4022,12 @@
             -0.0003215203130583836
         ]
     },
-    "unordered_tree_stress": 0.5299836292679613,
-    "ordered_tree_stress": 0.5299829194666679,
-    "ordered_tree_fixed_angle_correction_stress": 0.5299829194666679,
-    "ordered_tree_adj_based_corrections_stress": 0.5293681628428728,
-    "execution_time_radial_layout": 0.21382832527160645,
-    "execution_time_corrections_adj_based": 0.39160585403442383,
-    "execution_time_corrections_fixed_based": 7.629423141479492,
-    "ffac_best_correction_factor": 1.9999999999999998
+    "radial_layout_unordered_tree_stress": 0.5299836292679613,
+    "radial_layout_ordered_tree_stress": 0.5299829194666679,
+    "radial_layout_ordered_tree_FFAC_stress": 0.5299829194666679,
+    "radial_layout_ordered_tree_ANBC_stress": 0.5293681628428728,
+    "execution_time_radial_layout": 0.22118711471557617,
+    "execution_time_ANBC": 0.40666913986206055,
+    "execution_time_FFAC": 8.160606145858765,
+    "FFAC_best_correction_factor": 1.9999999999999998
 }

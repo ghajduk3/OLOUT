@@ -7,6 +7,7 @@ Table of contents:
 3. [Data](#data)
 4. [Data transformation pipeline](#datatransform)
 5. [Package setup](#setup)
+6. [Reproduction of experiments](#experiment)
 
 
 <a name="description"></a>
@@ -84,7 +85,9 @@ To install the project, in the root of the project issue:
 ```shell script
 python setup.py install 
 ```
-## Experiment reproduction 
+
+<a name="experiment"></a>
+## Experiments reproduction 
 To reproduce the experiments described in the Thesis we created an evaluation pipeline. As described in the Thesis
 an evaluation suite consists out of four different layouts for both available heuristics `LEAF COUNT` and `BRANCH LENGTH`:
 
@@ -110,24 +113,44 @@ For each phylogenetic tree from the collected dataset a new evaluation directory
 and `data_leaf_count.json` for the layouts based on the `RLALC` algorithm. 
 
 Each evaluation file consists from the following fields:
-
-  - nodes_number
-  - number_leaves
-  - optimal_leaf_ordering 
+  - number_nodes
+  - number_leaves 
+  - optimal_leaf_ordering_kolo 
   - execution_time_kolo
-  - radial_points_unordered
-  - radial_points_unordered
-  - radial_points_ordered_pivot_based_angle_correction
-  - radial_points_ordered_adjacent_node_based_angle_correction
-  - unordered_tree_stress,
-  - ordered_tree_stress
-  - ordered_tree_fixed_angle_correction_stress
-  - ordered_tree_adj_based_corrections_stress
-  - execution_time_radial_layout
-  - execution_time_corrections_adj_based
-  - execution_time_corrections_fixed_based 
-  - ffac_best_correction_factor
+  - radial_layout_points_unordered_tree
+  - radial_layout_points_ordered_tree 
+  - radial_layout_points_ordered_tree_FFAC
+  - radial_layout_points_ordered_tree_ANBC 
+  - radial_layout_unordered_tree_stress 
+  - radial_layout_ordered_tree_stress 
+  - radial_layout_ordered_tree_FFAC_stress 
+  - radial_layout_ordered_tree_ANBC_stress 
+  - execution_time_radial_layout 
+  - execution_time_ANBC 
+  - execution_time_FFAC 
+  - FFAC_best_correction_factor
 
+After obtaining the experimental evaluation results for each phylogenetic tree from the collected dataset, issue the following script to join the data necessary for further evaluation results:
+```python
+from olout.utils import result_processing
+import Orange
+import matplotlib.pyplot as plt
+
+if __name__ == '__main__':
+    # Joins the evaluation results // creates joined in data/evaluation_data_joined.csv
+    result_processing.join_evaluation_results()
+    # Averages the ranks of all algorithms for both Radial Layout heuristics
+    # This is neccessary for calculating the Critical Difference graph
+    col_name, col_avg, num_experiments = result_processing.evaluate_all_visualization_methods()
+    
+    # Critical Difference graph 
+    result_processing.construct_CD_graph(col_name, col_avg, num_experiments)
+```
+The critical difference graphs should be generated as:
+ - CD graph for both heuristic methods (RLALC and RLABL)
+![Alt text](data/images/both_heuristic_CD.png)
+ - CD graph for RLALC algorithm
+![Alt text](data/images/leaf_count_CD.png)
 
 
 ## Usage 

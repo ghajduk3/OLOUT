@@ -1,7 +1,7 @@
 {
-    "nodes_number": 199,
+    "number_nodes": 199,
     "number_leaves": 100,
-    "leaf_ordering_kolo": [
+    "optimal_leaf_ordering_kolo": [
         "48",
         "61",
         "67",
@@ -103,110 +103,8 @@
         "1",
         "3"
     ],
-    "execution_time_kolo": 0.1599433422088623,
-    "optimal_leaf_ordering": [
-        "48",
-        "61",
-        "67",
-        "69",
-        "57",
-        "79",
-        "60",
-        "73",
-        "68",
-        "51",
-        "64",
-        "76",
-        "53",
-        "46",
-        "90",
-        "55",
-        "88",
-        "81",
-        "56",
-        "84",
-        "21",
-        "19",
-        "31",
-        "40",
-        "13",
-        "25",
-        "16",
-        "20",
-        "12",
-        "14",
-        "28",
-        "15",
-        "24",
-        "32",
-        "77",
-        "36",
-        "26",
-        "30",
-        "44",
-        "39",
-        "62",
-        "29",
-        "33",
-        "27",
-        "43",
-        "74",
-        "49",
-        "70",
-        "35",
-        "18",
-        "54",
-        "42",
-        "65",
-        "50",
-        "85",
-        "11",
-        "23",
-        "22",
-        "78",
-        "34",
-        "38",
-        "93",
-        "52",
-        "83",
-        "89",
-        "47",
-        "82",
-        "86",
-        "41",
-        "75",
-        "100",
-        "71",
-        "72",
-        "91",
-        "96",
-        "97",
-        "99",
-        "66",
-        "37",
-        "45",
-        "63",
-        "59",
-        "92",
-        "80",
-        "98",
-        "95",
-        "58",
-        "94",
-        "4",
-        "6",
-        "9",
-        "7",
-        "5",
-        "8",
-        "10",
-        "17",
-        "87",
-        "2",
-        "1",
-        "3"
-    ],
-    "radial_points_unordered": {
+    "execution_time_kolo": 0.16565465927124023,
+    "radial_layout_points_unordered_tree": {
         "1000": [
             0,
             0
@@ -1004,7 +902,7 @@
             -0.12841998716988345
         ]
     },
-    "radial_points_ordered_no_correction": {
+    "radial_layout_points_ordered_tree": {
         "1000": [
             0,
             0
@@ -1802,7 +1700,7 @@
             -0.10964865043195748
         ]
     },
-    "radial_points_ordered_pivot_based_angle_correction": {
+    "radial_layout_points_ordered_tree_FFAC": {
         "1000": [
             0,
             0
@@ -2600,7 +2498,7 @@
             -0.11889267082676733
         ]
     },
-    "radial_points_ordered_adjacent_node_based_angle_correction": {
+    "radial_layout_points_ordered_tree_ANBC": {
         "1000": [
             0,
             0
@@ -3398,12 +3296,12 @@
             -0.10029138530258311
         ]
     },
-    "unordered_tree_stress": 0.4672684688826821,
-    "ordered_tree_stress": 0.46775636192970316,
-    "ordered_tree_fixed_angle_correction_stress": 0.4672065610872353,
-    "ordered_tree_adj_based_corrections_stress": 0.46733798619384925,
-    "execution_time_radial_layout": 0.15122032165527344,
-    "execution_time_corrections_adj_based": 0.2990586757659912,
-    "execution_time_corrections_fixed_based": 5.729676008224487,
-    "ffac_best_correction_factor": 2.1999999999999997
+    "radial_layout_unordered_tree_stress": 0.4672684688826821,
+    "radial_layout_ordered_tree_stress": 0.46775636192970316,
+    "radial_layout_ordered_tree_FFAC_stress": 0.4672065610872353,
+    "radial_layout_ordered_tree_ANBC_stress": 0.46733798619384925,
+    "execution_time_radial_layout": 0.17977404594421387,
+    "execution_time_ANBC": 0.41774725914001465,
+    "execution_time_FFAC": 6.4906017780303955,
+    "FFAC_best_correction_factor": 2.1999999999999997
 }

@@ -143,18 +143,18 @@ def radial_visualization(ordered_tree: TreeNode, unordered_tree: TreeNode, tree_
     radial_layout_unordered_tree.get_plotted_tree(unordered_tree, radial_points_unordered, tree_node_mapping,  p_1)
 
     figure_arguments.update(
-        {'title': f"Ordered tree no corrections,stress : {stress:.3f}"})
+        {'title': f"Ordered tree,stress : {stress:.3f}"})
     p_2 = figure(**figure_arguments)
     radial_layout_ordered_tree.get_plotted_tree(ordered_tree, radial_points, tree_node_mapping,  p_2)
 
     figure_arguments.update(
-        {'title': f"Ordered tree fixed factor corrections,stress : {stress_pivot_based:.3f}"})
+        {'title': f"Ordered tree - FFAC,stress : {stress_pivot_based:.3f}"})
     p_3 = figure(**figure_arguments)
 
     radial_layout_ordered_tree.get_plotted_tree(ordered_tree, radial_points_pivot_based, tree_node_mapping,  p_3)
 
     figure_arguments.update(
-        {'title': f"Ordered tree adjacent node corrections,stress : {stress_angle_based:.3f}"})
+        {'title': f"Ordered tree - ANBC,stress : {stress_angle_based:.3f}"})
     p_4 = figure(**figure_arguments)
 
     radial_layout_ordered_tree.get_plotted_tree(ordered_tree, radial_points_angle_based, tree_node_mapping,  p_4)
@@ -163,18 +163,18 @@ def radial_visualization(ordered_tree: TreeNode, unordered_tree: TreeNode, tree_
         show(row(p_1, p_2, p_3, p_4, sizing_mode='scale_both'))
 
     evaluation_data = {
-                        'radial_points_unordered': transform_to_json_serializable(radial_points_unordered),
-                        'radial_points_ordered_no_correction': transform_to_json_serializable(radial_points),
-                        'radial_points_ordered_pivot_based_angle_correction': transform_to_json_serializable(radial_points_pivot_based),
-                        'radial_points_ordered_adjacent_node_based_angle_correction': transform_to_json_serializable(radial_points_angle_based),
-                        'unordered_tree_stress': stress_unordered,
-                        'ordered_tree_stress': stress,
-                        'ordered_tree_fixed_angle_correction_stress': stress_pivot_based,
-                        'ordered_tree_adj_based_corrections_stress': stress_angle_based,
+                        'radial_layout_points_unordered_tree': transform_to_json_serializable(radial_points_unordered),
+                        'radial_layout_points_ordered_tree': transform_to_json_serializable(radial_points),
+                        'radial_layout_points_ordered_tree_FFAC': transform_to_json_serializable(radial_points_pivot_based),
+                        'radial_layout_points_ordered_tree_ANBC': transform_to_json_serializable(radial_points_angle_based),
+                        'radial_layout_unordered_tree_stress': stress_unordered,
+                        'radial_layout_ordered_tree_stress': stress,
+                        'radial_layout_ordered_tree_FFAC_stress': stress_pivot_based,
+                        'radial_layout_ordered_tree_ANBC_stress': stress_angle_based,
                         'execution_time_radial_layout': time_radial_layout,
-                        'execution_time_corrections_adj_based': time_radial_layout_adj_correct,
-                        'execution_time_corrections_fixed_based': time_radial_layout_fixed_correct,
-                        'ffac_best_correction_factor': best_correction_factor,
+                        'execution_time_ANBC': time_radial_layout_adj_correct,
+                        'execution_time_FFAC': time_radial_layout_fixed_correct,
+                        'FFAC_best_correction_factor': best_correction_factor,
     }
     return evaluation_data
 

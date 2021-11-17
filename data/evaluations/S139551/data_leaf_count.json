@@ -1,7 +1,7 @@
 {
-    "nodes_number": 14,
+    "number_nodes": 14,
     "number_leaves": 8,
-    "leaf_ordering_kolo": [
+    "optimal_leaf_ordering_kolo": [
         "2",
         "5",
         "3",
@@ -11,18 +11,8 @@
         "8",
         "1"
     ],
-    "execution_time_kolo": 0.0014460086822509766,
-    "optimal_leaf_ordering": [
-        "2",
-        "5",
-        "3",
-        "4",
-        "6",
-        "7",
-        "8",
-        "1"
-    ],
-    "radial_points_unordered": {
+    "execution_time_kolo": 0.001739501953125,
+    "radial_layout_points_unordered_tree": {
         "1000": [
             0,
             0
@@ -80,7 +70,7 @@
             -0.3402795980389554
         ]
     },
-    "radial_points_ordered_no_correction": {
+    "radial_layout_points_ordered_tree": {
         "1000": [
             0,
             0
@@ -138,7 +128,7 @@
             -0.1634729974795051
         ]
     },
-    "radial_points_ordered_pivot_based_angle_correction": {
+    "radial_layout_points_ordered_tree_FFAC": {
         "1000": [
             0,
             0
@@ -196,7 +186,7 @@
             -0.16347299747950478
         ]
     },
-    "radial_points_ordered_adjacent_node_based_angle_correction": {
+    "radial_layout_points_ordered_tree_ANBC": {
         "1000": [
             0,
             0
@@ -254,12 +244,12 @@
             -0.27690730737252706
         ]
     },
-    "unordered_tree_stress": 0.22884303265247954,
-    "ordered_tree_stress": 0.2287330418558627,
-    "ordered_tree_fixed_angle_correction_stress": 0.22873304185586274,
-    "ordered_tree_adj_based_corrections_stress": 0.24476204263428455,
-    "execution_time_radial_layout": 0.0008435249328613281,
-    "execution_time_corrections_adj_based": 0.013614416122436523,
-    "execution_time_corrections_fixed_based": 0.026722431182861328,
-    "ffac_best_correction_factor": 1.9999999999999998
+    "radial_layout_unordered_tree_stress": 0.22884303265247954,
+    "radial_layout_ordered_tree_stress": 0.2287330418558627,
+    "radial_layout_ordered_tree_FFAC_stress": 0.22873304185586274,
+    "radial_layout_ordered_tree_ANBC_stress": 0.24476204263428455,
+    "execution_time_radial_layout": 0.0009598731994628906,
+    "execution_time_ANBC": 0.014141321182250977,
+    "execution_time_FFAC": 0.027153491973876953,
+    "FFAC_best_correction_factor": 1.9999999999999998
 }
