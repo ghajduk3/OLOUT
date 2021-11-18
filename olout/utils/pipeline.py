@@ -171,11 +171,11 @@ def radial_visualization(ordered_tree: TreeNode, unordered_tree: TreeNode, tree_
     radial_layout_ordered_tree.get_plotted_tree(ordered_tree, radial_points_ANBC, tree_node_mapping,  p_4)
 
     if show_flag:
-        # show(row(p_1, p_2, p_3, p_4, sizing_mode='scale_both'))
-        show(p_1)
-        show(p_2)
-        show(p_3)
-        show(p_4)
+        show(row(p_1, p_2, p_3, p_4, sizing_mode='scale_both'))
+        # show(p_1)
+        # show(p_2)
+        # show(p_3)
+        # show(p_4)
     evaluation_data = {
                         'radial_layout_points_unordered_tree': transform_to_json_serializable(radial_points_unordered),
                         'radial_layout_points_ordered_tree': transform_to_json_serializable(radial_points),

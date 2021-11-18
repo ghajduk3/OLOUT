@@ -9,6 +9,7 @@ Table of contents:
 5. [Package setup](#setup)
 6. [Reproduction of experiments](#experiment)
 7. [Usage](#usage)
+8. [Examples](#examples)
 
 
 <a name="description"></a>
@@ -192,4 +193,7 @@ After executing the evaluation suite for the given `S116180` phylo tree, the fou
 
 ![Alt text](data/images/example.png)
 
+<a name="examples"></a>
+## Examples
+For the easier usage we have created an example jupyter notebook where the above described usages can be tested. The notebook is located in [notebook](notebooks) directory.
 
