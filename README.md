@@ -187,5 +187,8 @@ if __name__ == '__main__':
     # First argument is the suite name - name of the specific directory from the final_data 
     evaluation_pipeline.run_single_evaluation_suite('S116180', constants.RADIAL_LAYOUT_LEAF_COUNT)
 ```
+After executing the evaluation suite for the given `S116180` phylo tree, the four layouts will be generated as:
+
+![Alt text](data/images/example.png)
 
 
