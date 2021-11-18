@@ -15,6 +15,7 @@ Table of contents:
 ## Project description
 This project includes all the data and the code necessary for the reproduction of the results described
 and generated while working on the Master Thesis with title "Optimal leaf ordering of phylogenetic trees" at the Faculty of Computer and Information Science, University of Ljubljana.
+**The goal of this implementation was not to be the most optimal one, but the one that will allow us to see the trends and to make further experiments**.  
 
 <a name="goals"></a>
 ## Goals
