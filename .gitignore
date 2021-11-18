@@ -3,3 +3,8 @@ data/quarantine
 data/quarantine_evaluations
 orange3venv
 orange3venv1
+build
+dist
+example_notebooks
+olout.egg-info
+tests
