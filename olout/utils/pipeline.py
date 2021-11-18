@@ -126,15 +126,26 @@ def radial_visualization(ordered_tree: TreeNode, unordered_tree: TreeNode, tree_
     radial_layout_unordered_tree = radial_layout(unordered_tree)
     radial_points_unordered, stress_unordered = radial_layout_unordered_tree.get_radial_layout_coordinates()
 
+    # figure_arguments = {
+    #     'x_axis_label' : 'x',
+    #     'y_axis_label' : 'y',
+    #     'plot_width' : 1700,
+    #     'plot_height' : 1700,
+    #     'match_aspect' : True,
+    #     'x_range' : (-10,10),
+    #     'y_range': (-10, 10),
+    #     'tools' : "pan,wheel_zoom, zoom_in, zoom_out, box_select, lasso_select, box_zoom, save, undo, redo, reset, help"
+    # }
+
     figure_arguments = {
-        'x_axis_label' : 'x',
-        'y_axis_label' : 'y',
+        # 'x_axis_label' : 'x',
+        # 'y_axis_label' : 'y',
         'plot_width' : 1700,
         'plot_height' : 1700,
         'match_aspect' : True,
         'x_range' : (-10,10),
         'y_range': (-10, 10),
-        'tools' : "pan,wheel_zoom, zoom_in, zoom_out, box_select, lasso_select, box_zoom, save, undo, redo, reset, help"
+        'tools' : "pan,wheel_zoom, zoom_in, zoom_out, box_select, lasso_select, box_zoom, save, undo, redo, reset, help",
     }
 
     figure_arguments.update(
@@ -160,8 +171,11 @@ def radial_visualization(ordered_tree: TreeNode, unordered_tree: TreeNode, tree_
     radial_layout_ordered_tree.get_plotted_tree(ordered_tree, radial_points_ANBC, tree_node_mapping,  p_4)
 
     if show_flag:
-        show(row(p_1, p_2, p_3, p_4, sizing_mode='scale_both'))
-
+        # show(row(p_1, p_2, p_3, p_4, sizing_mode='scale_both'))
+        show(p_1)
+        show(p_2)
+        show(p_3)
+        show(p_4)
     evaluation_data = {
                         'radial_layout_points_unordered_tree': transform_to_json_serializable(radial_points_unordered),
                         'radial_layout_points_ordered_tree': transform_to_json_serializable(radial_points),

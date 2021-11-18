@@ -265,7 +265,7 @@ class RadialLayoutLeafCount:
                                             y=y_coordinates,
                                             labels=node_labels))
         labels = LabelSet(x='x', y='y', text='labels',
-                          x_offset=0, y_offset=0, source=source, render_mode='canvas', text_font_size='70pt',
+                          x_offset=0, y_offset=0, source=source, render_mode='canvas', text_font_size='20pt',
                           text_color='black')
         figure.add_layout(labels)
 
@@ -280,7 +280,7 @@ class RadialLayoutLeafCount:
             child_x_coordinate, child_y_coordinate = points[child_id]
             tree_data.append((child_x_coordinate, child_y_coordinate, child_id))
             figure.line(x=[node_x_coordinate, child_x_coordinate], y=[node_y_coordinate, child_y_coordinate],
-                        line_alpha=0.9, line_width=25)
+                        line_alpha=0.9, line_width=5)
             RadialLayoutLeafCount.plot_tree_bokeh(child, points, figure, tree_data)
 
 

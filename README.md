@@ -8,6 +8,7 @@ Table of contents:
 4. [Data transformation pipeline](#datatransform)
 5. [Package setup](#setup)
 6. [Reproduction of experiments](#experiment)
+7. [Usage](#usage)
 
 
 <a name="description"></a>
@@ -155,8 +156,36 @@ The critical difference graphs should be generated as:
 
 ![Alt text](data/images/leaf_count_CD.png)
 
-
+<a name="usage"></a>
 ## Usage 
+As above described, there are two main parts that this Thesis and the project encompasses:
+- Optimal leaf ordering of k-ary trees.
+- Radial visualization of phylogenetic trees in 2-dimensional space.
 
-## Examples
+In this package we implement KOLO algorithm for optimally ordering phylogenetic trees and Radial Layout algorithm along with the two node correction algorithms
+ANBC and FFAC.
+
+We encapsulate the logic of KOLO and Radial Layout algorithms into the `pipeline` module for easier usage.
+
+```python
+from olout.utils import pipeline, constants
+
+if __name__ == '__main__':
+    phylo_tree_newick = "(5:5.00000,(2:2.000000,(1:4.000000, 0:1.000000):1.000000):2.000000,(4:2.000000, 3:3.000000):1.000000);"
+    # To obtain optimal leaf ordering for the given string 
+    original_tree, optimally_ordered_tree, optimal_leaf_ordering, node_mapping = pipeline.leaf_ordering_kolo(phylo_tree_newick)
+
+    # To visualize above described four different layouts use. A new page with BOKEH plots will appear
+    evaluation_data = pipeline.radial_visualization(optimally_ordered_tree, original_tree, node_mapping, radial_visualization_method=constants.RADIAL_LAYOUT_LEAF_COUNT, show_flag=True)
+```
+
+Another way of obtaining the same evaluation for the single phylogenetic tree from the collected dataset located in [final_data](data/final_data):
+```python
+from olout.utils import evaluation_pipeline, constants
+
+if __name__ == '__main__':
+    # First argument is the suite name - name of the specific directory from the final_data 
+    evaluation_pipeline.run_single_evaluation_suite('S116180', constants.RADIAL_LAYOUT_LEAF_COUNT)
+```
+
 
