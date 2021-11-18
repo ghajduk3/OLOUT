@@ -114,13 +114,13 @@ def radial_visualization(ordered_tree: TreeNode, unordered_tree: TreeNode, tree_
 
 
 
-    start_time_radial_layout_adj_correct = time.time()
-    radial_points_angle_based, stress_angle_based, counter_angle_based = radial_layout_ordered_tree.get_radial_layout_coordinates_adj_nodes_based_angle_corrections()
-    time_radial_layout_adj_correct = time.time() - start_time_radial_layout_adj_correct
+    start_time_radial_layout_ANBC = time.time()
+    radial_points_ANBC, stress_ANBC, counter_ANBC = radial_layout_ordered_tree.get_radial_layout_coordinates_ANBC()
+    time_radial_layout_ANBC = time.time() - start_time_radial_layout_ANBC
 
-    start_time_radial_layout_fixed_correct = time.time()
-    radial_points_pivot_based, stress_pivot_based, best_correction_factor = radial_layout_ordered_tree.get_radial_layout_coordinates_fixed_factor_based_angle_corrections()
-    time_radial_layout_fixed_correct = time.time() - start_time_radial_layout_fixed_correct
+    start_time_radial_layout_FFAC = time.time()
+    radial_points_FFAC, stress_FFAC, best_correction_factor_FFAC = radial_layout_ordered_tree.get_radial_layout_coordinates_FFAC()
+    time_radial_layout_FFAC = time.time() - start_time_radial_layout_FFAC
 
     # Unordered tree
     radial_layout_unordered_tree = radial_layout(unordered_tree)
@@ -148,16 +148,16 @@ def radial_visualization(ordered_tree: TreeNode, unordered_tree: TreeNode, tree_
     radial_layout_ordered_tree.get_plotted_tree(ordered_tree, radial_points, tree_node_mapping,  p_2)
 
     figure_arguments.update(
-        {'title': f"Ordered tree - FFAC,stress : {stress_pivot_based:.3f}"})
+        {'title': f"Ordered tree - FFAC,stress : {stress_FFAC:.3f}"})
     p_3 = figure(**figure_arguments)
 
-    radial_layout_ordered_tree.get_plotted_tree(ordered_tree, radial_points_pivot_based, tree_node_mapping,  p_3)
+    radial_layout_ordered_tree.get_plotted_tree(ordered_tree, radial_points_FFAC, tree_node_mapping,  p_3)
 
     figure_arguments.update(
-        {'title': f"Ordered tree - ANBC,stress : {stress_angle_based:.3f}"})
+        {'title': f"Ordered tree - ANBC,stress : {stress_ANBC:.3f}"})
     p_4 = figure(**figure_arguments)
 
-    radial_layout_ordered_tree.get_plotted_tree(ordered_tree, radial_points_angle_based, tree_node_mapping,  p_4)
+    radial_layout_ordered_tree.get_plotted_tree(ordered_tree, radial_points_ANBC, tree_node_mapping,  p_4)
 
     if show_flag:
         show(row(p_1, p_2, p_3, p_4, sizing_mode='scale_both'))
@@ -165,16 +165,16 @@ def radial_visualization(ordered_tree: TreeNode, unordered_tree: TreeNode, tree_
     evaluation_data = {
                         'radial_layout_points_unordered_tree': transform_to_json_serializable(radial_points_unordered),
                         'radial_layout_points_ordered_tree': transform_to_json_serializable(radial_points),
-                        'radial_layout_points_ordered_tree_FFAC': transform_to_json_serializable(radial_points_pivot_based),
-                        'radial_layout_points_ordered_tree_ANBC': transform_to_json_serializable(radial_points_angle_based),
+                        'radial_layout_points_ordered_tree_FFAC': transform_to_json_serializable(radial_points_FFAC),
+                        'radial_layout_points_ordered_tree_ANBC': transform_to_json_serializable(radial_points_ANBC),
                         'radial_layout_unordered_tree_stress': stress_unordered,
                         'radial_layout_ordered_tree_stress': stress,
-                        'radial_layout_ordered_tree_FFAC_stress': stress_pivot_based,
-                        'radial_layout_ordered_tree_ANBC_stress': stress_angle_based,
+                        'radial_layout_ordered_tree_FFAC_stress': stress_FFAC,
+                        'radial_layout_ordered_tree_ANBC_stress': stress_ANBC,
                         'execution_time_radial_layout': time_radial_layout,
-                        'execution_time_ANBC': time_radial_layout_adj_correct,
-                        'execution_time_FFAC': time_radial_layout_fixed_correct,
-                        'FFAC_best_correction_factor': best_correction_factor,
+                        'execution_time_ANBC': time_radial_layout_ANBC,
+                        'execution_time_FFAC': time_radial_layout_FFAC,
+                        'FFAC_best_correction_factor': best_correction_factor_FFAC,
     }
     return evaluation_data
 

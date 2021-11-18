@@ -132,6 +132,5 @@ def construct_CD_graph(method_names, method_average_ranks, number_experiments):
 
 if __name__ == '__main__':
     join_evaluation_results()
-    col_name, col_avg = evaluate_all_visualization_methods()
-    print(col_name)
-    print(col_avg)
+    col_name, col_avg, number_exp = evaluate_all_visualization_methods()
+    construct_CD_graph(col_name, col_avg, number_exp)

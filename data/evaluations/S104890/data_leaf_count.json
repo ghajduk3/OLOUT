@@ -25,7 +25,7 @@
         "22",
         "21"
     ],
-    "execution_time_kolo": 0.0031599998474121094,
+    "execution_time_kolo": 0.004807472229003906,
     "radial_layout_points_unordered_tree": {
         "1000": [
             0,
@@ -726,8 +726,8 @@
     "radial_layout_ordered_tree_stress": 0.3244611563671205,
     "radial_layout_ordered_tree_FFAC_stress": 0.32446115636712053,
     "radial_layout_ordered_tree_ANBC_stress": 0.32323269882523425,
-    "execution_time_radial_layout": 0.00606083869934082,
-    "execution_time_ANBC": 0.037261009216308594,
-    "execution_time_FFAC": 0.20876526832580566,
+    "execution_time_radial_layout": 0.00752568244934082,
+    "execution_time_ANBC": 0.04230332374572754,
+    "execution_time_FFAC": 0.23523998260498047,
     "FFAC_best_correction_factor": 1.9999999999999998
 }

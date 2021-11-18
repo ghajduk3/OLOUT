@@ -54,7 +54,7 @@ def evaluation_suite(phylogenetic_tree: str, distance_matrix: np.ndarray, radial
     number_nodes = len(unordered_tree.pre_order_internal())
 
     # radial visualization evaluation
-    radial_visualization_data = pipeline.radial_visualization(optimal_ordered_tree, unordered_tree, node_mapping, radial_visualization_method=radial_visualization_method, show_flag=False)
+    radial_visualization_data = pipeline.radial_visualization(optimal_ordered_tree, unordered_tree, node_mapping, radial_visualization_method=radial_visualization_method, show_flag=True)
 
     evaluation_data = {
         'number_nodes': number_nodes,
@@ -82,19 +82,17 @@ def run_evaluation_suites(recreate_data=False, radial_visualization_method=const
         NexusDataPreprocess.preprocess()
 
     eval_data_paths = sorted(os.listdir(EVALUATION_DATA_PATH))
-    final_data_paths = sorted(list(set(os.listdir(FINAL_DATA_PATH)) - set(eval_data_paths)))
-    # print(eval_data_paths.index('S143871'))
-    # 'S149010'
     for index, directory in enumerate(eval_data_paths):
+        print(f"---------- STARTED EVALUATING SUITE {directory}-----------------------")
         json_file = open(os.path.join(FINAL_DATA_PATH, directory, 'data.json'), 'r')
         data_json = json.load(json_file)
-        print('-----------DIRECTORY-----------',directory)
         nexus_file_url, phylogenetic_newick_string, distance_matrix, tree_node_mapping = data_json.values()
         signal.alarm(900)
         try:
             evaluated_data = evaluation_suite(phylogenetic_newick_string, distance_matrix,
                                               radial_visualization_method=radial_visualization_method)
             write_to_json(evaluated_data, os.path.join(EVALUATION_DATA_PATH, directory), file_name=file_name)
+            print(f"---------- FINISHED EVALUATING SUITE {directory}-----------------------")
         except TimeoutException:
             continue  # continue the for loop if function A takes more than 5 second
         except Exception as e:
@@ -122,5 +120,5 @@ def run_single_evaluation_suite(suite_name: str, radial_visualization_method=con
     evaluation_suite(phylogenetic_newick_string, distance_matrix, radial_visualization_method=radial_visualization_method)
 
 if __name__ == '__main__':
-    # run_evaluation_suites(radial_visualization_method=constants.RADIAL_LAYOUT_LEAF_COUNT, file_name='data_leaf_count')
-    run_evaluation_suites(radial_visualization_method=constants.RADIAL_LAYOUT_BRANCH_LENGTH, file_name='data_branch_length')
+    run_evaluation_suites(radial_visualization_method=constants.RADIAL_LAYOUT_LEAF_COUNT, file_name='data_leaf_count')
+    # run_evaluation_suites(radial_visualization_method=constants.RADIAL_LAYOUT_BRANCH_LENGTH, file_name='data_branch_length')
